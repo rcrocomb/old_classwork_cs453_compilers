@@ -1,0 +1,89 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+int i;
+
+int increment(void)
+{
+    i = i + 1;
+    return i;
+}
+
+void main(void)
+{
+    print_string("\n--------------------BEIGN--------------------\n");
+
+    i = 0;
+    if ( (i == 0) && (increment() == 1))
+    {
+        /* Correct: i should be 1 */
+        print_string("\nEntered IF\ni == ");
+        print_int(i);
+        print_string("\n");
+    } else
+    {
+        print_string("\nEntered ELSE\ni == ");
+        print_int(i);
+        print_string("\n");
+    }
+
+    i = 0;
+    if ( (i == 0) || (increment() == 1))
+    {
+        /* Correct: i should be 0 */
+        print_string("\nEntered IF\ni == ");
+        print_int(i);
+        print_string("\n");
+    } else
+    {
+        print_string("\nEntered ELSE\ni == ");
+        print_int(i);
+        print_string("\n");
+    }
+
+
+    i = 0;
+    if ( (i == 1) && (increment() == 1))
+    {
+        print_string("\nEntered IF\ni == ");
+        print_int(i);
+        print_string("\n");
+    } else
+    {
+        /* Correct: i should be 0 */
+        print_string("\nEntered ELSE\ni == ");
+        print_int(i);
+        print_string("\n");
+    }
+
+    i = 0;
+    if ( (i == 1) || ((increment() == 1) && (increment() == 2)))
+    {
+        /* Correct: i should be 2 */
+        print_string("\nEntered IF\ni == ");
+        print_int(i);
+        print_string("\n");
+    } else
+    {
+        print_string("\nEntered ELSE\ni == ");
+        print_int(i);
+        print_string("\n");
+    }
+
+    i = 0;
+    if ( (i == 1) || ((increment() == 1) || (increment() == 2)))
+    {
+        /* Correct: i should be 1 */
+        print_string("\nEntered IF\ni == ");
+        print_int(i);
+        print_string("\n");
+    } else
+    {
+        print_string("\nEntered ELSE\ni == ");
+        print_int(i);
+        print_string("\n");
+    }
+
+    print_string("\n--------------------DONE--------------------\n");
+}
+

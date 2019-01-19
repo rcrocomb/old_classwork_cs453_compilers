@@ -1,0 +1,59 @@
+/*
+    Statements 3.3.3 #1
+
+    Only variables of type char or int, or elements of arrays, can be
+    assigned to; the type of the right hand side of an assignment must be
+    compatible with the type of the left hand size of that assignment.
+*/
+
+/* assigning ints */
+
+void alpha(void)
+{
+    int a;
+    a = 1;
+}
+
+void bravo(void)
+{
+    char a;
+    a = 1;
+}
+
+void charlie(void)
+{
+    int a[4];
+    a[0] = 1;
+}
+
+void delta(void)
+{
+    char a[4];
+    a[0] = 1;
+}
+
+/* assigning chars */
+
+void echo(void)
+{
+    int a;
+    a = 'a';
+}
+
+void foxtrot(void)
+{
+    char a;
+    a = 'a';
+}
+
+void golf(void)
+{
+    int a[4];
+    a[0] = 'a';
+}
+
+void hotel(void)
+{
+    char a[4];
+    a[0] = 'a';
+}

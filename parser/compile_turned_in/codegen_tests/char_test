@@ -1,0 +1,10 @@
+void main(void)
+{
+    char a, b, c, d, e;
+
+    a = 'a';
+    b = 'b';
+    c = '\n';
+    d = '\0';
+}
+

@@ -1,0 +1,1477 @@
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = mm
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = module
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = slab
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = init
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = bootmem
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = hash
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 29: Unrecognized token: 35
+Line 29: ID = define
+Line 29: ID = pid_hashfn
+Line 29: (
+Line 29: ID = nr
+Line 29: )
+Line 29: ID = hash_long
+Line 29: (
+Line 29: (
+Line 29: ID = unsigned
+Line 29: ID = long
+Line 29: )
+Line 29: ID = nr
+Line 29: ,
+Line 29: ID = pidhash_shift
+Line 29: )
+Line 30: ID = static
+Line 30: ID = struct
+Line 30: ID = list_head
+Line 30: *
+Line 30: ID = pid_hash
+Line 30: [
+Line 30: ID = PIDTYPE_MAX
+Line 30: ]
+Line 30: ;
+Line 31: ID = static
+Line 31: int
+Line 31: ID = pidhash_shift
+Line 31: ;
+Line 33: int
+Line 33: ID = pid_max
+Line 33: =
+Line 33: ID = PID_MAX_DEFAULT
+Line 33: ;
+Line 34: int
+Line 34: ID = last_pid
+Line 34: ;
+Line 36: Unrecognized token: 35
+Line 36: ID = define
+Line 36: ID = RESERVED_PIDS
+Line 36: INTCON = 300
+Line 38: Unrecognized token: 35
+Line 38: ID = define
+Line 38: ID = PIDMAP_ENTRIES
+Line 38: (
+Line 38: ID = PID_MAX_LIMIT
+Line 38: /
+Line 38: ID = PAGE_SIZE
+Line 38: /
+Line 38: INTCON = 8
+Line 38: )
+Line 39: Unrecognized token: 35
+Line 39: ID = define
+Line 39: ID = BITS_PER_PAGE
+Line 39: (
+Line 39: ID = PAGE_SIZE
+Line 39: *
+Line 39: INTCON = 8
+Line 39: )
+Line 40: Unrecognized token: 35
+Line 40: ID = define
+Line 40: ID = BITS_PER_PAGE_MASK
+Line 40: (
+Line 40: ID = BITS_PER_PAGE
+Line 40: -
+Line 40: INTCON = 1
+Line 40: )
+Line 48: ID = typedef
+Line 48: ID = struct
+Line 48: ID = pidmap
+Line 48: {
+Line 49: ID = atomic_t
+Line 49: ID = nr_free
+Line 49: ;
+Line 50: void
+Line 50: *
+Line 50: ID = page
+Line 50: ;
+Line 51: }
+Line 51: ID = pidmap_t
+Line 51: ;
+Line 53: ID = static
+Line 53: ID = pidmap_t
+Line 53: ID = pidmap_array
+Line 53: [
+Line 53: ID = PIDMAP_ENTRIES
+Line 53: ]
+Line 53: =
+Line 54: {
+Line 54: [
+Line 54: INTCON = 0
+Line 54: Unrecognized token: 46
+Line 54: Unrecognized token: 46
+Line 54: Unrecognized token: 46
+Line 54: ID = PIDMAP_ENTRIES
+Line 54: -
+Line 54: INTCON = 1
+Line 54: ]
+Line 54: =
+Line 54: {
+Line 54: ID = ATOMIC_INIT
+Line 54: (
+Line 54: ID = BITS_PER_PAGE
+Line 54: )
+Line 54: ,
+Line 54: ID = NULL
+Line 54: }
+Line 54: }
+Line 54: ;
+Line 56: ID = static
+Line 56: ID = pidmap_t
+Line 56: *
+Line 56: ID = map_limit
+Line 56: =
+Line 56: ID = pidmap_array
+Line 56: +
+Line 56: ID = PIDMAP_ENTRIES
+Line 56: ;
+Line 58: ID = static
+Line 58: ID = spinlock_t
+Line 58: ID = pidmap_lock
+Line 58: Unrecognized token: 95
+Line 58: Unrecognized token: 95
+Line 58: ID = cacheline_aligned_in_smp
+Line 58: =
+Line 58: ID = SPIN_LOCK_UNLOCKED
+Line 58: ;
+Line 60: ID = fastcall
+Line 60: void
+Line 60: ID = free_pidmap
+Line 60: (
+Line 60: int
+Line 60: ID = pid
+Line 60: )
+Line 61: {
+Line 62: ID = pidmap_t
+Line 62: *
+Line 62: ID = map
+Line 62: =
+Line 62: ID = pidmap_array
+Line 62: +
+Line 62: ID = pid
+Line 62: /
+Line 62: ID = BITS_PER_PAGE
+Line 62: ;
+Line 63: int
+Line 63: ID = offset
+Line 63: =
+Line 63: ID = pid
+Line 63: Unrecognized token: 38
+Line 63: ID = BITS_PER_PAGE_MASK
+Line 63: ;
+Line 65: ID = clear_bit
+Line 65: (
+Line 65: ID = offset
+Line 65: ,
+Line 65: ID = map
+Line 65: -
+Line 65: >
+Line 65: ID = page
+Line 65: )
+Line 65: ;
+Line 66: ID = atomic_inc
+Line 66: (
+Line 66: Unrecognized token: 38
+Line 66: ID = map
+Line 66: -
+Line 66: >
+Line 66: ID = nr_free
+Line 66: )
+Line 66: ;
+Line 67: }
+Line 73: ID = static
+Line 73: ID = inline
+Line 73: ID = pidmap_t
+Line 73: *
+Line 73: ID = next_free_map
+Line 73: (
+Line 73: ID = pidmap_t
+Line 73: *
+Line 73: ID = map
+Line 73: ,
+Line 73: int
+Line 73: *
+Line 73: ID = max_steps
+Line 73: )
+Line 74: {
+Line 75: while
+Line 75: (
+Line 75: -
+Line 75: -
+Line 75: *
+Line 75: ID = max_steps
+Line 75: )
+Line 75: {
+Line 76: if
+Line 76: (
+Line 76: +
+Line 76: +
+Line 76: ID = map
+Line 76: ==
+Line 76: ID = map_limit
+Line 76: )
+Line 77: ID = map
+Line 77: =
+Line 77: ID = pidmap_array
+Line 77: ;
+Line 78: if
+Line 78: (
+Line 78: ID = unlikely
+Line 78: (
+Line 78: !
+Line 78: ID = map
+Line 78: -
+Line 78: >
+Line 78: ID = page
+Line 78: )
+Line 78: )
+Line 78: {
+Line 79: ID = unsigned
+Line 79: ID = long
+Line 79: ID = page
+Line 79: =
+Line 79: ID = get_zeroed_page
+Line 79: (
+Line 79: ID = GFP_KERNEL
+Line 79: )
+Line 79: ;
+Line 84: ID = spin_lock
+Line 84: (
+Line 84: Unrecognized token: 38
+Line 84: ID = pidmap_lock
+Line 84: )
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: ID = map
+Line 85: -
+Line 85: >
+Line 85: ID = page
+Line 85: )
+Line 86: ID = free_page
+Line 86: (
+Line 86: ID = page
+Line 86: )
+Line 86: ;
+Line 87: else
+Line 88: ID = map
+Line 88: -
+Line 88: >
+Line 88: ID = page
+Line 88: =
+Line 88: (
+Line 88: void
+Line 88: *
+Line 88: )
+Line 88: ID = page
+Line 88: ;
+Line 89: ID = spin_unlock
+Line 89: (
+Line 89: Unrecognized token: 38
+Line 89: ID = pidmap_lock
+Line 89: )
+Line 89: ;
+Line 91: if
+Line 91: (
+Line 91: !
+Line 91: ID = map
+Line 91: -
+Line 91: >
+Line 91: ID = page
+Line 91: )
+Line 92: ID = break
+Line 92: ;
+Line 93: }
+Line 94: if
+Line 94: (
+Line 94: ID = atomic_read
+Line 94: (
+Line 94: Unrecognized token: 38
+Line 94: ID = map
+Line 94: -
+Line 94: >
+Line 94: ID = nr_free
+Line 94: )
+Line 94: )
+Line 95: return
+Line 95: ID = map
+Line 95: ;
+Line 96: }
+Line 97: return
+Line 97: ID = NULL
+Line 97: ;
+Line 98: }
+Line 100: int
+Line 100: ID = alloc_pidmap
+Line 100: (
+Line 100: void
+Line 100: )
+Line 101: {
+Line 102: int
+Line 102: ID = pid
+Line 102: ,
+Line 102: ID = offset
+Line 102: ,
+Line 102: ID = max_steps
+Line 102: =
+Line 102: ID = PIDMAP_ENTRIES
+Line 102: +
+Line 102: INTCON = 1
+Line 102: ;
+Line 103: ID = pidmap_t
+Line 103: *
+Line 103: ID = map
+Line 103: ;
+Line 105: ID = pid
+Line 105: =
+Line 105: ID = last_pid
+Line 105: +
+Line 105: INTCON = 1
+Line 105: ;
+Line 106: if
+Line 106: (
+Line 106: ID = pid
+Line 106: >=
+Line 106: ID = pid_max
+Line 106: )
+Line 107: ID = pid
+Line 107: =
+Line 107: ID = RESERVED_PIDS
+Line 107: ;
+Line 109: ID = offset
+Line 109: =
+Line 109: ID = pid
+Line 109: Unrecognized token: 38
+Line 109: ID = BITS_PER_PAGE_MASK
+Line 109: ;
+Line 110: ID = map
+Line 110: =
+Line 110: ID = pidmap_array
+Line 110: +
+Line 110: ID = pid
+Line 110: /
+Line 110: ID = BITS_PER_PAGE
+Line 110: ;
+Line 112: if
+Line 112: (
+Line 112: ID = likely
+Line 112: (
+Line 112: ID = map
+Line 112: -
+Line 112: >
+Line 112: ID = page
+Line 112: &&
+Line 112: !
+Line 112: ID = test_and_set_bit
+Line 112: (
+Line 112: ID = offset
+Line 112: ,
+Line 112: ID = map
+Line 112: -
+Line 112: >
+Line 112: ID = page
+Line 112: )
+Line 112: )
+Line 112: )
+Line 112: {
+Line 118: ID = return_pid
+Line 118: Unrecognized token: 58
+Line 119: ID = atomic_dec
+Line 119: (
+Line 119: Unrecognized token: 38
+Line 119: ID = map
+Line 119: -
+Line 119: >
+Line 119: ID = nr_free
+Line 119: )
+Line 119: ;
+Line 120: ID = last_pid
+Line 120: =
+Line 120: ID = pid
+Line 120: ;
+Line 121: return
+Line 121: ID = pid
+Line 121: ;
+Line 122: }
+Line 124: if
+Line 124: (
+Line 124: !
+Line 124: ID = offset
+Line 124: ||
+Line 124: !
+Line 124: ID = atomic_read
+Line 124: (
+Line 124: Unrecognized token: 38
+Line 124: ID = map
+Line 124: -
+Line 124: >
+Line 124: ID = nr_free
+Line 124: )
+Line 124: )
+Line 124: {
+Line 125: ID = next_map
+Line 125: Unrecognized token: 58
+Line 126: ID = map
+Line 126: =
+Line 126: ID = next_free_map
+Line 126: (
+Line 126: ID = map
+Line 126: ,
+Line 126: Unrecognized token: 38
+Line 126: ID = max_steps
+Line 126: )
+Line 126: ;
+Line 127: if
+Line 127: (
+Line 127: !
+Line 127: ID = map
+Line 127: )
+Line 128: ID = goto
+Line 128: ID = failure
+Line 128: ;
+Line 129: ID = offset
+Line 129: =
+Line 129: INTCON = 0
+Line 129: ;
+Line 130: }
+Line 134: ID = scan_more
+Line 134: Unrecognized token: 58
+Line 135: ID = offset
+Line 135: =
+Line 135: ID = find_next_zero_bit
+Line 135: (
+Line 135: ID = map
+Line 135: -
+Line 135: >
+Line 135: ID = page
+Line 135: ,
+Line 135: ID = BITS_PER_PAGE
+Line 135: ,
+Line 135: ID = offset
+Line 135: )
+Line 135: ;
+Line 136: if
+Line 136: (
+Line 136: ID = offset
+Line 136: >=
+Line 136: ID = BITS_PER_PAGE
+Line 136: )
+Line 137: ID = goto
+Line 137: ID = next_map
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = test_and_set_bit
+Line 138: (
+Line 138: ID = offset
+Line 138: ,
+Line 138: ID = map
+Line 138: -
+Line 138: >
+Line 138: ID = page
+Line 138: )
+Line 138: )
+Line 139: ID = goto
+Line 139: ID = scan_more
+Line 139: ;
+Line 142: ID = pid
+Line 142: =
+Line 142: (
+Line 142: ID = map
+Line 142: -
+Line 142: ID = pidmap_array
+Line 142: )
+Line 142: *
+Line 142: ID = BITS_PER_PAGE
+Line 142: +
+Line 142: ID = offset
+Line 142: ;
+Line 143: ID = goto
+Line 143: ID = return_pid
+Line 143: ;
+Line 145: ID = failure
+Line 145: Unrecognized token: 58
+Line 146: return
+Line 146: -
+Line 146: INTCON = 1
+Line 146: ;
+Line 147: }
+Line 149: ID = fastcall
+Line 149: ID = struct
+Line 149: ID = pid
+Line 149: *
+Line 149: ID = find_pid
+Line 149: (
+Line 149: ID = enum
+Line 149: ID = pid_type
+Line 149: ID = type
+Line 149: ,
+Line 149: int
+Line 149: ID = nr
+Line 149: )
+Line 150: {
+Line 151: ID = struct
+Line 151: ID = list_head
+Line 151: *
+Line 151: ID = elem
+Line 151: ,
+Line 151: *
+Line 151: ID = bucket
+Line 151: =
+Line 151: Unrecognized token: 38
+Line 151: ID = pid_hash
+Line 151: [
+Line 151: ID = type
+Line 151: ]
+Line 151: [
+Line 151: ID = pid_hashfn
+Line 151: (
+Line 151: ID = nr
+Line 151: )
+Line 151: ]
+Line 151: ;
+Line 152: ID = struct
+Line 152: ID = pid
+Line 152: *
+Line 152: ID = pid
+Line 152: ;
+Line 154: Unrecognized token: 95
+Line 154: Unrecognized token: 95
+Line 154: ID = list_for_each
+Line 154: (
+Line 154: ID = elem
+Line 154: ,
+Line 154: ID = bucket
+Line 154: )
+Line 154: {
+Line 155: ID = pid
+Line 155: =
+Line 155: ID = list_entry
+Line 155: (
+Line 155: ID = elem
+Line 155: ,
+Line 155: ID = struct
+Line 155: ID = pid
+Line 155: ,
+Line 155: ID = hash_chain
+Line 155: )
+Line 155: ;
+Line 156: if
+Line 156: (
+Line 156: ID = pid
+Line 156: -
+Line 156: >
+Line 156: ID = nr
+Line 156: ==
+Line 156: ID = nr
+Line 156: )
+Line 157: return
+Line 157: ID = pid
+Line 157: ;
+Line 158: }
+Line 159: return
+Line 159: ID = NULL
+Line 159: ;
+Line 160: }
+Line 162: void
+Line 162: ID = fastcall
+Line 162: ID = link_pid
+Line 162: (
+Line 162: ID = task_t
+Line 162: *
+Line 162: ID = task
+Line 162: ,
+Line 162: ID = struct
+Line 162: ID = pid_link
+Line 162: *
+Line 162: ID = link
+Line 162: ,
+Line 162: ID = struct
+Line 162: ID = pid
+Line 162: *
+Line 162: ID = pid
+Line 162: )
+Line 163: {
+Line 164: ID = atomic_inc
+Line 164: (
+Line 164: Unrecognized token: 38
+Line 164: ID = pid
+Line 164: -
+Line 164: >
+Line 164: ID = count
+Line 164: )
+Line 164: ;
+Line 165: ID = list_add_tail
+Line 165: (
+Line 165: Unrecognized token: 38
+Line 165: ID = link
+Line 165: -
+Line 165: >
+Line 165: ID = pid_chain
+Line 165: ,
+Line 165: Unrecognized token: 38
+Line 165: ID = pid
+Line 165: -
+Line 165: >
+Line 165: ID = task_list
+Line 165: )
+Line 165: ;
+Line 166: ID = link
+Line 166: -
+Line 166: >
+Line 166: ID = pidptr
+Line 166: =
+Line 166: ID = pid
+Line 166: ;
+Line 167: }
+Line 169: int
+Line 169: ID = fastcall
+Line 169: ID = attach_pid
+Line 169: (
+Line 169: ID = task_t
+Line 169: *
+Line 169: ID = task
+Line 169: ,
+Line 169: ID = enum
+Line 169: ID = pid_type
+Line 169: ID = type
+Line 169: ,
+Line 169: int
+Line 169: ID = nr
+Line 169: )
+Line 170: {
+Line 171: ID = struct
+Line 171: ID = pid
+Line 171: *
+Line 171: ID = pid
+Line 171: =
+Line 171: ID = find_pid
+Line 171: (
+Line 171: ID = type
+Line 171: ,
+Line 171: ID = nr
+Line 171: )
+Line 171: ;
+Line 173: if
+Line 173: (
+Line 173: ID = pid
+Line 173: )
+Line 174: ID = atomic_inc
+Line 174: (
+Line 174: Unrecognized token: 38
+Line 174: ID = pid
+Line 174: -
+Line 174: >
+Line 174: ID = count
+Line 174: )
+Line 174: ;
+Line 175: else
+Line 175: {
+Line 176: ID = pid
+Line 176: =
+Line 176: Unrecognized token: 38
+Line 176: ID = task
+Line 176: -
+Line 176: >
+Line 176: ID = pids
+Line 176: [
+Line 176: ID = type
+Line 176: ]
+Line 176: Unrecognized token: 46
+Line 176: ID = pid
+Line 176: ;
+Line 177: ID = pid
+Line 177: -
+Line 177: >
+Line 177: ID = nr
+Line 177: =
+Line 177: ID = nr
+Line 177: ;
+Line 178: ID = atomic_set
+Line 178: (
+Line 178: Unrecognized token: 38
+Line 178: ID = pid
+Line 178: -
+Line 178: >
+Line 178: ID = count
+Line 178: ,
+Line 178: INTCON = 1
+Line 178: )
+Line 178: ;
+Line 179: ID = INIT_LIST_HEAD
+Line 179: (
+Line 179: Unrecognized token: 38
+Line 179: ID = pid
+Line 179: -
+Line 179: >
+Line 179: ID = task_list
+Line 179: )
+Line 179: ;
+Line 180: ID = pid
+Line 180: -
+Line 180: >
+Line 180: ID = task
+Line 180: =
+Line 180: ID = task
+Line 180: ;
+Line 181: ID = get_task_struct
+Line 181: (
+Line 181: ID = task
+Line 181: )
+Line 181: ;
+Line 182: ID = list_add
+Line 182: (
+Line 182: Unrecognized token: 38
+Line 182: ID = pid
+Line 182: -
+Line 182: >
+Line 182: ID = hash_chain
+Line 182: ,
+Line 182: Unrecognized token: 38
+Line 182: ID = pid_hash
+Line 182: [
+Line 182: ID = type
+Line 182: ]
+Line 182: [
+Line 182: ID = pid_hashfn
+Line 182: (
+Line 182: ID = nr
+Line 182: )
+Line 182: ]
+Line 182: )
+Line 182: ;
+Line 183: }
+Line 184: ID = list_add_tail
+Line 184: (
+Line 184: Unrecognized token: 38
+Line 184: ID = task
+Line 184: -
+Line 184: >
+Line 184: ID = pids
+Line 184: [
+Line 184: ID = type
+Line 184: ]
+Line 184: Unrecognized token: 46
+Line 184: ID = pid_chain
+Line 184: ,
+Line 184: Unrecognized token: 38
+Line 184: ID = pid
+Line 184: -
+Line 184: >
+Line 184: ID = task_list
+Line 184: )
+Line 184: ;
+Line 185: ID = task
+Line 185: -
+Line 185: >
+Line 185: ID = pids
+Line 185: [
+Line 185: ID = type
+Line 185: ]
+Line 185: Unrecognized token: 46
+Line 185: ID = pidptr
+Line 185: =
+Line 185: ID = pid
+Line 185: ;
+Line 187: return
+Line 187: INTCON = 0
+Line 187: ;
+Line 188: }
+Line 190: ID = static
+Line 190: ID = inline
+Line 190: int
+Line 190: Unrecognized token: 95
+Line 190: Unrecognized token: 95
+Line 190: ID = detach_pid
+Line 190: (
+Line 190: ID = task_t
+Line 190: *
+Line 190: ID = task
+Line 190: ,
+Line 190: ID = enum
+Line 190: ID = pid_type
+Line 190: ID = type
+Line 190: )
+Line 191: {
+Line 192: ID = struct
+Line 192: ID = pid_link
+Line 192: *
+Line 192: ID = link
+Line 192: =
+Line 192: ID = task
+Line 192: -
+Line 192: >
+Line 192: ID = pids
+Line 192: +
+Line 192: ID = type
+Line 192: ;
+Line 193: ID = struct
+Line 193: ID = pid
+Line 193: *
+Line 193: ID = pid
+Line 193: =
+Line 193: ID = link
+Line 193: -
+Line 193: >
+Line 193: ID = pidptr
+Line 193: ;
+Line 194: int
+Line 194: ID = nr
+Line 194: ;
+Line 196: ID = list_del
+Line 196: (
+Line 196: Unrecognized token: 38
+Line 196: ID = link
+Line 196: -
+Line 196: >
+Line 196: ID = pid_chain
+Line 196: )
+Line 196: ;
+Line 197: if
+Line 197: (
+Line 197: !
+Line 197: ID = atomic_dec_and_test
+Line 197: (
+Line 197: Unrecognized token: 38
+Line 197: ID = pid
+Line 197: -
+Line 197: >
+Line 197: ID = count
+Line 197: )
+Line 197: )
+Line 198: return
+Line 198: INTCON = 0
+Line 198: ;
+Line 200: ID = nr
+Line 200: =
+Line 200: ID = pid
+Line 200: -
+Line 200: >
+Line 200: ID = nr
+Line 200: ;
+Line 201: ID = list_del
+Line 201: (
+Line 201: Unrecognized token: 38
+Line 201: ID = pid
+Line 201: -
+Line 201: >
+Line 201: ID = hash_chain
+Line 201: )
+Line 201: ;
+Line 202: ID = put_task_struct
+Line 202: (
+Line 202: ID = pid
+Line 202: -
+Line 202: >
+Line 202: ID = task
+Line 202: )
+Line 202: ;
+Line 204: return
+Line 204: ID = nr
+Line 204: ;
+Line 205: }
+Line 207: ID = static
+Line 207: void
+Line 207: Unrecognized token: 95
+Line 207: ID = detach_pid
+Line 207: (
+Line 207: ID = task_t
+Line 207: *
+Line 207: ID = task
+Line 207: ,
+Line 207: ID = enum
+Line 207: ID = pid_type
+Line 207: ID = type
+Line 207: )
+Line 208: {
+Line 209: Unrecognized token: 95
+Line 209: Unrecognized token: 95
+Line 209: ID = detach_pid
+Line 209: (
+Line 209: ID = task
+Line 209: ,
+Line 209: ID = type
+Line 209: )
+Line 209: ;
+Line 210: }
+Line 212: void
+Line 212: ID = fastcall
+Line 212: ID = detach_pid
+Line 212: (
+Line 212: ID = task_t
+Line 212: *
+Line 212: ID = task
+Line 212: ,
+Line 212: ID = enum
+Line 212: ID = pid_type
+Line 212: ID = type
+Line 212: )
+Line 213: {
+Line 214: int
+Line 214: ID = nr
+Line 214: =
+Line 214: Unrecognized token: 95
+Line 214: Unrecognized token: 95
+Line 214: ID = detach_pid
+Line 214: (
+Line 214: ID = task
+Line 214: ,
+Line 214: ID = type
+Line 214: )
+Line 214: ;
+Line 216: if
+Line 216: (
+Line 216: !
+Line 216: ID = nr
+Line 216: )
+Line 217: return
+Line 217: ;
+Line 219: for
+Line 219: (
+Line 219: ID = type
+Line 219: =
+Line 219: INTCON = 0
+Line 219: ;
+Line 219: ID = type
+Line 219: <
+Line 219: ID = PIDTYPE_MAX
+Line 219: ;
+Line 219: +
+Line 219: +
+Line 219: ID = type
+Line 219: )
+Line 220: if
+Line 220: (
+Line 220: ID = find_pid
+Line 220: (
+Line 220: ID = type
+Line 220: ,
+Line 220: ID = nr
+Line 220: )
+Line 220: )
+Line 221: return
+Line 221: ;
+Line 222: ID = free_pidmap
+Line 222: (
+Line 222: ID = nr
+Line 222: )
+Line 222: ;
+Line 223: }
+Line 225: ID = task_t
+Line 225: *
+Line 225: ID = find_task_by_pid
+Line 225: (
+Line 225: int
+Line 225: ID = nr
+Line 225: )
+Line 226: {
+Line 227: ID = struct
+Line 227: ID = pid
+Line 227: *
+Line 227: ID = pid
+Line 227: =
+Line 227: ID = find_pid
+Line 227: (
+Line 227: ID = PIDTYPE_PID
+Line 227: ,
+Line 227: ID = nr
+Line 227: )
+Line 227: ;
+Line 229: if
+Line 229: (
+Line 229: !
+Line 229: ID = pid
+Line 229: )
+Line 230: return
+Line 230: ID = NULL
+Line 230: ;
+Line 231: return
+Line 231: ID = pid_task
+Line 231: (
+Line 231: ID = pid
+Line 231: -
+Line 231: >
+Line 231: ID = task_list
+Line 231: Unrecognized token: 46
+Line 231: ID = next
+Line 231: ,
+Line 231: ID = PIDTYPE_PID
+Line 231: )
+Line 231: ;
+Line 232: }
+Line 234: ID = EXPORT_SYMBOL
+Line 234: (
+Line 234: ID = find_task_by_pid
+Line 234: )
+Line 234: ;
+Line 241: void
+Line 241: ID = switch_exec_pids
+Line 241: (
+Line 241: ID = task_t
+Line 241: *
+Line 241: ID = leader
+Line 241: ,
+Line 241: ID = task_t
+Line 241: *
+Line 241: ID = thread
+Line 241: )
+Line 242: {
+Line 243: Unrecognized token: 95
+Line 243: ID = detach_pid
+Line 243: (
+Line 243: ID = leader
+Line 243: ,
+Line 243: ID = PIDTYPE_PID
+Line 243: )
+Line 243: ;
+Line 244: Unrecognized token: 95
+Line 244: ID = detach_pid
+Line 244: (
+Line 244: ID = leader
+Line 244: ,
+Line 244: ID = PIDTYPE_TGID
+Line 244: )
+Line 244: ;
+Line 245: Unrecognized token: 95
+Line 245: ID = detach_pid
+Line 245: (
+Line 245: ID = leader
+Line 245: ,
+Line 245: ID = PIDTYPE_PGID
+Line 245: )
+Line 245: ;
+Line 246: Unrecognized token: 95
+Line 246: ID = detach_pid
+Line 246: (
+Line 246: ID = leader
+Line 246: ,
+Line 246: ID = PIDTYPE_SID
+Line 246: )
+Line 246: ;
+Line 248: Unrecognized token: 95
+Line 248: ID = detach_pid
+Line 248: (
+Line 248: ID = thread
+Line 248: ,
+Line 248: ID = PIDTYPE_PID
+Line 248: )
+Line 248: ;
+Line 249: Unrecognized token: 95
+Line 249: ID = detach_pid
+Line 249: (
+Line 249: ID = thread
+Line 249: ,
+Line 249: ID = PIDTYPE_TGID
+Line 249: )
+Line 249: ;
+Line 251: ID = leader
+Line 251: -
+Line 251: >
+Line 251: ID = pid
+Line 251: =
+Line 251: ID = leader
+Line 251: -
+Line 251: >
+Line 251: ID = tgid
+Line 251: =
+Line 251: ID = thread
+Line 251: -
+Line 251: >
+Line 251: ID = pid
+Line 251: ;
+Line 252: ID = thread
+Line 252: -
+Line 252: >
+Line 252: ID = pid
+Line 252: =
+Line 252: ID = thread
+Line 252: -
+Line 252: >
+Line 252: ID = tgid
+Line 252: ;
+Line 254: ID = attach_pid
+Line 254: (
+Line 254: ID = thread
+Line 254: ,
+Line 254: ID = PIDTYPE_PID
+Line 254: ,
+Line 254: ID = thread
+Line 254: -
+Line 254: >
+Line 254: ID = pid
+Line 254: )
+Line 254: ;
+Line 255: ID = attach_pid
+Line 255: (
+Line 255: ID = thread
+Line 255: ,
+Line 255: ID = PIDTYPE_TGID
+Line 255: ,
+Line 255: ID = thread
+Line 255: -
+Line 255: >
+Line 255: ID = tgid
+Line 255: )
+Line 255: ;
+Line 256: ID = attach_pid
+Line 256: (
+Line 256: ID = thread
+Line 256: ,
+Line 256: ID = PIDTYPE_PGID
+Line 256: ,
+Line 256: ID = thread
+Line 256: -
+Line 256: >
+Line 256: ID = signal
+Line 256: -
+Line 256: >
+Line 256: ID = pgrp
+Line 256: )
+Line 256: ;
+Line 257: ID = attach_pid
+Line 257: (
+Line 257: ID = thread
+Line 257: ,
+Line 257: ID = PIDTYPE_SID
+Line 257: ,
+Line 257: ID = thread
+Line 257: -
+Line 257: >
+Line 257: ID = signal
+Line 257: -
+Line 257: >
+Line 257: ID = session
+Line 257: )
+Line 257: ;
+Line 258: ID = list_add_tail
+Line 258: (
+Line 258: Unrecognized token: 38
+Line 258: ID = thread
+Line 258: -
+Line 258: >
+Line 258: ID = tasks
+Line 258: ,
+Line 258: Unrecognized token: 38
+Line 258: ID = init_task
+Line 258: Unrecognized token: 46
+Line 258: ID = tasks
+Line 258: )
+Line 258: ;
+Line 260: ID = attach_pid
+Line 260: (
+Line 260: ID = leader
+Line 260: ,
+Line 260: ID = PIDTYPE_PID
+Line 260: ,
+Line 260: ID = leader
+Line 260: -
+Line 260: >
+Line 260: ID = pid
+Line 260: )
+Line 260: ;
+Line 261: ID = attach_pid
+Line 261: (
+Line 261: ID = leader
+Line 261: ,
+Line 261: ID = PIDTYPE_TGID
+Line 261: ,
+Line 261: ID = leader
+Line 261: -
+Line 261: >
+Line 261: ID = tgid
+Line 261: )
+Line 261: ;
+Line 262: ID = attach_pid
+Line 262: (
+Line 262: ID = leader
+Line 262: ,
+Line 262: ID = PIDTYPE_PGID
+Line 262: ,
+Line 262: ID = leader
+Line 262: -
+Line 262: >
+Line 262: ID = signal
+Line 262: -
+Line 262: >
+Line 262: ID = pgrp
+Line 262: )
+Line 262: ;
+Line 263: ID = attach_pid
+Line 263: (
+Line 263: ID = leader
+Line 263: ,
+Line 263: ID = PIDTYPE_SID
+Line 263: ,
+Line 263: ID = leader
+Line 263: -
+Line 263: >
+Line 263: ID = signal
+Line 263: -
+Line 263: >
+Line 263: ID = session
+Line 263: )
+Line 263: ;
+Line 264: }
+Line 271: void
+Line 271: Unrecognized token: 95
+Line 271: Unrecognized token: 95
+Line 271: ID = init
+Line 271: ID = pidhash_init
+Line 271: (
+Line 271: void
+Line 271: )
+Line 272: {
+Line 273: int
+Line 273: ID = i
+Line 273: ,
+Line 273: ID = j
+Line 273: ,
+Line 273: ID = pidhash_size
+Line 273: ;
+Line 274: ID = unsigned
+Line 274: ID = long
+Line 274: ID = megabytes
+Line 274: =
+Line 274: ID = max_pfn
+Line 274: >
+Line 274: >
+Line 274: (
+Line 274: INTCON = 20
+Line 274: -
+Line 274: ID = PAGE_SHIFT
+Line 274: )
+Line 274: ;
+Line 276: ID = pidhash_shift
+Line 276: =
+Line 276: ID = max
+Line 276: (
+Line 276: INTCON = 4
+Line 276: ,
+Line 276: ID = fls
+Line 276: (
+Line 276: ID = megabytes
+Line 276: *
+Line 276: INTCON = 4
+Line 276: )
+Line 276: )
+Line 276: ;
+Line 277: ID = pidhash_shift
+Line 277: =
+Line 277: ID = min
+Line 277: (
+Line 277: INTCON = 12
+Line 277: ,
+Line 277: ID = pidhash_shift
+Line 277: )
+Line 277: ;
+Line 278: ID = pidhash_size
+Line 278: =
+Line 278: INTCON = 1
+Line 278: <
+Line 278: <
+Line 278: ID = pidhash_shift
+Line 278: ;
+Line 280: ID = printk
+Line 280: (
+Line 280: STRINGCON = "PID hash table entries: %d (order %d: %Zd bytes)\n"
+Line 280: ,
+Line 281: ID = pidhash_size
+Line 281: ,
+Line 281: ID = pidhash_shift
+Line 281: ,
+Line 282: ID = pidhash_size
+Line 282: *
+Line 282: ID = sizeof
+Line 282: (
+Line 282: ID = struct
+Line 282: ID = list_head
+Line 282: )
+Line 282: )
+Line 282: ;
+Line 284: for
+Line 284: (
+Line 284: ID = i
+Line 284: =
+Line 284: INTCON = 0
+Line 284: ;
+Line 284: ID = i
+Line 284: <
+Line 284: ID = PIDTYPE_MAX
+Line 284: ;
+Line 284: ID = i
+Line 284: +
+Line 284: +
+Line 284: )
+Line 284: {
+Line 285: ID = pid_hash
+Line 285: [
+Line 285: ID = i
+Line 285: ]
+Line 285: =
+Line 285: ID = alloc_bootmem
+Line 285: (
+Line 285: ID = pidhash_size
+Line 285: *
+Line 286: ID = sizeof
+Line 286: (
+Line 286: ID = struct
+Line 286: ID = list_head
+Line 286: )
+Line 286: )
+Line 286: ;
+Line 287: if
+Line 287: (
+Line 287: !
+Line 287: ID = pid_hash
+Line 287: [
+Line 287: ID = i
+Line 287: ]
+Line 287: )
+Line 288: ID = panic
+Line 288: (
+Line 288: STRINGCON = "Could not alloc pidhash!\n"
+Line 288: )
+Line 288: ;
+Line 289: for
+Line 289: (
+Line 289: ID = j
+Line 289: =
+Line 289: INTCON = 0
+Line 289: ;
+Line 289: ID = j
+Line 289: <
+Line 289: ID = pidhash_size
+Line 289: ;
+Line 289: ID = j
+Line 289: +
+Line 289: +
+Line 289: )
+Line 290: ID = INIT_LIST_HEAD
+Line 290: (
+Line 290: Unrecognized token: 38
+Line 290: ID = pid_hash
+Line 290: [
+Line 290: ID = i
+Line 290: ]
+Line 290: [
+Line 290: ID = j
+Line 290: ]
+Line 290: )
+Line 290: ;
+Line 291: }
+Line 292: }
+Line 294: void
+Line 294: Unrecognized token: 95
+Line 294: Unrecognized token: 95
+Line 294: ID = init
+Line 294: ID = pidmap_init
+Line 294: (
+Line 294: void
+Line 294: )
+Line 295: {
+Line 296: int
+Line 296: ID = i
+Line 296: ;
+Line 298: ID = pidmap_array
+Line 298: -
+Line 298: >
+Line 298: ID = page
+Line 298: =
+Line 298: (
+Line 298: void
+Line 298: *
+Line 298: )
+Line 298: ID = get_zeroed_page
+Line 298: (
+Line 298: ID = GFP_KERNEL
+Line 298: )
+Line 298: ;
+Line 299: ID = set_bit
+Line 299: (
+Line 299: INTCON = 0
+Line 299: ,
+Line 299: ID = pidmap_array
+Line 299: -
+Line 299: >
+Line 299: ID = page
+Line 299: )
+Line 299: ;
+Line 300: ID = atomic_dec
+Line 300: (
+Line 300: Unrecognized token: 38
+Line 300: ID = pidmap_array
+Line 300: -
+Line 300: >
+Line 300: ID = nr_free
+Line 300: )
+Line 300: ;
+Line 306: for
+Line 306: (
+Line 306: ID = i
+Line 306: =
+Line 306: INTCON = 0
+Line 306: ;
+Line 306: ID = i
+Line 306: <
+Line 306: ID = PIDTYPE_MAX
+Line 306: ;
+Line 306: ID = i
+Line 306: +
+Line 306: +
+Line 306: )
+Line 307: ID = attach_pid
+Line 307: (
+Line 307: ID = current
+Line 307: ,
+Line 307: ID = i
+Line 307: ,
+Line 307: INTCON = 0
+Line 307: )
+Line 307: ;
+Line 308: }
+Line 309: -EOF-

@@ -1,0 +1,96 @@
+/* More complex return statements that should fail (all return bool,
+   which is not int-compatible). */
+
+int alpha(void)
+{
+    return 2 == 2;
+}
+
+int bravo(void)
+{
+    return 2 != 2;
+}
+
+int charlie(void)
+{
+    return 2 < 2;
+}
+
+int delta(void)
+{
+    return 2 <= 2;
+}
+
+int echo(void)
+{
+    return 2 > 2;
+}
+
+int foxtrot(void)
+{
+    return 2 >= 2;
+}
+
+int golf(void)
+{
+    return !2;
+}
+
+int hotel(void)
+{
+    return 2 && 2;
+}
+
+int india(void)
+{
+    return 2 || 2;
+}
+
+/* Moving from int to char */
+
+
+char juliet(void)
+{
+    return 2 == 2;
+}
+
+char kilo(void)
+{
+    return 2 != 2;
+}
+
+char lima(void)
+{
+    return 2 < 2;
+}
+
+char mike(void)
+{
+    return 2 <= 2;
+}
+
+char november(void)
+{
+    return 2 > 2;
+}
+
+char oscar(void)
+{
+    return 2 >= 2;
+}
+
+char papa(void)
+{
+    return !2;
+}
+
+char quebec(void)
+{
+    return 2 && 2;
+}
+
+char romeo(void)
+{
+    return 2 || 2;
+}
+

@@ -1,0 +1,34 @@
+extern bob(void);
+extern bob(int a);
+extern bob(char a);
+extern bob(int a[]);
+extern bob(char a[]);
+extern bob(int a[], int b[], int c[]);
+extern bob(int a[], char b[], int c[]);
+extern bob(int a[], char b, int c[], char d, int x, char b[], int c);
+
+/* These are chained together */
+extern bob(int a[], char b, int c[], char d, int x, char b[], int c),
+bob(int a[], char b, int c[], char d, int x, char b[], int c),
+bob(int a[], char b, int c[], char d, int x, char b[], int c),
+bob(void),
+bob(void);
+
+
+extern int bob(void);
+extern char bob(void);
+extern bob(void), charlie(void), dave(void);
+
+bob(int a, int b, char c);
+bob(int a), bob(int b), bob(int c);
+bob(void), bob(int a), bob(char c);
+
+int bob(int a, int b, char c);
+char bob(int a, int b, char c);
+void bob(int a, int b, char c);
+
+bob(void);
+int bob(void);
+char bob(void);
+void bob(void);
+

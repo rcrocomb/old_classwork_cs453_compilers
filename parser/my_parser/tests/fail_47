@@ -1,0 +1,4 @@
+void bob(void)
+{
+    if (!+1);
+}

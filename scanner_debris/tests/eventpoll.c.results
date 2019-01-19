@@ -1,0 +1,6077 @@
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = module
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = init
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = kernel
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = sched
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = fs
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = file
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = signal
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = errno
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = mm
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = slab
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = poll
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = smp_lock
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = string
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = list
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = hash
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = spinlock
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = syscalls
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = rwsem
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = rbtree
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = wait
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = eventpoll
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = mount
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = asm
+Line 36: /
+Line 36: ID = bitops
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = asm
+Line 37: /
+Line 37: ID = uaccess
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = asm
+Line 38: /
+Line 38: ID = system
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = asm
+Line 39: /
+Line 39: ID = io
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = asm
+Line 40: /
+Line 40: ID = mman
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = asm
+Line 41: /
+Line 41: ID = atomic
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = asm
+Line 42: /
+Line 42: ID = semaphore
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 78: Unrecognized token: 35
+Line 78: ID = define
+Line 78: ID = EVENTPOLLFS_MAGIC
+Line 78: INTCON = 0
+Line 78: ID = x03111965
+Line 80: Unrecognized token: 35
+Line 80: ID = define
+Line 80: ID = DEBUG_EPOLL
+Line 80: INTCON = 0
+Line 82: Unrecognized token: 35
+Line 82: if
+Line 82: ID = DEBUG_EPOLL
+Line 82: >
+Line 82: INTCON = 0
+Line 83: Unrecognized token: 35
+Line 83: ID = define
+Line 83: ID = DPRINTK
+Line 83: (
+Line 83: ID = x
+Line 83: )
+Line 83: ID = printk
+Line 83: ID = x
+Line 84: Unrecognized token: 35
+Line 84: ID = define
+Line 84: ID = DNPRINTK
+Line 84: (
+Line 84: ID = n
+Line 84: ,
+Line 84: ID = x
+Line 84: )
+Line 84: ID = do
+Line 84: {
+Line 84: if
+Line 84: (
+Line 84: (
+Line 84: ID = n
+Line 84: )
+Line 84: <=
+Line 84: ID = DEBUG_EPOLL
+Line 84: )
+Line 84: ID = printk
+Line 84: ID = x
+Line 84: ;
+Line 84: }
+Line 84: while
+Line 84: (
+Line 84: INTCON = 0
+Line 84: )
+Line 85: Unrecognized token: 35
+Line 85: else
+Line 86: Unrecognized token: 35
+Line 86: ID = define
+Line 86: ID = DPRINTK
+Line 86: (
+Line 86: ID = x
+Line 86: )
+Line 86: (
+Line 86: void
+Line 86: )
+Line 86: INTCON = 0
+Line 87: Unrecognized token: 35
+Line 87: ID = define
+Line 87: ID = DNPRINTK
+Line 87: (
+Line 87: ID = n
+Line 87: ,
+Line 87: ID = x
+Line 87: )
+Line 87: (
+Line 87: void
+Line 87: )
+Line 87: INTCON = 0
+Line 88: Unrecognized token: 35
+Line 88: ID = endif
+Line 90: Unrecognized token: 35
+Line 90: ID = define
+Line 90: ID = DEBUG_EPI
+Line 90: INTCON = 0
+Line 92: Unrecognized token: 35
+Line 92: if
+Line 92: ID = DEBUG_EPI
+Line 92: !=
+Line 92: INTCON = 0
+Line 93: Unrecognized token: 35
+Line 93: ID = define
+Line 93: ID = EPI_SLAB_DEBUG
+Line 93: (
+Line 93: ID = SLAB_DEBUG_FREE
+Line 93: Unrecognized token: 124
+Line 93: ID = SLAB_RED_ZONE
+Line 93: )
+Line 94: Unrecognized token: 35
+Line 94: else
+Line 95: Unrecognized token: 35
+Line 95: ID = define
+Line 95: ID = EPI_SLAB_DEBUG
+Line 95: INTCON = 0
+Line 96: Unrecognized token: 35
+Line 96: ID = endif
+Line 99: Unrecognized token: 35
+Line 99: ID = define
+Line 99: ID = EP_PRIVATE_BITS
+Line 99: (
+Line 99: ID = EPOLLONESHOT
+Line 99: Unrecognized token: 124
+Line 99: ID = EPOLLET
+Line 99: )
+Line 102: Unrecognized token: 35
+Line 102: ID = define
+Line 102: ID = EP_MAX_POLLWAKE_NESTS
+Line 102: INTCON = 4
+Line 105: Unrecognized token: 35
+Line 105: ID = define
+Line 105: ID = EPI_MEM_ALLOC
+Line 105: (
+Line 105: )
+Line 105: (
+Line 105: ID = struct
+Line 105: ID = epitem
+Line 105: *
+Line 105: )
+Line 105: ID = kmem_cache_alloc
+Line 105: (
+Line 105: ID = epi_cache
+Line 105: ,
+Line 105: ID = SLAB_KERNEL
+Line 105: )
+Line 108: Unrecognized token: 35
+Line 108: ID = define
+Line 108: ID = EPI_MEM_FREE
+Line 108: (
+Line 108: ID = p
+Line 108: )
+Line 108: ID = kmem_cache_free
+Line 108: (
+Line 108: ID = epi_cache
+Line 108: ,
+Line 108: ID = p
+Line 108: )
+Line 111: Unrecognized token: 35
+Line 111: ID = define
+Line 111: ID = PWQ_MEM_ALLOC
+Line 111: (
+Line 111: )
+Line 111: (
+Line 111: ID = struct
+Line 111: ID = eppoll_entry
+Line 111: *
+Line 111: )
+Line 111: ID = kmem_cache_alloc
+Line 111: (
+Line 111: ID = pwq_cache
+Line 111: ,
+Line 111: ID = SLAB_KERNEL
+Line 111: )
+Line 114: Unrecognized token: 35
+Line 114: ID = define
+Line 114: ID = PWQ_MEM_FREE
+Line 114: (
+Line 114: ID = p
+Line 114: )
+Line 114: ID = kmem_cache_free
+Line 114: (
+Line 114: ID = pwq_cache
+Line 114: ,
+Line 114: ID = p
+Line 114: )
+Line 117: Unrecognized token: 35
+Line 117: ID = define
+Line 117: ID = IS_FILE_EPOLL
+Line 117: (
+Line 117: ID = f
+Line 117: )
+Line 117: (
+Line 117: (
+Line 117: ID = f
+Line 117: )
+Line 117: -
+Line 117: >
+Line 117: ID = f_op
+Line 117: ==
+Line 117: Unrecognized token: 38
+Line 117: ID = eventpoll_fops
+Line 117: )
+Line 120: Unrecognized token: 35
+Line 120: ID = define
+Line 120: ID = EP_SET_FFD
+Line 120: (
+Line 120: ID = p
+Line 120: ,
+Line 120: ID = f
+Line 120: ,
+Line 120: ID = d
+Line 120: )
+Line 120: ID = do
+Line 120: {
+Line 120: (
+Line 120: ID = p
+Line 120: )
+Line 120: -
+Line 120: >
+Line 120: ID = file
+Line 120: =
+Line 120: (
+Line 120: ID = f
+Line 120: )
+Line 120: ;
+Line 120: (
+Line 120: ID = p
+Line 120: )
+Line 120: -
+Line 120: >
+Line 120: ID = fd
+Line 120: =
+Line 120: (
+Line 120: ID = d
+Line 120: )
+Line 120: ;
+Line 120: }
+Line 120: while
+Line 120: (
+Line 120: INTCON = 0
+Line 120: )
+Line 123: Unrecognized token: 35
+Line 123: ID = define
+Line 123: ID = EP_CMP_FFD
+Line 123: (
+Line 123: ID = p1
+Line 123: ,
+Line 123: ID = p2
+Line 123: )
+Line 123: (
+Line 123: (
+Line 123: ID = p1
+Line 123: )
+Line 123: -
+Line 123: >
+Line 123: ID = file
+Line 123: >
+Line 123: (
+Line 123: ID = p2
+Line 123: )
+Line 123: -
+Line 123: >
+Line 123: ID = file
+Line 123: Unrecognized token: 63
+Line 123: +
+Line 123: INTCON = 1
+Line 123: Unrecognized token: 58
+Line 123: Unrecognized token: 92
+Line 124: (
+Line 124: (
+Line 124: ID = p1
+Line 124: )
+Line 124: -
+Line 124: >
+Line 124: ID = file
+Line 124: <
+Line 124: (
+Line 124: ID = p2
+Line 124: )
+Line 124: -
+Line 124: >
+Line 124: ID = file
+Line 124: Unrecognized token: 63
+Line 124: -
+Line 124: INTCON = 1
+Line 124: Unrecognized token: 58
+Line 124: (
+Line 124: ID = p1
+Line 124: )
+Line 124: -
+Line 124: >
+Line 124: ID = fd
+Line 124: -
+Line 124: (
+Line 124: ID = p2
+Line 124: )
+Line 124: -
+Line 124: >
+Line 124: ID = fd
+Line 124: )
+Line 124: )
+Line 127: Unrecognized token: 35
+Line 127: ID = define
+Line 127: ID = EP_RB_INITNODE
+Line 127: (
+Line 127: ID = n
+Line 127: )
+Line 127: (
+Line 127: ID = n
+Line 127: )
+Line 127: -
+Line 127: >
+Line 127: ID = rb_parent
+Line 127: =
+Line 127: (
+Line 127: ID = n
+Line 127: )
+Line 130: Unrecognized token: 35
+Line 130: ID = define
+Line 130: ID = EP_RB_ERASE
+Line 130: (
+Line 130: ID = n
+Line 130: ,
+Line 130: ID = r
+Line 130: )
+Line 130: ID = do
+Line 130: {
+Line 130: ID = rb_erase
+Line 130: (
+Line 130: ID = n
+Line 130: ,
+Line 130: ID = r
+Line 130: )
+Line 130: ;
+Line 130: (
+Line 130: ID = n
+Line 130: )
+Line 130: -
+Line 130: >
+Line 130: ID = rb_parent
+Line 130: =
+Line 130: (
+Line 130: ID = n
+Line 130: )
+Line 130: ;
+Line 130: }
+Line 130: while
+Line 130: (
+Line 130: INTCON = 0
+Line 130: )
+Line 133: Unrecognized token: 35
+Line 133: ID = define
+Line 133: ID = EP_RB_LINKED
+Line 133: (
+Line 133: ID = n
+Line 133: )
+Line 133: (
+Line 133: (
+Line 133: ID = n
+Line 133: )
+Line 133: -
+Line 133: >
+Line 133: ID = rb_parent
+Line 133: !=
+Line 133: (
+Line 133: ID = n
+Line 133: )
+Line 133: )
+Line 140: Unrecognized token: 35
+Line 140: ID = define
+Line 140: ID = EP_LIST_DEL
+Line 140: (
+Line 140: ID = p
+Line 140: )
+Line 140: ID = do
+Line 140: {
+Line 140: ID = list_del
+Line 140: (
+Line 140: ID = p
+Line 140: )
+Line 140: ;
+Line 140: ID = INIT_LIST_HEAD
+Line 140: (
+Line 140: ID = p
+Line 140: )
+Line 140: ;
+Line 140: }
+Line 140: while
+Line 140: (
+Line 140: INTCON = 0
+Line 140: )
+Line 143: Unrecognized token: 35
+Line 143: ID = define
+Line 143: ID = EP_IS_LINKED
+Line 143: (
+Line 143: ID = p
+Line 143: )
+Line 143: (
+Line 143: !
+Line 143: ID = list_empty
+Line 143: (
+Line 143: ID = p
+Line 143: )
+Line 143: )
+Line 146: Unrecognized token: 35
+Line 146: ID = define
+Line 146: ID = EP_ITEM_FROM_WAIT
+Line 146: (
+Line 146: ID = p
+Line 146: )
+Line 146: (
+Line 146: (
+Line 146: ID = struct
+Line 146: ID = epitem
+Line 146: *
+Line 146: )
+Line 146: ID = container_of
+Line 146: (
+Line 146: ID = p
+Line 146: ,
+Line 146: ID = struct
+Line 146: ID = eppoll_entry
+Line 146: ,
+Line 146: ID = wait
+Line 146: )
+Line 146: -
+Line 146: >
+Line 146: ID = base
+Line 146: )
+Line 149: Unrecognized token: 35
+Line 149: ID = define
+Line 149: ID = EP_ITEM_FROM_EPQUEUE
+Line 149: (
+Line 149: ID = p
+Line 149: )
+Line 149: (
+Line 149: ID = container_of
+Line 149: (
+Line 149: ID = p
+Line 149: ,
+Line 149: ID = struct
+Line 149: ID = ep_pqueue
+Line 149: ,
+Line 149: ID = pt
+Line 149: )
+Line 149: -
+Line 149: >
+Line 149: ID = epi
+Line 149: )
+Line 152: ID = struct
+Line 152: ID = epoll_filefd
+Line 152: {
+Line 153: ID = struct
+Line 153: ID = file
+Line 153: *
+Line 153: ID = file
+Line 153: ;
+Line 154: int
+Line 154: ID = fd
+Line 154: ;
+Line 155: }
+Line 155: ;
+Line 164: ID = struct
+Line 164: ID = wake_task_node
+Line 164: {
+Line 165: ID = struct
+Line 165: ID = list_head
+Line 165: ID = llink
+Line 165: ;
+Line 166: ID = task_t
+Line 166: *
+Line 166: ID = task
+Line 166: ;
+Line 167: ID = wait_queue_head_t
+Line 167: *
+Line 167: ID = wq
+Line 167: ;
+Line 168: }
+Line 168: ;
+Line 174: ID = struct
+Line 174: ID = poll_safewake
+Line 174: {
+Line 175: ID = struct
+Line 175: ID = list_head
+Line 175: ID = wake_task_list
+Line 175: ;
+Line 176: ID = spinlock_t
+Line 176: ID = lock
+Line 176: ;
+Line 177: }
+Line 177: ;
+Line 184: ID = struct
+Line 184: ID = eventpoll
+Line 184: {
+Line 186: ID = rwlock_t
+Line 186: ID = lock
+Line 186: ;
+Line 194: ID = struct
+Line 194: ID = rw_semaphore
+Line 194: ID = sem
+Line 194: ;
+Line 197: ID = wait_queue_head_t
+Line 197: ID = wq
+Line 197: ;
+Line 200: ID = wait_queue_head_t
+Line 200: ID = poll_wait
+Line 200: ;
+Line 203: ID = struct
+Line 203: ID = list_head
+Line 203: ID = rdllist
+Line 203: ;
+Line 206: ID = struct
+Line 206: ID = rb_root
+Line 206: ID = rbr
+Line 206: ;
+Line 207: }
+Line 207: ;
+Line 210: ID = struct
+Line 210: ID = eppoll_entry
+Line 210: {
+Line 212: ID = struct
+Line 212: ID = list_head
+Line 212: ID = llink
+Line 212: ;
+Line 215: void
+Line 215: *
+Line 215: ID = base
+Line 215: ;
+Line 221: ID = wait_queue_t
+Line 221: ID = wait
+Line 221: ;
+Line 224: ID = wait_queue_head_t
+Line 224: *
+Line 224: ID = whead
+Line 224: ;
+Line 225: }
+Line 225: ;
+Line 231: ID = struct
+Line 231: ID = epitem
+Line 231: {
+Line 233: ID = struct
+Line 233: ID = rb_node
+Line 233: ID = rbn
+Line 233: ;
+Line 236: ID = struct
+Line 236: ID = list_head
+Line 236: ID = rdllink
+Line 236: ;
+Line 239: ID = struct
+Line 239: ID = epoll_filefd
+Line 239: ID = ffd
+Line 239: ;
+Line 242: int
+Line 242: ID = nwait
+Line 242: ;
+Line 245: ID = struct
+Line 245: ID = list_head
+Line 245: ID = pwqlist
+Line 245: ;
+Line 248: ID = struct
+Line 248: ID = eventpoll
+Line 248: *
+Line 248: ID = ep
+Line 248: ;
+Line 251: ID = struct
+Line 251: ID = epoll_event
+Line 251: ID = event
+Line 251: ;
+Line 257: ID = atomic_t
+Line 257: ID = usecnt
+Line 257: ;
+Line 260: ID = struct
+Line 260: ID = list_head
+Line 260: ID = fllink
+Line 260: ;
+Line 263: ID = struct
+Line 263: ID = list_head
+Line 263: ID = txlink
+Line 263: ;
+Line 269: ID = unsigned
+Line 269: int
+Line 269: ID = revents
+Line 269: ;
+Line 270: }
+Line 270: ;
+Line 273: ID = struct
+Line 273: ID = ep_pqueue
+Line 273: {
+Line 274: ID = poll_table
+Line 274: ID = pt
+Line 274: ;
+Line 275: ID = struct
+Line 275: ID = epitem
+Line 275: *
+Line 275: ID = epi
+Line 275: ;
+Line 276: }
+Line 276: ;
+Line 280: ID = static
+Line 280: void
+Line 280: ID = ep_poll_safewake_init
+Line 280: (
+Line 280: ID = struct
+Line 280: ID = poll_safewake
+Line 280: *
+Line 280: ID = psw
+Line 280: )
+Line 280: ;
+Line 281: ID = static
+Line 281: void
+Line 281: ID = ep_poll_safewake
+Line 281: (
+Line 281: ID = struct
+Line 281: ID = poll_safewake
+Line 281: *
+Line 281: ID = psw
+Line 281: ,
+Line 281: ID = wait_queue_head_t
+Line 281: *
+Line 281: ID = wq
+Line 281: )
+Line 281: ;
+Line 282: ID = static
+Line 282: int
+Line 282: ID = ep_getfd
+Line 282: (
+Line 282: int
+Line 282: *
+Line 282: ID = efd
+Line 282: ,
+Line 282: ID = struct
+Line 282: ID = inode
+Line 282: *
+Line 282: *
+Line 282: ID = einode
+Line 282: ,
+Line 282: ID = struct
+Line 282: ID = file
+Line 282: *
+Line 282: *
+Line 282: ID = efile
+Line 282: )
+Line 282: ;
+Line 283: ID = static
+Line 283: int
+Line 283: ID = ep_file_init
+Line 283: (
+Line 283: ID = struct
+Line 283: ID = file
+Line 283: *
+Line 283: ID = file
+Line 283: )
+Line 283: ;
+Line 284: ID = static
+Line 284: void
+Line 284: ID = ep_free
+Line 284: (
+Line 284: ID = struct
+Line 284: ID = eventpoll
+Line 284: *
+Line 284: ID = ep
+Line 284: )
+Line 284: ;
+Line 285: ID = static
+Line 285: ID = struct
+Line 285: ID = epitem
+Line 285: *
+Line 285: ID = ep_find
+Line 285: (
+Line 285: ID = struct
+Line 285: ID = eventpoll
+Line 285: *
+Line 285: ID = ep
+Line 285: ,
+Line 285: ID = struct
+Line 285: ID = file
+Line 285: *
+Line 285: ID = file
+Line 285: ,
+Line 285: int
+Line 285: ID = fd
+Line 285: )
+Line 285: ;
+Line 286: ID = static
+Line 286: void
+Line 286: ID = ep_use_epitem
+Line 286: (
+Line 286: ID = struct
+Line 286: ID = epitem
+Line 286: *
+Line 286: ID = epi
+Line 286: )
+Line 286: ;
+Line 287: ID = static
+Line 287: void
+Line 287: ID = ep_release_epitem
+Line 287: (
+Line 287: ID = struct
+Line 287: ID = epitem
+Line 287: *
+Line 287: ID = epi
+Line 287: )
+Line 287: ;
+Line 288: ID = static
+Line 288: void
+Line 288: ID = ep_ptable_queue_proc
+Line 288: (
+Line 288: ID = struct
+Line 288: ID = file
+Line 288: *
+Line 288: ID = file
+Line 288: ,
+Line 288: ID = wait_queue_head_t
+Line 288: *
+Line 288: ID = whead
+Line 288: ,
+Line 289: ID = poll_table
+Line 289: *
+Line 289: ID = pt
+Line 289: )
+Line 289: ;
+Line 290: ID = static
+Line 290: void
+Line 290: ID = ep_rbtree_insert
+Line 290: (
+Line 290: ID = struct
+Line 290: ID = eventpoll
+Line 290: *
+Line 290: ID = ep
+Line 290: ,
+Line 290: ID = struct
+Line 290: ID = epitem
+Line 290: *
+Line 290: ID = epi
+Line 290: )
+Line 290: ;
+Line 291: ID = static
+Line 291: int
+Line 291: ID = ep_insert
+Line 291: (
+Line 291: ID = struct
+Line 291: ID = eventpoll
+Line 291: *
+Line 291: ID = ep
+Line 291: ,
+Line 291: ID = struct
+Line 291: ID = epoll_event
+Line 291: *
+Line 291: ID = event
+Line 291: ,
+Line 292: ID = struct
+Line 292: ID = file
+Line 292: *
+Line 292: ID = tfile
+Line 292: ,
+Line 292: int
+Line 292: ID = fd
+Line 292: )
+Line 292: ;
+Line 293: ID = static
+Line 293: int
+Line 293: ID = ep_modify
+Line 293: (
+Line 293: ID = struct
+Line 293: ID = eventpoll
+Line 293: *
+Line 293: ID = ep
+Line 293: ,
+Line 293: ID = struct
+Line 293: ID = epitem
+Line 293: *
+Line 293: ID = epi
+Line 293: ,
+Line 294: ID = struct
+Line 294: ID = epoll_event
+Line 294: *
+Line 294: ID = event
+Line 294: )
+Line 294: ;
+Line 295: ID = static
+Line 295: void
+Line 295: ID = ep_unregister_pollwait
+Line 295: (
+Line 295: ID = struct
+Line 295: ID = eventpoll
+Line 295: *
+Line 295: ID = ep
+Line 295: ,
+Line 295: ID = struct
+Line 295: ID = epitem
+Line 295: *
+Line 295: ID = epi
+Line 295: )
+Line 295: ;
+Line 296: ID = static
+Line 296: int
+Line 296: ID = ep_unlink
+Line 296: (
+Line 296: ID = struct
+Line 296: ID = eventpoll
+Line 296: *
+Line 296: ID = ep
+Line 296: ,
+Line 296: ID = struct
+Line 296: ID = epitem
+Line 296: *
+Line 296: ID = epi
+Line 296: )
+Line 296: ;
+Line 297: ID = static
+Line 297: int
+Line 297: ID = ep_remove
+Line 297: (
+Line 297: ID = struct
+Line 297: ID = eventpoll
+Line 297: *
+Line 297: ID = ep
+Line 297: ,
+Line 297: ID = struct
+Line 297: ID = epitem
+Line 297: *
+Line 297: ID = epi
+Line 297: )
+Line 297: ;
+Line 298: ID = static
+Line 298: int
+Line 298: ID = ep_poll_callback
+Line 298: (
+Line 298: ID = wait_queue_t
+Line 298: *
+Line 298: ID = wait
+Line 298: ,
+Line 298: ID = unsigned
+Line 298: ID = mode
+Line 298: ,
+Line 298: int
+Line 298: ID = sync
+Line 298: ,
+Line 298: void
+Line 298: *
+Line 298: ID = key
+Line 298: )
+Line 298: ;
+Line 299: ID = static
+Line 299: int
+Line 299: ID = ep_eventpoll_close
+Line 299: (
+Line 299: ID = struct
+Line 299: ID = inode
+Line 299: *
+Line 299: ID = inode
+Line 299: ,
+Line 299: ID = struct
+Line 299: ID = file
+Line 299: *
+Line 299: ID = file
+Line 299: )
+Line 299: ;
+Line 300: ID = static
+Line 300: ID = unsigned
+Line 300: int
+Line 300: ID = ep_eventpoll_poll
+Line 300: (
+Line 300: ID = struct
+Line 300: ID = file
+Line 300: *
+Line 300: ID = file
+Line 300: ,
+Line 300: ID = poll_table
+Line 300: *
+Line 300: ID = wait
+Line 300: )
+Line 300: ;
+Line 301: ID = static
+Line 301: int
+Line 301: ID = ep_collect_ready_items
+Line 301: (
+Line 301: ID = struct
+Line 301: ID = eventpoll
+Line 301: *
+Line 301: ID = ep
+Line 301: ,
+Line 302: ID = struct
+Line 302: ID = list_head
+Line 302: *
+Line 302: ID = txlist
+Line 302: ,
+Line 302: int
+Line 302: ID = maxevents
+Line 302: )
+Line 302: ;
+Line 303: ID = static
+Line 303: int
+Line 303: ID = ep_send_events
+Line 303: (
+Line 303: ID = struct
+Line 303: ID = eventpoll
+Line 303: *
+Line 303: ID = ep
+Line 303: ,
+Line 303: ID = struct
+Line 303: ID = list_head
+Line 303: *
+Line 303: ID = txlist
+Line 303: ,
+Line 304: ID = struct
+Line 304: ID = epoll_event
+Line 304: Unrecognized token: 95
+Line 304: Unrecognized token: 95
+Line 304: ID = user
+Line 304: *
+Line 304: ID = events
+Line 304: )
+Line 304: ;
+Line 305: ID = static
+Line 305: void
+Line 305: ID = ep_reinject_items
+Line 305: (
+Line 305: ID = struct
+Line 305: ID = eventpoll
+Line 305: *
+Line 305: ID = ep
+Line 305: ,
+Line 305: ID = struct
+Line 305: ID = list_head
+Line 305: *
+Line 305: ID = txlist
+Line 305: )
+Line 305: ;
+Line 306: ID = static
+Line 306: int
+Line 306: ID = ep_events_transfer
+Line 306: (
+Line 306: ID = struct
+Line 306: ID = eventpoll
+Line 306: *
+Line 306: ID = ep
+Line 306: ,
+Line 307: ID = struct
+Line 307: ID = epoll_event
+Line 307: Unrecognized token: 95
+Line 307: Unrecognized token: 95
+Line 307: ID = user
+Line 307: *
+Line 307: ID = events
+Line 307: ,
+Line 308: int
+Line 308: ID = maxevents
+Line 308: )
+Line 308: ;
+Line 309: ID = static
+Line 309: int
+Line 309: ID = ep_poll
+Line 309: (
+Line 309: ID = struct
+Line 309: ID = eventpoll
+Line 309: *
+Line 309: ID = ep
+Line 309: ,
+Line 309: ID = struct
+Line 309: ID = epoll_event
+Line 309: Unrecognized token: 95
+Line 309: Unrecognized token: 95
+Line 309: ID = user
+Line 309: *
+Line 309: ID = events
+Line 309: ,
+Line 310: int
+Line 310: ID = maxevents
+Line 310: ,
+Line 310: ID = long
+Line 310: ID = timeout
+Line 310: )
+Line 310: ;
+Line 311: ID = static
+Line 311: int
+Line 311: ID = eventpollfs_delete_dentry
+Line 311: (
+Line 311: ID = struct
+Line 311: ID = dentry
+Line 311: *
+Line 311: ID = dentry
+Line 311: )
+Line 311: ;
+Line 312: ID = static
+Line 312: ID = struct
+Line 312: ID = inode
+Line 312: *
+Line 312: ID = ep_eventpoll_inode
+Line 312: (
+Line 312: void
+Line 312: )
+Line 312: ;
+Line 313: ID = static
+Line 313: ID = struct
+Line 313: ID = super_block
+Line 313: *
+Line 313: ID = eventpollfs_get_sb
+Line 313: (
+Line 313: ID = struct
+Line 313: ID = file_system_type
+Line 313: *
+Line 313: ID = fs_type
+Line 313: ,
+Line 314: int
+Line 314: ID = flags
+Line 314: ,
+Line 314: ID = const
+Line 314: char
+Line 314: *
+Line 314: ID = dev_name
+Line 314: ,
+Line 315: void
+Line 315: *
+Line 315: ID = data
+Line 315: )
+Line 315: ;
+Line 320: ID = struct
+Line 320: ID = semaphore
+Line 320: ID = epsem
+Line 320: ;
+Line 323: ID = static
+Line 323: ID = struct
+Line 323: ID = poll_safewake
+Line 323: ID = psw
+Line 323: ;
+Line 326: ID = static
+Line 326: ID = kmem_cache_t
+Line 326: *
+Line 326: ID = epi_cache
+Line 326: ;
+Line 329: ID = static
+Line 329: ID = kmem_cache_t
+Line 329: *
+Line 329: ID = pwq_cache
+Line 329: ;
+Line 332: ID = static
+Line 332: ID = struct
+Line 332: ID = vfsmount
+Line 332: *
+Line 332: ID = eventpoll_mnt
+Line 332: ;
+Line 335: ID = static
+Line 335: ID = struct
+Line 335: ID = file_operations
+Line 335: ID = eventpoll_fops
+Line 335: =
+Line 335: {
+Line 336: Unrecognized token: 46
+Line 336: ID = release
+Line 336: =
+Line 336: ID = ep_eventpoll_close
+Line 336: ,
+Line 337: Unrecognized token: 46
+Line 337: ID = poll
+Line 337: =
+Line 337: ID = ep_eventpoll_poll
+Line 338: }
+Line 338: ;
+Line 344: ID = static
+Line 344: ID = struct
+Line 344: ID = file_system_type
+Line 344: ID = eventpoll_fs_type
+Line 344: =
+Line 344: {
+Line 345: Unrecognized token: 46
+Line 345: ID = name
+Line 345: =
+Line 345: STRINGCON = "eventpollfs"
+Line 345: ,
+Line 346: Unrecognized token: 46
+Line 346: ID = get_sb
+Line 346: =
+Line 346: ID = eventpollfs_get_sb
+Line 346: ,
+Line 347: Unrecognized token: 46
+Line 347: ID = kill_sb
+Line 347: =
+Line 347: ID = kill_anon_super
+Line 347: ,
+Line 348: }
+Line 348: ;
+Line 351: ID = static
+Line 351: ID = struct
+Line 351: ID = dentry_operations
+Line 351: ID = eventpollfs_dentry_operations
+Line 351: =
+Line 351: {
+Line 352: Unrecognized token: 46
+Line 352: ID = d_delete
+Line 352: =
+Line 352: ID = eventpollfs_delete_dentry
+Line 352: ,
+Line 353: }
+Line 353: ;
+Line 358: ID = static
+Line 358: void
+Line 358: ID = ep_poll_safewake_init
+Line 358: (
+Line 358: ID = struct
+Line 358: ID = poll_safewake
+Line 358: *
+Line 358: ID = psw
+Line 358: )
+Line 359: {
+Line 361: ID = INIT_LIST_HEAD
+Line 361: (
+Line 361: Unrecognized token: 38
+Line 361: ID = psw
+Line 361: -
+Line 361: >
+Line 361: ID = wake_task_list
+Line 361: )
+Line 361: ;
+Line 362: ID = spin_lock_init
+Line 362: (
+Line 362: Unrecognized token: 38
+Line 362: ID = psw
+Line 362: -
+Line 362: >
+Line 362: ID = lock
+Line 362: )
+Line 362: ;
+Line 363: }
+Line 378: ID = static
+Line 378: void
+Line 378: ID = ep_poll_safewake
+Line 378: (
+Line 378: ID = struct
+Line 378: ID = poll_safewake
+Line 378: *
+Line 378: ID = psw
+Line 378: ,
+Line 378: ID = wait_queue_head_t
+Line 378: *
+Line 378: ID = wq
+Line 378: )
+Line 379: {
+Line 380: int
+Line 380: ID = wake_nests
+Line 380: =
+Line 380: INTCON = 0
+Line 380: ;
+Line 381: ID = unsigned
+Line 381: ID = long
+Line 381: ID = flags
+Line 381: ;
+Line 382: ID = task_t
+Line 382: *
+Line 382: ID = this_task
+Line 382: =
+Line 382: ID = current
+Line 382: ;
+Line 383: ID = struct
+Line 383: ID = list_head
+Line 383: *
+Line 383: ID = lsthead
+Line 383: =
+Line 383: Unrecognized token: 38
+Line 383: ID = psw
+Line 383: -
+Line 383: >
+Line 383: ID = wake_task_list
+Line 383: ,
+Line 383: *
+Line 383: ID = lnk
+Line 383: ;
+Line 384: ID = struct
+Line 384: ID = wake_task_node
+Line 384: *
+Line 384: ID = tncur
+Line 384: ;
+Line 385: ID = struct
+Line 385: ID = wake_task_node
+Line 385: ID = tnode
+Line 385: ;
+Line 387: ID = spin_lock_irqsave
+Line 387: (
+Line 387: Unrecognized token: 38
+Line 387: ID = psw
+Line 387: -
+Line 387: >
+Line 387: ID = lock
+Line 387: ,
+Line 387: ID = flags
+Line 387: )
+Line 387: ;
+Line 390: ID = list_for_each
+Line 390: (
+Line 390: ID = lnk
+Line 390: ,
+Line 390: ID = lsthead
+Line 390: )
+Line 390: {
+Line 391: ID = tncur
+Line 391: =
+Line 391: ID = list_entry
+Line 391: (
+Line 391: ID = lnk
+Line 391: ,
+Line 391: ID = struct
+Line 391: ID = wake_task_node
+Line 391: ,
+Line 391: ID = llink
+Line 391: )
+Line 391: ;
+Line 393: if
+Line 393: (
+Line 393: ID = tncur
+Line 393: -
+Line 393: >
+Line 393: ID = wq
+Line 393: ==
+Line 393: ID = wq
+Line 393: ||
+Line 394: (
+Line 394: ID = tncur
+Line 394: -
+Line 394: >
+Line 394: ID = task
+Line 394: ==
+Line 394: ID = this_task
+Line 394: &&
+Line 394: +
+Line 394: +
+Line 394: ID = wake_nests
+Line 394: >
+Line 394: ID = EP_MAX_POLLWAKE_NESTS
+Line 394: )
+Line 394: )
+Line 394: {
+Line 399: ID = spin_unlock_irqrestore
+Line 399: (
+Line 399: Unrecognized token: 38
+Line 399: ID = psw
+Line 399: -
+Line 399: >
+Line 399: ID = lock
+Line 399: ,
+Line 399: ID = flags
+Line 399: )
+Line 399: ;
+Line 400: return
+Line 400: ;
+Line 401: }
+Line 402: }
+Line 405: ID = tnode
+Line 405: Unrecognized token: 46
+Line 405: ID = task
+Line 405: =
+Line 405: ID = this_task
+Line 405: ;
+Line 406: ID = tnode
+Line 406: Unrecognized token: 46
+Line 406: ID = wq
+Line 406: =
+Line 406: ID = wq
+Line 406: ;
+Line 407: ID = list_add
+Line 407: (
+Line 407: Unrecognized token: 38
+Line 407: ID = tnode
+Line 407: Unrecognized token: 46
+Line 407: ID = llink
+Line 407: ,
+Line 407: ID = lsthead
+Line 407: )
+Line 407: ;
+Line 409: ID = spin_unlock_irqrestore
+Line 409: (
+Line 409: Unrecognized token: 38
+Line 409: ID = psw
+Line 409: -
+Line 409: >
+Line 409: ID = lock
+Line 409: ,
+Line 409: ID = flags
+Line 409: )
+Line 409: ;
+Line 412: ID = wake_up
+Line 412: (
+Line 412: ID = wq
+Line 412: )
+Line 412: ;
+Line 415: ID = spin_lock_irqsave
+Line 415: (
+Line 415: Unrecognized token: 38
+Line 415: ID = psw
+Line 415: -
+Line 415: >
+Line 415: ID = lock
+Line 415: ,
+Line 415: ID = flags
+Line 415: )
+Line 415: ;
+Line 416: ID = list_del
+Line 416: (
+Line 416: Unrecognized token: 38
+Line 416: ID = tnode
+Line 416: Unrecognized token: 46
+Line 416: ID = llink
+Line 416: )
+Line 416: ;
+Line 417: ID = spin_unlock_irqrestore
+Line 417: (
+Line 417: Unrecognized token: 38
+Line 417: ID = psw
+Line 417: -
+Line 417: >
+Line 417: ID = lock
+Line 417: ,
+Line 417: ID = flags
+Line 417: )
+Line 417: ;
+Line 418: }
+Line 422: void
+Line 422: ID = eventpoll_init_file
+Line 422: (
+Line 422: ID = struct
+Line 422: ID = file
+Line 422: *
+Line 422: ID = file
+Line 422: )
+Line 423: {
+Line 425: ID = INIT_LIST_HEAD
+Line 425: (
+Line 425: Unrecognized token: 38
+Line 425: ID = file
+Line 425: -
+Line 425: >
+Line 425: ID = f_ep_links
+Line 425: )
+Line 425: ;
+Line 426: ID = spin_lock_init
+Line 426: (
+Line 426: Unrecognized token: 38
+Line 426: ID = file
+Line 426: -
+Line 426: >
+Line 426: ID = f_ep_lock
+Line 426: )
+Line 426: ;
+Line 427: }
+Line 435: void
+Line 435: ID = eventpoll_release_file
+Line 435: (
+Line 435: ID = struct
+Line 435: ID = file
+Line 435: *
+Line 435: ID = file
+Line 435: )
+Line 436: {
+Line 437: ID = struct
+Line 437: ID = list_head
+Line 437: *
+Line 437: ID = lsthead
+Line 437: =
+Line 437: Unrecognized token: 38
+Line 437: ID = file
+Line 437: -
+Line 437: >
+Line 437: ID = f_ep_links
+Line 437: ;
+Line 438: ID = struct
+Line 438: ID = eventpoll
+Line 438: *
+Line 438: ID = ep
+Line 438: ;
+Line 439: ID = struct
+Line 439: ID = epitem
+Line 439: *
+Line 439: ID = epi
+Line 439: ;
+Line 450: ID = down
+Line 450: (
+Line 450: Unrecognized token: 38
+Line 450: ID = epsem
+Line 450: )
+Line 450: ;
+Line 452: while
+Line 452: (
+Line 452: !
+Line 452: ID = list_empty
+Line 452: (
+Line 452: ID = lsthead
+Line 452: )
+Line 452: )
+Line 452: {
+Line 453: ID = epi
+Line 453: =
+Line 453: ID = list_entry
+Line 453: (
+Line 453: ID = lsthead
+Line 453: -
+Line 453: >
+Line 453: ID = next
+Line 453: ,
+Line 453: ID = struct
+Line 453: ID = epitem
+Line 453: ,
+Line 453: ID = fllink
+Line 453: )
+Line 453: ;
+Line 455: ID = ep
+Line 455: =
+Line 455: ID = epi
+Line 455: -
+Line 455: >
+Line 455: ID = ep
+Line 455: ;
+Line 456: ID = EP_LIST_DEL
+Line 456: (
+Line 456: Unrecognized token: 38
+Line 456: ID = epi
+Line 456: -
+Line 456: >
+Line 456: ID = fllink
+Line 456: )
+Line 456: ;
+Line 457: ID = down_write
+Line 457: (
+Line 457: Unrecognized token: 38
+Line 457: ID = ep
+Line 457: -
+Line 457: >
+Line 457: ID = sem
+Line 457: )
+Line 457: ;
+Line 458: ID = ep_remove
+Line 458: (
+Line 458: ID = ep
+Line 458: ,
+Line 458: ID = epi
+Line 458: )
+Line 458: ;
+Line 459: ID = up_write
+Line 459: (
+Line 459: Unrecognized token: 38
+Line 459: ID = ep
+Line 459: -
+Line 459: >
+Line 459: ID = sem
+Line 459: )
+Line 459: ;
+Line 460: }
+Line 462: ID = up
+Line 462: (
+Line 462: Unrecognized token: 38
+Line 462: ID = epsem
+Line 462: )
+Line 462: ;
+Line 463: }
+Line 473: ID = asmlinkage
+Line 473: ID = long
+Line 473: ID = sys_epoll_create
+Line 473: (
+Line 473: int
+Line 473: ID = size
+Line 473: )
+Line 474: {
+Line 475: int
+Line 475: ID = error
+Line 475: ,
+Line 475: ID = fd
+Line 475: ;
+Line 476: ID = struct
+Line 476: ID = inode
+Line 476: *
+Line 476: ID = inode
+Line 476: ;
+Line 477: ID = struct
+Line 477: ID = file
+Line 477: *
+Line 477: ID = file
+Line 477: ;
+Line 479: ID = DNPRINTK
+Line 479: (
+Line 479: INTCON = 3
+Line 479: ,
+Line 479: (
+Line 479: ID = KERN_INFO
+Line 479: STRINGCON = "[%p] eventpoll: sys_epoll_create(%d)\n"
+Line 479: ,
+Line 480: ID = current
+Line 480: ,
+Line 480: ID = size
+Line 480: )
+Line 480: )
+Line 480: ;
+Line 483: ID = error
+Line 483: =
+Line 483: -
+Line 483: ID = EINVAL
+Line 483: ;
+Line 484: if
+Line 484: (
+Line 484: ID = size
+Line 484: <=
+Line 484: INTCON = 0
+Line 484: )
+Line 485: ID = goto
+Line 485: ID = eexit_1
+Line 485: ;
+Line 491: ID = error
+Line 491: =
+Line 491: ID = ep_getfd
+Line 491: (
+Line 491: Unrecognized token: 38
+Line 491: ID = fd
+Line 491: ,
+Line 491: Unrecognized token: 38
+Line 491: ID = inode
+Line 491: ,
+Line 491: Unrecognized token: 38
+Line 491: ID = file
+Line 491: )
+Line 491: ;
+Line 492: if
+Line 492: (
+Line 492: ID = error
+Line 492: )
+Line 493: ID = goto
+Line 493: ID = eexit_1
+Line 493: ;
+Line 496: ID = error
+Line 496: =
+Line 496: ID = ep_file_init
+Line 496: (
+Line 496: ID = file
+Line 496: )
+Line 496: ;
+Line 497: if
+Line 497: (
+Line 497: ID = error
+Line 497: )
+Line 498: ID = goto
+Line 498: ID = eexit_2
+Line 498: ;
+Line 501: ID = DNPRINTK
+Line 501: (
+Line 501: INTCON = 3
+Line 501: ,
+Line 501: (
+Line 501: ID = KERN_INFO
+Line 501: STRINGCON = "[%p] eventpoll: sys_epoll_create(%d) = %d\n"
+Line 501: ,
+Line 502: ID = current
+Line 502: ,
+Line 502: ID = size
+Line 502: ,
+Line 502: ID = fd
+Line 502: )
+Line 502: )
+Line 502: ;
+Line 504: return
+Line 504: ID = fd
+Line 504: ;
+Line 506: ID = eexit_2
+Line 506: Unrecognized token: 58
+Line 507: ID = sys_close
+Line 507: (
+Line 507: ID = fd
+Line 507: )
+Line 507: ;
+Line 508: ID = eexit_1
+Line 508: Unrecognized token: 58
+Line 509: ID = DNPRINTK
+Line 509: (
+Line 509: INTCON = 3
+Line 509: ,
+Line 509: (
+Line 509: ID = KERN_INFO
+Line 509: STRINGCON = "[%p] eventpoll: sys_epoll_create(%d) = %d\n"
+Line 509: ,
+Line 510: ID = current
+Line 510: ,
+Line 510: ID = size
+Line 510: ,
+Line 510: ID = error
+Line 510: )
+Line 510: )
+Line 510: ;
+Line 511: return
+Line 511: ID = error
+Line 511: ;
+Line 512: }
+Line 521: ID = asmlinkage
+Line 521: ID = long
+Line 522: ID = sys_epoll_ctl
+Line 522: (
+Line 522: int
+Line 522: ID = epfd
+Line 522: ,
+Line 522: int
+Line 522: ID = op
+Line 522: ,
+Line 522: int
+Line 522: ID = fd
+Line 522: ,
+Line 522: ID = struct
+Line 522: ID = epoll_event
+Line 522: Unrecognized token: 95
+Line 522: Unrecognized token: 95
+Line 522: ID = user
+Line 522: *
+Line 522: ID = event
+Line 522: )
+Line 523: {
+Line 524: int
+Line 524: ID = error
+Line 524: ;
+Line 525: ID = struct
+Line 525: ID = file
+Line 525: *
+Line 525: ID = file
+Line 525: ,
+Line 525: *
+Line 525: ID = tfile
+Line 525: ;
+Line 526: ID = struct
+Line 526: ID = eventpoll
+Line 526: *
+Line 526: ID = ep
+Line 526: ;
+Line 527: ID = struct
+Line 527: ID = epitem
+Line 527: *
+Line 527: ID = epi
+Line 527: ;
+Line 528: ID = struct
+Line 528: ID = epoll_event
+Line 528: ID = epds
+Line 528: ;
+Line 530: ID = DNPRINTK
+Line 530: (
+Line 530: INTCON = 3
+Line 530: ,
+Line 530: (
+Line 530: ID = KERN_INFO
+Line 530: STRINGCON = "[%p] eventpoll: sys_epoll_ctl(%d, %d, %d, %p)\n"
+Line 530: ,
+Line 531: ID = current
+Line 531: ,
+Line 531: ID = epfd
+Line 531: ,
+Line 531: ID = op
+Line 531: ,
+Line 531: ID = fd
+Line 531: ,
+Line 531: ID = event
+Line 531: )
+Line 531: )
+Line 531: ;
+Line 533: ID = error
+Line 533: =
+Line 533: -
+Line 533: ID = EFAULT
+Line 533: ;
+Line 534: if
+Line 534: (
+Line 534: ID = copy_from_user
+Line 534: (
+Line 534: Unrecognized token: 38
+Line 534: ID = epds
+Line 534: ,
+Line 534: ID = event
+Line 534: ,
+Line 534: ID = sizeof
+Line 534: (
+Line 534: ID = struct
+Line 534: ID = epoll_event
+Line 534: )
+Line 534: )
+Line 534: )
+Line 535: ID = goto
+Line 535: ID = eexit_1
+Line 535: ;
+Line 538: ID = error
+Line 538: =
+Line 538: -
+Line 538: ID = EBADF
+Line 538: ;
+Line 539: ID = file
+Line 539: =
+Line 539: ID = fget
+Line 539: (
+Line 539: ID = epfd
+Line 539: )
+Line 539: ;
+Line 540: if
+Line 540: (
+Line 540: !
+Line 540: ID = file
+Line 540: )
+Line 541: ID = goto
+Line 541: ID = eexit_1
+Line 541: ;
+Line 544: ID = tfile
+Line 544: =
+Line 544: ID = fget
+Line 544: (
+Line 544: ID = fd
+Line 544: )
+Line 544: ;
+Line 545: if
+Line 545: (
+Line 545: !
+Line 545: ID = tfile
+Line 545: )
+Line 546: ID = goto
+Line 546: ID = eexit_2
+Line 546: ;
+Line 549: ID = error
+Line 549: =
+Line 549: -
+Line 549: ID = EPERM
+Line 549: ;
+Line 550: if
+Line 550: (
+Line 550: !
+Line 550: ID = tfile
+Line 550: -
+Line 550: >
+Line 550: ID = f_op
+Line 550: ||
+Line 550: !
+Line 550: ID = tfile
+Line 550: -
+Line 550: >
+Line 550: ID = f_op
+Line 550: -
+Line 550: >
+Line 550: ID = poll
+Line 550: )
+Line 551: ID = goto
+Line 551: ID = eexit_3
+Line 551: ;
+Line 558: ID = error
+Line 558: =
+Line 558: -
+Line 558: ID = EINVAL
+Line 558: ;
+Line 559: if
+Line 559: (
+Line 559: ID = file
+Line 559: ==
+Line 559: ID = tfile
+Line 559: ||
+Line 559: !
+Line 559: ID = IS_FILE_EPOLL
+Line 559: (
+Line 559: ID = file
+Line 559: )
+Line 559: )
+Line 560: ID = goto
+Line 560: ID = eexit_3
+Line 560: ;
+Line 566: ID = ep
+Line 566: =
+Line 566: ID = file
+Line 566: -
+Line 566: >
+Line 566: ID = private_data
+Line 566: ;
+Line 568: ID = down_write
+Line 568: (
+Line 568: Unrecognized token: 38
+Line 568: ID = ep
+Line 568: -
+Line 568: >
+Line 568: ID = sem
+Line 568: )
+Line 568: ;
+Line 571: ID = epi
+Line 571: =
+Line 571: ID = ep_find
+Line 571: (
+Line 571: ID = ep
+Line 571: ,
+Line 571: ID = tfile
+Line 571: ,
+Line 571: ID = fd
+Line 571: )
+Line 571: ;
+Line 573: ID = error
+Line 573: =
+Line 573: -
+Line 573: ID = EINVAL
+Line 573: ;
+Line 574: ID = switch
+Line 574: (
+Line 574: ID = op
+Line 574: )
+Line 574: {
+Line 575: ID = case
+Line 575: ID = EPOLL_CTL_ADD
+Line 575: Unrecognized token: 58
+Line 576: if
+Line 576: (
+Line 576: !
+Line 576: ID = epi
+Line 576: )
+Line 576: {
+Line 577: ID = epds
+Line 577: Unrecognized token: 46
+Line 577: ID = events
+Line 577: Unrecognized token: 124
+Line 577: =
+Line 577: ID = POLLERR
+Line 577: Unrecognized token: 124
+Line 577: ID = POLLHUP
+Line 577: ;
+Line 579: ID = error
+Line 579: =
+Line 579: ID = ep_insert
+Line 579: (
+Line 579: ID = ep
+Line 579: ,
+Line 579: Unrecognized token: 38
+Line 579: ID = epds
+Line 579: ,
+Line 579: ID = tfile
+Line 579: ,
+Line 579: ID = fd
+Line 579: )
+Line 579: ;
+Line 580: }
+Line 580: else
+Line 581: ID = error
+Line 581: =
+Line 581: -
+Line 581: ID = EEXIST
+Line 581: ;
+Line 582: ID = break
+Line 582: ;
+Line 583: ID = case
+Line 583: ID = EPOLL_CTL_DEL
+Line 583: Unrecognized token: 58
+Line 584: if
+Line 584: (
+Line 584: ID = epi
+Line 584: )
+Line 585: ID = error
+Line 585: =
+Line 585: ID = ep_remove
+Line 585: (
+Line 585: ID = ep
+Line 585: ,
+Line 585: ID = epi
+Line 585: )
+Line 585: ;
+Line 586: else
+Line 587: ID = error
+Line 587: =
+Line 587: -
+Line 587: ID = ENOENT
+Line 587: ;
+Line 588: ID = break
+Line 588: ;
+Line 589: ID = case
+Line 589: ID = EPOLL_CTL_MOD
+Line 589: Unrecognized token: 58
+Line 590: if
+Line 590: (
+Line 590: ID = epi
+Line 590: )
+Line 590: {
+Line 591: ID = epds
+Line 591: Unrecognized token: 46
+Line 591: ID = events
+Line 591: Unrecognized token: 124
+Line 591: =
+Line 591: ID = POLLERR
+Line 591: Unrecognized token: 124
+Line 591: ID = POLLHUP
+Line 591: ;
+Line 592: ID = error
+Line 592: =
+Line 592: ID = ep_modify
+Line 592: (
+Line 592: ID = ep
+Line 592: ,
+Line 592: ID = epi
+Line 592: ,
+Line 592: Unrecognized token: 38
+Line 592: ID = epds
+Line 592: )
+Line 592: ;
+Line 593: }
+Line 593: else
+Line 594: ID = error
+Line 594: =
+Line 594: -
+Line 594: ID = ENOENT
+Line 594: ;
+Line 595: ID = break
+Line 595: ;
+Line 596: }
+Line 602: if
+Line 602: (
+Line 602: ID = epi
+Line 602: )
+Line 603: ID = ep_release_epitem
+Line 603: (
+Line 603: ID = epi
+Line 603: )
+Line 603: ;
+Line 605: ID = up_write
+Line 605: (
+Line 605: Unrecognized token: 38
+Line 605: ID = ep
+Line 605: -
+Line 605: >
+Line 605: ID = sem
+Line 605: )
+Line 605: ;
+Line 607: ID = eexit_3
+Line 607: Unrecognized token: 58
+Line 608: ID = fput
+Line 608: (
+Line 608: ID = tfile
+Line 608: )
+Line 608: ;
+Line 609: ID = eexit_2
+Line 609: Unrecognized token: 58
+Line 610: ID = fput
+Line 610: (
+Line 610: ID = file
+Line 610: )
+Line 610: ;
+Line 611: ID = eexit_1
+Line 611: Unrecognized token: 58
+Line 612: ID = DNPRINTK
+Line 612: (
+Line 612: INTCON = 3
+Line 612: ,
+Line 612: (
+Line 612: ID = KERN_INFO
+Line 612: STRINGCON = "[%p] eventpoll: sys_epoll_ctl(%d, %d, %d, %p) = %d\n"
+Line 612: ,
+Line 613: ID = current
+Line 613: ,
+Line 613: ID = epfd
+Line 613: ,
+Line 613: ID = op
+Line 613: ,
+Line 613: ID = fd
+Line 613: ,
+Line 613: ID = event
+Line 613: ,
+Line 613: ID = error
+Line 613: )
+Line 613: )
+Line 613: ;
+Line 615: return
+Line 615: ID = error
+Line 615: ;
+Line 616: }
+Line 623: ID = asmlinkage
+Line 623: ID = long
+Line 623: ID = sys_epoll_wait
+Line 623: (
+Line 623: int
+Line 623: ID = epfd
+Line 623: ,
+Line 623: ID = struct
+Line 623: ID = epoll_event
+Line 623: Unrecognized token: 95
+Line 623: Unrecognized token: 95
+Line 623: ID = user
+Line 623: *
+Line 623: ID = events
+Line 623: ,
+Line 624: int
+Line 624: ID = maxevents
+Line 624: ,
+Line 624: int
+Line 624: ID = timeout
+Line 624: )
+Line 625: {
+Line 626: int
+Line 626: ID = error
+Line 626: ;
+Line 627: ID = struct
+Line 627: ID = file
+Line 627: *
+Line 627: ID = file
+Line 627: ;
+Line 628: ID = struct
+Line 628: ID = eventpoll
+Line 628: *
+Line 628: ID = ep
+Line 628: ;
+Line 630: ID = DNPRINTK
+Line 630: (
+Line 630: INTCON = 3
+Line 630: ,
+Line 630: (
+Line 630: ID = KERN_INFO
+Line 630: STRINGCON = "[%p] eventpoll: sys_epoll_wait(%d, %p, %d, %d)\n"
+Line 630: ,
+Line 631: ID = current
+Line 631: ,
+Line 631: ID = epfd
+Line 631: ,
+Line 631: ID = events
+Line 631: ,
+Line 631: ID = maxevents
+Line 631: ,
+Line 631: ID = timeout
+Line 631: )
+Line 631: )
+Line 631: ;
+Line 634: if
+Line 634: (
+Line 634: ID = maxevents
+Line 634: <=
+Line 634: INTCON = 0
+Line 634: )
+Line 635: return
+Line 635: -
+Line 635: ID = EINVAL
+Line 635: ;
+Line 638: if
+Line 638: (
+Line 638: (
+Line 638: ID = error
+Line 638: =
+Line 638: ID = verify_area
+Line 638: (
+Line 638: ID = VERIFY_WRITE
+Line 638: ,
+Line 638: ID = events
+Line 638: ,
+Line 638: ID = maxevents
+Line 638: *
+Line 638: ID = sizeof
+Line 638: (
+Line 638: ID = struct
+Line 638: ID = epoll_event
+Line 638: )
+Line 638: )
+Line 638: )
+Line 638: )
+Line 639: ID = goto
+Line 639: ID = eexit_1
+Line 639: ;
+Line 642: ID = error
+Line 642: =
+Line 642: -
+Line 642: ID = EBADF
+Line 642: ;
+Line 643: ID = file
+Line 643: =
+Line 643: ID = fget
+Line 643: (
+Line 643: ID = epfd
+Line 643: )
+Line 643: ;
+Line 644: if
+Line 644: (
+Line 644: !
+Line 644: ID = file
+Line 644: )
+Line 645: ID = goto
+Line 645: ID = eexit_1
+Line 645: ;
+Line 651: ID = error
+Line 651: =
+Line 651: -
+Line 651: ID = EINVAL
+Line 651: ;
+Line 652: if
+Line 652: (
+Line 652: !
+Line 652: ID = IS_FILE_EPOLL
+Line 652: (
+Line 652: ID = file
+Line 652: )
+Line 652: )
+Line 653: ID = goto
+Line 653: ID = eexit_2
+Line 653: ;
+Line 659: ID = ep
+Line 659: =
+Line 659: ID = file
+Line 659: -
+Line 659: >
+Line 659: ID = private_data
+Line 659: ;
+Line 662: ID = error
+Line 662: =
+Line 662: ID = ep_poll
+Line 662: (
+Line 662: ID = ep
+Line 662: ,
+Line 662: ID = events
+Line 662: ,
+Line 662: ID = maxevents
+Line 662: ,
+Line 662: ID = timeout
+Line 662: )
+Line 662: ;
+Line 664: ID = eexit_2
+Line 664: Unrecognized token: 58
+Line 665: ID = fput
+Line 665: (
+Line 665: ID = file
+Line 665: )
+Line 665: ;
+Line 666: ID = eexit_1
+Line 666: Unrecognized token: 58
+Line 667: ID = DNPRINTK
+Line 667: (
+Line 667: INTCON = 3
+Line 667: ,
+Line 667: (
+Line 667: ID = KERN_INFO
+Line 667: STRINGCON = "[%p] eventpoll: sys_epoll_wait(%d, %p, %d, %d) = %d\n"
+Line 667: ,
+Line 668: ID = current
+Line 668: ,
+Line 668: ID = epfd
+Line 668: ,
+Line 668: ID = events
+Line 668: ,
+Line 668: ID = maxevents
+Line 668: ,
+Line 668: ID = timeout
+Line 668: ,
+Line 668: ID = error
+Line 668: )
+Line 668: )
+Line 668: ;
+Line 670: return
+Line 670: ID = error
+Line 670: ;
+Line 671: }
+Line 677: ID = static
+Line 677: int
+Line 677: ID = ep_getfd
+Line 677: (
+Line 677: int
+Line 677: *
+Line 677: ID = efd
+Line 677: ,
+Line 677: ID = struct
+Line 677: ID = inode
+Line 677: *
+Line 677: *
+Line 677: ID = einode
+Line 677: ,
+Line 677: ID = struct
+Line 677: ID = file
+Line 677: *
+Line 677: *
+Line 677: ID = efile
+Line 677: )
+Line 678: {
+Line 679: ID = struct
+Line 679: ID = qstr
+Line 679: ID = this
+Line 679: ;
+Line 680: char
+Line 680: ID = name
+Line 680: [
+Line 680: INTCON = 32
+Line 680: ]
+Line 680: ;
+Line 681: ID = struct
+Line 681: ID = dentry
+Line 681: *
+Line 681: ID = dentry
+Line 681: ;
+Line 682: ID = struct
+Line 682: ID = inode
+Line 682: *
+Line 682: ID = inode
+Line 682: ;
+Line 683: ID = struct
+Line 683: ID = file
+Line 683: *
+Line 683: ID = file
+Line 683: ;
+Line 684: int
+Line 684: ID = error
+Line 684: ,
+Line 684: ID = fd
+Line 684: ;
+Line 687: ID = error
+Line 687: =
+Line 687: -
+Line 687: ID = ENFILE
+Line 687: ;
+Line 688: ID = file
+Line 688: =
+Line 688: ID = get_empty_filp
+Line 688: (
+Line 688: )
+Line 688: ;
+Line 689: if
+Line 689: (
+Line 689: !
+Line 689: ID = file
+Line 689: )
+Line 690: ID = goto
+Line 690: ID = eexit_1
+Line 690: ;
+Line 693: ID = inode
+Line 693: =
+Line 693: ID = ep_eventpoll_inode
+Line 693: (
+Line 693: )
+Line 693: ;
+Line 694: ID = error
+Line 694: =
+Line 694: ID = PTR_ERR
+Line 694: (
+Line 694: ID = inode
+Line 694: )
+Line 694: ;
+Line 695: if
+Line 695: (
+Line 695: ID = IS_ERR
+Line 695: (
+Line 695: ID = inode
+Line 695: )
+Line 695: )
+Line 696: ID = goto
+Line 696: ID = eexit_2
+Line 696: ;
+Line 699: ID = error
+Line 699: =
+Line 699: ID = get_unused_fd
+Line 699: (
+Line 699: )
+Line 699: ;
+Line 700: if
+Line 700: (
+Line 700: ID = error
+Line 700: <
+Line 700: INTCON = 0
+Line 700: )
+Line 701: ID = goto
+Line 701: ID = eexit_3
+Line 701: ;
+Line 702: ID = fd
+Line 702: =
+Line 702: ID = error
+Line 702: ;
+Line 708: ID = error
+Line 708: =
+Line 708: -
+Line 708: ID = ENOMEM
+Line 708: ;
+Line 709: ID = sprintf
+Line 709: (
+Line 709: ID = name
+Line 709: ,
+Line 709: STRINGCON = "[%lu]"
+Line 709: ,
+Line 709: ID = inode
+Line 709: -
+Line 709: >
+Line 709: ID = i_ino
+Line 709: )
+Line 709: ;
+Line 710: ID = this
+Line 710: Unrecognized token: 46
+Line 710: ID = name
+Line 710: =
+Line 710: ID = name
+Line 710: ;
+Line 711: ID = this
+Line 711: Unrecognized token: 46
+Line 711: ID = len
+Line 711: =
+Line 711: ID = strlen
+Line 711: (
+Line 711: ID = name
+Line 711: )
+Line 711: ;
+Line 712: ID = this
+Line 712: Unrecognized token: 46
+Line 712: ID = hash
+Line 712: =
+Line 712: ID = inode
+Line 712: -
+Line 712: >
+Line 712: ID = i_ino
+Line 712: ;
+Line 713: ID = dentry
+Line 713: =
+Line 713: ID = d_alloc
+Line 713: (
+Line 713: ID = eventpoll_mnt
+Line 713: -
+Line 713: >
+Line 713: ID = mnt_sb
+Line 713: -
+Line 713: >
+Line 713: ID = s_root
+Line 713: ,
+Line 713: Unrecognized token: 38
+Line 713: ID = this
+Line 713: )
+Line 713: ;
+Line 714: if
+Line 714: (
+Line 714: !
+Line 714: ID = dentry
+Line 714: )
+Line 715: ID = goto
+Line 715: ID = eexit_4
+Line 715: ;
+Line 716: ID = dentry
+Line 716: -
+Line 716: >
+Line 716: ID = d_op
+Line 716: =
+Line 716: Unrecognized token: 38
+Line 716: ID = eventpollfs_dentry_operations
+Line 716: ;
+Line 717: ID = d_add
+Line 717: (
+Line 717: ID = dentry
+Line 717: ,
+Line 717: ID = inode
+Line 717: )
+Line 717: ;
+Line 718: ID = file
+Line 718: -
+Line 718: >
+Line 718: ID = f_vfsmnt
+Line 718: =
+Line 718: ID = mntget
+Line 718: (
+Line 718: ID = eventpoll_mnt
+Line 718: )
+Line 718: ;
+Line 719: ID = file
+Line 719: -
+Line 719: >
+Line 719: ID = f_dentry
+Line 719: =
+Line 719: ID = dentry
+Line 719: ;
+Line 720: ID = file
+Line 720: -
+Line 720: >
+Line 720: ID = f_mapping
+Line 720: =
+Line 720: ID = inode
+Line 720: -
+Line 720: >
+Line 720: ID = i_mapping
+Line 720: ;
+Line 722: ID = file
+Line 722: -
+Line 722: >
+Line 722: ID = f_pos
+Line 722: =
+Line 722: INTCON = 0
+Line 722: ;
+Line 723: ID = file
+Line 723: -
+Line 723: >
+Line 723: ID = f_flags
+Line 723: =
+Line 723: ID = O_RDONLY
+Line 723: ;
+Line 724: ID = file
+Line 724: -
+Line 724: >
+Line 724: ID = f_op
+Line 724: =
+Line 724: Unrecognized token: 38
+Line 724: ID = eventpoll_fops
+Line 724: ;
+Line 725: ID = file
+Line 725: -
+Line 725: >
+Line 725: ID = f_mode
+Line 725: =
+Line 725: ID = FMODE_READ
+Line 725: ;
+Line 726: ID = file
+Line 726: -
+Line 726: >
+Line 726: ID = f_version
+Line 726: =
+Line 726: INTCON = 0
+Line 726: ;
+Line 727: ID = file
+Line 727: -
+Line 727: >
+Line 727: ID = private_data
+Line 727: =
+Line 727: ID = NULL
+Line 727: ;
+Line 730: ID = fd_install
+Line 730: (
+Line 730: ID = fd
+Line 730: ,
+Line 730: ID = file
+Line 730: )
+Line 730: ;
+Line 732: *
+Line 732: ID = efd
+Line 732: =
+Line 732: ID = fd
+Line 732: ;
+Line 733: *
+Line 733: ID = einode
+Line 733: =
+Line 733: ID = inode
+Line 733: ;
+Line 734: *
+Line 734: ID = efile
+Line 734: =
+Line 734: ID = file
+Line 734: ;
+Line 735: return
+Line 735: INTCON = 0
+Line 735: ;
+Line 737: ID = eexit_4
+Line 737: Unrecognized token: 58
+Line 738: ID = put_unused_fd
+Line 738: (
+Line 738: ID = fd
+Line 738: )
+Line 738: ;
+Line 739: ID = eexit_3
+Line 739: Unrecognized token: 58
+Line 740: ID = iput
+Line 740: (
+Line 740: ID = inode
+Line 740: )
+Line 740: ;
+Line 741: ID = eexit_2
+Line 741: Unrecognized token: 58
+Line 742: ID = put_filp
+Line 742: (
+Line 742: ID = file
+Line 742: )
+Line 742: ;
+Line 743: ID = eexit_1
+Line 743: Unrecognized token: 58
+Line 744: return
+Line 744: ID = error
+Line 744: ;
+Line 745: }
+Line 748: ID = static
+Line 748: int
+Line 748: ID = ep_file_init
+Line 748: (
+Line 748: ID = struct
+Line 748: ID = file
+Line 748: *
+Line 748: ID = file
+Line 748: )
+Line 749: {
+Line 750: ID = struct
+Line 750: ID = eventpoll
+Line 750: *
+Line 750: ID = ep
+Line 750: ;
+Line 752: if
+Line 752: (
+Line 752: !
+Line 752: (
+Line 752: ID = ep
+Line 752: =
+Line 752: ID = kmalloc
+Line 752: (
+Line 752: ID = sizeof
+Line 752: (
+Line 752: ID = struct
+Line 752: ID = eventpoll
+Line 752: )
+Line 752: ,
+Line 752: ID = GFP_KERNEL
+Line 752: )
+Line 752: )
+Line 752: )
+Line 753: return
+Line 753: -
+Line 753: ID = ENOMEM
+Line 753: ;
+Line 755: ID = memset
+Line 755: (
+Line 755: ID = ep
+Line 755: ,
+Line 755: INTCON = 0
+Line 755: ,
+Line 755: ID = sizeof
+Line 755: (
+Line 755: *
+Line 755: ID = ep
+Line 755: )
+Line 755: )
+Line 755: ;
+Line 756: ID = rwlock_init
+Line 756: (
+Line 756: Unrecognized token: 38
+Line 756: ID = ep
+Line 756: -
+Line 756: >
+Line 756: ID = lock
+Line 756: )
+Line 756: ;
+Line 757: ID = init_rwsem
+Line 757: (
+Line 757: Unrecognized token: 38
+Line 757: ID = ep
+Line 757: -
+Line 757: >
+Line 757: ID = sem
+Line 757: )
+Line 757: ;
+Line 758: ID = init_waitqueue_head
+Line 758: (
+Line 758: Unrecognized token: 38
+Line 758: ID = ep
+Line 758: -
+Line 758: >
+Line 758: ID = wq
+Line 758: )
+Line 758: ;
+Line 759: ID = init_waitqueue_head
+Line 759: (
+Line 759: Unrecognized token: 38
+Line 759: ID = ep
+Line 759: -
+Line 759: >
+Line 759: ID = poll_wait
+Line 759: )
+Line 759: ;
+Line 760: ID = INIT_LIST_HEAD
+Line 760: (
+Line 760: Unrecognized token: 38
+Line 760: ID = ep
+Line 760: -
+Line 760: >
+Line 760: ID = rdllist
+Line 760: )
+Line 760: ;
+Line 761: ID = ep
+Line 761: -
+Line 761: >
+Line 761: ID = rbr
+Line 761: =
+Line 761: ID = RB_ROOT
+Line 761: ;
+Line 763: ID = file
+Line 763: -
+Line 763: >
+Line 763: ID = private_data
+Line 763: =
+Line 763: ID = ep
+Line 763: ;
+Line 765: ID = DNPRINTK
+Line 765: (
+Line 765: INTCON = 3
+Line 765: ,
+Line 765: (
+Line 765: ID = KERN_INFO
+Line 765: STRINGCON = "[%p] eventpoll: ep_file_init() ep=%p\n"
+Line 765: ,
+Line 766: ID = current
+Line 766: ,
+Line 766: ID = ep
+Line 766: )
+Line 766: )
+Line 766: ;
+Line 767: return
+Line 767: INTCON = 0
+Line 767: ;
+Line 768: }
+Line 771: ID = static
+Line 771: void
+Line 771: ID = ep_free
+Line 771: (
+Line 771: ID = struct
+Line 771: ID = eventpoll
+Line 771: *
+Line 771: ID = ep
+Line 771: )
+Line 772: {
+Line 773: ID = struct
+Line 773: ID = rb_node
+Line 773: *
+Line 773: ID = rbp
+Line 773: ;
+Line 774: ID = struct
+Line 774: ID = epitem
+Line 774: *
+Line 774: ID = epi
+Line 774: ;
+Line 777: if
+Line 777: (
+Line 777: ID = waitqueue_active
+Line 777: (
+Line 777: Unrecognized token: 38
+Line 777: ID = ep
+Line 777: -
+Line 777: >
+Line 777: ID = poll_wait
+Line 777: )
+Line 777: )
+Line 778: ID = ep_poll_safewake
+Line 778: (
+Line 778: Unrecognized token: 38
+Line 778: ID = psw
+Line 778: ,
+Line 778: Unrecognized token: 38
+Line 778: ID = ep
+Line 778: -
+Line 778: >
+Line 778: ID = poll_wait
+Line 778: )
+Line 778: ;
+Line 788: ID = down
+Line 788: (
+Line 788: Unrecognized token: 38
+Line 788: ID = epsem
+Line 788: )
+Line 788: ;
+Line 793: for
+Line 793: (
+Line 793: ID = rbp
+Line 793: =
+Line 793: ID = rb_first
+Line 793: (
+Line 793: Unrecognized token: 38
+Line 793: ID = ep
+Line 793: -
+Line 793: >
+Line 793: ID = rbr
+Line 793: )
+Line 793: ;
+Line 793: ID = rbp
+Line 793: ;
+Line 793: ID = rbp
+Line 793: =
+Line 793: ID = rb_next
+Line 793: (
+Line 793: ID = rbp
+Line 793: )
+Line 793: )
+Line 793: {
+Line 794: ID = epi
+Line 794: =
+Line 794: ID = rb_entry
+Line 794: (
+Line 794: ID = rbp
+Line 794: ,
+Line 794: ID = struct
+Line 794: ID = epitem
+Line 794: ,
+Line 794: ID = rbn
+Line 794: )
+Line 794: ;
+Line 796: ID = ep_unregister_pollwait
+Line 796: (
+Line 796: ID = ep
+Line 796: ,
+Line 796: ID = epi
+Line 796: )
+Line 796: ;
+Line 797: }
+Line 805: while
+Line 805: (
+Line 805: (
+Line 805: ID = rbp
+Line 805: =
+Line 805: ID = rb_first
+Line 805: (
+Line 805: Unrecognized token: 38
+Line 805: ID = ep
+Line 805: -
+Line 805: >
+Line 805: ID = rbr
+Line 805: )
+Line 805: )
+Line 805: !=
+Line 805: INTCON = 0
+Line 805: )
+Line 805: {
+Line 806: ID = epi
+Line 806: =
+Line 806: ID = rb_entry
+Line 806: (
+Line 806: ID = rbp
+Line 806: ,
+Line 806: ID = struct
+Line 806: ID = epitem
+Line 806: ,
+Line 806: ID = rbn
+Line 806: )
+Line 806: ;
+Line 807: ID = ep_remove
+Line 807: (
+Line 807: ID = ep
+Line 807: ,
+Line 807: ID = epi
+Line 807: )
+Line 807: ;
+Line 808: }
+Line 810: ID = up
+Line 810: (
+Line 810: Unrecognized token: 38
+Line 810: ID = epsem
+Line 810: )
+Line 810: ;
+Line 811: }
+Line 819: ID = static
+Line 819: ID = struct
+Line 819: ID = epitem
+Line 819: *
+Line 819: ID = ep_find
+Line 819: (
+Line 819: ID = struct
+Line 819: ID = eventpoll
+Line 819: *
+Line 819: ID = ep
+Line 819: ,
+Line 819: ID = struct
+Line 819: ID = file
+Line 819: *
+Line 819: ID = file
+Line 819: ,
+Line 819: int
+Line 819: ID = fd
+Line 819: )
+Line 820: {
+Line 821: int
+Line 821: ID = kcmp
+Line 821: ;
+Line 822: ID = unsigned
+Line 822: ID = long
+Line 822: ID = flags
+Line 822: ;
+Line 823: ID = struct
+Line 823: ID = rb_node
+Line 823: *
+Line 823: ID = rbp
+Line 823: ;
+Line 824: ID = struct
+Line 824: ID = epitem
+Line 824: *
+Line 824: ID = epi
+Line 824: ,
+Line 824: *
+Line 824: ID = epir
+Line 824: =
+Line 824: ID = NULL
+Line 824: ;
+Line 825: ID = struct
+Line 825: ID = epoll_filefd
+Line 825: ID = ffd
+Line 825: ;
+Line 827: ID = EP_SET_FFD
+Line 827: (
+Line 827: Unrecognized token: 38
+Line 827: ID = ffd
+Line 827: ,
+Line 827: ID = file
+Line 827: ,
+Line 827: ID = fd
+Line 827: )
+Line 827: ;
+Line 828: ID = read_lock_irqsave
+Line 828: (
+Line 828: Unrecognized token: 38
+Line 828: ID = ep
+Line 828: -
+Line 828: >
+Line 828: ID = lock
+Line 828: ,
+Line 828: ID = flags
+Line 828: )
+Line 828: ;
+Line 829: for
+Line 829: (
+Line 829: ID = rbp
+Line 829: =
+Line 829: ID = ep
+Line 829: -
+Line 829: >
+Line 829: ID = rbr
+Line 829: Unrecognized token: 46
+Line 829: ID = rb_node
+Line 829: ;
+Line 829: ID = rbp
+Line 829: ;
+Line 829: )
+Line 829: {
+Line 830: ID = epi
+Line 830: =
+Line 830: ID = rb_entry
+Line 830: (
+Line 830: ID = rbp
+Line 830: ,
+Line 830: ID = struct
+Line 830: ID = epitem
+Line 830: ,
+Line 830: ID = rbn
+Line 830: )
+Line 830: ;
+Line 831: ID = kcmp
+Line 831: =
+Line 831: ID = EP_CMP_FFD
+Line 831: (
+Line 831: Unrecognized token: 38
+Line 831: ID = ffd
+Line 831: ,
+Line 831: Unrecognized token: 38
+Line 831: ID = epi
+Line 831: -
+Line 831: >
+Line 831: ID = ffd
+Line 831: )
+Line 831: ;
+Line 832: if
+Line 832: (
+Line 832: ID = kcmp
+Line 832: >
+Line 832: INTCON = 0
+Line 832: )
+Line 833: ID = rbp
+Line 833: =
+Line 833: ID = rbp
+Line 833: -
+Line 833: >
+Line 833: ID = rb_right
+Line 833: ;
+Line 834: else
+Line 834: if
+Line 834: (
+Line 834: ID = kcmp
+Line 834: <
+Line 834: INTCON = 0
+Line 834: )
+Line 835: ID = rbp
+Line 835: =
+Line 835: ID = rbp
+Line 835: -
+Line 835: >
+Line 835: ID = rb_left
+Line 835: ;
+Line 836: else
+Line 836: {
+Line 837: ID = ep_use_epitem
+Line 837: (
+Line 837: ID = epi
+Line 837: )
+Line 837: ;
+Line 838: ID = epir
+Line 838: =
+Line 838: ID = epi
+Line 838: ;
+Line 839: ID = break
+Line 839: ;
+Line 840: }
+Line 841: }
+Line 842: ID = read_unlock_irqrestore
+Line 842: (
+Line 842: Unrecognized token: 38
+Line 842: ID = ep
+Line 842: -
+Line 842: >
+Line 842: ID = lock
+Line 842: ,
+Line 842: ID = flags
+Line 842: )
+Line 842: ;
+Line 844: ID = DNPRINTK
+Line 844: (
+Line 844: INTCON = 3
+Line 844: ,
+Line 844: (
+Line 844: ID = KERN_INFO
+Line 844: STRINGCON = "[%p] eventpoll: ep_find(%p) -> %p\n"
+Line 844: ,
+Line 845: ID = current
+Line 845: ,
+Line 845: ID = file
+Line 845: ,
+Line 845: ID = epir
+Line 845: )
+Line 845: )
+Line 845: ;
+Line 847: return
+Line 847: ID = epir
+Line 847: ;
+Line 848: }
+Line 855: ID = static
+Line 855: void
+Line 855: ID = ep_use_epitem
+Line 855: (
+Line 855: ID = struct
+Line 855: ID = epitem
+Line 855: *
+Line 855: ID = epi
+Line 855: )
+Line 856: {
+Line 858: ID = atomic_inc
+Line 858: (
+Line 858: Unrecognized token: 38
+Line 858: ID = epi
+Line 858: -
+Line 858: >
+Line 858: ID = usecnt
+Line 858: )
+Line 858: ;
+Line 859: }
+Line 867: ID = static
+Line 867: void
+Line 867: ID = ep_release_epitem
+Line 867: (
+Line 867: ID = struct
+Line 867: ID = epitem
+Line 867: *
+Line 867: ID = epi
+Line 867: )
+Line 868: {
+Line 870: if
+Line 870: (
+Line 870: ID = atomic_dec_and_test
+Line 870: (
+Line 870: Unrecognized token: 38
+Line 870: ID = epi
+Line 870: -
+Line 870: >
+Line 870: ID = usecnt
+Line 870: )
+Line 870: )
+Line 871: ID = EPI_MEM_FREE
+Line 871: (
+Line 871: ID = epi
+Line 871: )
+Line 871: ;
+Line 872: }
+Line 879: ID = static
+Line 879: void
+Line 879: ID = ep_ptable_queue_proc
+Line 879: (
+Line 879: ID = struct
+Line 879: ID = file
+Line 879: *
+Line 879: ID = file
+Line 879: ,
+Line 879: ID = wait_queue_head_t
+Line 879: *
+Line 879: ID = whead
+Line 879: ,
+Line 880: ID = poll_table
+Line 880: *
+Line 880: ID = pt
+Line 880: )
+Line 881: {
+Line 882: ID = struct
+Line 882: ID = epitem
+Line 882: *
+Line 882: ID = epi
+Line 882: =
+Line 882: ID = EP_ITEM_FROM_EPQUEUE
+Line 882: (
+Line 882: ID = pt
+Line 882: )
+Line 882: ;
+Line 883: ID = struct
+Line 883: ID = eppoll_entry
+Line 883: *
+Line 883: ID = pwq
+Line 883: ;
+Line 885: if
+Line 885: (
+Line 885: ID = epi
+Line 885: -
+Line 885: >
+Line 885: ID = nwait
+Line 885: >=
+Line 885: INTCON = 0
+Line 885: &&
+Line 885: (
+Line 885: ID = pwq
+Line 885: =
+Line 885: ID = PWQ_MEM_ALLOC
+Line 885: (
+Line 885: )
+Line 885: )
+Line 885: )
+Line 885: {
+Line 886: ID = init_waitqueue_func_entry
+Line 886: (
+Line 886: Unrecognized token: 38
+Line 886: ID = pwq
+Line 886: -
+Line 886: >
+Line 886: ID = wait
+Line 886: ,
+Line 886: ID = ep_poll_callback
+Line 886: )
+Line 886: ;
+Line 887: ID = pwq
+Line 887: -
+Line 887: >
+Line 887: ID = whead
+Line 887: =
+Line 887: ID = whead
+Line 887: ;
+Line 888: ID = pwq
+Line 888: -
+Line 888: >
+Line 888: ID = base
+Line 888: =
+Line 888: ID = epi
+Line 888: ;
+Line 889: ID = add_wait_queue
+Line 889: (
+Line 889: ID = whead
+Line 889: ,
+Line 889: Unrecognized token: 38
+Line 889: ID = pwq
+Line 889: -
+Line 889: >
+Line 889: ID = wait
+Line 889: )
+Line 889: ;
+Line 890: ID = list_add_tail
+Line 890: (
+Line 890: Unrecognized token: 38
+Line 890: ID = pwq
+Line 890: -
+Line 890: >
+Line 890: ID = llink
+Line 890: ,
+Line 890: Unrecognized token: 38
+Line 890: ID = epi
+Line 890: -
+Line 890: >
+Line 890: ID = pwqlist
+Line 890: )
+Line 890: ;
+Line 891: ID = epi
+Line 891: -
+Line 891: >
+Line 891: ID = nwait
+Line 891: +
+Line 891: +
+Line 891: ;
+Line 892: }
+Line 892: else
+Line 892: {
+Line 894: ID = epi
+Line 894: -
+Line 894: >
+Line 894: ID = nwait
+Line 894: =
+Line 894: -
+Line 894: INTCON = 1
+Line 894: ;
+Line 895: }
+Line 896: }
+Line 899: ID = static
+Line 899: void
+Line 899: ID = ep_rbtree_insert
+Line 899: (
+Line 899: ID = struct
+Line 899: ID = eventpoll
+Line 899: *
+Line 899: ID = ep
+Line 899: ,
+Line 899: ID = struct
+Line 899: ID = epitem
+Line 899: *
+Line 899: ID = epi
+Line 899: )
+Line 900: {
+Line 901: int
+Line 901: ID = kcmp
+Line 901: ;
+Line 902: ID = struct
+Line 902: ID = rb_node
+Line 902: *
+Line 902: *
+Line 902: ID = p
+Line 902: =
+Line 902: Unrecognized token: 38
+Line 902: ID = ep
+Line 902: -
+Line 902: >
+Line 902: ID = rbr
+Line 902: Unrecognized token: 46
+Line 902: ID = rb_node
+Line 902: ,
+Line 902: *
+Line 902: ID = parent
+Line 902: =
+Line 902: ID = NULL
+Line 902: ;
+Line 903: ID = struct
+Line 903: ID = epitem
+Line 903: *
+Line 903: ID = epic
+Line 903: ;
+Line 905: while
+Line 905: (
+Line 905: *
+Line 905: ID = p
+Line 905: )
+Line 905: {
+Line 906: ID = parent
+Line 906: =
+Line 906: *
+Line 906: ID = p
+Line 906: ;
+Line 907: ID = epic
+Line 907: =
+Line 907: ID = rb_entry
+Line 907: (
+Line 907: ID = parent
+Line 907: ,
+Line 907: ID = struct
+Line 907: ID = epitem
+Line 907: ,
+Line 907: ID = rbn
+Line 907: )
+Line 907: ;
+Line 908: ID = kcmp
+Line 908: =
+Line 908: ID = EP_CMP_FFD
+Line 908: (
+Line 908: Unrecognized token: 38
+Line 908: ID = epi
+Line 908: -
+Line 908: >
+Line 908: ID = ffd
+Line 908: ,
+Line 908: Unrecognized token: 38
+Line 908: ID = epic
+Line 908: -
+Line 908: >
+Line 908: ID = ffd
+Line 908: )
+Line 908: ;
+Line 909: if
+Line 909: (
+Line 909: ID = kcmp
+Line 909: >
+Line 909: INTCON = 0
+Line 909: )
+Line 910: ID = p
+Line 910: =
+Line 910: Unrecognized token: 38
+Line 910: ID = parent
+Line 910: -
+Line 910: >
+Line 910: ID = rb_right
+Line 910: ;
+Line 911: else
+Line 912: ID = p
+Line 912: =
+Line 912: Unrecognized token: 38
+Line 912: ID = parent
+Line 912: -
+Line 912: >
+Line 912: ID = rb_left
+Line 912: ;
+Line 913: }
+Line 914: ID = rb_link_node
+Line 914: (
+Line 914: Unrecognized token: 38
+Line 914: ID = epi
+Line 914: -
+Line 914: >
+Line 914: ID = rbn
+Line 914: ,
+Line 914: ID = parent
+Line 914: ,
+Line 914: ID = p
+Line 914: )
+Line 914: ;
+Line 915: ID = rb_insert_color
+Line 915: (
+Line 915: Unrecognized token: 38
+Line 915: ID = epi
+Line 915: -
+Line 915: >
+Line 915: ID = rbn
+Line 915: ,
+Line 915: Unrecognized token: 38
+Line 915: ID = ep
+Line 915: -
+Line 915: >
+Line 915: ID = rbr
+Line 915: )
+Line 915: ;
+Line 916: }
+Line 919: ID = static
+Line 919: int
+Line 919: ID = ep_insert
+Line 919: (
+Line 919: ID = struct
+Line 919: ID = eventpoll
+Line 919: *
+Line 919: ID = ep
+Line 919: ,
+Line 919: ID = struct
+Line 919: ID = epoll_event
+Line 919: *
+Line 919: ID = event
+Line 919: ,
+Line 920: ID = struct
+Line 920: ID = file
+Line 920: *
+Line 920: ID = tfile
+Line 920: ,
+Line 920: int
+Line 920: ID = fd
+Line 920: )
+Line 921: {
+Line 922: int
+Line 922: ID = error
+Line 922: ,
+Line 922: ID = revents
+Line 922: ,
+Line 922: ID = pwake
+Line 922: =
+Line 922: INTCON = 0
+Line 922: ;
+Line 923: ID = unsigned
+Line 923: ID = long
+Line 923: ID = flags
+Line 923: ;
+Line 924: ID = struct
+Line 924: ID = epitem
+Line 924: *
+Line 924: ID = epi
+Line 924: ;
+Line 925: ID = struct
+Line 925: ID = ep_pqueue
+Line 925: ID = epq
+Line 925: ;
+Line 927: ID = error
+Line 927: =
+Line 927: -
+Line 927: ID = ENOMEM
+Line 927: ;
+Line 928: if
+Line 928: (
+Line 928: !
+Line 928: (
+Line 928: ID = epi
+Line 928: =
+Line 928: ID = EPI_MEM_ALLOC
+Line 928: (
+Line 928: )
+Line 928: )
+Line 928: )
+Line 929: ID = goto
+Line 929: ID = eexit_1
+Line 929: ;
+Line 932: ID = EP_RB_INITNODE
+Line 932: (
+Line 932: Unrecognized token: 38
+Line 932: ID = epi
+Line 932: -
+Line 932: >
+Line 932: ID = rbn
+Line 932: )
+Line 932: ;
+Line 933: ID = INIT_LIST_HEAD
+Line 933: (
+Line 933: Unrecognized token: 38
+Line 933: ID = epi
+Line 933: -
+Line 933: >
+Line 933: ID = rdllink
+Line 933: )
+Line 933: ;
+Line 934: ID = INIT_LIST_HEAD
+Line 934: (
+Line 934: Unrecognized token: 38
+Line 934: ID = epi
+Line 934: -
+Line 934: >
+Line 934: ID = fllink
+Line 934: )
+Line 934: ;
+Line 935: ID = INIT_LIST_HEAD
+Line 935: (
+Line 935: Unrecognized token: 38
+Line 935: ID = epi
+Line 935: -
+Line 935: >
+Line 935: ID = txlink
+Line 935: )
+Line 935: ;
+Line 936: ID = INIT_LIST_HEAD
+Line 936: (
+Line 936: Unrecognized token: 38
+Line 936: ID = epi
+Line 936: -
+Line 936: >
+Line 936: ID = pwqlist
+Line 936: )
+Line 936: ;
+Line 937: ID = epi
+Line 937: -
+Line 937: >
+Line 937: ID = ep
+Line 937: =
+Line 937: ID = ep
+Line 937: ;
+Line 938: ID = EP_SET_FFD
+Line 938: (
+Line 938: Unrecognized token: 38
+Line 938: ID = epi
+Line 938: -
+Line 938: >
+Line 938: ID = ffd
+Line 938: ,
+Line 938: ID = tfile
+Line 938: ,
+Line 938: ID = fd
+Line 938: )
+Line 938: ;
+Line 939: ID = epi
+Line 939: -
+Line 939: >
+Line 939: ID = event
+Line 939: =
+Line 939: *
+Line 939: ID = event
+Line 939: ;
+Line 940: ID = atomic_set
+Line 940: (
+Line 940: Unrecognized token: 38
+Line 940: ID = epi
+Line 940: -
+Line 940: >
+Line 940: ID = usecnt
+Line 940: ,
+Line 940: INTCON = 1
+Line 940: )
+Line 940: ;
+Line 941: ID = epi
+Line 941: -
+Line 941: >
+Line 941: ID = nwait
+Line 941: =
+Line 941: INTCON = 0
+Line 941: ;
+Line 944: ID = epq
+Line 944: Unrecognized token: 46
+Line 944: ID = epi
+Line 944: =
+Line 944: ID = epi
+Line 944: ;
+Line 945: ID = init_poll_funcptr
+Line 945: (
+Line 945: Unrecognized token: 38
+Line 945: ID = epq
+Line 945: Unrecognized token: 46
+Line 945: ID = pt
+Line 945: ,
+Line 945: ID = ep_ptable_queue_proc
+Line 945: )
+Line 945: ;
+Line 952: ID = revents
+Line 952: =
+Line 952: ID = tfile
+Line 952: -
+Line 952: >
+Line 952: ID = f_op
+Line 952: -
+Line 952: >
+Line 952: ID = poll
+Line 952: (
+Line 952: ID = tfile
+Line 952: ,
+Line 952: Unrecognized token: 38
+Line 952: ID = epq
+Line 952: Unrecognized token: 46
+Line 952: ID = pt
+Line 952: )
+Line 952: ;
+Line 959: if
+Line 959: (
+Line 959: ID = epi
+Line 959: -
+Line 959: >
+Line 959: ID = nwait
+Line 959: <
+Line 959: INTCON = 0
+Line 959: )
+Line 960: ID = goto
+Line 960: ID = eexit_2
+Line 960: ;
+Line 963: ID = spin_lock
+Line 963: (
+Line 963: Unrecognized token: 38
+Line 963: ID = tfile
+Line 963: -
+Line 963: >
+Line 963: ID = f_ep_lock
+Line 963: )
+Line 963: ;
+Line 964: ID = list_add_tail
+Line 964: (
+Line 964: Unrecognized token: 38
+Line 964: ID = epi
+Line 964: -
+Line 964: >
+Line 964: ID = fllink
+Line 964: ,
+Line 964: Unrecognized token: 38
+Line 964: ID = tfile
+Line 964: -
+Line 964: >
+Line 964: ID = f_ep_links
+Line 964: )
+Line 964: ;
+Line 965: ID = spin_unlock
+Line 965: (
+Line 965: Unrecognized token: 38
+Line 965: ID = tfile
+Line 965: -
+Line 965: >
+Line 965: ID = f_ep_lock
+Line 965: )
+Line 965: ;
+Line 968: ID = write_lock_irqsave
+Line 968: (
+Line 968: Unrecognized token: 38
+Line 968: ID = ep
+Line 968: -
+Line 968: >
+Line 968: ID = lock
+Line 968: ,
+Line 968: ID = flags
+Line 968: )
+Line 968: ;
+Line 971: ID = ep_rbtree_insert
+Line 971: (
+Line 971: ID = ep
+Line 971: ,
+Line 971: ID = epi
+Line 971: )
+Line 971: ;
+Line 974: if
+Line 974: (
+Line 974: (
+Line 974: ID = revents
+Line 974: Unrecognized token: 38
+Line 974: ID = event
+Line 974: -
+Line 974: >
+Line 974: ID = events
+Line 974: )
+Line 974: &&
+Line 974: !
+Line 974: ID = EP_IS_LINKED
+Line 974: (
+Line 974: Unrecognized token: 38
+Line 974: ID = epi
+Line 974: -
+Line 974: >
+Line 974: ID = rdllink
+Line 974: )
+Line 974: )
+Line 974: {
+Line 975: ID = list_add_tail
+Line 975: (
+Line 975: Unrecognized token: 38
+Line 975: ID = epi
+Line 975: -
+Line 975: >
+Line 975: ID = rdllink
+Line 975: ,
+Line 975: Unrecognized token: 38
+Line 975: ID = ep
+Line 975: -
+Line 975: >
+Line 975: ID = rdllist
+Line 975: )
+Line 975: ;
+Line 978: if
+Line 978: (
+Line 978: ID = waitqueue_active
+Line 978: (
+Line 978: Unrecognized token: 38
+Line 978: ID = ep
+Line 978: -
+Line 978: >
+Line 978: ID = wq
+Line 978: )
+Line 978: )
+Line 979: ID = wake_up
+Line 979: (
+Line 979: Unrecognized token: 38
+Line 979: ID = ep
+Line 979: -
+Line 979: >
+Line 979: ID = wq
+Line 979: )
+Line 979: ;
+Line 980: if
+Line 980: (
+Line 980: ID = waitqueue_active
+Line 980: (
+Line 980: Unrecognized token: 38
+Line 980: ID = ep
+Line 980: -
+Line 980: >
+Line 980: ID = poll_wait
+Line 980: )
+Line 980: )
+Line 981: ID = pwake
+Line 981: +
+Line 981: +
+Line 981: ;
+Line 982: }
+Line 984: ID = write_unlock_irqrestore
+Line 984: (
+Line 984: Unrecognized token: 38
+Line 984: ID = ep
+Line 984: -
+Line 984: >
+Line 984: ID = lock
+Line 984: ,
+Line 984: ID = flags
+Line 984: )
+Line 984: ;
+Line 987: if
+Line 987: (
+Line 987: ID = pwake
+Line 987: )
+Line 988: ID = ep_poll_safewake
+Line 988: (
+Line 988: Unrecognized token: 38
+Line 988: ID = psw
+Line 988: ,
+Line 988: Unrecognized token: 38
+Line 988: ID = ep
+Line 988: -
+Line 988: >
+Line 988: ID = poll_wait
+Line 988: )
+Line 988: ;
+Line 990: ID = DNPRINTK
+Line 990: (
+Line 990: INTCON = 3
+Line 990: ,
+Line 990: (
+Line 990: ID = KERN_INFO
+Line 990: STRINGCON = "[%p] eventpoll: ep_insert(%p, %p, %d)\n"
+Line 990: ,
+Line 991: ID = current
+Line 991: ,
+Line 991: ID = ep
+Line 991: ,
+Line 991: ID = tfile
+Line 991: ,
+Line 991: ID = fd
+Line 991: )
+Line 991: )
+Line 991: ;
+Line 993: return
+Line 993: INTCON = 0
+Line 993: ;
+Line 995: ID = eexit_2
+Line 995: Unrecognized token: 58
+Line 996: ID = ep_unregister_pollwait
+Line 996: (
+Line 996: ID = ep
+Line 996: ,
+Line 996: ID = epi
+Line 996: )
+Line 996: ;
+Line 1002: ID = write_lock_irqsave
+Line 1002: (
+Line 1002: Unrecognized token: 38
+Line 1002: ID = ep
+Line 1002: -
+Line 1002: >
+Line 1002: ID = lock
+Line 1002: ,
+Line 1002: ID = flags
+Line 1002: )
+Line 1002: ;
+Line 1003: if
+Line 1003: (
+Line 1003: ID = EP_IS_LINKED
+Line 1003: (
+Line 1003: Unrecognized token: 38
+Line 1003: ID = epi
+Line 1003: -
+Line 1003: >
+Line 1003: ID = rdllink
+Line 1003: )
+Line 1003: )
+Line 1004: ID = EP_LIST_DEL
+Line 1004: (
+Line 1004: Unrecognized token: 38
+Line 1004: ID = epi
+Line 1004: -
+Line 1004: >
+Line 1004: ID = rdllink
+Line 1004: )
+Line 1004: ;
+Line 1005: ID = write_unlock_irqrestore
+Line 1005: (
+Line 1005: Unrecognized token: 38
+Line 1005: ID = ep
+Line 1005: -
+Line 1005: >
+Line 1005: ID = lock
+Line 1005: ,
+Line 1005: ID = flags
+Line 1005: )
+Line 1005: ;
+Line 1007: ID = EPI_MEM_FREE
+Line 1007: (
+Line 1007: ID = epi
+Line 1007: )
+Line 1007: ;
+Line 1008: ID = eexit_1
+Line 1008: Unrecognized token: 58
+Line 1009: return
+Line 1009: ID = error
+Line 1009: ;
+Line 1010: }
+Line 1017: ID = static
+Line 1017: int
+Line 1017: ID = ep_modify
+Line 1017: (
+Line 1017: ID = struct
+Line 1017: ID = eventpoll
+Line 1017: *
+Line 1017: ID = ep
+Line 1017: ,
+Line 1017: ID = struct
+Line 1017: ID = epitem
+Line 1017: *
+Line 1017: ID = epi
+Line 1017: ,
+Line 1017: ID = struct
+Line 1017: ID = epoll_event
+Line 1017: *
+Line 1017: ID = event
+Line 1017: )
+Line 1018: {
+Line 1019: int
+Line 1019: ID = pwake
+Line 1019: =
+Line 1019: INTCON = 0
+Line 1019: ;
+Line 1020: ID = unsigned
+Line 1020: int
+Line 1020: ID = revents
+Line 1020: ;
+Line 1021: ID = unsigned
+Line 1021: ID = long
+Line 1021: ID = flags
+Line 1021: ;
+Line 1029: ID = epi
+Line 1029: -
+Line 1029: >
+Line 1029: ID = event
+Line 1029: Unrecognized token: 46
+Line 1029: ID = events
+Line 1029: =
+Line 1029: ID = event
+Line 1029: -
+Line 1029: >
+Line 1029: ID = events
+Line 1029: ;
+Line 1035: ID = revents
+Line 1035: =
+Line 1035: ID = epi
+Line 1035: -
+Line 1035: >
+Line 1035: ID = ffd
+Line 1035: Unrecognized token: 46
+Line 1035: ID = file
+Line 1035: -
+Line 1035: >
+Line 1035: ID = f_op
+Line 1035: -
+Line 1035: >
+Line 1035: ID = poll
+Line 1035: (
+Line 1035: ID = epi
+Line 1035: -
+Line 1035: >
+Line 1035: ID = ffd
+Line 1035: Unrecognized token: 46
+Line 1035: ID = file
+Line 1035: ,
+Line 1035: ID = NULL
+Line 1035: )
+Line 1035: ;
+Line 1037: ID = write_lock_irqsave
+Line 1037: (
+Line 1037: Unrecognized token: 38
+Line 1037: ID = ep
+Line 1037: -
+Line 1037: >
+Line 1037: ID = lock
+Line 1037: ,
+Line 1037: ID = flags
+Line 1037: )
+Line 1037: ;
+Line 1040: ID = epi
+Line 1040: -
+Line 1040: >
+Line 1040: ID = event
+Line 1040: Unrecognized token: 46
+Line 1040: ID = data
+Line 1040: =
+Line 1040: ID = event
+Line 1040: -
+Line 1040: >
+Line 1040: ID = data
+Line 1040: ;
+Line 1046: if
+Line 1046: (
+Line 1046: ID = EP_RB_LINKED
+Line 1046: (
+Line 1046: Unrecognized token: 38
+Line 1046: ID = epi
+Line 1046: -
+Line 1046: >
+Line 1046: ID = rbn
+Line 1046: )
+Line 1046: )
+Line 1046: {
+Line 1052: if
+Line 1052: (
+Line 1052: ID = revents
+Line 1052: Unrecognized token: 38
+Line 1052: ID = event
+Line 1052: -
+Line 1052: >
+Line 1052: ID = events
+Line 1052: )
+Line 1052: {
+Line 1053: if
+Line 1053: (
+Line 1053: !
+Line 1053: ID = EP_IS_LINKED
+Line 1053: (
+Line 1053: Unrecognized token: 38
+Line 1053: ID = epi
+Line 1053: -
+Line 1053: >
+Line 1053: ID = rdllink
+Line 1053: )
+Line 1053: )
+Line 1053: {
+Line 1054: ID = list_add_tail
+Line 1054: (
+Line 1054: Unrecognized token: 38
+Line 1054: ID = epi
+Line 1054: -
+Line 1054: >
+Line 1054: ID = rdllink
+Line 1054: ,
+Line 1054: Unrecognized token: 38
+Line 1054: ID = ep
+Line 1054: -
+Line 1054: >
+Line 1054: ID = rdllist
+Line 1054: )
+Line 1054: ;
+Line 1057: if
+Line 1057: (
+Line 1057: ID = waitqueue_active
+Line 1057: (
+Line 1057: Unrecognized token: 38
+Line 1057: ID = ep
+Line 1057: -
+Line 1057: >
+Line 1057: ID = wq
+Line 1057: )
+Line 1057: )
+Line 1058: ID = wake_up
+Line 1058: (
+Line 1058: Unrecognized token: 38
+Line 1058: ID = ep
+Line 1058: -
+Line 1058: >
+Line 1058: ID = wq
+Line 1058: )
+Line 1058: ;
+Line 1059: if
+Line 1059: (
+Line 1059: ID = waitqueue_active
+Line 1059: (
+Line 1059: Unrecognized token: 38
+Line 1059: ID = ep
+Line 1059: -
+Line 1059: >
+Line 1059: ID = poll_wait
+Line 1059: )
+Line 1059: )
+Line 1060: ID = pwake
+Line 1060: +
+Line 1060: +
+Line 1060: ;
+Line 1061: }
+Line 1062: }
+Line 1063: }
+Line 1065: ID = write_unlock_irqrestore
+Line 1065: (
+Line 1065: Unrecognized token: 38
+Line 1065: ID = ep
+Line 1065: -
+Line 1065: >
+Line 1065: ID = lock
+Line 1065: ,
+Line 1065: ID = flags
+Line 1065: )
+Line 1065: ;
+Line 1068: if
+Line 1068: (
+Line 1068: ID = pwake
+Line 1068: )
+Line 1069: ID = ep_poll_safewake
+Line 1069: (
+Line 1069: Unrecognized token: 38
+Line 1069: ID = psw
+Line 1069: ,
+Line 1069: Unrecognized token: 38
+Line 1069: ID = ep
+Line 1069: -
+Line 1069: >
+Line 1069: ID = poll_wait
+Line 1069: )
+Line 1069: ;
+Line 1071: return
+Line 1071: INTCON = 0
+Line 1071: ;
+Line 1072: }
+Line 1080: ID = static
+Line 1080: void
+Line 1080: ID = ep_unregister_pollwait
+Line 1080: (
+Line 1080: ID = struct
+Line 1080: ID = eventpoll
+Line 1080: *
+Line 1080: ID = ep
+Line 1080: ,
+Line 1080: ID = struct
+Line 1080: ID = epitem
+Line 1080: *
+Line 1080: ID = epi
+Line 1080: )
+Line 1081: {
+Line 1082: int
+Line 1082: ID = nwait
+Line 1082: ;
+Line 1083: ID = struct
+Line 1083: ID = list_head
+Line 1083: *
+Line 1083: ID = lsthead
+Line 1083: =
+Line 1083: Unrecognized token: 38
+Line 1083: ID = epi
+Line 1083: -
+Line 1083: >
+Line 1083: ID = pwqlist
+Line 1083: ;
+Line 1084: ID = struct
+Line 1084: ID = eppoll_entry
+Line 1084: *
+Line 1084: ID = pwq
+Line 1084: ;
+Line 1087: ID = nwait
+Line 1087: =
+Line 1087: ID = xchg
+Line 1087: (
+Line 1087: Unrecognized token: 38
+Line 1087: ID = epi
+Line 1087: -
+Line 1087: >
+Line 1087: ID = nwait
+Line 1087: ,
+Line 1087: INTCON = 0
+Line 1087: )
+Line 1087: ;
+Line 1089: if
+Line 1089: (
+Line 1089: ID = nwait
+Line 1089: )
+Line 1089: {
+Line 1090: while
+Line 1090: (
+Line 1090: !
+Line 1090: ID = list_empty
+Line 1090: (
+Line 1090: ID = lsthead
+Line 1090: )
+Line 1090: )
+Line 1090: {
+Line 1091: ID = pwq
+Line 1091: =
+Line 1091: ID = list_entry
+Line 1091: (
+Line 1091: ID = lsthead
+Line 1091: -
+Line 1091: >
+Line 1091: ID = next
+Line 1091: ,
+Line 1091: ID = struct
+Line 1091: ID = eppoll_entry
+Line 1091: ,
+Line 1091: ID = llink
+Line 1091: )
+Line 1091: ;
+Line 1093: ID = EP_LIST_DEL
+Line 1093: (
+Line 1093: Unrecognized token: 38
+Line 1093: ID = pwq
+Line 1093: -
+Line 1093: >
+Line 1093: ID = llink
+Line 1093: )
+Line 1093: ;
+Line 1094: ID = remove_wait_queue
+Line 1094: (
+Line 1094: ID = pwq
+Line 1094: -
+Line 1094: >
+Line 1094: ID = whead
+Line 1094: ,
+Line 1094: Unrecognized token: 38
+Line 1094: ID = pwq
+Line 1094: -
+Line 1094: >
+Line 1094: ID = wait
+Line 1094: )
+Line 1094: ;
+Line 1095: ID = PWQ_MEM_FREE
+Line 1095: (
+Line 1095: ID = pwq
+Line 1095: )
+Line 1095: ;
+Line 1096: }
+Line 1097: }
+Line 1098: }
+Line 1105: ID = static
+Line 1105: int
+Line 1105: ID = ep_unlink
+Line 1105: (
+Line 1105: ID = struct
+Line 1105: ID = eventpoll
+Line 1105: *
+Line 1105: ID = ep
+Line 1105: ,
+Line 1105: ID = struct
+Line 1105: ID = epitem
+Line 1105: *
+Line 1105: ID = epi
+Line 1105: )
+Line 1106: {
+Line 1107: int
+Line 1107: ID = error
+Line 1107: ;
+Line 1113: ID = error
+Line 1113: =
+Line 1113: -
+Line 1113: ID = ENOENT
+Line 1113: ;
+Line 1114: if
+Line 1114: (
+Line 1114: !
+Line 1114: ID = EP_RB_LINKED
+Line 1114: (
+Line 1114: Unrecognized token: 38
+Line 1114: ID = epi
+Line 1114: -
+Line 1114: >
+Line 1114: ID = rbn
+Line 1114: )
+Line 1114: )
+Line 1115: ID = goto
+Line 1115: ID = eexit_1
+Line 1115: ;
+Line 1122: ID = epi
+Line 1122: -
+Line 1122: >
+Line 1122: ID = event
+Line 1122: Unrecognized token: 46
+Line 1122: ID = events
+Line 1122: =
+Line 1122: INTCON = 0
+Line 1122: ;
+Line 1129: ID = EP_RB_ERASE
+Line 1129: (
+Line 1129: Unrecognized token: 38
+Line 1129: ID = epi
+Line 1129: -
+Line 1129: >
+Line 1129: ID = rbn
+Line 1129: ,
+Line 1129: Unrecognized token: 38
+Line 1129: ID = ep
+Line 1129: -
+Line 1129: >
+Line 1129: ID = rbr
+Line 1129: )
+Line 1129: ;
+Line 1135: if
+Line 1135: (
+Line 1135: ID = EP_IS_LINKED
+Line 1135: (
+Line 1135: Unrecognized token: 38
+Line 1135: ID = epi
+Line 1135: -
+Line 1135: >
+Line 1135: ID = rdllink
+Line 1135: )
+Line 1135: )
+Line 1136: ID = EP_LIST_DEL
+Line 1136: (
+Line 1136: Unrecognized token: 38
+Line 1136: ID = epi
+Line 1136: -
+Line 1136: >
+Line 1136: ID = rdllink
+Line 1136: )
+Line 1136: ;
+Line 1138: ID = error
+Line 1138: =
+Line 1138: INTCON = 0
+Line 1138: ;
+Line 1139: ID = eexit_1
+Line 1139: Unrecognized token: 58
+Line 1141: ID = DNPRINTK
+Line 1141: (
+Line 1141: INTCON = 3
+Line 1141: ,
+Line 1141: (
+Line 1141: ID = KERN_INFO
+Line 1141: STRINGCON = "[%p] eventpoll: ep_unlink(%p, %p) = %d\n"
+Line 1141: ,
+Line 1142: ID = current
+Line 1142: ,
+Line 1142: ID = ep
+Line 1142: ,
+Line 1142: ID = epi
+Line 1142: -
+Line 1142: >
+Line 1142: ID = file
+Line 1142: ,
+Line 1142: ID = error
+Line 1142: )
+Line 1142: )
+Line 1142: ;
+Line 1144: return
+Line 1144: ID = error
+Line 1144: ;
+Line 1145: }
+Line 1152: ID = static
+Line 1152: int
+Line 1152: ID = ep_remove
+Line 1152: (
+Line 1152: ID = struct
+Line 1152: ID = eventpoll
+Line 1152: *
+Line 1152: ID = ep
+Line 1152: ,
+Line 1152: ID = struct
+Line 1152: ID = epitem
+Line 1152: *
+Line 1152: ID = epi
+Line 1152: )
+Line 1153: {
+Line 1154: int
+Line 1154: ID = error
+Line 1154: ;
+Line 1155: ID = unsigned
+Line 1155: ID = long
+Line 1155: ID = flags
+Line 1155: ;
+Line 1156: ID = struct
+Line 1156: ID = file
+Line 1156: *
+Line 1156: ID = file
+Line 1156: =
+Line 1156: ID = epi
+Line 1156: -
+Line 1156: >
+Line 1156: ID = ffd
+Line 1156: Unrecognized token: 46
+Line 1156: ID = file
+Line 1156: ;
+Line 1166: ID = ep_unregister_pollwait
+Line 1166: (
+Line 1166: ID = ep
+Line 1166: ,
+Line 1166: ID = epi
+Line 1166: )
+Line 1166: ;
+Line 1169: ID = spin_lock
+Line 1169: (
+Line 1169: Unrecognized token: 38
+Line 1169: ID = file
+Line 1169: -
+Line 1169: >
+Line 1169: ID = f_ep_lock
+Line 1169: )
+Line 1169: ;
+Line 1170: if
+Line 1170: (
+Line 1170: ID = EP_IS_LINKED
+Line 1170: (
+Line 1170: Unrecognized token: 38
+Line 1170: ID = epi
+Line 1170: -
+Line 1170: >
+Line 1170: ID = fllink
+Line 1170: )
+Line 1170: )
+Line 1171: ID = EP_LIST_DEL
+Line 1171: (
+Line 1171: Unrecognized token: 38
+Line 1171: ID = epi
+Line 1171: -
+Line 1171: >
+Line 1171: ID = fllink
+Line 1171: )
+Line 1171: ;
+Line 1172: ID = spin_unlock
+Line 1172: (
+Line 1172: Unrecognized token: 38
+Line 1172: ID = file
+Line 1172: -
+Line 1172: >
+Line 1172: ID = f_ep_lock
+Line 1172: )
+Line 1172: ;
+Line 1175: ID = write_lock_irqsave
+Line 1175: (
+Line 1175: Unrecognized token: 38
+Line 1175: ID = ep
+Line 1175: -
+Line 1175: >
+Line 1175: ID = lock
+Line 1175: ,
+Line 1175: ID = flags
+Line 1175: )
+Line 1175: ;
+Line 1178: ID = error
+Line 1178: =
+Line 1178: ID = ep_unlink
+Line 1178: (
+Line 1178: ID = ep
+Line 1178: ,
+Line 1178: ID = epi
+Line 1178: )
+Line 1178: ;
+Line 1180: ID = write_unlock_irqrestore
+Line 1180: (
+Line 1180: Unrecognized token: 38
+Line 1180: ID = ep
+Line 1180: -
+Line 1180: >
+Line 1180: ID = lock
+Line 1180: ,
+Line 1180: ID = flags
+Line 1180: )
+Line 1180: ;
+Line 1182: if
+Line 1182: (
+Line 1182: ID = error
+Line 1182: )
+Line 1183: ID = goto
+Line 1183: ID = eexit_1
+Line 1183: ;
+Line 1186: ID = ep_release_epitem
+Line 1186: (
+Line 1186: ID = epi
+Line 1186: )
+Line 1186: ;
+Line 1188: ID = error
+Line 1188: =
+Line 1188: INTCON = 0
+Line 1188: ;
+Line 1189: ID = eexit_1
+Line 1189: Unrecognized token: 58
+Line 1190: ID = DNPRINTK
+Line 1190: (
+Line 1190: INTCON = 3
+Line 1190: ,
+Line 1190: (
+Line 1190: ID = KERN_INFO
+Line 1190: STRINGCON = "[%p] eventpoll: ep_remove(%p, %p) = %d\n"
+Line 1190: ,
+Line 1191: ID = current
+Line 1191: ,
+Line 1191: ID = ep
+Line 1191: ,
+Line 1191: ID = file
+Line 1191: ,
+Line 1191: ID = error
+Line 1191: )
+Line 1191: )
+Line 1191: ;
+Line 1193: return
+Line 1193: ID = error
+Line 1193: ;
+Line 1194: }
+Line 1202: ID = static
+Line 1202: int
+Line 1202: ID = ep_poll_callback
+Line 1202: (
+Line 1202: ID = wait_queue_t
+Line 1202: *
+Line 1202: ID = wait
+Line 1202: ,
+Line 1202: ID = unsigned
+Line 1202: ID = mode
+Line 1202: ,
+Line 1202: int
+Line 1202: ID = sync
+Line 1202: ,
+Line 1202: void
+Line 1202: *
+Line 1202: ID = key
+Line 1202: )
+Line 1203: {
+Line 1204: int
+Line 1204: ID = pwake
+Line 1204: =
+Line 1204: INTCON = 0
+Line 1204: ;
+Line 1205: ID = unsigned
+Line 1205: ID = long
+Line 1205: ID = flags
+Line 1205: ;
+Line 1206: ID = struct
+Line 1206: ID = epitem
+Line 1206: *
+Line 1206: ID = epi
+Line 1206: =
+Line 1206: ID = EP_ITEM_FROM_WAIT
+Line 1206: (
+Line 1206: ID = wait
+Line 1206: )
+Line 1206: ;
+Line 1207: ID = struct
+Line 1207: ID = eventpoll
+Line 1207: *
+Line 1207: ID = ep
+Line 1207: =
+Line 1207: ID = epi
+Line 1207: -
+Line 1207: >
+Line 1207: ID = ep
+Line 1207: ;
+Line 1209: ID = DNPRINTK
+Line 1209: (
+Line 1209: INTCON = 3
+Line 1209: ,
+Line 1209: (
+Line 1209: ID = KERN_INFO
+Line 1209: STRINGCON = "[%p] eventpoll: poll_callback(%p) epi=%p ep=%p\n"
+Line 1209: ,
+Line 1210: ID = current
+Line 1210: ,
+Line 1210: ID = epi
+Line 1210: -
+Line 1210: >
+Line 1210: ID = file
+Line 1210: ,
+Line 1210: ID = epi
+Line 1210: ,
+Line 1210: ID = ep
+Line 1210: )
+Line 1210: )
+Line 1210: ;
+Line 1212: ID = write_lock_irqsave
+Line 1212: (
+Line 1212: Unrecognized token: 38
+Line 1212: ID = ep
+Line 1212: -
+Line 1212: >
+Line 1212: ID = lock
+Line 1212: ,
+Line 1212: ID = flags
+Line 1212: )
+Line 1212: ;
+Line 1220: if
+Line 1220: (
+Line 1220: !
+Line 1220: (
+Line 1220: ID = epi
+Line 1220: -
+Line 1220: >
+Line 1220: ID = event
+Line 1220: Unrecognized token: 46
+Line 1220: ID = events
+Line 1220: Unrecognized token: 38
+Line 1220: Unrecognized token: 126
+Line 1220: ID = EP_PRIVATE_BITS
+Line 1220: )
+Line 1220: )
+Line 1221: ID = goto
+Line 1221: ID = is_disabled
+Line 1221: ;
+Line 1224: if
+Line 1224: (
+Line 1224: ID = EP_IS_LINKED
+Line 1224: (
+Line 1224: Unrecognized token: 38
+Line 1224: ID = epi
+Line 1224: -
+Line 1224: >
+Line 1224: ID = rdllink
+Line 1224: )
+Line 1224: )
+Line 1225: ID = goto
+Line 1225: ID = is_linked
+Line 1225: ;
+Line 1227: ID = list_add_tail
+Line 1227: (
+Line 1227: Unrecognized token: 38
+Line 1227: ID = epi
+Line 1227: -
+Line 1227: >
+Line 1227: ID = rdllink
+Line 1227: ,
+Line 1227: Unrecognized token: 38
+Line 1227: ID = ep
+Line 1227: -
+Line 1227: >
+Line 1227: ID = rdllist
+Line 1227: )
+Line 1227: ;
+Line 1229: ID = is_linked
+Line 1229: Unrecognized token: 58
+Line 1234: if
+Line 1234: (
+Line 1234: ID = waitqueue_active
+Line 1234: (
+Line 1234: Unrecognized token: 38
+Line 1234: ID = ep
+Line 1234: -
+Line 1234: >
+Line 1234: ID = wq
+Line 1234: )
+Line 1234: )
+Line 1235: ID = wake_up
+Line 1235: (
+Line 1235: Unrecognized token: 38
+Line 1235: ID = ep
+Line 1235: -
+Line 1235: >
+Line 1235: ID = wq
+Line 1235: )
+Line 1235: ;
+Line 1236: if
+Line 1236: (
+Line 1236: ID = waitqueue_active
+Line 1236: (
+Line 1236: Unrecognized token: 38
+Line 1236: ID = ep
+Line 1236: -
+Line 1236: >
+Line 1236: ID = poll_wait
+Line 1236: )
+Line 1236: )
+Line 1237: ID = pwake
+Line 1237: +
+Line 1237: +
+Line 1237: ;
+Line 1239: ID = is_disabled
+Line 1239: Unrecognized token: 58
+Line 1240: ID = write_unlock_irqrestore
+Line 1240: (
+Line 1240: Unrecognized token: 38
+Line 1240: ID = ep
+Line 1240: -
+Line 1240: >
+Line 1240: ID = lock
+Line 1240: ,
+Line 1240: ID = flags
+Line 1240: )
+Line 1240: ;
+Line 1243: if
+Line 1243: (
+Line 1243: ID = pwake
+Line 1243: )
+Line 1244: ID = ep_poll_safewake
+Line 1244: (
+Line 1244: Unrecognized token: 38
+Line 1244: ID = psw
+Line 1244: ,
+Line 1244: Unrecognized token: 38
+Line 1244: ID = ep
+Line 1244: -
+Line 1244: >
+Line 1244: ID = poll_wait
+Line 1244: )
+Line 1244: ;
+Line 1246: return
+Line 1246: INTCON = 1
+Line 1246: ;
+Line 1247: }
+Line 1250: ID = static
+Line 1250: int
+Line 1250: ID = ep_eventpoll_close
+Line 1250: (
+Line 1250: ID = struct
+Line 1250: ID = inode
+Line 1250: *
+Line 1250: ID = inode
+Line 1250: ,
+Line 1250: ID = struct
+Line 1250: ID = file
+Line 1250: *
+Line 1250: ID = file
+Line 1250: )
+Line 1251: {
+Line 1252: ID = struct
+Line 1252: ID = eventpoll
+Line 1252: *
+Line 1252: ID = ep
+Line 1252: =
+Line 1252: ID = file
+Line 1252: -
+Line 1252: >
+Line 1252: ID = private_data
+Line 1252: ;
+Line 1254: if
+Line 1254: (
+Line 1254: ID = ep
+Line 1254: )
+Line 1254: {
+Line 1255: ID = ep_free
+Line 1255: (
+Line 1255: ID = ep
+Line 1255: )
+Line 1255: ;
+Line 1256: ID = kfree
+Line 1256: (
+Line 1256: ID = ep
+Line 1256: )
+Line 1256: ;
+Line 1257: }
+Line 1259: ID = DNPRINTK
+Line 1259: (
+Line 1259: INTCON = 3
+Line 1259: ,
+Line 1259: (
+Line 1259: ID = KERN_INFO
+Line 1259: STRINGCON = "[%p] eventpoll: close() ep=%p\n"
+Line 1259: ,
+Line 1259: ID = current
+Line 1259: ,
+Line 1259: ID = ep
+Line 1259: )
+Line 1259: )
+Line 1259: ;
+Line 1260: return
+Line 1260: INTCON = 0
+Line 1260: ;
+Line 1261: }
+Line 1264: ID = static
+Line 1264: ID = unsigned
+Line 1264: int
+Line 1264: ID = ep_eventpoll_poll
+Line 1264: (
+Line 1264: ID = struct
+Line 1264: ID = file
+Line 1264: *
+Line 1264: ID = file
+Line 1264: ,
+Line 1264: ID = poll_table
+Line 1264: *
+Line 1264: ID = wait
+Line 1264: )
+Line 1265: {
+Line 1266: ID = unsigned
+Line 1266: int
+Line 1266: ID = pollflags
+Line 1266: =
+Line 1266: INTCON = 0
+Line 1266: ;
+Line 1267: ID = unsigned
+Line 1267: ID = long
+Line 1267: ID = flags
+Line 1267: ;
+Line 1268: ID = struct
+Line 1268: ID = eventpoll
+Line 1268: *
+Line 1268: ID = ep
+Line 1268: =
+Line 1268: ID = file
+Line 1268: -
+Line 1268: >
+Line 1268: ID = private_data
+Line 1268: ;
+Line 1271: ID = poll_wait
+Line 1271: (
+Line 1271: ID = file
+Line 1271: ,
+Line 1271: Unrecognized token: 38
+Line 1271: ID = ep
+Line 1271: -
+Line 1271: >
+Line 1271: ID = poll_wait
+Line 1271: ,
+Line 1271: ID = wait
+Line 1271: )
+Line 1271: ;
+Line 1274: ID = read_lock_irqsave
+Line 1274: (
+Line 1274: Unrecognized token: 38
+Line 1274: ID = ep
+Line 1274: -
+Line 1274: >
+Line 1274: ID = lock
+Line 1274: ,
+Line 1274: ID = flags
+Line 1274: )
+Line 1274: ;
+Line 1275: if
+Line 1275: (
+Line 1275: !
+Line 1275: ID = list_empty
+Line 1275: (
+Line 1275: Unrecognized token: 38
+Line 1275: ID = ep
+Line 1275: -
+Line 1275: >
+Line 1275: ID = rdllist
+Line 1275: )
+Line 1275: )
+Line 1276: ID = pollflags
+Line 1276: =
+Line 1276: ID = POLLIN
+Line 1276: Unrecognized token: 124
+Line 1276: ID = POLLRDNORM
+Line 1276: ;
+Line 1277: ID = read_unlock_irqrestore
+Line 1277: (
+Line 1277: Unrecognized token: 38
+Line 1277: ID = ep
+Line 1277: -
+Line 1277: >
+Line 1277: ID = lock
+Line 1277: ,
+Line 1277: ID = flags
+Line 1277: )
+Line 1277: ;
+Line 1279: return
+Line 1279: ID = pollflags
+Line 1279: ;
+Line 1280: }
+Line 1288: ID = static
+Line 1288: int
+Line 1288: ID = ep_collect_ready_items
+Line 1288: (
+Line 1288: ID = struct
+Line 1288: ID = eventpoll
+Line 1288: *
+Line 1288: ID = ep
+Line 1288: ,
+Line 1288: ID = struct
+Line 1288: ID = list_head
+Line 1288: *
+Line 1288: ID = txlist
+Line 1288: ,
+Line 1288: int
+Line 1288: ID = maxevents
+Line 1288: )
+Line 1289: {
+Line 1290: int
+Line 1290: ID = nepi
+Line 1290: ;
+Line 1291: ID = unsigned
+Line 1291: ID = long
+Line 1291: ID = flags
+Line 1291: ;
+Line 1292: ID = struct
+Line 1292: ID = list_head
+Line 1292: *
+Line 1292: ID = lsthead
+Line 1292: =
+Line 1292: Unrecognized token: 38
+Line 1292: ID = ep
+Line 1292: -
+Line 1292: >
+Line 1292: ID = rdllist
+Line 1292: ,
+Line 1292: *
+Line 1292: ID = lnk
+Line 1292: ;
+Line 1293: ID = struct
+Line 1293: ID = epitem
+Line 1293: *
+Line 1293: ID = epi
+Line 1293: ;
+Line 1295: ID = write_lock_irqsave
+Line 1295: (
+Line 1295: Unrecognized token: 38
+Line 1295: ID = ep
+Line 1295: -
+Line 1295: >
+Line 1295: ID = lock
+Line 1295: ,
+Line 1295: ID = flags
+Line 1295: )
+Line 1295: ;
+Line 1297: for
+Line 1297: (
+Line 1297: ID = nepi
+Line 1297: =
+Line 1297: INTCON = 0
+Line 1297: ,
+Line 1297: ID = lnk
+Line 1297: =
+Line 1297: ID = lsthead
+Line 1297: -
+Line 1297: >
+Line 1297: ID = next
+Line 1297: ;
+Line 1297: ID = lnk
+Line 1297: !=
+Line 1297: ID = lsthead
+Line 1297: &&
+Line 1297: ID = nepi
+Line 1297: <
+Line 1297: ID = maxevents
+Line 1297: ;
+Line 1297: )
+Line 1297: {
+Line 1298: ID = epi
+Line 1298: =
+Line 1298: ID = list_entry
+Line 1298: (
+Line 1298: ID = lnk
+Line 1298: ,
+Line 1298: ID = struct
+Line 1298: ID = epitem
+Line 1298: ,
+Line 1298: ID = rdllink
+Line 1298: )
+Line 1298: ;
+Line 1300: ID = lnk
+Line 1300: =
+Line 1300: ID = lnk
+Line 1300: -
+Line 1300: >
+Line 1300: ID = next
+Line 1300: ;
+Line 1303: if
+Line 1303: (
+Line 1303: !
+Line 1303: ID = EP_IS_LINKED
+Line 1303: (
+Line 1303: Unrecognized token: 38
+Line 1303: ID = epi
+Line 1303: -
+Line 1303: >
+Line 1303: ID = txlink
+Line 1303: )
+Line 1303: )
+Line 1303: {
+Line 1309: ID = epi
+Line 1309: -
+Line 1309: >
+Line 1309: ID = revents
+Line 1309: =
+Line 1309: ID = epi
+Line 1309: -
+Line 1309: >
+Line 1309: ID = event
+Line 1309: Unrecognized token: 46
+Line 1309: ID = events
+Line 1309: ;
+Line 1312: ID = list_add
+Line 1312: (
+Line 1312: Unrecognized token: 38
+Line 1312: ID = epi
+Line 1312: -
+Line 1312: >
+Line 1312: ID = txlink
+Line 1312: ,
+Line 1312: ID = txlist
+Line 1312: )
+Line 1312: ;
+Line 1313: ID = nepi
+Line 1313: +
+Line 1313: +
+Line 1313: ;
+Line 1318: ID = EP_LIST_DEL
+Line 1318: (
+Line 1318: Unrecognized token: 38
+Line 1318: ID = epi
+Line 1318: -
+Line 1318: >
+Line 1318: ID = rdllink
+Line 1318: )
+Line 1318: ;
+Line 1319: }
+Line 1320: }
+Line 1322: ID = write_unlock_irqrestore
+Line 1322: (
+Line 1322: Unrecognized token: 38
+Line 1322: ID = ep
+Line 1322: -
+Line 1322: >
+Line 1322: ID = lock
+Line 1322: ,
+Line 1322: ID = flags
+Line 1322: )
+Line 1322: ;
+Line 1324: return
+Line 1324: ID = nepi
+Line 1324: ;
+Line 1325: }
+Line 1333: ID = static
+Line 1333: int
+Line 1333: ID = ep_send_events
+Line 1333: (
+Line 1333: ID = struct
+Line 1333: ID = eventpoll
+Line 1333: *
+Line 1333: ID = ep
+Line 1333: ,
+Line 1333: ID = struct
+Line 1333: ID = list_head
+Line 1333: *
+Line 1333: ID = txlist
+Line 1333: ,
+Line 1334: ID = struct
+Line 1334: ID = epoll_event
+Line 1334: Unrecognized token: 95
+Line 1334: Unrecognized token: 95
+Line 1334: ID = user
+Line 1334: *
+Line 1334: ID = events
+Line 1334: )
+Line 1335: {
+Line 1336: int
+Line 1336: ID = eventcnt
+Line 1336: =
+Line 1336: INTCON = 0
+Line 1336: ;
+Line 1337: ID = unsigned
+Line 1337: int
+Line 1337: ID = revents
+Line 1337: ;
+Line 1338: ID = struct
+Line 1338: ID = list_head
+Line 1338: *
+Line 1338: ID = lnk
+Line 1338: ;
+Line 1339: ID = struct
+Line 1339: ID = epitem
+Line 1339: *
+Line 1339: ID = epi
+Line 1339: ;
+Line 1347: ID = list_for_each
+Line 1347: (
+Line 1347: ID = lnk
+Line 1347: ,
+Line 1347: ID = txlist
+Line 1347: )
+Line 1347: {
+Line 1348: ID = epi
+Line 1348: =
+Line 1348: ID = list_entry
+Line 1348: (
+Line 1348: ID = lnk
+Line 1348: ,
+Line 1348: ID = struct
+Line 1348: ID = epitem
+Line 1348: ,
+Line 1348: ID = txlink
+Line 1348: )
+Line 1348: ;
+Line 1355: ID = revents
+Line 1355: =
+Line 1355: ID = epi
+Line 1355: -
+Line 1355: >
+Line 1355: ID = ffd
+Line 1355: Unrecognized token: 46
+Line 1355: ID = file
+Line 1355: -
+Line 1355: >
+Line 1355: ID = f_op
+Line 1355: -
+Line 1355: >
+Line 1355: ID = poll
+Line 1355: (
+Line 1355: ID = epi
+Line 1355: -
+Line 1355: >
+Line 1355: ID = ffd
+Line 1355: Unrecognized token: 46
+Line 1355: ID = file
+Line 1355: ,
+Line 1355: ID = NULL
+Line 1355: )
+Line 1355: ;
+Line 1362: ID = epi
+Line 1362: -
+Line 1362: >
+Line 1362: ID = revents
+Line 1362: =
+Line 1362: ID = revents
+Line 1362: Unrecognized token: 38
+Line 1362: ID = epi
+Line 1362: -
+Line 1362: >
+Line 1362: ID = event
+Line 1362: Unrecognized token: 46
+Line 1362: ID = events
+Line 1362: ;
+Line 1364: if
+Line 1364: (
+Line 1364: ID = epi
+Line 1364: -
+Line 1364: >
+Line 1364: ID = revents
+Line 1364: )
+Line 1364: {
+Line 1365: if
+Line 1365: (
+Line 1365: Unrecognized token: 95
+Line 1365: Unrecognized token: 95
+Line 1365: ID = put_user
+Line 1365: (
+Line 1365: ID = epi
+Line 1365: -
+Line 1365: >
+Line 1365: ID = revents
+Line 1365: ,
+Line 1366: Unrecognized token: 38
+Line 1366: ID = events
+Line 1366: [
+Line 1366: ID = eventcnt
+Line 1366: ]
+Line 1366: Unrecognized token: 46
+Line 1366: ID = events
+Line 1366: )
+Line 1366: ||
+Line 1367: Unrecognized token: 95
+Line 1367: Unrecognized token: 95
+Line 1367: ID = put_user
+Line 1367: (
+Line 1367: ID = epi
+Line 1367: -
+Line 1367: >
+Line 1367: ID = event
+Line 1367: Unrecognized token: 46
+Line 1367: ID = data
+Line 1367: ,
+Line 1368: Unrecognized token: 38
+Line 1368: ID = events
+Line 1368: [
+Line 1368: ID = eventcnt
+Line 1368: ]
+Line 1368: Unrecognized token: 46
+Line 1368: ID = data
+Line 1368: )
+Line 1368: )
+Line 1369: return
+Line 1369: -
+Line 1369: ID = EFAULT
+Line 1369: ;
+Line 1370: if
+Line 1370: (
+Line 1370: ID = epi
+Line 1370: -
+Line 1370: >
+Line 1370: ID = event
+Line 1370: Unrecognized token: 46
+Line 1370: ID = events
+Line 1370: Unrecognized token: 38
+Line 1370: ID = EPOLLONESHOT
+Line 1370: )
+Line 1371: ID = epi
+Line 1371: -
+Line 1371: >
+Line 1371: ID = event
+Line 1371: Unrecognized token: 46
+Line 1371: ID = events
+Line 1371: Unrecognized token: 38
+Line 1371: =
+Line 1371: ID = EP_PRIVATE_BITS
+Line 1371: ;
+Line 1372: ID = eventcnt
+Line 1372: +
+Line 1372: +
+Line 1372: ;
+Line 1373: }
+Line 1374: }
+Line 1375: return
+Line 1375: ID = eventcnt
+Line 1375: ;
+Line 1376: }
+Line 1385: ID = static
+Line 1385: void
+Line 1385: ID = ep_reinject_items
+Line 1385: (
+Line 1385: ID = struct
+Line 1385: ID = eventpoll
+Line 1385: *
+Line 1385: ID = ep
+Line 1385: ,
+Line 1385: ID = struct
+Line 1385: ID = list_head
+Line 1385: *
+Line 1385: ID = txlist
+Line 1385: )
+Line 1386: {
+Line 1387: int
+Line 1387: ID = ricnt
+Line 1387: =
+Line 1387: INTCON = 0
+Line 1387: ,
+Line 1387: ID = pwake
+Line 1387: =
+Line 1387: INTCON = 0
+Line 1387: ;
+Line 1388: ID = unsigned
+Line 1388: ID = long
+Line 1388: ID = flags
+Line 1388: ;
+Line 1389: ID = struct
+Line 1389: ID = epitem
+Line 1389: *
+Line 1389: ID = epi
+Line 1389: ;
+Line 1391: ID = write_lock_irqsave
+Line 1391: (
+Line 1391: Unrecognized token: 38
+Line 1391: ID = ep
+Line 1391: -
+Line 1391: >
+Line 1391: ID = lock
+Line 1391: ,
+Line 1391: ID = flags
+Line 1391: )
+Line 1391: ;
+Line 1393: while
+Line 1393: (
+Line 1393: !
+Line 1393: ID = list_empty
+Line 1393: (
+Line 1393: ID = txlist
+Line 1393: )
+Line 1393: )
+Line 1393: {
+Line 1394: ID = epi
+Line 1394: =
+Line 1394: ID = list_entry
+Line 1394: (
+Line 1394: ID = txlist
+Line 1394: -
+Line 1394: >
+Line 1394: ID = next
+Line 1394: ,
+Line 1394: ID = struct
+Line 1394: ID = epitem
+Line 1394: ,
+Line 1394: ID = txlink
+Line 1394: )
+Line 1394: ;
+Line 1397: ID = EP_LIST_DEL
+Line 1397: (
+Line 1397: Unrecognized token: 38
+Line 1397: ID = epi
+Line 1397: -
+Line 1397: >
+Line 1397: ID = txlink
+Line 1397: )
+Line 1397: ;
+Line 1406: if
+Line 1406: (
+Line 1406: ID = EP_RB_LINKED
+Line 1406: (
+Line 1406: Unrecognized token: 38
+Line 1406: ID = epi
+Line 1406: -
+Line 1406: >
+Line 1406: ID = rbn
+Line 1406: )
+Line 1406: &&
+Line 1406: !
+Line 1406: (
+Line 1406: ID = epi
+Line 1406: -
+Line 1406: >
+Line 1406: ID = event
+Line 1406: Unrecognized token: 46
+Line 1406: ID = events
+Line 1406: Unrecognized token: 38
+Line 1406: ID = EPOLLET
+Line 1406: )
+Line 1406: &&
+Line 1407: (
+Line 1407: ID = epi
+Line 1407: -
+Line 1407: >
+Line 1407: ID = revents
+Line 1407: Unrecognized token: 38
+Line 1407: ID = epi
+Line 1407: -
+Line 1407: >
+Line 1407: ID = event
+Line 1407: Unrecognized token: 46
+Line 1407: ID = events
+Line 1407: )
+Line 1407: &&
+Line 1407: !
+Line 1407: ID = EP_IS_LINKED
+Line 1407: (
+Line 1407: Unrecognized token: 38
+Line 1407: ID = epi
+Line 1407: -
+Line 1407: >
+Line 1407: ID = rdllink
+Line 1407: )
+Line 1407: )
+Line 1407: {
+Line 1408: ID = list_add_tail
+Line 1408: (
+Line 1408: Unrecognized token: 38
+Line 1408: ID = epi
+Line 1408: -
+Line 1408: >
+Line 1408: ID = rdllink
+Line 1408: ,
+Line 1408: Unrecognized token: 38
+Line 1408: ID = ep
+Line 1408: -
+Line 1408: >
+Line 1408: ID = rdllist
+Line 1408: )
+Line 1408: ;
+Line 1409: ID = ricnt
+Line 1409: +
+Line 1409: +
+Line 1409: ;
+Line 1410: }
+Line 1411: }
+Line 1413: if
+Line 1413: (
+Line 1413: ID = ricnt
+Line 1413: )
+Line 1413: {
+Line 1418: if
+Line 1418: (
+Line 1418: ID = waitqueue_active
+Line 1418: (
+Line 1418: Unrecognized token: 38
+Line 1418: ID = ep
+Line 1418: -
+Line 1418: >
+Line 1418: ID = wq
+Line 1418: )
+Line 1418: )
+Line 1419: ID = wake_up
+Line 1419: (
+Line 1419: Unrecognized token: 38
+Line 1419: ID = ep
+Line 1419: -
+Line 1419: >
+Line 1419: ID = wq
+Line 1419: )
+Line 1419: ;
+Line 1420: if
+Line 1420: (
+Line 1420: ID = waitqueue_active
+Line 1420: (
+Line 1420: Unrecognized token: 38
+Line 1420: ID = ep
+Line 1420: -
+Line 1420: >
+Line 1420: ID = poll_wait
+Line 1420: )
+Line 1420: )
+Line 1421: ID = pwake
+Line 1421: +
+Line 1421: +
+Line 1421: ;
+Line 1422: }
+Line 1424: ID = write_unlock_irqrestore
+Line 1424: (
+Line 1424: Unrecognized token: 38
+Line 1424: ID = ep
+Line 1424: -
+Line 1424: >
+Line 1424: ID = lock
+Line 1424: ,
+Line 1424: ID = flags
+Line 1424: )
+Line 1424: ;
+Line 1427: if
+Line 1427: (
+Line 1427: ID = pwake
+Line 1427: )
+Line 1428: ID = ep_poll_safewake
+Line 1428: (
+Line 1428: Unrecognized token: 38
+Line 1428: ID = psw
+Line 1428: ,
+Line 1428: Unrecognized token: 38
+Line 1428: ID = ep
+Line 1428: -
+Line 1428: >
+Line 1428: ID = poll_wait
+Line 1428: )
+Line 1428: ;
+Line 1429: }
+Line 1435: ID = static
+Line 1435: int
+Line 1435: ID = ep_events_transfer
+Line 1435: (
+Line 1435: ID = struct
+Line 1435: ID = eventpoll
+Line 1435: *
+Line 1435: ID = ep
+Line 1435: ,
+Line 1436: ID = struct
+Line 1436: ID = epoll_event
+Line 1436: Unrecognized token: 95
+Line 1436: Unrecognized token: 95
+Line 1436: ID = user
+Line 1436: *
+Line 1436: ID = events
+Line 1436: ,
+Line 1436: int
+Line 1436: ID = maxevents
+Line 1436: )
+Line 1437: {
+Line 1438: int
+Line 1438: ID = eventcnt
+Line 1438: =
+Line 1438: INTCON = 0
+Line 1438: ;
+Line 1439: ID = struct
+Line 1439: ID = list_head
+Line 1439: ID = txlist
+Line 1439: ;
+Line 1441: ID = INIT_LIST_HEAD
+Line 1441: (
+Line 1441: Unrecognized token: 38
+Line 1441: ID = txlist
+Line 1441: )
+Line 1441: ;
+Line 1447: ID = down_read
+Line 1447: (
+Line 1447: Unrecognized token: 38
+Line 1447: ID = ep
+Line 1447: -
+Line 1447: >
+Line 1447: ID = sem
+Line 1447: )
+Line 1447: ;
+Line 1450: if
+Line 1450: (
+Line 1450: ID = ep_collect_ready_items
+Line 1450: (
+Line 1450: ID = ep
+Line 1450: ,
+Line 1450: Unrecognized token: 38
+Line 1450: ID = txlist
+Line 1450: ,
+Line 1450: ID = maxevents
+Line 1450: )
+Line 1450: >
+Line 1450: INTCON = 0
+Line 1450: )
+Line 1450: {
+Line 1452: ID = eventcnt
+Line 1452: =
+Line 1452: ID = ep_send_events
+Line 1452: (
+Line 1452: ID = ep
+Line 1452: ,
+Line 1452: Unrecognized token: 38
+Line 1452: ID = txlist
+Line 1452: ,
+Line 1452: ID = events
+Line 1452: )
+Line 1452: ;
+Line 1455: ID = ep_reinject_items
+Line 1455: (
+Line 1455: ID = ep
+Line 1455: ,
+Line 1455: Unrecognized token: 38
+Line 1455: ID = txlist
+Line 1455: )
+Line 1455: ;
+Line 1456: }
+Line 1458: ID = up_read
+Line 1458: (
+Line 1458: Unrecognized token: 38
+Line 1458: ID = ep
+Line 1458: -
+Line 1458: >
+Line 1458: ID = sem
+Line 1458: )
+Line 1458: ;
+Line 1460: return
+Line 1460: ID = eventcnt
+Line 1460: ;
+Line 1461: }
+Line 1464: ID = static
+Line 1464: int
+Line 1464: ID = ep_poll
+Line 1464: (
+Line 1464: ID = struct
+Line 1464: ID = eventpoll
+Line 1464: *
+Line 1464: ID = ep
+Line 1464: ,
+Line 1464: ID = struct
+Line 1464: ID = epoll_event
+Line 1464: Unrecognized token: 95
+Line 1464: Unrecognized token: 95
+Line 1464: ID = user
+Line 1464: *
+Line 1464: ID = events
+Line 1464: ,
+Line 1465: int
+Line 1465: ID = maxevents
+Line 1465: ,
+Line 1465: ID = long
+Line 1465: ID = timeout
+Line 1465: )
+Line 1466: {
+Line 1467: int
+Line 1467: ID = res
+Line 1467: ,
+Line 1467: ID = eavail
+Line 1467: ;
+Line 1468: ID = unsigned
+Line 1468: ID = long
+Line 1468: ID = flags
+Line 1468: ;
+Line 1469: ID = long
+Line 1469: ID = jtimeout
+Line 1469: ;
+Line 1470: ID = wait_queue_t
+Line 1470: ID = wait
+Line 1470: ;
+Line 1477: ID = jtimeout
+Line 1477: =
+Line 1477: ID = timeout
+Line 1477: ==
+Line 1477: -
+Line 1477: INTCON = 1
+Line 1477: ||
+Line 1477: ID = timeout
+Line 1477: >
+Line 1477: (
+Line 1477: ID = MAX_SCHEDULE_TIMEOUT
+Line 1477: -
+Line 1477: INTCON = 1000
+Line 1477: )
+Line 1477: /
+Line 1477: ID = HZ
+Line 1477: Unrecognized token: 63
+Line 1478: ID = MAX_SCHEDULE_TIMEOUT
+Line 1478: Unrecognized token: 58
+Line 1478: (
+Line 1478: ID = timeout
+Line 1478: *
+Line 1478: ID = HZ
+Line 1478: +
+Line 1478: INTCON = 999
+Line 1478: )
+Line 1478: /
+Line 1478: INTCON = 1000
+Line 1478: ;
+Line 1480: ID = retry
+Line 1480: Unrecognized token: 58
+Line 1481: ID = write_lock_irqsave
+Line 1481: (
+Line 1481: Unrecognized token: 38
+Line 1481: ID = ep
+Line 1481: -
+Line 1481: >
+Line 1481: ID = lock
+Line 1481: ,
+Line 1481: ID = flags
+Line 1481: )
+Line 1481: ;
+Line 1483: ID = res
+Line 1483: =
+Line 1483: INTCON = 0
+Line 1483: ;
+Line 1484: if
+Line 1484: (
+Line 1484: ID = list_empty
+Line 1484: (
+Line 1484: Unrecognized token: 38
+Line 1484: ID = ep
+Line 1484: -
+Line 1484: >
+Line 1484: ID = rdllist
+Line 1484: )
+Line 1484: )
+Line 1484: {
+Line 1490: ID = init_waitqueue_entry
+Line 1490: (
+Line 1490: Unrecognized token: 38
+Line 1490: ID = wait
+Line 1490: ,
+Line 1490: ID = current
+Line 1490: )
+Line 1490: ;
+Line 1491: ID = add_wait_queue
+Line 1491: (
+Line 1491: Unrecognized token: 38
+Line 1491: ID = ep
+Line 1491: -
+Line 1491: >
+Line 1491: ID = wq
+Line 1491: ,
+Line 1491: Unrecognized token: 38
+Line 1491: ID = wait
+Line 1491: )
+Line 1491: ;
+Line 1493: for
+Line 1493: (
+Line 1493: ;
+Line 1493: ;
+Line 1493: )
+Line 1493: {
+Line 1499: ID = set_current_state
+Line 1499: (
+Line 1499: ID = TASK_INTERRUPTIBLE
+Line 1499: )
+Line 1499: ;
+Line 1500: if
+Line 1500: (
+Line 1500: !
+Line 1500: ID = list_empty
+Line 1500: (
+Line 1500: Unrecognized token: 38
+Line 1500: ID = ep
+Line 1500: -
+Line 1500: >
+Line 1500: ID = rdllist
+Line 1500: )
+Line 1500: ||
+Line 1500: !
+Line 1500: ID = jtimeout
+Line 1500: )
+Line 1501: ID = break
+Line 1501: ;
+Line 1502: if
+Line 1502: (
+Line 1502: ID = signal_pending
+Line 1502: (
+Line 1502: ID = current
+Line 1502: )
+Line 1502: )
+Line 1502: {
+Line 1503: ID = res
+Line 1503: =
+Line 1503: -
+Line 1503: ID = EINTR
+Line 1503: ;
+Line 1504: ID = break
+Line 1504: ;
+Line 1505: }
+Line 1507: ID = write_unlock_irqrestore
+Line 1507: (
+Line 1507: Unrecognized token: 38
+Line 1507: ID = ep
+Line 1507: -
+Line 1507: >
+Line 1507: ID = lock
+Line 1507: ,
+Line 1507: ID = flags
+Line 1507: )
+Line 1507: ;
+Line 1508: ID = jtimeout
+Line 1508: =
+Line 1508: ID = schedule_timeout
+Line 1508: (
+Line 1508: ID = jtimeout
+Line 1508: )
+Line 1508: ;
+Line 1509: ID = write_lock_irqsave
+Line 1509: (
+Line 1509: Unrecognized token: 38
+Line 1509: ID = ep
+Line 1509: -
+Line 1509: >
+Line 1509: ID = lock
+Line 1509: ,
+Line 1509: ID = flags
+Line 1509: )
+Line 1509: ;
+Line 1510: }
+Line 1511: ID = remove_wait_queue
+Line 1511: (
+Line 1511: Unrecognized token: 38
+Line 1511: ID = ep
+Line 1511: -
+Line 1511: >
+Line 1511: ID = wq
+Line 1511: ,
+Line 1511: Unrecognized token: 38
+Line 1511: ID = wait
+Line 1511: )
+Line 1511: ;
+Line 1513: ID = set_current_state
+Line 1513: (
+Line 1513: ID = TASK_RUNNING
+Line 1513: )
+Line 1513: ;
+Line 1514: }
+Line 1517: ID = eavail
+Line 1517: =
+Line 1517: !
+Line 1517: ID = list_empty
+Line 1517: (
+Line 1517: Unrecognized token: 38
+Line 1517: ID = ep
+Line 1517: -
+Line 1517: >
+Line 1517: ID = rdllist
+Line 1517: )
+Line 1517: ;
+Line 1519: ID = write_unlock_irqrestore
+Line 1519: (
+Line 1519: Unrecognized token: 38
+Line 1519: ID = ep
+Line 1519: -
+Line 1519: >
+Line 1519: ID = lock
+Line 1519: ,
+Line 1519: ID = flags
+Line 1519: )
+Line 1519: ;
+Line 1526: if
+Line 1526: (
+Line 1526: !
+Line 1526: ID = res
+Line 1526: &&
+Line 1526: ID = eavail
+Line 1526: &&
+Line 1527: !
+Line 1527: (
+Line 1527: ID = res
+Line 1527: =
+Line 1527: ID = ep_events_transfer
+Line 1527: (
+Line 1527: ID = ep
+Line 1527: ,
+Line 1527: ID = events
+Line 1527: ,
+Line 1527: ID = maxevents
+Line 1527: )
+Line 1527: )
+Line 1527: &&
+Line 1527: ID = jtimeout
+Line 1527: )
+Line 1528: ID = goto
+Line 1528: ID = retry
+Line 1528: ;
+Line 1530: return
+Line 1530: ID = res
+Line 1530: ;
+Line 1531: }
+Line 1534: ID = static
+Line 1534: int
+Line 1534: ID = eventpollfs_delete_dentry
+Line 1534: (
+Line 1534: ID = struct
+Line 1534: ID = dentry
+Line 1534: *
+Line 1534: ID = dentry
+Line 1534: )
+Line 1535: {
+Line 1537: return
+Line 1537: INTCON = 1
+Line 1537: ;
+Line 1538: }
+Line 1541: ID = static
+Line 1541: ID = struct
+Line 1541: ID = inode
+Line 1541: *
+Line 1541: ID = ep_eventpoll_inode
+Line 1541: (
+Line 1541: void
+Line 1541: )
+Line 1542: {
+Line 1543: int
+Line 1543: ID = error
+Line 1543: =
+Line 1543: -
+Line 1543: ID = ENOMEM
+Line 1543: ;
+Line 1544: ID = struct
+Line 1544: ID = inode
+Line 1544: *
+Line 1544: ID = inode
+Line 1544: =
+Line 1544: ID = new_inode
+Line 1544: (
+Line 1544: ID = eventpoll_mnt
+Line 1544: -
+Line 1544: >
+Line 1544: ID = mnt_sb
+Line 1544: )
+Line 1544: ;
+Line 1546: if
+Line 1546: (
+Line 1546: !
+Line 1546: ID = inode
+Line 1546: )
+Line 1547: ID = goto
+Line 1547: ID = eexit_1
+Line 1547: ;
+Line 1549: ID = inode
+Line 1549: -
+Line 1549: >
+Line 1549: ID = i_fop
+Line 1549: =
+Line 1549: Unrecognized token: 38
+Line 1549: ID = eventpoll_fops
+Line 1549: ;
+Line 1557: ID = inode
+Line 1557: -
+Line 1557: >
+Line 1557: ID = i_state
+Line 1557: =
+Line 1557: ID = I_DIRTY
+Line 1557: ;
+Line 1558: ID = inode
+Line 1558: -
+Line 1558: >
+Line 1558: ID = i_mode
+Line 1558: =
+Line 1558: ID = S_IRUSR
+Line 1558: Unrecognized token: 124
+Line 1558: ID = S_IWUSR
+Line 1558: ;
+Line 1559: ID = inode
+Line 1559: -
+Line 1559: >
+Line 1559: ID = i_uid
+Line 1559: =
+Line 1559: ID = current
+Line 1559: -
+Line 1559: >
+Line 1559: ID = fsuid
+Line 1559: ;
+Line 1560: ID = inode
+Line 1560: -
+Line 1560: >
+Line 1560: ID = i_gid
+Line 1560: =
+Line 1560: ID = current
+Line 1560: -
+Line 1560: >
+Line 1560: ID = fsgid
+Line 1560: ;
+Line 1561: ID = inode
+Line 1561: -
+Line 1561: >
+Line 1561: ID = i_atime
+Line 1561: =
+Line 1561: ID = inode
+Line 1561: -
+Line 1561: >
+Line 1561: ID = i_mtime
+Line 1561: =
+Line 1561: ID = inode
+Line 1561: -
+Line 1561: >
+Line 1561: ID = i_ctime
+Line 1561: =
+Line 1561: ID = CURRENT_TIME
+Line 1561: ;
+Line 1562: ID = inode
+Line 1562: -
+Line 1562: >
+Line 1562: ID = i_blksize
+Line 1562: =
+Line 1562: ID = PAGE_SIZE
+Line 1562: ;
+Line 1563: return
+Line 1563: ID = inode
+Line 1563: ;
+Line 1565: ID = eexit_1
+Line 1565: Unrecognized token: 58
+Line 1566: return
+Line 1566: ID = ERR_PTR
+Line 1566: (
+Line 1566: ID = error
+Line 1566: )
+Line 1566: ;
+Line 1567: }
+Line 1570: ID = static
+Line 1570: ID = struct
+Line 1570: ID = super_block
+Line 1570: *
+Line 1571: ID = eventpollfs_get_sb
+Line 1571: (
+Line 1571: ID = struct
+Line 1571: ID = file_system_type
+Line 1571: *
+Line 1571: ID = fs_type
+Line 1571: ,
+Line 1571: int
+Line 1571: ID = flags
+Line 1571: ,
+Line 1572: ID = const
+Line 1572: char
+Line 1572: *
+Line 1572: ID = dev_name
+Line 1572: ,
+Line 1572: void
+Line 1572: *
+Line 1572: ID = data
+Line 1572: )
+Line 1573: {
+Line 1574: return
+Line 1574: ID = get_sb_pseudo
+Line 1574: (
+Line 1574: ID = fs_type
+Line 1574: ,
+Line 1574: STRINGCON = "eventpoll:"
+Line 1574: ,
+Line 1574: ID = NULL
+Line 1574: ,
+Line 1574: ID = EVENTPOLLFS_MAGIC
+Line 1574: )
+Line 1574: ;
+Line 1575: }
+Line 1578: ID = static
+Line 1578: int
+Line 1578: Unrecognized token: 95
+Line 1578: Unrecognized token: 95
+Line 1578: ID = init
+Line 1578: ID = eventpoll_init
+Line 1578: (
+Line 1578: void
+Line 1578: )
+Line 1579: {
+Line 1580: int
+Line 1580: ID = error
+Line 1580: ;
+Line 1582: ID = init_MUTEX
+Line 1582: (
+Line 1582: Unrecognized token: 38
+Line 1582: ID = epsem
+Line 1582: )
+Line 1582: ;
+Line 1585: ID = ep_poll_safewake_init
+Line 1585: (
+Line 1585: Unrecognized token: 38
+Line 1585: ID = psw
+Line 1585: )
+Line 1585: ;
+Line 1588: ID = epi_cache
+Line 1588: =
+Line 1588: ID = kmem_cache_create
+Line 1588: (
+Line 1588: STRINGCON = "eventpoll_epi"
+Line 1588: ,
+Line 1588: ID = sizeof
+Line 1588: (
+Line 1588: ID = struct
+Line 1588: ID = epitem
+Line 1588: )
+Line 1588: ,
+Line 1589: INTCON = 0
+Line 1589: ,
+Line 1589: ID = SLAB_HWCACHE_ALIGN
+Line 1589: Unrecognized token: 124
+Line 1589: ID = EPI_SLAB_DEBUG
+Line 1589: Unrecognized token: 124
+Line 1589: ID = SLAB_PANIC
+Line 1589: ,
+Line 1590: ID = NULL
+Line 1590: ,
+Line 1590: ID = NULL
+Line 1590: )
+Line 1590: ;
+Line 1593: ID = pwq_cache
+Line 1593: =
+Line 1593: ID = kmem_cache_create
+Line 1593: (
+Line 1593: STRINGCON = "eventpoll_pwq"
+Line 1593: ,
+Line 1594: ID = sizeof
+Line 1594: (
+Line 1594: ID = struct
+Line 1594: ID = eppoll_entry
+Line 1594: )
+Line 1594: ,
+Line 1594: INTCON = 0
+Line 1594: ,
+Line 1595: ID = EPI_SLAB_DEBUG
+Line 1595: Unrecognized token: 124
+Line 1595: ID = SLAB_PANIC
+Line 1595: ,
+Line 1595: ID = NULL
+Line 1595: ,
+Line 1595: ID = NULL
+Line 1595: )
+Line 1595: ;
+Line 1601: ID = error
+Line 1601: =
+Line 1601: ID = register_filesystem
+Line 1601: (
+Line 1601: Unrecognized token: 38
+Line 1601: ID = eventpoll_fs_type
+Line 1601: )
+Line 1601: ;
+Line 1602: if
+Line 1602: (
+Line 1602: ID = error
+Line 1602: )
+Line 1603: ID = goto
+Line 1603: ID = epanic
+Line 1603: ;
+Line 1606: ID = eventpoll_mnt
+Line 1606: =
+Line 1606: ID = kern_mount
+Line 1606: (
+Line 1606: Unrecognized token: 38
+Line 1606: ID = eventpoll_fs_type
+Line 1606: )
+Line 1606: ;
+Line 1607: ID = error
+Line 1607: =
+Line 1607: ID = PTR_ERR
+Line 1607: (
+Line 1607: ID = eventpoll_mnt
+Line 1607: )
+Line 1607: ;
+Line 1608: if
+Line 1608: (
+Line 1608: ID = IS_ERR
+Line 1608: (
+Line 1608: ID = eventpoll_mnt
+Line 1608: )
+Line 1608: )
+Line 1609: ID = goto
+Line 1609: ID = epanic
+Line 1609: ;
+Line 1611: ID = DNPRINTK
+Line 1611: (
+Line 1611: INTCON = 3
+Line 1611: ,
+Line 1611: (
+Line 1611: ID = KERN_INFO
+Line 1611: STRINGCON = "[%p] eventpoll: successfully initialized.\n"
+Line 1611: ,
+Line 1612: ID = current
+Line 1612: )
+Line 1612: )
+Line 1612: ;
+Line 1613: return
+Line 1613: INTCON = 0
+Line 1613: ;
+Line 1615: ID = epanic
+Line 1615: Unrecognized token: 58
+Line 1616: ID = panic
+Line 1616: (
+Line 1616: STRINGCON = "eventpoll_init() failed\n"
+Line 1616: )
+Line 1616: ;
+Line 1617: }
+Line 1620: ID = static
+Line 1620: void
+Line 1620: Unrecognized token: 95
+Line 1620: Unrecognized token: 95
+Line 1620: ID = exit
+Line 1620: ID = eventpoll_exit
+Line 1620: (
+Line 1620: void
+Line 1620: )
+Line 1621: {
+Line 1623: ID = unregister_filesystem
+Line 1623: (
+Line 1623: Unrecognized token: 38
+Line 1623: ID = eventpoll_fs_type
+Line 1623: )
+Line 1623: ;
+Line 1624: ID = mntput
+Line 1624: (
+Line 1624: ID = eventpoll_mnt
+Line 1624: )
+Line 1624: ;
+Line 1625: ID = kmem_cache_destroy
+Line 1625: (
+Line 1625: ID = pwq_cache
+Line 1625: )
+Line 1625: ;
+Line 1626: ID = kmem_cache_destroy
+Line 1626: (
+Line 1626: ID = epi_cache
+Line 1626: )
+Line 1626: ;
+Line 1627: }
+Line 1629: ID = module_init
+Line 1629: (
+Line 1629: ID = eventpoll_init
+Line 1629: )
+Line 1629: ;
+Line 1630: ID = module_exit
+Line 1630: (
+Line 1630: ID = eventpoll_exit
+Line 1630: )
+Line 1630: ;
+Line 1632: ID = MODULE_LICENSE
+Line 1632: (
+Line 1632: STRINGCON = "GPL"
+Line 1632: )
+Line 1632: ;
+Line 1633: -EOF-

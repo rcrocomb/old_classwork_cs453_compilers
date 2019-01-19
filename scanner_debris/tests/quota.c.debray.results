@@ -1,0 +1,1598 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = fs
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = namei
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = slab
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = asm
+Line 11: /
+Line 11: ID = current
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = asm
+Line 12: /
+Line 12: ID = uaccess
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = kernel
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = smp_lock
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = security
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 18: ID = static
+Line 18: int
+Line 18: ID = check_quotactl_valid
+Line 18: (
+Line 18: ID = struct
+Line 18: ID = super_block
+Line 18: *
+Line 18: ID = sb
+Line 18: ,
+Line 18: int
+Line 18: ID = type
+Line 18: ,
+Line 18: int
+Line 18: ID = cmd
+Line 18: ,
+Line 18: ID = qid_t
+Line 18: ID = id
+Line 18: )
+Line 19: {
+Line 20: if
+Line 20: (
+Line 20: ID = type
+Line 20: >=
+Line 20: ID = MAXQUOTAS
+Line 20: )
+Line 21: return
+Line 21: -
+Line 21: ID = EINVAL
+Line 21: ;
+Line 22: if
+Line 22: (
+Line 22: !
+Line 22: ID = sb
+Line 22: &&
+Line 22: ID = cmd
+Line 22: !=
+Line 22: ID = Q_SYNC
+Line 22: )
+Line 23: return
+Line 23: -
+Line 23: ID = ENODEV
+Line 23: ;
+Line 25: if
+Line 25: (
+Line 25: ID = sb
+Line 25: &&
+Line 25: !
+Line 25: ID = sb
+Line 25: -
+Line 25: >
+Line 25: ID = s_qcop
+Line 25: )
+Line 26: return
+Line 26: -
+Line 26: ID = ENOSYS
+Line 26: ;
+Line 28: ID = switch
+Line 28: (
+Line 28: ID = cmd
+Line 28: )
+Line 28: {
+Line 29: ID = case
+Line 29: ID = Q_GETFMT
+Line 29: Unrecognized token: 58
+Line 30: ID = break
+Line 30: ;
+Line 31: ID = case
+Line 31: ID = Q_QUOTAON
+Line 31: Unrecognized token: 58
+Line 32: if
+Line 32: (
+Line 32: !
+Line 32: ID = sb
+Line 32: -
+Line 32: >
+Line 32: ID = s_qcop
+Line 32: -
+Line 32: >
+Line 32: ID = quota_on
+Line 32: )
+Line 33: return
+Line 33: -
+Line 33: ID = ENOSYS
+Line 33: ;
+Line 34: ID = break
+Line 34: ;
+Line 35: ID = case
+Line 35: ID = Q_QUOTAOFF
+Line 35: Unrecognized token: 58
+Line 36: if
+Line 36: (
+Line 36: !
+Line 36: ID = sb
+Line 36: -
+Line 36: >
+Line 36: ID = s_qcop
+Line 36: -
+Line 36: >
+Line 36: ID = quota_off
+Line 36: )
+Line 37: return
+Line 37: -
+Line 37: ID = ENOSYS
+Line 37: ;
+Line 38: ID = break
+Line 38: ;
+Line 39: ID = case
+Line 39: ID = Q_SETINFO
+Line 39: Unrecognized token: 58
+Line 40: if
+Line 40: (
+Line 40: !
+Line 40: ID = sb
+Line 40: -
+Line 40: >
+Line 40: ID = s_qcop
+Line 40: -
+Line 40: >
+Line 40: ID = set_info
+Line 40: )
+Line 41: return
+Line 41: -
+Line 41: ID = ENOSYS
+Line 41: ;
+Line 42: ID = break
+Line 42: ;
+Line 43: ID = case
+Line 43: ID = Q_GETINFO
+Line 43: Unrecognized token: 58
+Line 44: if
+Line 44: (
+Line 44: !
+Line 44: ID = sb
+Line 44: -
+Line 44: >
+Line 44: ID = s_qcop
+Line 44: -
+Line 44: >
+Line 44: ID = get_info
+Line 44: )
+Line 45: return
+Line 45: -
+Line 45: ID = ENOSYS
+Line 45: ;
+Line 46: ID = break
+Line 46: ;
+Line 47: ID = case
+Line 47: ID = Q_SETQUOTA
+Line 47: Unrecognized token: 58
+Line 48: if
+Line 48: (
+Line 48: !
+Line 48: ID = sb
+Line 48: -
+Line 48: >
+Line 48: ID = s_qcop
+Line 48: -
+Line 48: >
+Line 48: ID = set_dqblk
+Line 48: )
+Line 49: return
+Line 49: -
+Line 49: ID = ENOSYS
+Line 49: ;
+Line 50: ID = break
+Line 50: ;
+Line 51: ID = case
+Line 51: ID = Q_GETQUOTA
+Line 51: Unrecognized token: 58
+Line 52: if
+Line 52: (
+Line 52: !
+Line 52: ID = sb
+Line 52: -
+Line 52: >
+Line 52: ID = s_qcop
+Line 52: -
+Line 52: >
+Line 52: ID = get_dqblk
+Line 52: )
+Line 53: return
+Line 53: -
+Line 53: ID = ENOSYS
+Line 53: ;
+Line 54: ID = break
+Line 54: ;
+Line 55: ID = case
+Line 55: ID = Q_SYNC
+Line 55: Unrecognized token: 58
+Line 56: if
+Line 56: (
+Line 56: ID = sb
+Line 56: &&
+Line 56: !
+Line 56: ID = sb
+Line 56: -
+Line 56: >
+Line 56: ID = s_qcop
+Line 56: -
+Line 56: >
+Line 56: ID = quota_sync
+Line 56: )
+Line 57: return
+Line 57: -
+Line 57: ID = ENOSYS
+Line 57: ;
+Line 58: ID = break
+Line 58: ;
+Line 59: ID = case
+Line 59: ID = Q_XQUOTAON
+Line 59: Unrecognized token: 58
+Line 60: ID = case
+Line 60: ID = Q_XQUOTAOFF
+Line 60: Unrecognized token: 58
+Line 61: ID = case
+Line 61: ID = Q_XQUOTARM
+Line 61: Unrecognized token: 58
+Line 62: if
+Line 62: (
+Line 62: !
+Line 62: ID = sb
+Line 62: -
+Line 62: >
+Line 62: ID = s_qcop
+Line 62: -
+Line 62: >
+Line 62: ID = set_xstate
+Line 62: )
+Line 63: return
+Line 63: -
+Line 63: ID = ENOSYS
+Line 63: ;
+Line 64: ID = break
+Line 64: ;
+Line 65: ID = case
+Line 65: ID = Q_XGETQSTAT
+Line 65: Unrecognized token: 58
+Line 66: if
+Line 66: (
+Line 66: !
+Line 66: ID = sb
+Line 66: -
+Line 66: >
+Line 66: ID = s_qcop
+Line 66: -
+Line 66: >
+Line 66: ID = get_xstate
+Line 66: )
+Line 67: return
+Line 67: -
+Line 67: ID = ENOSYS
+Line 67: ;
+Line 68: ID = break
+Line 68: ;
+Line 69: ID = case
+Line 69: ID = Q_XSETQLIM
+Line 69: Unrecognized token: 58
+Line 70: if
+Line 70: (
+Line 70: !
+Line 70: ID = sb
+Line 70: -
+Line 70: >
+Line 70: ID = s_qcop
+Line 70: -
+Line 70: >
+Line 70: ID = set_xquota
+Line 70: )
+Line 71: return
+Line 71: -
+Line 71: ID = ENOSYS
+Line 71: ;
+Line 72: ID = break
+Line 72: ;
+Line 73: ID = case
+Line 73: ID = Q_XGETQUOTA
+Line 73: Unrecognized token: 58
+Line 74: if
+Line 74: (
+Line 74: !
+Line 74: ID = sb
+Line 74: -
+Line 74: >
+Line 74: ID = s_qcop
+Line 74: -
+Line 74: >
+Line 74: ID = get_xquota
+Line 74: )
+Line 75: return
+Line 75: -
+Line 75: ID = ENOSYS
+Line 75: ;
+Line 76: ID = break
+Line 76: ;
+Line 77: ID = default
+Line 77: Unrecognized token: 58
+Line 78: return
+Line 78: -
+Line 78: ID = EINVAL
+Line 78: ;
+Line 79: }
+Line 82: ID = switch
+Line 82: (
+Line 82: ID = cmd
+Line 82: )
+Line 82: {
+Line 83: ID = case
+Line 83: ID = Q_GETFMT
+Line 83: Unrecognized token: 58
+Line 84: ID = case
+Line 84: ID = Q_GETINFO
+Line 84: Unrecognized token: 58
+Line 85: ID = case
+Line 85: ID = Q_QUOTAOFF
+Line 85: Unrecognized token: 58
+Line 86: ID = case
+Line 86: ID = Q_SETINFO
+Line 86: Unrecognized token: 58
+Line 87: ID = case
+Line 87: ID = Q_SETQUOTA
+Line 87: Unrecognized token: 58
+Line 88: ID = case
+Line 88: ID = Q_GETQUOTA
+Line 88: Unrecognized token: 58
+Line 90: if
+Line 90: (
+Line 90: !
+Line 90: ID = sb_has_quota_enabled
+Line 90: (
+Line 90: ID = sb
+Line 90: ,
+Line 90: ID = type
+Line 90: )
+Line 90: )
+Line 91: return
+Line 91: -
+Line 91: ID = ESRCH
+Line 91: ;
+Line 92: }
+Line 94: if
+Line 94: (
+Line 94: ID = cmd
+Line 94: ==
+Line 94: ID = Q_GETQUOTA
+Line 94: ||
+Line 94: ID = cmd
+Line 94: ==
+Line 94: ID = Q_XGETQUOTA
+Line 94: )
+Line 94: {
+Line 95: if
+Line 95: (
+Line 95: (
+Line 95: (
+Line 95: ID = type
+Line 95: ==
+Line 95: ID = USRQUOTA
+Line 95: &&
+Line 95: ID = current
+Line 95: -
+Line 95: >
+Line 95: ID = euid
+Line 95: !=
+Line 95: ID = id
+Line 95: )
+Line 95: ||
+Line 96: (
+Line 96: ID = type
+Line 96: ==
+Line 96: ID = GRPQUOTA
+Line 96: &&
+Line 96: !
+Line 96: ID = in_egroup_p
+Line 96: (
+Line 96: ID = id
+Line 96: )
+Line 96: )
+Line 96: )
+Line 96: &&
+Line 97: !
+Line 97: ID = capable
+Line 97: (
+Line 97: ID = CAP_SYS_ADMIN
+Line 97: )
+Line 97: )
+Line 98: return
+Line 98: -
+Line 98: ID = EPERM
+Line 98: ;
+Line 99: }
+Line 100: else
+Line 100: if
+Line 100: (
+Line 100: ID = cmd
+Line 100: !=
+Line 100: ID = Q_GETFMT
+Line 100: &&
+Line 100: ID = cmd
+Line 100: !=
+Line 100: ID = Q_SYNC
+Line 100: &&
+Line 100: ID = cmd
+Line 100: !=
+Line 100: ID = Q_GETINFO
+Line 100: &&
+Line 100: ID = cmd
+Line 100: !=
+Line 100: ID = Q_XGETQSTAT
+Line 100: )
+Line 101: if
+Line 101: (
+Line 101: !
+Line 101: ID = capable
+Line 101: (
+Line 101: ID = CAP_SYS_ADMIN
+Line 101: )
+Line 101: )
+Line 102: return
+Line 102: -
+Line 102: ID = EPERM
+Line 102: ;
+Line 104: return
+Line 104: ID = security_quotactl
+Line 104: (
+Line 104: ID = cmd
+Line 104: ,
+Line 104: ID = type
+Line 104: ,
+Line 104: ID = id
+Line 104: ,
+Line 104: ID = sb
+Line 104: )
+Line 104: ;
+Line 105: }
+Line 107: ID = static
+Line 107: ID = struct
+Line 107: ID = super_block
+Line 107: *
+Line 107: ID = get_super_to_sync
+Line 107: (
+Line 107: int
+Line 107: ID = type
+Line 107: )
+Line 108: {
+Line 109: ID = struct
+Line 109: ID = list_head
+Line 109: *
+Line 109: ID = head
+Line 109: ;
+Line 110: int
+Line 110: ID = cnt
+Line 110: ,
+Line 110: ID = dirty
+Line 110: ;
+Line 112: ID = restart
+Line 112: Unrecognized token: 58
+Line 113: ID = spin_lock
+Line 113: (
+Line 113: Unrecognized token: 38
+Line 113: ID = sb_lock
+Line 113: )
+Line 113: ;
+Line 114: ID = list_for_each
+Line 114: (
+Line 114: ID = head
+Line 114: ,
+Line 114: Unrecognized token: 38
+Line 114: ID = super_blocks
+Line 114: )
+Line 114: {
+Line 115: ID = struct
+Line 115: ID = super_block
+Line 115: *
+Line 115: ID = sb
+Line 115: =
+Line 115: ID = list_entry
+Line 115: (
+Line 115: ID = head
+Line 115: ,
+Line 115: ID = struct
+Line 115: ID = super_block
+Line 115: ,
+Line 115: ID = s_list
+Line 115: )
+Line 115: ;
+Line 118: for
+Line 118: (
+Line 118: ID = cnt
+Line 118: =
+Line 118: INTCON = 0
+Line 118: ,
+Line 118: ID = dirty
+Line 118: =
+Line 118: INTCON = 0
+Line 118: ;
+Line 118: ID = cnt
+Line 118: <
+Line 118: ID = MAXQUOTAS
+Line 118: ;
+Line 118: ID = cnt
+Line 118: +
+Line 118: +
+Line 118: )
+Line 119: if
+Line 119: (
+Line 119: (
+Line 119: ID = type
+Line 119: ==
+Line 119: ID = cnt
+Line 119: ||
+Line 119: ID = type
+Line 119: ==
+Line 119: -
+Line 119: INTCON = 1
+Line 119: )
+Line 119: &&
+Line 119: ID = sb_has_quota_enabled
+Line 119: (
+Line 119: ID = sb
+Line 119: ,
+Line 119: ID = cnt
+Line 119: )
+Line 120: &&
+Line 120: ID = info_any_dirty
+Line 120: (
+Line 120: Unrecognized token: 38
+Line 120: ID = sb_dqopt
+Line 120: (
+Line 120: ID = sb
+Line 120: )
+Line 120: -
+Line 120: >
+Line 120: ID = info
+Line 120: [
+Line 120: ID = cnt
+Line 120: ]
+Line 120: )
+Line 120: )
+Line 121: ID = dirty
+Line 121: =
+Line 121: INTCON = 1
+Line 121: ;
+Line 122: if
+Line 122: (
+Line 122: !
+Line 122: ID = dirty
+Line 122: )
+Line 123: ID = continue
+Line 123: ;
+Line 124: ID = sb
+Line 124: -
+Line 124: >
+Line 124: ID = s_count
+Line 124: +
+Line 124: +
+Line 124: ;
+Line 125: ID = spin_unlock
+Line 125: (
+Line 125: Unrecognized token: 38
+Line 125: ID = sb_lock
+Line 125: )
+Line 125: ;
+Line 126: ID = down_read
+Line 126: (
+Line 126: Unrecognized token: 38
+Line 126: ID = sb
+Line 126: -
+Line 126: >
+Line 126: ID = s_umount
+Line 126: )
+Line 126: ;
+Line 127: if
+Line 127: (
+Line 127: !
+Line 127: ID = sb
+Line 127: -
+Line 127: >
+Line 127: ID = s_root
+Line 127: )
+Line 127: {
+Line 128: ID = drop_super
+Line 128: (
+Line 128: ID = sb
+Line 128: )
+Line 128: ;
+Line 129: ID = goto
+Line 129: ID = restart
+Line 129: ;
+Line 130: }
+Line 131: return
+Line 131: ID = sb
+Line 131: ;
+Line 132: }
+Line 133: ID = spin_unlock
+Line 133: (
+Line 133: Unrecognized token: 38
+Line 133: ID = sb_lock
+Line 133: )
+Line 133: ;
+Line 134: return
+Line 134: ID = NULL
+Line 134: ;
+Line 135: }
+Line 137: void
+Line 137: ID = sync_dquots
+Line 137: (
+Line 137: ID = struct
+Line 137: ID = super_block
+Line 137: *
+Line 137: ID = sb
+Line 137: ,
+Line 137: int
+Line 137: ID = type
+Line 137: )
+Line 138: {
+Line 139: if
+Line 139: (
+Line 139: ID = sb
+Line 139: )
+Line 139: {
+Line 140: if
+Line 140: (
+Line 140: ID = sb
+Line 140: -
+Line 140: >
+Line 140: ID = s_qcop
+Line 140: -
+Line 140: >
+Line 140: ID = quota_sync
+Line 140: )
+Line 141: ID = sb
+Line 141: -
+Line 141: >
+Line 141: ID = s_qcop
+Line 141: -
+Line 141: >
+Line 141: ID = quota_sync
+Line 141: (
+Line 141: ID = sb
+Line 141: ,
+Line 141: ID = type
+Line 141: )
+Line 141: ;
+Line 142: }
+Line 143: else
+Line 143: {
+Line 144: while
+Line 144: (
+Line 144: (
+Line 144: ID = sb
+Line 144: =
+Line 144: ID = get_super_to_sync
+Line 144: (
+Line 144: ID = type
+Line 144: )
+Line 144: )
+Line 144: !=
+Line 144: INTCON = 0
+Line 144: )
+Line 144: {
+Line 145: if
+Line 145: (
+Line 145: ID = sb
+Line 145: -
+Line 145: >
+Line 145: ID = s_qcop
+Line 145: -
+Line 145: >
+Line 145: ID = quota_sync
+Line 145: )
+Line 146: ID = sb
+Line 146: -
+Line 146: >
+Line 146: ID = s_qcop
+Line 146: -
+Line 146: >
+Line 146: ID = quota_sync
+Line 146: (
+Line 146: ID = sb
+Line 146: ,
+Line 146: ID = type
+Line 146: )
+Line 146: ;
+Line 147: ID = drop_super
+Line 147: (
+Line 147: ID = sb
+Line 147: )
+Line 147: ;
+Line 148: }
+Line 149: }
+Line 150: }
+Line 153: ID = static
+Line 153: int
+Line 153: ID = do_quotactl
+Line 153: (
+Line 153: ID = struct
+Line 153: ID = super_block
+Line 153: *
+Line 153: ID = sb
+Line 153: ,
+Line 153: int
+Line 153: ID = type
+Line 153: ,
+Line 153: int
+Line 153: ID = cmd
+Line 153: ,
+Line 153: ID = qid_t
+Line 153: ID = id
+Line 153: ,
+Line 153: void
+Line 153: Unrecognized token: 95
+Line 153: Unrecognized token: 95
+Line 153: ID = user
+Line 153: *
+Line 153: ID = addr
+Line 153: )
+Line 154: {
+Line 155: int
+Line 155: ID = ret
+Line 155: ;
+Line 157: ID = switch
+Line 157: (
+Line 157: ID = cmd
+Line 157: )
+Line 157: {
+Line 158: ID = case
+Line 158: ID = Q_QUOTAON
+Line 158: Unrecognized token: 58
+Line 158: {
+Line 159: char
+Line 159: *
+Line 159: ID = pathname
+Line 159: ;
+Line 161: if
+Line 161: (
+Line 161: ID = IS_ERR
+Line 161: (
+Line 161: ID = pathname
+Line 161: =
+Line 161: ID = getname
+Line 161: (
+Line 161: ID = addr
+Line 161: )
+Line 161: )
+Line 161: )
+Line 162: return
+Line 162: ID = PTR_ERR
+Line 162: (
+Line 162: ID = pathname
+Line 162: )
+Line 162: ;
+Line 163: ID = ret
+Line 163: =
+Line 163: ID = sb
+Line 163: -
+Line 163: >
+Line 163: ID = s_qcop
+Line 163: -
+Line 163: >
+Line 163: ID = quota_on
+Line 163: (
+Line 163: ID = sb
+Line 163: ,
+Line 163: ID = type
+Line 163: ,
+Line 163: ID = id
+Line 163: ,
+Line 163: ID = pathname
+Line 163: )
+Line 163: ;
+Line 164: ID = putname
+Line 164: (
+Line 164: ID = pathname
+Line 164: )
+Line 164: ;
+Line 165: return
+Line 165: ID = ret
+Line 165: ;
+Line 166: }
+Line 167: ID = case
+Line 167: ID = Q_QUOTAOFF
+Line 167: Unrecognized token: 58
+Line 168: return
+Line 168: ID = sb
+Line 168: -
+Line 168: >
+Line 168: ID = s_qcop
+Line 168: -
+Line 168: >
+Line 168: ID = quota_off
+Line 168: (
+Line 168: ID = sb
+Line 168: ,
+Line 168: ID = type
+Line 168: )
+Line 168: ;
+Line 170: ID = case
+Line 170: ID = Q_GETFMT
+Line 170: Unrecognized token: 58
+Line 170: {
+Line 171: Unrecognized token: 95
+Line 171: Unrecognized token: 95
+Line 171: ID = u32
+Line 171: ID = fmt
+Line 171: ;
+Line 173: ID = down_read
+Line 173: (
+Line 173: Unrecognized token: 38
+Line 173: ID = sb_dqopt
+Line 173: (
+Line 173: ID = sb
+Line 173: )
+Line 173: -
+Line 173: >
+Line 173: ID = dqptr_sem
+Line 173: )
+Line 173: ;
+Line 174: if
+Line 174: (
+Line 174: !
+Line 174: ID = sb_has_quota_enabled
+Line 174: (
+Line 174: ID = sb
+Line 174: ,
+Line 174: ID = type
+Line 174: )
+Line 174: )
+Line 174: {
+Line 175: ID = up_read
+Line 175: (
+Line 175: Unrecognized token: 38
+Line 175: ID = sb_dqopt
+Line 175: (
+Line 175: ID = sb
+Line 175: )
+Line 175: -
+Line 175: >
+Line 175: ID = dqptr_sem
+Line 175: )
+Line 175: ;
+Line 176: return
+Line 176: -
+Line 176: ID = ESRCH
+Line 176: ;
+Line 177: }
+Line 178: ID = fmt
+Line 178: =
+Line 178: ID = sb_dqopt
+Line 178: (
+Line 178: ID = sb
+Line 178: )
+Line 178: -
+Line 178: >
+Line 178: ID = info
+Line 178: [
+Line 178: ID = type
+Line 178: ]
+Line 178: Unrecognized token: 46
+Line 178: ID = dqi_format
+Line 178: -
+Line 178: >
+Line 178: ID = qf_fmt_id
+Line 178: ;
+Line 179: ID = up_read
+Line 179: (
+Line 179: Unrecognized token: 38
+Line 179: ID = sb_dqopt
+Line 179: (
+Line 179: ID = sb
+Line 179: )
+Line 179: -
+Line 179: >
+Line 179: ID = dqptr_sem
+Line 179: )
+Line 179: ;
+Line 180: if
+Line 180: (
+Line 180: ID = copy_to_user
+Line 180: (
+Line 180: ID = addr
+Line 180: ,
+Line 180: Unrecognized token: 38
+Line 180: ID = fmt
+Line 180: ,
+Line 180: ID = sizeof
+Line 180: (
+Line 180: ID = fmt
+Line 180: )
+Line 180: )
+Line 180: )
+Line 181: return
+Line 181: -
+Line 181: ID = EFAULT
+Line 181: ;
+Line 182: return
+Line 182: INTCON = 0
+Line 182: ;
+Line 183: }
+Line 184: ID = case
+Line 184: ID = Q_GETINFO
+Line 184: Unrecognized token: 58
+Line 184: {
+Line 185: ID = struct
+Line 185: ID = if_dqinfo
+Line 185: ID = info
+Line 185: ;
+Line 187: if
+Line 187: (
+Line 187: (
+Line 187: ID = ret
+Line 187: =
+Line 187: ID = sb
+Line 187: -
+Line 187: >
+Line 187: ID = s_qcop
+Line 187: -
+Line 187: >
+Line 187: ID = get_info
+Line 187: (
+Line 187: ID = sb
+Line 187: ,
+Line 187: ID = type
+Line 187: ,
+Line 187: Unrecognized token: 38
+Line 187: ID = info
+Line 187: )
+Line 187: )
+Line 187: )
+Line 188: return
+Line 188: ID = ret
+Line 188: ;
+Line 189: if
+Line 189: (
+Line 189: ID = copy_to_user
+Line 189: (
+Line 189: ID = addr
+Line 189: ,
+Line 189: Unrecognized token: 38
+Line 189: ID = info
+Line 189: ,
+Line 189: ID = sizeof
+Line 189: (
+Line 189: ID = info
+Line 189: )
+Line 189: )
+Line 189: )
+Line 190: return
+Line 190: -
+Line 190: ID = EFAULT
+Line 190: ;
+Line 191: return
+Line 191: INTCON = 0
+Line 191: ;
+Line 192: }
+Line 193: ID = case
+Line 193: ID = Q_SETINFO
+Line 193: Unrecognized token: 58
+Line 193: {
+Line 194: ID = struct
+Line 194: ID = if_dqinfo
+Line 194: ID = info
+Line 194: ;
+Line 196: if
+Line 196: (
+Line 196: ID = copy_from_user
+Line 196: (
+Line 196: Unrecognized token: 38
+Line 196: ID = info
+Line 196: ,
+Line 196: ID = addr
+Line 196: ,
+Line 196: ID = sizeof
+Line 196: (
+Line 196: ID = info
+Line 196: )
+Line 196: )
+Line 196: )
+Line 197: return
+Line 197: -
+Line 197: ID = EFAULT
+Line 197: ;
+Line 198: return
+Line 198: ID = sb
+Line 198: -
+Line 198: >
+Line 198: ID = s_qcop
+Line 198: -
+Line 198: >
+Line 198: ID = set_info
+Line 198: (
+Line 198: ID = sb
+Line 198: ,
+Line 198: ID = type
+Line 198: ,
+Line 198: Unrecognized token: 38
+Line 198: ID = info
+Line 198: )
+Line 198: ;
+Line 199: }
+Line 200: ID = case
+Line 200: ID = Q_GETQUOTA
+Line 200: Unrecognized token: 58
+Line 200: {
+Line 201: ID = struct
+Line 201: ID = if_dqblk
+Line 201: ID = idq
+Line 201: ;
+Line 203: if
+Line 203: (
+Line 203: (
+Line 203: ID = ret
+Line 203: =
+Line 203: ID = sb
+Line 203: -
+Line 203: >
+Line 203: ID = s_qcop
+Line 203: -
+Line 203: >
+Line 203: ID = get_dqblk
+Line 203: (
+Line 203: ID = sb
+Line 203: ,
+Line 203: ID = type
+Line 203: ,
+Line 203: ID = id
+Line 203: ,
+Line 203: Unrecognized token: 38
+Line 203: ID = idq
+Line 203: )
+Line 203: )
+Line 203: )
+Line 204: return
+Line 204: ID = ret
+Line 204: ;
+Line 205: if
+Line 205: (
+Line 205: ID = copy_to_user
+Line 205: (
+Line 205: ID = addr
+Line 205: ,
+Line 205: Unrecognized token: 38
+Line 205: ID = idq
+Line 205: ,
+Line 205: ID = sizeof
+Line 205: (
+Line 205: ID = idq
+Line 205: )
+Line 205: )
+Line 205: )
+Line 206: return
+Line 206: -
+Line 206: ID = EFAULT
+Line 206: ;
+Line 207: return
+Line 207: INTCON = 0
+Line 207: ;
+Line 208: }
+Line 209: ID = case
+Line 209: ID = Q_SETQUOTA
+Line 209: Unrecognized token: 58
+Line 209: {
+Line 210: ID = struct
+Line 210: ID = if_dqblk
+Line 210: ID = idq
+Line 210: ;
+Line 212: if
+Line 212: (
+Line 212: ID = copy_from_user
+Line 212: (
+Line 212: Unrecognized token: 38
+Line 212: ID = idq
+Line 212: ,
+Line 212: ID = addr
+Line 212: ,
+Line 212: ID = sizeof
+Line 212: (
+Line 212: ID = idq
+Line 212: )
+Line 212: )
+Line 212: )
+Line 213: return
+Line 213: -
+Line 213: ID = EFAULT
+Line 213: ;
+Line 214: return
+Line 214: ID = sb
+Line 214: -
+Line 214: >
+Line 214: ID = s_qcop
+Line 214: -
+Line 214: >
+Line 214: ID = set_dqblk
+Line 214: (
+Line 214: ID = sb
+Line 214: ,
+Line 214: ID = type
+Line 214: ,
+Line 214: ID = id
+Line 214: ,
+Line 214: Unrecognized token: 38
+Line 214: ID = idq
+Line 214: )
+Line 214: ;
+Line 215: }
+Line 216: ID = case
+Line 216: ID = Q_SYNC
+Line 216: Unrecognized token: 58
+Line 217: ID = sync_dquots
+Line 217: (
+Line 217: ID = sb
+Line 217: ,
+Line 217: ID = type
+Line 217: )
+Line 217: ;
+Line 218: return
+Line 218: INTCON = 0
+Line 218: ;
+Line 220: ID = case
+Line 220: ID = Q_XQUOTAON
+Line 220: Unrecognized token: 58
+Line 221: ID = case
+Line 221: ID = Q_XQUOTAOFF
+Line 221: Unrecognized token: 58
+Line 222: ID = case
+Line 222: ID = Q_XQUOTARM
+Line 222: Unrecognized token: 58
+Line 222: {
+Line 223: Unrecognized token: 95
+Line 223: Unrecognized token: 95
+Line 223: ID = u32
+Line 223: ID = flags
+Line 223: ;
+Line 225: if
+Line 225: (
+Line 225: ID = copy_from_user
+Line 225: (
+Line 225: Unrecognized token: 38
+Line 225: ID = flags
+Line 225: ,
+Line 225: ID = addr
+Line 225: ,
+Line 225: ID = sizeof
+Line 225: (
+Line 225: ID = flags
+Line 225: )
+Line 225: )
+Line 225: )
+Line 226: return
+Line 226: -
+Line 226: ID = EFAULT
+Line 226: ;
+Line 227: return
+Line 227: ID = sb
+Line 227: -
+Line 227: >
+Line 227: ID = s_qcop
+Line 227: -
+Line 227: >
+Line 227: ID = set_xstate
+Line 227: (
+Line 227: ID = sb
+Line 227: ,
+Line 227: ID = flags
+Line 227: ,
+Line 227: ID = cmd
+Line 227: )
+Line 227: ;
+Line 228: }
+Line 229: ID = case
+Line 229: ID = Q_XGETQSTAT
+Line 229: Unrecognized token: 58
+Line 229: {
+Line 230: ID = struct
+Line 230: ID = fs_quota_stat
+Line 230: ID = fqs
+Line 230: ;
+Line 232: if
+Line 232: (
+Line 232: (
+Line 232: ID = ret
+Line 232: =
+Line 232: ID = sb
+Line 232: -
+Line 232: >
+Line 232: ID = s_qcop
+Line 232: -
+Line 232: >
+Line 232: ID = get_xstate
+Line 232: (
+Line 232: ID = sb
+Line 232: ,
+Line 232: Unrecognized token: 38
+Line 232: ID = fqs
+Line 232: )
+Line 232: )
+Line 232: )
+Line 233: return
+Line 233: ID = ret
+Line 233: ;
+Line 234: if
+Line 234: (
+Line 234: ID = copy_to_user
+Line 234: (
+Line 234: ID = addr
+Line 234: ,
+Line 234: Unrecognized token: 38
+Line 234: ID = fqs
+Line 234: ,
+Line 234: ID = sizeof
+Line 234: (
+Line 234: ID = fqs
+Line 234: )
+Line 234: )
+Line 234: )
+Line 235: return
+Line 235: -
+Line 235: ID = EFAULT
+Line 235: ;
+Line 236: return
+Line 236: INTCON = 0
+Line 236: ;
+Line 237: }
+Line 238: ID = case
+Line 238: ID = Q_XSETQLIM
+Line 238: Unrecognized token: 58
+Line 238: {
+Line 239: ID = struct
+Line 239: ID = fs_disk_quota
+Line 239: ID = fdq
+Line 239: ;
+Line 241: if
+Line 241: (
+Line 241: ID = copy_from_user
+Line 241: (
+Line 241: Unrecognized token: 38
+Line 241: ID = fdq
+Line 241: ,
+Line 241: ID = addr
+Line 241: ,
+Line 241: ID = sizeof
+Line 241: (
+Line 241: ID = fdq
+Line 241: )
+Line 241: )
+Line 241: )
+Line 242: return
+Line 242: -
+Line 242: ID = EFAULT
+Line 242: ;
+Line 243: return
+Line 243: ID = sb
+Line 243: -
+Line 243: >
+Line 243: ID = s_qcop
+Line 243: -
+Line 243: >
+Line 243: ID = set_xquota
+Line 243: (
+Line 243: ID = sb
+Line 243: ,
+Line 243: ID = type
+Line 243: ,
+Line 243: ID = id
+Line 243: ,
+Line 243: Unrecognized token: 38
+Line 243: ID = fdq
+Line 243: )
+Line 243: ;
+Line 244: }
+Line 245: ID = case
+Line 245: ID = Q_XGETQUOTA
+Line 245: Unrecognized token: 58
+Line 245: {
+Line 246: ID = struct
+Line 246: ID = fs_disk_quota
+Line 246: ID = fdq
+Line 246: ;
+Line 248: if
+Line 248: (
+Line 248: (
+Line 248: ID = ret
+Line 248: =
+Line 248: ID = sb
+Line 248: -
+Line 248: >
+Line 248: ID = s_qcop
+Line 248: -
+Line 248: >
+Line 248: ID = get_xquota
+Line 248: (
+Line 248: ID = sb
+Line 248: ,
+Line 248: ID = type
+Line 248: ,
+Line 248: ID = id
+Line 248: ,
+Line 248: Unrecognized token: 38
+Line 248: ID = fdq
+Line 248: )
+Line 248: )
+Line 248: )
+Line 249: return
+Line 249: ID = ret
+Line 249: ;
+Line 250: if
+Line 250: (
+Line 250: ID = copy_to_user
+Line 250: (
+Line 250: ID = addr
+Line 250: ,
+Line 250: Unrecognized token: 38
+Line 250: ID = fdq
+Line 250: ,
+Line 250: ID = sizeof
+Line 250: (
+Line 250: ID = fdq
+Line 250: )
+Line 250: )
+Line 250: )
+Line 251: return
+Line 251: -
+Line 251: ID = EFAULT
+Line 251: ;
+Line 252: return
+Line 252: INTCON = 0
+Line 252: ;
+Line 253: }
+Line 255: ID = default
+Line 255: Unrecognized token: 58
+Line 256: ID = BUG
+Line 256: (
+Line 256: )
+Line 256: ;
+Line 257: }
+Line 258: return
+Line 258: INTCON = 0
+Line 258: ;
+Line 259: }
+Line 267: ID = asmlinkage
+Line 267: ID = long
+Line 267: ID = sys_quotactl
+Line 267: (
+Line 267: ID = unsigned
+Line 267: int
+Line 267: ID = cmd
+Line 267: ,
+Line 267: ID = const
+Line 267: char
+Line 267: Unrecognized token: 95
+Line 267: Unrecognized token: 95
+Line 267: ID = user
+Line 267: *
+Line 267: ID = special
+Line 267: ,
+Line 267: ID = qid_t
+Line 267: ID = id
+Line 267: ,
+Line 267: void
+Line 267: Unrecognized token: 95
+Line 267: Unrecognized token: 95
+Line 267: ID = user
+Line 267: *
+Line 267: ID = addr
+Line 267: )
+Line 268: {
+Line 269: ID = uint
+Line 269: ID = cmds
+Line 269: ,
+Line 269: ID = type
+Line 269: ;
+Line 270: ID = struct
+Line 270: ID = super_block
+Line 270: *
+Line 270: ID = sb
+Line 270: =
+Line 270: ID = NULL
+Line 270: ;
+Line 271: ID = struct
+Line 271: ID = block_device
+Line 271: *
+Line 271: ID = bdev
+Line 271: ;
+Line 272: char
+Line 272: *
+Line 272: ID = tmp
+Line 272: ;
+Line 273: int
+Line 273: ID = ret
+Line 273: ;
+Line 275: ID = cmds
+Line 275: =
+Line 275: ID = cmd
+Line 275: >
+Line 275: >
+Line 275: ID = SUBCMDSHIFT
+Line 275: ;
+Line 276: ID = type
+Line 276: =
+Line 276: ID = cmd
+Line 276: Unrecognized token: 38
+Line 276: ID = SUBCMDMASK
+Line 276: ;
+Line 278: if
+Line 278: (
+Line 278: ID = cmds
+Line 278: !=
+Line 278: ID = Q_SYNC
+Line 278: ||
+Line 278: ID = special
+Line 278: )
+Line 278: {
+Line 279: ID = tmp
+Line 279: =
+Line 279: ID = getname
+Line 279: (
+Line 279: ID = special
+Line 279: )
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: ID = IS_ERR
+Line 280: (
+Line 280: ID = tmp
+Line 280: )
+Line 280: )
+Line 281: return
+Line 281: ID = PTR_ERR
+Line 281: (
+Line 281: ID = tmp
+Line 281: )
+Line 281: ;
+Line 282: ID = bdev
+Line 282: =
+Line 282: ID = lookup_bdev
+Line 282: (
+Line 282: ID = tmp
+Line 282: )
+Line 282: ;
+Line 283: ID = putname
+Line 283: (
+Line 283: ID = tmp
+Line 283: )
+Line 283: ;
+Line 284: if
+Line 284: (
+Line 284: ID = IS_ERR
+Line 284: (
+Line 284: ID = bdev
+Line 284: )
+Line 284: )
+Line 285: return
+Line 285: ID = PTR_ERR
+Line 285: (
+Line 285: ID = bdev
+Line 285: )
+Line 285: ;
+Line 286: ID = sb
+Line 286: =
+Line 286: ID = get_super
+Line 286: (
+Line 286: ID = bdev
+Line 286: )
+Line 286: ;
+Line 287: ID = bdput
+Line 287: (
+Line 287: ID = bdev
+Line 287: )
+Line 287: ;
+Line 288: if
+Line 288: (
+Line 288: !
+Line 288: ID = sb
+Line 288: )
+Line 289: return
+Line 289: -
+Line 289: ID = ENODEV
+Line 289: ;
+Line 290: }
+Line 292: ID = ret
+Line 292: =
+Line 292: ID = check_quotactl_valid
+Line 292: (
+Line 292: ID = sb
+Line 292: ,
+Line 292: ID = type
+Line 292: ,
+Line 292: ID = cmds
+Line 292: ,
+Line 292: ID = id
+Line 292: )
+Line 292: ;
+Line 293: if
+Line 293: (
+Line 293: ID = ret
+Line 293: >=
+Line 293: INTCON = 0
+Line 293: )
+Line 294: ID = ret
+Line 294: =
+Line 294: ID = do_quotactl
+Line 294: (
+Line 294: ID = sb
+Line 294: ,
+Line 294: ID = type
+Line 294: ,
+Line 294: ID = cmds
+Line 294: ,
+Line 294: ID = id
+Line 294: ,
+Line 294: ID = addr
+Line 294: )
+Line 294: ;
+Line 295: if
+Line 295: (
+Line 295: ID = sb
+Line 295: )
+Line 296: ID = drop_super
+Line 296: (
+Line 296: ID = sb
+Line 296: )
+Line 296: ;
+Line 298: return
+Line 298: ID = ret
+Line 298: ;
+Line 299: }
+Line 300: -EOF-

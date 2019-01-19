@@ -1,0 +1,2311 @@
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = kernel
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = spinlock
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = sched
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = fs
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = mm
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = writeback
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = blkdev
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = backing
+Line 23: -
+Line 23: ID = dev
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = buffer_head
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 26: extern
+Line 26: ID = struct
+Line 26: ID = super_block
+Line 26: *
+Line 26: ID = blockdev_superblock
+Line 26: ;
+Line 55: void
+Line 55: Unrecognized token: 95
+Line 55: Unrecognized token: 95
+Line 55: ID = mark_inode_dirty
+Line 55: (
+Line 55: ID = struct
+Line 55: ID = inode
+Line 55: *
+Line 55: ID = inode
+Line 55: ,
+Line 55: int
+Line 55: ID = flags
+Line 55: )
+Line 56: {
+Line 57: ID = struct
+Line 57: ID = super_block
+Line 57: *
+Line 57: ID = sb
+Line 57: =
+Line 57: ID = inode
+Line 57: -
+Line 57: >
+Line 57: ID = i_sb
+Line 57: ;
+Line 63: if
+Line 63: (
+Line 63: ID = flags
+Line 63: Unrecognized token: 38
+Line 63: (
+Line 63: ID = I_DIRTY_SYNC
+Line 63: Unrecognized token: 124
+Line 63: ID = I_DIRTY_DATASYNC
+Line 63: )
+Line 63: )
+Line 63: {
+Line 64: if
+Line 64: (
+Line 64: ID = sb
+Line 64: -
+Line 64: >
+Line 64: ID = s_op
+Line 64: -
+Line 64: >
+Line 64: ID = dirty_inode
+Line 64: )
+Line 65: ID = sb
+Line 65: -
+Line 65: >
+Line 65: ID = s_op
+Line 65: -
+Line 65: >
+Line 65: ID = dirty_inode
+Line 65: (
+Line 65: ID = inode
+Line 65: )
+Line 65: ;
+Line 66: }
+Line 72: ID = smp_mb
+Line 72: (
+Line 72: )
+Line 72: ;
+Line 75: if
+Line 75: (
+Line 75: (
+Line 75: ID = inode
+Line 75: -
+Line 75: >
+Line 75: ID = i_state
+Line 75: Unrecognized token: 38
+Line 75: ID = flags
+Line 75: )
+Line 75: ==
+Line 75: ID = flags
+Line 75: )
+Line 76: return
+Line 76: ;
+Line 78: if
+Line 78: (
+Line 78: ID = unlikely
+Line 78: (
+Line 78: ID = block_dump
+Line 78: )
+Line 78: )
+Line 78: {
+Line 79: ID = struct
+Line 79: ID = dentry
+Line 79: *
+Line 79: ID = dentry
+Line 79: =
+Line 79: ID = NULL
+Line 79: ;
+Line 80: ID = const
+Line 80: char
+Line 80: *
+Line 80: ID = name
+Line 80: =
+Line 80: STRINGCON = "?"
+Line 80: ;
+Line 82: if
+Line 82: (
+Line 82: !
+Line 82: ID = list_empty
+Line 82: (
+Line 82: Unrecognized token: 38
+Line 82: ID = inode
+Line 82: -
+Line 82: >
+Line 82: ID = i_dentry
+Line 82: )
+Line 82: )
+Line 82: {
+Line 83: ID = dentry
+Line 83: =
+Line 83: ID = list_entry
+Line 83: (
+Line 83: ID = inode
+Line 83: -
+Line 83: >
+Line 83: ID = i_dentry
+Line 83: Unrecognized token: 46
+Line 83: ID = next
+Line 83: ,
+Line 84: ID = struct
+Line 84: ID = dentry
+Line 84: ,
+Line 84: ID = d_alias
+Line 84: )
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: ID = dentry
+Line 85: &&
+Line 85: ID = dentry
+Line 85: -
+Line 85: >
+Line 85: ID = d_name
+Line 85: Unrecognized token: 46
+Line 85: ID = name
+Line 85: )
+Line 86: ID = name
+Line 86: =
+Line 86: (
+Line 86: ID = const
+Line 86: char
+Line 86: *
+Line 86: )
+Line 86: ID = dentry
+Line 86: -
+Line 86: >
+Line 86: ID = d_name
+Line 86: Unrecognized token: 46
+Line 86: ID = name
+Line 86: ;
+Line 87: }
+Line 89: if
+Line 89: (
+Line 89: ID = inode
+Line 89: -
+Line 89: >
+Line 89: ID = i_ino
+Line 89: ||
+Line 89: ID = strcmp
+Line 89: (
+Line 89: ID = inode
+Line 89: -
+Line 89: >
+Line 89: ID = i_sb
+Line 89: -
+Line 89: >
+Line 89: ID = s_id
+Line 89: ,
+Line 89: STRINGCON = "bdev"
+Line 89: )
+Line 89: )
+Line 90: ID = printk
+Line 90: (
+Line 90: ID = KERN_DEBUG
+Line 91: STRINGCON = "%s(%d): dirtied inode %lu (%s) on %s\n"
+Line 91: ,
+Line 92: ID = current
+Line 92: -
+Line 92: >
+Line 92: ID = comm
+Line 92: ,
+Line 92: ID = current
+Line 92: -
+Line 92: >
+Line 92: ID = pid
+Line 92: ,
+Line 92: ID = inode
+Line 92: -
+Line 92: >
+Line 92: ID = i_ino
+Line 92: ,
+Line 93: ID = name
+Line 93: ,
+Line 93: ID = inode
+Line 93: -
+Line 93: >
+Line 93: ID = i_sb
+Line 93: -
+Line 93: >
+Line 93: ID = s_id
+Line 93: )
+Line 93: ;
+Line 94: }
+Line 96: ID = spin_lock
+Line 96: (
+Line 96: Unrecognized token: 38
+Line 96: ID = inode_lock
+Line 96: )
+Line 96: ;
+Line 97: if
+Line 97: (
+Line 97: (
+Line 97: ID = inode
+Line 97: -
+Line 97: >
+Line 97: ID = i_state
+Line 97: Unrecognized token: 38
+Line 97: ID = flags
+Line 97: )
+Line 97: !=
+Line 97: ID = flags
+Line 97: )
+Line 97: {
+Line 98: ID = const
+Line 98: int
+Line 98: ID = was_dirty
+Line 98: =
+Line 98: ID = inode
+Line 98: -
+Line 98: >
+Line 98: ID = i_state
+Line 98: Unrecognized token: 38
+Line 98: ID = I_DIRTY
+Line 98: ;
+Line 100: ID = inode
+Line 100: -
+Line 100: >
+Line 100: ID = i_state
+Line 100: Unrecognized token: 124
+Line 100: =
+Line 100: ID = flags
+Line 100: ;
+Line 107: if
+Line 107: (
+Line 107: ID = inode
+Line 107: -
+Line 107: >
+Line 107: ID = i_state
+Line 107: Unrecognized token: 38
+Line 107: ID = I_LOCK
+Line 107: )
+Line 108: ID = goto
+Line 108: ID = out
+Line 108: ;
+Line 114: if
+Line 114: (
+Line 114: !
+Line 114: ID = S_ISBLK
+Line 114: (
+Line 114: ID = inode
+Line 114: -
+Line 114: >
+Line 114: ID = i_mode
+Line 114: )
+Line 114: )
+Line 114: {
+Line 115: if
+Line 115: (
+Line 115: ID = hlist_unhashed
+Line 115: (
+Line 115: Unrecognized token: 38
+Line 115: ID = inode
+Line 115: -
+Line 115: >
+Line 115: ID = i_hash
+Line 115: )
+Line 115: )
+Line 116: ID = goto
+Line 116: ID = out
+Line 116: ;
+Line 117: }
+Line 118: if
+Line 118: (
+Line 118: ID = inode
+Line 118: -
+Line 118: >
+Line 118: ID = i_state
+Line 118: Unrecognized token: 38
+Line 118: (
+Line 118: ID = I_FREEING
+Line 118: Unrecognized token: 124
+Line 118: ID = I_CLEAR
+Line 118: )
+Line 118: )
+Line 119: ID = goto
+Line 119: ID = out
+Line 119: ;
+Line 125: if
+Line 125: (
+Line 125: !
+Line 125: ID = was_dirty
+Line 125: )
+Line 125: {
+Line 126: ID = inode
+Line 126: -
+Line 126: >
+Line 126: ID = dirtied_when
+Line 126: =
+Line 126: ID = jiffies
+Line 126: ;
+Line 127: ID = list_move
+Line 127: (
+Line 127: Unrecognized token: 38
+Line 127: ID = inode
+Line 127: -
+Line 127: >
+Line 127: ID = i_list
+Line 127: ,
+Line 127: Unrecognized token: 38
+Line 127: ID = sb
+Line 127: -
+Line 127: >
+Line 127: ID = s_dirty
+Line 127: )
+Line 127: ;
+Line 128: }
+Line 129: }
+Line 130: ID = out
+Line 130: Unrecognized token: 58
+Line 131: ID = spin_unlock
+Line 131: (
+Line 131: Unrecognized token: 38
+Line 131: ID = inode_lock
+Line 131: )
+Line 131: ;
+Line 132: }
+Line 134: ID = EXPORT_SYMBOL
+Line 134: (
+Line 134: Unrecognized token: 95
+Line 134: Unrecognized token: 95
+Line 134: ID = mark_inode_dirty
+Line 134: )
+Line 134: ;
+Line 136: ID = static
+Line 136: void
+Line 136: ID = write_inode
+Line 136: (
+Line 136: ID = struct
+Line 136: ID = inode
+Line 136: *
+Line 136: ID = inode
+Line 136: ,
+Line 136: int
+Line 136: ID = sync
+Line 136: )
+Line 137: {
+Line 138: if
+Line 138: (
+Line 138: ID = inode
+Line 138: -
+Line 138: >
+Line 138: ID = i_sb
+Line 138: -
+Line 138: >
+Line 138: ID = s_op
+Line 138: -
+Line 138: >
+Line 138: ID = write_inode
+Line 138: &&
+Line 138: !
+Line 138: ID = is_bad_inode
+Line 138: (
+Line 138: ID = inode
+Line 138: )
+Line 138: )
+Line 139: ID = inode
+Line 139: -
+Line 139: >
+Line 139: ID = i_sb
+Line 139: -
+Line 139: >
+Line 139: ID = s_op
+Line 139: -
+Line 139: >
+Line 139: ID = write_inode
+Line 139: (
+Line 139: ID = inode
+Line 139: ,
+Line 139: ID = sync
+Line 139: )
+Line 139: ;
+Line 140: }
+Line 152: ID = static
+Line 152: int
+Line 153: Unrecognized token: 95
+Line 153: Unrecognized token: 95
+Line 153: ID = sync_single_inode
+Line 153: (
+Line 153: ID = struct
+Line 153: ID = inode
+Line 153: *
+Line 153: ID = inode
+Line 153: ,
+Line 153: ID = struct
+Line 153: ID = writeback_control
+Line 153: *
+Line 153: ID = wbc
+Line 153: )
+Line 154: {
+Line 155: ID = unsigned
+Line 155: ID = dirty
+Line 155: ;
+Line 156: ID = struct
+Line 156: ID = address_space
+Line 156: *
+Line 156: ID = mapping
+Line 156: =
+Line 156: ID = inode
+Line 156: -
+Line 156: >
+Line 156: ID = i_mapping
+Line 156: ;
+Line 157: ID = struct
+Line 157: ID = super_block
+Line 157: *
+Line 157: ID = sb
+Line 157: =
+Line 157: ID = inode
+Line 157: -
+Line 157: >
+Line 157: ID = i_sb
+Line 157: ;
+Line 158: int
+Line 158: ID = wait
+Line 158: =
+Line 158: ID = wbc
+Line 158: -
+Line 158: >
+Line 158: ID = sync_mode
+Line 158: ==
+Line 158: ID = WB_SYNC_ALL
+Line 158: ;
+Line 159: int
+Line 159: ID = ret
+Line 159: ;
+Line 161: ID = BUG_ON
+Line 161: (
+Line 161: ID = inode
+Line 161: -
+Line 161: >
+Line 161: ID = i_state
+Line 161: Unrecognized token: 38
+Line 161: ID = I_LOCK
+Line 161: )
+Line 161: ;
+Line 164: ID = dirty
+Line 164: =
+Line 164: ID = inode
+Line 164: -
+Line 164: >
+Line 164: ID = i_state
+Line 164: Unrecognized token: 38
+Line 164: ID = I_DIRTY
+Line 164: ;
+Line 165: ID = inode
+Line 165: -
+Line 165: >
+Line 165: ID = i_state
+Line 165: Unrecognized token: 124
+Line 165: =
+Line 165: ID = I_LOCK
+Line 165: ;
+Line 166: ID = inode
+Line 166: -
+Line 166: >
+Line 166: ID = i_state
+Line 166: Unrecognized token: 38
+Line 166: =
+Line 166: Unrecognized token: 126
+Line 166: ID = I_DIRTY
+Line 166: ;
+Line 168: ID = spin_unlock
+Line 168: (
+Line 168: Unrecognized token: 38
+Line 168: ID = inode_lock
+Line 168: )
+Line 168: ;
+Line 170: ID = ret
+Line 170: =
+Line 170: ID = do_writepages
+Line 170: (
+Line 170: ID = mapping
+Line 170: ,
+Line 170: ID = wbc
+Line 170: )
+Line 170: ;
+Line 173: if
+Line 173: (
+Line 173: ID = dirty
+Line 173: Unrecognized token: 38
+Line 173: (
+Line 173: ID = I_DIRTY_SYNC
+Line 173: Unrecognized token: 124
+Line 173: ID = I_DIRTY_DATASYNC
+Line 173: )
+Line 173: )
+Line 174: ID = write_inode
+Line 174: (
+Line 174: ID = inode
+Line 174: ,
+Line 174: ID = wait
+Line 174: )
+Line 174: ;
+Line 176: if
+Line 176: (
+Line 176: ID = wait
+Line 176: )
+Line 176: {
+Line 177: int
+Line 177: ID = err
+Line 177: =
+Line 177: ID = filemap_fdatawait
+Line 177: (
+Line 177: ID = mapping
+Line 177: )
+Line 177: ;
+Line 178: if
+Line 178: (
+Line 178: ID = ret
+Line 178: ==
+Line 178: INTCON = 0
+Line 178: )
+Line 179: ID = ret
+Line 179: =
+Line 179: ID = err
+Line 179: ;
+Line 180: }
+Line 182: ID = spin_lock
+Line 182: (
+Line 182: Unrecognized token: 38
+Line 182: ID = inode_lock
+Line 182: )
+Line 182: ;
+Line 183: ID = inode
+Line 183: -
+Line 183: >
+Line 183: ID = i_state
+Line 183: Unrecognized token: 38
+Line 183: =
+Line 183: Unrecognized token: 126
+Line 183: ID = I_LOCK
+Line 183: ;
+Line 184: if
+Line 184: (
+Line 184: !
+Line 184: (
+Line 184: ID = inode
+Line 184: -
+Line 184: >
+Line 184: ID = i_state
+Line 184: Unrecognized token: 38
+Line 184: ID = I_FREEING
+Line 184: )
+Line 184: )
+Line 184: {
+Line 185: if
+Line 185: (
+Line 185: !
+Line 185: (
+Line 185: ID = inode
+Line 185: -
+Line 185: >
+Line 185: ID = i_state
+Line 185: Unrecognized token: 38
+Line 185: ID = I_DIRTY
+Line 185: )
+Line 185: &&
+Line 186: ID = mapping_tagged
+Line 186: (
+Line 186: ID = mapping
+Line 186: ,
+Line 186: ID = PAGECACHE_TAG_DIRTY
+Line 186: )
+Line 186: )
+Line 186: {
+Line 192: if
+Line 192: (
+Line 192: ID = wbc
+Line 192: -
+Line 192: >
+Line 192: ID = for_kupdate
+Line 192: )
+Line 192: {
+Line 199: ID = inode
+Line 199: -
+Line 199: >
+Line 199: ID = i_state
+Line 199: Unrecognized token: 124
+Line 199: =
+Line 199: ID = I_DIRTY_PAGES
+Line 199: ;
+Line 200: ID = list_move_tail
+Line 200: (
+Line 200: Unrecognized token: 38
+Line 200: ID = inode
+Line 200: -
+Line 200: >
+Line 200: ID = i_list
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = sb
+Line 200: -
+Line 200: >
+Line 200: ID = s_dirty
+Line 200: )
+Line 200: ;
+Line 201: }
+Line 201: else
+Line 201: {
+Line 209: ID = inode
+Line 209: -
+Line 209: >
+Line 209: ID = i_state
+Line 209: Unrecognized token: 124
+Line 209: =
+Line 209: ID = I_DIRTY_PAGES
+Line 209: ;
+Line 210: ID = inode
+Line 210: -
+Line 210: >
+Line 210: ID = dirtied_when
+Line 210: =
+Line 210: ID = jiffies
+Line 210: ;
+Line 211: ID = list_move
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = inode
+Line 211: -
+Line 211: >
+Line 211: ID = i_list
+Line 211: ,
+Line 211: Unrecognized token: 38
+Line 211: ID = sb
+Line 211: -
+Line 211: >
+Line 211: ID = s_dirty
+Line 211: )
+Line 211: ;
+Line 212: }
+Line 213: }
+Line 213: else
+Line 213: if
+Line 213: (
+Line 213: ID = inode
+Line 213: -
+Line 213: >
+Line 213: ID = i_state
+Line 213: Unrecognized token: 38
+Line 213: ID = I_DIRTY
+Line 213: )
+Line 213: {
+Line 218: ID = list_move
+Line 218: (
+Line 218: Unrecognized token: 38
+Line 218: ID = inode
+Line 218: -
+Line 218: >
+Line 218: ID = i_list
+Line 218: ,
+Line 218: Unrecognized token: 38
+Line 218: ID = sb
+Line 218: -
+Line 218: >
+Line 218: ID = s_dirty
+Line 218: )
+Line 218: ;
+Line 219: }
+Line 219: else
+Line 219: if
+Line 219: (
+Line 219: ID = atomic_read
+Line 219: (
+Line 219: Unrecognized token: 38
+Line 219: ID = inode
+Line 219: -
+Line 219: >
+Line 219: ID = i_count
+Line 219: )
+Line 219: )
+Line 219: {
+Line 223: ID = list_move
+Line 223: (
+Line 223: Unrecognized token: 38
+Line 223: ID = inode
+Line 223: -
+Line 223: >
+Line 223: ID = i_list
+Line 223: ,
+Line 223: Unrecognized token: 38
+Line 223: ID = inode_in_use
+Line 223: )
+Line 223: ;
+Line 224: }
+Line 224: else
+Line 224: {
+Line 228: ID = list_move
+Line 228: (
+Line 228: Unrecognized token: 38
+Line 228: ID = inode
+Line 228: -
+Line 228: >
+Line 228: ID = i_list
+Line 228: ,
+Line 228: Unrecognized token: 38
+Line 228: ID = inode_unused
+Line 228: )
+Line 228: ;
+Line 229: ID = inodes_stat
+Line 229: Unrecognized token: 46
+Line 229: ID = nr_unused
+Line 229: +
+Line 229: +
+Line 229: ;
+Line 230: }
+Line 231: }
+Line 232: ID = wake_up_inode
+Line 232: (
+Line 232: ID = inode
+Line 232: )
+Line 232: ;
+Line 233: return
+Line 233: ID = ret
+Line 233: ;
+Line 234: }
+Line 239: ID = static
+Line 239: int
+Line 240: Unrecognized token: 95
+Line 240: Unrecognized token: 95
+Line 240: ID = writeback_single_inode
+Line 240: (
+Line 240: ID = struct
+Line 240: ID = inode
+Line 240: *
+Line 240: ID = inode
+Line 240: ,
+Line 241: ID = struct
+Line 241: ID = writeback_control
+Line 241: *
+Line 241: ID = wbc
+Line 241: )
+Line 242: {
+Line 243: if
+Line 243: (
+Line 243: (
+Line 243: ID = wbc
+Line 243: -
+Line 243: >
+Line 243: ID = sync_mode
+Line 243: !=
+Line 243: ID = WB_SYNC_ALL
+Line 243: )
+Line 243: &&
+Line 243: (
+Line 243: ID = inode
+Line 243: -
+Line 243: >
+Line 243: ID = i_state
+Line 243: Unrecognized token: 38
+Line 243: ID = I_LOCK
+Line 243: )
+Line 243: )
+Line 243: {
+Line 244: ID = list_move
+Line 244: (
+Line 244: Unrecognized token: 38
+Line 244: ID = inode
+Line 244: -
+Line 244: >
+Line 244: ID = i_list
+Line 244: ,
+Line 244: Unrecognized token: 38
+Line 244: ID = inode
+Line 244: -
+Line 244: >
+Line 244: ID = i_sb
+Line 244: -
+Line 244: >
+Line 244: ID = s_dirty
+Line 244: )
+Line 244: ;
+Line 245: return
+Line 245: INTCON = 0
+Line 245: ;
+Line 246: }
+Line 251: while
+Line 251: (
+Line 251: ID = inode
+Line 251: -
+Line 251: >
+Line 251: ID = i_state
+Line 251: Unrecognized token: 38
+Line 251: ID = I_LOCK
+Line 251: )
+Line 251: {
+Line 252: Unrecognized token: 95
+Line 252: Unrecognized token: 95
+Line 252: ID = iget
+Line 252: (
+Line 252: ID = inode
+Line 252: )
+Line 252: ;
+Line 253: ID = spin_unlock
+Line 253: (
+Line 253: Unrecognized token: 38
+Line 253: ID = inode_lock
+Line 253: )
+Line 253: ;
+Line 254: Unrecognized token: 95
+Line 254: Unrecognized token: 95
+Line 254: ID = wait_on_inode
+Line 254: (
+Line 254: ID = inode
+Line 254: )
+Line 254: ;
+Line 255: ID = iput
+Line 255: (
+Line 255: ID = inode
+Line 255: )
+Line 255: ;
+Line 256: ID = spin_lock
+Line 256: (
+Line 256: Unrecognized token: 38
+Line 256: ID = inode_lock
+Line 256: )
+Line 256: ;
+Line 257: }
+Line 258: return
+Line 258: Unrecognized token: 95
+Line 258: Unrecognized token: 95
+Line 258: ID = sync_single_inode
+Line 258: (
+Line 258: ID = inode
+Line 258: ,
+Line 258: ID = wbc
+Line 258: )
+Line 258: ;
+Line 259: }
+Line 291: ID = static
+Line 291: void
+Line 292: ID = sync_sb_inodes
+Line 292: (
+Line 292: ID = struct
+Line 292: ID = super_block
+Line 292: *
+Line 292: ID = sb
+Line 292: ,
+Line 292: ID = struct
+Line 292: ID = writeback_control
+Line 292: *
+Line 292: ID = wbc
+Line 292: )
+Line 293: {
+Line 294: ID = const
+Line 294: ID = unsigned
+Line 294: ID = long
+Line 294: ID = start
+Line 294: =
+Line 294: ID = jiffies
+Line 294: ;
+Line 296: if
+Line 296: (
+Line 296: !
+Line 296: ID = wbc
+Line 296: -
+Line 296: >
+Line 296: ID = for_kupdate
+Line 296: ||
+Line 296: ID = list_empty
+Line 296: (
+Line 296: Unrecognized token: 38
+Line 296: ID = sb
+Line 296: -
+Line 296: >
+Line 296: ID = s_io
+Line 296: )
+Line 296: )
+Line 297: ID = list_splice_init
+Line 297: (
+Line 297: Unrecognized token: 38
+Line 297: ID = sb
+Line 297: -
+Line 297: >
+Line 297: ID = s_dirty
+Line 297: ,
+Line 297: Unrecognized token: 38
+Line 297: ID = sb
+Line 297: -
+Line 297: >
+Line 297: ID = s_io
+Line 297: )
+Line 297: ;
+Line 299: while
+Line 299: (
+Line 299: !
+Line 299: ID = list_empty
+Line 299: (
+Line 299: Unrecognized token: 38
+Line 299: ID = sb
+Line 299: -
+Line 299: >
+Line 299: ID = s_io
+Line 299: )
+Line 299: )
+Line 299: {
+Line 300: ID = struct
+Line 300: ID = inode
+Line 300: *
+Line 300: ID = inode
+Line 300: =
+Line 300: ID = list_entry
+Line 300: (
+Line 300: ID = sb
+Line 300: -
+Line 300: >
+Line 300: ID = s_io
+Line 300: Unrecognized token: 46
+Line 300: ID = prev
+Line 300: ,
+Line 301: ID = struct
+Line 301: ID = inode
+Line 301: ,
+Line 301: ID = i_list
+Line 301: )
+Line 301: ;
+Line 302: ID = struct
+Line 302: ID = address_space
+Line 302: *
+Line 302: ID = mapping
+Line 302: =
+Line 302: ID = inode
+Line 302: -
+Line 302: >
+Line 302: ID = i_mapping
+Line 302: ;
+Line 303: ID = struct
+Line 303: ID = backing_dev_info
+Line 303: *
+Line 303: ID = bdi
+Line 303: =
+Line 303: ID = mapping
+Line 303: -
+Line 303: >
+Line 303: ID = backing_dev_info
+Line 303: ;
+Line 304: ID = long
+Line 304: ID = pages_skipped
+Line 304: ;
+Line 306: if
+Line 306: (
+Line 306: ID = bdi
+Line 306: -
+Line 306: >
+Line 306: ID = memory_backed
+Line 306: )
+Line 306: {
+Line 307: if
+Line 307: (
+Line 307: ID = sb
+Line 307: ==
+Line 307: ID = blockdev_superblock
+Line 307: )
+Line 307: {
+Line 312: ID = list_move
+Line 312: (
+Line 312: Unrecognized token: 38
+Line 312: ID = inode
+Line 312: -
+Line 312: >
+Line 312: ID = i_list
+Line 312: ,
+Line 312: Unrecognized token: 38
+Line 312: ID = sb
+Line 312: -
+Line 312: >
+Line 312: ID = s_dirty
+Line 312: )
+Line 312: ;
+Line 313: ID = continue
+Line 313: ;
+Line 314: }
+Line 315: }
+Line 317: if
+Line 317: (
+Line 317: ID = wbc
+Line 317: -
+Line 317: >
+Line 317: ID = nonblocking
+Line 317: &&
+Line 317: ID = bdi_write_congested
+Line 317: (
+Line 317: ID = bdi
+Line 317: )
+Line 317: )
+Line 317: {
+Line 318: ID = wbc
+Line 318: -
+Line 318: >
+Line 318: ID = encountered_congestion
+Line 318: =
+Line 318: INTCON = 1
+Line 318: ;
+Line 319: if
+Line 319: (
+Line 319: ID = sb
+Line 319: !=
+Line 319: ID = blockdev_superblock
+Line 319: )
+Line 320: ID = break
+Line 320: ;
+Line 321: ID = list_move
+Line 321: (
+Line 321: Unrecognized token: 38
+Line 321: ID = inode
+Line 321: -
+Line 321: >
+Line 321: ID = i_list
+Line 321: ,
+Line 321: Unrecognized token: 38
+Line 321: ID = sb
+Line 321: -
+Line 321: >
+Line 321: ID = s_dirty
+Line 321: )
+Line 321: ;
+Line 322: ID = continue
+Line 322: ;
+Line 323: }
+Line 325: if
+Line 325: (
+Line 325: ID = wbc
+Line 325: -
+Line 325: >
+Line 325: ID = bdi
+Line 325: &&
+Line 325: ID = bdi
+Line 325: !=
+Line 325: ID = wbc
+Line 325: -
+Line 325: >
+Line 325: ID = bdi
+Line 325: )
+Line 325: {
+Line 326: if
+Line 326: (
+Line 326: ID = sb
+Line 326: !=
+Line 326: ID = blockdev_superblock
+Line 326: )
+Line 327: ID = break
+Line 327: ;
+Line 328: ID = list_move
+Line 328: (
+Line 328: Unrecognized token: 38
+Line 328: ID = inode
+Line 328: -
+Line 328: >
+Line 328: ID = i_list
+Line 328: ,
+Line 328: Unrecognized token: 38
+Line 328: ID = sb
+Line 328: -
+Line 328: >
+Line 328: ID = s_dirty
+Line 328: )
+Line 328: ;
+Line 329: ID = continue
+Line 329: ;
+Line 330: }
+Line 333: if
+Line 333: (
+Line 333: ID = time_after
+Line 333: (
+Line 333: ID = inode
+Line 333: -
+Line 333: >
+Line 333: ID = dirtied_when
+Line 333: ,
+Line 333: ID = start
+Line 333: )
+Line 333: )
+Line 334: ID = break
+Line 334: ;
+Line 337: if
+Line 337: (
+Line 337: ID = wbc
+Line 337: -
+Line 337: >
+Line 337: ID = older_than_this
+Line 337: &&
+Line 337: ID = time_after
+Line 337: (
+Line 337: ID = inode
+Line 337: -
+Line 337: >
+Line 337: ID = dirtied_when
+Line 337: ,
+Line 338: *
+Line 338: ID = wbc
+Line 338: -
+Line 338: >
+Line 338: ID = older_than_this
+Line 338: )
+Line 338: )
+Line 339: ID = break
+Line 339: ;
+Line 342: if
+Line 342: (
+Line 342: ID = current_is_pdflush
+Line 342: (
+Line 342: )
+Line 342: &&
+Line 342: !
+Line 342: ID = writeback_acquire
+Line 342: (
+Line 342: ID = bdi
+Line 342: )
+Line 342: )
+Line 343: ID = break
+Line 343: ;
+Line 345: ID = BUG_ON
+Line 345: (
+Line 345: ID = inode
+Line 345: -
+Line 345: >
+Line 345: ID = i_state
+Line 345: Unrecognized token: 38
+Line 345: ID = I_FREEING
+Line 345: )
+Line 345: ;
+Line 346: Unrecognized token: 95
+Line 346: Unrecognized token: 95
+Line 346: ID = iget
+Line 346: (
+Line 346: ID = inode
+Line 346: )
+Line 346: ;
+Line 347: ID = pages_skipped
+Line 347: =
+Line 347: ID = wbc
+Line 347: -
+Line 347: >
+Line 347: ID = pages_skipped
+Line 347: ;
+Line 348: Unrecognized token: 95
+Line 348: Unrecognized token: 95
+Line 348: ID = writeback_single_inode
+Line 348: (
+Line 348: ID = inode
+Line 348: ,
+Line 348: ID = wbc
+Line 348: )
+Line 348: ;
+Line 349: if
+Line 349: (
+Line 349: ID = wbc
+Line 349: -
+Line 349: >
+Line 349: ID = sync_mode
+Line 349: ==
+Line 349: ID = WB_SYNC_HOLD
+Line 349: )
+Line 349: {
+Line 350: ID = inode
+Line 350: -
+Line 350: >
+Line 350: ID = dirtied_when
+Line 350: =
+Line 350: ID = jiffies
+Line 350: ;
+Line 351: ID = list_move
+Line 351: (
+Line 351: Unrecognized token: 38
+Line 351: ID = inode
+Line 351: -
+Line 351: >
+Line 351: ID = i_list
+Line 351: ,
+Line 351: Unrecognized token: 38
+Line 351: ID = sb
+Line 351: -
+Line 351: >
+Line 351: ID = s_dirty
+Line 351: )
+Line 351: ;
+Line 352: }
+Line 353: if
+Line 353: (
+Line 353: ID = current_is_pdflush
+Line 353: (
+Line 353: )
+Line 353: )
+Line 354: ID = writeback_release
+Line 354: (
+Line 354: ID = bdi
+Line 354: )
+Line 354: ;
+Line 355: if
+Line 355: (
+Line 355: ID = wbc
+Line 355: -
+Line 355: >
+Line 355: ID = pages_skipped
+Line 355: !=
+Line 355: ID = pages_skipped
+Line 355: )
+Line 355: {
+Line 360: ID = list_move
+Line 360: (
+Line 360: Unrecognized token: 38
+Line 360: ID = inode
+Line 360: -
+Line 360: >
+Line 360: ID = i_list
+Line 360: ,
+Line 360: Unrecognized token: 38
+Line 360: ID = sb
+Line 360: -
+Line 360: >
+Line 360: ID = s_dirty
+Line 360: )
+Line 360: ;
+Line 361: }
+Line 362: ID = spin_unlock
+Line 362: (
+Line 362: Unrecognized token: 38
+Line 362: ID = inode_lock
+Line 362: )
+Line 362: ;
+Line 363: ID = iput
+Line 363: (
+Line 363: ID = inode
+Line 363: )
+Line 363: ;
+Line 364: ID = spin_lock
+Line 364: (
+Line 364: Unrecognized token: 38
+Line 364: ID = inode_lock
+Line 364: )
+Line 364: ;
+Line 365: if
+Line 365: (
+Line 365: ID = wbc
+Line 365: -
+Line 365: >
+Line 365: ID = nr_to_write
+Line 365: <=
+Line 365: INTCON = 0
+Line 365: )
+Line 366: ID = break
+Line 366: ;
+Line 367: }
+Line 368: return
+Line 368: ;
+Line 369: }
+Line 390: void
+Line 391: ID = writeback_inodes
+Line 391: (
+Line 391: ID = struct
+Line 391: ID = writeback_control
+Line 391: *
+Line 391: ID = wbc
+Line 391: )
+Line 392: {
+Line 393: ID = struct
+Line 393: ID = super_block
+Line 393: *
+Line 393: ID = sb
+Line 393: ;
+Line 395: ID = spin_lock
+Line 395: (
+Line 395: Unrecognized token: 38
+Line 395: ID = inode_lock
+Line 395: )
+Line 395: ;
+Line 396: ID = spin_lock
+Line 396: (
+Line 396: Unrecognized token: 38
+Line 396: ID = sb_lock
+Line 396: )
+Line 396: ;
+Line 397: ID = restart
+Line 397: Unrecognized token: 58
+Line 398: ID = sb
+Line 398: =
+Line 398: ID = sb_entry
+Line 398: (
+Line 398: ID = super_blocks
+Line 398: Unrecognized token: 46
+Line 398: ID = prev
+Line 398: )
+Line 398: ;
+Line 399: for
+Line 399: (
+Line 399: ;
+Line 399: ID = sb
+Line 399: !=
+Line 399: ID = sb_entry
+Line 399: (
+Line 399: Unrecognized token: 38
+Line 399: ID = super_blocks
+Line 399: )
+Line 399: ;
+Line 399: ID = sb
+Line 399: =
+Line 399: ID = sb_entry
+Line 399: (
+Line 399: ID = sb
+Line 399: -
+Line 399: >
+Line 399: ID = s_list
+Line 399: Unrecognized token: 46
+Line 399: ID = prev
+Line 399: )
+Line 399: )
+Line 399: {
+Line 400: if
+Line 400: (
+Line 400: !
+Line 400: ID = list_empty
+Line 400: (
+Line 400: Unrecognized token: 38
+Line 400: ID = sb
+Line 400: -
+Line 400: >
+Line 400: ID = s_dirty
+Line 400: )
+Line 400: ||
+Line 400: !
+Line 400: ID = list_empty
+Line 400: (
+Line 400: Unrecognized token: 38
+Line 400: ID = sb
+Line 400: -
+Line 400: >
+Line 400: ID = s_io
+Line 400: )
+Line 400: )
+Line 400: {
+Line 402: ID = sb
+Line 402: -
+Line 402: >
+Line 402: ID = s_count
+Line 402: +
+Line 402: +
+Line 402: ;
+Line 403: ID = spin_unlock
+Line 403: (
+Line 403: Unrecognized token: 38
+Line 403: ID = sb_lock
+Line 403: )
+Line 403: ;
+Line 409: if
+Line 409: (
+Line 409: ID = down_read_trylock
+Line 409: (
+Line 409: Unrecognized token: 38
+Line 409: ID = sb
+Line 409: -
+Line 409: >
+Line 409: ID = s_umount
+Line 409: )
+Line 409: )
+Line 409: {
+Line 410: if
+Line 410: (
+Line 410: ID = sb
+Line 410: -
+Line 410: >
+Line 410: ID = s_root
+Line 410: )
+Line 411: ID = sync_sb_inodes
+Line 411: (
+Line 411: ID = sb
+Line 411: ,
+Line 411: ID = wbc
+Line 411: )
+Line 411: ;
+Line 412: ID = up_read
+Line 412: (
+Line 412: Unrecognized token: 38
+Line 412: ID = sb
+Line 412: -
+Line 412: >
+Line 412: ID = s_umount
+Line 412: )
+Line 412: ;
+Line 413: }
+Line 414: ID = spin_lock
+Line 414: (
+Line 414: Unrecognized token: 38
+Line 414: ID = sb_lock
+Line 414: )
+Line 414: ;
+Line 415: if
+Line 415: (
+Line 415: Unrecognized token: 95
+Line 415: Unrecognized token: 95
+Line 415: ID = put_super
+Line 415: (
+Line 415: ID = sb
+Line 415: )
+Line 415: )
+Line 416: ID = goto
+Line 416: ID = restart
+Line 416: ;
+Line 417: }
+Line 418: if
+Line 418: (
+Line 418: ID = wbc
+Line 418: -
+Line 418: >
+Line 418: ID = nr_to_write
+Line 418: <=
+Line 418: INTCON = 0
+Line 418: )
+Line 419: ID = break
+Line 419: ;
+Line 420: }
+Line 421: ID = spin_unlock
+Line 421: (
+Line 421: Unrecognized token: 38
+Line 421: ID = sb_lock
+Line 421: )
+Line 421: ;
+Line 422: ID = spin_unlock
+Line 422: (
+Line 422: Unrecognized token: 38
+Line 422: ID = inode_lock
+Line 422: )
+Line 422: ;
+Line 423: }
+Line 436: void
+Line 436: ID = sync_inodes_sb
+Line 436: (
+Line 436: ID = struct
+Line 436: ID = super_block
+Line 436: *
+Line 436: ID = sb
+Line 436: ,
+Line 436: int
+Line 436: ID = wait
+Line 436: )
+Line 437: {
+Line 438: ID = struct
+Line 438: ID = writeback_control
+Line 438: ID = wbc
+Line 438: =
+Line 438: {
+Line 439: Unrecognized token: 46
+Line 439: ID = sync_mode
+Line 439: =
+Line 439: ID = wait
+Line 439: Unrecognized token: 63
+Line 439: ID = WB_SYNC_ALL
+Line 439: Unrecognized token: 58
+Line 439: ID = WB_SYNC_HOLD
+Line 439: ,
+Line 440: }
+Line 440: ;
+Line 441: ID = unsigned
+Line 441: ID = long
+Line 441: ID = nr_dirty
+Line 441: =
+Line 441: ID = read_page_state
+Line 441: (
+Line 441: ID = nr_dirty
+Line 441: )
+Line 441: ;
+Line 442: ID = unsigned
+Line 442: ID = long
+Line 442: ID = nr_unstable
+Line 442: =
+Line 442: ID = read_page_state
+Line 442: (
+Line 442: ID = nr_unstable
+Line 442: )
+Line 442: ;
+Line 444: ID = wbc
+Line 444: Unrecognized token: 46
+Line 444: ID = nr_to_write
+Line 444: =
+Line 444: ID = nr_dirty
+Line 444: +
+Line 444: ID = nr_unstable
+Line 444: +
+Line 445: (
+Line 445: ID = inodes_stat
+Line 445: Unrecognized token: 46
+Line 445: ID = nr_inodes
+Line 445: -
+Line 445: ID = inodes_stat
+Line 445: Unrecognized token: 46
+Line 445: ID = nr_unused
+Line 445: )
+Line 445: +
+Line 446: ID = nr_dirty
+Line 446: +
+Line 446: ID = nr_unstable
+Line 446: ;
+Line 447: ID = wbc
+Line 447: Unrecognized token: 46
+Line 447: ID = nr_to_write
+Line 447: +
+Line 447: =
+Line 447: ID = wbc
+Line 447: Unrecognized token: 46
+Line 447: ID = nr_to_write
+Line 447: /
+Line 447: INTCON = 2
+Line 447: ;
+Line 448: ID = spin_lock
+Line 448: (
+Line 448: Unrecognized token: 38
+Line 448: ID = inode_lock
+Line 448: )
+Line 448: ;
+Line 449: ID = sync_sb_inodes
+Line 449: (
+Line 449: ID = sb
+Line 449: ,
+Line 449: Unrecognized token: 38
+Line 449: ID = wbc
+Line 449: )
+Line 449: ;
+Line 450: ID = spin_unlock
+Line 450: (
+Line 450: Unrecognized token: 38
+Line 450: ID = inode_lock
+Line 450: )
+Line 450: ;
+Line 451: }
+Line 456: ID = static
+Line 456: void
+Line 456: ID = set_sb_syncing
+Line 456: (
+Line 456: int
+Line 456: ID = val
+Line 456: )
+Line 457: {
+Line 458: ID = struct
+Line 458: ID = super_block
+Line 458: *
+Line 458: ID = sb
+Line 458: ;
+Line 459: ID = spin_lock
+Line 459: (
+Line 459: Unrecognized token: 38
+Line 459: ID = sb_lock
+Line 459: )
+Line 459: ;
+Line 460: ID = sb
+Line 460: =
+Line 460: ID = sb_entry
+Line 460: (
+Line 460: ID = super_blocks
+Line 460: Unrecognized token: 46
+Line 460: ID = prev
+Line 460: )
+Line 460: ;
+Line 461: for
+Line 461: (
+Line 461: ;
+Line 461: ID = sb
+Line 461: !=
+Line 461: ID = sb_entry
+Line 461: (
+Line 461: Unrecognized token: 38
+Line 461: ID = super_blocks
+Line 461: )
+Line 461: ;
+Line 461: ID = sb
+Line 461: =
+Line 461: ID = sb_entry
+Line 461: (
+Line 461: ID = sb
+Line 461: -
+Line 461: >
+Line 461: ID = s_list
+Line 461: Unrecognized token: 46
+Line 461: ID = prev
+Line 461: )
+Line 461: )
+Line 461: {
+Line 462: ID = sb
+Line 462: -
+Line 462: >
+Line 462: ID = s_syncing
+Line 462: =
+Line 462: ID = val
+Line 462: ;
+Line 463: }
+Line 464: ID = spin_unlock
+Line 464: (
+Line 464: Unrecognized token: 38
+Line 464: ID = sb_lock
+Line 464: )
+Line 464: ;
+Line 465: }
+Line 470: ID = static
+Line 470: ID = struct
+Line 470: ID = super_block
+Line 470: *
+Line 470: ID = get_super_to_sync
+Line 470: (
+Line 470: void
+Line 470: )
+Line 471: {
+Line 472: ID = struct
+Line 472: ID = super_block
+Line 472: *
+Line 472: ID = sb
+Line 472: ;
+Line 473: ID = restart
+Line 473: Unrecognized token: 58
+Line 474: ID = spin_lock
+Line 474: (
+Line 474: Unrecognized token: 38
+Line 474: ID = sb_lock
+Line 474: )
+Line 474: ;
+Line 475: ID = sb
+Line 475: =
+Line 475: ID = sb_entry
+Line 475: (
+Line 475: ID = super_blocks
+Line 475: Unrecognized token: 46
+Line 475: ID = prev
+Line 475: )
+Line 475: ;
+Line 476: for
+Line 476: (
+Line 476: ;
+Line 476: ID = sb
+Line 476: !=
+Line 476: ID = sb_entry
+Line 476: (
+Line 476: Unrecognized token: 38
+Line 476: ID = super_blocks
+Line 476: )
+Line 476: ;
+Line 476: ID = sb
+Line 476: =
+Line 476: ID = sb_entry
+Line 476: (
+Line 476: ID = sb
+Line 476: -
+Line 476: >
+Line 476: ID = s_list
+Line 476: Unrecognized token: 46
+Line 476: ID = prev
+Line 476: )
+Line 476: )
+Line 476: {
+Line 477: if
+Line 477: (
+Line 477: ID = sb
+Line 477: -
+Line 477: >
+Line 477: ID = s_syncing
+Line 477: )
+Line 478: ID = continue
+Line 478: ;
+Line 479: ID = sb
+Line 479: -
+Line 479: >
+Line 479: ID = s_syncing
+Line 479: =
+Line 479: INTCON = 1
+Line 479: ;
+Line 480: ID = sb
+Line 480: -
+Line 480: >
+Line 480: ID = s_count
+Line 480: +
+Line 480: +
+Line 480: ;
+Line 481: ID = spin_unlock
+Line 481: (
+Line 481: Unrecognized token: 38
+Line 481: ID = sb_lock
+Line 481: )
+Line 481: ;
+Line 482: ID = down_read
+Line 482: (
+Line 482: Unrecognized token: 38
+Line 482: ID = sb
+Line 482: -
+Line 482: >
+Line 482: ID = s_umount
+Line 482: )
+Line 482: ;
+Line 483: if
+Line 483: (
+Line 483: !
+Line 483: ID = sb
+Line 483: -
+Line 483: >
+Line 483: ID = s_root
+Line 483: )
+Line 483: {
+Line 484: ID = drop_super
+Line 484: (
+Line 484: ID = sb
+Line 484: )
+Line 484: ;
+Line 485: ID = goto
+Line 485: ID = restart
+Line 485: ;
+Line 486: }
+Line 487: return
+Line 487: ID = sb
+Line 487: ;
+Line 488: }
+Line 489: ID = spin_unlock
+Line 489: (
+Line 489: Unrecognized token: 38
+Line 489: ID = sb_lock
+Line 489: )
+Line 489: ;
+Line 490: return
+Line 490: ID = NULL
+Line 490: ;
+Line 491: }
+Line 511: void
+Line 511: ID = sync_inodes
+Line 511: (
+Line 511: int
+Line 511: ID = wait
+Line 511: )
+Line 512: {
+Line 513: ID = struct
+Line 513: ID = super_block
+Line 513: *
+Line 513: ID = sb
+Line 513: ;
+Line 515: ID = set_sb_syncing
+Line 515: (
+Line 515: INTCON = 0
+Line 515: )
+Line 515: ;
+Line 516: while
+Line 516: (
+Line 516: (
+Line 516: ID = sb
+Line 516: =
+Line 516: ID = get_super_to_sync
+Line 516: (
+Line 516: )
+Line 516: )
+Line 516: !=
+Line 516: ID = NULL
+Line 516: )
+Line 516: {
+Line 517: ID = sync_inodes_sb
+Line 517: (
+Line 517: ID = sb
+Line 517: ,
+Line 517: INTCON = 0
+Line 517: )
+Line 517: ;
+Line 518: ID = sync_blockdev
+Line 518: (
+Line 518: ID = sb
+Line 518: -
+Line 518: >
+Line 518: ID = s_bdev
+Line 518: )
+Line 518: ;
+Line 519: ID = drop_super
+Line 519: (
+Line 519: ID = sb
+Line 519: )
+Line 519: ;
+Line 520: }
+Line 521: if
+Line 521: (
+Line 521: ID = wait
+Line 521: )
+Line 521: {
+Line 522: ID = set_sb_syncing
+Line 522: (
+Line 522: INTCON = 0
+Line 522: )
+Line 522: ;
+Line 523: while
+Line 523: (
+Line 523: (
+Line 523: ID = sb
+Line 523: =
+Line 523: ID = get_super_to_sync
+Line 523: (
+Line 523: )
+Line 523: )
+Line 523: !=
+Line 523: ID = NULL
+Line 523: )
+Line 523: {
+Line 524: ID = sync_inodes_sb
+Line 524: (
+Line 524: ID = sb
+Line 524: ,
+Line 524: INTCON = 1
+Line 524: )
+Line 524: ;
+Line 525: ID = sync_blockdev
+Line 525: (
+Line 525: ID = sb
+Line 525: -
+Line 525: >
+Line 525: ID = s_bdev
+Line 525: )
+Line 525: ;
+Line 526: ID = drop_super
+Line 526: (
+Line 526: ID = sb
+Line 526: )
+Line 526: ;
+Line 527: }
+Line 528: }
+Line 529: }
+Line 540: void
+Line 540: ID = write_inode_now
+Line 540: (
+Line 540: ID = struct
+Line 540: ID = inode
+Line 540: *
+Line 540: ID = inode
+Line 540: ,
+Line 540: int
+Line 540: ID = sync
+Line 540: )
+Line 541: {
+Line 542: ID = struct
+Line 542: ID = writeback_control
+Line 542: ID = wbc
+Line 542: =
+Line 542: {
+Line 543: Unrecognized token: 46
+Line 543: ID = nr_to_write
+Line 543: =
+Line 543: ID = LONG_MAX
+Line 543: ,
+Line 544: Unrecognized token: 46
+Line 544: ID = sync_mode
+Line 544: =
+Line 544: ID = WB_SYNC_ALL
+Line 544: ,
+Line 545: }
+Line 545: ;
+Line 547: if
+Line 547: (
+Line 547: ID = inode
+Line 547: -
+Line 547: >
+Line 547: ID = i_mapping
+Line 547: -
+Line 547: >
+Line 547: ID = backing_dev_info
+Line 547: -
+Line 547: >
+Line 547: ID = memory_backed
+Line 547: )
+Line 548: return
+Line 548: ;
+Line 550: ID = spin_lock
+Line 550: (
+Line 550: Unrecognized token: 38
+Line 550: ID = inode_lock
+Line 550: )
+Line 550: ;
+Line 551: Unrecognized token: 95
+Line 551: Unrecognized token: 95
+Line 551: ID = writeback_single_inode
+Line 551: (
+Line 551: ID = inode
+Line 551: ,
+Line 551: Unrecognized token: 38
+Line 551: ID = wbc
+Line 551: )
+Line 551: ;
+Line 552: ID = spin_unlock
+Line 552: (
+Line 552: Unrecognized token: 38
+Line 552: ID = inode_lock
+Line 552: )
+Line 552: ;
+Line 553: if
+Line 553: (
+Line 553: ID = sync
+Line 553: )
+Line 554: ID = wait_on_inode
+Line 554: (
+Line 554: ID = inode
+Line 554: )
+Line 554: ;
+Line 555: }
+Line 556: ID = EXPORT_SYMBOL
+Line 556: (
+Line 556: ID = write_inode_now
+Line 556: )
+Line 556: ;
+Line 569: int
+Line 569: ID = sync_inode
+Line 569: (
+Line 569: ID = struct
+Line 569: ID = inode
+Line 569: *
+Line 569: ID = inode
+Line 569: ,
+Line 569: ID = struct
+Line 569: ID = writeback_control
+Line 569: *
+Line 569: ID = wbc
+Line 569: )
+Line 570: {
+Line 571: int
+Line 571: ID = ret
+Line 571: ;
+Line 573: ID = spin_lock
+Line 573: (
+Line 573: Unrecognized token: 38
+Line 573: ID = inode_lock
+Line 573: )
+Line 573: ;
+Line 574: ID = ret
+Line 574: =
+Line 574: Unrecognized token: 95
+Line 574: Unrecognized token: 95
+Line 574: ID = writeback_single_inode
+Line 574: (
+Line 574: ID = inode
+Line 574: ,
+Line 574: ID = wbc
+Line 574: )
+Line 574: ;
+Line 575: ID = spin_unlock
+Line 575: (
+Line 575: Unrecognized token: 38
+Line 575: ID = inode_lock
+Line 575: )
+Line 575: ;
+Line 576: return
+Line 576: ID = ret
+Line 576: ;
+Line 577: }
+Line 578: ID = EXPORT_SYMBOL
+Line 578: (
+Line 578: ID = sync_inode
+Line 578: )
+Line 578: ;
+Line 596: int
+Line 596: ID = generic_osync_inode
+Line 596: (
+Line 596: ID = struct
+Line 596: ID = inode
+Line 596: *
+Line 596: ID = inode
+Line 596: ,
+Line 596: ID = struct
+Line 596: ID = address_space
+Line 596: *
+Line 596: ID = mapping
+Line 596: ,
+Line 596: int
+Line 596: ID = what
+Line 596: )
+Line 597: {
+Line 598: int
+Line 598: ID = err
+Line 598: =
+Line 598: INTCON = 0
+Line 598: ;
+Line 599: int
+Line 599: ID = need_write_inode_now
+Line 599: =
+Line 599: INTCON = 0
+Line 599: ;
+Line 600: int
+Line 600: ID = err2
+Line 600: ;
+Line 602: ID = current
+Line 602: -
+Line 602: >
+Line 602: ID = flags
+Line 602: Unrecognized token: 124
+Line 602: =
+Line 602: ID = PF_SYNCWRITE
+Line 602: ;
+Line 603: if
+Line 603: (
+Line 603: ID = what
+Line 603: Unrecognized token: 38
+Line 603: ID = OSYNC_DATA
+Line 603: )
+Line 604: ID = err
+Line 604: =
+Line 604: ID = filemap_fdatawrite
+Line 604: (
+Line 604: ID = mapping
+Line 604: )
+Line 604: ;
+Line 605: if
+Line 605: (
+Line 605: ID = what
+Line 605: Unrecognized token: 38
+Line 605: (
+Line 605: ID = OSYNC_METADATA
+Line 605: Unrecognized token: 124
+Line 605: ID = OSYNC_DATA
+Line 605: )
+Line 605: )
+Line 605: {
+Line 606: ID = err2
+Line 606: =
+Line 606: ID = sync_mapping_buffers
+Line 606: (
+Line 606: ID = mapping
+Line 606: )
+Line 606: ;
+Line 607: if
+Line 607: (
+Line 607: !
+Line 607: ID = err
+Line 607: )
+Line 608: ID = err
+Line 608: =
+Line 608: ID = err2
+Line 608: ;
+Line 609: }
+Line 610: if
+Line 610: (
+Line 610: ID = what
+Line 610: Unrecognized token: 38
+Line 610: ID = OSYNC_DATA
+Line 610: )
+Line 610: {
+Line 611: ID = err2
+Line 611: =
+Line 611: ID = filemap_fdatawait
+Line 611: (
+Line 611: ID = mapping
+Line 611: )
+Line 611: ;
+Line 612: if
+Line 612: (
+Line 612: !
+Line 612: ID = err
+Line 612: )
+Line 613: ID = err
+Line 613: =
+Line 613: ID = err2
+Line 613: ;
+Line 614: }
+Line 615: ID = current
+Line 615: -
+Line 615: >
+Line 615: ID = flags
+Line 615: Unrecognized token: 38
+Line 615: =
+Line 615: Unrecognized token: 126
+Line 615: ID = PF_SYNCWRITE
+Line 615: ;
+Line 617: ID = spin_lock
+Line 617: (
+Line 617: Unrecognized token: 38
+Line 617: ID = inode_lock
+Line 617: )
+Line 617: ;
+Line 618: if
+Line 618: (
+Line 618: (
+Line 618: ID = inode
+Line 618: -
+Line 618: >
+Line 618: ID = i_state
+Line 618: Unrecognized token: 38
+Line 618: ID = I_DIRTY
+Line 618: )
+Line 618: &&
+Line 619: (
+Line 619: (
+Line 619: ID = what
+Line 619: Unrecognized token: 38
+Line 619: ID = OSYNC_INODE
+Line 619: )
+Line 619: ||
+Line 619: (
+Line 619: ID = inode
+Line 619: -
+Line 619: >
+Line 619: ID = i_state
+Line 619: Unrecognized token: 38
+Line 619: ID = I_DIRTY_DATASYNC
+Line 619: )
+Line 619: )
+Line 619: )
+Line 620: ID = need_write_inode_now
+Line 620: =
+Line 620: INTCON = 1
+Line 620: ;
+Line 621: ID = spin_unlock
+Line 621: (
+Line 621: Unrecognized token: 38
+Line 621: ID = inode_lock
+Line 621: )
+Line 621: ;
+Line 623: if
+Line 623: (
+Line 623: ID = need_write_inode_now
+Line 623: )
+Line 624: ID = write_inode_now
+Line 624: (
+Line 624: ID = inode
+Line 624: ,
+Line 624: INTCON = 1
+Line 624: )
+Line 624: ;
+Line 625: else
+Line 626: ID = wait_on_inode
+Line 626: (
+Line 626: ID = inode
+Line 626: )
+Line 626: ;
+Line 628: return
+Line 628: ID = err
+Line 628: ;
+Line 629: }
+Line 631: ID = EXPORT_SYMBOL
+Line 631: (
+Line 631: ID = generic_osync_inode
+Line 631: )
+Line 631: ;
+Line 645: int
+Line 645: ID = writeback_acquire
+Line 645: (
+Line 645: ID = struct
+Line 645: ID = backing_dev_info
+Line 645: *
+Line 645: ID = bdi
+Line 645: )
+Line 646: {
+Line 647: return
+Line 647: !
+Line 647: ID = test_and_set_bit
+Line 647: (
+Line 647: ID = BDI_pdflush
+Line 647: ,
+Line 647: Unrecognized token: 38
+Line 647: ID = bdi
+Line 647: -
+Line 647: >
+Line 647: ID = state
+Line 647: )
+Line 647: ;
+Line 648: }
+Line 655: int
+Line 655: ID = writeback_in_progress
+Line 655: (
+Line 655: ID = struct
+Line 655: ID = backing_dev_info
+Line 655: *
+Line 655: ID = bdi
+Line 655: )
+Line 656: {
+Line 657: return
+Line 657: ID = test_bit
+Line 657: (
+Line 657: ID = BDI_pdflush
+Line 657: ,
+Line 657: Unrecognized token: 38
+Line 657: ID = bdi
+Line 657: -
+Line 657: >
+Line 657: ID = state
+Line 657: )
+Line 657: ;
+Line 658: }
+Line 664: void
+Line 664: ID = writeback_release
+Line 664: (
+Line 664: ID = struct
+Line 664: ID = backing_dev_info
+Line 664: *
+Line 664: ID = bdi
+Line 664: )
+Line 665: {
+Line 666: ID = BUG_ON
+Line 666: (
+Line 666: !
+Line 666: ID = writeback_in_progress
+Line 666: (
+Line 666: ID = bdi
+Line 666: )
+Line 666: )
+Line 666: ;
+Line 667: ID = clear_bit
+Line 667: (
+Line 667: ID = BDI_pdflush
+Line 667: ,
+Line 667: Unrecognized token: 38
+Line 667: ID = bdi
+Line 667: -
+Line 667: >
+Line 667: ID = state
+Line 667: )
+Line 667: ;
+Line 668: }
+Line 669: -EOF-

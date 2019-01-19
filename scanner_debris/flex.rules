@@ -1,0 +1,56 @@
+/*
+    First pass C-- scanner rules
+*/
+
+/* Definitions */
+
+TYPE (char|int)
+ANNOYING_TYPE (void)
+PARAM_TYPE ({TYPE|{ANNOYING_TYPE})
+
+WS [[:space:][:blank:]]
+ID [[:alpha:]][[:alnum:]_]*
+INT_CONSTANT [[:digit:]]+
+CHAR_CONSTANT ('[[:print:]]') /* Not right, but for now. */
+
+SIMPLE_PARAM {TYPE}{WS}+{ID}
+ARRAY_PARAM {SIMPLE_PARAM}{WS}*\[{WS}*\]
+
+BINARY_OP [+*/\-] /* escape the '-' or it will think it's a range like A-Z */
+REL_OP (==|!=|<=|<|>=|>)
+LOGICAL_OP (&&|\|\|)
+
+PARAM {SIMPLE_PARAM}|{ARRAY_PARAM}
+PARAM_LIST_TAIL (,{WS}*{PARAM})*
+PARAM_LIST {PARAM}{PARAM_LIST_TAIL}
+
+VAR [{ID}|{ID}{WS}*\[{WS}*{EXPRESSION}{WS}*\]]
+
+%%
+
+{ID}            printf("ID as '%s'\n", yytext);
+{SIMPLE_PARAM}  printf("Simple Param as '%s'\n", yytext);
+{ARRAY_PARAM}   printf("Array Param as '%s'\n", yytext);
+{PARAM_LIST}    printf("Paramlist as '%s'\n", yytext);
+
+{VAR}           printf("Variable as '%s'\n", yytext);
+
+{BINARY_OP}     printf("Binary op as '%s'\n", yytext);
+{REL_OP}        printf("Relational op as '%s'\n", yytext);
+{LOGICAL_OP}    printf("Logical op as '%s'\n", yytext);
+
+{INT_CONSTANT}  printf("Int const as '%s'\n", yytext);
+{CHAR_CONSTANT} printf("Char const as '%s'\n", yytext);
+
+\n              /* Eat whitespace */
+.               printf("No match for '%s'\n", yytext);
+
+%%
+
+/* Code */
+int
+main( int argc, char *argv[])
+{
+    yylex();
+    return 0;
+}

@@ -1,0 +1,691 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = config
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = file
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = fs
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = sunrpc
+Line 10: /
+Line 10: ID = svc
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = nfsd
+Line 11: /
+Line 11: ID = nfsd
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = nfsd
+Line 12: /
+Line 12: ID = syscall
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = linkage
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = namei
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = mount
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = asm
+Line 16: /
+Line 16: ID = uaccess
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 22: ID = static
+Line 22: ID = struct
+Line 22: ID = file
+Line 22: *
+Line 22: ID = do_open
+Line 22: (
+Line 22: char
+Line 22: *
+Line 22: ID = name
+Line 22: ,
+Line 22: int
+Line 22: ID = flags
+Line 22: )
+Line 23: {
+Line 24: ID = struct
+Line 24: ID = nameidata
+Line 24: ID = nd
+Line 24: ;
+Line 25: int
+Line 25: ID = error
+Line 25: ;
+Line 27: ID = nd
+Line 27: Unrecognized token: 46
+Line 27: ID = mnt
+Line 27: =
+Line 27: ID = do_kern_mount
+Line 27: (
+Line 27: STRINGCON = "nfsd"
+Line 27: ,
+Line 27: INTCON = 0
+Line 27: ,
+Line 27: STRINGCON = "nfsd"
+Line 27: ,
+Line 27: ID = NULL
+Line 27: )
+Line 27: ;
+Line 29: if
+Line 29: (
+Line 29: ID = IS_ERR
+Line 29: (
+Line 29: ID = nd
+Line 29: Unrecognized token: 46
+Line 29: ID = mnt
+Line 29: )
+Line 29: )
+Line 30: return
+Line 30: (
+Line 30: ID = struct
+Line 30: ID = file
+Line 30: *
+Line 30: )
+Line 30: ID = nd
+Line 30: Unrecognized token: 46
+Line 30: ID = mnt
+Line 30: ;
+Line 32: ID = nd
+Line 32: Unrecognized token: 46
+Line 32: ID = dentry
+Line 32: =
+Line 32: ID = dget
+Line 32: (
+Line 32: ID = nd
+Line 32: Unrecognized token: 46
+Line 32: ID = mnt
+Line 32: -
+Line 32: >
+Line 32: ID = mnt_root
+Line 32: )
+Line 32: ;
+Line 33: ID = nd
+Line 33: Unrecognized token: 46
+Line 33: ID = last_type
+Line 33: =
+Line 33: ID = LAST_ROOT
+Line 33: ;
+Line 34: ID = nd
+Line 34: Unrecognized token: 46
+Line 34: ID = flags
+Line 34: =
+Line 34: INTCON = 0
+Line 34: ;
+Line 35: ID = nd
+Line 35: Unrecognized token: 46
+Line 35: ID = depth
+Line 35: =
+Line 35: INTCON = 0
+Line 35: ;
+Line 37: ID = error
+Line 37: =
+Line 37: ID = path_walk
+Line 37: (
+Line 37: ID = name
+Line 37: ,
+Line 37: Unrecognized token: 38
+Line 37: ID = nd
+Line 37: )
+Line 37: ;
+Line 38: if
+Line 38: (
+Line 38: ID = error
+Line 38: )
+Line 39: return
+Line 39: ID = ERR_PTR
+Line 39: (
+Line 39: ID = error
+Line 39: )
+Line 39: ;
+Line 41: if
+Line 41: (
+Line 41: ID = flags
+Line 41: ==
+Line 41: ID = O_RDWR
+Line 41: )
+Line 42: ID = error
+Line 42: =
+Line 42: ID = may_open
+Line 42: (
+Line 42: Unrecognized token: 38
+Line 42: ID = nd
+Line 42: ,
+Line 42: ID = MAY_READ
+Line 42: Unrecognized token: 124
+Line 42: ID = MAY_WRITE
+Line 42: ,
+Line 42: ID = FMODE_READ
+Line 42: Unrecognized token: 124
+Line 42: ID = FMODE_WRITE
+Line 42: )
+Line 42: ;
+Line 43: else
+Line 44: ID = error
+Line 44: =
+Line 44: ID = may_open
+Line 44: (
+Line 44: Unrecognized token: 38
+Line 44: ID = nd
+Line 44: ,
+Line 44: ID = MAY_WRITE
+Line 44: ,
+Line 44: ID = FMODE_WRITE
+Line 44: )
+Line 44: ;
+Line 46: if
+Line 46: (
+Line 46: !
+Line 46: ID = error
+Line 46: )
+Line 47: return
+Line 47: ID = dentry_open
+Line 47: (
+Line 47: ID = nd
+Line 47: Unrecognized token: 46
+Line 47: ID = dentry
+Line 47: ,
+Line 47: ID = nd
+Line 47: Unrecognized token: 46
+Line 47: ID = mnt
+Line 47: ,
+Line 47: ID = flags
+Line 47: )
+Line 47: ;
+Line 49: ID = path_release
+Line 49: (
+Line 49: Unrecognized token: 38
+Line 49: ID = nd
+Line 49: )
+Line 49: ;
+Line 50: return
+Line 50: ID = ERR_PTR
+Line 50: (
+Line 50: ID = error
+Line 50: )
+Line 50: ;
+Line 51: }
+Line 53: ID = static
+Line 53: ID = struct
+Line 53: {
+Line 54: char
+Line 54: *
+Line 54: ID = name
+Line 54: ;
+Line 54: int
+Line 54: ID = wsize
+Line 54: ;
+Line 54: int
+Line 54: ID = rsize
+Line 54: ;
+Line 55: }
+Line 55: ID = map
+Line 55: [
+Line 55: ]
+Line 55: =
+Line 55: {
+Line 56: [
+Line 56: ID = NFSCTL_SVC
+Line 56: ]
+Line 56: =
+Line 56: {
+Line 57: Unrecognized token: 46
+Line 57: ID = name
+Line 57: =
+Line 57: STRINGCON = ".svc"
+Line 57: ,
+Line 58: Unrecognized token: 46
+Line 58: ID = wsize
+Line 58: =
+Line 58: ID = sizeof
+Line 58: (
+Line 58: ID = struct
+Line 58: ID = nfsctl_svc
+Line 58: )
+Line 59: }
+Line 59: ,
+Line 60: [
+Line 60: ID = NFSCTL_ADDCLIENT
+Line 60: ]
+Line 60: =
+Line 60: {
+Line 61: Unrecognized token: 46
+Line 61: ID = name
+Line 61: =
+Line 61: STRINGCON = ".add"
+Line 61: ,
+Line 62: Unrecognized token: 46
+Line 62: ID = wsize
+Line 62: =
+Line 62: ID = sizeof
+Line 62: (
+Line 62: ID = struct
+Line 62: ID = nfsctl_client
+Line 62: )
+Line 63: }
+Line 63: ,
+Line 64: [
+Line 64: ID = NFSCTL_DELCLIENT
+Line 64: ]
+Line 64: =
+Line 64: {
+Line 65: Unrecognized token: 46
+Line 65: ID = name
+Line 65: =
+Line 65: STRINGCON = ".del"
+Line 65: ,
+Line 66: Unrecognized token: 46
+Line 66: ID = wsize
+Line 66: =
+Line 66: ID = sizeof
+Line 66: (
+Line 66: ID = struct
+Line 66: ID = nfsctl_client
+Line 66: )
+Line 67: }
+Line 67: ,
+Line 68: [
+Line 68: ID = NFSCTL_EXPORT
+Line 68: ]
+Line 68: =
+Line 68: {
+Line 69: Unrecognized token: 46
+Line 69: ID = name
+Line 69: =
+Line 69: STRINGCON = ".export"
+Line 69: ,
+Line 70: Unrecognized token: 46
+Line 70: ID = wsize
+Line 70: =
+Line 70: ID = sizeof
+Line 70: (
+Line 70: ID = struct
+Line 70: ID = nfsctl_export
+Line 70: )
+Line 71: }
+Line 71: ,
+Line 72: [
+Line 72: ID = NFSCTL_UNEXPORT
+Line 72: ]
+Line 72: =
+Line 72: {
+Line 73: Unrecognized token: 46
+Line 73: ID = name
+Line 73: =
+Line 73: STRINGCON = ".unexport"
+Line 73: ,
+Line 74: Unrecognized token: 46
+Line 74: ID = wsize
+Line 74: =
+Line 74: ID = sizeof
+Line 74: (
+Line 74: ID = struct
+Line 74: ID = nfsctl_export
+Line 74: )
+Line 75: }
+Line 75: ,
+Line 76: [
+Line 76: ID = NFSCTL_GETFD
+Line 76: ]
+Line 76: =
+Line 76: {
+Line 77: Unrecognized token: 46
+Line 77: ID = name
+Line 77: =
+Line 77: STRINGCON = ".getfd"
+Line 77: ,
+Line 78: Unrecognized token: 46
+Line 78: ID = wsize
+Line 78: =
+Line 78: ID = sizeof
+Line 78: (
+Line 78: ID = struct
+Line 78: ID = nfsctl_fdparm
+Line 78: )
+Line 78: ,
+Line 79: Unrecognized token: 46
+Line 79: ID = rsize
+Line 79: =
+Line 79: ID = NFS_FHSIZE
+Line 80: }
+Line 80: ,
+Line 81: [
+Line 81: ID = NFSCTL_GETFS
+Line 81: ]
+Line 81: =
+Line 81: {
+Line 82: Unrecognized token: 46
+Line 82: ID = name
+Line 82: =
+Line 82: STRINGCON = ".getfs"
+Line 82: ,
+Line 83: Unrecognized token: 46
+Line 83: ID = wsize
+Line 83: =
+Line 83: ID = sizeof
+Line 83: (
+Line 83: ID = struct
+Line 83: ID = nfsctl_fsparm
+Line 83: )
+Line 83: ,
+Line 84: Unrecognized token: 46
+Line 84: ID = rsize
+Line 84: =
+Line 84: ID = sizeof
+Line 84: (
+Line 84: ID = struct
+Line 84: ID = knfsd_fh
+Line 84: )
+Line 85: }
+Line 85: ,
+Line 86: }
+Line 86: ;
+Line 88: ID = long
+Line 89: ID = asmlinkage
+Line 89: ID = sys_nfsservctl
+Line 89: (
+Line 89: int
+Line 89: ID = cmd
+Line 89: ,
+Line 89: ID = struct
+Line 89: ID = nfsctl_arg
+Line 89: Unrecognized token: 95
+Line 89: Unrecognized token: 95
+Line 89: ID = user
+Line 89: *
+Line 89: ID = arg
+Line 89: ,
+Line 89: void
+Line 89: Unrecognized token: 95
+Line 89: Unrecognized token: 95
+Line 89: ID = user
+Line 89: *
+Line 89: ID = res
+Line 89: )
+Line 90: {
+Line 91: ID = struct
+Line 91: ID = file
+Line 91: *
+Line 91: ID = file
+Line 91: ;
+Line 92: void
+Line 92: Unrecognized token: 95
+Line 92: Unrecognized token: 95
+Line 92: ID = user
+Line 92: *
+Line 92: ID = p
+Line 92: =
+Line 92: Unrecognized token: 38
+Line 92: ID = arg
+Line 92: -
+Line 92: >
+Line 92: ID = u
+Line 92: ;
+Line 93: int
+Line 93: ID = version
+Line 93: ;
+Line 94: int
+Line 94: ID = err
+Line 94: ;
+Line 96: if
+Line 96: (
+Line 96: ID = copy_from_user
+Line 96: (
+Line 96: Unrecognized token: 38
+Line 96: ID = version
+Line 96: ,
+Line 96: Unrecognized token: 38
+Line 96: ID = arg
+Line 96: -
+Line 96: >
+Line 96: ID = ca_version
+Line 96: ,
+Line 96: ID = sizeof
+Line 96: (
+Line 96: int
+Line 96: )
+Line 96: )
+Line 96: )
+Line 97: return
+Line 97: -
+Line 97: ID = EFAULT
+Line 97: ;
+Line 99: if
+Line 99: (
+Line 99: ID = version
+Line 99: !=
+Line 99: ID = NFSCTL_VERSION
+Line 99: )
+Line 99: {
+Line 100: ID = printk
+Line 100: (
+Line 100: ID = KERN_WARNING
+Line 100: STRINGCON = "nfsd: incompatible version in syscall.\n"
+Line 100: )
+Line 100: ;
+Line 101: return
+Line 101: -
+Line 101: ID = EINVAL
+Line 101: ;
+Line 102: }
+Line 104: if
+Line 104: (
+Line 104: ID = cmd
+Line 104: <
+Line 104: INTCON = 0
+Line 104: ||
+Line 104: ID = cmd
+Line 104: >=
+Line 104: ID = sizeof
+Line 104: (
+Line 104: ID = map
+Line 104: )
+Line 104: /
+Line 104: ID = sizeof
+Line 104: (
+Line 104: ID = map
+Line 104: [
+Line 104: INTCON = 0
+Line 104: ]
+Line 104: )
+Line 104: ||
+Line 104: !
+Line 104: ID = map
+Line 104: [
+Line 104: ID = cmd
+Line 104: ]
+Line 104: Unrecognized token: 46
+Line 104: ID = name
+Line 104: )
+Line 105: return
+Line 105: -
+Line 105: ID = EINVAL
+Line 105: ;
+Line 107: ID = file
+Line 107: =
+Line 107: ID = do_open
+Line 107: (
+Line 107: ID = map
+Line 107: [
+Line 107: ID = cmd
+Line 107: ]
+Line 107: Unrecognized token: 46
+Line 107: ID = name
+Line 107: ,
+Line 107: ID = map
+Line 107: [
+Line 107: ID = cmd
+Line 107: ]
+Line 107: Unrecognized token: 46
+Line 107: ID = rsize
+Line 107: Unrecognized token: 63
+Line 107: ID = O_RDWR
+Line 107: Unrecognized token: 58
+Line 107: ID = O_WRONLY
+Line 107: )
+Line 107: ;
+Line 108: if
+Line 108: (
+Line 108: ID = IS_ERR
+Line 108: (
+Line 108: ID = file
+Line 108: )
+Line 108: )
+Line 109: return
+Line 109: ID = PTR_ERR
+Line 109: (
+Line 109: ID = file
+Line 109: )
+Line 109: ;
+Line 110: ID = err
+Line 110: =
+Line 110: ID = file
+Line 110: -
+Line 110: >
+Line 110: ID = f_op
+Line 110: -
+Line 110: >
+Line 110: ID = write
+Line 110: (
+Line 110: ID = file
+Line 110: ,
+Line 110: ID = p
+Line 110: ,
+Line 110: ID = map
+Line 110: [
+Line 110: ID = cmd
+Line 110: ]
+Line 110: Unrecognized token: 46
+Line 110: ID = wsize
+Line 110: ,
+Line 110: Unrecognized token: 38
+Line 110: ID = file
+Line 110: -
+Line 110: >
+Line 110: ID = f_pos
+Line 110: )
+Line 110: ;
+Line 111: if
+Line 111: (
+Line 111: ID = err
+Line 111: >=
+Line 111: INTCON = 0
+Line 111: &&
+Line 111: ID = map
+Line 111: [
+Line 111: ID = cmd
+Line 111: ]
+Line 111: Unrecognized token: 46
+Line 111: ID = rsize
+Line 111: )
+Line 112: ID = err
+Line 112: =
+Line 112: ID = file
+Line 112: -
+Line 112: >
+Line 112: ID = f_op
+Line 112: -
+Line 112: >
+Line 112: ID = read
+Line 112: (
+Line 112: ID = file
+Line 112: ,
+Line 112: ID = res
+Line 112: ,
+Line 112: ID = map
+Line 112: [
+Line 112: ID = cmd
+Line 112: ]
+Line 112: Unrecognized token: 46
+Line 112: ID = rsize
+Line 112: ,
+Line 112: Unrecognized token: 38
+Line 112: ID = file
+Line 112: -
+Line 112: >
+Line 112: ID = f_pos
+Line 112: )
+Line 112: ;
+Line 113: if
+Line 113: (
+Line 113: ID = err
+Line 113: >=
+Line 113: INTCON = 0
+Line 113: )
+Line 114: ID = err
+Line 114: =
+Line 114: INTCON = 0
+Line 114: ;
+Line 115: ID = fput
+Line 115: (
+Line 115: ID = file
+Line 115: )
+Line 115: ;
+Line 116: return
+Line 116: ID = err
+Line 116: ;
+Line 117: }
+Line 118: -EOF-

@@ -1,0 +1,2656 @@
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = kernel
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = module
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = hash
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = fs
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = mm
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = slab
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = sched
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = init
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = mbcache
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 41: Unrecognized token: 35
+Line 41: ID = ifdef
+Line 41: ID = MB_CACHE_DEBUG
+Line 42: Unrecognized token: 35
+Line 42: ID = define
+Line 42: ID = mb_debug
+Line 42: (
+Line 42: ID = f
+Line 42: Unrecognized token: 46
+Line 42: Unrecognized token: 46
+Line 42: Unrecognized token: 46
+Line 42: )
+Line 42: ID = do
+Line 42: {
+Line 42: Unrecognized token: 92
+Line 43: ID = printk
+Line 43: (
+Line 43: ID = KERN_DEBUG
+Line 43: ID = f
+Line 43: )
+Line 43: ;
+Line 43: Unrecognized token: 92
+Line 44: ID = printk
+Line 44: (
+Line 44: STRINGCON = "\n"
+Line 44: )
+Line 44: ;
+Line 44: Unrecognized token: 92
+Line 45: }
+Line 45: while
+Line 45: (
+Line 45: INTCON = 0
+Line 45: )
+Line 46: Unrecognized token: 35
+Line 46: ID = define
+Line 46: ID = mb_assert
+Line 46: (
+Line 46: ID = c
+Line 46: )
+Line 46: ID = do
+Line 46: {
+Line 46: if
+Line 46: (
+Line 46: !
+Line 46: (
+Line 46: ID = c
+Line 46: )
+Line 46: )
+Line 46: Unrecognized token: 92
+Line 47: ID = printk
+Line 47: (
+Line 47: ID = KERN_ERR
+Line 47: STRINGCON = "assertion "
+Line 47: Unrecognized token: 35
+Line 47: ID = c
+Line 47: STRINGCON = " failed\n"
+Line 47: )
+Line 47: ;
+Line 47: Unrecognized token: 92
+Line 48: }
+Line 48: while
+Line 48: (
+Line 48: INTCON = 0
+Line 48: )
+Line 49: Unrecognized token: 35
+Line 49: else
+Line 50: Unrecognized token: 35
+Line 50: ID = define
+Line 50: ID = mb_debug
+Line 50: (
+Line 50: ID = f
+Line 50: Unrecognized token: 46
+Line 50: Unrecognized token: 46
+Line 50: Unrecognized token: 46
+Line 50: )
+Line 50: ID = do
+Line 50: {
+Line 50: }
+Line 50: while
+Line 50: (
+Line 50: INTCON = 0
+Line 50: )
+Line 51: Unrecognized token: 35
+Line 51: ID = define
+Line 51: ID = mb_assert
+Line 51: (
+Line 51: ID = c
+Line 51: )
+Line 51: ID = do
+Line 51: {
+Line 51: }
+Line 51: while
+Line 51: (
+Line 51: INTCON = 0
+Line 51: )
+Line 52: Unrecognized token: 35
+Line 52: ID = endif
+Line 53: Unrecognized token: 35
+Line 53: ID = define
+Line 53: ID = mb_error
+Line 53: (
+Line 53: ID = f
+Line 53: Unrecognized token: 46
+Line 53: Unrecognized token: 46
+Line 53: Unrecognized token: 46
+Line 53: )
+Line 53: ID = do
+Line 53: {
+Line 53: Unrecognized token: 92
+Line 54: ID = printk
+Line 54: (
+Line 54: ID = KERN_ERR
+Line 54: ID = f
+Line 54: )
+Line 54: ;
+Line 54: Unrecognized token: 92
+Line 55: ID = printk
+Line 55: (
+Line 55: STRINGCON = "\n"
+Line 55: )
+Line 55: ;
+Line 55: Unrecognized token: 92
+Line 56: }
+Line 56: while
+Line 56: (
+Line 56: INTCON = 0
+Line 56: )
+Line 58: ID = MODULE_AUTHOR
+Line 58: (
+Line 58: STRINGCON = "Andreas Gruenbacher <a.gruenbacher@computer.org>"
+Line 58: )
+Line 58: ;
+Line 59: ID = MODULE_DESCRIPTION
+Line 59: (
+Line 59: STRINGCON = "Meta block cache (for extended attributes)"
+Line 59: )
+Line 59: ;
+Line 60: ID = MODULE_LICENSE
+Line 60: (
+Line 60: STRINGCON = "GPL"
+Line 60: )
+Line 60: ;
+Line 62: ID = EXPORT_SYMBOL
+Line 62: (
+Line 62: ID = mb_cache_create
+Line 62: )
+Line 62: ;
+Line 63: ID = EXPORT_SYMBOL
+Line 63: (
+Line 63: ID = mb_cache_shrink
+Line 63: )
+Line 63: ;
+Line 64: ID = EXPORT_SYMBOL
+Line 64: (
+Line 64: ID = mb_cache_destroy
+Line 64: )
+Line 64: ;
+Line 65: ID = EXPORT_SYMBOL
+Line 65: (
+Line 65: ID = mb_cache_entry_alloc
+Line 65: )
+Line 65: ;
+Line 66: ID = EXPORT_SYMBOL
+Line 66: (
+Line 66: ID = mb_cache_entry_insert
+Line 66: )
+Line 66: ;
+Line 67: ID = EXPORT_SYMBOL
+Line 67: (
+Line 67: ID = mb_cache_entry_release
+Line 67: )
+Line 67: ;
+Line 68: ID = EXPORT_SYMBOL
+Line 68: (
+Line 68: ID = mb_cache_entry_takeout
+Line 68: )
+Line 68: ;
+Line 69: ID = EXPORT_SYMBOL
+Line 69: (
+Line 69: ID = mb_cache_entry_free
+Line 69: )
+Line 69: ;
+Line 70: ID = EXPORT_SYMBOL
+Line 70: (
+Line 70: ID = mb_cache_entry_dup
+Line 70: )
+Line 70: ;
+Line 71: ID = EXPORT_SYMBOL
+Line 71: (
+Line 71: ID = mb_cache_entry_get
+Line 71: )
+Line 71: ;
+Line 72: Unrecognized token: 35
+Line 72: if
+Line 72: !
+Line 72: ID = defined
+Line 72: (
+Line 72: ID = MB_CACHE_INDEXES_COUNT
+Line 72: )
+Line 72: ||
+Line 72: (
+Line 72: ID = MB_CACHE_INDEXES_COUNT
+Line 72: >
+Line 72: INTCON = 0
+Line 72: )
+Line 73: ID = EXPORT_SYMBOL
+Line 73: (
+Line 73: ID = mb_cache_entry_find_first
+Line 73: )
+Line 73: ;
+Line 74: ID = EXPORT_SYMBOL
+Line 74: (
+Line 74: ID = mb_cache_entry_find_next
+Line 74: )
+Line 74: ;
+Line 75: Unrecognized token: 35
+Line 75: ID = endif
+Line 84: ID = static
+Line 84: ID = LIST_HEAD
+Line 84: (
+Line 84: ID = mb_cache_list
+Line 84: )
+Line 84: ;
+Line 85: ID = static
+Line 85: ID = LIST_HEAD
+Line 85: (
+Line 85: ID = mb_cache_lru_list
+Line 85: )
+Line 85: ;
+Line 86: ID = static
+Line 86: ID = spinlock_t
+Line 86: ID = mb_cache_spinlock
+Line 86: =
+Line 86: ID = SPIN_LOCK_UNLOCKED
+Line 86: ;
+Line 87: ID = static
+Line 87: ID = struct
+Line 87: ID = shrinker
+Line 87: *
+Line 87: ID = mb_shrinker
+Line 87: ;
+Line 89: ID = static
+Line 89: ID = inline
+Line 89: int
+Line 90: ID = mb_cache_indexes
+Line 90: (
+Line 90: ID = struct
+Line 90: ID = mb_cache
+Line 90: *
+Line 90: ID = cache
+Line 90: )
+Line 91: {
+Line 92: Unrecognized token: 35
+Line 92: ID = ifdef
+Line 92: ID = MB_CACHE_INDEXES_COUNT
+Line 93: return
+Line 93: ID = MB_CACHE_INDEXES_COUNT
+Line 93: ;
+Line 94: Unrecognized token: 35
+Line 94: else
+Line 95: return
+Line 95: ID = cache
+Line 95: -
+Line 95: >
+Line 95: ID = c_indexes_count
+Line 95: ;
+Line 96: Unrecognized token: 35
+Line 96: ID = endif
+Line 97: }
+Line 103: ID = static
+Line 103: int
+Line 103: ID = mb_cache_shrink_fn
+Line 103: (
+Line 103: int
+Line 103: ID = nr_to_scan
+Line 103: ,
+Line 103: ID = unsigned
+Line 103: int
+Line 103: ID = gfp_mask
+Line 103: )
+Line 103: ;
+Line 106: ID = static
+Line 106: ID = inline
+Line 106: int
+Line 107: Unrecognized token: 95
+Line 107: Unrecognized token: 95
+Line 107: ID = mb_cache_entry_is_hashed
+Line 107: (
+Line 107: ID = struct
+Line 107: ID = mb_cache_entry
+Line 107: *
+Line 107: ID = ce
+Line 107: )
+Line 108: {
+Line 109: return
+Line 109: !
+Line 109: ID = list_empty
+Line 109: (
+Line 109: Unrecognized token: 38
+Line 109: ID = ce
+Line 109: -
+Line 109: >
+Line 109: ID = e_block_list
+Line 109: )
+Line 109: ;
+Line 110: }
+Line 113: ID = static
+Line 113: ID = inline
+Line 113: void
+Line 114: Unrecognized token: 95
+Line 114: Unrecognized token: 95
+Line 114: ID = mb_cache_entry_unhash
+Line 114: (
+Line 114: ID = struct
+Line 114: ID = mb_cache_entry
+Line 114: *
+Line 114: ID = ce
+Line 114: )
+Line 115: {
+Line 116: int
+Line 116: ID = n
+Line 116: ;
+Line 118: if
+Line 118: (
+Line 118: Unrecognized token: 95
+Line 118: Unrecognized token: 95
+Line 118: ID = mb_cache_entry_is_hashed
+Line 118: (
+Line 118: ID = ce
+Line 118: )
+Line 118: )
+Line 118: {
+Line 119: ID = list_del_init
+Line 119: (
+Line 119: Unrecognized token: 38
+Line 119: ID = ce
+Line 119: -
+Line 119: >
+Line 119: ID = e_block_list
+Line 119: )
+Line 119: ;
+Line 120: for
+Line 120: (
+Line 120: ID = n
+Line 120: =
+Line 120: INTCON = 0
+Line 120: ;
+Line 120: ID = n
+Line 120: <
+Line 120: ID = mb_cache_indexes
+Line 120: (
+Line 120: ID = ce
+Line 120: -
+Line 120: >
+Line 120: ID = e_cache
+Line 120: )
+Line 120: ;
+Line 120: ID = n
+Line 120: +
+Line 120: +
+Line 120: )
+Line 121: ID = list_del
+Line 121: (
+Line 121: Unrecognized token: 38
+Line 121: ID = ce
+Line 121: -
+Line 121: >
+Line 121: ID = e_indexes
+Line 121: [
+Line 121: ID = n
+Line 121: ]
+Line 121: Unrecognized token: 46
+Line 121: ID = o_list
+Line 121: )
+Line 121: ;
+Line 122: }
+Line 123: }
+Line 126: ID = static
+Line 126: ID = inline
+Line 126: void
+Line 127: Unrecognized token: 95
+Line 127: Unrecognized token: 95
+Line 127: ID = mb_cache_entry_forget
+Line 127: (
+Line 127: ID = struct
+Line 127: ID = mb_cache_entry
+Line 127: *
+Line 127: ID = ce
+Line 127: ,
+Line 127: int
+Line 127: ID = gfp_mask
+Line 127: )
+Line 128: {
+Line 129: ID = struct
+Line 129: ID = mb_cache
+Line 129: *
+Line 129: ID = cache
+Line 129: =
+Line 129: ID = ce
+Line 129: -
+Line 129: >
+Line 129: ID = e_cache
+Line 129: ;
+Line 131: ID = mb_assert
+Line 131: (
+Line 131: ID = atomic_read
+Line 131: (
+Line 131: Unrecognized token: 38
+Line 131: ID = ce
+Line 131: -
+Line 131: >
+Line 131: ID = e_used
+Line 131: )
+Line 131: ==
+Line 131: INTCON = 0
+Line 131: )
+Line 131: ;
+Line 132: if
+Line 132: (
+Line 132: ID = cache
+Line 132: -
+Line 132: >
+Line 132: ID = c_op
+Line 132: Unrecognized token: 46
+Line 132: ID = free
+Line 132: &&
+Line 132: ID = cache
+Line 132: -
+Line 132: >
+Line 132: ID = c_op
+Line 132: Unrecognized token: 46
+Line 132: ID = free
+Line 132: (
+Line 132: ID = ce
+Line 132: ,
+Line 132: ID = gfp_mask
+Line 132: )
+Line 132: )
+Line 132: {
+Line 135: ID = spin_lock
+Line 135: (
+Line 135: Unrecognized token: 38
+Line 135: ID = mb_cache_spinlock
+Line 135: )
+Line 135: ;
+Line 136: ID = list_add
+Line 136: (
+Line 136: Unrecognized token: 38
+Line 136: ID = ce
+Line 136: -
+Line 136: >
+Line 136: ID = e_lru_list
+Line 136: ,
+Line 136: Unrecognized token: 38
+Line 136: ID = mb_cache_lru_list
+Line 136: )
+Line 136: ;
+Line 137: ID = spin_unlock
+Line 137: (
+Line 137: Unrecognized token: 38
+Line 137: ID = mb_cache_spinlock
+Line 137: )
+Line 137: ;
+Line 138: }
+Line 138: else
+Line 138: {
+Line 139: ID = kmem_cache_free
+Line 139: (
+Line 139: ID = cache
+Line 139: -
+Line 139: >
+Line 139: ID = c_entry_cache
+Line 139: ,
+Line 139: ID = ce
+Line 139: )
+Line 139: ;
+Line 140: ID = atomic_dec
+Line 140: (
+Line 140: Unrecognized token: 38
+Line 140: ID = cache
+Line 140: -
+Line 140: >
+Line 140: ID = c_entry_count
+Line 140: )
+Line 140: ;
+Line 141: }
+Line 142: }
+Line 145: ID = static
+Line 145: ID = inline
+Line 145: void
+Line 146: Unrecognized token: 95
+Line 146: Unrecognized token: 95
+Line 146: ID = mb_cache_entry_release_unlock
+Line 146: (
+Line 146: ID = struct
+Line 146: ID = mb_cache_entry
+Line 146: *
+Line 146: ID = ce
+Line 146: )
+Line 147: {
+Line 148: if
+Line 148: (
+Line 148: ID = atomic_dec_and_test
+Line 148: (
+Line 148: Unrecognized token: 38
+Line 148: ID = ce
+Line 148: -
+Line 148: >
+Line 148: ID = e_used
+Line 148: )
+Line 148: )
+Line 148: {
+Line 149: if
+Line 149: (
+Line 149: !
+Line 149: Unrecognized token: 95
+Line 149: Unrecognized token: 95
+Line 149: ID = mb_cache_entry_is_hashed
+Line 149: (
+Line 149: ID = ce
+Line 149: )
+Line 149: )
+Line 150: ID = goto
+Line 150: ID = forget
+Line 150: ;
+Line 151: ID = list_add_tail
+Line 151: (
+Line 151: Unrecognized token: 38
+Line 151: ID = ce
+Line 151: -
+Line 151: >
+Line 151: ID = e_lru_list
+Line 151: ,
+Line 151: Unrecognized token: 38
+Line 151: ID = mb_cache_lru_list
+Line 151: )
+Line 151: ;
+Line 152: }
+Line 153: ID = spin_unlock
+Line 153: (
+Line 153: Unrecognized token: 38
+Line 153: ID = mb_cache_spinlock
+Line 153: )
+Line 153: ;
+Line 154: return
+Line 154: ;
+Line 155: ID = forget
+Line 155: Unrecognized token: 58
+Line 156: ID = spin_unlock
+Line 156: (
+Line 156: Unrecognized token: 38
+Line 156: ID = mb_cache_spinlock
+Line 156: )
+Line 156: ;
+Line 157: Unrecognized token: 95
+Line 157: Unrecognized token: 95
+Line 157: ID = mb_cache_entry_forget
+Line 157: (
+Line 157: ID = ce
+Line 157: ,
+Line 157: ID = GFP_KERNEL
+Line 157: )
+Line 157: ;
+Line 158: }
+Line 172: ID = static
+Line 172: int
+Line 173: ID = mb_cache_shrink_fn
+Line 173: (
+Line 173: int
+Line 173: ID = nr_to_scan
+Line 173: ,
+Line 173: ID = unsigned
+Line 173: int
+Line 173: ID = gfp_mask
+Line 173: )
+Line 174: {
+Line 175: ID = LIST_HEAD
+Line 175: (
+Line 175: ID = free_list
+Line 175: )
+Line 175: ;
+Line 176: ID = struct
+Line 176: ID = list_head
+Line 176: *
+Line 176: ID = l
+Line 176: ,
+Line 176: *
+Line 176: ID = ltmp
+Line 176: ;
+Line 177: int
+Line 177: ID = count
+Line 177: =
+Line 177: INTCON = 0
+Line 177: ;
+Line 179: ID = spin_lock
+Line 179: (
+Line 179: Unrecognized token: 38
+Line 179: ID = mb_cache_spinlock
+Line 179: )
+Line 179: ;
+Line 180: ID = list_for_each
+Line 180: (
+Line 180: ID = l
+Line 180: ,
+Line 180: Unrecognized token: 38
+Line 180: ID = mb_cache_list
+Line 180: )
+Line 180: {
+Line 181: ID = struct
+Line 181: ID = mb_cache
+Line 181: *
+Line 181: ID = cache
+Line 181: =
+Line 182: ID = list_entry
+Line 182: (
+Line 182: ID = l
+Line 182: ,
+Line 182: ID = struct
+Line 182: ID = mb_cache
+Line 182: ,
+Line 182: ID = c_cache_list
+Line 182: )
+Line 182: ;
+Line 183: ID = mb_debug
+Line 183: (
+Line 183: STRINGCON = "cache %s (%d)"
+Line 183: ,
+Line 183: ID = cache
+Line 183: -
+Line 183: >
+Line 183: ID = c_name
+Line 183: ,
+Line 184: ID = atomic_read
+Line 184: (
+Line 184: Unrecognized token: 38
+Line 184: ID = cache
+Line 184: -
+Line 184: >
+Line 184: ID = c_entry_count
+Line 184: )
+Line 184: )
+Line 184: ;
+Line 185: ID = count
+Line 185: +
+Line 185: =
+Line 185: ID = atomic_read
+Line 185: (
+Line 185: Unrecognized token: 38
+Line 185: ID = cache
+Line 185: -
+Line 185: >
+Line 185: ID = c_entry_count
+Line 185: )
+Line 185: ;
+Line 186: }
+Line 187: ID = mb_debug
+Line 187: (
+Line 187: STRINGCON = "trying to free %d entries"
+Line 187: ,
+Line 187: ID = nr_to_scan
+Line 187: )
+Line 187: ;
+Line 188: if
+Line 188: (
+Line 188: ID = nr_to_scan
+Line 188: ==
+Line 188: INTCON = 0
+Line 188: )
+Line 188: {
+Line 189: ID = spin_unlock
+Line 189: (
+Line 189: Unrecognized token: 38
+Line 189: ID = mb_cache_spinlock
+Line 189: )
+Line 189: ;
+Line 190: ID = goto
+Line 190: ID = out
+Line 190: ;
+Line 191: }
+Line 192: while
+Line 192: (
+Line 192: ID = nr_to_scan
+Line 192: -
+Line 192: -
+Line 192: &&
+Line 192: !
+Line 192: ID = list_empty
+Line 192: (
+Line 192: Unrecognized token: 38
+Line 192: ID = mb_cache_lru_list
+Line 192: )
+Line 192: )
+Line 192: {
+Line 193: ID = struct
+Line 193: ID = mb_cache_entry
+Line 193: *
+Line 193: ID = ce
+Line 193: =
+Line 194: ID = list_entry
+Line 194: (
+Line 194: ID = mb_cache_lru_list
+Line 194: Unrecognized token: 46
+Line 194: ID = next
+Line 194: ,
+Line 195: ID = struct
+Line 195: ID = mb_cache_entry
+Line 195: ,
+Line 195: ID = e_lru_list
+Line 195: )
+Line 195: ;
+Line 196: ID = list_move_tail
+Line 196: (
+Line 196: Unrecognized token: 38
+Line 196: ID = ce
+Line 196: -
+Line 196: >
+Line 196: ID = e_lru_list
+Line 196: ,
+Line 196: Unrecognized token: 38
+Line 196: ID = free_list
+Line 196: )
+Line 196: ;
+Line 197: Unrecognized token: 95
+Line 197: Unrecognized token: 95
+Line 197: ID = mb_cache_entry_unhash
+Line 197: (
+Line 197: ID = ce
+Line 197: )
+Line 197: ;
+Line 198: }
+Line 199: ID = spin_unlock
+Line 199: (
+Line 199: Unrecognized token: 38
+Line 199: ID = mb_cache_spinlock
+Line 199: )
+Line 199: ;
+Line 200: ID = list_for_each_safe
+Line 200: (
+Line 200: ID = l
+Line 200: ,
+Line 200: ID = ltmp
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = free_list
+Line 200: )
+Line 200: {
+Line 201: Unrecognized token: 95
+Line 201: Unrecognized token: 95
+Line 201: ID = mb_cache_entry_forget
+Line 201: (
+Line 201: ID = list_entry
+Line 201: (
+Line 201: ID = l
+Line 201: ,
+Line 201: ID = struct
+Line 201: ID = mb_cache_entry
+Line 201: ,
+Line 202: ID = e_lru_list
+Line 202: )
+Line 202: ,
+Line 202: ID = gfp_mask
+Line 202: )
+Line 202: ;
+Line 203: }
+Line 204: ID = out
+Line 204: Unrecognized token: 58
+Line 205: return
+Line 205: ID = count
+Line 205: ;
+Line 206: }
+Line 226: ID = struct
+Line 226: ID = mb_cache
+Line 226: *
+Line 227: ID = mb_cache_create
+Line 227: (
+Line 227: ID = const
+Line 227: char
+Line 227: *
+Line 227: ID = name
+Line 227: ,
+Line 227: ID = struct
+Line 227: ID = mb_cache_op
+Line 227: *
+Line 227: ID = cache_op
+Line 227: ,
+Line 228: ID = size_t
+Line 228: ID = entry_size
+Line 228: ,
+Line 228: int
+Line 228: ID = indexes_count
+Line 228: ,
+Line 228: int
+Line 228: ID = bucket_bits
+Line 228: )
+Line 229: {
+Line 230: int
+Line 230: ID = m
+Line 230: =
+Line 230: INTCON = 0
+Line 230: ,
+Line 230: ID = n
+Line 230: ,
+Line 230: ID = bucket_count
+Line 230: =
+Line 230: INTCON = 1
+Line 230: <
+Line 230: <
+Line 230: ID = bucket_bits
+Line 230: ;
+Line 231: ID = struct
+Line 231: ID = mb_cache
+Line 231: *
+Line 231: ID = cache
+Line 231: =
+Line 231: ID = NULL
+Line 231: ;
+Line 233: if
+Line 233: (
+Line 233: ID = entry_size
+Line 233: <
+Line 233: ID = sizeof
+Line 233: (
+Line 233: ID = struct
+Line 233: ID = mb_cache_entry
+Line 233: )
+Line 233: +
+Line 234: ID = indexes_count
+Line 234: *
+Line 234: ID = sizeof
+Line 234: (
+Line 234: ID = struct
+Line 234: ID = mb_cache_entry_index
+Line 234: )
+Line 234: )
+Line 235: return
+Line 235: ID = NULL
+Line 235: ;
+Line 237: ID = cache
+Line 237: =
+Line 237: ID = kmalloc
+Line 237: (
+Line 237: ID = sizeof
+Line 237: (
+Line 237: ID = struct
+Line 237: ID = mb_cache
+Line 237: )
+Line 237: +
+Line 238: ID = indexes_count
+Line 238: *
+Line 238: ID = sizeof
+Line 238: (
+Line 238: ID = struct
+Line 238: ID = list_head
+Line 238: )
+Line 238: ,
+Line 238: ID = GFP_KERNEL
+Line 238: )
+Line 238: ;
+Line 239: if
+Line 239: (
+Line 239: !
+Line 239: ID = cache
+Line 239: )
+Line 240: ID = goto
+Line 240: ID = fail
+Line 240: ;
+Line 241: ID = cache
+Line 241: -
+Line 241: >
+Line 241: ID = c_name
+Line 241: =
+Line 241: ID = name
+Line 241: ;
+Line 242: ID = cache
+Line 242: -
+Line 242: >
+Line 242: ID = c_op
+Line 242: Unrecognized token: 46
+Line 242: ID = free
+Line 242: =
+Line 242: ID = NULL
+Line 242: ;
+Line 243: if
+Line 243: (
+Line 243: ID = cache_op
+Line 243: )
+Line 244: ID = cache
+Line 244: -
+Line 244: >
+Line 244: ID = c_op
+Line 244: Unrecognized token: 46
+Line 244: ID = free
+Line 244: =
+Line 244: ID = cache_op
+Line 244: -
+Line 244: >
+Line 244: ID = free
+Line 244: ;
+Line 245: ID = atomic_set
+Line 245: (
+Line 245: Unrecognized token: 38
+Line 245: ID = cache
+Line 245: -
+Line 245: >
+Line 245: ID = c_entry_count
+Line 245: ,
+Line 245: INTCON = 0
+Line 245: )
+Line 245: ;
+Line 246: ID = cache
+Line 246: -
+Line 246: >
+Line 246: ID = c_bucket_bits
+Line 246: =
+Line 246: ID = bucket_bits
+Line 246: ;
+Line 247: Unrecognized token: 35
+Line 247: ID = ifdef
+Line 247: ID = MB_CACHE_INDEXES_COUNT
+Line 248: ID = mb_assert
+Line 248: (
+Line 248: ID = indexes_count
+Line 248: ==
+Line 248: ID = MB_CACHE_INDEXES_COUNT
+Line 248: )
+Line 248: ;
+Line 249: Unrecognized token: 35
+Line 249: else
+Line 250: ID = cache
+Line 250: -
+Line 250: >
+Line 250: ID = c_indexes_count
+Line 250: =
+Line 250: ID = indexes_count
+Line 250: ;
+Line 251: Unrecognized token: 35
+Line 251: ID = endif
+Line 252: ID = cache
+Line 252: -
+Line 252: >
+Line 252: ID = c_block_hash
+Line 252: =
+Line 252: ID = kmalloc
+Line 252: (
+Line 252: ID = bucket_count
+Line 252: *
+Line 252: ID = sizeof
+Line 252: (
+Line 252: ID = struct
+Line 252: ID = list_head
+Line 252: )
+Line 252: ,
+Line 253: ID = GFP_KERNEL
+Line 253: )
+Line 253: ;
+Line 254: if
+Line 254: (
+Line 254: !
+Line 254: ID = cache
+Line 254: -
+Line 254: >
+Line 254: ID = c_block_hash
+Line 254: )
+Line 255: ID = goto
+Line 255: ID = fail
+Line 255: ;
+Line 256: for
+Line 256: (
+Line 256: ID = n
+Line 256: =
+Line 256: INTCON = 0
+Line 256: ;
+Line 256: ID = n
+Line 256: <
+Line 256: ID = bucket_count
+Line 256: ;
+Line 256: ID = n
+Line 256: +
+Line 256: +
+Line 256: )
+Line 257: ID = INIT_LIST_HEAD
+Line 257: (
+Line 257: Unrecognized token: 38
+Line 257: ID = cache
+Line 257: -
+Line 257: >
+Line 257: ID = c_block_hash
+Line 257: [
+Line 257: ID = n
+Line 257: ]
+Line 257: )
+Line 257: ;
+Line 258: for
+Line 258: (
+Line 258: ID = m
+Line 258: =
+Line 258: INTCON = 0
+Line 258: ;
+Line 258: ID = m
+Line 258: <
+Line 258: ID = indexes_count
+Line 258: ;
+Line 258: ID = m
+Line 258: +
+Line 258: +
+Line 258: )
+Line 258: {
+Line 259: ID = cache
+Line 259: -
+Line 259: >
+Line 259: ID = c_indexes_hash
+Line 259: [
+Line 259: ID = m
+Line 259: ]
+Line 259: =
+Line 259: ID = kmalloc
+Line 259: (
+Line 259: ID = bucket_count
+Line 259: *
+Line 260: ID = sizeof
+Line 260: (
+Line 260: ID = struct
+Line 260: ID = list_head
+Line 260: )
+Line 260: ,
+Line 261: ID = GFP_KERNEL
+Line 261: )
+Line 261: ;
+Line 262: if
+Line 262: (
+Line 262: !
+Line 262: ID = cache
+Line 262: -
+Line 262: >
+Line 262: ID = c_indexes_hash
+Line 262: [
+Line 262: ID = m
+Line 262: ]
+Line 262: )
+Line 263: ID = goto
+Line 263: ID = fail
+Line 263: ;
+Line 264: for
+Line 264: (
+Line 264: ID = n
+Line 264: =
+Line 264: INTCON = 0
+Line 264: ;
+Line 264: ID = n
+Line 264: <
+Line 264: ID = bucket_count
+Line 264: ;
+Line 264: ID = n
+Line 264: +
+Line 264: +
+Line 264: )
+Line 265: ID = INIT_LIST_HEAD
+Line 265: (
+Line 265: Unrecognized token: 38
+Line 265: ID = cache
+Line 265: -
+Line 265: >
+Line 265: ID = c_indexes_hash
+Line 265: [
+Line 265: ID = m
+Line 265: ]
+Line 265: [
+Line 265: ID = n
+Line 265: ]
+Line 265: )
+Line 265: ;
+Line 266: }
+Line 267: ID = cache
+Line 267: -
+Line 267: >
+Line 267: ID = c_entry_cache
+Line 267: =
+Line 267: ID = kmem_cache_create
+Line 267: (
+Line 267: ID = name
+Line 267: ,
+Line 267: ID = entry_size
+Line 267: ,
+Line 267: INTCON = 0
+Line 267: ,
+Line 268: ID = SLAB_RECLAIM_ACCOUNT
+Line 268: ,
+Line 268: ID = NULL
+Line 268: ,
+Line 268: ID = NULL
+Line 268: )
+Line 268: ;
+Line 269: if
+Line 269: (
+Line 269: !
+Line 269: ID = cache
+Line 269: -
+Line 269: >
+Line 269: ID = c_entry_cache
+Line 269: )
+Line 270: ID = goto
+Line 270: ID = fail
+Line 270: ;
+Line 272: ID = spin_lock
+Line 272: (
+Line 272: Unrecognized token: 38
+Line 272: ID = mb_cache_spinlock
+Line 272: )
+Line 272: ;
+Line 273: ID = list_add
+Line 273: (
+Line 273: Unrecognized token: 38
+Line 273: ID = cache
+Line 273: -
+Line 273: >
+Line 273: ID = c_cache_list
+Line 273: ,
+Line 273: Unrecognized token: 38
+Line 273: ID = mb_cache_list
+Line 273: )
+Line 273: ;
+Line 274: ID = spin_unlock
+Line 274: (
+Line 274: Unrecognized token: 38
+Line 274: ID = mb_cache_spinlock
+Line 274: )
+Line 274: ;
+Line 275: return
+Line 275: ID = cache
+Line 275: ;
+Line 277: ID = fail
+Line 277: Unrecognized token: 58
+Line 278: if
+Line 278: (
+Line 278: ID = cache
+Line 278: )
+Line 278: {
+Line 279: while
+Line 279: (
+Line 279: -
+Line 279: -
+Line 279: ID = m
+Line 279: >=
+Line 279: INTCON = 0
+Line 279: )
+Line 280: ID = kfree
+Line 280: (
+Line 280: ID = cache
+Line 280: -
+Line 280: >
+Line 280: ID = c_indexes_hash
+Line 280: [
+Line 280: ID = m
+Line 280: ]
+Line 280: )
+Line 280: ;
+Line 281: if
+Line 281: (
+Line 281: ID = cache
+Line 281: -
+Line 281: >
+Line 281: ID = c_block_hash
+Line 281: )
+Line 282: ID = kfree
+Line 282: (
+Line 282: ID = cache
+Line 282: -
+Line 282: >
+Line 282: ID = c_block_hash
+Line 282: )
+Line 282: ;
+Line 283: ID = kfree
+Line 283: (
+Line 283: ID = cache
+Line 283: )
+Line 283: ;
+Line 284: }
+Line 285: return
+Line 285: ID = NULL
+Line 285: ;
+Line 286: }
+Line 299: void
+Line 300: ID = mb_cache_shrink
+Line 300: (
+Line 300: ID = struct
+Line 300: ID = mb_cache
+Line 300: *
+Line 300: ID = cache
+Line 300: ,
+Line 300: ID = struct
+Line 300: ID = block_device
+Line 300: *
+Line 300: ID = bdev
+Line 300: )
+Line 301: {
+Line 302: ID = LIST_HEAD
+Line 302: (
+Line 302: ID = free_list
+Line 302: )
+Line 302: ;
+Line 303: ID = struct
+Line 303: ID = list_head
+Line 303: *
+Line 303: ID = l
+Line 303: ,
+Line 303: *
+Line 303: ID = ltmp
+Line 303: ;
+Line 305: ID = spin_lock
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = mb_cache_spinlock
+Line 305: )
+Line 305: ;
+Line 306: ID = list_for_each_safe
+Line 306: (
+Line 306: ID = l
+Line 306: ,
+Line 306: ID = ltmp
+Line 306: ,
+Line 306: Unrecognized token: 38
+Line 306: ID = mb_cache_lru_list
+Line 306: )
+Line 306: {
+Line 307: ID = struct
+Line 307: ID = mb_cache_entry
+Line 307: *
+Line 307: ID = ce
+Line 307: =
+Line 308: ID = list_entry
+Line 308: (
+Line 308: ID = l
+Line 308: ,
+Line 308: ID = struct
+Line 308: ID = mb_cache_entry
+Line 308: ,
+Line 308: ID = e_lru_list
+Line 308: )
+Line 308: ;
+Line 309: if
+Line 309: (
+Line 309: ID = ce
+Line 309: -
+Line 309: >
+Line 309: ID = e_bdev
+Line 309: ==
+Line 309: ID = bdev
+Line 309: )
+Line 309: {
+Line 310: ID = list_move_tail
+Line 310: (
+Line 310: Unrecognized token: 38
+Line 310: ID = ce
+Line 310: -
+Line 310: >
+Line 310: ID = e_lru_list
+Line 310: ,
+Line 310: Unrecognized token: 38
+Line 310: ID = free_list
+Line 310: )
+Line 310: ;
+Line 311: Unrecognized token: 95
+Line 311: Unrecognized token: 95
+Line 311: ID = mb_cache_entry_unhash
+Line 311: (
+Line 311: ID = ce
+Line 311: )
+Line 311: ;
+Line 312: }
+Line 313: }
+Line 314: ID = spin_unlock
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = mb_cache_spinlock
+Line 314: )
+Line 314: ;
+Line 315: ID = list_for_each_safe
+Line 315: (
+Line 315: ID = l
+Line 315: ,
+Line 315: ID = ltmp
+Line 315: ,
+Line 315: Unrecognized token: 38
+Line 315: ID = free_list
+Line 315: )
+Line 315: {
+Line 316: Unrecognized token: 95
+Line 316: Unrecognized token: 95
+Line 316: ID = mb_cache_entry_forget
+Line 316: (
+Line 316: ID = list_entry
+Line 316: (
+Line 316: ID = l
+Line 316: ,
+Line 316: ID = struct
+Line 316: ID = mb_cache_entry
+Line 316: ,
+Line 317: ID = e_lru_list
+Line 317: )
+Line 317: ,
+Line 317: ID = GFP_KERNEL
+Line 317: )
+Line 317: ;
+Line 318: }
+Line 319: }
+Line 329: void
+Line 330: ID = mb_cache_destroy
+Line 330: (
+Line 330: ID = struct
+Line 330: ID = mb_cache
+Line 330: *
+Line 330: ID = cache
+Line 330: )
+Line 331: {
+Line 332: ID = LIST_HEAD
+Line 332: (
+Line 332: ID = free_list
+Line 332: )
+Line 332: ;
+Line 333: ID = struct
+Line 333: ID = list_head
+Line 333: *
+Line 333: ID = l
+Line 333: ,
+Line 333: *
+Line 333: ID = ltmp
+Line 333: ;
+Line 334: int
+Line 334: ID = n
+Line 334: ;
+Line 336: ID = spin_lock
+Line 336: (
+Line 336: Unrecognized token: 38
+Line 336: ID = mb_cache_spinlock
+Line 336: )
+Line 336: ;
+Line 337: ID = list_for_each_safe
+Line 337: (
+Line 337: ID = l
+Line 337: ,
+Line 337: ID = ltmp
+Line 337: ,
+Line 337: Unrecognized token: 38
+Line 337: ID = mb_cache_lru_list
+Line 337: )
+Line 337: {
+Line 338: ID = struct
+Line 338: ID = mb_cache_entry
+Line 338: *
+Line 338: ID = ce
+Line 338: =
+Line 339: ID = list_entry
+Line 339: (
+Line 339: ID = l
+Line 339: ,
+Line 339: ID = struct
+Line 339: ID = mb_cache_entry
+Line 339: ,
+Line 339: ID = e_lru_list
+Line 339: )
+Line 339: ;
+Line 340: if
+Line 340: (
+Line 340: ID = ce
+Line 340: -
+Line 340: >
+Line 340: ID = e_cache
+Line 340: ==
+Line 340: ID = cache
+Line 340: )
+Line 340: {
+Line 341: ID = list_move_tail
+Line 341: (
+Line 341: Unrecognized token: 38
+Line 341: ID = ce
+Line 341: -
+Line 341: >
+Line 341: ID = e_lru_list
+Line 341: ,
+Line 341: Unrecognized token: 38
+Line 341: ID = free_list
+Line 341: )
+Line 341: ;
+Line 342: Unrecognized token: 95
+Line 342: Unrecognized token: 95
+Line 342: ID = mb_cache_entry_unhash
+Line 342: (
+Line 342: ID = ce
+Line 342: )
+Line 342: ;
+Line 343: }
+Line 344: }
+Line 345: ID = list_del
+Line 345: (
+Line 345: Unrecognized token: 38
+Line 345: ID = cache
+Line 345: -
+Line 345: >
+Line 345: ID = c_cache_list
+Line 345: )
+Line 345: ;
+Line 346: ID = spin_unlock
+Line 346: (
+Line 346: Unrecognized token: 38
+Line 346: ID = mb_cache_spinlock
+Line 346: )
+Line 346: ;
+Line 348: ID = list_for_each_safe
+Line 348: (
+Line 348: ID = l
+Line 348: ,
+Line 348: ID = ltmp
+Line 348: ,
+Line 348: Unrecognized token: 38
+Line 348: ID = free_list
+Line 348: )
+Line 348: {
+Line 349: Unrecognized token: 95
+Line 349: Unrecognized token: 95
+Line 349: ID = mb_cache_entry_forget
+Line 349: (
+Line 349: ID = list_entry
+Line 349: (
+Line 349: ID = l
+Line 349: ,
+Line 349: ID = struct
+Line 349: ID = mb_cache_entry
+Line 349: ,
+Line 350: ID = e_lru_list
+Line 350: )
+Line 350: ,
+Line 350: ID = GFP_KERNEL
+Line 350: )
+Line 350: ;
+Line 351: }
+Line 353: if
+Line 353: (
+Line 353: ID = atomic_read
+Line 353: (
+Line 353: Unrecognized token: 38
+Line 353: ID = cache
+Line 353: -
+Line 353: >
+Line 353: ID = c_entry_count
+Line 353: )
+Line 353: >
+Line 353: INTCON = 0
+Line 353: )
+Line 353: {
+Line 354: ID = mb_error
+Line 354: (
+Line 354: STRINGCON = "cache %s: %d orphaned entries"
+Line 354: ,
+Line 355: ID = cache
+Line 355: -
+Line 355: >
+Line 355: ID = c_name
+Line 355: ,
+Line 356: ID = atomic_read
+Line 356: (
+Line 356: Unrecognized token: 38
+Line 356: ID = cache
+Line 356: -
+Line 356: >
+Line 356: ID = c_entry_count
+Line 356: )
+Line 356: )
+Line 356: ;
+Line 357: }
+Line 359: ID = kmem_cache_destroy
+Line 359: (
+Line 359: ID = cache
+Line 359: -
+Line 359: >
+Line 359: ID = c_entry_cache
+Line 359: )
+Line 359: ;
+Line 361: for
+Line 361: (
+Line 361: ID = n
+Line 361: =
+Line 361: INTCON = 0
+Line 361: ;
+Line 361: ID = n
+Line 361: <
+Line 361: ID = mb_cache_indexes
+Line 361: (
+Line 361: ID = cache
+Line 361: )
+Line 361: ;
+Line 361: ID = n
+Line 361: +
+Line 361: +
+Line 361: )
+Line 362: ID = kfree
+Line 362: (
+Line 362: ID = cache
+Line 362: -
+Line 362: >
+Line 362: ID = c_indexes_hash
+Line 362: [
+Line 362: ID = n
+Line 362: ]
+Line 362: )
+Line 362: ;
+Line 363: ID = kfree
+Line 363: (
+Line 363: ID = cache
+Line 363: -
+Line 363: >
+Line 363: ID = c_block_hash
+Line 363: )
+Line 363: ;
+Line 364: ID = kfree
+Line 364: (
+Line 364: ID = cache
+Line 364: )
+Line 364: ;
+Line 365: }
+Line 376: ID = struct
+Line 376: ID = mb_cache_entry
+Line 376: *
+Line 377: ID = mb_cache_entry_alloc
+Line 377: (
+Line 377: ID = struct
+Line 377: ID = mb_cache
+Line 377: *
+Line 377: ID = cache
+Line 377: )
+Line 378: {
+Line 379: ID = struct
+Line 379: ID = mb_cache_entry
+Line 379: *
+Line 379: ID = ce
+Line 379: ;
+Line 381: ID = atomic_inc
+Line 381: (
+Line 381: Unrecognized token: 38
+Line 381: ID = cache
+Line 381: -
+Line 381: >
+Line 381: ID = c_entry_count
+Line 381: )
+Line 381: ;
+Line 382: ID = ce
+Line 382: =
+Line 382: ID = kmem_cache_alloc
+Line 382: (
+Line 382: ID = cache
+Line 382: -
+Line 382: >
+Line 382: ID = c_entry_cache
+Line 382: ,
+Line 382: ID = GFP_KERNEL
+Line 382: )
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: ID = ce
+Line 383: )
+Line 383: {
+Line 384: ID = INIT_LIST_HEAD
+Line 384: (
+Line 384: Unrecognized token: 38
+Line 384: ID = ce
+Line 384: -
+Line 384: >
+Line 384: ID = e_lru_list
+Line 384: )
+Line 384: ;
+Line 385: ID = INIT_LIST_HEAD
+Line 385: (
+Line 385: Unrecognized token: 38
+Line 385: ID = ce
+Line 385: -
+Line 385: >
+Line 385: ID = e_block_list
+Line 385: )
+Line 385: ;
+Line 386: ID = ce
+Line 386: -
+Line 386: >
+Line 386: ID = e_cache
+Line 386: =
+Line 386: ID = cache
+Line 386: ;
+Line 387: ID = atomic_set
+Line 387: (
+Line 387: Unrecognized token: 38
+Line 387: ID = ce
+Line 387: -
+Line 387: >
+Line 387: ID = e_used
+Line 387: ,
+Line 387: INTCON = 1
+Line 387: )
+Line 387: ;
+Line 388: }
+Line 389: return
+Line 389: ID = ce
+Line 389: ;
+Line 390: }
+Line 408: int
+Line 409: ID = mb_cache_entry_insert
+Line 409: (
+Line 409: ID = struct
+Line 409: ID = mb_cache_entry
+Line 409: *
+Line 409: ID = ce
+Line 409: ,
+Line 409: ID = struct
+Line 409: ID = block_device
+Line 409: *
+Line 409: ID = bdev
+Line 409: ,
+Line 410: ID = sector_t
+Line 410: ID = block
+Line 410: ,
+Line 410: ID = unsigned
+Line 410: int
+Line 410: ID = keys
+Line 410: [
+Line 410: ]
+Line 410: )
+Line 411: {
+Line 412: ID = struct
+Line 412: ID = mb_cache
+Line 412: *
+Line 412: ID = cache
+Line 412: =
+Line 412: ID = ce
+Line 412: -
+Line 412: >
+Line 412: ID = e_cache
+Line 412: ;
+Line 413: ID = unsigned
+Line 413: int
+Line 413: ID = bucket
+Line 413: ;
+Line 414: ID = struct
+Line 414: ID = list_head
+Line 414: *
+Line 414: ID = l
+Line 414: ;
+Line 415: int
+Line 415: ID = error
+Line 415: =
+Line 415: -
+Line 415: ID = EBUSY
+Line 415: ,
+Line 415: ID = n
+Line 415: ;
+Line 417: ID = bucket
+Line 417: =
+Line 417: ID = hash_long
+Line 417: (
+Line 417: (
+Line 417: ID = unsigned
+Line 417: ID = long
+Line 417: )
+Line 417: ID = bdev
+Line 417: +
+Line 417: (
+Line 417: ID = block
+Line 417: Unrecognized token: 38
+Line 417: INTCON = 0
+Line 417: ID = xffffffff
+Line 417: )
+Line 417: ,
+Line 418: ID = cache
+Line 418: -
+Line 418: >
+Line 418: ID = c_bucket_bits
+Line 418: )
+Line 418: ;
+Line 419: ID = spin_lock
+Line 419: (
+Line 419: Unrecognized token: 38
+Line 419: ID = mb_cache_spinlock
+Line 419: )
+Line 419: ;
+Line 420: ID = list_for_each_prev
+Line 420: (
+Line 420: ID = l
+Line 420: ,
+Line 420: Unrecognized token: 38
+Line 420: ID = cache
+Line 420: -
+Line 420: >
+Line 420: ID = c_block_hash
+Line 420: [
+Line 420: ID = bucket
+Line 420: ]
+Line 420: )
+Line 420: {
+Line 421: ID = struct
+Line 421: ID = mb_cache_entry
+Line 421: *
+Line 421: ID = ce
+Line 421: =
+Line 422: ID = list_entry
+Line 422: (
+Line 422: ID = l
+Line 422: ,
+Line 422: ID = struct
+Line 422: ID = mb_cache_entry
+Line 422: ,
+Line 422: ID = e_block_list
+Line 422: )
+Line 422: ;
+Line 423: if
+Line 423: (
+Line 423: ID = ce
+Line 423: -
+Line 423: >
+Line 423: ID = e_bdev
+Line 423: ==
+Line 423: ID = bdev
+Line 423: &&
+Line 423: ID = ce
+Line 423: -
+Line 423: >
+Line 423: ID = e_block
+Line 423: ==
+Line 423: ID = block
+Line 423: )
+Line 424: ID = goto
+Line 424: ID = out
+Line 424: ;
+Line 425: }
+Line 426: Unrecognized token: 95
+Line 426: Unrecognized token: 95
+Line 426: ID = mb_cache_entry_unhash
+Line 426: (
+Line 426: ID = ce
+Line 426: )
+Line 426: ;
+Line 427: ID = ce
+Line 427: -
+Line 427: >
+Line 427: ID = e_bdev
+Line 427: =
+Line 427: ID = bdev
+Line 427: ;
+Line 428: ID = ce
+Line 428: -
+Line 428: >
+Line 428: ID = e_block
+Line 428: =
+Line 428: ID = block
+Line 428: ;
+Line 429: ID = list_add
+Line 429: (
+Line 429: Unrecognized token: 38
+Line 429: ID = ce
+Line 429: -
+Line 429: >
+Line 429: ID = e_block_list
+Line 429: ,
+Line 429: Unrecognized token: 38
+Line 429: ID = cache
+Line 429: -
+Line 429: >
+Line 429: ID = c_block_hash
+Line 429: [
+Line 429: ID = bucket
+Line 429: ]
+Line 429: )
+Line 429: ;
+Line 430: for
+Line 430: (
+Line 430: ID = n
+Line 430: =
+Line 430: INTCON = 0
+Line 430: ;
+Line 430: ID = n
+Line 430: <
+Line 430: ID = mb_cache_indexes
+Line 430: (
+Line 430: ID = cache
+Line 430: )
+Line 430: ;
+Line 430: ID = n
+Line 430: +
+Line 430: +
+Line 430: )
+Line 430: {
+Line 431: ID = ce
+Line 431: -
+Line 431: >
+Line 431: ID = e_indexes
+Line 431: [
+Line 431: ID = n
+Line 431: ]
+Line 431: Unrecognized token: 46
+Line 431: ID = o_key
+Line 431: =
+Line 431: ID = keys
+Line 431: [
+Line 431: ID = n
+Line 431: ]
+Line 431: ;
+Line 432: ID = bucket
+Line 432: =
+Line 432: ID = hash_long
+Line 432: (
+Line 432: ID = keys
+Line 432: [
+Line 432: ID = n
+Line 432: ]
+Line 432: ,
+Line 432: ID = cache
+Line 432: -
+Line 432: >
+Line 432: ID = c_bucket_bits
+Line 432: )
+Line 432: ;
+Line 433: ID = list_add
+Line 433: (
+Line 433: Unrecognized token: 38
+Line 433: ID = ce
+Line 433: -
+Line 433: >
+Line 433: ID = e_indexes
+Line 433: [
+Line 433: ID = n
+Line 433: ]
+Line 433: Unrecognized token: 46
+Line 433: ID = o_list
+Line 433: ,
+Line 434: Unrecognized token: 38
+Line 434: ID = cache
+Line 434: -
+Line 434: >
+Line 434: ID = c_indexes_hash
+Line 434: [
+Line 434: ID = n
+Line 434: ]
+Line 434: [
+Line 434: ID = bucket
+Line 434: ]
+Line 434: )
+Line 434: ;
+Line 435: }
+Line 436: ID = error
+Line 436: =
+Line 436: INTCON = 0
+Line 436: ;
+Line 437: ID = out
+Line 437: Unrecognized token: 58
+Line 438: ID = spin_unlock
+Line 438: (
+Line 438: Unrecognized token: 38
+Line 438: ID = mb_cache_spinlock
+Line 438: )
+Line 438: ;
+Line 439: return
+Line 439: ID = error
+Line 439: ;
+Line 440: }
+Line 450: void
+Line 451: ID = mb_cache_entry_release
+Line 451: (
+Line 451: ID = struct
+Line 451: ID = mb_cache_entry
+Line 451: *
+Line 451: ID = ce
+Line 451: )
+Line 452: {
+Line 453: ID = spin_lock
+Line 453: (
+Line 453: Unrecognized token: 38
+Line 453: ID = mb_cache_spinlock
+Line 453: )
+Line 453: ;
+Line 454: Unrecognized token: 95
+Line 454: Unrecognized token: 95
+Line 454: ID = mb_cache_entry_release_unlock
+Line 454: (
+Line 454: ID = ce
+Line 454: )
+Line 454: ;
+Line 455: }
+Line 465: void
+Line 466: ID = mb_cache_entry_takeout
+Line 466: (
+Line 466: ID = struct
+Line 466: ID = mb_cache_entry
+Line 466: *
+Line 466: ID = ce
+Line 466: )
+Line 467: {
+Line 468: ID = spin_lock
+Line 468: (
+Line 468: Unrecognized token: 38
+Line 468: ID = mb_cache_spinlock
+Line 468: )
+Line 468: ;
+Line 469: ID = mb_assert
+Line 469: (
+Line 469: ID = list_empty
+Line 469: (
+Line 469: Unrecognized token: 38
+Line 469: ID = ce
+Line 469: -
+Line 469: >
+Line 469: ID = e_lru_list
+Line 469: )
+Line 469: )
+Line 469: ;
+Line 470: Unrecognized token: 95
+Line 470: Unrecognized token: 95
+Line 470: ID = mb_cache_entry_unhash
+Line 470: (
+Line 470: ID = ce
+Line 470: )
+Line 470: ;
+Line 471: ID = spin_unlock
+Line 471: (
+Line 471: Unrecognized token: 38
+Line 471: ID = mb_cache_spinlock
+Line 471: )
+Line 471: ;
+Line 472: }
+Line 481: void
+Line 482: ID = mb_cache_entry_free
+Line 482: (
+Line 482: ID = struct
+Line 482: ID = mb_cache_entry
+Line 482: *
+Line 482: ID = ce
+Line 482: )
+Line 483: {
+Line 484: ID = spin_lock
+Line 484: (
+Line 484: Unrecognized token: 38
+Line 484: ID = mb_cache_spinlock
+Line 484: )
+Line 484: ;
+Line 485: ID = mb_assert
+Line 485: (
+Line 485: ID = list_empty
+Line 485: (
+Line 485: Unrecognized token: 38
+Line 485: ID = ce
+Line 485: -
+Line 485: >
+Line 485: ID = e_lru_list
+Line 485: )
+Line 485: )
+Line 485: ;
+Line 486: Unrecognized token: 95
+Line 486: Unrecognized token: 95
+Line 486: ID = mb_cache_entry_unhash
+Line 486: (
+Line 486: ID = ce
+Line 486: )
+Line 486: ;
+Line 487: Unrecognized token: 95
+Line 487: Unrecognized token: 95
+Line 487: ID = mb_cache_entry_release_unlock
+Line 487: (
+Line 487: ID = ce
+Line 487: )
+Line 487: ;
+Line 488: }
+Line 497: ID = struct
+Line 497: ID = mb_cache_entry
+Line 497: *
+Line 498: ID = mb_cache_entry_dup
+Line 498: (
+Line 498: ID = struct
+Line 498: ID = mb_cache_entry
+Line 498: *
+Line 498: ID = ce
+Line 498: )
+Line 499: {
+Line 500: ID = atomic_inc
+Line 500: (
+Line 500: Unrecognized token: 38
+Line 500: ID = ce
+Line 500: -
+Line 500: >
+Line 500: ID = e_used
+Line 500: )
+Line 500: ;
+Line 501: return
+Line 501: ID = ce
+Line 501: ;
+Line 502: }
+Line 512: ID = struct
+Line 512: ID = mb_cache_entry
+Line 512: *
+Line 513: ID = mb_cache_entry_get
+Line 513: (
+Line 513: ID = struct
+Line 513: ID = mb_cache
+Line 513: *
+Line 513: ID = cache
+Line 513: ,
+Line 513: ID = struct
+Line 513: ID = block_device
+Line 513: *
+Line 513: ID = bdev
+Line 513: ,
+Line 514: ID = sector_t
+Line 514: ID = block
+Line 514: )
+Line 515: {
+Line 516: ID = unsigned
+Line 516: int
+Line 516: ID = bucket
+Line 516: ;
+Line 517: ID = struct
+Line 517: ID = list_head
+Line 517: *
+Line 517: ID = l
+Line 517: ;
+Line 518: ID = struct
+Line 518: ID = mb_cache_entry
+Line 518: *
+Line 518: ID = ce
+Line 518: ;
+Line 520: ID = bucket
+Line 520: =
+Line 520: ID = hash_long
+Line 520: (
+Line 520: (
+Line 520: ID = unsigned
+Line 520: ID = long
+Line 520: )
+Line 520: ID = bdev
+Line 520: +
+Line 520: (
+Line 520: ID = block
+Line 520: Unrecognized token: 38
+Line 520: INTCON = 0
+Line 520: ID = xffffffff
+Line 520: )
+Line 520: ,
+Line 521: ID = cache
+Line 521: -
+Line 521: >
+Line 521: ID = c_bucket_bits
+Line 521: )
+Line 521: ;
+Line 522: ID = spin_lock
+Line 522: (
+Line 522: Unrecognized token: 38
+Line 522: ID = mb_cache_spinlock
+Line 522: )
+Line 522: ;
+Line 523: ID = list_for_each
+Line 523: (
+Line 523: ID = l
+Line 523: ,
+Line 523: Unrecognized token: 38
+Line 523: ID = cache
+Line 523: -
+Line 523: >
+Line 523: ID = c_block_hash
+Line 523: [
+Line 523: ID = bucket
+Line 523: ]
+Line 523: )
+Line 523: {
+Line 524: ID = ce
+Line 524: =
+Line 524: ID = list_entry
+Line 524: (
+Line 524: ID = l
+Line 524: ,
+Line 524: ID = struct
+Line 524: ID = mb_cache_entry
+Line 524: ,
+Line 524: ID = e_block_list
+Line 524: )
+Line 524: ;
+Line 525: if
+Line 525: (
+Line 525: ID = ce
+Line 525: -
+Line 525: >
+Line 525: ID = e_bdev
+Line 525: ==
+Line 525: ID = bdev
+Line 525: &&
+Line 525: ID = ce
+Line 525: -
+Line 525: >
+Line 525: ID = e_block
+Line 525: ==
+Line 525: ID = block
+Line 525: )
+Line 525: {
+Line 526: if
+Line 526: (
+Line 526: !
+Line 526: ID = list_empty
+Line 526: (
+Line 526: Unrecognized token: 38
+Line 526: ID = ce
+Line 526: -
+Line 526: >
+Line 526: ID = e_lru_list
+Line 526: )
+Line 526: )
+Line 527: ID = list_del_init
+Line 527: (
+Line 527: Unrecognized token: 38
+Line 527: ID = ce
+Line 527: -
+Line 527: >
+Line 527: ID = e_lru_list
+Line 527: )
+Line 527: ;
+Line 528: ID = atomic_inc
+Line 528: (
+Line 528: Unrecognized token: 38
+Line 528: ID = ce
+Line 528: -
+Line 528: >
+Line 528: ID = e_used
+Line 528: )
+Line 528: ;
+Line 529: ID = goto
+Line 529: ID = cleanup
+Line 529: ;
+Line 530: }
+Line 531: }
+Line 532: ID = ce
+Line 532: =
+Line 532: ID = NULL
+Line 532: ;
+Line 534: ID = cleanup
+Line 534: Unrecognized token: 58
+Line 535: ID = spin_unlock
+Line 535: (
+Line 535: Unrecognized token: 38
+Line 535: ID = mb_cache_spinlock
+Line 535: )
+Line 535: ;
+Line 536: return
+Line 536: ID = ce
+Line 536: ;
+Line 537: }
+Line 539: Unrecognized token: 35
+Line 539: if
+Line 539: !
+Line 539: ID = defined
+Line 539: (
+Line 539: ID = MB_CACHE_INDEXES_COUNT
+Line 539: )
+Line 539: ||
+Line 539: (
+Line 539: ID = MB_CACHE_INDEXES_COUNT
+Line 539: >
+Line 539: INTCON = 0
+Line 539: )
+Line 541: ID = static
+Line 541: ID = struct
+Line 541: ID = mb_cache_entry
+Line 541: *
+Line 542: Unrecognized token: 95
+Line 542: Unrecognized token: 95
+Line 542: ID = mb_cache_entry_find
+Line 542: (
+Line 542: ID = struct
+Line 542: ID = list_head
+Line 542: *
+Line 542: ID = l
+Line 542: ,
+Line 542: ID = struct
+Line 542: ID = list_head
+Line 542: *
+Line 542: ID = head
+Line 542: ,
+Line 543: int
+Line 543: ID = index
+Line 543: ,
+Line 543: ID = struct
+Line 543: ID = block_device
+Line 543: *
+Line 543: ID = bdev
+Line 543: ,
+Line 543: ID = unsigned
+Line 543: int
+Line 543: ID = key
+Line 543: )
+Line 544: {
+Line 545: while
+Line 545: (
+Line 545: ID = l
+Line 545: !=
+Line 545: ID = head
+Line 545: )
+Line 545: {
+Line 546: ID = struct
+Line 546: ID = mb_cache_entry
+Line 546: *
+Line 546: ID = ce
+Line 546: =
+Line 547: ID = list_entry
+Line 547: (
+Line 547: ID = l
+Line 547: ,
+Line 547: ID = struct
+Line 547: ID = mb_cache_entry
+Line 547: ,
+Line 548: ID = e_indexes
+Line 548: [
+Line 548: ID = index
+Line 548: ]
+Line 548: Unrecognized token: 46
+Line 548: ID = o_list
+Line 548: )
+Line 548: ;
+Line 549: if
+Line 549: (
+Line 549: ID = ce
+Line 549: -
+Line 549: >
+Line 549: ID = e_bdev
+Line 549: ==
+Line 549: ID = bdev
+Line 549: &&
+Line 549: ID = ce
+Line 549: -
+Line 549: >
+Line 549: ID = e_indexes
+Line 549: [
+Line 549: ID = index
+Line 549: ]
+Line 549: Unrecognized token: 46
+Line 549: ID = o_key
+Line 549: ==
+Line 549: ID = key
+Line 549: )
+Line 549: {
+Line 550: if
+Line 550: (
+Line 550: !
+Line 550: ID = list_empty
+Line 550: (
+Line 550: Unrecognized token: 38
+Line 550: ID = ce
+Line 550: -
+Line 550: >
+Line 550: ID = e_lru_list
+Line 550: )
+Line 550: )
+Line 551: ID = list_del_init
+Line 551: (
+Line 551: Unrecognized token: 38
+Line 551: ID = ce
+Line 551: -
+Line 551: >
+Line 551: ID = e_lru_list
+Line 551: )
+Line 551: ;
+Line 552: ID = atomic_inc
+Line 552: (
+Line 552: Unrecognized token: 38
+Line 552: ID = ce
+Line 552: -
+Line 552: >
+Line 552: ID = e_used
+Line 552: )
+Line 552: ;
+Line 553: return
+Line 553: ID = ce
+Line 553: ;
+Line 554: }
+Line 555: ID = l
+Line 555: =
+Line 555: ID = l
+Line 555: -
+Line 555: >
+Line 555: ID = next
+Line 555: ;
+Line 556: }
+Line 557: return
+Line 557: ID = NULL
+Line 557: ;
+Line 558: }
+Line 573: ID = struct
+Line 573: ID = mb_cache_entry
+Line 573: *
+Line 574: ID = mb_cache_entry_find_first
+Line 574: (
+Line 574: ID = struct
+Line 574: ID = mb_cache
+Line 574: *
+Line 574: ID = cache
+Line 574: ,
+Line 574: int
+Line 574: ID = index
+Line 574: ,
+Line 575: ID = struct
+Line 575: ID = block_device
+Line 575: *
+Line 575: ID = bdev
+Line 575: ,
+Line 575: ID = unsigned
+Line 575: int
+Line 575: ID = key
+Line 575: )
+Line 576: {
+Line 577: ID = unsigned
+Line 577: int
+Line 577: ID = bucket
+Line 577: =
+Line 577: ID = hash_long
+Line 577: (
+Line 577: ID = key
+Line 577: ,
+Line 577: ID = cache
+Line 577: -
+Line 577: >
+Line 577: ID = c_bucket_bits
+Line 577: )
+Line 577: ;
+Line 578: ID = struct
+Line 578: ID = list_head
+Line 578: *
+Line 578: ID = l
+Line 578: ;
+Line 579: ID = struct
+Line 579: ID = mb_cache_entry
+Line 579: *
+Line 579: ID = ce
+Line 579: ;
+Line 581: ID = mb_assert
+Line 581: (
+Line 581: ID = index
+Line 581: <
+Line 581: ID = mb_cache_indexes
+Line 581: (
+Line 581: ID = cache
+Line 581: )
+Line 581: )
+Line 581: ;
+Line 582: ID = spin_lock
+Line 582: (
+Line 582: Unrecognized token: 38
+Line 582: ID = mb_cache_spinlock
+Line 582: )
+Line 582: ;
+Line 583: ID = l
+Line 583: =
+Line 583: ID = cache
+Line 583: -
+Line 583: >
+Line 583: ID = c_indexes_hash
+Line 583: [
+Line 583: ID = index
+Line 583: ]
+Line 583: [
+Line 583: ID = bucket
+Line 583: ]
+Line 583: Unrecognized token: 46
+Line 583: ID = next
+Line 583: ;
+Line 584: ID = ce
+Line 584: =
+Line 584: Unrecognized token: 95
+Line 584: Unrecognized token: 95
+Line 584: ID = mb_cache_entry_find
+Line 584: (
+Line 584: ID = l
+Line 584: ,
+Line 584: Unrecognized token: 38
+Line 584: ID = cache
+Line 584: -
+Line 584: >
+Line 584: ID = c_indexes_hash
+Line 584: [
+Line 584: ID = index
+Line 584: ]
+Line 584: [
+Line 584: ID = bucket
+Line 584: ]
+Line 584: ,
+Line 585: ID = index
+Line 585: ,
+Line 585: ID = bdev
+Line 585: ,
+Line 585: ID = key
+Line 585: )
+Line 585: ;
+Line 586: ID = spin_unlock
+Line 586: (
+Line 586: Unrecognized token: 38
+Line 586: ID = mb_cache_spinlock
+Line 586: )
+Line 586: ;
+Line 587: return
+Line 587: ID = ce
+Line 587: ;
+Line 588: }
+Line 610: ID = struct
+Line 610: ID = mb_cache_entry
+Line 610: *
+Line 611: ID = mb_cache_entry_find_next
+Line 611: (
+Line 611: ID = struct
+Line 611: ID = mb_cache_entry
+Line 611: *
+Line 611: ID = prev
+Line 611: ,
+Line 611: int
+Line 611: ID = index
+Line 611: ,
+Line 612: ID = struct
+Line 612: ID = block_device
+Line 612: *
+Line 612: ID = bdev
+Line 612: ,
+Line 612: ID = unsigned
+Line 612: int
+Line 612: ID = key
+Line 612: )
+Line 613: {
+Line 614: ID = struct
+Line 614: ID = mb_cache
+Line 614: *
+Line 614: ID = cache
+Line 614: =
+Line 614: ID = prev
+Line 614: -
+Line 614: >
+Line 614: ID = e_cache
+Line 614: ;
+Line 615: ID = unsigned
+Line 615: int
+Line 615: ID = bucket
+Line 615: =
+Line 615: ID = hash_long
+Line 615: (
+Line 615: ID = key
+Line 615: ,
+Line 615: ID = cache
+Line 615: -
+Line 615: >
+Line 615: ID = c_bucket_bits
+Line 615: )
+Line 615: ;
+Line 616: ID = struct
+Line 616: ID = list_head
+Line 616: *
+Line 616: ID = l
+Line 616: ;
+Line 617: ID = struct
+Line 617: ID = mb_cache_entry
+Line 617: *
+Line 617: ID = ce
+Line 617: ;
+Line 619: ID = mb_assert
+Line 619: (
+Line 619: ID = index
+Line 619: <
+Line 619: ID = mb_cache_indexes
+Line 619: (
+Line 619: ID = cache
+Line 619: )
+Line 619: )
+Line 619: ;
+Line 620: ID = spin_lock
+Line 620: (
+Line 620: Unrecognized token: 38
+Line 620: ID = mb_cache_spinlock
+Line 620: )
+Line 620: ;
+Line 621: ID = l
+Line 621: =
+Line 621: ID = prev
+Line 621: -
+Line 621: >
+Line 621: ID = e_indexes
+Line 621: [
+Line 621: ID = index
+Line 621: ]
+Line 621: Unrecognized token: 46
+Line 621: ID = o_list
+Line 621: Unrecognized token: 46
+Line 621: ID = next
+Line 621: ;
+Line 622: ID = ce
+Line 622: =
+Line 622: Unrecognized token: 95
+Line 622: Unrecognized token: 95
+Line 622: ID = mb_cache_entry_find
+Line 622: (
+Line 622: ID = l
+Line 622: ,
+Line 622: Unrecognized token: 38
+Line 622: ID = cache
+Line 622: -
+Line 622: >
+Line 622: ID = c_indexes_hash
+Line 622: [
+Line 622: ID = index
+Line 622: ]
+Line 622: [
+Line 622: ID = bucket
+Line 622: ]
+Line 622: ,
+Line 623: ID = index
+Line 623: ,
+Line 623: ID = bdev
+Line 623: ,
+Line 623: ID = key
+Line 623: )
+Line 623: ;
+Line 624: Unrecognized token: 95
+Line 624: Unrecognized token: 95
+Line 624: ID = mb_cache_entry_release_unlock
+Line 624: (
+Line 624: ID = prev
+Line 624: )
+Line 624: ;
+Line 625: return
+Line 625: ID = ce
+Line 625: ;
+Line 626: }
+Line 628: Unrecognized token: 35
+Line 628: ID = endif
+Line 630: ID = static
+Line 630: int
+Line 630: Unrecognized token: 95
+Line 630: Unrecognized token: 95
+Line 630: ID = init
+Line 630: ID = init_mbcache
+Line 630: (
+Line 630: void
+Line 630: )
+Line 631: {
+Line 632: ID = mb_shrinker
+Line 632: =
+Line 632: ID = set_shrinker
+Line 632: (
+Line 632: ID = DEFAULT_SEEKS
+Line 632: ,
+Line 632: ID = mb_cache_shrink_fn
+Line 632: )
+Line 632: ;
+Line 633: return
+Line 633: INTCON = 0
+Line 633: ;
+Line 634: }
+Line 636: ID = static
+Line 636: void
+Line 636: Unrecognized token: 95
+Line 636: Unrecognized token: 95
+Line 636: ID = exit
+Line 636: ID = exit_mbcache
+Line 636: (
+Line 636: void
+Line 636: )
+Line 637: {
+Line 638: ID = remove_shrinker
+Line 638: (
+Line 638: ID = mb_shrinker
+Line 638: )
+Line 638: ;
+Line 639: }
+Line 641: ID = module_init
+Line 641: (
+Line 641: ID = init_mbcache
+Line 641: )
+Line 642: ID = module_exit
+Line 642: (
+Line 642: ID = exit_mbcache
+Line 642: )
+Line 644: -EOF-

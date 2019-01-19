@@ -1,0 +1,3005 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = init
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = mm
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = fs
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = file
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = dnotify
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = smp_lock
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = slab
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = module
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = security
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = ptrace
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = asm
+Line 18: /
+Line 18: ID = poll
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = asm
+Line 19: /
+Line 19: ID = siginfo
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = asm
+Line 20: /
+Line 20: ID = uaccess
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 22: void
+Line 22: ID = fastcall
+Line 22: ID = set_close_on_exec
+Line 22: (
+Line 22: ID = unsigned
+Line 22: int
+Line 22: ID = fd
+Line 22: ,
+Line 22: int
+Line 22: ID = flag
+Line 22: )
+Line 23: {
+Line 24: ID = struct
+Line 24: ID = files_struct
+Line 24: *
+Line 24: ID = files
+Line 24: =
+Line 24: ID = current
+Line 24: -
+Line 24: >
+Line 24: ID = files
+Line 24: ;
+Line 25: ID = spin_lock
+Line 25: (
+Line 25: Unrecognized token: 38
+Line 25: ID = files
+Line 25: -
+Line 25: >
+Line 25: ID = file_lock
+Line 25: )
+Line 25: ;
+Line 26: if
+Line 26: (
+Line 26: ID = flag
+Line 26: )
+Line 27: ID = FD_SET
+Line 27: (
+Line 27: ID = fd
+Line 27: ,
+Line 27: ID = files
+Line 27: -
+Line 27: >
+Line 27: ID = close_on_exec
+Line 27: )
+Line 27: ;
+Line 28: else
+Line 29: ID = FD_CLR
+Line 29: (
+Line 29: ID = fd
+Line 29: ,
+Line 29: ID = files
+Line 29: -
+Line 29: >
+Line 29: ID = close_on_exec
+Line 29: )
+Line 29: ;
+Line 30: ID = spin_unlock
+Line 30: (
+Line 30: Unrecognized token: 38
+Line 30: ID = files
+Line 30: -
+Line 30: >
+Line 30: ID = file_lock
+Line 30: )
+Line 30: ;
+Line 31: }
+Line 33: ID = static
+Line 33: ID = inline
+Line 33: int
+Line 33: ID = get_close_on_exec
+Line 33: (
+Line 33: ID = unsigned
+Line 33: int
+Line 33: ID = fd
+Line 33: )
+Line 34: {
+Line 35: ID = struct
+Line 35: ID = files_struct
+Line 35: *
+Line 35: ID = files
+Line 35: =
+Line 35: ID = current
+Line 35: -
+Line 35: >
+Line 35: ID = files
+Line 35: ;
+Line 36: int
+Line 36: ID = res
+Line 36: ;
+Line 37: ID = spin_lock
+Line 37: (
+Line 37: Unrecognized token: 38
+Line 37: ID = files
+Line 37: -
+Line 37: >
+Line 37: ID = file_lock
+Line 37: )
+Line 37: ;
+Line 38: ID = res
+Line 38: =
+Line 38: ID = FD_ISSET
+Line 38: (
+Line 38: ID = fd
+Line 38: ,
+Line 38: ID = files
+Line 38: -
+Line 38: >
+Line 38: ID = close_on_exec
+Line 38: )
+Line 38: ;
+Line 39: ID = spin_unlock
+Line 39: (
+Line 39: Unrecognized token: 38
+Line 39: ID = files
+Line 39: -
+Line 39: >
+Line 39: ID = file_lock
+Line 39: )
+Line 39: ;
+Line 40: return
+Line 40: ID = res
+Line 40: ;
+Line 41: }
+Line 49: ID = static
+Line 49: int
+Line 49: ID = expand_files
+Line 49: (
+Line 49: ID = struct
+Line 49: ID = files_struct
+Line 49: *
+Line 49: ID = files
+Line 49: ,
+Line 49: int
+Line 49: ID = nr
+Line 49: )
+Line 50: {
+Line 51: int
+Line 51: ID = err
+Line 51: ,
+Line 51: ID = expand
+Line 51: =
+Line 51: INTCON = 0
+Line 51: ;
+Line 52: Unrecognized token: 35
+Line 52: ID = ifdef
+Line 52: ID = FDSET_DEBUG
+Line 53: ID = printk
+Line 53: (
+Line 53: ID = KERN_ERR
+Line 53: STRINGCON = "%s %d: nr = %d\n"
+Line 53: ,
+Line 53: Unrecognized token: 95
+Line 53: Unrecognized token: 95
+Line 53: ID = FUNCTION__
+Line 53: ,
+Line 53: ID = current
+Line 53: -
+Line 53: >
+Line 53: ID = pid
+Line 53: ,
+Line 53: ID = nr
+Line 53: )
+Line 53: ;
+Line 54: Unrecognized token: 35
+Line 54: ID = endif
+Line 56: if
+Line 56: (
+Line 56: ID = nr
+Line 56: >=
+Line 56: ID = files
+Line 56: -
+Line 56: >
+Line 56: ID = max_fdset
+Line 56: )
+Line 56: {
+Line 57: ID = expand
+Line 57: =
+Line 57: INTCON = 1
+Line 57: ;
+Line 58: if
+Line 58: (
+Line 58: (
+Line 58: ID = err
+Line 58: =
+Line 58: ID = expand_fdset
+Line 58: (
+Line 58: ID = files
+Line 58: ,
+Line 58: ID = nr
+Line 58: )
+Line 58: )
+Line 58: )
+Line 59: ID = goto
+Line 59: ID = out
+Line 59: ;
+Line 60: }
+Line 61: if
+Line 61: (
+Line 61: ID = nr
+Line 61: >=
+Line 61: ID = files
+Line 61: -
+Line 61: >
+Line 61: ID = max_fds
+Line 61: )
+Line 61: {
+Line 62: ID = expand
+Line 62: =
+Line 62: INTCON = 1
+Line 62: ;
+Line 63: if
+Line 63: (
+Line 63: (
+Line 63: ID = err
+Line 63: =
+Line 63: ID = expand_fd_array
+Line 63: (
+Line 63: ID = files
+Line 63: ,
+Line 63: ID = nr
+Line 63: )
+Line 63: )
+Line 63: )
+Line 64: ID = goto
+Line 64: ID = out
+Line 64: ;
+Line 65: }
+Line 66: ID = err
+Line 66: =
+Line 66: ID = expand
+Line 66: ;
+Line 67: ID = out
+Line 67: Unrecognized token: 58
+Line 68: Unrecognized token: 35
+Line 68: ID = ifdef
+Line 68: ID = FDSET_DEBUG
+Line 69: if
+Line 69: (
+Line 69: ID = err
+Line 69: )
+Line 70: ID = printk
+Line 70: (
+Line 70: ID = KERN_ERR
+Line 70: STRINGCON = "%s %d: return %d\n"
+Line 70: ,
+Line 70: Unrecognized token: 95
+Line 70: Unrecognized token: 95
+Line 70: ID = FUNCTION__
+Line 70: ,
+Line 70: ID = current
+Line 70: -
+Line 70: >
+Line 70: ID = pid
+Line 70: ,
+Line 70: ID = err
+Line 70: )
+Line 70: ;
+Line 71: Unrecognized token: 35
+Line 71: ID = endif
+Line 72: return
+Line 72: ID = err
+Line 72: ;
+Line 73: }
+Line 81: ID = static
+Line 81: int
+Line 81: ID = locate_fd
+Line 81: (
+Line 81: ID = struct
+Line 81: ID = files_struct
+Line 81: *
+Line 81: ID = files
+Line 81: ,
+Line 82: ID = struct
+Line 82: ID = file
+Line 82: *
+Line 82: ID = file
+Line 82: ,
+Line 82: ID = unsigned
+Line 82: int
+Line 82: ID = orig_start
+Line 82: )
+Line 83: {
+Line 84: ID = unsigned
+Line 84: int
+Line 84: ID = newfd
+Line 84: ;
+Line 85: ID = unsigned
+Line 85: int
+Line 85: ID = start
+Line 85: ;
+Line 86: int
+Line 86: ID = error
+Line 86: ;
+Line 88: ID = error
+Line 88: =
+Line 88: -
+Line 88: ID = EINVAL
+Line 88: ;
+Line 89: if
+Line 89: (
+Line 89: ID = orig_start
+Line 89: >=
+Line 89: ID = current
+Line 89: -
+Line 89: >
+Line 89: ID = rlim
+Line 89: [
+Line 89: ID = RLIMIT_NOFILE
+Line 89: ]
+Line 89: Unrecognized token: 46
+Line 89: ID = rlim_cur
+Line 89: )
+Line 90: ID = goto
+Line 90: ID = out
+Line 90: ;
+Line 92: ID = repeat
+Line 92: Unrecognized token: 58
+Line 97: ID = start
+Line 97: =
+Line 97: ID = orig_start
+Line 97: ;
+Line 98: if
+Line 98: (
+Line 98: ID = start
+Line 98: <
+Line 98: ID = files
+Line 98: -
+Line 98: >
+Line 98: ID = next_fd
+Line 98: )
+Line 99: ID = start
+Line 99: =
+Line 99: ID = files
+Line 99: -
+Line 99: >
+Line 99: ID = next_fd
+Line 99: ;
+Line 101: ID = newfd
+Line 101: =
+Line 101: ID = start
+Line 101: ;
+Line 102: if
+Line 102: (
+Line 102: ID = start
+Line 102: <
+Line 102: ID = files
+Line 102: -
+Line 102: >
+Line 102: ID = max_fdset
+Line 102: )
+Line 102: {
+Line 103: ID = newfd
+Line 103: =
+Line 103: ID = find_next_zero_bit
+Line 103: (
+Line 103: ID = files
+Line 103: -
+Line 103: >
+Line 103: ID = open_fds
+Line 103: -
+Line 103: >
+Line 103: ID = fds_bits
+Line 103: ,
+Line 104: ID = files
+Line 104: -
+Line 104: >
+Line 104: ID = max_fdset
+Line 104: ,
+Line 104: ID = start
+Line 104: )
+Line 104: ;
+Line 105: }
+Line 107: ID = error
+Line 107: =
+Line 107: -
+Line 107: ID = EMFILE
+Line 107: ;
+Line 108: if
+Line 108: (
+Line 108: ID = newfd
+Line 108: >=
+Line 108: ID = current
+Line 108: -
+Line 108: >
+Line 108: ID = rlim
+Line 108: [
+Line 108: ID = RLIMIT_NOFILE
+Line 108: ]
+Line 108: Unrecognized token: 46
+Line 108: ID = rlim_cur
+Line 108: )
+Line 109: ID = goto
+Line 109: ID = out
+Line 109: ;
+Line 111: ID = error
+Line 111: =
+Line 111: ID = expand_files
+Line 111: (
+Line 111: ID = files
+Line 111: ,
+Line 111: ID = newfd
+Line 111: )
+Line 111: ;
+Line 112: if
+Line 112: (
+Line 112: ID = error
+Line 112: <
+Line 112: INTCON = 0
+Line 112: )
+Line 113: ID = goto
+Line 113: ID = out
+Line 113: ;
+Line 119: if
+Line 119: (
+Line 119: ID = error
+Line 119: )
+Line 120: ID = goto
+Line 120: ID = repeat
+Line 120: ;
+Line 122: if
+Line 122: (
+Line 122: ID = start
+Line 122: <=
+Line 122: ID = files
+Line 122: -
+Line 122: >
+Line 122: ID = next_fd
+Line 122: )
+Line 123: ID = files
+Line 123: -
+Line 123: >
+Line 123: ID = next_fd
+Line 123: =
+Line 123: ID = newfd
+Line 123: +
+Line 123: INTCON = 1
+Line 123: ;
+Line 125: ID = error
+Line 125: =
+Line 125: ID = newfd
+Line 125: ;
+Line 127: ID = out
+Line 127: Unrecognized token: 58
+Line 128: return
+Line 128: ID = error
+Line 128: ;
+Line 129: }
+Line 131: ID = static
+Line 131: int
+Line 131: ID = dupfd
+Line 131: (
+Line 131: ID = struct
+Line 131: ID = file
+Line 131: *
+Line 131: ID = file
+Line 131: ,
+Line 131: ID = unsigned
+Line 131: int
+Line 131: ID = start
+Line 131: )
+Line 132: {
+Line 133: ID = struct
+Line 133: ID = files_struct
+Line 133: *
+Line 133: ID = files
+Line 133: =
+Line 133: ID = current
+Line 133: -
+Line 133: >
+Line 133: ID = files
+Line 133: ;
+Line 134: int
+Line 134: ID = fd
+Line 134: ;
+Line 136: ID = spin_lock
+Line 136: (
+Line 136: Unrecognized token: 38
+Line 136: ID = files
+Line 136: -
+Line 136: >
+Line 136: ID = file_lock
+Line 136: )
+Line 136: ;
+Line 137: ID = fd
+Line 137: =
+Line 137: ID = locate_fd
+Line 137: (
+Line 137: ID = files
+Line 137: ,
+Line 137: ID = file
+Line 137: ,
+Line 137: ID = start
+Line 137: )
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = fd
+Line 138: >=
+Line 138: INTCON = 0
+Line 138: )
+Line 138: {
+Line 139: ID = FD_SET
+Line 139: (
+Line 139: ID = fd
+Line 139: ,
+Line 139: ID = files
+Line 139: -
+Line 139: >
+Line 139: ID = open_fds
+Line 139: )
+Line 139: ;
+Line 140: ID = FD_CLR
+Line 140: (
+Line 140: ID = fd
+Line 140: ,
+Line 140: ID = files
+Line 140: -
+Line 140: >
+Line 140: ID = close_on_exec
+Line 140: )
+Line 140: ;
+Line 141: ID = spin_unlock
+Line 141: (
+Line 141: Unrecognized token: 38
+Line 141: ID = files
+Line 141: -
+Line 141: >
+Line 141: ID = file_lock
+Line 141: )
+Line 141: ;
+Line 142: ID = fd_install
+Line 142: (
+Line 142: ID = fd
+Line 142: ,
+Line 142: ID = file
+Line 142: )
+Line 142: ;
+Line 143: }
+Line 143: else
+Line 143: {
+Line 144: ID = spin_unlock
+Line 144: (
+Line 144: Unrecognized token: 38
+Line 144: ID = files
+Line 144: -
+Line 144: >
+Line 144: ID = file_lock
+Line 144: )
+Line 144: ;
+Line 145: ID = fput
+Line 145: (
+Line 145: ID = file
+Line 145: )
+Line 145: ;
+Line 146: }
+Line 148: return
+Line 148: ID = fd
+Line 148: ;
+Line 149: }
+Line 151: ID = asmlinkage
+Line 151: ID = long
+Line 151: ID = sys_dup2
+Line 151: (
+Line 151: ID = unsigned
+Line 151: int
+Line 151: ID = oldfd
+Line 151: ,
+Line 151: ID = unsigned
+Line 151: int
+Line 151: ID = newfd
+Line 151: )
+Line 152: {
+Line 153: int
+Line 153: ID = err
+Line 153: =
+Line 153: -
+Line 153: ID = EBADF
+Line 153: ;
+Line 154: ID = struct
+Line 154: ID = file
+Line 154: *
+Line 154: ID = file
+Line 154: ,
+Line 154: *
+Line 154: ID = tofree
+Line 154: ;
+Line 155: ID = struct
+Line 155: ID = files_struct
+Line 155: *
+Line 155: ID = files
+Line 155: =
+Line 155: ID = current
+Line 155: -
+Line 155: >
+Line 155: ID = files
+Line 155: ;
+Line 157: ID = spin_lock
+Line 157: (
+Line 157: Unrecognized token: 38
+Line 157: ID = files
+Line 157: -
+Line 157: >
+Line 157: ID = file_lock
+Line 157: )
+Line 157: ;
+Line 158: if
+Line 158: (
+Line 158: !
+Line 158: (
+Line 158: ID = file
+Line 158: =
+Line 158: ID = fcheck
+Line 158: (
+Line 158: ID = oldfd
+Line 158: )
+Line 158: )
+Line 158: )
+Line 159: ID = goto
+Line 159: ID = out_unlock
+Line 159: ;
+Line 160: ID = err
+Line 160: =
+Line 160: ID = newfd
+Line 160: ;
+Line 161: if
+Line 161: (
+Line 161: ID = newfd
+Line 161: ==
+Line 161: ID = oldfd
+Line 161: )
+Line 162: ID = goto
+Line 162: ID = out_unlock
+Line 162: ;
+Line 163: ID = err
+Line 163: =
+Line 163: -
+Line 163: ID = EBADF
+Line 163: ;
+Line 164: if
+Line 164: (
+Line 164: ID = newfd
+Line 164: >=
+Line 164: ID = current
+Line 164: -
+Line 164: >
+Line 164: ID = rlim
+Line 164: [
+Line 164: ID = RLIMIT_NOFILE
+Line 164: ]
+Line 164: Unrecognized token: 46
+Line 164: ID = rlim_cur
+Line 164: )
+Line 165: ID = goto
+Line 165: ID = out_unlock
+Line 165: ;
+Line 166: ID = get_file
+Line 166: (
+Line 166: ID = file
+Line 166: )
+Line 166: ;
+Line 168: ID = err
+Line 168: =
+Line 168: ID = expand_files
+Line 168: (
+Line 168: ID = files
+Line 168: ,
+Line 168: ID = newfd
+Line 168: )
+Line 168: ;
+Line 169: if
+Line 169: (
+Line 169: ID = err
+Line 169: <
+Line 169: INTCON = 0
+Line 169: )
+Line 170: ID = goto
+Line 170: ID = out_fput
+Line 170: ;
+Line 180: ID = err
+Line 180: =
+Line 180: -
+Line 180: ID = EBUSY
+Line 180: ;
+Line 181: ID = tofree
+Line 181: =
+Line 181: ID = files
+Line 181: -
+Line 181: >
+Line 181: ID = fd
+Line 181: [
+Line 181: ID = newfd
+Line 181: ]
+Line 181: ;
+Line 182: if
+Line 182: (
+Line 182: !
+Line 182: ID = tofree
+Line 182: &&
+Line 182: ID = FD_ISSET
+Line 182: (
+Line 182: ID = newfd
+Line 182: ,
+Line 182: ID = files
+Line 182: -
+Line 182: >
+Line 182: ID = open_fds
+Line 182: )
+Line 182: )
+Line 183: ID = goto
+Line 183: ID = out_fput
+Line 183: ;
+Line 185: ID = files
+Line 185: -
+Line 185: >
+Line 185: ID = fd
+Line 185: [
+Line 185: ID = newfd
+Line 185: ]
+Line 185: =
+Line 185: ID = file
+Line 185: ;
+Line 186: ID = FD_SET
+Line 186: (
+Line 186: ID = newfd
+Line 186: ,
+Line 186: ID = files
+Line 186: -
+Line 186: >
+Line 186: ID = open_fds
+Line 186: )
+Line 186: ;
+Line 187: ID = FD_CLR
+Line 187: (
+Line 187: ID = newfd
+Line 187: ,
+Line 187: ID = files
+Line 187: -
+Line 187: >
+Line 187: ID = close_on_exec
+Line 187: )
+Line 187: ;
+Line 188: ID = spin_unlock
+Line 188: (
+Line 188: Unrecognized token: 38
+Line 188: ID = files
+Line 188: -
+Line 188: >
+Line 188: ID = file_lock
+Line 188: )
+Line 188: ;
+Line 190: if
+Line 190: (
+Line 190: ID = tofree
+Line 190: )
+Line 191: ID = filp_close
+Line 191: (
+Line 191: ID = tofree
+Line 191: ,
+Line 191: ID = files
+Line 191: )
+Line 191: ;
+Line 192: ID = err
+Line 192: =
+Line 192: ID = newfd
+Line 192: ;
+Line 193: ID = out
+Line 193: Unrecognized token: 58
+Line 194: return
+Line 194: ID = err
+Line 194: ;
+Line 195: ID = out_unlock
+Line 195: Unrecognized token: 58
+Line 196: ID = spin_unlock
+Line 196: (
+Line 196: Unrecognized token: 38
+Line 196: ID = files
+Line 196: -
+Line 196: >
+Line 196: ID = file_lock
+Line 196: )
+Line 196: ;
+Line 197: ID = goto
+Line 197: ID = out
+Line 197: ;
+Line 199: ID = out_fput
+Line 199: Unrecognized token: 58
+Line 200: ID = spin_unlock
+Line 200: (
+Line 200: Unrecognized token: 38
+Line 200: ID = files
+Line 200: -
+Line 200: >
+Line 200: ID = file_lock
+Line 200: )
+Line 200: ;
+Line 201: ID = fput
+Line 201: (
+Line 201: ID = file
+Line 201: )
+Line 201: ;
+Line 202: ID = goto
+Line 202: ID = out
+Line 202: ;
+Line 203: }
+Line 205: ID = asmlinkage
+Line 205: ID = long
+Line 205: ID = sys_dup
+Line 205: (
+Line 205: ID = unsigned
+Line 205: int
+Line 205: ID = fildes
+Line 205: )
+Line 206: {
+Line 207: int
+Line 207: ID = ret
+Line 207: =
+Line 207: -
+Line 207: ID = EBADF
+Line 207: ;
+Line 208: ID = struct
+Line 208: ID = file
+Line 208: *
+Line 208: ID = file
+Line 208: =
+Line 208: ID = fget
+Line 208: (
+Line 208: ID = fildes
+Line 208: )
+Line 208: ;
+Line 210: if
+Line 210: (
+Line 210: ID = file
+Line 210: )
+Line 211: ID = ret
+Line 211: =
+Line 211: ID = dupfd
+Line 211: (
+Line 211: ID = file
+Line 211: ,
+Line 211: INTCON = 0
+Line 211: )
+Line 211: ;
+Line 212: return
+Line 212: ID = ret
+Line 212: ;
+Line 213: }
+Line 215: Unrecognized token: 35
+Line 215: ID = define
+Line 215: ID = SETFL_MASK
+Line 215: (
+Line 215: ID = O_APPEND
+Line 215: Unrecognized token: 124
+Line 215: ID = O_NONBLOCK
+Line 215: Unrecognized token: 124
+Line 215: ID = O_NDELAY
+Line 215: Unrecognized token: 124
+Line 215: ID = FASYNC
+Line 215: Unrecognized token: 124
+Line 215: ID = O_DIRECT
+Line 215: Unrecognized token: 124
+Line 215: ID = O_NOATIME
+Line 215: )
+Line 217: ID = static
+Line 217: int
+Line 217: ID = setfl
+Line 217: (
+Line 217: int
+Line 217: ID = fd
+Line 217: ,
+Line 217: ID = struct
+Line 217: ID = file
+Line 217: *
+Line 217: ID = filp
+Line 217: ,
+Line 217: ID = unsigned
+Line 217: ID = long
+Line 217: ID = arg
+Line 217: )
+Line 218: {
+Line 219: ID = struct
+Line 219: ID = inode
+Line 219: *
+Line 219: ID = inode
+Line 219: =
+Line 219: ID = filp
+Line 219: -
+Line 219: >
+Line 219: ID = f_dentry
+Line 219: -
+Line 219: >
+Line 219: ID = d_inode
+Line 219: ;
+Line 220: int
+Line 220: ID = error
+Line 220: =
+Line 220: INTCON = 0
+Line 220: ;
+Line 223: if
+Line 223: (
+Line 223: !
+Line 223: (
+Line 223: ID = arg
+Line 223: Unrecognized token: 38
+Line 223: ID = O_APPEND
+Line 223: )
+Line 223: &&
+Line 223: ID = IS_APPEND
+Line 223: (
+Line 223: ID = inode
+Line 223: )
+Line 223: )
+Line 224: return
+Line 224: -
+Line 224: ID = EPERM
+Line 224: ;
+Line 227: if
+Line 227: (
+Line 227: (
+Line 227: ID = arg
+Line 227: Unrecognized token: 38
+Line 227: ID = O_NOATIME
+Line 227: )
+Line 227: &&
+Line 227: !
+Line 227: (
+Line 227: ID = filp
+Line 227: -
+Line 227: >
+Line 227: ID = f_flags
+Line 227: Unrecognized token: 38
+Line 227: ID = O_NOATIME
+Line 227: )
+Line 227: )
+Line 228: if
+Line 228: (
+Line 228: ID = current
+Line 228: -
+Line 228: >
+Line 228: ID = fsuid
+Line 228: !=
+Line 228: ID = inode
+Line 228: -
+Line 228: >
+Line 228: ID = i_uid
+Line 228: &&
+Line 228: !
+Line 228: ID = capable
+Line 228: (
+Line 228: ID = CAP_FOWNER
+Line 228: )
+Line 228: )
+Line 229: return
+Line 229: -
+Line 229: ID = EPERM
+Line 229: ;
+Line 232: if
+Line 232: (
+Line 232: ID = O_NONBLOCK
+Line 232: !=
+Line 232: ID = O_NDELAY
+Line 232: )
+Line 233: if
+Line 233: (
+Line 233: ID = arg
+Line 233: Unrecognized token: 38
+Line 233: ID = O_NDELAY
+Line 233: )
+Line 234: ID = arg
+Line 234: Unrecognized token: 124
+Line 234: =
+Line 234: ID = O_NONBLOCK
+Line 234: ;
+Line 236: if
+Line 236: (
+Line 236: ID = arg
+Line 236: Unrecognized token: 38
+Line 236: ID = O_DIRECT
+Line 236: )
+Line 236: {
+Line 237: if
+Line 237: (
+Line 237: !
+Line 237: ID = filp
+Line 237: -
+Line 237: >
+Line 237: ID = f_mapping
+Line 237: ||
+Line 237: !
+Line 237: ID = filp
+Line 237: -
+Line 237: >
+Line 237: ID = f_mapping
+Line 237: -
+Line 237: >
+Line 237: ID = a_ops
+Line 237: ||
+Line 238: !
+Line 238: ID = filp
+Line 238: -
+Line 238: >
+Line 238: ID = f_mapping
+Line 238: -
+Line 238: >
+Line 238: ID = a_ops
+Line 238: -
+Line 238: >
+Line 238: ID = direct_IO
+Line 238: )
+Line 239: return
+Line 239: -
+Line 239: ID = EINVAL
+Line 239: ;
+Line 240: }
+Line 242: if
+Line 242: (
+Line 242: ID = filp
+Line 242: -
+Line 242: >
+Line 242: ID = f_op
+Line 242: &&
+Line 242: ID = filp
+Line 242: -
+Line 242: >
+Line 242: ID = f_op
+Line 242: -
+Line 242: >
+Line 242: ID = check_flags
+Line 242: )
+Line 243: ID = error
+Line 243: =
+Line 243: ID = filp
+Line 243: -
+Line 243: >
+Line 243: ID = f_op
+Line 243: -
+Line 243: >
+Line 243: ID = check_flags
+Line 243: (
+Line 243: ID = arg
+Line 243: )
+Line 243: ;
+Line 244: if
+Line 244: (
+Line 244: ID = error
+Line 244: )
+Line 245: return
+Line 245: ID = error
+Line 245: ;
+Line 247: ID = lock_kernel
+Line 247: (
+Line 247: )
+Line 247: ;
+Line 248: if
+Line 248: (
+Line 248: (
+Line 248: ID = arg
+Line 248: Unrecognized token: 94
+Line 248: ID = filp
+Line 248: -
+Line 248: >
+Line 248: ID = f_flags
+Line 248: )
+Line 248: Unrecognized token: 38
+Line 248: ID = FASYNC
+Line 248: )
+Line 248: {
+Line 249: if
+Line 249: (
+Line 249: ID = filp
+Line 249: -
+Line 249: >
+Line 249: ID = f_op
+Line 249: &&
+Line 249: ID = filp
+Line 249: -
+Line 249: >
+Line 249: ID = f_op
+Line 249: -
+Line 249: >
+Line 249: ID = fasync
+Line 249: )
+Line 249: {
+Line 250: ID = error
+Line 250: =
+Line 250: ID = filp
+Line 250: -
+Line 250: >
+Line 250: ID = f_op
+Line 250: -
+Line 250: >
+Line 250: ID = fasync
+Line 250: (
+Line 250: ID = fd
+Line 250: ,
+Line 250: ID = filp
+Line 250: ,
+Line 250: (
+Line 250: ID = arg
+Line 250: Unrecognized token: 38
+Line 250: ID = FASYNC
+Line 250: )
+Line 250: !=
+Line 250: INTCON = 0
+Line 250: )
+Line 250: ;
+Line 251: if
+Line 251: (
+Line 251: ID = error
+Line 251: <
+Line 251: INTCON = 0
+Line 251: )
+Line 252: ID = goto
+Line 252: ID = out
+Line 252: ;
+Line 253: }
+Line 254: }
+Line 256: ID = filp
+Line 256: -
+Line 256: >
+Line 256: ID = f_flags
+Line 256: =
+Line 256: (
+Line 256: ID = arg
+Line 256: Unrecognized token: 38
+Line 256: ID = SETFL_MASK
+Line 256: )
+Line 256: Unrecognized token: 124
+Line 256: (
+Line 256: ID = filp
+Line 256: -
+Line 256: >
+Line 256: ID = f_flags
+Line 256: Unrecognized token: 38
+Line 256: Unrecognized token: 126
+Line 256: ID = SETFL_MASK
+Line 256: )
+Line 256: ;
+Line 257: ID = out
+Line 257: Unrecognized token: 58
+Line 258: ID = unlock_kernel
+Line 258: (
+Line 258: )
+Line 258: ;
+Line 259: return
+Line 259: ID = error
+Line 259: ;
+Line 260: }
+Line 262: ID = static
+Line 262: void
+Line 262: ID = f_modown
+Line 262: (
+Line 262: ID = struct
+Line 262: ID = file
+Line 262: *
+Line 262: ID = filp
+Line 262: ,
+Line 262: ID = unsigned
+Line 262: ID = long
+Line 262: ID = pid
+Line 262: ,
+Line 263: ID = uid_t
+Line 263: ID = uid
+Line 263: ,
+Line 263: ID = uid_t
+Line 263: ID = euid
+Line 263: ,
+Line 263: int
+Line 263: ID = force
+Line 263: )
+Line 264: {
+Line 265: ID = write_lock_irq
+Line 265: (
+Line 265: Unrecognized token: 38
+Line 265: ID = filp
+Line 265: -
+Line 265: >
+Line 265: ID = f_owner
+Line 265: Unrecognized token: 46
+Line 265: ID = lock
+Line 265: )
+Line 265: ;
+Line 266: if
+Line 266: (
+Line 266: ID = force
+Line 266: ||
+Line 266: !
+Line 266: ID = filp
+Line 266: -
+Line 266: >
+Line 266: ID = f_owner
+Line 266: Unrecognized token: 46
+Line 266: ID = pid
+Line 266: )
+Line 266: {
+Line 267: ID = filp
+Line 267: -
+Line 267: >
+Line 267: ID = f_owner
+Line 267: Unrecognized token: 46
+Line 267: ID = pid
+Line 267: =
+Line 267: ID = pid
+Line 267: ;
+Line 268: ID = filp
+Line 268: -
+Line 268: >
+Line 268: ID = f_owner
+Line 268: Unrecognized token: 46
+Line 268: ID = uid
+Line 268: =
+Line 268: ID = uid
+Line 268: ;
+Line 269: ID = filp
+Line 269: -
+Line 269: >
+Line 269: ID = f_owner
+Line 269: Unrecognized token: 46
+Line 269: ID = euid
+Line 269: =
+Line 269: ID = euid
+Line 269: ;
+Line 270: }
+Line 271: ID = write_unlock_irq
+Line 271: (
+Line 271: Unrecognized token: 38
+Line 271: ID = filp
+Line 271: -
+Line 271: >
+Line 271: ID = f_owner
+Line 271: Unrecognized token: 46
+Line 271: ID = lock
+Line 271: )
+Line 271: ;
+Line 272: }
+Line 274: int
+Line 274: ID = f_setown
+Line 274: (
+Line 274: ID = struct
+Line 274: ID = file
+Line 274: *
+Line 274: ID = filp
+Line 274: ,
+Line 274: ID = unsigned
+Line 274: ID = long
+Line 274: ID = arg
+Line 274: ,
+Line 274: int
+Line 274: ID = force
+Line 274: )
+Line 275: {
+Line 276: int
+Line 276: ID = err
+Line 276: ;
+Line 278: ID = err
+Line 278: =
+Line 278: ID = security_file_set_fowner
+Line 278: (
+Line 278: ID = filp
+Line 278: )
+Line 278: ;
+Line 279: if
+Line 279: (
+Line 279: ID = err
+Line 279: )
+Line 280: return
+Line 280: ID = err
+Line 280: ;
+Line 282: ID = f_modown
+Line 282: (
+Line 282: ID = filp
+Line 282: ,
+Line 282: ID = arg
+Line 282: ,
+Line 282: ID = current
+Line 282: -
+Line 282: >
+Line 282: ID = uid
+Line 282: ,
+Line 282: ID = current
+Line 282: -
+Line 282: >
+Line 282: ID = euid
+Line 282: ,
+Line 282: ID = force
+Line 282: )
+Line 282: ;
+Line 283: return
+Line 283: INTCON = 0
+Line 283: ;
+Line 284: }
+Line 286: ID = EXPORT_SYMBOL
+Line 286: (
+Line 286: ID = f_setown
+Line 286: )
+Line 286: ;
+Line 288: void
+Line 288: ID = f_delown
+Line 288: (
+Line 288: ID = struct
+Line 288: ID = file
+Line 288: *
+Line 288: ID = filp
+Line 288: )
+Line 289: {
+Line 290: ID = f_modown
+Line 290: (
+Line 290: ID = filp
+Line 290: ,
+Line 290: INTCON = 0
+Line 290: ,
+Line 290: INTCON = 0
+Line 290: ,
+Line 290: INTCON = 0
+Line 290: ,
+Line 290: INTCON = 1
+Line 290: )
+Line 290: ;
+Line 291: }
+Line 293: ID = EXPORT_SYMBOL
+Line 293: (
+Line 293: ID = f_delown
+Line 293: )
+Line 293: ;
+Line 295: ID = static
+Line 295: ID = long
+Line 295: ID = do_fcntl
+Line 295: (
+Line 295: int
+Line 295: ID = fd
+Line 295: ,
+Line 295: ID = unsigned
+Line 295: int
+Line 295: ID = cmd
+Line 295: ,
+Line 295: ID = unsigned
+Line 295: ID = long
+Line 295: ID = arg
+Line 295: ,
+Line 296: ID = struct
+Line 296: ID = file
+Line 296: *
+Line 296: ID = filp
+Line 296: )
+Line 297: {
+Line 298: ID = long
+Line 298: ID = err
+Line 298: =
+Line 298: -
+Line 298: ID = EINVAL
+Line 298: ;
+Line 300: ID = switch
+Line 300: (
+Line 300: ID = cmd
+Line 300: )
+Line 300: {
+Line 301: ID = case
+Line 301: ID = F_DUPFD
+Line 301: Unrecognized token: 58
+Line 302: ID = get_file
+Line 302: (
+Line 302: ID = filp
+Line 302: )
+Line 302: ;
+Line 303: ID = err
+Line 303: =
+Line 303: ID = dupfd
+Line 303: (
+Line 303: ID = filp
+Line 303: ,
+Line 303: ID = arg
+Line 303: )
+Line 303: ;
+Line 304: ID = break
+Line 304: ;
+Line 305: ID = case
+Line 305: ID = F_GETFD
+Line 305: Unrecognized token: 58
+Line 306: ID = err
+Line 306: =
+Line 306: ID = get_close_on_exec
+Line 306: (
+Line 306: ID = fd
+Line 306: )
+Line 306: Unrecognized token: 63
+Line 306: ID = FD_CLOEXEC
+Line 306: Unrecognized token: 58
+Line 306: INTCON = 0
+Line 306: ;
+Line 307: ID = break
+Line 307: ;
+Line 308: ID = case
+Line 308: ID = F_SETFD
+Line 308: Unrecognized token: 58
+Line 309: ID = err
+Line 309: =
+Line 309: INTCON = 0
+Line 309: ;
+Line 310: ID = set_close_on_exec
+Line 310: (
+Line 310: ID = fd
+Line 310: ,
+Line 310: ID = arg
+Line 310: Unrecognized token: 38
+Line 310: ID = FD_CLOEXEC
+Line 310: )
+Line 310: ;
+Line 311: ID = break
+Line 311: ;
+Line 312: ID = case
+Line 312: ID = F_GETFL
+Line 312: Unrecognized token: 58
+Line 313: ID = err
+Line 313: =
+Line 313: ID = filp
+Line 313: -
+Line 313: >
+Line 313: ID = f_flags
+Line 313: ;
+Line 314: ID = break
+Line 314: ;
+Line 315: ID = case
+Line 315: ID = F_SETFL
+Line 315: Unrecognized token: 58
+Line 316: ID = err
+Line 316: =
+Line 316: ID = setfl
+Line 316: (
+Line 316: ID = fd
+Line 316: ,
+Line 316: ID = filp
+Line 316: ,
+Line 316: ID = arg
+Line 316: )
+Line 316: ;
+Line 317: ID = break
+Line 317: ;
+Line 318: ID = case
+Line 318: ID = F_GETLK
+Line 318: Unrecognized token: 58
+Line 319: ID = err
+Line 319: =
+Line 319: ID = fcntl_getlk
+Line 319: (
+Line 319: ID = filp
+Line 319: ,
+Line 319: (
+Line 319: ID = struct
+Line 319: ID = flock
+Line 319: Unrecognized token: 95
+Line 319: Unrecognized token: 95
+Line 319: ID = user
+Line 319: *
+Line 319: )
+Line 319: ID = arg
+Line 319: )
+Line 319: ;
+Line 320: ID = break
+Line 320: ;
+Line 321: ID = case
+Line 321: ID = F_SETLK
+Line 321: Unrecognized token: 58
+Line 322: ID = case
+Line 322: ID = F_SETLKW
+Line 322: Unrecognized token: 58
+Line 323: ID = err
+Line 323: =
+Line 323: ID = fcntl_setlk
+Line 323: (
+Line 323: ID = filp
+Line 323: ,
+Line 323: ID = cmd
+Line 323: ,
+Line 323: (
+Line 323: ID = struct
+Line 323: ID = flock
+Line 323: Unrecognized token: 95
+Line 323: Unrecognized token: 95
+Line 323: ID = user
+Line 323: *
+Line 323: )
+Line 323: ID = arg
+Line 323: )
+Line 323: ;
+Line 324: ID = break
+Line 324: ;
+Line 325: ID = case
+Line 325: ID = F_GETOWN
+Line 325: Unrecognized token: 58
+Line 333: ID = err
+Line 333: =
+Line 333: ID = filp
+Line 333: -
+Line 333: >
+Line 333: ID = f_owner
+Line 333: Unrecognized token: 46
+Line 333: ID = pid
+Line 333: ;
+Line 334: ID = force_successful_syscall_return
+Line 334: (
+Line 334: )
+Line 334: ;
+Line 335: ID = break
+Line 335: ;
+Line 336: ID = case
+Line 336: ID = F_SETOWN
+Line 336: Unrecognized token: 58
+Line 337: ID = err
+Line 337: =
+Line 337: ID = f_setown
+Line 337: (
+Line 337: ID = filp
+Line 337: ,
+Line 337: ID = arg
+Line 337: ,
+Line 337: INTCON = 1
+Line 337: )
+Line 337: ;
+Line 338: ID = break
+Line 338: ;
+Line 339: ID = case
+Line 339: ID = F_GETSIG
+Line 339: Unrecognized token: 58
+Line 340: ID = err
+Line 340: =
+Line 340: ID = filp
+Line 340: -
+Line 340: >
+Line 340: ID = f_owner
+Line 340: Unrecognized token: 46
+Line 340: ID = signum
+Line 340: ;
+Line 341: ID = break
+Line 341: ;
+Line 342: ID = case
+Line 342: ID = F_SETSIG
+Line 342: Unrecognized token: 58
+Line 344: if
+Line 344: (
+Line 344: ID = arg
+Line 344: <
+Line 344: INTCON = 0
+Line 344: ||
+Line 344: ID = arg
+Line 344: >
+Line 344: Unrecognized token: 95
+Line 344: ID = NSIG
+Line 344: )
+Line 344: {
+Line 345: ID = break
+Line 345: ;
+Line 346: }
+Line 347: ID = err
+Line 347: =
+Line 347: INTCON = 0
+Line 347: ;
+Line 348: ID = filp
+Line 348: -
+Line 348: >
+Line 348: ID = f_owner
+Line 348: Unrecognized token: 46
+Line 348: ID = signum
+Line 348: =
+Line 348: ID = arg
+Line 348: ;
+Line 349: ID = break
+Line 349: ;
+Line 350: ID = case
+Line 350: ID = F_GETLEASE
+Line 350: Unrecognized token: 58
+Line 351: ID = err
+Line 351: =
+Line 351: ID = fcntl_getlease
+Line 351: (
+Line 351: ID = filp
+Line 351: )
+Line 351: ;
+Line 352: ID = break
+Line 352: ;
+Line 353: ID = case
+Line 353: ID = F_SETLEASE
+Line 353: Unrecognized token: 58
+Line 354: ID = err
+Line 354: =
+Line 354: ID = fcntl_setlease
+Line 354: (
+Line 354: ID = fd
+Line 354: ,
+Line 354: ID = filp
+Line 354: ,
+Line 354: ID = arg
+Line 354: )
+Line 354: ;
+Line 355: ID = break
+Line 355: ;
+Line 356: ID = case
+Line 356: ID = F_NOTIFY
+Line 356: Unrecognized token: 58
+Line 357: ID = err
+Line 357: =
+Line 357: ID = fcntl_dirnotify
+Line 357: (
+Line 357: ID = fd
+Line 357: ,
+Line 357: ID = filp
+Line 357: ,
+Line 357: ID = arg
+Line 357: )
+Line 357: ;
+Line 358: ID = break
+Line 358: ;
+Line 359: ID = default
+Line 359: Unrecognized token: 58
+Line 360: ID = break
+Line 360: ;
+Line 361: }
+Line 362: return
+Line 362: ID = err
+Line 362: ;
+Line 363: }
+Line 365: ID = asmlinkage
+Line 365: ID = long
+Line 365: ID = sys_fcntl
+Line 365: (
+Line 365: int
+Line 365: ID = fd
+Line 365: ,
+Line 365: ID = unsigned
+Line 365: int
+Line 365: ID = cmd
+Line 365: ,
+Line 365: ID = unsigned
+Line 365: ID = long
+Line 365: ID = arg
+Line 365: )
+Line 366: {
+Line 367: ID = struct
+Line 367: ID = file
+Line 367: *
+Line 367: ID = filp
+Line 367: ;
+Line 368: ID = long
+Line 368: ID = err
+Line 368: =
+Line 368: -
+Line 368: ID = EBADF
+Line 368: ;
+Line 370: ID = filp
+Line 370: =
+Line 370: ID = fget
+Line 370: (
+Line 370: ID = fd
+Line 370: )
+Line 370: ;
+Line 371: if
+Line 371: (
+Line 371: !
+Line 371: ID = filp
+Line 371: )
+Line 372: ID = goto
+Line 372: ID = out
+Line 372: ;
+Line 374: ID = err
+Line 374: =
+Line 374: ID = security_file_fcntl
+Line 374: (
+Line 374: ID = filp
+Line 374: ,
+Line 374: ID = cmd
+Line 374: ,
+Line 374: ID = arg
+Line 374: )
+Line 374: ;
+Line 375: if
+Line 375: (
+Line 375: ID = err
+Line 375: )
+Line 375: {
+Line 376: ID = fput
+Line 376: (
+Line 376: ID = filp
+Line 376: )
+Line 376: ;
+Line 377: return
+Line 377: ID = err
+Line 377: ;
+Line 378: }
+Line 380: ID = err
+Line 380: =
+Line 380: ID = do_fcntl
+Line 380: (
+Line 380: ID = fd
+Line 380: ,
+Line 380: ID = cmd
+Line 380: ,
+Line 380: ID = arg
+Line 380: ,
+Line 380: ID = filp
+Line 380: )
+Line 380: ;
+Line 382: ID = fput
+Line 382: (
+Line 382: ID = filp
+Line 382: )
+Line 382: ;
+Line 383: ID = out
+Line 383: Unrecognized token: 58
+Line 384: return
+Line 384: ID = err
+Line 384: ;
+Line 385: }
+Line 387: Unrecognized token: 35
+Line 387: if
+Line 387: ID = BITS_PER_LONG
+Line 387: ==
+Line 387: INTCON = 32
+Line 388: ID = asmlinkage
+Line 388: ID = long
+Line 388: ID = sys_fcntl64
+Line 388: (
+Line 388: ID = unsigned
+Line 388: int
+Line 388: ID = fd
+Line 388: ,
+Line 388: ID = unsigned
+Line 388: int
+Line 388: ID = cmd
+Line 388: ,
+Line 388: ID = unsigned
+Line 388: ID = long
+Line 388: ID = arg
+Line 388: )
+Line 389: {
+Line 390: ID = struct
+Line 390: ID = file
+Line 390: *
+Line 390: ID = filp
+Line 390: ;
+Line 391: ID = long
+Line 391: ID = err
+Line 391: ;
+Line 393: ID = err
+Line 393: =
+Line 393: -
+Line 393: ID = EBADF
+Line 393: ;
+Line 394: ID = filp
+Line 394: =
+Line 394: ID = fget
+Line 394: (
+Line 394: ID = fd
+Line 394: )
+Line 394: ;
+Line 395: if
+Line 395: (
+Line 395: !
+Line 395: ID = filp
+Line 395: )
+Line 396: ID = goto
+Line 396: ID = out
+Line 396: ;
+Line 398: ID = err
+Line 398: =
+Line 398: ID = security_file_fcntl
+Line 398: (
+Line 398: ID = filp
+Line 398: ,
+Line 398: ID = cmd
+Line 398: ,
+Line 398: ID = arg
+Line 398: )
+Line 398: ;
+Line 399: if
+Line 399: (
+Line 399: ID = err
+Line 399: )
+Line 399: {
+Line 400: ID = fput
+Line 400: (
+Line 400: ID = filp
+Line 400: )
+Line 400: ;
+Line 401: return
+Line 401: ID = err
+Line 401: ;
+Line 402: }
+Line 403: ID = err
+Line 403: =
+Line 403: -
+Line 403: ID = EBADF
+Line 403: ;
+Line 405: ID = switch
+Line 405: (
+Line 405: ID = cmd
+Line 405: )
+Line 405: {
+Line 406: ID = case
+Line 406: ID = F_GETLK64
+Line 406: Unrecognized token: 58
+Line 407: ID = err
+Line 407: =
+Line 407: ID = fcntl_getlk64
+Line 407: (
+Line 407: ID = filp
+Line 407: ,
+Line 407: (
+Line 407: ID = struct
+Line 407: ID = flock64
+Line 407: Unrecognized token: 95
+Line 407: Unrecognized token: 95
+Line 407: ID = user
+Line 407: *
+Line 407: )
+Line 407: ID = arg
+Line 407: )
+Line 407: ;
+Line 408: ID = break
+Line 408: ;
+Line 409: ID = case
+Line 409: ID = F_SETLK64
+Line 409: Unrecognized token: 58
+Line 410: ID = case
+Line 410: ID = F_SETLKW64
+Line 410: Unrecognized token: 58
+Line 411: ID = err
+Line 411: =
+Line 411: ID = fcntl_setlk64
+Line 411: (
+Line 411: ID = filp
+Line 411: ,
+Line 411: ID = cmd
+Line 411: ,
+Line 411: (
+Line 411: ID = struct
+Line 411: ID = flock64
+Line 411: Unrecognized token: 95
+Line 411: Unrecognized token: 95
+Line 411: ID = user
+Line 411: *
+Line 411: )
+Line 411: ID = arg
+Line 411: )
+Line 411: ;
+Line 412: ID = break
+Line 412: ;
+Line 413: ID = default
+Line 413: Unrecognized token: 58
+Line 414: ID = err
+Line 414: =
+Line 414: ID = do_fcntl
+Line 414: (
+Line 414: ID = fd
+Line 414: ,
+Line 414: ID = cmd
+Line 414: ,
+Line 414: ID = arg
+Line 414: ,
+Line 414: ID = filp
+Line 414: )
+Line 414: ;
+Line 415: ID = break
+Line 415: ;
+Line 416: }
+Line 417: ID = fput
+Line 417: (
+Line 417: ID = filp
+Line 417: )
+Line 417: ;
+Line 418: ID = out
+Line 418: Unrecognized token: 58
+Line 419: return
+Line 419: ID = err
+Line 419: ;
+Line 420: }
+Line 421: Unrecognized token: 35
+Line 421: ID = endif
+Line 425: ID = static
+Line 425: ID = long
+Line 425: ID = band_table
+Line 425: [
+Line 425: ID = NSIGPOLL
+Line 425: ]
+Line 425: =
+Line 425: {
+Line 426: ID = POLLIN
+Line 426: Unrecognized token: 124
+Line 426: ID = POLLRDNORM
+Line 426: ,
+Line 427: ID = POLLOUT
+Line 427: Unrecognized token: 124
+Line 427: ID = POLLWRNORM
+Line 427: Unrecognized token: 124
+Line 427: ID = POLLWRBAND
+Line 427: ,
+Line 428: ID = POLLIN
+Line 428: Unrecognized token: 124
+Line 428: ID = POLLRDNORM
+Line 428: Unrecognized token: 124
+Line 428: ID = POLLMSG
+Line 428: ,
+Line 429: ID = POLLERR
+Line 429: ,
+Line 430: ID = POLLPRI
+Line 430: Unrecognized token: 124
+Line 430: ID = POLLRDBAND
+Line 430: ,
+Line 431: ID = POLLHUP
+Line 431: Unrecognized token: 124
+Line 431: ID = POLLERR
+Line 432: }
+Line 432: ;
+Line 434: ID = static
+Line 434: ID = inline
+Line 434: int
+Line 434: ID = sigio_perm
+Line 434: (
+Line 434: ID = struct
+Line 434: ID = task_struct
+Line 434: *
+Line 434: ID = p
+Line 434: ,
+Line 435: ID = struct
+Line 435: ID = fown_struct
+Line 435: *
+Line 435: ID = fown
+Line 435: )
+Line 436: {
+Line 437: return
+Line 437: (
+Line 437: (
+Line 437: ID = fown
+Line 437: -
+Line 437: >
+Line 437: ID = euid
+Line 437: ==
+Line 437: INTCON = 0
+Line 437: )
+Line 437: ||
+Line 438: (
+Line 438: ID = fown
+Line 438: -
+Line 438: >
+Line 438: ID = euid
+Line 438: ==
+Line 438: ID = p
+Line 438: -
+Line 438: >
+Line 438: ID = suid
+Line 438: )
+Line 438: ||
+Line 438: (
+Line 438: ID = fown
+Line 438: -
+Line 438: >
+Line 438: ID = euid
+Line 438: ==
+Line 438: ID = p
+Line 438: -
+Line 438: >
+Line 438: ID = uid
+Line 438: )
+Line 438: ||
+Line 439: (
+Line 439: ID = fown
+Line 439: -
+Line 439: >
+Line 439: ID = uid
+Line 439: ==
+Line 439: ID = p
+Line 439: -
+Line 439: >
+Line 439: ID = suid
+Line 439: )
+Line 439: ||
+Line 439: (
+Line 439: ID = fown
+Line 439: -
+Line 439: >
+Line 439: ID = uid
+Line 439: ==
+Line 439: ID = p
+Line 439: -
+Line 439: >
+Line 439: ID = uid
+Line 439: )
+Line 439: )
+Line 439: ;
+Line 440: }
+Line 442: ID = static
+Line 442: void
+Line 442: ID = send_sigio_to_task
+Line 442: (
+Line 442: ID = struct
+Line 442: ID = task_struct
+Line 442: *
+Line 442: ID = p
+Line 442: ,
+Line 443: ID = struct
+Line 443: ID = fown_struct
+Line 443: *
+Line 443: ID = fown
+Line 443: ,
+Line 444: int
+Line 444: ID = fd
+Line 444: ,
+Line 445: int
+Line 445: ID = reason
+Line 445: )
+Line 446: {
+Line 447: if
+Line 447: (
+Line 447: !
+Line 447: ID = sigio_perm
+Line 447: (
+Line 447: ID = p
+Line 447: ,
+Line 447: ID = fown
+Line 447: )
+Line 447: )
+Line 448: return
+Line 448: ;
+Line 450: if
+Line 450: (
+Line 450: ID = security_file_send_sigiotask
+Line 450: (
+Line 450: ID = p
+Line 450: ,
+Line 450: ID = fown
+Line 450: ,
+Line 450: ID = fd
+Line 450: ,
+Line 450: ID = reason
+Line 450: )
+Line 450: )
+Line 451: return
+Line 451: ;
+Line 453: ID = switch
+Line 453: (
+Line 453: ID = fown
+Line 453: -
+Line 453: >
+Line 453: ID = signum
+Line 453: )
+Line 453: {
+Line 454: ID = siginfo_t
+Line 454: ID = si
+Line 454: ;
+Line 455: ID = default
+Line 455: Unrecognized token: 58
+Line 462: ID = si
+Line 462: Unrecognized token: 46
+Line 462: ID = si_signo
+Line 462: =
+Line 462: ID = fown
+Line 462: -
+Line 462: >
+Line 462: ID = signum
+Line 462: ;
+Line 463: ID = si
+Line 463: Unrecognized token: 46
+Line 463: ID = si_errno
+Line 463: =
+Line 463: INTCON = 0
+Line 463: ;
+Line 464: ID = si
+Line 464: Unrecognized token: 46
+Line 464: ID = si_code
+Line 464: =
+Line 464: ID = reason
+Line 464: ;
+Line 468: if
+Line 468: (
+Line 468: (
+Line 468: ID = reason
+Line 468: Unrecognized token: 38
+Line 468: Unrecognized token: 95
+Line 468: Unrecognized token: 95
+Line 468: ID = SI_MASK
+Line 468: )
+Line 468: !=
+Line 468: Unrecognized token: 95
+Line 468: Unrecognized token: 95
+Line 468: ID = SI_POLL
+Line 468: )
+Line 469: ID = BUG
+Line 469: (
+Line 469: )
+Line 469: ;
+Line 470: if
+Line 470: (
+Line 470: ID = reason
+Line 470: -
+Line 470: ID = POLL_IN
+Line 470: >=
+Line 470: ID = NSIGPOLL
+Line 470: )
+Line 471: ID = si
+Line 471: Unrecognized token: 46
+Line 471: ID = si_band
+Line 471: =
+Line 471: Unrecognized token: 126
+Line 471: INTCON = 0
+Line 471: ID = L
+Line 471: ;
+Line 472: else
+Line 473: ID = si
+Line 473: Unrecognized token: 46
+Line 473: ID = si_band
+Line 473: =
+Line 473: ID = band_table
+Line 473: [
+Line 473: ID = reason
+Line 473: -
+Line 473: ID = POLL_IN
+Line 473: ]
+Line 473: ;
+Line 474: ID = si
+Line 474: Unrecognized token: 46
+Line 474: ID = si_fd
+Line 474: =
+Line 474: ID = fd
+Line 474: ;
+Line 475: if
+Line 475: (
+Line 475: !
+Line 475: ID = send_sig_info
+Line 475: (
+Line 475: ID = fown
+Line 475: -
+Line 475: >
+Line 475: ID = signum
+Line 475: ,
+Line 475: Unrecognized token: 38
+Line 475: ID = si
+Line 475: ,
+Line 475: ID = p
+Line 475: )
+Line 475: )
+Line 476: ID = break
+Line 476: ;
+Line 478: ID = case
+Line 478: INTCON = 0
+Line 478: Unrecognized token: 58
+Line 479: ID = send_group_sig_info
+Line 479: (
+Line 479: ID = SIGIO
+Line 479: ,
+Line 479: ID = SEND_SIG_PRIV
+Line 479: ,
+Line 479: ID = p
+Line 479: )
+Line 479: ;
+Line 480: }
+Line 481: }
+Line 483: void
+Line 483: ID = send_sigio
+Line 483: (
+Line 483: ID = struct
+Line 483: ID = fown_struct
+Line 483: *
+Line 483: ID = fown
+Line 483: ,
+Line 483: int
+Line 483: ID = fd
+Line 483: ,
+Line 483: int
+Line 483: ID = band
+Line 483: )
+Line 484: {
+Line 485: ID = struct
+Line 485: ID = task_struct
+Line 485: *
+Line 485: ID = p
+Line 485: ;
+Line 486: int
+Line 486: ID = pid
+Line 486: ;
+Line 488: ID = read_lock
+Line 488: (
+Line 488: Unrecognized token: 38
+Line 488: ID = fown
+Line 488: -
+Line 488: >
+Line 488: ID = lock
+Line 488: )
+Line 488: ;
+Line 489: ID = pid
+Line 489: =
+Line 489: ID = fown
+Line 489: -
+Line 489: >
+Line 489: ID = pid
+Line 489: ;
+Line 490: if
+Line 490: (
+Line 490: !
+Line 490: ID = pid
+Line 490: )
+Line 491: ID = goto
+Line 491: ID = out_unlock_fown
+Line 491: ;
+Line 493: ID = read_lock
+Line 493: (
+Line 493: Unrecognized token: 38
+Line 493: ID = tasklist_lock
+Line 493: )
+Line 493: ;
+Line 494: if
+Line 494: (
+Line 494: ID = pid
+Line 494: >
+Line 494: INTCON = 0
+Line 494: )
+Line 494: {
+Line 495: ID = p
+Line 495: =
+Line 495: ID = find_task_by_pid
+Line 495: (
+Line 495: ID = pid
+Line 495: )
+Line 495: ;
+Line 496: if
+Line 496: (
+Line 496: ID = p
+Line 496: )
+Line 496: {
+Line 497: ID = send_sigio_to_task
+Line 497: (
+Line 497: ID = p
+Line 497: ,
+Line 497: ID = fown
+Line 497: ,
+Line 497: ID = fd
+Line 497: ,
+Line 497: ID = band
+Line 497: )
+Line 497: ;
+Line 498: }
+Line 499: }
+Line 499: else
+Line 499: {
+Line 500: ID = struct
+Line 500: ID = list_head
+Line 500: *
+Line 500: ID = l
+Line 500: ;
+Line 501: ID = struct
+Line 501: ID = pid
+Line 501: *
+Line 501: ID = pidptr
+Line 501: ;
+Line 502: ID = for_each_task_pid
+Line 502: (
+Line 502: -
+Line 502: ID = pid
+Line 502: ,
+Line 502: ID = PIDTYPE_PGID
+Line 502: ,
+Line 502: ID = p
+Line 502: ,
+Line 502: ID = l
+Line 502: ,
+Line 502: ID = pidptr
+Line 502: )
+Line 502: {
+Line 503: ID = send_sigio_to_task
+Line 503: (
+Line 503: ID = p
+Line 503: ,
+Line 503: ID = fown
+Line 503: ,
+Line 503: ID = fd
+Line 503: ,
+Line 503: ID = band
+Line 503: )
+Line 503: ;
+Line 504: }
+Line 505: }
+Line 506: ID = read_unlock
+Line 506: (
+Line 506: Unrecognized token: 38
+Line 506: ID = tasklist_lock
+Line 506: )
+Line 506: ;
+Line 507: ID = out_unlock_fown
+Line 507: Unrecognized token: 58
+Line 508: ID = read_unlock
+Line 508: (
+Line 508: Unrecognized token: 38
+Line 508: ID = fown
+Line 508: -
+Line 508: >
+Line 508: ID = lock
+Line 508: )
+Line 508: ;
+Line 509: }
+Line 511: ID = static
+Line 511: void
+Line 511: ID = send_sigurg_to_task
+Line 511: (
+Line 511: ID = struct
+Line 511: ID = task_struct
+Line 511: *
+Line 511: ID = p
+Line 511: ,
+Line 512: ID = struct
+Line 512: ID = fown_struct
+Line 512: *
+Line 512: ID = fown
+Line 512: )
+Line 513: {
+Line 514: if
+Line 514: (
+Line 514: ID = sigio_perm
+Line 514: (
+Line 514: ID = p
+Line 514: ,
+Line 514: ID = fown
+Line 514: )
+Line 514: )
+Line 515: ID = send_group_sig_info
+Line 515: (
+Line 515: ID = SIGURG
+Line 515: ,
+Line 515: ID = SEND_SIG_PRIV
+Line 515: ,
+Line 515: ID = p
+Line 515: )
+Line 515: ;
+Line 516: }
+Line 518: int
+Line 518: ID = send_sigurg
+Line 518: (
+Line 518: ID = struct
+Line 518: ID = fown_struct
+Line 518: *
+Line 518: ID = fown
+Line 518: )
+Line 519: {
+Line 520: ID = struct
+Line 520: ID = task_struct
+Line 520: *
+Line 520: ID = p
+Line 520: ;
+Line 521: int
+Line 521: ID = pid
+Line 521: ,
+Line 521: ID = ret
+Line 521: =
+Line 521: INTCON = 0
+Line 521: ;
+Line 523: ID = read_lock
+Line 523: (
+Line 523: Unrecognized token: 38
+Line 523: ID = fown
+Line 523: -
+Line 523: >
+Line 523: ID = lock
+Line 523: )
+Line 523: ;
+Line 524: ID = pid
+Line 524: =
+Line 524: ID = fown
+Line 524: -
+Line 524: >
+Line 524: ID = pid
+Line 524: ;
+Line 525: if
+Line 525: (
+Line 525: !
+Line 525: ID = pid
+Line 525: )
+Line 526: ID = goto
+Line 526: ID = out_unlock_fown
+Line 526: ;
+Line 528: ID = ret
+Line 528: =
+Line 528: INTCON = 1
+Line 528: ;
+Line 530: ID = read_lock
+Line 530: (
+Line 530: Unrecognized token: 38
+Line 530: ID = tasklist_lock
+Line 530: )
+Line 530: ;
+Line 531: if
+Line 531: (
+Line 531: ID = pid
+Line 531: >
+Line 531: INTCON = 0
+Line 531: )
+Line 531: {
+Line 532: ID = p
+Line 532: =
+Line 532: ID = find_task_by_pid
+Line 532: (
+Line 532: ID = pid
+Line 532: )
+Line 532: ;
+Line 533: if
+Line 533: (
+Line 533: ID = p
+Line 533: )
+Line 533: {
+Line 534: ID = send_sigurg_to_task
+Line 534: (
+Line 534: ID = p
+Line 534: ,
+Line 534: ID = fown
+Line 534: )
+Line 534: ;
+Line 535: }
+Line 536: }
+Line 536: else
+Line 536: {
+Line 537: ID = struct
+Line 537: ID = list_head
+Line 537: *
+Line 537: ID = l
+Line 537: ;
+Line 538: ID = struct
+Line 538: ID = pid
+Line 538: *
+Line 538: ID = pidptr
+Line 538: ;
+Line 539: ID = for_each_task_pid
+Line 539: (
+Line 539: -
+Line 539: ID = pid
+Line 539: ,
+Line 539: ID = PIDTYPE_PGID
+Line 539: ,
+Line 539: ID = p
+Line 539: ,
+Line 539: ID = l
+Line 539: ,
+Line 539: ID = pidptr
+Line 539: )
+Line 539: {
+Line 540: ID = send_sigurg_to_task
+Line 540: (
+Line 540: ID = p
+Line 540: ,
+Line 540: ID = fown
+Line 540: )
+Line 540: ;
+Line 541: }
+Line 542: }
+Line 543: ID = read_unlock
+Line 543: (
+Line 543: Unrecognized token: 38
+Line 543: ID = tasklist_lock
+Line 543: )
+Line 543: ;
+Line 544: ID = out_unlock_fown
+Line 544: Unrecognized token: 58
+Line 545: ID = read_unlock
+Line 545: (
+Line 545: Unrecognized token: 38
+Line 545: ID = fown
+Line 545: -
+Line 545: >
+Line 545: ID = lock
+Line 545: )
+Line 545: ;
+Line 546: return
+Line 546: ID = ret
+Line 546: ;
+Line 547: }
+Line 549: ID = static
+Line 549: ID = rwlock_t
+Line 549: ID = fasync_lock
+Line 549: =
+Line 549: ID = RW_LOCK_UNLOCKED
+Line 549: ;
+Line 550: ID = static
+Line 550: ID = kmem_cache_t
+Line 550: *
+Line 550: ID = fasync_cache
+Line 550: ;
+Line 557: int
+Line 557: ID = fasync_helper
+Line 557: (
+Line 557: int
+Line 557: ID = fd
+Line 557: ,
+Line 557: ID = struct
+Line 557: ID = file
+Line 557: *
+Line 557: ID = filp
+Line 557: ,
+Line 557: int
+Line 557: ID = on
+Line 557: ,
+Line 557: ID = struct
+Line 557: ID = fasync_struct
+Line 557: *
+Line 557: *
+Line 557: ID = fapp
+Line 557: )
+Line 558: {
+Line 559: ID = struct
+Line 559: ID = fasync_struct
+Line 559: *
+Line 559: ID = fa
+Line 559: ,
+Line 559: *
+Line 559: *
+Line 559: ID = fp
+Line 559: ;
+Line 560: ID = struct
+Line 560: ID = fasync_struct
+Line 560: *
+Line 560: ID = new
+Line 560: =
+Line 560: ID = NULL
+Line 560: ;
+Line 561: int
+Line 561: ID = result
+Line 561: =
+Line 561: INTCON = 0
+Line 561: ;
+Line 563: if
+Line 563: (
+Line 563: ID = on
+Line 563: )
+Line 563: {
+Line 564: ID = new
+Line 564: =
+Line 564: ID = kmem_cache_alloc
+Line 564: (
+Line 564: ID = fasync_cache
+Line 564: ,
+Line 564: ID = SLAB_KERNEL
+Line 564: )
+Line 564: ;
+Line 565: if
+Line 565: (
+Line 565: !
+Line 565: ID = new
+Line 565: )
+Line 566: return
+Line 566: -
+Line 566: ID = ENOMEM
+Line 566: ;
+Line 567: }
+Line 568: ID = write_lock_irq
+Line 568: (
+Line 568: Unrecognized token: 38
+Line 568: ID = fasync_lock
+Line 568: )
+Line 568: ;
+Line 569: for
+Line 569: (
+Line 569: ID = fp
+Line 569: =
+Line 569: ID = fapp
+Line 569: ;
+Line 569: (
+Line 569: ID = fa
+Line 569: =
+Line 569: *
+Line 569: ID = fp
+Line 569: )
+Line 569: !=
+Line 569: ID = NULL
+Line 569: ;
+Line 569: ID = fp
+Line 569: =
+Line 569: Unrecognized token: 38
+Line 569: ID = fa
+Line 569: -
+Line 569: >
+Line 569: ID = fa_next
+Line 569: )
+Line 569: {
+Line 570: if
+Line 570: (
+Line 570: ID = fa
+Line 570: -
+Line 570: >
+Line 570: ID = fa_file
+Line 570: ==
+Line 570: ID = filp
+Line 570: )
+Line 570: {
+Line 571: if
+Line 571: (
+Line 571: ID = on
+Line 571: )
+Line 571: {
+Line 572: ID = fa
+Line 572: -
+Line 572: >
+Line 572: ID = fa_fd
+Line 572: =
+Line 572: ID = fd
+Line 572: ;
+Line 573: ID = kmem_cache_free
+Line 573: (
+Line 573: ID = fasync_cache
+Line 573: ,
+Line 573: ID = new
+Line 573: )
+Line 573: ;
+Line 574: }
+Line 574: else
+Line 574: {
+Line 575: *
+Line 575: ID = fp
+Line 575: =
+Line 575: ID = fa
+Line 575: -
+Line 575: >
+Line 575: ID = fa_next
+Line 575: ;
+Line 576: ID = kmem_cache_free
+Line 576: (
+Line 576: ID = fasync_cache
+Line 576: ,
+Line 576: ID = fa
+Line 576: )
+Line 576: ;
+Line 577: ID = result
+Line 577: =
+Line 577: INTCON = 1
+Line 577: ;
+Line 578: }
+Line 579: ID = goto
+Line 579: ID = out
+Line 579: ;
+Line 580: }
+Line 581: }
+Line 583: if
+Line 583: (
+Line 583: ID = on
+Line 583: )
+Line 583: {
+Line 584: ID = new
+Line 584: -
+Line 584: >
+Line 584: ID = magic
+Line 584: =
+Line 584: ID = FASYNC_MAGIC
+Line 584: ;
+Line 585: ID = new
+Line 585: -
+Line 585: >
+Line 585: ID = fa_file
+Line 585: =
+Line 585: ID = filp
+Line 585: ;
+Line 586: ID = new
+Line 586: -
+Line 586: >
+Line 586: ID = fa_fd
+Line 586: =
+Line 586: ID = fd
+Line 586: ;
+Line 587: ID = new
+Line 587: -
+Line 587: >
+Line 587: ID = fa_next
+Line 587: =
+Line 587: *
+Line 587: ID = fapp
+Line 587: ;
+Line 588: *
+Line 588: ID = fapp
+Line 588: =
+Line 588: ID = new
+Line 588: ;
+Line 589: ID = result
+Line 589: =
+Line 589: INTCON = 1
+Line 589: ;
+Line 590: }
+Line 591: ID = out
+Line 591: Unrecognized token: 58
+Line 592: ID = write_unlock_irq
+Line 592: (
+Line 592: Unrecognized token: 38
+Line 592: ID = fasync_lock
+Line 592: )
+Line 592: ;
+Line 593: return
+Line 593: ID = result
+Line 593: ;
+Line 594: }
+Line 596: ID = EXPORT_SYMBOL
+Line 596: (
+Line 596: ID = fasync_helper
+Line 596: )
+Line 596: ;
+Line 598: void
+Line 598: Unrecognized token: 95
+Line 598: Unrecognized token: 95
+Line 598: ID = kill_fasync
+Line 598: (
+Line 598: ID = struct
+Line 598: ID = fasync_struct
+Line 598: *
+Line 598: ID = fa
+Line 598: ,
+Line 598: int
+Line 598: ID = sig
+Line 598: ,
+Line 598: int
+Line 598: ID = band
+Line 598: )
+Line 599: {
+Line 600: while
+Line 600: (
+Line 600: ID = fa
+Line 600: )
+Line 600: {
+Line 601: ID = struct
+Line 601: ID = fown_struct
+Line 601: *
+Line 601: ID = fown
+Line 601: ;
+Line 602: if
+Line 602: (
+Line 602: ID = fa
+Line 602: -
+Line 602: >
+Line 602: ID = magic
+Line 602: !=
+Line 602: ID = FASYNC_MAGIC
+Line 602: )
+Line 602: {
+Line 603: ID = printk
+Line 603: (
+Line 603: ID = KERN_ERR
+Line 603: STRINGCON = "kill_fasync: bad magic number in "
+Line 604: STRINGCON = "fasync_struct!\n"
+Line 604: )
+Line 604: ;
+Line 605: return
+Line 605: ;
+Line 606: }
+Line 607: ID = fown
+Line 607: =
+Line 607: Unrecognized token: 38
+Line 607: ID = fa
+Line 607: -
+Line 607: >
+Line 607: ID = fa_file
+Line 607: -
+Line 607: >
+Line 607: ID = f_owner
+Line 607: ;
+Line 611: if
+Line 611: (
+Line 611: !
+Line 611: (
+Line 611: ID = sig
+Line 611: ==
+Line 611: ID = SIGURG
+Line 611: &&
+Line 611: ID = fown
+Line 611: -
+Line 611: >
+Line 611: ID = signum
+Line 611: ==
+Line 611: INTCON = 0
+Line 611: )
+Line 611: )
+Line 612: ID = send_sigio
+Line 612: (
+Line 612: ID = fown
+Line 612: ,
+Line 612: ID = fa
+Line 612: -
+Line 612: >
+Line 612: ID = fa_fd
+Line 612: ,
+Line 612: ID = band
+Line 612: )
+Line 612: ;
+Line 613: ID = fa
+Line 613: =
+Line 613: ID = fa
+Line 613: -
+Line 613: >
+Line 613: ID = fa_next
+Line 613: ;
+Line 614: }
+Line 615: }
+Line 617: ID = EXPORT_SYMBOL
+Line 617: (
+Line 617: Unrecognized token: 95
+Line 617: Unrecognized token: 95
+Line 617: ID = kill_fasync
+Line 617: )
+Line 617: ;
+Line 619: void
+Line 619: ID = kill_fasync
+Line 619: (
+Line 619: ID = struct
+Line 619: ID = fasync_struct
+Line 619: *
+Line 619: *
+Line 619: ID = fp
+Line 619: ,
+Line 619: int
+Line 619: ID = sig
+Line 619: ,
+Line 619: int
+Line 619: ID = band
+Line 619: )
+Line 620: {
+Line 624: if
+Line 624: (
+Line 624: *
+Line 624: ID = fp
+Line 624: )
+Line 624: {
+Line 625: ID = read_lock
+Line 625: (
+Line 625: Unrecognized token: 38
+Line 625: ID = fasync_lock
+Line 625: )
+Line 625: ;
+Line 627: Unrecognized token: 95
+Line 627: Unrecognized token: 95
+Line 627: ID = kill_fasync
+Line 627: (
+Line 627: *
+Line 627: ID = fp
+Line 627: ,
+Line 627: ID = sig
+Line 627: ,
+Line 627: ID = band
+Line 627: )
+Line 627: ;
+Line 628: ID = read_unlock
+Line 628: (
+Line 628: Unrecognized token: 38
+Line 628: ID = fasync_lock
+Line 628: )
+Line 628: ;
+Line 629: }
+Line 630: }
+Line 631: ID = EXPORT_SYMBOL
+Line 631: (
+Line 631: ID = kill_fasync
+Line 631: )
+Line 631: ;
+Line 633: ID = static
+Line 633: int
+Line 633: Unrecognized token: 95
+Line 633: Unrecognized token: 95
+Line 633: ID = init
+Line 633: ID = fasync_init
+Line 633: (
+Line 633: void
+Line 633: )
+Line 634: {
+Line 635: ID = fasync_cache
+Line 635: =
+Line 635: ID = kmem_cache_create
+Line 635: (
+Line 635: STRINGCON = "fasync_cache"
+Line 635: ,
+Line 636: ID = sizeof
+Line 636: (
+Line 636: ID = struct
+Line 636: ID = fasync_struct
+Line 636: )
+Line 636: ,
+Line 636: INTCON = 0
+Line 636: ,
+Line 636: ID = SLAB_PANIC
+Line 636: ,
+Line 636: ID = NULL
+Line 636: ,
+Line 636: ID = NULL
+Line 636: )
+Line 636: ;
+Line 637: return
+Line 637: INTCON = 0
+Line 637: ;
+Line 638: }
+Line 640: ID = module_init
+Line 640: (
+Line 640: ID = fasync_init
+Line 640: )
+Line 641: -EOF-

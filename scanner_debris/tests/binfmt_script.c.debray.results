@@ -1,0 +1,629 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = module
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = string
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = stat
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = slab
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = binfmts
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = init
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = file
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = smp_lock
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = err
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = fs
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 19: ID = static
+Line 19: int
+Line 19: ID = load_script
+Line 19: (
+Line 19: ID = struct
+Line 19: ID = linux_binprm
+Line 19: *
+Line 19: ID = bprm
+Line 19: ,
+Line 19: ID = struct
+Line 19: ID = pt_regs
+Line 19: *
+Line 19: ID = regs
+Line 19: )
+Line 20: {
+Line 21: char
+Line 21: *
+Line 21: ID = cp
+Line 21: ,
+Line 21: *
+Line 21: ID = i_name
+Line 21: ,
+Line 21: *
+Line 21: ID = i_arg
+Line 21: ;
+Line 22: ID = struct
+Line 22: ID = file
+Line 22: *
+Line 22: ID = file
+Line 22: ;
+Line 23: char
+Line 23: ID = interp
+Line 23: [
+Line 23: ID = BINPRM_BUF_SIZE
+Line 23: ]
+Line 23: ;
+Line 24: int
+Line 24: ID = retval
+Line 24: ;
+Line 26: if
+Line 26: (
+Line 26: (
+Line 26: ID = bprm
+Line 26: -
+Line 26: >
+Line 26: ID = buf
+Line 26: [
+Line 26: INTCON = 0
+Line 26: ]
+Line 26: !=
+Line 26: CHARCON = '#'
+Line 26: )
+Line 26: ||
+Line 26: (
+Line 26: ID = bprm
+Line 26: -
+Line 26: >
+Line 26: ID = buf
+Line 26: [
+Line 26: INTCON = 1
+Line 26: ]
+Line 26: !=
+Line 26: CHARCON = '!'
+Line 26: )
+Line 26: ||
+Line 26: (
+Line 26: ID = bprm
+Line 26: -
+Line 26: >
+Line 26: ID = sh_bang
+Line 26: )
+Line 26: )
+Line 27: return
+Line 27: -
+Line 27: ID = ENOEXEC
+Line 27: ;
+Line 33: ID = bprm
+Line 33: -
+Line 33: >
+Line 33: ID = sh_bang
+Line 33: +
+Line 33: +
+Line 33: ;
+Line 34: ID = allow_write_access
+Line 34: (
+Line 34: ID = bprm
+Line 34: -
+Line 34: >
+Line 34: ID = file
+Line 34: )
+Line 34: ;
+Line 35: ID = fput
+Line 35: (
+Line 35: ID = bprm
+Line 35: -
+Line 35: >
+Line 35: ID = file
+Line 35: )
+Line 35: ;
+Line 36: ID = bprm
+Line 36: -
+Line 36: >
+Line 36: ID = file
+Line 36: =
+Line 36: ID = NULL
+Line 36: ;
+Line 38: ID = bprm
+Line 38: -
+Line 38: >
+Line 38: ID = buf
+Line 38: [
+Line 38: ID = BINPRM_BUF_SIZE
+Line 38: -
+Line 38: INTCON = 1
+Line 38: ]
+Line 38: =
+Line 38: CHARCON = '\0'
+Line 38: ;
+Line 39: if
+Line 39: (
+Line 39: (
+Line 39: ID = cp
+Line 39: =
+Line 39: ID = strchr
+Line 39: (
+Line 39: ID = bprm
+Line 39: -
+Line 39: >
+Line 39: ID = buf
+Line 39: ,
+Line 39: CHARCON = '\n'
+Line 39: )
+Line 39: )
+Line 39: ==
+Line 39: ID = NULL
+Line 39: )
+Line 40: ID = cp
+Line 40: =
+Line 40: ID = bprm
+Line 40: -
+Line 40: >
+Line 40: ID = buf
+Line 40: +
+Line 40: ID = BINPRM_BUF_SIZE
+Line 40: -
+Line 40: INTCON = 1
+Line 40: ;
+Line 41: *
+Line 41: ID = cp
+Line 41: =
+Line 41: CHARCON = '\0'
+Line 41: ;
+Line 42: while
+Line 42: (
+Line 42: ID = cp
+Line 42: >
+Line 42: ID = bprm
+Line 42: -
+Line 42: >
+Line 42: ID = buf
+Line 42: )
+Line 42: {
+Line 43: ID = cp
+Line 43: -
+Line 43: -
+Line 43: ;
+Line 44: if
+Line 44: (
+Line 44: (
+Line 44: *
+Line 44: ID = cp
+Line 44: ==
+Line 44: CHARCON = ' '
+Line 44: )
+Line 44: ||
+Line 44: (
+Line 44: *
+Line 44: ID = cp
+Line 44: ==
+Line 44: Unrecognized token: 39
+Line 44: Unrecognized token: 92
+Line 44: ID = t
+Line 44: Unrecognized token: 39
+Line 44: )
+Line 44: )
+Line 45: *
+Line 45: ID = cp
+Line 45: =
+Line 45: CHARCON = '\0'
+Line 45: ;
+Line 46: else
+Line 47: ID = break
+Line 47: ;
+Line 48: }
+Line 49: for
+Line 49: (
+Line 49: ID = cp
+Line 49: =
+Line 49: ID = bprm
+Line 49: -
+Line 49: >
+Line 49: ID = buf
+Line 49: +
+Line 49: INTCON = 2
+Line 49: ;
+Line 49: (
+Line 49: *
+Line 49: ID = cp
+Line 49: ==
+Line 49: CHARCON = ' '
+Line 49: )
+Line 49: ||
+Line 49: (
+Line 49: *
+Line 49: ID = cp
+Line 49: ==
+Line 49: Unrecognized token: 39
+Line 49: Unrecognized token: 92
+Line 49: ID = t
+Line 49: Unrecognized token: 39
+Line 49: )
+Line 49: ;
+Line 49: ID = cp
+Line 49: +
+Line 49: +
+Line 49: )
+Line 49: ;
+Line 50: if
+Line 50: (
+Line 50: *
+Line 50: ID = cp
+Line 50: ==
+Line 50: CHARCON = '\0'
+Line 50: )
+Line 51: return
+Line 51: -
+Line 51: ID = ENOEXEC
+Line 51: ;
+Line 52: ID = i_name
+Line 52: =
+Line 52: ID = cp
+Line 52: ;
+Line 53: ID = i_arg
+Line 53: =
+Line 53: ID = NULL
+Line 53: ;
+Line 54: for
+Line 54: (
+Line 54: ;
+Line 54: *
+Line 54: ID = cp
+Line 54: &&
+Line 54: (
+Line 54: *
+Line 54: ID = cp
+Line 54: !=
+Line 54: CHARCON = ' '
+Line 54: )
+Line 54: &&
+Line 54: (
+Line 54: *
+Line 54: ID = cp
+Line 54: !=
+Line 54: Unrecognized token: 39
+Line 54: Unrecognized token: 92
+Line 54: ID = t
+Line 54: Unrecognized token: 39
+Line 54: )
+Line 54: ;
+Line 54: ID = cp
+Line 54: +
+Line 54: +
+Line 54: )
+Line 55: ;
+Line 56: while
+Line 56: (
+Line 56: (
+Line 56: *
+Line 56: ID = cp
+Line 56: ==
+Line 56: CHARCON = ' '
+Line 56: )
+Line 56: ||
+Line 56: (
+Line 56: *
+Line 56: ID = cp
+Line 56: ==
+Line 56: Unrecognized token: 39
+Line 56: Unrecognized token: 92
+Line 56: ID = t
+Line 56: Unrecognized token: 39
+Line 56: )
+Line 56: )
+Line 57: *
+Line 57: ID = cp
+Line 57: +
+Line 57: +
+Line 57: =
+Line 57: CHARCON = '\0'
+Line 57: ;
+Line 58: if
+Line 58: (
+Line 58: *
+Line 58: ID = cp
+Line 58: )
+Line 59: ID = i_arg
+Line 59: =
+Line 59: ID = cp
+Line 59: ;
+Line 60: ID = strcpy
+Line 60: (
+Line 60: ID = interp
+Line 60: ,
+Line 60: ID = i_name
+Line 60: )
+Line 60: ;
+Line 71: ID = remove_arg_zero
+Line 71: (
+Line 71: ID = bprm
+Line 71: )
+Line 71: ;
+Line 72: ID = retval
+Line 72: =
+Line 72: ID = copy_strings_kernel
+Line 72: (
+Line 72: INTCON = 1
+Line 72: ,
+Line 72: Unrecognized token: 38
+Line 72: ID = bprm
+Line 72: -
+Line 72: >
+Line 72: ID = interp
+Line 72: ,
+Line 72: ID = bprm
+Line 72: )
+Line 72: ;
+Line 73: if
+Line 73: (
+Line 73: ID = retval
+Line 73: <
+Line 73: INTCON = 0
+Line 73: )
+Line 73: return
+Line 73: ID = retval
+Line 73: ;
+Line 74: ID = bprm
+Line 74: -
+Line 74: >
+Line 74: ID = argc
+Line 74: +
+Line 74: +
+Line 74: ;
+Line 75: if
+Line 75: (
+Line 75: ID = i_arg
+Line 75: )
+Line 75: {
+Line 76: ID = retval
+Line 76: =
+Line 76: ID = copy_strings_kernel
+Line 76: (
+Line 76: INTCON = 1
+Line 76: ,
+Line 76: Unrecognized token: 38
+Line 76: ID = i_arg
+Line 76: ,
+Line 76: ID = bprm
+Line 76: )
+Line 76: ;
+Line 77: if
+Line 77: (
+Line 77: ID = retval
+Line 77: <
+Line 77: INTCON = 0
+Line 77: )
+Line 77: return
+Line 77: ID = retval
+Line 77: ;
+Line 78: ID = bprm
+Line 78: -
+Line 78: >
+Line 78: ID = argc
+Line 78: +
+Line 78: +
+Line 78: ;
+Line 79: }
+Line 80: ID = retval
+Line 80: =
+Line 80: ID = copy_strings_kernel
+Line 80: (
+Line 80: INTCON = 1
+Line 80: ,
+Line 80: Unrecognized token: 38
+Line 80: ID = i_name
+Line 80: ,
+Line 80: ID = bprm
+Line 80: )
+Line 80: ;
+Line 81: if
+Line 81: (
+Line 81: ID = retval
+Line 81: )
+Line 81: return
+Line 81: ID = retval
+Line 81: ;
+Line 82: ID = bprm
+Line 82: -
+Line 82: >
+Line 82: ID = argc
+Line 82: +
+Line 82: +
+Line 82: ;
+Line 83: ID = bprm
+Line 83: -
+Line 83: >
+Line 83: ID = interp
+Line 83: =
+Line 83: ID = interp
+Line 83: ;
+Line 88: ID = file
+Line 88: =
+Line 88: ID = open_exec
+Line 88: (
+Line 88: ID = interp
+Line 88: )
+Line 88: ;
+Line 89: if
+Line 89: (
+Line 89: ID = IS_ERR
+Line 89: (
+Line 89: ID = file
+Line 89: )
+Line 89: )
+Line 90: return
+Line 90: ID = PTR_ERR
+Line 90: (
+Line 90: ID = file
+Line 90: )
+Line 90: ;
+Line 92: ID = bprm
+Line 92: -
+Line 92: >
+Line 92: ID = file
+Line 92: =
+Line 92: ID = file
+Line 92: ;
+Line 93: ID = retval
+Line 93: =
+Line 93: ID = prepare_binprm
+Line 93: (
+Line 93: ID = bprm
+Line 93: )
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: ID = retval
+Line 94: <
+Line 94: INTCON = 0
+Line 94: )
+Line 95: return
+Line 95: ID = retval
+Line 95: ;
+Line 96: return
+Line 96: ID = search_binary_handler
+Line 96: (
+Line 96: ID = bprm
+Line 96: ,
+Line 96: ID = regs
+Line 96: )
+Line 96: ;
+Line 97: }
+Line 99: ID = struct
+Line 99: ID = linux_binfmt
+Line 99: ID = script_format
+Line 99: =
+Line 99: {
+Line 100: Unrecognized token: 46
+Line 100: ID = module
+Line 100: =
+Line 100: ID = THIS_MODULE
+Line 100: ,
+Line 101: Unrecognized token: 46
+Line 101: ID = load_binary
+Line 101: =
+Line 101: ID = load_script
+Line 101: ,
+Line 102: }
+Line 102: ;
+Line 104: ID = static
+Line 104: int
+Line 104: Unrecognized token: 95
+Line 104: Unrecognized token: 95
+Line 104: ID = init
+Line 104: ID = init_script_binfmt
+Line 104: (
+Line 104: void
+Line 104: )
+Line 105: {
+Line 106: return
+Line 106: ID = register_binfmt
+Line 106: (
+Line 106: Unrecognized token: 38
+Line 106: ID = script_format
+Line 106: )
+Line 106: ;
+Line 107: }
+Line 109: ID = static
+Line 109: void
+Line 109: Unrecognized token: 95
+Line 109: Unrecognized token: 95
+Line 109: ID = exit
+Line 109: ID = exit_script_binfmt
+Line 109: (
+Line 109: void
+Line 109: )
+Line 110: {
+Line 111: ID = unregister_binfmt
+Line 111: (
+Line 111: Unrecognized token: 38
+Line 111: ID = script_format
+Line 111: )
+Line 111: ;
+Line 112: }
+Line 114: ID = core_initcall
+Line 114: (
+Line 114: ID = init_script_binfmt
+Line 114: )
+Line 114: ;
+Line 115: ID = module_exit
+Line 115: (
+Line 115: ID = exit_script_binfmt
+Line 115: )
+Line 115: ;
+Line 116: ID = MODULE_LICENSE
+Line 116: (
+Line 116: STRINGCON = "GPL"
+Line 116: )
+Line 116: ;
+Line 117: -EOF-

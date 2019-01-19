@@ -1,0 +1,18 @@
+/* Checking that return types are okay */
+
+int alpha(void);
+void bravo(void);
+
+void charlie(void)
+{
+    int a;
+
+    alpha();
+
+    a = bravo() + 3;    
+}
+
+void delta(void)
+{
+    return 42;
+}

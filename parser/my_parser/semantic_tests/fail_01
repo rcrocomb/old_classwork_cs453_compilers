@@ -1,0 +1,77 @@
+/* Simple RETURN statement tests that should fail */
+
+void alpha(void)
+{
+    return 1;           /* returning value in a void func */
+}
+
+void bravo(void)
+{
+    return "wow";       /* returning value in a void func */
+}
+
+void charlie(void)
+{
+    return 'a';         /* returning value in a void func */ 
+}
+
+void delta(void)
+{
+    int echo[4];
+    return echo;        /* returning value in a void func */
+}
+
+void foxtroxt(void)
+{
+    int golf[4];
+    return golf[0];     /* returning value in a void func */
+}
+
+/* switching from void to int */
+
+int golf(void)
+{
+    return;             /* returning void for non-void function */
+}
+
+int hotel(void)
+{
+    return "shazam";    /* returning incompatible value for non-void function */
+}
+
+int india(void)
+{
+    int juliet[4];
+    return juliet;
+}
+
+int kilo(void)
+{
+    char lima[4];
+    return lima;
+}
+
+/* switch from int to char */
+
+char mike(void)
+{
+    return;
+}
+
+char november(void)
+{
+    return "shazam";
+}
+
+char oscar(void)
+{
+    int papa[4];
+    return papa;
+}
+
+char quebec(void)
+{
+    char romeo[4];
+    return romeo;
+}
+

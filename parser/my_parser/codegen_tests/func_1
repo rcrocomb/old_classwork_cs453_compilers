@@ -1,0 +1,36 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+void a_func(int x, int y, char z[], int p[], char c);
+void main(void);
+
+void
+a_func(int x, int y, char z[], int p[], char c)
+{
+    int d, e, f;
+    char g, h, i;
+
+    print_string("\nLast parameter == ");
+    print_int(c);
+    print_string("\n");
+
+    z[1] = 42;
+}
+
+void
+main(void)
+{
+    int p1, p2;
+    char p3[2];
+    int p4[10];
+
+    p3[0] = 0;
+    p3[1] = 0;
+    a_func(p1, p2, p3, p4, '\0');
+    print_string("p[0] == ");
+    print_int(p3[0]);
+    print_string("\np[1] == ");
+    print_int(p3[1]);
+    print_string("\n");
+}
+

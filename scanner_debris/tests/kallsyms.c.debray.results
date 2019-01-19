@@ -1,0 +1,1581 @@
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = kallsyms
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = module
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = init
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = seq_file
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = fs
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = err
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = proc_fs
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 18: extern
+Line 18: ID = unsigned
+Line 18: ID = long
+Line 18: ID = kallsyms_addresses
+Line 18: [
+Line 18: ]
+Line 18: Unrecognized token: 95
+Line 18: Unrecognized token: 95
+Line 18: ID = attribute__
+Line 18: (
+Line 18: (
+Line 18: ID = weak
+Line 18: )
+Line 18: )
+Line 18: ;
+Line 19: extern
+Line 19: ID = unsigned
+Line 19: ID = long
+Line 19: ID = kallsyms_num_syms
+Line 19: Unrecognized token: 95
+Line 19: Unrecognized token: 95
+Line 19: ID = attribute__
+Line 19: (
+Line 19: (
+Line 19: ID = weak
+Line 19: )
+Line 19: )
+Line 19: ;
+Line 20: extern
+Line 20: char
+Line 20: ID = kallsyms_names
+Line 20: [
+Line 20: ]
+Line 20: Unrecognized token: 95
+Line 20: Unrecognized token: 95
+Line 20: ID = attribute__
+Line 20: (
+Line 20: (
+Line 20: ID = weak
+Line 20: )
+Line 20: )
+Line 20: ;
+Line 23: extern
+Line 23: char
+Line 23: Unrecognized token: 95
+Line 23: ID = stext
+Line 23: [
+Line 23: ]
+Line 23: ,
+Line 23: Unrecognized token: 95
+Line 23: ID = etext
+Line 23: [
+Line 23: ]
+Line 23: ,
+Line 23: Unrecognized token: 95
+Line 23: ID = sinittext
+Line 23: [
+Line 23: ]
+Line 23: ,
+Line 23: Unrecognized token: 95
+Line 23: ID = einittext
+Line 23: [
+Line 23: ]
+Line 23: ;
+Line 25: ID = static
+Line 25: ID = inline
+Line 25: int
+Line 25: ID = is_kernel_inittext
+Line 25: (
+Line 25: ID = unsigned
+Line 25: ID = long
+Line 25: ID = addr
+Line 25: )
+Line 26: {
+Line 27: if
+Line 27: (
+Line 27: ID = addr
+Line 27: >=
+Line 27: (
+Line 27: ID = unsigned
+Line 27: ID = long
+Line 27: )
+Line 27: Unrecognized token: 95
+Line 27: ID = sinittext
+Line 28: &&
+Line 28: ID = addr
+Line 28: <=
+Line 28: (
+Line 28: ID = unsigned
+Line 28: ID = long
+Line 28: )
+Line 28: Unrecognized token: 95
+Line 28: ID = einittext
+Line 28: )
+Line 29: return
+Line 29: INTCON = 1
+Line 29: ;
+Line 30: return
+Line 30: INTCON = 0
+Line 30: ;
+Line 31: }
+Line 33: ID = static
+Line 33: ID = inline
+Line 33: int
+Line 33: ID = is_kernel_text
+Line 33: (
+Line 33: ID = unsigned
+Line 33: ID = long
+Line 33: ID = addr
+Line 33: )
+Line 34: {
+Line 35: if
+Line 35: (
+Line 35: ID = addr
+Line 35: >=
+Line 35: (
+Line 35: ID = unsigned
+Line 35: ID = long
+Line 35: )
+Line 35: Unrecognized token: 95
+Line 35: ID = stext
+Line 35: &&
+Line 35: ID = addr
+Line 35: <=
+Line 35: (
+Line 35: ID = unsigned
+Line 35: ID = long
+Line 35: )
+Line 35: Unrecognized token: 95
+Line 35: ID = etext
+Line 35: )
+Line 36: return
+Line 36: INTCON = 1
+Line 36: ;
+Line 37: return
+Line 37: INTCON = 0
+Line 37: ;
+Line 38: }
+Line 41: ID = unsigned
+Line 41: ID = long
+Line 41: ID = kallsyms_lookup_name
+Line 41: (
+Line 41: ID = const
+Line 41: char
+Line 41: *
+Line 41: ID = name
+Line 41: )
+Line 42: {
+Line 43: char
+Line 43: ID = namebuf
+Line 43: [
+Line 43: ID = KSYM_NAME_LEN
+Line 43: +
+Line 43: INTCON = 1
+Line 43: ]
+Line 43: ;
+Line 44: ID = unsigned
+Line 44: ID = long
+Line 44: ID = i
+Line 44: ;
+Line 45: char
+Line 45: *
+Line 45: ID = knames
+Line 45: ;
+Line 47: for
+Line 47: (
+Line 47: ID = i
+Line 47: =
+Line 47: INTCON = 0
+Line 47: ,
+Line 47: ID = knames
+Line 47: =
+Line 47: ID = kallsyms_names
+Line 47: ;
+Line 47: ID = i
+Line 47: <
+Line 47: ID = kallsyms_num_syms
+Line 47: ;
+Line 47: ID = i
+Line 47: +
+Line 47: +
+Line 47: )
+Line 47: {
+Line 48: ID = unsigned
+Line 48: ID = prefix
+Line 48: =
+Line 48: *
+Line 48: ID = knames
+Line 48: +
+Line 48: +
+Line 48: ;
+Line 50: ID = strlcpy
+Line 50: (
+Line 50: ID = namebuf
+Line 50: +
+Line 50: ID = prefix
+Line 50: ,
+Line 50: ID = knames
+Line 50: ,
+Line 50: ID = KSYM_NAME_LEN
+Line 50: -
+Line 50: ID = prefix
+Line 50: )
+Line 50: ;
+Line 51: if
+Line 51: (
+Line 51: ID = strcmp
+Line 51: (
+Line 51: ID = namebuf
+Line 51: ,
+Line 51: ID = name
+Line 51: )
+Line 51: ==
+Line 51: INTCON = 0
+Line 51: )
+Line 52: return
+Line 52: ID = kallsyms_addresses
+Line 52: [
+Line 52: ID = i
+Line 52: ]
+Line 52: ;
+Line 54: ID = knames
+Line 54: +
+Line 54: =
+Line 54: ID = strlen
+Line 54: (
+Line 54: ID = knames
+Line 54: )
+Line 54: +
+Line 54: INTCON = 1
+Line 54: ;
+Line 55: }
+Line 56: return
+Line 56: ID = module_kallsyms_lookup_name
+Line 56: (
+Line 56: ID = name
+Line 56: )
+Line 56: ;
+Line 57: }
+Line 60: ID = const
+Line 60: char
+Line 60: *
+Line 60: ID = kallsyms_lookup
+Line 60: (
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = addr
+Line 60: ,
+Line 61: ID = unsigned
+Line 61: ID = long
+Line 61: *
+Line 61: ID = symbolsize
+Line 61: ,
+Line 62: ID = unsigned
+Line 62: ID = long
+Line 62: *
+Line 62: ID = offset
+Line 62: ,
+Line 63: char
+Line 63: *
+Line 63: *
+Line 63: ID = modname
+Line 63: ,
+Line 63: char
+Line 63: *
+Line 63: ID = namebuf
+Line 63: )
+Line 64: {
+Line 65: ID = unsigned
+Line 65: ID = long
+Line 65: ID = i
+Line 65: ,
+Line 65: ID = best
+Line 65: =
+Line 65: INTCON = 0
+Line 65: ;
+Line 68: ID = BUG_ON
+Line 68: (
+Line 68: !
+Line 68: ID = kallsyms_addresses
+Line 68: )
+Line 68: ;
+Line 70: ID = namebuf
+Line 70: [
+Line 70: ID = KSYM_NAME_LEN
+Line 70: ]
+Line 70: =
+Line 70: INTCON = 0
+Line 70: ;
+Line 71: ID = namebuf
+Line 71: [
+Line 71: INTCON = 0
+Line 71: ]
+Line 71: =
+Line 71: INTCON = 0
+Line 71: ;
+Line 73: if
+Line 73: (
+Line 73: ID = is_kernel_text
+Line 73: (
+Line 73: ID = addr
+Line 73: )
+Line 73: ||
+Line 73: ID = is_kernel_inittext
+Line 73: (
+Line 73: ID = addr
+Line 73: )
+Line 73: )
+Line 73: {
+Line 74: ID = unsigned
+Line 74: ID = long
+Line 74: ID = symbol_end
+Line 74: ;
+Line 75: char
+Line 75: *
+Line 75: ID = name
+Line 75: =
+Line 75: ID = kallsyms_names
+Line 75: ;
+Line 78: for
+Line 78: (
+Line 78: ID = i
+Line 78: =
+Line 78: INTCON = 0
+Line 78: ;
+Line 78: ID = i
+Line 78: <
+Line 78: ID = kallsyms_num_syms
+Line 78: ;
+Line 78: ID = i
+Line 78: +
+Line 78: +
+Line 78: )
+Line 78: {
+Line 79: if
+Line 79: (
+Line 79: ID = kallsyms_addresses
+Line 79: [
+Line 79: ID = i
+Line 79: ]
+Line 79: >
+Line 79: ID = kallsyms_addresses
+Line 79: [
+Line 79: ID = best
+Line 79: ]
+Line 79: &&
+Line 80: ID = kallsyms_addresses
+Line 80: [
+Line 80: ID = i
+Line 80: ]
+Line 80: <=
+Line 80: ID = addr
+Line 80: )
+Line 81: ID = best
+Line 81: =
+Line 81: ID = i
+Line 81: ;
+Line 82: }
+Line 85: for
+Line 85: (
+Line 85: ID = i
+Line 85: =
+Line 85: INTCON = 0
+Line 85: ;
+Line 85: ID = i
+Line 85: <=
+Line 85: ID = best
+Line 85: ;
+Line 85: ID = i
+Line 85: +
+Line 85: +
+Line 85: )
+Line 85: {
+Line 86: ID = unsigned
+Line 86: ID = prefix
+Line 86: =
+Line 86: *
+Line 86: ID = name
+Line 86: +
+Line 86: +
+Line 86: ;
+Line 87: ID = strncpy
+Line 87: (
+Line 87: ID = namebuf
+Line 87: +
+Line 87: ID = prefix
+Line 87: ,
+Line 87: ID = name
+Line 87: ,
+Line 87: ID = KSYM_NAME_LEN
+Line 87: -
+Line 87: ID = prefix
+Line 87: )
+Line 87: ;
+Line 88: ID = name
+Line 88: +
+Line 88: =
+Line 88: ID = strlen
+Line 88: (
+Line 88: ID = name
+Line 88: )
+Line 88: +
+Line 88: INTCON = 1
+Line 88: ;
+Line 89: }
+Line 92: if
+Line 92: (
+Line 92: ID = is_kernel_inittext
+Line 92: (
+Line 92: ID = addr
+Line 92: )
+Line 92: )
+Line 93: ID = symbol_end
+Line 93: =
+Line 93: (
+Line 93: ID = unsigned
+Line 93: ID = long
+Line 93: )
+Line 93: Unrecognized token: 95
+Line 93: ID = einittext
+Line 93: ;
+Line 94: else
+Line 95: ID = symbol_end
+Line 95: =
+Line 95: (
+Line 95: ID = unsigned
+Line 95: ID = long
+Line 95: )
+Line 95: Unrecognized token: 95
+Line 95: ID = etext
+Line 95: ;
+Line 98: for
+Line 98: (
+Line 98: ID = i
+Line 98: =
+Line 98: ID = best
+Line 98: +
+Line 98: INTCON = 1
+Line 98: ;
+Line 98: ID = i
+Line 98: <
+Line 98: ID = kallsyms_num_syms
+Line 98: ;
+Line 98: ID = i
+Line 98: +
+Line 98: +
+Line 98: )
+Line 98: {
+Line 99: if
+Line 99: (
+Line 99: ID = kallsyms_addresses
+Line 99: [
+Line 99: ID = i
+Line 99: ]
+Line 99: >
+Line 99: ID = kallsyms_addresses
+Line 99: [
+Line 99: ID = best
+Line 99: ]
+Line 99: )
+Line 99: {
+Line 100: ID = symbol_end
+Line 100: =
+Line 100: ID = kallsyms_addresses
+Line 100: [
+Line 100: ID = i
+Line 100: ]
+Line 100: ;
+Line 101: ID = break
+Line 101: ;
+Line 102: }
+Line 103: }
+Line 105: *
+Line 105: ID = symbolsize
+Line 105: =
+Line 105: ID = symbol_end
+Line 105: -
+Line 105: ID = kallsyms_addresses
+Line 105: [
+Line 105: ID = best
+Line 105: ]
+Line 105: ;
+Line 106: *
+Line 106: ID = modname
+Line 106: =
+Line 106: ID = NULL
+Line 106: ;
+Line 107: *
+Line 107: ID = offset
+Line 107: =
+Line 107: ID = addr
+Line 107: -
+Line 107: ID = kallsyms_addresses
+Line 107: [
+Line 107: ID = best
+Line 107: ]
+Line 107: ;
+Line 108: return
+Line 108: ID = namebuf
+Line 108: ;
+Line 109: }
+Line 111: return
+Line 111: ID = module_address_lookup
+Line 111: (
+Line 111: ID = addr
+Line 111: ,
+Line 111: ID = symbolsize
+Line 111: ,
+Line 111: ID = offset
+Line 111: ,
+Line 111: ID = modname
+Line 111: )
+Line 111: ;
+Line 112: }
+Line 115: void
+Line 115: Unrecognized token: 95
+Line 115: Unrecognized token: 95
+Line 115: ID = print_symbol
+Line 115: (
+Line 115: ID = const
+Line 115: char
+Line 115: *
+Line 115: ID = fmt
+Line 115: ,
+Line 115: ID = unsigned
+Line 115: ID = long
+Line 115: ID = address
+Line 115: )
+Line 116: {
+Line 117: char
+Line 117: *
+Line 117: ID = modname
+Line 117: ;
+Line 118: ID = const
+Line 118: char
+Line 118: *
+Line 118: ID = name
+Line 118: ;
+Line 119: ID = unsigned
+Line 119: ID = long
+Line 119: ID = offset
+Line 119: ,
+Line 119: ID = size
+Line 119: ;
+Line 120: char
+Line 120: ID = namebuf
+Line 120: [
+Line 120: ID = KSYM_NAME_LEN
+Line 120: +
+Line 120: INTCON = 1
+Line 120: ]
+Line 120: ;
+Line 121: char
+Line 121: ID = buffer
+Line 121: [
+Line 121: ID = sizeof
+Line 121: (
+Line 121: STRINGCON = "%s+%#lx/%#lx [%s]"
+Line 121: )
+Line 121: +
+Line 121: ID = KSYM_NAME_LEN
+Line 121: +
+Line 122: INTCON = 2
+Line 122: *
+Line 122: (
+Line 122: ID = BITS_PER_LONG
+Line 122: *
+Line 122: INTCON = 3
+Line 122: /
+Line 122: INTCON = 10
+Line 122: )
+Line 122: +
+Line 122: ID = MODULE_NAME_LEN
+Line 122: +
+Line 122: INTCON = 1
+Line 122: ]
+Line 122: ;
+Line 124: ID = name
+Line 124: =
+Line 124: ID = kallsyms_lookup
+Line 124: (
+Line 124: ID = address
+Line 124: ,
+Line 124: Unrecognized token: 38
+Line 124: ID = size
+Line 124: ,
+Line 124: Unrecognized token: 38
+Line 124: ID = offset
+Line 124: ,
+Line 124: Unrecognized token: 38
+Line 124: ID = modname
+Line 124: ,
+Line 124: ID = namebuf
+Line 124: )
+Line 124: ;
+Line 126: if
+Line 126: (
+Line 126: !
+Line 126: ID = name
+Line 126: )
+Line 127: ID = sprintf
+Line 127: (
+Line 127: ID = buffer
+Line 127: ,
+Line 127: STRINGCON = "0x%lx"
+Line 127: ,
+Line 127: ID = address
+Line 127: )
+Line 127: ;
+Line 128: else
+Line 128: {
+Line 129: if
+Line 129: (
+Line 129: ID = modname
+Line 129: )
+Line 130: ID = sprintf
+Line 130: (
+Line 130: ID = buffer
+Line 130: ,
+Line 130: STRINGCON = "%s+%#lx/%#lx [%s]"
+Line 130: ,
+Line 130: ID = name
+Line 130: ,
+Line 130: ID = offset
+Line 130: ,
+Line 131: ID = size
+Line 131: ,
+Line 131: ID = modname
+Line 131: )
+Line 131: ;
+Line 132: else
+Line 133: ID = sprintf
+Line 133: (
+Line 133: ID = buffer
+Line 133: ,
+Line 133: STRINGCON = "%s+%#lx/%#lx"
+Line 133: ,
+Line 133: ID = name
+Line 133: ,
+Line 133: ID = offset
+Line 133: ,
+Line 133: ID = size
+Line 133: )
+Line 133: ;
+Line 134: }
+Line 135: ID = printk
+Line 135: (
+Line 135: ID = fmt
+Line 135: ,
+Line 135: ID = buffer
+Line 135: )
+Line 135: ;
+Line 136: }
+Line 139: ID = struct
+Line 139: ID = kallsym_iter
+Line 140: {
+Line 141: ID = loff_t
+Line 141: ID = pos
+Line 141: ;
+Line 142: ID = struct
+Line 142: ID = module
+Line 142: *
+Line 142: ID = owner
+Line 142: ;
+Line 143: ID = unsigned
+Line 143: ID = long
+Line 143: ID = value
+Line 143: ;
+Line 144: ID = unsigned
+Line 144: int
+Line 144: ID = nameoff
+Line 144: ;
+Line 145: char
+Line 145: ID = type
+Line 145: ;
+Line 146: char
+Line 146: ID = name
+Line 146: [
+Line 146: ID = KSYM_NAME_LEN
+Line 146: +
+Line 146: INTCON = 1
+Line 146: ]
+Line 146: ;
+Line 147: }
+Line 147: ;
+Line 150: ID = static
+Line 150: void
+Line 150: ID = upcase_if_global
+Line 150: (
+Line 150: ID = struct
+Line 150: ID = kallsym_iter
+Line 150: *
+Line 150: ID = iter
+Line 150: )
+Line 151: {
+Line 152: if
+Line 152: (
+Line 152: ID = is_exported
+Line 152: (
+Line 152: ID = iter
+Line 152: -
+Line 152: >
+Line 152: ID = name
+Line 152: ,
+Line 152: ID = iter
+Line 152: -
+Line 152: >
+Line 152: ID = owner
+Line 152: )
+Line 152: )
+Line 153: ID = iter
+Line 153: -
+Line 153: >
+Line 153: ID = type
+Line 153: +
+Line 153: =
+Line 153: CHARCON = 'A'
+Line 153: -
+Line 153: CHARCON = 'a'
+Line 153: ;
+Line 154: }
+Line 156: ID = static
+Line 156: int
+Line 156: ID = get_ksymbol_mod
+Line 156: (
+Line 156: ID = struct
+Line 156: ID = kallsym_iter
+Line 156: *
+Line 156: ID = iter
+Line 156: )
+Line 157: {
+Line 158: ID = iter
+Line 158: -
+Line 158: >
+Line 158: ID = owner
+Line 158: =
+Line 158: ID = module_get_kallsym
+Line 158: (
+Line 158: ID = iter
+Line 158: -
+Line 158: >
+Line 158: ID = pos
+Line 158: -
+Line 158: ID = kallsyms_num_syms
+Line 158: ,
+Line 159: Unrecognized token: 38
+Line 159: ID = iter
+Line 159: -
+Line 159: >
+Line 159: ID = value
+Line 159: ,
+Line 160: Unrecognized token: 38
+Line 160: ID = iter
+Line 160: -
+Line 160: >
+Line 160: ID = type
+Line 160: ,
+Line 160: ID = iter
+Line 160: -
+Line 160: >
+Line 160: ID = name
+Line 160: )
+Line 160: ;
+Line 161: if
+Line 161: (
+Line 161: ID = iter
+Line 161: -
+Line 161: >
+Line 161: ID = owner
+Line 161: ==
+Line 161: ID = NULL
+Line 161: )
+Line 162: return
+Line 162: INTCON = 0
+Line 162: ;
+Line 164: ID = upcase_if_global
+Line 164: (
+Line 164: ID = iter
+Line 164: )
+Line 164: ;
+Line 165: return
+Line 165: INTCON = 1
+Line 165: ;
+Line 166: }
+Line 169: ID = static
+Line 169: ID = unsigned
+Line 169: ID = long
+Line 169: ID = get_ksymbol_core
+Line 169: (
+Line 169: ID = struct
+Line 169: ID = kallsym_iter
+Line 169: *
+Line 169: ID = iter
+Line 169: )
+Line 170: {
+Line 171: ID = unsigned
+Line 171: ID = stemlen
+Line 171: ,
+Line 171: ID = off
+Line 171: =
+Line 171: ID = iter
+Line 171: -
+Line 171: >
+Line 171: ID = nameoff
+Line 171: ;
+Line 175: ID = stemlen
+Line 175: =
+Line 175: ID = kallsyms_names
+Line 175: [
+Line 175: ID = off
+Line 175: +
+Line 175: +
+Line 175: ]
+Line 175: ;
+Line 177: ID = strlcpy
+Line 177: (
+Line 177: ID = iter
+Line 177: -
+Line 177: >
+Line 177: ID = name
+Line 177: +
+Line 177: ID = stemlen
+Line 177: ,
+Line 177: ID = kallsyms_names
+Line 177: +
+Line 177: ID = off
+Line 177: ,
+Line 178: ID = KSYM_NAME_LEN
+Line 178: +
+Line 178: INTCON = 1
+Line 178: -
+Line 178: ID = stemlen
+Line 178: )
+Line 178: ;
+Line 179: ID = off
+Line 179: +
+Line 179: =
+Line 179: ID = strlen
+Line 179: (
+Line 179: ID = kallsyms_names
+Line 179: +
+Line 179: ID = off
+Line 179: )
+Line 179: +
+Line 179: INTCON = 1
+Line 179: ;
+Line 180: ID = iter
+Line 180: -
+Line 180: >
+Line 180: ID = owner
+Line 180: =
+Line 180: ID = NULL
+Line 180: ;
+Line 181: ID = iter
+Line 181: -
+Line 181: >
+Line 181: ID = value
+Line 181: =
+Line 181: ID = kallsyms_addresses
+Line 181: [
+Line 181: ID = iter
+Line 181: -
+Line 181: >
+Line 181: ID = pos
+Line 181: ]
+Line 181: ;
+Line 182: if
+Line 182: (
+Line 182: ID = is_kernel_text
+Line 182: (
+Line 182: ID = iter
+Line 182: -
+Line 182: >
+Line 182: ID = value
+Line 182: )
+Line 182: ||
+Line 182: ID = is_kernel_inittext
+Line 182: (
+Line 182: ID = iter
+Line 182: -
+Line 182: >
+Line 182: ID = value
+Line 182: )
+Line 182: )
+Line 183: ID = iter
+Line 183: -
+Line 183: >
+Line 183: ID = type
+Line 183: =
+Line 183: CHARCON = 't'
+Line 183: ;
+Line 184: else
+Line 185: ID = iter
+Line 185: -
+Line 185: >
+Line 185: ID = type
+Line 185: =
+Line 185: CHARCON = 'd'
+Line 185: ;
+Line 187: ID = upcase_if_global
+Line 187: (
+Line 187: ID = iter
+Line 187: )
+Line 187: ;
+Line 188: return
+Line 188: ID = off
+Line 188: -
+Line 188: ID = iter
+Line 188: -
+Line 188: >
+Line 188: ID = nameoff
+Line 188: ;
+Line 189: }
+Line 191: ID = static
+Line 191: void
+Line 191: ID = reset_iter
+Line 191: (
+Line 191: ID = struct
+Line 191: ID = kallsym_iter
+Line 191: *
+Line 191: ID = iter
+Line 191: )
+Line 192: {
+Line 193: ID = iter
+Line 193: -
+Line 193: >
+Line 193: ID = name
+Line 193: [
+Line 193: INTCON = 0
+Line 193: ]
+Line 193: =
+Line 193: CHARCON = '\0'
+Line 193: ;
+Line 194: ID = iter
+Line 194: -
+Line 194: >
+Line 194: ID = nameoff
+Line 194: =
+Line 194: INTCON = 0
+Line 194: ;
+Line 195: ID = iter
+Line 195: -
+Line 195: >
+Line 195: ID = pos
+Line 195: =
+Line 195: INTCON = 0
+Line 195: ;
+Line 196: }
+Line 199: ID = static
+Line 199: int
+Line 199: ID = update_iter
+Line 199: (
+Line 199: ID = struct
+Line 199: ID = kallsym_iter
+Line 199: *
+Line 199: ID = iter
+Line 199: ,
+Line 199: ID = loff_t
+Line 199: ID = pos
+Line 199: )
+Line 200: {
+Line 202: if
+Line 202: (
+Line 202: ID = pos
+Line 202: >=
+Line 202: ID = kallsyms_num_syms
+Line 202: )
+Line 202: {
+Line 203: ID = iter
+Line 203: -
+Line 203: >
+Line 203: ID = pos
+Line 203: =
+Line 203: ID = pos
+Line 203: ;
+Line 204: return
+Line 204: ID = get_ksymbol_mod
+Line 204: (
+Line 204: ID = iter
+Line 204: )
+Line 204: ;
+Line 205: }
+Line 208: if
+Line 208: (
+Line 208: ID = pos
+Line 208: <
+Line 208: ID = iter
+Line 208: -
+Line 208: >
+Line 208: ID = pos
+Line 208: )
+Line 209: ID = reset_iter
+Line 209: (
+Line 209: ID = iter
+Line 209: )
+Line 209: ;
+Line 212: for
+Line 212: (
+Line 212: ;
+Line 212: ID = iter
+Line 212: -
+Line 212: >
+Line 212: ID = pos
+Line 212: !=
+Line 212: ID = pos
+Line 212: ;
+Line 212: ID = iter
+Line 212: -
+Line 212: >
+Line 212: ID = pos
+Line 212: +
+Line 212: +
+Line 212: )
+Line 212: {
+Line 213: ID = iter
+Line 213: -
+Line 213: >
+Line 213: ID = nameoff
+Line 213: +
+Line 213: =
+Line 213: ID = get_ksymbol_core
+Line 213: (
+Line 213: ID = iter
+Line 213: )
+Line 213: ;
+Line 214: ID = cond_resched
+Line 214: (
+Line 214: )
+Line 214: ;
+Line 215: }
+Line 216: ID = get_ksymbol_core
+Line 216: (
+Line 216: ID = iter
+Line 216: )
+Line 216: ;
+Line 217: return
+Line 217: INTCON = 1
+Line 217: ;
+Line 218: }
+Line 220: ID = static
+Line 220: void
+Line 220: *
+Line 220: ID = s_next
+Line 220: (
+Line 220: ID = struct
+Line 220: ID = seq_file
+Line 220: *
+Line 220: ID = m
+Line 220: ,
+Line 220: void
+Line 220: *
+Line 220: ID = p
+Line 220: ,
+Line 220: ID = loff_t
+Line 220: *
+Line 220: ID = pos
+Line 220: )
+Line 221: {
+Line 222: (
+Line 222: *
+Line 222: ID = pos
+Line 222: )
+Line 222: +
+Line 222: +
+Line 222: ;
+Line 224: if
+Line 224: (
+Line 224: !
+Line 224: ID = update_iter
+Line 224: (
+Line 224: ID = m
+Line 224: -
+Line 224: >
+Line 224: ID = private
+Line 224: ,
+Line 224: *
+Line 224: ID = pos
+Line 224: )
+Line 224: )
+Line 225: return
+Line 225: ID = NULL
+Line 225: ;
+Line 226: return
+Line 226: ID = p
+Line 226: ;
+Line 227: }
+Line 229: ID = static
+Line 229: void
+Line 229: *
+Line 229: ID = s_start
+Line 229: (
+Line 229: ID = struct
+Line 229: ID = seq_file
+Line 229: *
+Line 229: ID = m
+Line 229: ,
+Line 229: ID = loff_t
+Line 229: *
+Line 229: ID = pos
+Line 229: )
+Line 230: {
+Line 231: if
+Line 231: (
+Line 231: !
+Line 231: ID = update_iter
+Line 231: (
+Line 231: ID = m
+Line 231: -
+Line 231: >
+Line 231: ID = private
+Line 231: ,
+Line 231: *
+Line 231: ID = pos
+Line 231: )
+Line 231: )
+Line 232: return
+Line 232: ID = NULL
+Line 232: ;
+Line 233: return
+Line 233: ID = m
+Line 233: -
+Line 233: >
+Line 233: ID = private
+Line 233: ;
+Line 234: }
+Line 236: ID = static
+Line 236: void
+Line 236: ID = s_stop
+Line 236: (
+Line 236: ID = struct
+Line 236: ID = seq_file
+Line 236: *
+Line 236: ID = m
+Line 236: ,
+Line 236: void
+Line 236: *
+Line 236: ID = p
+Line 236: )
+Line 237: {
+Line 238: }
+Line 240: ID = static
+Line 240: int
+Line 240: ID = s_show
+Line 240: (
+Line 240: ID = struct
+Line 240: ID = seq_file
+Line 240: *
+Line 240: ID = m
+Line 240: ,
+Line 240: void
+Line 240: *
+Line 240: ID = p
+Line 240: )
+Line 241: {
+Line 242: ID = struct
+Line 242: ID = kallsym_iter
+Line 242: *
+Line 242: ID = iter
+Line 242: =
+Line 242: ID = m
+Line 242: -
+Line 242: >
+Line 242: ID = private
+Line 242: ;
+Line 245: if
+Line 245: (
+Line 245: !
+Line 245: ID = iter
+Line 245: -
+Line 245: >
+Line 245: ID = name
+Line 245: [
+Line 245: INTCON = 0
+Line 245: ]
+Line 245: )
+Line 246: return
+Line 246: INTCON = 0
+Line 246: ;
+Line 248: if
+Line 248: (
+Line 248: ID = iter
+Line 248: -
+Line 248: >
+Line 248: ID = owner
+Line 248: )
+Line 249: ID = seq_printf
+Line 249: (
+Line 249: ID = m
+Line 249: ,
+Line 249: STRINGCON = "%0*lx %c %s\t[%s]\n"
+Line 249: ,
+Line 250: (
+Line 250: int
+Line 250: )
+Line 250: (
+Line 250: INTCON = 2
+Line 250: *
+Line 250: ID = sizeof
+Line 250: (
+Line 250: void
+Line 250: *
+Line 250: )
+Line 250: )
+Line 250: ,
+Line 251: ID = iter
+Line 251: -
+Line 251: >
+Line 251: ID = value
+Line 251: ,
+Line 251: ID = iter
+Line 251: -
+Line 251: >
+Line 251: ID = type
+Line 251: ,
+Line 251: ID = iter
+Line 251: -
+Line 251: >
+Line 251: ID = name
+Line 251: ,
+Line 252: ID = module_name
+Line 252: (
+Line 252: ID = iter
+Line 252: -
+Line 252: >
+Line 252: ID = owner
+Line 252: )
+Line 252: )
+Line 252: ;
+Line 253: else
+Line 254: ID = seq_printf
+Line 254: (
+Line 254: ID = m
+Line 254: ,
+Line 254: STRINGCON = "%0*lx %c %s\n"
+Line 254: ,
+Line 255: (
+Line 255: int
+Line 255: )
+Line 255: (
+Line 255: INTCON = 2
+Line 255: *
+Line 255: ID = sizeof
+Line 255: (
+Line 255: void
+Line 255: *
+Line 255: )
+Line 255: )
+Line 255: ,
+Line 256: ID = iter
+Line 256: -
+Line 256: >
+Line 256: ID = value
+Line 256: ,
+Line 256: ID = iter
+Line 256: -
+Line 256: >
+Line 256: ID = type
+Line 256: ,
+Line 256: ID = iter
+Line 256: -
+Line 256: >
+Line 256: ID = name
+Line 256: )
+Line 256: ;
+Line 257: return
+Line 257: INTCON = 0
+Line 257: ;
+Line 258: }
+Line 260: ID = struct
+Line 260: ID = seq_operations
+Line 260: ID = kallsyms_op
+Line 260: =
+Line 260: {
+Line 261: Unrecognized token: 46
+Line 261: ID = start
+Line 261: =
+Line 261: ID = s_start
+Line 261: ,
+Line 262: Unrecognized token: 46
+Line 262: ID = next
+Line 262: =
+Line 262: ID = s_next
+Line 262: ,
+Line 263: Unrecognized token: 46
+Line 263: ID = stop
+Line 263: =
+Line 263: ID = s_stop
+Line 263: ,
+Line 264: Unrecognized token: 46
+Line 264: ID = show
+Line 264: =
+Line 264: ID = s_show
+Line 265: }
+Line 265: ;
+Line 267: ID = static
+Line 267: int
+Line 267: ID = kallsyms_open
+Line 267: (
+Line 267: ID = struct
+Line 267: ID = inode
+Line 267: *
+Line 267: ID = inode
+Line 267: ,
+Line 267: ID = struct
+Line 267: ID = file
+Line 267: *
+Line 267: ID = file
+Line 267: )
+Line 268: {
+Line 271: ID = struct
+Line 271: ID = kallsym_iter
+Line 271: *
+Line 271: ID = iter
+Line 271: ;
+Line 272: int
+Line 272: ID = ret
+Line 272: ;
+Line 274: ID = iter
+Line 274: =
+Line 274: ID = kmalloc
+Line 274: (
+Line 274: ID = sizeof
+Line 274: (
+Line 274: *
+Line 274: ID = iter
+Line 274: )
+Line 274: ,
+Line 274: ID = GFP_KERNEL
+Line 274: )
+Line 274: ;
+Line 275: if
+Line 275: (
+Line 275: !
+Line 275: ID = iter
+Line 275: )
+Line 276: return
+Line 276: -
+Line 276: ID = ENOMEM
+Line 276: ;
+Line 277: ID = reset_iter
+Line 277: (
+Line 277: ID = iter
+Line 277: )
+Line 277: ;
+Line 279: ID = ret
+Line 279: =
+Line 279: ID = seq_open
+Line 279: (
+Line 279: ID = file
+Line 279: ,
+Line 279: Unrecognized token: 38
+Line 279: ID = kallsyms_op
+Line 279: )
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: ID = ret
+Line 280: ==
+Line 280: INTCON = 0
+Line 280: )
+Line 281: (
+Line 281: (
+Line 281: ID = struct
+Line 281: ID = seq_file
+Line 281: *
+Line 281: )
+Line 281: ID = file
+Line 281: -
+Line 281: >
+Line 281: ID = private_data
+Line 281: )
+Line 281: -
+Line 281: >
+Line 281: ID = private
+Line 281: =
+Line 281: ID = iter
+Line 281: ;
+Line 282: else
+Line 283: ID = kfree
+Line 283: (
+Line 283: ID = iter
+Line 283: )
+Line 283: ;
+Line 284: return
+Line 284: ID = ret
+Line 284: ;
+Line 285: }
+Line 287: ID = static
+Line 287: int
+Line 287: ID = kallsyms_release
+Line 287: (
+Line 287: ID = struct
+Line 287: ID = inode
+Line 287: *
+Line 287: ID = inode
+Line 287: ,
+Line 287: ID = struct
+Line 287: ID = file
+Line 287: *
+Line 287: ID = file
+Line 287: )
+Line 288: {
+Line 289: ID = struct
+Line 289: ID = seq_file
+Line 289: *
+Line 289: ID = m
+Line 289: =
+Line 289: (
+Line 289: ID = struct
+Line 289: ID = seq_file
+Line 289: *
+Line 289: )
+Line 289: ID = file
+Line 289: -
+Line 289: >
+Line 289: ID = private_data
+Line 289: ;
+Line 290: ID = kfree
+Line 290: (
+Line 290: ID = m
+Line 290: -
+Line 290: >
+Line 290: ID = private
+Line 290: )
+Line 290: ;
+Line 291: return
+Line 291: ID = seq_release
+Line 291: (
+Line 291: ID = inode
+Line 291: ,
+Line 291: ID = file
+Line 291: )
+Line 291: ;
+Line 292: }
+Line 294: ID = static
+Line 294: ID = struct
+Line 294: ID = file_operations
+Line 294: ID = kallsyms_operations
+Line 294: =
+Line 294: {
+Line 295: Unrecognized token: 46
+Line 295: ID = open
+Line 295: =
+Line 295: ID = kallsyms_open
+Line 295: ,
+Line 296: Unrecognized token: 46
+Line 296: ID = read
+Line 296: =
+Line 296: ID = seq_read
+Line 296: ,
+Line 297: Unrecognized token: 46
+Line 297: ID = llseek
+Line 297: =
+Line 297: ID = seq_lseek
+Line 297: ,
+Line 298: Unrecognized token: 46
+Line 298: ID = release
+Line 298: =
+Line 298: ID = kallsyms_release
+Line 298: ,
+Line 299: }
+Line 299: ;
+Line 301: int
+Line 301: Unrecognized token: 95
+Line 301: Unrecognized token: 95
+Line 301: ID = init
+Line 301: ID = kallsyms_init
+Line 301: (
+Line 301: void
+Line 301: )
+Line 302: {
+Line 303: ID = struct
+Line 303: ID = proc_dir_entry
+Line 303: *
+Line 303: ID = entry
+Line 303: ;
+Line 305: ID = entry
+Line 305: =
+Line 305: ID = create_proc_entry
+Line 305: (
+Line 305: STRINGCON = "kallsyms"
+Line 305: ,
+Line 305: INTCON = 0444
+Line 305: ,
+Line 305: ID = NULL
+Line 305: )
+Line 305: ;
+Line 306: if
+Line 306: (
+Line 306: ID = entry
+Line 306: )
+Line 307: ID = entry
+Line 307: -
+Line 307: >
+Line 307: ID = proc_fops
+Line 307: =
+Line 307: Unrecognized token: 38
+Line 307: ID = kallsyms_operations
+Line 307: ;
+Line 308: return
+Line 308: INTCON = 0
+Line 308: ;
+Line 309: }
+Line 310: Unrecognized token: 95
+Line 310: Unrecognized token: 95
+Line 310: ID = initcall
+Line 310: (
+Line 310: ID = kallsyms_init
+Line 310: )
+Line 310: ;
+Line 312: ID = EXPORT_SYMBOL
+Line 312: (
+Line 312: Unrecognized token: 95
+Line 312: Unrecognized token: 95
+Line 312: ID = print_symbol
+Line 312: )
+Line 312: ;
+Line 313: -EOF-

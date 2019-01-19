@@ -1,0 +1,629 @@
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = mm
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = slab
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = smp_lock
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = fs
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = pipe_fs_i
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: ID = static
+Line 18: void
+Line 18: ID = wait_for_partner
+Line 18: (
+Line 18: ID = struct
+Line 18: ID = inode
+Line 18: *
+Line 18: ID = inode
+Line 18: ,
+Line 18: ID = unsigned
+Line 18: int
+Line 18: *
+Line 18: ID = cnt
+Line 18: )
+Line 19: {
+Line 20: int
+Line 20: ID = cur
+Line 20: =
+Line 20: *
+Line 20: ID = cnt
+Line 20: ;
+Line 21: while
+Line 21: (
+Line 21: ID = cur
+Line 21: ==
+Line 21: *
+Line 21: ID = cnt
+Line 21: )
+Line 21: {
+Line 22: ID = pipe_wait
+Line 22: (
+Line 22: ID = inode
+Line 22: )
+Line 22: ;
+Line 23: if
+Line 23: (
+Line 23: ID = signal_pending
+Line 23: (
+Line 23: ID = current
+Line 23: )
+Line 23: )
+Line 24: ID = break
+Line 24: ;
+Line 25: }
+Line 26: }
+Line 28: ID = static
+Line 28: void
+Line 28: ID = wake_up_partner
+Line 28: (
+Line 28: ID = struct
+Line 28: ID = inode
+Line 28: *
+Line 28: ID = inode
+Line 28: )
+Line 29: {
+Line 30: ID = wake_up_interruptible
+Line 30: (
+Line 30: ID = PIPE_WAIT
+Line 30: (
+Line 30: *
+Line 30: ID = inode
+Line 30: )
+Line 30: )
+Line 30: ;
+Line 31: }
+Line 33: ID = static
+Line 33: int
+Line 33: ID = fifo_open
+Line 33: (
+Line 33: ID = struct
+Line 33: ID = inode
+Line 33: *
+Line 33: ID = inode
+Line 33: ,
+Line 33: ID = struct
+Line 33: ID = file
+Line 33: *
+Line 33: ID = filp
+Line 33: )
+Line 34: {
+Line 35: int
+Line 35: ID = ret
+Line 35: ;
+Line 37: ID = ret
+Line 37: =
+Line 37: -
+Line 37: ID = ERESTARTSYS
+Line 37: ;
+Line 38: if
+Line 38: (
+Line 38: ID = down_interruptible
+Line 38: (
+Line 38: ID = PIPE_SEM
+Line 38: (
+Line 38: *
+Line 38: ID = inode
+Line 38: )
+Line 38: )
+Line 38: )
+Line 39: ID = goto
+Line 39: ID = err_nolock_nocleanup
+Line 39: ;
+Line 41: if
+Line 41: (
+Line 41: !
+Line 41: ID = inode
+Line 41: -
+Line 41: >
+Line 41: ID = i_pipe
+Line 41: )
+Line 41: {
+Line 42: ID = ret
+Line 42: =
+Line 42: -
+Line 42: ID = ENOMEM
+Line 42: ;
+Line 43: if
+Line 43: (
+Line 43: !
+Line 43: ID = pipe_new
+Line 43: (
+Line 43: ID = inode
+Line 43: )
+Line 43: )
+Line 44: ID = goto
+Line 44: ID = err_nocleanup
+Line 44: ;
+Line 45: }
+Line 46: ID = filp
+Line 46: -
+Line 46: >
+Line 46: ID = f_version
+Line 46: =
+Line 46: INTCON = 0
+Line 46: ;
+Line 49: ID = filp
+Line 49: -
+Line 49: >
+Line 49: ID = f_mode
+Line 49: Unrecognized token: 38
+Line 49: =
+Line 49: (
+Line 49: ID = FMODE_READ
+Line 49: Unrecognized token: 124
+Line 49: ID = FMODE_WRITE
+Line 49: )
+Line 49: ;
+Line 51: ID = switch
+Line 51: (
+Line 51: ID = filp
+Line 51: -
+Line 51: >
+Line 51: ID = f_mode
+Line 51: )
+Line 51: {
+Line 52: ID = case
+Line 52: INTCON = 1
+Line 52: Unrecognized token: 58
+Line 58: ID = filp
+Line 58: -
+Line 58: >
+Line 58: ID = f_op
+Line 58: =
+Line 58: Unrecognized token: 38
+Line 58: ID = read_fifo_fops
+Line 58: ;
+Line 59: ID = PIPE_RCOUNTER
+Line 59: (
+Line 59: *
+Line 59: ID = inode
+Line 59: )
+Line 59: +
+Line 59: +
+Line 59: ;
+Line 60: if
+Line 60: (
+Line 60: ID = PIPE_READERS
+Line 60: (
+Line 60: *
+Line 60: ID = inode
+Line 60: )
+Line 60: +
+Line 60: +
+Line 60: ==
+Line 60: INTCON = 0
+Line 60: )
+Line 61: ID = wake_up_partner
+Line 61: (
+Line 61: ID = inode
+Line 61: )
+Line 61: ;
+Line 63: if
+Line 63: (
+Line 63: !
+Line 63: ID = PIPE_WRITERS
+Line 63: (
+Line 63: *
+Line 63: ID = inode
+Line 63: )
+Line 63: )
+Line 63: {
+Line 64: if
+Line 64: (
+Line 64: (
+Line 64: ID = filp
+Line 64: -
+Line 64: >
+Line 64: ID = f_flags
+Line 64: Unrecognized token: 38
+Line 64: ID = O_NONBLOCK
+Line 64: )
+Line 64: )
+Line 64: {
+Line 67: ID = filp
+Line 67: -
+Line 67: >
+Line 67: ID = f_version
+Line 67: =
+Line 67: ID = PIPE_WCOUNTER
+Line 67: (
+Line 67: *
+Line 67: ID = inode
+Line 67: )
+Line 67: ;
+Line 68: }
+Line 68: else
+Line 69: {
+Line 70: ID = wait_for_partner
+Line 70: (
+Line 70: ID = inode
+Line 70: ,
+Line 70: Unrecognized token: 38
+Line 70: ID = PIPE_WCOUNTER
+Line 70: (
+Line 70: *
+Line 70: ID = inode
+Line 70: )
+Line 70: )
+Line 70: ;
+Line 71: if
+Line 71: (
+Line 71: ID = signal_pending
+Line 71: (
+Line 71: ID = current
+Line 71: )
+Line 71: )
+Line 72: ID = goto
+Line 72: ID = err_rd
+Line 72: ;
+Line 73: }
+Line 74: }
+Line 75: ID = break
+Line 75: ;
+Line 77: ID = case
+Line 77: INTCON = 2
+Line 77: Unrecognized token: 58
+Line 83: ID = ret
+Line 83: =
+Line 83: -
+Line 83: ID = ENXIO
+Line 83: ;
+Line 84: if
+Line 84: (
+Line 84: (
+Line 84: ID = filp
+Line 84: -
+Line 84: >
+Line 84: ID = f_flags
+Line 84: Unrecognized token: 38
+Line 84: ID = O_NONBLOCK
+Line 84: )
+Line 84: &&
+Line 84: !
+Line 84: ID = PIPE_READERS
+Line 84: (
+Line 84: *
+Line 84: ID = inode
+Line 84: )
+Line 84: )
+Line 85: ID = goto
+Line 85: ID = err
+Line 85: ;
+Line 87: ID = filp
+Line 87: -
+Line 87: >
+Line 87: ID = f_op
+Line 87: =
+Line 87: Unrecognized token: 38
+Line 87: ID = write_fifo_fops
+Line 87: ;
+Line 88: ID = PIPE_WCOUNTER
+Line 88: (
+Line 88: *
+Line 88: ID = inode
+Line 88: )
+Line 88: +
+Line 88: +
+Line 88: ;
+Line 89: if
+Line 89: (
+Line 89: !
+Line 89: ID = PIPE_WRITERS
+Line 89: (
+Line 89: *
+Line 89: ID = inode
+Line 89: )
+Line 89: +
+Line 89: +
+Line 89: )
+Line 90: ID = wake_up_partner
+Line 90: (
+Line 90: ID = inode
+Line 90: )
+Line 90: ;
+Line 92: if
+Line 92: (
+Line 92: !
+Line 92: ID = PIPE_READERS
+Line 92: (
+Line 92: *
+Line 92: ID = inode
+Line 92: )
+Line 92: )
+Line 92: {
+Line 93: ID = wait_for_partner
+Line 93: (
+Line 93: ID = inode
+Line 93: ,
+Line 93: Unrecognized token: 38
+Line 93: ID = PIPE_RCOUNTER
+Line 93: (
+Line 93: *
+Line 93: ID = inode
+Line 93: )
+Line 93: )
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: ID = signal_pending
+Line 94: (
+Line 94: ID = current
+Line 94: )
+Line 94: )
+Line 95: ID = goto
+Line 95: ID = err_wr
+Line 95: ;
+Line 96: }
+Line 97: ID = break
+Line 97: ;
+Line 99: ID = case
+Line 99: INTCON = 3
+Line 99: Unrecognized token: 58
+Line 106: ID = filp
+Line 106: -
+Line 106: >
+Line 106: ID = f_op
+Line 106: =
+Line 106: Unrecognized token: 38
+Line 106: ID = rdwr_fifo_fops
+Line 106: ;
+Line 108: ID = PIPE_READERS
+Line 108: (
+Line 108: *
+Line 108: ID = inode
+Line 108: )
+Line 108: +
+Line 108: +
+Line 108: ;
+Line 109: ID = PIPE_WRITERS
+Line 109: (
+Line 109: *
+Line 109: ID = inode
+Line 109: )
+Line 109: +
+Line 109: +
+Line 109: ;
+Line 110: ID = PIPE_RCOUNTER
+Line 110: (
+Line 110: *
+Line 110: ID = inode
+Line 110: )
+Line 110: +
+Line 110: +
+Line 110: ;
+Line 111: ID = PIPE_WCOUNTER
+Line 111: (
+Line 111: *
+Line 111: ID = inode
+Line 111: )
+Line 111: +
+Line 111: +
+Line 111: ;
+Line 112: if
+Line 112: (
+Line 112: ID = PIPE_READERS
+Line 112: (
+Line 112: *
+Line 112: ID = inode
+Line 112: )
+Line 112: ==
+Line 112: INTCON = 1
+Line 112: ||
+Line 112: ID = PIPE_WRITERS
+Line 112: (
+Line 112: *
+Line 112: ID = inode
+Line 112: )
+Line 112: ==
+Line 112: INTCON = 1
+Line 112: )
+Line 113: ID = wake_up_partner
+Line 113: (
+Line 113: ID = inode
+Line 113: )
+Line 113: ;
+Line 114: ID = break
+Line 114: ;
+Line 116: ID = default
+Line 116: Unrecognized token: 58
+Line 117: ID = ret
+Line 117: =
+Line 117: -
+Line 117: ID = EINVAL
+Line 117: ;
+Line 118: ID = goto
+Line 118: ID = err
+Line 118: ;
+Line 119: }
+Line 122: ID = up
+Line 122: (
+Line 122: ID = PIPE_SEM
+Line 122: (
+Line 122: *
+Line 122: ID = inode
+Line 122: )
+Line 122: )
+Line 122: ;
+Line 123: return
+Line 123: INTCON = 0
+Line 123: ;
+Line 125: ID = err_rd
+Line 125: Unrecognized token: 58
+Line 126: if
+Line 126: (
+Line 126: !
+Line 126: -
+Line 126: -
+Line 126: ID = PIPE_READERS
+Line 126: (
+Line 126: *
+Line 126: ID = inode
+Line 126: )
+Line 126: )
+Line 127: ID = wake_up_interruptible
+Line 127: (
+Line 127: ID = PIPE_WAIT
+Line 127: (
+Line 127: *
+Line 127: ID = inode
+Line 127: )
+Line 127: )
+Line 127: ;
+Line 128: ID = ret
+Line 128: =
+Line 128: -
+Line 128: ID = ERESTARTSYS
+Line 128: ;
+Line 129: ID = goto
+Line 129: ID = err
+Line 129: ;
+Line 131: ID = err_wr
+Line 131: Unrecognized token: 58
+Line 132: if
+Line 132: (
+Line 132: !
+Line 132: -
+Line 132: -
+Line 132: ID = PIPE_WRITERS
+Line 132: (
+Line 132: *
+Line 132: ID = inode
+Line 132: )
+Line 132: )
+Line 133: ID = wake_up_interruptible
+Line 133: (
+Line 133: ID = PIPE_WAIT
+Line 133: (
+Line 133: *
+Line 133: ID = inode
+Line 133: )
+Line 133: )
+Line 133: ;
+Line 134: ID = ret
+Line 134: =
+Line 134: -
+Line 134: ID = ERESTARTSYS
+Line 134: ;
+Line 135: ID = goto
+Line 135: ID = err
+Line 135: ;
+Line 137: ID = err
+Line 137: Unrecognized token: 58
+Line 138: if
+Line 138: (
+Line 138: !
+Line 138: ID = PIPE_READERS
+Line 138: (
+Line 138: *
+Line 138: ID = inode
+Line 138: )
+Line 138: &&
+Line 138: !
+Line 138: ID = PIPE_WRITERS
+Line 138: (
+Line 138: *
+Line 138: ID = inode
+Line 138: )
+Line 138: )
+Line 138: {
+Line 139: ID = struct
+Line 139: ID = pipe_inode_info
+Line 139: *
+Line 139: ID = info
+Line 139: =
+Line 139: ID = inode
+Line 139: -
+Line 139: >
+Line 139: ID = i_pipe
+Line 139: ;
+Line 140: ID = inode
+Line 140: -
+Line 140: >
+Line 140: ID = i_pipe
+Line 140: =
+Line 140: ID = NULL
+Line 140: ;
+Line 141: ID = free_page
+Line 141: (
+Line 141: (
+Line 141: ID = unsigned
+Line 141: ID = long
+Line 141: )
+Line 141: ID = info
+Line 141: -
+Line 141: >
+Line 141: ID = base
+Line 141: )
+Line 141: ;
+Line 142: ID = kfree
+Line 142: (
+Line 142: ID = info
+Line 142: )
+Line 142: ;
+Line 143: }
+Line 145: ID = err_nocleanup
+Line 145: Unrecognized token: 58
+Line 146: ID = up
+Line 146: (
+Line 146: ID = PIPE_SEM
+Line 146: (
+Line 146: *
+Line 146: ID = inode
+Line 146: )
+Line 146: )
+Line 146: ;
+Line 148: ID = err_nolock_nocleanup
+Line 148: Unrecognized token: 58
+Line 149: return
+Line 149: ID = ret
+Line 149: ;
+Line 150: }
+Line 157: ID = struct
+Line 157: ID = file_operations
+Line 157: ID = def_fifo_fops
+Line 157: =
+Line 157: {
+Line 158: Unrecognized token: 46
+Line 158: ID = open
+Line 158: =
+Line 158: ID = fifo_open
+Line 158: ,
+Line 159: }
+Line 159: ;
+Line 160: -EOF-

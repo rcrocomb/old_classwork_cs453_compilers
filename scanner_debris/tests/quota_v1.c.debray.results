@@ -1,0 +1,1515 @@
+Line 1: Unrecognized token: 35
+Line 1: ID = include
+Line 1: <
+Line 1: ID = linux
+Line 1: /
+Line 1: ID = errno
+Line 1: Unrecognized token: 46
+Line 1: ID = h
+Line 1: >
+Line 2: Unrecognized token: 35
+Line 2: ID = include
+Line 2: <
+Line 2: ID = linux
+Line 2: /
+Line 2: ID = fs
+Line 2: Unrecognized token: 46
+Line 2: ID = h
+Line 2: >
+Line 3: Unrecognized token: 35
+Line 3: ID = include
+Line 3: <
+Line 3: ID = linux
+Line 3: /
+Line 3: ID = quota
+Line 3: Unrecognized token: 46
+Line 3: ID = h
+Line 3: >
+Line 4: Unrecognized token: 35
+Line 4: ID = include
+Line 4: <
+Line 4: ID = linux
+Line 4: /
+Line 4: ID = dqblk_v1
+Line 4: Unrecognized token: 46
+Line 4: ID = h
+Line 4: >
+Line 5: Unrecognized token: 35
+Line 5: ID = include
+Line 5: <
+Line 5: ID = linux
+Line 5: /
+Line 5: ID = quotaio_v1
+Line 5: Unrecognized token: 46
+Line 5: ID = h
+Line 5: >
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = kernel
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = init
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = module
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = asm
+Line 10: /
+Line 10: ID = uaccess
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = asm
+Line 11: /
+Line 11: ID = byteorder
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 13: ID = MODULE_AUTHOR
+Line 13: (
+Line 13: STRINGCON = "Jan Kara"
+Line 13: )
+Line 13: ;
+Line 14: ID = MODULE_DESCRIPTION
+Line 14: (
+Line 14: STRINGCON = "Old quota format support"
+Line 14: )
+Line 14: ;
+Line 15: ID = MODULE_LICENSE
+Line 15: (
+Line 15: STRINGCON = "GPL"
+Line 15: )
+Line 15: ;
+Line 17: ID = static
+Line 17: void
+Line 17: ID = v1_disk2mem_dqblk
+Line 17: (
+Line 17: ID = struct
+Line 17: ID = mem_dqblk
+Line 17: *
+Line 17: ID = m
+Line 17: ,
+Line 17: ID = struct
+Line 17: ID = v1_disk_dqblk
+Line 17: *
+Line 17: ID = d
+Line 17: )
+Line 18: {
+Line 19: ID = m
+Line 19: -
+Line 19: >
+Line 19: ID = dqb_ihardlimit
+Line 19: =
+Line 19: ID = d
+Line 19: -
+Line 19: >
+Line 19: ID = dqb_ihardlimit
+Line 19: ;
+Line 20: ID = m
+Line 20: -
+Line 20: >
+Line 20: ID = dqb_isoftlimit
+Line 20: =
+Line 20: ID = d
+Line 20: -
+Line 20: >
+Line 20: ID = dqb_isoftlimit
+Line 20: ;
+Line 21: ID = m
+Line 21: -
+Line 21: >
+Line 21: ID = dqb_curinodes
+Line 21: =
+Line 21: ID = d
+Line 21: -
+Line 21: >
+Line 21: ID = dqb_curinodes
+Line 21: ;
+Line 22: ID = m
+Line 22: -
+Line 22: >
+Line 22: ID = dqb_bhardlimit
+Line 22: =
+Line 22: ID = d
+Line 22: -
+Line 22: >
+Line 22: ID = dqb_bhardlimit
+Line 22: ;
+Line 23: ID = m
+Line 23: -
+Line 23: >
+Line 23: ID = dqb_bsoftlimit
+Line 23: =
+Line 23: ID = d
+Line 23: -
+Line 23: >
+Line 23: ID = dqb_bsoftlimit
+Line 23: ;
+Line 24: ID = m
+Line 24: -
+Line 24: >
+Line 24: ID = dqb_curspace
+Line 24: =
+Line 24: (
+Line 24: (
+Line 24: ID = qsize_t
+Line 24: )
+Line 24: ID = d
+Line 24: -
+Line 24: >
+Line 24: ID = dqb_curblocks
+Line 24: )
+Line 24: <
+Line 24: <
+Line 24: ID = QUOTABLOCK_BITS
+Line 24: ;
+Line 25: ID = m
+Line 25: -
+Line 25: >
+Line 25: ID = dqb_itime
+Line 25: =
+Line 25: ID = d
+Line 25: -
+Line 25: >
+Line 25: ID = dqb_itime
+Line 25: ;
+Line 26: ID = m
+Line 26: -
+Line 26: >
+Line 26: ID = dqb_btime
+Line 26: =
+Line 26: ID = d
+Line 26: -
+Line 26: >
+Line 26: ID = dqb_btime
+Line 26: ;
+Line 27: }
+Line 29: ID = static
+Line 29: void
+Line 29: ID = v1_mem2disk_dqblk
+Line 29: (
+Line 29: ID = struct
+Line 29: ID = v1_disk_dqblk
+Line 29: *
+Line 29: ID = d
+Line 29: ,
+Line 29: ID = struct
+Line 29: ID = mem_dqblk
+Line 29: *
+Line 29: ID = m
+Line 29: )
+Line 30: {
+Line 31: ID = d
+Line 31: -
+Line 31: >
+Line 31: ID = dqb_ihardlimit
+Line 31: =
+Line 31: ID = m
+Line 31: -
+Line 31: >
+Line 31: ID = dqb_ihardlimit
+Line 31: ;
+Line 32: ID = d
+Line 32: -
+Line 32: >
+Line 32: ID = dqb_isoftlimit
+Line 32: =
+Line 32: ID = m
+Line 32: -
+Line 32: >
+Line 32: ID = dqb_isoftlimit
+Line 32: ;
+Line 33: ID = d
+Line 33: -
+Line 33: >
+Line 33: ID = dqb_curinodes
+Line 33: =
+Line 33: ID = m
+Line 33: -
+Line 33: >
+Line 33: ID = dqb_curinodes
+Line 33: ;
+Line 34: ID = d
+Line 34: -
+Line 34: >
+Line 34: ID = dqb_bhardlimit
+Line 34: =
+Line 34: ID = m
+Line 34: -
+Line 34: >
+Line 34: ID = dqb_bhardlimit
+Line 34: ;
+Line 35: ID = d
+Line 35: -
+Line 35: >
+Line 35: ID = dqb_bsoftlimit
+Line 35: =
+Line 35: ID = m
+Line 35: -
+Line 35: >
+Line 35: ID = dqb_bsoftlimit
+Line 35: ;
+Line 36: ID = d
+Line 36: -
+Line 36: >
+Line 36: ID = dqb_curblocks
+Line 36: =
+Line 36: ID = toqb
+Line 36: (
+Line 36: ID = m
+Line 36: -
+Line 36: >
+Line 36: ID = dqb_curspace
+Line 36: )
+Line 36: ;
+Line 37: ID = d
+Line 37: -
+Line 37: >
+Line 37: ID = dqb_itime
+Line 37: =
+Line 37: ID = m
+Line 37: -
+Line 37: >
+Line 37: ID = dqb_itime
+Line 37: ;
+Line 38: ID = d
+Line 38: -
+Line 38: >
+Line 38: ID = dqb_btime
+Line 38: =
+Line 38: ID = m
+Line 38: -
+Line 38: >
+Line 38: ID = dqb_btime
+Line 38: ;
+Line 39: }
+Line 41: ID = static
+Line 41: int
+Line 41: ID = v1_read_dqblk
+Line 41: (
+Line 41: ID = struct
+Line 41: ID = dquot
+Line 41: *
+Line 41: ID = dquot
+Line 41: )
+Line 42: {
+Line 43: int
+Line 43: ID = type
+Line 43: =
+Line 43: ID = dquot
+Line 43: -
+Line 43: >
+Line 43: ID = dq_type
+Line 43: ;
+Line 44: ID = struct
+Line 44: ID = file
+Line 44: *
+Line 44: ID = filp
+Line 44: ;
+Line 45: ID = mm_segment_t
+Line 45: ID = fs
+Line 45: ;
+Line 46: ID = loff_t
+Line 46: ID = offset
+Line 46: ;
+Line 47: ID = struct
+Line 47: ID = v1_disk_dqblk
+Line 47: ID = dqblk
+Line 47: ;
+Line 49: ID = filp
+Line 49: =
+Line 49: ID = sb_dqopt
+Line 49: (
+Line 49: ID = dquot
+Line 49: -
+Line 49: >
+Line 49: ID = dq_sb
+Line 49: )
+Line 49: -
+Line 49: >
+Line 49: ID = files
+Line 49: [
+Line 49: ID = type
+Line 49: ]
+Line 49: ;
+Line 50: if
+Line 50: (
+Line 50: ID = filp
+Line 50: ==
+Line 50: (
+Line 50: ID = struct
+Line 50: ID = file
+Line 50: *
+Line 50: )
+Line 50: ID = NULL
+Line 50: )
+Line 51: return
+Line 51: -
+Line 51: ID = EINVAL
+Line 51: ;
+Line 54: ID = offset
+Line 54: =
+Line 54: ID = v1_dqoff
+Line 54: (
+Line 54: ID = dquot
+Line 54: -
+Line 54: >
+Line 54: ID = dq_id
+Line 54: )
+Line 54: ;
+Line 56: ID = memset
+Line 56: (
+Line 56: Unrecognized token: 38
+Line 56: ID = dqblk
+Line 56: ,
+Line 56: INTCON = 0
+Line 56: ,
+Line 56: ID = sizeof
+Line 56: (
+Line 56: ID = struct
+Line 56: ID = v1_disk_dqblk
+Line 56: )
+Line 56: )
+Line 56: ;
+Line 57: ID = fs
+Line 57: =
+Line 57: ID = get_fs
+Line 57: (
+Line 57: )
+Line 57: ;
+Line 58: ID = set_fs
+Line 58: (
+Line 58: ID = KERNEL_DS
+Line 58: )
+Line 58: ;
+Line 59: ID = filp
+Line 59: -
+Line 59: >
+Line 59: ID = f_op
+Line 59: -
+Line 59: >
+Line 59: ID = read
+Line 59: (
+Line 59: ID = filp
+Line 59: ,
+Line 59: (
+Line 59: char
+Line 59: *
+Line 59: )
+Line 59: Unrecognized token: 38
+Line 59: ID = dqblk
+Line 59: ,
+Line 59: ID = sizeof
+Line 59: (
+Line 59: ID = struct
+Line 59: ID = v1_disk_dqblk
+Line 59: )
+Line 59: ,
+Line 59: Unrecognized token: 38
+Line 59: ID = offset
+Line 59: )
+Line 59: ;
+Line 60: ID = set_fs
+Line 60: (
+Line 60: ID = fs
+Line 60: )
+Line 60: ;
+Line 62: ID = v1_disk2mem_dqblk
+Line 62: (
+Line 62: Unrecognized token: 38
+Line 62: ID = dquot
+Line 62: -
+Line 62: >
+Line 62: ID = dq_dqb
+Line 62: ,
+Line 62: Unrecognized token: 38
+Line 62: ID = dqblk
+Line 62: )
+Line 62: ;
+Line 63: if
+Line 63: (
+Line 63: ID = dquot
+Line 63: -
+Line 63: >
+Line 63: ID = dq_dqb
+Line 63: Unrecognized token: 46
+Line 63: ID = dqb_bhardlimit
+Line 63: ==
+Line 63: INTCON = 0
+Line 63: &&
+Line 63: ID = dquot
+Line 63: -
+Line 63: >
+Line 63: ID = dq_dqb
+Line 63: Unrecognized token: 46
+Line 63: ID = dqb_bsoftlimit
+Line 63: ==
+Line 63: INTCON = 0
+Line 63: &&
+Line 64: ID = dquot
+Line 64: -
+Line 64: >
+Line 64: ID = dq_dqb
+Line 64: Unrecognized token: 46
+Line 64: ID = dqb_ihardlimit
+Line 64: ==
+Line 64: INTCON = 0
+Line 64: &&
+Line 64: ID = dquot
+Line 64: -
+Line 64: >
+Line 64: ID = dq_dqb
+Line 64: Unrecognized token: 46
+Line 64: ID = dqb_isoftlimit
+Line 64: ==
+Line 64: INTCON = 0
+Line 64: )
+Line 65: ID = set_bit
+Line 65: (
+Line 65: ID = DQ_FAKE_B
+Line 65: ,
+Line 65: Unrecognized token: 38
+Line 65: ID = dquot
+Line 65: -
+Line 65: >
+Line 65: ID = dq_flags
+Line 65: )
+Line 65: ;
+Line 66: ID = dqstats
+Line 66: Unrecognized token: 46
+Line 66: ID = reads
+Line 66: +
+Line 66: +
+Line 66: ;
+Line 68: return
+Line 68: INTCON = 0
+Line 68: ;
+Line 69: }
+Line 71: ID = static
+Line 71: int
+Line 71: ID = v1_commit_dqblk
+Line 71: (
+Line 71: ID = struct
+Line 71: ID = dquot
+Line 71: *
+Line 71: ID = dquot
+Line 71: )
+Line 72: {
+Line 73: ID = short
+Line 73: ID = type
+Line 73: =
+Line 73: ID = dquot
+Line 73: -
+Line 73: >
+Line 73: ID = dq_type
+Line 73: ;
+Line 74: ID = struct
+Line 74: ID = file
+Line 74: *
+Line 74: ID = filp
+Line 74: ;
+Line 75: ID = mm_segment_t
+Line 75: ID = fs
+Line 75: ;
+Line 76: ID = loff_t
+Line 76: ID = offset
+Line 76: ;
+Line 77: ID = ssize_t
+Line 77: ID = ret
+Line 77: ;
+Line 78: ID = struct
+Line 78: ID = v1_disk_dqblk
+Line 78: ID = dqblk
+Line 78: ;
+Line 80: ID = filp
+Line 80: =
+Line 80: ID = sb_dqopt
+Line 80: (
+Line 80: ID = dquot
+Line 80: -
+Line 80: >
+Line 80: ID = dq_sb
+Line 80: )
+Line 80: -
+Line 80: >
+Line 80: ID = files
+Line 80: [
+Line 80: ID = type
+Line 80: ]
+Line 80: ;
+Line 81: ID = offset
+Line 81: =
+Line 81: ID = v1_dqoff
+Line 81: (
+Line 81: ID = dquot
+Line 81: -
+Line 81: >
+Line 81: ID = dq_id
+Line 81: )
+Line 81: ;
+Line 82: ID = fs
+Line 82: =
+Line 82: ID = get_fs
+Line 82: (
+Line 82: )
+Line 82: ;
+Line 83: ID = set_fs
+Line 83: (
+Line 83: ID = KERNEL_DS
+Line 83: )
+Line 83: ;
+Line 85: ID = v1_mem2disk_dqblk
+Line 85: (
+Line 85: Unrecognized token: 38
+Line 85: ID = dqblk
+Line 85: ,
+Line 85: Unrecognized token: 38
+Line 85: ID = dquot
+Line 85: -
+Line 85: >
+Line 85: ID = dq_dqb
+Line 85: )
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: ID = dquot
+Line 86: -
+Line 86: >
+Line 86: ID = dq_id
+Line 86: ==
+Line 86: INTCON = 0
+Line 86: )
+Line 86: {
+Line 87: ID = dqblk
+Line 87: Unrecognized token: 46
+Line 87: ID = dqb_btime
+Line 87: =
+Line 87: ID = sb_dqopt
+Line 87: (
+Line 87: ID = dquot
+Line 87: -
+Line 87: >
+Line 87: ID = dq_sb
+Line 87: )
+Line 87: -
+Line 87: >
+Line 87: ID = info
+Line 87: [
+Line 87: ID = type
+Line 87: ]
+Line 87: Unrecognized token: 46
+Line 87: ID = dqi_bgrace
+Line 87: ;
+Line 88: ID = dqblk
+Line 88: Unrecognized token: 46
+Line 88: ID = dqb_itime
+Line 88: =
+Line 88: ID = sb_dqopt
+Line 88: (
+Line 88: ID = dquot
+Line 88: -
+Line 88: >
+Line 88: ID = dq_sb
+Line 88: )
+Line 88: -
+Line 88: >
+Line 88: ID = info
+Line 88: [
+Line 88: ID = type
+Line 88: ]
+Line 88: Unrecognized token: 46
+Line 88: ID = dqi_igrace
+Line 88: ;
+Line 89: }
+Line 90: ID = ret
+Line 90: =
+Line 90: INTCON = 0
+Line 90: ;
+Line 91: if
+Line 91: (
+Line 91: ID = filp
+Line 91: )
+Line 92: ID = ret
+Line 92: =
+Line 92: ID = filp
+Line 92: -
+Line 92: >
+Line 92: ID = f_op
+Line 92: -
+Line 92: >
+Line 92: ID = write
+Line 92: (
+Line 92: ID = filp
+Line 92: ,
+Line 92: (
+Line 92: char
+Line 92: *
+Line 92: )
+Line 92: Unrecognized token: 38
+Line 92: ID = dqblk
+Line 92: ,
+Line 93: ID = sizeof
+Line 93: (
+Line 93: ID = struct
+Line 93: ID = v1_disk_dqblk
+Line 93: )
+Line 93: ,
+Line 93: Unrecognized token: 38
+Line 93: ID = offset
+Line 93: )
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: ID = ret
+Line 94: !=
+Line 94: ID = sizeof
+Line 94: (
+Line 94: ID = struct
+Line 94: ID = v1_disk_dqblk
+Line 94: )
+Line 94: )
+Line 94: {
+Line 95: ID = printk
+Line 95: (
+Line 95: ID = KERN_WARNING
+Line 95: STRINGCON = "VFS: dquota write failed on dev %s\n"
+Line 95: ,
+Line 96: ID = dquot
+Line 96: -
+Line 96: >
+Line 96: ID = dq_sb
+Line 96: -
+Line 96: >
+Line 96: ID = s_id
+Line 96: )
+Line 96: ;
+Line 97: if
+Line 97: (
+Line 97: ID = ret
+Line 97: >=
+Line 97: INTCON = 0
+Line 97: )
+Line 98: ID = ret
+Line 98: =
+Line 98: -
+Line 98: ID = EIO
+Line 98: ;
+Line 99: ID = goto
+Line 99: ID = out
+Line 99: ;
+Line 100: }
+Line 101: ID = ret
+Line 101: =
+Line 101: INTCON = 0
+Line 101: ;
+Line 103: ID = out
+Line 103: Unrecognized token: 58
+Line 104: ID = set_fs
+Line 104: (
+Line 104: ID = fs
+Line 104: )
+Line 104: ;
+Line 105: ID = dqstats
+Line 105: Unrecognized token: 46
+Line 105: ID = writes
+Line 105: +
+Line 105: +
+Line 105: ;
+Line 107: return
+Line 107: ID = ret
+Line 107: ;
+Line 108: }
+Line 111: Unrecognized token: 35
+Line 111: ID = define
+Line 111: ID = V2_INITQMAGICS
+Line 111: {
+Line 111: Unrecognized token: 92
+Line 112: INTCON = 0
+Line 112: ID = xd9c01f11
+Line 112: ,
+Line 112: Unrecognized token: 92
+Line 113: INTCON = 0
+Line 113: ID = xd9c01927
+Line 113: Unrecognized token: 92
+Line 114: }
+Line 117: ID = struct
+Line 117: ID = v2_disk_dqheader
+Line 117: {
+Line 118: Unrecognized token: 95
+Line 118: Unrecognized token: 95
+Line 118: ID = u32
+Line 118: ID = dqh_magic
+Line 118: ;
+Line 119: Unrecognized token: 95
+Line 119: Unrecognized token: 95
+Line 119: ID = u32
+Line 119: ID = dqh_version
+Line 119: ;
+Line 120: }
+Line 120: ;
+Line 122: ID = static
+Line 122: int
+Line 122: ID = v1_check_quota_file
+Line 122: (
+Line 122: ID = struct
+Line 122: ID = super_block
+Line 122: *
+Line 122: ID = sb
+Line 122: ,
+Line 122: int
+Line 122: ID = type
+Line 122: )
+Line 123: {
+Line 124: ID = struct
+Line 124: ID = file
+Line 124: *
+Line 124: ID = f
+Line 124: =
+Line 124: ID = sb_dqopt
+Line 124: (
+Line 124: ID = sb
+Line 124: )
+Line 124: -
+Line 124: >
+Line 124: ID = files
+Line 124: [
+Line 124: ID = type
+Line 124: ]
+Line 124: ;
+Line 125: ID = struct
+Line 125: ID = inode
+Line 125: *
+Line 125: ID = inode
+Line 125: =
+Line 125: ID = f
+Line 125: -
+Line 125: >
+Line 125: ID = f_dentry
+Line 125: -
+Line 125: >
+Line 125: ID = d_inode
+Line 125: ;
+Line 126: ID = ulong
+Line 126: ID = blocks
+Line 126: ;
+Line 127: ID = size_t
+Line 127: ID = off
+Line 127: ;
+Line 128: ID = struct
+Line 128: ID = v2_disk_dqheader
+Line 128: ID = dqhead
+Line 128: ;
+Line 129: ID = mm_segment_t
+Line 129: ID = fs
+Line 129: ;
+Line 130: ID = ssize_t
+Line 130: ID = size
+Line 130: ;
+Line 131: ID = loff_t
+Line 131: ID = offset
+Line 131: =
+Line 131: INTCON = 0
+Line 131: ;
+Line 132: ID = loff_t
+Line 132: ID = isize
+Line 132: ;
+Line 133: ID = static
+Line 133: ID = const
+Line 133: ID = uint
+Line 133: ID = quota_magics
+Line 133: [
+Line 133: ]
+Line 133: =
+Line 133: ID = V2_INITQMAGICS
+Line 133: ;
+Line 135: ID = isize
+Line 135: =
+Line 135: ID = i_size_read
+Line 135: (
+Line 135: ID = inode
+Line 135: )
+Line 135: ;
+Line 136: if
+Line 136: (
+Line 136: !
+Line 136: ID = isize
+Line 136: )
+Line 137: return
+Line 137: INTCON = 0
+Line 137: ;
+Line 138: ID = blocks
+Line 138: =
+Line 138: ID = isize
+Line 138: >
+Line 138: >
+Line 138: ID = BLOCK_SIZE_BITS
+Line 138: ;
+Line 139: ID = off
+Line 139: =
+Line 139: ID = isize
+Line 139: Unrecognized token: 38
+Line 139: (
+Line 139: ID = BLOCK_SIZE
+Line 139: -
+Line 139: INTCON = 1
+Line 139: )
+Line 139: ;
+Line 140: if
+Line 140: (
+Line 140: (
+Line 140: ID = blocks
+Line 140: Unrecognized token: 37
+Line 140: ID = sizeof
+Line 140: (
+Line 140: ID = struct
+Line 140: ID = v1_disk_dqblk
+Line 140: )
+Line 140: *
+Line 140: ID = BLOCK_SIZE
+Line 140: +
+Line 140: ID = off
+Line 140: )
+Line 140: Unrecognized token: 37
+Line 140: ID = sizeof
+Line 140: (
+Line 140: ID = struct
+Line 140: ID = v1_disk_dqblk
+Line 140: )
+Line 140: )
+Line 141: return
+Line 141: INTCON = 0
+Line 141: ;
+Line 143: ID = fs
+Line 143: =
+Line 143: ID = get_fs
+Line 143: (
+Line 143: )
+Line 143: ;
+Line 144: ID = set_fs
+Line 144: (
+Line 144: ID = KERNEL_DS
+Line 144: )
+Line 144: ;
+Line 145: ID = size
+Line 145: =
+Line 145: ID = f
+Line 145: -
+Line 145: >
+Line 145: ID = f_op
+Line 145: -
+Line 145: >
+Line 145: ID = read
+Line 145: (
+Line 145: ID = f
+Line 145: ,
+Line 145: (
+Line 145: char
+Line 145: *
+Line 145: )
+Line 145: Unrecognized token: 38
+Line 145: ID = dqhead
+Line 145: ,
+Line 145: ID = sizeof
+Line 145: (
+Line 145: ID = struct
+Line 145: ID = v2_disk_dqheader
+Line 145: )
+Line 145: ,
+Line 145: Unrecognized token: 38
+Line 145: ID = offset
+Line 145: )
+Line 145: ;
+Line 146: ID = set_fs
+Line 146: (
+Line 146: ID = fs
+Line 146: )
+Line 146: ;
+Line 147: if
+Line 147: (
+Line 147: ID = size
+Line 147: !=
+Line 147: ID = sizeof
+Line 147: (
+Line 147: ID = struct
+Line 147: ID = v2_disk_dqheader
+Line 147: )
+Line 147: )
+Line 148: return
+Line 148: INTCON = 1
+Line 148: ;
+Line 149: if
+Line 149: (
+Line 149: ID = le32_to_cpu
+Line 149: (
+Line 149: ID = dqhead
+Line 149: Unrecognized token: 46
+Line 149: ID = dqh_magic
+Line 149: )
+Line 149: !=
+Line 149: ID = quota_magics
+Line 149: [
+Line 149: ID = type
+Line 149: ]
+Line 149: )
+Line 150: return
+Line 150: INTCON = 1
+Line 150: ;
+Line 151: ID = printk
+Line 151: (
+Line 151: ID = KERN_INFO
+Line 151: STRINGCON = "VFS: %s: Refusing to turn on old quota format on given file. It probably contains newer quota format.\n"
+Line 151: ,
+Line 151: ID = sb
+Line 151: -
+Line 151: >
+Line 151: ID = s_id
+Line 151: )
+Line 151: ;
+Line 152: return
+Line 152: INTCON = 0
+Line 152: ;
+Line 153: }
+Line 155: ID = static
+Line 155: int
+Line 155: ID = v1_read_file_info
+Line 155: (
+Line 155: ID = struct
+Line 155: ID = super_block
+Line 155: *
+Line 155: ID = sb
+Line 155: ,
+Line 155: int
+Line 155: ID = type
+Line 155: )
+Line 156: {
+Line 157: ID = struct
+Line 157: ID = quota_info
+Line 157: *
+Line 157: ID = dqopt
+Line 157: =
+Line 157: ID = sb_dqopt
+Line 157: (
+Line 157: ID = sb
+Line 157: )
+Line 157: ;
+Line 158: ID = mm_segment_t
+Line 158: ID = fs
+Line 158: ;
+Line 159: ID = loff_t
+Line 159: ID = offset
+Line 159: ;
+Line 160: ID = struct
+Line 160: ID = file
+Line 160: *
+Line 160: ID = filp
+Line 160: =
+Line 160: ID = dqopt
+Line 160: -
+Line 160: >
+Line 160: ID = files
+Line 160: [
+Line 160: ID = type
+Line 160: ]
+Line 160: ;
+Line 161: ID = struct
+Line 161: ID = v1_disk_dqblk
+Line 161: ID = dqblk
+Line 161: ;
+Line 162: int
+Line 162: ID = ret
+Line 162: ;
+Line 164: ID = offset
+Line 164: =
+Line 164: ID = v1_dqoff
+Line 164: (
+Line 164: INTCON = 0
+Line 164: )
+Line 164: ;
+Line 165: ID = fs
+Line 165: =
+Line 165: ID = get_fs
+Line 165: (
+Line 165: )
+Line 165: ;
+Line 166: ID = set_fs
+Line 166: (
+Line 166: ID = KERNEL_DS
+Line 166: )
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: (
+Line 167: ID = ret
+Line 167: =
+Line 167: ID = filp
+Line 167: -
+Line 167: >
+Line 167: ID = f_op
+Line 167: -
+Line 167: >
+Line 167: ID = read
+Line 167: (
+Line 167: ID = filp
+Line 167: ,
+Line 167: (
+Line 167: char
+Line 167: *
+Line 167: )
+Line 167: Unrecognized token: 38
+Line 167: ID = dqblk
+Line 167: ,
+Line 167: ID = sizeof
+Line 167: (
+Line 167: ID = struct
+Line 167: ID = v1_disk_dqblk
+Line 167: )
+Line 167: ,
+Line 167: Unrecognized token: 38
+Line 167: ID = offset
+Line 167: )
+Line 167: )
+Line 167: !=
+Line 167: ID = sizeof
+Line 167: (
+Line 167: ID = struct
+Line 167: ID = v1_disk_dqblk
+Line 167: )
+Line 167: )
+Line 167: {
+Line 168: if
+Line 168: (
+Line 168: ID = ret
+Line 168: >=
+Line 168: INTCON = 0
+Line 168: )
+Line 169: ID = ret
+Line 169: =
+Line 169: -
+Line 169: ID = EIO
+Line 169: ;
+Line 170: ID = goto
+Line 170: ID = out
+Line 170: ;
+Line 171: }
+Line 172: ID = ret
+Line 172: =
+Line 172: INTCON = 0
+Line 172: ;
+Line 173: ID = dqopt
+Line 173: -
+Line 173: >
+Line 173: ID = info
+Line 173: [
+Line 173: ID = type
+Line 173: ]
+Line 173: Unrecognized token: 46
+Line 173: ID = dqi_igrace
+Line 173: =
+Line 173: ID = dqblk
+Line 173: Unrecognized token: 46
+Line 173: ID = dqb_itime
+Line 173: Unrecognized token: 63
+Line 173: ID = dqblk
+Line 173: Unrecognized token: 46
+Line 173: ID = dqb_itime
+Line 173: Unrecognized token: 58
+Line 173: ID = MAX_IQ_TIME
+Line 173: ;
+Line 174: ID = dqopt
+Line 174: -
+Line 174: >
+Line 174: ID = info
+Line 174: [
+Line 174: ID = type
+Line 174: ]
+Line 174: Unrecognized token: 46
+Line 174: ID = dqi_bgrace
+Line 174: =
+Line 174: ID = dqblk
+Line 174: Unrecognized token: 46
+Line 174: ID = dqb_btime
+Line 174: Unrecognized token: 63
+Line 174: ID = dqblk
+Line 174: Unrecognized token: 46
+Line 174: ID = dqb_btime
+Line 174: Unrecognized token: 58
+Line 174: ID = MAX_DQ_TIME
+Line 174: ;
+Line 175: ID = out
+Line 175: Unrecognized token: 58
+Line 176: ID = set_fs
+Line 176: (
+Line 176: ID = fs
+Line 176: )
+Line 176: ;
+Line 177: return
+Line 177: ID = ret
+Line 177: ;
+Line 178: }
+Line 180: ID = static
+Line 180: int
+Line 180: ID = v1_write_file_info
+Line 180: (
+Line 180: ID = struct
+Line 180: ID = super_block
+Line 180: *
+Line 180: ID = sb
+Line 180: ,
+Line 180: int
+Line 180: ID = type
+Line 180: )
+Line 181: {
+Line 182: ID = struct
+Line 182: ID = quota_info
+Line 182: *
+Line 182: ID = dqopt
+Line 182: =
+Line 182: ID = sb_dqopt
+Line 182: (
+Line 182: ID = sb
+Line 182: )
+Line 182: ;
+Line 183: ID = mm_segment_t
+Line 183: ID = fs
+Line 183: ;
+Line 184: ID = struct
+Line 184: ID = file
+Line 184: *
+Line 184: ID = filp
+Line 184: =
+Line 184: ID = dqopt
+Line 184: -
+Line 184: >
+Line 184: ID = files
+Line 184: [
+Line 184: ID = type
+Line 184: ]
+Line 184: ;
+Line 185: ID = struct
+Line 185: ID = v1_disk_dqblk
+Line 185: ID = dqblk
+Line 185: ;
+Line 186: ID = loff_t
+Line 186: ID = offset
+Line 186: ;
+Line 187: int
+Line 187: ID = ret
+Line 187: ;
+Line 189: ID = dqopt
+Line 189: -
+Line 189: >
+Line 189: ID = info
+Line 189: [
+Line 189: ID = type
+Line 189: ]
+Line 189: Unrecognized token: 46
+Line 189: ID = dqi_flags
+Line 189: Unrecognized token: 38
+Line 189: =
+Line 189: Unrecognized token: 126
+Line 189: ID = DQF_INFO_DIRTY
+Line 189: ;
+Line 190: ID = offset
+Line 190: =
+Line 190: ID = v1_dqoff
+Line 190: (
+Line 190: INTCON = 0
+Line 190: )
+Line 190: ;
+Line 191: ID = fs
+Line 191: =
+Line 191: ID = get_fs
+Line 191: (
+Line 191: )
+Line 191: ;
+Line 192: ID = set_fs
+Line 192: (
+Line 192: ID = KERNEL_DS
+Line 192: )
+Line 192: ;
+Line 193: if
+Line 193: (
+Line 193: (
+Line 193: ID = ret
+Line 193: =
+Line 193: ID = filp
+Line 193: -
+Line 193: >
+Line 193: ID = f_op
+Line 193: -
+Line 193: >
+Line 193: ID = read
+Line 193: (
+Line 193: ID = filp
+Line 193: ,
+Line 193: (
+Line 193: char
+Line 193: *
+Line 193: )
+Line 193: Unrecognized token: 38
+Line 193: ID = dqblk
+Line 193: ,
+Line 193: ID = sizeof
+Line 193: (
+Line 193: ID = struct
+Line 193: ID = v1_disk_dqblk
+Line 193: )
+Line 193: ,
+Line 193: Unrecognized token: 38
+Line 193: ID = offset
+Line 193: )
+Line 193: )
+Line 193: !=
+Line 193: ID = sizeof
+Line 193: (
+Line 193: ID = struct
+Line 193: ID = v1_disk_dqblk
+Line 193: )
+Line 193: )
+Line 193: {
+Line 194: if
+Line 194: (
+Line 194: ID = ret
+Line 194: >=
+Line 194: INTCON = 0
+Line 194: )
+Line 195: ID = ret
+Line 195: =
+Line 195: -
+Line 195: ID = EIO
+Line 195: ;
+Line 196: ID = goto
+Line 196: ID = out
+Line 196: ;
+Line 197: }
+Line 198: ID = dqblk
+Line 198: Unrecognized token: 46
+Line 198: ID = dqb_itime
+Line 198: =
+Line 198: ID = dqopt
+Line 198: -
+Line 198: >
+Line 198: ID = info
+Line 198: [
+Line 198: ID = type
+Line 198: ]
+Line 198: Unrecognized token: 46
+Line 198: ID = dqi_igrace
+Line 198: ;
+Line 199: ID = dqblk
+Line 199: Unrecognized token: 46
+Line 199: ID = dqb_btime
+Line 199: =
+Line 199: ID = dqopt
+Line 199: -
+Line 199: >
+Line 199: ID = info
+Line 199: [
+Line 199: ID = type
+Line 199: ]
+Line 199: Unrecognized token: 46
+Line 199: ID = dqi_bgrace
+Line 199: ;
+Line 200: ID = offset
+Line 200: =
+Line 200: ID = v1_dqoff
+Line 200: (
+Line 200: INTCON = 0
+Line 200: )
+Line 200: ;
+Line 201: ID = ret
+Line 201: =
+Line 201: ID = filp
+Line 201: -
+Line 201: >
+Line 201: ID = f_op
+Line 201: -
+Line 201: >
+Line 201: ID = write
+Line 201: (
+Line 201: ID = filp
+Line 201: ,
+Line 201: (
+Line 201: char
+Line 201: *
+Line 201: )
+Line 201: Unrecognized token: 38
+Line 201: ID = dqblk
+Line 201: ,
+Line 201: ID = sizeof
+Line 201: (
+Line 201: ID = struct
+Line 201: ID = v1_disk_dqblk
+Line 201: )
+Line 201: ,
+Line 201: Unrecognized token: 38
+Line 201: ID = offset
+Line 201: )
+Line 201: ;
+Line 202: if
+Line 202: (
+Line 202: ID = ret
+Line 202: ==
+Line 202: ID = sizeof
+Line 202: (
+Line 202: ID = struct
+Line 202: ID = v1_disk_dqblk
+Line 202: )
+Line 202: )
+Line 203: ID = ret
+Line 203: =
+Line 203: INTCON = 0
+Line 203: ;
+Line 204: else
+Line 204: if
+Line 204: (
+Line 204: ID = ret
+Line 204: >
+Line 204: INTCON = 0
+Line 204: )
+Line 205: ID = ret
+Line 205: =
+Line 205: -
+Line 205: ID = EIO
+Line 205: ;
+Line 206: ID = out
+Line 206: Unrecognized token: 58
+Line 207: ID = set_fs
+Line 207: (
+Line 207: ID = fs
+Line 207: )
+Line 207: ;
+Line 208: return
+Line 208: ID = ret
+Line 208: ;
+Line 209: }
+Line 211: ID = static
+Line 211: ID = struct
+Line 211: ID = quota_format_ops
+Line 211: ID = v1_format_ops
+Line 211: =
+Line 211: {
+Line 212: Unrecognized token: 46
+Line 212: ID = check_quota_file
+Line 212: =
+Line 212: ID = v1_check_quota_file
+Line 212: ,
+Line 213: Unrecognized token: 46
+Line 213: ID = read_file_info
+Line 213: =
+Line 213: ID = v1_read_file_info
+Line 213: ,
+Line 214: Unrecognized token: 46
+Line 214: ID = write_file_info
+Line 214: =
+Line 214: ID = v1_write_file_info
+Line 214: ,
+Line 215: Unrecognized token: 46
+Line 215: ID = free_file_info
+Line 215: =
+Line 215: ID = NULL
+Line 215: ,
+Line 216: Unrecognized token: 46
+Line 216: ID = read_dqblk
+Line 216: =
+Line 216: ID = v1_read_dqblk
+Line 216: ,
+Line 217: Unrecognized token: 46
+Line 217: ID = commit_dqblk
+Line 217: =
+Line 217: ID = v1_commit_dqblk
+Line 217: ,
+Line 218: }
+Line 218: ;
+Line 220: ID = static
+Line 220: ID = struct
+Line 220: ID = quota_format_type
+Line 220: ID = v1_quota_format
+Line 220: =
+Line 220: {
+Line 221: Unrecognized token: 46
+Line 221: ID = qf_fmt_id
+Line 221: =
+Line 221: ID = QFMT_VFS_OLD
+Line 221: ,
+Line 222: Unrecognized token: 46
+Line 222: ID = qf_ops
+Line 222: =
+Line 222: Unrecognized token: 38
+Line 222: ID = v1_format_ops
+Line 222: ,
+Line 223: Unrecognized token: 46
+Line 223: ID = qf_owner
+Line 223: =
+Line 223: ID = THIS_MODULE
+Line 224: }
+Line 224: ;
+Line 226: ID = static
+Line 226: int
+Line 226: Unrecognized token: 95
+Line 226: Unrecognized token: 95
+Line 226: ID = init
+Line 226: ID = init_v1_quota_format
+Line 226: (
+Line 226: void
+Line 226: )
+Line 227: {
+Line 228: return
+Line 228: ID = register_quota_format
+Line 228: (
+Line 228: Unrecognized token: 38
+Line 228: ID = v1_quota_format
+Line 228: )
+Line 228: ;
+Line 229: }
+Line 231: ID = static
+Line 231: void
+Line 231: Unrecognized token: 95
+Line 231: Unrecognized token: 95
+Line 231: ID = exit
+Line 231: ID = exit_v1_quota_format
+Line 231: (
+Line 231: void
+Line 231: )
+Line 232: {
+Line 233: ID = unregister_quota_format
+Line 233: (
+Line 233: Unrecognized token: 38
+Line 233: ID = v1_quota_format
+Line 233: )
+Line 233: ;
+Line 234: }
+Line 236: ID = module_init
+Line 236: (
+Line 236: ID = init_v1_quota_format
+Line 236: )
+Line 236: ;
+Line 237: ID = module_exit
+Line 237: (
+Line 237: ID = exit_v1_quota_format
+Line 237: )
+Line 237: ;
+Line 239: -EOF-

@@ -1,0 +1,36 @@
+
+int a;
+
+char b[11];
+
+int c[15];
+
+int charlie(void);
+
+
+void
+beta(char text[])
+{
+    int x, y;
+    x = 2;
+    beta("What?");
+    beta("What?");
+    y = 42;
+}
+
+void
+alpha(void)
+{
+    int foo, wow, monkey, cool;
+    beta("hiya");
+}
+
+
+int
+charlie(void)
+{
+    int bob;
+    bob = 1;
+    return bob;
+}
+

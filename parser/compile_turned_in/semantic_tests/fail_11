@@ -1,0 +1,30 @@
+int badguy(void)
+{
+}
+
+int a(void)
+{
+    return 1;
+}
+
+
+int b(void)
+{
+    int d, e;
+    int f, g;
+
+    c = d + e;
+    g = f + g;
+    g = c; 
+
+    c = a();
+    z();
+
+    return c;
+}
+
+
+int z(void)
+{
+    return 1;
+}

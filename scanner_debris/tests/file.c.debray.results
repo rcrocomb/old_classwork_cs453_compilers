@@ -1,0 +1,1008 @@
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = fs
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = time
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = slab
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = vmalloc
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = file
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = asm
+Line 16: /
+Line 16: ID = bitops
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 23: ID = struct
+Line 23: ID = file
+Line 23: *
+Line 23: *
+Line 23: ID = alloc_fd_array
+Line 23: (
+Line 23: int
+Line 23: ID = num
+Line 23: )
+Line 24: {
+Line 25: ID = struct
+Line 25: ID = file
+Line 25: *
+Line 25: *
+Line 25: ID = new_fds
+Line 25: ;
+Line 26: int
+Line 26: ID = size
+Line 26: =
+Line 26: ID = num
+Line 26: *
+Line 26: ID = sizeof
+Line 26: (
+Line 26: ID = struct
+Line 26: ID = file
+Line 26: *
+Line 26: )
+Line 26: ;
+Line 28: if
+Line 28: (
+Line 28: ID = size
+Line 28: <=
+Line 28: ID = PAGE_SIZE
+Line 28: )
+Line 29: ID = new_fds
+Line 29: =
+Line 29: (
+Line 29: ID = struct
+Line 29: ID = file
+Line 29: *
+Line 29: *
+Line 29: )
+Line 29: ID = kmalloc
+Line 29: (
+Line 29: ID = size
+Line 29: ,
+Line 29: ID = GFP_KERNEL
+Line 29: )
+Line 29: ;
+Line 30: else
+Line 31: ID = new_fds
+Line 31: =
+Line 31: (
+Line 31: ID = struct
+Line 31: ID = file
+Line 31: *
+Line 31: *
+Line 31: )
+Line 31: ID = vmalloc
+Line 31: (
+Line 31: ID = size
+Line 31: )
+Line 31: ;
+Line 32: return
+Line 32: ID = new_fds
+Line 32: ;
+Line 33: }
+Line 35: void
+Line 35: ID = free_fd_array
+Line 35: (
+Line 35: ID = struct
+Line 35: ID = file
+Line 35: *
+Line 35: *
+Line 35: ID = array
+Line 35: ,
+Line 35: int
+Line 35: ID = num
+Line 35: )
+Line 36: {
+Line 37: int
+Line 37: ID = size
+Line 37: =
+Line 37: ID = num
+Line 37: *
+Line 37: ID = sizeof
+Line 37: (
+Line 37: ID = struct
+Line 37: ID = file
+Line 37: *
+Line 37: )
+Line 37: ;
+Line 39: if
+Line 39: (
+Line 39: !
+Line 39: ID = array
+Line 39: )
+Line 39: {
+Line 40: ID = printk
+Line 40: (
+Line 40: ID = KERN_ERR
+Line 40: STRINGCON = "free_fd_array: array = 0 (num = %d)\n"
+Line 40: ,
+Line 40: ID = num
+Line 40: )
+Line 40: ;
+Line 41: return
+Line 41: ;
+Line 42: }
+Line 44: if
+Line 44: (
+Line 44: ID = num
+Line 44: <=
+Line 44: ID = NR_OPEN_DEFAULT
+Line 44: )
+Line 45: return
+Line 45: ;
+Line 46: else
+Line 46: if
+Line 46: (
+Line 46: ID = size
+Line 46: <=
+Line 46: ID = PAGE_SIZE
+Line 46: )
+Line 47: ID = kfree
+Line 47: (
+Line 47: ID = array
+Line 47: )
+Line 47: ;
+Line 48: else
+Line 49: ID = vfree
+Line 49: (
+Line 49: ID = array
+Line 49: )
+Line 49: ;
+Line 50: }
+Line 57: int
+Line 57: ID = expand_fd_array
+Line 57: (
+Line 57: ID = struct
+Line 57: ID = files_struct
+Line 57: *
+Line 57: ID = files
+Line 57: ,
+Line 57: int
+Line 57: ID = nr
+Line 57: )
+Line 58: {
+Line 59: ID = struct
+Line 59: ID = file
+Line 59: *
+Line 59: *
+Line 59: ID = new_fds
+Line 59: ;
+Line 60: int
+Line 60: ID = error
+Line 60: ,
+Line 60: ID = nfds
+Line 60: ;
+Line 63: ID = error
+Line 63: =
+Line 63: -
+Line 63: ID = EMFILE
+Line 63: ;
+Line 64: if
+Line 64: (
+Line 64: ID = files
+Line 64: -
+Line 64: >
+Line 64: ID = max_fds
+Line 64: >=
+Line 64: ID = NR_OPEN
+Line 64: ||
+Line 64: ID = nr
+Line 64: >=
+Line 64: ID = NR_OPEN
+Line 64: )
+Line 65: ID = goto
+Line 65: ID = out
+Line 65: ;
+Line 67: ID = nfds
+Line 67: =
+Line 67: ID = files
+Line 67: -
+Line 67: >
+Line 67: ID = max_fds
+Line 67: ;
+Line 68: ID = spin_unlock
+Line 68: (
+Line 68: Unrecognized token: 38
+Line 68: ID = files
+Line 68: -
+Line 68: >
+Line 68: ID = file_lock
+Line 68: )
+Line 68: ;
+Line 75: ID = do
+Line 75: {
+Line 76: Unrecognized token: 35
+Line 76: if
+Line 76: ID = NR_OPEN_DEFAULT
+Line 76: <
+Line 76: INTCON = 256
+Line 77: if
+Line 77: (
+Line 77: ID = nfds
+Line 77: <
+Line 77: INTCON = 256
+Line 77: )
+Line 78: ID = nfds
+Line 78: =
+Line 78: INTCON = 256
+Line 78: ;
+Line 79: else
+Line 80: Unrecognized token: 35
+Line 80: ID = endif
+Line 81: if
+Line 81: (
+Line 81: ID = nfds
+Line 81: <
+Line 81: (
+Line 81: ID = PAGE_SIZE
+Line 81: /
+Line 81: ID = sizeof
+Line 81: (
+Line 81: ID = struct
+Line 81: ID = file
+Line 81: *
+Line 81: )
+Line 81: )
+Line 81: )
+Line 82: ID = nfds
+Line 82: =
+Line 82: ID = PAGE_SIZE
+Line 82: /
+Line 82: ID = sizeof
+Line 82: (
+Line 82: ID = struct
+Line 82: ID = file
+Line 82: *
+Line 82: )
+Line 82: ;
+Line 83: else
+Line 83: {
+Line 84: ID = nfds
+Line 84: =
+Line 84: ID = nfds
+Line 84: *
+Line 84: INTCON = 2
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: ID = nfds
+Line 85: >
+Line 85: ID = NR_OPEN
+Line 85: )
+Line 86: ID = nfds
+Line 86: =
+Line 86: ID = NR_OPEN
+Line 86: ;
+Line 87: }
+Line 88: }
+Line 88: while
+Line 88: (
+Line 88: ID = nfds
+Line 88: <=
+Line 88: ID = nr
+Line 88: )
+Line 88: ;
+Line 90: ID = error
+Line 90: =
+Line 90: -
+Line 90: ID = ENOMEM
+Line 90: ;
+Line 91: ID = new_fds
+Line 91: =
+Line 91: ID = alloc_fd_array
+Line 91: (
+Line 91: ID = nfds
+Line 91: )
+Line 91: ;
+Line 92: ID = spin_lock
+Line 92: (
+Line 92: Unrecognized token: 38
+Line 92: ID = files
+Line 92: -
+Line 92: >
+Line 92: ID = file_lock
+Line 92: )
+Line 92: ;
+Line 93: if
+Line 93: (
+Line 93: !
+Line 93: ID = new_fds
+Line 93: )
+Line 94: ID = goto
+Line 94: ID = out
+Line 94: ;
+Line 98: if
+Line 98: (
+Line 98: ID = nfds
+Line 98: >
+Line 98: ID = files
+Line 98: -
+Line 98: >
+Line 98: ID = max_fds
+Line 98: )
+Line 98: {
+Line 99: ID = struct
+Line 99: ID = file
+Line 99: *
+Line 99: *
+Line 99: ID = old_fds
+Line 99: ;
+Line 100: int
+Line 100: ID = i
+Line 100: ;
+Line 102: ID = old_fds
+Line 102: =
+Line 102: ID = xchg
+Line 102: (
+Line 102: Unrecognized token: 38
+Line 102: ID = files
+Line 102: -
+Line 102: >
+Line 102: ID = fd
+Line 102: ,
+Line 102: ID = new_fds
+Line 102: )
+Line 102: ;
+Line 103: ID = i
+Line 103: =
+Line 103: ID = xchg
+Line 103: (
+Line 103: Unrecognized token: 38
+Line 103: ID = files
+Line 103: -
+Line 103: >
+Line 103: ID = max_fds
+Line 103: ,
+Line 103: ID = nfds
+Line 103: )
+Line 103: ;
+Line 107: if
+Line 107: (
+Line 107: ID = i
+Line 107: )
+Line 107: {
+Line 108: ID = memcpy
+Line 108: (
+Line 108: ID = new_fds
+Line 108: ,
+Line 108: ID = old_fds
+Line 108: ,
+Line 108: ID = i
+Line 108: *
+Line 108: ID = sizeof
+Line 108: (
+Line 108: ID = struct
+Line 108: ID = file
+Line 108: *
+Line 108: )
+Line 108: )
+Line 108: ;
+Line 110: ID = memset
+Line 110: (
+Line 110: Unrecognized token: 38
+Line 110: ID = new_fds
+Line 110: [
+Line 110: ID = i
+Line 110: ]
+Line 110: ,
+Line 110: INTCON = 0
+Line 110: ,
+Line 111: (
+Line 111: ID = nfds
+Line 111: -
+Line 111: ID = i
+Line 111: )
+Line 111: *
+Line 111: ID = sizeof
+Line 111: (
+Line 111: ID = struct
+Line 111: ID = file
+Line 111: *
+Line 111: )
+Line 111: )
+Line 111: ;
+Line 113: ID = spin_unlock
+Line 113: (
+Line 113: Unrecognized token: 38
+Line 113: ID = files
+Line 113: -
+Line 113: >
+Line 113: ID = file_lock
+Line 113: )
+Line 113: ;
+Line 114: ID = free_fd_array
+Line 114: (
+Line 114: ID = old_fds
+Line 114: ,
+Line 114: ID = i
+Line 114: )
+Line 114: ;
+Line 115: ID = spin_lock
+Line 115: (
+Line 115: Unrecognized token: 38
+Line 115: ID = files
+Line 115: -
+Line 115: >
+Line 115: ID = file_lock
+Line 115: )
+Line 115: ;
+Line 116: }
+Line 117: }
+Line 117: else
+Line 117: {
+Line 119: ID = spin_unlock
+Line 119: (
+Line 119: Unrecognized token: 38
+Line 119: ID = files
+Line 119: -
+Line 119: >
+Line 119: ID = file_lock
+Line 119: )
+Line 119: ;
+Line 120: ID = free_fd_array
+Line 120: (
+Line 120: ID = new_fds
+Line 120: ,
+Line 120: ID = nfds
+Line 120: )
+Line 120: ;
+Line 121: ID = spin_lock
+Line 121: (
+Line 121: Unrecognized token: 38
+Line 121: ID = files
+Line 121: -
+Line 121: >
+Line 121: ID = file_lock
+Line 121: )
+Line 121: ;
+Line 122: }
+Line 123: ID = error
+Line 123: =
+Line 123: INTCON = 0
+Line 123: ;
+Line 124: ID = out
+Line 124: Unrecognized token: 58
+Line 125: return
+Line 125: ID = error
+Line 125: ;
+Line 126: }
+Line 132: ID = fd_set
+Line 132: *
+Line 132: ID = alloc_fdset
+Line 132: (
+Line 132: int
+Line 132: ID = num
+Line 132: )
+Line 133: {
+Line 134: ID = fd_set
+Line 134: *
+Line 134: ID = new_fdset
+Line 134: ;
+Line 135: int
+Line 135: ID = size
+Line 135: =
+Line 135: ID = num
+Line 135: /
+Line 135: INTCON = 8
+Line 135: ;
+Line 137: if
+Line 137: (
+Line 137: ID = size
+Line 137: <=
+Line 137: ID = PAGE_SIZE
+Line 137: )
+Line 138: ID = new_fdset
+Line 138: =
+Line 138: (
+Line 138: ID = fd_set
+Line 138: *
+Line 138: )
+Line 138: ID = kmalloc
+Line 138: (
+Line 138: ID = size
+Line 138: ,
+Line 138: ID = GFP_KERNEL
+Line 138: )
+Line 138: ;
+Line 139: else
+Line 140: ID = new_fdset
+Line 140: =
+Line 140: (
+Line 140: ID = fd_set
+Line 140: *
+Line 140: )
+Line 140: ID = vmalloc
+Line 140: (
+Line 140: ID = size
+Line 140: )
+Line 140: ;
+Line 141: return
+Line 141: ID = new_fdset
+Line 141: ;
+Line 142: }
+Line 144: void
+Line 144: ID = free_fdset
+Line 144: (
+Line 144: ID = fd_set
+Line 144: *
+Line 144: ID = array
+Line 144: ,
+Line 144: int
+Line 144: ID = num
+Line 144: )
+Line 145: {
+Line 146: int
+Line 146: ID = size
+Line 146: =
+Line 146: ID = num
+Line 146: /
+Line 146: INTCON = 8
+Line 146: ;
+Line 148: if
+Line 148: (
+Line 148: ID = num
+Line 148: <=
+Line 148: Unrecognized token: 95
+Line 148: Unrecognized token: 95
+Line 148: ID = FD_SETSIZE
+Line 148: )
+Line 149: return
+Line 149: ;
+Line 150: else
+Line 150: if
+Line 150: (
+Line 150: ID = size
+Line 150: <=
+Line 150: ID = PAGE_SIZE
+Line 150: )
+Line 151: ID = kfree
+Line 151: (
+Line 151: ID = array
+Line 151: )
+Line 151: ;
+Line 152: else
+Line 153: ID = vfree
+Line 153: (
+Line 153: ID = array
+Line 153: )
+Line 153: ;
+Line 154: }
+Line 160: int
+Line 160: ID = expand_fdset
+Line 160: (
+Line 160: ID = struct
+Line 160: ID = files_struct
+Line 160: *
+Line 160: ID = files
+Line 160: ,
+Line 160: int
+Line 160: ID = nr
+Line 160: )
+Line 161: {
+Line 162: ID = fd_set
+Line 162: *
+Line 162: ID = new_openset
+Line 162: =
+Line 162: ID = NULL
+Line 162: ,
+Line 162: *
+Line 162: ID = new_execset
+Line 162: =
+Line 162: ID = NULL
+Line 162: ;
+Line 163: int
+Line 163: ID = error
+Line 163: ,
+Line 163: ID = nfds
+Line 163: =
+Line 163: INTCON = 0
+Line 163: ;
+Line 165: ID = error
+Line 165: =
+Line 165: -
+Line 165: ID = EMFILE
+Line 165: ;
+Line 166: if
+Line 166: (
+Line 166: ID = files
+Line 166: -
+Line 166: >
+Line 166: ID = max_fdset
+Line 166: >=
+Line 166: ID = NR_OPEN
+Line 166: ||
+Line 166: ID = nr
+Line 166: >=
+Line 166: ID = NR_OPEN
+Line 166: )
+Line 167: ID = goto
+Line 167: ID = out
+Line 167: ;
+Line 169: ID = nfds
+Line 169: =
+Line 169: ID = files
+Line 169: -
+Line 169: >
+Line 169: ID = max_fdset
+Line 169: ;
+Line 170: ID = spin_unlock
+Line 170: (
+Line 170: Unrecognized token: 38
+Line 170: ID = files
+Line 170: -
+Line 170: >
+Line 170: ID = file_lock
+Line 170: )
+Line 170: ;
+Line 173: ID = do
+Line 173: {
+Line 174: if
+Line 174: (
+Line 174: ID = nfds
+Line 174: <
+Line 174: (
+Line 174: ID = PAGE_SIZE
+Line 174: *
+Line 174: INTCON = 8
+Line 174: )
+Line 174: )
+Line 175: ID = nfds
+Line 175: =
+Line 175: ID = PAGE_SIZE
+Line 175: *
+Line 175: INTCON = 8
+Line 175: ;
+Line 176: else
+Line 176: {
+Line 177: ID = nfds
+Line 177: =
+Line 177: ID = nfds
+Line 177: *
+Line 177: INTCON = 2
+Line 177: ;
+Line 178: if
+Line 178: (
+Line 178: ID = nfds
+Line 178: >
+Line 178: ID = NR_OPEN
+Line 178: )
+Line 179: ID = nfds
+Line 179: =
+Line 179: ID = NR_OPEN
+Line 179: ;
+Line 180: }
+Line 181: }
+Line 181: while
+Line 181: (
+Line 181: ID = nfds
+Line 181: <=
+Line 181: ID = nr
+Line 181: )
+Line 181: ;
+Line 183: ID = error
+Line 183: =
+Line 183: -
+Line 183: ID = ENOMEM
+Line 183: ;
+Line 184: ID = new_openset
+Line 184: =
+Line 184: ID = alloc_fdset
+Line 184: (
+Line 184: ID = nfds
+Line 184: )
+Line 184: ;
+Line 185: ID = new_execset
+Line 185: =
+Line 185: ID = alloc_fdset
+Line 185: (
+Line 185: ID = nfds
+Line 185: )
+Line 185: ;
+Line 186: ID = spin_lock
+Line 186: (
+Line 186: Unrecognized token: 38
+Line 186: ID = files
+Line 186: -
+Line 186: >
+Line 186: ID = file_lock
+Line 186: )
+Line 186: ;
+Line 187: if
+Line 187: (
+Line 187: !
+Line 187: ID = new_openset
+Line 187: ||
+Line 187: !
+Line 187: ID = new_execset
+Line 187: )
+Line 188: ID = goto
+Line 188: ID = out
+Line 188: ;
+Line 190: ID = error
+Line 190: =
+Line 190: INTCON = 0
+Line 190: ;
+Line 193: if
+Line 193: (
+Line 193: ID = nfds
+Line 193: >
+Line 193: ID = files
+Line 193: -
+Line 193: >
+Line 193: ID = max_fdset
+Line 193: )
+Line 193: {
+Line 194: int
+Line 194: ID = i
+Line 194: =
+Line 194: ID = files
+Line 194: -
+Line 194: >
+Line 194: ID = max_fdset
+Line 194: /
+Line 194: (
+Line 194: ID = sizeof
+Line 194: (
+Line 194: ID = unsigned
+Line 194: ID = long
+Line 194: )
+Line 194: *
+Line 194: INTCON = 8
+Line 194: )
+Line 194: ;
+Line 195: int
+Line 195: ID = count
+Line 195: =
+Line 195: (
+Line 195: ID = nfds
+Line 195: -
+Line 195: ID = files
+Line 195: -
+Line 195: >
+Line 195: ID = max_fdset
+Line 195: )
+Line 195: /
+Line 195: INTCON = 8
+Line 195: ;
+Line 201: if
+Line 201: (
+Line 201: ID = i
+Line 201: )
+Line 201: {
+Line 202: ID = memcpy
+Line 202: (
+Line 202: ID = new_openset
+Line 202: ,
+Line 202: ID = files
+Line 202: -
+Line 202: >
+Line 202: ID = open_fds
+Line 202: ,
+Line 202: ID = files
+Line 202: -
+Line 202: >
+Line 202: ID = max_fdset
+Line 202: /
+Line 202: INTCON = 8
+Line 202: )
+Line 202: ;
+Line 203: ID = memcpy
+Line 203: (
+Line 203: ID = new_execset
+Line 203: ,
+Line 203: ID = files
+Line 203: -
+Line 203: >
+Line 203: ID = close_on_exec
+Line 203: ,
+Line 203: ID = files
+Line 203: -
+Line 203: >
+Line 203: ID = max_fdset
+Line 203: /
+Line 203: INTCON = 8
+Line 203: )
+Line 203: ;
+Line 204: ID = memset
+Line 204: (
+Line 204: Unrecognized token: 38
+Line 204: ID = new_openset
+Line 204: -
+Line 204: >
+Line 204: ID = fds_bits
+Line 204: [
+Line 204: ID = i
+Line 204: ]
+Line 204: ,
+Line 204: INTCON = 0
+Line 204: ,
+Line 204: ID = count
+Line 204: )
+Line 204: ;
+Line 205: ID = memset
+Line 205: (
+Line 205: Unrecognized token: 38
+Line 205: ID = new_execset
+Line 205: -
+Line 205: >
+Line 205: ID = fds_bits
+Line 205: [
+Line 205: ID = i
+Line 205: ]
+Line 205: ,
+Line 205: INTCON = 0
+Line 205: ,
+Line 205: ID = count
+Line 205: )
+Line 205: ;
+Line 206: }
+Line 208: ID = nfds
+Line 208: =
+Line 208: ID = xchg
+Line 208: (
+Line 208: Unrecognized token: 38
+Line 208: ID = files
+Line 208: -
+Line 208: >
+Line 208: ID = max_fdset
+Line 208: ,
+Line 208: ID = nfds
+Line 208: )
+Line 208: ;
+Line 209: ID = new_openset
+Line 209: =
+Line 209: ID = xchg
+Line 209: (
+Line 209: Unrecognized token: 38
+Line 209: ID = files
+Line 209: -
+Line 209: >
+Line 209: ID = open_fds
+Line 209: ,
+Line 209: ID = new_openset
+Line 209: )
+Line 209: ;
+Line 210: ID = new_execset
+Line 210: =
+Line 210: ID = xchg
+Line 210: (
+Line 210: Unrecognized token: 38
+Line 210: ID = files
+Line 210: -
+Line 210: >
+Line 210: ID = close_on_exec
+Line 210: ,
+Line 210: ID = new_execset
+Line 210: )
+Line 210: ;
+Line 211: ID = spin_unlock
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = files
+Line 211: -
+Line 211: >
+Line 211: ID = file_lock
+Line 211: )
+Line 211: ;
+Line 212: ID = free_fdset
+Line 212: (
+Line 212: ID = new_openset
+Line 212: ,
+Line 212: ID = nfds
+Line 212: )
+Line 212: ;
+Line 213: ID = free_fdset
+Line 213: (
+Line 213: ID = new_execset
+Line 213: ,
+Line 213: ID = nfds
+Line 213: )
+Line 213: ;
+Line 214: ID = spin_lock
+Line 214: (
+Line 214: Unrecognized token: 38
+Line 214: ID = files
+Line 214: -
+Line 214: >
+Line 214: ID = file_lock
+Line 214: )
+Line 214: ;
+Line 215: return
+Line 215: INTCON = 0
+Line 215: ;
+Line 216: }
+Line 219: ID = out
+Line 219: Unrecognized token: 58
+Line 220: ID = spin_unlock
+Line 220: (
+Line 220: Unrecognized token: 38
+Line 220: ID = files
+Line 220: -
+Line 220: >
+Line 220: ID = file_lock
+Line 220: )
+Line 220: ;
+Line 221: if
+Line 221: (
+Line 221: ID = new_openset
+Line 221: )
+Line 222: ID = free_fdset
+Line 222: (
+Line 222: ID = new_openset
+Line 222: ,
+Line 222: ID = nfds
+Line 222: )
+Line 222: ;
+Line 223: if
+Line 223: (
+Line 223: ID = new_execset
+Line 223: )
+Line 224: ID = free_fdset
+Line 224: (
+Line 224: ID = new_execset
+Line 224: ,
+Line 224: ID = nfds
+Line 224: )
+Line 224: ;
+Line 225: ID = spin_lock
+Line 225: (
+Line 225: Unrecognized token: 38
+Line 225: ID = files
+Line 225: -
+Line 225: >
+Line 225: ID = file_lock
+Line 225: )
+Line 225: ;
+Line 226: return
+Line 226: ID = error
+Line 226: ;
+Line 227: }
+Line 229: -EOF-

@@ -1,0 +1,5818 @@
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = kernel_stat
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = module
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = interrupt
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = percpu
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = init
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = mm
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = swap
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = notifier
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = thread_info
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = time
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = jiffies
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = cpu
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = asm
+Line 35: /
+Line 35: ID = uaccess
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = asm
+Line 36: /
+Line 36: ID = unistd
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = asm
+Line 37: /
+Line 37: ID = div64
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = asm
+Line 38: /
+Line 38: ID = timex
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 43: Unrecognized token: 35
+Line 43: ID = define
+Line 43: ID = TVN_BITS
+Line 43: INTCON = 6
+Line 44: Unrecognized token: 35
+Line 44: ID = define
+Line 44: ID = TVR_BITS
+Line 44: INTCON = 8
+Line 45: Unrecognized token: 35
+Line 45: ID = define
+Line 45: ID = TVN_SIZE
+Line 45: (
+Line 45: INTCON = 1
+Line 45: <
+Line 45: <
+Line 45: ID = TVN_BITS
+Line 45: )
+Line 46: Unrecognized token: 35
+Line 46: ID = define
+Line 46: ID = TVR_SIZE
+Line 46: (
+Line 46: INTCON = 1
+Line 46: <
+Line 46: <
+Line 46: ID = TVR_BITS
+Line 46: )
+Line 47: Unrecognized token: 35
+Line 47: ID = define
+Line 47: ID = TVN_MASK
+Line 47: (
+Line 47: ID = TVN_SIZE
+Line 47: -
+Line 47: INTCON = 1
+Line 47: )
+Line 48: Unrecognized token: 35
+Line 48: ID = define
+Line 48: ID = TVR_MASK
+Line 48: (
+Line 48: ID = TVR_SIZE
+Line 48: -
+Line 48: INTCON = 1
+Line 48: )
+Line 50: ID = typedef
+Line 50: ID = struct
+Line 50: ID = tvec_s
+Line 50: {
+Line 51: ID = struct
+Line 51: ID = list_head
+Line 51: ID = vec
+Line 51: [
+Line 51: ID = TVN_SIZE
+Line 51: ]
+Line 51: ;
+Line 52: }
+Line 52: ID = tvec_t
+Line 52: ;
+Line 54: ID = typedef
+Line 54: ID = struct
+Line 54: ID = tvec_root_s
+Line 54: {
+Line 55: ID = struct
+Line 55: ID = list_head
+Line 55: ID = vec
+Line 55: [
+Line 55: ID = TVR_SIZE
+Line 55: ]
+Line 55: ;
+Line 56: }
+Line 56: ID = tvec_root_t
+Line 56: ;
+Line 58: ID = struct
+Line 58: ID = tvec_t_base_s
+Line 58: {
+Line 59: ID = spinlock_t
+Line 59: ID = lock
+Line 59: ;
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = timer_jiffies
+Line 60: ;
+Line 61: ID = struct
+Line 61: ID = timer_list
+Line 61: *
+Line 61: ID = running_timer
+Line 61: ;
+Line 62: ID = tvec_root_t
+Line 62: ID = tv1
+Line 62: ;
+Line 63: ID = tvec_t
+Line 63: ID = tv2
+Line 63: ;
+Line 64: ID = tvec_t
+Line 64: ID = tv3
+Line 64: ;
+Line 65: ID = tvec_t
+Line 65: ID = tv4
+Line 65: ;
+Line 66: ID = tvec_t
+Line 66: ID = tv5
+Line 66: ;
+Line 67: }
+Line 67: Unrecognized token: 95
+Line 67: Unrecognized token: 95
+Line 67: Unrecognized token: 95
+Line 67: Unrecognized token: 95
+Line 67: ID = cacheline_aligned_in_smp
+Line 67: ;
+Line 69: ID = typedef
+Line 69: ID = struct
+Line 69: ID = tvec_t_base_s
+Line 69: ID = tvec_base_t
+Line 69: ;
+Line 71: ID = static
+Line 71: ID = inline
+Line 71: void
+Line 71: ID = set_running_timer
+Line 71: (
+Line 71: ID = tvec_base_t
+Line 71: *
+Line 71: ID = base
+Line 71: ,
+Line 72: ID = struct
+Line 72: ID = timer_list
+Line 72: *
+Line 72: ID = timer
+Line 72: )
+Line 73: {
+Line 74: Unrecognized token: 35
+Line 74: ID = ifdef
+Line 74: ID = CONFIG_SMP
+Line 75: ID = base
+Line 75: -
+Line 75: >
+Line 75: ID = running_timer
+Line 75: =
+Line 75: ID = timer
+Line 75: ;
+Line 76: Unrecognized token: 35
+Line 76: ID = endif
+Line 77: }
+Line 80: ID = static
+Line 80: ID = DEFINE_PER_CPU
+Line 80: (
+Line 80: ID = tvec_base_t
+Line 80: ,
+Line 80: ID = tvec_bases
+Line 80: )
+Line 80: =
+Line 80: {
+Line 80: ID = SPIN_LOCK_UNLOCKED
+Line 80: }
+Line 80: ;
+Line 82: ID = static
+Line 82: void
+Line 82: ID = check_timer_failed
+Line 82: (
+Line 82: ID = struct
+Line 82: ID = timer_list
+Line 82: *
+Line 82: ID = timer
+Line 82: )
+Line 83: {
+Line 84: ID = static
+Line 84: int
+Line 84: ID = whine_count
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: ID = whine_count
+Line 85: <
+Line 85: INTCON = 16
+Line 85: )
+Line 85: {
+Line 86: ID = whine_count
+Line 86: +
+Line 86: +
+Line 86: ;
+Line 87: ID = printk
+Line 87: (
+Line 87: STRINGCON = "Uninitialised timer!\n"
+Line 87: )
+Line 87: ;
+Line 88: ID = printk
+Line 88: (
+Line 88: STRINGCON = "This is just a warning.  Your computer is OK\n"
+Line 88: )
+Line 88: ;
+Line 89: ID = printk
+Line 89: (
+Line 89: STRINGCON = "function=0x%p, data=0x%lx\n"
+Line 89: ,
+Line 90: ID = timer
+Line 90: -
+Line 90: >
+Line 90: ID = function
+Line 90: ,
+Line 90: ID = timer
+Line 90: -
+Line 90: >
+Line 90: ID = data
+Line 90: )
+Line 90: ;
+Line 91: ID = dump_stack
+Line 91: (
+Line 91: )
+Line 91: ;
+Line 92: }
+Line 96: ID = spin_lock_init
+Line 96: (
+Line 96: Unrecognized token: 38
+Line 96: ID = timer
+Line 96: -
+Line 96: >
+Line 96: ID = lock
+Line 96: )
+Line 96: ;
+Line 97: ID = timer
+Line 97: -
+Line 97: >
+Line 97: ID = magic
+Line 97: =
+Line 97: ID = TIMER_MAGIC
+Line 97: ;
+Line 98: }
+Line 100: ID = static
+Line 100: ID = inline
+Line 100: void
+Line 100: ID = check_timer
+Line 100: (
+Line 100: ID = struct
+Line 100: ID = timer_list
+Line 100: *
+Line 100: ID = timer
+Line 100: )
+Line 101: {
+Line 102: if
+Line 102: (
+Line 102: ID = timer
+Line 102: -
+Line 102: >
+Line 102: ID = magic
+Line 102: !=
+Line 102: ID = TIMER_MAGIC
+Line 102: )
+Line 103: ID = check_timer_failed
+Line 103: (
+Line 103: ID = timer
+Line 103: )
+Line 103: ;
+Line 104: }
+Line 107: ID = static
+Line 107: void
+Line 107: ID = internal_add_timer
+Line 107: (
+Line 107: ID = tvec_base_t
+Line 107: *
+Line 107: ID = base
+Line 107: ,
+Line 107: ID = struct
+Line 107: ID = timer_list
+Line 107: *
+Line 107: ID = timer
+Line 107: )
+Line 108: {
+Line 109: ID = unsigned
+Line 109: ID = long
+Line 109: ID = expires
+Line 109: =
+Line 109: ID = timer
+Line 109: -
+Line 109: >
+Line 109: ID = expires
+Line 109: ;
+Line 110: ID = unsigned
+Line 110: ID = long
+Line 110: ID = idx
+Line 110: =
+Line 110: ID = expires
+Line 110: -
+Line 110: ID = base
+Line 110: -
+Line 110: >
+Line 110: ID = timer_jiffies
+Line 110: ;
+Line 111: ID = struct
+Line 111: ID = list_head
+Line 111: *
+Line 111: ID = vec
+Line 111: ;
+Line 113: if
+Line 113: (
+Line 113: ID = idx
+Line 113: <
+Line 113: ID = TVR_SIZE
+Line 113: )
+Line 113: {
+Line 114: int
+Line 114: ID = i
+Line 114: =
+Line 114: ID = expires
+Line 114: Unrecognized token: 38
+Line 114: ID = TVR_MASK
+Line 114: ;
+Line 115: ID = vec
+Line 115: =
+Line 115: ID = base
+Line 115: -
+Line 115: >
+Line 115: ID = tv1
+Line 115: Unrecognized token: 46
+Line 115: ID = vec
+Line 115: +
+Line 115: ID = i
+Line 115: ;
+Line 116: }
+Line 116: else
+Line 116: if
+Line 116: (
+Line 116: ID = idx
+Line 116: <
+Line 116: INTCON = 1
+Line 116: <
+Line 116: <
+Line 116: (
+Line 116: ID = TVR_BITS
+Line 116: +
+Line 116: ID = TVN_BITS
+Line 116: )
+Line 116: )
+Line 116: {
+Line 117: int
+Line 117: ID = i
+Line 117: =
+Line 117: (
+Line 117: ID = expires
+Line 117: >
+Line 117: >
+Line 117: ID = TVR_BITS
+Line 117: )
+Line 117: Unrecognized token: 38
+Line 117: ID = TVN_MASK
+Line 117: ;
+Line 118: ID = vec
+Line 118: =
+Line 118: ID = base
+Line 118: -
+Line 118: >
+Line 118: ID = tv2
+Line 118: Unrecognized token: 46
+Line 118: ID = vec
+Line 118: +
+Line 118: ID = i
+Line 118: ;
+Line 119: }
+Line 119: else
+Line 119: if
+Line 119: (
+Line 119: ID = idx
+Line 119: <
+Line 119: INTCON = 1
+Line 119: <
+Line 119: <
+Line 119: (
+Line 119: ID = TVR_BITS
+Line 119: +
+Line 119: INTCON = 2
+Line 119: *
+Line 119: ID = TVN_BITS
+Line 119: )
+Line 119: )
+Line 119: {
+Line 120: int
+Line 120: ID = i
+Line 120: =
+Line 120: (
+Line 120: ID = expires
+Line 120: >
+Line 120: >
+Line 120: (
+Line 120: ID = TVR_BITS
+Line 120: +
+Line 120: ID = TVN_BITS
+Line 120: )
+Line 120: )
+Line 120: Unrecognized token: 38
+Line 120: ID = TVN_MASK
+Line 120: ;
+Line 121: ID = vec
+Line 121: =
+Line 121: ID = base
+Line 121: -
+Line 121: >
+Line 121: ID = tv3
+Line 121: Unrecognized token: 46
+Line 121: ID = vec
+Line 121: +
+Line 121: ID = i
+Line 121: ;
+Line 122: }
+Line 122: else
+Line 122: if
+Line 122: (
+Line 122: ID = idx
+Line 122: <
+Line 122: INTCON = 1
+Line 122: <
+Line 122: <
+Line 122: (
+Line 122: ID = TVR_BITS
+Line 122: +
+Line 122: INTCON = 3
+Line 122: *
+Line 122: ID = TVN_BITS
+Line 122: )
+Line 122: )
+Line 122: {
+Line 123: int
+Line 123: ID = i
+Line 123: =
+Line 123: (
+Line 123: ID = expires
+Line 123: >
+Line 123: >
+Line 123: (
+Line 123: ID = TVR_BITS
+Line 123: +
+Line 123: INTCON = 2
+Line 123: *
+Line 123: ID = TVN_BITS
+Line 123: )
+Line 123: )
+Line 123: Unrecognized token: 38
+Line 123: ID = TVN_MASK
+Line 123: ;
+Line 124: ID = vec
+Line 124: =
+Line 124: ID = base
+Line 124: -
+Line 124: >
+Line 124: ID = tv4
+Line 124: Unrecognized token: 46
+Line 124: ID = vec
+Line 124: +
+Line 124: ID = i
+Line 124: ;
+Line 125: }
+Line 125: else
+Line 125: if
+Line 125: (
+Line 125: (
+Line 125: ID = signed
+Line 125: ID = long
+Line 125: )
+Line 125: ID = idx
+Line 125: <
+Line 125: INTCON = 0
+Line 125: )
+Line 125: {
+Line 130: ID = vec
+Line 130: =
+Line 130: ID = base
+Line 130: -
+Line 130: >
+Line 130: ID = tv1
+Line 130: Unrecognized token: 46
+Line 130: ID = vec
+Line 130: +
+Line 130: (
+Line 130: ID = base
+Line 130: -
+Line 130: >
+Line 130: ID = timer_jiffies
+Line 130: Unrecognized token: 38
+Line 130: ID = TVR_MASK
+Line 130: )
+Line 130: ;
+Line 131: }
+Line 131: else
+Line 131: {
+Line 132: int
+Line 132: ID = i
+Line 132: ;
+Line 136: if
+Line 136: (
+Line 136: ID = idx
+Line 136: >
+Line 136: INTCON = 0
+Line 136: ID = xffffffffUL
+Line 136: )
+Line 136: {
+Line 137: ID = idx
+Line 137: =
+Line 137: INTCON = 0
+Line 137: ID = xffffffffUL
+Line 137: ;
+Line 138: ID = expires
+Line 138: =
+Line 138: ID = idx
+Line 138: +
+Line 138: ID = base
+Line 138: -
+Line 138: >
+Line 138: ID = timer_jiffies
+Line 138: ;
+Line 139: }
+Line 140: ID = i
+Line 140: =
+Line 140: (
+Line 140: ID = expires
+Line 140: >
+Line 140: >
+Line 140: (
+Line 140: ID = TVR_BITS
+Line 140: +
+Line 140: INTCON = 3
+Line 140: *
+Line 140: ID = TVN_BITS
+Line 140: )
+Line 140: )
+Line 140: Unrecognized token: 38
+Line 140: ID = TVN_MASK
+Line 140: ;
+Line 141: ID = vec
+Line 141: =
+Line 141: ID = base
+Line 141: -
+Line 141: >
+Line 141: ID = tv5
+Line 141: Unrecognized token: 46
+Line 141: ID = vec
+Line 141: +
+Line 141: ID = i
+Line 141: ;
+Line 142: }
+Line 146: ID = list_add_tail
+Line 146: (
+Line 146: Unrecognized token: 38
+Line 146: ID = timer
+Line 146: -
+Line 146: >
+Line 146: ID = entry
+Line 146: ,
+Line 146: ID = vec
+Line 146: )
+Line 146: ;
+Line 147: }
+Line 149: int
+Line 149: Unrecognized token: 95
+Line 149: Unrecognized token: 95
+Line 149: ID = mod_timer
+Line 149: (
+Line 149: ID = struct
+Line 149: ID = timer_list
+Line 149: *
+Line 149: ID = timer
+Line 149: ,
+Line 149: ID = unsigned
+Line 149: ID = long
+Line 149: ID = expires
+Line 149: )
+Line 150: {
+Line 151: ID = tvec_base_t
+Line 151: *
+Line 151: ID = old_base
+Line 151: ,
+Line 151: *
+Line 151: ID = new_base
+Line 151: ;
+Line 152: ID = unsigned
+Line 152: ID = long
+Line 152: ID = flags
+Line 152: ;
+Line 153: int
+Line 153: ID = ret
+Line 153: =
+Line 153: INTCON = 0
+Line 153: ;
+Line 155: ID = BUG_ON
+Line 155: (
+Line 155: !
+Line 155: ID = timer
+Line 155: -
+Line 155: >
+Line 155: ID = function
+Line 155: )
+Line 155: ;
+Line 157: ID = check_timer
+Line 157: (
+Line 157: ID = timer
+Line 157: )
+Line 157: ;
+Line 159: ID = spin_lock_irqsave
+Line 159: (
+Line 159: Unrecognized token: 38
+Line 159: ID = timer
+Line 159: -
+Line 159: >
+Line 159: ID = lock
+Line 159: ,
+Line 159: ID = flags
+Line 159: )
+Line 159: ;
+Line 160: ID = new_base
+Line 160: =
+Line 160: Unrecognized token: 38
+Line 160: Unrecognized token: 95
+Line 160: Unrecognized token: 95
+Line 160: ID = get_cpu_var
+Line 160: (
+Line 160: ID = tvec_bases
+Line 160: )
+Line 160: ;
+Line 161: ID = repeat
+Line 161: Unrecognized token: 58
+Line 162: ID = old_base
+Line 162: =
+Line 162: ID = timer
+Line 162: -
+Line 162: >
+Line 162: ID = base
+Line 162: ;
+Line 167: if
+Line 167: (
+Line 167: ID = old_base
+Line 167: &&
+Line 167: (
+Line 167: ID = new_base
+Line 167: !=
+Line 167: ID = old_base
+Line 167: )
+Line 167: )
+Line 167: {
+Line 168: if
+Line 168: (
+Line 168: ID = old_base
+Line 168: <
+Line 168: ID = new_base
+Line 168: )
+Line 168: {
+Line 169: ID = spin_lock
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = new_base
+Line 169: -
+Line 169: >
+Line 169: ID = lock
+Line 169: )
+Line 169: ;
+Line 170: ID = spin_lock
+Line 170: (
+Line 170: Unrecognized token: 38
+Line 170: ID = old_base
+Line 170: -
+Line 170: >
+Line 170: ID = lock
+Line 170: )
+Line 170: ;
+Line 171: }
+Line 171: else
+Line 171: {
+Line 172: ID = spin_lock
+Line 172: (
+Line 172: Unrecognized token: 38
+Line 172: ID = old_base
+Line 172: -
+Line 172: >
+Line 172: ID = lock
+Line 172: )
+Line 172: ;
+Line 173: ID = spin_lock
+Line 173: (
+Line 173: Unrecognized token: 38
+Line 173: ID = new_base
+Line 173: -
+Line 173: >
+Line 173: ID = lock
+Line 173: )
+Line 173: ;
+Line 174: }
+Line 179: if
+Line 179: (
+Line 179: ID = timer
+Line 179: -
+Line 179: >
+Line 179: ID = base
+Line 179: !=
+Line 179: ID = old_base
+Line 179: )
+Line 179: {
+Line 180: ID = spin_unlock
+Line 180: (
+Line 180: Unrecognized token: 38
+Line 180: ID = new_base
+Line 180: -
+Line 180: >
+Line 180: ID = lock
+Line 180: )
+Line 180: ;
+Line 181: ID = spin_unlock
+Line 181: (
+Line 181: Unrecognized token: 38
+Line 181: ID = old_base
+Line 181: -
+Line 181: >
+Line 181: ID = lock
+Line 181: )
+Line 181: ;
+Line 182: ID = goto
+Line 182: ID = repeat
+Line 182: ;
+Line 183: }
+Line 184: }
+Line 184: else
+Line 184: {
+Line 185: ID = spin_lock
+Line 185: (
+Line 185: Unrecognized token: 38
+Line 185: ID = new_base
+Line 185: -
+Line 185: >
+Line 185: ID = lock
+Line 185: )
+Line 185: ;
+Line 186: if
+Line 186: (
+Line 186: ID = timer
+Line 186: -
+Line 186: >
+Line 186: ID = base
+Line 186: !=
+Line 186: ID = old_base
+Line 186: )
+Line 186: {
+Line 187: ID = spin_unlock
+Line 187: (
+Line 187: Unrecognized token: 38
+Line 187: ID = new_base
+Line 187: -
+Line 187: >
+Line 187: ID = lock
+Line 187: )
+Line 187: ;
+Line 188: ID = goto
+Line 188: ID = repeat
+Line 188: ;
+Line 189: }
+Line 190: }
+Line 196: if
+Line 196: (
+Line 196: ID = old_base
+Line 196: )
+Line 196: {
+Line 197: ID = list_del
+Line 197: (
+Line 197: Unrecognized token: 38
+Line 197: ID = timer
+Line 197: -
+Line 197: >
+Line 197: ID = entry
+Line 197: )
+Line 197: ;
+Line 198: ID = ret
+Line 198: =
+Line 198: INTCON = 1
+Line 198: ;
+Line 199: }
+Line 200: ID = timer
+Line 200: -
+Line 200: >
+Line 200: ID = expires
+Line 200: =
+Line 200: ID = expires
+Line 200: ;
+Line 201: ID = internal_add_timer
+Line 201: (
+Line 201: ID = new_base
+Line 201: ,
+Line 201: ID = timer
+Line 201: )
+Line 201: ;
+Line 202: ID = timer
+Line 202: -
+Line 202: >
+Line 202: ID = base
+Line 202: =
+Line 202: ID = new_base
+Line 202: ;
+Line 204: if
+Line 204: (
+Line 204: ID = old_base
+Line 204: &&
+Line 204: (
+Line 204: ID = new_base
+Line 204: !=
+Line 204: ID = old_base
+Line 204: )
+Line 204: )
+Line 205: ID = spin_unlock
+Line 205: (
+Line 205: Unrecognized token: 38
+Line 205: ID = old_base
+Line 205: -
+Line 205: >
+Line 205: ID = lock
+Line 205: )
+Line 205: ;
+Line 206: ID = spin_unlock
+Line 206: (
+Line 206: Unrecognized token: 38
+Line 206: ID = new_base
+Line 206: -
+Line 206: >
+Line 206: ID = lock
+Line 206: )
+Line 206: ;
+Line 207: ID = spin_unlock_irqrestore
+Line 207: (
+Line 207: Unrecognized token: 38
+Line 207: ID = timer
+Line 207: -
+Line 207: >
+Line 207: ID = lock
+Line 207: ,
+Line 207: ID = flags
+Line 207: )
+Line 207: ;
+Line 209: return
+Line 209: ID = ret
+Line 209: ;
+Line 210: }
+Line 212: ID = EXPORT_SYMBOL
+Line 212: (
+Line 212: Unrecognized token: 95
+Line 212: Unrecognized token: 95
+Line 212: ID = mod_timer
+Line 212: )
+Line 212: ;
+Line 221: void
+Line 221: ID = add_timer_on
+Line 221: (
+Line 221: ID = struct
+Line 221: ID = timer_list
+Line 221: *
+Line 221: ID = timer
+Line 221: ,
+Line 221: int
+Line 221: ID = cpu
+Line 221: )
+Line 222: {
+Line 223: ID = tvec_base_t
+Line 223: *
+Line 223: ID = base
+Line 223: =
+Line 223: Unrecognized token: 38
+Line 223: ID = per_cpu
+Line 223: (
+Line 223: ID = tvec_bases
+Line 223: ,
+Line 223: ID = cpu
+Line 223: )
+Line 223: ;
+Line 224: ID = unsigned
+Line 224: ID = long
+Line 224: ID = flags
+Line 224: ;
+Line 226: ID = BUG_ON
+Line 226: (
+Line 226: ID = timer_pending
+Line 226: (
+Line 226: ID = timer
+Line 226: )
+Line 226: ||
+Line 226: !
+Line 226: ID = timer
+Line 226: -
+Line 226: >
+Line 226: ID = function
+Line 226: )
+Line 226: ;
+Line 228: ID = check_timer
+Line 228: (
+Line 228: ID = timer
+Line 228: )
+Line 228: ;
+Line 230: ID = spin_lock_irqsave
+Line 230: (
+Line 230: Unrecognized token: 38
+Line 230: ID = base
+Line 230: -
+Line 230: >
+Line 230: ID = lock
+Line 230: ,
+Line 230: ID = flags
+Line 230: )
+Line 230: ;
+Line 231: ID = internal_add_timer
+Line 231: (
+Line 231: ID = base
+Line 231: ,
+Line 231: ID = timer
+Line 231: )
+Line 231: ;
+Line 232: ID = timer
+Line 232: -
+Line 232: >
+Line 232: ID = base
+Line 232: =
+Line 232: ID = base
+Line 232: ;
+Line 233: ID = spin_unlock_irqrestore
+Line 233: (
+Line 233: Unrecognized token: 38
+Line 233: ID = base
+Line 233: -
+Line 233: >
+Line 233: ID = lock
+Line 233: ,
+Line 233: ID = flags
+Line 233: )
+Line 233: ;
+Line 234: }
+Line 255: int
+Line 255: ID = mod_timer
+Line 255: (
+Line 255: ID = struct
+Line 255: ID = timer_list
+Line 255: *
+Line 255: ID = timer
+Line 255: ,
+Line 255: ID = unsigned
+Line 255: ID = long
+Line 255: ID = expires
+Line 255: )
+Line 256: {
+Line 257: ID = BUG_ON
+Line 257: (
+Line 257: !
+Line 257: ID = timer
+Line 257: -
+Line 257: >
+Line 257: ID = function
+Line 257: )
+Line 257: ;
+Line 259: ID = check_timer
+Line 259: (
+Line 259: ID = timer
+Line 259: )
+Line 259: ;
+Line 266: if
+Line 266: (
+Line 266: ID = timer
+Line 266: -
+Line 266: >
+Line 266: ID = expires
+Line 266: ==
+Line 266: ID = expires
+Line 266: &&
+Line 266: ID = timer_pending
+Line 266: (
+Line 266: ID = timer
+Line 266: )
+Line 266: )
+Line 267: return
+Line 267: INTCON = 1
+Line 267: ;
+Line 269: return
+Line 269: Unrecognized token: 95
+Line 269: Unrecognized token: 95
+Line 269: ID = mod_timer
+Line 269: (
+Line 269: ID = timer
+Line 269: ,
+Line 269: ID = expires
+Line 269: )
+Line 269: ;
+Line 270: }
+Line 272: ID = EXPORT_SYMBOL
+Line 272: (
+Line 272: ID = mod_timer
+Line 272: )
+Line 272: ;
+Line 285: int
+Line 285: ID = del_timer
+Line 285: (
+Line 285: ID = struct
+Line 285: ID = timer_list
+Line 285: *
+Line 285: ID = timer
+Line 285: )
+Line 286: {
+Line 287: ID = unsigned
+Line 287: ID = long
+Line 287: ID = flags
+Line 287: ;
+Line 288: ID = tvec_base_t
+Line 288: *
+Line 288: ID = base
+Line 288: ;
+Line 290: ID = check_timer
+Line 290: (
+Line 290: ID = timer
+Line 290: )
+Line 290: ;
+Line 292: ID = repeat
+Line 292: Unrecognized token: 58
+Line 293: ID = base
+Line 293: =
+Line 293: ID = timer
+Line 293: -
+Line 293: >
+Line 293: ID = base
+Line 293: ;
+Line 294: if
+Line 294: (
+Line 294: !
+Line 294: ID = base
+Line 294: )
+Line 295: return
+Line 295: INTCON = 0
+Line 295: ;
+Line 296: ID = spin_lock_irqsave
+Line 296: (
+Line 296: Unrecognized token: 38
+Line 296: ID = base
+Line 296: -
+Line 296: >
+Line 296: ID = lock
+Line 296: ,
+Line 296: ID = flags
+Line 296: )
+Line 296: ;
+Line 297: if
+Line 297: (
+Line 297: ID = base
+Line 297: !=
+Line 297: ID = timer
+Line 297: -
+Line 297: >
+Line 297: ID = base
+Line 297: )
+Line 297: {
+Line 298: ID = spin_unlock_irqrestore
+Line 298: (
+Line 298: Unrecognized token: 38
+Line 298: ID = base
+Line 298: -
+Line 298: >
+Line 298: ID = lock
+Line 298: ,
+Line 298: ID = flags
+Line 298: )
+Line 298: ;
+Line 299: ID = goto
+Line 299: ID = repeat
+Line 299: ;
+Line 300: }
+Line 301: ID = list_del
+Line 301: (
+Line 301: Unrecognized token: 38
+Line 301: ID = timer
+Line 301: -
+Line 301: >
+Line 301: ID = entry
+Line 301: )
+Line 301: ;
+Line 302: ID = timer
+Line 302: -
+Line 302: >
+Line 302: ID = base
+Line 302: =
+Line 302: ID = NULL
+Line 302: ;
+Line 303: ID = spin_unlock_irqrestore
+Line 303: (
+Line 303: Unrecognized token: 38
+Line 303: ID = base
+Line 303: -
+Line 303: >
+Line 303: ID = lock
+Line 303: ,
+Line 303: ID = flags
+Line 303: )
+Line 303: ;
+Line 305: return
+Line 305: INTCON = 1
+Line 305: ;
+Line 306: }
+Line 308: ID = EXPORT_SYMBOL
+Line 308: (
+Line 308: ID = del_timer
+Line 308: )
+Line 308: ;
+Line 310: Unrecognized token: 35
+Line 310: ID = ifdef
+Line 310: ID = CONFIG_SMP
+Line 332: int
+Line 332: ID = del_timer_sync
+Line 332: (
+Line 332: ID = struct
+Line 332: ID = timer_list
+Line 332: *
+Line 332: ID = timer
+Line 332: )
+Line 333: {
+Line 334: ID = tvec_base_t
+Line 334: *
+Line 334: ID = base
+Line 334: ;
+Line 335: int
+Line 335: ID = i
+Line 335: ,
+Line 335: ID = ret
+Line 335: =
+Line 335: INTCON = 0
+Line 335: ;
+Line 337: ID = check_timer
+Line 337: (
+Line 337: ID = timer
+Line 337: )
+Line 337: ;
+Line 339: ID = del_again
+Line 339: Unrecognized token: 58
+Line 340: ID = ret
+Line 340: +
+Line 340: =
+Line 340: ID = del_timer
+Line 340: (
+Line 340: ID = timer
+Line 340: )
+Line 340: ;
+Line 342: ID = for_each_online_cpu
+Line 342: (
+Line 342: ID = i
+Line 342: )
+Line 342: {
+Line 343: ID = base
+Line 343: =
+Line 343: Unrecognized token: 38
+Line 343: ID = per_cpu
+Line 343: (
+Line 343: ID = tvec_bases
+Line 343: ,
+Line 343: ID = i
+Line 343: )
+Line 343: ;
+Line 344: if
+Line 344: (
+Line 344: ID = base
+Line 344: -
+Line 344: >
+Line 344: ID = running_timer
+Line 344: ==
+Line 344: ID = timer
+Line 344: )
+Line 344: {
+Line 345: while
+Line 345: (
+Line 345: ID = base
+Line 345: -
+Line 345: >
+Line 345: ID = running_timer
+Line 345: ==
+Line 345: ID = timer
+Line 345: )
+Line 345: {
+Line 346: ID = cpu_relax
+Line 346: (
+Line 346: )
+Line 346: ;
+Line 347: ID = preempt_check_resched
+Line 347: (
+Line 347: )
+Line 347: ;
+Line 348: }
+Line 349: ID = break
+Line 349: ;
+Line 350: }
+Line 351: }
+Line 352: ID = smp_rmb
+Line 352: (
+Line 352: )
+Line 352: ;
+Line 353: if
+Line 353: (
+Line 353: ID = timer_pending
+Line 353: (
+Line 353: ID = timer
+Line 353: )
+Line 353: )
+Line 354: ID = goto
+Line 354: ID = del_again
+Line 354: ;
+Line 356: return
+Line 356: ID = ret
+Line 356: ;
+Line 357: }
+Line 358: ID = EXPORT_SYMBOL
+Line 358: (
+Line 358: ID = del_timer_sync
+Line 358: )
+Line 358: ;
+Line 376: int
+Line 376: ID = del_singleshot_timer_sync
+Line 376: (
+Line 376: ID = struct
+Line 376: ID = timer_list
+Line 376: *
+Line 376: ID = timer
+Line 376: )
+Line 377: {
+Line 378: int
+Line 378: ID = ret
+Line 378: =
+Line 378: ID = del_timer
+Line 378: (
+Line 378: ID = timer
+Line 378: )
+Line 378: ;
+Line 380: if
+Line 380: (
+Line 380: !
+Line 380: ID = ret
+Line 380: )
+Line 380: {
+Line 381: ID = ret
+Line 381: =
+Line 381: ID = del_timer_sync
+Line 381: (
+Line 381: ID = timer
+Line 381: )
+Line 381: ;
+Line 382: ID = BUG_ON
+Line 382: (
+Line 382: ID = ret
+Line 382: )
+Line 382: ;
+Line 383: }
+Line 385: return
+Line 385: ID = ret
+Line 385: ;
+Line 386: }
+Line 387: ID = EXPORT_SYMBOL
+Line 387: (
+Line 387: ID = del_singleshot_timer_sync
+Line 387: )
+Line 387: ;
+Line 388: Unrecognized token: 35
+Line 388: ID = endif
+Line 390: ID = static
+Line 390: int
+Line 390: ID = cascade
+Line 390: (
+Line 390: ID = tvec_base_t
+Line 390: *
+Line 390: ID = base
+Line 390: ,
+Line 390: ID = tvec_t
+Line 390: *
+Line 390: ID = tv
+Line 390: ,
+Line 390: int
+Line 390: ID = index
+Line 390: )
+Line 391: {
+Line 393: ID = struct
+Line 393: ID = list_head
+Line 393: *
+Line 393: ID = head
+Line 393: ,
+Line 393: *
+Line 393: ID = curr
+Line 393: ;
+Line 395: ID = head
+Line 395: =
+Line 395: ID = tv
+Line 395: -
+Line 395: >
+Line 395: ID = vec
+Line 395: +
+Line 395: ID = index
+Line 395: ;
+Line 396: ID = curr
+Line 396: =
+Line 396: ID = head
+Line 396: -
+Line 396: >
+Line 396: ID = next
+Line 396: ;
+Line 401: while
+Line 401: (
+Line 401: ID = curr
+Line 401: !=
+Line 401: ID = head
+Line 401: )
+Line 401: {
+Line 402: ID = struct
+Line 402: ID = timer_list
+Line 402: *
+Line 402: ID = tmp
+Line 402: ;
+Line 404: ID = tmp
+Line 404: =
+Line 404: ID = list_entry
+Line 404: (
+Line 404: ID = curr
+Line 404: ,
+Line 404: ID = struct
+Line 404: ID = timer_list
+Line 404: ,
+Line 404: ID = entry
+Line 404: )
+Line 404: ;
+Line 405: ID = BUG_ON
+Line 405: (
+Line 405: ID = tmp
+Line 405: -
+Line 405: >
+Line 405: ID = base
+Line 405: !=
+Line 405: ID = base
+Line 405: )
+Line 405: ;
+Line 406: ID = curr
+Line 406: =
+Line 406: ID = curr
+Line 406: -
+Line 406: >
+Line 406: ID = next
+Line 406: ;
+Line 407: ID = internal_add_timer
+Line 407: (
+Line 407: ID = base
+Line 407: ,
+Line 407: ID = tmp
+Line 407: )
+Line 407: ;
+Line 408: }
+Line 409: ID = INIT_LIST_HEAD
+Line 409: (
+Line 409: ID = head
+Line 409: )
+Line 409: ;
+Line 411: return
+Line 411: ID = index
+Line 411: ;
+Line 412: }
+Line 421: Unrecognized token: 35
+Line 421: ID = define
+Line 421: ID = INDEX
+Line 421: (
+Line 421: ID = N
+Line 421: )
+Line 421: (
+Line 421: ID = base
+Line 421: -
+Line 421: >
+Line 421: ID = timer_jiffies
+Line 421: >
+Line 421: >
+Line 421: (
+Line 421: ID = TVR_BITS
+Line 421: +
+Line 421: ID = N
+Line 421: *
+Line 421: ID = TVN_BITS
+Line 421: )
+Line 421: )
+Line 421: Unrecognized token: 38
+Line 421: ID = TVN_MASK
+Line 423: ID = static
+Line 423: ID = inline
+Line 423: void
+Line 423: Unrecognized token: 95
+Line 423: Unrecognized token: 95
+Line 423: ID = run_timers
+Line 423: (
+Line 423: ID = tvec_base_t
+Line 423: *
+Line 423: ID = base
+Line 423: )
+Line 424: {
+Line 425: ID = struct
+Line 425: ID = timer_list
+Line 425: *
+Line 425: ID = timer
+Line 425: ;
+Line 427: ID = spin_lock_irq
+Line 427: (
+Line 427: Unrecognized token: 38
+Line 427: ID = base
+Line 427: -
+Line 427: >
+Line 427: ID = lock
+Line 427: )
+Line 427: ;
+Line 428: while
+Line 428: (
+Line 428: ID = time_after_eq
+Line 428: (
+Line 428: ID = jiffies
+Line 428: ,
+Line 428: ID = base
+Line 428: -
+Line 428: >
+Line 428: ID = timer_jiffies
+Line 428: )
+Line 428: )
+Line 428: {
+Line 429: ID = struct
+Line 429: ID = list_head
+Line 429: ID = work_list
+Line 429: =
+Line 429: ID = LIST_HEAD_INIT
+Line 429: (
+Line 429: ID = work_list
+Line 429: )
+Line 429: ;
+Line 430: ID = struct
+Line 430: ID = list_head
+Line 430: *
+Line 430: ID = head
+Line 430: =
+Line 430: Unrecognized token: 38
+Line 430: ID = work_list
+Line 430: ;
+Line 431: int
+Line 431: ID = index
+Line 431: =
+Line 431: ID = base
+Line 431: -
+Line 431: >
+Line 431: ID = timer_jiffies
+Line 431: Unrecognized token: 38
+Line 431: ID = TVR_MASK
+Line 431: ;
+Line 436: if
+Line 436: (
+Line 436: !
+Line 436: ID = index
+Line 436: &&
+Line 437: (
+Line 437: !
+Line 437: ID = cascade
+Line 437: (
+Line 437: ID = base
+Line 437: ,
+Line 437: Unrecognized token: 38
+Line 437: ID = base
+Line 437: -
+Line 437: >
+Line 437: ID = tv2
+Line 437: ,
+Line 437: ID = INDEX
+Line 437: (
+Line 437: INTCON = 0
+Line 437: )
+Line 437: )
+Line 437: )
+Line 437: &&
+Line 438: (
+Line 438: !
+Line 438: ID = cascade
+Line 438: (
+Line 438: ID = base
+Line 438: ,
+Line 438: Unrecognized token: 38
+Line 438: ID = base
+Line 438: -
+Line 438: >
+Line 438: ID = tv3
+Line 438: ,
+Line 438: ID = INDEX
+Line 438: (
+Line 438: INTCON = 1
+Line 438: )
+Line 438: )
+Line 438: )
+Line 438: &&
+Line 439: !
+Line 439: ID = cascade
+Line 439: (
+Line 439: ID = base
+Line 439: ,
+Line 439: Unrecognized token: 38
+Line 439: ID = base
+Line 439: -
+Line 439: >
+Line 439: ID = tv4
+Line 439: ,
+Line 439: ID = INDEX
+Line 439: (
+Line 439: INTCON = 2
+Line 439: )
+Line 439: )
+Line 439: )
+Line 440: ID = cascade
+Line 440: (
+Line 440: ID = base
+Line 440: ,
+Line 440: Unrecognized token: 38
+Line 440: ID = base
+Line 440: -
+Line 440: >
+Line 440: ID = tv5
+Line 440: ,
+Line 440: ID = INDEX
+Line 440: (
+Line 440: INTCON = 3
+Line 440: )
+Line 440: )
+Line 440: ;
+Line 441: +
+Line 441: +
+Line 441: ID = base
+Line 441: -
+Line 441: >
+Line 441: ID = timer_jiffies
+Line 441: ;
+Line 442: ID = list_splice_init
+Line 442: (
+Line 442: ID = base
+Line 442: -
+Line 442: >
+Line 442: ID = tv1
+Line 442: Unrecognized token: 46
+Line 442: ID = vec
+Line 442: +
+Line 442: ID = index
+Line 442: ,
+Line 442: Unrecognized token: 38
+Line 442: ID = work_list
+Line 442: )
+Line 442: ;
+Line 443: ID = repeat
+Line 443: Unrecognized token: 58
+Line 444: if
+Line 444: (
+Line 444: !
+Line 444: ID = list_empty
+Line 444: (
+Line 444: ID = head
+Line 444: )
+Line 444: )
+Line 444: {
+Line 445: void
+Line 445: (
+Line 445: *
+Line 445: ID = fn
+Line 445: )
+Line 445: (
+Line 445: ID = unsigned
+Line 445: ID = long
+Line 445: )
+Line 445: ;
+Line 446: ID = unsigned
+Line 446: ID = long
+Line 446: ID = data
+Line 446: ;
+Line 448: ID = timer
+Line 448: =
+Line 448: ID = list_entry
+Line 448: (
+Line 448: ID = head
+Line 448: -
+Line 448: >
+Line 448: ID = next
+Line 448: ,
+Line 448: ID = struct
+Line 448: ID = timer_list
+Line 448: ,
+Line 448: ID = entry
+Line 448: )
+Line 448: ;
+Line 449: ID = fn
+Line 449: =
+Line 449: ID = timer
+Line 449: -
+Line 449: >
+Line 449: ID = function
+Line 449: ;
+Line 450: ID = data
+Line 450: =
+Line 450: ID = timer
+Line 450: -
+Line 450: >
+Line 450: ID = data
+Line 450: ;
+Line 452: ID = list_del
+Line 452: (
+Line 452: Unrecognized token: 38
+Line 452: ID = timer
+Line 452: -
+Line 452: >
+Line 452: ID = entry
+Line 452: )
+Line 452: ;
+Line 453: ID = set_running_timer
+Line 453: (
+Line 453: ID = base
+Line 453: ,
+Line 453: ID = timer
+Line 453: )
+Line 453: ;
+Line 454: ID = smp_wmb
+Line 454: (
+Line 454: )
+Line 454: ;
+Line 455: ID = timer
+Line 455: -
+Line 455: >
+Line 455: ID = base
+Line 455: =
+Line 455: ID = NULL
+Line 455: ;
+Line 456: ID = spin_unlock_irq
+Line 456: (
+Line 456: Unrecognized token: 38
+Line 456: ID = base
+Line 456: -
+Line 456: >
+Line 456: ID = lock
+Line 456: )
+Line 456: ;
+Line 457: ID = fn
+Line 457: (
+Line 457: ID = data
+Line 457: )
+Line 457: ;
+Line 458: ID = spin_lock_irq
+Line 458: (
+Line 458: Unrecognized token: 38
+Line 458: ID = base
+Line 458: -
+Line 458: >
+Line 458: ID = lock
+Line 458: )
+Line 458: ;
+Line 459: ID = goto
+Line 459: ID = repeat
+Line 459: ;
+Line 460: }
+Line 461: }
+Line 462: ID = set_running_timer
+Line 462: (
+Line 462: ID = base
+Line 462: ,
+Line 462: ID = NULL
+Line 462: )
+Line 462: ;
+Line 463: ID = spin_unlock_irq
+Line 463: (
+Line 463: Unrecognized token: 38
+Line 463: ID = base
+Line 463: -
+Line 463: >
+Line 463: ID = lock
+Line 463: )
+Line 463: ;
+Line 464: }
+Line 466: Unrecognized token: 35
+Line 466: ID = ifdef
+Line 466: ID = CONFIG_NO_IDLE_HZ
+Line 472: ID = unsigned
+Line 472: ID = long
+Line 472: ID = next_timer_interrupt
+Line 472: (
+Line 472: void
+Line 472: )
+Line 473: {
+Line 474: ID = tvec_base_t
+Line 474: *
+Line 474: ID = base
+Line 474: ;
+Line 475: ID = struct
+Line 475: ID = list_head
+Line 475: *
+Line 475: ID = list
+Line 475: ;
+Line 476: ID = struct
+Line 476: ID = timer_list
+Line 476: *
+Line 476: ID = nte
+Line 476: ;
+Line 477: ID = unsigned
+Line 477: ID = long
+Line 477: ID = expires
+Line 477: ;
+Line 478: ID = tvec_t
+Line 478: *
+Line 478: ID = varray
+Line 478: [
+Line 478: INTCON = 4
+Line 478: ]
+Line 478: ;
+Line 479: int
+Line 479: ID = i
+Line 479: ,
+Line 479: ID = j
+Line 479: ;
+Line 481: ID = base
+Line 481: =
+Line 481: Unrecognized token: 38
+Line 481: Unrecognized token: 95
+Line 481: Unrecognized token: 95
+Line 481: ID = get_cpu_var
+Line 481: (
+Line 481: ID = tvec_bases
+Line 481: )
+Line 481: ;
+Line 482: ID = spin_lock
+Line 482: (
+Line 482: Unrecognized token: 38
+Line 482: ID = base
+Line 482: -
+Line 482: >
+Line 482: ID = lock
+Line 482: )
+Line 482: ;
+Line 483: ID = expires
+Line 483: =
+Line 483: ID = base
+Line 483: -
+Line 483: >
+Line 483: ID = timer_jiffies
+Line 483: +
+Line 483: (
+Line 483: ID = LONG_MAX
+Line 483: >
+Line 483: >
+Line 483: INTCON = 1
+Line 483: )
+Line 483: ;
+Line 484: ID = list
+Line 484: =
+Line 484: INTCON = 0
+Line 484: ;
+Line 487: ID = j
+Line 487: =
+Line 487: ID = base
+Line 487: -
+Line 487: >
+Line 487: ID = timer_jiffies
+Line 487: Unrecognized token: 38
+Line 487: ID = TVR_MASK
+Line 487: ;
+Line 488: ID = do
+Line 488: {
+Line 489: ID = list_for_each_entry
+Line 489: (
+Line 489: ID = nte
+Line 489: ,
+Line 489: ID = base
+Line 489: -
+Line 489: >
+Line 489: ID = tv1
+Line 489: Unrecognized token: 46
+Line 489: ID = vec
+Line 489: +
+Line 489: ID = j
+Line 489: ,
+Line 489: ID = entry
+Line 489: )
+Line 489: {
+Line 490: ID = expires
+Line 490: =
+Line 490: ID = nte
+Line 490: -
+Line 490: >
+Line 490: ID = expires
+Line 490: ;
+Line 491: if
+Line 491: (
+Line 491: ID = j
+Line 491: <
+Line 491: (
+Line 491: ID = base
+Line 491: -
+Line 491: >
+Line 491: ID = timer_jiffies
+Line 491: Unrecognized token: 38
+Line 491: ID = TVR_MASK
+Line 491: )
+Line 491: )
+Line 492: ID = list
+Line 492: =
+Line 492: ID = base
+Line 492: -
+Line 492: >
+Line 492: ID = tv2
+Line 492: Unrecognized token: 46
+Line 492: ID = vec
+Line 492: +
+Line 492: (
+Line 492: ID = INDEX
+Line 492: (
+Line 492: INTCON = 0
+Line 492: )
+Line 492: )
+Line 492: ;
+Line 493: ID = goto
+Line 493: ID = found
+Line 493: ;
+Line 494: }
+Line 495: ID = j
+Line 495: =
+Line 495: (
+Line 495: ID = j
+Line 495: +
+Line 495: INTCON = 1
+Line 495: )
+Line 495: Unrecognized token: 38
+Line 495: ID = TVR_MASK
+Line 495: ;
+Line 496: }
+Line 496: while
+Line 496: (
+Line 496: ID = j
+Line 496: !=
+Line 496: (
+Line 496: ID = base
+Line 496: -
+Line 496: >
+Line 496: ID = timer_jiffies
+Line 496: Unrecognized token: 38
+Line 496: ID = TVR_MASK
+Line 496: )
+Line 496: )
+Line 496: ;
+Line 499: ID = varray
+Line 499: [
+Line 499: INTCON = 0
+Line 499: ]
+Line 499: =
+Line 499: Unrecognized token: 38
+Line 499: ID = base
+Line 499: -
+Line 499: >
+Line 499: ID = tv2
+Line 499: ;
+Line 500: ID = varray
+Line 500: [
+Line 500: INTCON = 1
+Line 500: ]
+Line 500: =
+Line 500: Unrecognized token: 38
+Line 500: ID = base
+Line 500: -
+Line 500: >
+Line 500: ID = tv3
+Line 500: ;
+Line 501: ID = varray
+Line 501: [
+Line 501: INTCON = 2
+Line 501: ]
+Line 501: =
+Line 501: Unrecognized token: 38
+Line 501: ID = base
+Line 501: -
+Line 501: >
+Line 501: ID = tv4
+Line 501: ;
+Line 502: ID = varray
+Line 502: [
+Line 502: INTCON = 3
+Line 502: ]
+Line 502: =
+Line 502: Unrecognized token: 38
+Line 502: ID = base
+Line 502: -
+Line 502: >
+Line 502: ID = tv5
+Line 502: ;
+Line 503: for
+Line 503: (
+Line 503: ID = i
+Line 503: =
+Line 503: INTCON = 0
+Line 503: ;
+Line 503: ID = i
+Line 503: <
+Line 503: INTCON = 4
+Line 503: ;
+Line 503: ID = i
+Line 503: +
+Line 503: +
+Line 503: )
+Line 503: {
+Line 504: ID = j
+Line 504: =
+Line 504: ID = INDEX
+Line 504: (
+Line 504: ID = i
+Line 504: )
+Line 504: ;
+Line 505: ID = do
+Line 505: {
+Line 506: if
+Line 506: (
+Line 506: ID = list_empty
+Line 506: (
+Line 506: ID = varray
+Line 506: [
+Line 506: ID = i
+Line 506: ]
+Line 506: -
+Line 506: >
+Line 506: ID = vec
+Line 506: +
+Line 506: ID = j
+Line 506: )
+Line 506: )
+Line 506: {
+Line 507: ID = j
+Line 507: =
+Line 507: (
+Line 507: ID = j
+Line 507: +
+Line 507: INTCON = 1
+Line 507: )
+Line 507: Unrecognized token: 38
+Line 507: ID = TVN_MASK
+Line 507: ;
+Line 508: ID = continue
+Line 508: ;
+Line 509: }
+Line 510: ID = list_for_each_entry
+Line 510: (
+Line 510: ID = nte
+Line 510: ,
+Line 510: ID = varray
+Line 510: [
+Line 510: ID = i
+Line 510: ]
+Line 510: -
+Line 510: >
+Line 510: ID = vec
+Line 510: +
+Line 510: ID = j
+Line 510: ,
+Line 510: ID = entry
+Line 510: )
+Line 511: if
+Line 511: (
+Line 511: ID = time_before
+Line 511: (
+Line 511: ID = nte
+Line 511: -
+Line 511: >
+Line 511: ID = expires
+Line 511: ,
+Line 511: ID = expires
+Line 511: )
+Line 511: )
+Line 512: ID = expires
+Line 512: =
+Line 512: ID = nte
+Line 512: -
+Line 512: >
+Line 512: ID = expires
+Line 512: ;
+Line 513: if
+Line 513: (
+Line 513: ID = j
+Line 513: <
+Line 513: (
+Line 513: ID = INDEX
+Line 513: (
+Line 513: ID = i
+Line 513: )
+Line 513: )
+Line 513: &&
+Line 513: ID = i
+Line 513: <
+Line 513: INTCON = 3
+Line 513: )
+Line 514: ID = list
+Line 514: =
+Line 514: ID = varray
+Line 514: [
+Line 514: ID = i
+Line 514: +
+Line 514: INTCON = 1
+Line 514: ]
+Line 514: -
+Line 514: >
+Line 514: ID = vec
+Line 514: +
+Line 514: (
+Line 514: ID = INDEX
+Line 514: (
+Line 514: ID = i
+Line 514: +
+Line 514: INTCON = 1
+Line 514: )
+Line 514: )
+Line 514: ;
+Line 515: ID = goto
+Line 515: ID = found
+Line 515: ;
+Line 516: }
+Line 516: while
+Line 516: (
+Line 516: ID = j
+Line 516: !=
+Line 516: (
+Line 516: ID = INDEX
+Line 516: (
+Line 516: ID = i
+Line 516: )
+Line 516: )
+Line 516: )
+Line 516: ;
+Line 517: }
+Line 518: ID = found
+Line 518: Unrecognized token: 58
+Line 519: if
+Line 519: (
+Line 519: ID = list
+Line 519: )
+Line 519: {
+Line 525: ID = list_for_each_entry
+Line 525: (
+Line 525: ID = nte
+Line 525: ,
+Line 525: ID = list
+Line 525: ,
+Line 525: ID = entry
+Line 525: )
+Line 525: {
+Line 526: if
+Line 526: (
+Line 526: ID = time_before
+Line 526: (
+Line 526: ID = nte
+Line 526: -
+Line 526: >
+Line 526: ID = expires
+Line 526: ,
+Line 526: ID = expires
+Line 526: )
+Line 526: )
+Line 527: ID = expires
+Line 527: =
+Line 527: ID = nte
+Line 527: -
+Line 527: >
+Line 527: ID = expires
+Line 527: ;
+Line 528: }
+Line 529: }
+Line 530: ID = spin_unlock
+Line 530: (
+Line 530: Unrecognized token: 38
+Line 530: ID = base
+Line 530: -
+Line 530: >
+Line 530: ID = lock
+Line 530: )
+Line 530: ;
+Line 531: return
+Line 531: ID = expires
+Line 531: ;
+Line 532: }
+Line 533: Unrecognized token: 35
+Line 533: ID = endif
+Line 540: ID = unsigned
+Line 540: ID = long
+Line 540: ID = tick_usec
+Line 540: =
+Line 540: ID = TICK_USEC
+Line 540: ;
+Line 541: ID = unsigned
+Line 541: ID = long
+Line 541: ID = tick_nsec
+Line 541: =
+Line 541: ID = TICK_NSEC
+Line 541: ;
+Line 551: ID = struct
+Line 551: ID = timespec
+Line 551: ID = xtime
+Line 551: Unrecognized token: 95
+Line 551: Unrecognized token: 95
+Line 551: ID = attribute__
+Line 551: (
+Line 551: (
+Line 551: ID = aligned
+Line 551: (
+Line 551: INTCON = 16
+Line 551: )
+Line 551: )
+Line 551: )
+Line 551: ;
+Line 552: ID = struct
+Line 552: ID = timespec
+Line 552: ID = wall_to_monotonic
+Line 552: Unrecognized token: 95
+Line 552: Unrecognized token: 95
+Line 552: ID = attribute__
+Line 552: (
+Line 552: (
+Line 552: ID = aligned
+Line 552: (
+Line 552: INTCON = 16
+Line 552: )
+Line 552: )
+Line 552: )
+Line 552: ;
+Line 554: ID = EXPORT_SYMBOL
+Line 554: (
+Line 554: ID = xtime
+Line 554: )
+Line 554: ;
+Line 557: int
+Line 557: ID = tickadj
+Line 557: =
+Line 557: INTCON = 500
+Line 557: /
+Line 557: ID = HZ
+Line 557: Unrecognized token: 63
+Line 557: Unrecognized token: 58
+Line 557: INTCON = 1
+Line 557: ;
+Line 564: int
+Line 564: ID = time_state
+Line 564: =
+Line 564: ID = TIME_OK
+Line 564: ;
+Line 565: int
+Line 565: ID = time_status
+Line 565: =
+Line 565: ID = STA_UNSYNC
+Line 565: ;
+Line 566: ID = long
+Line 566: ID = time_offset
+Line 566: ;
+Line 567: ID = long
+Line 567: ID = time_constant
+Line 567: =
+Line 567: INTCON = 2
+Line 567: ;
+Line 568: ID = long
+Line 568: ID = time_tolerance
+Line 568: =
+Line 568: ID = MAXFREQ
+Line 568: ;
+Line 569: ID = long
+Line 569: ID = time_precision
+Line 569: =
+Line 569: INTCON = 1
+Line 569: ;
+Line 570: ID = long
+Line 570: ID = time_maxerror
+Line 570: =
+Line 570: ID = NTP_PHASE_LIMIT
+Line 570: ;
+Line 571: ID = long
+Line 571: ID = time_esterror
+Line 571: =
+Line 571: ID = NTP_PHASE_LIMIT
+Line 571: ;
+Line 572: ID = long
+Line 572: ID = time_phase
+Line 572: ;
+Line 573: ID = long
+Line 573: ID = time_freq
+Line 573: =
+Line 573: (
+Line 573: (
+Line 573: (
+Line 573: ID = NSEC_PER_SEC
+Line 573: +
+Line 573: ID = HZ
+Line 573: /
+Line 573: INTCON = 2
+Line 573: )
+Line 573: Unrecognized token: 37
+Line 573: ID = HZ
+Line 573: -
+Line 573: ID = HZ
+Line 573: /
+Line 573: INTCON = 2
+Line 573: )
+Line 573: <
+Line 573: <
+Line 573: ID = SHIFT_USEC
+Line 573: )
+Line 573: /
+Line 573: ID = NSEC_PER_USEC
+Line 573: ;
+Line 575: ID = long
+Line 575: ID = time_adj
+Line 575: ;
+Line 576: ID = long
+Line 576: ID = time_reftime
+Line 576: ;
+Line 577: ID = long
+Line 577: ID = time_adjust
+Line 577: ;
+Line 578: ID = long
+Line 578: ID = time_next_adjust
+Line 578: ;
+Line 589: ID = static
+Line 589: void
+Line 589: ID = second_overflow
+Line 589: (
+Line 589: void
+Line 589: )
+Line 590: {
+Line 591: ID = long
+Line 591: ID = ltemp
+Line 591: ;
+Line 594: ID = time_maxerror
+Line 594: +
+Line 594: =
+Line 594: ID = time_tolerance
+Line 594: >
+Line 594: >
+Line 594: ID = SHIFT_USEC
+Line 594: ;
+Line 595: if
+Line 595: (
+Line 595: ID = time_maxerror
+Line 595: >
+Line 595: ID = NTP_PHASE_LIMIT
+Line 595: )
+Line 595: {
+Line 596: ID = time_maxerror
+Line 596: =
+Line 596: ID = NTP_PHASE_LIMIT
+Line 596: ;
+Line 597: ID = time_status
+Line 597: Unrecognized token: 124
+Line 597: =
+Line 597: ID = STA_UNSYNC
+Line 597: ;
+Line 598: }
+Line 609: ID = switch
+Line 609: (
+Line 609: ID = time_state
+Line 609: )
+Line 609: {
+Line 611: ID = case
+Line 611: ID = TIME_OK
+Line 611: Unrecognized token: 58
+Line 612: if
+Line 612: (
+Line 612: ID = time_status
+Line 612: Unrecognized token: 38
+Line 612: ID = STA_INS
+Line 612: )
+Line 613: ID = time_state
+Line 613: =
+Line 613: ID = TIME_INS
+Line 613: ;
+Line 614: else
+Line 614: if
+Line 614: (
+Line 614: ID = time_status
+Line 614: Unrecognized token: 38
+Line 614: ID = STA_DEL
+Line 614: )
+Line 615: ID = time_state
+Line 615: =
+Line 615: ID = TIME_DEL
+Line 615: ;
+Line 616: ID = break
+Line 616: ;
+Line 618: ID = case
+Line 618: ID = TIME_INS
+Line 618: Unrecognized token: 58
+Line 619: if
+Line 619: (
+Line 619: ID = xtime
+Line 619: Unrecognized token: 46
+Line 619: ID = tv_sec
+Line 619: Unrecognized token: 37
+Line 619: INTCON = 86400
+Line 619: ==
+Line 619: INTCON = 0
+Line 619: )
+Line 619: {
+Line 620: ID = xtime
+Line 620: Unrecognized token: 46
+Line 620: ID = tv_sec
+Line 620: -
+Line 620: -
+Line 620: ;
+Line 621: ID = wall_to_monotonic
+Line 621: Unrecognized token: 46
+Line 621: ID = tv_sec
+Line 621: +
+Line 621: +
+Line 621: ;
+Line 622: ID = time_interpolator_update
+Line 622: (
+Line 622: -
+Line 622: ID = NSEC_PER_SEC
+Line 622: )
+Line 622: ;
+Line 623: ID = time_state
+Line 623: =
+Line 623: ID = TIME_OOP
+Line 623: ;
+Line 624: ID = clock_was_set
+Line 624: (
+Line 624: )
+Line 624: ;
+Line 625: ID = printk
+Line 625: (
+Line 625: ID = KERN_NOTICE
+Line 625: STRINGCON = "Clock: inserting leap second 23:59:60 UTC\n"
+Line 625: )
+Line 625: ;
+Line 626: }
+Line 627: ID = break
+Line 627: ;
+Line 629: ID = case
+Line 629: ID = TIME_DEL
+Line 629: Unrecognized token: 58
+Line 630: if
+Line 630: (
+Line 630: (
+Line 630: ID = xtime
+Line 630: Unrecognized token: 46
+Line 630: ID = tv_sec
+Line 630: +
+Line 630: INTCON = 1
+Line 630: )
+Line 630: Unrecognized token: 37
+Line 630: INTCON = 86400
+Line 630: ==
+Line 630: INTCON = 0
+Line 630: )
+Line 630: {
+Line 631: ID = xtime
+Line 631: Unrecognized token: 46
+Line 631: ID = tv_sec
+Line 631: +
+Line 631: +
+Line 631: ;
+Line 632: ID = wall_to_monotonic
+Line 632: Unrecognized token: 46
+Line 632: ID = tv_sec
+Line 632: -
+Line 632: -
+Line 632: ;
+Line 633: ID = time_interpolator_update
+Line 633: (
+Line 633: ID = NSEC_PER_SEC
+Line 633: )
+Line 633: ;
+Line 634: ID = time_state
+Line 634: =
+Line 634: ID = TIME_WAIT
+Line 634: ;
+Line 635: ID = clock_was_set
+Line 635: (
+Line 635: )
+Line 635: ;
+Line 636: ID = printk
+Line 636: (
+Line 636: ID = KERN_NOTICE
+Line 636: STRINGCON = "Clock: deleting leap second 23:59:59 UTC\n"
+Line 636: )
+Line 636: ;
+Line 637: }
+Line 638: ID = break
+Line 638: ;
+Line 640: ID = case
+Line 640: ID = TIME_OOP
+Line 640: Unrecognized token: 58
+Line 641: ID = time_state
+Line 641: =
+Line 641: ID = TIME_WAIT
+Line 641: ;
+Line 642: ID = break
+Line 642: ;
+Line 644: ID = case
+Line 644: ID = TIME_WAIT
+Line 644: Unrecognized token: 58
+Line 645: if
+Line 645: (
+Line 645: !
+Line 645: (
+Line 645: ID = time_status
+Line 645: Unrecognized token: 38
+Line 645: (
+Line 645: ID = STA_INS
+Line 645: Unrecognized token: 124
+Line 645: ID = STA_DEL
+Line 645: )
+Line 645: )
+Line 645: )
+Line 646: ID = time_state
+Line 646: =
+Line 646: ID = TIME_OK
+Line 646: ;
+Line 647: }
+Line 658: if
+Line 658: (
+Line 658: ID = time_offset
+Line 658: <
+Line 658: INTCON = 0
+Line 658: )
+Line 658: {
+Line 659: ID = ltemp
+Line 659: =
+Line 659: -
+Line 659: ID = time_offset
+Line 659: ;
+Line 660: if
+Line 660: (
+Line 660: !
+Line 660: (
+Line 660: ID = time_status
+Line 660: Unrecognized token: 38
+Line 660: ID = STA_FLL
+Line 660: )
+Line 660: )
+Line 661: ID = ltemp
+Line 661: >
+Line 661: >=
+Line 661: ID = SHIFT_KG
+Line 661: +
+Line 661: ID = time_constant
+Line 661: ;
+Line 662: if
+Line 662: (
+Line 662: ID = ltemp
+Line 662: >
+Line 662: (
+Line 662: ID = MAXPHASE
+Line 662: /
+Line 662: ID = MINSEC
+Line 662: )
+Line 662: <
+Line 662: <
+Line 662: ID = SHIFT_UPDATE
+Line 662: )
+Line 663: ID = ltemp
+Line 663: =
+Line 663: (
+Line 663: ID = MAXPHASE
+Line 663: /
+Line 663: ID = MINSEC
+Line 663: )
+Line 663: <
+Line 663: <
+Line 663: ID = SHIFT_UPDATE
+Line 663: ;
+Line 664: ID = time_offset
+Line 664: +
+Line 664: =
+Line 664: ID = ltemp
+Line 664: ;
+Line 665: ID = time_adj
+Line 665: =
+Line 665: -
+Line 665: ID = ltemp
+Line 665: <
+Line 665: <
+Line 665: (
+Line 665: ID = SHIFT_SCALE
+Line 665: -
+Line 665: ID = SHIFT_HZ
+Line 665: -
+Line 665: ID = SHIFT_UPDATE
+Line 665: )
+Line 665: ;
+Line 666: }
+Line 666: else
+Line 666: {
+Line 667: ID = ltemp
+Line 667: =
+Line 667: ID = time_offset
+Line 667: ;
+Line 668: if
+Line 668: (
+Line 668: !
+Line 668: (
+Line 668: ID = time_status
+Line 668: Unrecognized token: 38
+Line 668: ID = STA_FLL
+Line 668: )
+Line 668: )
+Line 669: ID = ltemp
+Line 669: >
+Line 669: >=
+Line 669: ID = SHIFT_KG
+Line 669: +
+Line 669: ID = time_constant
+Line 669: ;
+Line 670: if
+Line 670: (
+Line 670: ID = ltemp
+Line 670: >
+Line 670: (
+Line 670: ID = MAXPHASE
+Line 670: /
+Line 670: ID = MINSEC
+Line 670: )
+Line 670: <
+Line 670: <
+Line 670: ID = SHIFT_UPDATE
+Line 670: )
+Line 671: ID = ltemp
+Line 671: =
+Line 671: (
+Line 671: ID = MAXPHASE
+Line 671: /
+Line 671: ID = MINSEC
+Line 671: )
+Line 671: <
+Line 671: <
+Line 671: ID = SHIFT_UPDATE
+Line 671: ;
+Line 672: ID = time_offset
+Line 672: -
+Line 672: =
+Line 672: ID = ltemp
+Line 672: ;
+Line 673: ID = time_adj
+Line 673: =
+Line 673: ID = ltemp
+Line 673: <
+Line 673: <
+Line 673: (
+Line 673: ID = SHIFT_SCALE
+Line 673: -
+Line 673: ID = SHIFT_HZ
+Line 673: -
+Line 673: ID = SHIFT_UPDATE
+Line 673: )
+Line 673: ;
+Line 674: }
+Line 683: ID = pps_valid
+Line 683: +
+Line 683: +
+Line 683: ;
+Line 684: if
+Line 684: (
+Line 684: ID = pps_valid
+Line 684: ==
+Line 684: ID = PPS_VALID
+Line 684: )
+Line 684: {
+Line 685: ID = pps_jitter
+Line 685: =
+Line 685: ID = MAXTIME
+Line 685: ;
+Line 686: ID = pps_stabil
+Line 686: =
+Line 686: ID = MAXFREQ
+Line 686: ;
+Line 687: ID = time_status
+Line 687: Unrecognized token: 38
+Line 687: =
+Line 687: Unrecognized token: 126
+Line 687: (
+Line 687: ID = STA_PPSSIGNAL
+Line 687: Unrecognized token: 124
+Line 687: ID = STA_PPSJITTER
+Line 687: Unrecognized token: 124
+Line 688: ID = STA_PPSWANDER
+Line 688: Unrecognized token: 124
+Line 688: ID = STA_PPSERROR
+Line 688: )
+Line 688: ;
+Line 689: }
+Line 690: ID = ltemp
+Line 690: =
+Line 690: ID = time_freq
+Line 690: +
+Line 690: ID = pps_freq
+Line 690: ;
+Line 691: if
+Line 691: (
+Line 691: ID = ltemp
+Line 691: <
+Line 691: INTCON = 0
+Line 691: )
+Line 692: ID = time_adj
+Line 692: -
+Line 692: =
+Line 692: -
+Line 692: ID = ltemp
+Line 692: >
+Line 692: >
+Line 693: (
+Line 693: ID = SHIFT_USEC
+Line 693: +
+Line 693: ID = SHIFT_HZ
+Line 693: -
+Line 693: ID = SHIFT_SCALE
+Line 693: )
+Line 693: ;
+Line 694: else
+Line 695: ID = time_adj
+Line 695: +
+Line 695: =
+Line 695: ID = ltemp
+Line 695: >
+Line 695: >
+Line 696: (
+Line 696: ID = SHIFT_USEC
+Line 696: +
+Line 696: ID = SHIFT_HZ
+Line 696: -
+Line 696: ID = SHIFT_SCALE
+Line 696: )
+Line 696: ;
+Line 698: Unrecognized token: 35
+Line 698: if
+Line 698: ID = HZ
+Line 698: ==
+Line 698: INTCON = 100
+Line 702: if
+Line 702: (
+Line 702: ID = time_adj
+Line 702: <
+Line 702: INTCON = 0
+Line 702: )
+Line 703: ID = time_adj
+Line 703: -
+Line 703: =
+Line 703: (
+Line 703: -
+Line 703: ID = time_adj
+Line 703: >
+Line 703: >
+Line 703: INTCON = 2
+Line 703: )
+Line 703: +
+Line 703: (
+Line 703: -
+Line 703: ID = time_adj
+Line 703: >
+Line 703: >
+Line 703: INTCON = 5
+Line 703: )
+Line 703: ;
+Line 704: else
+Line 705: ID = time_adj
+Line 705: +
+Line 705: =
+Line 705: (
+Line 705: ID = time_adj
+Line 705: >
+Line 705: >
+Line 705: INTCON = 2
+Line 705: )
+Line 705: +
+Line 705: (
+Line 705: ID = time_adj
+Line 705: >
+Line 705: >
+Line 705: INTCON = 5
+Line 705: )
+Line 705: ;
+Line 706: Unrecognized token: 35
+Line 706: ID = endif
+Line 707: Unrecognized token: 35
+Line 707: if
+Line 707: ID = HZ
+Line 707: ==
+Line 707: INTCON = 1000
+Line 711: if
+Line 711: (
+Line 711: ID = time_adj
+Line 711: <
+Line 711: INTCON = 0
+Line 711: )
+Line 712: ID = time_adj
+Line 712: -
+Line 712: =
+Line 712: (
+Line 712: -
+Line 712: ID = time_adj
+Line 712: >
+Line 712: >
+Line 712: INTCON = 6
+Line 712: )
+Line 712: +
+Line 712: (
+Line 712: -
+Line 712: ID = time_adj
+Line 712: >
+Line 712: >
+Line 712: INTCON = 7
+Line 712: )
+Line 712: ;
+Line 713: else
+Line 714: ID = time_adj
+Line 714: +
+Line 714: =
+Line 714: (
+Line 714: ID = time_adj
+Line 714: >
+Line 714: >
+Line 714: INTCON = 6
+Line 714: )
+Line 714: +
+Line 714: (
+Line 714: ID = time_adj
+Line 714: >
+Line 714: >
+Line 714: INTCON = 7
+Line 714: )
+Line 714: ;
+Line 715: Unrecognized token: 35
+Line 715: ID = endif
+Line 716: }
+Line 719: ID = static
+Line 719: void
+Line 719: ID = update_wall_time_one_tick
+Line 719: (
+Line 719: void
+Line 719: )
+Line 720: {
+Line 721: ID = long
+Line 721: ID = time_adjust_step
+Line 721: ,
+Line 721: ID = delta_nsec
+Line 721: ;
+Line 723: if
+Line 723: (
+Line 723: (
+Line 723: ID = time_adjust_step
+Line 723: =
+Line 723: ID = time_adjust
+Line 723: )
+Line 723: !=
+Line 723: INTCON = 0
+Line 723: )
+Line 723: {
+Line 733: if
+Line 733: (
+Line 733: ID = time_adjust
+Line 733: >
+Line 733: ID = tickadj
+Line 733: )
+Line 734: ID = time_adjust_step
+Line 734: =
+Line 734: ID = tickadj
+Line 734: ;
+Line 735: else
+Line 735: if
+Line 735: (
+Line 735: ID = time_adjust
+Line 735: <
+Line 735: -
+Line 735: ID = tickadj
+Line 735: )
+Line 736: ID = time_adjust_step
+Line 736: =
+Line 736: -
+Line 736: ID = tickadj
+Line 736: ;
+Line 739: ID = time_adjust
+Line 739: -
+Line 739: =
+Line 739: ID = time_adjust_step
+Line 739: ;
+Line 740: }
+Line 741: ID = delta_nsec
+Line 741: =
+Line 741: ID = tick_nsec
+Line 741: +
+Line 741: ID = time_adjust_step
+Line 741: *
+Line 741: INTCON = 1000
+Line 741: ;
+Line 746: ID = time_phase
+Line 746: +
+Line 746: =
+Line 746: ID = time_adj
+Line 746: ;
+Line 747: if
+Line 747: (
+Line 747: ID = time_phase
+Line 747: <=
+Line 747: -
+Line 747: ID = FINENSEC
+Line 747: )
+Line 747: {
+Line 748: ID = long
+Line 748: ID = ltemp
+Line 748: =
+Line 748: -
+Line 748: ID = time_phase
+Line 748: >
+Line 748: >
+Line 748: (
+Line 748: ID = SHIFT_SCALE
+Line 748: -
+Line 748: INTCON = 10
+Line 748: )
+Line 748: ;
+Line 749: ID = time_phase
+Line 749: +
+Line 749: =
+Line 749: ID = ltemp
+Line 749: <
+Line 749: <
+Line 749: (
+Line 749: ID = SHIFT_SCALE
+Line 749: -
+Line 749: INTCON = 10
+Line 749: )
+Line 749: ;
+Line 750: ID = delta_nsec
+Line 750: -
+Line 750: =
+Line 750: ID = ltemp
+Line 750: ;
+Line 751: }
+Line 752: else
+Line 752: if
+Line 752: (
+Line 752: ID = time_phase
+Line 752: >=
+Line 752: ID = FINENSEC
+Line 752: )
+Line 752: {
+Line 753: ID = long
+Line 753: ID = ltemp
+Line 753: =
+Line 753: ID = time_phase
+Line 753: >
+Line 753: >
+Line 753: (
+Line 753: ID = SHIFT_SCALE
+Line 753: -
+Line 753: INTCON = 10
+Line 753: )
+Line 753: ;
+Line 754: ID = time_phase
+Line 754: -
+Line 754: =
+Line 754: ID = ltemp
+Line 754: <
+Line 754: <
+Line 754: (
+Line 754: ID = SHIFT_SCALE
+Line 754: -
+Line 754: INTCON = 10
+Line 754: )
+Line 754: ;
+Line 755: ID = delta_nsec
+Line 755: +
+Line 755: =
+Line 755: ID = ltemp
+Line 755: ;
+Line 756: }
+Line 757: ID = xtime
+Line 757: Unrecognized token: 46
+Line 757: ID = tv_nsec
+Line 757: +
+Line 757: =
+Line 757: ID = delta_nsec
+Line 757: ;
+Line 758: ID = time_interpolator_update
+Line 758: (
+Line 758: ID = delta_nsec
+Line 758: )
+Line 758: ;
+Line 761: if
+Line 761: (
+Line 761: ID = time_next_adjust
+Line 761: !=
+Line 761: INTCON = 0
+Line 761: )
+Line 761: {
+Line 762: ID = time_adjust
+Line 762: =
+Line 762: ID = time_next_adjust
+Line 762: ;
+Line 763: ID = time_next_adjust
+Line 763: =
+Line 763: INTCON = 0
+Line 763: ;
+Line 764: }
+Line 765: }
+Line 774: ID = static
+Line 774: void
+Line 774: ID = update_wall_time
+Line 774: (
+Line 774: ID = unsigned
+Line 774: ID = long
+Line 774: ID = ticks
+Line 774: )
+Line 775: {
+Line 776: ID = do
+Line 776: {
+Line 777: ID = ticks
+Line 777: -
+Line 777: -
+Line 777: ;
+Line 778: ID = update_wall_time_one_tick
+Line 778: (
+Line 778: )
+Line 778: ;
+Line 779: }
+Line 779: while
+Line 779: (
+Line 779: ID = ticks
+Line 779: )
+Line 779: ;
+Line 781: if
+Line 781: (
+Line 781: ID = xtime
+Line 781: Unrecognized token: 46
+Line 781: ID = tv_nsec
+Line 781: >=
+Line 781: INTCON = 1000000000
+Line 781: )
+Line 781: {
+Line 782: ID = xtime
+Line 782: Unrecognized token: 46
+Line 782: ID = tv_nsec
+Line 782: -
+Line 782: =
+Line 782: INTCON = 1000000000
+Line 782: ;
+Line 783: ID = xtime
+Line 783: Unrecognized token: 46
+Line 783: ID = tv_sec
+Line 783: +
+Line 783: +
+Line 783: ;
+Line 784: ID = second_overflow
+Line 784: (
+Line 784: )
+Line 784: ;
+Line 785: }
+Line 786: }
+Line 788: ID = static
+Line 788: ID = inline
+Line 788: void
+Line 788: ID = do_process_times
+Line 788: (
+Line 788: ID = struct
+Line 788: ID = task_struct
+Line 788: *
+Line 788: ID = p
+Line 788: ,
+Line 789: ID = unsigned
+Line 789: ID = long
+Line 789: ID = user
+Line 789: ,
+Line 789: ID = unsigned
+Line 789: ID = long
+Line 789: ID = system
+Line 789: )
+Line 790: {
+Line 791: ID = unsigned
+Line 791: ID = long
+Line 791: ID = psecs
+Line 791: ;
+Line 793: ID = psecs
+Line 793: =
+Line 793: (
+Line 793: ID = p
+Line 793: -
+Line 793: >
+Line 793: ID = utime
+Line 793: +
+Line 793: =
+Line 793: ID = user
+Line 793: )
+Line 793: ;
+Line 794: ID = psecs
+Line 794: +
+Line 794: =
+Line 794: (
+Line 794: ID = p
+Line 794: -
+Line 794: >
+Line 794: ID = stime
+Line 794: +
+Line 794: =
+Line 794: ID = system
+Line 794: )
+Line 794: ;
+Line 795: if
+Line 795: (
+Line 795: ID = psecs
+Line 795: /
+Line 795: ID = HZ
+Line 795: >=
+Line 795: ID = p
+Line 795: -
+Line 795: >
+Line 795: ID = rlim
+Line 795: [
+Line 795: ID = RLIMIT_CPU
+Line 795: ]
+Line 795: Unrecognized token: 46
+Line 795: ID = rlim_cur
+Line 795: )
+Line 795: {
+Line 797: if
+Line 797: (
+Line 797: !
+Line 797: (
+Line 797: ID = psecs
+Line 797: Unrecognized token: 37
+Line 797: ID = HZ
+Line 797: )
+Line 797: )
+Line 798: ID = send_sig
+Line 798: (
+Line 798: ID = SIGXCPU
+Line 798: ,
+Line 798: ID = p
+Line 798: ,
+Line 798: INTCON = 1
+Line 798: )
+Line 798: ;
+Line 800: if
+Line 800: (
+Line 800: ID = psecs
+Line 800: /
+Line 800: ID = HZ
+Line 800: >=
+Line 800: ID = p
+Line 800: -
+Line 800: >
+Line 800: ID = rlim
+Line 800: [
+Line 800: ID = RLIMIT_CPU
+Line 800: ]
+Line 800: Unrecognized token: 46
+Line 800: ID = rlim_max
+Line 800: )
+Line 801: ID = send_sig
+Line 801: (
+Line 801: ID = SIGKILL
+Line 801: ,
+Line 801: ID = p
+Line 801: ,
+Line 801: INTCON = 1
+Line 801: )
+Line 801: ;
+Line 802: }
+Line 803: }
+Line 805: ID = static
+Line 805: ID = inline
+Line 805: void
+Line 805: ID = do_it_virt
+Line 805: (
+Line 805: ID = struct
+Line 805: ID = task_struct
+Line 805: *
+Line 805: ID = p
+Line 805: ,
+Line 805: ID = unsigned
+Line 805: ID = long
+Line 805: ID = ticks
+Line 805: )
+Line 806: {
+Line 807: ID = unsigned
+Line 807: ID = long
+Line 807: ID = it_virt
+Line 807: =
+Line 807: ID = p
+Line 807: -
+Line 807: >
+Line 807: ID = it_virt_value
+Line 807: ;
+Line 809: if
+Line 809: (
+Line 809: ID = it_virt
+Line 809: )
+Line 809: {
+Line 810: ID = it_virt
+Line 810: -
+Line 810: =
+Line 810: ID = ticks
+Line 810: ;
+Line 811: if
+Line 811: (
+Line 811: !
+Line 811: ID = it_virt
+Line 811: )
+Line 811: {
+Line 812: ID = it_virt
+Line 812: =
+Line 812: ID = p
+Line 812: -
+Line 812: >
+Line 812: ID = it_virt_incr
+Line 812: ;
+Line 813: ID = send_sig
+Line 813: (
+Line 813: ID = SIGVTALRM
+Line 813: ,
+Line 813: ID = p
+Line 813: ,
+Line 813: INTCON = 1
+Line 813: )
+Line 813: ;
+Line 814: }
+Line 815: ID = p
+Line 815: -
+Line 815: >
+Line 815: ID = it_virt_value
+Line 815: =
+Line 815: ID = it_virt
+Line 815: ;
+Line 816: }
+Line 817: }
+Line 819: ID = static
+Line 819: ID = inline
+Line 819: void
+Line 819: ID = do_it_prof
+Line 819: (
+Line 819: ID = struct
+Line 819: ID = task_struct
+Line 819: *
+Line 819: ID = p
+Line 819: )
+Line 820: {
+Line 821: ID = unsigned
+Line 821: ID = long
+Line 821: ID = it_prof
+Line 821: =
+Line 821: ID = p
+Line 821: -
+Line 821: >
+Line 821: ID = it_prof_value
+Line 821: ;
+Line 823: if
+Line 823: (
+Line 823: ID = it_prof
+Line 823: )
+Line 823: {
+Line 824: if
+Line 824: (
+Line 824: -
+Line 824: -
+Line 824: ID = it_prof
+Line 824: ==
+Line 824: INTCON = 0
+Line 824: )
+Line 824: {
+Line 825: ID = it_prof
+Line 825: =
+Line 825: ID = p
+Line 825: -
+Line 825: >
+Line 825: ID = it_prof_incr
+Line 825: ;
+Line 826: ID = send_sig
+Line 826: (
+Line 826: ID = SIGPROF
+Line 826: ,
+Line 826: ID = p
+Line 826: ,
+Line 826: INTCON = 1
+Line 826: )
+Line 826: ;
+Line 827: }
+Line 828: ID = p
+Line 828: -
+Line 828: >
+Line 828: ID = it_prof_value
+Line 828: =
+Line 828: ID = it_prof
+Line 828: ;
+Line 829: }
+Line 830: }
+Line 832: ID = static
+Line 832: void
+Line 832: ID = update_one_process
+Line 832: (
+Line 832: ID = struct
+Line 832: ID = task_struct
+Line 832: *
+Line 832: ID = p
+Line 832: ,
+Line 832: ID = unsigned
+Line 832: ID = long
+Line 832: ID = user
+Line 832: ,
+Line 833: ID = unsigned
+Line 833: ID = long
+Line 833: ID = system
+Line 833: ,
+Line 833: int
+Line 833: ID = cpu
+Line 833: )
+Line 834: {
+Line 835: ID = do_process_times
+Line 835: (
+Line 835: ID = p
+Line 835: ,
+Line 835: ID = user
+Line 835: ,
+Line 835: ID = system
+Line 835: )
+Line 835: ;
+Line 836: ID = do_it_virt
+Line 836: (
+Line 836: ID = p
+Line 836: ,
+Line 836: ID = user
+Line 836: )
+Line 836: ;
+Line 837: ID = do_it_prof
+Line 837: (
+Line 837: ID = p
+Line 837: )
+Line 837: ;
+Line 838: }
+Line 844: void
+Line 844: ID = update_process_times
+Line 844: (
+Line 844: int
+Line 844: ID = user_tick
+Line 844: )
+Line 845: {
+Line 846: ID = struct
+Line 846: ID = task_struct
+Line 846: *
+Line 846: ID = p
+Line 846: =
+Line 846: ID = current
+Line 846: ;
+Line 847: int
+Line 847: ID = cpu
+Line 847: =
+Line 847: ID = smp_processor_id
+Line 847: (
+Line 847: )
+Line 847: ,
+Line 847: ID = system
+Line 847: =
+Line 847: ID = user_tick
+Line 847: Unrecognized token: 94
+Line 847: INTCON = 1
+Line 847: ;
+Line 849: ID = update_one_process
+Line 849: (
+Line 849: ID = p
+Line 849: ,
+Line 849: ID = user_tick
+Line 849: ,
+Line 849: ID = system
+Line 849: ,
+Line 849: ID = cpu
+Line 849: )
+Line 849: ;
+Line 850: ID = run_local_timers
+Line 850: (
+Line 850: )
+Line 850: ;
+Line 851: ID = scheduler_tick
+Line 851: (
+Line 851: ID = user_tick
+Line 851: ,
+Line 851: ID = system
+Line 851: )
+Line 851: ;
+Line 852: }
+Line 857: ID = static
+Line 857: ID = unsigned
+Line 857: ID = long
+Line 857: ID = count_active_tasks
+Line 857: (
+Line 857: void
+Line 857: )
+Line 858: {
+Line 859: return
+Line 859: (
+Line 859: ID = nr_running
+Line 859: (
+Line 859: )
+Line 859: +
+Line 859: ID = nr_uninterruptible
+Line 859: (
+Line 859: )
+Line 859: )
+Line 859: *
+Line 859: ID = FIXED_1
+Line 859: ;
+Line 860: }
+Line 870: ID = unsigned
+Line 870: ID = long
+Line 870: ID = avenrun
+Line 870: [
+Line 870: INTCON = 3
+Line 870: ]
+Line 870: ;
+Line 876: ID = static
+Line 876: ID = inline
+Line 876: void
+Line 876: ID = calc_load
+Line 876: (
+Line 876: ID = unsigned
+Line 876: ID = long
+Line 876: ID = ticks
+Line 876: )
+Line 877: {
+Line 878: ID = unsigned
+Line 878: ID = long
+Line 878: ID = active_tasks
+Line 878: ;
+Line 879: ID = static
+Line 879: int
+Line 879: ID = count
+Line 879: =
+Line 879: ID = LOAD_FREQ
+Line 879: ;
+Line 881: ID = count
+Line 881: -
+Line 881: =
+Line 881: ID = ticks
+Line 881: ;
+Line 882: if
+Line 882: (
+Line 882: ID = count
+Line 882: <
+Line 882: INTCON = 0
+Line 882: )
+Line 882: {
+Line 883: ID = count
+Line 883: +
+Line 883: =
+Line 883: ID = LOAD_FREQ
+Line 883: ;
+Line 884: ID = active_tasks
+Line 884: =
+Line 884: ID = count_active_tasks
+Line 884: (
+Line 884: )
+Line 884: ;
+Line 885: ID = CALC_LOAD
+Line 885: (
+Line 885: ID = avenrun
+Line 885: [
+Line 885: INTCON = 0
+Line 885: ]
+Line 885: ,
+Line 885: ID = EXP_1
+Line 885: ,
+Line 885: ID = active_tasks
+Line 885: )
+Line 885: ;
+Line 886: ID = CALC_LOAD
+Line 886: (
+Line 886: ID = avenrun
+Line 886: [
+Line 886: INTCON = 1
+Line 886: ]
+Line 886: ,
+Line 886: ID = EXP_5
+Line 886: ,
+Line 886: ID = active_tasks
+Line 886: )
+Line 886: ;
+Line 887: ID = CALC_LOAD
+Line 887: (
+Line 887: ID = avenrun
+Line 887: [
+Line 887: INTCON = 2
+Line 887: ]
+Line 887: ,
+Line 887: ID = EXP_15
+Line 887: ,
+Line 887: ID = active_tasks
+Line 887: )
+Line 887: ;
+Line 888: }
+Line 889: }
+Line 892: ID = unsigned
+Line 892: ID = long
+Line 892: ID = wall_jiffies
+Line 892: =
+Line 892: ID = INITIAL_JIFFIES
+Line 892: ;
+Line 898: Unrecognized token: 35
+Line 898: ID = ifndef
+Line 898: ID = ARCH_HAVE_XTIME_LOCK
+Line 899: ID = seqlock_t
+Line 899: ID = xtime_lock
+Line 899: Unrecognized token: 95
+Line 899: Unrecognized token: 95
+Line 899: ID = cacheline_aligned_in_smp
+Line 899: =
+Line 899: ID = SEQLOCK_UNLOCKED
+Line 899: ;
+Line 901: ID = EXPORT_SYMBOL
+Line 901: (
+Line 901: ID = xtime_lock
+Line 901: )
+Line 901: ;
+Line 902: Unrecognized token: 35
+Line 902: ID = endif
+Line 907: ID = static
+Line 907: void
+Line 907: ID = run_timer_softirq
+Line 907: (
+Line 907: ID = struct
+Line 907: ID = softirq_action
+Line 907: *
+Line 907: ID = h
+Line 907: )
+Line 908: {
+Line 909: ID = tvec_base_t
+Line 909: *
+Line 909: ID = base
+Line 909: =
+Line 909: Unrecognized token: 38
+Line 909: Unrecognized token: 95
+Line 909: Unrecognized token: 95
+Line 909: ID = get_cpu_var
+Line 909: (
+Line 909: ID = tvec_bases
+Line 909: )
+Line 909: ;
+Line 911: if
+Line 911: (
+Line 911: ID = time_after_eq
+Line 911: (
+Line 911: ID = jiffies
+Line 911: ,
+Line 911: ID = base
+Line 911: -
+Line 911: >
+Line 911: ID = timer_jiffies
+Line 911: )
+Line 911: )
+Line 912: Unrecognized token: 95
+Line 912: Unrecognized token: 95
+Line 912: ID = run_timers
+Line 912: (
+Line 912: ID = base
+Line 912: )
+Line 912: ;
+Line 913: }
+Line 918: void
+Line 918: ID = run_local_timers
+Line 918: (
+Line 918: void
+Line 918: )
+Line 919: {
+Line 920: ID = raise_softirq
+Line 920: (
+Line 920: ID = TIMER_SOFTIRQ
+Line 920: )
+Line 920: ;
+Line 921: }
+Line 927: ID = static
+Line 927: ID = inline
+Line 927: void
+Line 927: ID = update_times
+Line 927: (
+Line 927: void
+Line 927: )
+Line 928: {
+Line 929: ID = unsigned
+Line 929: ID = long
+Line 929: ID = ticks
+Line 929: ;
+Line 931: ID = ticks
+Line 931: =
+Line 931: ID = jiffies
+Line 931: -
+Line 931: ID = wall_jiffies
+Line 931: ;
+Line 932: if
+Line 932: (
+Line 932: ID = ticks
+Line 932: )
+Line 932: {
+Line 933: ID = wall_jiffies
+Line 933: +
+Line 933: =
+Line 933: ID = ticks
+Line 933: ;
+Line 934: ID = update_wall_time
+Line 934: (
+Line 934: ID = ticks
+Line 934: )
+Line 934: ;
+Line 935: }
+Line 936: ID = calc_load
+Line 936: (
+Line 936: ID = ticks
+Line 936: )
+Line 936: ;
+Line 937: }
+Line 945: void
+Line 945: ID = do_timer
+Line 945: (
+Line 945: ID = struct
+Line 945: ID = pt_regs
+Line 945: *
+Line 945: ID = regs
+Line 945: )
+Line 946: {
+Line 947: ID = jiffies_64
+Line 947: +
+Line 947: +
+Line 947: ;
+Line 948: Unrecognized token: 35
+Line 948: ID = ifndef
+Line 948: ID = CONFIG_SMP
+Line 951: ID = update_process_times
+Line 951: (
+Line 951: ID = user_mode
+Line 951: (
+Line 951: ID = regs
+Line 951: )
+Line 951: )
+Line 951: ;
+Line 952: Unrecognized token: 35
+Line 952: ID = endif
+Line 953: ID = update_times
+Line 953: (
+Line 953: )
+Line 953: ;
+Line 954: }
+Line 956: Unrecognized token: 35
+Line 956: ID = ifdef
+Line 956: Unrecognized token: 95
+Line 956: Unrecognized token: 95
+Line 956: ID = ARCH_WANT_SYS_ALARM
+Line 962: ID = asmlinkage
+Line 962: ID = unsigned
+Line 962: ID = long
+Line 962: ID = sys_alarm
+Line 962: (
+Line 962: ID = unsigned
+Line 962: int
+Line 962: ID = seconds
+Line 962: )
+Line 963: {
+Line 964: ID = struct
+Line 964: ID = itimerval
+Line 964: ID = it_new
+Line 964: ,
+Line 964: ID = it_old
+Line 964: ;
+Line 965: ID = unsigned
+Line 965: int
+Line 965: ID = oldalarm
+Line 965: ;
+Line 967: ID = it_new
+Line 967: Unrecognized token: 46
+Line 967: ID = it_interval
+Line 967: Unrecognized token: 46
+Line 967: ID = tv_sec
+Line 967: =
+Line 967: ID = it_new
+Line 967: Unrecognized token: 46
+Line 967: ID = it_interval
+Line 967: Unrecognized token: 46
+Line 967: ID = tv_usec
+Line 967: =
+Line 967: INTCON = 0
+Line 967: ;
+Line 968: ID = it_new
+Line 968: Unrecognized token: 46
+Line 968: ID = it_value
+Line 968: Unrecognized token: 46
+Line 968: ID = tv_sec
+Line 968: =
+Line 968: ID = seconds
+Line 968: ;
+Line 969: ID = it_new
+Line 969: Unrecognized token: 46
+Line 969: ID = it_value
+Line 969: Unrecognized token: 46
+Line 969: ID = tv_usec
+Line 969: =
+Line 969: INTCON = 0
+Line 969: ;
+Line 970: ID = do_setitimer
+Line 970: (
+Line 970: ID = ITIMER_REAL
+Line 970: ,
+Line 970: Unrecognized token: 38
+Line 970: ID = it_new
+Line 970: ,
+Line 970: Unrecognized token: 38
+Line 970: ID = it_old
+Line 970: )
+Line 970: ;
+Line 971: ID = oldalarm
+Line 971: =
+Line 971: ID = it_old
+Line 971: Unrecognized token: 46
+Line 971: ID = it_value
+Line 971: Unrecognized token: 46
+Line 971: ID = tv_sec
+Line 971: ;
+Line 974: if
+Line 974: (
+Line 974: (
+Line 974: !
+Line 974: ID = oldalarm
+Line 974: &&
+Line 974: ID = it_old
+Line 974: Unrecognized token: 46
+Line 974: ID = it_value
+Line 974: Unrecognized token: 46
+Line 974: ID = tv_usec
+Line 974: )
+Line 974: ||
+Line 974: ID = it_old
+Line 974: Unrecognized token: 46
+Line 974: ID = it_value
+Line 974: Unrecognized token: 46
+Line 974: ID = tv_usec
+Line 974: >=
+Line 974: INTCON = 500000
+Line 974: )
+Line 975: ID = oldalarm
+Line 975: +
+Line 975: +
+Line 975: ;
+Line 976: return
+Line 976: ID = oldalarm
+Line 976: ;
+Line 977: }
+Line 979: Unrecognized token: 35
+Line 979: ID = endif
+Line 981: Unrecognized token: 35
+Line 981: ID = ifndef
+Line 981: Unrecognized token: 95
+Line 981: Unrecognized token: 95
+Line 981: ID = alpha__
+Line 997: ID = asmlinkage
+Line 997: ID = long
+Line 997: ID = sys_getpid
+Line 997: (
+Line 997: void
+Line 997: )
+Line 998: {
+Line 999: return
+Line 999: ID = current
+Line 999: -
+Line 999: >
+Line 999: ID = tgid
+Line 999: ;
+Line 1000: }
+Line 1018: ID = asmlinkage
+Line 1018: ID = long
+Line 1018: ID = sys_getppid
+Line 1018: (
+Line 1018: void
+Line 1018: )
+Line 1019: {
+Line 1020: int
+Line 1020: ID = pid
+Line 1020: ;
+Line 1021: ID = struct
+Line 1021: ID = task_struct
+Line 1021: *
+Line 1021: ID = me
+Line 1021: =
+Line 1021: ID = current
+Line 1021: ;
+Line 1022: ID = struct
+Line 1022: ID = task_struct
+Line 1022: *
+Line 1022: ID = parent
+Line 1022: ;
+Line 1024: ID = parent
+Line 1024: =
+Line 1024: ID = me
+Line 1024: -
+Line 1024: >
+Line 1024: ID = group_leader
+Line 1024: -
+Line 1024: >
+Line 1024: ID = real_parent
+Line 1024: ;
+Line 1025: for
+Line 1025: (
+Line 1025: ;
+Line 1025: ;
+Line 1025: )
+Line 1025: {
+Line 1026: ID = pid
+Line 1026: =
+Line 1026: ID = parent
+Line 1026: -
+Line 1026: >
+Line 1026: ID = tgid
+Line 1026: ;
+Line 1027: Unrecognized token: 35
+Line 1027: ID = ifdef
+Line 1027: ID = CONFIG_SMP
+Line 1028: {
+Line 1029: ID = struct
+Line 1029: ID = task_struct
+Line 1029: *
+Line 1029: ID = old
+Line 1029: =
+Line 1029: ID = parent
+Line 1029: ;
+Line 1035: ID = rmb
+Line 1035: (
+Line 1035: )
+Line 1035: ;
+Line 1036: ID = parent
+Line 1036: =
+Line 1036: ID = me
+Line 1036: -
+Line 1036: >
+Line 1036: ID = group_leader
+Line 1036: -
+Line 1036: >
+Line 1036: ID = real_parent
+Line 1036: ;
+Line 1037: if
+Line 1037: (
+Line 1037: ID = old
+Line 1037: !=
+Line 1037: ID = parent
+Line 1037: )
+Line 1038: ID = continue
+Line 1038: ;
+Line 1039: }
+Line 1040: Unrecognized token: 35
+Line 1040: ID = endif
+Line 1041: ID = break
+Line 1041: ;
+Line 1042: }
+Line 1043: return
+Line 1043: ID = pid
+Line 1043: ;
+Line 1044: }
+Line 1046: ID = asmlinkage
+Line 1046: ID = long
+Line 1046: ID = sys_getuid
+Line 1046: (
+Line 1046: void
+Line 1046: )
+Line 1047: {
+Line 1049: return
+Line 1049: ID = current
+Line 1049: -
+Line 1049: >
+Line 1049: ID = uid
+Line 1049: ;
+Line 1050: }
+Line 1052: ID = asmlinkage
+Line 1052: ID = long
+Line 1052: ID = sys_geteuid
+Line 1052: (
+Line 1052: void
+Line 1052: )
+Line 1053: {
+Line 1055: return
+Line 1055: ID = current
+Line 1055: -
+Line 1055: >
+Line 1055: ID = euid
+Line 1055: ;
+Line 1056: }
+Line 1058: ID = asmlinkage
+Line 1058: ID = long
+Line 1058: ID = sys_getgid
+Line 1058: (
+Line 1058: void
+Line 1058: )
+Line 1059: {
+Line 1061: return
+Line 1061: ID = current
+Line 1061: -
+Line 1061: >
+Line 1061: ID = gid
+Line 1061: ;
+Line 1062: }
+Line 1064: ID = asmlinkage
+Line 1064: ID = long
+Line 1064: ID = sys_getegid
+Line 1064: (
+Line 1064: void
+Line 1064: )
+Line 1065: {
+Line 1067: return
+Line 1067: ID = current
+Line 1067: -
+Line 1067: >
+Line 1067: ID = egid
+Line 1067: ;
+Line 1068: }
+Line 1070: Unrecognized token: 35
+Line 1070: ID = endif
+Line 1072: ID = static
+Line 1072: void
+Line 1072: ID = process_timeout
+Line 1072: (
+Line 1072: ID = unsigned
+Line 1072: ID = long
+Line 1072: Unrecognized token: 95
+Line 1072: Unrecognized token: 95
+Line 1072: ID = data
+Line 1072: )
+Line 1073: {
+Line 1074: ID = wake_up_process
+Line 1074: (
+Line 1074: (
+Line 1074: ID = task_t
+Line 1074: *
+Line 1074: )
+Line 1074: Unrecognized token: 95
+Line 1074: Unrecognized token: 95
+Line 1074: ID = data
+Line 1074: )
+Line 1074: ;
+Line 1075: }
+Line 1103: ID = fastcall
+Line 1103: ID = signed
+Line 1103: ID = long
+Line 1103: Unrecognized token: 95
+Line 1103: Unrecognized token: 95
+Line 1103: ID = sched
+Line 1103: ID = schedule_timeout
+Line 1103: (
+Line 1103: ID = signed
+Line 1103: ID = long
+Line 1103: ID = timeout
+Line 1103: )
+Line 1104: {
+Line 1105: ID = struct
+Line 1105: ID = timer_list
+Line 1105: ID = timer
+Line 1105: ;
+Line 1106: ID = unsigned
+Line 1106: ID = long
+Line 1106: ID = expire
+Line 1106: ;
+Line 1108: ID = switch
+Line 1108: (
+Line 1108: ID = timeout
+Line 1108: )
+Line 1109: {
+Line 1110: ID = case
+Line 1110: ID = MAX_SCHEDULE_TIMEOUT
+Line 1110: Unrecognized token: 58
+Line 1118: ID = schedule
+Line 1118: (
+Line 1118: )
+Line 1118: ;
+Line 1119: ID = goto
+Line 1119: ID = out
+Line 1119: ;
+Line 1120: ID = default
+Line 1120: Unrecognized token: 58
+Line 1128: if
+Line 1128: (
+Line 1128: ID = timeout
+Line 1128: <
+Line 1128: INTCON = 0
+Line 1128: )
+Line 1129: {
+Line 1130: ID = printk
+Line 1130: (
+Line 1130: ID = KERN_ERR
+Line 1130: STRINGCON = "schedule_timeout: wrong timeout "
+Line 1131: STRINGCON = "value %lx from %p\n"
+Line 1131: ,
+Line 1131: ID = timeout
+Line 1131: ,
+Line 1132: Unrecognized token: 95
+Line 1132: Unrecognized token: 95
+Line 1132: ID = builtin_return_address
+Line 1132: (
+Line 1132: INTCON = 0
+Line 1132: )
+Line 1132: )
+Line 1132: ;
+Line 1133: ID = current
+Line 1133: -
+Line 1133: >
+Line 1133: ID = state
+Line 1133: =
+Line 1133: ID = TASK_RUNNING
+Line 1133: ;
+Line 1134: ID = goto
+Line 1134: ID = out
+Line 1134: ;
+Line 1135: }
+Line 1136: }
+Line 1138: ID = expire
+Line 1138: =
+Line 1138: ID = timeout
+Line 1138: +
+Line 1138: ID = jiffies
+Line 1138: ;
+Line 1140: ID = init_timer
+Line 1140: (
+Line 1140: Unrecognized token: 38
+Line 1140: ID = timer
+Line 1140: )
+Line 1140: ;
+Line 1141: ID = timer
+Line 1141: Unrecognized token: 46
+Line 1141: ID = expires
+Line 1141: =
+Line 1141: ID = expire
+Line 1141: ;
+Line 1142: ID = timer
+Line 1142: Unrecognized token: 46
+Line 1142: ID = data
+Line 1142: =
+Line 1142: (
+Line 1142: ID = unsigned
+Line 1142: ID = long
+Line 1142: )
+Line 1142: ID = current
+Line 1142: ;
+Line 1143: ID = timer
+Line 1143: Unrecognized token: 46
+Line 1143: ID = function
+Line 1143: =
+Line 1143: ID = process_timeout
+Line 1143: ;
+Line 1145: ID = add_timer
+Line 1145: (
+Line 1145: Unrecognized token: 38
+Line 1145: ID = timer
+Line 1145: )
+Line 1145: ;
+Line 1146: ID = schedule
+Line 1146: (
+Line 1146: )
+Line 1146: ;
+Line 1147: ID = del_singleshot_timer_sync
+Line 1147: (
+Line 1147: Unrecognized token: 38
+Line 1147: ID = timer
+Line 1147: )
+Line 1147: ;
+Line 1149: ID = timeout
+Line 1149: =
+Line 1149: ID = expire
+Line 1149: -
+Line 1149: ID = jiffies
+Line 1149: ;
+Line 1151: ID = out
+Line 1151: Unrecognized token: 58
+Line 1152: return
+Line 1152: ID = timeout
+Line 1152: <
+Line 1152: INTCON = 0
+Line 1152: Unrecognized token: 63
+Line 1152: INTCON = 0
+Line 1152: Unrecognized token: 58
+Line 1152: ID = timeout
+Line 1152: ;
+Line 1153: }
+Line 1155: ID = EXPORT_SYMBOL
+Line 1155: (
+Line 1155: ID = schedule_timeout
+Line 1155: )
+Line 1155: ;
+Line 1158: ID = asmlinkage
+Line 1158: ID = long
+Line 1158: ID = sys_gettid
+Line 1158: (
+Line 1158: void
+Line 1158: )
+Line 1159: {
+Line 1160: return
+Line 1160: ID = current
+Line 1160: -
+Line 1160: >
+Line 1160: ID = pid
+Line 1160: ;
+Line 1161: }
+Line 1163: ID = static
+Line 1163: ID = long
+Line 1163: Unrecognized token: 95
+Line 1163: Unrecognized token: 95
+Line 1163: ID = sched
+Line 1163: ID = nanosleep_restart
+Line 1163: (
+Line 1163: ID = struct
+Line 1163: ID = restart_block
+Line 1163: *
+Line 1163: ID = restart
+Line 1163: )
+Line 1164: {
+Line 1165: ID = unsigned
+Line 1165: ID = long
+Line 1165: ID = expire
+Line 1165: =
+Line 1165: ID = restart
+Line 1165: -
+Line 1165: >
+Line 1165: ID = arg0
+Line 1165: ,
+Line 1165: ID = now
+Line 1165: =
+Line 1165: ID = jiffies
+Line 1165: ;
+Line 1166: ID = struct
+Line 1166: ID = timespec
+Line 1166: Unrecognized token: 95
+Line 1166: Unrecognized token: 95
+Line 1166: ID = user
+Line 1166: *
+Line 1166: ID = rmtp
+Line 1166: =
+Line 1166: (
+Line 1166: ID = struct
+Line 1166: ID = timespec
+Line 1166: Unrecognized token: 95
+Line 1166: Unrecognized token: 95
+Line 1166: ID = user
+Line 1166: *
+Line 1166: )
+Line 1166: ID = restart
+Line 1166: -
+Line 1166: >
+Line 1166: ID = arg1
+Line 1166: ;
+Line 1167: ID = long
+Line 1167: ID = ret
+Line 1167: ;
+Line 1170: if
+Line 1170: (
+Line 1170: !
+Line 1170: ID = time_after
+Line 1170: (
+Line 1170: ID = expire
+Line 1170: ,
+Line 1170: ID = now
+Line 1170: )
+Line 1170: )
+Line 1171: return
+Line 1171: INTCON = 0
+Line 1171: ;
+Line 1173: ID = current
+Line 1173: -
+Line 1173: >
+Line 1173: ID = state
+Line 1173: =
+Line 1173: ID = TASK_INTERRUPTIBLE
+Line 1173: ;
+Line 1174: ID = expire
+Line 1174: =
+Line 1174: ID = schedule_timeout
+Line 1174: (
+Line 1174: ID = expire
+Line 1174: -
+Line 1174: ID = now
+Line 1174: )
+Line 1174: ;
+Line 1176: ID = ret
+Line 1176: =
+Line 1176: INTCON = 0
+Line 1176: ;
+Line 1177: if
+Line 1177: (
+Line 1177: ID = expire
+Line 1177: )
+Line 1177: {
+Line 1178: ID = struct
+Line 1178: ID = timespec
+Line 1178: ID = t
+Line 1178: ;
+Line 1179: ID = jiffies_to_timespec
+Line 1179: (
+Line 1179: ID = expire
+Line 1179: ,
+Line 1179: Unrecognized token: 38
+Line 1179: ID = t
+Line 1179: )
+Line 1179: ;
+Line 1181: ID = ret
+Line 1181: =
+Line 1181: -
+Line 1181: ID = ERESTART_RESTARTBLOCK
+Line 1181: ;
+Line 1182: if
+Line 1182: (
+Line 1182: ID = rmtp
+Line 1182: &&
+Line 1182: ID = copy_to_user
+Line 1182: (
+Line 1182: ID = rmtp
+Line 1182: ,
+Line 1182: Unrecognized token: 38
+Line 1182: ID = t
+Line 1182: ,
+Line 1182: ID = sizeof
+Line 1182: (
+Line 1182: ID = t
+Line 1182: )
+Line 1182: )
+Line 1182: )
+Line 1183: ID = ret
+Line 1183: =
+Line 1183: -
+Line 1183: ID = EFAULT
+Line 1183: ;
+Line 1185: }
+Line 1186: return
+Line 1186: ID = ret
+Line 1186: ;
+Line 1187: }
+Line 1189: ID = asmlinkage
+Line 1189: ID = long
+Line 1189: ID = sys_nanosleep
+Line 1189: (
+Line 1189: ID = struct
+Line 1189: ID = timespec
+Line 1189: Unrecognized token: 95
+Line 1189: Unrecognized token: 95
+Line 1189: ID = user
+Line 1189: *
+Line 1189: ID = rqtp
+Line 1189: ,
+Line 1189: ID = struct
+Line 1189: ID = timespec
+Line 1189: Unrecognized token: 95
+Line 1189: Unrecognized token: 95
+Line 1189: ID = user
+Line 1189: *
+Line 1189: ID = rmtp
+Line 1189: )
+Line 1190: {
+Line 1191: ID = struct
+Line 1191: ID = timespec
+Line 1191: ID = t
+Line 1191: ;
+Line 1192: ID = unsigned
+Line 1192: ID = long
+Line 1192: ID = expire
+Line 1192: ;
+Line 1193: ID = long
+Line 1193: ID = ret
+Line 1193: ;
+Line 1195: if
+Line 1195: (
+Line 1195: ID = copy_from_user
+Line 1195: (
+Line 1195: Unrecognized token: 38
+Line 1195: ID = t
+Line 1195: ,
+Line 1195: ID = rqtp
+Line 1195: ,
+Line 1195: ID = sizeof
+Line 1195: (
+Line 1195: ID = t
+Line 1195: )
+Line 1195: )
+Line 1195: )
+Line 1196: return
+Line 1196: -
+Line 1196: ID = EFAULT
+Line 1196: ;
+Line 1198: if
+Line 1198: (
+Line 1198: (
+Line 1198: ID = t
+Line 1198: Unrecognized token: 46
+Line 1198: ID = tv_nsec
+Line 1198: >=
+Line 1198: INTCON = 1000000000
+Line 1198: ID = L
+Line 1198: )
+Line 1198: ||
+Line 1198: (
+Line 1198: ID = t
+Line 1198: Unrecognized token: 46
+Line 1198: ID = tv_nsec
+Line 1198: <
+Line 1198: INTCON = 0
+Line 1198: )
+Line 1198: ||
+Line 1198: (
+Line 1198: ID = t
+Line 1198: Unrecognized token: 46
+Line 1198: ID = tv_sec
+Line 1198: <
+Line 1198: INTCON = 0
+Line 1198: )
+Line 1198: )
+Line 1199: return
+Line 1199: -
+Line 1199: ID = EINVAL
+Line 1199: ;
+Line 1201: ID = expire
+Line 1201: =
+Line 1201: ID = timespec_to_jiffies
+Line 1201: (
+Line 1201: Unrecognized token: 38
+Line 1201: ID = t
+Line 1201: )
+Line 1201: +
+Line 1201: (
+Line 1201: ID = t
+Line 1201: Unrecognized token: 46
+Line 1201: ID = tv_sec
+Line 1201: ||
+Line 1201: ID = t
+Line 1201: Unrecognized token: 46
+Line 1201: ID = tv_nsec
+Line 1201: )
+Line 1201: ;
+Line 1202: ID = current
+Line 1202: -
+Line 1202: >
+Line 1202: ID = state
+Line 1202: =
+Line 1202: ID = TASK_INTERRUPTIBLE
+Line 1202: ;
+Line 1203: ID = expire
+Line 1203: =
+Line 1203: ID = schedule_timeout
+Line 1203: (
+Line 1203: ID = expire
+Line 1203: )
+Line 1203: ;
+Line 1205: ID = ret
+Line 1205: =
+Line 1205: INTCON = 0
+Line 1205: ;
+Line 1206: if
+Line 1206: (
+Line 1206: ID = expire
+Line 1206: )
+Line 1206: {
+Line 1207: ID = struct
+Line 1207: ID = restart_block
+Line 1207: *
+Line 1207: ID = restart
+Line 1207: ;
+Line 1208: ID = jiffies_to_timespec
+Line 1208: (
+Line 1208: ID = expire
+Line 1208: ,
+Line 1208: Unrecognized token: 38
+Line 1208: ID = t
+Line 1208: )
+Line 1208: ;
+Line 1209: if
+Line 1209: (
+Line 1209: ID = rmtp
+Line 1209: &&
+Line 1209: ID = copy_to_user
+Line 1209: (
+Line 1209: ID = rmtp
+Line 1209: ,
+Line 1209: Unrecognized token: 38
+Line 1209: ID = t
+Line 1209: ,
+Line 1209: ID = sizeof
+Line 1209: (
+Line 1209: ID = t
+Line 1209: )
+Line 1209: )
+Line 1209: )
+Line 1210: return
+Line 1210: -
+Line 1210: ID = EFAULT
+Line 1210: ;
+Line 1212: ID = restart
+Line 1212: =
+Line 1212: Unrecognized token: 38
+Line 1212: ID = current_thread_info
+Line 1212: (
+Line 1212: )
+Line 1212: -
+Line 1212: >
+Line 1212: ID = restart_block
+Line 1212: ;
+Line 1213: ID = restart
+Line 1213: -
+Line 1213: >
+Line 1213: ID = fn
+Line 1213: =
+Line 1213: ID = nanosleep_restart
+Line 1213: ;
+Line 1214: ID = restart
+Line 1214: -
+Line 1214: >
+Line 1214: ID = arg0
+Line 1214: =
+Line 1214: ID = jiffies
+Line 1214: +
+Line 1214: ID = expire
+Line 1214: ;
+Line 1215: ID = restart
+Line 1215: -
+Line 1215: >
+Line 1215: ID = arg1
+Line 1215: =
+Line 1215: (
+Line 1215: ID = unsigned
+Line 1215: ID = long
+Line 1215: )
+Line 1215: ID = rmtp
+Line 1215: ;
+Line 1216: ID = ret
+Line 1216: =
+Line 1216: -
+Line 1216: ID = ERESTART_RESTARTBLOCK
+Line 1216: ;
+Line 1217: }
+Line 1218: return
+Line 1218: ID = ret
+Line 1218: ;
+Line 1219: }
+Line 1224: ID = asmlinkage
+Line 1224: ID = long
+Line 1224: ID = sys_sysinfo
+Line 1224: (
+Line 1224: ID = struct
+Line 1224: ID = sysinfo
+Line 1224: Unrecognized token: 95
+Line 1224: Unrecognized token: 95
+Line 1224: ID = user
+Line 1224: *
+Line 1224: ID = info
+Line 1224: )
+Line 1225: {
+Line 1226: ID = struct
+Line 1226: ID = sysinfo
+Line 1226: ID = val
+Line 1226: ;
+Line 1227: ID = unsigned
+Line 1227: ID = long
+Line 1227: ID = mem_total
+Line 1227: ,
+Line 1227: ID = sav_total
+Line 1227: ;
+Line 1228: ID = unsigned
+Line 1228: int
+Line 1228: ID = mem_unit
+Line 1228: ,
+Line 1228: ID = bitcount
+Line 1228: ;
+Line 1229: ID = unsigned
+Line 1229: ID = long
+Line 1229: ID = seq
+Line 1229: ;
+Line 1231: ID = memset
+Line 1231: (
+Line 1231: (
+Line 1231: char
+Line 1231: *
+Line 1231: )
+Line 1231: Unrecognized token: 38
+Line 1231: ID = val
+Line 1231: ,
+Line 1231: INTCON = 0
+Line 1231: ,
+Line 1231: ID = sizeof
+Line 1231: (
+Line 1231: ID = struct
+Line 1231: ID = sysinfo
+Line 1231: )
+Line 1231: )
+Line 1231: ;
+Line 1233: ID = do
+Line 1233: {
+Line 1234: ID = struct
+Line 1234: ID = timespec
+Line 1234: ID = tp
+Line 1234: ;
+Line 1235: ID = seq
+Line 1235: =
+Line 1235: ID = read_seqbegin
+Line 1235: (
+Line 1235: Unrecognized token: 38
+Line 1235: ID = xtime_lock
+Line 1235: )
+Line 1235: ;
+Line 1244: ID = do_gettimeofday
+Line 1244: (
+Line 1244: (
+Line 1244: ID = struct
+Line 1244: ID = timeval
+Line 1244: *
+Line 1244: )
+Line 1244: Unrecognized token: 38
+Line 1244: ID = tp
+Line 1244: )
+Line 1244: ;
+Line 1245: ID = tp
+Line 1245: Unrecognized token: 46
+Line 1245: ID = tv_nsec
+Line 1245: *
+Line 1245: =
+Line 1245: ID = NSEC_PER_USEC
+Line 1245: ;
+Line 1246: ID = tp
+Line 1246: Unrecognized token: 46
+Line 1246: ID = tv_sec
+Line 1246: +
+Line 1246: =
+Line 1246: ID = wall_to_monotonic
+Line 1246: Unrecognized token: 46
+Line 1246: ID = tv_sec
+Line 1246: ;
+Line 1247: ID = tp
+Line 1247: Unrecognized token: 46
+Line 1247: ID = tv_nsec
+Line 1247: +
+Line 1247: =
+Line 1247: ID = wall_to_monotonic
+Line 1247: Unrecognized token: 46
+Line 1247: ID = tv_nsec
+Line 1247: ;
+Line 1248: if
+Line 1248: (
+Line 1248: ID = tp
+Line 1248: Unrecognized token: 46
+Line 1248: ID = tv_nsec
+Line 1248: -
+Line 1248: ID = NSEC_PER_SEC
+Line 1248: >=
+Line 1248: INTCON = 0
+Line 1248: )
+Line 1248: {
+Line 1249: ID = tp
+Line 1249: Unrecognized token: 46
+Line 1249: ID = tv_nsec
+Line 1249: =
+Line 1249: ID = tp
+Line 1249: Unrecognized token: 46
+Line 1249: ID = tv_nsec
+Line 1249: -
+Line 1249: ID = NSEC_PER_SEC
+Line 1249: ;
+Line 1250: ID = tp
+Line 1250: Unrecognized token: 46
+Line 1250: ID = tv_sec
+Line 1250: +
+Line 1250: +
+Line 1250: ;
+Line 1251: }
+Line 1252: ID = val
+Line 1252: Unrecognized token: 46
+Line 1252: ID = uptime
+Line 1252: =
+Line 1252: ID = tp
+Line 1252: Unrecognized token: 46
+Line 1252: ID = tv_sec
+Line 1252: +
+Line 1252: (
+Line 1252: ID = tp
+Line 1252: Unrecognized token: 46
+Line 1252: ID = tv_nsec
+Line 1252: Unrecognized token: 63
+Line 1252: INTCON = 1
+Line 1252: Unrecognized token: 58
+Line 1252: INTCON = 0
+Line 1252: )
+Line 1252: ;
+Line 1254: ID = val
+Line 1254: Unrecognized token: 46
+Line 1254: ID = loads
+Line 1254: [
+Line 1254: INTCON = 0
+Line 1254: ]
+Line 1254: =
+Line 1254: ID = avenrun
+Line 1254: [
+Line 1254: INTCON = 0
+Line 1254: ]
+Line 1254: <
+Line 1254: <
+Line 1254: (
+Line 1254: ID = SI_LOAD_SHIFT
+Line 1254: -
+Line 1254: ID = FSHIFT
+Line 1254: )
+Line 1254: ;
+Line 1255: ID = val
+Line 1255: Unrecognized token: 46
+Line 1255: ID = loads
+Line 1255: [
+Line 1255: INTCON = 1
+Line 1255: ]
+Line 1255: =
+Line 1255: ID = avenrun
+Line 1255: [
+Line 1255: INTCON = 1
+Line 1255: ]
+Line 1255: <
+Line 1255: <
+Line 1255: (
+Line 1255: ID = SI_LOAD_SHIFT
+Line 1255: -
+Line 1255: ID = FSHIFT
+Line 1255: )
+Line 1255: ;
+Line 1256: ID = val
+Line 1256: Unrecognized token: 46
+Line 1256: ID = loads
+Line 1256: [
+Line 1256: INTCON = 2
+Line 1256: ]
+Line 1256: =
+Line 1256: ID = avenrun
+Line 1256: [
+Line 1256: INTCON = 2
+Line 1256: ]
+Line 1256: <
+Line 1256: <
+Line 1256: (
+Line 1256: ID = SI_LOAD_SHIFT
+Line 1256: -
+Line 1256: ID = FSHIFT
+Line 1256: )
+Line 1256: ;
+Line 1258: ID = val
+Line 1258: Unrecognized token: 46
+Line 1258: ID = procs
+Line 1258: =
+Line 1258: ID = nr_threads
+Line 1258: ;
+Line 1259: }
+Line 1259: while
+Line 1259: (
+Line 1259: ID = read_seqretry
+Line 1259: (
+Line 1259: Unrecognized token: 38
+Line 1259: ID = xtime_lock
+Line 1259: ,
+Line 1259: ID = seq
+Line 1259: )
+Line 1259: )
+Line 1259: ;
+Line 1261: ID = si_meminfo
+Line 1261: (
+Line 1261: Unrecognized token: 38
+Line 1261: ID = val
+Line 1261: )
+Line 1261: ;
+Line 1262: ID = si_swapinfo
+Line 1262: (
+Line 1262: Unrecognized token: 38
+Line 1262: ID = val
+Line 1262: )
+Line 1262: ;
+Line 1273: ID = mem_total
+Line 1273: =
+Line 1273: ID = val
+Line 1273: Unrecognized token: 46
+Line 1273: ID = totalram
+Line 1273: +
+Line 1273: ID = val
+Line 1273: Unrecognized token: 46
+Line 1273: ID = totalswap
+Line 1273: ;
+Line 1274: if
+Line 1274: (
+Line 1274: ID = mem_total
+Line 1274: <
+Line 1274: ID = val
+Line 1274: Unrecognized token: 46
+Line 1274: ID = totalram
+Line 1274: ||
+Line 1274: ID = mem_total
+Line 1274: <
+Line 1274: ID = val
+Line 1274: Unrecognized token: 46
+Line 1274: ID = totalswap
+Line 1274: )
+Line 1275: ID = goto
+Line 1275: ID = out
+Line 1275: ;
+Line 1276: ID = bitcount
+Line 1276: =
+Line 1276: INTCON = 0
+Line 1276: ;
+Line 1277: ID = mem_unit
+Line 1277: =
+Line 1277: ID = val
+Line 1277: Unrecognized token: 46
+Line 1277: ID = mem_unit
+Line 1277: ;
+Line 1278: while
+Line 1278: (
+Line 1278: ID = mem_unit
+Line 1278: >
+Line 1278: INTCON = 1
+Line 1278: )
+Line 1278: {
+Line 1279: ID = bitcount
+Line 1279: +
+Line 1279: +
+Line 1279: ;
+Line 1280: ID = mem_unit
+Line 1280: >
+Line 1280: >=
+Line 1280: INTCON = 1
+Line 1280: ;
+Line 1281: ID = sav_total
+Line 1281: =
+Line 1281: ID = mem_total
+Line 1281: ;
+Line 1282: ID = mem_total
+Line 1282: <
+Line 1282: <=
+Line 1282: INTCON = 1
+Line 1282: ;
+Line 1283: if
+Line 1283: (
+Line 1283: ID = mem_total
+Line 1283: <
+Line 1283: ID = sav_total
+Line 1283: )
+Line 1284: ID = goto
+Line 1284: ID = out
+Line 1284: ;
+Line 1285: }
+Line 1294: ID = val
+Line 1294: Unrecognized token: 46
+Line 1294: ID = mem_unit
+Line 1294: =
+Line 1294: INTCON = 1
+Line 1294: ;
+Line 1295: ID = val
+Line 1295: Unrecognized token: 46
+Line 1295: ID = totalram
+Line 1295: <
+Line 1295: <=
+Line 1295: ID = bitcount
+Line 1295: ;
+Line 1296: ID = val
+Line 1296: Unrecognized token: 46
+Line 1296: ID = freeram
+Line 1296: <
+Line 1296: <=
+Line 1296: ID = bitcount
+Line 1296: ;
+Line 1297: ID = val
+Line 1297: Unrecognized token: 46
+Line 1297: ID = sharedram
+Line 1297: <
+Line 1297: <=
+Line 1297: ID = bitcount
+Line 1297: ;
+Line 1298: ID = val
+Line 1298: Unrecognized token: 46
+Line 1298: ID = bufferram
+Line 1298: <
+Line 1298: <=
+Line 1298: ID = bitcount
+Line 1298: ;
+Line 1299: ID = val
+Line 1299: Unrecognized token: 46
+Line 1299: ID = totalswap
+Line 1299: <
+Line 1299: <=
+Line 1299: ID = bitcount
+Line 1299: ;
+Line 1300: ID = val
+Line 1300: Unrecognized token: 46
+Line 1300: ID = freeswap
+Line 1300: <
+Line 1300: <=
+Line 1300: ID = bitcount
+Line 1300: ;
+Line 1301: ID = val
+Line 1301: Unrecognized token: 46
+Line 1301: ID = totalhigh
+Line 1301: <
+Line 1301: <=
+Line 1301: ID = bitcount
+Line 1301: ;
+Line 1302: ID = val
+Line 1302: Unrecognized token: 46
+Line 1302: ID = freehigh
+Line 1302: <
+Line 1302: <=
+Line 1302: ID = bitcount
+Line 1302: ;
+Line 1304: ID = out
+Line 1304: Unrecognized token: 58
+Line 1305: if
+Line 1305: (
+Line 1305: ID = copy_to_user
+Line 1305: (
+Line 1305: ID = info
+Line 1305: ,
+Line 1305: Unrecognized token: 38
+Line 1305: ID = val
+Line 1305: ,
+Line 1305: ID = sizeof
+Line 1305: (
+Line 1305: ID = struct
+Line 1305: ID = sysinfo
+Line 1305: )
+Line 1305: )
+Line 1305: )
+Line 1306: return
+Line 1306: -
+Line 1306: ID = EFAULT
+Line 1306: ;
+Line 1308: return
+Line 1308: INTCON = 0
+Line 1308: ;
+Line 1309: }
+Line 1311: ID = static
+Line 1311: void
+Line 1311: Unrecognized token: 95
+Line 1311: Unrecognized token: 95
+Line 1311: ID = devinit
+Line 1311: ID = init_timers_cpu
+Line 1311: (
+Line 1311: int
+Line 1311: ID = cpu
+Line 1311: )
+Line 1312: {
+Line 1313: int
+Line 1313: ID = j
+Line 1313: ;
+Line 1314: ID = tvec_base_t
+Line 1314: *
+Line 1314: ID = base
+Line 1314: ;
+Line 1316: ID = base
+Line 1316: =
+Line 1316: Unrecognized token: 38
+Line 1316: ID = per_cpu
+Line 1316: (
+Line 1316: ID = tvec_bases
+Line 1316: ,
+Line 1316: ID = cpu
+Line 1316: )
+Line 1316: ;
+Line 1317: ID = spin_lock_init
+Line 1317: (
+Line 1317: Unrecognized token: 38
+Line 1317: ID = base
+Line 1317: -
+Line 1317: >
+Line 1317: ID = lock
+Line 1317: )
+Line 1317: ;
+Line 1318: for
+Line 1318: (
+Line 1318: ID = j
+Line 1318: =
+Line 1318: INTCON = 0
+Line 1318: ;
+Line 1318: ID = j
+Line 1318: <
+Line 1318: ID = TVN_SIZE
+Line 1318: ;
+Line 1318: ID = j
+Line 1318: +
+Line 1318: +
+Line 1318: )
+Line 1318: {
+Line 1319: ID = INIT_LIST_HEAD
+Line 1319: (
+Line 1319: ID = base
+Line 1319: -
+Line 1319: >
+Line 1319: ID = tv5
+Line 1319: Unrecognized token: 46
+Line 1319: ID = vec
+Line 1319: +
+Line 1319: ID = j
+Line 1319: )
+Line 1319: ;
+Line 1320: ID = INIT_LIST_HEAD
+Line 1320: (
+Line 1320: ID = base
+Line 1320: -
+Line 1320: >
+Line 1320: ID = tv4
+Line 1320: Unrecognized token: 46
+Line 1320: ID = vec
+Line 1320: +
+Line 1320: ID = j
+Line 1320: )
+Line 1320: ;
+Line 1321: ID = INIT_LIST_HEAD
+Line 1321: (
+Line 1321: ID = base
+Line 1321: -
+Line 1321: >
+Line 1321: ID = tv3
+Line 1321: Unrecognized token: 46
+Line 1321: ID = vec
+Line 1321: +
+Line 1321: ID = j
+Line 1321: )
+Line 1321: ;
+Line 1322: ID = INIT_LIST_HEAD
+Line 1322: (
+Line 1322: ID = base
+Line 1322: -
+Line 1322: >
+Line 1322: ID = tv2
+Line 1322: Unrecognized token: 46
+Line 1322: ID = vec
+Line 1322: +
+Line 1322: ID = j
+Line 1322: )
+Line 1322: ;
+Line 1323: }
+Line 1324: for
+Line 1324: (
+Line 1324: ID = j
+Line 1324: =
+Line 1324: INTCON = 0
+Line 1324: ;
+Line 1324: ID = j
+Line 1324: <
+Line 1324: ID = TVR_SIZE
+Line 1324: ;
+Line 1324: ID = j
+Line 1324: +
+Line 1324: +
+Line 1324: )
+Line 1325: ID = INIT_LIST_HEAD
+Line 1325: (
+Line 1325: ID = base
+Line 1325: -
+Line 1325: >
+Line 1325: ID = tv1
+Line 1325: Unrecognized token: 46
+Line 1325: ID = vec
+Line 1325: +
+Line 1325: ID = j
+Line 1325: )
+Line 1325: ;
+Line 1327: ID = base
+Line 1327: -
+Line 1327: >
+Line 1327: ID = timer_jiffies
+Line 1327: =
+Line 1327: ID = jiffies
+Line 1327: ;
+Line 1328: }
+Line 1330: Unrecognized token: 35
+Line 1330: ID = ifdef
+Line 1330: ID = CONFIG_HOTPLUG_CPU
+Line 1331: ID = static
+Line 1331: int
+Line 1331: ID = migrate_timer_list
+Line 1331: (
+Line 1331: ID = tvec_base_t
+Line 1331: *
+Line 1331: ID = new_base
+Line 1331: ,
+Line 1331: ID = struct
+Line 1331: ID = list_head
+Line 1331: *
+Line 1331: ID = head
+Line 1331: )
+Line 1332: {
+Line 1333: ID = struct
+Line 1333: ID = timer_list
+Line 1333: *
+Line 1333: ID = timer
+Line 1333: ;
+Line 1335: while
+Line 1335: (
+Line 1335: !
+Line 1335: ID = list_empty
+Line 1335: (
+Line 1335: ID = head
+Line 1335: )
+Line 1335: )
+Line 1335: {
+Line 1336: ID = timer
+Line 1336: =
+Line 1336: ID = list_entry
+Line 1336: (
+Line 1336: ID = head
+Line 1336: -
+Line 1336: >
+Line 1336: ID = next
+Line 1336: ,
+Line 1336: ID = struct
+Line 1336: ID = timer_list
+Line 1336: ,
+Line 1336: ID = entry
+Line 1336: )
+Line 1336: ;
+Line 1339: if
+Line 1339: (
+Line 1339: !
+Line 1339: ID = spin_trylock
+Line 1339: (
+Line 1339: Unrecognized token: 38
+Line 1339: ID = timer
+Line 1339: -
+Line 1339: >
+Line 1339: ID = lock
+Line 1339: )
+Line 1339: )
+Line 1340: return
+Line 1340: INTCON = 0
+Line 1340: ;
+Line 1341: ID = list_del
+Line 1341: (
+Line 1341: Unrecognized token: 38
+Line 1341: ID = timer
+Line 1341: -
+Line 1341: >
+Line 1341: ID = entry
+Line 1341: )
+Line 1341: ;
+Line 1342: ID = internal_add_timer
+Line 1342: (
+Line 1342: ID = new_base
+Line 1342: ,
+Line 1342: ID = timer
+Line 1342: )
+Line 1342: ;
+Line 1343: ID = timer
+Line 1343: -
+Line 1343: >
+Line 1343: ID = base
+Line 1343: =
+Line 1343: ID = new_base
+Line 1343: ;
+Line 1344: ID = spin_unlock
+Line 1344: (
+Line 1344: Unrecognized token: 38
+Line 1344: ID = timer
+Line 1344: -
+Line 1344: >
+Line 1344: ID = lock
+Line 1344: )
+Line 1344: ;
+Line 1345: }
+Line 1346: return
+Line 1346: INTCON = 1
+Line 1346: ;
+Line 1347: }
+Line 1349: ID = static
+Line 1349: void
+Line 1349: Unrecognized token: 95
+Line 1349: Unrecognized token: 95
+Line 1349: ID = devinit
+Line 1349: ID = migrate_timers
+Line 1349: (
+Line 1349: int
+Line 1349: ID = cpu
+Line 1349: )
+Line 1350: {
+Line 1351: ID = tvec_base_t
+Line 1351: *
+Line 1351: ID = old_base
+Line 1351: ;
+Line 1352: ID = tvec_base_t
+Line 1352: *
+Line 1352: ID = new_base
+Line 1352: ;
+Line 1353: int
+Line 1353: ID = i
+Line 1353: ;
+Line 1355: ID = BUG_ON
+Line 1355: (
+Line 1355: ID = cpu_online
+Line 1355: (
+Line 1355: ID = cpu
+Line 1355: )
+Line 1355: )
+Line 1355: ;
+Line 1356: ID = old_base
+Line 1356: =
+Line 1356: Unrecognized token: 38
+Line 1356: ID = per_cpu
+Line 1356: (
+Line 1356: ID = tvec_bases
+Line 1356: ,
+Line 1356: ID = cpu
+Line 1356: )
+Line 1356: ;
+Line 1357: ID = new_base
+Line 1357: =
+Line 1357: Unrecognized token: 38
+Line 1357: ID = get_cpu_var
+Line 1357: (
+Line 1357: ID = tvec_bases
+Line 1357: )
+Line 1357: ;
+Line 1359: ID = local_irq_disable
+Line 1359: (
+Line 1359: )
+Line 1359: ;
+Line 1360: ID = again
+Line 1360: Unrecognized token: 58
+Line 1362: if
+Line 1362: (
+Line 1362: ID = old_base
+Line 1362: <
+Line 1362: ID = new_base
+Line 1362: )
+Line 1362: {
+Line 1363: ID = spin_lock
+Line 1363: (
+Line 1363: Unrecognized token: 38
+Line 1363: ID = new_base
+Line 1363: -
+Line 1363: >
+Line 1363: ID = lock
+Line 1363: )
+Line 1363: ;
+Line 1364: ID = spin_lock
+Line 1364: (
+Line 1364: Unrecognized token: 38
+Line 1364: ID = old_base
+Line 1364: -
+Line 1364: >
+Line 1364: ID = lock
+Line 1364: )
+Line 1364: ;
+Line 1365: }
+Line 1365: else
+Line 1365: {
+Line 1366: ID = spin_lock
+Line 1366: (
+Line 1366: Unrecognized token: 38
+Line 1366: ID = old_base
+Line 1366: -
+Line 1366: >
+Line 1366: ID = lock
+Line 1366: )
+Line 1366: ;
+Line 1367: ID = spin_lock
+Line 1367: (
+Line 1367: Unrecognized token: 38
+Line 1367: ID = new_base
+Line 1367: -
+Line 1367: >
+Line 1367: ID = lock
+Line 1367: )
+Line 1367: ;
+Line 1368: }
+Line 1370: if
+Line 1370: (
+Line 1370: ID = old_base
+Line 1370: -
+Line 1370: >
+Line 1370: ID = running_timer
+Line 1370: )
+Line 1371: ID = BUG
+Line 1371: (
+Line 1371: )
+Line 1371: ;
+Line 1372: for
+Line 1372: (
+Line 1372: ID = i
+Line 1372: =
+Line 1372: INTCON = 0
+Line 1372: ;
+Line 1372: ID = i
+Line 1372: <
+Line 1372: ID = TVR_SIZE
+Line 1372: ;
+Line 1372: ID = i
+Line 1372: +
+Line 1372: +
+Line 1372: )
+Line 1373: if
+Line 1373: (
+Line 1373: !
+Line 1373: ID = migrate_timer_list
+Line 1373: (
+Line 1373: ID = new_base
+Line 1373: ,
+Line 1373: ID = old_base
+Line 1373: -
+Line 1373: >
+Line 1373: ID = tv1
+Line 1373: Unrecognized token: 46
+Line 1373: ID = vec
+Line 1373: +
+Line 1373: ID = i
+Line 1373: )
+Line 1373: )
+Line 1374: ID = goto
+Line 1374: ID = unlock_again
+Line 1374: ;
+Line 1375: for
+Line 1375: (
+Line 1375: ID = i
+Line 1375: =
+Line 1375: INTCON = 0
+Line 1375: ;
+Line 1375: ID = i
+Line 1375: <
+Line 1375: ID = TVN_SIZE
+Line 1375: ;
+Line 1375: ID = i
+Line 1375: +
+Line 1375: +
+Line 1375: )
+Line 1376: if
+Line 1376: (
+Line 1376: !
+Line 1376: ID = migrate_timer_list
+Line 1376: (
+Line 1376: ID = new_base
+Line 1376: ,
+Line 1376: ID = old_base
+Line 1376: -
+Line 1376: >
+Line 1376: ID = tv2
+Line 1376: Unrecognized token: 46
+Line 1376: ID = vec
+Line 1376: +
+Line 1376: ID = i
+Line 1376: )
+Line 1377: ||
+Line 1377: !
+Line 1377: ID = migrate_timer_list
+Line 1377: (
+Line 1377: ID = new_base
+Line 1377: ,
+Line 1377: ID = old_base
+Line 1377: -
+Line 1377: >
+Line 1377: ID = tv3
+Line 1377: Unrecognized token: 46
+Line 1377: ID = vec
+Line 1377: +
+Line 1377: ID = i
+Line 1377: )
+Line 1378: ||
+Line 1378: !
+Line 1378: ID = migrate_timer_list
+Line 1378: (
+Line 1378: ID = new_base
+Line 1378: ,
+Line 1378: ID = old_base
+Line 1378: -
+Line 1378: >
+Line 1378: ID = tv4
+Line 1378: Unrecognized token: 46
+Line 1378: ID = vec
+Line 1378: +
+Line 1378: ID = i
+Line 1378: )
+Line 1379: ||
+Line 1379: !
+Line 1379: ID = migrate_timer_list
+Line 1379: (
+Line 1379: ID = new_base
+Line 1379: ,
+Line 1379: ID = old_base
+Line 1379: -
+Line 1379: >
+Line 1379: ID = tv5
+Line 1379: Unrecognized token: 46
+Line 1379: ID = vec
+Line 1379: +
+Line 1379: ID = i
+Line 1379: )
+Line 1379: )
+Line 1380: ID = goto
+Line 1380: ID = unlock_again
+Line 1380: ;
+Line 1381: ID = spin_unlock
+Line 1381: (
+Line 1381: Unrecognized token: 38
+Line 1381: ID = old_base
+Line 1381: -
+Line 1381: >
+Line 1381: ID = lock
+Line 1381: )
+Line 1381: ;
+Line 1382: ID = spin_unlock
+Line 1382: (
+Line 1382: Unrecognized token: 38
+Line 1382: ID = new_base
+Line 1382: -
+Line 1382: >
+Line 1382: ID = lock
+Line 1382: )
+Line 1382: ;
+Line 1383: ID = local_irq_enable
+Line 1383: (
+Line 1383: )
+Line 1383: ;
+Line 1384: ID = put_cpu_var
+Line 1384: (
+Line 1384: ID = tvec_bases
+Line 1384: )
+Line 1384: ;
+Line 1385: return
+Line 1385: ;
+Line 1387: ID = unlock_again
+Line 1387: Unrecognized token: 58
+Line 1389: ID = spin_unlock
+Line 1389: (
+Line 1389: Unrecognized token: 38
+Line 1389: ID = old_base
+Line 1389: -
+Line 1389: >
+Line 1389: ID = lock
+Line 1389: )
+Line 1389: ;
+Line 1390: ID = spin_unlock
+Line 1390: (
+Line 1390: Unrecognized token: 38
+Line 1390: ID = new_base
+Line 1390: -
+Line 1390: >
+Line 1390: ID = lock
+Line 1390: )
+Line 1390: ;
+Line 1391: ID = cpu_relax
+Line 1391: (
+Line 1391: )
+Line 1391: ;
+Line 1392: ID = goto
+Line 1392: ID = again
+Line 1392: ;
+Line 1393: }
+Line 1394: Unrecognized token: 35
+Line 1394: ID = endif
+Line 1396: ID = static
+Line 1396: int
+Line 1396: Unrecognized token: 95
+Line 1396: Unrecognized token: 95
+Line 1396: ID = devinit
+Line 1396: ID = timer_cpu_notify
+Line 1396: (
+Line 1396: ID = struct
+Line 1396: ID = notifier_block
+Line 1396: *
+Line 1396: ID = self
+Line 1396: ,
+Line 1397: ID = unsigned
+Line 1397: ID = long
+Line 1397: ID = action
+Line 1397: ,
+Line 1397: void
+Line 1397: *
+Line 1397: ID = hcpu
+Line 1397: )
+Line 1398: {
+Line 1399: ID = long
+Line 1399: ID = cpu
+Line 1399: =
+Line 1399: (
+Line 1399: ID = long
+Line 1399: )
+Line 1399: ID = hcpu
+Line 1399: ;
+Line 1400: ID = switch
+Line 1400: (
+Line 1400: ID = action
+Line 1400: )
+Line 1400: {
+Line 1401: ID = case
+Line 1401: ID = CPU_UP_PREPARE
+Line 1401: Unrecognized token: 58
+Line 1402: ID = init_timers_cpu
+Line 1402: (
+Line 1402: ID = cpu
+Line 1402: )
+Line 1402: ;
+Line 1403: ID = break
+Line 1403: ;
+Line 1404: Unrecognized token: 35
+Line 1404: ID = ifdef
+Line 1404: ID = CONFIG_HOTPLUG_CPU
+Line 1405: ID = case
+Line 1405: ID = CPU_DEAD
+Line 1405: Unrecognized token: 58
+Line 1406: ID = migrate_timers
+Line 1406: (
+Line 1406: ID = cpu
+Line 1406: )
+Line 1406: ;
+Line 1407: ID = break
+Line 1407: ;
+Line 1408: Unrecognized token: 35
+Line 1408: ID = endif
+Line 1409: ID = default
+Line 1409: Unrecognized token: 58
+Line 1410: ID = break
+Line 1410: ;
+Line 1411: }
+Line 1412: return
+Line 1412: ID = NOTIFY_OK
+Line 1412: ;
+Line 1413: }
+Line 1415: ID = static
+Line 1415: ID = struct
+Line 1415: ID = notifier_block
+Line 1415: Unrecognized token: 95
+Line 1415: Unrecognized token: 95
+Line 1415: ID = devinitdata
+Line 1415: ID = timers_nb
+Line 1415: =
+Line 1415: {
+Line 1416: Unrecognized token: 46
+Line 1416: ID = notifier_call
+Line 1416: =
+Line 1416: ID = timer_cpu_notify
+Line 1416: ,
+Line 1417: }
+Line 1417: ;
+Line 1420: void
+Line 1420: Unrecognized token: 95
+Line 1420: Unrecognized token: 95
+Line 1420: ID = init
+Line 1420: ID = init_timers
+Line 1420: (
+Line 1420: void
+Line 1420: )
+Line 1421: {
+Line 1422: ID = timer_cpu_notify
+Line 1422: (
+Line 1422: Unrecognized token: 38
+Line 1422: ID = timers_nb
+Line 1422: ,
+Line 1422: (
+Line 1422: ID = unsigned
+Line 1422: ID = long
+Line 1422: )
+Line 1422: ID = CPU_UP_PREPARE
+Line 1422: ,
+Line 1423: (
+Line 1423: void
+Line 1423: *
+Line 1423: )
+Line 1423: (
+Line 1423: ID = long
+Line 1423: )
+Line 1423: ID = smp_processor_id
+Line 1423: (
+Line 1423: )
+Line 1423: )
+Line 1423: ;
+Line 1424: ID = register_cpu_notifier
+Line 1424: (
+Line 1424: Unrecognized token: 38
+Line 1424: ID = timers_nb
+Line 1424: )
+Line 1424: ;
+Line 1425: ID = open_softirq
+Line 1425: (
+Line 1425: ID = TIMER_SOFTIRQ
+Line 1425: ,
+Line 1425: ID = run_timer_softirq
+Line 1425: ,
+Line 1425: ID = NULL
+Line 1425: )
+Line 1425: ;
+Line 1426: }
+Line 1428: Unrecognized token: 35
+Line 1428: ID = ifdef
+Line 1428: ID = CONFIG_TIME_INTERPOLATION
+Line 1429: ID = volatile
+Line 1429: ID = unsigned
+Line 1429: ID = long
+Line 1429: ID = last_nsec_offset
+Line 1429: ;
+Line 1430: Unrecognized token: 35
+Line 1430: ID = ifndef
+Line 1430: Unrecognized token: 95
+Line 1430: Unrecognized token: 95
+Line 1430: ID = HAVE_ARCH_CMPXCHG
+Line 1431: ID = spinlock_t
+Line 1431: ID = last_nsec_offset_lock
+Line 1431: =
+Line 1431: ID = SPIN_LOCK_UNLOCKED
+Line 1431: ;
+Line 1432: Unrecognized token: 35
+Line 1432: ID = endif
+Line 1434: ID = struct
+Line 1434: ID = time_interpolator
+Line 1434: *
+Line 1434: ID = time_interpolator
+Line 1434: ;
+Line 1435: ID = static
+Line 1435: ID = struct
+Line 1435: ID = time_interpolator
+Line 1435: *
+Line 1435: ID = time_interpolator_list
+Line 1435: ;
+Line 1436: ID = static
+Line 1436: ID = spinlock_t
+Line 1436: ID = time_interpolator_lock
+Line 1436: =
+Line 1436: ID = SPIN_LOCK_UNLOCKED
+Line 1436: ;
+Line 1438: ID = static
+Line 1438: ID = inline
+Line 1438: int
+Line 1439: ID = is_better_time_interpolator
+Line 1439: (
+Line 1439: ID = struct
+Line 1439: ID = time_interpolator
+Line 1439: *
+Line 1439: ID = new
+Line 1439: )
+Line 1440: {
+Line 1441: if
+Line 1441: (
+Line 1441: !
+Line 1441: ID = time_interpolator
+Line 1441: )
+Line 1442: return
+Line 1442: INTCON = 1
+Line 1442: ;
+Line 1443: return
+Line 1443: ID = new
+Line 1443: -
+Line 1443: >
+Line 1443: ID = frequency
+Line 1443: >
+Line 1443: INTCON = 2
+Line 1443: *
+Line 1443: ID = time_interpolator
+Line 1443: -
+Line 1443: >
+Line 1443: ID = frequency
+Line 1443: ||
+Line 1444: (
+Line 1444: ID = unsigned
+Line 1444: ID = long
+Line 1444: )
+Line 1444: ID = new
+Line 1444: -
+Line 1444: >
+Line 1444: ID = drift
+Line 1444: <
+Line 1444: (
+Line 1444: ID = unsigned
+Line 1444: ID = long
+Line 1444: )
+Line 1444: ID = time_interpolator
+Line 1444: -
+Line 1444: >
+Line 1444: ID = drift
+Line 1444: ;
+Line 1445: }
+Line 1447: void
+Line 1448: ID = register_time_interpolator
+Line 1448: (
+Line 1448: ID = struct
+Line 1448: ID = time_interpolator
+Line 1448: *
+Line 1448: ID = ti
+Line 1448: )
+Line 1449: {
+Line 1450: ID = spin_lock
+Line 1450: (
+Line 1450: Unrecognized token: 38
+Line 1450: ID = time_interpolator_lock
+Line 1450: )
+Line 1450: ;
+Line 1451: ID = write_seqlock_irq
+Line 1451: (
+Line 1451: Unrecognized token: 38
+Line 1451: ID = xtime_lock
+Line 1451: )
+Line 1451: ;
+Line 1452: if
+Line 1452: (
+Line 1452: ID = is_better_time_interpolator
+Line 1452: (
+Line 1452: ID = ti
+Line 1452: )
+Line 1452: )
+Line 1453: ID = time_interpolator
+Line 1453: =
+Line 1453: ID = ti
+Line 1453: ;
+Line 1454: ID = write_sequnlock_irq
+Line 1454: (
+Line 1454: Unrecognized token: 38
+Line 1454: ID = xtime_lock
+Line 1454: )
+Line 1454: ;
+Line 1456: ID = ti
+Line 1456: -
+Line 1456: >
+Line 1456: ID = next
+Line 1456: =
+Line 1456: ID = time_interpolator_list
+Line 1456: ;
+Line 1457: ID = time_interpolator_list
+Line 1457: =
+Line 1457: ID = ti
+Line 1457: ;
+Line 1458: ID = spin_unlock
+Line 1458: (
+Line 1458: Unrecognized token: 38
+Line 1458: ID = time_interpolator_lock
+Line 1458: )
+Line 1458: ;
+Line 1459: }
+Line 1461: void
+Line 1462: ID = unregister_time_interpolator
+Line 1462: (
+Line 1462: ID = struct
+Line 1462: ID = time_interpolator
+Line 1462: *
+Line 1462: ID = ti
+Line 1462: )
+Line 1463: {
+Line 1464: ID = struct
+Line 1464: ID = time_interpolator
+Line 1464: *
+Line 1464: ID = curr
+Line 1464: ,
+Line 1464: *
+Line 1464: *
+Line 1464: ID = prev
+Line 1464: ;
+Line 1466: ID = spin_lock
+Line 1466: (
+Line 1466: Unrecognized token: 38
+Line 1466: ID = time_interpolator_lock
+Line 1466: )
+Line 1466: ;
+Line 1467: ID = prev
+Line 1467: =
+Line 1467: Unrecognized token: 38
+Line 1467: ID = time_interpolator_list
+Line 1467: ;
+Line 1468: for
+Line 1468: (
+Line 1468: ID = curr
+Line 1468: =
+Line 1468: *
+Line 1468: ID = prev
+Line 1468: ;
+Line 1468: ID = curr
+Line 1468: ;
+Line 1468: ID = curr
+Line 1468: =
+Line 1468: ID = curr
+Line 1468: -
+Line 1468: >
+Line 1468: ID = next
+Line 1468: )
+Line 1468: {
+Line 1469: if
+Line 1469: (
+Line 1469: ID = curr
+Line 1469: ==
+Line 1469: ID = ti
+Line 1469: )
+Line 1469: {
+Line 1470: *
+Line 1470: ID = prev
+Line 1470: =
+Line 1470: ID = curr
+Line 1470: -
+Line 1470: >
+Line 1470: ID = next
+Line 1470: ;
+Line 1471: ID = break
+Line 1471: ;
+Line 1472: }
+Line 1473: ID = prev
+Line 1473: =
+Line 1473: Unrecognized token: 38
+Line 1473: ID = curr
+Line 1473: -
+Line 1473: >
+Line 1473: ID = next
+Line 1473: ;
+Line 1474: }
+Line 1476: ID = write_seqlock_irq
+Line 1476: (
+Line 1476: Unrecognized token: 38
+Line 1476: ID = xtime_lock
+Line 1476: )
+Line 1476: ;
+Line 1477: if
+Line 1477: (
+Line 1477: ID = ti
+Line 1477: ==
+Line 1477: ID = time_interpolator
+Line 1477: )
+Line 1477: {
+Line 1479: ID = time_interpolator
+Line 1479: =
+Line 1479: ID = NULL
+Line 1479: ;
+Line 1481: for
+Line 1481: (
+Line 1481: ID = curr
+Line 1481: =
+Line 1481: ID = time_interpolator_list
+Line 1481: ;
+Line 1481: ID = curr
+Line 1481: ;
+Line 1481: ID = curr
+Line 1481: =
+Line 1481: ID = curr
+Line 1481: -
+Line 1481: >
+Line 1481: ID = next
+Line 1481: )
+Line 1482: if
+Line 1482: (
+Line 1482: ID = is_better_time_interpolator
+Line 1482: (
+Line 1482: ID = curr
+Line 1482: )
+Line 1482: )
+Line 1483: ID = time_interpolator
+Line 1483: =
+Line 1483: ID = curr
+Line 1483: ;
+Line 1484: }
+Line 1485: ID = write_sequnlock_irq
+Line 1485: (
+Line 1485: Unrecognized token: 38
+Line 1485: ID = xtime_lock
+Line 1485: )
+Line 1485: ;
+Line 1486: ID = spin_unlock
+Line 1486: (
+Line 1486: Unrecognized token: 38
+Line 1486: ID = time_interpolator_lock
+Line 1486: )
+Line 1486: ;
+Line 1487: }
+Line 1488: Unrecognized token: 35
+Line 1488: ID = endif
+Line 1494: void
+Line 1494: ID = msleep
+Line 1494: (
+Line 1494: ID = unsigned
+Line 1494: int
+Line 1494: ID = msecs
+Line 1494: )
+Line 1495: {
+Line 1496: ID = unsigned
+Line 1496: ID = long
+Line 1496: ID = timeout
+Line 1496: =
+Line 1496: ID = msecs_to_jiffies
+Line 1496: (
+Line 1496: ID = msecs
+Line 1496: )
+Line 1496: ;
+Line 1498: while
+Line 1498: (
+Line 1498: ID = timeout
+Line 1498: )
+Line 1498: {
+Line 1499: ID = set_current_state
+Line 1499: (
+Line 1499: ID = TASK_UNINTERRUPTIBLE
+Line 1499: )
+Line 1499: ;
+Line 1500: ID = timeout
+Line 1500: =
+Line 1500: ID = schedule_timeout
+Line 1500: (
+Line 1500: ID = timeout
+Line 1500: )
+Line 1500: ;
+Line 1501: }
+Line 1502: }
+Line 1504: ID = EXPORT_SYMBOL
+Line 1504: (
+Line 1504: ID = msleep
+Line 1504: )
+Line 1504: ;
+Line 1506: -EOF-

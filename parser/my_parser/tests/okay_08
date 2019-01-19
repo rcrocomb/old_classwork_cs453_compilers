@@ -1,0 +1,12 @@
+bob(void)
+{}
+
+bob(void)
+{
+;
+}
+
+bob(void)
+{
+;;;;;;;;;
+}

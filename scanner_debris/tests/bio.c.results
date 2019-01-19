@@ -1,0 +1,3838 @@
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = mm
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = swap
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = bio
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = blkdev
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = slab
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = init
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = kernel
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = module
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = mempool
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = workqueue
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 29: Unrecognized token: 35
+Line 29: ID = define
+Line 29: ID = BIO_POOL_SIZE
+Line 29: INTCON = 256
+Line 31: ID = static
+Line 31: ID = mempool_t
+Line 31: *
+Line 31: ID = bio_pool
+Line 31: ;
+Line 32: ID = static
+Line 32: ID = kmem_cache_t
+Line 32: *
+Line 32: ID = bio_slab
+Line 32: ;
+Line 34: Unrecognized token: 35
+Line 34: ID = define
+Line 34: ID = BIOVEC_NR_POOLS
+Line 34: INTCON = 6
+Line 40: Unrecognized token: 35
+Line 40: ID = define
+Line 40: ID = BIO_SPLIT_ENTRIES
+Line 40: INTCON = 8
+Line 41: ID = mempool_t
+Line 41: *
+Line 41: ID = bio_split_pool
+Line 41: ;
+Line 43: ID = struct
+Line 43: ID = biovec_pool
+Line 43: {
+Line 44: int
+Line 44: ID = nr_vecs
+Line 44: ;
+Line 45: char
+Line 45: *
+Line 45: ID = name
+Line 45: ;
+Line 46: ID = kmem_cache_t
+Line 46: *
+Line 46: ID = slab
+Line 46: ;
+Line 47: ID = mempool_t
+Line 47: *
+Line 47: ID = pool
+Line 47: ;
+Line 48: }
+Line 48: ;
+Line 56: Unrecognized token: 35
+Line 56: ID = define
+Line 56: ID = BV
+Line 56: (
+Line 56: ID = x
+Line 56: )
+Line 56: {
+Line 56: Unrecognized token: 46
+Line 56: ID = nr_vecs
+Line 56: =
+Line 56: ID = x
+Line 56: ,
+Line 56: Unrecognized token: 46
+Line 56: ID = name
+Line 56: =
+Line 56: STRINGCON = "biovec-"
+Line 56: Unrecognized token: 95
+Line 56: Unrecognized token: 95
+Line 56: ID = stringify
+Line 56: (
+Line 56: ID = x
+Line 56: )
+Line 56: }
+Line 57: ID = static
+Line 57: ID = struct
+Line 57: ID = biovec_pool
+Line 57: ID = bvec_array
+Line 57: [
+Line 57: ID = BIOVEC_NR_POOLS
+Line 57: ]
+Line 57: =
+Line 57: {
+Line 58: ID = BV
+Line 58: (
+Line 58: INTCON = 1
+Line 58: )
+Line 58: ,
+Line 58: ID = BV
+Line 58: (
+Line 58: INTCON = 4
+Line 58: )
+Line 58: ,
+Line 58: ID = BV
+Line 58: (
+Line 58: INTCON = 16
+Line 58: )
+Line 58: ,
+Line 58: ID = BV
+Line 58: (
+Line 58: INTCON = 64
+Line 58: )
+Line 58: ,
+Line 58: ID = BV
+Line 58: (
+Line 58: INTCON = 128
+Line 58: )
+Line 58: ,
+Line 58: ID = BV
+Line 58: (
+Line 58: ID = BIO_MAX_PAGES
+Line 58: )
+Line 58: ,
+Line 59: }
+Line 59: ;
+Line 60: Unrecognized token: 35
+Line 60: ID = undef
+Line 60: ID = BV
+Line 62: ID = static
+Line 62: ID = inline
+Line 62: ID = struct
+Line 62: ID = bio_vec
+Line 62: *
+Line 62: ID = bvec_alloc
+Line 62: (
+Line 62: int
+Line 62: ID = gfp_mask
+Line 62: ,
+Line 62: int
+Line 62: ID = nr
+Line 62: ,
+Line 62: ID = unsigned
+Line 62: ID = long
+Line 62: *
+Line 62: ID = idx
+Line 62: )
+Line 63: {
+Line 64: ID = struct
+Line 64: ID = biovec_pool
+Line 64: *
+Line 64: ID = bp
+Line 64: ;
+Line 65: ID = struct
+Line 65: ID = bio_vec
+Line 65: *
+Line 65: ID = bvl
+Line 65: ;
+Line 70: ID = switch
+Line 70: (
+Line 70: ID = nr
+Line 70: )
+Line 70: {
+Line 71: ID = case
+Line 71: INTCON = 1
+Line 71: Unrecognized token: 58
+Line 71: *
+Line 71: ID = idx
+Line 71: =
+Line 71: INTCON = 0
+Line 71: ;
+Line 71: ID = break
+Line 71: ;
+Line 72: ID = case
+Line 72: INTCON = 2
+Line 72: Unrecognized token: 46
+Line 72: Unrecognized token: 46
+Line 72: Unrecognized token: 46
+Line 72: INTCON = 4
+Line 72: Unrecognized token: 58
+Line 72: *
+Line 72: ID = idx
+Line 72: =
+Line 72: INTCON = 1
+Line 72: ;
+Line 72: ID = break
+Line 72: ;
+Line 73: ID = case
+Line 73: INTCON = 5
+Line 73: Unrecognized token: 46
+Line 73: Unrecognized token: 46
+Line 73: Unrecognized token: 46
+Line 73: INTCON = 16
+Line 73: Unrecognized token: 58
+Line 73: *
+Line 73: ID = idx
+Line 73: =
+Line 73: INTCON = 2
+Line 73: ;
+Line 73: ID = break
+Line 73: ;
+Line 74: ID = case
+Line 74: INTCON = 17
+Line 74: Unrecognized token: 46
+Line 74: Unrecognized token: 46
+Line 74: Unrecognized token: 46
+Line 74: INTCON = 64
+Line 74: Unrecognized token: 58
+Line 74: *
+Line 74: ID = idx
+Line 74: =
+Line 74: INTCON = 3
+Line 74: ;
+Line 74: ID = break
+Line 74: ;
+Line 75: ID = case
+Line 75: INTCON = 65
+Line 75: Unrecognized token: 46
+Line 75: Unrecognized token: 46
+Line 75: Unrecognized token: 46
+Line 75: INTCON = 128
+Line 75: Unrecognized token: 58
+Line 75: *
+Line 75: ID = idx
+Line 75: =
+Line 75: INTCON = 4
+Line 75: ;
+Line 75: ID = break
+Line 75: ;
+Line 76: ID = case
+Line 76: INTCON = 129
+Line 76: Unrecognized token: 46
+Line 76: Unrecognized token: 46
+Line 76: Unrecognized token: 46
+Line 76: ID = BIO_MAX_PAGES
+Line 76: Unrecognized token: 58
+Line 76: *
+Line 76: ID = idx
+Line 76: =
+Line 76: INTCON = 5
+Line 76: ;
+Line 76: ID = break
+Line 76: ;
+Line 77: ID = default
+Line 77: Unrecognized token: 58
+Line 78: return
+Line 78: ID = NULL
+Line 78: ;
+Line 79: }
+Line 83: ID = bp
+Line 83: =
+Line 83: ID = bvec_array
+Line 83: +
+Line 83: *
+Line 83: ID = idx
+Line 83: ;
+Line 85: ID = bvl
+Line 85: =
+Line 85: ID = mempool_alloc
+Line 85: (
+Line 85: ID = bp
+Line 85: -
+Line 85: >
+Line 85: ID = pool
+Line 85: ,
+Line 85: ID = gfp_mask
+Line 85: )
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: ID = bvl
+Line 86: )
+Line 87: ID = memset
+Line 87: (
+Line 87: ID = bvl
+Line 87: ,
+Line 87: INTCON = 0
+Line 87: ,
+Line 87: ID = bp
+Line 87: -
+Line 87: >
+Line 87: ID = nr_vecs
+Line 87: *
+Line 87: ID = sizeof
+Line 87: (
+Line 87: ID = struct
+Line 87: ID = bio_vec
+Line 87: )
+Line 87: )
+Line 87: ;
+Line 88: return
+Line 88: ID = bvl
+Line 88: ;
+Line 89: }
+Line 94: void
+Line 94: ID = bio_destructor
+Line 94: (
+Line 94: ID = struct
+Line 94: ID = bio
+Line 94: *
+Line 94: ID = bio
+Line 94: )
+Line 95: {
+Line 96: ID = const
+Line 96: int
+Line 96: ID = pool_idx
+Line 96: =
+Line 96: ID = BIO_POOL_IDX
+Line 96: (
+Line 96: ID = bio
+Line 96: )
+Line 96: ;
+Line 97: ID = struct
+Line 97: ID = biovec_pool
+Line 97: *
+Line 97: ID = bp
+Line 97: =
+Line 97: ID = bvec_array
+Line 97: +
+Line 97: ID = pool_idx
+Line 97: ;
+Line 99: ID = BIO_BUG_ON
+Line 99: (
+Line 99: ID = pool_idx
+Line 99: >=
+Line 99: ID = BIOVEC_NR_POOLS
+Line 99: )
+Line 99: ;
+Line 104: if
+Line 104: (
+Line 104: !
+Line 104: ID = bio_flagged
+Line 104: (
+Line 104: ID = bio
+Line 104: ,
+Line 104: ID = BIO_CLONED
+Line 104: )
+Line 104: )
+Line 105: ID = mempool_free
+Line 105: (
+Line 105: ID = bio
+Line 105: -
+Line 105: >
+Line 105: ID = bi_io_vec
+Line 105: ,
+Line 105: ID = bp
+Line 105: -
+Line 105: >
+Line 105: ID = pool
+Line 105: )
+Line 105: ;
+Line 107: ID = mempool_free
+Line 107: (
+Line 107: ID = bio
+Line 107: ,
+Line 107: ID = bio_pool
+Line 107: )
+Line 107: ;
+Line 108: }
+Line 110: ID = inline
+Line 110: void
+Line 110: ID = bio_init
+Line 110: (
+Line 110: ID = struct
+Line 110: ID = bio
+Line 110: *
+Line 110: ID = bio
+Line 110: )
+Line 111: {
+Line 112: ID = bio
+Line 112: -
+Line 112: >
+Line 112: ID = bi_next
+Line 112: =
+Line 112: ID = NULL
+Line 112: ;
+Line 113: ID = bio
+Line 113: -
+Line 113: >
+Line 113: ID = bi_flags
+Line 113: =
+Line 113: INTCON = 1
+Line 113: <
+Line 113: <
+Line 113: ID = BIO_UPTODATE
+Line 113: ;
+Line 114: ID = bio
+Line 114: -
+Line 114: >
+Line 114: ID = bi_rw
+Line 114: =
+Line 114: INTCON = 0
+Line 114: ;
+Line 115: ID = bio
+Line 115: -
+Line 115: >
+Line 115: ID = bi_vcnt
+Line 115: =
+Line 115: INTCON = 0
+Line 115: ;
+Line 116: ID = bio
+Line 116: -
+Line 116: >
+Line 116: ID = bi_idx
+Line 116: =
+Line 116: INTCON = 0
+Line 116: ;
+Line 117: ID = bio
+Line 117: -
+Line 117: >
+Line 117: ID = bi_phys_segments
+Line 117: =
+Line 117: INTCON = 0
+Line 117: ;
+Line 118: ID = bio
+Line 118: -
+Line 118: >
+Line 118: ID = bi_hw_segments
+Line 118: =
+Line 118: INTCON = 0
+Line 118: ;
+Line 119: ID = bio
+Line 119: -
+Line 119: >
+Line 119: ID = bi_hw_front_size
+Line 119: =
+Line 119: INTCON = 0
+Line 119: ;
+Line 120: ID = bio
+Line 120: -
+Line 120: >
+Line 120: ID = bi_hw_back_size
+Line 120: =
+Line 120: INTCON = 0
+Line 120: ;
+Line 121: ID = bio
+Line 121: -
+Line 121: >
+Line 121: ID = bi_size
+Line 121: =
+Line 121: INTCON = 0
+Line 121: ;
+Line 122: ID = bio
+Line 122: -
+Line 122: >
+Line 122: ID = bi_max_vecs
+Line 122: =
+Line 122: INTCON = 0
+Line 122: ;
+Line 123: ID = bio
+Line 123: -
+Line 123: >
+Line 123: ID = bi_end_io
+Line 123: =
+Line 123: ID = NULL
+Line 123: ;
+Line 124: ID = atomic_set
+Line 124: (
+Line 124: Unrecognized token: 38
+Line 124: ID = bio
+Line 124: -
+Line 124: >
+Line 124: ID = bi_cnt
+Line 124: ,
+Line 124: INTCON = 1
+Line 124: )
+Line 124: ;
+Line 125: ID = bio
+Line 125: -
+Line 125: >
+Line 125: ID = bi_private
+Line 125: =
+Line 125: ID = NULL
+Line 125: ;
+Line 126: }
+Line 138: ID = struct
+Line 138: ID = bio
+Line 138: *
+Line 138: ID = bio_alloc
+Line 138: (
+Line 138: int
+Line 138: ID = gfp_mask
+Line 138: ,
+Line 138: int
+Line 138: ID = nr_iovecs
+Line 138: )
+Line 139: {
+Line 140: ID = struct
+Line 140: ID = bio_vec
+Line 140: *
+Line 140: ID = bvl
+Line 140: =
+Line 140: ID = NULL
+Line 140: ;
+Line 141: ID = unsigned
+Line 141: ID = long
+Line 141: ID = idx
+Line 141: ;
+Line 142: ID = struct
+Line 142: ID = bio
+Line 142: *
+Line 142: ID = bio
+Line 142: ;
+Line 144: ID = bio
+Line 144: =
+Line 144: ID = mempool_alloc
+Line 144: (
+Line 144: ID = bio_pool
+Line 144: ,
+Line 144: ID = gfp_mask
+Line 144: )
+Line 144: ;
+Line 145: if
+Line 145: (
+Line 145: ID = unlikely
+Line 145: (
+Line 145: !
+Line 145: ID = bio
+Line 145: )
+Line 145: )
+Line 146: ID = goto
+Line 146: ID = out
+Line 146: ;
+Line 148: ID = bio_init
+Line 148: (
+Line 148: ID = bio
+Line 148: )
+Line 148: ;
+Line 150: if
+Line 150: (
+Line 150: ID = unlikely
+Line 150: (
+Line 150: !
+Line 150: ID = nr_iovecs
+Line 150: )
+Line 150: )
+Line 151: ID = goto
+Line 151: ID = noiovec
+Line 151: ;
+Line 153: ID = bvl
+Line 153: =
+Line 153: ID = bvec_alloc
+Line 153: (
+Line 153: ID = gfp_mask
+Line 153: ,
+Line 153: ID = nr_iovecs
+Line 153: ,
+Line 153: Unrecognized token: 38
+Line 153: ID = idx
+Line 153: )
+Line 153: ;
+Line 154: if
+Line 154: (
+Line 154: ID = bvl
+Line 154: )
+Line 154: {
+Line 155: ID = bio
+Line 155: -
+Line 155: >
+Line 155: ID = bi_flags
+Line 155: Unrecognized token: 124
+Line 155: =
+Line 155: ID = idx
+Line 155: <
+Line 155: <
+Line 155: ID = BIO_POOL_OFFSET
+Line 155: ;
+Line 156: ID = bio
+Line 156: -
+Line 156: >
+Line 156: ID = bi_max_vecs
+Line 156: =
+Line 156: ID = bvec_array
+Line 156: [
+Line 156: ID = idx
+Line 156: ]
+Line 156: Unrecognized token: 46
+Line 156: ID = nr_vecs
+Line 156: ;
+Line 157: ID = noiovec
+Line 157: Unrecognized token: 58
+Line 158: ID = bio
+Line 158: -
+Line 158: >
+Line 158: ID = bi_io_vec
+Line 158: =
+Line 158: ID = bvl
+Line 158: ;
+Line 159: ID = bio
+Line 159: -
+Line 159: >
+Line 159: ID = bi_destructor
+Line 159: =
+Line 159: ID = bio_destructor
+Line 159: ;
+Line 160: ID = out
+Line 160: Unrecognized token: 58
+Line 161: return
+Line 161: ID = bio
+Line 161: ;
+Line 162: }
+Line 164: ID = mempool_free
+Line 164: (
+Line 164: ID = bio
+Line 164: ,
+Line 164: ID = bio_pool
+Line 164: )
+Line 164: ;
+Line 165: ID = bio
+Line 165: =
+Line 165: ID = NULL
+Line 165: ;
+Line 166: ID = goto
+Line 166: ID = out
+Line 166: ;
+Line 167: }
+Line 177: void
+Line 177: ID = bio_put
+Line 177: (
+Line 177: ID = struct
+Line 177: ID = bio
+Line 177: *
+Line 177: ID = bio
+Line 177: )
+Line 178: {
+Line 179: ID = BIO_BUG_ON
+Line 179: (
+Line 179: !
+Line 179: ID = atomic_read
+Line 179: (
+Line 179: Unrecognized token: 38
+Line 179: ID = bio
+Line 179: -
+Line 179: >
+Line 179: ID = bi_cnt
+Line 179: )
+Line 179: )
+Line 179: ;
+Line 184: if
+Line 184: (
+Line 184: ID = atomic_dec_and_test
+Line 184: (
+Line 184: Unrecognized token: 38
+Line 184: ID = bio
+Line 184: -
+Line 184: >
+Line 184: ID = bi_cnt
+Line 184: )
+Line 184: )
+Line 184: {
+Line 185: ID = bio
+Line 185: -
+Line 185: >
+Line 185: ID = bi_next
+Line 185: =
+Line 185: ID = NULL
+Line 185: ;
+Line 186: ID = bio
+Line 186: -
+Line 186: >
+Line 186: ID = bi_destructor
+Line 186: (
+Line 186: ID = bio
+Line 186: )
+Line 186: ;
+Line 187: }
+Line 188: }
+Line 190: ID = inline
+Line 190: int
+Line 190: ID = bio_phys_segments
+Line 190: (
+Line 190: ID = request_queue_t
+Line 190: *
+Line 190: ID = q
+Line 190: ,
+Line 190: ID = struct
+Line 190: ID = bio
+Line 190: *
+Line 190: ID = bio
+Line 190: )
+Line 191: {
+Line 192: if
+Line 192: (
+Line 192: ID = unlikely
+Line 192: (
+Line 192: !
+Line 192: ID = bio_flagged
+Line 192: (
+Line 192: ID = bio
+Line 192: ,
+Line 192: ID = BIO_SEG_VALID
+Line 192: )
+Line 192: )
+Line 192: )
+Line 193: ID = blk_recount_segments
+Line 193: (
+Line 193: ID = q
+Line 193: ,
+Line 193: ID = bio
+Line 193: )
+Line 193: ;
+Line 195: return
+Line 195: ID = bio
+Line 195: -
+Line 195: >
+Line 195: ID = bi_phys_segments
+Line 195: ;
+Line 196: }
+Line 198: ID = inline
+Line 198: int
+Line 198: ID = bio_hw_segments
+Line 198: (
+Line 198: ID = request_queue_t
+Line 198: *
+Line 198: ID = q
+Line 198: ,
+Line 198: ID = struct
+Line 198: ID = bio
+Line 198: *
+Line 198: ID = bio
+Line 198: )
+Line 199: {
+Line 200: if
+Line 200: (
+Line 200: ID = unlikely
+Line 200: (
+Line 200: !
+Line 200: ID = bio_flagged
+Line 200: (
+Line 200: ID = bio
+Line 200: ,
+Line 200: ID = BIO_SEG_VALID
+Line 200: )
+Line 200: )
+Line 200: )
+Line 201: ID = blk_recount_segments
+Line 201: (
+Line 201: ID = q
+Line 201: ,
+Line 201: ID = bio
+Line 201: )
+Line 201: ;
+Line 203: return
+Line 203: ID = bio
+Line 203: -
+Line 203: >
+Line 203: ID = bi_hw_segments
+Line 203: ;
+Line 204: }
+Line 215: ID = inline
+Line 215: void
+Line 215: Unrecognized token: 95
+Line 215: Unrecognized token: 95
+Line 215: ID = bio_clone
+Line 215: (
+Line 215: ID = struct
+Line 215: ID = bio
+Line 215: *
+Line 215: ID = bio
+Line 215: ,
+Line 215: ID = struct
+Line 215: ID = bio
+Line 215: *
+Line 215: ID = bio_src
+Line 215: )
+Line 216: {
+Line 217: ID = bio
+Line 217: -
+Line 217: >
+Line 217: ID = bi_io_vec
+Line 217: =
+Line 217: ID = bio_src
+Line 217: -
+Line 217: >
+Line 217: ID = bi_io_vec
+Line 217: ;
+Line 219: ID = bio
+Line 219: -
+Line 219: >
+Line 219: ID = bi_sector
+Line 219: =
+Line 219: ID = bio_src
+Line 219: -
+Line 219: >
+Line 219: ID = bi_sector
+Line 219: ;
+Line 220: ID = bio
+Line 220: -
+Line 220: >
+Line 220: ID = bi_bdev
+Line 220: =
+Line 220: ID = bio_src
+Line 220: -
+Line 220: >
+Line 220: ID = bi_bdev
+Line 220: ;
+Line 221: ID = bio
+Line 221: -
+Line 221: >
+Line 221: ID = bi_flags
+Line 221: Unrecognized token: 124
+Line 221: =
+Line 221: INTCON = 1
+Line 221: <
+Line 221: <
+Line 221: ID = BIO_CLONED
+Line 221: ;
+Line 222: ID = bio
+Line 222: -
+Line 222: >
+Line 222: ID = bi_rw
+Line 222: =
+Line 222: ID = bio_src
+Line 222: -
+Line 222: >
+Line 222: ID = bi_rw
+Line 222: ;
+Line 228: ID = bio
+Line 228: -
+Line 228: >
+Line 228: ID = bi_vcnt
+Line 228: =
+Line 228: ID = bio_src
+Line 228: -
+Line 228: >
+Line 228: ID = bi_vcnt
+Line 228: ;
+Line 229: ID = bio
+Line 229: -
+Line 229: >
+Line 229: ID = bi_idx
+Line 229: =
+Line 229: ID = bio_src
+Line 229: -
+Line 229: >
+Line 229: ID = bi_idx
+Line 229: ;
+Line 230: if
+Line 230: (
+Line 230: ID = bio_flagged
+Line 230: (
+Line 230: ID = bio
+Line 230: ,
+Line 230: ID = BIO_SEG_VALID
+Line 230: )
+Line 230: )
+Line 230: {
+Line 231: ID = bio
+Line 231: -
+Line 231: >
+Line 231: ID = bi_phys_segments
+Line 231: =
+Line 231: ID = bio_src
+Line 231: -
+Line 231: >
+Line 231: ID = bi_phys_segments
+Line 231: ;
+Line 232: ID = bio
+Line 232: -
+Line 232: >
+Line 232: ID = bi_hw_segments
+Line 232: =
+Line 232: ID = bio_src
+Line 232: -
+Line 232: >
+Line 232: ID = bi_hw_segments
+Line 232: ;
+Line 233: ID = bio
+Line 233: -
+Line 233: >
+Line 233: ID = bi_flags
+Line 233: Unrecognized token: 124
+Line 233: =
+Line 233: (
+Line 233: INTCON = 1
+Line 233: <
+Line 233: <
+Line 233: ID = BIO_SEG_VALID
+Line 233: )
+Line 233: ;
+Line 234: }
+Line 235: ID = bio
+Line 235: -
+Line 235: >
+Line 235: ID = bi_size
+Line 235: =
+Line 235: ID = bio_src
+Line 235: -
+Line 235: >
+Line 235: ID = bi_size
+Line 235: ;
+Line 242: ID = bio
+Line 242: -
+Line 242: >
+Line 242: ID = bi_max_vecs
+Line 242: =
+Line 242: INTCON = 0
+Line 242: ;
+Line 243: ID = bio
+Line 243: -
+Line 243: >
+Line 243: ID = bi_flags
+Line 243: Unrecognized token: 38
+Line 243: =
+Line 243: (
+Line 243: ID = BIO_POOL_MASK
+Line 243: -
+Line 243: INTCON = 1
+Line 243: )
+Line 243: ;
+Line 244: }
+Line 253: ID = struct
+Line 253: ID = bio
+Line 253: *
+Line 253: ID = bio_clone
+Line 253: (
+Line 253: ID = struct
+Line 253: ID = bio
+Line 253: *
+Line 253: ID = bio
+Line 253: ,
+Line 253: int
+Line 253: ID = gfp_mask
+Line 253: )
+Line 254: {
+Line 255: ID = struct
+Line 255: ID = bio
+Line 255: *
+Line 255: ID = b
+Line 255: =
+Line 255: ID = bio_alloc
+Line 255: (
+Line 255: ID = gfp_mask
+Line 255: ,
+Line 255: INTCON = 0
+Line 255: )
+Line 255: ;
+Line 257: if
+Line 257: (
+Line 257: ID = b
+Line 257: )
+Line 258: Unrecognized token: 95
+Line 258: Unrecognized token: 95
+Line 258: ID = bio_clone
+Line 258: (
+Line 258: ID = b
+Line 258: ,
+Line 258: ID = bio
+Line 258: )
+Line 258: ;
+Line 260: return
+Line 260: ID = b
+Line 260: ;
+Line 261: }
+Line 272: int
+Line 272: ID = bio_get_nr_vecs
+Line 272: (
+Line 272: ID = struct
+Line 272: ID = block_device
+Line 272: *
+Line 272: ID = bdev
+Line 272: )
+Line 273: {
+Line 274: ID = request_queue_t
+Line 274: *
+Line 274: ID = q
+Line 274: =
+Line 274: ID = bdev_get_queue
+Line 274: (
+Line 274: ID = bdev
+Line 274: )
+Line 274: ;
+Line 275: int
+Line 275: ID = nr_pages
+Line 275: ;
+Line 277: ID = nr_pages
+Line 277: =
+Line 277: (
+Line 277: (
+Line 277: ID = q
+Line 277: -
+Line 277: >
+Line 277: ID = max_sectors
+Line 277: <
+Line 277: <
+Line 277: INTCON = 9
+Line 277: )
+Line 277: +
+Line 277: ID = PAGE_SIZE
+Line 277: -
+Line 277: INTCON = 1
+Line 277: )
+Line 277: >
+Line 277: >
+Line 277: ID = PAGE_SHIFT
+Line 277: ;
+Line 278: if
+Line 278: (
+Line 278: ID = nr_pages
+Line 278: >
+Line 278: ID = q
+Line 278: -
+Line 278: >
+Line 278: ID = max_phys_segments
+Line 278: )
+Line 279: ID = nr_pages
+Line 279: =
+Line 279: ID = q
+Line 279: -
+Line 279: >
+Line 279: ID = max_phys_segments
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: ID = nr_pages
+Line 280: >
+Line 280: ID = q
+Line 280: -
+Line 280: >
+Line 280: ID = max_hw_segments
+Line 280: )
+Line 281: ID = nr_pages
+Line 281: =
+Line 281: ID = q
+Line 281: -
+Line 281: >
+Line 281: ID = max_hw_segments
+Line 281: ;
+Line 283: return
+Line 283: ID = nr_pages
+Line 283: ;
+Line 284: }
+Line 286: ID = static
+Line 286: int
+Line 286: Unrecognized token: 95
+Line 286: Unrecognized token: 95
+Line 286: ID = bio_add_page
+Line 286: (
+Line 286: ID = request_queue_t
+Line 286: *
+Line 286: ID = q
+Line 286: ,
+Line 286: ID = struct
+Line 286: ID = bio
+Line 286: *
+Line 286: ID = bio
+Line 286: ,
+Line 286: ID = struct
+Line 286: ID = page
+Line 287: *
+Line 287: ID = page
+Line 287: ,
+Line 287: ID = unsigned
+Line 287: int
+Line 287: ID = len
+Line 287: ,
+Line 287: ID = unsigned
+Line 287: int
+Line 287: ID = offset
+Line 287: )
+Line 288: {
+Line 289: int
+Line 289: ID = retried_segments
+Line 289: =
+Line 289: INTCON = 0
+Line 289: ;
+Line 290: ID = struct
+Line 290: ID = bio_vec
+Line 290: *
+Line 290: ID = bvec
+Line 290: ;
+Line 295: if
+Line 295: (
+Line 295: ID = unlikely
+Line 295: (
+Line 295: ID = bio_flagged
+Line 295: (
+Line 295: ID = bio
+Line 295: ,
+Line 295: ID = BIO_CLONED
+Line 295: )
+Line 295: )
+Line 295: )
+Line 296: return
+Line 296: INTCON = 0
+Line 296: ;
+Line 298: if
+Line 298: (
+Line 298: ID = bio
+Line 298: -
+Line 298: >
+Line 298: ID = bi_vcnt
+Line 298: >=
+Line 298: ID = bio
+Line 298: -
+Line 298: >
+Line 298: ID = bi_max_vecs
+Line 298: )
+Line 299: return
+Line 299: INTCON = 0
+Line 299: ;
+Line 301: if
+Line 301: (
+Line 301: (
+Line 301: (
+Line 301: ID = bio
+Line 301: -
+Line 301: >
+Line 301: ID = bi_size
+Line 301: +
+Line 301: ID = len
+Line 301: )
+Line 301: >
+Line 301: >
+Line 301: INTCON = 9
+Line 301: )
+Line 301: >
+Line 301: ID = q
+Line 301: -
+Line 301: >
+Line 301: ID = max_sectors
+Line 301: )
+Line 302: return
+Line 302: INTCON = 0
+Line 302: ;
+Line 309: while
+Line 309: (
+Line 309: ID = bio
+Line 309: -
+Line 309: >
+Line 309: ID = bi_phys_segments
+Line 309: >=
+Line 309: ID = q
+Line 309: -
+Line 309: >
+Line 309: ID = max_phys_segments
+Line 310: ||
+Line 310: ID = bio
+Line 310: -
+Line 310: >
+Line 310: ID = bi_hw_segments
+Line 310: >=
+Line 310: ID = q
+Line 310: -
+Line 310: >
+Line 310: ID = max_hw_segments
+Line 311: ||
+Line 311: ID = BIOVEC_VIRT_OVERSIZE
+Line 311: (
+Line 311: ID = bio
+Line 311: -
+Line 311: >
+Line 311: ID = bi_size
+Line 311: )
+Line 311: )
+Line 311: {
+Line 313: if
+Line 313: (
+Line 313: ID = retried_segments
+Line 313: )
+Line 314: return
+Line 314: INTCON = 0
+Line 314: ;
+Line 316: ID = retried_segments
+Line 316: =
+Line 316: INTCON = 1
+Line 316: ;
+Line 317: ID = blk_recount_segments
+Line 317: (
+Line 317: ID = q
+Line 317: ,
+Line 317: ID = bio
+Line 317: )
+Line 317: ;
+Line 318: }
+Line 324: ID = bvec
+Line 324: =
+Line 324: Unrecognized token: 38
+Line 324: ID = bio
+Line 324: -
+Line 324: >
+Line 324: ID = bi_io_vec
+Line 324: [
+Line 324: ID = bio
+Line 324: -
+Line 324: >
+Line 324: ID = bi_vcnt
+Line 324: ]
+Line 324: ;
+Line 325: ID = bvec
+Line 325: -
+Line 325: >
+Line 325: ID = bv_page
+Line 325: =
+Line 325: ID = page
+Line 325: ;
+Line 326: ID = bvec
+Line 326: -
+Line 326: >
+Line 326: ID = bv_len
+Line 326: =
+Line 326: ID = len
+Line 326: ;
+Line 327: ID = bvec
+Line 327: -
+Line 327: >
+Line 327: ID = bv_offset
+Line 327: =
+Line 327: ID = offset
+Line 327: ;
+Line 334: if
+Line 334: (
+Line 334: ID = q
+Line 334: -
+Line 334: >
+Line 334: ID = merge_bvec_fn
+Line 334: )
+Line 334: {
+Line 339: if
+Line 339: (
+Line 339: ID = q
+Line 339: -
+Line 339: >
+Line 339: ID = merge_bvec_fn
+Line 339: (
+Line 339: ID = q
+Line 339: ,
+Line 339: ID = bio
+Line 339: ,
+Line 339: ID = bvec
+Line 339: )
+Line 339: <
+Line 339: ID = len
+Line 339: )
+Line 339: {
+Line 340: ID = bvec
+Line 340: -
+Line 340: >
+Line 340: ID = bv_page
+Line 340: =
+Line 340: ID = NULL
+Line 340: ;
+Line 341: ID = bvec
+Line 341: -
+Line 341: >
+Line 341: ID = bv_len
+Line 341: =
+Line 341: INTCON = 0
+Line 341: ;
+Line 342: ID = bvec
+Line 342: -
+Line 342: >
+Line 342: ID = bv_offset
+Line 342: =
+Line 342: INTCON = 0
+Line 342: ;
+Line 343: return
+Line 343: INTCON = 0
+Line 343: ;
+Line 344: }
+Line 345: }
+Line 348: if
+Line 348: (
+Line 348: ID = bio
+Line 348: -
+Line 348: >
+Line 348: ID = bi_vcnt
+Line 348: &&
+Line 348: (
+Line 348: ID = BIOVEC_PHYS_MERGEABLE
+Line 348: (
+Line 348: ID = bvec
+Line 348: -
+Line 348: INTCON = 1
+Line 348: ,
+Line 348: ID = bvec
+Line 348: )
+Line 348: ||
+Line 349: ID = BIOVEC_VIRT_MERGEABLE
+Line 349: (
+Line 349: ID = bvec
+Line 349: -
+Line 349: INTCON = 1
+Line 349: ,
+Line 349: ID = bvec
+Line 349: )
+Line 349: )
+Line 349: )
+Line 350: ID = bio
+Line 350: -
+Line 350: >
+Line 350: ID = bi_flags
+Line 350: Unrecognized token: 38
+Line 350: =
+Line 350: Unrecognized token: 126
+Line 350: (
+Line 350: INTCON = 1
+Line 350: <
+Line 350: <
+Line 350: ID = BIO_SEG_VALID
+Line 350: )
+Line 350: ;
+Line 352: ID = bio
+Line 352: -
+Line 352: >
+Line 352: ID = bi_vcnt
+Line 352: +
+Line 352: +
+Line 352: ;
+Line 353: ID = bio
+Line 353: -
+Line 353: >
+Line 353: ID = bi_phys_segments
+Line 353: +
+Line 353: +
+Line 353: ;
+Line 354: ID = bio
+Line 354: -
+Line 354: >
+Line 354: ID = bi_hw_segments
+Line 354: +
+Line 354: +
+Line 354: ;
+Line 355: ID = bio
+Line 355: -
+Line 355: >
+Line 355: ID = bi_size
+Line 355: +
+Line 355: =
+Line 355: ID = len
+Line 355: ;
+Line 356: return
+Line 356: ID = len
+Line 356: ;
+Line 357: }
+Line 372: int
+Line 372: ID = bio_add_page
+Line 372: (
+Line 372: ID = struct
+Line 372: ID = bio
+Line 372: *
+Line 372: ID = bio
+Line 372: ,
+Line 372: ID = struct
+Line 372: ID = page
+Line 372: *
+Line 372: ID = page
+Line 372: ,
+Line 372: ID = unsigned
+Line 372: int
+Line 372: ID = len
+Line 372: ,
+Line 373: ID = unsigned
+Line 373: int
+Line 373: ID = offset
+Line 373: )
+Line 374: {
+Line 375: return
+Line 375: Unrecognized token: 95
+Line 375: Unrecognized token: 95
+Line 375: ID = bio_add_page
+Line 375: (
+Line 375: ID = bdev_get_queue
+Line 375: (
+Line 375: ID = bio
+Line 375: -
+Line 375: >
+Line 375: ID = bi_bdev
+Line 375: )
+Line 375: ,
+Line 375: ID = bio
+Line 375: ,
+Line 375: ID = page
+Line 375: ,
+Line 376: ID = len
+Line 376: ,
+Line 376: ID = offset
+Line 376: )
+Line 376: ;
+Line 377: }
+Line 386: int
+Line 386: ID = bio_uncopy_user
+Line 386: (
+Line 386: ID = struct
+Line 386: ID = bio
+Line 386: *
+Line 386: ID = bio
+Line 386: )
+Line 387: {
+Line 388: ID = struct
+Line 388: ID = bio_vec
+Line 388: *
+Line 388: ID = bvec
+Line 388: ;
+Line 389: int
+Line 389: ID = i
+Line 389: ,
+Line 389: ID = ret
+Line 389: =
+Line 389: INTCON = 0
+Line 389: ;
+Line 391: if
+Line 391: (
+Line 391: ID = bio_data_dir
+Line 391: (
+Line 391: ID = bio
+Line 391: )
+Line 391: ==
+Line 391: ID = READ
+Line 391: )
+Line 391: {
+Line 392: char
+Line 392: *
+Line 392: ID = uaddr
+Line 392: =
+Line 392: ID = bio
+Line 392: -
+Line 392: >
+Line 392: ID = bi_private
+Line 392: ;
+Line 394: Unrecognized token: 95
+Line 394: Unrecognized token: 95
+Line 394: ID = bio_for_each_segment
+Line 394: (
+Line 394: ID = bvec
+Line 394: ,
+Line 394: ID = bio
+Line 394: ,
+Line 394: ID = i
+Line 394: ,
+Line 394: INTCON = 0
+Line 394: )
+Line 394: {
+Line 395: char
+Line 395: *
+Line 395: ID = addr
+Line 395: =
+Line 395: ID = page_address
+Line 395: (
+Line 395: ID = bvec
+Line 395: -
+Line 395: >
+Line 395: ID = bv_page
+Line 395: )
+Line 395: ;
+Line 397: if
+Line 397: (
+Line 397: !
+Line 397: ID = ret
+Line 397: &&
+Line 397: ID = copy_to_user
+Line 397: (
+Line 397: ID = uaddr
+Line 397: ,
+Line 397: ID = addr
+Line 397: ,
+Line 397: ID = bvec
+Line 397: -
+Line 397: >
+Line 397: ID = bv_len
+Line 397: )
+Line 397: )
+Line 398: ID = ret
+Line 398: =
+Line 398: -
+Line 398: ID = EFAULT
+Line 398: ;
+Line 400: Unrecognized token: 95
+Line 400: Unrecognized token: 95
+Line 400: ID = free_page
+Line 400: (
+Line 400: ID = bvec
+Line 400: -
+Line 400: >
+Line 400: ID = bv_page
+Line 400: )
+Line 400: ;
+Line 401: ID = uaddr
+Line 401: +
+Line 401: =
+Line 401: ID = bvec
+Line 401: -
+Line 401: >
+Line 401: ID = bv_len
+Line 401: ;
+Line 402: }
+Line 403: }
+Line 405: ID = bio_put
+Line 405: (
+Line 405: ID = bio
+Line 405: )
+Line 405: ;
+Line 406: return
+Line 406: ID = ret
+Line 406: ;
+Line 407: }
+Line 420: ID = struct
+Line 420: ID = bio
+Line 420: *
+Line 420: ID = bio_copy_user
+Line 420: (
+Line 420: ID = request_queue_t
+Line 420: *
+Line 420: ID = q
+Line 420: ,
+Line 420: ID = unsigned
+Line 420: ID = long
+Line 420: ID = uaddr
+Line 420: ,
+Line 421: ID = unsigned
+Line 421: int
+Line 421: ID = len
+Line 421: ,
+Line 421: int
+Line 421: ID = write_to_vm
+Line 421: )
+Line 422: {
+Line 423: ID = unsigned
+Line 423: ID = long
+Line 423: ID = end
+Line 423: =
+Line 423: (
+Line 423: ID = uaddr
+Line 423: +
+Line 423: ID = len
+Line 423: +
+Line 423: ID = PAGE_SIZE
+Line 423: -
+Line 423: INTCON = 1
+Line 423: )
+Line 423: >
+Line 423: >
+Line 423: ID = PAGE_SHIFT
+Line 423: ;
+Line 424: ID = unsigned
+Line 424: ID = long
+Line 424: ID = start
+Line 424: =
+Line 424: ID = uaddr
+Line 424: >
+Line 424: >
+Line 424: ID = PAGE_SHIFT
+Line 424: ;
+Line 425: ID = struct
+Line 425: ID = bio_vec
+Line 425: *
+Line 425: ID = bvec
+Line 425: ;
+Line 426: ID = struct
+Line 426: ID = page
+Line 426: *
+Line 426: ID = page
+Line 426: ;
+Line 427: ID = struct
+Line 427: ID = bio
+Line 427: *
+Line 427: ID = bio
+Line 427: ;
+Line 428: int
+Line 428: ID = i
+Line 428: ,
+Line 428: ID = ret
+Line 428: ;
+Line 430: ID = bio
+Line 430: =
+Line 430: ID = bio_alloc
+Line 430: (
+Line 430: ID = GFP_KERNEL
+Line 430: ,
+Line 430: ID = end
+Line 430: -
+Line 430: ID = start
+Line 430: )
+Line 430: ;
+Line 431: if
+Line 431: (
+Line 431: !
+Line 431: ID = bio
+Line 431: )
+Line 432: return
+Line 432: ID = ERR_PTR
+Line 432: (
+Line 432: -
+Line 432: ID = ENOMEM
+Line 432: )
+Line 432: ;
+Line 434: ID = ret
+Line 434: =
+Line 434: INTCON = 0
+Line 434: ;
+Line 435: while
+Line 435: (
+Line 435: ID = len
+Line 435: )
+Line 435: {
+Line 436: ID = unsigned
+Line 436: int
+Line 436: ID = bytes
+Line 436: =
+Line 436: ID = PAGE_SIZE
+Line 436: ;
+Line 438: if
+Line 438: (
+Line 438: ID = bytes
+Line 438: >
+Line 438: ID = len
+Line 438: )
+Line 439: ID = bytes
+Line 439: =
+Line 439: ID = len
+Line 439: ;
+Line 441: ID = page
+Line 441: =
+Line 441: ID = alloc_page
+Line 441: (
+Line 441: ID = q
+Line 441: -
+Line 441: >
+Line 441: ID = bounce_gfp
+Line 441: Unrecognized token: 124
+Line 441: ID = GFP_KERNEL
+Line 441: )
+Line 441: ;
+Line 442: if
+Line 442: (
+Line 442: !
+Line 442: ID = page
+Line 442: )
+Line 442: {
+Line 443: ID = ret
+Line 443: =
+Line 443: -
+Line 443: ID = ENOMEM
+Line 443: ;
+Line 444: ID = break
+Line 444: ;
+Line 445: }
+Line 447: if
+Line 447: (
+Line 447: Unrecognized token: 95
+Line 447: Unrecognized token: 95
+Line 447: ID = bio_add_page
+Line 447: (
+Line 447: ID = q
+Line 447: ,
+Line 447: ID = bio
+Line 447: ,
+Line 447: ID = page
+Line 447: ,
+Line 447: ID = bytes
+Line 447: ,
+Line 447: INTCON = 0
+Line 447: )
+Line 447: <
+Line 447: ID = bytes
+Line 447: )
+Line 447: {
+Line 448: ID = ret
+Line 448: =
+Line 448: -
+Line 448: ID = EINVAL
+Line 448: ;
+Line 449: ID = break
+Line 449: ;
+Line 450: }
+Line 452: ID = len
+Line 452: -
+Line 452: =
+Line 452: ID = bytes
+Line 452: ;
+Line 453: }
+Line 458: if
+Line 458: (
+Line 458: !
+Line 458: ID = ret
+Line 458: )
+Line 458: {
+Line 459: if
+Line 459: (
+Line 459: !
+Line 459: ID = write_to_vm
+Line 459: )
+Line 459: {
+Line 460: ID = bio
+Line 460: -
+Line 460: >
+Line 460: ID = bi_rw
+Line 460: Unrecognized token: 124
+Line 460: =
+Line 460: (
+Line 460: INTCON = 1
+Line 460: <
+Line 460: <
+Line 460: ID = BIO_RW
+Line 460: )
+Line 460: ;
+Line 464: ID = ret
+Line 464: =
+Line 464: -
+Line 464: ID = EFAULT
+Line 464: ;
+Line 465: ID = bio_for_each_segment
+Line 465: (
+Line 465: ID = bvec
+Line 465: ,
+Line 465: ID = bio
+Line 465: ,
+Line 465: ID = i
+Line 465: )
+Line 465: {
+Line 466: char
+Line 466: *
+Line 466: ID = addr
+Line 466: =
+Line 466: ID = page_address
+Line 466: (
+Line 466: ID = bvec
+Line 466: -
+Line 466: >
+Line 466: ID = bv_page
+Line 466: )
+Line 466: ;
+Line 468: if
+Line 468: (
+Line 468: ID = copy_from_user
+Line 468: (
+Line 468: ID = addr
+Line 468: ,
+Line 468: (
+Line 468: char
+Line 468: *
+Line 468: )
+Line 468: ID = uaddr
+Line 468: ,
+Line 468: ID = bvec
+Line 468: -
+Line 468: >
+Line 468: ID = bv_len
+Line 468: )
+Line 468: )
+Line 469: ID = goto
+Line 469: ID = cleanup
+Line 469: ;
+Line 470: }
+Line 471: }
+Line 473: ID = bio
+Line 473: -
+Line 473: >
+Line 473: ID = bi_private
+Line 473: =
+Line 473: (
+Line 473: void
+Line 473: *
+Line 473: )
+Line 473: ID = uaddr
+Line 473: ;
+Line 474: return
+Line 474: ID = bio
+Line 474: ;
+Line 475: }
+Line 480: ID = cleanup
+Line 480: Unrecognized token: 58
+Line 481: ID = bio_for_each_segment
+Line 481: (
+Line 481: ID = bvec
+Line 481: ,
+Line 481: ID = bio
+Line 481: ,
+Line 481: ID = i
+Line 481: )
+Line 482: Unrecognized token: 95
+Line 482: Unrecognized token: 95
+Line 482: ID = free_page
+Line 482: (
+Line 482: ID = bvec
+Line 482: -
+Line 482: >
+Line 482: ID = bv_page
+Line 482: )
+Line 482: ;
+Line 484: ID = bio_put
+Line 484: (
+Line 484: ID = bio
+Line 484: )
+Line 484: ;
+Line 485: return
+Line 485: ID = ERR_PTR
+Line 485: (
+Line 485: ID = ret
+Line 485: )
+Line 485: ;
+Line 486: }
+Line 488: ID = static
+Line 488: ID = struct
+Line 488: ID = bio
+Line 488: *
+Line 488: Unrecognized token: 95
+Line 488: Unrecognized token: 95
+Line 488: ID = bio_map_user
+Line 488: (
+Line 488: ID = request_queue_t
+Line 488: *
+Line 488: ID = q
+Line 488: ,
+Line 488: ID = struct
+Line 488: ID = block_device
+Line 488: *
+Line 488: ID = bdev
+Line 488: ,
+Line 489: ID = unsigned
+Line 489: ID = long
+Line 489: ID = uaddr
+Line 489: ,
+Line 489: ID = unsigned
+Line 489: int
+Line 489: ID = len
+Line 489: ,
+Line 490: int
+Line 490: ID = write_to_vm
+Line 490: )
+Line 491: {
+Line 492: ID = unsigned
+Line 492: ID = long
+Line 492: ID = end
+Line 492: =
+Line 492: (
+Line 492: ID = uaddr
+Line 492: +
+Line 492: ID = len
+Line 492: +
+Line 492: ID = PAGE_SIZE
+Line 492: -
+Line 492: INTCON = 1
+Line 492: )
+Line 492: >
+Line 492: >
+Line 492: ID = PAGE_SHIFT
+Line 492: ;
+Line 493: ID = unsigned
+Line 493: ID = long
+Line 493: ID = start
+Line 493: =
+Line 493: ID = uaddr
+Line 493: >
+Line 493: >
+Line 493: ID = PAGE_SHIFT
+Line 493: ;
+Line 494: ID = const
+Line 494: int
+Line 494: ID = nr_pages
+Line 494: =
+Line 494: ID = end
+Line 494: -
+Line 494: ID = start
+Line 494: ;
+Line 495: int
+Line 495: ID = ret
+Line 495: ,
+Line 495: ID = offset
+Line 495: ,
+Line 495: ID = i
+Line 495: ;
+Line 496: ID = struct
+Line 496: ID = page
+Line 496: *
+Line 496: *
+Line 496: ID = pages
+Line 496: ;
+Line 497: ID = struct
+Line 497: ID = bio
+Line 497: *
+Line 497: ID = bio
+Line 497: ;
+Line 503: if
+Line 503: (
+Line 503: (
+Line 503: ID = uaddr
+Line 503: Unrecognized token: 38
+Line 503: ID = queue_dma_alignment
+Line 503: (
+Line 503: ID = q
+Line 503: )
+Line 503: )
+Line 503: ||
+Line 503: (
+Line 503: ID = len
+Line 503: Unrecognized token: 38
+Line 503: ID = queue_dma_alignment
+Line 503: (
+Line 503: ID = q
+Line 503: )
+Line 503: )
+Line 503: )
+Line 504: return
+Line 504: ID = ERR_PTR
+Line 504: (
+Line 504: -
+Line 504: ID = EINVAL
+Line 504: )
+Line 504: ;
+Line 506: ID = bio
+Line 506: =
+Line 506: ID = bio_alloc
+Line 506: (
+Line 506: ID = GFP_KERNEL
+Line 506: ,
+Line 506: ID = nr_pages
+Line 506: )
+Line 506: ;
+Line 507: if
+Line 507: (
+Line 507: !
+Line 507: ID = bio
+Line 507: )
+Line 508: return
+Line 508: ID = ERR_PTR
+Line 508: (
+Line 508: -
+Line 508: ID = ENOMEM
+Line 508: )
+Line 508: ;
+Line 510: ID = ret
+Line 510: =
+Line 510: -
+Line 510: ID = ENOMEM
+Line 510: ;
+Line 511: ID = pages
+Line 511: =
+Line 511: ID = kmalloc
+Line 511: (
+Line 511: ID = nr_pages
+Line 511: *
+Line 511: ID = sizeof
+Line 511: (
+Line 511: ID = struct
+Line 511: ID = page
+Line 511: *
+Line 511: )
+Line 511: ,
+Line 511: ID = GFP_KERNEL
+Line 511: )
+Line 511: ;
+Line 512: if
+Line 512: (
+Line 512: !
+Line 512: ID = pages
+Line 512: )
+Line 513: ID = goto
+Line 513: ID = out
+Line 513: ;
+Line 515: ID = down_read
+Line 515: (
+Line 515: Unrecognized token: 38
+Line 515: ID = current
+Line 515: -
+Line 515: >
+Line 515: ID = mm
+Line 515: -
+Line 515: >
+Line 515: ID = mmap_sem
+Line 515: )
+Line 515: ;
+Line 516: ID = ret
+Line 516: =
+Line 516: ID = get_user_pages
+Line 516: (
+Line 516: ID = current
+Line 516: ,
+Line 516: ID = current
+Line 516: -
+Line 516: >
+Line 516: ID = mm
+Line 516: ,
+Line 516: ID = uaddr
+Line 516: ,
+Line 516: ID = nr_pages
+Line 516: ,
+Line 517: ID = write_to_vm
+Line 517: ,
+Line 517: INTCON = 0
+Line 517: ,
+Line 517: ID = pages
+Line 517: ,
+Line 517: ID = NULL
+Line 517: )
+Line 517: ;
+Line 518: ID = up_read
+Line 518: (
+Line 518: Unrecognized token: 38
+Line 518: ID = current
+Line 518: -
+Line 518: >
+Line 518: ID = mm
+Line 518: -
+Line 518: >
+Line 518: ID = mmap_sem
+Line 518: )
+Line 518: ;
+Line 520: if
+Line 520: (
+Line 520: ID = ret
+Line 520: <
+Line 520: ID = nr_pages
+Line 520: )
+Line 521: ID = goto
+Line 521: ID = out
+Line 521: ;
+Line 523: ID = bio
+Line 523: -
+Line 523: >
+Line 523: ID = bi_bdev
+Line 523: =
+Line 523: ID = bdev
+Line 523: ;
+Line 525: ID = offset
+Line 525: =
+Line 525: ID = uaddr
+Line 525: Unrecognized token: 38
+Line 525: Unrecognized token: 126
+Line 525: ID = PAGE_MASK
+Line 525: ;
+Line 526: for
+Line 526: (
+Line 526: ID = i
+Line 526: =
+Line 526: INTCON = 0
+Line 526: ;
+Line 526: ID = i
+Line 526: <
+Line 526: ID = nr_pages
+Line 526: ;
+Line 526: ID = i
+Line 526: +
+Line 526: +
+Line 526: )
+Line 526: {
+Line 527: ID = unsigned
+Line 527: int
+Line 527: ID = bytes
+Line 527: =
+Line 527: ID = PAGE_SIZE
+Line 527: -
+Line 527: ID = offset
+Line 527: ;
+Line 529: if
+Line 529: (
+Line 529: ID = len
+Line 529: <=
+Line 529: INTCON = 0
+Line 529: )
+Line 530: ID = break
+Line 530: ;
+Line 532: if
+Line 532: (
+Line 532: ID = bytes
+Line 532: >
+Line 532: ID = len
+Line 532: )
+Line 533: ID = bytes
+Line 533: =
+Line 533: ID = len
+Line 533: ;
+Line 538: if
+Line 538: (
+Line 538: Unrecognized token: 95
+Line 538: Unrecognized token: 95
+Line 538: ID = bio_add_page
+Line 538: (
+Line 538: ID = q
+Line 538: ,
+Line 538: ID = bio
+Line 538: ,
+Line 538: ID = pages
+Line 538: [
+Line 538: ID = i
+Line 538: ]
+Line 538: ,
+Line 538: ID = bytes
+Line 538: ,
+Line 538: ID = offset
+Line 538: )
+Line 538: <
+Line 538: ID = bytes
+Line 538: )
+Line 539: ID = break
+Line 539: ;
+Line 541: ID = len
+Line 541: -
+Line 541: =
+Line 541: ID = bytes
+Line 541: ;
+Line 542: ID = offset
+Line 542: =
+Line 542: INTCON = 0
+Line 542: ;
+Line 543: }
+Line 548: while
+Line 548: (
+Line 548: ID = i
+Line 548: <
+Line 548: ID = nr_pages
+Line 548: )
+Line 549: ID = page_cache_release
+Line 549: (
+Line 549: ID = pages
+Line 549: [
+Line 549: ID = i
+Line 549: +
+Line 549: +
+Line 549: ]
+Line 549: )
+Line 549: ;
+Line 551: ID = kfree
+Line 551: (
+Line 551: ID = pages
+Line 551: )
+Line 551: ;
+Line 556: if
+Line 556: (
+Line 556: !
+Line 556: ID = write_to_vm
+Line 556: )
+Line 557: ID = bio
+Line 557: -
+Line 557: >
+Line 557: ID = bi_rw
+Line 557: Unrecognized token: 124
+Line 557: =
+Line 557: (
+Line 557: INTCON = 1
+Line 557: <
+Line 557: <
+Line 557: ID = BIO_RW
+Line 557: )
+Line 557: ;
+Line 559: ID = bio
+Line 559: -
+Line 559: >
+Line 559: ID = bi_flags
+Line 559: Unrecognized token: 124
+Line 559: =
+Line 559: (
+Line 559: INTCON = 1
+Line 559: <
+Line 559: <
+Line 559: ID = BIO_USER_MAPPED
+Line 559: )
+Line 559: ;
+Line 560: return
+Line 560: ID = bio
+Line 560: ;
+Line 561: ID = out
+Line 561: Unrecognized token: 58
+Line 562: ID = kfree
+Line 562: (
+Line 562: ID = pages
+Line 562: )
+Line 562: ;
+Line 563: ID = bio_put
+Line 563: (
+Line 563: ID = bio
+Line 563: )
+Line 563: ;
+Line 564: return
+Line 564: ID = ERR_PTR
+Line 564: (
+Line 564: ID = ret
+Line 564: )
+Line 564: ;
+Line 565: }
+Line 577: ID = struct
+Line 577: ID = bio
+Line 577: *
+Line 577: ID = bio_map_user
+Line 577: (
+Line 577: ID = request_queue_t
+Line 577: *
+Line 577: ID = q
+Line 577: ,
+Line 577: ID = struct
+Line 577: ID = block_device
+Line 577: *
+Line 577: ID = bdev
+Line 577: ,
+Line 578: ID = unsigned
+Line 578: ID = long
+Line 578: ID = uaddr
+Line 578: ,
+Line 578: ID = unsigned
+Line 578: int
+Line 578: ID = len
+Line 578: ,
+Line 578: int
+Line 578: ID = write_to_vm
+Line 578: )
+Line 579: {
+Line 580: ID = struct
+Line 580: ID = bio
+Line 580: *
+Line 580: ID = bio
+Line 580: ;
+Line 582: ID = bio
+Line 582: =
+Line 582: Unrecognized token: 95
+Line 582: Unrecognized token: 95
+Line 582: ID = bio_map_user
+Line 582: (
+Line 582: ID = q
+Line 582: ,
+Line 582: ID = bdev
+Line 582: ,
+Line 582: ID = uaddr
+Line 582: ,
+Line 582: ID = len
+Line 582: ,
+Line 582: ID = write_to_vm
+Line 582: )
+Line 582: ;
+Line 584: if
+Line 584: (
+Line 584: ID = IS_ERR
+Line 584: (
+Line 584: ID = bio
+Line 584: )
+Line 584: )
+Line 585: return
+Line 585: ID = bio
+Line 585: ;
+Line 593: ID = bio_get
+Line 593: (
+Line 593: ID = bio
+Line 593: )
+Line 593: ;
+Line 595: if
+Line 595: (
+Line 595: ID = bio
+Line 595: -
+Line 595: >
+Line 595: ID = bi_size
+Line 595: ==
+Line 595: ID = len
+Line 595: )
+Line 596: return
+Line 596: ID = bio
+Line 596: ;
+Line 601: ID = bio_endio
+Line 601: (
+Line 601: ID = bio
+Line 601: ,
+Line 601: ID = bio
+Line 601: -
+Line 601: >
+Line 601: ID = bi_size
+Line 601: ,
+Line 601: INTCON = 0
+Line 601: )
+Line 601: ;
+Line 602: ID = bio_unmap_user
+Line 602: (
+Line 602: ID = bio
+Line 602: )
+Line 602: ;
+Line 603: return
+Line 603: ID = ERR_PTR
+Line 603: (
+Line 603: -
+Line 603: ID = EINVAL
+Line 603: )
+Line 603: ;
+Line 604: }
+Line 606: ID = static
+Line 606: void
+Line 606: Unrecognized token: 95
+Line 606: Unrecognized token: 95
+Line 606: ID = bio_unmap_user
+Line 606: (
+Line 606: ID = struct
+Line 606: ID = bio
+Line 606: *
+Line 606: ID = bio
+Line 606: )
+Line 607: {
+Line 608: ID = struct
+Line 608: ID = bio_vec
+Line 608: *
+Line 608: ID = bvec
+Line 608: ;
+Line 609: int
+Line 609: ID = i
+Line 609: ;
+Line 614: if
+Line 614: (
+Line 614: ID = bio
+Line 614: -
+Line 614: >
+Line 614: ID = bi_private
+Line 614: )
+Line 614: {
+Line 618: ID = BUG_ON
+Line 618: (
+Line 618: !
+Line 618: ID = bio_flagged
+Line 618: (
+Line 618: ID = bio
+Line 618: ,
+Line 618: ID = BIO_BOUNCED
+Line 618: )
+Line 618: )
+Line 618: ;
+Line 620: ID = bio
+Line 620: =
+Line 620: ID = bio
+Line 620: -
+Line 620: >
+Line 620: ID = bi_private
+Line 620: ;
+Line 621: }
+Line 626: Unrecognized token: 95
+Line 626: Unrecognized token: 95
+Line 626: ID = bio_for_each_segment
+Line 626: (
+Line 626: ID = bvec
+Line 626: ,
+Line 626: ID = bio
+Line 626: ,
+Line 626: ID = i
+Line 626: ,
+Line 626: INTCON = 0
+Line 626: )
+Line 626: {
+Line 627: if
+Line 627: (
+Line 627: ID = bio_data_dir
+Line 627: (
+Line 627: ID = bio
+Line 627: )
+Line 627: ==
+Line 627: ID = READ
+Line 627: )
+Line 628: ID = set_page_dirty_lock
+Line 628: (
+Line 628: ID = bvec
+Line 628: -
+Line 628: >
+Line 628: ID = bv_page
+Line 628: )
+Line 628: ;
+Line 630: ID = page_cache_release
+Line 630: (
+Line 630: ID = bvec
+Line 630: -
+Line 630: >
+Line 630: ID = bv_page
+Line 630: )
+Line 630: ;
+Line 631: }
+Line 633: ID = bio_put
+Line 633: (
+Line 633: ID = bio
+Line 633: )
+Line 633: ;
+Line 634: }
+Line 645: void
+Line 645: ID = bio_unmap_user
+Line 645: (
+Line 645: ID = struct
+Line 645: ID = bio
+Line 645: *
+Line 645: ID = bio
+Line 645: )
+Line 646: {
+Line 647: Unrecognized token: 95
+Line 647: Unrecognized token: 95
+Line 647: ID = bio_unmap_user
+Line 647: (
+Line 647: ID = bio
+Line 647: )
+Line 647: ;
+Line 648: ID = bio_put
+Line 648: (
+Line 648: ID = bio
+Line 648: )
+Line 648: ;
+Line 649: }
+Line 680: void
+Line 680: ID = bio_set_pages_dirty
+Line 680: (
+Line 680: ID = struct
+Line 680: ID = bio
+Line 680: *
+Line 680: ID = bio
+Line 680: )
+Line 681: {
+Line 682: ID = struct
+Line 682: ID = bio_vec
+Line 682: *
+Line 682: ID = bvec
+Line 682: =
+Line 682: ID = bio
+Line 682: -
+Line 682: >
+Line 682: ID = bi_io_vec
+Line 682: ;
+Line 683: int
+Line 683: ID = i
+Line 683: ;
+Line 685: for
+Line 685: (
+Line 685: ID = i
+Line 685: =
+Line 685: INTCON = 0
+Line 685: ;
+Line 685: ID = i
+Line 685: <
+Line 685: ID = bio
+Line 685: -
+Line 685: >
+Line 685: ID = bi_vcnt
+Line 685: ;
+Line 685: ID = i
+Line 685: +
+Line 685: +
+Line 685: )
+Line 685: {
+Line 686: ID = struct
+Line 686: ID = page
+Line 686: *
+Line 686: ID = page
+Line 686: =
+Line 686: ID = bvec
+Line 686: [
+Line 686: ID = i
+Line 686: ]
+Line 686: Unrecognized token: 46
+Line 686: ID = bv_page
+Line 686: ;
+Line 688: if
+Line 688: (
+Line 688: ID = page
+Line 688: &&
+Line 688: !
+Line 688: ID = PageCompound
+Line 688: (
+Line 688: ID = page
+Line 688: )
+Line 688: )
+Line 689: ID = set_page_dirty_lock
+Line 689: (
+Line 689: ID = page
+Line 689: )
+Line 689: ;
+Line 690: }
+Line 691: }
+Line 693: ID = static
+Line 693: void
+Line 693: ID = bio_release_pages
+Line 693: (
+Line 693: ID = struct
+Line 693: ID = bio
+Line 693: *
+Line 693: ID = bio
+Line 693: )
+Line 694: {
+Line 695: ID = struct
+Line 695: ID = bio_vec
+Line 695: *
+Line 695: ID = bvec
+Line 695: =
+Line 695: ID = bio
+Line 695: -
+Line 695: >
+Line 695: ID = bi_io_vec
+Line 695: ;
+Line 696: int
+Line 696: ID = i
+Line 696: ;
+Line 698: for
+Line 698: (
+Line 698: ID = i
+Line 698: =
+Line 698: INTCON = 0
+Line 698: ;
+Line 698: ID = i
+Line 698: <
+Line 698: ID = bio
+Line 698: -
+Line 698: >
+Line 698: ID = bi_vcnt
+Line 698: ;
+Line 698: ID = i
+Line 698: +
+Line 698: +
+Line 698: )
+Line 698: {
+Line 699: ID = struct
+Line 699: ID = page
+Line 699: *
+Line 699: ID = page
+Line 699: =
+Line 699: ID = bvec
+Line 699: [
+Line 699: ID = i
+Line 699: ]
+Line 699: Unrecognized token: 46
+Line 699: ID = bv_page
+Line 699: ;
+Line 701: if
+Line 701: (
+Line 701: ID = page
+Line 701: )
+Line 702: ID = put_page
+Line 702: (
+Line 702: ID = page
+Line 702: )
+Line 702: ;
+Line 703: }
+Line 704: }
+Line 717: ID = static
+Line 717: void
+Line 717: ID = bio_dirty_fn
+Line 717: (
+Line 717: void
+Line 717: *
+Line 717: ID = data
+Line 717: )
+Line 717: ;
+Line 719: ID = static
+Line 719: ID = DECLARE_WORK
+Line 719: (
+Line 719: ID = bio_dirty_work
+Line 719: ,
+Line 719: ID = bio_dirty_fn
+Line 719: ,
+Line 719: ID = NULL
+Line 719: )
+Line 719: ;
+Line 720: ID = static
+Line 720: ID = spinlock_t
+Line 720: ID = bio_dirty_lock
+Line 720: =
+Line 720: ID = SPIN_LOCK_UNLOCKED
+Line 720: ;
+Line 721: ID = static
+Line 721: ID = struct
+Line 721: ID = bio
+Line 721: *
+Line 721: ID = bio_dirty_list
+Line 721: ;
+Line 726: ID = static
+Line 726: void
+Line 726: ID = bio_dirty_fn
+Line 726: (
+Line 726: void
+Line 726: *
+Line 726: ID = data
+Line 726: )
+Line 727: {
+Line 728: ID = unsigned
+Line 728: ID = long
+Line 728: ID = flags
+Line 728: ;
+Line 729: ID = struct
+Line 729: ID = bio
+Line 729: *
+Line 729: ID = bio
+Line 729: ;
+Line 731: ID = spin_lock_irqsave
+Line 731: (
+Line 731: Unrecognized token: 38
+Line 731: ID = bio_dirty_lock
+Line 731: ,
+Line 731: ID = flags
+Line 731: )
+Line 731: ;
+Line 732: ID = bio
+Line 732: =
+Line 732: ID = bio_dirty_list
+Line 732: ;
+Line 733: ID = bio_dirty_list
+Line 733: =
+Line 733: ID = NULL
+Line 733: ;
+Line 734: ID = spin_unlock_irqrestore
+Line 734: (
+Line 734: Unrecognized token: 38
+Line 734: ID = bio_dirty_lock
+Line 734: ,
+Line 734: ID = flags
+Line 734: )
+Line 734: ;
+Line 736: while
+Line 736: (
+Line 736: ID = bio
+Line 736: )
+Line 736: {
+Line 737: ID = struct
+Line 737: ID = bio
+Line 737: *
+Line 737: ID = next
+Line 737: =
+Line 737: ID = bio
+Line 737: -
+Line 737: >
+Line 737: ID = bi_private
+Line 737: ;
+Line 739: ID = bio_set_pages_dirty
+Line 739: (
+Line 739: ID = bio
+Line 739: )
+Line 739: ;
+Line 740: ID = bio_release_pages
+Line 740: (
+Line 740: ID = bio
+Line 740: )
+Line 740: ;
+Line 741: ID = bio_put
+Line 741: (
+Line 741: ID = bio
+Line 741: )
+Line 741: ;
+Line 742: ID = bio
+Line 742: =
+Line 742: ID = next
+Line 742: ;
+Line 743: }
+Line 744: }
+Line 746: void
+Line 746: ID = bio_check_pages_dirty
+Line 746: (
+Line 746: ID = struct
+Line 746: ID = bio
+Line 746: *
+Line 746: ID = bio
+Line 746: )
+Line 747: {
+Line 748: ID = struct
+Line 748: ID = bio_vec
+Line 748: *
+Line 748: ID = bvec
+Line 748: =
+Line 748: ID = bio
+Line 748: -
+Line 748: >
+Line 748: ID = bi_io_vec
+Line 748: ;
+Line 749: int
+Line 749: ID = nr_clean_pages
+Line 749: =
+Line 749: INTCON = 0
+Line 749: ;
+Line 750: int
+Line 750: ID = i
+Line 750: ;
+Line 752: for
+Line 752: (
+Line 752: ID = i
+Line 752: =
+Line 752: INTCON = 0
+Line 752: ;
+Line 752: ID = i
+Line 752: <
+Line 752: ID = bio
+Line 752: -
+Line 752: >
+Line 752: ID = bi_vcnt
+Line 752: ;
+Line 752: ID = i
+Line 752: +
+Line 752: +
+Line 752: )
+Line 752: {
+Line 753: ID = struct
+Line 753: ID = page
+Line 753: *
+Line 753: ID = page
+Line 753: =
+Line 753: ID = bvec
+Line 753: [
+Line 753: ID = i
+Line 753: ]
+Line 753: Unrecognized token: 46
+Line 753: ID = bv_page
+Line 753: ;
+Line 755: if
+Line 755: (
+Line 755: ID = PageDirty
+Line 755: (
+Line 755: ID = page
+Line 755: )
+Line 755: ||
+Line 755: ID = PageCompound
+Line 755: (
+Line 755: ID = page
+Line 755: )
+Line 755: )
+Line 755: {
+Line 756: ID = page_cache_release
+Line 756: (
+Line 756: ID = page
+Line 756: )
+Line 756: ;
+Line 757: ID = bvec
+Line 757: [
+Line 757: ID = i
+Line 757: ]
+Line 757: Unrecognized token: 46
+Line 757: ID = bv_page
+Line 757: =
+Line 757: ID = NULL
+Line 757: ;
+Line 758: }
+Line 758: else
+Line 758: {
+Line 759: ID = nr_clean_pages
+Line 759: +
+Line 759: +
+Line 759: ;
+Line 760: }
+Line 761: }
+Line 763: if
+Line 763: (
+Line 763: ID = nr_clean_pages
+Line 763: )
+Line 763: {
+Line 764: ID = unsigned
+Line 764: ID = long
+Line 764: ID = flags
+Line 764: ;
+Line 766: ID = spin_lock_irqsave
+Line 766: (
+Line 766: Unrecognized token: 38
+Line 766: ID = bio_dirty_lock
+Line 766: ,
+Line 766: ID = flags
+Line 766: )
+Line 766: ;
+Line 767: ID = bio
+Line 767: -
+Line 767: >
+Line 767: ID = bi_private
+Line 767: =
+Line 767: ID = bio_dirty_list
+Line 767: ;
+Line 768: ID = bio_dirty_list
+Line 768: =
+Line 768: ID = bio
+Line 768: ;
+Line 769: ID = spin_unlock_irqrestore
+Line 769: (
+Line 769: Unrecognized token: 38
+Line 769: ID = bio_dirty_lock
+Line 769: ,
+Line 769: ID = flags
+Line 769: )
+Line 769: ;
+Line 770: ID = schedule_work
+Line 770: (
+Line 770: Unrecognized token: 38
+Line 770: ID = bio_dirty_work
+Line 770: )
+Line 770: ;
+Line 771: }
+Line 771: else
+Line 771: {
+Line 772: ID = bio_put
+Line 772: (
+Line 772: ID = bio
+Line 772: )
+Line 772: ;
+Line 773: }
+Line 774: }
+Line 791: void
+Line 791: ID = bio_endio
+Line 791: (
+Line 791: ID = struct
+Line 791: ID = bio
+Line 791: *
+Line 791: ID = bio
+Line 791: ,
+Line 791: ID = unsigned
+Line 791: int
+Line 791: ID = bytes_done
+Line 791: ,
+Line 791: int
+Line 791: ID = error
+Line 791: )
+Line 792: {
+Line 793: if
+Line 793: (
+Line 793: ID = error
+Line 793: )
+Line 794: ID = clear_bit
+Line 794: (
+Line 794: ID = BIO_UPTODATE
+Line 794: ,
+Line 794: Unrecognized token: 38
+Line 794: ID = bio
+Line 794: -
+Line 794: >
+Line 794: ID = bi_flags
+Line 794: )
+Line 794: ;
+Line 796: if
+Line 796: (
+Line 796: ID = unlikely
+Line 796: (
+Line 796: ID = bytes_done
+Line 796: >
+Line 796: ID = bio
+Line 796: -
+Line 796: >
+Line 796: ID = bi_size
+Line 796: )
+Line 796: )
+Line 796: {
+Line 797: ID = printk
+Line 797: (
+Line 797: STRINGCON = "%s: want %u bytes done, only %u left\n"
+Line 797: ,
+Line 797: Unrecognized token: 95
+Line 797: Unrecognized token: 95
+Line 797: ID = FUNCTION__
+Line 797: ,
+Line 798: ID = bytes_done
+Line 798: ,
+Line 798: ID = bio
+Line 798: -
+Line 798: >
+Line 798: ID = bi_size
+Line 798: )
+Line 798: ;
+Line 799: ID = bytes_done
+Line 799: =
+Line 799: ID = bio
+Line 799: -
+Line 799: >
+Line 799: ID = bi_size
+Line 799: ;
+Line 800: }
+Line 802: ID = bio
+Line 802: -
+Line 802: >
+Line 802: ID = bi_size
+Line 802: -
+Line 802: =
+Line 802: ID = bytes_done
+Line 802: ;
+Line 803: ID = bio
+Line 803: -
+Line 803: >
+Line 803: ID = bi_sector
+Line 803: +
+Line 803: =
+Line 803: (
+Line 803: ID = bytes_done
+Line 803: >
+Line 803: >
+Line 803: INTCON = 9
+Line 803: )
+Line 803: ;
+Line 805: if
+Line 805: (
+Line 805: ID = bio
+Line 805: -
+Line 805: >
+Line 805: ID = bi_end_io
+Line 805: )
+Line 806: ID = bio
+Line 806: -
+Line 806: >
+Line 806: ID = bi_end_io
+Line 806: (
+Line 806: ID = bio
+Line 806: ,
+Line 806: ID = bytes_done
+Line 806: ,
+Line 806: ID = error
+Line 806: )
+Line 806: ;
+Line 807: }
+Line 809: void
+Line 809: ID = bio_pair_release
+Line 809: (
+Line 809: ID = struct
+Line 809: ID = bio_pair
+Line 809: *
+Line 809: ID = bp
+Line 809: )
+Line 810: {
+Line 811: if
+Line 811: (
+Line 811: ID = atomic_dec_and_test
+Line 811: (
+Line 811: Unrecognized token: 38
+Line 811: ID = bp
+Line 811: -
+Line 811: >
+Line 811: ID = cnt
+Line 811: )
+Line 811: )
+Line 811: {
+Line 812: ID = struct
+Line 812: ID = bio
+Line 812: *
+Line 812: ID = master
+Line 812: =
+Line 812: ID = bp
+Line 812: -
+Line 812: >
+Line 812: ID = bio1
+Line 812: Unrecognized token: 46
+Line 812: ID = bi_private
+Line 812: ;
+Line 814: ID = bio_endio
+Line 814: (
+Line 814: ID = master
+Line 814: ,
+Line 814: ID = master
+Line 814: -
+Line 814: >
+Line 814: ID = bi_size
+Line 814: ,
+Line 814: ID = bp
+Line 814: -
+Line 814: >
+Line 814: ID = error
+Line 814: )
+Line 814: ;
+Line 815: ID = mempool_free
+Line 815: (
+Line 815: ID = bp
+Line 815: ,
+Line 815: ID = bp
+Line 815: -
+Line 815: >
+Line 815: ID = bio2
+Line 815: Unrecognized token: 46
+Line 815: ID = bi_private
+Line 815: )
+Line 815: ;
+Line 816: }
+Line 817: }
+Line 819: ID = static
+Line 819: int
+Line 819: ID = bio_pair_end_1
+Line 819: (
+Line 819: ID = struct
+Line 819: ID = bio
+Line 819: *
+Line 819: ID = bi
+Line 819: ,
+Line 819: ID = unsigned
+Line 819: int
+Line 819: ID = done
+Line 819: ,
+Line 819: int
+Line 819: ID = err
+Line 819: )
+Line 820: {
+Line 821: ID = struct
+Line 821: ID = bio_pair
+Line 821: *
+Line 821: ID = bp
+Line 821: =
+Line 821: ID = container_of
+Line 821: (
+Line 821: ID = bi
+Line 821: ,
+Line 821: ID = struct
+Line 821: ID = bio_pair
+Line 821: ,
+Line 821: ID = bio1
+Line 821: )
+Line 821: ;
+Line 823: if
+Line 823: (
+Line 823: ID = err
+Line 823: )
+Line 824: ID = bp
+Line 824: -
+Line 824: >
+Line 824: ID = error
+Line 824: =
+Line 824: ID = err
+Line 824: ;
+Line 826: if
+Line 826: (
+Line 826: ID = bi
+Line 826: -
+Line 826: >
+Line 826: ID = bi_size
+Line 826: )
+Line 827: return
+Line 827: INTCON = 1
+Line 827: ;
+Line 829: ID = bio_pair_release
+Line 829: (
+Line 829: ID = bp
+Line 829: )
+Line 829: ;
+Line 830: return
+Line 830: INTCON = 0
+Line 830: ;
+Line 831: }
+Line 833: ID = static
+Line 833: int
+Line 833: ID = bio_pair_end_2
+Line 833: (
+Line 833: ID = struct
+Line 833: ID = bio
+Line 833: *
+Line 833: ID = bi
+Line 833: ,
+Line 833: ID = unsigned
+Line 833: int
+Line 833: ID = done
+Line 833: ,
+Line 833: int
+Line 833: ID = err
+Line 833: )
+Line 834: {
+Line 835: ID = struct
+Line 835: ID = bio_pair
+Line 835: *
+Line 835: ID = bp
+Line 835: =
+Line 835: ID = container_of
+Line 835: (
+Line 835: ID = bi
+Line 835: ,
+Line 835: ID = struct
+Line 835: ID = bio_pair
+Line 835: ,
+Line 835: ID = bio2
+Line 835: )
+Line 835: ;
+Line 837: if
+Line 837: (
+Line 837: ID = err
+Line 837: )
+Line 838: ID = bp
+Line 838: -
+Line 838: >
+Line 838: ID = error
+Line 838: =
+Line 838: ID = err
+Line 838: ;
+Line 840: if
+Line 840: (
+Line 840: ID = bi
+Line 840: -
+Line 840: >
+Line 840: ID = bi_size
+Line 840: )
+Line 841: return
+Line 841: INTCON = 1
+Line 841: ;
+Line 843: ID = bio_pair_release
+Line 843: (
+Line 843: ID = bp
+Line 843: )
+Line 843: ;
+Line 844: return
+Line 844: INTCON = 0
+Line 844: ;
+Line 845: }
+Line 851: ID = struct
+Line 851: ID = bio_pair
+Line 851: *
+Line 851: ID = bio_split
+Line 851: (
+Line 851: ID = struct
+Line 851: ID = bio
+Line 851: *
+Line 851: ID = bi
+Line 851: ,
+Line 851: ID = mempool_t
+Line 851: *
+Line 851: ID = pool
+Line 851: ,
+Line 851: int
+Line 851: ID = first_sectors
+Line 851: )
+Line 852: {
+Line 853: ID = struct
+Line 853: ID = bio_pair
+Line 853: *
+Line 853: ID = bp
+Line 853: =
+Line 853: ID = mempool_alloc
+Line 853: (
+Line 853: ID = pool
+Line 853: ,
+Line 853: ID = GFP_NOIO
+Line 853: )
+Line 853: ;
+Line 855: if
+Line 855: (
+Line 855: !
+Line 855: ID = bp
+Line 855: )
+Line 856: return
+Line 856: ID = bp
+Line 856: ;
+Line 858: ID = BUG_ON
+Line 858: (
+Line 858: ID = bi
+Line 858: -
+Line 858: >
+Line 858: ID = bi_vcnt
+Line 858: !=
+Line 858: INTCON = 1
+Line 858: )
+Line 858: ;
+Line 859: ID = BUG_ON
+Line 859: (
+Line 859: ID = bi
+Line 859: -
+Line 859: >
+Line 859: ID = bi_idx
+Line 859: !=
+Line 859: INTCON = 0
+Line 859: )
+Line 859: ;
+Line 860: ID = atomic_set
+Line 860: (
+Line 860: Unrecognized token: 38
+Line 860: ID = bp
+Line 860: -
+Line 860: >
+Line 860: ID = cnt
+Line 860: ,
+Line 860: INTCON = 3
+Line 860: )
+Line 860: ;
+Line 861: ID = bp
+Line 861: -
+Line 861: >
+Line 861: ID = error
+Line 861: =
+Line 861: INTCON = 0
+Line 861: ;
+Line 862: ID = bp
+Line 862: -
+Line 862: >
+Line 862: ID = bio1
+Line 862: =
+Line 862: *
+Line 862: ID = bi
+Line 862: ;
+Line 863: ID = bp
+Line 863: -
+Line 863: >
+Line 863: ID = bio2
+Line 863: =
+Line 863: *
+Line 863: ID = bi
+Line 863: ;
+Line 864: ID = bp
+Line 864: -
+Line 864: >
+Line 864: ID = bio2
+Line 864: Unrecognized token: 46
+Line 864: ID = bi_sector
+Line 864: +
+Line 864: =
+Line 864: ID = first_sectors
+Line 864: ;
+Line 865: ID = bp
+Line 865: -
+Line 865: >
+Line 865: ID = bio2
+Line 865: Unrecognized token: 46
+Line 865: ID = bi_size
+Line 865: -
+Line 865: =
+Line 865: ID = first_sectors
+Line 865: <
+Line 865: <
+Line 865: INTCON = 9
+Line 865: ;
+Line 866: ID = bp
+Line 866: -
+Line 866: >
+Line 866: ID = bio1
+Line 866: Unrecognized token: 46
+Line 866: ID = bi_size
+Line 866: =
+Line 866: ID = first_sectors
+Line 866: <
+Line 866: <
+Line 866: INTCON = 9
+Line 866: ;
+Line 868: ID = bp
+Line 868: -
+Line 868: >
+Line 868: ID = bv1
+Line 868: =
+Line 868: ID = bi
+Line 868: -
+Line 868: >
+Line 868: ID = bi_io_vec
+Line 868: [
+Line 868: INTCON = 0
+Line 868: ]
+Line 868: ;
+Line 869: ID = bp
+Line 869: -
+Line 869: >
+Line 869: ID = bv2
+Line 869: =
+Line 869: ID = bi
+Line 869: -
+Line 869: >
+Line 869: ID = bi_io_vec
+Line 869: [
+Line 869: INTCON = 0
+Line 869: ]
+Line 869: ;
+Line 870: ID = bp
+Line 870: -
+Line 870: >
+Line 870: ID = bv2
+Line 870: Unrecognized token: 46
+Line 870: ID = bv_offset
+Line 870: +
+Line 870: =
+Line 870: ID = first_sectors
+Line 870: <
+Line 870: <
+Line 870: INTCON = 9
+Line 870: ;
+Line 871: ID = bp
+Line 871: -
+Line 871: >
+Line 871: ID = bv2
+Line 871: Unrecognized token: 46
+Line 871: ID = bv_len
+Line 871: -
+Line 871: =
+Line 871: ID = first_sectors
+Line 871: <
+Line 871: <
+Line 871: INTCON = 9
+Line 871: ;
+Line 872: ID = bp
+Line 872: -
+Line 872: >
+Line 872: ID = bv1
+Line 872: Unrecognized token: 46
+Line 872: ID = bv_len
+Line 872: =
+Line 872: ID = first_sectors
+Line 872: <
+Line 872: <
+Line 872: INTCON = 9
+Line 872: ;
+Line 874: ID = bp
+Line 874: -
+Line 874: >
+Line 874: ID = bio1
+Line 874: Unrecognized token: 46
+Line 874: ID = bi_io_vec
+Line 874: =
+Line 874: Unrecognized token: 38
+Line 874: ID = bp
+Line 874: -
+Line 874: >
+Line 874: ID = bv1
+Line 874: ;
+Line 875: ID = bp
+Line 875: -
+Line 875: >
+Line 875: ID = bio2
+Line 875: Unrecognized token: 46
+Line 875: ID = bi_io_vec
+Line 875: =
+Line 875: Unrecognized token: 38
+Line 875: ID = bp
+Line 875: -
+Line 875: >
+Line 875: ID = bv2
+Line 875: ;
+Line 877: ID = bp
+Line 877: -
+Line 877: >
+Line 877: ID = bio1
+Line 877: Unrecognized token: 46
+Line 877: ID = bi_end_io
+Line 877: =
+Line 877: ID = bio_pair_end_1
+Line 877: ;
+Line 878: ID = bp
+Line 878: -
+Line 878: >
+Line 878: ID = bio2
+Line 878: Unrecognized token: 46
+Line 878: ID = bi_end_io
+Line 878: =
+Line 878: ID = bio_pair_end_2
+Line 878: ;
+Line 880: ID = bp
+Line 880: -
+Line 880: >
+Line 880: ID = bio1
+Line 880: Unrecognized token: 46
+Line 880: ID = bi_private
+Line 880: =
+Line 880: ID = bi
+Line 880: ;
+Line 881: ID = bp
+Line 881: -
+Line 881: >
+Line 881: ID = bio2
+Line 881: Unrecognized token: 46
+Line 881: ID = bi_private
+Line 881: =
+Line 881: ID = pool
+Line 881: ;
+Line 883: return
+Line 883: ID = bp
+Line 883: ;
+Line 884: }
+Line 886: ID = static
+Line 886: void
+Line 886: *
+Line 886: ID = bio_pair_alloc
+Line 886: (
+Line 886: int
+Line 886: ID = gfp_flags
+Line 886: ,
+Line 886: void
+Line 886: *
+Line 886: ID = data
+Line 886: )
+Line 887: {
+Line 888: return
+Line 888: ID = kmalloc
+Line 888: (
+Line 888: ID = sizeof
+Line 888: (
+Line 888: ID = struct
+Line 888: ID = bio_pair
+Line 888: )
+Line 888: ,
+Line 888: ID = gfp_flags
+Line 888: )
+Line 888: ;
+Line 889: }
+Line 891: ID = static
+Line 891: void
+Line 891: ID = bio_pair_free
+Line 891: (
+Line 891: void
+Line 891: *
+Line 891: ID = bp
+Line 891: ,
+Line 891: void
+Line 891: *
+Line 891: ID = data
+Line 891: )
+Line 892: {
+Line 893: ID = kfree
+Line 893: (
+Line 893: ID = bp
+Line 893: )
+Line 893: ;
+Line 894: }
+Line 896: ID = static
+Line 896: void
+Line 896: Unrecognized token: 95
+Line 896: Unrecognized token: 95
+Line 896: ID = init
+Line 896: ID = biovec_init_pools
+Line 896: (
+Line 896: void
+Line 896: )
+Line 897: {
+Line 898: int
+Line 898: ID = i
+Line 898: ,
+Line 898: ID = size
+Line 898: ,
+Line 898: ID = megabytes
+Line 898: ,
+Line 898: ID = pool_entries
+Line 898: =
+Line 898: ID = BIO_POOL_SIZE
+Line 898: ;
+Line 899: int
+Line 899: ID = scale
+Line 899: =
+Line 899: ID = BIOVEC_NR_POOLS
+Line 899: ;
+Line 901: ID = megabytes
+Line 901: =
+Line 901: ID = nr_free_pages
+Line 901: (
+Line 901: )
+Line 901: >
+Line 901: >
+Line 901: (
+Line 901: INTCON = 20
+Line 901: -
+Line 901: ID = PAGE_SHIFT
+Line 901: )
+Line 901: ;
+Line 906: if
+Line 906: (
+Line 906: ID = megabytes
+Line 906: <=
+Line 906: INTCON = 16
+Line 906: )
+Line 907: ID = scale
+Line 907: =
+Line 907: INTCON = 0
+Line 907: ;
+Line 908: else
+Line 908: if
+Line 908: (
+Line 908: ID = megabytes
+Line 908: <=
+Line 908: INTCON = 32
+Line 908: )
+Line 909: ID = scale
+Line 909: =
+Line 909: INTCON = 1
+Line 909: ;
+Line 910: else
+Line 910: if
+Line 910: (
+Line 910: ID = megabytes
+Line 910: <=
+Line 910: INTCON = 64
+Line 910: )
+Line 911: ID = scale
+Line 911: =
+Line 911: INTCON = 2
+Line 911: ;
+Line 912: else
+Line 912: if
+Line 912: (
+Line 912: ID = megabytes
+Line 912: <=
+Line 912: INTCON = 96
+Line 912: )
+Line 913: ID = scale
+Line 913: =
+Line 913: INTCON = 3
+Line 913: ;
+Line 914: else
+Line 914: if
+Line 914: (
+Line 914: ID = megabytes
+Line 914: <=
+Line 914: INTCON = 128
+Line 914: )
+Line 915: ID = scale
+Line 915: =
+Line 915: INTCON = 4
+Line 915: ;
+Line 920: ID = pool_entries
+Line 920: =
+Line 920: ID = megabytes
+Line 920: *
+Line 920: INTCON = 2
+Line 920: ;
+Line 921: if
+Line 921: (
+Line 921: ID = pool_entries
+Line 921: >
+Line 921: INTCON = 256
+Line 921: )
+Line 922: ID = pool_entries
+Line 922: =
+Line 922: INTCON = 256
+Line 922: ;
+Line 924: for
+Line 924: (
+Line 924: ID = i
+Line 924: =
+Line 924: INTCON = 0
+Line 924: ;
+Line 924: ID = i
+Line 924: <
+Line 924: ID = BIOVEC_NR_POOLS
+Line 924: ;
+Line 924: ID = i
+Line 924: +
+Line 924: +
+Line 924: )
+Line 924: {
+Line 925: ID = struct
+Line 925: ID = biovec_pool
+Line 925: *
+Line 925: ID = bp
+Line 925: =
+Line 925: ID = bvec_array
+Line 925: +
+Line 925: ID = i
+Line 925: ;
+Line 927: ID = size
+Line 927: =
+Line 927: ID = bp
+Line 927: -
+Line 927: >
+Line 927: ID = nr_vecs
+Line 927: *
+Line 927: ID = sizeof
+Line 927: (
+Line 927: ID = struct
+Line 927: ID = bio_vec
+Line 927: )
+Line 927: ;
+Line 929: ID = bp
+Line 929: -
+Line 929: >
+Line 929: ID = slab
+Line 929: =
+Line 929: ID = kmem_cache_create
+Line 929: (
+Line 929: ID = bp
+Line 929: -
+Line 929: >
+Line 929: ID = name
+Line 929: ,
+Line 929: ID = size
+Line 929: ,
+Line 929: INTCON = 0
+Line 929: ,
+Line 930: ID = SLAB_HWCACHE_ALIGN
+Line 930: Unrecognized token: 124
+Line 930: ID = SLAB_PANIC
+Line 930: ,
+Line 930: ID = NULL
+Line 930: ,
+Line 930: ID = NULL
+Line 930: )
+Line 930: ;
+Line 932: if
+Line 932: (
+Line 932: ID = i
+Line 932: >=
+Line 932: ID = scale
+Line 932: )
+Line 933: ID = pool_entries
+Line 933: >
+Line 933: >=
+Line 933: INTCON = 1
+Line 933: ;
+Line 935: ID = bp
+Line 935: -
+Line 935: >
+Line 935: ID = pool
+Line 935: =
+Line 935: ID = mempool_create
+Line 935: (
+Line 935: ID = pool_entries
+Line 935: ,
+Line 935: ID = mempool_alloc_slab
+Line 935: ,
+Line 936: ID = mempool_free_slab
+Line 936: ,
+Line 936: ID = bp
+Line 936: -
+Line 936: >
+Line 936: ID = slab
+Line 936: )
+Line 936: ;
+Line 937: if
+Line 937: (
+Line 937: !
+Line 937: ID = bp
+Line 937: -
+Line 937: >
+Line 937: ID = pool
+Line 937: )
+Line 938: ID = panic
+Line 938: (
+Line 938: STRINGCON = "biovec: can't init mempool\n"
+Line 938: )
+Line 938: ;
+Line 939: }
+Line 940: }
+Line 942: ID = static
+Line 942: int
+Line 942: Unrecognized token: 95
+Line 942: Unrecognized token: 95
+Line 942: ID = init
+Line 942: ID = init_bio
+Line 942: (
+Line 942: void
+Line 942: )
+Line 943: {
+Line 944: ID = bio_slab
+Line 944: =
+Line 944: ID = kmem_cache_create
+Line 944: (
+Line 944: STRINGCON = "bio"
+Line 944: ,
+Line 944: ID = sizeof
+Line 944: (
+Line 944: ID = struct
+Line 944: ID = bio
+Line 944: )
+Line 944: ,
+Line 944: INTCON = 0
+Line 944: ,
+Line 945: ID = SLAB_HWCACHE_ALIGN
+Line 945: Unrecognized token: 124
+Line 945: ID = SLAB_PANIC
+Line 945: ,
+Line 945: ID = NULL
+Line 945: ,
+Line 945: ID = NULL
+Line 945: )
+Line 945: ;
+Line 946: ID = bio_pool
+Line 946: =
+Line 946: ID = mempool_create
+Line 946: (
+Line 946: ID = BIO_POOL_SIZE
+Line 946: ,
+Line 946: ID = mempool_alloc_slab
+Line 946: ,
+Line 947: ID = mempool_free_slab
+Line 947: ,
+Line 947: ID = bio_slab
+Line 947: )
+Line 947: ;
+Line 948: if
+Line 948: (
+Line 948: !
+Line 948: ID = bio_pool
+Line 948: )
+Line 949: ID = panic
+Line 949: (
+Line 949: STRINGCON = "bio: can't create mempool\n"
+Line 949: )
+Line 949: ;
+Line 951: ID = biovec_init_pools
+Line 951: (
+Line 951: )
+Line 951: ;
+Line 953: ID = bio_split_pool
+Line 953: =
+Line 953: ID = mempool_create
+Line 953: (
+Line 953: ID = BIO_SPLIT_ENTRIES
+Line 953: ,
+Line 954: ID = bio_pair_alloc
+Line 954: ,
+Line 954: ID = bio_pair_free
+Line 954: ,
+Line 954: ID = NULL
+Line 954: )
+Line 954: ;
+Line 955: if
+Line 955: (
+Line 955: !
+Line 955: ID = bio_split_pool
+Line 955: )
+Line 956: ID = panic
+Line 956: (
+Line 956: STRINGCON = "bio: can't create split pool\n"
+Line 956: )
+Line 956: ;
+Line 958: return
+Line 958: INTCON = 0
+Line 958: ;
+Line 959: }
+Line 961: ID = subsys_initcall
+Line 961: (
+Line 961: ID = init_bio
+Line 961: )
+Line 961: ;
+Line 963: ID = EXPORT_SYMBOL
+Line 963: (
+Line 963: ID = bio_alloc
+Line 963: )
+Line 963: ;
+Line 964: ID = EXPORT_SYMBOL
+Line 964: (
+Line 964: ID = bio_put
+Line 964: )
+Line 964: ;
+Line 965: ID = EXPORT_SYMBOL
+Line 965: (
+Line 965: ID = bio_endio
+Line 965: )
+Line 965: ;
+Line 966: ID = EXPORT_SYMBOL
+Line 966: (
+Line 966: ID = bio_init
+Line 966: )
+Line 966: ;
+Line 967: ID = EXPORT_SYMBOL
+Line 967: (
+Line 967: Unrecognized token: 95
+Line 967: Unrecognized token: 95
+Line 967: ID = bio_clone
+Line 967: )
+Line 967: ;
+Line 968: ID = EXPORT_SYMBOL
+Line 968: (
+Line 968: ID = bio_clone
+Line 968: )
+Line 968: ;
+Line 969: ID = EXPORT_SYMBOL
+Line 969: (
+Line 969: ID = bio_phys_segments
+Line 969: )
+Line 969: ;
+Line 970: ID = EXPORT_SYMBOL
+Line 970: (
+Line 970: ID = bio_hw_segments
+Line 970: )
+Line 970: ;
+Line 971: ID = EXPORT_SYMBOL
+Line 971: (
+Line 971: ID = bio_add_page
+Line 971: )
+Line 971: ;
+Line 972: ID = EXPORT_SYMBOL
+Line 972: (
+Line 972: ID = bio_get_nr_vecs
+Line 972: )
+Line 972: ;
+Line 973: ID = EXPORT_SYMBOL
+Line 973: (
+Line 973: ID = bio_map_user
+Line 973: )
+Line 973: ;
+Line 974: ID = EXPORT_SYMBOL
+Line 974: (
+Line 974: ID = bio_unmap_user
+Line 974: )
+Line 974: ;
+Line 975: ID = EXPORT_SYMBOL
+Line 975: (
+Line 975: ID = bio_pair_release
+Line 975: )
+Line 975: ;
+Line 976: ID = EXPORT_SYMBOL
+Line 976: (
+Line 976: ID = bio_split
+Line 976: )
+Line 976: ;
+Line 977: ID = EXPORT_SYMBOL
+Line 977: (
+Line 977: ID = bio_split_pool
+Line 977: )
+Line 977: ;
+Line 978: ID = EXPORT_SYMBOL
+Line 978: (
+Line 978: ID = bio_copy_user
+Line 978: )
+Line 978: ;
+Line 979: ID = EXPORT_SYMBOL
+Line 979: (
+Line 979: ID = bio_uncopy_user
+Line 979: )
+Line 979: ;
+Line 980: -EOF-

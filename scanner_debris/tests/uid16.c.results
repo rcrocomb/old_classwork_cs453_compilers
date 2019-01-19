@@ -1,0 +1,1000 @@
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = mm
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = utsname
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = mman
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = smp_lock
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = notifier
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = reboot
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = prctl
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = init
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = highuid
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = security
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = syscalls
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = asm
+Line 18: /
+Line 18: ID = uaccess
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 20: ID = asmlinkage
+Line 20: ID = long
+Line 20: ID = sys_chown16
+Line 20: (
+Line 20: ID = const
+Line 20: char
+Line 20: Unrecognized token: 95
+Line 20: Unrecognized token: 95
+Line 20: ID = user
+Line 20: *
+Line 20: ID = filename
+Line 20: ,
+Line 20: ID = old_uid_t
+Line 20: ID = user
+Line 20: ,
+Line 20: ID = old_gid_t
+Line 20: ID = group
+Line 20: )
+Line 21: {
+Line 22: return
+Line 22: ID = sys_chown
+Line 22: (
+Line 22: ID = filename
+Line 22: ,
+Line 22: ID = low2highuid
+Line 22: (
+Line 22: ID = user
+Line 22: )
+Line 22: ,
+Line 22: ID = low2highgid
+Line 22: (
+Line 22: ID = group
+Line 22: )
+Line 22: )
+Line 22: ;
+Line 23: }
+Line 25: ID = asmlinkage
+Line 25: ID = long
+Line 25: ID = sys_lchown16
+Line 25: (
+Line 25: ID = const
+Line 25: char
+Line 25: Unrecognized token: 95
+Line 25: Unrecognized token: 95
+Line 25: ID = user
+Line 25: *
+Line 25: ID = filename
+Line 25: ,
+Line 25: ID = old_uid_t
+Line 25: ID = user
+Line 25: ,
+Line 25: ID = old_gid_t
+Line 25: ID = group
+Line 25: )
+Line 26: {
+Line 27: return
+Line 27: ID = sys_lchown
+Line 27: (
+Line 27: ID = filename
+Line 27: ,
+Line 27: ID = low2highuid
+Line 27: (
+Line 27: ID = user
+Line 27: )
+Line 27: ,
+Line 27: ID = low2highgid
+Line 27: (
+Line 27: ID = group
+Line 27: )
+Line 27: )
+Line 27: ;
+Line 28: }
+Line 30: ID = asmlinkage
+Line 30: ID = long
+Line 30: ID = sys_fchown16
+Line 30: (
+Line 30: ID = unsigned
+Line 30: int
+Line 30: ID = fd
+Line 30: ,
+Line 30: ID = old_uid_t
+Line 30: ID = user
+Line 30: ,
+Line 30: ID = old_gid_t
+Line 30: ID = group
+Line 30: )
+Line 31: {
+Line 32: return
+Line 32: ID = sys_fchown
+Line 32: (
+Line 32: ID = fd
+Line 32: ,
+Line 32: ID = low2highuid
+Line 32: (
+Line 32: ID = user
+Line 32: )
+Line 32: ,
+Line 32: ID = low2highgid
+Line 32: (
+Line 32: ID = group
+Line 32: )
+Line 32: )
+Line 32: ;
+Line 33: }
+Line 35: ID = asmlinkage
+Line 35: ID = long
+Line 35: ID = sys_setregid16
+Line 35: (
+Line 35: ID = old_gid_t
+Line 35: ID = rgid
+Line 35: ,
+Line 35: ID = old_gid_t
+Line 35: ID = egid
+Line 35: )
+Line 36: {
+Line 37: return
+Line 37: ID = sys_setregid
+Line 37: (
+Line 37: ID = low2highgid
+Line 37: (
+Line 37: ID = rgid
+Line 37: )
+Line 37: ,
+Line 37: ID = low2highgid
+Line 37: (
+Line 37: ID = egid
+Line 37: )
+Line 37: )
+Line 37: ;
+Line 38: }
+Line 40: ID = asmlinkage
+Line 40: ID = long
+Line 40: ID = sys_setgid16
+Line 40: (
+Line 40: ID = old_gid_t
+Line 40: ID = gid
+Line 40: )
+Line 41: {
+Line 42: return
+Line 42: ID = sys_setgid
+Line 42: (
+Line 42: ID = low2highgid
+Line 42: (
+Line 42: ID = gid
+Line 42: )
+Line 42: )
+Line 42: ;
+Line 43: }
+Line 45: ID = asmlinkage
+Line 45: ID = long
+Line 45: ID = sys_setreuid16
+Line 45: (
+Line 45: ID = old_uid_t
+Line 45: ID = ruid
+Line 45: ,
+Line 45: ID = old_uid_t
+Line 45: ID = euid
+Line 45: )
+Line 46: {
+Line 47: return
+Line 47: ID = sys_setreuid
+Line 47: (
+Line 47: ID = low2highuid
+Line 47: (
+Line 47: ID = ruid
+Line 47: )
+Line 47: ,
+Line 47: ID = low2highuid
+Line 47: (
+Line 47: ID = euid
+Line 47: )
+Line 47: )
+Line 47: ;
+Line 48: }
+Line 50: ID = asmlinkage
+Line 50: ID = long
+Line 50: ID = sys_setuid16
+Line 50: (
+Line 50: ID = old_uid_t
+Line 50: ID = uid
+Line 50: )
+Line 51: {
+Line 52: return
+Line 52: ID = sys_setuid
+Line 52: (
+Line 52: ID = low2highuid
+Line 52: (
+Line 52: ID = uid
+Line 52: )
+Line 52: )
+Line 52: ;
+Line 53: }
+Line 55: ID = asmlinkage
+Line 55: ID = long
+Line 55: ID = sys_setresuid16
+Line 55: (
+Line 55: ID = old_uid_t
+Line 55: ID = ruid
+Line 55: ,
+Line 55: ID = old_uid_t
+Line 55: ID = euid
+Line 55: ,
+Line 55: ID = old_uid_t
+Line 55: ID = suid
+Line 55: )
+Line 56: {
+Line 57: return
+Line 57: ID = sys_setresuid
+Line 57: (
+Line 57: ID = low2highuid
+Line 57: (
+Line 57: ID = ruid
+Line 57: )
+Line 57: ,
+Line 57: ID = low2highuid
+Line 57: (
+Line 57: ID = euid
+Line 57: )
+Line 57: ,
+Line 58: ID = low2highuid
+Line 58: (
+Line 58: ID = suid
+Line 58: )
+Line 58: )
+Line 58: ;
+Line 59: }
+Line 61: ID = asmlinkage
+Line 61: ID = long
+Line 61: ID = sys_getresuid16
+Line 61: (
+Line 61: ID = old_uid_t
+Line 61: Unrecognized token: 95
+Line 61: Unrecognized token: 95
+Line 61: ID = user
+Line 61: *
+Line 61: ID = ruid
+Line 61: ,
+Line 61: ID = old_uid_t
+Line 61: Unrecognized token: 95
+Line 61: Unrecognized token: 95
+Line 61: ID = user
+Line 61: *
+Line 61: ID = euid
+Line 61: ,
+Line 61: ID = old_uid_t
+Line 61: Unrecognized token: 95
+Line 61: Unrecognized token: 95
+Line 61: ID = user
+Line 61: *
+Line 61: ID = suid
+Line 61: )
+Line 62: {
+Line 63: int
+Line 63: ID = retval
+Line 63: ;
+Line 65: if
+Line 65: (
+Line 65: !
+Line 65: (
+Line 65: ID = retval
+Line 65: =
+Line 65: ID = put_user
+Line 65: (
+Line 65: ID = high2lowuid
+Line 65: (
+Line 65: ID = current
+Line 65: -
+Line 65: >
+Line 65: ID = uid
+Line 65: )
+Line 65: ,
+Line 65: ID = ruid
+Line 65: )
+Line 65: )
+Line 65: &&
+Line 66: !
+Line 66: (
+Line 66: ID = retval
+Line 66: =
+Line 66: ID = put_user
+Line 66: (
+Line 66: ID = high2lowuid
+Line 66: (
+Line 66: ID = current
+Line 66: -
+Line 66: >
+Line 66: ID = euid
+Line 66: )
+Line 66: ,
+Line 66: ID = euid
+Line 66: )
+Line 66: )
+Line 66: )
+Line 67: ID = retval
+Line 67: =
+Line 67: ID = put_user
+Line 67: (
+Line 67: ID = high2lowuid
+Line 67: (
+Line 67: ID = current
+Line 67: -
+Line 67: >
+Line 67: ID = suid
+Line 67: )
+Line 67: ,
+Line 67: ID = suid
+Line 67: )
+Line 67: ;
+Line 69: return
+Line 69: ID = retval
+Line 69: ;
+Line 70: }
+Line 72: ID = asmlinkage
+Line 72: ID = long
+Line 72: ID = sys_setresgid16
+Line 72: (
+Line 72: ID = old_gid_t
+Line 72: ID = rgid
+Line 72: ,
+Line 72: ID = old_gid_t
+Line 72: ID = egid
+Line 72: ,
+Line 72: ID = old_gid_t
+Line 72: ID = sgid
+Line 72: )
+Line 73: {
+Line 74: return
+Line 74: ID = sys_setresgid
+Line 74: (
+Line 74: ID = low2highgid
+Line 74: (
+Line 74: ID = rgid
+Line 74: )
+Line 74: ,
+Line 74: ID = low2highgid
+Line 74: (
+Line 74: ID = egid
+Line 74: )
+Line 74: ,
+Line 75: ID = low2highgid
+Line 75: (
+Line 75: ID = sgid
+Line 75: )
+Line 75: )
+Line 75: ;
+Line 76: }
+Line 78: ID = asmlinkage
+Line 78: ID = long
+Line 78: ID = sys_getresgid16
+Line 78: (
+Line 78: ID = old_gid_t
+Line 78: Unrecognized token: 95
+Line 78: Unrecognized token: 95
+Line 78: ID = user
+Line 78: *
+Line 78: ID = rgid
+Line 78: ,
+Line 78: ID = old_gid_t
+Line 78: Unrecognized token: 95
+Line 78: Unrecognized token: 95
+Line 78: ID = user
+Line 78: *
+Line 78: ID = egid
+Line 78: ,
+Line 78: ID = old_gid_t
+Line 78: Unrecognized token: 95
+Line 78: Unrecognized token: 95
+Line 78: ID = user
+Line 78: *
+Line 78: ID = sgid
+Line 78: )
+Line 79: {
+Line 80: int
+Line 80: ID = retval
+Line 80: ;
+Line 82: if
+Line 82: (
+Line 82: !
+Line 82: (
+Line 82: ID = retval
+Line 82: =
+Line 82: ID = put_user
+Line 82: (
+Line 82: ID = high2lowgid
+Line 82: (
+Line 82: ID = current
+Line 82: -
+Line 82: >
+Line 82: ID = gid
+Line 82: )
+Line 82: ,
+Line 82: ID = rgid
+Line 82: )
+Line 82: )
+Line 82: &&
+Line 83: !
+Line 83: (
+Line 83: ID = retval
+Line 83: =
+Line 83: ID = put_user
+Line 83: (
+Line 83: ID = high2lowgid
+Line 83: (
+Line 83: ID = current
+Line 83: -
+Line 83: >
+Line 83: ID = egid
+Line 83: )
+Line 83: ,
+Line 83: ID = egid
+Line 83: )
+Line 83: )
+Line 83: )
+Line 84: ID = retval
+Line 84: =
+Line 84: ID = put_user
+Line 84: (
+Line 84: ID = high2lowgid
+Line 84: (
+Line 84: ID = current
+Line 84: -
+Line 84: >
+Line 84: ID = sgid
+Line 84: )
+Line 84: ,
+Line 84: ID = sgid
+Line 84: )
+Line 84: ;
+Line 86: return
+Line 86: ID = retval
+Line 86: ;
+Line 87: }
+Line 89: ID = asmlinkage
+Line 89: ID = long
+Line 89: ID = sys_setfsuid16
+Line 89: (
+Line 89: ID = old_uid_t
+Line 89: ID = uid
+Line 89: )
+Line 90: {
+Line 91: return
+Line 91: ID = sys_setfsuid
+Line 91: (
+Line 91: ID = low2highuid
+Line 91: (
+Line 91: ID = uid
+Line 91: )
+Line 91: )
+Line 91: ;
+Line 92: }
+Line 94: ID = asmlinkage
+Line 94: ID = long
+Line 94: ID = sys_setfsgid16
+Line 94: (
+Line 94: ID = old_gid_t
+Line 94: ID = gid
+Line 94: )
+Line 95: {
+Line 96: return
+Line 96: ID = sys_setfsgid
+Line 96: (
+Line 96: ID = low2highgid
+Line 96: (
+Line 96: ID = gid
+Line 96: )
+Line 96: )
+Line 96: ;
+Line 97: }
+Line 99: ID = static
+Line 99: int
+Line 99: ID = groups16_to_user
+Line 99: (
+Line 99: ID = old_gid_t
+Line 99: Unrecognized token: 95
+Line 99: Unrecognized token: 95
+Line 99: ID = user
+Line 99: *
+Line 99: ID = grouplist
+Line 99: ,
+Line 100: ID = struct
+Line 100: ID = group_info
+Line 100: *
+Line 100: ID = group_info
+Line 100: )
+Line 101: {
+Line 102: int
+Line 102: ID = i
+Line 102: ;
+Line 103: ID = old_gid_t
+Line 103: ID = group
+Line 103: ;
+Line 105: for
+Line 105: (
+Line 105: ID = i
+Line 105: =
+Line 105: INTCON = 0
+Line 105: ;
+Line 105: ID = i
+Line 105: <
+Line 105: ID = group_info
+Line 105: -
+Line 105: >
+Line 105: ID = ngroups
+Line 105: ;
+Line 105: ID = i
+Line 105: +
+Line 105: +
+Line 105: )
+Line 105: {
+Line 106: ID = group
+Line 106: =
+Line 106: ID = high2lowgid
+Line 106: (
+Line 106: ID = GROUP_AT
+Line 106: (
+Line 106: ID = group_info
+Line 106: ,
+Line 106: ID = i
+Line 106: )
+Line 106: )
+Line 106: ;
+Line 107: if
+Line 107: (
+Line 107: ID = put_user
+Line 107: (
+Line 107: ID = group
+Line 107: ,
+Line 107: ID = grouplist
+Line 107: +
+Line 107: ID = i
+Line 107: )
+Line 107: )
+Line 108: return
+Line 108: -
+Line 108: ID = EFAULT
+Line 108: ;
+Line 109: }
+Line 111: return
+Line 111: INTCON = 0
+Line 111: ;
+Line 112: }
+Line 114: ID = static
+Line 114: int
+Line 114: ID = groups16_from_user
+Line 114: (
+Line 114: ID = struct
+Line 114: ID = group_info
+Line 114: *
+Line 114: ID = group_info
+Line 114: ,
+Line 115: ID = old_gid_t
+Line 115: Unrecognized token: 95
+Line 115: Unrecognized token: 95
+Line 115: ID = user
+Line 115: *
+Line 115: ID = grouplist
+Line 115: )
+Line 116: {
+Line 117: int
+Line 117: ID = i
+Line 117: ;
+Line 118: ID = old_gid_t
+Line 118: ID = group
+Line 118: ;
+Line 120: for
+Line 120: (
+Line 120: ID = i
+Line 120: =
+Line 120: INTCON = 0
+Line 120: ;
+Line 120: ID = i
+Line 120: <
+Line 120: ID = group_info
+Line 120: -
+Line 120: >
+Line 120: ID = ngroups
+Line 120: ;
+Line 120: ID = i
+Line 120: +
+Line 120: +
+Line 120: )
+Line 120: {
+Line 121: if
+Line 121: (
+Line 121: ID = get_user
+Line 121: (
+Line 121: ID = group
+Line 121: ,
+Line 121: ID = grouplist
+Line 121: +
+Line 121: ID = i
+Line 121: )
+Line 121: )
+Line 122: return
+Line 122: -
+Line 122: ID = EFAULT
+Line 122: ;
+Line 123: ID = GROUP_AT
+Line 123: (
+Line 123: ID = group_info
+Line 123: ,
+Line 123: ID = i
+Line 123: )
+Line 123: =
+Line 123: ID = low2highgid
+Line 123: (
+Line 123: ID = group
+Line 123: )
+Line 123: ;
+Line 124: }
+Line 126: return
+Line 126: INTCON = 0
+Line 126: ;
+Line 127: }
+Line 129: ID = asmlinkage
+Line 129: ID = long
+Line 129: ID = sys_getgroups16
+Line 129: (
+Line 129: int
+Line 129: ID = gidsetsize
+Line 129: ,
+Line 129: ID = old_gid_t
+Line 129: Unrecognized token: 95
+Line 129: Unrecognized token: 95
+Line 129: ID = user
+Line 129: *
+Line 129: ID = grouplist
+Line 129: )
+Line 130: {
+Line 131: int
+Line 131: ID = i
+Line 131: =
+Line 131: INTCON = 0
+Line 131: ;
+Line 133: if
+Line 133: (
+Line 133: ID = gidsetsize
+Line 133: <
+Line 133: INTCON = 0
+Line 133: )
+Line 134: return
+Line 134: -
+Line 134: ID = EINVAL
+Line 134: ;
+Line 136: ID = get_group_info
+Line 136: (
+Line 136: ID = current
+Line 136: -
+Line 136: >
+Line 136: ID = group_info
+Line 136: )
+Line 136: ;
+Line 137: ID = i
+Line 137: =
+Line 137: ID = current
+Line 137: -
+Line 137: >
+Line 137: ID = group_info
+Line 137: -
+Line 137: >
+Line 137: ID = ngroups
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = gidsetsize
+Line 138: )
+Line 138: {
+Line 139: if
+Line 139: (
+Line 139: ID = i
+Line 139: >
+Line 139: ID = gidsetsize
+Line 139: )
+Line 139: {
+Line 140: ID = i
+Line 140: =
+Line 140: -
+Line 140: ID = EINVAL
+Line 140: ;
+Line 141: ID = goto
+Line 141: ID = out
+Line 141: ;
+Line 142: }
+Line 143: if
+Line 143: (
+Line 143: ID = groups16_to_user
+Line 143: (
+Line 143: ID = grouplist
+Line 143: ,
+Line 143: ID = current
+Line 143: -
+Line 143: >
+Line 143: ID = group_info
+Line 143: )
+Line 143: )
+Line 143: {
+Line 144: ID = i
+Line 144: =
+Line 144: -
+Line 144: ID = EFAULT
+Line 144: ;
+Line 145: ID = goto
+Line 145: ID = out
+Line 145: ;
+Line 146: }
+Line 147: }
+Line 148: ID = out
+Line 148: Unrecognized token: 58
+Line 149: ID = put_group_info
+Line 149: (
+Line 149: ID = current
+Line 149: -
+Line 149: >
+Line 149: ID = group_info
+Line 149: )
+Line 149: ;
+Line 150: return
+Line 150: ID = i
+Line 150: ;
+Line 151: }
+Line 153: ID = asmlinkage
+Line 153: ID = long
+Line 153: ID = sys_setgroups16
+Line 153: (
+Line 153: int
+Line 153: ID = gidsetsize
+Line 153: ,
+Line 153: ID = old_gid_t
+Line 153: Unrecognized token: 95
+Line 153: Unrecognized token: 95
+Line 153: ID = user
+Line 153: *
+Line 153: ID = grouplist
+Line 153: )
+Line 154: {
+Line 155: ID = struct
+Line 155: ID = group_info
+Line 155: *
+Line 155: ID = group_info
+Line 155: ;
+Line 156: int
+Line 156: ID = retval
+Line 156: ;
+Line 158: if
+Line 158: (
+Line 158: !
+Line 158: ID = capable
+Line 158: (
+Line 158: ID = CAP_SETGID
+Line 158: )
+Line 158: )
+Line 159: return
+Line 159: -
+Line 159: ID = EPERM
+Line 159: ;
+Line 160: if
+Line 160: (
+Line 160: (
+Line 160: ID = unsigned
+Line 160: )
+Line 160: ID = gidsetsize
+Line 160: >
+Line 160: ID = NGROUPS_MAX
+Line 160: )
+Line 161: return
+Line 161: -
+Line 161: ID = EINVAL
+Line 161: ;
+Line 163: ID = group_info
+Line 163: =
+Line 163: ID = groups_alloc
+Line 163: (
+Line 163: ID = gidsetsize
+Line 163: )
+Line 163: ;
+Line 164: if
+Line 164: (
+Line 164: !
+Line 164: ID = group_info
+Line 164: )
+Line 165: return
+Line 165: -
+Line 165: ID = ENOMEM
+Line 165: ;
+Line 166: ID = retval
+Line 166: =
+Line 166: ID = groups16_from_user
+Line 166: (
+Line 166: ID = group_info
+Line 166: ,
+Line 166: ID = grouplist
+Line 166: )
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: ID = retval
+Line 167: )
+Line 167: {
+Line 168: ID = put_group_info
+Line 168: (
+Line 168: ID = group_info
+Line 168: )
+Line 168: ;
+Line 169: return
+Line 169: ID = retval
+Line 169: ;
+Line 170: }
+Line 172: ID = retval
+Line 172: =
+Line 172: ID = set_current_groups
+Line 172: (
+Line 172: ID = group_info
+Line 172: )
+Line 172: ;
+Line 173: ID = put_group_info
+Line 173: (
+Line 173: ID = group_info
+Line 173: )
+Line 173: ;
+Line 175: return
+Line 175: ID = retval
+Line 175: ;
+Line 176: }
+Line 178: ID = asmlinkage
+Line 178: ID = long
+Line 178: ID = sys_getuid16
+Line 178: (
+Line 178: void
+Line 178: )
+Line 179: {
+Line 180: return
+Line 180: ID = high2lowuid
+Line 180: (
+Line 180: ID = current
+Line 180: -
+Line 180: >
+Line 180: ID = uid
+Line 180: )
+Line 180: ;
+Line 181: }
+Line 183: ID = asmlinkage
+Line 183: ID = long
+Line 183: ID = sys_geteuid16
+Line 183: (
+Line 183: void
+Line 183: )
+Line 184: {
+Line 185: return
+Line 185: ID = high2lowuid
+Line 185: (
+Line 185: ID = current
+Line 185: -
+Line 185: >
+Line 185: ID = euid
+Line 185: )
+Line 185: ;
+Line 186: }
+Line 188: ID = asmlinkage
+Line 188: ID = long
+Line 188: ID = sys_getgid16
+Line 188: (
+Line 188: void
+Line 188: )
+Line 189: {
+Line 190: return
+Line 190: ID = high2lowgid
+Line 190: (
+Line 190: ID = current
+Line 190: -
+Line 190: >
+Line 190: ID = gid
+Line 190: )
+Line 190: ;
+Line 191: }
+Line 193: ID = asmlinkage
+Line 193: ID = long
+Line 193: ID = sys_getegid16
+Line 193: (
+Line 193: void
+Line 193: )
+Line 194: {
+Line 195: return
+Line 195: ID = high2lowgid
+Line 195: (
+Line 195: ID = current
+Line 195: -
+Line 195: >
+Line 195: ID = egid
+Line 195: )
+Line 195: ;
+Line 196: }
+Line 197: -EOF-

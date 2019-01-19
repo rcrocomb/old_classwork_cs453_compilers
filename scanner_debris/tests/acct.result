@@ -1,0 +1,2042 @@
+Line 46: Unrecognized token: 35
+Line 46: ID = include
+Line 46: <
+Line 46: ID = linux
+Line 46: /
+Line 46: ID = config
+Line 46: Unrecognized token: 46
+Line 46: ID = h
+Line 46: >
+Line 47: Unrecognized token: 35
+Line 47: ID = include
+Line 47: <
+Line 47: ID = linux
+Line 47: /
+Line 47: ID = mm
+Line 47: Unrecognized token: 46
+Line 47: ID = h
+Line 47: >
+Line 48: Unrecognized token: 35
+Line 48: ID = include
+Line 48: <
+Line 48: ID = linux
+Line 48: /
+Line 48: ID = slab
+Line 48: Unrecognized token: 46
+Line 48: ID = h
+Line 48: >
+Line 49: Unrecognized token: 35
+Line 49: ID = include
+Line 49: <
+Line 49: ID = linux
+Line 49: /
+Line 49: ID = acct
+Line 49: Unrecognized token: 46
+Line 49: ID = h
+Line 49: >
+Line 50: Unrecognized token: 35
+Line 50: ID = include
+Line 50: <
+Line 50: ID = linux
+Line 50: /
+Line 50: ID = file
+Line 50: Unrecognized token: 46
+Line 50: ID = h
+Line 50: >
+Line 51: Unrecognized token: 35
+Line 51: ID = include
+Line 51: <
+Line 51: ID = linux
+Line 51: /
+Line 51: ID = tty
+Line 51: Unrecognized token: 46
+Line 51: ID = h
+Line 51: >
+Line 52: Unrecognized token: 35
+Line 52: ID = include
+Line 52: <
+Line 52: ID = linux
+Line 52: /
+Line 52: ID = security
+Line 52: Unrecognized token: 46
+Line 52: ID = h
+Line 52: >
+Line 53: Unrecognized token: 35
+Line 53: ID = include
+Line 53: <
+Line 53: ID = linux
+Line 53: /
+Line 53: ID = vfs
+Line 53: Unrecognized token: 46
+Line 53: ID = h
+Line 53: >
+Line 54: Unrecognized token: 35
+Line 54: ID = include
+Line 54: <
+Line 54: ID = linux
+Line 54: /
+Line 54: ID = jiffies
+Line 54: Unrecognized token: 46
+Line 54: ID = h
+Line 54: >
+Line 55: Unrecognized token: 35
+Line 55: ID = include
+Line 55: <
+Line 55: ID = linux
+Line 55: /
+Line 55: ID = times
+Line 55: Unrecognized token: 46
+Line 55: ID = h
+Line 55: >
+Line 56: Unrecognized token: 35
+Line 56: ID = include
+Line 56: <
+Line 56: ID = asm
+Line 56: /
+Line 56: ID = uaccess
+Line 56: Unrecognized token: 46
+Line 56: ID = h
+Line 56: >
+Line 57: Unrecognized token: 35
+Line 57: ID = include
+Line 57: <
+Line 57: ID = asm
+Line 57: /
+Line 57: ID = div64
+Line 57: Unrecognized token: 46
+Line 57: ID = h
+Line 57: >
+Line 58: Unrecognized token: 35
+Line 58: ID = include
+Line 58: <
+Line 58: ID = linux
+Line 58: /
+Line 58: ID = blkdev
+Line 58: Unrecognized token: 46
+Line 58: ID = h
+Line 58: >
+Line 67: int
+Line 67: ID = acct_parm
+Line 67: [
+Line 67: INTCON = 3
+Line 67: ]
+Line 67: =
+Line 67: {
+Line 67: INTCON = 4
+Line 67: ,
+Line 67: INTCON = 2
+Line 67: ,
+Line 67: INTCON = 30
+Line 67: }
+Line 67: ;
+Line 68: Unrecognized token: 35
+Line 68: ID = define
+Line 68: ID = RESUME
+Line 68: (
+Line 68: ID = acct_parm
+Line 68: [
+Line 68: INTCON = 0
+Line 68: ]
+Line 68: )
+Line 69: Unrecognized token: 35
+Line 69: ID = define
+Line 69: ID = SUSPEND
+Line 69: (
+Line 69: ID = acct_parm
+Line 69: [
+Line 69: INTCON = 1
+Line 69: ]
+Line 69: )
+Line 70: Unrecognized token: 35
+Line 70: ID = define
+Line 70: ID = ACCT_TIMEOUT
+Line 70: (
+Line 70: ID = acct_parm
+Line 70: [
+Line 70: INTCON = 2
+Line 70: ]
+Line 70: )
+Line 75: ID = static
+Line 75: void
+Line 75: ID = do_acct_process
+Line 75: (
+Line 75: ID = long
+Line 75: ,
+Line 75: ID = struct
+Line 75: ID = file
+Line 75: *
+Line 75: )
+Line 75: ;
+Line 82: ID = struct
+Line 82: ID = acct_glbs
+Line 82: {
+Line 83: ID = spinlock_t
+Line 83: ID = lock
+Line 83: ;
+Line 84: ID = volatile
+Line 84: int
+Line 84: ID = active
+Line 84: ;
+Line 85: ID = volatile
+Line 85: int
+Line 85: ID = needcheck
+Line 85: ;
+Line 86: ID = struct
+Line 86: ID = file
+Line 86: *
+Line 86: ID = file
+Line 86: ;
+Line 87: ID = struct
+Line 87: ID = timer_list
+Line 87: ID = timer
+Line 87: ;
+Line 88: }
+Line 88: ;
+Line 90: ID = static
+Line 90: ID = struct
+Line 90: ID = acct_glbs
+Line 90: ID = acct_globals
+Line 90: Unrecognized token: 95
+Line 90: Unrecognized token: 95
+Line 90: ID = cacheline_aligned
+Line 90: =
+Line 90: {
+Line 90: ID = SPIN_LOCK_UNLOCKED
+Line 90: }
+Line 90: ;
+Line 95: ID = static
+Line 95: void
+Line 95: ID = acct_timeout
+Line 95: (
+Line 95: ID = unsigned
+Line 95: ID = long
+Line 95: ID = unused
+Line 95: )
+Line 96: {
+Line 97: ID = acct_globals
+Line 97: Unrecognized token: 46
+Line 97: ID = needcheck
+Line 97: =
+Line 97: INTCON = 1
+Line 97: ;
+Line 98: }
+Line 103: ID = static
+Line 103: int
+Line 103: ID = check_free_space
+Line 103: (
+Line 103: ID = struct
+Line 103: ID = file
+Line 103: *
+Line 103: ID = file
+Line 103: )
+Line 104: {
+Line 105: ID = struct
+Line 105: ID = kstatfs
+Line 105: ID = sbuf
+Line 105: ;
+Line 106: int
+Line 106: ID = res
+Line 106: ;
+Line 107: int
+Line 107: ID = act
+Line 107: ;
+Line 108: ID = sector_t
+Line 108: ID = resume
+Line 108: ;
+Line 109: ID = sector_t
+Line 109: ID = suspend
+Line 109: ;
+Line 111: ID = spin_lock
+Line 111: (
+Line 111: Unrecognized token: 38
+Line 111: ID = acct_globals
+Line 111: Unrecognized token: 46
+Line 111: ID = lock
+Line 111: )
+Line 111: ;
+Line 112: ID = res
+Line 112: =
+Line 112: ID = acct_globals
+Line 112: Unrecognized token: 46
+Line 112: ID = active
+Line 112: ;
+Line 113: if
+Line 113: (
+Line 113: !
+Line 113: ID = file
+Line 113: ||
+Line 113: !
+Line 113: ID = acct_globals
+Line 113: Unrecognized token: 46
+Line 113: ID = needcheck
+Line 113: )
+Line 114: ID = goto
+Line 114: ID = out
+Line 114: ;
+Line 115: ID = spin_unlock
+Line 115: (
+Line 115: Unrecognized token: 38
+Line 115: ID = acct_globals
+Line 115: Unrecognized token: 46
+Line 115: ID = lock
+Line 115: )
+Line 115: ;
+Line 118: if
+Line 118: (
+Line 118: ID = vfs_statfs
+Line 118: (
+Line 118: ID = file
+Line 118: -
+Line 118: >
+Line 118: ID = f_dentry
+Line 118: -
+Line 118: >
+Line 118: ID = d_inode
+Line 118: -
+Line 118: >
+Line 118: ID = i_sb
+Line 118: ,
+Line 118: Unrecognized token: 38
+Line 118: ID = sbuf
+Line 118: )
+Line 118: )
+Line 119: return
+Line 119: ID = res
+Line 119: ;
+Line 120: ID = suspend
+Line 120: =
+Line 120: ID = sbuf
+Line 120: Unrecognized token: 46
+Line 120: ID = f_blocks
+Line 120: *
+Line 120: ID = SUSPEND
+Line 120: ;
+Line 121: ID = resume
+Line 121: =
+Line 121: ID = sbuf
+Line 121: Unrecognized token: 46
+Line 121: ID = f_blocks
+Line 121: *
+Line 121: ID = RESUME
+Line 121: ;
+Line 123: ID = sector_div
+Line 123: (
+Line 123: ID = suspend
+Line 123: ,
+Line 123: INTCON = 100
+Line 123: )
+Line 123: ;
+Line 124: ID = sector_div
+Line 124: (
+Line 124: ID = resume
+Line 124: ,
+Line 124: INTCON = 100
+Line 124: )
+Line 124: ;
+Line 126: if
+Line 126: (
+Line 126: ID = sbuf
+Line 126: Unrecognized token: 46
+Line 126: ID = f_bavail
+Line 126: <=
+Line 126: ID = suspend
+Line 126: )
+Line 127: ID = act
+Line 127: =
+Line 127: -
+Line 127: INTCON = 1
+Line 127: ;
+Line 128: else
+Line 128: if
+Line 128: (
+Line 128: ID = sbuf
+Line 128: Unrecognized token: 46
+Line 128: ID = f_bavail
+Line 128: >=
+Line 128: ID = resume
+Line 128: )
+Line 129: ID = act
+Line 129: =
+Line 129: INTCON = 1
+Line 129: ;
+Line 130: else
+Line 131: ID = act
+Line 131: =
+Line 131: INTCON = 0
+Line 131: ;
+Line 137: ID = spin_lock
+Line 137: (
+Line 137: Unrecognized token: 38
+Line 137: ID = acct_globals
+Line 137: Unrecognized token: 46
+Line 137: ID = lock
+Line 137: )
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = file
+Line 138: !=
+Line 138: ID = acct_globals
+Line 138: Unrecognized token: 46
+Line 138: ID = file
+Line 138: )
+Line 138: {
+Line 139: if
+Line 139: (
+Line 139: ID = act
+Line 139: )
+Line 140: ID = res
+Line 140: =
+Line 140: ID = act
+Line 140: >
+Line 140: INTCON = 0
+Line 140: ;
+Line 141: ID = goto
+Line 141: ID = out
+Line 141: ;
+Line 142: }
+Line 144: if
+Line 144: (
+Line 144: ID = acct_globals
+Line 144: Unrecognized token: 46
+Line 144: ID = active
+Line 144: )
+Line 144: {
+Line 145: if
+Line 145: (
+Line 145: ID = act
+Line 145: <
+Line 145: INTCON = 0
+Line 145: )
+Line 145: {
+Line 146: ID = acct_globals
+Line 146: Unrecognized token: 46
+Line 146: ID = active
+Line 146: =
+Line 146: INTCON = 0
+Line 146: ;
+Line 147: ID = printk
+Line 147: (
+Line 147: ID = KERN_INFO
+Line 147: STRINGCON = "Process accounting paused\n"
+Line 147: )
+Line 147: ;
+Line 148: }
+Line 149: }
+Line 149: else
+Line 149: {
+Line 150: if
+Line 150: (
+Line 150: ID = act
+Line 150: >
+Line 150: INTCON = 0
+Line 150: )
+Line 150: {
+Line 151: ID = acct_globals
+Line 151: Unrecognized token: 46
+Line 151: ID = active
+Line 151: =
+Line 151: INTCON = 1
+Line 151: ;
+Line 152: ID = printk
+Line 152: (
+Line 152: ID = KERN_INFO
+Line 152: STRINGCON = "Process accounting resumed\n"
+Line 152: )
+Line 152: ;
+Line 153: }
+Line 154: }
+Line 156: ID = del_timer
+Line 156: (
+Line 156: Unrecognized token: 38
+Line 156: ID = acct_globals
+Line 156: Unrecognized token: 46
+Line 156: ID = timer
+Line 156: )
+Line 156: ;
+Line 157: ID = acct_globals
+Line 157: Unrecognized token: 46
+Line 157: ID = needcheck
+Line 157: =
+Line 157: INTCON = 0
+Line 157: ;
+Line 158: ID = acct_globals
+Line 158: Unrecognized token: 46
+Line 158: ID = timer
+Line 158: Unrecognized token: 46
+Line 158: ID = expires
+Line 158: =
+Line 158: ID = jiffies
+Line 158: +
+Line 158: ID = ACCT_TIMEOUT
+Line 158: *
+Line 158: ID = HZ
+Line 158: ;
+Line 159: ID = add_timer
+Line 159: (
+Line 159: Unrecognized token: 38
+Line 159: ID = acct_globals
+Line 159: Unrecognized token: 46
+Line 159: ID = timer
+Line 159: )
+Line 159: ;
+Line 160: ID = res
+Line 160: =
+Line 160: ID = acct_globals
+Line 160: Unrecognized token: 46
+Line 160: ID = active
+Line 160: ;
+Line 161: ID = out
+Line 161: Unrecognized token: 58
+Line 162: ID = spin_unlock
+Line 162: (
+Line 162: Unrecognized token: 38
+Line 162: ID = acct_globals
+Line 162: Unrecognized token: 46
+Line 162: ID = lock
+Line 162: )
+Line 162: ;
+Line 163: return
+Line 163: ID = res
+Line 163: ;
+Line 164: }
+Line 172: void
+Line 172: ID = acct_file_reopen
+Line 172: (
+Line 172: ID = struct
+Line 172: ID = file
+Line 172: *
+Line 172: ID = file
+Line 172: )
+Line 173: {
+Line 174: ID = struct
+Line 174: ID = file
+Line 174: *
+Line 174: ID = old_acct
+Line 174: =
+Line 174: ID = NULL
+Line 174: ;
+Line 176: if
+Line 176: (
+Line 176: ID = acct_globals
+Line 176: Unrecognized token: 46
+Line 176: ID = file
+Line 176: )
+Line 176: {
+Line 177: ID = old_acct
+Line 177: =
+Line 177: ID = acct_globals
+Line 177: Unrecognized token: 46
+Line 177: ID = file
+Line 177: ;
+Line 178: ID = del_timer
+Line 178: (
+Line 178: Unrecognized token: 38
+Line 178: ID = acct_globals
+Line 178: Unrecognized token: 46
+Line 178: ID = timer
+Line 178: )
+Line 178: ;
+Line 179: ID = acct_globals
+Line 179: Unrecognized token: 46
+Line 179: ID = active
+Line 179: =
+Line 179: INTCON = 0
+Line 179: ;
+Line 180: ID = acct_globals
+Line 180: Unrecognized token: 46
+Line 180: ID = needcheck
+Line 180: =
+Line 180: INTCON = 0
+Line 180: ;
+Line 181: ID = acct_globals
+Line 181: Unrecognized token: 46
+Line 181: ID = file
+Line 181: =
+Line 181: ID = NULL
+Line 181: ;
+Line 182: }
+Line 183: if
+Line 183: (
+Line 183: ID = file
+Line 183: )
+Line 183: {
+Line 184: ID = acct_globals
+Line 184: Unrecognized token: 46
+Line 184: ID = file
+Line 184: =
+Line 184: ID = file
+Line 184: ;
+Line 185: ID = acct_globals
+Line 185: Unrecognized token: 46
+Line 185: ID = needcheck
+Line 185: =
+Line 185: INTCON = 0
+Line 185: ;
+Line 186: ID = acct_globals
+Line 186: Unrecognized token: 46
+Line 186: ID = active
+Line 186: =
+Line 186: INTCON = 1
+Line 186: ;
+Line 188: ID = init_timer
+Line 188: (
+Line 188: Unrecognized token: 38
+Line 188: ID = acct_globals
+Line 188: Unrecognized token: 46
+Line 188: ID = timer
+Line 188: )
+Line 188: ;
+Line 189: ID = acct_globals
+Line 189: Unrecognized token: 46
+Line 189: ID = timer
+Line 189: Unrecognized token: 46
+Line 189: ID = function
+Line 189: =
+Line 189: ID = acct_timeout
+Line 189: ;
+Line 190: ID = acct_globals
+Line 190: Unrecognized token: 46
+Line 190: ID = timer
+Line 190: Unrecognized token: 46
+Line 190: ID = expires
+Line 190: =
+Line 190: ID = jiffies
+Line 190: +
+Line 190: ID = ACCT_TIMEOUT
+Line 190: *
+Line 190: ID = HZ
+Line 190: ;
+Line 191: ID = add_timer
+Line 191: (
+Line 191: Unrecognized token: 38
+Line 191: ID = acct_globals
+Line 191: Unrecognized token: 46
+Line 191: ID = timer
+Line 191: )
+Line 191: ;
+Line 192: }
+Line 193: if
+Line 193: (
+Line 193: ID = old_acct
+Line 193: )
+Line 193: {
+Line 194: ID = spin_unlock
+Line 194: (
+Line 194: Unrecognized token: 38
+Line 194: ID = acct_globals
+Line 194: Unrecognized token: 46
+Line 194: ID = lock
+Line 194: )
+Line 194: ;
+Line 195: ID = do_acct_process
+Line 195: (
+Line 195: INTCON = 0
+Line 195: ,
+Line 195: ID = old_acct
+Line 195: )
+Line 195: ;
+Line 196: ID = filp_close
+Line 196: (
+Line 196: ID = old_acct
+Line 196: ,
+Line 196: ID = NULL
+Line 196: )
+Line 196: ;
+Line 197: ID = spin_lock
+Line 197: (
+Line 197: Unrecognized token: 38
+Line 197: ID = acct_globals
+Line 197: Unrecognized token: 46
+Line 197: ID = lock
+Line 197: )
+Line 197: ;
+Line 198: }
+Line 199: }
+Line 207: ID = asmlinkage
+Line 207: ID = long
+Line 207: ID = sys_acct
+Line 207: (
+Line 207: ID = const
+Line 207: char
+Line 207: Unrecognized token: 95
+Line 207: Unrecognized token: 95
+Line 207: ID = user
+Line 207: *
+Line 207: ID = name
+Line 207: )
+Line 208: {
+Line 209: ID = struct
+Line 209: ID = file
+Line 209: *
+Line 209: ID = file
+Line 209: =
+Line 209: ID = NULL
+Line 209: ;
+Line 210: char
+Line 210: *
+Line 210: ID = tmp
+Line 210: ;
+Line 211: int
+Line 211: ID = error
+Line 211: ;
+Line 213: if
+Line 213: (
+Line 213: !
+Line 213: ID = capable
+Line 213: (
+Line 213: ID = CAP_SYS_PACCT
+Line 213: )
+Line 213: )
+Line 214: return
+Line 214: -
+Line 214: ID = EPERM
+Line 214: ;
+Line 216: if
+Line 216: (
+Line 216: ID = name
+Line 216: )
+Line 216: {
+Line 217: ID = tmp
+Line 217: =
+Line 217: ID = getname
+Line 217: (
+Line 217: ID = name
+Line 217: )
+Line 217: ;
+Line 218: if
+Line 218: (
+Line 218: ID = IS_ERR
+Line 218: (
+Line 218: ID = tmp
+Line 218: )
+Line 218: )
+Line 218: {
+Line 219: return
+Line 219: (
+Line 219: ID = PTR_ERR
+Line 219: (
+Line 219: ID = tmp
+Line 219: )
+Line 219: )
+Line 219: ;
+Line 220: }
+Line 222: ID = file
+Line 222: =
+Line 222: ID = filp_open
+Line 222: (
+Line 222: ID = tmp
+Line 222: ,
+Line 222: ID = O_WRONLY
+Line 222: Unrecognized token: 124
+Line 222: ID = O_APPEND
+Line 222: ,
+Line 222: INTCON = 0
+Line 222: )
+Line 222: ;
+Line 223: ID = putname
+Line 223: (
+Line 223: ID = tmp
+Line 223: )
+Line 223: ;
+Line 224: if
+Line 224: (
+Line 224: ID = IS_ERR
+Line 224: (
+Line 224: ID = file
+Line 224: )
+Line 224: )
+Line 224: {
+Line 225: return
+Line 225: (
+Line 225: ID = PTR_ERR
+Line 225: (
+Line 225: ID = file
+Line 225: )
+Line 225: )
+Line 225: ;
+Line 226: }
+Line 227: if
+Line 227: (
+Line 227: !
+Line 227: ID = S_ISREG
+Line 227: (
+Line 227: ID = file
+Line 227: -
+Line 227: >
+Line 227: ID = f_dentry
+Line 227: -
+Line 227: >
+Line 227: ID = d_inode
+Line 227: -
+Line 227: >
+Line 227: ID = i_mode
+Line 227: )
+Line 227: )
+Line 227: {
+Line 228: ID = filp_close
+Line 228: (
+Line 228: ID = file
+Line 228: ,
+Line 228: ID = NULL
+Line 228: )
+Line 228: ;
+Line 229: return
+Line 229: (
+Line 229: -
+Line 229: ID = EACCES
+Line 229: )
+Line 229: ;
+Line 230: }
+Line 232: if
+Line 232: (
+Line 232: !
+Line 232: ID = file
+Line 232: -
+Line 232: >
+Line 232: ID = f_op
+Line 232: -
+Line 232: >
+Line 232: ID = write
+Line 232: )
+Line 232: {
+Line 233: ID = filp_close
+Line 233: (
+Line 233: ID = file
+Line 233: ,
+Line 233: ID = NULL
+Line 233: )
+Line 233: ;
+Line 234: return
+Line 234: (
+Line 234: -
+Line 234: ID = EIO
+Line 234: )
+Line 234: ;
+Line 235: }
+Line 236: }
+Line 238: ID = error
+Line 238: =
+Line 238: ID = security_acct
+Line 238: (
+Line 238: ID = file
+Line 238: )
+Line 238: ;
+Line 239: if
+Line 239: (
+Line 239: ID = error
+Line 239: )
+Line 239: {
+Line 240: if
+Line 240: (
+Line 240: ID = file
+Line 240: )
+Line 241: ID = filp_close
+Line 241: (
+Line 241: ID = file
+Line 241: ,
+Line 241: ID = NULL
+Line 241: )
+Line 241: ;
+Line 242: return
+Line 242: ID = error
+Line 242: ;
+Line 243: }
+Line 245: ID = spin_lock
+Line 245: (
+Line 245: Unrecognized token: 38
+Line 245: ID = acct_globals
+Line 245: Unrecognized token: 46
+Line 245: ID = lock
+Line 245: )
+Line 245: ;
+Line 246: ID = acct_file_reopen
+Line 246: (
+Line 246: ID = file
+Line 246: )
+Line 246: ;
+Line 247: ID = spin_unlock
+Line 247: (
+Line 247: Unrecognized token: 38
+Line 247: ID = acct_globals
+Line 247: Unrecognized token: 46
+Line 247: ID = lock
+Line 247: )
+Line 247: ;
+Line 249: return
+Line 249: (
+Line 249: INTCON = 0
+Line 249: )
+Line 249: ;
+Line 250: }
+Line 256: void
+Line 256: ID = acct_auto_close
+Line 256: (
+Line 256: ID = struct
+Line 256: ID = super_block
+Line 256: *
+Line 256: ID = sb
+Line 256: )
+Line 257: {
+Line 258: ID = spin_lock
+Line 258: (
+Line 258: Unrecognized token: 38
+Line 258: ID = acct_globals
+Line 258: Unrecognized token: 46
+Line 258: ID = lock
+Line 258: )
+Line 258: ;
+Line 259: if
+Line 259: (
+Line 259: ID = acct_globals
+Line 259: Unrecognized token: 46
+Line 259: ID = file
+Line 259: &&
+Line 260: ID = acct_globals
+Line 260: Unrecognized token: 46
+Line 260: ID = file
+Line 260: -
+Line 260: >
+Line 260: ID = f_dentry
+Line 260: -
+Line 260: >
+Line 260: ID = d_inode
+Line 260: -
+Line 260: >
+Line 260: ID = i_sb
+Line 260: ==
+Line 260: ID = sb
+Line 260: )
+Line 260: {
+Line 261: ID = acct_file_reopen
+Line 261: (
+Line 261: (
+Line 261: ID = struct
+Line 261: ID = file
+Line 261: *
+Line 261: )
+Line 261: ID = NULL
+Line 261: )
+Line 261: ;
+Line 262: }
+Line 263: ID = spin_unlock
+Line 263: (
+Line 263: Unrecognized token: 38
+Line 263: ID = acct_globals
+Line 263: Unrecognized token: 46
+Line 263: ID = lock
+Line 263: )
+Line 263: ;
+Line 264: }
+Line 274: Unrecognized token: 35
+Line 274: ID = define
+Line 274: ID = MANTSIZE
+Line 274: INTCON = 13
+Line 275: Unrecognized token: 35
+Line 275: ID = define
+Line 275: ID = EXPSIZE
+Line 275: INTCON = 3
+Line 276: Unrecognized token: 35
+Line 276: ID = define
+Line 276: ID = MAXFRACT
+Line 276: (
+Line 276: (
+Line 276: INTCON = 1
+Line 276: <
+Line 276: <
+Line 276: ID = MANTSIZE
+Line 276: )
+Line 276: -
+Line 276: INTCON = 1
+Line 276: )
+Line 278: ID = static
+Line 278: ID = comp_t
+Line 278: ID = encode_comp_t
+Line 278: (
+Line 278: ID = unsigned
+Line 278: ID = long
+Line 278: ID = value
+Line 278: )
+Line 279: {
+Line 280: int
+Line 280: ID = exp
+Line 280: ,
+Line 280: ID = rnd
+Line 280: ;
+Line 282: ID = exp
+Line 282: =
+Line 282: ID = rnd
+Line 282: =
+Line 282: INTCON = 0
+Line 282: ;
+Line 283: while
+Line 283: (
+Line 283: ID = value
+Line 283: >
+Line 283: ID = MAXFRACT
+Line 283: )
+Line 283: {
+Line 284: ID = rnd
+Line 284: =
+Line 284: ID = value
+Line 284: Unrecognized token: 38
+Line 284: (
+Line 284: INTCON = 1
+Line 284: <
+Line 284: <
+Line 284: (
+Line 284: ID = EXPSIZE
+Line 284: -
+Line 284: INTCON = 1
+Line 284: )
+Line 284: )
+Line 284: ;
+Line 285: ID = value
+Line 285: >
+Line 285: >=
+Line 285: ID = EXPSIZE
+Line 285: ;
+Line 286: ID = exp
+Line 286: +
+Line 286: +
+Line 286: ;
+Line 287: }
+Line 292: if
+Line 292: (
+Line 292: ID = rnd
+Line 292: &&
+Line 292: (
+Line 292: +
+Line 292: +
+Line 292: ID = value
+Line 292: >
+Line 292: ID = MAXFRACT
+Line 292: )
+Line 292: )
+Line 292: {
+Line 293: ID = value
+Line 293: >
+Line 293: >=
+Line 293: ID = EXPSIZE
+Line 293: ;
+Line 294: ID = exp
+Line 294: +
+Line 294: +
+Line 294: ;
+Line 295: }
+Line 300: ID = exp
+Line 300: <
+Line 300: <=
+Line 300: ID = MANTSIZE
+Line 300: ;
+Line 301: ID = exp
+Line 301: +
+Line 301: =
+Line 301: ID = value
+Line 301: ;
+Line 302: return
+Line 302: ID = exp
+Line 302: ;
+Line 303: }
+Line 305: Unrecognized token: 35
+Line 305: if
+Line 305: ID = ACCT_VERSION
+Line 305: ==
+Line 305: INTCON = 1
+Line 305: ||
+Line 305: ID = ACCT_VERSION
+Line 305: ==
+Line 305: INTCON = 2
+Line 315: Unrecognized token: 35
+Line 315: ID = define
+Line 315: ID = MANTSIZE2
+Line 315: INTCON = 20
+Line 316: Unrecognized token: 35
+Line 316: ID = define
+Line 316: ID = EXPSIZE2
+Line 316: INTCON = 5
+Line 317: Unrecognized token: 35
+Line 317: ID = define
+Line 317: ID = MAXFRACT2
+Line 317: (
+Line 317: (
+Line 317: INTCON = 1
+Line 317: ID = ul
+Line 317: <
+Line 317: <
+Line 317: ID = MANTSIZE2
+Line 317: )
+Line 317: -
+Line 317: INTCON = 1
+Line 317: )
+Line 318: Unrecognized token: 35
+Line 318: ID = define
+Line 318: ID = MAXEXP2
+Line 318: (
+Line 318: (
+Line 318: INTCON = 1
+Line 318: <
+Line 318: <
+Line 318: ID = EXPSIZE2
+Line 318: )
+Line 318: -
+Line 318: INTCON = 1
+Line 318: )
+Line 320: ID = static
+Line 320: ID = comp2_t
+Line 320: ID = encode_comp2_t
+Line 320: (
+Line 320: ID = u64
+Line 320: ID = value
+Line 320: )
+Line 321: {
+Line 322: int
+Line 322: ID = exp
+Line 322: ,
+Line 322: ID = rnd
+Line 322: ;
+Line 324: ID = exp
+Line 324: =
+Line 324: (
+Line 324: ID = value
+Line 324: >
+Line 324: (
+Line 324: ID = MAXFRACT2
+Line 324: >
+Line 324: >
+Line 324: INTCON = 1
+Line 324: )
+Line 324: )
+Line 324: ;
+Line 325: ID = rnd
+Line 325: =
+Line 325: INTCON = 0
+Line 325: ;
+Line 326: while
+Line 326: (
+Line 326: ID = value
+Line 326: >
+Line 326: ID = MAXFRACT2
+Line 326: )
+Line 326: {
+Line 327: ID = rnd
+Line 327: =
+Line 327: ID = value
+Line 327: Unrecognized token: 38
+Line 327: INTCON = 1
+Line 327: ;
+Line 328: ID = value
+Line 328: >
+Line 328: >=
+Line 328: INTCON = 1
+Line 328: ;
+Line 329: ID = exp
+Line 329: +
+Line 329: +
+Line 329: ;
+Line 330: }
+Line 335: if
+Line 335: (
+Line 335: ID = rnd
+Line 335: &&
+Line 335: (
+Line 335: +
+Line 335: +
+Line 335: ID = value
+Line 335: >
+Line 335: ID = MAXFRACT2
+Line 335: )
+Line 335: )
+Line 335: {
+Line 336: ID = value
+Line 336: >
+Line 336: >=
+Line 336: INTCON = 1
+Line 336: ;
+Line 337: ID = exp
+Line 337: +
+Line 337: +
+Line 337: ;
+Line 338: }
+Line 340: if
+Line 340: (
+Line 340: ID = exp
+Line 340: >
+Line 340: ID = MAXEXP2
+Line 340: )
+Line 340: {
+Line 342: return
+Line 342: (
+Line 342: INTCON = 1
+Line 342: ID = ul
+Line 342: <
+Line 342: <
+Line 342: (
+Line 342: ID = MANTSIZE2
+Line 342: +
+Line 342: ID = EXPSIZE2
+Line 342: -
+Line 342: INTCON = 1
+Line 342: )
+Line 342: )
+Line 342: -
+Line 342: INTCON = 1
+Line 342: ;
+Line 343: }
+Line 343: else
+Line 343: {
+Line 344: return
+Line 344: (
+Line 344: ID = value
+Line 344: Unrecognized token: 38
+Line 344: (
+Line 344: ID = MAXFRACT2
+Line 344: >
+Line 344: >
+Line 344: INTCON = 1
+Line 344: )
+Line 344: )
+Line 344: Unrecognized token: 124
+Line 344: (
+Line 344: ID = exp
+Line 344: <
+Line 344: <
+Line 344: (
+Line 344: ID = MANTSIZE2
+Line 344: -
+Line 344: INTCON = 1
+Line 344: )
+Line 344: )
+Line 344: ;
+Line 345: }
+Line 346: }
+Line 347: Unrecognized token: 35
+Line 347: ID = endif
+Line 349: Unrecognized token: 35
+Line 349: if
+Line 349: ID = ACCT_VERSION
+Line 349: ==
+Line 349: INTCON = 3
+Line 353: ID = static
+Line 353: ID = u32
+Line 353: ID = encode_float
+Line 353: (
+Line 353: ID = u64
+Line 353: ID = value
+Line 353: )
+Line 354: {
+Line 355: ID = unsigned
+Line 355: ID = exp
+Line 355: =
+Line 355: INTCON = 190
+Line 355: ;
+Line 356: ID = unsigned
+Line 356: ID = u
+Line 356: ;
+Line 358: if
+Line 358: (
+Line 358: ID = value
+Line 358: ==
+Line 358: INTCON = 0
+Line 358: )
+Line 358: return
+Line 358: INTCON = 0
+Line 358: ;
+Line 359: while
+Line 359: (
+Line 359: (
+Line 359: ID = s64
+Line 359: )
+Line 359: ID = value
+Line 359: >
+Line 359: INTCON = 0
+Line 359: )
+Line 359: {
+Line 360: ID = value
+Line 360: <
+Line 360: <=
+Line 360: INTCON = 1
+Line 360: ;
+Line 361: ID = exp
+Line 361: -
+Line 361: -
+Line 361: ;
+Line 362: }
+Line 363: ID = u
+Line 363: =
+Line 363: (
+Line 363: ID = u32
+Line 363: )
+Line 363: (
+Line 363: ID = value
+Line 363: >
+Line 363: >
+Line 363: INTCON = 40
+Line 363: )
+Line 363: Unrecognized token: 38
+Line 363: INTCON = 0
+Line 363: ID = x7fffffu
+Line 363: ;
+Line 364: return
+Line 364: ID = u
+Line 364: Unrecognized token: 124
+Line 364: (
+Line 364: ID = exp
+Line 364: <
+Line 364: <
+Line 364: INTCON = 23
+Line 364: )
+Line 364: ;
+Line 365: }
+Line 366: Unrecognized token: 35
+Line 366: ID = endif
+Line 380: ID = static
+Line 380: void
+Line 380: ID = do_acct_process
+Line 380: (
+Line 380: ID = long
+Line 380: ID = exitcode
+Line 380: ,
+Line 380: ID = struct
+Line 380: ID = file
+Line 380: *
+Line 380: ID = file
+Line 380: )
+Line 381: {
+Line 382: ID = acct_t
+Line 382: ID = ac
+Line 382: ;
+Line 383: ID = mm_segment_t
+Line 383: ID = fs
+Line 383: ;
+Line 384: ID = unsigned
+Line 384: ID = long
+Line 384: ID = vsize
+Line 384: ;
+Line 385: ID = unsigned
+Line 385: ID = long
+Line 385: ID = flim
+Line 385: ;
+Line 386: ID = u64
+Line 386: ID = elapsed
+Line 386: ;
+Line 392: if
+Line 392: (
+Line 392: !
+Line 392: ID = check_free_space
+Line 392: (
+Line 392: ID = file
+Line 392: )
+Line 392: )
+Line 393: return
+Line 393: ;
+Line 399: ID = memset
+Line 399: (
+Line 399: (
+Line 399: ID = caddr_t
+Line 399: )
+Line 399: Unrecognized token: 38
+Line 399: ID = ac
+Line 399: ,
+Line 399: INTCON = 0
+Line 399: ,
+Line 399: ID = sizeof
+Line 399: (
+Line 399: ID = acct_t
+Line 399: )
+Line 399: )
+Line 399: ;
+Line 401: ID = ac
+Line 401: Unrecognized token: 46
+Line 401: ID = ac_version
+Line 401: =
+Line 401: ID = ACCT_VERSION
+Line 401: Unrecognized token: 124
+Line 401: ID = ACCT_BYTEORDER
+Line 401: ;
+Line 402: ID = strlcpy
+Line 402: (
+Line 402: ID = ac
+Line 402: Unrecognized token: 46
+Line 402: ID = ac_comm
+Line 402: ,
+Line 402: ID = current
+Line 402: -
+Line 402: >
+Line 402: ID = comm
+Line 402: ,
+Line 402: ID = sizeof
+Line 402: (
+Line 402: ID = ac
+Line 402: Unrecognized token: 46
+Line 402: ID = ac_comm
+Line 402: )
+Line 402: )
+Line 402: ;
+Line 404: ID = elapsed
+Line 404: =
+Line 404: ID = jiffies_64_to_AHZ
+Line 404: (
+Line 404: ID = get_jiffies_64
+Line 404: (
+Line 404: )
+Line 404: -
+Line 404: ID = current
+Line 404: -
+Line 404: >
+Line 404: ID = start_time
+Line 404: )
+Line 404: ;
+Line 405: Unrecognized token: 35
+Line 405: if
+Line 405: ID = ACCT_VERSION
+Line 405: ==
+Line 405: INTCON = 3
+Line 406: ID = ac
+Line 406: Unrecognized token: 46
+Line 406: ID = ac_etime
+Line 406: =
+Line 406: ID = encode_float
+Line 406: (
+Line 406: ID = elapsed
+Line 406: )
+Line 406: ;
+Line 407: Unrecognized token: 35
+Line 407: else
+Line 408: ID = ac
+Line 408: Unrecognized token: 46
+Line 408: ID = ac_etime
+Line 408: =
+Line 408: ID = encode_comp_t
+Line 408: (
+Line 408: ID = elapsed
+Line 408: <
+Line 408: (
+Line 408: ID = unsigned
+Line 408: ID = long
+Line 408: )
+Line 408: -
+Line 408: INTCON = 1
+Line 408: ID = l
+Line 408: Unrecognized token: 63
+Line 409: (
+Line 409: ID = unsigned
+Line 409: ID = long
+Line 409: )
+Line 409: ID = elapsed
+Line 409: Unrecognized token: 58
+Line 409: (
+Line 409: ID = unsigned
+Line 409: ID = long
+Line 409: )
+Line 409: -
+Line 409: INTCON = 1
+Line 409: ID = l
+Line 409: )
+Line 409: ;
+Line 410: Unrecognized token: 35
+Line 410: ID = endif
+Line 411: Unrecognized token: 35
+Line 411: if
+Line 411: ID = ACCT_VERSION
+Line 411: ==
+Line 411: INTCON = 1
+Line 411: ||
+Line 411: ID = ACCT_VERSION
+Line 411: ==
+Line 411: INTCON = 2
+Line 412: {
+Line 414: ID = comp2_t
+Line 414: ID = etime
+Line 414: =
+Line 414: ID = encode_comp2_t
+Line 414: (
+Line 414: ID = elapsed
+Line 414: )
+Line 414: ;
+Line 415: ID = ac
+Line 415: Unrecognized token: 46
+Line 415: ID = ac_etime_hi
+Line 415: =
+Line 415: ID = etime
+Line 415: >
+Line 415: >
+Line 415: INTCON = 16
+Line 415: ;
+Line 416: ID = ac
+Line 416: Unrecognized token: 46
+Line 416: ID = ac_etime_lo
+Line 416: =
+Line 416: (
+Line 416: ID = u16
+Line 416: )
+Line 416: ID = etime
+Line 416: ;
+Line 417: }
+Line 418: Unrecognized token: 35
+Line 418: ID = endif
+Line 419: ID = do_div
+Line 419: (
+Line 419: ID = elapsed
+Line 419: ,
+Line 419: ID = AHZ
+Line 419: )
+Line 419: ;
+Line 420: ID = ac
+Line 420: Unrecognized token: 46
+Line 420: ID = ac_btime
+Line 420: =
+Line 420: ID = xtime
+Line 420: Unrecognized token: 46
+Line 420: ID = tv_sec
+Line 420: -
+Line 420: ID = elapsed
+Line 420: ;
+Line 421: ID = ac
+Line 421: Unrecognized token: 46
+Line 421: ID = ac_utime
+Line 421: =
+Line 421: ID = encode_comp_t
+Line 421: (
+Line 421: ID = jiffies_to_AHZ
+Line 421: (
+Line 421: ID = current
+Line 421: -
+Line 421: >
+Line 421: ID = utime
+Line 421: )
+Line 421: )
+Line 421: ;
+Line 422: ID = ac
+Line 422: Unrecognized token: 46
+Line 422: ID = ac_stime
+Line 422: =
+Line 422: ID = encode_comp_t
+Line 422: (
+Line 422: ID = jiffies_to_AHZ
+Line 422: (
+Line 422: ID = current
+Line 422: -
+Line 422: >
+Line 422: ID = stime
+Line 422: )
+Line 422: )
+Line 422: ;
+Line 424: ID = ac
+Line 424: Unrecognized token: 46
+Line 424: ID = ac_uid
+Line 424: =
+Line 424: ID = current
+Line 424: -
+Line 424: >
+Line 424: ID = uid
+Line 424: ;
+Line 425: ID = ac
+Line 425: Unrecognized token: 46
+Line 425: ID = ac_gid
+Line 425: =
+Line 425: ID = current
+Line 425: -
+Line 425: >
+Line 425: ID = gid
+Line 425: ;
+Line 426: Unrecognized token: 35
+Line 426: if
+Line 426: ID = ACCT_VERSION
+Line 426: ==
+Line 426: INTCON = 2
+Line 427: ID = ac
+Line 427: Unrecognized token: 46
+Line 427: ID = ac_ahz
+Line 427: =
+Line 427: ID = AHZ
+Line 427: ;
+Line 428: Unrecognized token: 35
+Line 428: ID = endif
+Line 429: Unrecognized token: 35
+Line 429: if
+Line 429: ID = ACCT_VERSION
+Line 429: ==
+Line 429: INTCON = 1
+Line 429: ||
+Line 429: ID = ACCT_VERSION
+Line 429: ==
+Line 429: INTCON = 2
+Line 431: ID = ac
+Line 431: Unrecognized token: 46
+Line 431: ID = ac_uid16
+Line 431: =
+Line 431: ID = current
+Line 431: -
+Line 431: >
+Line 431: ID = uid
+Line 431: ;
+Line 432: ID = ac
+Line 432: Unrecognized token: 46
+Line 432: ID = ac_gid16
+Line 432: =
+Line 432: ID = current
+Line 432: -
+Line 432: >
+Line 432: ID = gid
+Line 432: ;
+Line 433: Unrecognized token: 35
+Line 433: ID = endif
+Line 434: Unrecognized token: 35
+Line 434: if
+Line 434: ID = ACCT_VERSION
+Line 434: ==
+Line 434: INTCON = 3
+Line 435: ID = ac
+Line 435: Unrecognized token: 46
+Line 435: ID = ac_pid
+Line 435: =
+Line 435: ID = current
+Line 435: -
+Line 435: >
+Line 435: ID = pid
+Line 435: ;
+Line 436: ID = ac
+Line 436: Unrecognized token: 46
+Line 436: ID = ac_ppid
+Line 436: =
+Line 436: ID = current
+Line 436: -
+Line 436: >
+Line 436: ID = parent
+Line 436: -
+Line 436: >
+Line 436: ID = pid
+Line 436: ;
+Line 437: Unrecognized token: 35
+Line 437: ID = endif
+Line 439: ID = read_lock
+Line 439: (
+Line 439: Unrecognized token: 38
+Line 439: ID = tasklist_lock
+Line 439: )
+Line 439: ;
+Line 440: ID = ac
+Line 440: Unrecognized token: 46
+Line 440: ID = ac_tty
+Line 440: =
+Line 440: ID = current
+Line 440: -
+Line 440: >
+Line 440: ID = signal
+Line 440: -
+Line 440: >
+Line 440: ID = tty
+Line 440: Unrecognized token: 63
+Line 441: ID = old_encode_dev
+Line 441: (
+Line 441: ID = tty_devnum
+Line 441: (
+Line 441: ID = current
+Line 441: -
+Line 441: >
+Line 441: ID = signal
+Line 441: -
+Line 441: >
+Line 441: ID = tty
+Line 441: )
+Line 441: )
+Line 441: Unrecognized token: 58
+Line 441: INTCON = 0
+Line 441: ;
+Line 442: ID = read_unlock
+Line 442: (
+Line 442: Unrecognized token: 38
+Line 442: ID = tasklist_lock
+Line 442: )
+Line 442: ;
+Line 444: ID = ac
+Line 444: Unrecognized token: 46
+Line 444: ID = ac_flag
+Line 444: =
+Line 444: INTCON = 0
+Line 444: ;
+Line 445: if
+Line 445: (
+Line 445: ID = current
+Line 445: -
+Line 445: >
+Line 445: ID = flags
+Line 445: Unrecognized token: 38
+Line 445: ID = PF_FORKNOEXEC
+Line 445: )
+Line 446: ID = ac
+Line 446: Unrecognized token: 46
+Line 446: ID = ac_flag
+Line 446: Unrecognized token: 124
+Line 446: =
+Line 446: ID = AFORK
+Line 446: ;
+Line 447: if
+Line 447: (
+Line 447: ID = current
+Line 447: -
+Line 447: >
+Line 447: ID = flags
+Line 447: Unrecognized token: 38
+Line 447: ID = PF_SUPERPRIV
+Line 447: )
+Line 448: ID = ac
+Line 448: Unrecognized token: 46
+Line 448: ID = ac_flag
+Line 448: Unrecognized token: 124
+Line 448: =
+Line 448: ID = ASU
+Line 448: ;
+Line 449: if
+Line 449: (
+Line 449: ID = current
+Line 449: -
+Line 449: >
+Line 449: ID = flags
+Line 449: Unrecognized token: 38
+Line 449: ID = PF_DUMPCORE
+Line 449: )
+Line 450: ID = ac
+Line 450: Unrecognized token: 46
+Line 450: ID = ac_flag
+Line 450: Unrecognized token: 124
+Line 450: =
+Line 450: ID = ACORE
+Line 450: ;
+Line 451: if
+Line 451: (
+Line 451: ID = current
+Line 451: -
+Line 451: >
+Line 451: ID = flags
+Line 451: Unrecognized token: 38
+Line 451: ID = PF_SIGNALED
+Line 451: )
+Line 452: ID = ac
+Line 452: Unrecognized token: 46
+Line 452: ID = ac_flag
+Line 452: Unrecognized token: 124
+Line 452: =
+Line 452: ID = AXSIG
+Line 452: ;
+Line 454: ID = vsize
+Line 454: =
+Line 454: INTCON = 0
+Line 454: ;
+Line 455: if
+Line 455: (
+Line 455: ID = current
+Line 455: -
+Line 455: >
+Line 455: ID = mm
+Line 455: )
+Line 455: {
+Line 456: ID = struct
+Line 456: ID = vm_area_struct
+Line 456: *
+Line 456: ID = vma
+Line 456: ;
+Line 457: ID = down_read
+Line 457: (
+Line 457: Unrecognized token: 38
+Line 457: ID = current
+Line 457: -
+Line 457: >
+Line 457: ID = mm
+Line 457: -
+Line 457: >
+Line 457: ID = mmap_sem
+Line 457: )
+Line 457: ;
+Line 458: ID = vma
+Line 458: =
+Line 458: ID = current
+Line 458: -
+Line 458: >
+Line 458: ID = mm
+Line 458: -
+Line 458: >
+Line 458: ID = mmap
+Line 458: ;
+Line 459: while
+Line 459: (
+Line 459: ID = vma
+Line 459: )
+Line 459: {
+Line 460: ID = vsize
+Line 460: +
+Line 460: =
+Line 460: ID = vma
+Line 460: -
+Line 460: >
+Line 460: ID = vm_end
+Line 460: -
+Line 460: ID = vma
+Line 460: -
+Line 460: >
+Line 460: ID = vm_start
+Line 460: ;
+Line 461: ID = vma
+Line 461: =
+Line 461: ID = vma
+Line 461: -
+Line 461: >
+Line 461: ID = vm_next
+Line 461: ;
+Line 462: }
+Line 463: ID = up_read
+Line 463: (
+Line 463: Unrecognized token: 38
+Line 463: ID = current
+Line 463: -
+Line 463: >
+Line 463: ID = mm
+Line 463: -
+Line 463: >
+Line 463: ID = mmap_sem
+Line 463: )
+Line 463: ;
+Line 464: }
+Line 465: ID = vsize
+Line 465: =
+Line 465: ID = vsize
+Line 465: /
+Line 465: INTCON = 1024
+Line 465: ;
+Line 466: ID = ac
+Line 466: Unrecognized token: 46
+Line 466: ID = ac_mem
+Line 466: =
+Line 466: ID = encode_comp_t
+Line 466: (
+Line 466: ID = vsize
+Line 466: )
+Line 466: ;
+Line 467: ID = ac
+Line 467: Unrecognized token: 46
+Line 467: ID = ac_io
+Line 467: =
+Line 467: ID = encode_comp_t
+Line 467: (
+Line 467: INTCON = 0
+Line 467: )
+Line 467: ;
+Line 468: ID = ac
+Line 468: Unrecognized token: 46
+Line 468: ID = ac_rw
+Line 468: =
+Line 468: ID = encode_comp_t
+Line 468: (
+Line 468: ID = ac
+Line 468: Unrecognized token: 46
+Line 468: ID = ac_io
+Line 468: /
+Line 468: INTCON = 1024
+Line 468: )
+Line 468: ;
+Line 469: ID = ac
+Line 469: Unrecognized token: 46
+Line 469: ID = ac_minflt
+Line 469: =
+Line 469: ID = encode_comp_t
+Line 469: (
+Line 469: ID = current
+Line 469: -
+Line 469: >
+Line 469: ID = min_flt
+Line 469: )
+Line 469: ;
+Line 470: ID = ac
+Line 470: Unrecognized token: 46
+Line 470: ID = ac_majflt
+Line 470: =
+Line 470: ID = encode_comp_t
+Line 470: (
+Line 470: ID = current
+Line 470: -
+Line 470: >
+Line 470: ID = maj_flt
+Line 470: )
+Line 470: ;
+Line 471: ID = ac
+Line 471: Unrecognized token: 46
+Line 471: ID = ac_swaps
+Line 471: =
+Line 471: ID = encode_comp_t
+Line 471: (
+Line 471: INTCON = 0
+Line 471: )
+Line 471: ;
+Line 472: ID = ac
+Line 472: Unrecognized token: 46
+Line 472: ID = ac_exitcode
+Line 472: =
+Line 472: ID = exitcode
+Line 472: ;
+Line 478: ID = fs
+Line 478: =
+Line 478: ID = get_fs
+Line 478: (
+Line 478: )
+Line 478: ;
+Line 479: ID = set_fs
+Line 479: (
+Line 479: ID = KERNEL_DS
+Line 479: )
+Line 479: ;
+Line 483: ID = flim
+Line 483: =
+Line 483: ID = current
+Line 483: -
+Line 483: >
+Line 483: ID = rlim
+Line 483: [
+Line 483: ID = RLIMIT_FSIZE
+Line 483: ]
+Line 483: Unrecognized token: 46
+Line 483: ID = rlim_cur
+Line 483: ;
+Line 484: ID = current
+Line 484: -
+Line 484: >
+Line 484: ID = rlim
+Line 484: [
+Line 484: ID = RLIMIT_FSIZE
+Line 484: ]
+Line 484: Unrecognized token: 46
+Line 484: ID = rlim_cur
+Line 484: =
+Line 484: ID = RLIM_INFINITY
+Line 484: ;
+Line 485: ID = file
+Line 485: -
+Line 485: >
+Line 485: ID = f_op
+Line 485: -
+Line 485: >
+Line 485: ID = write
+Line 485: (
+Line 485: ID = file
+Line 485: ,
+Line 485: (
+Line 485: char
+Line 485: *
+Line 485: )
+Line 485: Unrecognized token: 38
+Line 485: ID = ac
+Line 485: ,
+Line 486: ID = sizeof
+Line 486: (
+Line 486: ID = acct_t
+Line 486: )
+Line 486: ,
+Line 486: Unrecognized token: 38
+Line 486: ID = file
+Line 486: -
+Line 486: >
+Line 486: ID = f_pos
+Line 486: )
+Line 486: ;
+Line 487: ID = current
+Line 487: -
+Line 487: >
+Line 487: ID = rlim
+Line 487: [
+Line 487: ID = RLIMIT_FSIZE
+Line 487: ]
+Line 487: Unrecognized token: 46
+Line 487: ID = rlim_cur
+Line 487: =
+Line 487: ID = flim
+Line 487: ;
+Line 488: ID = set_fs
+Line 488: (
+Line 488: ID = fs
+Line 488: )
+Line 488: ;
+Line 489: }
+Line 494: void
+Line 494: ID = acct_process
+Line 494: (
+Line 494: ID = long
+Line 494: ID = exitcode
+Line 494: )
+Line 495: {
+Line 496: ID = struct
+Line 496: ID = file
+Line 496: *
+Line 496: ID = file
+Line 496: =
+Line 496: ID = NULL
+Line 496: ;
+Line 501: if
+Line 501: (
+Line 501: !
+Line 501: ID = acct_globals
+Line 501: Unrecognized token: 46
+Line 501: ID = file
+Line 501: )
+Line 502: return
+Line 502: ;
+Line 504: ID = spin_lock
+Line 504: (
+Line 504: Unrecognized token: 38
+Line 504: ID = acct_globals
+Line 504: Unrecognized token: 46
+Line 504: ID = lock
+Line 504: )
+Line 504: ;
+Line 505: ID = file
+Line 505: =
+Line 505: ID = acct_globals
+Line 505: Unrecognized token: 46
+Line 505: ID = file
+Line 505: ;
+Line 506: if
+Line 506: (
+Line 506: ID = unlikely
+Line 506: (
+Line 506: !
+Line 506: ID = file
+Line 506: )
+Line 506: )
+Line 506: {
+Line 507: ID = spin_unlock
+Line 507: (
+Line 507: Unrecognized token: 38
+Line 507: ID = acct_globals
+Line 507: Unrecognized token: 46
+Line 507: ID = lock
+Line 507: )
+Line 507: ;
+Line 508: return
+Line 508: ;
+Line 509: }
+Line 510: ID = get_file
+Line 510: (
+Line 510: ID = file
+Line 510: )
+Line 510: ;
+Line 511: ID = spin_unlock
+Line 511: (
+Line 511: Unrecognized token: 38
+Line 511: ID = acct_globals
+Line 511: Unrecognized token: 46
+Line 511: ID = lock
+Line 511: )
+Line 511: ;
+Line 513: ID = do_acct_process
+Line 513: (
+Line 513: ID = exitcode
+Line 513: ,
+Line 513: ID = file
+Line 513: )
+Line 513: ;
+Line 514: ID = fput
+Line 514: (
+Line 514: ID = file
+Line 514: )
+Line 514: ;
+Line 515: }
+Line 516: -EOF-

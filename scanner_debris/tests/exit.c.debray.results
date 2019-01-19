@@ -1,0 +1,5367 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = config
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = mm
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = slab
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = interrupt
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = smp_lock
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = completion
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = personality
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = tty
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = namespace
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = security
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = acct
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = file
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = binfmts
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = ptrace
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = profile
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = mount
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = proc_fs
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = mempolicy
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = asm
+Line 27: /
+Line 27: ID = uaccess
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = asm
+Line 28: /
+Line 28: ID = unistd
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = asm
+Line 29: /
+Line 29: ID = pgtable
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = asm
+Line 30: /
+Line 30: ID = mmu_context
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 32: extern
+Line 32: void
+Line 32: ID = sem_exit
+Line 32: (
+Line 32: void
+Line 32: )
+Line 32: ;
+Line 33: extern
+Line 33: ID = struct
+Line 33: ID = task_struct
+Line 33: *
+Line 33: ID = child_reaper
+Line 33: ;
+Line 35: int
+Line 35: ID = getrusage
+Line 35: (
+Line 35: ID = struct
+Line 35: ID = task_struct
+Line 35: *
+Line 35: ,
+Line 35: int
+Line 35: ,
+Line 35: ID = struct
+Line 35: ID = rusage
+Line 35: Unrecognized token: 95
+Line 35: Unrecognized token: 95
+Line 35: ID = user
+Line 35: *
+Line 35: )
+Line 35: ;
+Line 37: ID = static
+Line 37: void
+Line 37: Unrecognized token: 95
+Line 37: Unrecognized token: 95
+Line 37: ID = unhash_process
+Line 37: (
+Line 37: ID = struct
+Line 37: ID = task_struct
+Line 37: *
+Line 37: ID = p
+Line 37: )
+Line 38: {
+Line 39: ID = nr_threads
+Line 39: -
+Line 39: -
+Line 39: ;
+Line 40: ID = detach_pid
+Line 40: (
+Line 40: ID = p
+Line 40: ,
+Line 40: ID = PIDTYPE_PID
+Line 40: )
+Line 40: ;
+Line 41: ID = detach_pid
+Line 41: (
+Line 41: ID = p
+Line 41: ,
+Line 41: ID = PIDTYPE_TGID
+Line 41: )
+Line 41: ;
+Line 42: if
+Line 42: (
+Line 42: ID = thread_group_leader
+Line 42: (
+Line 42: ID = p
+Line 42: )
+Line 42: )
+Line 42: {
+Line 43: ID = detach_pid
+Line 43: (
+Line 43: ID = p
+Line 43: ,
+Line 43: ID = PIDTYPE_PGID
+Line 43: )
+Line 43: ;
+Line 44: ID = detach_pid
+Line 44: (
+Line 44: ID = p
+Line 44: ,
+Line 44: ID = PIDTYPE_SID
+Line 44: )
+Line 44: ;
+Line 45: if
+Line 45: (
+Line 45: ID = p
+Line 45: -
+Line 45: >
+Line 45: ID = pid
+Line 45: )
+Line 46: Unrecognized token: 95
+Line 46: Unrecognized token: 95
+Line 46: ID = get_cpu_var
+Line 46: (
+Line 46: ID = process_counts
+Line 46: )
+Line 46: -
+Line 46: -
+Line 46: ;
+Line 47: }
+Line 49: ID = REMOVE_LINKS
+Line 49: (
+Line 49: ID = p
+Line 49: )
+Line 49: ;
+Line 50: }
+Line 52: void
+Line 52: ID = release_task
+Line 52: (
+Line 52: ID = struct
+Line 52: ID = task_struct
+Line 52: *
+Line 52: ID = p
+Line 52: )
+Line 53: {
+Line 54: int
+Line 54: ID = zap_leader
+Line 54: ;
+Line 55: ID = task_t
+Line 55: *
+Line 55: ID = leader
+Line 55: ;
+Line 56: ID = struct
+Line 56: ID = dentry
+Line 56: *
+Line 56: ID = proc_dentry
+Line 56: ;
+Line 58: ID = repeat
+Line 58: Unrecognized token: 58
+Line 59: ID = BUG_ON
+Line 59: (
+Line 59: ID = p
+Line 59: -
+Line 59: >
+Line 59: ID = state
+Line 59: <
+Line 59: ID = TASK_ZOMBIE
+Line 59: )
+Line 59: ;
+Line 61: ID = atomic_dec
+Line 61: (
+Line 61: Unrecognized token: 38
+Line 61: ID = p
+Line 61: -
+Line 61: >
+Line 61: ID = user
+Line 61: -
+Line 61: >
+Line 61: ID = processes
+Line 61: )
+Line 61: ;
+Line 62: ID = spin_lock
+Line 62: (
+Line 62: Unrecognized token: 38
+Line 62: ID = p
+Line 62: -
+Line 62: >
+Line 62: ID = proc_lock
+Line 62: )
+Line 62: ;
+Line 63: ID = proc_dentry
+Line 63: =
+Line 63: ID = proc_pid_unhash
+Line 63: (
+Line 63: ID = p
+Line 63: )
+Line 63: ;
+Line 64: ID = write_lock_irq
+Line 64: (
+Line 64: Unrecognized token: 38
+Line 64: ID = tasklist_lock
+Line 64: )
+Line 64: ;
+Line 65: if
+Line 65: (
+Line 65: ID = unlikely
+Line 65: (
+Line 65: ID = p
+Line 65: -
+Line 65: >
+Line 65: ID = ptrace
+Line 65: )
+Line 65: )
+Line 66: Unrecognized token: 95
+Line 66: Unrecognized token: 95
+Line 66: ID = ptrace_unlink
+Line 66: (
+Line 66: ID = p
+Line 66: )
+Line 66: ;
+Line 67: ID = BUG_ON
+Line 67: (
+Line 67: !
+Line 67: ID = list_empty
+Line 67: (
+Line 67: Unrecognized token: 38
+Line 67: ID = p
+Line 67: -
+Line 67: >
+Line 67: ID = ptrace_list
+Line 67: )
+Line 67: ||
+Line 67: !
+Line 67: ID = list_empty
+Line 67: (
+Line 67: Unrecognized token: 38
+Line 67: ID = p
+Line 67: -
+Line 67: >
+Line 67: ID = ptrace_children
+Line 67: )
+Line 67: )
+Line 67: ;
+Line 68: Unrecognized token: 95
+Line 68: Unrecognized token: 95
+Line 68: ID = exit_signal
+Line 68: (
+Line 68: ID = p
+Line 68: )
+Line 68: ;
+Line 69: Unrecognized token: 95
+Line 69: Unrecognized token: 95
+Line 69: ID = exit_sighand
+Line 69: (
+Line 69: ID = p
+Line 69: )
+Line 69: ;
+Line 70: Unrecognized token: 95
+Line 70: Unrecognized token: 95
+Line 70: ID = unhash_process
+Line 70: (
+Line 70: ID = p
+Line 70: )
+Line 70: ;
+Line 77: ID = zap_leader
+Line 77: =
+Line 77: INTCON = 0
+Line 77: ;
+Line 78: ID = leader
+Line 78: =
+Line 78: ID = p
+Line 78: -
+Line 78: >
+Line 78: ID = group_leader
+Line 78: ;
+Line 79: if
+Line 79: (
+Line 79: ID = leader
+Line 79: !=
+Line 79: ID = p
+Line 79: &&
+Line 79: ID = thread_group_empty
+Line 79: (
+Line 79: ID = leader
+Line 79: )
+Line 79: &&
+Line 79: ID = leader
+Line 79: -
+Line 79: >
+Line 79: ID = state
+Line 79: ==
+Line 79: ID = TASK_ZOMBIE
+Line 79: )
+Line 79: {
+Line 80: ID = BUG_ON
+Line 80: (
+Line 80: ID = leader
+Line 80: -
+Line 80: >
+Line 80: ID = exit_signal
+Line 80: ==
+Line 80: -
+Line 80: INTCON = 1
+Line 80: )
+Line 80: ;
+Line 81: ID = do_notify_parent
+Line 81: (
+Line 81: ID = leader
+Line 81: ,
+Line 81: ID = leader
+Line 81: -
+Line 81: >
+Line 81: ID = exit_signal
+Line 81: )
+Line 81: ;
+Line 90: ID = zap_leader
+Line 90: =
+Line 90: (
+Line 90: ID = leader
+Line 90: -
+Line 90: >
+Line 90: ID = exit_signal
+Line 90: ==
+Line 90: -
+Line 90: INTCON = 1
+Line 90: )
+Line 90: ;
+Line 91: }
+Line 93: ID = p
+Line 93: -
+Line 93: >
+Line 93: ID = parent
+Line 93: -
+Line 93: >
+Line 93: ID = cutime
+Line 93: +
+Line 93: =
+Line 93: ID = p
+Line 93: -
+Line 93: >
+Line 93: ID = utime
+Line 93: +
+Line 93: ID = p
+Line 93: -
+Line 93: >
+Line 93: ID = cutime
+Line 93: ;
+Line 94: ID = p
+Line 94: -
+Line 94: >
+Line 94: ID = parent
+Line 94: -
+Line 94: >
+Line 94: ID = cstime
+Line 94: +
+Line 94: =
+Line 94: ID = p
+Line 94: -
+Line 94: >
+Line 94: ID = stime
+Line 94: +
+Line 94: ID = p
+Line 94: -
+Line 94: >
+Line 94: ID = cstime
+Line 94: ;
+Line 95: ID = p
+Line 95: -
+Line 95: >
+Line 95: ID = parent
+Line 95: -
+Line 95: >
+Line 95: ID = cmin_flt
+Line 95: +
+Line 95: =
+Line 95: ID = p
+Line 95: -
+Line 95: >
+Line 95: ID = min_flt
+Line 95: +
+Line 95: ID = p
+Line 95: -
+Line 95: >
+Line 95: ID = cmin_flt
+Line 95: ;
+Line 96: ID = p
+Line 96: -
+Line 96: >
+Line 96: ID = parent
+Line 96: -
+Line 96: >
+Line 96: ID = cmaj_flt
+Line 96: +
+Line 96: =
+Line 96: ID = p
+Line 96: -
+Line 96: >
+Line 96: ID = maj_flt
+Line 96: +
+Line 96: ID = p
+Line 96: -
+Line 96: >
+Line 96: ID = cmaj_flt
+Line 96: ;
+Line 97: ID = p
+Line 97: -
+Line 97: >
+Line 97: ID = parent
+Line 97: -
+Line 97: >
+Line 97: ID = cnvcsw
+Line 97: +
+Line 97: =
+Line 97: ID = p
+Line 97: -
+Line 97: >
+Line 97: ID = nvcsw
+Line 97: +
+Line 97: ID = p
+Line 97: -
+Line 97: >
+Line 97: ID = cnvcsw
+Line 97: ;
+Line 98: ID = p
+Line 98: -
+Line 98: >
+Line 98: ID = parent
+Line 98: -
+Line 98: >
+Line 98: ID = cnivcsw
+Line 98: +
+Line 98: =
+Line 98: ID = p
+Line 98: -
+Line 98: >
+Line 98: ID = nivcsw
+Line 98: +
+Line 98: ID = p
+Line 98: -
+Line 98: >
+Line 98: ID = cnivcsw
+Line 98: ;
+Line 99: ID = sched_exit
+Line 99: (
+Line 99: ID = p
+Line 99: )
+Line 99: ;
+Line 100: ID = write_unlock_irq
+Line 100: (
+Line 100: Unrecognized token: 38
+Line 100: ID = tasklist_lock
+Line 100: )
+Line 100: ;
+Line 101: ID = spin_unlock
+Line 101: (
+Line 101: Unrecognized token: 38
+Line 101: ID = p
+Line 101: -
+Line 101: >
+Line 101: ID = proc_lock
+Line 101: )
+Line 101: ;
+Line 102: ID = proc_pid_flush
+Line 102: (
+Line 102: ID = proc_dentry
+Line 102: )
+Line 102: ;
+Line 103: ID = release_thread
+Line 103: (
+Line 103: ID = p
+Line 103: )
+Line 103: ;
+Line 104: ID = put_task_struct
+Line 104: (
+Line 104: ID = p
+Line 104: )
+Line 104: ;
+Line 106: ID = p
+Line 106: =
+Line 106: ID = leader
+Line 106: ;
+Line 107: if
+Line 107: (
+Line 107: ID = unlikely
+Line 107: (
+Line 107: ID = zap_leader
+Line 107: )
+Line 107: )
+Line 108: ID = goto
+Line 108: ID = repeat
+Line 108: ;
+Line 109: }
+Line 113: void
+Line 113: ID = unhash_process
+Line 113: (
+Line 113: ID = struct
+Line 113: ID = task_struct
+Line 113: *
+Line 113: ID = p
+Line 113: )
+Line 114: {
+Line 115: ID = struct
+Line 115: ID = dentry
+Line 115: *
+Line 115: ID = proc_dentry
+Line 115: ;
+Line 117: ID = spin_lock
+Line 117: (
+Line 117: Unrecognized token: 38
+Line 117: ID = p
+Line 117: -
+Line 117: >
+Line 117: ID = proc_lock
+Line 117: )
+Line 117: ;
+Line 118: ID = proc_dentry
+Line 118: =
+Line 118: ID = proc_pid_unhash
+Line 118: (
+Line 118: ID = p
+Line 118: )
+Line 118: ;
+Line 119: ID = write_lock_irq
+Line 119: (
+Line 119: Unrecognized token: 38
+Line 119: ID = tasklist_lock
+Line 119: )
+Line 119: ;
+Line 120: Unrecognized token: 95
+Line 120: Unrecognized token: 95
+Line 120: ID = unhash_process
+Line 120: (
+Line 120: ID = p
+Line 120: )
+Line 120: ;
+Line 121: ID = write_unlock_irq
+Line 121: (
+Line 121: Unrecognized token: 38
+Line 121: ID = tasklist_lock
+Line 121: )
+Line 121: ;
+Line 122: ID = spin_unlock
+Line 122: (
+Line 122: Unrecognized token: 38
+Line 122: ID = p
+Line 122: -
+Line 122: >
+Line 122: ID = proc_lock
+Line 122: )
+Line 122: ;
+Line 123: ID = proc_pid_flush
+Line 123: (
+Line 123: ID = proc_dentry
+Line 123: )
+Line 123: ;
+Line 124: }
+Line 131: int
+Line 131: ID = session_of_pgrp
+Line 131: (
+Line 131: int
+Line 131: ID = pgrp
+Line 131: )
+Line 132: {
+Line 133: ID = struct
+Line 133: ID = task_struct
+Line 133: *
+Line 133: ID = p
+Line 133: ;
+Line 134: ID = struct
+Line 134: ID = list_head
+Line 134: *
+Line 134: ID = l
+Line 134: ;
+Line 135: ID = struct
+Line 135: ID = pid
+Line 135: *
+Line 135: ID = pid
+Line 135: ;
+Line 136: int
+Line 136: ID = sid
+Line 136: =
+Line 136: -
+Line 136: INTCON = 1
+Line 136: ;
+Line 138: ID = read_lock
+Line 138: (
+Line 138: Unrecognized token: 38
+Line 138: ID = tasklist_lock
+Line 138: )
+Line 138: ;
+Line 139: ID = for_each_task_pid
+Line 139: (
+Line 139: ID = pgrp
+Line 139: ,
+Line 139: ID = PIDTYPE_PGID
+Line 139: ,
+Line 139: ID = p
+Line 139: ,
+Line 139: ID = l
+Line 139: ,
+Line 139: ID = pid
+Line 139: )
+Line 140: if
+Line 140: (
+Line 140: ID = p
+Line 140: -
+Line 140: >
+Line 140: ID = signal
+Line 140: -
+Line 140: >
+Line 140: ID = session
+Line 140: >
+Line 140: INTCON = 0
+Line 140: )
+Line 140: {
+Line 141: ID = sid
+Line 141: =
+Line 141: ID = p
+Line 141: -
+Line 141: >
+Line 141: ID = signal
+Line 141: -
+Line 141: >
+Line 141: ID = session
+Line 141: ;
+Line 142: ID = goto
+Line 142: ID = out
+Line 142: ;
+Line 143: }
+Line 144: ID = p
+Line 144: =
+Line 144: ID = find_task_by_pid
+Line 144: (
+Line 144: ID = pgrp
+Line 144: )
+Line 144: ;
+Line 145: if
+Line 145: (
+Line 145: ID = p
+Line 145: )
+Line 146: ID = sid
+Line 146: =
+Line 146: ID = p
+Line 146: -
+Line 146: >
+Line 146: ID = signal
+Line 146: -
+Line 146: >
+Line 146: ID = session
+Line 146: ;
+Line 147: ID = out
+Line 147: Unrecognized token: 58
+Line 148: ID = read_unlock
+Line 148: (
+Line 148: Unrecognized token: 38
+Line 148: ID = tasklist_lock
+Line 148: )
+Line 148: ;
+Line 150: return
+Line 150: ID = sid
+Line 150: ;
+Line 151: }
+Line 161: ID = static
+Line 161: int
+Line 161: ID = will_become_orphaned_pgrp
+Line 161: (
+Line 161: int
+Line 161: ID = pgrp
+Line 161: ,
+Line 161: ID = task_t
+Line 161: *
+Line 161: ID = ignored_task
+Line 161: )
+Line 162: {
+Line 163: ID = struct
+Line 163: ID = task_struct
+Line 163: *
+Line 163: ID = p
+Line 163: ;
+Line 164: ID = struct
+Line 164: ID = list_head
+Line 164: *
+Line 164: ID = l
+Line 164: ;
+Line 165: ID = struct
+Line 165: ID = pid
+Line 165: *
+Line 165: ID = pid
+Line 165: ;
+Line 166: int
+Line 166: ID = ret
+Line 166: =
+Line 166: INTCON = 1
+Line 166: ;
+Line 168: ID = for_each_task_pid
+Line 168: (
+Line 168: ID = pgrp
+Line 168: ,
+Line 168: ID = PIDTYPE_PGID
+Line 168: ,
+Line 168: ID = p
+Line 168: ,
+Line 168: ID = l
+Line 168: ,
+Line 168: ID = pid
+Line 168: )
+Line 168: {
+Line 169: if
+Line 169: (
+Line 169: ID = p
+Line 169: ==
+Line 169: ID = ignored_task
+Line 170: ||
+Line 170: ID = p
+Line 170: -
+Line 170: >
+Line 170: ID = state
+Line 170: >=
+Line 170: ID = TASK_ZOMBIE
+Line 171: ||
+Line 171: ID = p
+Line 171: -
+Line 171: >
+Line 171: ID = real_parent
+Line 171: -
+Line 171: >
+Line 171: ID = pid
+Line 171: ==
+Line 171: INTCON = 1
+Line 171: )
+Line 172: ID = continue
+Line 172: ;
+Line 173: if
+Line 173: (
+Line 173: ID = process_group
+Line 173: (
+Line 173: ID = p
+Line 173: -
+Line 173: >
+Line 173: ID = real_parent
+Line 173: )
+Line 173: !=
+Line 173: ID = pgrp
+Line 174: &&
+Line 174: ID = p
+Line 174: -
+Line 174: >
+Line 174: ID = real_parent
+Line 174: -
+Line 174: >
+Line 174: ID = signal
+Line 174: -
+Line 174: >
+Line 174: ID = session
+Line 174: ==
+Line 174: ID = p
+Line 174: -
+Line 174: >
+Line 174: ID = signal
+Line 174: -
+Line 174: >
+Line 174: ID = session
+Line 174: )
+Line 174: {
+Line 175: ID = ret
+Line 175: =
+Line 175: INTCON = 0
+Line 175: ;
+Line 176: ID = break
+Line 176: ;
+Line 177: }
+Line 178: }
+Line 179: return
+Line 179: ID = ret
+Line 179: ;
+Line 180: }
+Line 182: int
+Line 182: ID = is_orphaned_pgrp
+Line 182: (
+Line 182: int
+Line 182: ID = pgrp
+Line 182: )
+Line 183: {
+Line 184: int
+Line 184: ID = retval
+Line 184: ;
+Line 186: ID = read_lock
+Line 186: (
+Line 186: Unrecognized token: 38
+Line 186: ID = tasklist_lock
+Line 186: )
+Line 186: ;
+Line 187: ID = retval
+Line 187: =
+Line 187: ID = will_become_orphaned_pgrp
+Line 187: (
+Line 187: ID = pgrp
+Line 187: ,
+Line 187: ID = NULL
+Line 187: )
+Line 187: ;
+Line 188: ID = read_unlock
+Line 188: (
+Line 188: Unrecognized token: 38
+Line 188: ID = tasklist_lock
+Line 188: )
+Line 188: ;
+Line 190: return
+Line 190: ID = retval
+Line 190: ;
+Line 191: }
+Line 193: ID = static
+Line 193: ID = inline
+Line 193: int
+Line 193: ID = has_stopped_jobs
+Line 193: (
+Line 193: int
+Line 193: ID = pgrp
+Line 193: )
+Line 194: {
+Line 195: int
+Line 195: ID = retval
+Line 195: =
+Line 195: INTCON = 0
+Line 195: ;
+Line 196: ID = struct
+Line 196: ID = task_struct
+Line 196: *
+Line 196: ID = p
+Line 196: ;
+Line 197: ID = struct
+Line 197: ID = list_head
+Line 197: *
+Line 197: ID = l
+Line 197: ;
+Line 198: ID = struct
+Line 198: ID = pid
+Line 198: *
+Line 198: ID = pid
+Line 198: ;
+Line 200: ID = for_each_task_pid
+Line 200: (
+Line 200: ID = pgrp
+Line 200: ,
+Line 200: ID = PIDTYPE_PGID
+Line 200: ,
+Line 200: ID = p
+Line 200: ,
+Line 200: ID = l
+Line 200: ,
+Line 200: ID = pid
+Line 200: )
+Line 200: {
+Line 201: if
+Line 201: (
+Line 201: ID = p
+Line 201: -
+Line 201: >
+Line 201: ID = state
+Line 201: !=
+Line 201: ID = TASK_STOPPED
+Line 201: )
+Line 202: ID = continue
+Line 202: ;
+Line 207: if
+Line 207: (
+Line 207: ID = unlikely
+Line 207: (
+Line 207: ID = p
+Line 207: -
+Line 207: >
+Line 207: ID = ptrace
+Line 207: )
+Line 208: &&
+Line 208: ID = p
+Line 208: -
+Line 208: >
+Line 208: ID = exit_code
+Line 208: !=
+Line 208: ID = SIGSTOP
+Line 209: &&
+Line 209: ID = p
+Line 209: -
+Line 209: >
+Line 209: ID = exit_code
+Line 209: !=
+Line 209: ID = SIGTSTP
+Line 210: &&
+Line 210: ID = p
+Line 210: -
+Line 210: >
+Line 210: ID = exit_code
+Line 210: !=
+Line 210: ID = SIGTTOU
+Line 211: &&
+Line 211: ID = p
+Line 211: -
+Line 211: >
+Line 211: ID = exit_code
+Line 211: !=
+Line 211: ID = SIGTTIN
+Line 211: )
+Line 212: ID = continue
+Line 212: ;
+Line 214: ID = retval
+Line 214: =
+Line 214: INTCON = 1
+Line 214: ;
+Line 215: ID = break
+Line 215: ;
+Line 216: }
+Line 217: return
+Line 217: ID = retval
+Line 217: ;
+Line 218: }
+Line 232: void
+Line 232: ID = reparent_to_init
+Line 232: (
+Line 232: void
+Line 232: )
+Line 233: {
+Line 234: ID = write_lock_irq
+Line 234: (
+Line 234: Unrecognized token: 38
+Line 234: ID = tasklist_lock
+Line 234: )
+Line 234: ;
+Line 236: ID = ptrace_unlink
+Line 236: (
+Line 236: ID = current
+Line 236: )
+Line 236: ;
+Line 238: ID = REMOVE_LINKS
+Line 238: (
+Line 238: ID = current
+Line 238: )
+Line 238: ;
+Line 239: ID = current
+Line 239: -
+Line 239: >
+Line 239: ID = parent
+Line 239: =
+Line 239: ID = child_reaper
+Line 239: ;
+Line 240: ID = current
+Line 240: -
+Line 240: >
+Line 240: ID = real_parent
+Line 240: =
+Line 240: ID = child_reaper
+Line 240: ;
+Line 241: ID = SET_LINKS
+Line 241: (
+Line 241: ID = current
+Line 241: )
+Line 241: ;
+Line 244: ID = current
+Line 244: -
+Line 244: >
+Line 244: ID = exit_signal
+Line 244: =
+Line 244: ID = SIGCHLD
+Line 244: ;
+Line 246: if
+Line 246: (
+Line 246: (
+Line 246: ID = current
+Line 246: -
+Line 246: >
+Line 246: ID = policy
+Line 246: ==
+Line 246: ID = SCHED_NORMAL
+Line 246: )
+Line 246: &&
+Line 246: (
+Line 246: ID = task_nice
+Line 246: (
+Line 246: ID = current
+Line 246: )
+Line 246: <
+Line 246: INTCON = 0
+Line 246: )
+Line 246: )
+Line 247: ID = set_user_nice
+Line 247: (
+Line 247: ID = current
+Line 247: ,
+Line 247: INTCON = 0
+Line 247: )
+Line 247: ;
+Line 251: ID = security_task_reparent_to_init
+Line 251: (
+Line 251: ID = current
+Line 251: )
+Line 251: ;
+Line 252: ID = memcpy
+Line 252: (
+Line 252: ID = current
+Line 252: -
+Line 252: >
+Line 252: ID = rlim
+Line 252: ,
+Line 252: ID = init_task
+Line 252: Unrecognized token: 46
+Line 252: ID = rlim
+Line 252: ,
+Line 252: ID = sizeof
+Line 252: (
+Line 252: *
+Line 252: (
+Line 252: ID = current
+Line 252: -
+Line 252: >
+Line 252: ID = rlim
+Line 252: )
+Line 252: )
+Line 252: )
+Line 252: ;
+Line 253: ID = atomic_inc
+Line 253: (
+Line 253: Unrecognized token: 38
+Line 253: (
+Line 253: ID = INIT_USER
+Line 253: -
+Line 253: >
+Line 253: Unrecognized token: 95
+Line 253: Unrecognized token: 95
+Line 253: ID = count
+Line 253: )
+Line 253: )
+Line 253: ;
+Line 254: ID = switch_uid
+Line 254: (
+Line 254: ID = INIT_USER
+Line 254: )
+Line 254: ;
+Line 256: ID = write_unlock_irq
+Line 256: (
+Line 256: Unrecognized token: 38
+Line 256: ID = tasklist_lock
+Line 256: )
+Line 256: ;
+Line 257: }
+Line 259: void
+Line 259: Unrecognized token: 95
+Line 259: Unrecognized token: 95
+Line 259: ID = set_special_pids
+Line 259: (
+Line 259: ID = pid_t
+Line 259: ID = session
+Line 259: ,
+Line 259: ID = pid_t
+Line 259: ID = pgrp
+Line 259: )
+Line 260: {
+Line 261: ID = struct
+Line 261: ID = task_struct
+Line 261: *
+Line 261: ID = curr
+Line 261: =
+Line 261: ID = current
+Line 261: ;
+Line 263: if
+Line 263: (
+Line 263: ID = curr
+Line 263: -
+Line 263: >
+Line 263: ID = signal
+Line 263: -
+Line 263: >
+Line 263: ID = session
+Line 263: !=
+Line 263: ID = session
+Line 263: )
+Line 263: {
+Line 264: ID = detach_pid
+Line 264: (
+Line 264: ID = curr
+Line 264: ,
+Line 264: ID = PIDTYPE_SID
+Line 264: )
+Line 264: ;
+Line 265: ID = curr
+Line 265: -
+Line 265: >
+Line 265: ID = signal
+Line 265: -
+Line 265: >
+Line 265: ID = session
+Line 265: =
+Line 265: ID = session
+Line 265: ;
+Line 266: ID = attach_pid
+Line 266: (
+Line 266: ID = curr
+Line 266: ,
+Line 266: ID = PIDTYPE_SID
+Line 266: ,
+Line 266: ID = session
+Line 266: )
+Line 266: ;
+Line 267: }
+Line 268: if
+Line 268: (
+Line 268: ID = process_group
+Line 268: (
+Line 268: ID = curr
+Line 268: )
+Line 268: !=
+Line 268: ID = pgrp
+Line 268: )
+Line 268: {
+Line 269: ID = detach_pid
+Line 269: (
+Line 269: ID = curr
+Line 269: ,
+Line 269: ID = PIDTYPE_PGID
+Line 269: )
+Line 269: ;
+Line 270: ID = curr
+Line 270: -
+Line 270: >
+Line 270: ID = signal
+Line 270: -
+Line 270: >
+Line 270: ID = pgrp
+Line 270: =
+Line 270: ID = pgrp
+Line 270: ;
+Line 271: ID = attach_pid
+Line 271: (
+Line 271: ID = curr
+Line 271: ,
+Line 271: ID = PIDTYPE_PGID
+Line 271: ,
+Line 271: ID = pgrp
+Line 271: )
+Line 271: ;
+Line 272: }
+Line 273: }
+Line 275: void
+Line 275: ID = set_special_pids
+Line 275: (
+Line 275: ID = pid_t
+Line 275: ID = session
+Line 275: ,
+Line 275: ID = pid_t
+Line 275: ID = pgrp
+Line 275: )
+Line 276: {
+Line 277: ID = write_lock_irq
+Line 277: (
+Line 277: Unrecognized token: 38
+Line 277: ID = tasklist_lock
+Line 277: )
+Line 277: ;
+Line 278: Unrecognized token: 95
+Line 278: Unrecognized token: 95
+Line 278: ID = set_special_pids
+Line 278: (
+Line 278: ID = session
+Line 278: ,
+Line 278: ID = pgrp
+Line 278: )
+Line 278: ;
+Line 279: ID = write_unlock_irq
+Line 279: (
+Line 279: Unrecognized token: 38
+Line 279: ID = tasklist_lock
+Line 279: )
+Line 279: ;
+Line 280: }
+Line 287: int
+Line 287: ID = allow_signal
+Line 287: (
+Line 287: int
+Line 287: ID = sig
+Line 287: )
+Line 288: {
+Line 289: if
+Line 289: (
+Line 289: ID = sig
+Line 289: <
+Line 289: INTCON = 1
+Line 289: ||
+Line 289: ID = sig
+Line 289: >
+Line 289: Unrecognized token: 95
+Line 289: ID = NSIG
+Line 289: )
+Line 290: return
+Line 290: -
+Line 290: ID = EINVAL
+Line 290: ;
+Line 292: ID = spin_lock_irq
+Line 292: (
+Line 292: Unrecognized token: 38
+Line 292: ID = current
+Line 292: -
+Line 292: >
+Line 292: ID = sighand
+Line 292: -
+Line 292: >
+Line 292: ID = siglock
+Line 292: )
+Line 292: ;
+Line 293: ID = sigdelset
+Line 293: (
+Line 293: Unrecognized token: 38
+Line 293: ID = current
+Line 293: -
+Line 293: >
+Line 293: ID = blocked
+Line 293: ,
+Line 293: ID = sig
+Line 293: )
+Line 293: ;
+Line 294: if
+Line 294: (
+Line 294: !
+Line 294: ID = current
+Line 294: -
+Line 294: >
+Line 294: ID = mm
+Line 294: )
+Line 294: {
+Line 299: ID = current
+Line 299: -
+Line 299: >
+Line 299: ID = sighand
+Line 299: -
+Line 299: >
+Line 299: ID = action
+Line 299: [
+Line 299: (
+Line 299: ID = sig
+Line 299: )
+Line 299: -
+Line 299: INTCON = 1
+Line 299: ]
+Line 299: Unrecognized token: 46
+Line 299: ID = sa
+Line 299: Unrecognized token: 46
+Line 299: ID = sa_handler
+Line 299: =
+Line 299: (
+Line 299: void
+Line 299: Unrecognized token: 95
+Line 299: Unrecognized token: 95
+Line 299: ID = user
+Line 299: *
+Line 299: )
+Line 299: INTCON = 2
+Line 299: ;
+Line 300: }
+Line 301: ID = recalc_sigpending
+Line 301: (
+Line 301: )
+Line 301: ;
+Line 302: ID = spin_unlock_irq
+Line 302: (
+Line 302: Unrecognized token: 38
+Line 302: ID = current
+Line 302: -
+Line 302: >
+Line 302: ID = sighand
+Line 302: -
+Line 302: >
+Line 302: ID = siglock
+Line 302: )
+Line 302: ;
+Line 303: return
+Line 303: INTCON = 0
+Line 303: ;
+Line 304: }
+Line 306: ID = EXPORT_SYMBOL
+Line 306: (
+Line 306: ID = allow_signal
+Line 306: )
+Line 306: ;
+Line 308: int
+Line 308: ID = disallow_signal
+Line 308: (
+Line 308: int
+Line 308: ID = sig
+Line 308: )
+Line 309: {
+Line 310: if
+Line 310: (
+Line 310: ID = sig
+Line 310: <
+Line 310: INTCON = 1
+Line 310: ||
+Line 310: ID = sig
+Line 310: >
+Line 310: Unrecognized token: 95
+Line 310: ID = NSIG
+Line 310: )
+Line 311: return
+Line 311: -
+Line 311: ID = EINVAL
+Line 311: ;
+Line 313: ID = spin_lock_irq
+Line 313: (
+Line 313: Unrecognized token: 38
+Line 313: ID = current
+Line 313: -
+Line 313: >
+Line 313: ID = sighand
+Line 313: -
+Line 313: >
+Line 313: ID = siglock
+Line 313: )
+Line 313: ;
+Line 314: ID = sigaddset
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = current
+Line 314: -
+Line 314: >
+Line 314: ID = blocked
+Line 314: ,
+Line 314: ID = sig
+Line 314: )
+Line 314: ;
+Line 315: ID = recalc_sigpending
+Line 315: (
+Line 315: )
+Line 315: ;
+Line 316: ID = spin_unlock_irq
+Line 316: (
+Line 316: Unrecognized token: 38
+Line 316: ID = current
+Line 316: -
+Line 316: >
+Line 316: ID = sighand
+Line 316: -
+Line 316: >
+Line 316: ID = siglock
+Line 316: )
+Line 316: ;
+Line 317: return
+Line 317: INTCON = 0
+Line 317: ;
+Line 318: }
+Line 320: ID = EXPORT_SYMBOL
+Line 320: (
+Line 320: ID = disallow_signal
+Line 320: )
+Line 320: ;
+Line 327: void
+Line 327: ID = daemonize
+Line 327: (
+Line 327: ID = const
+Line 327: char
+Line 327: *
+Line 327: ID = name
+Line 327: ,
+Line 327: Unrecognized token: 46
+Line 327: Unrecognized token: 46
+Line 327: Unrecognized token: 46
+Line 327: )
+Line 328: {
+Line 329: ID = va_list
+Line 329: ID = args
+Line 329: ;
+Line 330: ID = struct
+Line 330: ID = fs_struct
+Line 330: *
+Line 330: ID = fs
+Line 330: ;
+Line 331: ID = sigset_t
+Line 331: ID = blocked
+Line 331: ;
+Line 333: ID = va_start
+Line 333: (
+Line 333: ID = args
+Line 333: ,
+Line 333: ID = name
+Line 333: )
+Line 333: ;
+Line 334: ID = vsnprintf
+Line 334: (
+Line 334: ID = current
+Line 334: -
+Line 334: >
+Line 334: ID = comm
+Line 334: ,
+Line 334: ID = sizeof
+Line 334: (
+Line 334: ID = current
+Line 334: -
+Line 334: >
+Line 334: ID = comm
+Line 334: )
+Line 334: ,
+Line 334: ID = name
+Line 334: ,
+Line 334: ID = args
+Line 334: )
+Line 334: ;
+Line 335: ID = va_end
+Line 335: (
+Line 335: ID = args
+Line 335: )
+Line 335: ;
+Line 342: ID = exit_mm
+Line 342: (
+Line 342: ID = current
+Line 342: )
+Line 342: ;
+Line 344: ID = set_special_pids
+Line 344: (
+Line 344: INTCON = 1
+Line 344: ,
+Line 344: INTCON = 1
+Line 344: )
+Line 344: ;
+Line 345: ID = current
+Line 345: -
+Line 345: >
+Line 345: ID = signal
+Line 345: -
+Line 345: >
+Line 345: ID = tty
+Line 345: =
+Line 345: ID = NULL
+Line 345: ;
+Line 348: ID = sigfillset
+Line 348: (
+Line 348: Unrecognized token: 38
+Line 348: ID = blocked
+Line 348: )
+Line 348: ;
+Line 349: ID = sigprocmask
+Line 349: (
+Line 349: ID = SIG_BLOCK
+Line 349: ,
+Line 349: Unrecognized token: 38
+Line 349: ID = blocked
+Line 349: ,
+Line 349: ID = NULL
+Line 349: )
+Line 349: ;
+Line 350: ID = flush_signals
+Line 350: (
+Line 350: ID = current
+Line 350: )
+Line 350: ;
+Line 354: ID = exit_fs
+Line 354: (
+Line 354: ID = current
+Line 354: )
+Line 354: ;
+Line 355: ID = fs
+Line 355: =
+Line 355: ID = init_task
+Line 355: Unrecognized token: 46
+Line 355: ID = fs
+Line 355: ;
+Line 356: ID = current
+Line 356: -
+Line 356: >
+Line 356: ID = fs
+Line 356: =
+Line 356: ID = fs
+Line 356: ;
+Line 357: ID = atomic_inc
+Line 357: (
+Line 357: Unrecognized token: 38
+Line 357: ID = fs
+Line 357: -
+Line 357: >
+Line 357: ID = count
+Line 357: )
+Line 357: ;
+Line 358: ID = exit_files
+Line 358: (
+Line 358: ID = current
+Line 358: )
+Line 358: ;
+Line 359: ID = current
+Line 359: -
+Line 359: >
+Line 359: ID = files
+Line 359: =
+Line 359: ID = init_task
+Line 359: Unrecognized token: 46
+Line 359: ID = files
+Line 359: ;
+Line 360: ID = atomic_inc
+Line 360: (
+Line 360: Unrecognized token: 38
+Line 360: ID = current
+Line 360: -
+Line 360: >
+Line 360: ID = files
+Line 360: -
+Line 360: >
+Line 360: ID = count
+Line 360: )
+Line 360: ;
+Line 362: ID = reparent_to_init
+Line 362: (
+Line 362: )
+Line 362: ;
+Line 363: }
+Line 365: ID = EXPORT_SYMBOL
+Line 365: (
+Line 365: ID = daemonize
+Line 365: )
+Line 365: ;
+Line 367: ID = static
+Line 367: ID = inline
+Line 367: void
+Line 367: ID = close_files
+Line 367: (
+Line 367: ID = struct
+Line 367: ID = files_struct
+Line 367: *
+Line 367: ID = files
+Line 367: )
+Line 368: {
+Line 369: int
+Line 369: ID = i
+Line 369: ,
+Line 369: ID = j
+Line 369: ;
+Line 371: ID = j
+Line 371: =
+Line 371: INTCON = 0
+Line 371: ;
+Line 372: for
+Line 372: (
+Line 372: ;
+Line 372: ;
+Line 372: )
+Line 372: {
+Line 373: ID = unsigned
+Line 373: ID = long
+Line 373: ID = set
+Line 373: ;
+Line 374: ID = i
+Line 374: =
+Line 374: ID = j
+Line 374: *
+Line 374: Unrecognized token: 95
+Line 374: Unrecognized token: 95
+Line 374: ID = NFDBITS
+Line 374: ;
+Line 375: if
+Line 375: (
+Line 375: ID = i
+Line 375: >=
+Line 375: ID = files
+Line 375: -
+Line 375: >
+Line 375: ID = max_fdset
+Line 375: ||
+Line 375: ID = i
+Line 375: >=
+Line 375: ID = files
+Line 375: -
+Line 375: >
+Line 375: ID = max_fds
+Line 375: )
+Line 376: ID = break
+Line 376: ;
+Line 377: ID = set
+Line 377: =
+Line 377: ID = files
+Line 377: -
+Line 377: >
+Line 377: ID = open_fds
+Line 377: -
+Line 377: >
+Line 377: ID = fds_bits
+Line 377: [
+Line 377: ID = j
+Line 377: +
+Line 377: +
+Line 377: ]
+Line 377: ;
+Line 378: while
+Line 378: (
+Line 378: ID = set
+Line 378: )
+Line 378: {
+Line 379: if
+Line 379: (
+Line 379: ID = set
+Line 379: Unrecognized token: 38
+Line 379: INTCON = 1
+Line 379: )
+Line 379: {
+Line 380: ID = struct
+Line 380: ID = file
+Line 380: *
+Line 380: ID = file
+Line 380: =
+Line 380: ID = xchg
+Line 380: (
+Line 380: Unrecognized token: 38
+Line 380: ID = files
+Line 380: -
+Line 380: >
+Line 380: ID = fd
+Line 380: [
+Line 380: ID = i
+Line 380: ]
+Line 380: ,
+Line 380: ID = NULL
+Line 380: )
+Line 380: ;
+Line 381: if
+Line 381: (
+Line 381: ID = file
+Line 381: )
+Line 382: ID = filp_close
+Line 382: (
+Line 382: ID = file
+Line 382: ,
+Line 382: ID = files
+Line 382: )
+Line 382: ;
+Line 383: }
+Line 384: ID = i
+Line 384: +
+Line 384: +
+Line 384: ;
+Line 385: ID = set
+Line 385: >
+Line 385: >=
+Line 385: INTCON = 1
+Line 385: ;
+Line 386: }
+Line 387: }
+Line 388: }
+Line 390: ID = struct
+Line 390: ID = files_struct
+Line 390: *
+Line 390: ID = get_files_struct
+Line 390: (
+Line 390: ID = struct
+Line 390: ID = task_struct
+Line 390: *
+Line 390: ID = task
+Line 390: )
+Line 391: {
+Line 392: ID = struct
+Line 392: ID = files_struct
+Line 392: *
+Line 392: ID = files
+Line 392: ;
+Line 394: ID = task_lock
+Line 394: (
+Line 394: ID = task
+Line 394: )
+Line 394: ;
+Line 395: ID = files
+Line 395: =
+Line 395: ID = task
+Line 395: -
+Line 395: >
+Line 395: ID = files
+Line 395: ;
+Line 396: if
+Line 396: (
+Line 396: ID = files
+Line 396: )
+Line 397: ID = atomic_inc
+Line 397: (
+Line 397: Unrecognized token: 38
+Line 397: ID = files
+Line 397: -
+Line 397: >
+Line 397: ID = count
+Line 397: )
+Line 397: ;
+Line 398: ID = task_unlock
+Line 398: (
+Line 398: ID = task
+Line 398: )
+Line 398: ;
+Line 400: return
+Line 400: ID = files
+Line 400: ;
+Line 401: }
+Line 403: void
+Line 403: ID = fastcall
+Line 403: ID = put_files_struct
+Line 403: (
+Line 403: ID = struct
+Line 403: ID = files_struct
+Line 403: *
+Line 403: ID = files
+Line 403: )
+Line 404: {
+Line 405: if
+Line 405: (
+Line 405: ID = atomic_dec_and_test
+Line 405: (
+Line 405: Unrecognized token: 38
+Line 405: ID = files
+Line 405: -
+Line 405: >
+Line 405: ID = count
+Line 405: )
+Line 405: )
+Line 405: {
+Line 406: ID = close_files
+Line 406: (
+Line 406: ID = files
+Line 406: )
+Line 406: ;
+Line 410: if
+Line 410: (
+Line 410: ID = files
+Line 410: -
+Line 410: >
+Line 410: ID = fd
+Line 410: !=
+Line 410: Unrecognized token: 38
+Line 410: ID = files
+Line 410: -
+Line 410: >
+Line 410: ID = fd_array
+Line 410: [
+Line 410: INTCON = 0
+Line 410: ]
+Line 410: )
+Line 411: ID = free_fd_array
+Line 411: (
+Line 411: ID = files
+Line 411: -
+Line 411: >
+Line 411: ID = fd
+Line 411: ,
+Line 411: ID = files
+Line 411: -
+Line 411: >
+Line 411: ID = max_fds
+Line 411: )
+Line 411: ;
+Line 412: if
+Line 412: (
+Line 412: ID = files
+Line 412: -
+Line 412: >
+Line 412: ID = max_fdset
+Line 412: >
+Line 412: Unrecognized token: 95
+Line 412: Unrecognized token: 95
+Line 412: ID = FD_SETSIZE
+Line 412: )
+Line 412: {
+Line 413: ID = free_fdset
+Line 413: (
+Line 413: ID = files
+Line 413: -
+Line 413: >
+Line 413: ID = open_fds
+Line 413: ,
+Line 413: ID = files
+Line 413: -
+Line 413: >
+Line 413: ID = max_fdset
+Line 413: )
+Line 413: ;
+Line 414: ID = free_fdset
+Line 414: (
+Line 414: ID = files
+Line 414: -
+Line 414: >
+Line 414: ID = close_on_exec
+Line 414: ,
+Line 414: ID = files
+Line 414: -
+Line 414: >
+Line 414: ID = max_fdset
+Line 414: )
+Line 414: ;
+Line 415: }
+Line 416: ID = kmem_cache_free
+Line 416: (
+Line 416: ID = files_cachep
+Line 416: ,
+Line 416: ID = files
+Line 416: )
+Line 416: ;
+Line 417: }
+Line 418: }
+Line 420: ID = EXPORT_SYMBOL
+Line 420: (
+Line 420: ID = put_files_struct
+Line 420: )
+Line 420: ;
+Line 422: ID = static
+Line 422: ID = inline
+Line 422: void
+Line 422: Unrecognized token: 95
+Line 422: Unrecognized token: 95
+Line 422: ID = exit_files
+Line 422: (
+Line 422: ID = struct
+Line 422: ID = task_struct
+Line 422: *
+Line 422: ID = tsk
+Line 422: )
+Line 423: {
+Line 424: ID = struct
+Line 424: ID = files_struct
+Line 424: *
+Line 424: ID = files
+Line 424: =
+Line 424: ID = tsk
+Line 424: -
+Line 424: >
+Line 424: ID = files
+Line 424: ;
+Line 426: if
+Line 426: (
+Line 426: ID = files
+Line 426: )
+Line 426: {
+Line 427: ID = task_lock
+Line 427: (
+Line 427: ID = tsk
+Line 427: )
+Line 427: ;
+Line 428: ID = tsk
+Line 428: -
+Line 428: >
+Line 428: ID = files
+Line 428: =
+Line 428: ID = NULL
+Line 428: ;
+Line 429: ID = task_unlock
+Line 429: (
+Line 429: ID = tsk
+Line 429: )
+Line 429: ;
+Line 430: ID = put_files_struct
+Line 430: (
+Line 430: ID = files
+Line 430: )
+Line 430: ;
+Line 431: }
+Line 432: }
+Line 434: void
+Line 434: ID = exit_files
+Line 434: (
+Line 434: ID = struct
+Line 434: ID = task_struct
+Line 434: *
+Line 434: ID = tsk
+Line 434: )
+Line 435: {
+Line 436: Unrecognized token: 95
+Line 436: Unrecognized token: 95
+Line 436: ID = exit_files
+Line 436: (
+Line 436: ID = tsk
+Line 436: )
+Line 436: ;
+Line 437: }
+Line 439: ID = static
+Line 439: ID = inline
+Line 439: void
+Line 439: Unrecognized token: 95
+Line 439: Unrecognized token: 95
+Line 439: ID = put_fs_struct
+Line 439: (
+Line 439: ID = struct
+Line 439: ID = fs_struct
+Line 439: *
+Line 439: ID = fs
+Line 439: )
+Line 440: {
+Line 442: if
+Line 442: (
+Line 442: ID = atomic_dec_and_test
+Line 442: (
+Line 442: Unrecognized token: 38
+Line 442: ID = fs
+Line 442: -
+Line 442: >
+Line 442: ID = count
+Line 442: )
+Line 442: )
+Line 442: {
+Line 443: ID = dput
+Line 443: (
+Line 443: ID = fs
+Line 443: -
+Line 443: >
+Line 443: ID = root
+Line 443: )
+Line 443: ;
+Line 444: ID = mntput
+Line 444: (
+Line 444: ID = fs
+Line 444: -
+Line 444: >
+Line 444: ID = rootmnt
+Line 444: )
+Line 444: ;
+Line 445: ID = dput
+Line 445: (
+Line 445: ID = fs
+Line 445: -
+Line 445: >
+Line 445: ID = pwd
+Line 445: )
+Line 445: ;
+Line 446: ID = mntput
+Line 446: (
+Line 446: ID = fs
+Line 446: -
+Line 446: >
+Line 446: ID = pwdmnt
+Line 446: )
+Line 446: ;
+Line 447: if
+Line 447: (
+Line 447: ID = fs
+Line 447: -
+Line 447: >
+Line 447: ID = altroot
+Line 447: )
+Line 447: {
+Line 448: ID = dput
+Line 448: (
+Line 448: ID = fs
+Line 448: -
+Line 448: >
+Line 448: ID = altroot
+Line 448: )
+Line 448: ;
+Line 449: ID = mntput
+Line 449: (
+Line 449: ID = fs
+Line 449: -
+Line 449: >
+Line 449: ID = altrootmnt
+Line 449: )
+Line 449: ;
+Line 450: }
+Line 451: ID = kmem_cache_free
+Line 451: (
+Line 451: ID = fs_cachep
+Line 451: ,
+Line 451: ID = fs
+Line 451: )
+Line 451: ;
+Line 452: }
+Line 453: }
+Line 455: void
+Line 455: ID = put_fs_struct
+Line 455: (
+Line 455: ID = struct
+Line 455: ID = fs_struct
+Line 455: *
+Line 455: ID = fs
+Line 455: )
+Line 456: {
+Line 457: Unrecognized token: 95
+Line 457: Unrecognized token: 95
+Line 457: ID = put_fs_struct
+Line 457: (
+Line 457: ID = fs
+Line 457: )
+Line 457: ;
+Line 458: }
+Line 460: ID = static
+Line 460: ID = inline
+Line 460: void
+Line 460: Unrecognized token: 95
+Line 460: Unrecognized token: 95
+Line 460: ID = exit_fs
+Line 460: (
+Line 460: ID = struct
+Line 460: ID = task_struct
+Line 460: *
+Line 460: ID = tsk
+Line 460: )
+Line 461: {
+Line 462: ID = struct
+Line 462: ID = fs_struct
+Line 462: *
+Line 462: ID = fs
+Line 462: =
+Line 462: ID = tsk
+Line 462: -
+Line 462: >
+Line 462: ID = fs
+Line 462: ;
+Line 464: if
+Line 464: (
+Line 464: ID = fs
+Line 464: )
+Line 464: {
+Line 465: ID = task_lock
+Line 465: (
+Line 465: ID = tsk
+Line 465: )
+Line 465: ;
+Line 466: ID = tsk
+Line 466: -
+Line 466: >
+Line 466: ID = fs
+Line 466: =
+Line 466: ID = NULL
+Line 466: ;
+Line 467: ID = task_unlock
+Line 467: (
+Line 467: ID = tsk
+Line 467: )
+Line 467: ;
+Line 468: Unrecognized token: 95
+Line 468: Unrecognized token: 95
+Line 468: ID = put_fs_struct
+Line 468: (
+Line 468: ID = fs
+Line 468: )
+Line 468: ;
+Line 469: }
+Line 470: }
+Line 472: void
+Line 472: ID = exit_fs
+Line 472: (
+Line 472: ID = struct
+Line 472: ID = task_struct
+Line 472: *
+Line 472: ID = tsk
+Line 472: )
+Line 473: {
+Line 474: Unrecognized token: 95
+Line 474: Unrecognized token: 95
+Line 474: ID = exit_fs
+Line 474: (
+Line 474: ID = tsk
+Line 474: )
+Line 474: ;
+Line 475: }
+Line 477: ID = EXPORT_SYMBOL_GPL
+Line 477: (
+Line 477: ID = exit_fs
+Line 477: )
+Line 477: ;
+Line 483: ID = static
+Line 483: ID = inline
+Line 483: void
+Line 483: Unrecognized token: 95
+Line 483: Unrecognized token: 95
+Line 483: ID = exit_mm
+Line 483: (
+Line 483: ID = struct
+Line 483: ID = task_struct
+Line 483: *
+Line 483: ID = tsk
+Line 483: )
+Line 484: {
+Line 485: ID = struct
+Line 485: ID = mm_struct
+Line 485: *
+Line 485: ID = mm
+Line 485: =
+Line 485: ID = tsk
+Line 485: -
+Line 485: >
+Line 485: ID = mm
+Line 485: ;
+Line 487: ID = mm_release
+Line 487: (
+Line 487: ID = tsk
+Line 487: ,
+Line 487: ID = mm
+Line 487: )
+Line 487: ;
+Line 488: if
+Line 488: (
+Line 488: !
+Line 488: ID = mm
+Line 488: )
+Line 489: return
+Line 489: ;
+Line 497: ID = down_read
+Line 497: (
+Line 497: Unrecognized token: 38
+Line 497: ID = mm
+Line 497: -
+Line 497: >
+Line 497: ID = mmap_sem
+Line 497: )
+Line 497: ;
+Line 498: if
+Line 498: (
+Line 498: ID = mm
+Line 498: -
+Line 498: >
+Line 498: ID = core_waiters
+Line 498: )
+Line 498: {
+Line 499: ID = up_read
+Line 499: (
+Line 499: Unrecognized token: 38
+Line 499: ID = mm
+Line 499: -
+Line 499: >
+Line 499: ID = mmap_sem
+Line 499: )
+Line 499: ;
+Line 500: ID = down_write
+Line 500: (
+Line 500: Unrecognized token: 38
+Line 500: ID = mm
+Line 500: -
+Line 500: >
+Line 500: ID = mmap_sem
+Line 500: )
+Line 500: ;
+Line 501: if
+Line 501: (
+Line 501: !
+Line 501: -
+Line 501: -
+Line 501: ID = mm
+Line 501: -
+Line 501: >
+Line 501: ID = core_waiters
+Line 501: )
+Line 502: ID = complete
+Line 502: (
+Line 502: ID = mm
+Line 502: -
+Line 502: >
+Line 502: ID = core_startup_done
+Line 502: )
+Line 502: ;
+Line 503: ID = up_write
+Line 503: (
+Line 503: Unrecognized token: 38
+Line 503: ID = mm
+Line 503: -
+Line 503: >
+Line 503: ID = mmap_sem
+Line 503: )
+Line 503: ;
+Line 505: ID = wait_for_completion
+Line 505: (
+Line 505: Unrecognized token: 38
+Line 505: ID = mm
+Line 505: -
+Line 505: >
+Line 505: ID = core_done
+Line 505: )
+Line 505: ;
+Line 506: ID = down_read
+Line 506: (
+Line 506: Unrecognized token: 38
+Line 506: ID = mm
+Line 506: -
+Line 506: >
+Line 506: ID = mmap_sem
+Line 506: )
+Line 506: ;
+Line 507: }
+Line 508: ID = atomic_inc
+Line 508: (
+Line 508: Unrecognized token: 38
+Line 508: ID = mm
+Line 508: -
+Line 508: >
+Line 508: ID = mm_count
+Line 508: )
+Line 508: ;
+Line 509: if
+Line 509: (
+Line 509: ID = mm
+Line 509: !=
+Line 509: ID = tsk
+Line 509: -
+Line 509: >
+Line 509: ID = active_mm
+Line 509: )
+Line 509: ID = BUG
+Line 509: (
+Line 509: )
+Line 509: ;
+Line 511: ID = task_lock
+Line 511: (
+Line 511: ID = tsk
+Line 511: )
+Line 511: ;
+Line 512: ID = tsk
+Line 512: -
+Line 512: >
+Line 512: ID = mm
+Line 512: =
+Line 512: ID = NULL
+Line 512: ;
+Line 513: ID = up_read
+Line 513: (
+Line 513: Unrecognized token: 38
+Line 513: ID = mm
+Line 513: -
+Line 513: >
+Line 513: ID = mmap_sem
+Line 513: )
+Line 513: ;
+Line 514: ID = enter_lazy_tlb
+Line 514: (
+Line 514: ID = mm
+Line 514: ,
+Line 514: ID = current
+Line 514: )
+Line 514: ;
+Line 515: ID = task_unlock
+Line 515: (
+Line 515: ID = tsk
+Line 515: )
+Line 515: ;
+Line 516: ID = mmput
+Line 516: (
+Line 516: ID = mm
+Line 516: )
+Line 516: ;
+Line 517: }
+Line 519: void
+Line 519: ID = exit_mm
+Line 519: (
+Line 519: ID = struct
+Line 519: ID = task_struct
+Line 519: *
+Line 519: ID = tsk
+Line 519: )
+Line 520: {
+Line 521: Unrecognized token: 95
+Line 521: Unrecognized token: 95
+Line 521: ID = exit_mm
+Line 521: (
+Line 521: ID = tsk
+Line 521: )
+Line 521: ;
+Line 522: }
+Line 524: ID = EXPORT_SYMBOL
+Line 524: (
+Line 524: ID = exit_mm
+Line 524: )
+Line 524: ;
+Line 526: ID = static
+Line 526: ID = inline
+Line 526: void
+Line 526: ID = choose_new_parent
+Line 526: (
+Line 526: ID = task_t
+Line 526: *
+Line 526: ID = p
+Line 526: ,
+Line 526: ID = task_t
+Line 526: *
+Line 526: ID = reaper
+Line 526: ,
+Line 526: ID = task_t
+Line 526: *
+Line 526: ID = child_reaper
+Line 526: )
+Line 527: {
+Line 532: if
+Line 532: (
+Line 532: ID = p
+Line 532: ==
+Line 532: ID = reaper
+Line 532: ||
+Line 532: ID = reaper
+Line 532: -
+Line 532: >
+Line 532: ID = state
+Line 532: >=
+Line 532: ID = TASK_ZOMBIE
+Line 532: )
+Line 533: ID = p
+Line 533: -
+Line 533: >
+Line 533: ID = real_parent
+Line 533: =
+Line 533: ID = child_reaper
+Line 533: ;
+Line 534: else
+Line 535: ID = p
+Line 535: -
+Line 535: >
+Line 535: ID = real_parent
+Line 535: =
+Line 535: ID = reaper
+Line 535: ;
+Line 536: if
+Line 536: (
+Line 536: ID = p
+Line 536: -
+Line 536: >
+Line 536: ID = parent
+Line 536: ==
+Line 536: ID = p
+Line 536: -
+Line 536: >
+Line 536: ID = real_parent
+Line 536: )
+Line 537: ID = BUG
+Line 537: (
+Line 537: )
+Line 537: ;
+Line 538: }
+Line 540: ID = static
+Line 540: ID = inline
+Line 540: void
+Line 540: ID = reparent_thread
+Line 540: (
+Line 540: ID = task_t
+Line 540: *
+Line 540: ID = p
+Line 540: ,
+Line 540: ID = task_t
+Line 540: *
+Line 540: ID = father
+Line 540: ,
+Line 540: int
+Line 540: ID = traced
+Line 540: )
+Line 541: {
+Line 543: if
+Line 543: (
+Line 543: ID = p
+Line 543: -
+Line 543: >
+Line 543: ID = exit_signal
+Line 543: !=
+Line 543: -
+Line 543: INTCON = 1
+Line 543: )
+Line 544: ID = p
+Line 544: -
+Line 544: >
+Line 544: ID = exit_signal
+Line 544: =
+Line 544: ID = SIGCHLD
+Line 544: ;
+Line 545: ID = p
+Line 545: -
+Line 545: >
+Line 545: ID = self_exec_id
+Line 545: +
+Line 545: +
+Line 545: ;
+Line 547: if
+Line 547: (
+Line 547: ID = p
+Line 547: -
+Line 547: >
+Line 547: ID = pdeath_signal
+Line 547: )
+Line 549: ID = group_send_sig_info
+Line 549: (
+Line 549: ID = p
+Line 549: -
+Line 549: >
+Line 549: ID = pdeath_signal
+Line 549: ,
+Line 549: (
+Line 549: void
+Line 549: *
+Line 549: )
+Line 549: INTCON = 0
+Line 549: ,
+Line 549: ID = p
+Line 549: )
+Line 549: ;
+Line 552: if
+Line 552: (
+Line 552: ID = unlikely
+Line 552: (
+Line 552: ID = traced
+Line 552: )
+Line 552: )
+Line 552: {
+Line 554: ID = list_del_init
+Line 554: (
+Line 554: Unrecognized token: 38
+Line 554: ID = p
+Line 554: -
+Line 554: >
+Line 554: ID = ptrace_list
+Line 554: )
+Line 554: ;
+Line 555: if
+Line 555: (
+Line 555: ID = p
+Line 555: -
+Line 555: >
+Line 555: ID = parent
+Line 555: !=
+Line 555: ID = p
+Line 555: -
+Line 555: >
+Line 555: ID = real_parent
+Line 555: )
+Line 556: ID = list_add
+Line 556: (
+Line 556: Unrecognized token: 38
+Line 556: ID = p
+Line 556: -
+Line 556: >
+Line 556: ID = ptrace_list
+Line 556: ,
+Line 556: Unrecognized token: 38
+Line 556: ID = p
+Line 556: -
+Line 556: >
+Line 556: ID = real_parent
+Line 556: -
+Line 556: >
+Line 556: ID = ptrace_children
+Line 556: )
+Line 556: ;
+Line 557: }
+Line 557: else
+Line 557: {
+Line 561: ID = p
+Line 561: -
+Line 561: >
+Line 561: ID = ptrace
+Line 561: =
+Line 561: INTCON = 0
+Line 561: ;
+Line 562: ID = list_del_init
+Line 562: (
+Line 562: Unrecognized token: 38
+Line 562: ID = p
+Line 562: -
+Line 562: >
+Line 562: ID = sibling
+Line 562: )
+Line 562: ;
+Line 563: ID = p
+Line 563: -
+Line 563: >
+Line 563: ID = parent
+Line 563: =
+Line 563: ID = p
+Line 563: -
+Line 563: >
+Line 563: ID = real_parent
+Line 563: ;
+Line 564: ID = list_add_tail
+Line 564: (
+Line 564: Unrecognized token: 38
+Line 564: ID = p
+Line 564: -
+Line 564: >
+Line 564: ID = sibling
+Line 564: ,
+Line 564: Unrecognized token: 38
+Line 564: ID = p
+Line 564: -
+Line 564: >
+Line 564: ID = parent
+Line 564: -
+Line 564: >
+Line 564: ID = children
+Line 564: )
+Line 564: ;
+Line 569: if
+Line 569: (
+Line 569: ID = p
+Line 569: -
+Line 569: >
+Line 569: ID = state
+Line 569: ==
+Line 569: ID = TASK_ZOMBIE
+Line 569: &&
+Line 569: ID = p
+Line 569: -
+Line 569: >
+Line 569: ID = exit_signal
+Line 569: !=
+Line 569: -
+Line 569: INTCON = 1
+Line 569: &&
+Line 570: ID = thread_group_empty
+Line 570: (
+Line 570: ID = p
+Line 570: )
+Line 570: )
+Line 571: ID = do_notify_parent
+Line 571: (
+Line 571: ID = p
+Line 571: ,
+Line 571: ID = p
+Line 571: -
+Line 571: >
+Line 571: ID = exit_signal
+Line 571: )
+Line 571: ;
+Line 572: }
+Line 580: if
+Line 580: (
+Line 580: (
+Line 580: ID = process_group
+Line 580: (
+Line 580: ID = p
+Line 580: )
+Line 580: !=
+Line 580: ID = process_group
+Line 580: (
+Line 580: ID = father
+Line 580: )
+Line 580: )
+Line 580: &&
+Line 581: (
+Line 581: ID = p
+Line 581: -
+Line 581: >
+Line 581: ID = signal
+Line 581: -
+Line 581: >
+Line 581: ID = session
+Line 581: ==
+Line 581: ID = father
+Line 581: -
+Line 581: >
+Line 581: ID = signal
+Line 581: -
+Line 581: >
+Line 581: ID = session
+Line 581: )
+Line 581: )
+Line 581: {
+Line 582: int
+Line 582: ID = pgrp
+Line 582: =
+Line 582: ID = process_group
+Line 582: (
+Line 582: ID = p
+Line 582: )
+Line 582: ;
+Line 584: if
+Line 584: (
+Line 584: ID = will_become_orphaned_pgrp
+Line 584: (
+Line 584: ID = pgrp
+Line 584: ,
+Line 584: ID = NULL
+Line 584: )
+Line 584: &&
+Line 584: ID = has_stopped_jobs
+Line 584: (
+Line 584: ID = pgrp
+Line 584: )
+Line 584: )
+Line 584: {
+Line 585: Unrecognized token: 95
+Line 585: Unrecognized token: 95
+Line 585: ID = kill_pg_info
+Line 585: (
+Line 585: ID = SIGHUP
+Line 585: ,
+Line 585: (
+Line 585: void
+Line 585: *
+Line 585: )
+Line 585: INTCON = 1
+Line 585: ,
+Line 585: ID = pgrp
+Line 585: )
+Line 585: ;
+Line 586: Unrecognized token: 95
+Line 586: Unrecognized token: 95
+Line 586: ID = kill_pg_info
+Line 586: (
+Line 586: ID = SIGCONT
+Line 586: ,
+Line 586: (
+Line 586: void
+Line 586: *
+Line 586: )
+Line 586: INTCON = 1
+Line 586: ,
+Line 586: ID = pgrp
+Line 586: )
+Line 586: ;
+Line 587: }
+Line 588: }
+Line 589: }
+Line 597: ID = static
+Line 597: ID = inline
+Line 597: void
+Line 597: ID = forget_original_parent
+Line 597: (
+Line 597: ID = struct
+Line 597: ID = task_struct
+Line 597: *
+Line 597: ID = father
+Line 597: ,
+Line 598: ID = struct
+Line 598: ID = list_head
+Line 598: *
+Line 598: ID = to_release
+Line 598: )
+Line 599: {
+Line 600: ID = struct
+Line 600: ID = task_struct
+Line 600: *
+Line 600: ID = p
+Line 600: ,
+Line 600: *
+Line 600: ID = reaper
+Line 600: =
+Line 600: ID = father
+Line 600: ;
+Line 601: ID = struct
+Line 601: ID = list_head
+Line 601: *
+Line 601: Unrecognized token: 95
+Line 601: ID = p
+Line 601: ,
+Line 601: *
+Line 601: Unrecognized token: 95
+Line 601: ID = n
+Line 601: ;
+Line 603: ID = reaper
+Line 603: =
+Line 603: ID = father
+Line 603: -
+Line 603: >
+Line 603: ID = group_leader
+Line 603: ;
+Line 604: if
+Line 604: (
+Line 604: ID = reaper
+Line 604: ==
+Line 604: ID = father
+Line 604: )
+Line 605: ID = reaper
+Line 605: =
+Line 605: ID = child_reaper
+Line 605: ;
+Line 615: ID = list_for_each_safe
+Line 615: (
+Line 615: Unrecognized token: 95
+Line 615: ID = p
+Line 615: ,
+Line 615: Unrecognized token: 95
+Line 615: ID = n
+Line 615: ,
+Line 615: Unrecognized token: 38
+Line 615: ID = father
+Line 615: -
+Line 615: >
+Line 615: ID = children
+Line 615: )
+Line 615: {
+Line 616: int
+Line 616: ID = ptrace
+Line 616: ;
+Line 617: ID = p
+Line 617: =
+Line 617: ID = list_entry
+Line 617: (
+Line 617: Unrecognized token: 95
+Line 617: ID = p
+Line 617: ,
+Line 617: ID = struct
+Line 617: ID = task_struct
+Line 617: ,
+Line 617: ID = sibling
+Line 617: )
+Line 617: ;
+Line 619: ID = ptrace
+Line 619: =
+Line 619: ID = p
+Line 619: -
+Line 619: >
+Line 619: ID = ptrace
+Line 619: ;
+Line 622: ID = BUG_ON
+Line 622: (
+Line 622: ID = father
+Line 622: !=
+Line 622: ID = p
+Line 622: -
+Line 622: >
+Line 622: ID = real_parent
+Line 622: &&
+Line 622: !
+Line 622: ID = ptrace
+Line 622: )
+Line 622: ;
+Line 624: if
+Line 624: (
+Line 624: ID = father
+Line 624: ==
+Line 624: ID = p
+Line 624: -
+Line 624: >
+Line 624: ID = real_parent
+Line 624: )
+Line 624: {
+Line 626: ID = choose_new_parent
+Line 626: (
+Line 626: ID = p
+Line 626: ,
+Line 626: ID = reaper
+Line 626: ,
+Line 626: ID = child_reaper
+Line 626: )
+Line 626: ;
+Line 627: ID = reparent_thread
+Line 627: (
+Line 627: ID = p
+Line 627: ,
+Line 627: ID = father
+Line 627: ,
+Line 627: INTCON = 0
+Line 627: )
+Line 627: ;
+Line 628: }
+Line 628: else
+Line 628: {
+Line 630: Unrecognized token: 95
+Line 630: Unrecognized token: 95
+Line 630: ID = ptrace_unlink
+Line 630: (
+Line 630: ID = p
+Line 630: )
+Line 630: ;
+Line 631: if
+Line 631: (
+Line 631: ID = p
+Line 631: -
+Line 631: >
+Line 631: ID = state
+Line 631: ==
+Line 631: ID = TASK_ZOMBIE
+Line 631: &&
+Line 631: ID = p
+Line 631: -
+Line 631: >
+Line 631: ID = exit_signal
+Line 631: !=
+Line 631: -
+Line 631: INTCON = 1
+Line 631: &&
+Line 632: ID = thread_group_empty
+Line 632: (
+Line 632: ID = p
+Line 632: )
+Line 632: )
+Line 633: ID = do_notify_parent
+Line 633: (
+Line 633: ID = p
+Line 633: ,
+Line 633: ID = p
+Line 633: -
+Line 633: >
+Line 633: ID = exit_signal
+Line 633: )
+Line 633: ;
+Line 634: }
+Line 642: if
+Line 642: (
+Line 642: ID = unlikely
+Line 642: (
+Line 642: ID = ptrace
+Line 642: &&
+Line 642: ID = p
+Line 642: -
+Line 642: >
+Line 642: ID = state
+Line 642: ==
+Line 642: ID = TASK_ZOMBIE
+Line 642: &&
+Line 642: ID = p
+Line 642: -
+Line 642: >
+Line 642: ID = exit_signal
+Line 642: ==
+Line 642: -
+Line 642: INTCON = 1
+Line 642: )
+Line 642: )
+Line 643: ID = list_add
+Line 643: (
+Line 643: Unrecognized token: 38
+Line 643: ID = p
+Line 643: -
+Line 643: >
+Line 643: ID = ptrace_list
+Line 643: ,
+Line 643: ID = to_release
+Line 643: )
+Line 643: ;
+Line 644: }
+Line 645: ID = list_for_each_safe
+Line 645: (
+Line 645: Unrecognized token: 95
+Line 645: ID = p
+Line 645: ,
+Line 645: Unrecognized token: 95
+Line 645: ID = n
+Line 645: ,
+Line 645: Unrecognized token: 38
+Line 645: ID = father
+Line 645: -
+Line 645: >
+Line 645: ID = ptrace_children
+Line 645: )
+Line 645: {
+Line 646: ID = p
+Line 646: =
+Line 646: ID = list_entry
+Line 646: (
+Line 646: Unrecognized token: 95
+Line 646: ID = p
+Line 646: ,
+Line 646: ID = struct
+Line 646: ID = task_struct
+Line 646: ,
+Line 646: ID = ptrace_list
+Line 646: )
+Line 646: ;
+Line 647: ID = choose_new_parent
+Line 647: (
+Line 647: ID = p
+Line 647: ,
+Line 647: ID = reaper
+Line 647: ,
+Line 647: ID = child_reaper
+Line 647: )
+Line 647: ;
+Line 648: ID = reparent_thread
+Line 648: (
+Line 648: ID = p
+Line 648: ,
+Line 648: ID = father
+Line 648: ,
+Line 648: INTCON = 1
+Line 648: )
+Line 648: ;
+Line 649: }
+Line 650: }
+Line 656: ID = static
+Line 656: void
+Line 656: ID = exit_notify
+Line 656: (
+Line 656: ID = struct
+Line 656: ID = task_struct
+Line 656: *
+Line 656: ID = tsk
+Line 656: )
+Line 657: {
+Line 658: int
+Line 658: ID = state
+Line 658: ;
+Line 659: ID = struct
+Line 659: ID = task_struct
+Line 659: *
+Line 659: ID = t
+Line 659: ;
+Line 660: ID = struct
+Line 660: ID = list_head
+Line 660: ID = ptrace_dead
+Line 660: ,
+Line 660: *
+Line 660: Unrecognized token: 95
+Line 660: ID = p
+Line 660: ,
+Line 660: *
+Line 660: Unrecognized token: 95
+Line 660: ID = n
+Line 660: ;
+Line 662: if
+Line 662: (
+Line 662: ID = signal_pending
+Line 662: (
+Line 662: ID = tsk
+Line 662: )
+Line 662: &&
+Line 662: !
+Line 662: ID = tsk
+Line 662: -
+Line 662: >
+Line 662: ID = signal
+Line 662: -
+Line 662: >
+Line 662: ID = group_exit
+Line 663: &&
+Line 663: !
+Line 663: ID = thread_group_empty
+Line 663: (
+Line 663: ID = tsk
+Line 663: )
+Line 663: )
+Line 663: {
+Line 673: ID = read_lock
+Line 673: (
+Line 673: Unrecognized token: 38
+Line 673: ID = tasklist_lock
+Line 673: )
+Line 673: ;
+Line 674: ID = spin_lock_irq
+Line 674: (
+Line 674: Unrecognized token: 38
+Line 674: ID = tsk
+Line 674: -
+Line 674: >
+Line 674: ID = sighand
+Line 674: -
+Line 674: >
+Line 674: ID = siglock
+Line 674: )
+Line 674: ;
+Line 675: for
+Line 675: (
+Line 675: ID = t
+Line 675: =
+Line 675: ID = next_thread
+Line 675: (
+Line 675: ID = tsk
+Line 675: )
+Line 675: ;
+Line 675: ID = t
+Line 675: !=
+Line 675: ID = tsk
+Line 675: ;
+Line 675: ID = t
+Line 675: =
+Line 675: ID = next_thread
+Line 675: (
+Line 675: ID = t
+Line 675: )
+Line 675: )
+Line 676: if
+Line 676: (
+Line 676: !
+Line 676: ID = signal_pending
+Line 676: (
+Line 676: ID = t
+Line 676: )
+Line 676: &&
+Line 676: !
+Line 676: (
+Line 676: ID = t
+Line 676: -
+Line 676: >
+Line 676: ID = flags
+Line 676: Unrecognized token: 38
+Line 676: ID = PF_EXITING
+Line 676: )
+Line 676: )
+Line 676: {
+Line 677: ID = recalc_sigpending_tsk
+Line 677: (
+Line 677: ID = t
+Line 677: )
+Line 677: ;
+Line 678: if
+Line 678: (
+Line 678: ID = signal_pending
+Line 678: (
+Line 678: ID = t
+Line 678: )
+Line 678: )
+Line 679: ID = signal_wake_up
+Line 679: (
+Line 679: ID = t
+Line 679: ,
+Line 679: INTCON = 0
+Line 679: )
+Line 679: ;
+Line 680: }
+Line 681: ID = spin_unlock_irq
+Line 681: (
+Line 681: Unrecognized token: 38
+Line 681: ID = tsk
+Line 681: -
+Line 681: >
+Line 681: ID = sighand
+Line 681: -
+Line 681: >
+Line 681: ID = siglock
+Line 681: )
+Line 681: ;
+Line 682: ID = read_unlock
+Line 682: (
+Line 682: Unrecognized token: 38
+Line 682: ID = tasklist_lock
+Line 682: )
+Line 682: ;
+Line 683: }
+Line 685: ID = write_lock_irq
+Line 685: (
+Line 685: Unrecognized token: 38
+Line 685: ID = tasklist_lock
+Line 685: )
+Line 685: ;
+Line 696: ID = INIT_LIST_HEAD
+Line 696: (
+Line 696: Unrecognized token: 38
+Line 696: ID = ptrace_dead
+Line 696: )
+Line 696: ;
+Line 697: ID = forget_original_parent
+Line 697: (
+Line 697: ID = tsk
+Line 697: ,
+Line 697: Unrecognized token: 38
+Line 697: ID = ptrace_dead
+Line 697: )
+Line 697: ;
+Line 698: ID = BUG_ON
+Line 698: (
+Line 698: !
+Line 698: ID = list_empty
+Line 698: (
+Line 698: Unrecognized token: 38
+Line 698: ID = tsk
+Line 698: -
+Line 698: >
+Line 698: ID = children
+Line 698: )
+Line 698: )
+Line 698: ;
+Line 699: ID = BUG_ON
+Line 699: (
+Line 699: !
+Line 699: ID = list_empty
+Line 699: (
+Line 699: Unrecognized token: 38
+Line 699: ID = tsk
+Line 699: -
+Line 699: >
+Line 699: ID = ptrace_children
+Line 699: )
+Line 699: )
+Line 699: ;
+Line 711: ID = t
+Line 711: =
+Line 711: ID = tsk
+Line 711: -
+Line 711: >
+Line 711: ID = real_parent
+Line 711: ;
+Line 713: if
+Line 713: (
+Line 713: (
+Line 713: ID = process_group
+Line 713: (
+Line 713: ID = t
+Line 713: )
+Line 713: !=
+Line 713: ID = process_group
+Line 713: (
+Line 713: ID = tsk
+Line 713: )
+Line 713: )
+Line 713: &&
+Line 714: (
+Line 714: ID = t
+Line 714: -
+Line 714: >
+Line 714: ID = signal
+Line 714: -
+Line 714: >
+Line 714: ID = session
+Line 714: ==
+Line 714: ID = tsk
+Line 714: -
+Line 714: >
+Line 714: ID = signal
+Line 714: -
+Line 714: >
+Line 714: ID = session
+Line 714: )
+Line 714: &&
+Line 715: ID = will_become_orphaned_pgrp
+Line 715: (
+Line 715: ID = process_group
+Line 715: (
+Line 715: ID = tsk
+Line 715: )
+Line 715: ,
+Line 715: ID = tsk
+Line 715: )
+Line 715: &&
+Line 716: ID = has_stopped_jobs
+Line 716: (
+Line 716: ID = process_group
+Line 716: (
+Line 716: ID = tsk
+Line 716: )
+Line 716: )
+Line 716: )
+Line 716: {
+Line 717: Unrecognized token: 95
+Line 717: Unrecognized token: 95
+Line 717: ID = kill_pg_info
+Line 717: (
+Line 717: ID = SIGHUP
+Line 717: ,
+Line 717: (
+Line 717: void
+Line 717: *
+Line 717: )
+Line 717: INTCON = 1
+Line 717: ,
+Line 717: ID = process_group
+Line 717: (
+Line 717: ID = tsk
+Line 717: )
+Line 717: )
+Line 717: ;
+Line 718: Unrecognized token: 95
+Line 718: Unrecognized token: 95
+Line 718: ID = kill_pg_info
+Line 718: (
+Line 718: ID = SIGCONT
+Line 718: ,
+Line 718: (
+Line 718: void
+Line 718: *
+Line 718: )
+Line 718: INTCON = 1
+Line 718: ,
+Line 718: ID = process_group
+Line 718: (
+Line 718: ID = tsk
+Line 718: )
+Line 718: )
+Line 718: ;
+Line 719: }
+Line 737: if
+Line 737: (
+Line 737: ID = tsk
+Line 737: -
+Line 737: >
+Line 737: ID = exit_signal
+Line 737: !=
+Line 737: ID = SIGCHLD
+Line 737: &&
+Line 737: ID = tsk
+Line 737: -
+Line 737: >
+Line 737: ID = exit_signal
+Line 737: !=
+Line 737: -
+Line 737: INTCON = 1
+Line 737: &&
+Line 738: (
+Line 738: ID = tsk
+Line 738: -
+Line 738: >
+Line 738: ID = parent_exec_id
+Line 738: !=
+Line 738: ID = t
+Line 738: -
+Line 738: >
+Line 738: ID = self_exec_id
+Line 738: ||
+Line 739: ID = tsk
+Line 739: -
+Line 739: >
+Line 739: ID = self_exec_id
+Line 739: !=
+Line 739: ID = tsk
+Line 739: -
+Line 739: >
+Line 739: ID = parent_exec_id
+Line 739: )
+Line 740: &&
+Line 740: !
+Line 740: ID = capable
+Line 740: (
+Line 740: ID = CAP_KILL
+Line 740: )
+Line 740: )
+Line 741: ID = tsk
+Line 741: -
+Line 741: >
+Line 741: ID = exit_signal
+Line 741: =
+Line 741: ID = SIGCHLD
+Line 741: ;
+Line 748: if
+Line 748: (
+Line 748: ID = tsk
+Line 748: -
+Line 748: >
+Line 748: ID = exit_signal
+Line 748: !=
+Line 748: -
+Line 748: INTCON = 1
+Line 748: &&
+Line 748: ID = thread_group_empty
+Line 748: (
+Line 748: ID = tsk
+Line 748: )
+Line 748: )
+Line 748: {
+Line 749: int
+Line 749: ID = signal
+Line 749: =
+Line 749: ID = tsk
+Line 749: -
+Line 749: >
+Line 749: ID = parent
+Line 749: ==
+Line 749: ID = tsk
+Line 749: -
+Line 749: >
+Line 749: ID = real_parent
+Line 749: Unrecognized token: 63
+Line 749: ID = tsk
+Line 749: -
+Line 749: >
+Line 749: ID = exit_signal
+Line 749: Unrecognized token: 58
+Line 749: ID = SIGCHLD
+Line 749: ;
+Line 750: ID = do_notify_parent
+Line 750: (
+Line 750: ID = tsk
+Line 750: ,
+Line 750: ID = signal
+Line 750: )
+Line 750: ;
+Line 751: }
+Line 751: else
+Line 751: if
+Line 751: (
+Line 751: ID = tsk
+Line 751: -
+Line 751: >
+Line 751: ID = ptrace
+Line 751: )
+Line 751: {
+Line 752: ID = do_notify_parent
+Line 752: (
+Line 752: ID = tsk
+Line 752: ,
+Line 752: ID = SIGCHLD
+Line 752: )
+Line 752: ;
+Line 753: }
+Line 755: ID = state
+Line 755: =
+Line 755: ID = TASK_ZOMBIE
+Line 755: ;
+Line 756: if
+Line 756: (
+Line 756: ID = tsk
+Line 756: -
+Line 756: >
+Line 756: ID = exit_signal
+Line 756: ==
+Line 756: -
+Line 756: INTCON = 1
+Line 756: &&
+Line 756: ID = tsk
+Line 756: -
+Line 756: >
+Line 756: ID = ptrace
+Line 756: ==
+Line 756: INTCON = 0
+Line 756: )
+Line 757: ID = state
+Line 757: =
+Line 757: ID = TASK_DEAD
+Line 757: ;
+Line 758: ID = tsk
+Line 758: -
+Line 758: >
+Line 758: ID = state
+Line 758: =
+Line 758: ID = state
+Line 758: ;
+Line 759: ID = tsk
+Line 759: -
+Line 759: >
+Line 759: ID = flags
+Line 759: Unrecognized token: 124
+Line 759: =
+Line 759: ID = PF_DEAD
+Line 759: ;
+Line 765: ID = tsk
+Line 765: -
+Line 765: >
+Line 765: ID = it_virt_value
+Line 765: =
+Line 765: INTCON = 0
+Line 765: ;
+Line 766: ID = tsk
+Line 766: -
+Line 766: >
+Line 766: ID = it_prof_value
+Line 766: =
+Line 766: INTCON = 0
+Line 766: ;
+Line 767: ID = tsk
+Line 767: -
+Line 767: >
+Line 767: ID = rlim
+Line 767: [
+Line 767: ID = RLIMIT_CPU
+Line 767: ]
+Line 767: Unrecognized token: 46
+Line 767: ID = rlim_cur
+Line 767: =
+Line 767: ID = RLIM_INFINITY
+Line 767: ;
+Line 781: Unrecognized token: 95
+Line 781: ID = raw_write_unlock
+Line 781: (
+Line 781: Unrecognized token: 38
+Line 781: ID = tasklist_lock
+Line 781: )
+Line 781: ;
+Line 782: ID = local_irq_enable
+Line 782: (
+Line 782: )
+Line 782: ;
+Line 784: ID = list_for_each_safe
+Line 784: (
+Line 784: Unrecognized token: 95
+Line 784: ID = p
+Line 784: ,
+Line 784: Unrecognized token: 95
+Line 784: ID = n
+Line 784: ,
+Line 784: Unrecognized token: 38
+Line 784: ID = ptrace_dead
+Line 784: )
+Line 784: {
+Line 785: ID = list_del_init
+Line 785: (
+Line 785: Unrecognized token: 95
+Line 785: ID = p
+Line 785: )
+Line 785: ;
+Line 786: ID = t
+Line 786: =
+Line 786: ID = list_entry
+Line 786: (
+Line 786: Unrecognized token: 95
+Line 786: ID = p
+Line 786: ,
+Line 786: ID = struct
+Line 786: ID = task_struct
+Line 786: ,
+Line 786: ID = ptrace_list
+Line 786: )
+Line 786: ;
+Line 787: ID = release_task
+Line 787: (
+Line 787: ID = t
+Line 787: )
+Line 787: ;
+Line 788: }
+Line 791: if
+Line 791: (
+Line 791: ID = state
+Line 791: ==
+Line 791: ID = TASK_DEAD
+Line 791: )
+Line 792: ID = release_task
+Line 792: (
+Line 792: ID = tsk
+Line 792: )
+Line 792: ;
+Line 794: }
+Line 796: ID = asmlinkage
+Line 796: ID = NORET_TYPE
+Line 796: void
+Line 796: ID = do_exit
+Line 796: (
+Line 796: ID = long
+Line 796: ID = code
+Line 796: )
+Line 797: {
+Line 798: ID = struct
+Line 798: ID = task_struct
+Line 798: *
+Line 798: ID = tsk
+Line 798: =
+Line 798: ID = current
+Line 798: ;
+Line 800: if
+Line 800: (
+Line 800: ID = unlikely
+Line 800: (
+Line 800: ID = in_interrupt
+Line 800: (
+Line 800: )
+Line 800: )
+Line 800: )
+Line 801: ID = panic
+Line 801: (
+Line 801: STRINGCON = "Aiee, killing interrupt handler!"
+Line 801: )
+Line 801: ;
+Line 802: if
+Line 802: (
+Line 802: ID = unlikely
+Line 802: (
+Line 802: !
+Line 802: ID = tsk
+Line 802: -
+Line 802: >
+Line 802: ID = pid
+Line 802: )
+Line 802: )
+Line 803: ID = panic
+Line 803: (
+Line 803: STRINGCON = "Attempted to kill the idle task!"
+Line 803: )
+Line 803: ;
+Line 804: if
+Line 804: (
+Line 804: ID = unlikely
+Line 804: (
+Line 804: ID = tsk
+Line 804: -
+Line 804: >
+Line 804: ID = pid
+Line 804: ==
+Line 804: INTCON = 1
+Line 804: )
+Line 804: )
+Line 805: ID = panic
+Line 805: (
+Line 805: STRINGCON = "Attempted to kill init!"
+Line 805: )
+Line 805: ;
+Line 806: if
+Line 806: (
+Line 806: ID = tsk
+Line 806: -
+Line 806: >
+Line 806: ID = io_context
+Line 806: )
+Line 807: ID = exit_io_context
+Line 807: (
+Line 807: )
+Line 807: ;
+Line 808: ID = tsk
+Line 808: -
+Line 808: >
+Line 808: ID = flags
+Line 808: Unrecognized token: 124
+Line 808: =
+Line 808: ID = PF_EXITING
+Line 808: ;
+Line 809: ID = del_timer_sync
+Line 809: (
+Line 809: Unrecognized token: 38
+Line 809: ID = tsk
+Line 809: -
+Line 809: >
+Line 809: ID = real_timer
+Line 809: )
+Line 809: ;
+Line 811: if
+Line 811: (
+Line 811: ID = unlikely
+Line 811: (
+Line 811: ID = in_atomic
+Line 811: (
+Line 811: )
+Line 811: )
+Line 811: )
+Line 812: ID = printk
+Line 812: (
+Line 812: ID = KERN_INFO
+Line 812: STRINGCON = "note: %s[%d] exited with preempt_count %d\n"
+Line 812: ,
+Line 813: ID = current
+Line 813: -
+Line 813: >
+Line 813: ID = comm
+Line 813: ,
+Line 813: ID = current
+Line 813: -
+Line 813: >
+Line 813: ID = pid
+Line 813: ,
+Line 814: ID = preempt_count
+Line 814: (
+Line 814: )
+Line 814: )
+Line 814: ;
+Line 816: ID = profile_exit_task
+Line 816: (
+Line 816: ID = tsk
+Line 816: )
+Line 816: ;
+Line 818: if
+Line 818: (
+Line 818: ID = unlikely
+Line 818: (
+Line 818: ID = current
+Line 818: -
+Line 818: >
+Line 818: ID = ptrace
+Line 818: Unrecognized token: 38
+Line 818: ID = PT_TRACE_EXIT
+Line 818: )
+Line 818: )
+Line 818: {
+Line 819: ID = current
+Line 819: -
+Line 819: >
+Line 819: ID = ptrace_message
+Line 819: =
+Line 819: ID = code
+Line 819: ;
+Line 820: ID = ptrace_notify
+Line 820: (
+Line 820: (
+Line 820: ID = PTRACE_EVENT_EXIT
+Line 820: <
+Line 820: <
+Line 820: INTCON = 8
+Line 820: )
+Line 820: Unrecognized token: 124
+Line 820: ID = SIGTRAP
+Line 820: )
+Line 820: ;
+Line 821: }
+Line 823: ID = acct_process
+Line 823: (
+Line 823: ID = code
+Line 823: )
+Line 823: ;
+Line 824: Unrecognized token: 95
+Line 824: Unrecognized token: 95
+Line 824: ID = exit_mm
+Line 824: (
+Line 824: ID = tsk
+Line 824: )
+Line 824: ;
+Line 826: ID = exit_sem
+Line 826: (
+Line 826: ID = tsk
+Line 826: )
+Line 826: ;
+Line 827: Unrecognized token: 95
+Line 827: Unrecognized token: 95
+Line 827: ID = exit_files
+Line 827: (
+Line 827: ID = tsk
+Line 827: )
+Line 827: ;
+Line 828: Unrecognized token: 95
+Line 828: Unrecognized token: 95
+Line 828: ID = exit_fs
+Line 828: (
+Line 828: ID = tsk
+Line 828: )
+Line 828: ;
+Line 829: ID = exit_namespace
+Line 829: (
+Line 829: ID = tsk
+Line 829: )
+Line 829: ;
+Line 830: ID = exit_thread
+Line 830: (
+Line 830: )
+Line 830: ;
+Line 832: if
+Line 832: (
+Line 832: ID = tsk
+Line 832: -
+Line 832: >
+Line 832: ID = signal
+Line 832: -
+Line 832: >
+Line 832: ID = leader
+Line 832: )
+Line 833: ID = disassociate_ctty
+Line 833: (
+Line 833: INTCON = 1
+Line 833: )
+Line 833: ;
+Line 835: ID = module_put
+Line 835: (
+Line 835: ID = tsk
+Line 835: -
+Line 835: >
+Line 835: ID = thread_info
+Line 835: -
+Line 835: >
+Line 835: ID = exec_domain
+Line 835: -
+Line 835: >
+Line 835: ID = module
+Line 835: )
+Line 835: ;
+Line 836: if
+Line 836: (
+Line 836: ID = tsk
+Line 836: -
+Line 836: >
+Line 836: ID = binfmt
+Line 836: )
+Line 837: ID = module_put
+Line 837: (
+Line 837: ID = tsk
+Line 837: -
+Line 837: >
+Line 837: ID = binfmt
+Line 837: -
+Line 837: >
+Line 837: ID = module
+Line 837: )
+Line 837: ;
+Line 839: ID = tsk
+Line 839: -
+Line 839: >
+Line 839: ID = exit_code
+Line 839: =
+Line 839: ID = code
+Line 839: ;
+Line 840: ID = exit_notify
+Line 840: (
+Line 840: ID = tsk
+Line 840: )
+Line 840: ;
+Line 841: Unrecognized token: 35
+Line 841: ID = ifdef
+Line 841: ID = CONFIG_NUMA
+Line 842: ID = mpol_free
+Line 842: (
+Line 842: ID = tsk
+Line 842: -
+Line 842: >
+Line 842: ID = mempolicy
+Line 842: )
+Line 842: ;
+Line 843: ID = tsk
+Line 843: -
+Line 843: >
+Line 843: ID = mempolicy
+Line 843: =
+Line 843: ID = NULL
+Line 843: ;
+Line 844: Unrecognized token: 35
+Line 844: ID = endif
+Line 845: ID = schedule
+Line 845: (
+Line 845: )
+Line 845: ;
+Line 846: ID = BUG
+Line 846: (
+Line 846: )
+Line 846: ;
+Line 848: for
+Line 848: (
+Line 848: ;
+Line 848: ;
+Line 848: )
+Line 848: ;
+Line 849: }
+Line 851: ID = NORET_TYPE
+Line 851: void
+Line 851: ID = complete_and_exit
+Line 851: (
+Line 851: ID = struct
+Line 851: ID = completion
+Line 851: *
+Line 851: ID = comp
+Line 851: ,
+Line 851: ID = long
+Line 851: ID = code
+Line 851: )
+Line 852: {
+Line 853: if
+Line 853: (
+Line 853: ID = comp
+Line 853: )
+Line 854: ID = complete
+Line 854: (
+Line 854: ID = comp
+Line 854: )
+Line 854: ;
+Line 856: ID = do_exit
+Line 856: (
+Line 856: ID = code
+Line 856: )
+Line 856: ;
+Line 857: }
+Line 859: ID = EXPORT_SYMBOL
+Line 859: (
+Line 859: ID = complete_and_exit
+Line 859: )
+Line 859: ;
+Line 861: ID = asmlinkage
+Line 861: ID = long
+Line 861: ID = sys_exit
+Line 861: (
+Line 861: int
+Line 861: ID = error_code
+Line 861: )
+Line 862: {
+Line 863: ID = do_exit
+Line 863: (
+Line 863: (
+Line 863: ID = error_code
+Line 863: Unrecognized token: 38
+Line 863: INTCON = 0
+Line 863: ID = xff
+Line 863: )
+Line 863: <
+Line 863: <
+Line 863: INTCON = 8
+Line 863: )
+Line 863: ;
+Line 864: }
+Line 866: ID = task_t
+Line 866: ID = fastcall
+Line 866: *
+Line 866: ID = next_thread
+Line 866: (
+Line 866: ID = const
+Line 866: ID = task_t
+Line 866: *
+Line 866: ID = p
+Line 866: )
+Line 867: {
+Line 868: ID = const
+Line 868: ID = struct
+Line 868: ID = pid_link
+Line 868: *
+Line 868: ID = link
+Line 868: =
+Line 868: ID = p
+Line 868: -
+Line 868: >
+Line 868: ID = pids
+Line 868: +
+Line 868: ID = PIDTYPE_TGID
+Line 868: ;
+Line 869: ID = const
+Line 869: ID = struct
+Line 869: ID = list_head
+Line 869: *
+Line 869: ID = tmp
+Line 869: ,
+Line 869: *
+Line 869: ID = head
+Line 869: =
+Line 869: Unrecognized token: 38
+Line 869: ID = link
+Line 869: -
+Line 869: >
+Line 869: ID = pidptr
+Line 869: -
+Line 869: >
+Line 869: ID = task_list
+Line 869: ;
+Line 871: Unrecognized token: 35
+Line 871: ID = ifdef
+Line 871: ID = CONFIG_SMP
+Line 872: if
+Line 872: (
+Line 872: !
+Line 872: ID = p
+Line 872: -
+Line 872: >
+Line 872: ID = sighand
+Line 872: )
+Line 873: ID = BUG
+Line 873: (
+Line 873: )
+Line 873: ;
+Line 874: if
+Line 874: (
+Line 874: !
+Line 874: ID = spin_is_locked
+Line 874: (
+Line 874: Unrecognized token: 38
+Line 874: ID = p
+Line 874: -
+Line 874: >
+Line 874: ID = sighand
+Line 874: -
+Line 874: >
+Line 874: ID = siglock
+Line 874: )
+Line 874: &&
+Line 875: !
+Line 875: ID = rwlock_is_locked
+Line 875: (
+Line 875: Unrecognized token: 38
+Line 875: ID = tasklist_lock
+Line 875: )
+Line 875: )
+Line 876: ID = BUG
+Line 876: (
+Line 876: )
+Line 876: ;
+Line 877: Unrecognized token: 35
+Line 877: ID = endif
+Line 878: ID = tmp
+Line 878: =
+Line 878: ID = link
+Line 878: -
+Line 878: >
+Line 878: ID = pid_chain
+Line 878: Unrecognized token: 46
+Line 878: ID = next
+Line 878: ;
+Line 879: if
+Line 879: (
+Line 879: ID = tmp
+Line 879: ==
+Line 879: ID = head
+Line 879: )
+Line 880: ID = tmp
+Line 880: =
+Line 880: ID = head
+Line 880: -
+Line 880: >
+Line 880: ID = next
+Line 880: ;
+Line 882: return
+Line 882: ID = pid_task
+Line 882: (
+Line 882: ID = tmp
+Line 882: ,
+Line 882: ID = PIDTYPE_TGID
+Line 882: )
+Line 882: ;
+Line 883: }
+Line 885: ID = EXPORT_SYMBOL
+Line 885: (
+Line 885: ID = next_thread
+Line 885: )
+Line 885: ;
+Line 891: ID = NORET_TYPE
+Line 891: void
+Line 892: ID = do_group_exit
+Line 892: (
+Line 892: int
+Line 892: ID = exit_code
+Line 892: )
+Line 893: {
+Line 894: ID = BUG_ON
+Line 894: (
+Line 894: ID = exit_code
+Line 894: Unrecognized token: 38
+Line 894: INTCON = 0
+Line 894: ID = x80
+Line 894: )
+Line 894: ;
+Line 896: if
+Line 896: (
+Line 896: ID = current
+Line 896: -
+Line 896: >
+Line 896: ID = signal
+Line 896: -
+Line 896: >
+Line 896: ID = group_exit
+Line 896: )
+Line 897: ID = exit_code
+Line 897: =
+Line 897: ID = current
+Line 897: -
+Line 897: >
+Line 897: ID = signal
+Line 897: -
+Line 897: >
+Line 897: ID = group_exit_code
+Line 897: ;
+Line 898: else
+Line 898: if
+Line 898: (
+Line 898: !
+Line 898: ID = thread_group_empty
+Line 898: (
+Line 898: ID = current
+Line 898: )
+Line 898: )
+Line 898: {
+Line 899: ID = struct
+Line 899: ID = signal_struct
+Line 899: *
+Line 899: ID = const
+Line 899: ID = sig
+Line 899: =
+Line 899: ID = current
+Line 899: -
+Line 899: >
+Line 899: ID = signal
+Line 899: ;
+Line 900: ID = struct
+Line 900: ID = sighand_struct
+Line 900: *
+Line 900: ID = const
+Line 900: ID = sighand
+Line 900: =
+Line 900: ID = current
+Line 900: -
+Line 900: >
+Line 900: ID = sighand
+Line 900: ;
+Line 901: ID = read_lock
+Line 901: (
+Line 901: Unrecognized token: 38
+Line 901: ID = tasklist_lock
+Line 901: )
+Line 901: ;
+Line 902: ID = spin_lock_irq
+Line 902: (
+Line 902: Unrecognized token: 38
+Line 902: ID = sighand
+Line 902: -
+Line 902: >
+Line 902: ID = siglock
+Line 902: )
+Line 902: ;
+Line 903: if
+Line 903: (
+Line 903: ID = sig
+Line 903: -
+Line 903: >
+Line 903: ID = group_exit
+Line 903: )
+Line 905: ID = exit_code
+Line 905: =
+Line 905: ID = sig
+Line 905: -
+Line 905: >
+Line 905: ID = group_exit_code
+Line 905: ;
+Line 906: else
+Line 906: {
+Line 907: ID = sig
+Line 907: -
+Line 907: >
+Line 907: ID = group_exit
+Line 907: =
+Line 907: INTCON = 1
+Line 907: ;
+Line 908: ID = sig
+Line 908: -
+Line 908: >
+Line 908: ID = group_exit_code
+Line 908: =
+Line 908: ID = exit_code
+Line 908: ;
+Line 909: ID = zap_other_threads
+Line 909: (
+Line 909: ID = current
+Line 909: )
+Line 909: ;
+Line 910: }
+Line 911: ID = spin_unlock_irq
+Line 911: (
+Line 911: Unrecognized token: 38
+Line 911: ID = sighand
+Line 911: -
+Line 911: >
+Line 911: ID = siglock
+Line 911: )
+Line 911: ;
+Line 912: ID = read_unlock
+Line 912: (
+Line 912: Unrecognized token: 38
+Line 912: ID = tasklist_lock
+Line 912: )
+Line 912: ;
+Line 913: }
+Line 915: ID = do_exit
+Line 915: (
+Line 915: ID = exit_code
+Line 915: )
+Line 915: ;
+Line 917: }
+Line 924: ID = asmlinkage
+Line 924: void
+Line 924: ID = sys_exit_group
+Line 924: (
+Line 924: int
+Line 924: ID = error_code
+Line 924: )
+Line 925: {
+Line 926: ID = do_group_exit
+Line 926: (
+Line 926: (
+Line 926: ID = error_code
+Line 926: Unrecognized token: 38
+Line 926: INTCON = 0
+Line 926: ID = xff
+Line 926: )
+Line 926: <
+Line 926: <
+Line 926: INTCON = 8
+Line 926: )
+Line 926: ;
+Line 927: }
+Line 929: ID = static
+Line 929: int
+Line 929: ID = eligible_child
+Line 929: (
+Line 929: ID = pid_t
+Line 929: ID = pid
+Line 929: ,
+Line 929: int
+Line 929: ID = options
+Line 929: ,
+Line 929: ID = task_t
+Line 929: *
+Line 929: ID = p
+Line 929: )
+Line 930: {
+Line 931: if
+Line 931: (
+Line 931: ID = pid
+Line 931: >
+Line 931: INTCON = 0
+Line 931: )
+Line 931: {
+Line 932: if
+Line 932: (
+Line 932: ID = p
+Line 932: -
+Line 932: >
+Line 932: ID = pid
+Line 932: !=
+Line 932: ID = pid
+Line 932: )
+Line 933: return
+Line 933: INTCON = 0
+Line 933: ;
+Line 934: }
+Line 934: else
+Line 934: if
+Line 934: (
+Line 934: !
+Line 934: ID = pid
+Line 934: )
+Line 934: {
+Line 935: if
+Line 935: (
+Line 935: ID = process_group
+Line 935: (
+Line 935: ID = p
+Line 935: )
+Line 935: !=
+Line 935: ID = process_group
+Line 935: (
+Line 935: ID = current
+Line 935: )
+Line 935: )
+Line 936: return
+Line 936: INTCON = 0
+Line 936: ;
+Line 937: }
+Line 937: else
+Line 937: if
+Line 937: (
+Line 937: ID = pid
+Line 937: !=
+Line 937: -
+Line 937: INTCON = 1
+Line 937: )
+Line 937: {
+Line 938: if
+Line 938: (
+Line 938: ID = process_group
+Line 938: (
+Line 938: ID = p
+Line 938: )
+Line 938: !=
+Line 938: -
+Line 938: ID = pid
+Line 938: )
+Line 939: return
+Line 939: INTCON = 0
+Line 939: ;
+Line 940: }
+Line 946: if
+Line 946: (
+Line 946: ID = p
+Line 946: -
+Line 946: >
+Line 946: ID = exit_signal
+Line 946: ==
+Line 946: -
+Line 946: INTCON = 1
+Line 946: &&
+Line 946: !
+Line 946: ID = p
+Line 946: -
+Line 946: >
+Line 946: ID = ptrace
+Line 946: )
+Line 947: return
+Line 947: INTCON = 0
+Line 947: ;
+Line 954: if
+Line 954: (
+Line 954: (
+Line 954: (
+Line 954: ID = p
+Line 954: -
+Line 954: >
+Line 954: ID = exit_signal
+Line 954: !=
+Line 954: ID = SIGCHLD
+Line 954: )
+Line 954: Unrecognized token: 94
+Line 954: (
+Line 954: (
+Line 954: ID = options
+Line 954: Unrecognized token: 38
+Line 954: Unrecognized token: 95
+Line 954: Unrecognized token: 95
+Line 954: ID = WCLONE
+Line 954: )
+Line 954: !=
+Line 954: INTCON = 0
+Line 954: )
+Line 954: )
+Line 955: &&
+Line 955: !
+Line 955: (
+Line 955: ID = options
+Line 955: Unrecognized token: 38
+Line 955: Unrecognized token: 95
+Line 955: Unrecognized token: 95
+Line 955: ID = WALL
+Line 955: )
+Line 955: )
+Line 956: return
+Line 956: INTCON = 0
+Line 956: ;
+Line 961: if
+Line 961: (
+Line 961: ID = current
+Line 961: -
+Line 961: >
+Line 961: ID = tgid
+Line 961: !=
+Line 961: ID = p
+Line 961: -
+Line 961: >
+Line 961: ID = tgid
+Line 961: &&
+Line 961: ID = delay_group_leader
+Line 961: (
+Line 961: ID = p
+Line 961: )
+Line 961: )
+Line 962: return
+Line 962: INTCON = 2
+Line 962: ;
+Line 964: if
+Line 964: (
+Line 964: ID = security_task_wait
+Line 964: (
+Line 964: ID = p
+Line 964: )
+Line 964: )
+Line 965: return
+Line 965: INTCON = 0
+Line 965: ;
+Line 967: return
+Line 967: INTCON = 1
+Line 967: ;
+Line 968: }
+Line 976: ID = static
+Line 976: int
+Line 976: ID = wait_task_zombie
+Line 976: (
+Line 976: ID = task_t
+Line 976: *
+Line 976: ID = p
+Line 976: ,
+Line 976: ID = unsigned
+Line 976: int
+Line 976: Unrecognized token: 95
+Line 976: Unrecognized token: 95
+Line 976: ID = user
+Line 976: *
+Line 976: ID = stat_addr
+Line 976: ,
+Line 976: ID = struct
+Line 976: ID = rusage
+Line 976: Unrecognized token: 95
+Line 976: Unrecognized token: 95
+Line 976: ID = user
+Line 976: *
+Line 976: ID = ru
+Line 976: )
+Line 977: {
+Line 978: ID = unsigned
+Line 978: ID = long
+Line 978: ID = state
+Line 978: ;
+Line 979: int
+Line 979: ID = retval
+Line 979: ;
+Line 985: ID = state
+Line 985: =
+Line 985: ID = xchg
+Line 985: (
+Line 985: Unrecognized token: 38
+Line 985: ID = p
+Line 985: -
+Line 985: >
+Line 985: ID = state
+Line 985: ,
+Line 985: ID = TASK_DEAD
+Line 985: )
+Line 985: ;
+Line 986: if
+Line 986: (
+Line 986: ID = state
+Line 986: !=
+Line 986: ID = TASK_ZOMBIE
+Line 986: )
+Line 986: {
+Line 987: ID = BUG_ON
+Line 987: (
+Line 987: ID = state
+Line 987: !=
+Line 987: ID = TASK_DEAD
+Line 987: )
+Line 987: ;
+Line 988: return
+Line 988: INTCON = 0
+Line 988: ;
+Line 989: }
+Line 990: if
+Line 990: (
+Line 990: ID = unlikely
+Line 990: (
+Line 990: ID = p
+Line 990: -
+Line 990: >
+Line 990: ID = exit_signal
+Line 990: ==
+Line 990: -
+Line 990: INTCON = 1
+Line 990: &&
+Line 990: ID = p
+Line 990: -
+Line 990: >
+Line 990: ID = ptrace
+Line 990: ==
+Line 990: INTCON = 0
+Line 990: )
+Line 990: )
+Line 995: return
+Line 995: INTCON = 0
+Line 995: ;
+Line 1001: ID = read_unlock
+Line 1001: (
+Line 1001: Unrecognized token: 38
+Line 1001: ID = tasklist_lock
+Line 1001: )
+Line 1001: ;
+Line 1003: ID = retval
+Line 1003: =
+Line 1003: ID = ru
+Line 1003: Unrecognized token: 63
+Line 1003: ID = getrusage
+Line 1003: (
+Line 1003: ID = p
+Line 1003: ,
+Line 1003: ID = RUSAGE_BOTH
+Line 1003: ,
+Line 1003: ID = ru
+Line 1003: )
+Line 1003: Unrecognized token: 58
+Line 1003: INTCON = 0
+Line 1003: ;
+Line 1004: if
+Line 1004: (
+Line 1004: !
+Line 1004: ID = retval
+Line 1004: &&
+Line 1004: ID = stat_addr
+Line 1004: )
+Line 1004: {
+Line 1005: if
+Line 1005: (
+Line 1005: ID = p
+Line 1005: -
+Line 1005: >
+Line 1005: ID = signal
+Line 1005: -
+Line 1005: >
+Line 1005: ID = group_exit
+Line 1005: )
+Line 1006: ID = retval
+Line 1006: =
+Line 1006: ID = put_user
+Line 1006: (
+Line 1006: ID = p
+Line 1006: -
+Line 1006: >
+Line 1006: ID = signal
+Line 1006: -
+Line 1006: >
+Line 1006: ID = group_exit_code
+Line 1006: ,
+Line 1006: ID = stat_addr
+Line 1006: )
+Line 1006: ;
+Line 1007: else
+Line 1008: ID = retval
+Line 1008: =
+Line 1008: ID = put_user
+Line 1008: (
+Line 1008: ID = p
+Line 1008: -
+Line 1008: >
+Line 1008: ID = exit_code
+Line 1008: ,
+Line 1008: ID = stat_addr
+Line 1008: )
+Line 1008: ;
+Line 1009: }
+Line 1010: if
+Line 1010: (
+Line 1010: ID = retval
+Line 1010: )
+Line 1010: {
+Line 1011: ID = p
+Line 1011: -
+Line 1011: >
+Line 1011: ID = state
+Line 1011: =
+Line 1011: ID = TASK_ZOMBIE
+Line 1011: ;
+Line 1012: return
+Line 1012: ID = retval
+Line 1012: ;
+Line 1013: }
+Line 1014: ID = retval
+Line 1014: =
+Line 1014: ID = p
+Line 1014: -
+Line 1014: >
+Line 1014: ID = pid
+Line 1014: ;
+Line 1015: if
+Line 1015: (
+Line 1015: ID = p
+Line 1015: -
+Line 1015: >
+Line 1015: ID = real_parent
+Line 1015: !=
+Line 1015: ID = p
+Line 1015: -
+Line 1015: >
+Line 1015: ID = parent
+Line 1015: )
+Line 1015: {
+Line 1016: ID = write_lock_irq
+Line 1016: (
+Line 1016: Unrecognized token: 38
+Line 1016: ID = tasklist_lock
+Line 1016: )
+Line 1016: ;
+Line 1018: if
+Line 1018: (
+Line 1018: ID = p
+Line 1018: -
+Line 1018: >
+Line 1018: ID = real_parent
+Line 1018: !=
+Line 1018: ID = p
+Line 1018: -
+Line 1018: >
+Line 1018: ID = parent
+Line 1018: )
+Line 1018: {
+Line 1019: Unrecognized token: 95
+Line 1019: Unrecognized token: 95
+Line 1019: ID = ptrace_unlink
+Line 1019: (
+Line 1019: ID = p
+Line 1019: )
+Line 1019: ;
+Line 1020: ID = p
+Line 1020: -
+Line 1020: >
+Line 1020: ID = state
+Line 1020: =
+Line 1020: ID = TASK_ZOMBIE
+Line 1020: ;
+Line 1025: if
+Line 1025: (
+Line 1025: ID = p
+Line 1025: -
+Line 1025: >
+Line 1025: ID = exit_signal
+Line 1025: !=
+Line 1025: -
+Line 1025: INTCON = 1
+Line 1025: )
+Line 1025: {
+Line 1026: ID = do_notify_parent
+Line 1026: (
+Line 1026: ID = p
+Line 1026: ,
+Line 1026: ID = p
+Line 1026: -
+Line 1026: >
+Line 1026: ID = exit_signal
+Line 1026: )
+Line 1026: ;
+Line 1027: if
+Line 1027: (
+Line 1027: ID = p
+Line 1027: -
+Line 1027: >
+Line 1027: ID = exit_signal
+Line 1027: !=
+Line 1027: -
+Line 1027: INTCON = 1
+Line 1027: )
+Line 1028: ID = p
+Line 1028: =
+Line 1028: ID = NULL
+Line 1028: ;
+Line 1029: }
+Line 1030: }
+Line 1031: ID = write_unlock_irq
+Line 1031: (
+Line 1031: Unrecognized token: 38
+Line 1031: ID = tasklist_lock
+Line 1031: )
+Line 1031: ;
+Line 1032: }
+Line 1033: if
+Line 1033: (
+Line 1033: ID = p
+Line 1033: !=
+Line 1033: ID = NULL
+Line 1033: )
+Line 1034: ID = release_task
+Line 1034: (
+Line 1034: ID = p
+Line 1034: )
+Line 1034: ;
+Line 1035: ID = BUG_ON
+Line 1035: (
+Line 1035: !
+Line 1035: ID = retval
+Line 1035: )
+Line 1035: ;
+Line 1036: return
+Line 1036: ID = retval
+Line 1036: ;
+Line 1037: }
+Line 1045: ID = static
+Line 1045: int
+Line 1045: ID = wait_task_stopped
+Line 1045: (
+Line 1045: ID = task_t
+Line 1045: *
+Line 1045: ID = p
+Line 1045: ,
+Line 1045: int
+Line 1045: ID = delayed_group_leader
+Line 1045: ,
+Line 1046: ID = unsigned
+Line 1046: int
+Line 1046: Unrecognized token: 95
+Line 1046: Unrecognized token: 95
+Line 1046: ID = user
+Line 1046: *
+Line 1046: ID = stat_addr
+Line 1046: ,
+Line 1047: ID = struct
+Line 1047: ID = rusage
+Line 1047: Unrecognized token: 95
+Line 1047: Unrecognized token: 95
+Line 1047: ID = user
+Line 1047: *
+Line 1047: ID = ru
+Line 1047: )
+Line 1048: {
+Line 1049: int
+Line 1049: ID = retval
+Line 1049: ,
+Line 1049: ID = exit_code
+Line 1049: ;
+Line 1051: if
+Line 1051: (
+Line 1051: !
+Line 1051: ID = p
+Line 1051: -
+Line 1051: >
+Line 1051: ID = exit_code
+Line 1051: )
+Line 1052: return
+Line 1052: INTCON = 0
+Line 1052: ;
+Line 1053: if
+Line 1053: (
+Line 1053: ID = delayed_group_leader
+Line 1053: &&
+Line 1053: !
+Line 1053: (
+Line 1053: ID = p
+Line 1053: -
+Line 1053: >
+Line 1053: ID = ptrace
+Line 1053: Unrecognized token: 38
+Line 1053: ID = PT_PTRACED
+Line 1053: )
+Line 1053: &&
+Line 1054: ID = p
+Line 1054: -
+Line 1054: >
+Line 1054: ID = signal
+Line 1054: &&
+Line 1054: ID = p
+Line 1054: -
+Line 1054: >
+Line 1054: ID = signal
+Line 1054: -
+Line 1054: >
+Line 1054: ID = group_stop_count
+Line 1054: >
+Line 1054: INTCON = 0
+Line 1054: )
+Line 1059: return
+Line 1059: INTCON = 0
+Line 1059: ;
+Line 1068: ID = get_task_struct
+Line 1068: (
+Line 1068: ID = p
+Line 1068: )
+Line 1068: ;
+Line 1069: ID = read_unlock
+Line 1069: (
+Line 1069: Unrecognized token: 38
+Line 1069: ID = tasklist_lock
+Line 1069: )
+Line 1069: ;
+Line 1070: ID = write_lock_irq
+Line 1070: (
+Line 1070: Unrecognized token: 38
+Line 1070: ID = tasklist_lock
+Line 1070: )
+Line 1070: ;
+Line 1077: ID = exit_code
+Line 1077: =
+Line 1077: ID = xchg
+Line 1077: (
+Line 1077: Unrecognized token: 38
+Line 1077: ID = p
+Line 1077: -
+Line 1077: >
+Line 1077: ID = exit_code
+Line 1077: ,
+Line 1077: INTCON = 0
+Line 1077: )
+Line 1077: ;
+Line 1078: if
+Line 1078: (
+Line 1078: ID = unlikely
+Line 1078: (
+Line 1078: ID = p
+Line 1078: -
+Line 1078: >
+Line 1078: ID = state
+Line 1078: >
+Line 1078: ID = TASK_STOPPED
+Line 1078: )
+Line 1078: )
+Line 1078: {
+Line 1086: ID = p
+Line 1086: -
+Line 1086: >
+Line 1086: ID = exit_code
+Line 1086: =
+Line 1086: ID = exit_code
+Line 1086: ;
+Line 1087: ID = exit_code
+Line 1087: =
+Line 1087: INTCON = 0
+Line 1087: ;
+Line 1088: }
+Line 1089: if
+Line 1089: (
+Line 1089: ID = unlikely
+Line 1089: (
+Line 1089: ID = exit_code
+Line 1089: ==
+Line 1089: INTCON = 0
+Line 1089: )
+Line 1089: )
+Line 1089: {
+Line 1094: ID = write_unlock_irq
+Line 1094: (
+Line 1094: Unrecognized token: 38
+Line 1094: ID = tasklist_lock
+Line 1094: )
+Line 1094: ;
+Line 1095: ID = put_task_struct
+Line 1095: (
+Line 1095: ID = p
+Line 1095: )
+Line 1095: ;
+Line 1096: ID = read_lock
+Line 1096: (
+Line 1096: Unrecognized token: 38
+Line 1096: ID = tasklist_lock
+Line 1096: )
+Line 1096: ;
+Line 1097: return
+Line 1097: INTCON = 0
+Line 1097: ;
+Line 1098: }
+Line 1101: ID = remove_parent
+Line 1101: (
+Line 1101: ID = p
+Line 1101: )
+Line 1101: ;
+Line 1102: ID = add_parent
+Line 1102: (
+Line 1102: ID = p
+Line 1102: ,
+Line 1102: ID = p
+Line 1102: -
+Line 1102: >
+Line 1102: ID = parent
+Line 1102: )
+Line 1102: ;
+Line 1104: ID = write_unlock_irq
+Line 1104: (
+Line 1104: Unrecognized token: 38
+Line 1104: ID = tasklist_lock
+Line 1104: )
+Line 1104: ;
+Line 1106: ID = retval
+Line 1106: =
+Line 1106: ID = ru
+Line 1106: Unrecognized token: 63
+Line 1106: ID = getrusage
+Line 1106: (
+Line 1106: ID = p
+Line 1106: ,
+Line 1106: ID = RUSAGE_BOTH
+Line 1106: ,
+Line 1106: ID = ru
+Line 1106: )
+Line 1106: Unrecognized token: 58
+Line 1106: INTCON = 0
+Line 1106: ;
+Line 1107: if
+Line 1107: (
+Line 1107: !
+Line 1107: ID = retval
+Line 1107: &&
+Line 1107: ID = stat_addr
+Line 1107: )
+Line 1108: ID = retval
+Line 1108: =
+Line 1108: ID = put_user
+Line 1108: (
+Line 1108: (
+Line 1108: ID = exit_code
+Line 1108: <
+Line 1108: <
+Line 1108: INTCON = 8
+Line 1108: )
+Line 1108: Unrecognized token: 124
+Line 1108: INTCON = 0
+Line 1108: ID = x7f
+Line 1108: ,
+Line 1108: ID = stat_addr
+Line 1108: )
+Line 1108: ;
+Line 1109: if
+Line 1109: (
+Line 1109: !
+Line 1109: ID = retval
+Line 1109: )
+Line 1110: ID = retval
+Line 1110: =
+Line 1110: ID = p
+Line 1110: -
+Line 1110: >
+Line 1110: ID = pid
+Line 1110: ;
+Line 1111: ID = put_task_struct
+Line 1111: (
+Line 1111: ID = p
+Line 1111: )
+Line 1111: ;
+Line 1113: ID = BUG_ON
+Line 1113: (
+Line 1113: !
+Line 1113: ID = retval
+Line 1113: )
+Line 1113: ;
+Line 1114: return
+Line 1114: ID = retval
+Line 1114: ;
+Line 1115: }
+Line 1117: ID = asmlinkage
+Line 1117: ID = long
+Line 1117: ID = sys_wait4
+Line 1117: (
+Line 1117: ID = pid_t
+Line 1117: ID = pid
+Line 1117: ,
+Line 1117: ID = unsigned
+Line 1117: int
+Line 1117: Unrecognized token: 95
+Line 1117: Unrecognized token: 95
+Line 1117: ID = user
+Line 1117: *
+Line 1117: ID = stat_addr
+Line 1117: ,
+Line 1117: int
+Line 1117: ID = options
+Line 1117: ,
+Line 1117: ID = struct
+Line 1117: ID = rusage
+Line 1117: Unrecognized token: 95
+Line 1117: Unrecognized token: 95
+Line 1117: ID = user
+Line 1117: *
+Line 1117: ID = ru
+Line 1117: )
+Line 1118: {
+Line 1119: ID = DECLARE_WAITQUEUE
+Line 1119: (
+Line 1119: ID = wait
+Line 1119: ,
+Line 1119: ID = current
+Line 1119: )
+Line 1119: ;
+Line 1120: ID = struct
+Line 1120: ID = task_struct
+Line 1120: *
+Line 1120: ID = tsk
+Line 1120: ;
+Line 1121: int
+Line 1121: ID = flag
+Line 1121: ,
+Line 1121: ID = retval
+Line 1121: ;
+Line 1123: if
+Line 1123: (
+Line 1123: ID = options
+Line 1123: Unrecognized token: 38
+Line 1123: Unrecognized token: 126
+Line 1123: (
+Line 1123: ID = WNOHANG
+Line 1123: Unrecognized token: 124
+Line 1123: ID = WUNTRACED
+Line 1123: Unrecognized token: 124
+Line 1123: Unrecognized token: 95
+Line 1123: Unrecognized token: 95
+Line 1123: ID = WNOTHREAD
+Line 1123: Unrecognized token: 124
+Line 1123: Unrecognized token: 95
+Line 1123: Unrecognized token: 95
+Line 1123: ID = WCLONE
+Line 1123: Unrecognized token: 124
+Line 1123: Unrecognized token: 95
+Line 1123: Unrecognized token: 95
+Line 1123: ID = WALL
+Line 1123: )
+Line 1123: )
+Line 1124: return
+Line 1124: -
+Line 1124: ID = EINVAL
+Line 1124: ;
+Line 1126: ID = add_wait_queue
+Line 1126: (
+Line 1126: Unrecognized token: 38
+Line 1126: ID = current
+Line 1126: -
+Line 1126: >
+Line 1126: ID = wait_chldexit
+Line 1126: ,
+Line 1126: Unrecognized token: 38
+Line 1126: ID = wait
+Line 1126: )
+Line 1126: ;
+Line 1127: ID = repeat
+Line 1127: Unrecognized token: 58
+Line 1128: ID = flag
+Line 1128: =
+Line 1128: INTCON = 0
+Line 1128: ;
+Line 1129: ID = current
+Line 1129: -
+Line 1129: >
+Line 1129: ID = state
+Line 1129: =
+Line 1129: ID = TASK_INTERRUPTIBLE
+Line 1129: ;
+Line 1130: ID = read_lock
+Line 1130: (
+Line 1130: Unrecognized token: 38
+Line 1130: ID = tasklist_lock
+Line 1130: )
+Line 1130: ;
+Line 1131: ID = tsk
+Line 1131: =
+Line 1131: ID = current
+Line 1131: ;
+Line 1132: ID = do
+Line 1132: {
+Line 1133: ID = struct
+Line 1133: ID = task_struct
+Line 1133: *
+Line 1133: ID = p
+Line 1133: ;
+Line 1134: ID = struct
+Line 1134: ID = list_head
+Line 1134: *
+Line 1134: Unrecognized token: 95
+Line 1134: ID = p
+Line 1134: ;
+Line 1135: int
+Line 1135: ID = ret
+Line 1135: ;
+Line 1137: ID = list_for_each
+Line 1137: (
+Line 1137: Unrecognized token: 95
+Line 1137: ID = p
+Line 1137: ,
+Line 1137: Unrecognized token: 38
+Line 1137: ID = tsk
+Line 1137: -
+Line 1137: >
+Line 1137: ID = children
+Line 1137: )
+Line 1137: {
+Line 1138: ID = p
+Line 1138: =
+Line 1138: ID = list_entry
+Line 1138: (
+Line 1138: Unrecognized token: 95
+Line 1138: ID = p
+Line 1138: ,
+Line 1138: ID = struct
+Line 1138: ID = task_struct
+Line 1138: ,
+Line 1138: ID = sibling
+Line 1138: )
+Line 1138: ;
+Line 1140: ID = ret
+Line 1140: =
+Line 1140: ID = eligible_child
+Line 1140: (
+Line 1140: ID = pid
+Line 1140: ,
+Line 1140: ID = options
+Line 1140: ,
+Line 1140: ID = p
+Line 1140: )
+Line 1140: ;
+Line 1141: if
+Line 1141: (
+Line 1141: !
+Line 1141: ID = ret
+Line 1141: )
+Line 1142: ID = continue
+Line 1142: ;
+Line 1143: ID = flag
+Line 1143: =
+Line 1143: INTCON = 1
+Line 1143: ;
+Line 1145: ID = switch
+Line 1145: (
+Line 1145: ID = p
+Line 1145: -
+Line 1145: >
+Line 1145: ID = state
+Line 1145: )
+Line 1145: {
+Line 1146: ID = case
+Line 1146: ID = TASK_STOPPED
+Line 1146: Unrecognized token: 58
+Line 1147: if
+Line 1147: (
+Line 1147: !
+Line 1147: (
+Line 1147: ID = options
+Line 1147: Unrecognized token: 38
+Line 1147: ID = WUNTRACED
+Line 1147: )
+Line 1147: &&
+Line 1148: !
+Line 1148: (
+Line 1148: ID = p
+Line 1148: -
+Line 1148: >
+Line 1148: ID = ptrace
+Line 1148: Unrecognized token: 38
+Line 1148: ID = PT_PTRACED
+Line 1148: )
+Line 1148: )
+Line 1149: ID = continue
+Line 1149: ;
+Line 1150: ID = retval
+Line 1150: =
+Line 1150: ID = wait_task_stopped
+Line 1150: (
+Line 1150: ID = p
+Line 1150: ,
+Line 1150: ID = ret
+Line 1150: ==
+Line 1150: INTCON = 2
+Line 1150: ,
+Line 1151: ID = stat_addr
+Line 1151: ,
+Line 1151: ID = ru
+Line 1151: )
+Line 1151: ;
+Line 1152: if
+Line 1152: (
+Line 1152: ID = retval
+Line 1152: !=
+Line 1152: INTCON = 0
+Line 1152: )
+Line 1153: ID = goto
+Line 1153: ID = end_wait4
+Line 1153: ;
+Line 1154: ID = break
+Line 1154: ;
+Line 1155: ID = case
+Line 1155: ID = TASK_ZOMBIE
+Line 1155: Unrecognized token: 58
+Line 1159: if
+Line 1159: (
+Line 1159: ID = ret
+Line 1159: ==
+Line 1159: INTCON = 2
+Line 1159: )
+Line 1160: ID = continue
+Line 1160: ;
+Line 1161: ID = retval
+Line 1161: =
+Line 1161: ID = wait_task_zombie
+Line 1161: (
+Line 1161: ID = p
+Line 1161: ,
+Line 1161: ID = stat_addr
+Line 1161: ,
+Line 1161: ID = ru
+Line 1161: )
+Line 1161: ;
+Line 1162: if
+Line 1162: (
+Line 1162: ID = retval
+Line 1162: !=
+Line 1162: INTCON = 0
+Line 1162: )
+Line 1163: ID = goto
+Line 1163: ID = end_wait4
+Line 1163: ;
+Line 1164: ID = break
+Line 1164: ;
+Line 1165: }
+Line 1166: }
+Line 1167: if
+Line 1167: (
+Line 1167: !
+Line 1167: ID = flag
+Line 1167: )
+Line 1167: {
+Line 1168: ID = list_for_each
+Line 1168: (
+Line 1168: Unrecognized token: 95
+Line 1168: ID = p
+Line 1168: ,
+Line 1168: Unrecognized token: 38
+Line 1168: ID = tsk
+Line 1168: -
+Line 1168: >
+Line 1168: ID = ptrace_children
+Line 1168: )
+Line 1168: {
+Line 1169: ID = p
+Line 1169: =
+Line 1169: ID = list_entry
+Line 1169: (
+Line 1169: Unrecognized token: 95
+Line 1169: ID = p
+Line 1169: ,
+Line 1169: ID = struct
+Line 1169: ID = task_struct
+Line 1169: ,
+Line 1169: ID = ptrace_list
+Line 1169: )
+Line 1169: ;
+Line 1170: if
+Line 1170: (
+Line 1170: !
+Line 1170: ID = eligible_child
+Line 1170: (
+Line 1170: ID = pid
+Line 1170: ,
+Line 1170: ID = options
+Line 1170: ,
+Line 1170: ID = p
+Line 1170: )
+Line 1170: )
+Line 1171: ID = continue
+Line 1171: ;
+Line 1172: ID = flag
+Line 1172: =
+Line 1172: INTCON = 1
+Line 1172: ;
+Line 1173: ID = break
+Line 1173: ;
+Line 1174: }
+Line 1175: }
+Line 1176: if
+Line 1176: (
+Line 1176: ID = options
+Line 1176: Unrecognized token: 38
+Line 1176: Unrecognized token: 95
+Line 1176: Unrecognized token: 95
+Line 1176: ID = WNOTHREAD
+Line 1176: )
+Line 1177: ID = break
+Line 1177: ;
+Line 1178: ID = tsk
+Line 1178: =
+Line 1178: ID = next_thread
+Line 1178: (
+Line 1178: ID = tsk
+Line 1178: )
+Line 1178: ;
+Line 1179: if
+Line 1179: (
+Line 1179: ID = tsk
+Line 1179: -
+Line 1179: >
+Line 1179: ID = signal
+Line 1179: !=
+Line 1179: ID = current
+Line 1179: -
+Line 1179: >
+Line 1179: ID = signal
+Line 1179: )
+Line 1180: ID = BUG
+Line 1180: (
+Line 1180: )
+Line 1180: ;
+Line 1181: }
+Line 1181: while
+Line 1181: (
+Line 1181: ID = tsk
+Line 1181: !=
+Line 1181: ID = current
+Line 1181: )
+Line 1181: ;
+Line 1182: ID = read_unlock
+Line 1182: (
+Line 1182: Unrecognized token: 38
+Line 1182: ID = tasklist_lock
+Line 1182: )
+Line 1182: ;
+Line 1183: if
+Line 1183: (
+Line 1183: ID = flag
+Line 1183: )
+Line 1183: {
+Line 1184: ID = retval
+Line 1184: =
+Line 1184: INTCON = 0
+Line 1184: ;
+Line 1185: if
+Line 1185: (
+Line 1185: ID = options
+Line 1185: Unrecognized token: 38
+Line 1185: ID = WNOHANG
+Line 1185: )
+Line 1186: ID = goto
+Line 1186: ID = end_wait4
+Line 1186: ;
+Line 1187: ID = retval
+Line 1187: =
+Line 1187: -
+Line 1187: ID = ERESTARTSYS
+Line 1187: ;
+Line 1188: if
+Line 1188: (
+Line 1188: ID = signal_pending
+Line 1188: (
+Line 1188: ID = current
+Line 1188: )
+Line 1188: )
+Line 1189: ID = goto
+Line 1189: ID = end_wait4
+Line 1189: ;
+Line 1190: ID = schedule
+Line 1190: (
+Line 1190: )
+Line 1190: ;
+Line 1191: ID = goto
+Line 1191: ID = repeat
+Line 1191: ;
+Line 1192: }
+Line 1193: ID = retval
+Line 1193: =
+Line 1193: -
+Line 1193: ID = ECHILD
+Line 1193: ;
+Line 1194: ID = end_wait4
+Line 1194: Unrecognized token: 58
+Line 1195: ID = current
+Line 1195: -
+Line 1195: >
+Line 1195: ID = state
+Line 1195: =
+Line 1195: ID = TASK_RUNNING
+Line 1195: ;
+Line 1196: ID = remove_wait_queue
+Line 1196: (
+Line 1196: Unrecognized token: 38
+Line 1196: ID = current
+Line 1196: -
+Line 1196: >
+Line 1196: ID = wait_chldexit
+Line 1196: ,
+Line 1196: Unrecognized token: 38
+Line 1196: ID = wait
+Line 1196: )
+Line 1196: ;
+Line 1197: return
+Line 1197: ID = retval
+Line 1197: ;
+Line 1198: }
+Line 1200: Unrecognized token: 35
+Line 1200: ID = ifdef
+Line 1200: Unrecognized token: 95
+Line 1200: Unrecognized token: 95
+Line 1200: ID = ARCH_WANT_SYS_WAITPID
+Line 1206: ID = asmlinkage
+Line 1206: ID = long
+Line 1206: ID = sys_waitpid
+Line 1206: (
+Line 1206: ID = pid_t
+Line 1206: ID = pid
+Line 1206: ,
+Line 1206: ID = unsigned
+Line 1206: Unrecognized token: 95
+Line 1206: Unrecognized token: 95
+Line 1206: ID = user
+Line 1206: *
+Line 1206: ID = stat_addr
+Line 1206: ,
+Line 1206: int
+Line 1206: ID = options
+Line 1206: )
+Line 1207: {
+Line 1208: return
+Line 1208: ID = sys_wait4
+Line 1208: (
+Line 1208: ID = pid
+Line 1208: ,
+Line 1208: ID = stat_addr
+Line 1208: ,
+Line 1208: ID = options
+Line 1208: ,
+Line 1208: ID = NULL
+Line 1208: )
+Line 1208: ;
+Line 1209: }
+Line 1211: Unrecognized token: 35
+Line 1211: ID = endif
+Line 1212: -EOF-

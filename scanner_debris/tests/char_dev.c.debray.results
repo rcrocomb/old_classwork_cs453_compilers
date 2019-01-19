@@ -1,0 +1,2400 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = config
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = init
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = fs
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = slab
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = string
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = major
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = errno
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = module
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = smp_lock
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = devfs_fs_kernel
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = kobject
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = kobj_map
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = cdev
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 23: Unrecognized token: 35
+Line 23: ID = ifdef
+Line 23: ID = CONFIG_KMOD
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = kmod
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = endif
+Line 27: ID = static
+Line 27: ID = struct
+Line 27: ID = kobj_map
+Line 27: *
+Line 27: ID = cdev_map
+Line 27: ;
+Line 29: Unrecognized token: 35
+Line 29: ID = define
+Line 29: ID = MAX_PROBE_HASH
+Line 29: INTCON = 255
+Line 31: ID = static
+Line 31: ID = rwlock_t
+Line 31: ID = chrdevs_lock
+Line 31: =
+Line 31: ID = RW_LOCK_UNLOCKED
+Line 31: ;
+Line 33: ID = static
+Line 33: ID = struct
+Line 33: ID = char_device_struct
+Line 33: {
+Line 34: ID = struct
+Line 34: ID = char_device_struct
+Line 34: *
+Line 34: ID = next
+Line 34: ;
+Line 35: ID = unsigned
+Line 35: int
+Line 35: ID = major
+Line 35: ;
+Line 36: ID = unsigned
+Line 36: int
+Line 36: ID = baseminor
+Line 36: ;
+Line 37: int
+Line 37: ID = minorct
+Line 37: ;
+Line 38: ID = const
+Line 38: char
+Line 38: *
+Line 38: ID = name
+Line 38: ;
+Line 39: ID = struct
+Line 39: ID = file_operations
+Line 39: *
+Line 39: ID = fops
+Line 39: ;
+Line 40: ID = struct
+Line 40: ID = cdev
+Line 40: *
+Line 40: ID = cdev
+Line 40: ;
+Line 41: }
+Line 41: *
+Line 41: ID = chrdevs
+Line 41: [
+Line 41: ID = MAX_PROBE_HASH
+Line 41: ]
+Line 41: ;
+Line 44: ID = static
+Line 44: ID = inline
+Line 44: int
+Line 44: ID = major_to_index
+Line 44: (
+Line 44: int
+Line 44: ID = major
+Line 44: )
+Line 45: {
+Line 46: return
+Line 46: ID = major
+Line 46: Unrecognized token: 37
+Line 46: ID = MAX_PROBE_HASH
+Line 46: ;
+Line 47: }
+Line 50: int
+Line 50: ID = get_chrdev_list
+Line 50: (
+Line 50: char
+Line 50: *
+Line 50: ID = page
+Line 50: )
+Line 51: {
+Line 52: ID = struct
+Line 52: ID = char_device_struct
+Line 52: *
+Line 52: ID = cd
+Line 52: ;
+Line 53: int
+Line 53: ID = i
+Line 53: ,
+Line 53: ID = len
+Line 53: ;
+Line 55: ID = len
+Line 55: =
+Line 55: ID = sprintf
+Line 55: (
+Line 55: ID = page
+Line 55: ,
+Line 55: STRINGCON = "Character devices:\n"
+Line 55: )
+Line 55: ;
+Line 57: ID = read_lock
+Line 57: (
+Line 57: Unrecognized token: 38
+Line 57: ID = chrdevs_lock
+Line 57: )
+Line 57: ;
+Line 58: for
+Line 58: (
+Line 58: ID = i
+Line 58: =
+Line 58: INTCON = 0
+Line 58: ;
+Line 58: ID = i
+Line 58: <
+Line 58: ID = ARRAY_SIZE
+Line 58: (
+Line 58: ID = chrdevs
+Line 58: )
+Line 58: ;
+Line 58: ID = i
+Line 58: +
+Line 58: +
+Line 58: )
+Line 58: {
+Line 59: for
+Line 59: (
+Line 59: ID = cd
+Line 59: =
+Line 59: ID = chrdevs
+Line 59: [
+Line 59: ID = i
+Line 59: ]
+Line 59: ;
+Line 59: ID = cd
+Line 59: ;
+Line 59: ID = cd
+Line 59: =
+Line 59: ID = cd
+Line 59: -
+Line 59: >
+Line 59: ID = next
+Line 59: )
+Line 60: ID = len
+Line 60: +
+Line 60: =
+Line 60: ID = sprintf
+Line 60: (
+Line 60: ID = page
+Line 60: +
+Line 60: ID = len
+Line 60: ,
+Line 60: STRINGCON = "%3d %s\n"
+Line 60: ,
+Line 61: ID = cd
+Line 61: -
+Line 61: >
+Line 61: ID = major
+Line 61: ,
+Line 61: ID = cd
+Line 61: -
+Line 61: >
+Line 61: ID = name
+Line 61: )
+Line 61: ;
+Line 62: }
+Line 63: ID = read_unlock
+Line 63: (
+Line 63: Unrecognized token: 38
+Line 63: ID = chrdevs_lock
+Line 63: )
+Line 63: ;
+Line 65: return
+Line 65: ID = len
+Line 65: ;
+Line 66: }
+Line 79: ID = static
+Line 79: ID = struct
+Line 79: ID = char_device_struct
+Line 79: *
+Line 80: Unrecognized token: 95
+Line 80: Unrecognized token: 95
+Line 80: ID = register_chrdev_region
+Line 80: (
+Line 80: ID = unsigned
+Line 80: int
+Line 80: ID = major
+Line 80: ,
+Line 80: ID = unsigned
+Line 80: int
+Line 80: ID = baseminor
+Line 80: ,
+Line 81: int
+Line 81: ID = minorct
+Line 81: ,
+Line 81: ID = const
+Line 81: char
+Line 81: *
+Line 81: ID = name
+Line 81: )
+Line 82: {
+Line 83: ID = struct
+Line 83: ID = char_device_struct
+Line 83: *
+Line 83: ID = cd
+Line 83: ,
+Line 83: *
+Line 83: *
+Line 83: ID = cp
+Line 83: ;
+Line 84: int
+Line 84: ID = ret
+Line 84: =
+Line 84: INTCON = 0
+Line 84: ;
+Line 85: int
+Line 85: ID = i
+Line 85: ;
+Line 87: ID = cd
+Line 87: =
+Line 87: ID = kmalloc
+Line 87: (
+Line 87: ID = sizeof
+Line 87: (
+Line 87: ID = struct
+Line 87: ID = char_device_struct
+Line 87: )
+Line 87: ,
+Line 87: ID = GFP_KERNEL
+Line 87: )
+Line 87: ;
+Line 88: if
+Line 88: (
+Line 88: ID = cd
+Line 88: ==
+Line 88: ID = NULL
+Line 88: )
+Line 89: return
+Line 89: ID = ERR_PTR
+Line 89: (
+Line 89: -
+Line 89: ID = ENOMEM
+Line 89: )
+Line 89: ;
+Line 91: ID = memset
+Line 91: (
+Line 91: ID = cd
+Line 91: ,
+Line 91: INTCON = 0
+Line 91: ,
+Line 91: ID = sizeof
+Line 91: (
+Line 91: ID = struct
+Line 91: ID = char_device_struct
+Line 91: )
+Line 91: )
+Line 91: ;
+Line 93: ID = write_lock_irq
+Line 93: (
+Line 93: Unrecognized token: 38
+Line 93: ID = chrdevs_lock
+Line 93: )
+Line 93: ;
+Line 96: if
+Line 96: (
+Line 96: ID = major
+Line 96: ==
+Line 96: INTCON = 0
+Line 96: )
+Line 96: {
+Line 97: for
+Line 97: (
+Line 97: ID = i
+Line 97: =
+Line 97: ID = ARRAY_SIZE
+Line 97: (
+Line 97: ID = chrdevs
+Line 97: )
+Line 97: -
+Line 97: INTCON = 1
+Line 97: ;
+Line 97: ID = i
+Line 97: >
+Line 97: INTCON = 0
+Line 97: ;
+Line 97: ID = i
+Line 97: -
+Line 97: -
+Line 97: )
+Line 97: {
+Line 98: if
+Line 98: (
+Line 98: ID = chrdevs
+Line 98: [
+Line 98: ID = i
+Line 98: ]
+Line 98: ==
+Line 98: ID = NULL
+Line 98: )
+Line 99: ID = break
+Line 99: ;
+Line 100: }
+Line 102: if
+Line 102: (
+Line 102: ID = i
+Line 102: ==
+Line 102: INTCON = 0
+Line 102: )
+Line 102: {
+Line 103: ID = ret
+Line 103: =
+Line 103: -
+Line 103: ID = EBUSY
+Line 103: ;
+Line 104: ID = goto
+Line 104: ID = out
+Line 104: ;
+Line 105: }
+Line 106: ID = major
+Line 106: =
+Line 106: ID = i
+Line 106: ;
+Line 107: ID = ret
+Line 107: =
+Line 107: ID = major
+Line 107: ;
+Line 108: }
+Line 110: ID = cd
+Line 110: -
+Line 110: >
+Line 110: ID = major
+Line 110: =
+Line 110: ID = major
+Line 110: ;
+Line 111: ID = cd
+Line 111: -
+Line 111: >
+Line 111: ID = baseminor
+Line 111: =
+Line 111: ID = baseminor
+Line 111: ;
+Line 112: ID = cd
+Line 112: -
+Line 112: >
+Line 112: ID = minorct
+Line 112: =
+Line 112: ID = minorct
+Line 112: ;
+Line 113: ID = cd
+Line 113: -
+Line 113: >
+Line 113: ID = name
+Line 113: =
+Line 113: ID = name
+Line 113: ;
+Line 115: ID = i
+Line 115: =
+Line 115: ID = major_to_index
+Line 115: (
+Line 115: ID = major
+Line 115: )
+Line 115: ;
+Line 117: for
+Line 117: (
+Line 117: ID = cp
+Line 117: =
+Line 117: Unrecognized token: 38
+Line 117: ID = chrdevs
+Line 117: [
+Line 117: ID = i
+Line 117: ]
+Line 117: ;
+Line 117: *
+Line 117: ID = cp
+Line 117: ;
+Line 117: ID = cp
+Line 117: =
+Line 117: Unrecognized token: 38
+Line 117: (
+Line 117: *
+Line 117: ID = cp
+Line 117: )
+Line 117: -
+Line 117: >
+Line 117: ID = next
+Line 117: )
+Line 118: if
+Line 118: (
+Line 118: (
+Line 118: *
+Line 118: ID = cp
+Line 118: )
+Line 118: -
+Line 118: >
+Line 118: ID = major
+Line 118: >
+Line 118: ID = major
+Line 118: ||
+Line 119: (
+Line 119: (
+Line 119: *
+Line 119: ID = cp
+Line 119: )
+Line 119: -
+Line 119: >
+Line 119: ID = major
+Line 119: ==
+Line 119: ID = major
+Line 119: &&
+Line 119: (
+Line 119: *
+Line 119: ID = cp
+Line 119: )
+Line 119: -
+Line 119: >
+Line 119: ID = baseminor
+Line 119: >=
+Line 119: ID = baseminor
+Line 119: )
+Line 119: )
+Line 120: ID = break
+Line 120: ;
+Line 121: if
+Line 121: (
+Line 121: *
+Line 121: ID = cp
+Line 121: &&
+Line 121: (
+Line 121: *
+Line 121: ID = cp
+Line 121: )
+Line 121: -
+Line 121: >
+Line 121: ID = major
+Line 121: ==
+Line 121: ID = major
+Line 121: &&
+Line 122: (
+Line 122: *
+Line 122: ID = cp
+Line 122: )
+Line 122: -
+Line 122: >
+Line 122: ID = baseminor
+Line 122: <
+Line 122: ID = baseminor
+Line 122: +
+Line 122: ID = minorct
+Line 122: )
+Line 122: {
+Line 123: ID = ret
+Line 123: =
+Line 123: -
+Line 123: ID = EBUSY
+Line 123: ;
+Line 124: ID = goto
+Line 124: ID = out
+Line 124: ;
+Line 125: }
+Line 126: ID = cd
+Line 126: -
+Line 126: >
+Line 126: ID = next
+Line 126: =
+Line 126: *
+Line 126: ID = cp
+Line 126: ;
+Line 127: *
+Line 127: ID = cp
+Line 127: =
+Line 127: ID = cd
+Line 127: ;
+Line 128: ID = write_unlock_irq
+Line 128: (
+Line 128: Unrecognized token: 38
+Line 128: ID = chrdevs_lock
+Line 128: )
+Line 128: ;
+Line 129: return
+Line 129: ID = cd
+Line 129: ;
+Line 130: ID = out
+Line 130: Unrecognized token: 58
+Line 131: ID = write_unlock_irq
+Line 131: (
+Line 131: Unrecognized token: 38
+Line 131: ID = chrdevs_lock
+Line 131: )
+Line 131: ;
+Line 132: ID = kfree
+Line 132: (
+Line 132: ID = cd
+Line 132: )
+Line 132: ;
+Line 133: return
+Line 133: ID = ERR_PTR
+Line 133: (
+Line 133: ID = ret
+Line 133: )
+Line 133: ;
+Line 134: }
+Line 136: ID = static
+Line 136: ID = struct
+Line 136: ID = char_device_struct
+Line 136: *
+Line 137: Unrecognized token: 95
+Line 137: Unrecognized token: 95
+Line 137: ID = unregister_chrdev_region
+Line 137: (
+Line 137: ID = unsigned
+Line 137: ID = major
+Line 137: ,
+Line 137: ID = unsigned
+Line 137: ID = baseminor
+Line 137: ,
+Line 137: int
+Line 137: ID = minorct
+Line 137: )
+Line 138: {
+Line 139: ID = struct
+Line 139: ID = char_device_struct
+Line 139: *
+Line 139: ID = cd
+Line 139: =
+Line 139: ID = NULL
+Line 139: ,
+Line 139: *
+Line 139: *
+Line 139: ID = cp
+Line 139: ;
+Line 140: int
+Line 140: ID = i
+Line 140: =
+Line 140: ID = major_to_index
+Line 140: (
+Line 140: ID = major
+Line 140: )
+Line 140: ;
+Line 142: ID = write_lock_irq
+Line 142: (
+Line 142: Unrecognized token: 38
+Line 142: ID = chrdevs_lock
+Line 142: )
+Line 142: ;
+Line 143: for
+Line 143: (
+Line 143: ID = cp
+Line 143: =
+Line 143: Unrecognized token: 38
+Line 143: ID = chrdevs
+Line 143: [
+Line 143: ID = i
+Line 143: ]
+Line 143: ;
+Line 143: *
+Line 143: ID = cp
+Line 143: ;
+Line 143: ID = cp
+Line 143: =
+Line 143: Unrecognized token: 38
+Line 143: (
+Line 143: *
+Line 143: ID = cp
+Line 143: )
+Line 143: -
+Line 143: >
+Line 143: ID = next
+Line 143: )
+Line 144: if
+Line 144: (
+Line 144: (
+Line 144: *
+Line 144: ID = cp
+Line 144: )
+Line 144: -
+Line 144: >
+Line 144: ID = major
+Line 144: ==
+Line 144: ID = major
+Line 144: &&
+Line 145: (
+Line 145: *
+Line 145: ID = cp
+Line 145: )
+Line 145: -
+Line 145: >
+Line 145: ID = baseminor
+Line 145: ==
+Line 145: ID = baseminor
+Line 145: &&
+Line 146: (
+Line 146: *
+Line 146: ID = cp
+Line 146: )
+Line 146: -
+Line 146: >
+Line 146: ID = minorct
+Line 146: ==
+Line 146: ID = minorct
+Line 146: )
+Line 147: ID = break
+Line 147: ;
+Line 148: if
+Line 148: (
+Line 148: *
+Line 148: ID = cp
+Line 148: )
+Line 148: {
+Line 149: ID = cd
+Line 149: =
+Line 149: *
+Line 149: ID = cp
+Line 149: ;
+Line 150: *
+Line 150: ID = cp
+Line 150: =
+Line 150: ID = cd
+Line 150: -
+Line 150: >
+Line 150: ID = next
+Line 150: ;
+Line 151: }
+Line 152: ID = write_unlock_irq
+Line 152: (
+Line 152: Unrecognized token: 38
+Line 152: ID = chrdevs_lock
+Line 152: )
+Line 152: ;
+Line 153: return
+Line 153: ID = cd
+Line 153: ;
+Line 154: }
+Line 156: int
+Line 156: ID = register_chrdev_region
+Line 156: (
+Line 156: ID = dev_t
+Line 156: ID = from
+Line 156: ,
+Line 156: ID = unsigned
+Line 156: ID = count
+Line 156: ,
+Line 156: char
+Line 156: *
+Line 156: ID = name
+Line 156: )
+Line 157: {
+Line 158: ID = struct
+Line 158: ID = char_device_struct
+Line 158: *
+Line 158: ID = cd
+Line 158: ;
+Line 159: ID = dev_t
+Line 159: ID = to
+Line 159: =
+Line 159: ID = from
+Line 159: +
+Line 159: ID = count
+Line 159: ;
+Line 160: ID = dev_t
+Line 160: ID = n
+Line 160: ,
+Line 160: ID = next
+Line 160: ;
+Line 162: for
+Line 162: (
+Line 162: ID = n
+Line 162: =
+Line 162: ID = from
+Line 162: ;
+Line 162: ID = n
+Line 162: <
+Line 162: ID = to
+Line 162: ;
+Line 162: ID = n
+Line 162: =
+Line 162: ID = next
+Line 162: )
+Line 162: {
+Line 163: ID = next
+Line 163: =
+Line 163: ID = MKDEV
+Line 163: (
+Line 163: ID = MAJOR
+Line 163: (
+Line 163: ID = n
+Line 163: )
+Line 163: +
+Line 163: INTCON = 1
+Line 163: ,
+Line 163: INTCON = 0
+Line 163: )
+Line 163: ;
+Line 164: if
+Line 164: (
+Line 164: ID = next
+Line 164: >
+Line 164: ID = to
+Line 164: )
+Line 165: ID = next
+Line 165: =
+Line 165: ID = to
+Line 165: ;
+Line 166: ID = cd
+Line 166: =
+Line 166: Unrecognized token: 95
+Line 166: Unrecognized token: 95
+Line 166: ID = register_chrdev_region
+Line 166: (
+Line 166: ID = MAJOR
+Line 166: (
+Line 166: ID = n
+Line 166: )
+Line 166: ,
+Line 166: ID = MINOR
+Line 166: (
+Line 166: ID = n
+Line 166: )
+Line 166: ,
+Line 167: ID = next
+Line 167: -
+Line 167: ID = n
+Line 167: ,
+Line 167: ID = name
+Line 167: )
+Line 167: ;
+Line 168: if
+Line 168: (
+Line 168: ID = IS_ERR
+Line 168: (
+Line 168: ID = cd
+Line 168: )
+Line 168: )
+Line 169: ID = goto
+Line 169: ID = fail
+Line 169: ;
+Line 170: }
+Line 171: return
+Line 171: INTCON = 0
+Line 171: ;
+Line 172: ID = fail
+Line 172: Unrecognized token: 58
+Line 173: ID = to
+Line 173: =
+Line 173: ID = n
+Line 173: ;
+Line 174: for
+Line 174: (
+Line 174: ID = n
+Line 174: =
+Line 174: ID = from
+Line 174: ;
+Line 174: ID = n
+Line 174: <
+Line 174: ID = to
+Line 174: ;
+Line 174: ID = n
+Line 174: =
+Line 174: ID = next
+Line 174: )
+Line 174: {
+Line 175: ID = next
+Line 175: =
+Line 175: ID = MKDEV
+Line 175: (
+Line 175: ID = MAJOR
+Line 175: (
+Line 175: ID = n
+Line 175: )
+Line 175: +
+Line 175: INTCON = 1
+Line 175: ,
+Line 175: INTCON = 0
+Line 175: )
+Line 175: ;
+Line 176: ID = kfree
+Line 176: (
+Line 176: Unrecognized token: 95
+Line 176: Unrecognized token: 95
+Line 176: ID = unregister_chrdev_region
+Line 176: (
+Line 176: ID = MAJOR
+Line 176: (
+Line 176: ID = n
+Line 176: )
+Line 176: ,
+Line 176: ID = MINOR
+Line 176: (
+Line 176: ID = n
+Line 176: )
+Line 176: ,
+Line 176: ID = next
+Line 176: -
+Line 176: ID = n
+Line 176: )
+Line 176: )
+Line 176: ;
+Line 177: }
+Line 178: return
+Line 178: ID = PTR_ERR
+Line 178: (
+Line 178: ID = cd
+Line 178: )
+Line 178: ;
+Line 179: }
+Line 181: int
+Line 181: ID = alloc_chrdev_region
+Line 181: (
+Line 181: ID = dev_t
+Line 181: *
+Line 181: ID = dev
+Line 181: ,
+Line 181: ID = unsigned
+Line 181: ID = baseminor
+Line 181: ,
+Line 181: ID = unsigned
+Line 181: ID = count
+Line 181: ,
+Line 181: char
+Line 181: *
+Line 181: ID = name
+Line 181: )
+Line 182: {
+Line 183: ID = struct
+Line 183: ID = char_device_struct
+Line 183: *
+Line 183: ID = cd
+Line 183: ;
+Line 184: ID = cd
+Line 184: =
+Line 184: Unrecognized token: 95
+Line 184: Unrecognized token: 95
+Line 184: ID = register_chrdev_region
+Line 184: (
+Line 184: INTCON = 0
+Line 184: ,
+Line 184: ID = baseminor
+Line 184: ,
+Line 184: ID = count
+Line 184: ,
+Line 184: ID = name
+Line 184: )
+Line 184: ;
+Line 185: if
+Line 185: (
+Line 185: ID = IS_ERR
+Line 185: (
+Line 185: ID = cd
+Line 185: )
+Line 185: )
+Line 186: return
+Line 186: ID = PTR_ERR
+Line 186: (
+Line 186: ID = cd
+Line 186: )
+Line 186: ;
+Line 187: *
+Line 187: ID = dev
+Line 187: =
+Line 187: ID = MKDEV
+Line 187: (
+Line 187: ID = cd
+Line 187: -
+Line 187: >
+Line 187: ID = major
+Line 187: ,
+Line 187: ID = cd
+Line 187: -
+Line 187: >
+Line 187: ID = baseminor
+Line 187: )
+Line 187: ;
+Line 188: return
+Line 188: INTCON = 0
+Line 188: ;
+Line 189: }
+Line 191: int
+Line 191: ID = register_chrdev
+Line 191: (
+Line 191: ID = unsigned
+Line 191: int
+Line 191: ID = major
+Line 191: ,
+Line 191: ID = const
+Line 191: char
+Line 191: *
+Line 191: ID = name
+Line 191: ,
+Line 192: ID = struct
+Line 192: ID = file_operations
+Line 192: *
+Line 192: ID = fops
+Line 192: )
+Line 193: {
+Line 194: ID = struct
+Line 194: ID = char_device_struct
+Line 194: *
+Line 194: ID = cd
+Line 194: ;
+Line 195: ID = struct
+Line 195: ID = cdev
+Line 195: *
+Line 195: ID = cdev
+Line 195: ;
+Line 196: char
+Line 196: *
+Line 196: ID = s
+Line 196: ;
+Line 197: int
+Line 197: ID = err
+Line 197: =
+Line 197: -
+Line 197: ID = ENOMEM
+Line 197: ;
+Line 199: ID = cd
+Line 199: =
+Line 199: Unrecognized token: 95
+Line 199: Unrecognized token: 95
+Line 199: ID = register_chrdev_region
+Line 199: (
+Line 199: ID = major
+Line 199: ,
+Line 199: INTCON = 0
+Line 199: ,
+Line 199: INTCON = 256
+Line 199: ,
+Line 199: ID = name
+Line 199: )
+Line 199: ;
+Line 200: if
+Line 200: (
+Line 200: ID = IS_ERR
+Line 200: (
+Line 200: ID = cd
+Line 200: )
+Line 200: )
+Line 201: return
+Line 201: ID = PTR_ERR
+Line 201: (
+Line 201: ID = cd
+Line 201: )
+Line 201: ;
+Line 203: ID = cdev
+Line 203: =
+Line 203: ID = cdev_alloc
+Line 203: (
+Line 203: )
+Line 203: ;
+Line 204: if
+Line 204: (
+Line 204: !
+Line 204: ID = cdev
+Line 204: )
+Line 205: ID = goto
+Line 205: ID = out2
+Line 205: ;
+Line 207: ID = cdev
+Line 207: -
+Line 207: >
+Line 207: ID = owner
+Line 207: =
+Line 207: ID = fops
+Line 207: -
+Line 207: >
+Line 207: ID = owner
+Line 207: ;
+Line 208: ID = cdev
+Line 208: -
+Line 208: >
+Line 208: ID = ops
+Line 208: =
+Line 208: ID = fops
+Line 208: ;
+Line 209: ID = strcpy
+Line 209: (
+Line 209: ID = cdev
+Line 209: -
+Line 209: >
+Line 209: ID = kobj
+Line 209: Unrecognized token: 46
+Line 209: ID = name
+Line 209: ,
+Line 209: ID = name
+Line 209: )
+Line 209: ;
+Line 210: for
+Line 210: (
+Line 210: ID = s
+Line 210: =
+Line 210: ID = strchr
+Line 210: (
+Line 210: ID = cdev
+Line 210: -
+Line 210: >
+Line 210: ID = kobj
+Line 210: Unrecognized token: 46
+Line 210: ID = name
+Line 210: ,
+Line 210: CHARCON = '/'
+Line 210: )
+Line 210: ;
+Line 210: ID = s
+Line 210: ;
+Line 210: ID = s
+Line 210: =
+Line 210: ID = strchr
+Line 210: (
+Line 210: ID = s
+Line 210: ,
+Line 210: CHARCON = '/'
+Line 210: )
+Line 210: )
+Line 211: *
+Line 211: ID = s
+Line 211: =
+Line 211: CHARCON = '!'
+Line 211: ;
+Line 213: ID = err
+Line 213: =
+Line 213: ID = cdev_add
+Line 213: (
+Line 213: ID = cdev
+Line 213: ,
+Line 213: ID = MKDEV
+Line 213: (
+Line 213: ID = cd
+Line 213: -
+Line 213: >
+Line 213: ID = major
+Line 213: ,
+Line 213: INTCON = 0
+Line 213: )
+Line 213: ,
+Line 213: INTCON = 256
+Line 213: )
+Line 213: ;
+Line 214: if
+Line 214: (
+Line 214: ID = err
+Line 214: )
+Line 215: ID = goto
+Line 215: ID = out
+Line 215: ;
+Line 217: ID = cd
+Line 217: -
+Line 217: >
+Line 217: ID = cdev
+Line 217: =
+Line 217: ID = cdev
+Line 217: ;
+Line 219: return
+Line 219: ID = major
+Line 219: Unrecognized token: 63
+Line 219: INTCON = 0
+Line 219: Unrecognized token: 58
+Line 219: ID = cd
+Line 219: -
+Line 219: >
+Line 219: ID = major
+Line 219: ;
+Line 220: ID = out
+Line 220: Unrecognized token: 58
+Line 221: ID = kobject_put
+Line 221: (
+Line 221: Unrecognized token: 38
+Line 221: ID = cdev
+Line 221: -
+Line 221: >
+Line 221: ID = kobj
+Line 221: )
+Line 221: ;
+Line 222: ID = out2
+Line 222: Unrecognized token: 58
+Line 223: ID = kfree
+Line 223: (
+Line 223: Unrecognized token: 95
+Line 223: Unrecognized token: 95
+Line 223: ID = unregister_chrdev_region
+Line 223: (
+Line 223: ID = cd
+Line 223: -
+Line 223: >
+Line 223: ID = major
+Line 223: ,
+Line 223: INTCON = 0
+Line 223: ,
+Line 223: INTCON = 256
+Line 223: )
+Line 223: )
+Line 223: ;
+Line 224: return
+Line 224: ID = err
+Line 224: ;
+Line 225: }
+Line 227: void
+Line 227: ID = unregister_chrdev_region
+Line 227: (
+Line 227: ID = dev_t
+Line 227: ID = from
+Line 227: ,
+Line 227: ID = unsigned
+Line 227: ID = count
+Line 227: )
+Line 228: {
+Line 229: ID = dev_t
+Line 229: ID = to
+Line 229: =
+Line 229: ID = from
+Line 229: +
+Line 229: ID = count
+Line 229: ;
+Line 230: ID = dev_t
+Line 230: ID = n
+Line 230: ,
+Line 230: ID = next
+Line 230: ;
+Line 232: for
+Line 232: (
+Line 232: ID = n
+Line 232: =
+Line 232: ID = from
+Line 232: ;
+Line 232: ID = n
+Line 232: <
+Line 232: ID = to
+Line 232: ;
+Line 232: ID = n
+Line 232: =
+Line 232: ID = next
+Line 232: )
+Line 232: {
+Line 233: ID = next
+Line 233: =
+Line 233: ID = MKDEV
+Line 233: (
+Line 233: ID = MAJOR
+Line 233: (
+Line 233: ID = n
+Line 233: )
+Line 233: +
+Line 233: INTCON = 1
+Line 233: ,
+Line 233: INTCON = 0
+Line 233: )
+Line 233: ;
+Line 234: if
+Line 234: (
+Line 234: ID = next
+Line 234: >
+Line 234: ID = to
+Line 234: )
+Line 235: ID = next
+Line 235: =
+Line 235: ID = to
+Line 235: ;
+Line 236: ID = kfree
+Line 236: (
+Line 236: Unrecognized token: 95
+Line 236: Unrecognized token: 95
+Line 236: ID = unregister_chrdev_region
+Line 236: (
+Line 236: ID = MAJOR
+Line 236: (
+Line 236: ID = n
+Line 236: )
+Line 236: ,
+Line 236: ID = MINOR
+Line 236: (
+Line 236: ID = n
+Line 236: )
+Line 236: ,
+Line 236: ID = next
+Line 236: -
+Line 236: ID = n
+Line 236: )
+Line 236: )
+Line 236: ;
+Line 237: }
+Line 238: }
+Line 240: int
+Line 240: ID = unregister_chrdev
+Line 240: (
+Line 240: ID = unsigned
+Line 240: int
+Line 240: ID = major
+Line 240: ,
+Line 240: ID = const
+Line 240: char
+Line 240: *
+Line 240: ID = name
+Line 240: )
+Line 241: {
+Line 242: ID = struct
+Line 242: ID = char_device_struct
+Line 242: *
+Line 242: ID = cd
+Line 242: ;
+Line 243: ID = cd
+Line 243: =
+Line 243: Unrecognized token: 95
+Line 243: Unrecognized token: 95
+Line 243: ID = unregister_chrdev_region
+Line 243: (
+Line 243: ID = major
+Line 243: ,
+Line 243: INTCON = 0
+Line 243: ,
+Line 243: INTCON = 256
+Line 243: )
+Line 243: ;
+Line 244: if
+Line 244: (
+Line 244: ID = cd
+Line 244: &&
+Line 244: ID = cd
+Line 244: -
+Line 244: >
+Line 244: ID = cdev
+Line 244: )
+Line 245: ID = cdev_del
+Line 245: (
+Line 245: ID = cd
+Line 245: -
+Line 245: >
+Line 245: ID = cdev
+Line 245: )
+Line 245: ;
+Line 246: ID = kfree
+Line 246: (
+Line 246: ID = cd
+Line 246: )
+Line 246: ;
+Line 247: return
+Line 247: INTCON = 0
+Line 247: ;
+Line 248: }
+Line 250: ID = static
+Line 250: ID = spinlock_t
+Line 250: ID = cdev_lock
+Line 250: =
+Line 250: ID = SPIN_LOCK_UNLOCKED
+Line 250: ;
+Line 254: int
+Line 254: ID = chrdev_open
+Line 254: (
+Line 254: ID = struct
+Line 254: ID = inode
+Line 254: *
+Line 254: ID = inode
+Line 254: ,
+Line 254: ID = struct
+Line 254: ID = file
+Line 254: *
+Line 254: ID = filp
+Line 254: )
+Line 255: {
+Line 256: ID = struct
+Line 256: ID = cdev
+Line 256: *
+Line 256: ID = p
+Line 256: ;
+Line 257: ID = struct
+Line 257: ID = cdev
+Line 257: *
+Line 257: ID = new
+Line 257: =
+Line 257: ID = NULL
+Line 257: ;
+Line 258: int
+Line 258: ID = ret
+Line 258: =
+Line 258: INTCON = 0
+Line 258: ;
+Line 260: ID = spin_lock
+Line 260: (
+Line 260: Unrecognized token: 38
+Line 260: ID = cdev_lock
+Line 260: )
+Line 260: ;
+Line 261: ID = p
+Line 261: =
+Line 261: ID = inode
+Line 261: -
+Line 261: >
+Line 261: ID = i_cdev
+Line 261: ;
+Line 262: if
+Line 262: (
+Line 262: !
+Line 262: ID = p
+Line 262: )
+Line 262: {
+Line 263: ID = struct
+Line 263: ID = kobject
+Line 263: *
+Line 263: ID = kobj
+Line 263: ;
+Line 264: int
+Line 264: ID = idx
+Line 264: ;
+Line 265: ID = spin_unlock
+Line 265: (
+Line 265: Unrecognized token: 38
+Line 265: ID = cdev_lock
+Line 265: )
+Line 265: ;
+Line 266: ID = kobj
+Line 266: =
+Line 266: ID = kobj_lookup
+Line 266: (
+Line 266: ID = cdev_map
+Line 266: ,
+Line 266: ID = inode
+Line 266: -
+Line 266: >
+Line 266: ID = i_rdev
+Line 266: ,
+Line 266: Unrecognized token: 38
+Line 266: ID = idx
+Line 266: )
+Line 266: ;
+Line 267: if
+Line 267: (
+Line 267: !
+Line 267: ID = kobj
+Line 267: )
+Line 268: return
+Line 268: -
+Line 268: ID = ENXIO
+Line 268: ;
+Line 269: ID = new
+Line 269: =
+Line 269: ID = container_of
+Line 269: (
+Line 269: ID = kobj
+Line 269: ,
+Line 269: ID = struct
+Line 269: ID = cdev
+Line 269: ,
+Line 269: ID = kobj
+Line 269: )
+Line 269: ;
+Line 270: ID = spin_lock
+Line 270: (
+Line 270: Unrecognized token: 38
+Line 270: ID = cdev_lock
+Line 270: )
+Line 270: ;
+Line 271: ID = p
+Line 271: =
+Line 271: ID = inode
+Line 271: -
+Line 271: >
+Line 271: ID = i_cdev
+Line 271: ;
+Line 272: if
+Line 272: (
+Line 272: !
+Line 272: ID = p
+Line 272: )
+Line 272: {
+Line 273: ID = inode
+Line 273: -
+Line 273: >
+Line 273: ID = i_cdev
+Line 273: =
+Line 273: ID = p
+Line 273: =
+Line 273: ID = new
+Line 273: ;
+Line 274: ID = inode
+Line 274: -
+Line 274: >
+Line 274: ID = i_cindex
+Line 274: =
+Line 274: ID = idx
+Line 274: ;
+Line 275: ID = list_add
+Line 275: (
+Line 275: Unrecognized token: 38
+Line 275: ID = inode
+Line 275: -
+Line 275: >
+Line 275: ID = i_devices
+Line 275: ,
+Line 275: Unrecognized token: 38
+Line 275: ID = p
+Line 275: -
+Line 275: >
+Line 275: ID = list
+Line 275: )
+Line 275: ;
+Line 276: ID = new
+Line 276: =
+Line 276: ID = NULL
+Line 276: ;
+Line 277: }
+Line 277: else
+Line 277: if
+Line 277: (
+Line 277: !
+Line 277: ID = cdev_get
+Line 277: (
+Line 277: ID = p
+Line 277: )
+Line 277: )
+Line 278: ID = ret
+Line 278: =
+Line 278: -
+Line 278: ID = ENXIO
+Line 278: ;
+Line 279: }
+Line 279: else
+Line 279: if
+Line 279: (
+Line 279: !
+Line 279: ID = cdev_get
+Line 279: (
+Line 279: ID = p
+Line 279: )
+Line 279: )
+Line 280: ID = ret
+Line 280: =
+Line 280: -
+Line 280: ID = ENXIO
+Line 280: ;
+Line 281: ID = spin_unlock
+Line 281: (
+Line 281: Unrecognized token: 38
+Line 281: ID = cdev_lock
+Line 281: )
+Line 281: ;
+Line 282: ID = cdev_put
+Line 282: (
+Line 282: ID = new
+Line 282: )
+Line 282: ;
+Line 283: if
+Line 283: (
+Line 283: ID = ret
+Line 283: )
+Line 284: return
+Line 284: ID = ret
+Line 284: ;
+Line 285: ID = filp
+Line 285: -
+Line 285: >
+Line 285: ID = f_op
+Line 285: =
+Line 285: ID = fops_get
+Line 285: (
+Line 285: ID = p
+Line 285: -
+Line 285: >
+Line 285: ID = ops
+Line 285: )
+Line 285: ;
+Line 286: if
+Line 286: (
+Line 286: !
+Line 286: ID = filp
+Line 286: -
+Line 286: >
+Line 286: ID = f_op
+Line 286: )
+Line 286: {
+Line 287: ID = cdev_put
+Line 287: (
+Line 287: ID = p
+Line 287: )
+Line 287: ;
+Line 288: return
+Line 288: -
+Line 288: ID = ENXIO
+Line 288: ;
+Line 289: }
+Line 290: if
+Line 290: (
+Line 290: ID = filp
+Line 290: -
+Line 290: >
+Line 290: ID = f_op
+Line 290: -
+Line 290: >
+Line 290: ID = open
+Line 290: )
+Line 290: {
+Line 291: ID = lock_kernel
+Line 291: (
+Line 291: )
+Line 291: ;
+Line 292: ID = ret
+Line 292: =
+Line 292: ID = filp
+Line 292: -
+Line 292: >
+Line 292: ID = f_op
+Line 292: -
+Line 292: >
+Line 292: ID = open
+Line 292: (
+Line 292: ID = inode
+Line 292: ,
+Line 292: ID = filp
+Line 292: )
+Line 292: ;
+Line 293: ID = unlock_kernel
+Line 293: (
+Line 293: )
+Line 293: ;
+Line 294: }
+Line 295: if
+Line 295: (
+Line 295: ID = ret
+Line 295: )
+Line 296: ID = cdev_put
+Line 296: (
+Line 296: ID = p
+Line 296: )
+Line 296: ;
+Line 297: return
+Line 297: ID = ret
+Line 297: ;
+Line 298: }
+Line 300: void
+Line 300: ID = cd_forget
+Line 300: (
+Line 300: ID = struct
+Line 300: ID = inode
+Line 300: *
+Line 300: ID = inode
+Line 300: )
+Line 301: {
+Line 302: ID = spin_lock
+Line 302: (
+Line 302: Unrecognized token: 38
+Line 302: ID = cdev_lock
+Line 302: )
+Line 302: ;
+Line 303: ID = list_del_init
+Line 303: (
+Line 303: Unrecognized token: 38
+Line 303: ID = inode
+Line 303: -
+Line 303: >
+Line 303: ID = i_devices
+Line 303: )
+Line 303: ;
+Line 304: ID = inode
+Line 304: -
+Line 304: >
+Line 304: ID = i_cdev
+Line 304: =
+Line 304: ID = NULL
+Line 304: ;
+Line 305: ID = spin_unlock
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = cdev_lock
+Line 305: )
+Line 305: ;
+Line 306: }
+Line 308: void
+Line 308: ID = cdev_purge
+Line 308: (
+Line 308: ID = struct
+Line 308: ID = cdev
+Line 308: *
+Line 308: ID = cdev
+Line 308: )
+Line 309: {
+Line 310: ID = spin_lock
+Line 310: (
+Line 310: Unrecognized token: 38
+Line 310: ID = cdev_lock
+Line 310: )
+Line 310: ;
+Line 311: while
+Line 311: (
+Line 311: !
+Line 311: ID = list_empty
+Line 311: (
+Line 311: Unrecognized token: 38
+Line 311: ID = cdev
+Line 311: -
+Line 311: >
+Line 311: ID = list
+Line 311: )
+Line 311: )
+Line 311: {
+Line 312: ID = struct
+Line 312: ID = inode
+Line 312: *
+Line 312: ID = inode
+Line 312: ;
+Line 313: ID = inode
+Line 313: =
+Line 313: ID = container_of
+Line 313: (
+Line 313: ID = cdev
+Line 313: -
+Line 313: >
+Line 313: ID = list
+Line 313: Unrecognized token: 46
+Line 313: ID = next
+Line 313: ,
+Line 313: ID = struct
+Line 313: ID = inode
+Line 313: ,
+Line 313: ID = i_devices
+Line 313: )
+Line 313: ;
+Line 314: ID = list_del_init
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = inode
+Line 314: -
+Line 314: >
+Line 314: ID = i_devices
+Line 314: )
+Line 314: ;
+Line 315: ID = inode
+Line 315: -
+Line 315: >
+Line 315: ID = i_cdev
+Line 315: =
+Line 315: ID = NULL
+Line 315: ;
+Line 316: }
+Line 317: ID = spin_unlock
+Line 317: (
+Line 317: Unrecognized token: 38
+Line 317: ID = cdev_lock
+Line 317: )
+Line 317: ;
+Line 318: }
+Line 325: ID = struct
+Line 325: ID = file_operations
+Line 325: ID = def_chr_fops
+Line 325: =
+Line 325: {
+Line 326: Unrecognized token: 46
+Line 326: ID = open
+Line 326: =
+Line 326: ID = chrdev_open
+Line 326: ,
+Line 327: }
+Line 327: ;
+Line 329: ID = static
+Line 329: ID = struct
+Line 329: ID = kobject
+Line 329: *
+Line 329: ID = exact_match
+Line 329: (
+Line 329: ID = dev_t
+Line 329: ID = dev
+Line 329: ,
+Line 329: int
+Line 329: *
+Line 329: ID = part
+Line 329: ,
+Line 329: void
+Line 329: *
+Line 329: ID = data
+Line 329: )
+Line 330: {
+Line 331: ID = struct
+Line 331: ID = cdev
+Line 331: *
+Line 331: ID = p
+Line 331: =
+Line 331: ID = data
+Line 331: ;
+Line 332: return
+Line 332: Unrecognized token: 38
+Line 332: ID = p
+Line 332: -
+Line 332: >
+Line 332: ID = kobj
+Line 332: ;
+Line 333: }
+Line 335: ID = static
+Line 335: int
+Line 335: ID = exact_lock
+Line 335: (
+Line 335: ID = dev_t
+Line 335: ID = dev
+Line 335: ,
+Line 335: void
+Line 335: *
+Line 335: ID = data
+Line 335: )
+Line 336: {
+Line 337: ID = struct
+Line 337: ID = cdev
+Line 337: *
+Line 337: ID = p
+Line 337: =
+Line 337: ID = data
+Line 337: ;
+Line 338: return
+Line 338: ID = cdev_get
+Line 338: (
+Line 338: ID = p
+Line 338: )
+Line 338: Unrecognized token: 63
+Line 338: INTCON = 0
+Line 338: Unrecognized token: 58
+Line 338: -
+Line 338: INTCON = 1
+Line 338: ;
+Line 339: }
+Line 341: int
+Line 341: ID = cdev_add
+Line 341: (
+Line 341: ID = struct
+Line 341: ID = cdev
+Line 341: *
+Line 341: ID = p
+Line 341: ,
+Line 341: ID = dev_t
+Line 341: ID = dev
+Line 341: ,
+Line 341: ID = unsigned
+Line 341: ID = count
+Line 341: )
+Line 342: {
+Line 343: ID = p
+Line 343: -
+Line 343: >
+Line 343: ID = dev
+Line 343: =
+Line 343: ID = dev
+Line 343: ;
+Line 344: ID = p
+Line 344: -
+Line 344: >
+Line 344: ID = count
+Line 344: =
+Line 344: ID = count
+Line 344: ;
+Line 345: return
+Line 345: ID = kobj_map
+Line 345: (
+Line 345: ID = cdev_map
+Line 345: ,
+Line 345: ID = dev
+Line 345: ,
+Line 345: ID = count
+Line 345: ,
+Line 345: ID = NULL
+Line 345: ,
+Line 345: ID = exact_match
+Line 345: ,
+Line 345: ID = exact_lock
+Line 345: ,
+Line 345: ID = p
+Line 345: )
+Line 345: ;
+Line 346: }
+Line 348: ID = static
+Line 348: void
+Line 348: ID = cdev_unmap
+Line 348: (
+Line 348: ID = dev_t
+Line 348: ID = dev
+Line 348: ,
+Line 348: ID = unsigned
+Line 348: ID = count
+Line 348: )
+Line 349: {
+Line 350: ID = kobj_unmap
+Line 350: (
+Line 350: ID = cdev_map
+Line 350: ,
+Line 350: ID = dev
+Line 350: ,
+Line 350: ID = count
+Line 350: )
+Line 350: ;
+Line 351: }
+Line 353: void
+Line 353: ID = cdev_del
+Line 353: (
+Line 353: ID = struct
+Line 353: ID = cdev
+Line 353: *
+Line 353: ID = p
+Line 353: )
+Line 354: {
+Line 355: ID = cdev_unmap
+Line 355: (
+Line 355: ID = p
+Line 355: -
+Line 355: >
+Line 355: ID = dev
+Line 355: ,
+Line 355: ID = p
+Line 355: -
+Line 355: >
+Line 355: ID = count
+Line 355: )
+Line 355: ;
+Line 356: ID = kobject_put
+Line 356: (
+Line 356: Unrecognized token: 38
+Line 356: ID = p
+Line 356: -
+Line 356: >
+Line 356: ID = kobj
+Line 356: )
+Line 356: ;
+Line 357: }
+Line 359: ID = struct
+Line 359: ID = kobject
+Line 359: *
+Line 359: ID = cdev_get
+Line 359: (
+Line 359: ID = struct
+Line 359: ID = cdev
+Line 359: *
+Line 359: ID = p
+Line 359: )
+Line 360: {
+Line 361: ID = struct
+Line 361: ID = module
+Line 361: *
+Line 361: ID = owner
+Line 361: =
+Line 361: ID = p
+Line 361: -
+Line 361: >
+Line 361: ID = owner
+Line 361: ;
+Line 362: ID = struct
+Line 362: ID = kobject
+Line 362: *
+Line 362: ID = kobj
+Line 362: ;
+Line 364: if
+Line 364: (
+Line 364: ID = owner
+Line 364: &&
+Line 364: !
+Line 364: ID = try_module_get
+Line 364: (
+Line 364: ID = owner
+Line 364: )
+Line 364: )
+Line 365: return
+Line 365: ID = NULL
+Line 365: ;
+Line 366: ID = kobj
+Line 366: =
+Line 366: ID = kobject_get
+Line 366: (
+Line 366: Unrecognized token: 38
+Line 366: ID = p
+Line 366: -
+Line 366: >
+Line 366: ID = kobj
+Line 366: )
+Line 366: ;
+Line 367: if
+Line 367: (
+Line 367: !
+Line 367: ID = kobj
+Line 367: )
+Line 368: ID = module_put
+Line 368: (
+Line 368: ID = owner
+Line 368: )
+Line 368: ;
+Line 369: return
+Line 369: ID = kobj
+Line 369: ;
+Line 370: }
+Line 372: void
+Line 372: ID = cdev_put
+Line 372: (
+Line 372: ID = struct
+Line 372: ID = cdev
+Line 372: *
+Line 372: ID = p
+Line 372: )
+Line 373: {
+Line 374: if
+Line 374: (
+Line 374: ID = p
+Line 374: )
+Line 374: {
+Line 375: ID = kobject_put
+Line 375: (
+Line 375: Unrecognized token: 38
+Line 375: ID = p
+Line 375: -
+Line 375: >
+Line 375: ID = kobj
+Line 375: )
+Line 375: ;
+Line 376: ID = module_put
+Line 376: (
+Line 376: ID = p
+Line 376: -
+Line 376: >
+Line 376: ID = owner
+Line 376: )
+Line 376: ;
+Line 377: }
+Line 378: }
+Line 380: ID = static
+Line 380: ID = decl_subsys
+Line 380: (
+Line 380: ID = cdev
+Line 380: ,
+Line 380: ID = NULL
+Line 380: ,
+Line 380: ID = NULL
+Line 380: )
+Line 380: ;
+Line 382: ID = static
+Line 382: void
+Line 382: ID = cdev_default_release
+Line 382: (
+Line 382: ID = struct
+Line 382: ID = kobject
+Line 382: *
+Line 382: ID = kobj
+Line 382: )
+Line 383: {
+Line 384: ID = struct
+Line 384: ID = cdev
+Line 384: *
+Line 384: ID = p
+Line 384: =
+Line 384: ID = container_of
+Line 384: (
+Line 384: ID = kobj
+Line 384: ,
+Line 384: ID = struct
+Line 384: ID = cdev
+Line 384: ,
+Line 384: ID = kobj
+Line 384: )
+Line 384: ;
+Line 385: ID = cdev_purge
+Line 385: (
+Line 385: ID = p
+Line 385: )
+Line 385: ;
+Line 386: }
+Line 388: ID = static
+Line 388: void
+Line 388: ID = cdev_dynamic_release
+Line 388: (
+Line 388: ID = struct
+Line 388: ID = kobject
+Line 388: *
+Line 388: ID = kobj
+Line 388: )
+Line 389: {
+Line 390: ID = struct
+Line 390: ID = cdev
+Line 390: *
+Line 390: ID = p
+Line 390: =
+Line 390: ID = container_of
+Line 390: (
+Line 390: ID = kobj
+Line 390: ,
+Line 390: ID = struct
+Line 390: ID = cdev
+Line 390: ,
+Line 390: ID = kobj
+Line 390: )
+Line 390: ;
+Line 391: ID = cdev_purge
+Line 391: (
+Line 391: ID = p
+Line 391: )
+Line 391: ;
+Line 392: ID = kfree
+Line 392: (
+Line 392: ID = p
+Line 392: )
+Line 392: ;
+Line 393: }
+Line 395: ID = static
+Line 395: ID = struct
+Line 395: ID = kobj_type
+Line 395: ID = ktype_cdev_default
+Line 395: =
+Line 395: {
+Line 396: Unrecognized token: 46
+Line 396: ID = release
+Line 396: =
+Line 396: ID = cdev_default_release
+Line 396: ,
+Line 397: }
+Line 397: ;
+Line 399: ID = static
+Line 399: ID = struct
+Line 399: ID = kobj_type
+Line 399: ID = ktype_cdev_dynamic
+Line 399: =
+Line 399: {
+Line 400: Unrecognized token: 46
+Line 400: ID = release
+Line 400: =
+Line 400: ID = cdev_dynamic_release
+Line 400: ,
+Line 401: }
+Line 401: ;
+Line 403: ID = struct
+Line 403: ID = cdev
+Line 403: *
+Line 403: ID = cdev_alloc
+Line 403: (
+Line 403: void
+Line 403: )
+Line 404: {
+Line 405: ID = struct
+Line 405: ID = cdev
+Line 405: *
+Line 405: ID = p
+Line 405: =
+Line 405: ID = kmalloc
+Line 405: (
+Line 405: ID = sizeof
+Line 405: (
+Line 405: ID = struct
+Line 405: ID = cdev
+Line 405: )
+Line 405: ,
+Line 405: ID = GFP_KERNEL
+Line 405: )
+Line 405: ;
+Line 406: if
+Line 406: (
+Line 406: ID = p
+Line 406: )
+Line 406: {
+Line 407: ID = memset
+Line 407: (
+Line 407: ID = p
+Line 407: ,
+Line 407: INTCON = 0
+Line 407: ,
+Line 407: ID = sizeof
+Line 407: (
+Line 407: ID = struct
+Line 407: ID = cdev
+Line 407: )
+Line 407: )
+Line 407: ;
+Line 408: ID = p
+Line 408: -
+Line 408: >
+Line 408: ID = kobj
+Line 408: Unrecognized token: 46
+Line 408: ID = ktype
+Line 408: =
+Line 408: Unrecognized token: 38
+Line 408: ID = ktype_cdev_dynamic
+Line 408: ;
+Line 409: ID = INIT_LIST_HEAD
+Line 409: (
+Line 409: Unrecognized token: 38
+Line 409: ID = p
+Line 409: -
+Line 409: >
+Line 409: ID = list
+Line 409: )
+Line 409: ;
+Line 410: ID = kobject_init
+Line 410: (
+Line 410: Unrecognized token: 38
+Line 410: ID = p
+Line 410: -
+Line 410: >
+Line 410: ID = kobj
+Line 410: )
+Line 410: ;
+Line 411: }
+Line 412: return
+Line 412: ID = p
+Line 412: ;
+Line 413: }
+Line 415: void
+Line 415: ID = cdev_init
+Line 415: (
+Line 415: ID = struct
+Line 415: ID = cdev
+Line 415: *
+Line 415: ID = cdev
+Line 415: ,
+Line 415: ID = struct
+Line 415: ID = file_operations
+Line 415: *
+Line 415: ID = fops
+Line 415: )
+Line 416: {
+Line 417: ID = INIT_LIST_HEAD
+Line 417: (
+Line 417: Unrecognized token: 38
+Line 417: ID = cdev
+Line 417: -
+Line 417: >
+Line 417: ID = list
+Line 417: )
+Line 417: ;
+Line 418: ID = cdev
+Line 418: -
+Line 418: >
+Line 418: ID = kobj
+Line 418: Unrecognized token: 46
+Line 418: ID = ktype
+Line 418: =
+Line 418: Unrecognized token: 38
+Line 418: ID = ktype_cdev_default
+Line 418: ;
+Line 419: ID = kobject_init
+Line 419: (
+Line 419: Unrecognized token: 38
+Line 419: ID = cdev
+Line 419: -
+Line 419: >
+Line 419: ID = kobj
+Line 419: )
+Line 419: ;
+Line 420: ID = cdev
+Line 420: -
+Line 420: >
+Line 420: ID = ops
+Line 420: =
+Line 420: ID = fops
+Line 420: ;
+Line 421: }
+Line 423: ID = static
+Line 423: ID = struct
+Line 423: ID = kobject
+Line 423: *
+Line 423: ID = base_probe
+Line 423: (
+Line 423: ID = dev_t
+Line 423: ID = dev
+Line 423: ,
+Line 423: int
+Line 423: *
+Line 423: ID = part
+Line 423: ,
+Line 423: void
+Line 423: *
+Line 423: ID = data
+Line 423: )
+Line 424: {
+Line 425: if
+Line 425: (
+Line 425: ID = request_module
+Line 425: (
+Line 425: STRINGCON = "char-major-%d-%d"
+Line 425: ,
+Line 425: ID = MAJOR
+Line 425: (
+Line 425: ID = dev
+Line 425: )
+Line 425: ,
+Line 425: ID = MINOR
+Line 425: (
+Line 425: ID = dev
+Line 425: )
+Line 425: )
+Line 425: >
+Line 425: INTCON = 0
+Line 425: )
+Line 427: ID = request_module
+Line 427: (
+Line 427: STRINGCON = "char-major-%d"
+Line 427: ,
+Line 427: ID = MAJOR
+Line 427: (
+Line 427: ID = dev
+Line 427: )
+Line 427: )
+Line 427: ;
+Line 428: return
+Line 428: ID = NULL
+Line 428: ;
+Line 429: }
+Line 431: void
+Line 431: Unrecognized token: 95
+Line 431: Unrecognized token: 95
+Line 431: ID = init
+Line 431: ID = chrdev_init
+Line 431: (
+Line 431: void
+Line 431: )
+Line 432: {
+Line 438: ID = subsystem_init
+Line 438: (
+Line 438: Unrecognized token: 38
+Line 438: ID = cdev_subsys
+Line 438: )
+Line 438: ;
+Line 439: ID = cdev_map
+Line 439: =
+Line 439: ID = kobj_map_init
+Line 439: (
+Line 439: ID = base_probe
+Line 439: ,
+Line 439: Unrecognized token: 38
+Line 439: ID = cdev_subsys
+Line 439: )
+Line 439: ;
+Line 440: }
+Line 444: ID = EXPORT_SYMBOL
+Line 444: (
+Line 444: ID = register_chrdev_region
+Line 444: )
+Line 444: ;
+Line 445: ID = EXPORT_SYMBOL
+Line 445: (
+Line 445: ID = unregister_chrdev_region
+Line 445: )
+Line 445: ;
+Line 446: ID = EXPORT_SYMBOL
+Line 446: (
+Line 446: ID = alloc_chrdev_region
+Line 446: )
+Line 446: ;
+Line 447: ID = EXPORT_SYMBOL
+Line 447: (
+Line 447: ID = cdev_init
+Line 447: )
+Line 447: ;
+Line 448: ID = EXPORT_SYMBOL
+Line 448: (
+Line 448: ID = cdev_alloc
+Line 448: )
+Line 448: ;
+Line 449: ID = EXPORT_SYMBOL
+Line 449: (
+Line 449: ID = cdev_get
+Line 449: )
+Line 449: ;
+Line 450: ID = EXPORT_SYMBOL
+Line 450: (
+Line 450: ID = cdev_put
+Line 450: )
+Line 450: ;
+Line 451: ID = EXPORT_SYMBOL
+Line 451: (
+Line 451: ID = cdev_del
+Line 451: )
+Line 451: ;
+Line 452: ID = EXPORT_SYMBOL
+Line 452: (
+Line 452: ID = cdev_add
+Line 452: )
+Line 452: ;
+Line 453: ID = EXPORT_SYMBOL
+Line 453: (
+Line 453: ID = register_chrdev
+Line 453: )
+Line 453: ;
+Line 454: ID = EXPORT_SYMBOL
+Line 454: (
+Line 454: ID = unregister_chrdev
+Line 454: )
+Line 454: ;
+Line 455: -EOF-

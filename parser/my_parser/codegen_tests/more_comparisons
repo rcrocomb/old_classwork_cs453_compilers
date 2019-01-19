@@ -1,0 +1,58 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+int g;
+
+int increment(void)
+{
+    g = g + 1;
+    return g;
+}
+
+void main(void);
+
+void
+main(void)
+{
+    int a, b, c, d;
+
+    g = 0;
+    a = 1;
+    b = 'a';
+    c = 2;
+
+
+    if ( (a == b) || (b == 'a'))
+    {
+        print_string("PASSED\n");
+    } else if ( !(a != 'a')) /* is equivalent to == (true) */
+    {
+        print_string("FAILED\n");
+    }
+
+    if ( (a == b) && (increment() == 1) )
+    {
+        print_string("FAILED\n");
+    } else if ( (1 == 2) || (1 == 3) || (a < c) ) 
+    {
+        print_string("PASSED\n");
+    }
+
+    a = 0;
+    for ( ; a < 10; a = a + 2)
+    {
+        b = 0;
+        print_string(" b == ");
+        while (b < 5)
+        {
+            print_int(b);
+            print_string(" ");
+            
+            b = b + 1;
+        }
+        print_string("\n");
+    }
+
+    print_string("\nDONE\n");
+}
+

@@ -1,0 +1,4830 @@
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = module
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = config
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = kernel
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = sched
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = mm
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = mman
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = a
+Line 24: Unrecognized token: 46
+Line 24: ID = out
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = errno
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = signal
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = string
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = fs
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = file
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = stat
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = fcntl
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = ptrace
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = user
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = slab
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = binfmts
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = personality
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = init
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = flat
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = asm
+Line 40: /
+Line 40: ID = byteorder
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = asm
+Line 41: /
+Line 41: ID = system
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = asm
+Line 42: /
+Line 42: ID = uaccess
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 43: Unrecognized token: 35
+Line 43: ID = include
+Line 43: <
+Line 43: ID = asm
+Line 43: /
+Line 43: ID = unaligned
+Line 43: Unrecognized token: 46
+Line 43: ID = h
+Line 43: >
+Line 44: Unrecognized token: 35
+Line 44: ID = include
+Line 44: <
+Line 44: ID = asm
+Line 44: /
+Line 44: ID = cacheflush
+Line 44: Unrecognized token: 46
+Line 44: ID = h
+Line 44: >
+Line 48: Unrecognized token: 35
+Line 48: if
+Line 48: INTCON = 0
+Line 49: Unrecognized token: 35
+Line 49: ID = define
+Line 49: ID = DEBUG
+Line 49: INTCON = 1
+Line 50: Unrecognized token: 35
+Line 50: ID = endif
+Line 52: Unrecognized token: 35
+Line 52: ID = ifdef
+Line 52: ID = DEBUG
+Line 53: Unrecognized token: 35
+Line 53: ID = define
+Line 53: ID = DBG_FLT
+Line 53: (
+Line 53: ID = a
+Line 53: Unrecognized token: 46
+Line 53: Unrecognized token: 46
+Line 53: Unrecognized token: 46
+Line 53: )
+Line 53: ID = printk
+Line 53: (
+Line 53: ID = a
+Line 53: )
+Line 54: Unrecognized token: 35
+Line 54: else
+Line 55: Unrecognized token: 35
+Line 55: ID = define
+Line 55: ID = DBG_FLT
+Line 55: (
+Line 55: ID = a
+Line 55: Unrecognized token: 46
+Line 55: Unrecognized token: 46
+Line 55: Unrecognized token: 46
+Line 55: )
+Line 56: Unrecognized token: 35
+Line 56: ID = endif
+Line 58: Unrecognized token: 35
+Line 58: ID = define
+Line 58: ID = RELOC_FAILED
+Line 58: INTCON = 0
+Line 58: ID = xff00ff01
+Line 59: Unrecognized token: 35
+Line 59: ID = define
+Line 59: ID = UNLOADED_LIB
+Line 59: INTCON = 0
+Line 59: ID = x7ff000ff
+Line 61: ID = struct
+Line 61: ID = lib_info
+Line 61: {
+Line 62: ID = struct
+Line 62: {
+Line 63: ID = unsigned
+Line 63: ID = long
+Line 63: ID = start_code
+Line 63: ;
+Line 64: ID = unsigned
+Line 64: ID = long
+Line 64: ID = start_data
+Line 64: ;
+Line 65: ID = unsigned
+Line 65: ID = long
+Line 65: ID = start_brk
+Line 65: ;
+Line 66: ID = unsigned
+Line 66: ID = long
+Line 66: ID = text_len
+Line 66: ;
+Line 67: ID = unsigned
+Line 67: ID = long
+Line 67: ID = entry
+Line 67: ;
+Line 68: ID = unsigned
+Line 68: ID = long
+Line 68: ID = build_date
+Line 68: ;
+Line 69: ID = short
+Line 69: ID = loaded
+Line 69: ;
+Line 70: }
+Line 70: ID = lib_list
+Line 70: [
+Line 70: ID = MAX_SHARED_LIBS
+Line 70: ]
+Line 70: ;
+Line 71: }
+Line 71: ;
+Line 73: Unrecognized token: 35
+Line 73: ID = ifdef
+Line 73: ID = CONFIG_BINFMT_SHARED_FLAT
+Line 74: ID = static
+Line 74: int
+Line 74: ID = load_flat_shared_library
+Line 74: (
+Line 74: int
+Line 74: ID = id
+Line 74: ,
+Line 74: ID = struct
+Line 74: ID = lib_info
+Line 74: *
+Line 74: ID = p
+Line 74: )
+Line 74: ;
+Line 75: Unrecognized token: 35
+Line 75: ID = endif
+Line 77: ID = static
+Line 77: int
+Line 77: ID = load_flat_binary
+Line 77: (
+Line 77: ID = struct
+Line 77: ID = linux_binprm
+Line 77: *
+Line 77: ,
+Line 77: ID = struct
+Line 77: ID = pt_regs
+Line 77: *
+Line 77: ID = regs
+Line 77: )
+Line 77: ;
+Line 78: ID = static
+Line 78: int
+Line 78: ID = flat_core_dump
+Line 78: (
+Line 78: ID = long
+Line 78: ID = signr
+Line 78: ,
+Line 78: ID = struct
+Line 78: ID = pt_regs
+Line 78: *
+Line 78: ID = regs
+Line 78: ,
+Line 78: ID = struct
+Line 78: ID = file
+Line 78: *
+Line 78: ID = file
+Line 78: )
+Line 78: ;
+Line 80: extern
+Line 80: void
+Line 80: ID = dump_thread
+Line 80: (
+Line 80: ID = struct
+Line 80: ID = pt_regs
+Line 80: *
+Line 80: ,
+Line 80: ID = struct
+Line 80: ID = user
+Line 80: *
+Line 80: )
+Line 80: ;
+Line 82: ID = static
+Line 82: ID = struct
+Line 82: ID = linux_binfmt
+Line 82: ID = flat_format
+Line 82: =
+Line 82: {
+Line 83: Unrecognized token: 46
+Line 83: ID = module
+Line 83: =
+Line 83: ID = THIS_MODULE
+Line 83: ,
+Line 84: Unrecognized token: 46
+Line 84: ID = load_binary
+Line 84: =
+Line 84: ID = load_flat_binary
+Line 84: ,
+Line 85: Unrecognized token: 46
+Line 85: ID = core_dump
+Line 85: =
+Line 85: ID = flat_core_dump
+Line 85: ,
+Line 86: Unrecognized token: 46
+Line 86: ID = min_coredump
+Line 86: =
+Line 86: ID = PAGE_SIZE
+Line 87: }
+Line 87: ;
+Line 95: ID = static
+Line 95: int
+Line 95: ID = flat_core_dump
+Line 95: (
+Line 95: ID = long
+Line 95: ID = signr
+Line 95: ,
+Line 95: ID = struct
+Line 95: ID = pt_regs
+Line 95: *
+Line 95: ID = regs
+Line 95: ,
+Line 95: ID = struct
+Line 95: ID = file
+Line 95: *
+Line 95: ID = file
+Line 95: )
+Line 96: {
+Line 97: ID = printk
+Line 97: (
+Line 97: STRINGCON = "Process %s:%d received signr %d and should have core dumped\n"
+Line 97: ,
+Line 98: ID = current
+Line 98: -
+Line 98: >
+Line 98: ID = comm
+Line 98: ,
+Line 98: ID = current
+Line 98: -
+Line 98: >
+Line 98: ID = pid
+Line 98: ,
+Line 98: (
+Line 98: int
+Line 98: )
+Line 98: ID = signr
+Line 98: )
+Line 98: ;
+Line 99: return
+Line 99: (
+Line 99: INTCON = 1
+Line 99: )
+Line 99: ;
+Line 100: }
+Line 109: ID = static
+Line 109: ID = unsigned
+Line 109: ID = long
+Line 109: ID = create_flat_tables
+Line 109: (
+Line 110: ID = unsigned
+Line 110: ID = long
+Line 110: ID = pp
+Line 110: ,
+Line 111: ID = struct
+Line 111: ID = linux_binprm
+Line 111: *
+Line 111: ID = bprm
+Line 111: )
+Line 112: {
+Line 113: ID = unsigned
+Line 113: ID = long
+Line 113: *
+Line 113: ID = argv
+Line 113: ,
+Line 113: *
+Line 113: ID = envp
+Line 113: ;
+Line 114: ID = unsigned
+Line 114: ID = long
+Line 114: *
+Line 114: ID = sp
+Line 114: ;
+Line 115: char
+Line 115: *
+Line 115: ID = p
+Line 115: =
+Line 115: (
+Line 115: char
+Line 115: *
+Line 115: )
+Line 115: ID = pp
+Line 115: ;
+Line 116: int
+Line 116: ID = argc
+Line 116: =
+Line 116: ID = bprm
+Line 116: -
+Line 116: >
+Line 116: ID = argc
+Line 116: ;
+Line 117: int
+Line 117: ID = envc
+Line 117: =
+Line 117: ID = bprm
+Line 117: -
+Line 117: >
+Line 117: ID = envc
+Line 117: ;
+Line 118: char
+Line 118: ID = dummy
+Line 118: ;
+Line 120: ID = sp
+Line 120: =
+Line 120: (
+Line 120: ID = unsigned
+Line 120: ID = long
+Line 120: *
+Line 120: )
+Line 120: (
+Line 120: (
+Line 120: -
+Line 120: (
+Line 120: ID = unsigned
+Line 120: ID = long
+Line 120: )
+Line 120: ID = sizeof
+Line 120: (
+Line 120: char
+Line 120: *
+Line 120: )
+Line 120: )
+Line 120: Unrecognized token: 38
+Line 120: (
+Line 120: ID = unsigned
+Line 120: ID = long
+Line 120: )
+Line 120: ID = p
+Line 120: )
+Line 120: ;
+Line 122: ID = sp
+Line 122: -
+Line 122: =
+Line 122: ID = envc
+Line 122: +
+Line 122: INTCON = 1
+Line 122: ;
+Line 123: ID = envp
+Line 123: =
+Line 123: ID = sp
+Line 123: ;
+Line 124: ID = sp
+Line 124: -
+Line 124: =
+Line 124: ID = argc
+Line 124: +
+Line 124: INTCON = 1
+Line 124: ;
+Line 125: ID = argv
+Line 125: =
+Line 125: ID = sp
+Line 125: ;
+Line 127: ID = flat_stack_align
+Line 127: (
+Line 127: ID = sp
+Line 127: )
+Line 127: ;
+Line 128: if
+Line 128: (
+Line 128: ID = flat_argvp_envp_on_stack
+Line 128: (
+Line 128: )
+Line 128: )
+Line 128: {
+Line 129: -
+Line 129: -
+Line 129: ID = sp
+Line 129: ;
+Line 129: ID = put_user
+Line 129: (
+Line 129: (
+Line 129: ID = unsigned
+Line 129: ID = long
+Line 129: )
+Line 129: ID = envp
+Line 129: ,
+Line 129: ID = sp
+Line 129: )
+Line 129: ;
+Line 130: -
+Line 130: -
+Line 130: ID = sp
+Line 130: ;
+Line 130: ID = put_user
+Line 130: (
+Line 130: (
+Line 130: ID = unsigned
+Line 130: ID = long
+Line 130: )
+Line 130: ID = argv
+Line 130: ,
+Line 130: ID = sp
+Line 130: )
+Line 130: ;
+Line 131: }
+Line 133: ID = put_user
+Line 133: (
+Line 133: ID = argc
+Line 133: ,
+Line 133: -
+Line 133: -
+Line 133: ID = sp
+Line 133: )
+Line 133: ;
+Line 134: ID = current
+Line 134: -
+Line 134: >
+Line 134: ID = mm
+Line 134: -
+Line 134: >
+Line 134: ID = arg_start
+Line 134: =
+Line 134: (
+Line 134: ID = unsigned
+Line 134: ID = long
+Line 134: )
+Line 134: ID = p
+Line 134: ;
+Line 135: while
+Line 135: (
+Line 135: ID = argc
+Line 135: -
+Line 135: -
+Line 135: >
+Line 135: INTCON = 0
+Line 135: )
+Line 135: {
+Line 136: ID = put_user
+Line 136: (
+Line 136: (
+Line 136: ID = unsigned
+Line 136: ID = long
+Line 136: )
+Line 136: ID = p
+Line 136: ,
+Line 136: ID = argv
+Line 136: +
+Line 136: +
+Line 136: )
+Line 136: ;
+Line 137: ID = do
+Line 137: {
+Line 138: ID = get_user
+Line 138: (
+Line 138: ID = dummy
+Line 138: ,
+Line 138: ID = p
+Line 138: )
+Line 138: ;
+Line 138: ID = p
+Line 138: +
+Line 138: +
+Line 138: ;
+Line 139: }
+Line 139: while
+Line 139: (
+Line 139: ID = dummy
+Line 139: )
+Line 139: ;
+Line 140: }
+Line 141: ID = put_user
+Line 141: (
+Line 141: (
+Line 141: ID = unsigned
+Line 141: ID = long
+Line 141: )
+Line 141: ID = NULL
+Line 141: ,
+Line 141: ID = argv
+Line 141: )
+Line 141: ;
+Line 142: ID = current
+Line 142: -
+Line 142: >
+Line 142: ID = mm
+Line 142: -
+Line 142: >
+Line 142: ID = arg_end
+Line 142: =
+Line 142: ID = current
+Line 142: -
+Line 142: >
+Line 142: ID = mm
+Line 142: -
+Line 142: >
+Line 142: ID = env_start
+Line 142: =
+Line 142: (
+Line 142: ID = unsigned
+Line 142: ID = long
+Line 142: )
+Line 142: ID = p
+Line 142: ;
+Line 143: while
+Line 143: (
+Line 143: ID = envc
+Line 143: -
+Line 143: -
+Line 143: >
+Line 143: INTCON = 0
+Line 143: )
+Line 143: {
+Line 144: ID = put_user
+Line 144: (
+Line 144: (
+Line 144: ID = unsigned
+Line 144: ID = long
+Line 144: )
+Line 144: ID = p
+Line 144: ,
+Line 144: ID = envp
+Line 144: )
+Line 144: ;
+Line 144: ID = envp
+Line 144: +
+Line 144: +
+Line 144: ;
+Line 145: ID = do
+Line 145: {
+Line 146: ID = get_user
+Line 146: (
+Line 146: ID = dummy
+Line 146: ,
+Line 146: ID = p
+Line 146: )
+Line 146: ;
+Line 146: ID = p
+Line 146: +
+Line 146: +
+Line 146: ;
+Line 147: }
+Line 147: while
+Line 147: (
+Line 147: ID = dummy
+Line 147: )
+Line 147: ;
+Line 148: }
+Line 149: ID = put_user
+Line 149: (
+Line 149: (
+Line 149: ID = unsigned
+Line 149: ID = long
+Line 149: )
+Line 149: ID = NULL
+Line 149: ,
+Line 149: ID = envp
+Line 149: )
+Line 149: ;
+Line 150: ID = current
+Line 150: -
+Line 150: >
+Line 150: ID = mm
+Line 150: -
+Line 150: >
+Line 150: ID = env_end
+Line 150: =
+Line 150: (
+Line 150: ID = unsigned
+Line 150: ID = long
+Line 150: )
+Line 150: ID = p
+Line 150: ;
+Line 151: return
+Line 151: (
+Line 151: ID = unsigned
+Line 151: ID = long
+Line 151: )
+Line 151: ID = sp
+Line 151: ;
+Line 152: }
+Line 156: Unrecognized token: 35
+Line 156: ID = ifdef
+Line 156: ID = CONFIG_BINFMT_ZFLAT
+Line 158: Unrecognized token: 35
+Line 158: ID = include
+Line 158: <
+Line 158: ID = linux
+Line 158: /
+Line 158: ID = zlib
+Line 158: Unrecognized token: 46
+Line 158: ID = h
+Line 158: >
+Line 160: Unrecognized token: 35
+Line 160: ID = define
+Line 160: ID = LBUFSIZE
+Line 160: INTCON = 4000
+Line 163: Unrecognized token: 35
+Line 163: ID = define
+Line 163: ID = ASCII_FLAG
+Line 163: INTCON = 0
+Line 163: ID = x01
+Line 164: Unrecognized token: 35
+Line 164: ID = define
+Line 164: ID = CONTINUATION
+Line 164: INTCON = 0
+Line 164: ID = x02
+Line 165: Unrecognized token: 35
+Line 165: ID = define
+Line 165: ID = EXTRA_FIELD
+Line 165: INTCON = 0
+Line 165: ID = x04
+Line 166: Unrecognized token: 35
+Line 166: ID = define
+Line 166: ID = ORIG_NAME
+Line 166: INTCON = 0
+Line 166: ID = x08
+Line 167: Unrecognized token: 35
+Line 167: ID = define
+Line 167: ID = COMMENT
+Line 167: INTCON = 0
+Line 167: ID = x10
+Line 168: Unrecognized token: 35
+Line 168: ID = define
+Line 168: ID = ENCRYPTED
+Line 168: INTCON = 0
+Line 168: ID = x20
+Line 169: Unrecognized token: 35
+Line 169: ID = define
+Line 169: ID = RESERVED
+Line 169: INTCON = 0
+Line 169: ID = xC0
+Line 171: ID = static
+Line 171: int
+Line 171: ID = decompress_exec
+Line 171: (
+Line 172: ID = struct
+Line 172: ID = linux_binprm
+Line 172: *
+Line 172: ID = bprm
+Line 172: ,
+Line 173: ID = unsigned
+Line 173: ID = long
+Line 173: ID = offset
+Line 173: ,
+Line 174: char
+Line 174: *
+Line 174: ID = dst
+Line 174: ,
+Line 175: ID = long
+Line 175: ID = len
+Line 175: ,
+Line 176: int
+Line 176: ID = fd
+Line 176: )
+Line 177: {
+Line 178: ID = unsigned
+Line 178: char
+Line 178: *
+Line 178: ID = buf
+Line 178: ;
+Line 179: ID = z_stream
+Line 179: ID = strm
+Line 179: ;
+Line 180: ID = loff_t
+Line 180: ID = fpos
+Line 180: ;
+Line 181: int
+Line 181: ID = ret
+Line 181: ,
+Line 181: ID = retval
+Line 181: ;
+Line 183: ID = DBG_FLT
+Line 183: (
+Line 183: STRINGCON = "decompress_exec(offset=%x,buf=%x,len=%x)\n"
+Line 183: ,
+Line 183: (
+Line 183: int
+Line 183: )
+Line 183: ID = offset
+Line 183: ,
+Line 183: (
+Line 183: int
+Line 183: )
+Line 183: ID = dst
+Line 183: ,
+Line 183: (
+Line 183: int
+Line 183: )
+Line 183: ID = len
+Line 183: )
+Line 183: ;
+Line 185: ID = memset
+Line 185: (
+Line 185: Unrecognized token: 38
+Line 185: ID = strm
+Line 185: ,
+Line 185: INTCON = 0
+Line 185: ,
+Line 185: ID = sizeof
+Line 185: (
+Line 185: ID = strm
+Line 185: )
+Line 185: )
+Line 185: ;
+Line 186: ID = strm
+Line 186: Unrecognized token: 46
+Line 186: ID = workspace
+Line 186: =
+Line 186: ID = kmalloc
+Line 186: (
+Line 186: ID = zlib_inflate_workspacesize
+Line 186: (
+Line 186: )
+Line 186: ,
+Line 186: ID = GFP_KERNEL
+Line 186: )
+Line 186: ;
+Line 187: if
+Line 187: (
+Line 187: ID = strm
+Line 187: Unrecognized token: 46
+Line 187: ID = workspace
+Line 187: ==
+Line 187: ID = NULL
+Line 187: )
+Line 187: {
+Line 188: ID = DBG_FLT
+Line 188: (
+Line 188: STRINGCON = "binfmt_flat: no memory for decompress workspace\n"
+Line 188: )
+Line 188: ;
+Line 189: return
+Line 189: -
+Line 189: ID = ENOMEM
+Line 189: ;
+Line 190: }
+Line 191: ID = buf
+Line 191: =
+Line 191: ID = kmalloc
+Line 191: (
+Line 191: ID = LBUFSIZE
+Line 191: ,
+Line 191: ID = GFP_KERNEL
+Line 191: )
+Line 191: ;
+Line 192: if
+Line 192: (
+Line 192: ID = buf
+Line 192: ==
+Line 192: ID = NULL
+Line 192: )
+Line 192: {
+Line 193: ID = DBG_FLT
+Line 193: (
+Line 193: STRINGCON = "binfmt_flat: no memory for read buffer\n"
+Line 193: )
+Line 193: ;
+Line 194: ID = retval
+Line 194: =
+Line 194: -
+Line 194: ID = ENOMEM
+Line 194: ;
+Line 195: ID = goto
+Line 195: ID = out_free
+Line 195: ;
+Line 196: }
+Line 199: ID = fpos
+Line 199: =
+Line 199: ID = offset
+Line 199: ;
+Line 200: ID = ret
+Line 200: =
+Line 200: ID = bprm
+Line 200: -
+Line 200: >
+Line 200: ID = file
+Line 200: -
+Line 200: >
+Line 200: ID = f_op
+Line 200: -
+Line 200: >
+Line 200: ID = read
+Line 200: (
+Line 200: ID = bprm
+Line 200: -
+Line 200: >
+Line 200: ID = file
+Line 200: ,
+Line 200: ID = buf
+Line 200: ,
+Line 200: ID = LBUFSIZE
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = fpos
+Line 200: )
+Line 200: ;
+Line 202: ID = strm
+Line 202: Unrecognized token: 46
+Line 202: ID = next_in
+Line 202: =
+Line 202: ID = buf
+Line 202: ;
+Line 203: ID = strm
+Line 203: Unrecognized token: 46
+Line 203: ID = avail_in
+Line 203: =
+Line 203: ID = ret
+Line 203: ;
+Line 204: ID = strm
+Line 204: Unrecognized token: 46
+Line 204: ID = total_in
+Line 204: =
+Line 204: INTCON = 0
+Line 204: ;
+Line 206: ID = retval
+Line 206: =
+Line 206: -
+Line 206: ID = ENOEXEC
+Line 206: ;
+Line 209: if
+Line 209: (
+Line 209: ID = ret
+Line 209: <
+Line 209: INTCON = 10
+Line 209: )
+Line 209: {
+Line 210: ID = DBG_FLT
+Line 210: (
+Line 210: STRINGCON = "binfmt_flat: file too small?\n"
+Line 210: )
+Line 210: ;
+Line 211: ID = goto
+Line 211: ID = out_free_buf
+Line 211: ;
+Line 212: }
+Line 215: if
+Line 215: (
+Line 215: (
+Line 215: ID = buf
+Line 215: [
+Line 215: INTCON = 0
+Line 215: ]
+Line 215: !=
+Line 215: INTCON = 037
+Line 215: )
+Line 215: ||
+Line 215: (
+Line 215: (
+Line 215: ID = buf
+Line 215: [
+Line 215: INTCON = 1
+Line 215: ]
+Line 215: !=
+Line 215: INTCON = 0213
+Line 215: )
+Line 215: &&
+Line 215: (
+Line 215: ID = buf
+Line 215: [
+Line 215: INTCON = 1
+Line 215: ]
+Line 215: !=
+Line 215: INTCON = 0236
+Line 215: )
+Line 215: )
+Line 215: )
+Line 215: {
+Line 216: ID = DBG_FLT
+Line 216: (
+Line 216: STRINGCON = "binfmt_flat: unknown compression magic?\n"
+Line 216: )
+Line 216: ;
+Line 217: ID = goto
+Line 217: ID = out_free_buf
+Line 217: ;
+Line 218: }
+Line 221: if
+Line 221: (
+Line 221: ID = buf
+Line 221: [
+Line 221: INTCON = 2
+Line 221: ]
+Line 221: !=
+Line 221: INTCON = 8
+Line 221: )
+Line 221: {
+Line 222: ID = DBG_FLT
+Line 222: (
+Line 222: STRINGCON = "binfmt_flat: unknown compression method?\n"
+Line 222: )
+Line 222: ;
+Line 223: ID = goto
+Line 223: ID = out_free_buf
+Line 223: ;
+Line 224: }
+Line 226: if
+Line 226: (
+Line 226: (
+Line 226: ID = buf
+Line 226: [
+Line 226: INTCON = 3
+Line 226: ]
+Line 226: Unrecognized token: 38
+Line 226: ID = ENCRYPTED
+Line 226: )
+Line 226: ||
+Line 226: (
+Line 226: ID = buf
+Line 226: [
+Line 226: INTCON = 3
+Line 226: ]
+Line 226: Unrecognized token: 38
+Line 226: ID = CONTINUATION
+Line 226: )
+Line 226: ||
+Line 227: (
+Line 227: ID = buf
+Line 227: [
+Line 227: INTCON = 3
+Line 227: ]
+Line 227: Unrecognized token: 38
+Line 227: ID = RESERVED
+Line 227: )
+Line 227: )
+Line 227: {
+Line 228: ID = DBG_FLT
+Line 228: (
+Line 228: STRINGCON = "binfmt_flat: unknown flags?\n"
+Line 228: )
+Line 228: ;
+Line 229: ID = goto
+Line 229: ID = out_free_buf
+Line 229: ;
+Line 230: }
+Line 232: ID = ret
+Line 232: =
+Line 232: INTCON = 10
+Line 232: ;
+Line 233: if
+Line 233: (
+Line 233: ID = buf
+Line 233: [
+Line 233: INTCON = 3
+Line 233: ]
+Line 233: Unrecognized token: 38
+Line 233: ID = EXTRA_FIELD
+Line 233: )
+Line 233: {
+Line 234: ID = ret
+Line 234: +
+Line 234: =
+Line 234: INTCON = 2
+Line 234: +
+Line 234: ID = buf
+Line 234: [
+Line 234: INTCON = 10
+Line 234: ]
+Line 234: +
+Line 234: (
+Line 234: ID = buf
+Line 234: [
+Line 234: INTCON = 11
+Line 234: ]
+Line 234: <
+Line 234: <
+Line 234: INTCON = 8
+Line 234: )
+Line 234: ;
+Line 235: if
+Line 235: (
+Line 235: ID = unlikely
+Line 235: (
+Line 235: ID = LBUFSIZE
+Line 235: ==
+Line 235: ID = ret
+Line 235: )
+Line 235: )
+Line 235: {
+Line 236: ID = DBG_FLT
+Line 236: (
+Line 236: STRINGCON = "binfmt_flat: buffer overflow (EXTRA)?\n"
+Line 236: )
+Line 236: ;
+Line 237: ID = goto
+Line 237: ID = out_free_buf
+Line 237: ;
+Line 238: }
+Line 239: }
+Line 240: if
+Line 240: (
+Line 240: ID = buf
+Line 240: [
+Line 240: INTCON = 3
+Line 240: ]
+Line 240: Unrecognized token: 38
+Line 240: ID = ORIG_NAME
+Line 240: )
+Line 240: {
+Line 241: for
+Line 241: (
+Line 241: ;
+Line 241: ID = ret
+Line 241: <
+Line 241: ID = LBUFSIZE
+Line 241: &&
+Line 241: (
+Line 241: ID = buf
+Line 241: [
+Line 241: ID = ret
+Line 241: ]
+Line 241: !=
+Line 241: INTCON = 0
+Line 241: )
+Line 241: ;
+Line 241: ID = ret
+Line 241: +
+Line 241: +
+Line 241: )
+Line 242: ;
+Line 243: if
+Line 243: (
+Line 243: ID = unlikely
+Line 243: (
+Line 243: ID = LBUFSIZE
+Line 243: ==
+Line 243: ID = ret
+Line 243: )
+Line 243: )
+Line 243: {
+Line 244: ID = DBG_FLT
+Line 244: (
+Line 244: STRINGCON = "binfmt_flat: buffer overflow (ORIG_NAME)?\n"
+Line 244: )
+Line 244: ;
+Line 245: ID = goto
+Line 245: ID = out_free_buf
+Line 245: ;
+Line 246: }
+Line 247: }
+Line 248: if
+Line 248: (
+Line 248: ID = buf
+Line 248: [
+Line 248: INTCON = 3
+Line 248: ]
+Line 248: Unrecognized token: 38
+Line 248: ID = COMMENT
+Line 248: )
+Line 248: {
+Line 249: for
+Line 249: (
+Line 249: ;
+Line 249: ID = ret
+Line 249: <
+Line 249: ID = LBUFSIZE
+Line 249: &&
+Line 249: (
+Line 249: ID = buf
+Line 249: [
+Line 249: ID = ret
+Line 249: ]
+Line 249: !=
+Line 249: INTCON = 0
+Line 249: )
+Line 249: ;
+Line 249: ID = ret
+Line 249: +
+Line 249: +
+Line 249: )
+Line 250: ;
+Line 251: if
+Line 251: (
+Line 251: ID = unlikely
+Line 251: (
+Line 251: ID = LBUFSIZE
+Line 251: ==
+Line 251: ID = ret
+Line 251: )
+Line 251: )
+Line 251: {
+Line 252: ID = DBG_FLT
+Line 252: (
+Line 252: STRINGCON = "binfmt_flat: buffer overflow (COMMENT)?\n"
+Line 252: )
+Line 252: ;
+Line 253: ID = goto
+Line 253: ID = out_free_buf
+Line 253: ;
+Line 254: }
+Line 255: }
+Line 257: ID = strm
+Line 257: Unrecognized token: 46
+Line 257: ID = next_in
+Line 257: +
+Line 257: =
+Line 257: ID = ret
+Line 257: ;
+Line 258: ID = strm
+Line 258: Unrecognized token: 46
+Line 258: ID = avail_in
+Line 258: -
+Line 258: =
+Line 258: ID = ret
+Line 258: ;
+Line 260: ID = strm
+Line 260: Unrecognized token: 46
+Line 260: ID = next_out
+Line 260: =
+Line 260: ID = dst
+Line 260: ;
+Line 261: ID = strm
+Line 261: Unrecognized token: 46
+Line 261: ID = avail_out
+Line 261: =
+Line 261: ID = len
+Line 261: ;
+Line 262: ID = strm
+Line 262: Unrecognized token: 46
+Line 262: ID = total_out
+Line 262: =
+Line 262: INTCON = 0
+Line 262: ;
+Line 264: if
+Line 264: (
+Line 264: ID = zlib_inflateInit2
+Line 264: (
+Line 264: Unrecognized token: 38
+Line 264: ID = strm
+Line 264: ,
+Line 264: -
+Line 264: ID = MAX_WBITS
+Line 264: )
+Line 264: !=
+Line 264: ID = Z_OK
+Line 264: )
+Line 264: {
+Line 265: ID = DBG_FLT
+Line 265: (
+Line 265: STRINGCON = "binfmt_flat: zlib init failed?\n"
+Line 265: )
+Line 265: ;
+Line 266: ID = goto
+Line 266: ID = out_free_buf
+Line 266: ;
+Line 267: }
+Line 269: while
+Line 269: (
+Line 269: (
+Line 269: ID = ret
+Line 269: =
+Line 269: ID = zlib_inflate
+Line 269: (
+Line 269: Unrecognized token: 38
+Line 269: ID = strm
+Line 269: ,
+Line 269: ID = Z_NO_FLUSH
+Line 269: )
+Line 269: )
+Line 269: ==
+Line 269: ID = Z_OK
+Line 269: )
+Line 269: {
+Line 270: ID = ret
+Line 270: =
+Line 270: ID = bprm
+Line 270: -
+Line 270: >
+Line 270: ID = file
+Line 270: -
+Line 270: >
+Line 270: ID = f_op
+Line 270: -
+Line 270: >
+Line 270: ID = read
+Line 270: (
+Line 270: ID = bprm
+Line 270: -
+Line 270: >
+Line 270: ID = file
+Line 270: ,
+Line 270: ID = buf
+Line 270: ,
+Line 270: ID = LBUFSIZE
+Line 270: ,
+Line 270: Unrecognized token: 38
+Line 270: ID = fpos
+Line 270: )
+Line 270: ;
+Line 271: if
+Line 271: (
+Line 271: ID = ret
+Line 271: <=
+Line 271: INTCON = 0
+Line 271: )
+Line 272: ID = break
+Line 272: ;
+Line 273: if
+Line 273: (
+Line 273: ID = ret
+Line 273: >=
+Line 273: (
+Line 273: ID = unsigned
+Line 273: ID = long
+Line 273: )
+Line 273: -
+Line 273: INTCON = 4096
+Line 273: )
+Line 274: ID = break
+Line 274: ;
+Line 275: ID = len
+Line 275: -
+Line 275: =
+Line 275: ID = ret
+Line 275: ;
+Line 277: ID = strm
+Line 277: Unrecognized token: 46
+Line 277: ID = next_in
+Line 277: =
+Line 277: ID = buf
+Line 277: ;
+Line 278: ID = strm
+Line 278: Unrecognized token: 46
+Line 278: ID = avail_in
+Line 278: =
+Line 278: ID = ret
+Line 278: ;
+Line 279: ID = strm
+Line 279: Unrecognized token: 46
+Line 279: ID = total_in
+Line 279: =
+Line 279: INTCON = 0
+Line 279: ;
+Line 280: }
+Line 282: if
+Line 282: (
+Line 282: ID = ret
+Line 282: <
+Line 282: INTCON = 0
+Line 282: )
+Line 282: {
+Line 283: ID = DBG_FLT
+Line 283: (
+Line 283: STRINGCON = "binfmt_flat: decompression failed (%d), %s\n"
+Line 283: ,
+Line 284: ID = ret
+Line 284: ,
+Line 284: ID = strm
+Line 284: Unrecognized token: 46
+Line 284: ID = msg
+Line 284: )
+Line 284: ;
+Line 285: ID = goto
+Line 285: ID = out_zlib
+Line 285: ;
+Line 286: }
+Line 288: ID = retval
+Line 288: =
+Line 288: INTCON = 0
+Line 288: ;
+Line 289: ID = out_zlib
+Line 289: Unrecognized token: 58
+Line 290: ID = zlib_inflateEnd
+Line 290: (
+Line 290: Unrecognized token: 38
+Line 290: ID = strm
+Line 290: )
+Line 290: ;
+Line 291: ID = out_free_buf
+Line 291: Unrecognized token: 58
+Line 292: ID = kfree
+Line 292: (
+Line 292: ID = buf
+Line 292: )
+Line 292: ;
+Line 293: ID = out_free
+Line 293: Unrecognized token: 58
+Line 294: ID = kfree
+Line 294: (
+Line 294: ID = strm
+Line 294: Unrecognized token: 46
+Line 294: ID = workspace
+Line 294: )
+Line 294: ;
+Line 295: ID = out
+Line 295: Unrecognized token: 58
+Line 296: return
+Line 296: ID = retval
+Line 296: ;
+Line 297: }
+Line 299: Unrecognized token: 35
+Line 299: ID = endif
+Line 303: ID = static
+Line 303: ID = unsigned
+Line 303: ID = long
+Line 304: ID = calc_reloc
+Line 304: (
+Line 304: ID = unsigned
+Line 304: ID = long
+Line 304: ID = r
+Line 304: ,
+Line 304: ID = struct
+Line 304: ID = lib_info
+Line 304: *
+Line 304: ID = p
+Line 304: ,
+Line 304: int
+Line 304: ID = curid
+Line 304: ,
+Line 304: int
+Line 304: ID = internalp
+Line 304: )
+Line 305: {
+Line 306: ID = unsigned
+Line 306: ID = long
+Line 306: ID = addr
+Line 306: ;
+Line 307: int
+Line 307: ID = id
+Line 307: ;
+Line 308: ID = unsigned
+Line 308: ID = long
+Line 308: ID = start_brk
+Line 308: ;
+Line 309: ID = unsigned
+Line 309: ID = long
+Line 309: ID = start_data
+Line 309: ;
+Line 310: ID = unsigned
+Line 310: ID = long
+Line 310: ID = text_len
+Line 310: ;
+Line 311: ID = unsigned
+Line 311: ID = long
+Line 311: ID = start_code
+Line 311: ;
+Line 313: Unrecognized token: 35
+Line 313: ID = ifdef
+Line 313: ID = CONFIG_BINFMT_SHARED_FLAT
+Line 314: if
+Line 314: (
+Line 314: ID = r
+Line 314: ==
+Line 314: INTCON = 0
+Line 314: )
+Line 315: ID = id
+Line 315: =
+Line 315: ID = curid
+Line 315: ;
+Line 316: else
+Line 316: {
+Line 317: ID = id
+Line 317: =
+Line 317: (
+Line 317: ID = r
+Line 317: >
+Line 317: >
+Line 317: INTCON = 24
+Line 317: )
+Line 317: Unrecognized token: 38
+Line 317: INTCON = 0
+Line 317: ID = xff
+Line 317: ;
+Line 318: ID = r
+Line 318: Unrecognized token: 38
+Line 318: =
+Line 318: INTCON = 0
+Line 318: ID = x00ffffff
+Line 318: ;
+Line 319: }
+Line 320: if
+Line 320: (
+Line 320: ID = id
+Line 320: >=
+Line 320: ID = MAX_SHARED_LIBS
+Line 320: )
+Line 320: {
+Line 321: ID = printk
+Line 321: (
+Line 321: STRINGCON = "BINFMT_FLAT: reference 0x%x to shared library %d"
+Line 321: ,
+Line 322: (
+Line 322: ID = unsigned
+Line 322: )
+Line 322: ID = r
+Line 322: ,
+Line 322: ID = id
+Line 322: )
+Line 322: ;
+Line 323: ID = goto
+Line 323: ID = failed
+Line 323: ;
+Line 324: }
+Line 325: if
+Line 325: (
+Line 325: ID = curid
+Line 325: !=
+Line 325: ID = id
+Line 325: )
+Line 325: {
+Line 326: if
+Line 326: (
+Line 326: ID = internalp
+Line 326: )
+Line 326: {
+Line 327: ID = printk
+Line 327: (
+Line 327: STRINGCON = "BINFMT_FLAT: reloc address 0x%x not in same module "
+Line 328: STRINGCON = "(%d != %d)"
+Line 328: ,
+Line 328: (
+Line 328: ID = unsigned
+Line 328: )
+Line 328: ID = r
+Line 328: ,
+Line 328: ID = curid
+Line 328: ,
+Line 328: ID = id
+Line 328: )
+Line 328: ;
+Line 329: ID = goto
+Line 329: ID = failed
+Line 329: ;
+Line 330: }
+Line 330: else
+Line 330: if
+Line 330: (
+Line 330: !
+Line 330: ID = p
+Line 330: -
+Line 330: >
+Line 330: ID = lib_list
+Line 330: [
+Line 330: ID = id
+Line 330: ]
+Line 330: Unrecognized token: 46
+Line 330: ID = loaded
+Line 330: &&
+Line 331: ID = load_flat_shared_library
+Line 331: (
+Line 331: ID = id
+Line 331: ,
+Line 331: ID = p
+Line 331: )
+Line 331: >
+Line 331: (
+Line 331: ID = unsigned
+Line 331: ID = long
+Line 331: )
+Line 331: -
+Line 331: INTCON = 4096
+Line 331: )
+Line 331: {
+Line 332: ID = printk
+Line 332: (
+Line 332: STRINGCON = "BINFMT_FLAT: failed to load library %d"
+Line 332: ,
+Line 332: ID = id
+Line 332: )
+Line 332: ;
+Line 333: ID = goto
+Line 333: ID = failed
+Line 333: ;
+Line 334: }
+Line 336: if
+Line 336: (
+Line 336: ID = p
+Line 336: -
+Line 336: >
+Line 336: ID = lib_list
+Line 336: [
+Line 336: ID = id
+Line 336: ]
+Line 336: Unrecognized token: 46
+Line 336: ID = build_date
+Line 336: &&
+Line 336: ID = p
+Line 336: -
+Line 336: >
+Line 336: ID = lib_list
+Line 336: [
+Line 336: ID = curid
+Line 336: ]
+Line 336: Unrecognized token: 46
+Line 336: ID = build_date
+Line 336: &&
+Line 337: ID = p
+Line 337: -
+Line 337: >
+Line 337: ID = lib_list
+Line 337: [
+Line 337: ID = curid
+Line 337: ]
+Line 337: Unrecognized token: 46
+Line 337: ID = build_date
+Line 337: <
+Line 337: ID = p
+Line 337: -
+Line 337: >
+Line 337: ID = lib_list
+Line 337: [
+Line 337: ID = id
+Line 337: ]
+Line 337: Unrecognized token: 46
+Line 337: ID = build_date
+Line 337: )
+Line 337: {
+Line 338: ID = printk
+Line 338: (
+Line 338: STRINGCON = "BINFMT_FLAT: library %d is younger than %d"
+Line 338: ,
+Line 338: ID = id
+Line 338: ,
+Line 338: ID = curid
+Line 338: )
+Line 338: ;
+Line 339: ID = goto
+Line 339: ID = failed
+Line 339: ;
+Line 340: }
+Line 341: }
+Line 342: Unrecognized token: 35
+Line 342: else
+Line 343: ID = id
+Line 343: =
+Line 343: INTCON = 0
+Line 343: ;
+Line 344: Unrecognized token: 35
+Line 344: ID = endif
+Line 346: ID = start_brk
+Line 346: =
+Line 346: ID = p
+Line 346: -
+Line 346: >
+Line 346: ID = lib_list
+Line 346: [
+Line 346: ID = id
+Line 346: ]
+Line 346: Unrecognized token: 46
+Line 346: ID = start_brk
+Line 346: ;
+Line 347: ID = start_data
+Line 347: =
+Line 347: ID = p
+Line 347: -
+Line 347: >
+Line 347: ID = lib_list
+Line 347: [
+Line 347: ID = id
+Line 347: ]
+Line 347: Unrecognized token: 46
+Line 347: ID = start_data
+Line 347: ;
+Line 348: ID = start_code
+Line 348: =
+Line 348: ID = p
+Line 348: -
+Line 348: >
+Line 348: ID = lib_list
+Line 348: [
+Line 348: ID = id
+Line 348: ]
+Line 348: Unrecognized token: 46
+Line 348: ID = start_code
+Line 348: ;
+Line 349: ID = text_len
+Line 349: =
+Line 349: ID = p
+Line 349: -
+Line 349: >
+Line 349: ID = lib_list
+Line 349: [
+Line 349: ID = id
+Line 349: ]
+Line 349: Unrecognized token: 46
+Line 349: ID = text_len
+Line 349: ;
+Line 351: if
+Line 351: (
+Line 351: !
+Line 351: ID = flat_reloc_valid
+Line 351: (
+Line 351: ID = r
+Line 351: ,
+Line 351: ID = start_brk
+Line 351: -
+Line 351: ID = start_data
+Line 351: +
+Line 351: ID = text_len
+Line 351: )
+Line 351: )
+Line 351: {
+Line 352: ID = printk
+Line 352: (
+Line 352: STRINGCON = "BINFMT_FLAT: reloc outside program 0x%x (0 - 0x%x/0x%x)"
+Line 352: ,
+Line 353: (
+Line 353: int
+Line 353: )
+Line 353: ID = r
+Line 353: ,
+Line 353: (
+Line 353: int
+Line 353: )
+Line 353: (
+Line 353: ID = start_brk
+Line 353: -
+Line 353: ID = start_code
+Line 353: )
+Line 353: ,
+Line 353: (
+Line 353: int
+Line 353: )
+Line 353: ID = text_len
+Line 353: )
+Line 353: ;
+Line 354: ID = goto
+Line 354: ID = failed
+Line 354: ;
+Line 355: }
+Line 357: if
+Line 357: (
+Line 357: ID = r
+Line 357: <
+Line 357: ID = text_len
+Line 357: )
+Line 358: ID = addr
+Line 358: =
+Line 358: ID = r
+Line 358: +
+Line 358: ID = start_code
+Line 358: ;
+Line 359: else
+Line 360: ID = addr
+Line 360: =
+Line 360: ID = r
+Line 360: -
+Line 360: ID = text_len
+Line 360: +
+Line 360: ID = start_data
+Line 360: ;
+Line 363: return
+Line 363: (
+Line 363: ID = addr
+Line 363: )
+Line 363: ;
+Line 365: ID = failed
+Line 365: Unrecognized token: 58
+Line 366: ID = printk
+Line 366: (
+Line 366: STRINGCON = ", killing %s!\n"
+Line 366: ,
+Line 366: ID = current
+Line 366: -
+Line 366: >
+Line 366: ID = comm
+Line 366: )
+Line 366: ;
+Line 367: ID = send_sig
+Line 367: (
+Line 367: ID = SIGSEGV
+Line 367: ,
+Line 367: ID = current
+Line 367: ,
+Line 367: INTCON = 0
+Line 367: )
+Line 367: ;
+Line 369: return
+Line 369: ID = RELOC_FAILED
+Line 369: ;
+Line 370: }
+Line 374: void
+Line 374: ID = old_reloc
+Line 374: (
+Line 374: ID = unsigned
+Line 374: ID = long
+Line 374: ID = rl
+Line 374: )
+Line 375: {
+Line 376: Unrecognized token: 35
+Line 376: ID = ifdef
+Line 376: ID = DEBUG
+Line 377: char
+Line 377: *
+Line 377: ID = segment
+Line 377: [
+Line 377: ]
+Line 377: =
+Line 377: {
+Line 377: STRINGCON = "TEXT"
+Line 377: ,
+Line 377: STRINGCON = "DATA"
+Line 377: ,
+Line 377: STRINGCON = "BSS"
+Line 377: ,
+Line 377: STRINGCON = "*UNKNOWN*"
+Line 377: }
+Line 377: ;
+Line 378: Unrecognized token: 35
+Line 378: ID = endif
+Line 379: ID = flat_v2_reloc_t
+Line 379: ID = r
+Line 379: ;
+Line 380: ID = unsigned
+Line 380: ID = long
+Line 380: *
+Line 380: ID = ptr
+Line 380: ;
+Line 382: ID = r
+Line 382: Unrecognized token: 46
+Line 382: ID = value
+Line 382: =
+Line 382: ID = rl
+Line 382: ;
+Line 383: Unrecognized token: 35
+Line 383: if
+Line 383: ID = defined
+Line 383: (
+Line 383: ID = CONFIG_COLDFIRE
+Line 383: )
+Line 384: ID = ptr
+Line 384: =
+Line 384: (
+Line 384: ID = unsigned
+Line 384: ID = long
+Line 384: *
+Line 384: )
+Line 384: (
+Line 384: ID = current
+Line 384: -
+Line 384: >
+Line 384: ID = mm
+Line 384: -
+Line 384: >
+Line 384: ID = start_code
+Line 384: +
+Line 384: ID = r
+Line 384: Unrecognized token: 46
+Line 384: ID = reloc
+Line 384: Unrecognized token: 46
+Line 384: ID = offset
+Line 384: )
+Line 384: ;
+Line 385: Unrecognized token: 35
+Line 385: else
+Line 386: ID = ptr
+Line 386: =
+Line 386: (
+Line 386: ID = unsigned
+Line 386: ID = long
+Line 386: *
+Line 386: )
+Line 386: (
+Line 386: ID = current
+Line 386: -
+Line 386: >
+Line 386: ID = mm
+Line 386: -
+Line 386: >
+Line 386: ID = start_data
+Line 386: +
+Line 386: ID = r
+Line 386: Unrecognized token: 46
+Line 386: ID = reloc
+Line 386: Unrecognized token: 46
+Line 386: ID = offset
+Line 386: )
+Line 386: ;
+Line 387: Unrecognized token: 35
+Line 387: ID = endif
+Line 389: Unrecognized token: 35
+Line 389: ID = ifdef
+Line 389: ID = DEBUG
+Line 390: ID = printk
+Line 390: (
+Line 390: STRINGCON = "Relocation of variable at DATASEG+%x "
+Line 391: STRINGCON = "(address %p, currently %x) into segment %s\n"
+Line 391: ,
+Line 392: ID = r
+Line 392: Unrecognized token: 46
+Line 392: ID = reloc
+Line 392: Unrecognized token: 46
+Line 392: ID = offset
+Line 392: ,
+Line 392: ID = ptr
+Line 392: ,
+Line 392: (
+Line 392: int
+Line 392: )
+Line 392: *
+Line 392: ID = ptr
+Line 392: ,
+Line 392: ID = segment
+Line 392: [
+Line 392: ID = r
+Line 392: Unrecognized token: 46
+Line 392: ID = reloc
+Line 392: Unrecognized token: 46
+Line 392: ID = type
+Line 392: ]
+Line 392: )
+Line 392: ;
+Line 393: Unrecognized token: 35
+Line 393: ID = endif
+Line 395: ID = switch
+Line 395: (
+Line 395: ID = r
+Line 395: Unrecognized token: 46
+Line 395: ID = reloc
+Line 395: Unrecognized token: 46
+Line 395: ID = type
+Line 395: )
+Line 395: {
+Line 396: ID = case
+Line 396: ID = OLD_FLAT_RELOC_TYPE_TEXT
+Line 396: Unrecognized token: 58
+Line 397: *
+Line 397: ID = ptr
+Line 397: +
+Line 397: =
+Line 397: ID = current
+Line 397: -
+Line 397: >
+Line 397: ID = mm
+Line 397: -
+Line 397: >
+Line 397: ID = start_code
+Line 397: ;
+Line 398: ID = break
+Line 398: ;
+Line 399: ID = case
+Line 399: ID = OLD_FLAT_RELOC_TYPE_DATA
+Line 399: Unrecognized token: 58
+Line 400: *
+Line 400: ID = ptr
+Line 400: +
+Line 400: =
+Line 400: ID = current
+Line 400: -
+Line 400: >
+Line 400: ID = mm
+Line 400: -
+Line 400: >
+Line 400: ID = start_data
+Line 400: ;
+Line 401: ID = break
+Line 401: ;
+Line 402: ID = case
+Line 402: ID = OLD_FLAT_RELOC_TYPE_BSS
+Line 402: Unrecognized token: 58
+Line 403: *
+Line 403: ID = ptr
+Line 403: +
+Line 403: =
+Line 403: ID = current
+Line 403: -
+Line 403: >
+Line 403: ID = mm
+Line 403: -
+Line 403: >
+Line 403: ID = end_data
+Line 403: ;
+Line 404: ID = break
+Line 404: ;
+Line 405: ID = default
+Line 405: Unrecognized token: 58
+Line 406: ID = printk
+Line 406: (
+Line 406: STRINGCON = "BINFMT_FLAT: Unknown relocation type=%x\n"
+Line 406: ,
+Line 406: ID = r
+Line 406: Unrecognized token: 46
+Line 406: ID = reloc
+Line 406: Unrecognized token: 46
+Line 406: ID = type
+Line 406: )
+Line 406: ;
+Line 407: ID = break
+Line 407: ;
+Line 408: }
+Line 410: Unrecognized token: 35
+Line 410: ID = ifdef
+Line 410: ID = DEBUG
+Line 411: ID = printk
+Line 411: (
+Line 411: STRINGCON = "Relocation became %x\n"
+Line 411: ,
+Line 411: (
+Line 411: int
+Line 411: )
+Line 411: *
+Line 411: ID = ptr
+Line 411: )
+Line 411: ;
+Line 412: Unrecognized token: 35
+Line 412: ID = endif
+Line 413: }
+Line 417: ID = static
+Line 417: int
+Line 417: ID = load_flat_file
+Line 417: (
+Line 417: ID = struct
+Line 417: ID = linux_binprm
+Line 417: *
+Line 417: ID = bprm
+Line 417: ,
+Line 418: ID = struct
+Line 418: ID = lib_info
+Line 418: *
+Line 418: ID = libinfo
+Line 418: ,
+Line 418: int
+Line 418: ID = id
+Line 418: ,
+Line 418: ID = unsigned
+Line 418: ID = long
+Line 418: *
+Line 418: ID = extra_stack
+Line 418: )
+Line 419: {
+Line 420: ID = struct
+Line 420: ID = flat_hdr
+Line 420: *
+Line 420: ID = hdr
+Line 420: ;
+Line 421: ID = unsigned
+Line 421: ID = long
+Line 421: ID = textpos
+Line 421: =
+Line 421: INTCON = 0
+Line 421: ,
+Line 421: ID = datapos
+Line 421: =
+Line 421: INTCON = 0
+Line 421: ,
+Line 421: ID = result
+Line 421: ;
+Line 422: ID = unsigned
+Line 422: ID = long
+Line 422: ID = realdatastart
+Line 422: =
+Line 422: INTCON = 0
+Line 422: ;
+Line 423: ID = unsigned
+Line 423: ID = long
+Line 423: ID = text_len
+Line 423: ,
+Line 423: ID = data_len
+Line 423: ,
+Line 423: ID = bss_len
+Line 423: ,
+Line 423: ID = stack_len
+Line 423: ,
+Line 423: ID = flags
+Line 423: ;
+Line 424: ID = unsigned
+Line 424: ID = long
+Line 424: ID = memp
+Line 424: =
+Line 424: INTCON = 0
+Line 424: ;
+Line 425: ID = unsigned
+Line 425: ID = long
+Line 425: ID = extra
+Line 425: ,
+Line 425: ID = rlim
+Line 425: ;
+Line 426: ID = unsigned
+Line 426: ID = long
+Line 426: *
+Line 426: ID = reloc
+Line 426: =
+Line 426: INTCON = 0
+Line 426: ,
+Line 426: *
+Line 426: ID = rp
+Line 426: ;
+Line 427: ID = struct
+Line 427: ID = inode
+Line 427: *
+Line 427: ID = inode
+Line 427: ;
+Line 428: int
+Line 428: ID = i
+Line 428: ,
+Line 428: ID = rev
+Line 428: ,
+Line 428: ID = relocs
+Line 428: =
+Line 428: INTCON = 0
+Line 428: ;
+Line 429: ID = loff_t
+Line 429: ID = fpos
+Line 429: ;
+Line 430: ID = unsigned
+Line 430: ID = long
+Line 430: ID = start_code
+Line 430: ,
+Line 430: ID = end_code
+Line 430: ;
+Line 432: ID = hdr
+Line 432: =
+Line 432: (
+Line 432: (
+Line 432: ID = struct
+Line 432: ID = flat_hdr
+Line 432: *
+Line 432: )
+Line 432: ID = bprm
+Line 432: -
+Line 432: >
+Line 432: ID = buf
+Line 432: )
+Line 432: ;
+Line 433: ID = inode
+Line 433: =
+Line 433: ID = bprm
+Line 433: -
+Line 433: >
+Line 433: ID = file
+Line 433: -
+Line 433: >
+Line 433: ID = f_dentry
+Line 433: -
+Line 433: >
+Line 433: ID = d_inode
+Line 433: ;
+Line 435: ID = text_len
+Line 435: =
+Line 435: ID = ntohl
+Line 435: (
+Line 435: ID = hdr
+Line 435: -
+Line 435: >
+Line 435: ID = data_start
+Line 435: )
+Line 435: ;
+Line 436: ID = data_len
+Line 436: =
+Line 436: ID = ntohl
+Line 436: (
+Line 436: ID = hdr
+Line 436: -
+Line 436: >
+Line 436: ID = data_end
+Line 436: )
+Line 436: -
+Line 436: ID = ntohl
+Line 436: (
+Line 436: ID = hdr
+Line 436: -
+Line 436: >
+Line 436: ID = data_start
+Line 436: )
+Line 436: ;
+Line 437: ID = bss_len
+Line 437: =
+Line 437: ID = ntohl
+Line 437: (
+Line 437: ID = hdr
+Line 437: -
+Line 437: >
+Line 437: ID = bss_end
+Line 437: )
+Line 437: -
+Line 437: ID = ntohl
+Line 437: (
+Line 437: ID = hdr
+Line 437: -
+Line 437: >
+Line 437: ID = data_end
+Line 437: )
+Line 437: ;
+Line 438: ID = stack_len
+Line 438: =
+Line 438: ID = ntohl
+Line 438: (
+Line 438: ID = hdr
+Line 438: -
+Line 438: >
+Line 438: ID = stack_size
+Line 438: )
+Line 438: ;
+Line 439: if
+Line 439: (
+Line 439: ID = extra_stack
+Line 439: )
+Line 439: {
+Line 440: ID = stack_len
+Line 440: +
+Line 440: =
+Line 440: *
+Line 440: ID = extra_stack
+Line 440: ;
+Line 441: *
+Line 441: ID = extra_stack
+Line 441: =
+Line 441: ID = stack_len
+Line 441: ;
+Line 442: }
+Line 443: ID = relocs
+Line 443: =
+Line 443: ID = ntohl
+Line 443: (
+Line 443: ID = hdr
+Line 443: -
+Line 443: >
+Line 443: ID = reloc_count
+Line 443: )
+Line 443: ;
+Line 444: ID = flags
+Line 444: =
+Line 444: ID = ntohl
+Line 444: (
+Line 444: ID = hdr
+Line 444: -
+Line 444: >
+Line 444: ID = flags
+Line 444: )
+Line 444: ;
+Line 445: ID = rev
+Line 445: =
+Line 445: ID = ntohl
+Line 445: (
+Line 445: ID = hdr
+Line 445: -
+Line 445: >
+Line 445: ID = rev
+Line 445: )
+Line 445: ;
+Line 447: if
+Line 447: (
+Line 447: ID = flags
+Line 447: Unrecognized token: 38
+Line 447: ID = FLAT_FLAG_KTRACE
+Line 447: )
+Line 448: ID = printk
+Line 448: (
+Line 448: STRINGCON = "BINFMT_FLAT: Loading file: %s\n"
+Line 448: ,
+Line 448: ID = bprm
+Line 448: -
+Line 448: >
+Line 448: ID = filename
+Line 448: )
+Line 448: ;
+Line 450: if
+Line 450: (
+Line 450: ID = strncmp
+Line 450: (
+Line 450: ID = hdr
+Line 450: -
+Line 450: >
+Line 450: ID = magic
+Line 450: ,
+Line 450: STRINGCON = "bFLT"
+Line 450: ,
+Line 450: INTCON = 4
+Line 450: )
+Line 450: ||
+Line 451: (
+Line 451: ID = rev
+Line 451: !=
+Line 451: ID = FLAT_VERSION
+Line 451: &&
+Line 451: ID = rev
+Line 451: !=
+Line 451: ID = OLD_FLAT_VERSION
+Line 451: )
+Line 451: )
+Line 451: {
+Line 457: if
+Line 457: (
+Line 457: ID = strncmp
+Line 457: (
+Line 457: ID = hdr
+Line 457: -
+Line 457: >
+Line 457: ID = magic
+Line 457: ,
+Line 457: STRINGCON = "#!"
+Line 457: ,
+Line 457: INTCON = 2
+Line 457: )
+Line 457: )
+Line 458: ID = printk
+Line 458: (
+Line 458: STRINGCON = "BINFMT_FLAT: bad magic/rev (0x%x, need 0x%x)\n"
+Line 458: ,
+Line 459: ID = rev
+Line 459: ,
+Line 459: (
+Line 459: int
+Line 459: )
+Line 459: ID = FLAT_VERSION
+Line 459: )
+Line 459: ;
+Line 460: return
+Line 460: -
+Line 460: ID = ENOEXEC
+Line 460: ;
+Line 461: }
+Line 464: if
+Line 464: (
+Line 464: ID = rev
+Line 464: ==
+Line 464: ID = OLD_FLAT_VERSION
+Line 464: &&
+Line 464: ID = id
+Line 464: !=
+Line 464: INTCON = 0
+Line 464: )
+Line 464: {
+Line 465: ID = printk
+Line 465: (
+Line 465: STRINGCON = "BINFMT_FLAT: shared libraries are not available before rev 0x%x\n"
+Line 465: ,
+Line 466: (
+Line 466: int
+Line 466: )
+Line 466: ID = FLAT_VERSION
+Line 466: )
+Line 466: ;
+Line 467: return
+Line 467: -
+Line 467: ID = ENOEXEC
+Line 467: ;
+Line 468: }
+Line 474: if
+Line 474: (
+Line 474: ID = rev
+Line 474: ==
+Line 474: ID = OLD_FLAT_VERSION
+Line 474: &&
+Line 474: ID = flat_old_ram_flag
+Line 474: (
+Line 474: ID = flags
+Line 474: )
+Line 474: )
+Line 475: ID = flags
+Line 475: =
+Line 475: ID = FLAT_FLAG_RAM
+Line 475: ;
+Line 477: Unrecognized token: 35
+Line 477: ID = ifndef
+Line 477: ID = CONFIG_BINFMT_ZFLAT
+Line 478: if
+Line 478: (
+Line 478: ID = flags
+Line 478: Unrecognized token: 38
+Line 478: (
+Line 478: ID = FLAT_FLAG_GZIP
+Line 478: Unrecognized token: 124
+Line 478: ID = FLAT_FLAG_GZDATA
+Line 478: )
+Line 478: )
+Line 478: {
+Line 479: ID = printk
+Line 479: (
+Line 479: STRINGCON = "Support for ZFLAT executables is not enabled.\n"
+Line 479: )
+Line 479: ;
+Line 480: return
+Line 480: -
+Line 480: ID = ENOEXEC
+Line 480: ;
+Line 481: }
+Line 482: Unrecognized token: 35
+Line 482: ID = endif
+Line 489: ID = rlim
+Line 489: =
+Line 489: ID = current
+Line 489: -
+Line 489: >
+Line 489: ID = rlim
+Line 489: [
+Line 489: ID = RLIMIT_DATA
+Line 489: ]
+Line 489: Unrecognized token: 46
+Line 489: ID = rlim_cur
+Line 489: ;
+Line 490: if
+Line 490: (
+Line 490: ID = rlim
+Line 490: >=
+Line 490: ID = RLIM_INFINITY
+Line 490: )
+Line 491: ID = rlim
+Line 491: =
+Line 491: Unrecognized token: 126
+Line 491: INTCON = 0
+Line 491: ;
+Line 492: if
+Line 492: (
+Line 492: ID = data_len
+Line 492: +
+Line 492: ID = bss_len
+Line 492: >
+Line 492: ID = rlim
+Line 492: )
+Line 493: return
+Line 493: -
+Line 493: ID = ENOMEM
+Line 493: ;
+Line 496: if
+Line 496: (
+Line 496: ID = id
+Line 496: ==
+Line 496: INTCON = 0
+Line 496: )
+Line 496: {
+Line 497: ID = result
+Line 497: =
+Line 497: ID = flush_old_exec
+Line 497: (
+Line 497: ID = bprm
+Line 497: )
+Line 497: ;
+Line 498: if
+Line 498: (
+Line 498: ID = result
+Line 498: )
+Line 499: return
+Line 499: ID = result
+Line 499: ;
+Line 502: ID = set_personality
+Line 502: (
+Line 502: ID = PER_LINUX
+Line 502: )
+Line 502: ;
+Line 503: }
+Line 508: ID = extra
+Line 508: =
+Line 508: ID = max
+Line 508: (
+Line 508: ID = bss_len
+Line 508: +
+Line 508: ID = stack_len
+Line 508: ,
+Line 508: ID = relocs
+Line 508: *
+Line 508: ID = sizeof
+Line 508: (
+Line 508: ID = unsigned
+Line 508: ID = long
+Line 508: )
+Line 508: )
+Line 508: ;
+Line 515: if
+Line 515: (
+Line 515: (
+Line 515: ID = flags
+Line 515: Unrecognized token: 38
+Line 515: (
+Line 515: ID = FLAT_FLAG_RAM
+Line 515: Unrecognized token: 124
+Line 515: ID = FLAT_FLAG_GZIP
+Line 515: )
+Line 515: )
+Line 515: ==
+Line 515: INTCON = 0
+Line 515: )
+Line 515: {
+Line 520: ID = DBG_FLT
+Line 520: (
+Line 520: STRINGCON = "BINFMT_FLAT: ROM mapping of file (we hope)\n"
+Line 520: )
+Line 520: ;
+Line 522: ID = down_write
+Line 522: (
+Line 522: Unrecognized token: 38
+Line 522: ID = current
+Line 522: -
+Line 522: >
+Line 522: ID = mm
+Line 522: -
+Line 522: >
+Line 522: ID = mmap_sem
+Line 522: )
+Line 522: ;
+Line 523: ID = textpos
+Line 523: =
+Line 523: ID = do_mmap
+Line 523: (
+Line 523: ID = bprm
+Line 523: -
+Line 523: >
+Line 523: ID = file
+Line 523: ,
+Line 523: INTCON = 0
+Line 523: ,
+Line 523: ID = text_len
+Line 523: ,
+Line 523: ID = PROT_READ
+Line 523: Unrecognized token: 124
+Line 523: ID = PROT_EXEC
+Line 523: ,
+Line 523: INTCON = 0
+Line 523: ,
+Line 523: INTCON = 0
+Line 523: )
+Line 523: ;
+Line 524: ID = up_write
+Line 524: (
+Line 524: Unrecognized token: 38
+Line 524: ID = current
+Line 524: -
+Line 524: >
+Line 524: ID = mm
+Line 524: -
+Line 524: >
+Line 524: ID = mmap_sem
+Line 524: )
+Line 524: ;
+Line 525: if
+Line 525: (
+Line 525: !
+Line 525: ID = textpos
+Line 525: ||
+Line 525: ID = textpos
+Line 525: >=
+Line 525: (
+Line 525: ID = unsigned
+Line 525: ID = long
+Line 525: )
+Line 525: -
+Line 525: INTCON = 4096
+Line 525: )
+Line 525: {
+Line 526: if
+Line 526: (
+Line 526: !
+Line 526: ID = textpos
+Line 526: )
+Line 527: ID = textpos
+Line 527: =
+Line 527: (
+Line 527: ID = unsigned
+Line 527: ID = long
+Line 527: )
+Line 527: -
+Line 527: ID = ENOMEM
+Line 527: ;
+Line 528: ID = printk
+Line 528: (
+Line 528: STRINGCON = "Unable to mmap process text, errno %d\n"
+Line 528: ,
+Line 528: (
+Line 528: int
+Line 528: )
+Line 528: -
+Line 528: ID = textpos
+Line 528: )
+Line 528: ;
+Line 529: return
+Line 529: (
+Line 529: ID = textpos
+Line 529: )
+Line 529: ;
+Line 530: }
+Line 532: ID = down_write
+Line 532: (
+Line 532: Unrecognized token: 38
+Line 532: ID = current
+Line 532: -
+Line 532: >
+Line 532: ID = mm
+Line 532: -
+Line 532: >
+Line 532: ID = mmap_sem
+Line 532: )
+Line 532: ;
+Line 533: ID = realdatastart
+Line 533: =
+Line 533: ID = do_mmap
+Line 533: (
+Line 533: INTCON = 0
+Line 533: ,
+Line 533: INTCON = 0
+Line 533: ,
+Line 533: ID = data_len
+Line 533: +
+Line 533: ID = extra
+Line 533: +
+Line 534: ID = MAX_SHARED_LIBS
+Line 534: *
+Line 534: ID = sizeof
+Line 534: (
+Line 534: ID = unsigned
+Line 534: ID = long
+Line 534: )
+Line 534: ,
+Line 535: ID = PROT_READ
+Line 535: Unrecognized token: 124
+Line 535: ID = PROT_WRITE
+Line 535: Unrecognized token: 124
+Line 535: ID = PROT_EXEC
+Line 535: ,
+Line 535: INTCON = 0
+Line 535: ,
+Line 535: INTCON = 0
+Line 535: )
+Line 535: ;
+Line 536: ID = up_write
+Line 536: (
+Line 536: Unrecognized token: 38
+Line 536: ID = current
+Line 536: -
+Line 536: >
+Line 536: ID = mm
+Line 536: -
+Line 536: >
+Line 536: ID = mmap_sem
+Line 536: )
+Line 536: ;
+Line 538: if
+Line 538: (
+Line 538: ID = realdatastart
+Line 538: ==
+Line 538: INTCON = 0
+Line 538: ||
+Line 538: ID = realdatastart
+Line 538: >=
+Line 538: (
+Line 538: ID = unsigned
+Line 538: ID = long
+Line 538: )
+Line 538: -
+Line 538: INTCON = 4096
+Line 538: )
+Line 538: {
+Line 539: if
+Line 539: (
+Line 539: !
+Line 539: ID = realdatastart
+Line 539: )
+Line 540: ID = realdatastart
+Line 540: =
+Line 540: (
+Line 540: ID = unsigned
+Line 540: ID = long
+Line 540: )
+Line 540: -
+Line 540: ID = ENOMEM
+Line 540: ;
+Line 541: ID = printk
+Line 541: (
+Line 541: STRINGCON = "Unable to allocate RAM for process data, errno %d\n"
+Line 541: ,
+Line 542: (
+Line 542: int
+Line 542: )
+Line 542: -
+Line 542: ID = datapos
+Line 542: )
+Line 542: ;
+Line 543: ID = do_munmap
+Line 543: (
+Line 543: ID = current
+Line 543: -
+Line 543: >
+Line 543: ID = mm
+Line 543: ,
+Line 543: ID = textpos
+Line 543: ,
+Line 543: ID = text_len
+Line 543: )
+Line 543: ;
+Line 544: return
+Line 544: ID = realdatastart
+Line 544: ;
+Line 545: }
+Line 546: ID = datapos
+Line 546: =
+Line 546: ID = realdatastart
+Line 546: +
+Line 546: ID = MAX_SHARED_LIBS
+Line 546: *
+Line 546: ID = sizeof
+Line 546: (
+Line 546: ID = unsigned
+Line 546: ID = long
+Line 546: )
+Line 546: ;
+Line 548: ID = DBG_FLT
+Line 548: (
+Line 548: STRINGCON = "BINFMT_FLAT: Allocated data+bss+stack (%d bytes): %x\n"
+Line 548: ,
+Line 549: (
+Line 549: int
+Line 549: )
+Line 549: (
+Line 549: ID = data_len
+Line 549: +
+Line 549: ID = bss_len
+Line 549: +
+Line 549: ID = stack_len
+Line 549: )
+Line 549: ,
+Line 549: (
+Line 549: int
+Line 549: )
+Line 549: ID = datapos
+Line 549: )
+Line 549: ;
+Line 551: ID = fpos
+Line 551: =
+Line 551: ID = ntohl
+Line 551: (
+Line 551: ID = hdr
+Line 551: -
+Line 551: >
+Line 551: ID = data_start
+Line 551: )
+Line 551: ;
+Line 552: Unrecognized token: 35
+Line 552: ID = ifdef
+Line 552: ID = CONFIG_BINFMT_ZFLAT
+Line 553: if
+Line 553: (
+Line 553: ID = flags
+Line 553: Unrecognized token: 38
+Line 553: ID = FLAT_FLAG_GZDATA
+Line 553: )
+Line 553: {
+Line 554: ID = result
+Line 554: =
+Line 554: ID = decompress_exec
+Line 554: (
+Line 554: ID = bprm
+Line 554: ,
+Line 554: ID = fpos
+Line 554: ,
+Line 554: (
+Line 554: char
+Line 554: *
+Line 554: )
+Line 554: ID = datapos
+Line 554: ,
+Line 555: ID = data_len
+Line 555: +
+Line 555: (
+Line 555: ID = relocs
+Line 555: *
+Line 555: ID = sizeof
+Line 555: (
+Line 555: ID = unsigned
+Line 555: ID = long
+Line 555: )
+Line 555: )
+Line 555: ,
+Line 555: INTCON = 0
+Line 555: )
+Line 555: ;
+Line 556: }
+Line 556: else
+Line 557: Unrecognized token: 35
+Line 557: ID = endif
+Line 558: {
+Line 559: ID = result
+Line 559: =
+Line 559: ID = bprm
+Line 559: -
+Line 559: >
+Line 559: ID = file
+Line 559: -
+Line 559: >
+Line 559: ID = f_op
+Line 559: -
+Line 559: >
+Line 559: ID = read
+Line 559: (
+Line 559: ID = bprm
+Line 559: -
+Line 559: >
+Line 559: ID = file
+Line 559: ,
+Line 559: (
+Line 559: char
+Line 559: *
+Line 559: )
+Line 559: ID = datapos
+Line 559: ,
+Line 560: ID = data_len
+Line 560: +
+Line 560: (
+Line 560: ID = relocs
+Line 560: *
+Line 560: ID = sizeof
+Line 560: (
+Line 560: ID = unsigned
+Line 560: ID = long
+Line 560: )
+Line 560: )
+Line 560: ,
+Line 560: Unrecognized token: 38
+Line 560: ID = fpos
+Line 560: )
+Line 560: ;
+Line 561: }
+Line 562: if
+Line 562: (
+Line 562: ID = result
+Line 562: >=
+Line 562: (
+Line 562: ID = unsigned
+Line 562: ID = long
+Line 562: )
+Line 562: -
+Line 562: INTCON = 4096
+Line 562: )
+Line 562: {
+Line 563: ID = printk
+Line 563: (
+Line 563: STRINGCON = "Unable to read data+bss, errno %d\n"
+Line 563: ,
+Line 563: (
+Line 563: int
+Line 563: )
+Line 563: -
+Line 563: ID = result
+Line 563: )
+Line 563: ;
+Line 564: ID = do_munmap
+Line 564: (
+Line 564: ID = current
+Line 564: -
+Line 564: >
+Line 564: ID = mm
+Line 564: ,
+Line 564: ID = textpos
+Line 564: ,
+Line 564: ID = text_len
+Line 564: )
+Line 564: ;
+Line 565: ID = do_munmap
+Line 565: (
+Line 565: ID = current
+Line 565: -
+Line 565: >
+Line 565: ID = mm
+Line 565: ,
+Line 565: ID = realdatastart
+Line 565: ,
+Line 565: ID = data_len
+Line 565: +
+Line 565: ID = extra
+Line 565: )
+Line 565: ;
+Line 566: return
+Line 566: ID = result
+Line 566: ;
+Line 567: }
+Line 569: ID = reloc
+Line 569: =
+Line 569: (
+Line 569: ID = unsigned
+Line 569: ID = long
+Line 569: *
+Line 569: )
+Line 569: (
+Line 569: ID = datapos
+Line 569: +
+Line 569: (
+Line 569: ID = ntohl
+Line 569: (
+Line 569: ID = hdr
+Line 569: -
+Line 569: >
+Line 569: ID = reloc_start
+Line 569: )
+Line 569: -
+Line 569: ID = text_len
+Line 569: )
+Line 569: )
+Line 569: ;
+Line 570: ID = memp
+Line 570: =
+Line 570: ID = realdatastart
+Line 570: ;
+Line 572: }
+Line 572: else
+Line 572: {
+Line 574: ID = down_write
+Line 574: (
+Line 574: Unrecognized token: 38
+Line 574: ID = current
+Line 574: -
+Line 574: >
+Line 574: ID = mm
+Line 574: -
+Line 574: >
+Line 574: ID = mmap_sem
+Line 574: )
+Line 574: ;
+Line 575: ID = textpos
+Line 575: =
+Line 575: ID = do_mmap
+Line 575: (
+Line 575: INTCON = 0
+Line 575: ,
+Line 575: INTCON = 0
+Line 575: ,
+Line 575: ID = text_len
+Line 575: +
+Line 575: ID = data_len
+Line 575: +
+Line 575: ID = extra
+Line 575: +
+Line 576: ID = MAX_SHARED_LIBS
+Line 576: *
+Line 576: ID = sizeof
+Line 576: (
+Line 576: ID = unsigned
+Line 576: ID = long
+Line 576: )
+Line 576: ,
+Line 577: ID = PROT_READ
+Line 577: Unrecognized token: 124
+Line 577: ID = PROT_EXEC
+Line 577: Unrecognized token: 124
+Line 577: ID = PROT_WRITE
+Line 577: ,
+Line 577: INTCON = 0
+Line 577: ,
+Line 577: INTCON = 0
+Line 577: )
+Line 577: ;
+Line 578: ID = up_write
+Line 578: (
+Line 578: Unrecognized token: 38
+Line 578: ID = current
+Line 578: -
+Line 578: >
+Line 578: ID = mm
+Line 578: -
+Line 578: >
+Line 578: ID = mmap_sem
+Line 578: )
+Line 578: ;
+Line 579: if
+Line 579: (
+Line 579: !
+Line 579: ID = textpos
+Line 579: ||
+Line 579: ID = textpos
+Line 579: >=
+Line 579: (
+Line 579: ID = unsigned
+Line 579: ID = long
+Line 579: )
+Line 579: -
+Line 579: INTCON = 4096
+Line 579: )
+Line 579: {
+Line 580: if
+Line 580: (
+Line 580: !
+Line 580: ID = textpos
+Line 580: )
+Line 581: ID = textpos
+Line 581: =
+Line 581: (
+Line 581: ID = unsigned
+Line 581: ID = long
+Line 581: )
+Line 581: -
+Line 581: ID = ENOMEM
+Line 581: ;
+Line 582: ID = printk
+Line 582: (
+Line 582: STRINGCON = "Unable to allocate RAM for process text/data, errno %d\n"
+Line 582: ,
+Line 583: (
+Line 583: int
+Line 583: )
+Line 583: -
+Line 583: ID = textpos
+Line 583: )
+Line 583: ;
+Line 584: return
+Line 584: (
+Line 584: ID = textpos
+Line 584: )
+Line 584: ;
+Line 585: }
+Line 587: ID = realdatastart
+Line 587: =
+Line 587: ID = textpos
+Line 587: +
+Line 587: ID = ntohl
+Line 587: (
+Line 587: ID = hdr
+Line 587: -
+Line 587: >
+Line 587: ID = data_start
+Line 587: )
+Line 587: ;
+Line 588: ID = datapos
+Line 588: =
+Line 588: ID = realdatastart
+Line 588: +
+Line 588: ID = MAX_SHARED_LIBS
+Line 588: *
+Line 588: ID = sizeof
+Line 588: (
+Line 588: ID = unsigned
+Line 588: ID = long
+Line 588: )
+Line 588: ;
+Line 589: ID = reloc
+Line 589: =
+Line 589: (
+Line 589: ID = unsigned
+Line 589: ID = long
+Line 589: *
+Line 589: )
+Line 589: (
+Line 589: ID = textpos
+Line 589: +
+Line 589: ID = ntohl
+Line 589: (
+Line 589: ID = hdr
+Line 589: -
+Line 589: >
+Line 589: ID = reloc_start
+Line 589: )
+Line 589: +
+Line 590: ID = MAX_SHARED_LIBS
+Line 590: *
+Line 590: ID = sizeof
+Line 590: (
+Line 590: ID = unsigned
+Line 590: ID = long
+Line 590: )
+Line 590: )
+Line 590: ;
+Line 591: ID = memp
+Line 591: =
+Line 591: ID = textpos
+Line 591: ;
+Line 593: Unrecognized token: 35
+Line 593: ID = ifdef
+Line 593: ID = CONFIG_BINFMT_ZFLAT
+Line 597: if
+Line 597: (
+Line 597: ID = flags
+Line 597: Unrecognized token: 38
+Line 597: ID = FLAT_FLAG_GZIP
+Line 597: )
+Line 597: {
+Line 598: ID = result
+Line 598: =
+Line 598: ID = decompress_exec
+Line 598: (
+Line 598: ID = bprm
+Line 598: ,
+Line 598: ID = sizeof
+Line 598: (
+Line 598: ID = struct
+Line 598: ID = flat_hdr
+Line 598: )
+Line 598: ,
+Line 599: (
+Line 599: (
+Line 599: (
+Line 599: char
+Line 599: *
+Line 599: )
+Line 599: ID = textpos
+Line 599: )
+Line 599: +
+Line 599: ID = sizeof
+Line 599: (
+Line 599: ID = struct
+Line 599: ID = flat_hdr
+Line 599: )
+Line 599: )
+Line 599: ,
+Line 600: (
+Line 600: ID = text_len
+Line 600: +
+Line 600: ID = data_len
+Line 600: +
+Line 600: (
+Line 600: ID = relocs
+Line 600: *
+Line 600: ID = sizeof
+Line 600: (
+Line 600: ID = unsigned
+Line 600: ID = long
+Line 600: )
+Line 600: )
+Line 601: -
+Line 601: ID = sizeof
+Line 601: (
+Line 601: ID = struct
+Line 601: ID = flat_hdr
+Line 601: )
+Line 601: )
+Line 601: ,
+Line 602: INTCON = 0
+Line 602: )
+Line 602: ;
+Line 603: ID = memmove
+Line 603: (
+Line 603: (
+Line 603: void
+Line 603: *
+Line 603: )
+Line 603: ID = datapos
+Line 603: ,
+Line 603: (
+Line 603: void
+Line 603: *
+Line 603: )
+Line 603: ID = realdatastart
+Line 603: ,
+Line 604: ID = data_len
+Line 604: +
+Line 604: (
+Line 604: ID = relocs
+Line 604: *
+Line 604: ID = sizeof
+Line 604: (
+Line 604: ID = unsigned
+Line 604: ID = long
+Line 604: )
+Line 604: )
+Line 604: )
+Line 604: ;
+Line 605: }
+Line 605: else
+Line 605: if
+Line 605: (
+Line 605: ID = flags
+Line 605: Unrecognized token: 38
+Line 605: ID = FLAT_FLAG_GZDATA
+Line 605: )
+Line 605: {
+Line 606: ID = fpos
+Line 606: =
+Line 606: INTCON = 0
+Line 606: ;
+Line 607: ID = result
+Line 607: =
+Line 607: ID = bprm
+Line 607: -
+Line 607: >
+Line 607: ID = file
+Line 607: -
+Line 607: >
+Line 607: ID = f_op
+Line 607: -
+Line 607: >
+Line 607: ID = read
+Line 607: (
+Line 607: ID = bprm
+Line 607: -
+Line 607: >
+Line 607: ID = file
+Line 607: ,
+Line 608: (
+Line 608: char
+Line 608: *
+Line 608: )
+Line 608: ID = textpos
+Line 608: ,
+Line 608: ID = text_len
+Line 608: ,
+Line 608: Unrecognized token: 38
+Line 608: ID = fpos
+Line 608: )
+Line 608: ;
+Line 609: if
+Line 609: (
+Line 609: ID = result
+Line 609: <
+Line 609: (
+Line 609: ID = unsigned
+Line 609: ID = long
+Line 609: )
+Line 609: -
+Line 609: INTCON = 4096
+Line 609: )
+Line 610: ID = result
+Line 610: =
+Line 610: ID = decompress_exec
+Line 610: (
+Line 610: ID = bprm
+Line 610: ,
+Line 610: ID = text_len
+Line 610: ,
+Line 610: (
+Line 610: char
+Line 610: *
+Line 610: )
+Line 610: ID = datapos
+Line 610: ,
+Line 611: ID = data_len
+Line 611: +
+Line 611: (
+Line 611: ID = relocs
+Line 611: *
+Line 611: ID = sizeof
+Line 611: (
+Line 611: ID = unsigned
+Line 611: ID = long
+Line 611: )
+Line 611: )
+Line 611: ,
+Line 611: INTCON = 0
+Line 611: )
+Line 611: ;
+Line 612: }
+Line 613: else
+Line 614: Unrecognized token: 35
+Line 614: ID = endif
+Line 615: {
+Line 616: ID = fpos
+Line 616: =
+Line 616: INTCON = 0
+Line 616: ;
+Line 617: ID = result
+Line 617: =
+Line 617: ID = bprm
+Line 617: -
+Line 617: >
+Line 617: ID = file
+Line 617: -
+Line 617: >
+Line 617: ID = f_op
+Line 617: -
+Line 617: >
+Line 617: ID = read
+Line 617: (
+Line 617: ID = bprm
+Line 617: -
+Line 617: >
+Line 617: ID = file
+Line 617: ,
+Line 618: (
+Line 618: char
+Line 618: *
+Line 618: )
+Line 618: ID = textpos
+Line 618: ,
+Line 618: ID = text_len
+Line 618: ,
+Line 618: Unrecognized token: 38
+Line 618: ID = fpos
+Line 618: )
+Line 618: ;
+Line 619: if
+Line 619: (
+Line 619: ID = result
+Line 619: <
+Line 619: (
+Line 619: ID = unsigned
+Line 619: ID = long
+Line 619: )
+Line 619: -
+Line 619: INTCON = 4096
+Line 619: )
+Line 619: {
+Line 620: ID = fpos
+Line 620: =
+Line 620: ID = ntohl
+Line 620: (
+Line 620: ID = hdr
+Line 620: -
+Line 620: >
+Line 620: ID = data_start
+Line 620: )
+Line 620: ;
+Line 621: ID = result
+Line 621: =
+Line 621: ID = bprm
+Line 621: -
+Line 621: >
+Line 621: ID = file
+Line 621: -
+Line 621: >
+Line 621: ID = f_op
+Line 621: -
+Line 621: >
+Line 621: ID = read
+Line 621: (
+Line 621: ID = bprm
+Line 621: -
+Line 621: >
+Line 621: ID = file
+Line 621: ,
+Line 621: (
+Line 621: char
+Line 621: *
+Line 621: )
+Line 621: ID = datapos
+Line 621: ,
+Line 622: ID = data_len
+Line 622: +
+Line 622: (
+Line 622: ID = relocs
+Line 622: *
+Line 622: ID = sizeof
+Line 622: (
+Line 622: ID = unsigned
+Line 622: ID = long
+Line 622: )
+Line 622: )
+Line 622: ,
+Line 622: Unrecognized token: 38
+Line 622: ID = fpos
+Line 622: )
+Line 622: ;
+Line 623: }
+Line 624: }
+Line 625: if
+Line 625: (
+Line 625: ID = result
+Line 625: >=
+Line 625: (
+Line 625: ID = unsigned
+Line 625: ID = long
+Line 625: )
+Line 625: -
+Line 625: INTCON = 4096
+Line 625: )
+Line 625: {
+Line 626: ID = printk
+Line 626: (
+Line 626: STRINGCON = "Unable to read code+data+bss, errno %d\n"
+Line 626: ,
+Line 626: (
+Line 626: int
+Line 626: )
+Line 626: -
+Line 626: ID = result
+Line 626: )
+Line 626: ;
+Line 627: ID = do_munmap
+Line 627: (
+Line 627: ID = current
+Line 627: -
+Line 627: >
+Line 627: ID = mm
+Line 627: ,
+Line 627: ID = textpos
+Line 627: ,
+Line 627: ID = text_len
+Line 627: +
+Line 627: ID = data_len
+Line 627: +
+Line 627: ID = extra
+Line 627: +
+Line 628: ID = MAX_SHARED_LIBS
+Line 628: *
+Line 628: ID = sizeof
+Line 628: (
+Line 628: ID = unsigned
+Line 628: ID = long
+Line 628: )
+Line 628: )
+Line 628: ;
+Line 629: return
+Line 629: ID = result
+Line 629: ;
+Line 630: }
+Line 631: }
+Line 633: if
+Line 633: (
+Line 633: ID = flags
+Line 633: Unrecognized token: 38
+Line 633: ID = FLAT_FLAG_KTRACE
+Line 633: )
+Line 634: ID = printk
+Line 634: (
+Line 634: STRINGCON = "Mapping is %x, Entry point is %x, data_start is %x\n"
+Line 634: ,
+Line 635: (
+Line 635: int
+Line 635: )
+Line 635: ID = textpos
+Line 635: ,
+Line 635: INTCON = 0
+Line 635: ID = x00ffffff
+Line 635: Unrecognized token: 38
+Line 635: ID = ntohl
+Line 635: (
+Line 635: ID = hdr
+Line 635: -
+Line 635: >
+Line 635: ID = entry
+Line 635: )
+Line 635: ,
+Line 635: ID = ntohl
+Line 635: (
+Line 635: ID = hdr
+Line 635: -
+Line 635: >
+Line 635: ID = data_start
+Line 635: )
+Line 635: )
+Line 635: ;
+Line 638: ID = start_code
+Line 638: =
+Line 638: ID = textpos
+Line 638: +
+Line 638: ID = sizeof
+Line 638: (
+Line 638: ID = struct
+Line 638: ID = flat_hdr
+Line 638: )
+Line 638: ;
+Line 639: ID = end_code
+Line 639: =
+Line 639: ID = textpos
+Line 639: +
+Line 639: ID = text_len
+Line 639: ;
+Line 640: if
+Line 640: (
+Line 640: ID = id
+Line 640: ==
+Line 640: INTCON = 0
+Line 640: )
+Line 640: {
+Line 641: ID = current
+Line 641: -
+Line 641: >
+Line 641: ID = mm
+Line 641: -
+Line 641: >
+Line 641: ID = start_code
+Line 641: =
+Line 641: ID = start_code
+Line 641: ;
+Line 642: ID = current
+Line 642: -
+Line 642: >
+Line 642: ID = mm
+Line 642: -
+Line 642: >
+Line 642: ID = end_code
+Line 642: =
+Line 642: ID = end_code
+Line 642: ;
+Line 643: ID = current
+Line 643: -
+Line 643: >
+Line 643: ID = mm
+Line 643: -
+Line 643: >
+Line 643: ID = start_data
+Line 643: =
+Line 643: ID = datapos
+Line 643: ;
+Line 644: ID = current
+Line 644: -
+Line 644: >
+Line 644: ID = mm
+Line 644: -
+Line 644: >
+Line 644: ID = end_data
+Line 644: =
+Line 644: ID = datapos
+Line 644: +
+Line 644: ID = data_len
+Line 644: ;
+Line 650: ID = current
+Line 650: -
+Line 650: >
+Line 650: ID = mm
+Line 650: -
+Line 650: >
+Line 650: ID = start_brk
+Line 650: =
+Line 650: ID = datapos
+Line 650: +
+Line 650: ID = data_len
+Line 650: +
+Line 650: ID = bss_len
+Line 650: ;
+Line 651: ID = current
+Line 651: -
+Line 651: >
+Line 651: ID = mm
+Line 651: -
+Line 651: >
+Line 651: ID = brk
+Line 651: =
+Line 651: (
+Line 651: ID = current
+Line 651: -
+Line 651: >
+Line 651: ID = mm
+Line 651: -
+Line 651: >
+Line 651: ID = start_brk
+Line 651: +
+Line 651: INTCON = 3
+Line 651: )
+Line 651: Unrecognized token: 38
+Line 651: Unrecognized token: 126
+Line 651: INTCON = 3
+Line 651: ;
+Line 652: ID = current
+Line 652: -
+Line 652: >
+Line 652: ID = mm
+Line 652: -
+Line 652: >
+Line 652: ID = context
+Line 652: Unrecognized token: 46
+Line 652: ID = end_brk
+Line 652: =
+Line 652: ID = memp
+Line 652: +
+Line 652: ID = ksize
+Line 652: (
+Line 652: (
+Line 652: void
+Line 652: *
+Line 652: )
+Line 652: ID = memp
+Line 652: )
+Line 652: -
+Line 652: ID = stack_len
+Line 652: ;
+Line 653: ID = current
+Line 653: -
+Line 653: >
+Line 653: ID = mm
+Line 653: -
+Line 653: >
+Line 653: ID = rss
+Line 653: =
+Line 653: INTCON = 0
+Line 653: ;
+Line 654: }
+Line 656: if
+Line 656: (
+Line 656: ID = flags
+Line 656: Unrecognized token: 38
+Line 656: ID = FLAT_FLAG_KTRACE
+Line 656: )
+Line 657: ID = printk
+Line 657: (
+Line 657: STRINGCON = "%s %s: TEXT=%x-%x DATA=%x-%x BSS=%x-%x\n"
+Line 657: ,
+Line 658: ID = id
+Line 658: Unrecognized token: 63
+Line 658: STRINGCON = "Lib"
+Line 658: Unrecognized token: 58
+Line 658: STRINGCON = "Load"
+Line 658: ,
+Line 658: ID = bprm
+Line 658: -
+Line 658: >
+Line 658: ID = filename
+Line 658: ,
+Line 659: (
+Line 659: int
+Line 659: )
+Line 659: ID = start_code
+Line 659: ,
+Line 659: (
+Line 659: int
+Line 659: )
+Line 659: ID = end_code
+Line 659: ,
+Line 660: (
+Line 660: int
+Line 660: )
+Line 660: ID = datapos
+Line 660: ,
+Line 661: (
+Line 661: int
+Line 661: )
+Line 661: (
+Line 661: ID = datapos
+Line 661: +
+Line 661: ID = data_len
+Line 661: )
+Line 661: ,
+Line 662: (
+Line 662: int
+Line 662: )
+Line 662: (
+Line 662: ID = datapos
+Line 662: +
+Line 662: ID = data_len
+Line 662: )
+Line 662: ,
+Line 663: (
+Line 663: int
+Line 663: )
+Line 663: (
+Line 663: (
+Line 663: (
+Line 663: ID = datapos
+Line 663: +
+Line 663: ID = data_len
+Line 663: +
+Line 663: ID = bss_len
+Line 663: )
+Line 663: +
+Line 663: INTCON = 3
+Line 663: )
+Line 663: Unrecognized token: 38
+Line 663: Unrecognized token: 126
+Line 663: INTCON = 3
+Line 663: )
+Line 663: )
+Line 663: ;
+Line 665: ID = text_len
+Line 665: -
+Line 665: =
+Line 665: ID = sizeof
+Line 665: (
+Line 665: ID = struct
+Line 665: ID = flat_hdr
+Line 665: )
+Line 665: ;
+Line 668: ID = libinfo
+Line 668: -
+Line 668: >
+Line 668: ID = lib_list
+Line 668: [
+Line 668: ID = id
+Line 668: ]
+Line 668: Unrecognized token: 46
+Line 668: ID = start_code
+Line 668: =
+Line 668: ID = start_code
+Line 668: ;
+Line 669: ID = libinfo
+Line 669: -
+Line 669: >
+Line 669: ID = lib_list
+Line 669: [
+Line 669: ID = id
+Line 669: ]
+Line 669: Unrecognized token: 46
+Line 669: ID = start_data
+Line 669: =
+Line 669: ID = datapos
+Line 669: ;
+Line 670: ID = libinfo
+Line 670: -
+Line 670: >
+Line 670: ID = lib_list
+Line 670: [
+Line 670: ID = id
+Line 670: ]
+Line 670: Unrecognized token: 46
+Line 670: ID = start_brk
+Line 670: =
+Line 670: ID = datapos
+Line 670: +
+Line 670: ID = data_len
+Line 670: +
+Line 670: ID = bss_len
+Line 670: ;
+Line 671: ID = libinfo
+Line 671: -
+Line 671: >
+Line 671: ID = lib_list
+Line 671: [
+Line 671: ID = id
+Line 671: ]
+Line 671: Unrecognized token: 46
+Line 671: ID = text_len
+Line 671: =
+Line 671: ID = text_len
+Line 671: ;
+Line 672: ID = libinfo
+Line 672: -
+Line 672: >
+Line 672: ID = lib_list
+Line 672: [
+Line 672: ID = id
+Line 672: ]
+Line 672: Unrecognized token: 46
+Line 672: ID = loaded
+Line 672: =
+Line 672: INTCON = 1
+Line 672: ;
+Line 673: ID = libinfo
+Line 673: -
+Line 673: >
+Line 673: ID = lib_list
+Line 673: [
+Line 673: ID = id
+Line 673: ]
+Line 673: Unrecognized token: 46
+Line 673: ID = entry
+Line 673: =
+Line 673: (
+Line 673: INTCON = 0
+Line 673: ID = x00ffffff
+Line 673: Unrecognized token: 38
+Line 673: ID = ntohl
+Line 673: (
+Line 673: ID = hdr
+Line 673: -
+Line 673: >
+Line 673: ID = entry
+Line 673: )
+Line 673: )
+Line 673: +
+Line 673: ID = textpos
+Line 673: ;
+Line 674: ID = libinfo
+Line 674: -
+Line 674: >
+Line 674: ID = lib_list
+Line 674: [
+Line 674: ID = id
+Line 674: ]
+Line 674: Unrecognized token: 46
+Line 674: ID = build_date
+Line 674: =
+Line 674: ID = ntohl
+Line 674: (
+Line 674: ID = hdr
+Line 674: -
+Line 674: >
+Line 674: ID = build_date
+Line 674: )
+Line 674: ;
+Line 688: if
+Line 688: (
+Line 688: ID = flags
+Line 688: Unrecognized token: 38
+Line 688: ID = FLAT_FLAG_GOTPIC
+Line 688: )
+Line 688: {
+Line 689: for
+Line 689: (
+Line 689: ID = rp
+Line 689: =
+Line 689: (
+Line 689: ID = unsigned
+Line 689: ID = long
+Line 689: *
+Line 689: )
+Line 689: ID = datapos
+Line 689: ;
+Line 689: *
+Line 689: ID = rp
+Line 689: !=
+Line 689: INTCON = 0
+Line 689: ID = xffffffff
+Line 689: ;
+Line 689: ID = rp
+Line 689: +
+Line 689: +
+Line 689: )
+Line 689: {
+Line 690: ID = unsigned
+Line 690: ID = long
+Line 690: ID = addr
+Line 690: ;
+Line 691: if
+Line 691: (
+Line 691: *
+Line 691: ID = rp
+Line 691: )
+Line 691: {
+Line 692: ID = addr
+Line 692: =
+Line 692: ID = calc_reloc
+Line 692: (
+Line 692: *
+Line 692: ID = rp
+Line 692: ,
+Line 692: ID = libinfo
+Line 692: ,
+Line 692: ID = id
+Line 692: ,
+Line 692: INTCON = 0
+Line 692: )
+Line 692: ;
+Line 693: if
+Line 693: (
+Line 693: ID = addr
+Line 693: ==
+Line 693: ID = RELOC_FAILED
+Line 693: )
+Line 694: return
+Line 694: -
+Line 694: ID = ENOEXEC
+Line 694: ;
+Line 695: *
+Line 695: ID = rp
+Line 695: =
+Line 695: ID = addr
+Line 695: ;
+Line 696: }
+Line 697: }
+Line 698: }
+Line 711: if
+Line 711: (
+Line 711: ID = rev
+Line 711: >
+Line 711: ID = OLD_FLAT_VERSION
+Line 711: )
+Line 711: {
+Line 712: for
+Line 712: (
+Line 712: ID = i
+Line 712: =
+Line 712: INTCON = 0
+Line 712: ;
+Line 712: ID = i
+Line 712: <
+Line 712: ID = relocs
+Line 712: ;
+Line 712: ID = i
+Line 712: +
+Line 712: +
+Line 712: )
+Line 712: {
+Line 713: ID = unsigned
+Line 713: ID = long
+Line 713: ID = addr
+Line 713: ,
+Line 713: ID = relval
+Line 713: ;
+Line 718: ID = relval
+Line 718: =
+Line 718: ID = ntohl
+Line 718: (
+Line 718: ID = reloc
+Line 718: [
+Line 718: ID = i
+Line 718: ]
+Line 718: )
+Line 718: ;
+Line 719: ID = addr
+Line 719: =
+Line 719: ID = flat_get_relocate_addr
+Line 719: (
+Line 719: ID = relval
+Line 719: )
+Line 719: ;
+Line 720: ID = rp
+Line 720: =
+Line 720: (
+Line 720: ID = unsigned
+Line 720: ID = long
+Line 720: *
+Line 720: )
+Line 720: ID = calc_reloc
+Line 720: (
+Line 720: ID = addr
+Line 720: ,
+Line 720: ID = libinfo
+Line 720: ,
+Line 720: ID = id
+Line 720: ,
+Line 720: INTCON = 1
+Line 720: )
+Line 720: ;
+Line 721: if
+Line 721: (
+Line 721: ID = rp
+Line 721: ==
+Line 721: (
+Line 721: ID = unsigned
+Line 721: ID = long
+Line 721: *
+Line 721: )
+Line 721: ID = RELOC_FAILED
+Line 721: )
+Line 722: return
+Line 722: -
+Line 722: ID = ENOEXEC
+Line 722: ;
+Line 725: ID = addr
+Line 725: =
+Line 725: ID = flat_get_addr_from_rp
+Line 725: (
+Line 725: ID = rp
+Line 725: ,
+Line 725: ID = relval
+Line 725: ,
+Line 725: ID = flags
+Line 725: )
+Line 725: ;
+Line 726: if
+Line 726: (
+Line 726: ID = addr
+Line 726: !=
+Line 726: INTCON = 0
+Line 726: )
+Line 726: {
+Line 731: if
+Line 731: (
+Line 731: (
+Line 731: ID = flags
+Line 731: Unrecognized token: 38
+Line 731: ID = FLAT_FLAG_GOTPIC
+Line 731: )
+Line 731: ==
+Line 731: INTCON = 0
+Line 731: )
+Line 732: ID = addr
+Line 732: =
+Line 732: ID = ntohl
+Line 732: (
+Line 732: ID = addr
+Line 732: )
+Line 732: ;
+Line 733: ID = addr
+Line 733: =
+Line 733: ID = calc_reloc
+Line 733: (
+Line 733: ID = addr
+Line 733: ,
+Line 733: ID = libinfo
+Line 733: ,
+Line 733: ID = id
+Line 733: ,
+Line 733: INTCON = 0
+Line 733: )
+Line 733: ;
+Line 734: if
+Line 734: (
+Line 734: ID = addr
+Line 734: ==
+Line 734: ID = RELOC_FAILED
+Line 734: )
+Line 735: return
+Line 735: -
+Line 735: ID = ENOEXEC
+Line 735: ;
+Line 738: ID = flat_put_addr_at_rp
+Line 738: (
+Line 738: ID = rp
+Line 738: ,
+Line 738: ID = addr
+Line 738: ,
+Line 738: ID = relval
+Line 738: )
+Line 738: ;
+Line 739: }
+Line 740: }
+Line 741: }
+Line 741: else
+Line 741: {
+Line 742: for
+Line 742: (
+Line 742: ID = i
+Line 742: =
+Line 742: INTCON = 0
+Line 742: ;
+Line 742: ID = i
+Line 742: <
+Line 742: ID = relocs
+Line 742: ;
+Line 742: ID = i
+Line 742: +
+Line 742: +
+Line 742: )
+Line 743: ID = old_reloc
+Line 743: (
+Line 743: ID = ntohl
+Line 743: (
+Line 743: ID = reloc
+Line 743: [
+Line 743: ID = i
+Line 743: ]
+Line 743: )
+Line 743: )
+Line 743: ;
+Line 744: }
+Line 746: ID = flush_icache_range
+Line 746: (
+Line 746: ID = start_code
+Line 746: ,
+Line 746: ID = end_code
+Line 746: )
+Line 746: ;
+Line 749: ID = memset
+Line 749: (
+Line 749: (
+Line 749: void
+Line 749: *
+Line 749: )
+Line 749: (
+Line 749: ID = datapos
+Line 749: +
+Line 749: ID = data_len
+Line 749: )
+Line 749: ,
+Line 749: INTCON = 0
+Line 749: ,
+Line 749: ID = bss_len
+Line 749: +
+Line 750: (
+Line 750: ID = memp
+Line 750: +
+Line 750: ID = ksize
+Line 750: (
+Line 750: (
+Line 750: void
+Line 750: *
+Line 750: )
+Line 750: ID = memp
+Line 750: )
+Line 750: -
+Line 750: ID = stack_len
+Line 750: -
+Line 751: ID = libinfo
+Line 751: -
+Line 751: >
+Line 751: ID = lib_list
+Line 751: [
+Line 751: ID = id
+Line 751: ]
+Line 751: Unrecognized token: 46
+Line 751: ID = start_brk
+Line 751: )
+Line 751: +
+Line 752: ID = stack_len
+Line 752: )
+Line 752: ;
+Line 754: return
+Line 754: INTCON = 0
+Line 754: ;
+Line 755: }
+Line 759: Unrecognized token: 35
+Line 759: ID = ifdef
+Line 759: ID = CONFIG_BINFMT_SHARED_FLAT
+Line 766: ID = static
+Line 766: int
+Line 766: ID = load_flat_shared_library
+Line 766: (
+Line 766: int
+Line 766: ID = id
+Line 766: ,
+Line 766: ID = struct
+Line 766: ID = lib_info
+Line 766: *
+Line 766: ID = libs
+Line 766: )
+Line 767: {
+Line 768: ID = struct
+Line 768: ID = linux_binprm
+Line 768: ID = bprm
+Line 768: ;
+Line 769: int
+Line 769: ID = res
+Line 769: ;
+Line 770: char
+Line 770: ID = buf
+Line 770: [
+Line 770: INTCON = 16
+Line 770: ]
+Line 770: ;
+Line 773: ID = sprintf
+Line 773: (
+Line 773: ID = buf
+Line 773: ,
+Line 773: STRINGCON = "/lib/lib%d.so"
+Line 773: ,
+Line 773: ID = id
+Line 773: )
+Line 773: ;
+Line 776: ID = bprm
+Line 776: Unrecognized token: 46
+Line 776: ID = filename
+Line 776: =
+Line 776: ID = buf
+Line 776: ;
+Line 777: ID = bprm
+Line 777: Unrecognized token: 46
+Line 777: ID = file
+Line 777: =
+Line 777: ID = open_exec
+Line 777: (
+Line 777: ID = bprm
+Line 777: Unrecognized token: 46
+Line 777: ID = filename
+Line 777: )
+Line 777: ;
+Line 778: ID = res
+Line 778: =
+Line 778: ID = PTR_ERR
+Line 778: (
+Line 778: ID = bprm
+Line 778: Unrecognized token: 46
+Line 778: ID = file
+Line 778: )
+Line 778: ;
+Line 779: if
+Line 779: (
+Line 779: ID = IS_ERR
+Line 779: (
+Line 779: ID = bprm
+Line 779: Unrecognized token: 46
+Line 779: ID = file
+Line 779: )
+Line 779: )
+Line 780: return
+Line 780: ID = res
+Line 780: ;
+Line 782: ID = res
+Line 782: =
+Line 782: ID = prepare_binprm
+Line 782: (
+Line 782: Unrecognized token: 38
+Line 782: ID = bprm
+Line 782: )
+Line 782: ;
+Line 784: if
+Line 784: (
+Line 784: ID = res
+Line 784: <=
+Line 784: (
+Line 784: ID = unsigned
+Line 784: ID = long
+Line 784: )
+Line 784: -
+Line 784: INTCON = 4096
+Line 784: )
+Line 785: ID = res
+Line 785: =
+Line 785: ID = load_flat_file
+Line 785: (
+Line 785: Unrecognized token: 38
+Line 785: ID = bprm
+Line 785: ,
+Line 785: ID = libs
+Line 785: ,
+Line 785: ID = id
+Line 785: ,
+Line 785: ID = NULL
+Line 785: )
+Line 785: ;
+Line 786: if
+Line 786: (
+Line 786: ID = bprm
+Line 786: Unrecognized token: 46
+Line 786: ID = file
+Line 786: )
+Line 786: {
+Line 787: ID = allow_write_access
+Line 787: (
+Line 787: ID = bprm
+Line 787: Unrecognized token: 46
+Line 787: ID = file
+Line 787: )
+Line 787: ;
+Line 788: ID = fput
+Line 788: (
+Line 788: ID = bprm
+Line 788: Unrecognized token: 46
+Line 788: ID = file
+Line 788: )
+Line 788: ;
+Line 789: ID = bprm
+Line 789: Unrecognized token: 46
+Line 789: ID = file
+Line 789: =
+Line 789: ID = NULL
+Line 789: ;
+Line 790: }
+Line 791: return
+Line 791: (
+Line 791: ID = res
+Line 791: )
+Line 791: ;
+Line 792: }
+Line 794: Unrecognized token: 35
+Line 794: ID = endif
+Line 802: ID = static
+Line 802: int
+Line 802: ID = load_flat_binary
+Line 802: (
+Line 802: ID = struct
+Line 802: ID = linux_binprm
+Line 802: *
+Line 802: ID = bprm
+Line 802: ,
+Line 802: ID = struct
+Line 802: ID = pt_regs
+Line 802: *
+Line 802: ID = regs
+Line 802: )
+Line 803: {
+Line 804: ID = struct
+Line 804: ID = lib_info
+Line 804: ID = libinfo
+Line 804: ;
+Line 805: ID = unsigned
+Line 805: ID = long
+Line 805: ID = p
+Line 805: =
+Line 805: ID = bprm
+Line 805: -
+Line 805: >
+Line 805: ID = p
+Line 805: ;
+Line 806: ID = unsigned
+Line 806: ID = long
+Line 806: ID = stack_len
+Line 806: ;
+Line 807: ID = unsigned
+Line 807: ID = long
+Line 807: ID = start_addr
+Line 807: ;
+Line 808: ID = unsigned
+Line 808: ID = long
+Line 808: *
+Line 808: ID = sp
+Line 808: ;
+Line 809: int
+Line 809: ID = res
+Line 809: ;
+Line 810: int
+Line 810: ID = i
+Line 810: ,
+Line 810: ID = j
+Line 810: ;
+Line 812: ID = memset
+Line 812: (
+Line 812: Unrecognized token: 38
+Line 812: ID = libinfo
+Line 812: ,
+Line 812: INTCON = 0
+Line 812: ,
+Line 812: ID = sizeof
+Line 812: (
+Line 812: ID = libinfo
+Line 812: )
+Line 812: )
+Line 812: ;
+Line 820: Unrecognized token: 35
+Line 820: ID = define
+Line 820: ID = TOP_OF_ARGS
+Line 820: (
+Line 820: ID = PAGE_SIZE
+Line 820: *
+Line 820: ID = MAX_ARG_PAGES
+Line 820: -
+Line 820: ID = sizeof
+Line 820: (
+Line 820: void
+Line 820: *
+Line 820: )
+Line 820: )
+Line 821: ID = stack_len
+Line 821: =
+Line 821: ID = TOP_OF_ARGS
+Line 821: -
+Line 821: ID = bprm
+Line 821: -
+Line 821: >
+Line 821: ID = p
+Line 821: ;
+Line 822: ID = stack_len
+Line 822: +
+Line 822: =
+Line 822: (
+Line 822: ID = bprm
+Line 822: -
+Line 822: >
+Line 822: ID = argc
+Line 822: +
+Line 822: INTCON = 1
+Line 822: )
+Line 822: *
+Line 822: ID = sizeof
+Line 822: (
+Line 822: char
+Line 822: *
+Line 822: )
+Line 822: ;
+Line 823: ID = stack_len
+Line 823: +
+Line 823: =
+Line 823: (
+Line 823: ID = bprm
+Line 823: -
+Line 823: >
+Line 823: ID = envc
+Line 823: +
+Line 823: INTCON = 1
+Line 823: )
+Line 823: *
+Line 823: ID = sizeof
+Line 823: (
+Line 823: char
+Line 823: *
+Line 823: )
+Line 823: ;
+Line 826: ID = res
+Line 826: =
+Line 826: ID = load_flat_file
+Line 826: (
+Line 826: ID = bprm
+Line 826: ,
+Line 826: Unrecognized token: 38
+Line 826: ID = libinfo
+Line 826: ,
+Line 826: INTCON = 0
+Line 826: ,
+Line 826: Unrecognized token: 38
+Line 826: ID = stack_len
+Line 826: )
+Line 826: ;
+Line 827: if
+Line 827: (
+Line 827: ID = res
+Line 827: >
+Line 827: (
+Line 827: ID = unsigned
+Line 827: ID = long
+Line 827: )
+Line 827: -
+Line 827: INTCON = 4096
+Line 827: )
+Line 828: return
+Line 828: ID = res
+Line 828: ;
+Line 831: for
+Line 831: (
+Line 831: ID = i
+Line 831: =
+Line 831: INTCON = 0
+Line 831: ;
+Line 831: ID = i
+Line 831: <
+Line 831: ID = MAX_SHARED_LIBS
+Line 831: ;
+Line 831: ID = i
+Line 831: +
+Line 831: +
+Line 831: )
+Line 832: if
+Line 832: (
+Line 832: ID = libinfo
+Line 832: Unrecognized token: 46
+Line 832: ID = lib_list
+Line 832: [
+Line 832: ID = i
+Line 832: ]
+Line 832: Unrecognized token: 46
+Line 832: ID = loaded
+Line 832: )
+Line 833: for
+Line 833: (
+Line 833: ID = j
+Line 833: =
+Line 833: INTCON = 0
+Line 833: ;
+Line 833: ID = j
+Line 833: <
+Line 833: ID = MAX_SHARED_LIBS
+Line 833: ;
+Line 833: ID = j
+Line 833: +
+Line 833: +
+Line 833: )
+Line 834: (
+Line 834: -
+Line 834: (
+Line 834: ID = j
+Line 834: +
+Line 834: INTCON = 1
+Line 834: )
+Line 834: )
+Line 834: [
+Line 834: (
+Line 834: ID = unsigned
+Line 834: ID = long
+Line 834: *
+Line 834: )
+Line 834: (
+Line 834: ID = libinfo
+Line 834: Unrecognized token: 46
+Line 834: ID = lib_list
+Line 834: [
+Line 834: ID = i
+Line 834: ]
+Line 834: Unrecognized token: 46
+Line 834: ID = start_data
+Line 834: )
+Line 834: ]
+Line 834: =
+Line 835: (
+Line 835: ID = libinfo
+Line 835: Unrecognized token: 46
+Line 835: ID = lib_list
+Line 835: [
+Line 835: ID = j
+Line 835: ]
+Line 835: Unrecognized token: 46
+Line 835: ID = loaded
+Line 835: )
+Line 835: Unrecognized token: 63
+Line 836: ID = libinfo
+Line 836: Unrecognized token: 46
+Line 836: ID = lib_list
+Line 836: [
+Line 836: ID = j
+Line 836: ]
+Line 836: Unrecognized token: 46
+Line 836: ID = start_data
+Line 836: Unrecognized token: 58
+Line 836: ID = UNLOADED_LIB
+Line 836: ;
+Line 838: ID = compute_creds
+Line 838: (
+Line 838: ID = bprm
+Line 838: )
+Line 838: ;
+Line 839: ID = current
+Line 839: -
+Line 839: >
+Line 839: ID = flags
+Line 839: Unrecognized token: 38
+Line 839: =
+Line 839: Unrecognized token: 126
+Line 839: ID = PF_FORKNOEXEC
+Line 839: ;
+Line 841: ID = set_binfmt
+Line 841: (
+Line 841: Unrecognized token: 38
+Line 841: ID = flat_format
+Line 841: )
+Line 841: ;
+Line 843: ID = p
+Line 843: =
+Line 843: (
+Line 843: (
+Line 843: ID = current
+Line 843: -
+Line 843: >
+Line 843: ID = mm
+Line 843: -
+Line 843: >
+Line 843: ID = context
+Line 843: Unrecognized token: 46
+Line 843: ID = end_brk
+Line 843: +
+Line 843: ID = stack_len
+Line 843: +
+Line 843: INTCON = 3
+Line 843: )
+Line 843: Unrecognized token: 38
+Line 843: Unrecognized token: 126
+Line 843: INTCON = 3
+Line 843: )
+Line 843: -
+Line 843: INTCON = 4
+Line 843: ;
+Line 844: ID = DBG_FLT
+Line 844: (
+Line 844: STRINGCON = "p=%x\n"
+Line 844: ,
+Line 844: (
+Line 844: int
+Line 844: )
+Line 844: ID = p
+Line 844: )
+Line 844: ;
+Line 847: for
+Line 847: (
+Line 847: ID = i
+Line 847: =
+Line 847: ID = TOP_OF_ARGS
+Line 847: -
+Line 847: INTCON = 1
+Line 847: ;
+Line 847: ID = i
+Line 847: >=
+Line 847: ID = bprm
+Line 847: -
+Line 847: >
+Line 847: ID = p
+Line 847: ;
+Line 847: ID = i
+Line 847: -
+Line 847: -
+Line 847: )
+Line 848: *
+Line 848: (
+Line 848: char
+Line 848: *
+Line 848: )
+Line 848: -
+Line 848: -
+Line 848: ID = p
+Line 848: =
+Line 849: (
+Line 849: (
+Line 849: char
+Line 849: *
+Line 849: )
+Line 849: ID = page_address
+Line 849: (
+Line 849: ID = bprm
+Line 849: -
+Line 849: >
+Line 849: ID = page
+Line 849: [
+Line 849: ID = i
+Line 849: /
+Line 849: ID = PAGE_SIZE
+Line 849: ]
+Line 849: )
+Line 849: )
+Line 849: [
+Line 849: ID = i
+Line 849: Unrecognized token: 37
+Line 849: ID = PAGE_SIZE
+Line 849: ]
+Line 849: ;
+Line 851: ID = sp
+Line 851: =
+Line 851: (
+Line 851: ID = unsigned
+Line 851: ID = long
+Line 851: *
+Line 851: )
+Line 851: ID = create_flat_tables
+Line 851: (
+Line 851: ID = p
+Line 851: ,
+Line 851: ID = bprm
+Line 851: )
+Line 851: ;
+Line 857: ID = start_addr
+Line 857: =
+Line 857: ID = libinfo
+Line 857: Unrecognized token: 46
+Line 857: ID = lib_list
+Line 857: [
+Line 857: INTCON = 0
+Line 857: ]
+Line 857: Unrecognized token: 46
+Line 857: ID = entry
+Line 857: ;
+Line 859: Unrecognized token: 35
+Line 859: ID = ifdef
+Line 859: ID = CONFIG_BINFMT_SHARED_FLAT
+Line 860: for
+Line 860: (
+Line 860: ID = i
+Line 860: =
+Line 860: ID = MAX_SHARED_LIBS
+Line 860: -
+Line 860: INTCON = 1
+Line 860: ;
+Line 860: ID = i
+Line 860: >
+Line 860: INTCON = 0
+Line 860: ;
+Line 860: ID = i
+Line 860: -
+Line 860: -
+Line 860: )
+Line 860: {
+Line 861: if
+Line 861: (
+Line 861: ID = libinfo
+Line 861: Unrecognized token: 46
+Line 861: ID = lib_list
+Line 861: [
+Line 861: ID = i
+Line 861: ]
+Line 861: Unrecognized token: 46
+Line 861: ID = loaded
+Line 861: )
+Line 861: {
+Line 863: -
+Line 863: -
+Line 863: ID = sp
+Line 863: ;
+Line 863: ID = put_user
+Line 863: (
+Line 863: ID = start_addr
+Line 863: ,
+Line 863: ID = sp
+Line 863: )
+Line 863: ;
+Line 864: ID = start_addr
+Line 864: =
+Line 864: ID = libinfo
+Line 864: Unrecognized token: 46
+Line 864: ID = lib_list
+Line 864: [
+Line 864: ID = i
+Line 864: ]
+Line 864: Unrecognized token: 46
+Line 864: ID = entry
+Line 864: ;
+Line 865: }
+Line 866: }
+Line 867: Unrecognized token: 35
+Line 867: ID = endif
+Line 870: ID = current
+Line 870: -
+Line 870: >
+Line 870: ID = mm
+Line 870: -
+Line 870: >
+Line 870: ID = start_stack
+Line 870: =
+Line 870: (
+Line 870: ID = unsigned
+Line 870: ID = long
+Line 870: )
+Line 870: ID = sp
+Line 870: ;
+Line 873: ID = DBG_FLT
+Line 873: (
+Line 873: STRINGCON = "start_thread(regs=0x%x, entry=0x%x, start_stack=0x%x)\n"
+Line 873: ,
+Line 874: (
+Line 874: int
+Line 874: )
+Line 874: ID = regs
+Line 874: ,
+Line 874: (
+Line 874: int
+Line 874: )
+Line 874: ID = start_addr
+Line 874: ,
+Line 874: (
+Line 874: int
+Line 874: )
+Line 874: ID = current
+Line 874: -
+Line 874: >
+Line 874: ID = mm
+Line 874: -
+Line 874: >
+Line 874: ID = start_stack
+Line 874: )
+Line 874: ;
+Line 876: ID = start_thread
+Line 876: (
+Line 876: ID = regs
+Line 876: ,
+Line 876: ID = start_addr
+Line 876: ,
+Line 876: ID = current
+Line 876: -
+Line 876: >
+Line 876: ID = mm
+Line 876: -
+Line 876: >
+Line 876: ID = start_stack
+Line 876: )
+Line 876: ;
+Line 878: if
+Line 878: (
+Line 878: ID = current
+Line 878: -
+Line 878: >
+Line 878: ID = ptrace
+Line 878: Unrecognized token: 38
+Line 878: ID = PT_PTRACED
+Line 878: )
+Line 879: ID = send_sig
+Line 879: (
+Line 879: ID = SIGTRAP
+Line 879: ,
+Line 879: ID = current
+Line 879: ,
+Line 879: INTCON = 0
+Line 879: )
+Line 879: ;
+Line 881: return
+Line 881: INTCON = 0
+Line 881: ;
+Line 882: }
+Line 886: ID = static
+Line 886: int
+Line 886: Unrecognized token: 95
+Line 886: Unrecognized token: 95
+Line 886: ID = init
+Line 886: ID = init_flat_binfmt
+Line 886: (
+Line 886: void
+Line 886: )
+Line 887: {
+Line 888: return
+Line 888: ID = register_binfmt
+Line 888: (
+Line 888: Unrecognized token: 38
+Line 888: ID = flat_format
+Line 888: )
+Line 888: ;
+Line 889: }
+Line 891: ID = static
+Line 891: void
+Line 891: Unrecognized token: 95
+Line 891: Unrecognized token: 95
+Line 891: ID = exit
+Line 891: ID = exit_flat_binfmt
+Line 891: (
+Line 891: void
+Line 891: )
+Line 892: {
+Line 893: ID = unregister_binfmt
+Line 893: (
+Line 893: Unrecognized token: 38
+Line 893: ID = flat_format
+Line 893: )
+Line 893: ;
+Line 894: }
+Line 898: ID = core_initcall
+Line 898: (
+Line 898: ID = init_flat_binfmt
+Line 898: )
+Line 898: ;
+Line 899: ID = module_exit
+Line 899: (
+Line 899: ID = exit_flat_binfmt
+Line 899: )
+Line 899: ;
+Line 902: -EOF-

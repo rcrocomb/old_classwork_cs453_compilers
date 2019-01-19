@@ -1,0 +1,71 @@
+/*
+    3.3.3 Statements #2
+
+    The type of the expresssion in a return statement must be 
+    compatible with the return type of that function.
+
+    3.2.2 Expressions #4
+
+    Expression of form +, -, *, / then type is INT_TYPE.
+
+    3.2.1 Function Definitions #2
+
+    A function whose return type is void cannot return a value, i.e.
+    it cannot contain a statement of the form "return expr; " 
+*/
+
+/* Simple RETURN statement tests that should pass */
+
+void alpha(void)
+{
+    return;
+}
+
+/* switch from void to int */
+
+int bravo(void)
+{
+    return 1;
+}
+
+int charlie(void)
+{
+    return '1';
+}
+
+int delta(void)
+{
+    int echo[4];
+    return echo[0];
+}
+
+int foxtrot(void)
+{
+    char hotel[4];
+    return hotel[0];
+}
+
+/* switch from int to char */
+
+char india(void)
+{
+    return 1;
+}
+
+char juliet(void)
+{
+    return '1';
+}
+
+char kilo(void)
+{
+    char lima[4];
+    return lima[0];
+}
+
+char mike(void)
+{
+    int november[4];
+    return november[4];
+}
+

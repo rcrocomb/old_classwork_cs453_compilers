@@ -1,0 +1,9 @@
+int
+x({void})
+{
+    int x;
+    char z;
+    for(;;)
+    {
+    }
+}

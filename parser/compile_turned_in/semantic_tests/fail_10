@@ -1,0 +1,24 @@
+void hotel(int a, int b);
+
+void hotel(int a, int a)
+{
+}
+
+
+void india(void)
+{
+    int a;
+    char a;
+}
+
+void juliet(void)
+{
+    char a;
+    char a;
+}
+
+void kilo(void)
+{
+    int a;
+    int a;
+}

@@ -1,0 +1,622 @@
+Line 5: Unrecognized token: 35
+Line 5: ID = include
+Line 5: <
+Line 5: ID = linux
+Line 5: /
+Line 5: ID = config
+Line 5: Unrecognized token: 46
+Line 5: ID = h
+Line 5: >
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = module
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = profile
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = bootmem
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = notifier
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = asm
+Line 11: /
+Line 11: ID = sections
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 13: ID = unsigned
+Line 13: int
+Line 13: *
+Line 13: ID = prof_buffer
+Line 13: ;
+Line 14: ID = unsigned
+Line 14: ID = long
+Line 14: ID = prof_len
+Line 14: ;
+Line 15: ID = unsigned
+Line 15: ID = long
+Line 15: ID = prof_shift
+Line 15: ;
+Line 16: int
+Line 16: ID = prof_on
+Line 16: ;
+Line 18: int
+Line 18: Unrecognized token: 95
+Line 18: Unrecognized token: 95
+Line 18: ID = init
+Line 18: ID = profile_setup
+Line 18: (
+Line 18: char
+Line 18: *
+Line 18: ID = str
+Line 18: )
+Line 19: {
+Line 20: int
+Line 20: ID = par
+Line 20: ;
+Line 21: if
+Line 21: (
+Line 21: ID = get_option
+Line 21: (
+Line 21: Unrecognized token: 38
+Line 21: ID = str
+Line 21: ,
+Line 21: Unrecognized token: 38
+Line 21: ID = par
+Line 21: )
+Line 21: )
+Line 21: {
+Line 22: ID = prof_shift
+Line 22: =
+Line 22: ID = par
+Line 22: ;
+Line 23: ID = prof_on
+Line 23: =
+Line 23: INTCON = 1
+Line 23: ;
+Line 24: ID = printk
+Line 24: (
+Line 24: ID = KERN_INFO
+Line 24: STRINGCON = "kernel profiling enabled\n"
+Line 24: )
+Line 24: ;
+Line 25: }
+Line 26: return
+Line 26: INTCON = 1
+Line 26: ;
+Line 27: }
+Line 30: void
+Line 30: Unrecognized token: 95
+Line 30: Unrecognized token: 95
+Line 30: ID = init
+Line 30: ID = profile_init
+Line 30: (
+Line 30: void
+Line 30: )
+Line 31: {
+Line 32: ID = unsigned
+Line 32: int
+Line 32: ID = size
+Line 32: ;
+Line 34: if
+Line 34: (
+Line 34: !
+Line 34: ID = prof_on
+Line 34: )
+Line 35: return
+Line 35: ;
+Line 38: ID = prof_len
+Line 38: =
+Line 38: Unrecognized token: 95
+Line 38: ID = etext
+Line 38: -
+Line 38: Unrecognized token: 95
+Line 38: ID = stext
+Line 38: ;
+Line 39: ID = prof_len
+Line 39: >
+Line 39: >=
+Line 39: ID = prof_shift
+Line 39: ;
+Line 41: ID = size
+Line 41: =
+Line 41: ID = prof_len
+Line 41: *
+Line 41: ID = sizeof
+Line 41: (
+Line 41: ID = unsigned
+Line 41: int
+Line 41: )
+Line 41: +
+Line 41: ID = PAGE_SIZE
+Line 41: -
+Line 41: INTCON = 1
+Line 41: ;
+Line 42: ID = prof_buffer
+Line 42: =
+Line 42: (
+Line 42: ID = unsigned
+Line 42: int
+Line 42: *
+Line 42: )
+Line 42: ID = alloc_bootmem
+Line 42: (
+Line 42: ID = size
+Line 42: )
+Line 42: ;
+Line 43: }
+Line 47: Unrecognized token: 35
+Line 47: ID = ifdef
+Line 47: ID = CONFIG_PROFILING
+Line 49: ID = static
+Line 49: ID = DECLARE_RWSEM
+Line 49: (
+Line 49: ID = profile_rwsem
+Line 49: )
+Line 49: ;
+Line 50: ID = static
+Line 50: ID = struct
+Line 50: ID = notifier_block
+Line 50: *
+Line 50: ID = exit_task_notifier
+Line 50: ;
+Line 51: ID = static
+Line 51: ID = struct
+Line 51: ID = notifier_block
+Line 51: *
+Line 51: ID = exit_mmap_notifier
+Line 51: ;
+Line 52: ID = static
+Line 52: ID = struct
+Line 52: ID = notifier_block
+Line 52: *
+Line 52: ID = exec_unmap_notifier
+Line 52: ;
+Line 54: void
+Line 54: ID = profile_exit_task
+Line 54: (
+Line 54: ID = struct
+Line 54: ID = task_struct
+Line 54: *
+Line 54: ID = task
+Line 54: )
+Line 55: {
+Line 56: ID = down_read
+Line 56: (
+Line 56: Unrecognized token: 38
+Line 56: ID = profile_rwsem
+Line 56: )
+Line 56: ;
+Line 57: ID = notifier_call_chain
+Line 57: (
+Line 57: Unrecognized token: 38
+Line 57: ID = exit_task_notifier
+Line 57: ,
+Line 57: INTCON = 0
+Line 57: ,
+Line 57: ID = task
+Line 57: )
+Line 57: ;
+Line 58: ID = up_read
+Line 58: (
+Line 58: Unrecognized token: 38
+Line 58: ID = profile_rwsem
+Line 58: )
+Line 58: ;
+Line 59: }
+Line 61: void
+Line 61: ID = profile_exit_mmap
+Line 61: (
+Line 61: ID = struct
+Line 61: ID = mm_struct
+Line 61: *
+Line 61: ID = mm
+Line 61: )
+Line 62: {
+Line 63: ID = down_read
+Line 63: (
+Line 63: Unrecognized token: 38
+Line 63: ID = profile_rwsem
+Line 63: )
+Line 63: ;
+Line 64: ID = notifier_call_chain
+Line 64: (
+Line 64: Unrecognized token: 38
+Line 64: ID = exit_mmap_notifier
+Line 64: ,
+Line 64: INTCON = 0
+Line 64: ,
+Line 64: ID = mm
+Line 64: )
+Line 64: ;
+Line 65: ID = up_read
+Line 65: (
+Line 65: Unrecognized token: 38
+Line 65: ID = profile_rwsem
+Line 65: )
+Line 65: ;
+Line 66: }
+Line 68: void
+Line 68: ID = profile_exec_unmap
+Line 68: (
+Line 68: ID = struct
+Line 68: ID = mm_struct
+Line 68: *
+Line 68: ID = mm
+Line 68: )
+Line 69: {
+Line 70: ID = down_read
+Line 70: (
+Line 70: Unrecognized token: 38
+Line 70: ID = profile_rwsem
+Line 70: )
+Line 70: ;
+Line 71: ID = notifier_call_chain
+Line 71: (
+Line 71: Unrecognized token: 38
+Line 71: ID = exec_unmap_notifier
+Line 71: ,
+Line 71: INTCON = 0
+Line 71: ,
+Line 71: ID = mm
+Line 71: )
+Line 71: ;
+Line 72: ID = up_read
+Line 72: (
+Line 72: Unrecognized token: 38
+Line 72: ID = profile_rwsem
+Line 72: )
+Line 72: ;
+Line 73: }
+Line 75: int
+Line 75: ID = profile_event_register
+Line 75: (
+Line 75: ID = enum
+Line 75: ID = profile_type
+Line 75: ID = type
+Line 75: ,
+Line 75: ID = struct
+Line 75: ID = notifier_block
+Line 75: *
+Line 75: ID = n
+Line 75: )
+Line 76: {
+Line 77: int
+Line 77: ID = err
+Line 77: =
+Line 77: -
+Line 77: ID = EINVAL
+Line 77: ;
+Line 79: ID = down_write
+Line 79: (
+Line 79: Unrecognized token: 38
+Line 79: ID = profile_rwsem
+Line 79: )
+Line 79: ;
+Line 81: ID = switch
+Line 81: (
+Line 81: ID = type
+Line 81: )
+Line 81: {
+Line 82: ID = case
+Line 82: ID = EXIT_TASK
+Line 82: Unrecognized token: 58
+Line 83: ID = err
+Line 83: =
+Line 83: ID = notifier_chain_register
+Line 83: (
+Line 83: Unrecognized token: 38
+Line 83: ID = exit_task_notifier
+Line 83: ,
+Line 83: ID = n
+Line 83: )
+Line 83: ;
+Line 84: ID = break
+Line 84: ;
+Line 85: ID = case
+Line 85: ID = EXIT_MMAP
+Line 85: Unrecognized token: 58
+Line 86: ID = err
+Line 86: =
+Line 86: ID = notifier_chain_register
+Line 86: (
+Line 86: Unrecognized token: 38
+Line 86: ID = exit_mmap_notifier
+Line 86: ,
+Line 86: ID = n
+Line 86: )
+Line 86: ;
+Line 87: ID = break
+Line 87: ;
+Line 88: ID = case
+Line 88: ID = EXEC_UNMAP
+Line 88: Unrecognized token: 58
+Line 89: ID = err
+Line 89: =
+Line 89: ID = notifier_chain_register
+Line 89: (
+Line 89: Unrecognized token: 38
+Line 89: ID = exec_unmap_notifier
+Line 89: ,
+Line 89: ID = n
+Line 89: )
+Line 89: ;
+Line 90: ID = break
+Line 90: ;
+Line 91: }
+Line 93: ID = up_write
+Line 93: (
+Line 93: Unrecognized token: 38
+Line 93: ID = profile_rwsem
+Line 93: )
+Line 93: ;
+Line 95: return
+Line 95: ID = err
+Line 95: ;
+Line 96: }
+Line 99: int
+Line 99: ID = profile_event_unregister
+Line 99: (
+Line 99: ID = enum
+Line 99: ID = profile_type
+Line 99: ID = type
+Line 99: ,
+Line 99: ID = struct
+Line 99: ID = notifier_block
+Line 99: *
+Line 99: ID = n
+Line 99: )
+Line 100: {
+Line 101: int
+Line 101: ID = err
+Line 101: =
+Line 101: -
+Line 101: ID = EINVAL
+Line 101: ;
+Line 103: ID = down_write
+Line 103: (
+Line 103: Unrecognized token: 38
+Line 103: ID = profile_rwsem
+Line 103: )
+Line 103: ;
+Line 105: ID = switch
+Line 105: (
+Line 105: ID = type
+Line 105: )
+Line 105: {
+Line 106: ID = case
+Line 106: ID = EXIT_TASK
+Line 106: Unrecognized token: 58
+Line 107: ID = err
+Line 107: =
+Line 107: ID = notifier_chain_unregister
+Line 107: (
+Line 107: Unrecognized token: 38
+Line 107: ID = exit_task_notifier
+Line 107: ,
+Line 107: ID = n
+Line 107: )
+Line 107: ;
+Line 108: ID = break
+Line 108: ;
+Line 109: ID = case
+Line 109: ID = EXIT_MMAP
+Line 109: Unrecognized token: 58
+Line 110: ID = err
+Line 110: =
+Line 110: ID = notifier_chain_unregister
+Line 110: (
+Line 110: Unrecognized token: 38
+Line 110: ID = exit_mmap_notifier
+Line 110: ,
+Line 110: ID = n
+Line 110: )
+Line 110: ;
+Line 111: ID = break
+Line 111: ;
+Line 112: ID = case
+Line 112: ID = EXEC_UNMAP
+Line 112: Unrecognized token: 58
+Line 113: ID = err
+Line 113: =
+Line 113: ID = notifier_chain_unregister
+Line 113: (
+Line 113: Unrecognized token: 38
+Line 113: ID = exec_unmap_notifier
+Line 113: ,
+Line 113: ID = n
+Line 113: )
+Line 113: ;
+Line 114: ID = break
+Line 114: ;
+Line 115: }
+Line 117: ID = up_write
+Line 117: (
+Line 117: Unrecognized token: 38
+Line 117: ID = profile_rwsem
+Line 117: )
+Line 117: ;
+Line 118: return
+Line 118: ID = err
+Line 118: ;
+Line 119: }
+Line 121: ID = static
+Line 121: ID = struct
+Line 121: ID = notifier_block
+Line 121: *
+Line 121: ID = profile_listeners
+Line 121: ;
+Line 122: ID = static
+Line 122: ID = rwlock_t
+Line 122: ID = profile_lock
+Line 122: =
+Line 122: ID = RW_LOCK_UNLOCKED
+Line 122: ;
+Line 124: int
+Line 124: ID = register_profile_notifier
+Line 124: (
+Line 124: ID = struct
+Line 124: ID = notifier_block
+Line 124: *
+Line 124: ID = nb
+Line 124: )
+Line 125: {
+Line 126: int
+Line 126: ID = err
+Line 126: ;
+Line 127: ID = write_lock_irq
+Line 127: (
+Line 127: Unrecognized token: 38
+Line 127: ID = profile_lock
+Line 127: )
+Line 127: ;
+Line 128: ID = err
+Line 128: =
+Line 128: ID = notifier_chain_register
+Line 128: (
+Line 128: Unrecognized token: 38
+Line 128: ID = profile_listeners
+Line 128: ,
+Line 128: ID = nb
+Line 128: )
+Line 128: ;
+Line 129: ID = write_unlock_irq
+Line 129: (
+Line 129: Unrecognized token: 38
+Line 129: ID = profile_lock
+Line 129: )
+Line 129: ;
+Line 130: return
+Line 130: ID = err
+Line 130: ;
+Line 131: }
+Line 134: int
+Line 134: ID = unregister_profile_notifier
+Line 134: (
+Line 134: ID = struct
+Line 134: ID = notifier_block
+Line 134: *
+Line 134: ID = nb
+Line 134: )
+Line 135: {
+Line 136: int
+Line 136: ID = err
+Line 136: ;
+Line 137: ID = write_lock_irq
+Line 137: (
+Line 137: Unrecognized token: 38
+Line 137: ID = profile_lock
+Line 137: )
+Line 137: ;
+Line 138: ID = err
+Line 138: =
+Line 138: ID = notifier_chain_unregister
+Line 138: (
+Line 138: Unrecognized token: 38
+Line 138: ID = profile_listeners
+Line 138: ,
+Line 138: ID = nb
+Line 138: )
+Line 138: ;
+Line 139: ID = write_unlock_irq
+Line 139: (
+Line 139: Unrecognized token: 38
+Line 139: ID = profile_lock
+Line 139: )
+Line 139: ;
+Line 140: return
+Line 140: ID = err
+Line 140: ;
+Line 141: }
+Line 144: void
+Line 144: ID = profile_hook
+Line 144: (
+Line 144: ID = struct
+Line 144: ID = pt_regs
+Line 144: *
+Line 144: ID = regs
+Line 144: )
+Line 145: {
+Line 146: ID = read_lock
+Line 146: (
+Line 146: Unrecognized token: 38
+Line 146: ID = profile_lock
+Line 146: )
+Line 146: ;
+Line 147: ID = notifier_call_chain
+Line 147: (
+Line 147: Unrecognized token: 38
+Line 147: ID = profile_listeners
+Line 147: ,
+Line 147: INTCON = 0
+Line 147: ,
+Line 147: ID = regs
+Line 147: )
+Line 147: ;
+Line 148: ID = read_unlock
+Line 148: (
+Line 148: Unrecognized token: 38
+Line 148: ID = profile_lock
+Line 148: )
+Line 148: ;
+Line 149: }
+Line 151: ID = EXPORT_SYMBOL_GPL
+Line 151: (
+Line 151: ID = register_profile_notifier
+Line 151: )
+Line 151: ;
+Line 152: ID = EXPORT_SYMBOL_GPL
+Line 152: (
+Line 152: ID = unregister_profile_notifier
+Line 152: )
+Line 152: ;
+Line 154: Unrecognized token: 35
+Line 154: ID = endif
+Line 156: ID = EXPORT_SYMBOL_GPL
+Line 156: (
+Line 156: ID = profile_event_register
+Line 156: )
+Line 156: ;
+Line 157: ID = EXPORT_SYMBOL_GPL
+Line 157: (
+Line 157: ID = profile_event_unregister
+Line 157: )
+Line 157: ;
+Line 158: -EOF-

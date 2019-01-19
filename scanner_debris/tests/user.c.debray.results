@@ -1,0 +1,703 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = init
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = sched
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = slab
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = bitops
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 20: Unrecognized token: 35
+Line 20: ID = define
+Line 20: ID = UIDHASH_BITS
+Line 20: INTCON = 8
+Line 21: Unrecognized token: 35
+Line 21: ID = define
+Line 21: ID = UIDHASH_SZ
+Line 21: (
+Line 21: INTCON = 1
+Line 21: <
+Line 21: <
+Line 21: ID = UIDHASH_BITS
+Line 21: )
+Line 22: Unrecognized token: 35
+Line 22: ID = define
+Line 22: ID = UIDHASH_MASK
+Line 22: (
+Line 22: ID = UIDHASH_SZ
+Line 22: -
+Line 22: INTCON = 1
+Line 22: )
+Line 23: Unrecognized token: 35
+Line 23: ID = define
+Line 23: Unrecognized token: 95
+Line 23: Unrecognized token: 95
+Line 23: ID = uidhashfn
+Line 23: (
+Line 23: ID = uid
+Line 23: )
+Line 23: (
+Line 23: (
+Line 23: (
+Line 23: ID = uid
+Line 23: >
+Line 23: >
+Line 23: ID = UIDHASH_BITS
+Line 23: )
+Line 23: +
+Line 23: ID = uid
+Line 23: )
+Line 23: Unrecognized token: 38
+Line 23: ID = UIDHASH_MASK
+Line 23: )
+Line 24: Unrecognized token: 35
+Line 24: ID = define
+Line 24: ID = uidhashentry
+Line 24: (
+Line 24: ID = uid
+Line 24: )
+Line 24: (
+Line 24: ID = uidhash_table
+Line 24: +
+Line 24: Unrecognized token: 95
+Line 24: Unrecognized token: 95
+Line 24: ID = uidhashfn
+Line 24: (
+Line 24: (
+Line 24: ID = uid
+Line 24: )
+Line 24: )
+Line 24: )
+Line 26: ID = static
+Line 26: ID = kmem_cache_t
+Line 26: *
+Line 26: ID = uid_cachep
+Line 26: ;
+Line 27: ID = static
+Line 27: ID = struct
+Line 27: ID = list_head
+Line 27: ID = uidhash_table
+Line 27: [
+Line 27: ID = UIDHASH_SZ
+Line 27: ]
+Line 27: ;
+Line 28: ID = static
+Line 28: ID = spinlock_t
+Line 28: ID = uidhash_lock
+Line 28: =
+Line 28: ID = SPIN_LOCK_UNLOCKED
+Line 28: ;
+Line 30: ID = struct
+Line 30: ID = user_struct
+Line 30: ID = root_user
+Line 30: =
+Line 30: {
+Line 31: Unrecognized token: 46
+Line 31: Unrecognized token: 95
+Line 31: Unrecognized token: 95
+Line 31: ID = count
+Line 31: =
+Line 31: ID = ATOMIC_INIT
+Line 31: (
+Line 31: INTCON = 1
+Line 31: )
+Line 31: ,
+Line 32: Unrecognized token: 46
+Line 32: ID = processes
+Line 32: =
+Line 32: ID = ATOMIC_INIT
+Line 32: (
+Line 32: INTCON = 1
+Line 32: )
+Line 32: ,
+Line 33: Unrecognized token: 46
+Line 33: ID = files
+Line 33: =
+Line 33: ID = ATOMIC_INIT
+Line 33: (
+Line 33: INTCON = 0
+Line 33: )
+Line 33: ,
+Line 34: Unrecognized token: 46
+Line 34: ID = sigpending
+Line 34: =
+Line 34: ID = ATOMIC_INIT
+Line 34: (
+Line 34: INTCON = 0
+Line 34: )
+Line 34: ,
+Line 35: Unrecognized token: 46
+Line 35: ID = mq_bytes
+Line 35: =
+Line 35: INTCON = 0
+Line 36: }
+Line 36: ;
+Line 41: ID = static
+Line 41: ID = inline
+Line 41: void
+Line 41: ID = uid_hash_insert
+Line 41: (
+Line 41: ID = struct
+Line 41: ID = user_struct
+Line 41: *
+Line 41: ID = up
+Line 41: ,
+Line 41: ID = struct
+Line 41: ID = list_head
+Line 41: *
+Line 41: ID = hashent
+Line 41: )
+Line 42: {
+Line 43: ID = list_add
+Line 43: (
+Line 43: Unrecognized token: 38
+Line 43: ID = up
+Line 43: -
+Line 43: >
+Line 43: ID = uidhash_list
+Line 43: ,
+Line 43: ID = hashent
+Line 43: )
+Line 43: ;
+Line 44: }
+Line 46: ID = static
+Line 46: ID = inline
+Line 46: void
+Line 46: ID = uid_hash_remove
+Line 46: (
+Line 46: ID = struct
+Line 46: ID = user_struct
+Line 46: *
+Line 46: ID = up
+Line 46: )
+Line 47: {
+Line 48: ID = list_del
+Line 48: (
+Line 48: Unrecognized token: 38
+Line 48: ID = up
+Line 48: -
+Line 48: >
+Line 48: ID = uidhash_list
+Line 48: )
+Line 48: ;
+Line 49: }
+Line 51: ID = static
+Line 51: ID = inline
+Line 51: ID = struct
+Line 51: ID = user_struct
+Line 51: *
+Line 51: ID = uid_hash_find
+Line 51: (
+Line 51: ID = uid_t
+Line 51: ID = uid
+Line 51: ,
+Line 51: ID = struct
+Line 51: ID = list_head
+Line 51: *
+Line 51: ID = hashent
+Line 51: )
+Line 52: {
+Line 53: ID = struct
+Line 53: ID = list_head
+Line 53: *
+Line 53: ID = up
+Line 53: ;
+Line 55: ID = list_for_each
+Line 55: (
+Line 55: ID = up
+Line 55: ,
+Line 55: ID = hashent
+Line 55: )
+Line 55: {
+Line 56: ID = struct
+Line 56: ID = user_struct
+Line 56: *
+Line 56: ID = user
+Line 56: ;
+Line 58: ID = user
+Line 58: =
+Line 58: ID = list_entry
+Line 58: (
+Line 58: ID = up
+Line 58: ,
+Line 58: ID = struct
+Line 58: ID = user_struct
+Line 58: ,
+Line 58: ID = uidhash_list
+Line 58: )
+Line 58: ;
+Line 60: if
+Line 60: (
+Line 60: ID = user
+Line 60: -
+Line 60: >
+Line 60: ID = uid
+Line 60: ==
+Line 60: ID = uid
+Line 60: )
+Line 60: {
+Line 61: ID = atomic_inc
+Line 61: (
+Line 61: Unrecognized token: 38
+Line 61: ID = user
+Line 61: -
+Line 61: >
+Line 61: Unrecognized token: 95
+Line 61: Unrecognized token: 95
+Line 61: ID = count
+Line 61: )
+Line 61: ;
+Line 62: return
+Line 62: ID = user
+Line 62: ;
+Line 63: }
+Line 64: }
+Line 66: return
+Line 66: ID = NULL
+Line 66: ;
+Line 67: }
+Line 75: ID = struct
+Line 75: ID = user_struct
+Line 75: *
+Line 75: ID = find_user
+Line 75: (
+Line 75: ID = uid_t
+Line 75: ID = uid
+Line 75: )
+Line 76: {
+Line 77: ID = struct
+Line 77: ID = user_struct
+Line 77: *
+Line 77: ID = ret
+Line 77: ;
+Line 79: ID = spin_lock
+Line 79: (
+Line 79: Unrecognized token: 38
+Line 79: ID = uidhash_lock
+Line 79: )
+Line 79: ;
+Line 80: ID = ret
+Line 80: =
+Line 80: ID = uid_hash_find
+Line 80: (
+Line 80: ID = uid
+Line 80: ,
+Line 80: ID = uidhashentry
+Line 80: (
+Line 80: ID = uid
+Line 80: )
+Line 80: )
+Line 80: ;
+Line 81: ID = spin_unlock
+Line 81: (
+Line 81: Unrecognized token: 38
+Line 81: ID = uidhash_lock
+Line 81: )
+Line 81: ;
+Line 82: return
+Line 82: ID = ret
+Line 82: ;
+Line 83: }
+Line 85: void
+Line 85: ID = free_uid
+Line 85: (
+Line 85: ID = struct
+Line 85: ID = user_struct
+Line 85: *
+Line 85: ID = up
+Line 85: )
+Line 86: {
+Line 87: if
+Line 87: (
+Line 87: ID = up
+Line 87: &&
+Line 87: ID = atomic_dec_and_lock
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: ID = up
+Line 87: -
+Line 87: >
+Line 87: Unrecognized token: 95
+Line 87: Unrecognized token: 95
+Line 87: ID = count
+Line 87: ,
+Line 87: Unrecognized token: 38
+Line 87: ID = uidhash_lock
+Line 87: )
+Line 87: )
+Line 87: {
+Line 88: ID = uid_hash_remove
+Line 88: (
+Line 88: ID = up
+Line 88: )
+Line 88: ;
+Line 89: ID = kmem_cache_free
+Line 89: (
+Line 89: ID = uid_cachep
+Line 89: ,
+Line 89: ID = up
+Line 89: )
+Line 89: ;
+Line 90: ID = spin_unlock
+Line 90: (
+Line 90: Unrecognized token: 38
+Line 90: ID = uidhash_lock
+Line 90: )
+Line 90: ;
+Line 91: }
+Line 92: }
+Line 94: ID = struct
+Line 94: ID = user_struct
+Line 94: *
+Line 94: ID = alloc_uid
+Line 94: (
+Line 94: ID = uid_t
+Line 94: ID = uid
+Line 94: )
+Line 95: {
+Line 96: ID = struct
+Line 96: ID = list_head
+Line 96: *
+Line 96: ID = hashent
+Line 96: =
+Line 96: ID = uidhashentry
+Line 96: (
+Line 96: ID = uid
+Line 96: )
+Line 96: ;
+Line 97: ID = struct
+Line 97: ID = user_struct
+Line 97: *
+Line 97: ID = up
+Line 97: ;
+Line 99: ID = spin_lock
+Line 99: (
+Line 99: Unrecognized token: 38
+Line 99: ID = uidhash_lock
+Line 99: )
+Line 99: ;
+Line 100: ID = up
+Line 100: =
+Line 100: ID = uid_hash_find
+Line 100: (
+Line 100: ID = uid
+Line 100: ,
+Line 100: ID = hashent
+Line 100: )
+Line 100: ;
+Line 101: ID = spin_unlock
+Line 101: (
+Line 101: Unrecognized token: 38
+Line 101: ID = uidhash_lock
+Line 101: )
+Line 101: ;
+Line 103: if
+Line 103: (
+Line 103: !
+Line 103: ID = up
+Line 103: )
+Line 103: {
+Line 104: ID = struct
+Line 104: ID = user_struct
+Line 104: *
+Line 104: ID = new
+Line 104: ;
+Line 106: ID = new
+Line 106: =
+Line 106: ID = kmem_cache_alloc
+Line 106: (
+Line 106: ID = uid_cachep
+Line 106: ,
+Line 106: ID = SLAB_KERNEL
+Line 106: )
+Line 106: ;
+Line 107: if
+Line 107: (
+Line 107: !
+Line 107: ID = new
+Line 107: )
+Line 108: return
+Line 108: ID = NULL
+Line 108: ;
+Line 109: ID = new
+Line 109: -
+Line 109: >
+Line 109: ID = uid
+Line 109: =
+Line 109: ID = uid
+Line 109: ;
+Line 110: ID = atomic_set
+Line 110: (
+Line 110: Unrecognized token: 38
+Line 110: ID = new
+Line 110: -
+Line 110: >
+Line 110: Unrecognized token: 95
+Line 110: Unrecognized token: 95
+Line 110: ID = count
+Line 110: ,
+Line 110: INTCON = 1
+Line 110: )
+Line 110: ;
+Line 111: ID = atomic_set
+Line 111: (
+Line 111: Unrecognized token: 38
+Line 111: ID = new
+Line 111: -
+Line 111: >
+Line 111: ID = processes
+Line 111: ,
+Line 111: INTCON = 0
+Line 111: )
+Line 111: ;
+Line 112: ID = atomic_set
+Line 112: (
+Line 112: Unrecognized token: 38
+Line 112: ID = new
+Line 112: -
+Line 112: >
+Line 112: ID = files
+Line 112: ,
+Line 112: INTCON = 0
+Line 112: )
+Line 112: ;
+Line 113: ID = atomic_set
+Line 113: (
+Line 113: Unrecognized token: 38
+Line 113: ID = new
+Line 113: -
+Line 113: >
+Line 113: ID = sigpending
+Line 113: ,
+Line 113: INTCON = 0
+Line 113: )
+Line 113: ;
+Line 115: ID = new
+Line 115: -
+Line 115: >
+Line 115: ID = mq_bytes
+Line 115: =
+Line 115: INTCON = 0
+Line 115: ;
+Line 121: ID = spin_lock
+Line 121: (
+Line 121: Unrecognized token: 38
+Line 121: ID = uidhash_lock
+Line 121: )
+Line 121: ;
+Line 122: ID = up
+Line 122: =
+Line 122: ID = uid_hash_find
+Line 122: (
+Line 122: ID = uid
+Line 122: ,
+Line 122: ID = hashent
+Line 122: )
+Line 122: ;
+Line 123: if
+Line 123: (
+Line 123: ID = up
+Line 123: )
+Line 123: {
+Line 124: ID = kmem_cache_free
+Line 124: (
+Line 124: ID = uid_cachep
+Line 124: ,
+Line 124: ID = new
+Line 124: )
+Line 124: ;
+Line 125: }
+Line 125: else
+Line 125: {
+Line 126: ID = uid_hash_insert
+Line 126: (
+Line 126: ID = new
+Line 126: ,
+Line 126: ID = hashent
+Line 126: )
+Line 126: ;
+Line 127: ID = up
+Line 127: =
+Line 127: ID = new
+Line 127: ;
+Line 128: }
+Line 129: ID = spin_unlock
+Line 129: (
+Line 129: Unrecognized token: 38
+Line 129: ID = uidhash_lock
+Line 129: )
+Line 129: ;
+Line 131: }
+Line 132: return
+Line 132: ID = up
+Line 132: ;
+Line 133: }
+Line 135: void
+Line 135: ID = switch_uid
+Line 135: (
+Line 135: ID = struct
+Line 135: ID = user_struct
+Line 135: *
+Line 135: ID = new_user
+Line 135: )
+Line 136: {
+Line 137: ID = struct
+Line 137: ID = user_struct
+Line 137: *
+Line 137: ID = old_user
+Line 137: ;
+Line 144: ID = old_user
+Line 144: =
+Line 144: ID = current
+Line 144: -
+Line 144: >
+Line 144: ID = user
+Line 144: ;
+Line 145: ID = atomic_inc
+Line 145: (
+Line 145: Unrecognized token: 38
+Line 145: ID = new_user
+Line 145: -
+Line 145: >
+Line 145: ID = processes
+Line 145: )
+Line 145: ;
+Line 146: ID = atomic_dec
+Line 146: (
+Line 146: Unrecognized token: 38
+Line 146: ID = old_user
+Line 146: -
+Line 146: >
+Line 146: ID = processes
+Line 146: )
+Line 146: ;
+Line 147: ID = current
+Line 147: -
+Line 147: >
+Line 147: ID = user
+Line 147: =
+Line 147: ID = new_user
+Line 147: ;
+Line 148: ID = free_uid
+Line 148: (
+Line 148: ID = old_user
+Line 148: )
+Line 148: ;
+Line 149: }
+Line 152: ID = static
+Line 152: int
+Line 152: Unrecognized token: 95
+Line 152: Unrecognized token: 95
+Line 152: ID = init
+Line 152: ID = uid_cache_init
+Line 152: (
+Line 152: void
+Line 152: )
+Line 153: {
+Line 154: int
+Line 154: ID = n
+Line 154: ;
+Line 156: ID = uid_cachep
+Line 156: =
+Line 156: ID = kmem_cache_create
+Line 156: (
+Line 156: STRINGCON = "uid_cache"
+Line 156: ,
+Line 156: ID = sizeof
+Line 156: (
+Line 156: ID = struct
+Line 156: ID = user_struct
+Line 156: )
+Line 156: ,
+Line 157: INTCON = 0
+Line 157: ,
+Line 157: ID = SLAB_HWCACHE_ALIGN
+Line 157: Unrecognized token: 124
+Line 157: ID = SLAB_PANIC
+Line 157: ,
+Line 157: ID = NULL
+Line 157: ,
+Line 157: ID = NULL
+Line 157: )
+Line 157: ;
+Line 159: for
+Line 159: (
+Line 159: ID = n
+Line 159: =
+Line 159: INTCON = 0
+Line 159: ;
+Line 159: ID = n
+Line 159: <
+Line 159: ID = UIDHASH_SZ
+Line 159: ;
+Line 159: +
+Line 159: +
+Line 159: ID = n
+Line 159: )
+Line 160: ID = INIT_LIST_HEAD
+Line 160: (
+Line 160: ID = uidhash_table
+Line 160: +
+Line 160: ID = n
+Line 160: )
+Line 160: ;
+Line 163: ID = spin_lock
+Line 163: (
+Line 163: Unrecognized token: 38
+Line 163: ID = uidhash_lock
+Line 163: )
+Line 163: ;
+Line 164: ID = uid_hash_insert
+Line 164: (
+Line 164: Unrecognized token: 38
+Line 164: ID = root_user
+Line 164: ,
+Line 164: ID = uidhashentry
+Line 164: (
+Line 164: INTCON = 0
+Line 164: )
+Line 164: )
+Line 164: ;
+Line 165: ID = spin_unlock
+Line 165: (
+Line 165: Unrecognized token: 38
+Line 165: ID = uidhash_lock
+Line 165: )
+Line 165: ;
+Line 167: return
+Line 167: INTCON = 0
+Line 167: ;
+Line 168: }
+Line 170: ID = module_init
+Line 170: (
+Line 170: ID = uid_cache_init
+Line 170: )
+Line 170: ;
+Line 171: -EOF-

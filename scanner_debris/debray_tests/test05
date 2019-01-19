@@ -1,0 +1,3 @@
+/* multi-character identifiers consisting of only letters */
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ

@@ -1,0 +1,49 @@
+--- ../compile_turned_in/codelist.cpp	2004-11-26 20:27:15.000000000 -0700
++++ codelist.cpp	2004-11-26 20:27:50.000000000 -0700
+@@ -327,8 +327,8 @@
+         RUNTIME_ERROR("No matching assembly for op '%s'", x.c_str());
+     }
+ 
+-    std::string op_text("# ");
+-    op_text += code->stringify();
++    //std::string op_text("# ");
++    //op_text += code->stringify();
+     std::string subbed(*(*asm_map_)[code->op] );
+ 
+ // substitute labels with actual variable position info
+@@ -346,7 +346,7 @@
+     replace_source_label(code->src_2, &subbed, " y");
+     replace_dest_label(code, &subbed, " z");
+ 
+-    subbed = op_text + subbed;
++    //subbed = op_text + subbed;
+     return subbed;
+ }
+ 
+@@ -1195,7 +1195,7 @@
+             d->place(stack_offset);
+             stack_offset += d->size();
+         }
+-        o << "# stack offset after '" << d->name() << "' is " << stack_offset << "\n";
++        //o << "# stack offset after '" << d->name() << "' is " << stack_offset << "\n";
+     }
+ 
+     // make sure that sp starts from aligned position
+@@ -1227,7 +1227,7 @@
+         stack_offset +=   MIPS_INT_SIZE - (stack_offset % MIPS_INT_SIZE);
+     }
+ 
+-    o << "# stack offset after final alignment is " << stack_offset << "\n";
++    //o << "# stack offset after final alignment is " << stack_offset << "\n";
+     o << "    la $sp, " << -stack_offset << "($sp)\n";
+ 
+     assembly->replace(begin_line,
+@@ -1473,7 +1473,7 @@
+         return;
+     }
+ 
+-    cout << "Three code: " << *c << endl;
++    //cout << "Three code: " << *c << endl;
+     code_->push_back(c);
+ }
+ 

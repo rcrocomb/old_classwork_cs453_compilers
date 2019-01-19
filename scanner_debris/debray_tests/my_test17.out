@@ -1,0 +1,7 @@
+Line 3: ID = id1
+Line 3: ID = id2
+Line 3: INTCON = 012345
+Line 7: INTCON = 314159265
+Line 14: ID = id3
+Line 17: ID = id4
+Line 18: -EOF-

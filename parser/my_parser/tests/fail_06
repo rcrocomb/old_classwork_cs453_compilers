@@ -1,0 +1,20 @@
+; /* can't have a naked semi-colon */
+
+
+void
+bob(int x, int y)
+{
+    for( i = 0; i < 10; x = x + 2)
+    {
+        int a;  /* can't do this */
+    }
+
+    for( i = 0; i < 10; x = x + 2)
+    {
+        a = 1 + 2;
+        b = a * 3 - 1 + 4;
+        c = -!2;
+    }
+}
+
+int a, b, c;

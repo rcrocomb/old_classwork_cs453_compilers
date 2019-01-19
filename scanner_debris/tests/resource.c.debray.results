@@ -1,0 +1,2652 @@
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = config
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = module
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = sched
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = errno
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = ioport
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = init
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = slab
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = spinlock
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = fs
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = proc_fs
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = seq_file
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = asm
+Line 21: /
+Line 21: ID = io
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 24: ID = struct
+Line 24: ID = resource
+Line 24: ID = ioport_resource
+Line 24: =
+Line 24: {
+Line 25: Unrecognized token: 46
+Line 25: ID = name
+Line 25: =
+Line 25: STRINGCON = "PCI IO"
+Line 25: ,
+Line 26: Unrecognized token: 46
+Line 26: ID = start
+Line 26: =
+Line 26: INTCON = 0
+Line 26: ID = x0000
+Line 26: ,
+Line 27: Unrecognized token: 46
+Line 27: ID = end
+Line 27: =
+Line 27: ID = IO_SPACE_LIMIT
+Line 27: ,
+Line 28: Unrecognized token: 46
+Line 28: ID = flags
+Line 28: =
+Line 28: ID = IORESOURCE_IO
+Line 28: ,
+Line 29: }
+Line 29: ;
+Line 31: ID = EXPORT_SYMBOL
+Line 31: (
+Line 31: ID = ioport_resource
+Line 31: )
+Line 31: ;
+Line 33: ID = struct
+Line 33: ID = resource
+Line 33: ID = iomem_resource
+Line 33: =
+Line 33: {
+Line 34: Unrecognized token: 46
+Line 34: ID = name
+Line 34: =
+Line 34: STRINGCON = "PCI mem"
+Line 34: ,
+Line 35: Unrecognized token: 46
+Line 35: ID = start
+Line 35: =
+Line 35: INTCON = 0
+Line 35: ID = UL
+Line 35: ,
+Line 36: Unrecognized token: 46
+Line 36: ID = end
+Line 36: =
+Line 36: Unrecognized token: 126
+Line 36: INTCON = 0
+Line 36: ID = UL
+Line 36: ,
+Line 37: Unrecognized token: 46
+Line 37: ID = flags
+Line 37: =
+Line 37: ID = IORESOURCE_MEM
+Line 37: ,
+Line 38: }
+Line 38: ;
+Line 40: ID = EXPORT_SYMBOL
+Line 40: (
+Line 40: ID = iomem_resource
+Line 40: )
+Line 40: ;
+Line 42: ID = static
+Line 42: ID = rwlock_t
+Line 42: ID = resource_lock
+Line 42: =
+Line 42: ID = RW_LOCK_UNLOCKED
+Line 42: ;
+Line 44: Unrecognized token: 35
+Line 44: ID = ifdef
+Line 44: ID = CONFIG_PROC_FS
+Line 46: ID = enum
+Line 46: {
+Line 46: ID = MAX_IORES_LEVEL
+Line 46: =
+Line 46: INTCON = 5
+Line 46: }
+Line 46: ;
+Line 48: ID = static
+Line 48: void
+Line 48: *
+Line 48: ID = r_next
+Line 48: (
+Line 48: ID = struct
+Line 48: ID = seq_file
+Line 48: *
+Line 48: ID = m
+Line 48: ,
+Line 48: void
+Line 48: *
+Line 48: ID = v
+Line 48: ,
+Line 48: ID = loff_t
+Line 48: *
+Line 48: ID = pos
+Line 48: )
+Line 49: {
+Line 50: ID = struct
+Line 50: ID = resource
+Line 50: *
+Line 50: ID = p
+Line 50: =
+Line 50: ID = v
+Line 50: ;
+Line 51: (
+Line 51: *
+Line 51: ID = pos
+Line 51: )
+Line 51: +
+Line 51: +
+Line 51: ;
+Line 52: if
+Line 52: (
+Line 52: ID = p
+Line 52: -
+Line 52: >
+Line 52: ID = child
+Line 52: )
+Line 53: return
+Line 53: ID = p
+Line 53: -
+Line 53: >
+Line 53: ID = child
+Line 53: ;
+Line 54: while
+Line 54: (
+Line 54: !
+Line 54: ID = p
+Line 54: -
+Line 54: >
+Line 54: ID = sibling
+Line 54: &&
+Line 54: ID = p
+Line 54: -
+Line 54: >
+Line 54: ID = parent
+Line 54: )
+Line 55: ID = p
+Line 55: =
+Line 55: ID = p
+Line 55: -
+Line 55: >
+Line 55: ID = parent
+Line 55: ;
+Line 56: return
+Line 56: ID = p
+Line 56: -
+Line 56: >
+Line 56: ID = sibling
+Line 56: ;
+Line 57: }
+Line 59: ID = static
+Line 59: void
+Line 59: *
+Line 59: ID = r_start
+Line 59: (
+Line 59: ID = struct
+Line 59: ID = seq_file
+Line 59: *
+Line 59: ID = m
+Line 59: ,
+Line 59: ID = loff_t
+Line 59: *
+Line 59: ID = pos
+Line 59: )
+Line 60: {
+Line 61: ID = struct
+Line 61: ID = resource
+Line 61: *
+Line 61: ID = p
+Line 61: =
+Line 61: ID = m
+Line 61: -
+Line 61: >
+Line 61: ID = private
+Line 61: ;
+Line 62: ID = loff_t
+Line 62: ID = l
+Line 62: =
+Line 62: INTCON = 0
+Line 62: ;
+Line 63: ID = read_lock
+Line 63: (
+Line 63: Unrecognized token: 38
+Line 63: ID = resource_lock
+Line 63: )
+Line 63: ;
+Line 64: for
+Line 64: (
+Line 64: ID = p
+Line 64: =
+Line 64: ID = p
+Line 64: -
+Line 64: >
+Line 64: ID = child
+Line 64: ;
+Line 64: ID = p
+Line 64: &&
+Line 64: ID = l
+Line 64: <
+Line 64: *
+Line 64: ID = pos
+Line 64: ;
+Line 64: ID = p
+Line 64: =
+Line 64: ID = r_next
+Line 64: (
+Line 64: ID = m
+Line 64: ,
+Line 64: ID = p
+Line 64: ,
+Line 64: Unrecognized token: 38
+Line 64: ID = l
+Line 64: )
+Line 64: )
+Line 65: ;
+Line 66: return
+Line 66: ID = p
+Line 66: ;
+Line 67: }
+Line 69: ID = static
+Line 69: void
+Line 69: ID = r_stop
+Line 69: (
+Line 69: ID = struct
+Line 69: ID = seq_file
+Line 69: *
+Line 69: ID = m
+Line 69: ,
+Line 69: void
+Line 69: *
+Line 69: ID = v
+Line 69: )
+Line 70: {
+Line 71: ID = read_unlock
+Line 71: (
+Line 71: Unrecognized token: 38
+Line 71: ID = resource_lock
+Line 71: )
+Line 71: ;
+Line 72: }
+Line 74: ID = static
+Line 74: int
+Line 74: ID = r_show
+Line 74: (
+Line 74: ID = struct
+Line 74: ID = seq_file
+Line 74: *
+Line 74: ID = m
+Line 74: ,
+Line 74: void
+Line 74: *
+Line 74: ID = v
+Line 74: )
+Line 75: {
+Line 76: ID = struct
+Line 76: ID = resource
+Line 76: *
+Line 76: ID = root
+Line 76: =
+Line 76: ID = m
+Line 76: -
+Line 76: >
+Line 76: ID = private
+Line 76: ;
+Line 77: ID = struct
+Line 77: ID = resource
+Line 77: *
+Line 77: ID = r
+Line 77: =
+Line 77: ID = v
+Line 77: ,
+Line 77: *
+Line 77: ID = p
+Line 77: ;
+Line 78: int
+Line 78: ID = width
+Line 78: =
+Line 78: ID = root
+Line 78: -
+Line 78: >
+Line 78: ID = end
+Line 78: <
+Line 78: INTCON = 0
+Line 78: ID = x10000
+Line 78: Unrecognized token: 63
+Line 78: INTCON = 4
+Line 78: Unrecognized token: 58
+Line 78: INTCON = 8
+Line 78: ;
+Line 79: int
+Line 79: ID = depth
+Line 79: ;
+Line 81: for
+Line 81: (
+Line 81: ID = depth
+Line 81: =
+Line 81: INTCON = 0
+Line 81: ,
+Line 81: ID = p
+Line 81: =
+Line 81: ID = r
+Line 81: ;
+Line 81: ID = depth
+Line 81: <
+Line 81: ID = MAX_IORES_LEVEL
+Line 81: ;
+Line 81: ID = depth
+Line 81: +
+Line 81: +
+Line 81: ,
+Line 81: ID = p
+Line 81: =
+Line 81: ID = p
+Line 81: -
+Line 81: >
+Line 81: ID = parent
+Line 81: )
+Line 82: if
+Line 82: (
+Line 82: ID = p
+Line 82: -
+Line 82: >
+Line 82: ID = parent
+Line 82: ==
+Line 82: ID = root
+Line 82: )
+Line 83: ID = break
+Line 83: ;
+Line 84: ID = seq_printf
+Line 84: (
+Line 84: ID = m
+Line 84: ,
+Line 84: STRINGCON = "%*s%0*lx-%0*lx : %s\n"
+Line 84: ,
+Line 85: ID = depth
+Line 85: *
+Line 85: INTCON = 2
+Line 85: ,
+Line 85: STRINGCON = ""
+Line 85: ,
+Line 86: ID = width
+Line 86: ,
+Line 86: ID = r
+Line 86: -
+Line 86: >
+Line 86: ID = start
+Line 86: ,
+Line 87: ID = width
+Line 87: ,
+Line 87: ID = r
+Line 87: -
+Line 87: >
+Line 87: ID = end
+Line 87: ,
+Line 88: ID = r
+Line 88: -
+Line 88: >
+Line 88: ID = name
+Line 88: Unrecognized token: 63
+Line 88: ID = r
+Line 88: -
+Line 88: >
+Line 88: ID = name
+Line 88: Unrecognized token: 58
+Line 88: STRINGCON = "<BAD>"
+Line 88: )
+Line 88: ;
+Line 89: return
+Line 89: INTCON = 0
+Line 89: ;
+Line 90: }
+Line 92: ID = struct
+Line 92: ID = seq_operations
+Line 92: ID = resource_op
+Line 92: =
+Line 92: {
+Line 93: Unrecognized token: 46
+Line 93: ID = start
+Line 93: =
+Line 93: ID = r_start
+Line 93: ,
+Line 94: Unrecognized token: 46
+Line 94: ID = next
+Line 94: =
+Line 94: ID = r_next
+Line 94: ,
+Line 95: Unrecognized token: 46
+Line 95: ID = stop
+Line 95: =
+Line 95: ID = r_stop
+Line 95: ,
+Line 96: Unrecognized token: 46
+Line 96: ID = show
+Line 96: =
+Line 96: ID = r_show
+Line 96: ,
+Line 97: }
+Line 97: ;
+Line 99: ID = static
+Line 99: int
+Line 99: ID = ioports_open
+Line 99: (
+Line 99: ID = struct
+Line 99: ID = inode
+Line 99: *
+Line 99: ID = inode
+Line 99: ,
+Line 99: ID = struct
+Line 99: ID = file
+Line 99: *
+Line 99: ID = file
+Line 99: )
+Line 100: {
+Line 101: int
+Line 101: ID = res
+Line 101: =
+Line 101: ID = seq_open
+Line 101: (
+Line 101: ID = file
+Line 101: ,
+Line 101: Unrecognized token: 38
+Line 101: ID = resource_op
+Line 101: )
+Line 101: ;
+Line 102: if
+Line 102: (
+Line 102: !
+Line 102: ID = res
+Line 102: )
+Line 102: {
+Line 103: ID = struct
+Line 103: ID = seq_file
+Line 103: *
+Line 103: ID = m
+Line 103: =
+Line 103: ID = file
+Line 103: -
+Line 103: >
+Line 103: ID = private_data
+Line 103: ;
+Line 104: ID = m
+Line 104: -
+Line 104: >
+Line 104: ID = private
+Line 104: =
+Line 104: Unrecognized token: 38
+Line 104: ID = ioport_resource
+Line 104: ;
+Line 105: }
+Line 106: return
+Line 106: ID = res
+Line 106: ;
+Line 107: }
+Line 109: ID = static
+Line 109: int
+Line 109: ID = iomem_open
+Line 109: (
+Line 109: ID = struct
+Line 109: ID = inode
+Line 109: *
+Line 109: ID = inode
+Line 109: ,
+Line 109: ID = struct
+Line 109: ID = file
+Line 109: *
+Line 109: ID = file
+Line 109: )
+Line 110: {
+Line 111: int
+Line 111: ID = res
+Line 111: =
+Line 111: ID = seq_open
+Line 111: (
+Line 111: ID = file
+Line 111: ,
+Line 111: Unrecognized token: 38
+Line 111: ID = resource_op
+Line 111: )
+Line 111: ;
+Line 112: if
+Line 112: (
+Line 112: !
+Line 112: ID = res
+Line 112: )
+Line 112: {
+Line 113: ID = struct
+Line 113: ID = seq_file
+Line 113: *
+Line 113: ID = m
+Line 113: =
+Line 113: ID = file
+Line 113: -
+Line 113: >
+Line 113: ID = private_data
+Line 113: ;
+Line 114: ID = m
+Line 114: -
+Line 114: >
+Line 114: ID = private
+Line 114: =
+Line 114: Unrecognized token: 38
+Line 114: ID = iomem_resource
+Line 114: ;
+Line 115: }
+Line 116: return
+Line 116: ID = res
+Line 116: ;
+Line 117: }
+Line 119: ID = static
+Line 119: ID = struct
+Line 119: ID = file_operations
+Line 119: ID = proc_ioports_operations
+Line 119: =
+Line 119: {
+Line 120: Unrecognized token: 46
+Line 120: ID = open
+Line 120: =
+Line 120: ID = ioports_open
+Line 120: ,
+Line 121: Unrecognized token: 46
+Line 121: ID = read
+Line 121: =
+Line 121: ID = seq_read
+Line 121: ,
+Line 122: Unrecognized token: 46
+Line 122: ID = llseek
+Line 122: =
+Line 122: ID = seq_lseek
+Line 122: ,
+Line 123: Unrecognized token: 46
+Line 123: ID = release
+Line 123: =
+Line 123: ID = seq_release
+Line 123: ,
+Line 124: }
+Line 124: ;
+Line 126: ID = static
+Line 126: ID = struct
+Line 126: ID = file_operations
+Line 126: ID = proc_iomem_operations
+Line 126: =
+Line 126: {
+Line 127: Unrecognized token: 46
+Line 127: ID = open
+Line 127: =
+Line 127: ID = iomem_open
+Line 127: ,
+Line 128: Unrecognized token: 46
+Line 128: ID = read
+Line 128: =
+Line 128: ID = seq_read
+Line 128: ,
+Line 129: Unrecognized token: 46
+Line 129: ID = llseek
+Line 129: =
+Line 129: ID = seq_lseek
+Line 129: ,
+Line 130: Unrecognized token: 46
+Line 130: ID = release
+Line 130: =
+Line 130: ID = seq_release
+Line 130: ,
+Line 131: }
+Line 131: ;
+Line 133: ID = static
+Line 133: int
+Line 133: Unrecognized token: 95
+Line 133: Unrecognized token: 95
+Line 133: ID = init
+Line 133: ID = ioresources_init
+Line 133: (
+Line 133: void
+Line 133: )
+Line 134: {
+Line 135: ID = struct
+Line 135: ID = proc_dir_entry
+Line 135: *
+Line 135: ID = entry
+Line 135: ;
+Line 137: ID = entry
+Line 137: =
+Line 137: ID = create_proc_entry
+Line 137: (
+Line 137: STRINGCON = "ioports"
+Line 137: ,
+Line 137: INTCON = 0
+Line 137: ,
+Line 137: ID = NULL
+Line 137: )
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = entry
+Line 138: )
+Line 139: ID = entry
+Line 139: -
+Line 139: >
+Line 139: ID = proc_fops
+Line 139: =
+Line 139: Unrecognized token: 38
+Line 139: ID = proc_ioports_operations
+Line 139: ;
+Line 140: ID = entry
+Line 140: =
+Line 140: ID = create_proc_entry
+Line 140: (
+Line 140: STRINGCON = "iomem"
+Line 140: ,
+Line 140: INTCON = 0
+Line 140: ,
+Line 140: ID = NULL
+Line 140: )
+Line 140: ;
+Line 141: if
+Line 141: (
+Line 141: ID = entry
+Line 141: )
+Line 142: ID = entry
+Line 142: -
+Line 142: >
+Line 142: ID = proc_fops
+Line 142: =
+Line 142: Unrecognized token: 38
+Line 142: ID = proc_iomem_operations
+Line 142: ;
+Line 143: return
+Line 143: INTCON = 0
+Line 143: ;
+Line 144: }
+Line 145: Unrecognized token: 95
+Line 145: Unrecognized token: 95
+Line 145: ID = initcall
+Line 145: (
+Line 145: ID = ioresources_init
+Line 145: )
+Line 145: ;
+Line 147: Unrecognized token: 35
+Line 147: ID = endif
+Line 150: ID = static
+Line 150: ID = struct
+Line 150: ID = resource
+Line 150: *
+Line 150: Unrecognized token: 95
+Line 150: Unrecognized token: 95
+Line 150: ID = request_resource
+Line 150: (
+Line 150: ID = struct
+Line 150: ID = resource
+Line 150: *
+Line 150: ID = root
+Line 150: ,
+Line 150: ID = struct
+Line 150: ID = resource
+Line 150: *
+Line 150: ID = new
+Line 150: )
+Line 151: {
+Line 152: ID = unsigned
+Line 152: ID = long
+Line 152: ID = start
+Line 152: =
+Line 152: ID = new
+Line 152: -
+Line 152: >
+Line 152: ID = start
+Line 152: ;
+Line 153: ID = unsigned
+Line 153: ID = long
+Line 153: ID = end
+Line 153: =
+Line 153: ID = new
+Line 153: -
+Line 153: >
+Line 153: ID = end
+Line 153: ;
+Line 154: ID = struct
+Line 154: ID = resource
+Line 154: *
+Line 154: ID = tmp
+Line 154: ,
+Line 154: *
+Line 154: *
+Line 154: ID = p
+Line 154: ;
+Line 156: if
+Line 156: (
+Line 156: ID = end
+Line 156: <
+Line 156: ID = start
+Line 156: )
+Line 157: return
+Line 157: ID = root
+Line 157: ;
+Line 158: if
+Line 158: (
+Line 158: ID = start
+Line 158: <
+Line 158: ID = root
+Line 158: -
+Line 158: >
+Line 158: ID = start
+Line 158: )
+Line 159: return
+Line 159: ID = root
+Line 159: ;
+Line 160: if
+Line 160: (
+Line 160: ID = end
+Line 160: >
+Line 160: ID = root
+Line 160: -
+Line 160: >
+Line 160: ID = end
+Line 160: )
+Line 161: return
+Line 161: ID = root
+Line 161: ;
+Line 162: ID = p
+Line 162: =
+Line 162: Unrecognized token: 38
+Line 162: ID = root
+Line 162: -
+Line 162: >
+Line 162: ID = child
+Line 162: ;
+Line 163: for
+Line 163: (
+Line 163: ;
+Line 163: ;
+Line 163: )
+Line 163: {
+Line 164: ID = tmp
+Line 164: =
+Line 164: *
+Line 164: ID = p
+Line 164: ;
+Line 165: if
+Line 165: (
+Line 165: !
+Line 165: ID = tmp
+Line 165: ||
+Line 165: ID = tmp
+Line 165: -
+Line 165: >
+Line 165: ID = start
+Line 165: >
+Line 165: ID = end
+Line 165: )
+Line 165: {
+Line 166: ID = new
+Line 166: -
+Line 166: >
+Line 166: ID = sibling
+Line 166: =
+Line 166: ID = tmp
+Line 166: ;
+Line 167: *
+Line 167: ID = p
+Line 167: =
+Line 167: ID = new
+Line 167: ;
+Line 168: ID = new
+Line 168: -
+Line 168: >
+Line 168: ID = parent
+Line 168: =
+Line 168: ID = root
+Line 168: ;
+Line 169: return
+Line 169: ID = NULL
+Line 169: ;
+Line 170: }
+Line 171: ID = p
+Line 171: =
+Line 171: Unrecognized token: 38
+Line 171: ID = tmp
+Line 171: -
+Line 171: >
+Line 171: ID = sibling
+Line 171: ;
+Line 172: if
+Line 172: (
+Line 172: ID = tmp
+Line 172: -
+Line 172: >
+Line 172: ID = end
+Line 172: <
+Line 172: ID = start
+Line 172: )
+Line 173: ID = continue
+Line 173: ;
+Line 174: return
+Line 174: ID = tmp
+Line 174: ;
+Line 175: }
+Line 176: }
+Line 178: ID = static
+Line 178: int
+Line 178: Unrecognized token: 95
+Line 178: Unrecognized token: 95
+Line 178: ID = release_resource
+Line 178: (
+Line 178: ID = struct
+Line 178: ID = resource
+Line 178: *
+Line 178: ID = old
+Line 178: )
+Line 179: {
+Line 180: ID = struct
+Line 180: ID = resource
+Line 180: *
+Line 180: ID = tmp
+Line 180: ,
+Line 180: *
+Line 180: *
+Line 180: ID = p
+Line 180: ;
+Line 182: ID = p
+Line 182: =
+Line 182: Unrecognized token: 38
+Line 182: ID = old
+Line 182: -
+Line 182: >
+Line 182: ID = parent
+Line 182: -
+Line 182: >
+Line 182: ID = child
+Line 182: ;
+Line 183: for
+Line 183: (
+Line 183: ;
+Line 183: ;
+Line 183: )
+Line 183: {
+Line 184: ID = tmp
+Line 184: =
+Line 184: *
+Line 184: ID = p
+Line 184: ;
+Line 185: if
+Line 185: (
+Line 185: !
+Line 185: ID = tmp
+Line 185: )
+Line 186: ID = break
+Line 186: ;
+Line 187: if
+Line 187: (
+Line 187: ID = tmp
+Line 187: ==
+Line 187: ID = old
+Line 187: )
+Line 187: {
+Line 188: *
+Line 188: ID = p
+Line 188: =
+Line 188: ID = tmp
+Line 188: -
+Line 188: >
+Line 188: ID = sibling
+Line 188: ;
+Line 189: ID = old
+Line 189: -
+Line 189: >
+Line 189: ID = parent
+Line 189: =
+Line 189: ID = NULL
+Line 189: ;
+Line 190: return
+Line 190: INTCON = 0
+Line 190: ;
+Line 191: }
+Line 192: ID = p
+Line 192: =
+Line 192: Unrecognized token: 38
+Line 192: ID = tmp
+Line 192: -
+Line 192: >
+Line 192: ID = sibling
+Line 192: ;
+Line 193: }
+Line 194: return
+Line 194: -
+Line 194: ID = EINVAL
+Line 194: ;
+Line 195: }
+Line 197: int
+Line 197: ID = request_resource
+Line 197: (
+Line 197: ID = struct
+Line 197: ID = resource
+Line 197: *
+Line 197: ID = root
+Line 197: ,
+Line 197: ID = struct
+Line 197: ID = resource
+Line 197: *
+Line 197: ID = new
+Line 197: )
+Line 198: {
+Line 199: ID = struct
+Line 199: ID = resource
+Line 199: *
+Line 199: ID = conflict
+Line 199: ;
+Line 201: ID = write_lock
+Line 201: (
+Line 201: Unrecognized token: 38
+Line 201: ID = resource_lock
+Line 201: )
+Line 201: ;
+Line 202: ID = conflict
+Line 202: =
+Line 202: Unrecognized token: 95
+Line 202: Unrecognized token: 95
+Line 202: ID = request_resource
+Line 202: (
+Line 202: ID = root
+Line 202: ,
+Line 202: ID = new
+Line 202: )
+Line 202: ;
+Line 203: ID = write_unlock
+Line 203: (
+Line 203: Unrecognized token: 38
+Line 203: ID = resource_lock
+Line 203: )
+Line 203: ;
+Line 204: return
+Line 204: ID = conflict
+Line 204: Unrecognized token: 63
+Line 204: -
+Line 204: ID = EBUSY
+Line 204: Unrecognized token: 58
+Line 204: INTCON = 0
+Line 204: ;
+Line 205: }
+Line 207: ID = EXPORT_SYMBOL
+Line 207: (
+Line 207: ID = request_resource
+Line 207: )
+Line 207: ;
+Line 209: ID = struct
+Line 209: ID = resource
+Line 209: *
+Line 209: Unrecognized token: 95
+Line 209: Unrecognized token: 95
+Line 209: Unrecognized token: 95
+Line 209: Unrecognized token: 95
+Line 209: ID = request_resource
+Line 209: (
+Line 209: ID = struct
+Line 209: ID = resource
+Line 209: *
+Line 209: ID = root
+Line 209: ,
+Line 209: ID = struct
+Line 209: ID = resource
+Line 209: *
+Line 209: ID = new
+Line 209: )
+Line 210: {
+Line 211: ID = struct
+Line 211: ID = resource
+Line 211: *
+Line 211: ID = conflict
+Line 211: ;
+Line 213: ID = write_lock
+Line 213: (
+Line 213: Unrecognized token: 38
+Line 213: ID = resource_lock
+Line 213: )
+Line 213: ;
+Line 214: ID = conflict
+Line 214: =
+Line 214: Unrecognized token: 95
+Line 214: Unrecognized token: 95
+Line 214: ID = request_resource
+Line 214: (
+Line 214: ID = root
+Line 214: ,
+Line 214: ID = new
+Line 214: )
+Line 214: ;
+Line 215: ID = write_unlock
+Line 215: (
+Line 215: Unrecognized token: 38
+Line 215: ID = resource_lock
+Line 215: )
+Line 215: ;
+Line 216: return
+Line 216: ID = conflict
+Line 216: ;
+Line 217: }
+Line 219: ID = EXPORT_SYMBOL
+Line 219: (
+Line 219: Unrecognized token: 95
+Line 219: Unrecognized token: 95
+Line 219: Unrecognized token: 95
+Line 219: Unrecognized token: 95
+Line 219: ID = request_resource
+Line 219: )
+Line 219: ;
+Line 221: int
+Line 221: ID = release_resource
+Line 221: (
+Line 221: ID = struct
+Line 221: ID = resource
+Line 221: *
+Line 221: ID = old
+Line 221: )
+Line 222: {
+Line 223: int
+Line 223: ID = retval
+Line 223: ;
+Line 225: ID = write_lock
+Line 225: (
+Line 225: Unrecognized token: 38
+Line 225: ID = resource_lock
+Line 225: )
+Line 225: ;
+Line 226: ID = retval
+Line 226: =
+Line 226: Unrecognized token: 95
+Line 226: Unrecognized token: 95
+Line 226: ID = release_resource
+Line 226: (
+Line 226: ID = old
+Line 226: )
+Line 226: ;
+Line 227: ID = write_unlock
+Line 227: (
+Line 227: Unrecognized token: 38
+Line 227: ID = resource_lock
+Line 227: )
+Line 227: ;
+Line 228: return
+Line 228: ID = retval
+Line 228: ;
+Line 229: }
+Line 231: ID = EXPORT_SYMBOL
+Line 231: (
+Line 231: ID = release_resource
+Line 231: )
+Line 231: ;
+Line 236: ID = static
+Line 236: int
+Line 236: ID = find_resource
+Line 236: (
+Line 236: ID = struct
+Line 236: ID = resource
+Line 236: *
+Line 236: ID = root
+Line 236: ,
+Line 236: ID = struct
+Line 236: ID = resource
+Line 236: *
+Line 236: ID = new
+Line 236: ,
+Line 237: ID = unsigned
+Line 237: ID = long
+Line 237: ID = size
+Line 237: ,
+Line 238: ID = unsigned
+Line 238: ID = long
+Line 238: ID = min
+Line 238: ,
+Line 238: ID = unsigned
+Line 238: ID = long
+Line 238: ID = max
+Line 238: ,
+Line 239: ID = unsigned
+Line 239: ID = long
+Line 239: ID = align
+Line 239: ,
+Line 240: void
+Line 240: (
+Line 240: *
+Line 240: ID = alignf
+Line 240: )
+Line 240: (
+Line 240: void
+Line 240: *
+Line 240: ,
+Line 240: ID = struct
+Line 240: ID = resource
+Line 240: *
+Line 240: ,
+Line 241: ID = unsigned
+Line 241: ID = long
+Line 241: ,
+Line 241: ID = unsigned
+Line 241: ID = long
+Line 241: )
+Line 241: ,
+Line 242: void
+Line 242: *
+Line 242: ID = alignf_data
+Line 242: )
+Line 243: {
+Line 244: ID = struct
+Line 244: ID = resource
+Line 244: *
+Line 244: ID = this
+Line 244: =
+Line 244: ID = root
+Line 244: -
+Line 244: >
+Line 244: ID = child
+Line 244: ;
+Line 246: ID = new
+Line 246: -
+Line 246: >
+Line 246: ID = start
+Line 246: =
+Line 246: ID = root
+Line 246: -
+Line 246: >
+Line 246: ID = start
+Line 246: ;
+Line 251: if
+Line 251: (
+Line 251: ID = this
+Line 251: &&
+Line 251: ID = this
+Line 251: -
+Line 251: >
+Line 251: ID = start
+Line 251: ==
+Line 251: INTCON = 0
+Line 251: )
+Line 251: {
+Line 252: ID = new
+Line 252: -
+Line 252: >
+Line 252: ID = start
+Line 252: =
+Line 252: ID = this
+Line 252: -
+Line 252: >
+Line 252: ID = end
+Line 252: +
+Line 252: INTCON = 1
+Line 252: ;
+Line 253: ID = this
+Line 253: =
+Line 253: ID = this
+Line 253: -
+Line 253: >
+Line 253: ID = sibling
+Line 253: ;
+Line 254: }
+Line 255: for
+Line 255: (
+Line 255: ;
+Line 255: ;
+Line 255: )
+Line 255: {
+Line 256: if
+Line 256: (
+Line 256: ID = this
+Line 256: )
+Line 257: ID = new
+Line 257: -
+Line 257: >
+Line 257: ID = end
+Line 257: =
+Line 257: ID = this
+Line 257: -
+Line 257: >
+Line 257: ID = start
+Line 257: -
+Line 257: INTCON = 1
+Line 257: ;
+Line 258: else
+Line 259: ID = new
+Line 259: -
+Line 259: >
+Line 259: ID = end
+Line 259: =
+Line 259: ID = root
+Line 259: -
+Line 259: >
+Line 259: ID = end
+Line 259: ;
+Line 260: if
+Line 260: (
+Line 260: ID = new
+Line 260: -
+Line 260: >
+Line 260: ID = start
+Line 260: <
+Line 260: ID = min
+Line 260: )
+Line 261: ID = new
+Line 261: -
+Line 261: >
+Line 261: ID = start
+Line 261: =
+Line 261: ID = min
+Line 261: ;
+Line 262: if
+Line 262: (
+Line 262: ID = new
+Line 262: -
+Line 262: >
+Line 262: ID = end
+Line 262: >
+Line 262: ID = max
+Line 262: )
+Line 263: ID = new
+Line 263: -
+Line 263: >
+Line 263: ID = end
+Line 263: =
+Line 263: ID = max
+Line 263: ;
+Line 264: ID = new
+Line 264: -
+Line 264: >
+Line 264: ID = start
+Line 264: =
+Line 264: (
+Line 264: ID = new
+Line 264: -
+Line 264: >
+Line 264: ID = start
+Line 264: +
+Line 264: ID = align
+Line 264: -
+Line 264: INTCON = 1
+Line 264: )
+Line 264: Unrecognized token: 38
+Line 264: Unrecognized token: 126
+Line 264: (
+Line 264: ID = align
+Line 264: -
+Line 264: INTCON = 1
+Line 264: )
+Line 264: ;
+Line 265: if
+Line 265: (
+Line 265: ID = alignf
+Line 265: )
+Line 266: ID = alignf
+Line 266: (
+Line 266: ID = alignf_data
+Line 266: ,
+Line 266: ID = new
+Line 266: ,
+Line 266: ID = size
+Line 266: ,
+Line 266: ID = align
+Line 266: )
+Line 266: ;
+Line 267: if
+Line 267: (
+Line 267: ID = new
+Line 267: -
+Line 267: >
+Line 267: ID = start
+Line 267: <
+Line 267: ID = new
+Line 267: -
+Line 267: >
+Line 267: ID = end
+Line 267: &&
+Line 267: ID = new
+Line 267: -
+Line 267: >
+Line 267: ID = end
+Line 267: -
+Line 267: ID = new
+Line 267: -
+Line 267: >
+Line 267: ID = start
+Line 267: +
+Line 267: INTCON = 1
+Line 267: >=
+Line 267: ID = size
+Line 267: )
+Line 267: {
+Line 268: ID = new
+Line 268: -
+Line 268: >
+Line 268: ID = end
+Line 268: =
+Line 268: ID = new
+Line 268: -
+Line 268: >
+Line 268: ID = start
+Line 268: +
+Line 268: ID = size
+Line 268: -
+Line 268: INTCON = 1
+Line 268: ;
+Line 269: return
+Line 269: INTCON = 0
+Line 269: ;
+Line 270: }
+Line 271: if
+Line 271: (
+Line 271: !
+Line 271: ID = this
+Line 271: )
+Line 272: ID = break
+Line 272: ;
+Line 273: ID = new
+Line 273: -
+Line 273: >
+Line 273: ID = start
+Line 273: =
+Line 273: ID = this
+Line 273: -
+Line 273: >
+Line 273: ID = end
+Line 273: +
+Line 273: INTCON = 1
+Line 273: ;
+Line 274: ID = this
+Line 274: =
+Line 274: ID = this
+Line 274: -
+Line 274: >
+Line 274: ID = sibling
+Line 274: ;
+Line 275: }
+Line 276: return
+Line 276: -
+Line 276: ID = EBUSY
+Line 276: ;
+Line 277: }
+Line 282: int
+Line 282: ID = allocate_resource
+Line 282: (
+Line 282: ID = struct
+Line 282: ID = resource
+Line 282: *
+Line 282: ID = root
+Line 282: ,
+Line 282: ID = struct
+Line 282: ID = resource
+Line 282: *
+Line 282: ID = new
+Line 282: ,
+Line 283: ID = unsigned
+Line 283: ID = long
+Line 283: ID = size
+Line 283: ,
+Line 284: ID = unsigned
+Line 284: ID = long
+Line 284: ID = min
+Line 284: ,
+Line 284: ID = unsigned
+Line 284: ID = long
+Line 284: ID = max
+Line 284: ,
+Line 285: ID = unsigned
+Line 285: ID = long
+Line 285: ID = align
+Line 285: ,
+Line 286: void
+Line 286: (
+Line 286: *
+Line 286: ID = alignf
+Line 286: )
+Line 286: (
+Line 286: void
+Line 286: *
+Line 286: ,
+Line 286: ID = struct
+Line 286: ID = resource
+Line 286: *
+Line 286: ,
+Line 287: ID = unsigned
+Line 287: ID = long
+Line 287: ,
+Line 287: ID = unsigned
+Line 287: ID = long
+Line 287: )
+Line 287: ,
+Line 288: void
+Line 288: *
+Line 288: ID = alignf_data
+Line 288: )
+Line 289: {
+Line 290: int
+Line 290: ID = err
+Line 290: ;
+Line 292: ID = write_lock
+Line 292: (
+Line 292: Unrecognized token: 38
+Line 292: ID = resource_lock
+Line 292: )
+Line 292: ;
+Line 293: ID = err
+Line 293: =
+Line 293: ID = find_resource
+Line 293: (
+Line 293: ID = root
+Line 293: ,
+Line 293: ID = new
+Line 293: ,
+Line 293: ID = size
+Line 293: ,
+Line 293: ID = min
+Line 293: ,
+Line 293: ID = max
+Line 293: ,
+Line 293: ID = align
+Line 293: ,
+Line 293: ID = alignf
+Line 293: ,
+Line 293: ID = alignf_data
+Line 293: )
+Line 293: ;
+Line 294: if
+Line 294: (
+Line 294: ID = err
+Line 294: >=
+Line 294: INTCON = 0
+Line 294: &&
+Line 294: Unrecognized token: 95
+Line 294: Unrecognized token: 95
+Line 294: ID = request_resource
+Line 294: (
+Line 294: ID = root
+Line 294: ,
+Line 294: ID = new
+Line 294: )
+Line 294: )
+Line 295: ID = err
+Line 295: =
+Line 295: -
+Line 295: ID = EBUSY
+Line 295: ;
+Line 296: ID = write_unlock
+Line 296: (
+Line 296: Unrecognized token: 38
+Line 296: ID = resource_lock
+Line 296: )
+Line 296: ;
+Line 297: return
+Line 297: ID = err
+Line 297: ;
+Line 298: }
+Line 300: ID = EXPORT_SYMBOL
+Line 300: (
+Line 300: ID = allocate_resource
+Line 300: )
+Line 300: ;
+Line 316: int
+Line 316: ID = insert_resource
+Line 316: (
+Line 316: ID = struct
+Line 316: ID = resource
+Line 316: *
+Line 316: ID = parent
+Line 316: ,
+Line 316: ID = struct
+Line 316: ID = resource
+Line 316: *
+Line 316: ID = new
+Line 316: )
+Line 317: {
+Line 318: int
+Line 318: ID = result
+Line 318: =
+Line 318: INTCON = 0
+Line 318: ;
+Line 319: ID = struct
+Line 319: ID = resource
+Line 319: *
+Line 319: ID = first
+Line 319: ,
+Line 319: *
+Line 319: ID = next
+Line 319: ;
+Line 321: ID = write_lock
+Line 321: (
+Line 321: Unrecognized token: 38
+Line 321: ID = resource_lock
+Line 321: )
+Line 321: ;
+Line 322: ID = begin
+Line 322: Unrecognized token: 58
+Line 323: ID = first
+Line 323: =
+Line 323: Unrecognized token: 95
+Line 323: Unrecognized token: 95
+Line 323: ID = request_resource
+Line 323: (
+Line 323: ID = parent
+Line 323: ,
+Line 323: ID = new
+Line 323: )
+Line 323: ;
+Line 324: if
+Line 324: (
+Line 324: !
+Line 324: ID = first
+Line 324: )
+Line 325: ID = goto
+Line 325: ID = out
+Line 325: ;
+Line 327: ID = result
+Line 327: =
+Line 327: -
+Line 327: ID = EBUSY
+Line 327: ;
+Line 328: if
+Line 328: (
+Line 328: ID = first
+Line 328: ==
+Line 328: ID = parent
+Line 328: )
+Line 329: ID = goto
+Line 329: ID = out
+Line 329: ;
+Line 331: for
+Line 331: (
+Line 331: ID = next
+Line 331: =
+Line 331: ID = first
+Line 331: ;
+Line 331: ID = next
+Line 331: -
+Line 331: >
+Line 331: ID = sibling
+Line 331: ;
+Line 331: ID = next
+Line 331: =
+Line 331: ID = next
+Line 331: -
+Line 331: >
+Line 331: ID = sibling
+Line 331: )
+Line 332: if
+Line 332: (
+Line 332: ID = next
+Line 332: -
+Line 332: >
+Line 332: ID = sibling
+Line 332: -
+Line 332: >
+Line 332: ID = start
+Line 332: >
+Line 332: ID = new
+Line 332: -
+Line 332: >
+Line 332: ID = end
+Line 332: )
+Line 333: ID = break
+Line 333: ;
+Line 336: if
+Line 336: (
+Line 336: ID = next
+Line 336: -
+Line 336: >
+Line 336: ID = end
+Line 336: >=
+Line 336: ID = new
+Line 336: -
+Line 336: >
+Line 336: ID = end
+Line 336: )
+Line 336: {
+Line 337: ID = parent
+Line 337: =
+Line 337: ID = next
+Line 337: ;
+Line 338: ID = result
+Line 338: =
+Line 338: INTCON = 0
+Line 338: ;
+Line 339: ID = goto
+Line 339: ID = begin
+Line 339: ;
+Line 340: }
+Line 342: ID = result
+Line 342: =
+Line 342: INTCON = 0
+Line 342: ;
+Line 344: ID = new
+Line 344: -
+Line 344: >
+Line 344: ID = parent
+Line 344: =
+Line 344: ID = parent
+Line 344: ;
+Line 345: ID = new
+Line 345: -
+Line 345: >
+Line 345: ID = sibling
+Line 345: =
+Line 345: ID = next
+Line 345: -
+Line 345: >
+Line 345: ID = sibling
+Line 345: ;
+Line 346: ID = new
+Line 346: -
+Line 346: >
+Line 346: ID = child
+Line 346: =
+Line 346: ID = first
+Line 346: ;
+Line 348: ID = next
+Line 348: -
+Line 348: >
+Line 348: ID = sibling
+Line 348: =
+Line 348: ID = NULL
+Line 348: ;
+Line 349: for
+Line 349: (
+Line 349: ID = next
+Line 349: =
+Line 349: ID = first
+Line 349: ;
+Line 349: ID = next
+Line 349: ;
+Line 349: ID = next
+Line 349: =
+Line 349: ID = next
+Line 349: -
+Line 349: >
+Line 349: ID = sibling
+Line 349: )
+Line 350: ID = next
+Line 350: -
+Line 350: >
+Line 350: ID = parent
+Line 350: =
+Line 350: ID = new
+Line 350: ;
+Line 352: if
+Line 352: (
+Line 352: ID = parent
+Line 352: -
+Line 352: >
+Line 352: ID = child
+Line 352: ==
+Line 352: ID = first
+Line 352: )
+Line 352: {
+Line 353: ID = parent
+Line 353: -
+Line 353: >
+Line 353: ID = child
+Line 353: =
+Line 353: ID = new
+Line 353: ;
+Line 354: }
+Line 354: else
+Line 354: {
+Line 355: ID = next
+Line 355: =
+Line 355: ID = parent
+Line 355: -
+Line 355: >
+Line 355: ID = child
+Line 355: ;
+Line 356: while
+Line 356: (
+Line 356: ID = next
+Line 356: -
+Line 356: >
+Line 356: ID = sibling
+Line 356: !=
+Line 356: ID = first
+Line 356: )
+Line 357: ID = next
+Line 357: =
+Line 357: ID = next
+Line 357: -
+Line 357: >
+Line 357: ID = sibling
+Line 357: ;
+Line 358: ID = next
+Line 358: -
+Line 358: >
+Line 358: ID = sibling
+Line 358: =
+Line 358: ID = new
+Line 358: ;
+Line 359: }
+Line 361: ID = out
+Line 361: Unrecognized token: 58
+Line 362: ID = write_unlock
+Line 362: (
+Line 362: Unrecognized token: 38
+Line 362: ID = resource_lock
+Line 362: )
+Line 362: ;
+Line 363: return
+Line 363: ID = result
+Line 363: ;
+Line 364: }
+Line 366: ID = EXPORT_SYMBOL
+Line 366: (
+Line 366: ID = insert_resource
+Line 366: )
+Line 366: ;
+Line 373: int
+Line 373: ID = adjust_resource
+Line 373: (
+Line 373: ID = struct
+Line 373: ID = resource
+Line 373: *
+Line 373: ID = res
+Line 373: ,
+Line 373: ID = unsigned
+Line 373: ID = long
+Line 373: ID = start
+Line 373: ,
+Line 373: ID = unsigned
+Line 373: ID = long
+Line 373: ID = size
+Line 373: )
+Line 374: {
+Line 375: ID = struct
+Line 375: ID = resource
+Line 375: *
+Line 375: ID = tmp
+Line 375: ,
+Line 375: *
+Line 375: ID = parent
+Line 375: =
+Line 375: ID = res
+Line 375: -
+Line 375: >
+Line 375: ID = parent
+Line 375: ;
+Line 376: ID = unsigned
+Line 376: ID = long
+Line 376: ID = end
+Line 376: =
+Line 376: ID = start
+Line 376: +
+Line 376: ID = size
+Line 376: -
+Line 376: INTCON = 1
+Line 376: ;
+Line 377: int
+Line 377: ID = result
+Line 377: =
+Line 377: -
+Line 377: ID = EBUSY
+Line 377: ;
+Line 379: ID = write_lock
+Line 379: (
+Line 379: Unrecognized token: 38
+Line 379: ID = resource_lock
+Line 379: )
+Line 379: ;
+Line 381: if
+Line 381: (
+Line 381: (
+Line 381: ID = start
+Line 381: <
+Line 381: ID = parent
+Line 381: -
+Line 381: >
+Line 381: ID = start
+Line 381: )
+Line 381: ||
+Line 381: (
+Line 381: ID = end
+Line 381: >
+Line 381: ID = parent
+Line 381: -
+Line 381: >
+Line 381: ID = end
+Line 381: )
+Line 381: )
+Line 382: ID = goto
+Line 382: ID = out
+Line 382: ;
+Line 384: for
+Line 384: (
+Line 384: ID = tmp
+Line 384: =
+Line 384: ID = res
+Line 384: -
+Line 384: >
+Line 384: ID = child
+Line 384: ;
+Line 384: ID = tmp
+Line 384: ;
+Line 384: ID = tmp
+Line 384: =
+Line 384: ID = tmp
+Line 384: -
+Line 384: >
+Line 384: ID = sibling
+Line 384: )
+Line 384: {
+Line 385: if
+Line 385: (
+Line 385: (
+Line 385: ID = tmp
+Line 385: -
+Line 385: >
+Line 385: ID = start
+Line 385: <
+Line 385: ID = start
+Line 385: )
+Line 385: ||
+Line 385: (
+Line 385: ID = tmp
+Line 385: -
+Line 385: >
+Line 385: ID = end
+Line 385: >
+Line 385: ID = end
+Line 385: )
+Line 385: )
+Line 386: ID = goto
+Line 386: ID = out
+Line 386: ;
+Line 387: }
+Line 389: if
+Line 389: (
+Line 389: ID = res
+Line 389: -
+Line 389: >
+Line 389: ID = sibling
+Line 389: &&
+Line 389: (
+Line 389: ID = res
+Line 389: -
+Line 389: >
+Line 389: ID = sibling
+Line 389: -
+Line 389: >
+Line 389: ID = start
+Line 389: <=
+Line 389: ID = end
+Line 389: )
+Line 389: )
+Line 390: ID = goto
+Line 390: ID = out
+Line 390: ;
+Line 392: ID = tmp
+Line 392: =
+Line 392: ID = parent
+Line 392: -
+Line 392: >
+Line 392: ID = child
+Line 392: ;
+Line 393: if
+Line 393: (
+Line 393: ID = tmp
+Line 393: !=
+Line 393: ID = res
+Line 393: )
+Line 393: {
+Line 394: while
+Line 394: (
+Line 394: ID = tmp
+Line 394: -
+Line 394: >
+Line 394: ID = sibling
+Line 394: !=
+Line 394: ID = res
+Line 394: )
+Line 395: ID = tmp
+Line 395: =
+Line 395: ID = tmp
+Line 395: -
+Line 395: >
+Line 395: ID = sibling
+Line 395: ;
+Line 396: if
+Line 396: (
+Line 396: ID = start
+Line 396: <=
+Line 396: ID = tmp
+Line 396: -
+Line 396: >
+Line 396: ID = end
+Line 396: )
+Line 397: ID = goto
+Line 397: ID = out
+Line 397: ;
+Line 398: }
+Line 400: ID = res
+Line 400: -
+Line 400: >
+Line 400: ID = start
+Line 400: =
+Line 400: ID = start
+Line 400: ;
+Line 401: ID = res
+Line 401: -
+Line 401: >
+Line 401: ID = end
+Line 401: =
+Line 401: ID = end
+Line 401: ;
+Line 402: ID = result
+Line 402: =
+Line 402: INTCON = 0
+Line 402: ;
+Line 404: ID = out
+Line 404: Unrecognized token: 58
+Line 405: ID = write_unlock
+Line 405: (
+Line 405: Unrecognized token: 38
+Line 405: ID = resource_lock
+Line 405: )
+Line 405: ;
+Line 406: return
+Line 406: ID = result
+Line 406: ;
+Line 407: }
+Line 409: ID = EXPORT_SYMBOL
+Line 409: (
+Line 409: ID = adjust_resource
+Line 409: )
+Line 409: ;
+Line 423: ID = struct
+Line 423: ID = resource
+Line 423: *
+Line 423: Unrecognized token: 95
+Line 423: Unrecognized token: 95
+Line 423: ID = request_region
+Line 423: (
+Line 423: ID = struct
+Line 423: ID = resource
+Line 423: *
+Line 423: ID = parent
+Line 423: ,
+Line 423: ID = unsigned
+Line 423: ID = long
+Line 423: ID = start
+Line 423: ,
+Line 423: ID = unsigned
+Line 423: ID = long
+Line 423: ID = n
+Line 423: ,
+Line 423: ID = const
+Line 423: char
+Line 423: *
+Line 423: ID = name
+Line 423: )
+Line 424: {
+Line 425: ID = struct
+Line 425: ID = resource
+Line 425: *
+Line 425: ID = res
+Line 425: =
+Line 425: ID = kmalloc
+Line 425: (
+Line 425: ID = sizeof
+Line 425: (
+Line 425: *
+Line 425: ID = res
+Line 425: )
+Line 425: ,
+Line 425: ID = GFP_KERNEL
+Line 425: )
+Line 425: ;
+Line 427: if
+Line 427: (
+Line 427: ID = res
+Line 427: )
+Line 427: {
+Line 428: ID = memset
+Line 428: (
+Line 428: ID = res
+Line 428: ,
+Line 428: INTCON = 0
+Line 428: ,
+Line 428: ID = sizeof
+Line 428: (
+Line 428: *
+Line 428: ID = res
+Line 428: )
+Line 428: )
+Line 428: ;
+Line 429: ID = res
+Line 429: -
+Line 429: >
+Line 429: ID = name
+Line 429: =
+Line 429: ID = name
+Line 429: ;
+Line 430: ID = res
+Line 430: -
+Line 430: >
+Line 430: ID = start
+Line 430: =
+Line 430: ID = start
+Line 430: ;
+Line 431: ID = res
+Line 431: -
+Line 431: >
+Line 431: ID = end
+Line 431: =
+Line 431: ID = start
+Line 431: +
+Line 431: ID = n
+Line 431: -
+Line 431: INTCON = 1
+Line 431: ;
+Line 432: ID = res
+Line 432: -
+Line 432: >
+Line 432: ID = flags
+Line 432: =
+Line 432: ID = IORESOURCE_BUSY
+Line 432: ;
+Line 434: ID = write_lock
+Line 434: (
+Line 434: Unrecognized token: 38
+Line 434: ID = resource_lock
+Line 434: )
+Line 434: ;
+Line 436: for
+Line 436: (
+Line 436: ;
+Line 436: ;
+Line 436: )
+Line 436: {
+Line 437: ID = struct
+Line 437: ID = resource
+Line 437: *
+Line 437: ID = conflict
+Line 437: ;
+Line 439: ID = conflict
+Line 439: =
+Line 439: Unrecognized token: 95
+Line 439: Unrecognized token: 95
+Line 439: ID = request_resource
+Line 439: (
+Line 439: ID = parent
+Line 439: ,
+Line 439: ID = res
+Line 439: )
+Line 439: ;
+Line 440: if
+Line 440: (
+Line 440: !
+Line 440: ID = conflict
+Line 440: )
+Line 441: ID = break
+Line 441: ;
+Line 442: if
+Line 442: (
+Line 442: ID = conflict
+Line 442: !=
+Line 442: ID = parent
+Line 442: )
+Line 442: {
+Line 443: ID = parent
+Line 443: =
+Line 443: ID = conflict
+Line 443: ;
+Line 444: if
+Line 444: (
+Line 444: !
+Line 444: (
+Line 444: ID = conflict
+Line 444: -
+Line 444: >
+Line 444: ID = flags
+Line 444: Unrecognized token: 38
+Line 444: ID = IORESOURCE_BUSY
+Line 444: )
+Line 444: )
+Line 445: ID = continue
+Line 445: ;
+Line 446: }
+Line 449: ID = kfree
+Line 449: (
+Line 449: ID = res
+Line 449: )
+Line 449: ;
+Line 450: ID = res
+Line 450: =
+Line 450: ID = NULL
+Line 450: ;
+Line 451: ID = break
+Line 451: ;
+Line 452: }
+Line 453: ID = write_unlock
+Line 453: (
+Line 453: Unrecognized token: 38
+Line 453: ID = resource_lock
+Line 453: )
+Line 453: ;
+Line 454: }
+Line 455: return
+Line 455: ID = res
+Line 455: ;
+Line 456: }
+Line 458: ID = EXPORT_SYMBOL
+Line 458: (
+Line 458: Unrecognized token: 95
+Line 458: Unrecognized token: 95
+Line 458: ID = request_region
+Line 458: )
+Line 458: ;
+Line 460: int
+Line 460: Unrecognized token: 95
+Line 460: Unrecognized token: 95
+Line 460: ID = deprecated
+Line 460: Unrecognized token: 95
+Line 460: Unrecognized token: 95
+Line 460: ID = check_region
+Line 460: (
+Line 460: ID = struct
+Line 460: ID = resource
+Line 460: *
+Line 460: ID = parent
+Line 460: ,
+Line 460: ID = unsigned
+Line 460: ID = long
+Line 460: ID = start
+Line 460: ,
+Line 460: ID = unsigned
+Line 460: ID = long
+Line 460: ID = n
+Line 460: )
+Line 461: {
+Line 462: ID = struct
+Line 462: ID = resource
+Line 462: *
+Line 462: ID = res
+Line 462: ;
+Line 464: ID = res
+Line 464: =
+Line 464: Unrecognized token: 95
+Line 464: Unrecognized token: 95
+Line 464: ID = request_region
+Line 464: (
+Line 464: ID = parent
+Line 464: ,
+Line 464: ID = start
+Line 464: ,
+Line 464: ID = n
+Line 464: ,
+Line 464: STRINGCON = "check-region"
+Line 464: )
+Line 464: ;
+Line 465: if
+Line 465: (
+Line 465: !
+Line 465: ID = res
+Line 465: )
+Line 466: return
+Line 466: -
+Line 466: ID = EBUSY
+Line 466: ;
+Line 468: ID = release_resource
+Line 468: (
+Line 468: ID = res
+Line 468: )
+Line 468: ;
+Line 469: ID = kfree
+Line 469: (
+Line 469: ID = res
+Line 469: )
+Line 469: ;
+Line 470: return
+Line 470: INTCON = 0
+Line 470: ;
+Line 471: }
+Line 473: ID = EXPORT_SYMBOL
+Line 473: (
+Line 473: Unrecognized token: 95
+Line 473: Unrecognized token: 95
+Line 473: ID = check_region
+Line 473: )
+Line 473: ;
+Line 475: void
+Line 475: Unrecognized token: 95
+Line 475: Unrecognized token: 95
+Line 475: ID = release_region
+Line 475: (
+Line 475: ID = struct
+Line 475: ID = resource
+Line 475: *
+Line 475: ID = parent
+Line 475: ,
+Line 475: ID = unsigned
+Line 475: ID = long
+Line 475: ID = start
+Line 475: ,
+Line 475: ID = unsigned
+Line 475: ID = long
+Line 475: ID = n
+Line 475: )
+Line 476: {
+Line 477: ID = struct
+Line 477: ID = resource
+Line 477: *
+Line 477: *
+Line 477: ID = p
+Line 477: ;
+Line 478: ID = unsigned
+Line 478: ID = long
+Line 478: ID = end
+Line 478: ;
+Line 480: ID = p
+Line 480: =
+Line 480: Unrecognized token: 38
+Line 480: ID = parent
+Line 480: -
+Line 480: >
+Line 480: ID = child
+Line 480: ;
+Line 481: ID = end
+Line 481: =
+Line 481: ID = start
+Line 481: +
+Line 481: ID = n
+Line 481: -
+Line 481: INTCON = 1
+Line 481: ;
+Line 483: ID = write_lock
+Line 483: (
+Line 483: Unrecognized token: 38
+Line 483: ID = resource_lock
+Line 483: )
+Line 483: ;
+Line 485: for
+Line 485: (
+Line 485: ;
+Line 485: ;
+Line 485: )
+Line 485: {
+Line 486: ID = struct
+Line 486: ID = resource
+Line 486: *
+Line 486: ID = res
+Line 486: =
+Line 486: *
+Line 486: ID = p
+Line 486: ;
+Line 488: if
+Line 488: (
+Line 488: !
+Line 488: ID = res
+Line 488: )
+Line 489: ID = break
+Line 489: ;
+Line 490: if
+Line 490: (
+Line 490: ID = res
+Line 490: -
+Line 490: >
+Line 490: ID = start
+Line 490: <=
+Line 490: ID = start
+Line 490: &&
+Line 490: ID = res
+Line 490: -
+Line 490: >
+Line 490: ID = end
+Line 490: >=
+Line 490: ID = end
+Line 490: )
+Line 490: {
+Line 491: if
+Line 491: (
+Line 491: !
+Line 491: (
+Line 491: ID = res
+Line 491: -
+Line 491: >
+Line 491: ID = flags
+Line 491: Unrecognized token: 38
+Line 491: ID = IORESOURCE_BUSY
+Line 491: )
+Line 491: )
+Line 491: {
+Line 492: ID = p
+Line 492: =
+Line 492: Unrecognized token: 38
+Line 492: ID = res
+Line 492: -
+Line 492: >
+Line 492: ID = child
+Line 492: ;
+Line 493: ID = continue
+Line 493: ;
+Line 494: }
+Line 495: if
+Line 495: (
+Line 495: ID = res
+Line 495: -
+Line 495: >
+Line 495: ID = start
+Line 495: !=
+Line 495: ID = start
+Line 495: ||
+Line 495: ID = res
+Line 495: -
+Line 495: >
+Line 495: ID = end
+Line 495: !=
+Line 495: ID = end
+Line 495: )
+Line 496: ID = break
+Line 496: ;
+Line 497: *
+Line 497: ID = p
+Line 497: =
+Line 497: ID = res
+Line 497: -
+Line 497: >
+Line 497: ID = sibling
+Line 497: ;
+Line 498: ID = write_unlock
+Line 498: (
+Line 498: Unrecognized token: 38
+Line 498: ID = resource_lock
+Line 498: )
+Line 498: ;
+Line 499: ID = kfree
+Line 499: (
+Line 499: ID = res
+Line 499: )
+Line 499: ;
+Line 500: return
+Line 500: ;
+Line 501: }
+Line 502: ID = p
+Line 502: =
+Line 502: Unrecognized token: 38
+Line 502: ID = res
+Line 502: -
+Line 502: >
+Line 502: ID = sibling
+Line 502: ;
+Line 503: }
+Line 505: ID = write_unlock
+Line 505: (
+Line 505: Unrecognized token: 38
+Line 505: ID = resource_lock
+Line 505: )
+Line 505: ;
+Line 507: ID = printk
+Line 507: (
+Line 507: ID = KERN_WARNING
+Line 507: STRINGCON = "Trying to free nonexistent resource <%08lx-%08lx>\n"
+Line 507: ,
+Line 507: ID = start
+Line 507: ,
+Line 507: ID = end
+Line 507: )
+Line 507: ;
+Line 508: }
+Line 510: ID = EXPORT_SYMBOL
+Line 510: (
+Line 510: Unrecognized token: 95
+Line 510: Unrecognized token: 95
+Line 510: ID = release_region
+Line 510: )
+Line 510: ;
+Line 515: Unrecognized token: 35
+Line 515: ID = define
+Line 515: ID = MAXRESERVE
+Line 515: INTCON = 4
+Line 516: ID = static
+Line 516: int
+Line 516: Unrecognized token: 95
+Line 516: Unrecognized token: 95
+Line 516: ID = init
+Line 516: ID = reserve_setup
+Line 516: (
+Line 516: char
+Line 516: *
+Line 516: ID = str
+Line 516: )
+Line 517: {
+Line 518: ID = static
+Line 518: int
+Line 518: ID = reserved
+Line 518: ;
+Line 519: ID = static
+Line 519: ID = struct
+Line 519: ID = resource
+Line 519: ID = reserve
+Line 519: [
+Line 519: ID = MAXRESERVE
+Line 519: ]
+Line 519: ;
+Line 521: for
+Line 521: (
+Line 521: ;
+Line 521: ;
+Line 521: )
+Line 521: {
+Line 522: int
+Line 522: ID = io_start
+Line 522: ,
+Line 522: ID = io_num
+Line 522: ;
+Line 523: int
+Line 523: ID = x
+Line 523: =
+Line 523: ID = reserved
+Line 523: ;
+Line 525: if
+Line 525: (
+Line 525: ID = get_option
+Line 525: (
+Line 525: Unrecognized token: 38
+Line 525: ID = str
+Line 525: ,
+Line 525: Unrecognized token: 38
+Line 525: ID = io_start
+Line 525: )
+Line 525: !=
+Line 525: INTCON = 2
+Line 525: )
+Line 526: ID = break
+Line 526: ;
+Line 527: if
+Line 527: (
+Line 527: ID = get_option
+Line 527: (
+Line 527: Unrecognized token: 38
+Line 527: ID = str
+Line 527: ,
+Line 527: Unrecognized token: 38
+Line 527: ID = io_num
+Line 527: )
+Line 527: ==
+Line 527: INTCON = 0
+Line 527: )
+Line 528: ID = break
+Line 528: ;
+Line 529: if
+Line 529: (
+Line 529: ID = x
+Line 529: <
+Line 529: ID = MAXRESERVE
+Line 529: )
+Line 529: {
+Line 530: ID = struct
+Line 530: ID = resource
+Line 530: *
+Line 530: ID = res
+Line 530: =
+Line 530: ID = reserve
+Line 530: +
+Line 530: ID = x
+Line 530: ;
+Line 531: ID = res
+Line 531: -
+Line 531: >
+Line 531: ID = name
+Line 531: =
+Line 531: STRINGCON = "reserved"
+Line 531: ;
+Line 532: ID = res
+Line 532: -
+Line 532: >
+Line 532: ID = start
+Line 532: =
+Line 532: ID = io_start
+Line 532: ;
+Line 533: ID = res
+Line 533: -
+Line 533: >
+Line 533: ID = end
+Line 533: =
+Line 533: ID = io_start
+Line 533: +
+Line 533: ID = io_num
+Line 533: -
+Line 533: INTCON = 1
+Line 533: ;
+Line 534: ID = res
+Line 534: -
+Line 534: >
+Line 534: ID = flags
+Line 534: =
+Line 534: ID = IORESOURCE_BUSY
+Line 534: ;
+Line 535: ID = res
+Line 535: -
+Line 535: >
+Line 535: ID = child
+Line 535: =
+Line 535: ID = NULL
+Line 535: ;
+Line 536: if
+Line 536: (
+Line 536: ID = request_resource
+Line 536: (
+Line 536: ID = res
+Line 536: -
+Line 536: >
+Line 536: ID = start
+Line 536: >=
+Line 536: INTCON = 0
+Line 536: ID = x10000
+Line 536: Unrecognized token: 63
+Line 536: Unrecognized token: 38
+Line 536: ID = iomem_resource
+Line 536: Unrecognized token: 58
+Line 536: Unrecognized token: 38
+Line 536: ID = ioport_resource
+Line 536: ,
+Line 536: ID = res
+Line 536: )
+Line 536: ==
+Line 536: INTCON = 0
+Line 536: )
+Line 537: ID = reserved
+Line 537: =
+Line 537: ID = x
+Line 537: +
+Line 537: INTCON = 1
+Line 537: ;
+Line 538: }
+Line 539: }
+Line 540: return
+Line 540: INTCON = 1
+Line 540: ;
+Line 541: }
+Line 543: Unrecognized token: 95
+Line 543: Unrecognized token: 95
+Line 543: ID = setup
+Line 543: (
+Line 543: STRINGCON = "reserve="
+Line 543: ,
+Line 543: ID = reserve_setup
+Line 543: )
+Line 543: ;
+Line 544: -EOF-

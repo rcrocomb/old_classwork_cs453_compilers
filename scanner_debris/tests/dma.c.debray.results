@@ -1,0 +1,496 @@
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = kernel
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = errno
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = spinlock
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = string
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = seq_file
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = proc_fs
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = init
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = asm
+Line 20: /
+Line 20: ID = dma
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = asm
+Line 21: /
+Line 21: ID = system
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 41: ID = spinlock_t
+Line 41: ID = dma_spin_lock
+Line 41: =
+Line 41: ID = SPIN_LOCK_UNLOCKED
+Line 41: ;
+Line 47: Unrecognized token: 35
+Line 47: ID = ifdef
+Line 47: ID = MAX_DMA_CHANNELS
+Line 55: ID = struct
+Line 55: ID = dma_chan
+Line 55: {
+Line 56: int
+Line 56: ID = lock
+Line 56: ;
+Line 57: ID = const
+Line 57: char
+Line 57: *
+Line 57: ID = device_id
+Line 57: ;
+Line 58: }
+Line 58: ;
+Line 60: ID = static
+Line 60: ID = struct
+Line 60: ID = dma_chan
+Line 60: ID = dma_chan_busy
+Line 60: [
+Line 60: ID = MAX_DMA_CHANNELS
+Line 60: ]
+Line 60: =
+Line 60: {
+Line 61: [
+Line 61: INTCON = 4
+Line 61: ]
+Line 61: =
+Line 61: {
+Line 61: INTCON = 1
+Line 61: ,
+Line 61: STRINGCON = "cascade"
+Line 61: }
+Line 61: ,
+Line 62: }
+Line 62: ;
+Line 65: int
+Line 65: ID = request_dma
+Line 65: (
+Line 65: ID = unsigned
+Line 65: int
+Line 65: ID = dmanr
+Line 65: ,
+Line 65: ID = const
+Line 65: char
+Line 65: *
+Line 65: ID = device_id
+Line 65: )
+Line 66: {
+Line 67: if
+Line 67: (
+Line 67: ID = dmanr
+Line 67: >=
+Line 67: ID = MAX_DMA_CHANNELS
+Line 67: )
+Line 68: return
+Line 68: -
+Line 68: ID = EINVAL
+Line 68: ;
+Line 70: if
+Line 70: (
+Line 70: ID = xchg
+Line 70: (
+Line 70: Unrecognized token: 38
+Line 70: ID = dma_chan_busy
+Line 70: [
+Line 70: ID = dmanr
+Line 70: ]
+Line 70: Unrecognized token: 46
+Line 70: ID = lock
+Line 70: ,
+Line 70: INTCON = 1
+Line 70: )
+Line 70: !=
+Line 70: INTCON = 0
+Line 70: )
+Line 71: return
+Line 71: -
+Line 71: ID = EBUSY
+Line 71: ;
+Line 73: ID = dma_chan_busy
+Line 73: [
+Line 73: ID = dmanr
+Line 73: ]
+Line 73: Unrecognized token: 46
+Line 73: ID = device_id
+Line 73: =
+Line 73: ID = device_id
+Line 73: ;
+Line 76: return
+Line 76: INTCON = 0
+Line 76: ;
+Line 77: }
+Line 80: void
+Line 80: ID = free_dma
+Line 80: (
+Line 80: ID = unsigned
+Line 80: int
+Line 80: ID = dmanr
+Line 80: )
+Line 81: {
+Line 82: if
+Line 82: (
+Line 82: ID = dmanr
+Line 82: >=
+Line 82: ID = MAX_DMA_CHANNELS
+Line 82: )
+Line 82: {
+Line 83: ID = printk
+Line 83: (
+Line 83: ID = KERN_WARNING
+Line 83: STRINGCON = "Trying to free DMA%d\n"
+Line 83: ,
+Line 83: ID = dmanr
+Line 83: )
+Line 83: ;
+Line 84: return
+Line 84: ;
+Line 85: }
+Line 87: if
+Line 87: (
+Line 87: ID = xchg
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: ID = dma_chan_busy
+Line 87: [
+Line 87: ID = dmanr
+Line 87: ]
+Line 87: Unrecognized token: 46
+Line 87: ID = lock
+Line 87: ,
+Line 87: INTCON = 0
+Line 87: )
+Line 87: ==
+Line 87: INTCON = 0
+Line 87: )
+Line 87: {
+Line 88: ID = printk
+Line 88: (
+Line 88: ID = KERN_WARNING
+Line 88: STRINGCON = "Trying to free free DMA%d\n"
+Line 88: ,
+Line 88: ID = dmanr
+Line 88: )
+Line 88: ;
+Line 89: return
+Line 89: ;
+Line 90: }
+Line 92: }
+Line 94: Unrecognized token: 35
+Line 94: else
+Line 96: int
+Line 96: ID = request_dma
+Line 96: (
+Line 96: ID = unsigned
+Line 96: int
+Line 96: ID = dmanr
+Line 96: ,
+Line 96: ID = const
+Line 96: char
+Line 96: *
+Line 96: ID = device_id
+Line 96: )
+Line 97: {
+Line 98: return
+Line 98: -
+Line 98: ID = EINVAL
+Line 98: ;
+Line 99: }
+Line 101: void
+Line 101: ID = free_dma
+Line 101: (
+Line 101: ID = unsigned
+Line 101: int
+Line 101: ID = dmanr
+Line 101: )
+Line 102: {
+Line 103: }
+Line 105: Unrecognized token: 35
+Line 105: ID = endif
+Line 107: Unrecognized token: 35
+Line 107: ID = ifdef
+Line 107: ID = CONFIG_PROC_FS
+Line 109: Unrecognized token: 35
+Line 109: ID = ifdef
+Line 109: ID = MAX_DMA_CHANNELS
+Line 110: ID = static
+Line 110: int
+Line 110: ID = proc_dma_show
+Line 110: (
+Line 110: ID = struct
+Line 110: ID = seq_file
+Line 110: *
+Line 110: ID = m
+Line 110: ,
+Line 110: void
+Line 110: *
+Line 110: ID = v
+Line 110: )
+Line 111: {
+Line 112: int
+Line 112: ID = i
+Line 112: ;
+Line 114: for
+Line 114: (
+Line 114: ID = i
+Line 114: =
+Line 114: INTCON = 0
+Line 114: ;
+Line 114: ID = i
+Line 114: <
+Line 114: ID = MAX_DMA_CHANNELS
+Line 114: ;
+Line 114: ID = i
+Line 114: +
+Line 114: +
+Line 114: )
+Line 114: {
+Line 115: if
+Line 115: (
+Line 115: ID = dma_chan_busy
+Line 115: [
+Line 115: ID = i
+Line 115: ]
+Line 115: Unrecognized token: 46
+Line 115: ID = lock
+Line 115: )
+Line 115: {
+Line 116: ID = seq_printf
+Line 116: (
+Line 116: ID = m
+Line 116: ,
+Line 116: STRINGCON = "%2d: %s\n"
+Line 116: ,
+Line 116: ID = i
+Line 116: ,
+Line 117: ID = dma_chan_busy
+Line 117: [
+Line 117: ID = i
+Line 117: ]
+Line 117: Unrecognized token: 46
+Line 117: ID = device_id
+Line 117: )
+Line 117: ;
+Line 118: }
+Line 119: }
+Line 120: return
+Line 120: INTCON = 0
+Line 120: ;
+Line 121: }
+Line 122: Unrecognized token: 35
+Line 122: else
+Line 123: ID = static
+Line 123: int
+Line 123: ID = proc_dma_show
+Line 123: (
+Line 123: ID = struct
+Line 123: ID = seq_file
+Line 123: *
+Line 123: ID = m
+Line 123: ,
+Line 123: void
+Line 123: *
+Line 123: ID = v
+Line 123: )
+Line 124: {
+Line 125: ID = seq_puts
+Line 125: (
+Line 125: ID = m
+Line 125: ,
+Line 125: STRINGCON = "No DMA\n"
+Line 125: )
+Line 125: ;
+Line 126: return
+Line 126: INTCON = 0
+Line 126: ;
+Line 127: }
+Line 128: Unrecognized token: 35
+Line 128: ID = endif
+Line 130: ID = static
+Line 130: int
+Line 130: ID = proc_dma_open
+Line 130: (
+Line 130: ID = struct
+Line 130: ID = inode
+Line 130: *
+Line 130: ID = inode
+Line 130: ,
+Line 130: ID = struct
+Line 130: ID = file
+Line 130: *
+Line 130: ID = file
+Line 130: )
+Line 131: {
+Line 132: return
+Line 132: ID = single_open
+Line 132: (
+Line 132: ID = file
+Line 132: ,
+Line 132: ID = proc_dma_show
+Line 132: ,
+Line 132: ID = NULL
+Line 132: )
+Line 132: ;
+Line 133: }
+Line 135: ID = static
+Line 135: ID = struct
+Line 135: ID = file_operations
+Line 135: ID = proc_dma_operations
+Line 135: =
+Line 135: {
+Line 136: Unrecognized token: 46
+Line 136: ID = open
+Line 136: =
+Line 136: ID = proc_dma_open
+Line 136: ,
+Line 137: Unrecognized token: 46
+Line 137: ID = read
+Line 137: =
+Line 137: ID = seq_read
+Line 137: ,
+Line 138: Unrecognized token: 46
+Line 138: ID = llseek
+Line 138: =
+Line 138: ID = seq_lseek
+Line 138: ,
+Line 139: Unrecognized token: 46
+Line 139: ID = release
+Line 139: =
+Line 139: ID = single_release
+Line 139: ,
+Line 140: }
+Line 140: ;
+Line 142: ID = static
+Line 142: int
+Line 142: Unrecognized token: 95
+Line 142: Unrecognized token: 95
+Line 142: ID = init
+Line 142: ID = proc_dma_init
+Line 142: (
+Line 142: void
+Line 142: )
+Line 143: {
+Line 144: ID = struct
+Line 144: ID = proc_dir_entry
+Line 144: *
+Line 144: ID = e
+Line 144: ;
+Line 146: ID = e
+Line 146: =
+Line 146: ID = create_proc_entry
+Line 146: (
+Line 146: STRINGCON = "dma"
+Line 146: ,
+Line 146: INTCON = 0
+Line 146: ,
+Line 146: ID = NULL
+Line 146: )
+Line 146: ;
+Line 147: if
+Line 147: (
+Line 147: ID = e
+Line 147: )
+Line 148: ID = e
+Line 148: -
+Line 148: >
+Line 148: ID = proc_fops
+Line 148: =
+Line 148: Unrecognized token: 38
+Line 148: ID = proc_dma_operations
+Line 148: ;
+Line 150: return
+Line 150: INTCON = 0
+Line 150: ;
+Line 151: }
+Line 153: Unrecognized token: 95
+Line 153: Unrecognized token: 95
+Line 153: ID = initcall
+Line 153: (
+Line 153: ID = proc_dma_init
+Line 153: )
+Line 153: ;
+Line 154: Unrecognized token: 35
+Line 154: ID = endif
+Line 156: ID = EXPORT_SYMBOL
+Line 156: (
+Line 156: ID = request_dma
+Line 156: )
+Line 156: ;
+Line 157: ID = EXPORT_SYMBOL
+Line 157: (
+Line 157: ID = free_dma
+Line 157: )
+Line 157: ;
+Line 158: ID = EXPORT_SYMBOL
+Line 158: (
+Line 158: ID = dma_spin_lock
+Line 158: )
+Line 158: ;
+Line 159: -EOF-

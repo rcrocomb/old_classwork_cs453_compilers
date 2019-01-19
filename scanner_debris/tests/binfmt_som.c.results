@@ -1,0 +1,1679 @@
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = fs
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = stat
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = sched
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = mm
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = mman
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = errno
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = signal
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = binfmts
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = som
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = string
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = file
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = fcntl
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = ptrace
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = slab
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = shm
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = personality
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = init
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = asm
+Line 32: /
+Line 32: ID = uaccess
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = asm
+Line 33: /
+Line 33: ID = pgtable
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = config
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = elf
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 39: ID = static
+Line 39: int
+Line 39: ID = load_som_binary
+Line 39: (
+Line 39: ID = struct
+Line 39: ID = linux_binprm
+Line 39: *
+Line 39: ID = bprm
+Line 39: ,
+Line 39: ID = struct
+Line 39: ID = pt_regs
+Line 39: *
+Line 39: ID = regs
+Line 39: )
+Line 39: ;
+Line 40: ID = static
+Line 40: int
+Line 40: ID = load_som_library
+Line 40: (
+Line 40: ID = struct
+Line 40: ID = file
+Line 40: *
+Line 40: )
+Line 40: ;
+Line 46: Unrecognized token: 35
+Line 46: if
+Line 46: INTCON = 0
+Line 47: ID = static
+Line 47: int
+Line 47: ID = som_core_dump
+Line 47: (
+Line 47: ID = long
+Line 47: ID = signr
+Line 47: ,
+Line 47: ID = struct
+Line 47: ID = pt_regs
+Line 47: *
+Line 47: ID = regs
+Line 47: )
+Line 47: ;
+Line 48: Unrecognized token: 35
+Line 48: else
+Line 49: Unrecognized token: 35
+Line 49: ID = define
+Line 49: ID = som_core_dump
+Line 49: ID = NULL
+Line 50: Unrecognized token: 35
+Line 50: ID = endif
+Line 52: Unrecognized token: 35
+Line 52: ID = define
+Line 52: ID = SOM_PAGESTART
+Line 52: (
+Line 52: Unrecognized token: 95
+Line 52: ID = v
+Line 52: )
+Line 52: (
+Line 52: (
+Line 52: Unrecognized token: 95
+Line 52: ID = v
+Line 52: )
+Line 52: Unrecognized token: 38
+Line 52: Unrecognized token: 126
+Line 52: (
+Line 52: ID = unsigned
+Line 52: ID = long
+Line 52: )
+Line 52: (
+Line 52: ID = SOM_PAGESIZE
+Line 52: -
+Line 52: INTCON = 1
+Line 52: )
+Line 52: )
+Line 53: Unrecognized token: 35
+Line 53: ID = define
+Line 53: ID = SOM_PAGEOFFSET
+Line 53: (
+Line 53: Unrecognized token: 95
+Line 53: ID = v
+Line 53: )
+Line 53: (
+Line 53: (
+Line 53: Unrecognized token: 95
+Line 53: ID = v
+Line 53: )
+Line 53: Unrecognized token: 38
+Line 53: (
+Line 53: ID = SOM_PAGESIZE
+Line 53: -
+Line 53: INTCON = 1
+Line 53: )
+Line 53: )
+Line 54: Unrecognized token: 35
+Line 54: ID = define
+Line 54: ID = SOM_PAGEALIGN
+Line 54: (
+Line 54: Unrecognized token: 95
+Line 54: ID = v
+Line 54: )
+Line 54: (
+Line 54: (
+Line 54: (
+Line 54: Unrecognized token: 95
+Line 54: ID = v
+Line 54: )
+Line 54: +
+Line 54: ID = SOM_PAGESIZE
+Line 54: -
+Line 54: INTCON = 1
+Line 54: )
+Line 54: Unrecognized token: 38
+Line 54: Unrecognized token: 126
+Line 54: (
+Line 54: ID = SOM_PAGESIZE
+Line 54: -
+Line 54: INTCON = 1
+Line 54: )
+Line 54: )
+Line 56: ID = static
+Line 56: ID = struct
+Line 56: ID = linux_binfmt
+Line 56: ID = som_format
+Line 56: =
+Line 56: {
+Line 57: Unrecognized token: 46
+Line 57: ID = module
+Line 57: =
+Line 57: ID = THIS_MODULE
+Line 57: ,
+Line 58: Unrecognized token: 46
+Line 58: ID = load_binary
+Line 58: =
+Line 58: ID = load_som_binary
+Line 58: ,
+Line 59: Unrecognized token: 46
+Line 59: ID = load_shlib
+Line 59: =
+Line 59: ID = load_som_library
+Line 59: ,
+Line 60: Unrecognized token: 46
+Line 60: ID = core_dump
+Line 60: =
+Line 60: ID = som_core_dump
+Line 60: ,
+Line 61: Unrecognized token: 46
+Line 61: ID = min_coredump
+Line 61: =
+Line 61: ID = SOM_PAGESIZE
+Line 62: }
+Line 62: ;
+Line 69: ID = static
+Line 69: void
+Line 69: ID = create_som_tables
+Line 69: (
+Line 69: ID = struct
+Line 69: ID = linux_binprm
+Line 69: *
+Line 69: ID = bprm
+Line 69: )
+Line 70: {
+Line 71: char
+Line 71: *
+Line 71: *
+Line 71: ID = argv
+Line 71: ,
+Line 71: *
+Line 71: *
+Line 71: ID = envp
+Line 71: ;
+Line 72: int
+Line 72: ID = argc
+Line 72: =
+Line 72: ID = bprm
+Line 72: -
+Line 72: >
+Line 72: ID = argc
+Line 72: ;
+Line 73: int
+Line 73: ID = envc
+Line 73: =
+Line 73: ID = bprm
+Line 73: -
+Line 73: >
+Line 73: ID = envc
+Line 73: ;
+Line 74: ID = unsigned
+Line 74: ID = long
+Line 74: ID = p
+Line 74: ;
+Line 75: ID = unsigned
+Line 75: ID = long
+Line 75: *
+Line 75: ID = sp
+Line 75: ;
+Line 78: ID = sp
+Line 78: =
+Line 78: (
+Line 78: ID = unsigned
+Line 78: ID = long
+Line 78: *
+Line 78: )
+Line 78: (
+Line 78: (
+Line 78: ID = bprm
+Line 78: -
+Line 78: >
+Line 78: ID = p
+Line 78: +
+Line 78: INTCON = 3
+Line 78: )
+Line 78: Unrecognized token: 38
+Line 78: Unrecognized token: 126
+Line 78: INTCON = 3
+Line 78: )
+Line 78: ;
+Line 80: ID = envp
+Line 80: =
+Line 80: (
+Line 80: char
+Line 80: *
+Line 80: *
+Line 80: )
+Line 80: ID = sp
+Line 80: ;
+Line 81: ID = sp
+Line 81: +
+Line 81: =
+Line 81: ID = envc
+Line 81: +
+Line 81: INTCON = 1
+Line 81: ;
+Line 82: ID = argv
+Line 82: =
+Line 82: (
+Line 82: char
+Line 82: *
+Line 82: *
+Line 82: )
+Line 82: ID = sp
+Line 82: ;
+Line 83: ID = sp
+Line 83: +
+Line 83: =
+Line 83: ID = argc
+Line 83: +
+Line 83: INTCON = 1
+Line 83: ;
+Line 85: Unrecognized token: 95
+Line 85: Unrecognized token: 95
+Line 85: ID = put_user
+Line 85: (
+Line 85: (
+Line 85: ID = unsigned
+Line 85: ID = long
+Line 85: )
+Line 85: ID = envp
+Line 85: ,
+Line 85: +
+Line 85: +
+Line 85: ID = sp
+Line 85: )
+Line 85: ;
+Line 86: Unrecognized token: 95
+Line 86: Unrecognized token: 95
+Line 86: ID = put_user
+Line 86: (
+Line 86: (
+Line 86: ID = unsigned
+Line 86: ID = long
+Line 86: )
+Line 86: ID = argv
+Line 86: ,
+Line 86: +
+Line 86: +
+Line 86: ID = sp
+Line 86: )
+Line 86: ;
+Line 88: Unrecognized token: 95
+Line 88: Unrecognized token: 95
+Line 88: ID = put_user
+Line 88: (
+Line 88: ID = argc
+Line 88: ,
+Line 88: +
+Line 88: +
+Line 88: ID = sp
+Line 88: )
+Line 88: ;
+Line 90: ID = bprm
+Line 90: -
+Line 90: >
+Line 90: ID = p
+Line 90: =
+Line 90: (
+Line 90: ID = unsigned
+Line 90: ID = long
+Line 90: )
+Line 90: ID = sp
+Line 90: ;
+Line 92: ID = p
+Line 92: =
+Line 92: ID = current
+Line 92: -
+Line 92: >
+Line 92: ID = mm
+Line 92: -
+Line 92: >
+Line 92: ID = arg_start
+Line 92: ;
+Line 93: while
+Line 93: (
+Line 93: ID = argc
+Line 93: -
+Line 93: -
+Line 93: >
+Line 93: INTCON = 0
+Line 93: )
+Line 93: {
+Line 94: Unrecognized token: 95
+Line 94: Unrecognized token: 95
+Line 94: ID = put_user
+Line 94: (
+Line 94: (
+Line 94: char
+Line 94: *
+Line 94: )
+Line 94: ID = p
+Line 94: ,
+Line 94: ID = argv
+Line 94: +
+Line 94: +
+Line 94: )
+Line 94: ;
+Line 95: ID = p
+Line 95: +
+Line 95: =
+Line 95: ID = strlen_user
+Line 95: (
+Line 95: (
+Line 95: char
+Line 95: *
+Line 95: )
+Line 95: ID = p
+Line 95: )
+Line 95: ;
+Line 96: }
+Line 97: Unrecognized token: 95
+Line 97: Unrecognized token: 95
+Line 97: ID = put_user
+Line 97: (
+Line 97: ID = NULL
+Line 97: ,
+Line 97: ID = argv
+Line 97: )
+Line 97: ;
+Line 98: ID = current
+Line 98: -
+Line 98: >
+Line 98: ID = mm
+Line 98: -
+Line 98: >
+Line 98: ID = arg_end
+Line 98: =
+Line 98: ID = current
+Line 98: -
+Line 98: >
+Line 98: ID = mm
+Line 98: -
+Line 98: >
+Line 98: ID = env_start
+Line 98: =
+Line 98: ID = p
+Line 98: ;
+Line 99: while
+Line 99: (
+Line 99: ID = envc
+Line 99: -
+Line 99: -
+Line 99: >
+Line 99: INTCON = 0
+Line 99: )
+Line 99: {
+Line 100: Unrecognized token: 95
+Line 100: Unrecognized token: 95
+Line 100: ID = put_user
+Line 100: (
+Line 100: (
+Line 100: char
+Line 100: *
+Line 100: )
+Line 100: ID = p
+Line 100: ,
+Line 100: ID = envp
+Line 100: +
+Line 100: +
+Line 100: )
+Line 100: ;
+Line 101: ID = p
+Line 101: +
+Line 101: =
+Line 101: ID = strlen_user
+Line 101: (
+Line 101: (
+Line 101: char
+Line 101: *
+Line 101: )
+Line 101: ID = p
+Line 101: )
+Line 101: ;
+Line 102: }
+Line 103: Unrecognized token: 95
+Line 103: Unrecognized token: 95
+Line 103: ID = put_user
+Line 103: (
+Line 103: ID = NULL
+Line 103: ,
+Line 103: ID = envp
+Line 103: )
+Line 103: ;
+Line 104: ID = current
+Line 104: -
+Line 104: >
+Line 104: ID = mm
+Line 104: -
+Line 104: >
+Line 104: ID = env_end
+Line 104: =
+Line 104: ID = p
+Line 104: ;
+Line 105: }
+Line 107: ID = static
+Line 107: int
+Line 107: ID = check_som_header
+Line 107: (
+Line 107: ID = struct
+Line 107: ID = som_hdr
+Line 107: *
+Line 107: ID = som_ex
+Line 107: )
+Line 108: {
+Line 109: int
+Line 109: *
+Line 109: ID = buf
+Line 109: =
+Line 109: (
+Line 109: int
+Line 109: *
+Line 109: )
+Line 109: ID = som_ex
+Line 109: ;
+Line 110: int
+Line 110: ID = i
+Line 110: ,
+Line 110: ID = ck
+Line 110: ;
+Line 112: if
+Line 112: (
+Line 112: ID = som_ex
+Line 112: -
+Line 112: >
+Line 112: ID = system_id
+Line 112: !=
+Line 112: ID = SOM_SID_PARISC_1_0
+Line 112: &&
+Line 113: ID = som_ex
+Line 113: -
+Line 113: >
+Line 113: ID = system_id
+Line 113: !=
+Line 113: ID = SOM_SID_PARISC_1_1
+Line 113: &&
+Line 114: ID = som_ex
+Line 114: -
+Line 114: >
+Line 114: ID = system_id
+Line 114: !=
+Line 114: ID = SOM_SID_PARISC_2_0
+Line 114: )
+Line 115: return
+Line 115: -
+Line 115: ID = ENOEXEC
+Line 115: ;
+Line 117: if
+Line 117: (
+Line 117: ID = som_ex
+Line 117: -
+Line 117: >
+Line 117: ID = a_magic
+Line 117: !=
+Line 117: ID = SOM_EXEC_NONSHARE
+Line 117: &&
+Line 118: ID = som_ex
+Line 118: -
+Line 118: >
+Line 118: ID = a_magic
+Line 118: !=
+Line 118: ID = SOM_EXEC_SHARE
+Line 118: &&
+Line 119: ID = som_ex
+Line 119: -
+Line 119: >
+Line 119: ID = a_magic
+Line 119: !=
+Line 119: ID = SOM_EXEC_DEMAND
+Line 119: )
+Line 120: return
+Line 120: -
+Line 120: ID = ENOEXEC
+Line 120: ;
+Line 122: if
+Line 122: (
+Line 122: ID = som_ex
+Line 122: -
+Line 122: >
+Line 122: ID = version_id
+Line 122: !=
+Line 122: ID = SOM_ID_OLD
+Line 122: &&
+Line 123: ID = som_ex
+Line 123: -
+Line 123: >
+Line 123: ID = version_id
+Line 123: !=
+Line 123: ID = SOM_ID_NEW
+Line 123: )
+Line 124: return
+Line 124: -
+Line 124: ID = ENOEXEC
+Line 124: ;
+Line 126: ID = ck
+Line 126: =
+Line 126: INTCON = 0
+Line 126: ;
+Line 127: for
+Line 127: (
+Line 127: ID = i
+Line 127: =
+Line 127: INTCON = 0
+Line 127: ;
+Line 127: ID = i
+Line 127: <
+Line 127: INTCON = 32
+Line 127: ;
+Line 127: ID = i
+Line 127: +
+Line 127: +
+Line 127: )
+Line 128: ID = ck
+Line 128: Unrecognized token: 94
+Line 128: =
+Line 128: ID = buf
+Line 128: [
+Line 128: ID = i
+Line 128: ]
+Line 128: ;
+Line 129: if
+Line 129: (
+Line 129: ID = ck
+Line 129: !=
+Line 129: INTCON = 0
+Line 129: )
+Line 130: return
+Line 130: -
+Line 130: ID = ENOEXEC
+Line 130: ;
+Line 132: return
+Line 132: INTCON = 0
+Line 132: ;
+Line 133: }
+Line 135: ID = static
+Line 135: int
+Line 135: ID = map_som_binary
+Line 135: (
+Line 135: ID = struct
+Line 135: ID = file
+Line 135: *
+Line 135: ID = file
+Line 135: ,
+Line 136: ID = const
+Line 136: ID = struct
+Line 136: ID = som_exec_auxhdr
+Line 136: *
+Line 136: ID = hpuxhdr
+Line 136: )
+Line 137: {
+Line 138: ID = unsigned
+Line 138: ID = long
+Line 138: ID = code_start
+Line 138: ,
+Line 138: ID = code_size
+Line 138: ,
+Line 138: ID = data_start
+Line 138: ,
+Line 138: ID = data_size
+Line 138: ;
+Line 139: ID = unsigned
+Line 139: ID = long
+Line 139: ID = bss_start
+Line 139: ,
+Line 139: ID = som_brk
+Line 139: ;
+Line 140: int
+Line 140: ID = retval
+Line 140: ;
+Line 141: int
+Line 141: ID = prot
+Line 141: =
+Line 141: ID = PROT_READ
+Line 141: Unrecognized token: 124
+Line 141: ID = PROT_EXEC
+Line 141: ;
+Line 142: int
+Line 142: ID = flags
+Line 142: =
+Line 142: ID = MAP_FIXED
+Line 142: Unrecognized token: 124
+Line 142: ID = MAP_PRIVATE
+Line 142: Unrecognized token: 124
+Line 142: ID = MAP_DENYWRITE
+Line 142: Unrecognized token: 124
+Line 142: ID = MAP_EXECUTABLE
+Line 142: ;
+Line 144: ID = mm_segment_t
+Line 144: ID = old_fs
+Line 144: =
+Line 144: ID = get_fs
+Line 144: (
+Line 144: )
+Line 144: ;
+Line 145: ID = set_fs
+Line 145: (
+Line 145: ID = get_ds
+Line 145: (
+Line 145: )
+Line 145: )
+Line 145: ;
+Line 147: ID = code_start
+Line 147: =
+Line 147: ID = SOM_PAGESTART
+Line 147: (
+Line 147: ID = hpuxhdr
+Line 147: -
+Line 147: >
+Line 147: ID = exec_tmem
+Line 147: )
+Line 147: ;
+Line 148: ID = code_size
+Line 148: =
+Line 148: ID = SOM_PAGEALIGN
+Line 148: (
+Line 148: ID = hpuxhdr
+Line 148: -
+Line 148: >
+Line 148: ID = exec_tsize
+Line 148: )
+Line 148: ;
+Line 149: ID = current
+Line 149: -
+Line 149: >
+Line 149: ID = mm
+Line 149: -
+Line 149: >
+Line 149: ID = start_code
+Line 149: =
+Line 149: ID = code_start
+Line 149: ;
+Line 150: ID = current
+Line 150: -
+Line 150: >
+Line 150: ID = mm
+Line 150: -
+Line 150: >
+Line 150: ID = end_code
+Line 150: =
+Line 150: ID = code_start
+Line 150: +
+Line 150: ID = code_size
+Line 150: ;
+Line 151: ID = down_write
+Line 151: (
+Line 151: Unrecognized token: 38
+Line 151: ID = current
+Line 151: -
+Line 151: >
+Line 151: ID = mm
+Line 151: -
+Line 151: >
+Line 151: ID = mmap_sem
+Line 151: )
+Line 151: ;
+Line 152: ID = retval
+Line 152: =
+Line 152: ID = do_mmap
+Line 152: (
+Line 152: ID = file
+Line 152: ,
+Line 152: ID = code_start
+Line 152: ,
+Line 152: ID = code_size
+Line 152: ,
+Line 152: ID = prot
+Line 152: ,
+Line 153: ID = flags
+Line 153: ,
+Line 153: ID = SOM_PAGESTART
+Line 153: (
+Line 153: ID = hpuxhdr
+Line 153: -
+Line 153: >
+Line 153: ID = exec_tfile
+Line 153: )
+Line 153: )
+Line 153: ;
+Line 154: ID = up_write
+Line 154: (
+Line 154: Unrecognized token: 38
+Line 154: ID = current
+Line 154: -
+Line 154: >
+Line 154: ID = mm
+Line 154: -
+Line 154: >
+Line 154: ID = mmap_sem
+Line 154: )
+Line 154: ;
+Line 155: if
+Line 155: (
+Line 155: ID = retval
+Line 155: <
+Line 155: INTCON = 0
+Line 155: &&
+Line 155: ID = retval
+Line 155: >
+Line 155: -
+Line 155: INTCON = 1024
+Line 155: )
+Line 156: ID = goto
+Line 156: ID = out
+Line 156: ;
+Line 158: ID = data_start
+Line 158: =
+Line 158: ID = SOM_PAGESTART
+Line 158: (
+Line 158: ID = hpuxhdr
+Line 158: -
+Line 158: >
+Line 158: ID = exec_dmem
+Line 158: )
+Line 158: ;
+Line 159: ID = data_size
+Line 159: =
+Line 159: ID = SOM_PAGEALIGN
+Line 159: (
+Line 159: ID = hpuxhdr
+Line 159: -
+Line 159: >
+Line 159: ID = exec_dsize
+Line 159: )
+Line 159: ;
+Line 160: ID = current
+Line 160: -
+Line 160: >
+Line 160: ID = mm
+Line 160: -
+Line 160: >
+Line 160: ID = start_data
+Line 160: =
+Line 160: ID = data_start
+Line 160: ;
+Line 161: ID = current
+Line 161: -
+Line 161: >
+Line 161: ID = mm
+Line 161: -
+Line 161: >
+Line 161: ID = end_data
+Line 161: =
+Line 161: ID = bss_start
+Line 161: =
+Line 161: ID = data_start
+Line 161: +
+Line 161: ID = data_size
+Line 161: ;
+Line 162: ID = down_write
+Line 162: (
+Line 162: Unrecognized token: 38
+Line 162: ID = current
+Line 162: -
+Line 162: >
+Line 162: ID = mm
+Line 162: -
+Line 162: >
+Line 162: ID = mmap_sem
+Line 162: )
+Line 162: ;
+Line 163: ID = retval
+Line 163: =
+Line 163: ID = do_mmap
+Line 163: (
+Line 163: ID = file
+Line 163: ,
+Line 163: ID = data_start
+Line 163: ,
+Line 163: ID = data_size
+Line 163: ,
+Line 164: ID = prot
+Line 164: Unrecognized token: 124
+Line 164: ID = PROT_WRITE
+Line 164: ,
+Line 164: ID = flags
+Line 164: ,
+Line 165: ID = SOM_PAGESTART
+Line 165: (
+Line 165: ID = hpuxhdr
+Line 165: -
+Line 165: >
+Line 165: ID = exec_dfile
+Line 165: )
+Line 165: )
+Line 165: ;
+Line 166: ID = up_write
+Line 166: (
+Line 166: Unrecognized token: 38
+Line 166: ID = current
+Line 166: -
+Line 166: >
+Line 166: ID = mm
+Line 166: -
+Line 166: >
+Line 166: ID = mmap_sem
+Line 166: )
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: ID = retval
+Line 167: <
+Line 167: INTCON = 0
+Line 167: &&
+Line 167: ID = retval
+Line 167: >
+Line 167: -
+Line 167: INTCON = 1024
+Line 167: )
+Line 168: ID = goto
+Line 168: ID = out
+Line 168: ;
+Line 170: ID = som_brk
+Line 170: =
+Line 170: ID = bss_start
+Line 170: +
+Line 170: ID = SOM_PAGEALIGN
+Line 170: (
+Line 170: ID = hpuxhdr
+Line 170: -
+Line 170: >
+Line 170: ID = exec_bsize
+Line 170: )
+Line 170: ;
+Line 171: ID = current
+Line 171: -
+Line 171: >
+Line 171: ID = mm
+Line 171: -
+Line 171: >
+Line 171: ID = start_brk
+Line 171: =
+Line 171: ID = current
+Line 171: -
+Line 171: >
+Line 171: ID = mm
+Line 171: -
+Line 171: >
+Line 171: ID = brk
+Line 171: =
+Line 171: ID = som_brk
+Line 171: ;
+Line 172: ID = down_write
+Line 172: (
+Line 172: Unrecognized token: 38
+Line 172: ID = current
+Line 172: -
+Line 172: >
+Line 172: ID = mm
+Line 172: -
+Line 172: >
+Line 172: ID = mmap_sem
+Line 172: )
+Line 172: ;
+Line 173: ID = retval
+Line 173: =
+Line 173: ID = do_mmap
+Line 173: (
+Line 173: ID = NULL
+Line 173: ,
+Line 173: ID = bss_start
+Line 173: ,
+Line 173: ID = som_brk
+Line 173: -
+Line 173: ID = bss_start
+Line 173: ,
+Line 174: ID = prot
+Line 174: Unrecognized token: 124
+Line 174: ID = PROT_WRITE
+Line 174: ,
+Line 174: ID = MAP_FIXED
+Line 174: Unrecognized token: 124
+Line 174: ID = MAP_PRIVATE
+Line 174: ,
+Line 174: INTCON = 0
+Line 174: )
+Line 174: ;
+Line 175: ID = up_write
+Line 175: (
+Line 175: Unrecognized token: 38
+Line 175: ID = current
+Line 175: -
+Line 175: >
+Line 175: ID = mm
+Line 175: -
+Line 175: >
+Line 175: ID = mmap_sem
+Line 175: )
+Line 175: ;
+Line 176: if
+Line 176: (
+Line 176: ID = retval
+Line 176: >
+Line 176: INTCON = 0
+Line 176: ||
+Line 176: ID = retval
+Line 176: <
+Line 176: -
+Line 176: INTCON = 1024
+Line 176: )
+Line 177: ID = retval
+Line 177: =
+Line 177: INTCON = 0
+Line 177: ;
+Line 178: ID = out
+Line 178: Unrecognized token: 58
+Line 179: ID = set_fs
+Line 179: (
+Line 179: ID = old_fs
+Line 179: )
+Line 179: ;
+Line 180: return
+Line 180: ID = retval
+Line 180: ;
+Line 181: }
+Line 189: ID = static
+Line 189: int
+Line 190: ID = load_som_binary
+Line 190: (
+Line 190: ID = struct
+Line 190: ID = linux_binprm
+Line 190: *
+Line 190: ID = bprm
+Line 190: ,
+Line 190: ID = struct
+Line 190: ID = pt_regs
+Line 190: *
+Line 190: ID = regs
+Line 190: )
+Line 191: {
+Line 192: int
+Line 192: ID = som_exec_fileno
+Line 192: ;
+Line 193: int
+Line 193: ID = retval
+Line 193: ;
+Line 194: ID = unsigned
+Line 194: int
+Line 194: ID = size
+Line 194: ;
+Line 195: ID = unsigned
+Line 195: ID = long
+Line 195: ID = som_entry
+Line 195: ;
+Line 196: ID = struct
+Line 196: ID = som_hdr
+Line 196: *
+Line 196: ID = som_ex
+Line 196: ;
+Line 197: ID = struct
+Line 197: ID = som_exec_auxhdr
+Line 197: *
+Line 197: ID = hpuxhdr
+Line 197: ;
+Line 200: ID = som_ex
+Line 200: =
+Line 200: (
+Line 200: ID = struct
+Line 200: ID = som_hdr
+Line 200: *
+Line 200: )
+Line 200: ID = bprm
+Line 200: -
+Line 200: >
+Line 200: ID = buf
+Line 200: ;
+Line 202: ID = retval
+Line 202: =
+Line 202: ID = check_som_header
+Line 202: (
+Line 202: ID = som_ex
+Line 202: )
+Line 202: ;
+Line 203: if
+Line 203: (
+Line 203: ID = retval
+Line 203: !=
+Line 203: INTCON = 0
+Line 203: )
+Line 204: ID = goto
+Line 204: ID = out
+Line 204: ;
+Line 208: ID = retval
+Line 208: =
+Line 208: -
+Line 208: ID = ENOMEM
+Line 208: ;
+Line 209: ID = size
+Line 209: =
+Line 209: ID = som_ex
+Line 209: -
+Line 209: >
+Line 209: ID = aux_header_size
+Line 209: ;
+Line 210: if
+Line 210: (
+Line 210: ID = size
+Line 210: >
+Line 210: ID = SOM_PAGESIZE
+Line 210: )
+Line 211: ID = goto
+Line 211: ID = out
+Line 211: ;
+Line 212: ID = hpuxhdr
+Line 212: =
+Line 212: (
+Line 212: ID = struct
+Line 212: ID = som_exec_auxhdr
+Line 212: *
+Line 212: )
+Line 212: ID = kmalloc
+Line 212: (
+Line 212: ID = size
+Line 212: ,
+Line 212: ID = GFP_KERNEL
+Line 212: )
+Line 212: ;
+Line 213: if
+Line 213: (
+Line 213: !
+Line 213: ID = hpuxhdr
+Line 213: )
+Line 214: ID = goto
+Line 214: ID = out
+Line 214: ;
+Line 216: ID = retval
+Line 216: =
+Line 216: ID = kernel_read
+Line 216: (
+Line 216: ID = bprm
+Line 216: -
+Line 216: >
+Line 216: ID = file
+Line 216: ,
+Line 216: ID = som_ex
+Line 216: -
+Line 216: >
+Line 216: ID = aux_header_location
+Line 216: ,
+Line 217: (
+Line 217: char
+Line 217: *
+Line 217: )
+Line 217: ID = hpuxhdr
+Line 217: ,
+Line 217: ID = size
+Line 217: )
+Line 217: ;
+Line 218: if
+Line 218: (
+Line 218: ID = retval
+Line 218: <
+Line 218: INTCON = 0
+Line 218: )
+Line 219: ID = goto
+Line 219: ID = out_free
+Line 219: ;
+Line 220: Unrecognized token: 35
+Line 220: ID = error
+Line 220: STRINGCON = "Fix security hole before enabling me"
+Line 221: ID = retval
+Line 221: =
+Line 221: ID = get_unused_fd
+Line 221: (
+Line 221: )
+Line 221: ;
+Line 222: if
+Line 222: (
+Line 222: ID = retval
+Line 222: <
+Line 222: INTCON = 0
+Line 222: )
+Line 223: ID = goto
+Line 223: ID = out_free
+Line 223: ;
+Line 224: ID = get_file
+Line 224: (
+Line 224: ID = bprm
+Line 224: -
+Line 224: >
+Line 224: ID = file
+Line 224: )
+Line 224: ;
+Line 225: ID = fd_install
+Line 225: (
+Line 225: ID = som_exec_fileno
+Line 225: =
+Line 225: ID = retval
+Line 225: ,
+Line 225: ID = bprm
+Line 225: -
+Line 225: >
+Line 225: ID = file
+Line 225: )
+Line 225: ;
+Line 228: ID = retval
+Line 228: =
+Line 228: ID = flush_old_exec
+Line 228: (
+Line 228: ID = bprm
+Line 228: )
+Line 228: ;
+Line 229: if
+Line 229: (
+Line 229: ID = retval
+Line 229: )
+Line 230: ID = goto
+Line 230: ID = out_free
+Line 230: ;
+Line 233: ID = current
+Line 233: -
+Line 233: >
+Line 233: ID = flags
+Line 233: Unrecognized token: 38
+Line 233: =
+Line 233: Unrecognized token: 126
+Line 233: ID = PF_FORKNOEXEC
+Line 233: ;
+Line 234: ID = current
+Line 234: -
+Line 234: >
+Line 234: ID = personality
+Line 234: =
+Line 234: ID = PER_HPUX
+Line 234: ;
+Line 242: ID = current
+Line 242: -
+Line 242: >
+Line 242: ID = thread
+Line 242: Unrecognized token: 46
+Line 242: ID = task_size
+Line 242: =
+Line 242: INTCON = 0
+Line 242: ID = xc0000000
+Line 242: ;
+Line 246: ID = current
+Line 246: -
+Line 246: >
+Line 246: ID = thread
+Line 246: Unrecognized token: 46
+Line 246: ID = map_base
+Line 246: =
+Line 246: INTCON = 0
+Line 246: ID = x80000000
+Line 246: ;
+Line 248: ID = retval
+Line 248: =
+Line 248: ID = map_som_binary
+Line 248: (
+Line 248: ID = bprm
+Line 248: -
+Line 248: >
+Line 248: ID = file
+Line 248: ,
+Line 248: ID = hpuxhdr
+Line 248: )
+Line 248: ;
+Line 249: if
+Line 249: (
+Line 249: ID = retval
+Line 249: <
+Line 249: INTCON = 0
+Line 249: )
+Line 250: ID = goto
+Line 250: ID = out_free
+Line 250: ;
+Line 252: ID = som_entry
+Line 252: =
+Line 252: ID = hpuxhdr
+Line 252: -
+Line 252: >
+Line 252: ID = exec_entry
+Line 252: ;
+Line 253: ID = kfree
+Line 253: (
+Line 253: ID = hpuxhdr
+Line 253: )
+Line 253: ;
+Line 255: ID = set_binfmt
+Line 255: (
+Line 255: Unrecognized token: 38
+Line 255: ID = som_format
+Line 255: )
+Line 255: ;
+Line 256: ID = compute_creds
+Line 256: (
+Line 256: ID = bprm
+Line 256: )
+Line 256: ;
+Line 257: ID = setup_arg_pages
+Line 257: (
+Line 257: ID = bprm
+Line 257: ,
+Line 257: ID = EXSTACK_DEFAULT
+Line 257: )
+Line 257: ;
+Line 259: ID = create_som_tables
+Line 259: (
+Line 259: ID = bprm
+Line 259: )
+Line 259: ;
+Line 261: ID = current
+Line 261: -
+Line 261: >
+Line 261: ID = mm
+Line 261: -
+Line 261: >
+Line 261: ID = start_stack
+Line 261: =
+Line 261: ID = bprm
+Line 261: -
+Line 261: >
+Line 261: ID = p
+Line 261: ;
+Line 262: ID = current
+Line 262: -
+Line 262: >
+Line 262: ID = mm
+Line 262: -
+Line 262: >
+Line 262: ID = rss
+Line 262: =
+Line 262: INTCON = 0
+Line 262: ;
+Line 264: Unrecognized token: 35
+Line 264: if
+Line 264: INTCON = 0
+Line 265: ID = printk
+Line 265: (
+Line 265: STRINGCON = "(start_brk) %08lx\n"
+Line 265: ,
+Line 265: (
+Line 265: ID = unsigned
+Line 265: ID = long
+Line 265: )
+Line 265: ID = current
+Line 265: -
+Line 265: >
+Line 265: ID = mm
+Line 265: -
+Line 265: >
+Line 265: ID = start_brk
+Line 265: )
+Line 265: ;
+Line 266: ID = printk
+Line 266: (
+Line 266: STRINGCON = "(end_code) %08lx\n"
+Line 266: ,
+Line 266: (
+Line 266: ID = unsigned
+Line 266: ID = long
+Line 266: )
+Line 266: ID = current
+Line 266: -
+Line 266: >
+Line 266: ID = mm
+Line 266: -
+Line 266: >
+Line 266: ID = end_code
+Line 266: )
+Line 266: ;
+Line 267: ID = printk
+Line 267: (
+Line 267: STRINGCON = "(start_code) %08lx\n"
+Line 267: ,
+Line 267: (
+Line 267: ID = unsigned
+Line 267: ID = long
+Line 267: )
+Line 267: ID = current
+Line 267: -
+Line 267: >
+Line 267: ID = mm
+Line 267: -
+Line 267: >
+Line 267: ID = start_code
+Line 267: )
+Line 267: ;
+Line 268: ID = printk
+Line 268: (
+Line 268: STRINGCON = "(end_data) %08lx\n"
+Line 268: ,
+Line 268: (
+Line 268: ID = unsigned
+Line 268: ID = long
+Line 268: )
+Line 268: ID = current
+Line 268: -
+Line 268: >
+Line 268: ID = mm
+Line 268: -
+Line 268: >
+Line 268: ID = end_data
+Line 268: )
+Line 268: ;
+Line 269: ID = printk
+Line 269: (
+Line 269: STRINGCON = "(start_stack) %08lx\n"
+Line 269: ,
+Line 269: (
+Line 269: ID = unsigned
+Line 269: ID = long
+Line 269: )
+Line 269: ID = current
+Line 269: -
+Line 269: >
+Line 269: ID = mm
+Line 269: -
+Line 269: >
+Line 269: ID = start_stack
+Line 269: )
+Line 269: ;
+Line 270: ID = printk
+Line 270: (
+Line 270: STRINGCON = "(brk) %08lx\n"
+Line 270: ,
+Line 270: (
+Line 270: ID = unsigned
+Line 270: ID = long
+Line 270: )
+Line 270: ID = current
+Line 270: -
+Line 270: >
+Line 270: ID = mm
+Line 270: -
+Line 270: >
+Line 270: ID = brk
+Line 270: )
+Line 270: ;
+Line 271: Unrecognized token: 35
+Line 271: ID = endif
+Line 273: ID = map_hpux_gateway_page
+Line 273: (
+Line 273: ID = current
+Line 273: ,
+Line 273: ID = current
+Line 273: -
+Line 273: >
+Line 273: ID = mm
+Line 273: )
+Line 273: ;
+Line 275: ID = start_thread_som
+Line 275: (
+Line 275: ID = regs
+Line 275: ,
+Line 275: ID = som_entry
+Line 275: ,
+Line 275: ID = bprm
+Line 275: -
+Line 275: >
+Line 275: ID = p
+Line 275: )
+Line 275: ;
+Line 276: if
+Line 276: (
+Line 276: ID = current
+Line 276: -
+Line 276: >
+Line 276: ID = ptrace
+Line 276: Unrecognized token: 38
+Line 276: ID = PT_PTRACED
+Line 276: )
+Line 277: ID = send_sig
+Line 277: (
+Line 277: ID = SIGTRAP
+Line 277: ,
+Line 277: ID = current
+Line 277: ,
+Line 277: INTCON = 0
+Line 277: )
+Line 277: ;
+Line 278: return
+Line 278: INTCON = 0
+Line 278: ;
+Line 281: ID = out_free
+Line 281: Unrecognized token: 58
+Line 282: ID = kfree
+Line 282: (
+Line 282: ID = hpuxhdr
+Line 282: )
+Line 282: ;
+Line 283: ID = out
+Line 283: Unrecognized token: 58
+Line 284: return
+Line 284: ID = retval
+Line 284: ;
+Line 285: }
+Line 287: ID = static
+Line 287: int
+Line 287: ID = load_som_library
+Line 287: (
+Line 287: ID = struct
+Line 287: ID = file
+Line 287: *
+Line 287: ID = f
+Line 287: )
+Line 288: {
+Line 290: return
+Line 290: -
+Line 290: ID = ENOEXEC
+Line 290: ;
+Line 291: }
+Line 297: ID = static
+Line 297: int
+Line 297: Unrecognized token: 95
+Line 297: Unrecognized token: 95
+Line 297: ID = init
+Line 297: ID = init_som_binfmt
+Line 297: (
+Line 297: void
+Line 297: )
+Line 298: {
+Line 299: return
+Line 299: ID = register_binfmt
+Line 299: (
+Line 299: Unrecognized token: 38
+Line 299: ID = som_format
+Line 299: )
+Line 299: ;
+Line 300: }
+Line 302: ID = static
+Line 302: void
+Line 302: Unrecognized token: 95
+Line 302: Unrecognized token: 95
+Line 302: ID = exit
+Line 302: ID = exit_som_binfmt
+Line 302: (
+Line 302: void
+Line 302: )
+Line 303: {
+Line 305: ID = unregister_binfmt
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = som_format
+Line 305: )
+Line 305: ;
+Line 306: }
+Line 308: ID = core_initcall
+Line 308: (
+Line 308: ID = init_som_binfmt
+Line 308: )
+Line 308: ;
+Line 309: ID = module_exit
+Line 309: (
+Line 309: ID = exit_som_binfmt
+Line 309: )
+Line 309: ;
+Line 310: -EOF-

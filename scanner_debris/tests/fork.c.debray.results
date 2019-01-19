@@ -1,0 +1,6078 @@
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = config
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = slab
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = init
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = unistd
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = smp_lock
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = module
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = vmalloc
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = completion
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = namespace
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = personality
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = mempolicy
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = sem
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = file
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = binfmts
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = mman
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = fs
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = cpu
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = security
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = syscalls
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = jiffies
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = futex
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = ptrace
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = mount
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = audit
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = rmap
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = asm
+Line 40: /
+Line 40: ID = pgtable
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = asm
+Line 41: /
+Line 41: ID = pgalloc
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = asm
+Line 42: /
+Line 42: ID = uaccess
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 43: Unrecognized token: 35
+Line 43: ID = include
+Line 43: <
+Line 43: ID = asm
+Line 43: /
+Line 43: ID = mmu_context
+Line 43: Unrecognized token: 46
+Line 43: ID = h
+Line 43: >
+Line 44: Unrecognized token: 35
+Line 44: ID = include
+Line 44: <
+Line 44: ID = asm
+Line 44: /
+Line 44: ID = cacheflush
+Line 44: Unrecognized token: 46
+Line 44: ID = h
+Line 44: >
+Line 45: Unrecognized token: 35
+Line 45: ID = include
+Line 45: <
+Line 45: ID = asm
+Line 45: /
+Line 45: ID = tlbflush
+Line 45: Unrecognized token: 46
+Line 45: ID = h
+Line 45: >
+Line 50: int
+Line 50: ID = nr_threads
+Line 50: ;
+Line 52: int
+Line 52: ID = max_threads
+Line 52: ;
+Line 53: ID = unsigned
+Line 53: ID = long
+Line 53: ID = total_forks
+Line 53: ;
+Line 55: ID = DEFINE_PER_CPU
+Line 55: (
+Line 55: ID = unsigned
+Line 55: ID = long
+Line 55: ,
+Line 55: ID = process_counts
+Line 55: )
+Line 55: =
+Line 55: INTCON = 0
+Line 55: ;
+Line 57: ID = rwlock_t
+Line 57: ID = tasklist_lock
+Line 57: Unrecognized token: 95
+Line 57: Unrecognized token: 95
+Line 57: ID = cacheline_aligned
+Line 57: =
+Line 57: ID = RW_LOCK_UNLOCKED
+Line 57: ;
+Line 59: ID = EXPORT_SYMBOL
+Line 59: (
+Line 59: ID = tasklist_lock
+Line 59: )
+Line 59: ;
+Line 61: int
+Line 61: ID = nr_processes
+Line 61: (
+Line 61: void
+Line 61: )
+Line 62: {
+Line 63: int
+Line 63: ID = cpu
+Line 63: ;
+Line 64: int
+Line 64: ID = total
+Line 64: =
+Line 64: INTCON = 0
+Line 64: ;
+Line 66: ID = for_each_online_cpu
+Line 66: (
+Line 66: ID = cpu
+Line 66: )
+Line 67: ID = total
+Line 67: +
+Line 67: =
+Line 67: ID = per_cpu
+Line 67: (
+Line 67: ID = process_counts
+Line 67: ,
+Line 67: ID = cpu
+Line 67: )
+Line 67: ;
+Line 69: return
+Line 69: ID = total
+Line 69: ;
+Line 70: }
+Line 72: Unrecognized token: 35
+Line 72: ID = ifndef
+Line 72: Unrecognized token: 95
+Line 72: Unrecognized token: 95
+Line 72: ID = HAVE_ARCH_TASK_STRUCT_ALLOCATOR
+Line 73: Unrecognized token: 35
+Line 73: ID = define
+Line 73: ID = alloc_task_struct
+Line 73: (
+Line 73: )
+Line 73: ID = kmem_cache_alloc
+Line 73: (
+Line 73: ID = task_struct_cachep
+Line 73: ,
+Line 73: ID = GFP_KERNEL
+Line 73: )
+Line 74: Unrecognized token: 35
+Line 74: ID = define
+Line 74: ID = free_task_struct
+Line 74: (
+Line 74: ID = tsk
+Line 74: )
+Line 74: ID = kmem_cache_free
+Line 74: (
+Line 74: ID = task_struct_cachep
+Line 74: ,
+Line 74: (
+Line 74: ID = tsk
+Line 74: )
+Line 74: )
+Line 75: ID = static
+Line 75: ID = kmem_cache_t
+Line 75: *
+Line 75: ID = task_struct_cachep
+Line 75: ;
+Line 76: Unrecognized token: 35
+Line 76: ID = endif
+Line 78: ID = static
+Line 78: void
+Line 78: ID = free_task
+Line 78: (
+Line 78: ID = struct
+Line 78: ID = task_struct
+Line 78: *
+Line 78: ID = tsk
+Line 78: )
+Line 79: {
+Line 80: ID = free_thread_info
+Line 80: (
+Line 80: ID = tsk
+Line 80: -
+Line 80: >
+Line 80: ID = thread_info
+Line 80: )
+Line 80: ;
+Line 81: ID = free_task_struct
+Line 81: (
+Line 81: ID = tsk
+Line 81: )
+Line 81: ;
+Line 82: }
+Line 84: void
+Line 84: Unrecognized token: 95
+Line 84: Unrecognized token: 95
+Line 84: ID = put_task_struct
+Line 84: (
+Line 84: ID = struct
+Line 84: ID = task_struct
+Line 84: *
+Line 84: ID = tsk
+Line 84: )
+Line 85: {
+Line 86: ID = WARN_ON
+Line 86: (
+Line 86: !
+Line 86: (
+Line 86: ID = tsk
+Line 86: -
+Line 86: >
+Line 86: ID = state
+Line 86: Unrecognized token: 38
+Line 86: (
+Line 86: ID = TASK_DEAD
+Line 86: Unrecognized token: 124
+Line 86: ID = TASK_ZOMBIE
+Line 86: )
+Line 86: )
+Line 86: )
+Line 86: ;
+Line 87: ID = WARN_ON
+Line 87: (
+Line 87: ID = atomic_read
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: ID = tsk
+Line 87: -
+Line 87: >
+Line 87: ID = usage
+Line 87: )
+Line 87: )
+Line 87: ;
+Line 88: ID = WARN_ON
+Line 88: (
+Line 88: ID = tsk
+Line 88: ==
+Line 88: ID = current
+Line 88: )
+Line 88: ;
+Line 90: if
+Line 90: (
+Line 90: ID = unlikely
+Line 90: (
+Line 90: ID = tsk
+Line 90: -
+Line 90: >
+Line 90: ID = audit_context
+Line 90: )
+Line 90: )
+Line 91: ID = audit_free
+Line 91: (
+Line 91: ID = tsk
+Line 91: )
+Line 91: ;
+Line 92: ID = security_task_free
+Line 92: (
+Line 92: ID = tsk
+Line 92: )
+Line 92: ;
+Line 93: ID = free_uid
+Line 93: (
+Line 93: ID = tsk
+Line 93: -
+Line 93: >
+Line 93: ID = user
+Line 93: )
+Line 93: ;
+Line 94: ID = put_group_info
+Line 94: (
+Line 94: ID = tsk
+Line 94: -
+Line 94: >
+Line 94: ID = group_info
+Line 94: )
+Line 94: ;
+Line 95: ID = free_task
+Line 95: (
+Line 95: ID = tsk
+Line 95: )
+Line 95: ;
+Line 96: }
+Line 98: void
+Line 98: ID = fastcall
+Line 98: ID = add_wait_queue
+Line 98: (
+Line 98: ID = wait_queue_head_t
+Line 98: *
+Line 98: ID = q
+Line 98: ,
+Line 98: ID = wait_queue_t
+Line 98: *
+Line 98: ID = wait
+Line 98: )
+Line 99: {
+Line 100: ID = unsigned
+Line 100: ID = long
+Line 100: ID = flags
+Line 100: ;
+Line 102: ID = wait
+Line 102: -
+Line 102: >
+Line 102: ID = flags
+Line 102: Unrecognized token: 38
+Line 102: =
+Line 102: Unrecognized token: 126
+Line 102: ID = WQ_FLAG_EXCLUSIVE
+Line 102: ;
+Line 103: ID = spin_lock_irqsave
+Line 103: (
+Line 103: Unrecognized token: 38
+Line 103: ID = q
+Line 103: -
+Line 103: >
+Line 103: ID = lock
+Line 103: ,
+Line 103: ID = flags
+Line 103: )
+Line 103: ;
+Line 104: Unrecognized token: 95
+Line 104: Unrecognized token: 95
+Line 104: ID = add_wait_queue
+Line 104: (
+Line 104: ID = q
+Line 104: ,
+Line 104: ID = wait
+Line 104: )
+Line 104: ;
+Line 105: ID = spin_unlock_irqrestore
+Line 105: (
+Line 105: Unrecognized token: 38
+Line 105: ID = q
+Line 105: -
+Line 105: >
+Line 105: ID = lock
+Line 105: ,
+Line 105: ID = flags
+Line 105: )
+Line 105: ;
+Line 106: }
+Line 108: ID = EXPORT_SYMBOL
+Line 108: (
+Line 108: ID = add_wait_queue
+Line 108: )
+Line 108: ;
+Line 110: void
+Line 110: ID = fastcall
+Line 110: ID = add_wait_queue_exclusive
+Line 110: (
+Line 110: ID = wait_queue_head_t
+Line 110: *
+Line 110: ID = q
+Line 110: ,
+Line 110: ID = wait_queue_t
+Line 110: *
+Line 110: ID = wait
+Line 110: )
+Line 111: {
+Line 112: ID = unsigned
+Line 112: ID = long
+Line 112: ID = flags
+Line 112: ;
+Line 114: ID = wait
+Line 114: -
+Line 114: >
+Line 114: ID = flags
+Line 114: Unrecognized token: 124
+Line 114: =
+Line 114: ID = WQ_FLAG_EXCLUSIVE
+Line 114: ;
+Line 115: ID = spin_lock_irqsave
+Line 115: (
+Line 115: Unrecognized token: 38
+Line 115: ID = q
+Line 115: -
+Line 115: >
+Line 115: ID = lock
+Line 115: ,
+Line 115: ID = flags
+Line 115: )
+Line 115: ;
+Line 116: Unrecognized token: 95
+Line 116: Unrecognized token: 95
+Line 116: ID = add_wait_queue_tail
+Line 116: (
+Line 116: ID = q
+Line 116: ,
+Line 116: ID = wait
+Line 116: )
+Line 116: ;
+Line 117: ID = spin_unlock_irqrestore
+Line 117: (
+Line 117: Unrecognized token: 38
+Line 117: ID = q
+Line 117: -
+Line 117: >
+Line 117: ID = lock
+Line 117: ,
+Line 117: ID = flags
+Line 117: )
+Line 117: ;
+Line 118: }
+Line 120: ID = EXPORT_SYMBOL
+Line 120: (
+Line 120: ID = add_wait_queue_exclusive
+Line 120: )
+Line 120: ;
+Line 122: void
+Line 122: ID = fastcall
+Line 122: ID = remove_wait_queue
+Line 122: (
+Line 122: ID = wait_queue_head_t
+Line 122: *
+Line 122: ID = q
+Line 122: ,
+Line 122: ID = wait_queue_t
+Line 122: *
+Line 122: ID = wait
+Line 122: )
+Line 123: {
+Line 124: ID = unsigned
+Line 124: ID = long
+Line 124: ID = flags
+Line 124: ;
+Line 126: ID = spin_lock_irqsave
+Line 126: (
+Line 126: Unrecognized token: 38
+Line 126: ID = q
+Line 126: -
+Line 126: >
+Line 126: ID = lock
+Line 126: ,
+Line 126: ID = flags
+Line 126: )
+Line 126: ;
+Line 127: Unrecognized token: 95
+Line 127: Unrecognized token: 95
+Line 127: ID = remove_wait_queue
+Line 127: (
+Line 127: ID = q
+Line 127: ,
+Line 127: ID = wait
+Line 127: )
+Line 127: ;
+Line 128: ID = spin_unlock_irqrestore
+Line 128: (
+Line 128: Unrecognized token: 38
+Line 128: ID = q
+Line 128: -
+Line 128: >
+Line 128: ID = lock
+Line 128: ,
+Line 128: ID = flags
+Line 128: )
+Line 128: ;
+Line 129: }
+Line 131: ID = EXPORT_SYMBOL
+Line 131: (
+Line 131: ID = remove_wait_queue
+Line 131: )
+Line 131: ;
+Line 146: void
+Line 146: ID = fastcall
+Line 146: ID = prepare_to_wait
+Line 146: (
+Line 146: ID = wait_queue_head_t
+Line 146: *
+Line 146: ID = q
+Line 146: ,
+Line 146: ID = wait_queue_t
+Line 146: *
+Line 146: ID = wait
+Line 146: ,
+Line 146: int
+Line 146: ID = state
+Line 146: )
+Line 147: {
+Line 148: ID = unsigned
+Line 148: ID = long
+Line 148: ID = flags
+Line 148: ;
+Line 150: ID = wait
+Line 150: -
+Line 150: >
+Line 150: ID = flags
+Line 150: Unrecognized token: 38
+Line 150: =
+Line 150: Unrecognized token: 126
+Line 150: ID = WQ_FLAG_EXCLUSIVE
+Line 150: ;
+Line 151: ID = spin_lock_irqsave
+Line 151: (
+Line 151: Unrecognized token: 38
+Line 151: ID = q
+Line 151: -
+Line 151: >
+Line 151: ID = lock
+Line 151: ,
+Line 151: ID = flags
+Line 151: )
+Line 151: ;
+Line 152: if
+Line 152: (
+Line 152: ID = list_empty
+Line 152: (
+Line 152: Unrecognized token: 38
+Line 152: ID = wait
+Line 152: -
+Line 152: >
+Line 152: ID = task_list
+Line 152: )
+Line 152: )
+Line 153: Unrecognized token: 95
+Line 153: Unrecognized token: 95
+Line 153: ID = add_wait_queue
+Line 153: (
+Line 153: ID = q
+Line 153: ,
+Line 153: ID = wait
+Line 153: )
+Line 153: ;
+Line 154: ID = set_current_state
+Line 154: (
+Line 154: ID = state
+Line 154: )
+Line 154: ;
+Line 155: ID = spin_unlock_irqrestore
+Line 155: (
+Line 155: Unrecognized token: 38
+Line 155: ID = q
+Line 155: -
+Line 155: >
+Line 155: ID = lock
+Line 155: ,
+Line 155: ID = flags
+Line 155: )
+Line 155: ;
+Line 156: }
+Line 158: ID = EXPORT_SYMBOL
+Line 158: (
+Line 158: ID = prepare_to_wait
+Line 158: )
+Line 158: ;
+Line 160: void
+Line 160: ID = fastcall
+Line 161: ID = prepare_to_wait_exclusive
+Line 161: (
+Line 161: ID = wait_queue_head_t
+Line 161: *
+Line 161: ID = q
+Line 161: ,
+Line 161: ID = wait_queue_t
+Line 161: *
+Line 161: ID = wait
+Line 161: ,
+Line 161: int
+Line 161: ID = state
+Line 161: )
+Line 162: {
+Line 163: ID = unsigned
+Line 163: ID = long
+Line 163: ID = flags
+Line 163: ;
+Line 165: ID = wait
+Line 165: -
+Line 165: >
+Line 165: ID = flags
+Line 165: Unrecognized token: 124
+Line 165: =
+Line 165: ID = WQ_FLAG_EXCLUSIVE
+Line 165: ;
+Line 166: ID = spin_lock_irqsave
+Line 166: (
+Line 166: Unrecognized token: 38
+Line 166: ID = q
+Line 166: -
+Line 166: >
+Line 166: ID = lock
+Line 166: ,
+Line 166: ID = flags
+Line 166: )
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: ID = list_empty
+Line 167: (
+Line 167: Unrecognized token: 38
+Line 167: ID = wait
+Line 167: -
+Line 167: >
+Line 167: ID = task_list
+Line 167: )
+Line 167: )
+Line 168: Unrecognized token: 95
+Line 168: Unrecognized token: 95
+Line 168: ID = add_wait_queue_tail
+Line 168: (
+Line 168: ID = q
+Line 168: ,
+Line 168: ID = wait
+Line 168: )
+Line 168: ;
+Line 169: ID = set_current_state
+Line 169: (
+Line 169: ID = state
+Line 169: )
+Line 169: ;
+Line 170: ID = spin_unlock_irqrestore
+Line 170: (
+Line 170: Unrecognized token: 38
+Line 170: ID = q
+Line 170: -
+Line 170: >
+Line 170: ID = lock
+Line 170: ,
+Line 170: ID = flags
+Line 170: )
+Line 170: ;
+Line 171: }
+Line 173: ID = EXPORT_SYMBOL
+Line 173: (
+Line 173: ID = prepare_to_wait_exclusive
+Line 173: )
+Line 173: ;
+Line 175: void
+Line 175: ID = fastcall
+Line 175: ID = finish_wait
+Line 175: (
+Line 175: ID = wait_queue_head_t
+Line 175: *
+Line 175: ID = q
+Line 175: ,
+Line 175: ID = wait_queue_t
+Line 175: *
+Line 175: ID = wait
+Line 175: )
+Line 176: {
+Line 177: ID = unsigned
+Line 177: ID = long
+Line 177: ID = flags
+Line 177: ;
+Line 179: Unrecognized token: 95
+Line 179: Unrecognized token: 95
+Line 179: ID = set_current_state
+Line 179: (
+Line 179: ID = TASK_RUNNING
+Line 179: )
+Line 179: ;
+Line 193: if
+Line 193: (
+Line 193: !
+Line 193: ID = list_empty_careful
+Line 193: (
+Line 193: Unrecognized token: 38
+Line 193: ID = wait
+Line 193: -
+Line 193: >
+Line 193: ID = task_list
+Line 193: )
+Line 193: )
+Line 193: {
+Line 194: ID = spin_lock_irqsave
+Line 194: (
+Line 194: Unrecognized token: 38
+Line 194: ID = q
+Line 194: -
+Line 194: >
+Line 194: ID = lock
+Line 194: ,
+Line 194: ID = flags
+Line 194: )
+Line 194: ;
+Line 195: ID = list_del_init
+Line 195: (
+Line 195: Unrecognized token: 38
+Line 195: ID = wait
+Line 195: -
+Line 195: >
+Line 195: ID = task_list
+Line 195: )
+Line 195: ;
+Line 196: ID = spin_unlock_irqrestore
+Line 196: (
+Line 196: Unrecognized token: 38
+Line 196: ID = q
+Line 196: -
+Line 196: >
+Line 196: ID = lock
+Line 196: ,
+Line 196: ID = flags
+Line 196: )
+Line 196: ;
+Line 197: }
+Line 198: }
+Line 200: ID = EXPORT_SYMBOL
+Line 200: (
+Line 200: ID = finish_wait
+Line 200: )
+Line 200: ;
+Line 202: int
+Line 202: ID = autoremove_wake_function
+Line 202: (
+Line 202: ID = wait_queue_t
+Line 202: *
+Line 202: ID = wait
+Line 202: ,
+Line 202: ID = unsigned
+Line 202: ID = mode
+Line 202: ,
+Line 202: int
+Line 202: ID = sync
+Line 202: ,
+Line 202: void
+Line 202: *
+Line 202: ID = key
+Line 202: )
+Line 203: {
+Line 204: int
+Line 204: ID = ret
+Line 204: =
+Line 204: ID = default_wake_function
+Line 204: (
+Line 204: ID = wait
+Line 204: ,
+Line 204: ID = mode
+Line 204: ,
+Line 204: ID = sync
+Line 204: ,
+Line 204: ID = key
+Line 204: )
+Line 204: ;
+Line 206: if
+Line 206: (
+Line 206: ID = ret
+Line 206: )
+Line 207: ID = list_del_init
+Line 207: (
+Line 207: Unrecognized token: 38
+Line 207: ID = wait
+Line 207: -
+Line 207: >
+Line 207: ID = task_list
+Line 207: )
+Line 207: ;
+Line 208: return
+Line 208: ID = ret
+Line 208: ;
+Line 209: }
+Line 211: ID = EXPORT_SYMBOL
+Line 211: (
+Line 211: ID = autoremove_wake_function
+Line 211: )
+Line 211: ;
+Line 213: void
+Line 213: Unrecognized token: 95
+Line 213: Unrecognized token: 95
+Line 213: ID = init
+Line 213: ID = fork_init
+Line 213: (
+Line 213: ID = unsigned
+Line 213: ID = long
+Line 213: ID = mempages
+Line 213: )
+Line 214: {
+Line 215: Unrecognized token: 35
+Line 215: ID = ifndef
+Line 215: Unrecognized token: 95
+Line 215: Unrecognized token: 95
+Line 215: ID = HAVE_ARCH_TASK_STRUCT_ALLOCATOR
+Line 216: Unrecognized token: 35
+Line 216: ID = ifndef
+Line 216: ID = ARCH_MIN_TASKALIGN
+Line 217: Unrecognized token: 35
+Line 217: ID = define
+Line 217: ID = ARCH_MIN_TASKALIGN
+Line 217: ID = L1_CACHE_BYTES
+Line 218: Unrecognized token: 35
+Line 218: ID = endif
+Line 220: ID = task_struct_cachep
+Line 220: =
+Line 221: ID = kmem_cache_create
+Line 221: (
+Line 221: STRINGCON = "task_struct"
+Line 221: ,
+Line 221: ID = sizeof
+Line 221: (
+Line 221: ID = struct
+Line 221: ID = task_struct
+Line 221: )
+Line 221: ,
+Line 222: ID = ARCH_MIN_TASKALIGN
+Line 222: ,
+Line 222: ID = SLAB_PANIC
+Line 222: ,
+Line 222: ID = NULL
+Line 222: ,
+Line 222: ID = NULL
+Line 222: )
+Line 222: ;
+Line 223: Unrecognized token: 35
+Line 223: ID = endif
+Line 230: ID = max_threads
+Line 230: =
+Line 230: ID = mempages
+Line 230: /
+Line 230: (
+Line 230: ID = THREAD_SIZE
+Line 230: /
+Line 230: ID = PAGE_SIZE
+Line 230: )
+Line 230: /
+Line 230: INTCON = 8
+Line 230: ;
+Line 234: if
+Line 234: (
+Line 234: ID = max_threads
+Line 234: <
+Line 234: INTCON = 20
+Line 234: )
+Line 235: ID = max_threads
+Line 235: =
+Line 235: INTCON = 20
+Line 235: ;
+Line 237: ID = init_task
+Line 237: Unrecognized token: 46
+Line 237: ID = rlim
+Line 237: [
+Line 237: ID = RLIMIT_NPROC
+Line 237: ]
+Line 237: Unrecognized token: 46
+Line 237: ID = rlim_cur
+Line 237: =
+Line 237: ID = max_threads
+Line 237: /
+Line 237: INTCON = 2
+Line 237: ;
+Line 238: ID = init_task
+Line 238: Unrecognized token: 46
+Line 238: ID = rlim
+Line 238: [
+Line 238: ID = RLIMIT_NPROC
+Line 238: ]
+Line 238: Unrecognized token: 46
+Line 238: ID = rlim_max
+Line 238: =
+Line 238: ID = max_threads
+Line 238: /
+Line 238: INTCON = 2
+Line 238: ;
+Line 239: }
+Line 241: ID = static
+Line 241: ID = struct
+Line 241: ID = task_struct
+Line 241: *
+Line 241: ID = dup_task_struct
+Line 241: (
+Line 241: ID = struct
+Line 241: ID = task_struct
+Line 241: *
+Line 241: ID = orig
+Line 241: )
+Line 242: {
+Line 243: ID = struct
+Line 243: ID = task_struct
+Line 243: *
+Line 243: ID = tsk
+Line 243: ;
+Line 244: ID = struct
+Line 244: ID = thread_info
+Line 244: *
+Line 244: ID = ti
+Line 244: ;
+Line 246: ID = prepare_to_copy
+Line 246: (
+Line 246: ID = orig
+Line 246: )
+Line 246: ;
+Line 248: ID = tsk
+Line 248: =
+Line 248: ID = alloc_task_struct
+Line 248: (
+Line 248: )
+Line 248: ;
+Line 249: if
+Line 249: (
+Line 249: !
+Line 249: ID = tsk
+Line 249: )
+Line 250: return
+Line 250: ID = NULL
+Line 250: ;
+Line 252: ID = ti
+Line 252: =
+Line 252: ID = alloc_thread_info
+Line 252: (
+Line 252: ID = tsk
+Line 252: )
+Line 252: ;
+Line 253: if
+Line 253: (
+Line 253: !
+Line 253: ID = ti
+Line 253: )
+Line 253: {
+Line 254: ID = free_task_struct
+Line 254: (
+Line 254: ID = tsk
+Line 254: )
+Line 254: ;
+Line 255: return
+Line 255: ID = NULL
+Line 255: ;
+Line 256: }
+Line 258: *
+Line 258: ID = ti
+Line 258: =
+Line 258: *
+Line 258: ID = orig
+Line 258: -
+Line 258: >
+Line 258: ID = thread_info
+Line 258: ;
+Line 259: *
+Line 259: ID = tsk
+Line 259: =
+Line 259: *
+Line 259: ID = orig
+Line 259: ;
+Line 260: ID = tsk
+Line 260: -
+Line 260: >
+Line 260: ID = thread_info
+Line 260: =
+Line 260: ID = ti
+Line 260: ;
+Line 261: ID = ti
+Line 261: -
+Line 261: >
+Line 261: ID = task
+Line 261: =
+Line 261: ID = tsk
+Line 261: ;
+Line 264: ID = atomic_set
+Line 264: (
+Line 264: Unrecognized token: 38
+Line 264: ID = tsk
+Line 264: -
+Line 264: >
+Line 264: ID = usage
+Line 264: ,
+Line 264: INTCON = 2
+Line 264: )
+Line 264: ;
+Line 265: return
+Line 265: ID = tsk
+Line 265: ;
+Line 266: }
+Line 268: Unrecognized token: 35
+Line 268: ID = ifdef
+Line 268: ID = CONFIG_MMU
+Line 269: ID = static
+Line 269: ID = inline
+Line 269: int
+Line 269: ID = dup_mmap
+Line 269: (
+Line 269: ID = struct
+Line 269: ID = mm_struct
+Line 269: *
+Line 269: ID = mm
+Line 269: ,
+Line 269: ID = struct
+Line 269: ID = mm_struct
+Line 269: *
+Line 269: ID = oldmm
+Line 269: )
+Line 270: {
+Line 271: ID = struct
+Line 271: ID = vm_area_struct
+Line 271: *
+Line 271: ID = mpnt
+Line 271: ,
+Line 271: *
+Line 271: ID = tmp
+Line 271: ,
+Line 271: *
+Line 271: *
+Line 271: ID = pprev
+Line 271: ;
+Line 272: ID = struct
+Line 272: ID = rb_node
+Line 272: *
+Line 272: *
+Line 272: ID = rb_link
+Line 272: ,
+Line 272: *
+Line 272: ID = rb_parent
+Line 272: ;
+Line 273: int
+Line 273: ID = retval
+Line 273: ;
+Line 274: ID = unsigned
+Line 274: ID = long
+Line 274: ID = charge
+Line 274: ;
+Line 275: ID = struct
+Line 275: ID = mempolicy
+Line 275: *
+Line 275: ID = pol
+Line 275: ;
+Line 277: ID = down_write
+Line 277: (
+Line 277: Unrecognized token: 38
+Line 277: ID = oldmm
+Line 277: -
+Line 277: >
+Line 277: ID = mmap_sem
+Line 277: )
+Line 277: ;
+Line 278: ID = flush_cache_mm
+Line 278: (
+Line 278: ID = current
+Line 278: -
+Line 278: >
+Line 278: ID = mm
+Line 278: )
+Line 278: ;
+Line 279: ID = mm
+Line 279: -
+Line 279: >
+Line 279: ID = locked_vm
+Line 279: =
+Line 279: INTCON = 0
+Line 279: ;
+Line 280: ID = mm
+Line 280: -
+Line 280: >
+Line 280: ID = mmap
+Line 280: =
+Line 280: ID = NULL
+Line 280: ;
+Line 281: ID = mm
+Line 281: -
+Line 281: >
+Line 281: ID = mmap_cache
+Line 281: =
+Line 281: ID = NULL
+Line 281: ;
+Line 282: ID = mm
+Line 282: -
+Line 282: >
+Line 282: ID = free_area_cache
+Line 282: =
+Line 282: ID = TASK_UNMAPPED_BASE
+Line 282: ;
+Line 283: ID = mm
+Line 283: -
+Line 283: >
+Line 283: ID = map_count
+Line 283: =
+Line 283: INTCON = 0
+Line 283: ;
+Line 284: ID = mm
+Line 284: -
+Line 284: >
+Line 284: ID = rss
+Line 284: =
+Line 284: INTCON = 0
+Line 284: ;
+Line 285: ID = cpus_clear
+Line 285: (
+Line 285: ID = mm
+Line 285: -
+Line 285: >
+Line 285: ID = cpu_vm_mask
+Line 285: )
+Line 285: ;
+Line 286: ID = mm
+Line 286: -
+Line 286: >
+Line 286: ID = mm_rb
+Line 286: =
+Line 286: ID = RB_ROOT
+Line 286: ;
+Line 287: ID = rb_link
+Line 287: =
+Line 287: Unrecognized token: 38
+Line 287: ID = mm
+Line 287: -
+Line 287: >
+Line 287: ID = mm_rb
+Line 287: Unrecognized token: 46
+Line 287: ID = rb_node
+Line 287: ;
+Line 288: ID = rb_parent
+Line 288: =
+Line 288: ID = NULL
+Line 288: ;
+Line 289: ID = pprev
+Line 289: =
+Line 289: Unrecognized token: 38
+Line 289: ID = mm
+Line 289: -
+Line 289: >
+Line 289: ID = mmap
+Line 289: ;
+Line 297: ID = spin_lock
+Line 297: (
+Line 297: Unrecognized token: 38
+Line 297: ID = mmlist_lock
+Line 297: )
+Line 297: ;
+Line 298: ID = list_add
+Line 298: (
+Line 298: Unrecognized token: 38
+Line 298: ID = mm
+Line 298: -
+Line 298: >
+Line 298: ID = mmlist
+Line 298: ,
+Line 298: Unrecognized token: 38
+Line 298: ID = current
+Line 298: -
+Line 298: >
+Line 298: ID = mm
+Line 298: -
+Line 298: >
+Line 298: ID = mmlist
+Line 298: )
+Line 298: ;
+Line 299: ID = mmlist_nr
+Line 299: +
+Line 299: +
+Line 299: ;
+Line 300: ID = spin_unlock
+Line 300: (
+Line 300: Unrecognized token: 38
+Line 300: ID = mmlist_lock
+Line 300: )
+Line 300: ;
+Line 302: for
+Line 302: (
+Line 302: ID = mpnt
+Line 302: =
+Line 302: ID = current
+Line 302: -
+Line 302: >
+Line 302: ID = mm
+Line 302: -
+Line 302: >
+Line 302: ID = mmap
+Line 302: ;
+Line 302: ID = mpnt
+Line 302: ;
+Line 302: ID = mpnt
+Line 302: =
+Line 302: ID = mpnt
+Line 302: -
+Line 302: >
+Line 302: ID = vm_next
+Line 302: )
+Line 302: {
+Line 303: ID = struct
+Line 303: ID = file
+Line 303: *
+Line 303: ID = file
+Line 303: ;
+Line 305: if
+Line 305: (
+Line 305: ID = mpnt
+Line 305: -
+Line 305: >
+Line 305: ID = vm_flags
+Line 305: Unrecognized token: 38
+Line 305: ID = VM_DONTCOPY
+Line 305: )
+Line 306: ID = continue
+Line 306: ;
+Line 307: ID = charge
+Line 307: =
+Line 307: INTCON = 0
+Line 307: ;
+Line 308: if
+Line 308: (
+Line 308: ID = mpnt
+Line 308: -
+Line 308: >
+Line 308: ID = vm_flags
+Line 308: Unrecognized token: 38
+Line 308: ID = VM_ACCOUNT
+Line 308: )
+Line 308: {
+Line 309: ID = unsigned
+Line 309: int
+Line 309: ID = len
+Line 309: =
+Line 309: (
+Line 309: ID = mpnt
+Line 309: -
+Line 309: >
+Line 309: ID = vm_end
+Line 309: -
+Line 309: ID = mpnt
+Line 309: -
+Line 309: >
+Line 309: ID = vm_start
+Line 309: )
+Line 309: >
+Line 309: >
+Line 309: ID = PAGE_SHIFT
+Line 309: ;
+Line 310: if
+Line 310: (
+Line 310: ID = security_vm_enough_memory
+Line 310: (
+Line 310: ID = len
+Line 310: )
+Line 310: )
+Line 311: ID = goto
+Line 311: ID = fail_nomem
+Line 311: ;
+Line 312: ID = charge
+Line 312: =
+Line 312: ID = len
+Line 312: ;
+Line 313: }
+Line 314: ID = tmp
+Line 314: =
+Line 314: ID = kmem_cache_alloc
+Line 314: (
+Line 314: ID = vm_area_cachep
+Line 314: ,
+Line 314: ID = SLAB_KERNEL
+Line 314: )
+Line 314: ;
+Line 315: if
+Line 315: (
+Line 315: !
+Line 315: ID = tmp
+Line 315: )
+Line 316: ID = goto
+Line 316: ID = fail_nomem
+Line 316: ;
+Line 317: *
+Line 317: ID = tmp
+Line 317: =
+Line 317: *
+Line 317: ID = mpnt
+Line 317: ;
+Line 318: ID = pol
+Line 318: =
+Line 318: ID = mpol_copy
+Line 318: (
+Line 318: ID = vma_policy
+Line 318: (
+Line 318: ID = mpnt
+Line 318: )
+Line 318: )
+Line 318: ;
+Line 319: ID = retval
+Line 319: =
+Line 319: ID = PTR_ERR
+Line 319: (
+Line 319: ID = pol
+Line 319: )
+Line 319: ;
+Line 320: if
+Line 320: (
+Line 320: ID = IS_ERR
+Line 320: (
+Line 320: ID = pol
+Line 320: )
+Line 320: )
+Line 321: ID = goto
+Line 321: ID = fail_nomem_policy
+Line 321: ;
+Line 322: ID = vma_set_policy
+Line 322: (
+Line 322: ID = tmp
+Line 322: ,
+Line 322: ID = pol
+Line 322: )
+Line 322: ;
+Line 323: ID = tmp
+Line 323: -
+Line 323: >
+Line 323: ID = vm_flags
+Line 323: Unrecognized token: 38
+Line 323: =
+Line 323: Unrecognized token: 126
+Line 323: ID = VM_LOCKED
+Line 323: ;
+Line 324: ID = tmp
+Line 324: -
+Line 324: >
+Line 324: ID = vm_mm
+Line 324: =
+Line 324: ID = mm
+Line 324: ;
+Line 325: ID = tmp
+Line 325: -
+Line 325: >
+Line 325: ID = vm_next
+Line 325: =
+Line 325: ID = NULL
+Line 325: ;
+Line 326: ID = anon_vma_link
+Line 326: (
+Line 326: ID = tmp
+Line 326: )
+Line 326: ;
+Line 327: ID = vma_prio_tree_init
+Line 327: (
+Line 327: ID = tmp
+Line 327: )
+Line 327: ;
+Line 328: ID = file
+Line 328: =
+Line 328: ID = tmp
+Line 328: -
+Line 328: >
+Line 328: ID = vm_file
+Line 328: ;
+Line 329: if
+Line 329: (
+Line 329: ID = file
+Line 329: )
+Line 329: {
+Line 330: ID = struct
+Line 330: ID = inode
+Line 330: *
+Line 330: ID = inode
+Line 330: =
+Line 330: ID = file
+Line 330: -
+Line 330: >
+Line 330: ID = f_dentry
+Line 330: -
+Line 330: >
+Line 330: ID = d_inode
+Line 330: ;
+Line 331: ID = get_file
+Line 331: (
+Line 331: ID = file
+Line 331: )
+Line 331: ;
+Line 332: if
+Line 332: (
+Line 332: ID = tmp
+Line 332: -
+Line 332: >
+Line 332: ID = vm_flags
+Line 332: Unrecognized token: 38
+Line 332: ID = VM_DENYWRITE
+Line 332: )
+Line 333: ID = atomic_dec
+Line 333: (
+Line 333: Unrecognized token: 38
+Line 333: ID = inode
+Line 333: -
+Line 333: >
+Line 333: ID = i_writecount
+Line 333: )
+Line 333: ;
+Line 336: ID = spin_lock
+Line 336: (
+Line 336: Unrecognized token: 38
+Line 336: ID = file
+Line 336: -
+Line 336: >
+Line 336: ID = f_mapping
+Line 336: -
+Line 336: >
+Line 336: ID = i_mmap_lock
+Line 336: )
+Line 336: ;
+Line 337: ID = flush_dcache_mmap_lock
+Line 337: (
+Line 337: ID = file
+Line 337: -
+Line 337: >
+Line 337: ID = f_mapping
+Line 337: )
+Line 337: ;
+Line 338: ID = vma_prio_tree_add
+Line 338: (
+Line 338: ID = tmp
+Line 338: ,
+Line 338: ID = mpnt
+Line 338: )
+Line 338: ;
+Line 339: ID = flush_dcache_mmap_unlock
+Line 339: (
+Line 339: ID = file
+Line 339: -
+Line 339: >
+Line 339: ID = f_mapping
+Line 339: )
+Line 339: ;
+Line 340: ID = spin_unlock
+Line 340: (
+Line 340: Unrecognized token: 38
+Line 340: ID = file
+Line 340: -
+Line 340: >
+Line 340: ID = f_mapping
+Line 340: -
+Line 340: >
+Line 340: ID = i_mmap_lock
+Line 340: )
+Line 340: ;
+Line 341: }
+Line 348: ID = spin_lock
+Line 348: (
+Line 348: Unrecognized token: 38
+Line 348: ID = mm
+Line 348: -
+Line 348: >
+Line 348: ID = page_table_lock
+Line 348: )
+Line 348: ;
+Line 349: *
+Line 349: ID = pprev
+Line 349: =
+Line 349: ID = tmp
+Line 349: ;
+Line 350: ID = pprev
+Line 350: =
+Line 350: Unrecognized token: 38
+Line 350: ID = tmp
+Line 350: -
+Line 350: >
+Line 350: ID = vm_next
+Line 350: ;
+Line 352: Unrecognized token: 95
+Line 352: Unrecognized token: 95
+Line 352: ID = vma_link_rb
+Line 352: (
+Line 352: ID = mm
+Line 352: ,
+Line 352: ID = tmp
+Line 352: ,
+Line 352: ID = rb_link
+Line 352: ,
+Line 352: ID = rb_parent
+Line 352: )
+Line 352: ;
+Line 353: ID = rb_link
+Line 353: =
+Line 353: Unrecognized token: 38
+Line 353: ID = tmp
+Line 353: -
+Line 353: >
+Line 353: ID = vm_rb
+Line 353: Unrecognized token: 46
+Line 353: ID = rb_right
+Line 353: ;
+Line 354: ID = rb_parent
+Line 354: =
+Line 354: Unrecognized token: 38
+Line 354: ID = tmp
+Line 354: -
+Line 354: >
+Line 354: ID = vm_rb
+Line 354: ;
+Line 356: ID = mm
+Line 356: -
+Line 356: >
+Line 356: ID = map_count
+Line 356: +
+Line 356: +
+Line 356: ;
+Line 357: ID = retval
+Line 357: =
+Line 357: ID = copy_page_range
+Line 357: (
+Line 357: ID = mm
+Line 357: ,
+Line 357: ID = current
+Line 357: -
+Line 357: >
+Line 357: ID = mm
+Line 357: ,
+Line 357: ID = tmp
+Line 357: )
+Line 357: ;
+Line 358: ID = spin_unlock
+Line 358: (
+Line 358: Unrecognized token: 38
+Line 358: ID = mm
+Line 358: -
+Line 358: >
+Line 358: ID = page_table_lock
+Line 358: )
+Line 358: ;
+Line 360: if
+Line 360: (
+Line 360: ID = tmp
+Line 360: -
+Line 360: >
+Line 360: ID = vm_ops
+Line 360: &&
+Line 360: ID = tmp
+Line 360: -
+Line 360: >
+Line 360: ID = vm_ops
+Line 360: -
+Line 360: >
+Line 360: ID = open
+Line 360: )
+Line 361: ID = tmp
+Line 361: -
+Line 361: >
+Line 361: ID = vm_ops
+Line 361: -
+Line 361: >
+Line 361: ID = open
+Line 361: (
+Line 361: ID = tmp
+Line 361: )
+Line 361: ;
+Line 363: if
+Line 363: (
+Line 363: ID = retval
+Line 363: )
+Line 364: ID = goto
+Line 364: ID = out
+Line 364: ;
+Line 365: }
+Line 366: ID = retval
+Line 366: =
+Line 366: INTCON = 0
+Line 366: ;
+Line 368: ID = out
+Line 368: Unrecognized token: 58
+Line 369: ID = flush_tlb_mm
+Line 369: (
+Line 369: ID = current
+Line 369: -
+Line 369: >
+Line 369: ID = mm
+Line 369: )
+Line 369: ;
+Line 370: ID = up_write
+Line 370: (
+Line 370: Unrecognized token: 38
+Line 370: ID = oldmm
+Line 370: -
+Line 370: >
+Line 370: ID = mmap_sem
+Line 370: )
+Line 370: ;
+Line 371: return
+Line 371: ID = retval
+Line 371: ;
+Line 372: ID = fail_nomem_policy
+Line 372: Unrecognized token: 58
+Line 373: ID = kmem_cache_free
+Line 373: (
+Line 373: ID = vm_area_cachep
+Line 373: ,
+Line 373: ID = tmp
+Line 373: )
+Line 373: ;
+Line 374: ID = fail_nomem
+Line 374: Unrecognized token: 58
+Line 375: ID = retval
+Line 375: =
+Line 375: -
+Line 375: ID = ENOMEM
+Line 375: ;
+Line 376: ID = vm_unacct_memory
+Line 376: (
+Line 376: ID = charge
+Line 376: )
+Line 376: ;
+Line 377: ID = goto
+Line 377: ID = out
+Line 377: ;
+Line 378: }
+Line 380: ID = static
+Line 380: ID = inline
+Line 380: int
+Line 380: ID = mm_alloc_pgd
+Line 380: (
+Line 380: ID = struct
+Line 380: ID = mm_struct
+Line 380: *
+Line 380: ID = mm
+Line 380: )
+Line 381: {
+Line 382: ID = mm
+Line 382: -
+Line 382: >
+Line 382: ID = pgd
+Line 382: =
+Line 382: ID = pgd_alloc
+Line 382: (
+Line 382: ID = mm
+Line 382: )
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: ID = unlikely
+Line 383: (
+Line 383: !
+Line 383: ID = mm
+Line 383: -
+Line 383: >
+Line 383: ID = pgd
+Line 383: )
+Line 383: )
+Line 384: return
+Line 384: -
+Line 384: ID = ENOMEM
+Line 384: ;
+Line 385: return
+Line 385: INTCON = 0
+Line 385: ;
+Line 386: }
+Line 388: ID = static
+Line 388: ID = inline
+Line 388: void
+Line 388: ID = mm_free_pgd
+Line 388: (
+Line 388: ID = struct
+Line 388: ID = mm_struct
+Line 388: *
+Line 388: ID = mm
+Line 388: )
+Line 389: {
+Line 390: ID = pgd_free
+Line 390: (
+Line 390: ID = mm
+Line 390: -
+Line 390: >
+Line 390: ID = pgd
+Line 390: )
+Line 390: ;
+Line 391: }
+Line 392: Unrecognized token: 35
+Line 392: else
+Line 393: Unrecognized token: 35
+Line 393: ID = define
+Line 393: ID = dup_mmap
+Line 393: (
+Line 393: ID = mm
+Line 393: ,
+Line 393: ID = oldmm
+Line 393: )
+Line 393: (
+Line 393: INTCON = 0
+Line 393: )
+Line 394: Unrecognized token: 35
+Line 394: ID = define
+Line 394: ID = mm_alloc_pgd
+Line 394: (
+Line 394: ID = mm
+Line 394: )
+Line 394: (
+Line 394: INTCON = 0
+Line 394: )
+Line 395: Unrecognized token: 35
+Line 395: ID = define
+Line 395: ID = mm_free_pgd
+Line 395: (
+Line 395: ID = mm
+Line 395: )
+Line 396: Unrecognized token: 35
+Line 396: ID = endif
+Line 398: ID = spinlock_t
+Line 398: ID = mmlist_lock
+Line 398: Unrecognized token: 95
+Line 398: Unrecognized token: 95
+Line 398: ID = cacheline_aligned_in_smp
+Line 398: =
+Line 398: ID = SPIN_LOCK_UNLOCKED
+Line 398: ;
+Line 399: int
+Line 399: ID = mmlist_nr
+Line 399: ;
+Line 401: Unrecognized token: 35
+Line 401: ID = define
+Line 401: ID = allocate_mm
+Line 401: (
+Line 401: )
+Line 401: (
+Line 401: ID = kmem_cache_alloc
+Line 401: (
+Line 401: ID = mm_cachep
+Line 401: ,
+Line 401: ID = SLAB_KERNEL
+Line 401: )
+Line 401: )
+Line 402: Unrecognized token: 35
+Line 402: ID = define
+Line 402: ID = free_mm
+Line 402: (
+Line 402: ID = mm
+Line 402: )
+Line 402: (
+Line 402: ID = kmem_cache_free
+Line 402: (
+Line 402: ID = mm_cachep
+Line 402: ,
+Line 402: (
+Line 402: ID = mm
+Line 402: )
+Line 402: )
+Line 402: )
+Line 404: Unrecognized token: 35
+Line 404: ID = include
+Line 404: <
+Line 404: ID = linux
+Line 404: /
+Line 404: ID = init_task
+Line 404: Unrecognized token: 46
+Line 404: ID = h
+Line 404: >
+Line 406: ID = static
+Line 406: ID = struct
+Line 406: ID = mm_struct
+Line 406: *
+Line 406: ID = mm_init
+Line 406: (
+Line 406: ID = struct
+Line 406: ID = mm_struct
+Line 406: *
+Line 406: ID = mm
+Line 406: )
+Line 407: {
+Line 408: ID = atomic_set
+Line 408: (
+Line 408: Unrecognized token: 38
+Line 408: ID = mm
+Line 408: -
+Line 408: >
+Line 408: ID = mm_users
+Line 408: ,
+Line 408: INTCON = 1
+Line 408: )
+Line 408: ;
+Line 409: ID = atomic_set
+Line 409: (
+Line 409: Unrecognized token: 38
+Line 409: ID = mm
+Line 409: -
+Line 409: >
+Line 409: ID = mm_count
+Line 409: ,
+Line 409: INTCON = 1
+Line 409: )
+Line 409: ;
+Line 410: ID = init_rwsem
+Line 410: (
+Line 410: Unrecognized token: 38
+Line 410: ID = mm
+Line 410: -
+Line 410: >
+Line 410: ID = mmap_sem
+Line 410: )
+Line 410: ;
+Line 411: ID = mm
+Line 411: -
+Line 411: >
+Line 411: ID = core_waiters
+Line 411: =
+Line 411: INTCON = 0
+Line 411: ;
+Line 412: ID = mm
+Line 412: -
+Line 412: >
+Line 412: ID = page_table_lock
+Line 412: =
+Line 412: ID = SPIN_LOCK_UNLOCKED
+Line 412: ;
+Line 413: ID = mm
+Line 413: -
+Line 413: >
+Line 413: ID = ioctx_list_lock
+Line 413: =
+Line 413: ID = RW_LOCK_UNLOCKED
+Line 413: ;
+Line 414: ID = mm
+Line 414: -
+Line 414: >
+Line 414: ID = ioctx_list
+Line 414: =
+Line 414: ID = NULL
+Line 414: ;
+Line 415: ID = mm
+Line 415: -
+Line 415: >
+Line 415: ID = default_kioctx
+Line 415: =
+Line 415: (
+Line 415: ID = struct
+Line 415: ID = kioctx
+Line 415: )
+Line 415: ID = INIT_KIOCTX
+Line 415: (
+Line 415: ID = mm
+Line 415: -
+Line 415: >
+Line 415: ID = default_kioctx
+Line 415: ,
+Line 415: *
+Line 415: ID = mm
+Line 415: )
+Line 415: ;
+Line 416: ID = mm
+Line 416: -
+Line 416: >
+Line 416: ID = free_area_cache
+Line 416: =
+Line 416: ID = TASK_UNMAPPED_BASE
+Line 416: ;
+Line 418: if
+Line 418: (
+Line 418: ID = likely
+Line 418: (
+Line 418: !
+Line 418: ID = mm_alloc_pgd
+Line 418: (
+Line 418: ID = mm
+Line 418: )
+Line 418: )
+Line 418: )
+Line 418: {
+Line 419: ID = mm
+Line 419: -
+Line 419: >
+Line 419: ID = def_flags
+Line 419: =
+Line 419: INTCON = 0
+Line 419: ;
+Line 420: return
+Line 420: ID = mm
+Line 420: ;
+Line 421: }
+Line 422: ID = free_mm
+Line 422: (
+Line 422: ID = mm
+Line 422: )
+Line 422: ;
+Line 423: return
+Line 423: ID = NULL
+Line 423: ;
+Line 424: }
+Line 429: ID = struct
+Line 429: ID = mm_struct
+Line 429: *
+Line 429: ID = mm_alloc
+Line 429: (
+Line 429: void
+Line 429: )
+Line 430: {
+Line 431: ID = struct
+Line 431: ID = mm_struct
+Line 431: *
+Line 431: ID = mm
+Line 431: ;
+Line 433: ID = mm
+Line 433: =
+Line 433: ID = allocate_mm
+Line 433: (
+Line 433: )
+Line 433: ;
+Line 434: if
+Line 434: (
+Line 434: ID = mm
+Line 434: )
+Line 434: {
+Line 435: ID = memset
+Line 435: (
+Line 435: ID = mm
+Line 435: ,
+Line 435: INTCON = 0
+Line 435: ,
+Line 435: ID = sizeof
+Line 435: (
+Line 435: *
+Line 435: ID = mm
+Line 435: )
+Line 435: )
+Line 435: ;
+Line 436: ID = mm
+Line 436: =
+Line 436: ID = mm_init
+Line 436: (
+Line 436: ID = mm
+Line 436: )
+Line 436: ;
+Line 437: }
+Line 438: return
+Line 438: ID = mm
+Line 438: ;
+Line 439: }
+Line 446: void
+Line 446: ID = fastcall
+Line 446: Unrecognized token: 95
+Line 446: Unrecognized token: 95
+Line 446: ID = mmdrop
+Line 446: (
+Line 446: ID = struct
+Line 446: ID = mm_struct
+Line 446: *
+Line 446: ID = mm
+Line 446: )
+Line 447: {
+Line 448: ID = BUG_ON
+Line 448: (
+Line 448: ID = mm
+Line 448: ==
+Line 448: Unrecognized token: 38
+Line 448: ID = init_mm
+Line 448: )
+Line 448: ;
+Line 449: ID = mm_free_pgd
+Line 449: (
+Line 449: ID = mm
+Line 449: )
+Line 449: ;
+Line 450: ID = destroy_context
+Line 450: (
+Line 450: ID = mm
+Line 450: )
+Line 450: ;
+Line 451: ID = free_mm
+Line 451: (
+Line 451: ID = mm
+Line 451: )
+Line 451: ;
+Line 452: }
+Line 457: void
+Line 457: ID = mmput
+Line 457: (
+Line 457: ID = struct
+Line 457: ID = mm_struct
+Line 457: *
+Line 457: ID = mm
+Line 457: )
+Line 458: {
+Line 459: if
+Line 459: (
+Line 459: ID = atomic_dec_and_lock
+Line 459: (
+Line 459: Unrecognized token: 38
+Line 459: ID = mm
+Line 459: -
+Line 459: >
+Line 459: ID = mm_users
+Line 459: ,
+Line 459: Unrecognized token: 38
+Line 459: ID = mmlist_lock
+Line 459: )
+Line 459: )
+Line 459: {
+Line 460: ID = list_del
+Line 460: (
+Line 460: Unrecognized token: 38
+Line 460: ID = mm
+Line 460: -
+Line 460: >
+Line 460: ID = mmlist
+Line 460: )
+Line 460: ;
+Line 461: ID = mmlist_nr
+Line 461: -
+Line 461: -
+Line 461: ;
+Line 462: ID = spin_unlock
+Line 462: (
+Line 462: Unrecognized token: 38
+Line 462: ID = mmlist_lock
+Line 462: )
+Line 462: ;
+Line 463: ID = exit_aio
+Line 463: (
+Line 463: ID = mm
+Line 463: )
+Line 463: ;
+Line 464: ID = exit_mmap
+Line 464: (
+Line 464: ID = mm
+Line 464: )
+Line 464: ;
+Line 465: ID = mmdrop
+Line 465: (
+Line 465: ID = mm
+Line 465: )
+Line 465: ;
+Line 466: }
+Line 467: }
+Line 475: ID = struct
+Line 475: ID = mm_struct
+Line 475: *
+Line 475: ID = mmgrab
+Line 475: (
+Line 475: ID = struct
+Line 475: ID = mm_struct
+Line 475: *
+Line 475: ID = mm
+Line 475: )
+Line 476: {
+Line 477: ID = spin_lock
+Line 477: (
+Line 477: Unrecognized token: 38
+Line 477: ID = mmlist_lock
+Line 477: )
+Line 477: ;
+Line 478: if
+Line 478: (
+Line 478: !
+Line 478: ID = atomic_read
+Line 478: (
+Line 478: Unrecognized token: 38
+Line 478: ID = mm
+Line 478: -
+Line 478: >
+Line 478: ID = mm_users
+Line 478: )
+Line 478: )
+Line 479: ID = mm
+Line 479: =
+Line 479: ID = NULL
+Line 479: ;
+Line 480: else
+Line 481: ID = atomic_inc
+Line 481: (
+Line 481: Unrecognized token: 38
+Line 481: ID = mm
+Line 481: -
+Line 481: >
+Line 481: ID = mm_users
+Line 481: )
+Line 481: ;
+Line 482: ID = spin_unlock
+Line 482: (
+Line 482: Unrecognized token: 38
+Line 482: ID = mmlist_lock
+Line 482: )
+Line 482: ;
+Line 483: return
+Line 483: ID = mm
+Line 483: ;
+Line 484: }
+Line 499: void
+Line 499: ID = mm_release
+Line 499: (
+Line 499: ID = struct
+Line 499: ID = task_struct
+Line 499: *
+Line 499: ID = tsk
+Line 499: ,
+Line 499: ID = struct
+Line 499: ID = mm_struct
+Line 499: *
+Line 499: ID = mm
+Line 499: )
+Line 500: {
+Line 501: ID = struct
+Line 501: ID = completion
+Line 501: *
+Line 501: ID = vfork_done
+Line 501: =
+Line 501: ID = tsk
+Line 501: -
+Line 501: >
+Line 501: ID = vfork_done
+Line 501: ;
+Line 504: ID = deactivate_mm
+Line 504: (
+Line 504: ID = tsk
+Line 504: ,
+Line 504: ID = mm
+Line 504: )
+Line 504: ;
+Line 507: if
+Line 507: (
+Line 507: ID = vfork_done
+Line 507: )
+Line 507: {
+Line 508: ID = tsk
+Line 508: -
+Line 508: >
+Line 508: ID = vfork_done
+Line 508: =
+Line 508: ID = NULL
+Line 508: ;
+Line 509: ID = complete
+Line 509: (
+Line 509: ID = vfork_done
+Line 509: )
+Line 509: ;
+Line 510: }
+Line 511: if
+Line 511: (
+Line 511: ID = tsk
+Line 511: -
+Line 511: >
+Line 511: ID = clear_child_tid
+Line 511: &&
+Line 511: ID = atomic_read
+Line 511: (
+Line 511: Unrecognized token: 38
+Line 511: ID = mm
+Line 511: -
+Line 511: >
+Line 511: ID = mm_users
+Line 511: )
+Line 511: >
+Line 511: INTCON = 1
+Line 511: )
+Line 511: {
+Line 512: ID = u32
+Line 512: Unrecognized token: 95
+Line 512: Unrecognized token: 95
+Line 512: ID = user
+Line 512: *
+Line 512: ID = tidptr
+Line 512: =
+Line 512: ID = tsk
+Line 512: -
+Line 512: >
+Line 512: ID = clear_child_tid
+Line 512: ;
+Line 513: ID = tsk
+Line 513: -
+Line 513: >
+Line 513: ID = clear_child_tid
+Line 513: =
+Line 513: ID = NULL
+Line 513: ;
+Line 519: ID = put_user
+Line 519: (
+Line 519: INTCON = 0
+Line 519: ,
+Line 519: ID = tidptr
+Line 519: )
+Line 519: ;
+Line 520: ID = sys_futex
+Line 520: (
+Line 520: ID = tidptr
+Line 520: ,
+Line 520: ID = FUTEX_WAKE
+Line 520: ,
+Line 520: INTCON = 1
+Line 520: ,
+Line 520: ID = NULL
+Line 520: ,
+Line 520: ID = NULL
+Line 520: ,
+Line 520: INTCON = 0
+Line 520: )
+Line 520: ;
+Line 521: }
+Line 522: }
+Line 524: ID = static
+Line 524: int
+Line 524: ID = copy_mm
+Line 524: (
+Line 524: ID = unsigned
+Line 524: ID = long
+Line 524: ID = clone_flags
+Line 524: ,
+Line 524: ID = struct
+Line 524: ID = task_struct
+Line 524: *
+Line 524: ID = tsk
+Line 524: )
+Line 525: {
+Line 526: ID = struct
+Line 526: ID = mm_struct
+Line 526: *
+Line 526: ID = mm
+Line 526: ,
+Line 526: *
+Line 526: ID = oldmm
+Line 526: ;
+Line 527: int
+Line 527: ID = retval
+Line 527: ;
+Line 529: ID = tsk
+Line 529: -
+Line 529: >
+Line 529: ID = min_flt
+Line 529: =
+Line 529: ID = tsk
+Line 529: -
+Line 529: >
+Line 529: ID = maj_flt
+Line 529: =
+Line 529: INTCON = 0
+Line 529: ;
+Line 530: ID = tsk
+Line 530: -
+Line 530: >
+Line 530: ID = cmin_flt
+Line 530: =
+Line 530: ID = tsk
+Line 530: -
+Line 530: >
+Line 530: ID = cmaj_flt
+Line 530: =
+Line 530: INTCON = 0
+Line 530: ;
+Line 531: ID = tsk
+Line 531: -
+Line 531: >
+Line 531: ID = nvcsw
+Line 531: =
+Line 531: ID = tsk
+Line 531: -
+Line 531: >
+Line 531: ID = nivcsw
+Line 531: =
+Line 531: ID = tsk
+Line 531: -
+Line 531: >
+Line 531: ID = cnvcsw
+Line 531: =
+Line 531: ID = tsk
+Line 531: -
+Line 531: >
+Line 531: ID = cnivcsw
+Line 531: =
+Line 531: INTCON = 0
+Line 531: ;
+Line 533: ID = tsk
+Line 533: -
+Line 533: >
+Line 533: ID = mm
+Line 533: =
+Line 533: ID = NULL
+Line 533: ;
+Line 534: ID = tsk
+Line 534: -
+Line 534: >
+Line 534: ID = active_mm
+Line 534: =
+Line 534: ID = NULL
+Line 534: ;
+Line 541: ID = oldmm
+Line 541: =
+Line 541: ID = current
+Line 541: -
+Line 541: >
+Line 541: ID = mm
+Line 541: ;
+Line 542: if
+Line 542: (
+Line 542: !
+Line 542: ID = oldmm
+Line 542: )
+Line 543: return
+Line 543: INTCON = 0
+Line 543: ;
+Line 545: if
+Line 545: (
+Line 545: ID = clone_flags
+Line 545: Unrecognized token: 38
+Line 545: ID = CLONE_VM
+Line 545: )
+Line 545: {
+Line 546: ID = atomic_inc
+Line 546: (
+Line 546: Unrecognized token: 38
+Line 546: ID = oldmm
+Line 546: -
+Line 546: >
+Line 546: ID = mm_users
+Line 546: )
+Line 546: ;
+Line 547: ID = mm
+Line 547: =
+Line 547: ID = oldmm
+Line 547: ;
+Line 554: ID = spin_unlock_wait
+Line 554: (
+Line 554: Unrecognized token: 38
+Line 554: ID = oldmm
+Line 554: -
+Line 554: >
+Line 554: ID = page_table_lock
+Line 554: )
+Line 554: ;
+Line 555: ID = goto
+Line 555: ID = good_mm
+Line 555: ;
+Line 556: }
+Line 558: ID = retval
+Line 558: =
+Line 558: -
+Line 558: ID = ENOMEM
+Line 558: ;
+Line 559: ID = mm
+Line 559: =
+Line 559: ID = allocate_mm
+Line 559: (
+Line 559: )
+Line 559: ;
+Line 560: if
+Line 560: (
+Line 560: !
+Line 560: ID = mm
+Line 560: )
+Line 561: ID = goto
+Line 561: ID = fail_nomem
+Line 561: ;
+Line 564: ID = memcpy
+Line 564: (
+Line 564: ID = mm
+Line 564: ,
+Line 564: ID = oldmm
+Line 564: ,
+Line 564: ID = sizeof
+Line 564: (
+Line 564: *
+Line 564: ID = mm
+Line 564: )
+Line 564: )
+Line 564: ;
+Line 565: if
+Line 565: (
+Line 565: !
+Line 565: ID = mm_init
+Line 565: (
+Line 565: ID = mm
+Line 565: )
+Line 565: )
+Line 566: ID = goto
+Line 566: ID = fail_nomem
+Line 566: ;
+Line 568: if
+Line 568: (
+Line 568: ID = init_new_context
+Line 568: (
+Line 568: ID = tsk
+Line 568: ,
+Line 568: ID = mm
+Line 568: )
+Line 568: )
+Line 569: ID = goto
+Line 569: ID = fail_nocontext
+Line 569: ;
+Line 571: ID = retval
+Line 571: =
+Line 571: ID = dup_mmap
+Line 571: (
+Line 571: ID = mm
+Line 571: ,
+Line 571: ID = oldmm
+Line 571: )
+Line 571: ;
+Line 572: if
+Line 572: (
+Line 572: ID = retval
+Line 572: )
+Line 573: ID = goto
+Line 573: ID = free_pt
+Line 573: ;
+Line 575: ID = good_mm
+Line 575: Unrecognized token: 58
+Line 576: ID = tsk
+Line 576: -
+Line 576: >
+Line 576: ID = mm
+Line 576: =
+Line 576: ID = mm
+Line 576: ;
+Line 577: ID = tsk
+Line 577: -
+Line 577: >
+Line 577: ID = active_mm
+Line 577: =
+Line 577: ID = mm
+Line 577: ;
+Line 578: return
+Line 578: INTCON = 0
+Line 578: ;
+Line 580: ID = free_pt
+Line 580: Unrecognized token: 58
+Line 581: ID = mmput
+Line 581: (
+Line 581: ID = mm
+Line 581: )
+Line 581: ;
+Line 582: ID = fail_nomem
+Line 582: Unrecognized token: 58
+Line 583: return
+Line 583: ID = retval
+Line 583: ;
+Line 585: ID = fail_nocontext
+Line 585: Unrecognized token: 58
+Line 590: ID = mm_free_pgd
+Line 590: (
+Line 590: ID = mm
+Line 590: )
+Line 590: ;
+Line 591: ID = free_mm
+Line 591: (
+Line 591: ID = mm
+Line 591: )
+Line 591: ;
+Line 592: return
+Line 592: ID = retval
+Line 592: ;
+Line 593: }
+Line 595: ID = static
+Line 595: ID = inline
+Line 595: ID = struct
+Line 595: ID = fs_struct
+Line 595: *
+Line 595: Unrecognized token: 95
+Line 595: Unrecognized token: 95
+Line 595: ID = copy_fs_struct
+Line 595: (
+Line 595: ID = struct
+Line 595: ID = fs_struct
+Line 595: *
+Line 595: ID = old
+Line 595: )
+Line 596: {
+Line 597: ID = struct
+Line 597: ID = fs_struct
+Line 597: *
+Line 597: ID = fs
+Line 597: =
+Line 597: ID = kmem_cache_alloc
+Line 597: (
+Line 597: ID = fs_cachep
+Line 597: ,
+Line 597: ID = GFP_KERNEL
+Line 597: )
+Line 597: ;
+Line 599: if
+Line 599: (
+Line 599: ID = fs
+Line 599: )
+Line 599: {
+Line 600: ID = atomic_set
+Line 600: (
+Line 600: Unrecognized token: 38
+Line 600: ID = fs
+Line 600: -
+Line 600: >
+Line 600: ID = count
+Line 600: ,
+Line 600: INTCON = 1
+Line 600: )
+Line 600: ;
+Line 601: ID = fs
+Line 601: -
+Line 601: >
+Line 601: ID = lock
+Line 601: =
+Line 601: ID = RW_LOCK_UNLOCKED
+Line 601: ;
+Line 602: ID = fs
+Line 602: -
+Line 602: >
+Line 602: ID = umask
+Line 602: =
+Line 602: ID = old
+Line 602: -
+Line 602: >
+Line 602: ID = umask
+Line 602: ;
+Line 603: ID = read_lock
+Line 603: (
+Line 603: Unrecognized token: 38
+Line 603: ID = old
+Line 603: -
+Line 603: >
+Line 603: ID = lock
+Line 603: )
+Line 603: ;
+Line 604: ID = fs
+Line 604: -
+Line 604: >
+Line 604: ID = rootmnt
+Line 604: =
+Line 604: ID = mntget
+Line 604: (
+Line 604: ID = old
+Line 604: -
+Line 604: >
+Line 604: ID = rootmnt
+Line 604: )
+Line 604: ;
+Line 605: ID = fs
+Line 605: -
+Line 605: >
+Line 605: ID = root
+Line 605: =
+Line 605: ID = dget
+Line 605: (
+Line 605: ID = old
+Line 605: -
+Line 605: >
+Line 605: ID = root
+Line 605: )
+Line 605: ;
+Line 606: ID = fs
+Line 606: -
+Line 606: >
+Line 606: ID = pwdmnt
+Line 606: =
+Line 606: ID = mntget
+Line 606: (
+Line 606: ID = old
+Line 606: -
+Line 606: >
+Line 606: ID = pwdmnt
+Line 606: )
+Line 606: ;
+Line 607: ID = fs
+Line 607: -
+Line 607: >
+Line 607: ID = pwd
+Line 607: =
+Line 607: ID = dget
+Line 607: (
+Line 607: ID = old
+Line 607: -
+Line 607: >
+Line 607: ID = pwd
+Line 607: )
+Line 607: ;
+Line 608: if
+Line 608: (
+Line 608: ID = old
+Line 608: -
+Line 608: >
+Line 608: ID = altroot
+Line 608: )
+Line 608: {
+Line 609: ID = fs
+Line 609: -
+Line 609: >
+Line 609: ID = altrootmnt
+Line 609: =
+Line 609: ID = mntget
+Line 609: (
+Line 609: ID = old
+Line 609: -
+Line 609: >
+Line 609: ID = altrootmnt
+Line 609: )
+Line 609: ;
+Line 610: ID = fs
+Line 610: -
+Line 610: >
+Line 610: ID = altroot
+Line 610: =
+Line 610: ID = dget
+Line 610: (
+Line 610: ID = old
+Line 610: -
+Line 610: >
+Line 610: ID = altroot
+Line 610: )
+Line 610: ;
+Line 611: }
+Line 611: else
+Line 611: {
+Line 612: ID = fs
+Line 612: -
+Line 612: >
+Line 612: ID = altrootmnt
+Line 612: =
+Line 612: ID = NULL
+Line 612: ;
+Line 613: ID = fs
+Line 613: -
+Line 613: >
+Line 613: ID = altroot
+Line 613: =
+Line 613: ID = NULL
+Line 613: ;
+Line 614: }
+Line 615: ID = read_unlock
+Line 615: (
+Line 615: Unrecognized token: 38
+Line 615: ID = old
+Line 615: -
+Line 615: >
+Line 615: ID = lock
+Line 615: )
+Line 615: ;
+Line 616: }
+Line 617: return
+Line 617: ID = fs
+Line 617: ;
+Line 618: }
+Line 620: ID = struct
+Line 620: ID = fs_struct
+Line 620: *
+Line 620: ID = copy_fs_struct
+Line 620: (
+Line 620: ID = struct
+Line 620: ID = fs_struct
+Line 620: *
+Line 620: ID = old
+Line 620: )
+Line 621: {
+Line 622: return
+Line 622: Unrecognized token: 95
+Line 622: Unrecognized token: 95
+Line 622: ID = copy_fs_struct
+Line 622: (
+Line 622: ID = old
+Line 622: )
+Line 622: ;
+Line 623: }
+Line 625: ID = EXPORT_SYMBOL_GPL
+Line 625: (
+Line 625: ID = copy_fs_struct
+Line 625: )
+Line 625: ;
+Line 627: ID = static
+Line 627: ID = inline
+Line 627: int
+Line 627: ID = copy_fs
+Line 627: (
+Line 627: ID = unsigned
+Line 627: ID = long
+Line 627: ID = clone_flags
+Line 627: ,
+Line 627: ID = struct
+Line 627: ID = task_struct
+Line 627: *
+Line 627: ID = tsk
+Line 627: )
+Line 628: {
+Line 629: if
+Line 629: (
+Line 629: ID = clone_flags
+Line 629: Unrecognized token: 38
+Line 629: ID = CLONE_FS
+Line 629: )
+Line 629: {
+Line 630: ID = atomic_inc
+Line 630: (
+Line 630: Unrecognized token: 38
+Line 630: ID = current
+Line 630: -
+Line 630: >
+Line 630: ID = fs
+Line 630: -
+Line 630: >
+Line 630: ID = count
+Line 630: )
+Line 630: ;
+Line 631: return
+Line 631: INTCON = 0
+Line 631: ;
+Line 632: }
+Line 633: ID = tsk
+Line 633: -
+Line 633: >
+Line 633: ID = fs
+Line 633: =
+Line 633: Unrecognized token: 95
+Line 633: Unrecognized token: 95
+Line 633: ID = copy_fs_struct
+Line 633: (
+Line 633: ID = current
+Line 633: -
+Line 633: >
+Line 633: ID = fs
+Line 633: )
+Line 633: ;
+Line 634: if
+Line 634: (
+Line 634: !
+Line 634: ID = tsk
+Line 634: -
+Line 634: >
+Line 634: ID = fs
+Line 634: )
+Line 635: return
+Line 635: -
+Line 635: ID = ENOMEM
+Line 635: ;
+Line 636: return
+Line 636: INTCON = 0
+Line 636: ;
+Line 637: }
+Line 639: ID = static
+Line 639: int
+Line 639: ID = count_open_files
+Line 639: (
+Line 639: ID = struct
+Line 639: ID = files_struct
+Line 639: *
+Line 639: ID = files
+Line 639: ,
+Line 639: int
+Line 639: ID = size
+Line 639: )
+Line 640: {
+Line 641: int
+Line 641: ID = i
+Line 641: ;
+Line 644: for
+Line 644: (
+Line 644: ID = i
+Line 644: =
+Line 644: ID = size
+Line 644: /
+Line 644: (
+Line 644: INTCON = 8
+Line 644: *
+Line 644: ID = sizeof
+Line 644: (
+Line 644: ID = long
+Line 644: )
+Line 644: )
+Line 644: ;
+Line 644: ID = i
+Line 644: >
+Line 644: INTCON = 0
+Line 644: ;
+Line 644: )
+Line 644: {
+Line 645: if
+Line 645: (
+Line 645: ID = files
+Line 645: -
+Line 645: >
+Line 645: ID = open_fds
+Line 645: -
+Line 645: >
+Line 645: ID = fds_bits
+Line 645: [
+Line 645: -
+Line 645: -
+Line 645: ID = i
+Line 645: ]
+Line 645: )
+Line 646: ID = break
+Line 646: ;
+Line 647: }
+Line 648: ID = i
+Line 648: =
+Line 648: (
+Line 648: ID = i
+Line 648: +
+Line 648: INTCON = 1
+Line 648: )
+Line 648: *
+Line 648: INTCON = 8
+Line 648: *
+Line 648: ID = sizeof
+Line 648: (
+Line 648: ID = long
+Line 648: )
+Line 648: ;
+Line 649: return
+Line 649: ID = i
+Line 649: ;
+Line 650: }
+Line 652: ID = static
+Line 652: int
+Line 652: ID = copy_files
+Line 652: (
+Line 652: ID = unsigned
+Line 652: ID = long
+Line 652: ID = clone_flags
+Line 652: ,
+Line 652: ID = struct
+Line 652: ID = task_struct
+Line 652: *
+Line 652: ID = tsk
+Line 652: )
+Line 653: {
+Line 654: ID = struct
+Line 654: ID = files_struct
+Line 654: *
+Line 654: ID = oldf
+Line 654: ,
+Line 654: *
+Line 654: ID = newf
+Line 654: ;
+Line 655: ID = struct
+Line 655: ID = file
+Line 655: *
+Line 655: *
+Line 655: ID = old_fds
+Line 655: ,
+Line 655: *
+Line 655: *
+Line 655: ID = new_fds
+Line 655: ;
+Line 656: int
+Line 656: ID = open_files
+Line 656: ,
+Line 656: ID = nfds
+Line 656: ,
+Line 656: ID = size
+Line 656: ,
+Line 656: ID = i
+Line 656: ,
+Line 656: ID = error
+Line 656: =
+Line 656: INTCON = 0
+Line 656: ;
+Line 661: ID = oldf
+Line 661: =
+Line 661: ID = current
+Line 661: -
+Line 661: >
+Line 661: ID = files
+Line 661: ;
+Line 662: if
+Line 662: (
+Line 662: !
+Line 662: ID = oldf
+Line 662: )
+Line 663: ID = goto
+Line 663: ID = out
+Line 663: ;
+Line 665: if
+Line 665: (
+Line 665: ID = clone_flags
+Line 665: Unrecognized token: 38
+Line 665: ID = CLONE_FILES
+Line 665: )
+Line 665: {
+Line 666: ID = atomic_inc
+Line 666: (
+Line 666: Unrecognized token: 38
+Line 666: ID = oldf
+Line 666: -
+Line 666: >
+Line 666: ID = count
+Line 666: )
+Line 666: ;
+Line 667: ID = goto
+Line 667: ID = out
+Line 667: ;
+Line 668: }
+Line 675: ID = tsk
+Line 675: -
+Line 675: >
+Line 675: ID = files
+Line 675: =
+Line 675: ID = NULL
+Line 675: ;
+Line 676: ID = error
+Line 676: =
+Line 676: -
+Line 676: ID = ENOMEM
+Line 676: ;
+Line 677: ID = newf
+Line 677: =
+Line 677: ID = kmem_cache_alloc
+Line 677: (
+Line 677: ID = files_cachep
+Line 677: ,
+Line 677: ID = SLAB_KERNEL
+Line 677: )
+Line 677: ;
+Line 678: if
+Line 678: (
+Line 678: !
+Line 678: ID = newf
+Line 678: )
+Line 679: ID = goto
+Line 679: ID = out
+Line 679: ;
+Line 681: ID = atomic_set
+Line 681: (
+Line 681: Unrecognized token: 38
+Line 681: ID = newf
+Line 681: -
+Line 681: >
+Line 681: ID = count
+Line 681: ,
+Line 681: INTCON = 1
+Line 681: )
+Line 681: ;
+Line 683: ID = newf
+Line 683: -
+Line 683: >
+Line 683: ID = file_lock
+Line 683: =
+Line 683: ID = SPIN_LOCK_UNLOCKED
+Line 683: ;
+Line 684: ID = newf
+Line 684: -
+Line 684: >
+Line 684: ID = next_fd
+Line 684: =
+Line 684: INTCON = 0
+Line 684: ;
+Line 685: ID = newf
+Line 685: -
+Line 685: >
+Line 685: ID = max_fds
+Line 685: =
+Line 685: ID = NR_OPEN_DEFAULT
+Line 685: ;
+Line 686: ID = newf
+Line 686: -
+Line 686: >
+Line 686: ID = max_fdset
+Line 686: =
+Line 686: Unrecognized token: 95
+Line 686: Unrecognized token: 95
+Line 686: ID = FD_SETSIZE
+Line 686: ;
+Line 687: ID = newf
+Line 687: -
+Line 687: >
+Line 687: ID = close_on_exec
+Line 687: =
+Line 687: Unrecognized token: 38
+Line 687: ID = newf
+Line 687: -
+Line 687: >
+Line 687: ID = close_on_exec_init
+Line 687: ;
+Line 688: ID = newf
+Line 688: -
+Line 688: >
+Line 688: ID = open_fds
+Line 688: =
+Line 688: Unrecognized token: 38
+Line 688: ID = newf
+Line 688: -
+Line 688: >
+Line 688: ID = open_fds_init
+Line 688: ;
+Line 689: ID = newf
+Line 689: -
+Line 689: >
+Line 689: ID = fd
+Line 689: =
+Line 689: Unrecognized token: 38
+Line 689: ID = newf
+Line 689: -
+Line 689: >
+Line 689: ID = fd_array
+Line 689: [
+Line 689: INTCON = 0
+Line 689: ]
+Line 689: ;
+Line 693: ID = size
+Line 693: =
+Line 693: ID = oldf
+Line 693: -
+Line 693: >
+Line 693: ID = max_fdset
+Line 693: ;
+Line 694: if
+Line 694: (
+Line 694: ID = size
+Line 694: >
+Line 694: Unrecognized token: 95
+Line 694: Unrecognized token: 95
+Line 694: ID = FD_SETSIZE
+Line 694: )
+Line 694: {
+Line 695: ID = newf
+Line 695: -
+Line 695: >
+Line 695: ID = max_fdset
+Line 695: =
+Line 695: INTCON = 0
+Line 695: ;
+Line 696: ID = spin_lock
+Line 696: (
+Line 696: Unrecognized token: 38
+Line 696: ID = newf
+Line 696: -
+Line 696: >
+Line 696: ID = file_lock
+Line 696: )
+Line 696: ;
+Line 697: ID = error
+Line 697: =
+Line 697: ID = expand_fdset
+Line 697: (
+Line 697: ID = newf
+Line 697: ,
+Line 697: ID = size
+Line 697: -
+Line 697: INTCON = 1
+Line 697: )
+Line 697: ;
+Line 698: ID = spin_unlock
+Line 698: (
+Line 698: Unrecognized token: 38
+Line 698: ID = newf
+Line 698: -
+Line 698: >
+Line 698: ID = file_lock
+Line 698: )
+Line 698: ;
+Line 699: if
+Line 699: (
+Line 699: ID = error
+Line 699: )
+Line 700: ID = goto
+Line 700: ID = out_release
+Line 700: ;
+Line 701: }
+Line 702: ID = spin_lock
+Line 702: (
+Line 702: Unrecognized token: 38
+Line 702: ID = oldf
+Line 702: -
+Line 702: >
+Line 702: ID = file_lock
+Line 702: )
+Line 702: ;
+Line 704: ID = open_files
+Line 704: =
+Line 704: ID = count_open_files
+Line 704: (
+Line 704: ID = oldf
+Line 704: ,
+Line 704: ID = size
+Line 704: )
+Line 704: ;
+Line 711: ID = nfds
+Line 711: =
+Line 711: ID = NR_OPEN_DEFAULT
+Line 711: ;
+Line 712: if
+Line 712: (
+Line 712: ID = open_files
+Line 712: >
+Line 712: ID = nfds
+Line 712: )
+Line 712: {
+Line 713: ID = spin_unlock
+Line 713: (
+Line 713: Unrecognized token: 38
+Line 713: ID = oldf
+Line 713: -
+Line 713: >
+Line 713: ID = file_lock
+Line 713: )
+Line 713: ;
+Line 714: ID = newf
+Line 714: -
+Line 714: >
+Line 714: ID = max_fds
+Line 714: =
+Line 714: INTCON = 0
+Line 714: ;
+Line 715: ID = spin_lock
+Line 715: (
+Line 715: Unrecognized token: 38
+Line 715: ID = newf
+Line 715: -
+Line 715: >
+Line 715: ID = file_lock
+Line 715: )
+Line 715: ;
+Line 716: ID = error
+Line 716: =
+Line 716: ID = expand_fd_array
+Line 716: (
+Line 716: ID = newf
+Line 716: ,
+Line 716: ID = open_files
+Line 716: -
+Line 716: INTCON = 1
+Line 716: )
+Line 716: ;
+Line 717: ID = spin_unlock
+Line 717: (
+Line 717: Unrecognized token: 38
+Line 717: ID = newf
+Line 717: -
+Line 717: >
+Line 717: ID = file_lock
+Line 717: )
+Line 717: ;
+Line 718: if
+Line 718: (
+Line 718: ID = error
+Line 718: )
+Line 719: ID = goto
+Line 719: ID = out_release
+Line 719: ;
+Line 720: ID = nfds
+Line 720: =
+Line 720: ID = newf
+Line 720: -
+Line 720: >
+Line 720: ID = max_fds
+Line 720: ;
+Line 721: ID = spin_lock
+Line 721: (
+Line 721: Unrecognized token: 38
+Line 721: ID = oldf
+Line 721: -
+Line 721: >
+Line 721: ID = file_lock
+Line 721: )
+Line 721: ;
+Line 722: }
+Line 724: ID = old_fds
+Line 724: =
+Line 724: ID = oldf
+Line 724: -
+Line 724: >
+Line 724: ID = fd
+Line 724: ;
+Line 725: ID = new_fds
+Line 725: =
+Line 725: ID = newf
+Line 725: -
+Line 725: >
+Line 725: ID = fd
+Line 725: ;
+Line 727: ID = memcpy
+Line 727: (
+Line 727: ID = newf
+Line 727: -
+Line 727: >
+Line 727: ID = open_fds
+Line 727: -
+Line 727: >
+Line 727: ID = fds_bits
+Line 727: ,
+Line 727: ID = oldf
+Line 727: -
+Line 727: >
+Line 727: ID = open_fds
+Line 727: -
+Line 727: >
+Line 727: ID = fds_bits
+Line 727: ,
+Line 727: ID = open_files
+Line 727: /
+Line 727: INTCON = 8
+Line 727: )
+Line 727: ;
+Line 728: ID = memcpy
+Line 728: (
+Line 728: ID = newf
+Line 728: -
+Line 728: >
+Line 728: ID = close_on_exec
+Line 728: -
+Line 728: >
+Line 728: ID = fds_bits
+Line 728: ,
+Line 728: ID = oldf
+Line 728: -
+Line 728: >
+Line 728: ID = close_on_exec
+Line 728: -
+Line 728: >
+Line 728: ID = fds_bits
+Line 728: ,
+Line 728: ID = open_files
+Line 728: /
+Line 728: INTCON = 8
+Line 728: )
+Line 728: ;
+Line 730: for
+Line 730: (
+Line 730: ID = i
+Line 730: =
+Line 730: ID = open_files
+Line 730: ;
+Line 730: ID = i
+Line 730: !=
+Line 730: INTCON = 0
+Line 730: ;
+Line 730: ID = i
+Line 730: -
+Line 730: -
+Line 730: )
+Line 730: {
+Line 731: ID = struct
+Line 731: ID = file
+Line 731: *
+Line 731: ID = f
+Line 731: =
+Line 731: *
+Line 731: ID = old_fds
+Line 731: +
+Line 731: +
+Line 731: ;
+Line 732: if
+Line 732: (
+Line 732: ID = f
+Line 732: )
+Line 733: ID = get_file
+Line 733: (
+Line 733: ID = f
+Line 733: )
+Line 733: ;
+Line 734: *
+Line 734: ID = new_fds
+Line 734: +
+Line 734: +
+Line 734: =
+Line 734: ID = f
+Line 734: ;
+Line 735: }
+Line 736: ID = spin_unlock
+Line 736: (
+Line 736: Unrecognized token: 38
+Line 736: ID = oldf
+Line 736: -
+Line 736: >
+Line 736: ID = file_lock
+Line 736: )
+Line 736: ;
+Line 739: ID = size
+Line 739: =
+Line 739: (
+Line 739: ID = newf
+Line 739: -
+Line 739: >
+Line 739: ID = max_fds
+Line 739: -
+Line 739: ID = open_files
+Line 739: )
+Line 739: *
+Line 739: ID = sizeof
+Line 739: (
+Line 739: ID = struct
+Line 739: ID = file
+Line 739: *
+Line 739: )
+Line 739: ;
+Line 742: ID = memset
+Line 742: (
+Line 742: ID = new_fds
+Line 742: ,
+Line 742: INTCON = 0
+Line 742: ,
+Line 742: ID = size
+Line 742: )
+Line 742: ;
+Line 744: if
+Line 744: (
+Line 744: ID = newf
+Line 744: -
+Line 744: >
+Line 744: ID = max_fdset
+Line 744: >
+Line 744: ID = open_files
+Line 744: )
+Line 744: {
+Line 745: int
+Line 745: ID = left
+Line 745: =
+Line 745: (
+Line 745: ID = newf
+Line 745: -
+Line 745: >
+Line 745: ID = max_fdset
+Line 745: -
+Line 745: ID = open_files
+Line 745: )
+Line 745: /
+Line 745: INTCON = 8
+Line 745: ;
+Line 746: int
+Line 746: ID = start
+Line 746: =
+Line 746: ID = open_files
+Line 746: /
+Line 746: (
+Line 746: INTCON = 8
+Line 746: *
+Line 746: ID = sizeof
+Line 746: (
+Line 746: ID = unsigned
+Line 746: ID = long
+Line 746: )
+Line 746: )
+Line 746: ;
+Line 748: ID = memset
+Line 748: (
+Line 748: Unrecognized token: 38
+Line 748: ID = newf
+Line 748: -
+Line 748: >
+Line 748: ID = open_fds
+Line 748: -
+Line 748: >
+Line 748: ID = fds_bits
+Line 748: [
+Line 748: ID = start
+Line 748: ]
+Line 748: ,
+Line 748: INTCON = 0
+Line 748: ,
+Line 748: ID = left
+Line 748: )
+Line 748: ;
+Line 749: ID = memset
+Line 749: (
+Line 749: Unrecognized token: 38
+Line 749: ID = newf
+Line 749: -
+Line 749: >
+Line 749: ID = close_on_exec
+Line 749: -
+Line 749: >
+Line 749: ID = fds_bits
+Line 749: [
+Line 749: ID = start
+Line 749: ]
+Line 749: ,
+Line 749: INTCON = 0
+Line 749: ,
+Line 749: ID = left
+Line 749: )
+Line 749: ;
+Line 750: }
+Line 752: ID = tsk
+Line 752: -
+Line 752: >
+Line 752: ID = files
+Line 752: =
+Line 752: ID = newf
+Line 752: ;
+Line 753: ID = error
+Line 753: =
+Line 753: INTCON = 0
+Line 753: ;
+Line 754: ID = out
+Line 754: Unrecognized token: 58
+Line 755: return
+Line 755: ID = error
+Line 755: ;
+Line 757: ID = out_release
+Line 757: Unrecognized token: 58
+Line 758: ID = free_fdset
+Line 758: (
+Line 758: ID = newf
+Line 758: -
+Line 758: >
+Line 758: ID = close_on_exec
+Line 758: ,
+Line 758: ID = newf
+Line 758: -
+Line 758: >
+Line 758: ID = max_fdset
+Line 758: )
+Line 758: ;
+Line 759: ID = free_fdset
+Line 759: (
+Line 759: ID = newf
+Line 759: -
+Line 759: >
+Line 759: ID = open_fds
+Line 759: ,
+Line 759: ID = newf
+Line 759: -
+Line 759: >
+Line 759: ID = max_fdset
+Line 759: )
+Line 759: ;
+Line 760: ID = kmem_cache_free
+Line 760: (
+Line 760: ID = files_cachep
+Line 760: ,
+Line 760: ID = newf
+Line 760: )
+Line 760: ;
+Line 761: ID = goto
+Line 761: ID = out
+Line 761: ;
+Line 762: }
+Line 770: int
+Line 770: ID = unshare_files
+Line 770: (
+Line 770: void
+Line 770: )
+Line 771: {
+Line 772: ID = struct
+Line 772: ID = files_struct
+Line 772: *
+Line 772: ID = files
+Line 772: =
+Line 772: ID = current
+Line 772: -
+Line 772: >
+Line 772: ID = files
+Line 772: ;
+Line 773: int
+Line 773: ID = rc
+Line 773: ;
+Line 775: if
+Line 775: (
+Line 775: !
+Line 775: ID = files
+Line 775: )
+Line 776: ID = BUG
+Line 776: (
+Line 776: )
+Line 776: ;
+Line 780: if
+Line 780: (
+Line 780: ID = atomic_read
+Line 780: (
+Line 780: Unrecognized token: 38
+Line 780: ID = files
+Line 780: -
+Line 780: >
+Line 780: ID = count
+Line 780: )
+Line 780: ==
+Line 780: INTCON = 1
+Line 780: )
+Line 781: {
+Line 782: ID = atomic_inc
+Line 782: (
+Line 782: Unrecognized token: 38
+Line 782: ID = files
+Line 782: -
+Line 782: >
+Line 782: ID = count
+Line 782: )
+Line 782: ;
+Line 783: return
+Line 783: INTCON = 0
+Line 783: ;
+Line 784: }
+Line 785: ID = rc
+Line 785: =
+Line 785: ID = copy_files
+Line 785: (
+Line 785: INTCON = 0
+Line 785: ,
+Line 785: ID = current
+Line 785: )
+Line 785: ;
+Line 786: if
+Line 786: (
+Line 786: ID = rc
+Line 786: )
+Line 787: ID = current
+Line 787: -
+Line 787: >
+Line 787: ID = files
+Line 787: =
+Line 787: ID = files
+Line 787: ;
+Line 788: return
+Line 788: ID = rc
+Line 788: ;
+Line 789: }
+Line 791: ID = EXPORT_SYMBOL
+Line 791: (
+Line 791: ID = unshare_files
+Line 791: )
+Line 791: ;
+Line 793: ID = static
+Line 793: ID = inline
+Line 793: int
+Line 793: ID = copy_sighand
+Line 793: (
+Line 793: ID = unsigned
+Line 793: ID = long
+Line 793: ID = clone_flags
+Line 793: ,
+Line 793: ID = struct
+Line 793: ID = task_struct
+Line 793: *
+Line 793: ID = tsk
+Line 793: )
+Line 794: {
+Line 795: ID = struct
+Line 795: ID = sighand_struct
+Line 795: *
+Line 795: ID = sig
+Line 795: ;
+Line 797: if
+Line 797: (
+Line 797: ID = clone_flags
+Line 797: Unrecognized token: 38
+Line 797: (
+Line 797: ID = CLONE_SIGHAND
+Line 797: Unrecognized token: 124
+Line 797: ID = CLONE_THREAD
+Line 797: )
+Line 797: )
+Line 797: {
+Line 798: ID = atomic_inc
+Line 798: (
+Line 798: Unrecognized token: 38
+Line 798: ID = current
+Line 798: -
+Line 798: >
+Line 798: ID = sighand
+Line 798: -
+Line 798: >
+Line 798: ID = count
+Line 798: )
+Line 798: ;
+Line 799: return
+Line 799: INTCON = 0
+Line 799: ;
+Line 800: }
+Line 801: ID = sig
+Line 801: =
+Line 801: ID = kmem_cache_alloc
+Line 801: (
+Line 801: ID = sighand_cachep
+Line 801: ,
+Line 801: ID = GFP_KERNEL
+Line 801: )
+Line 801: ;
+Line 802: ID = tsk
+Line 802: -
+Line 802: >
+Line 802: ID = sighand
+Line 802: =
+Line 802: ID = sig
+Line 802: ;
+Line 803: if
+Line 803: (
+Line 803: !
+Line 803: ID = sig
+Line 803: )
+Line 804: return
+Line 804: -
+Line 804: ID = ENOMEM
+Line 804: ;
+Line 805: ID = spin_lock_init
+Line 805: (
+Line 805: Unrecognized token: 38
+Line 805: ID = sig
+Line 805: -
+Line 805: >
+Line 805: ID = siglock
+Line 805: )
+Line 805: ;
+Line 806: ID = atomic_set
+Line 806: (
+Line 806: Unrecognized token: 38
+Line 806: ID = sig
+Line 806: -
+Line 806: >
+Line 806: ID = count
+Line 806: ,
+Line 806: INTCON = 1
+Line 806: )
+Line 806: ;
+Line 807: ID = memcpy
+Line 807: (
+Line 807: ID = sig
+Line 807: -
+Line 807: >
+Line 807: ID = action
+Line 807: ,
+Line 807: ID = current
+Line 807: -
+Line 807: >
+Line 807: ID = sighand
+Line 807: -
+Line 807: >
+Line 807: ID = action
+Line 807: ,
+Line 807: ID = sizeof
+Line 807: (
+Line 807: ID = sig
+Line 807: -
+Line 807: >
+Line 807: ID = action
+Line 807: )
+Line 807: )
+Line 807: ;
+Line 808: return
+Line 808: INTCON = 0
+Line 808: ;
+Line 809: }
+Line 811: ID = static
+Line 811: ID = inline
+Line 811: int
+Line 811: ID = copy_signal
+Line 811: (
+Line 811: ID = unsigned
+Line 811: ID = long
+Line 811: ID = clone_flags
+Line 811: ,
+Line 811: ID = struct
+Line 811: ID = task_struct
+Line 811: *
+Line 811: ID = tsk
+Line 811: )
+Line 812: {
+Line 813: ID = struct
+Line 813: ID = signal_struct
+Line 813: *
+Line 813: ID = sig
+Line 813: ;
+Line 815: if
+Line 815: (
+Line 815: ID = clone_flags
+Line 815: Unrecognized token: 38
+Line 815: ID = CLONE_THREAD
+Line 815: )
+Line 815: {
+Line 816: ID = atomic_inc
+Line 816: (
+Line 816: Unrecognized token: 38
+Line 816: ID = current
+Line 816: -
+Line 816: >
+Line 816: ID = signal
+Line 816: -
+Line 816: >
+Line 816: ID = count
+Line 816: )
+Line 816: ;
+Line 817: return
+Line 817: INTCON = 0
+Line 817: ;
+Line 818: }
+Line 819: ID = sig
+Line 819: =
+Line 819: ID = kmem_cache_alloc
+Line 819: (
+Line 819: ID = signal_cachep
+Line 819: ,
+Line 819: ID = GFP_KERNEL
+Line 819: )
+Line 819: ;
+Line 820: ID = tsk
+Line 820: -
+Line 820: >
+Line 820: ID = signal
+Line 820: =
+Line 820: ID = sig
+Line 820: ;
+Line 821: if
+Line 821: (
+Line 821: !
+Line 821: ID = sig
+Line 821: )
+Line 822: return
+Line 822: -
+Line 822: ID = ENOMEM
+Line 822: ;
+Line 823: ID = atomic_set
+Line 823: (
+Line 823: Unrecognized token: 38
+Line 823: ID = sig
+Line 823: -
+Line 823: >
+Line 823: ID = count
+Line 823: ,
+Line 823: INTCON = 1
+Line 823: )
+Line 823: ;
+Line 824: ID = sig
+Line 824: -
+Line 824: >
+Line 824: ID = group_exit
+Line 824: =
+Line 824: INTCON = 0
+Line 824: ;
+Line 825: ID = sig
+Line 825: -
+Line 825: >
+Line 825: ID = group_exit_code
+Line 825: =
+Line 825: INTCON = 0
+Line 825: ;
+Line 826: ID = sig
+Line 826: -
+Line 826: >
+Line 826: ID = group_exit_task
+Line 826: =
+Line 826: ID = NULL
+Line 826: ;
+Line 827: ID = sig
+Line 827: -
+Line 827: >
+Line 827: ID = group_stop_count
+Line 827: =
+Line 827: INTCON = 0
+Line 827: ;
+Line 828: ID = sig
+Line 828: -
+Line 828: >
+Line 828: ID = curr_target
+Line 828: =
+Line 828: ID = NULL
+Line 828: ;
+Line 829: ID = init_sigpending
+Line 829: (
+Line 829: Unrecognized token: 38
+Line 829: ID = sig
+Line 829: -
+Line 829: >
+Line 829: ID = shared_pending
+Line 829: )
+Line 829: ;
+Line 830: ID = INIT_LIST_HEAD
+Line 830: (
+Line 830: Unrecognized token: 38
+Line 830: ID = sig
+Line 830: -
+Line 830: >
+Line 830: ID = posix_timers
+Line 830: )
+Line 830: ;
+Line 832: ID = sig
+Line 832: -
+Line 832: >
+Line 832: ID = tty
+Line 832: =
+Line 832: ID = current
+Line 832: -
+Line 832: >
+Line 832: ID = signal
+Line 832: -
+Line 832: >
+Line 832: ID = tty
+Line 832: ;
+Line 833: ID = sig
+Line 833: -
+Line 833: >
+Line 833: ID = pgrp
+Line 833: =
+Line 833: ID = process_group
+Line 833: (
+Line 833: ID = current
+Line 833: )
+Line 833: ;
+Line 834: ID = sig
+Line 834: -
+Line 834: >
+Line 834: ID = session
+Line 834: =
+Line 834: ID = current
+Line 834: -
+Line 834: >
+Line 834: ID = signal
+Line 834: -
+Line 834: >
+Line 834: ID = session
+Line 834: ;
+Line 835: ID = sig
+Line 835: -
+Line 835: >
+Line 835: ID = leader
+Line 835: =
+Line 835: INTCON = 0
+Line 835: ;
+Line 836: ID = sig
+Line 836: -
+Line 836: >
+Line 836: ID = tty_old_pgrp
+Line 836: =
+Line 836: INTCON = 0
+Line 836: ;
+Line 838: return
+Line 838: INTCON = 0
+Line 838: ;
+Line 839: }
+Line 841: ID = static
+Line 841: ID = inline
+Line 841: void
+Line 841: ID = copy_flags
+Line 841: (
+Line 841: ID = unsigned
+Line 841: ID = long
+Line 841: ID = clone_flags
+Line 841: ,
+Line 841: ID = struct
+Line 841: ID = task_struct
+Line 841: *
+Line 841: ID = p
+Line 841: )
+Line 842: {
+Line 843: ID = unsigned
+Line 843: ID = long
+Line 843: ID = new_flags
+Line 843: =
+Line 843: ID = p
+Line 843: -
+Line 843: >
+Line 843: ID = flags
+Line 843: ;
+Line 845: ID = new_flags
+Line 845: Unrecognized token: 38
+Line 845: =
+Line 845: Unrecognized token: 126
+Line 845: ID = PF_SUPERPRIV
+Line 845: ;
+Line 846: ID = new_flags
+Line 846: Unrecognized token: 124
+Line 846: =
+Line 846: ID = PF_FORKNOEXEC
+Line 846: ;
+Line 847: if
+Line 847: (
+Line 847: !
+Line 847: (
+Line 847: ID = clone_flags
+Line 847: Unrecognized token: 38
+Line 847: ID = CLONE_PTRACE
+Line 847: )
+Line 847: )
+Line 848: ID = p
+Line 848: -
+Line 848: >
+Line 848: ID = ptrace
+Line 848: =
+Line 848: INTCON = 0
+Line 848: ;
+Line 849: ID = p
+Line 849: -
+Line 849: >
+Line 849: ID = flags
+Line 849: =
+Line 849: ID = new_flags
+Line 849: ;
+Line 850: }
+Line 852: ID = asmlinkage
+Line 852: ID = long
+Line 852: ID = sys_set_tid_address
+Line 852: (
+Line 852: int
+Line 852: Unrecognized token: 95
+Line 852: Unrecognized token: 95
+Line 852: ID = user
+Line 852: *
+Line 852: ID = tidptr
+Line 852: )
+Line 853: {
+Line 854: ID = current
+Line 854: -
+Line 854: >
+Line 854: ID = clear_child_tid
+Line 854: =
+Line 854: ID = tidptr
+Line 854: ;
+Line 856: return
+Line 856: ID = current
+Line 856: -
+Line 856: >
+Line 856: ID = pid
+Line 856: ;
+Line 857: }
+Line 867: ID = struct
+Line 867: ID = task_struct
+Line 867: *
+Line 867: ID = copy_process
+Line 867: (
+Line 867: ID = unsigned
+Line 867: ID = long
+Line 867: ID = clone_flags
+Line 867: ,
+Line 868: ID = unsigned
+Line 868: ID = long
+Line 868: ID = stack_start
+Line 868: ,
+Line 869: ID = struct
+Line 869: ID = pt_regs
+Line 869: *
+Line 869: ID = regs
+Line 869: ,
+Line 870: ID = unsigned
+Line 870: ID = long
+Line 870: ID = stack_size
+Line 870: ,
+Line 871: int
+Line 871: Unrecognized token: 95
+Line 871: Unrecognized token: 95
+Line 871: ID = user
+Line 871: *
+Line 871: ID = parent_tidptr
+Line 871: ,
+Line 872: int
+Line 872: Unrecognized token: 95
+Line 872: Unrecognized token: 95
+Line 872: ID = user
+Line 872: *
+Line 872: ID = child_tidptr
+Line 872: )
+Line 873: {
+Line 874: int
+Line 874: ID = retval
+Line 874: ;
+Line 875: ID = struct
+Line 875: ID = task_struct
+Line 875: *
+Line 875: ID = p
+Line 875: =
+Line 875: ID = NULL
+Line 875: ;
+Line 877: if
+Line 877: (
+Line 877: (
+Line 877: ID = clone_flags
+Line 877: Unrecognized token: 38
+Line 877: (
+Line 877: ID = CLONE_NEWNS
+Line 877: Unrecognized token: 124
+Line 877: ID = CLONE_FS
+Line 877: )
+Line 877: )
+Line 877: ==
+Line 877: (
+Line 877: ID = CLONE_NEWNS
+Line 877: Unrecognized token: 124
+Line 877: ID = CLONE_FS
+Line 877: )
+Line 877: )
+Line 878: return
+Line 878: ID = ERR_PTR
+Line 878: (
+Line 878: -
+Line 878: ID = EINVAL
+Line 878: )
+Line 878: ;
+Line 884: if
+Line 884: (
+Line 884: (
+Line 884: ID = clone_flags
+Line 884: Unrecognized token: 38
+Line 884: ID = CLONE_THREAD
+Line 884: )
+Line 884: &&
+Line 884: !
+Line 884: (
+Line 884: ID = clone_flags
+Line 884: Unrecognized token: 38
+Line 884: ID = CLONE_SIGHAND
+Line 884: )
+Line 884: )
+Line 885: return
+Line 885: ID = ERR_PTR
+Line 885: (
+Line 885: -
+Line 885: ID = EINVAL
+Line 885: )
+Line 885: ;
+Line 892: if
+Line 892: (
+Line 892: (
+Line 892: ID = clone_flags
+Line 892: Unrecognized token: 38
+Line 892: ID = CLONE_SIGHAND
+Line 892: )
+Line 892: &&
+Line 892: !
+Line 892: (
+Line 892: ID = clone_flags
+Line 892: Unrecognized token: 38
+Line 892: ID = CLONE_VM
+Line 892: )
+Line 892: )
+Line 893: return
+Line 893: ID = ERR_PTR
+Line 893: (
+Line 893: -
+Line 893: ID = EINVAL
+Line 893: )
+Line 893: ;
+Line 895: ID = retval
+Line 895: =
+Line 895: ID = security_task_create
+Line 895: (
+Line 895: ID = clone_flags
+Line 895: )
+Line 895: ;
+Line 896: if
+Line 896: (
+Line 896: ID = retval
+Line 896: )
+Line 897: ID = goto
+Line 897: ID = fork_out
+Line 897: ;
+Line 899: ID = retval
+Line 899: =
+Line 899: -
+Line 899: ID = ENOMEM
+Line 899: ;
+Line 900: ID = p
+Line 900: =
+Line 900: ID = dup_task_struct
+Line 900: (
+Line 900: ID = current
+Line 900: )
+Line 900: ;
+Line 901: if
+Line 901: (
+Line 901: !
+Line 901: ID = p
+Line 901: )
+Line 902: ID = goto
+Line 902: ID = fork_out
+Line 902: ;
+Line 904: ID = retval
+Line 904: =
+Line 904: -
+Line 904: ID = EAGAIN
+Line 904: ;
+Line 905: if
+Line 905: (
+Line 905: ID = atomic_read
+Line 905: (
+Line 905: Unrecognized token: 38
+Line 905: ID = p
+Line 905: -
+Line 905: >
+Line 905: ID = user
+Line 905: -
+Line 905: >
+Line 905: ID = processes
+Line 905: )
+Line 905: >=
+Line 906: ID = p
+Line 906: -
+Line 906: >
+Line 906: ID = rlim
+Line 906: [
+Line 906: ID = RLIMIT_NPROC
+Line 906: ]
+Line 906: Unrecognized token: 46
+Line 906: ID = rlim_cur
+Line 906: )
+Line 906: {
+Line 907: if
+Line 907: (
+Line 907: !
+Line 907: ID = capable
+Line 907: (
+Line 907: ID = CAP_SYS_ADMIN
+Line 907: )
+Line 907: &&
+Line 907: !
+Line 907: ID = capable
+Line 907: (
+Line 907: ID = CAP_SYS_RESOURCE
+Line 907: )
+Line 907: &&
+Line 908: ID = p
+Line 908: -
+Line 908: >
+Line 908: ID = user
+Line 908: !=
+Line 908: Unrecognized token: 38
+Line 908: ID = root_user
+Line 908: )
+Line 909: ID = goto
+Line 909: ID = bad_fork_free
+Line 909: ;
+Line 910: }
+Line 912: ID = atomic_inc
+Line 912: (
+Line 912: Unrecognized token: 38
+Line 912: ID = p
+Line 912: -
+Line 912: >
+Line 912: ID = user
+Line 912: -
+Line 912: >
+Line 912: Unrecognized token: 95
+Line 912: Unrecognized token: 95
+Line 912: ID = count
+Line 912: )
+Line 912: ;
+Line 913: ID = atomic_inc
+Line 913: (
+Line 913: Unrecognized token: 38
+Line 913: ID = p
+Line 913: -
+Line 913: >
+Line 913: ID = user
+Line 913: -
+Line 913: >
+Line 913: ID = processes
+Line 913: )
+Line 913: ;
+Line 914: ID = get_group_info
+Line 914: (
+Line 914: ID = p
+Line 914: -
+Line 914: >
+Line 914: ID = group_info
+Line 914: )
+Line 914: ;
+Line 921: if
+Line 921: (
+Line 921: ID = nr_threads
+Line 921: >=
+Line 921: ID = max_threads
+Line 921: )
+Line 922: ID = goto
+Line 922: ID = bad_fork_cleanup_count
+Line 922: ;
+Line 924: if
+Line 924: (
+Line 924: !
+Line 924: ID = try_module_get
+Line 924: (
+Line 924: ID = p
+Line 924: -
+Line 924: >
+Line 924: ID = thread_info
+Line 924: -
+Line 924: >
+Line 924: ID = exec_domain
+Line 924: -
+Line 924: >
+Line 924: ID = module
+Line 924: )
+Line 924: )
+Line 925: ID = goto
+Line 925: ID = bad_fork_cleanup_count
+Line 925: ;
+Line 927: if
+Line 927: (
+Line 927: ID = p
+Line 927: -
+Line 927: >
+Line 927: ID = binfmt
+Line 927: &&
+Line 927: !
+Line 927: ID = try_module_get
+Line 927: (
+Line 927: ID = p
+Line 927: -
+Line 927: >
+Line 927: ID = binfmt
+Line 927: -
+Line 927: >
+Line 927: ID = module
+Line 927: )
+Line 927: )
+Line 928: ID = goto
+Line 928: ID = bad_fork_cleanup_put_domain
+Line 928: ;
+Line 930: ID = p
+Line 930: -
+Line 930: >
+Line 930: ID = did_exec
+Line 930: =
+Line 930: INTCON = 0
+Line 930: ;
+Line 931: ID = copy_flags
+Line 931: (
+Line 931: ID = clone_flags
+Line 931: ,
+Line 931: ID = p
+Line 931: )
+Line 931: ;
+Line 932: if
+Line 932: (
+Line 932: ID = clone_flags
+Line 932: Unrecognized token: 38
+Line 932: ID = CLONE_IDLETASK
+Line 932: )
+Line 933: ID = p
+Line 933: -
+Line 933: >
+Line 933: ID = pid
+Line 933: =
+Line 933: INTCON = 0
+Line 933: ;
+Line 934: else
+Line 934: {
+Line 935: ID = p
+Line 935: -
+Line 935: >
+Line 935: ID = pid
+Line 935: =
+Line 935: ID = alloc_pidmap
+Line 935: (
+Line 935: )
+Line 935: ;
+Line 936: if
+Line 936: (
+Line 936: ID = p
+Line 936: -
+Line 936: >
+Line 936: ID = pid
+Line 936: ==
+Line 936: -
+Line 936: INTCON = 1
+Line 936: )
+Line 937: ID = goto
+Line 937: ID = bad_fork_cleanup
+Line 937: ;
+Line 938: }
+Line 939: ID = retval
+Line 939: =
+Line 939: -
+Line 939: ID = EFAULT
+Line 939: ;
+Line 940: if
+Line 940: (
+Line 940: ID = clone_flags
+Line 940: Unrecognized token: 38
+Line 940: ID = CLONE_PARENT_SETTID
+Line 940: )
+Line 941: if
+Line 941: (
+Line 941: ID = put_user
+Line 941: (
+Line 941: ID = p
+Line 941: -
+Line 941: >
+Line 941: ID = pid
+Line 941: ,
+Line 941: ID = parent_tidptr
+Line 941: )
+Line 941: )
+Line 942: ID = goto
+Line 942: ID = bad_fork_cleanup
+Line 942: ;
+Line 944: ID = p
+Line 944: -
+Line 944: >
+Line 944: ID = proc_dentry
+Line 944: =
+Line 944: ID = NULL
+Line 944: ;
+Line 946: ID = INIT_LIST_HEAD
+Line 946: (
+Line 946: Unrecognized token: 38
+Line 946: ID = p
+Line 946: -
+Line 946: >
+Line 946: ID = children
+Line 946: )
+Line 946: ;
+Line 947: ID = INIT_LIST_HEAD
+Line 947: (
+Line 947: Unrecognized token: 38
+Line 947: ID = p
+Line 947: -
+Line 947: >
+Line 947: ID = sibling
+Line 947: )
+Line 947: ;
+Line 948: ID = init_waitqueue_head
+Line 948: (
+Line 948: Unrecognized token: 38
+Line 948: ID = p
+Line 948: -
+Line 948: >
+Line 948: ID = wait_chldexit
+Line 948: )
+Line 948: ;
+Line 949: ID = p
+Line 949: -
+Line 949: >
+Line 949: ID = vfork_done
+Line 949: =
+Line 949: ID = NULL
+Line 949: ;
+Line 950: ID = spin_lock_init
+Line 950: (
+Line 950: Unrecognized token: 38
+Line 950: ID = p
+Line 950: -
+Line 950: >
+Line 950: ID = alloc_lock
+Line 950: )
+Line 950: ;
+Line 951: ID = spin_lock_init
+Line 951: (
+Line 951: Unrecognized token: 38
+Line 951: ID = p
+Line 951: -
+Line 951: >
+Line 951: ID = proc_lock
+Line 951: )
+Line 951: ;
+Line 953: ID = clear_tsk_thread_flag
+Line 953: (
+Line 953: ID = p
+Line 953: ,
+Line 953: ID = TIF_SIGPENDING
+Line 953: )
+Line 953: ;
+Line 954: ID = init_sigpending
+Line 954: (
+Line 954: Unrecognized token: 38
+Line 954: ID = p
+Line 954: -
+Line 954: >
+Line 954: ID = pending
+Line 954: )
+Line 954: ;
+Line 956: ID = p
+Line 956: -
+Line 956: >
+Line 956: ID = it_real_value
+Line 956: =
+Line 956: ID = p
+Line 956: -
+Line 956: >
+Line 956: ID = it_virt_value
+Line 956: =
+Line 956: ID = p
+Line 956: -
+Line 956: >
+Line 956: ID = it_prof_value
+Line 956: =
+Line 956: INTCON = 0
+Line 956: ;
+Line 957: ID = p
+Line 957: -
+Line 957: >
+Line 957: ID = it_real_incr
+Line 957: =
+Line 957: ID = p
+Line 957: -
+Line 957: >
+Line 957: ID = it_virt_incr
+Line 957: =
+Line 957: ID = p
+Line 957: -
+Line 957: >
+Line 957: ID = it_prof_incr
+Line 957: =
+Line 957: INTCON = 0
+Line 957: ;
+Line 958: ID = init_timer
+Line 958: (
+Line 958: Unrecognized token: 38
+Line 958: ID = p
+Line 958: -
+Line 958: >
+Line 958: ID = real_timer
+Line 958: )
+Line 958: ;
+Line 959: ID = p
+Line 959: -
+Line 959: >
+Line 959: ID = real_timer
+Line 959: Unrecognized token: 46
+Line 959: ID = data
+Line 959: =
+Line 959: (
+Line 959: ID = unsigned
+Line 959: ID = long
+Line 959: )
+Line 959: ID = p
+Line 959: ;
+Line 961: ID = p
+Line 961: -
+Line 961: >
+Line 961: ID = utime
+Line 961: =
+Line 961: ID = p
+Line 961: -
+Line 961: >
+Line 961: ID = stime
+Line 961: =
+Line 961: INTCON = 0
+Line 961: ;
+Line 962: ID = p
+Line 962: -
+Line 962: >
+Line 962: ID = cutime
+Line 962: =
+Line 962: ID = p
+Line 962: -
+Line 962: >
+Line 962: ID = cstime
+Line 962: =
+Line 962: INTCON = 0
+Line 962: ;
+Line 963: ID = p
+Line 963: -
+Line 963: >
+Line 963: ID = lock_depth
+Line 963: =
+Line 963: -
+Line 963: INTCON = 1
+Line 963: ;
+Line 964: ID = p
+Line 964: -
+Line 964: >
+Line 964: ID = start_time
+Line 964: =
+Line 964: ID = get_jiffies_64
+Line 964: (
+Line 964: )
+Line 964: ;
+Line 965: ID = p
+Line 965: -
+Line 965: >
+Line 965: ID = security
+Line 965: =
+Line 965: ID = NULL
+Line 965: ;
+Line 966: ID = p
+Line 966: -
+Line 966: >
+Line 966: ID = io_context
+Line 966: =
+Line 966: ID = NULL
+Line 966: ;
+Line 967: ID = p
+Line 967: -
+Line 967: >
+Line 967: ID = audit_context
+Line 967: =
+Line 967: ID = NULL
+Line 967: ;
+Line 968: Unrecognized token: 35
+Line 968: ID = ifdef
+Line 968: ID = CONFIG_NUMA
+Line 969: ID = p
+Line 969: -
+Line 969: >
+Line 969: ID = mempolicy
+Line 969: =
+Line 969: ID = mpol_copy
+Line 969: (
+Line 969: ID = p
+Line 969: -
+Line 969: >
+Line 969: ID = mempolicy
+Line 969: )
+Line 969: ;
+Line 970: if
+Line 970: (
+Line 970: ID = IS_ERR
+Line 970: (
+Line 970: ID = p
+Line 970: -
+Line 970: >
+Line 970: ID = mempolicy
+Line 970: )
+Line 970: )
+Line 970: {
+Line 971: ID = retval
+Line 971: =
+Line 971: ID = PTR_ERR
+Line 971: (
+Line 971: ID = p
+Line 971: -
+Line 971: >
+Line 971: ID = mempolicy
+Line 971: )
+Line 971: ;
+Line 972: ID = p
+Line 972: -
+Line 972: >
+Line 972: ID = mempolicy
+Line 972: =
+Line 972: ID = NULL
+Line 972: ;
+Line 973: ID = goto
+Line 973: ID = bad_fork_cleanup
+Line 973: ;
+Line 974: }
+Line 975: Unrecognized token: 35
+Line 975: ID = endif
+Line 977: if
+Line 977: (
+Line 977: (
+Line 977: ID = retval
+Line 977: =
+Line 977: ID = security_task_alloc
+Line 977: (
+Line 977: ID = p
+Line 977: )
+Line 977: )
+Line 977: )
+Line 978: ID = goto
+Line 978: ID = bad_fork_cleanup_policy
+Line 978: ;
+Line 979: if
+Line 979: (
+Line 979: (
+Line 979: ID = retval
+Line 979: =
+Line 979: ID = audit_alloc
+Line 979: (
+Line 979: ID = p
+Line 979: )
+Line 979: )
+Line 979: )
+Line 980: ID = goto
+Line 980: ID = bad_fork_cleanup_security
+Line 980: ;
+Line 982: if
+Line 982: (
+Line 982: (
+Line 982: ID = retval
+Line 982: =
+Line 982: ID = copy_semundo
+Line 982: (
+Line 982: ID = clone_flags
+Line 982: ,
+Line 982: ID = p
+Line 982: )
+Line 982: )
+Line 982: )
+Line 983: ID = goto
+Line 983: ID = bad_fork_cleanup_audit
+Line 983: ;
+Line 984: if
+Line 984: (
+Line 984: (
+Line 984: ID = retval
+Line 984: =
+Line 984: ID = copy_files
+Line 984: (
+Line 984: ID = clone_flags
+Line 984: ,
+Line 984: ID = p
+Line 984: )
+Line 984: )
+Line 984: )
+Line 985: ID = goto
+Line 985: ID = bad_fork_cleanup_semundo
+Line 985: ;
+Line 986: if
+Line 986: (
+Line 986: (
+Line 986: ID = retval
+Line 986: =
+Line 986: ID = copy_fs
+Line 986: (
+Line 986: ID = clone_flags
+Line 986: ,
+Line 986: ID = p
+Line 986: )
+Line 986: )
+Line 986: )
+Line 987: ID = goto
+Line 987: ID = bad_fork_cleanup_files
+Line 987: ;
+Line 988: if
+Line 988: (
+Line 988: (
+Line 988: ID = retval
+Line 988: =
+Line 988: ID = copy_sighand
+Line 988: (
+Line 988: ID = clone_flags
+Line 988: ,
+Line 988: ID = p
+Line 988: )
+Line 988: )
+Line 988: )
+Line 989: ID = goto
+Line 989: ID = bad_fork_cleanup_fs
+Line 989: ;
+Line 990: if
+Line 990: (
+Line 990: (
+Line 990: ID = retval
+Line 990: =
+Line 990: ID = copy_signal
+Line 990: (
+Line 990: ID = clone_flags
+Line 990: ,
+Line 990: ID = p
+Line 990: )
+Line 990: )
+Line 990: )
+Line 991: ID = goto
+Line 991: ID = bad_fork_cleanup_sighand
+Line 991: ;
+Line 992: if
+Line 992: (
+Line 992: (
+Line 992: ID = retval
+Line 992: =
+Line 992: ID = copy_mm
+Line 992: (
+Line 992: ID = clone_flags
+Line 992: ,
+Line 992: ID = p
+Line 992: )
+Line 992: )
+Line 992: )
+Line 993: ID = goto
+Line 993: ID = bad_fork_cleanup_signal
+Line 993: ;
+Line 994: if
+Line 994: (
+Line 994: (
+Line 994: ID = retval
+Line 994: =
+Line 994: ID = copy_namespace
+Line 994: (
+Line 994: ID = clone_flags
+Line 994: ,
+Line 994: ID = p
+Line 994: )
+Line 994: )
+Line 994: )
+Line 995: ID = goto
+Line 995: ID = bad_fork_cleanup_mm
+Line 995: ;
+Line 996: ID = retval
+Line 996: =
+Line 996: ID = copy_thread
+Line 996: (
+Line 996: INTCON = 0
+Line 996: ,
+Line 996: ID = clone_flags
+Line 996: ,
+Line 996: ID = stack_start
+Line 996: ,
+Line 996: ID = stack_size
+Line 996: ,
+Line 996: ID = p
+Line 996: ,
+Line 996: ID = regs
+Line 996: )
+Line 996: ;
+Line 997: if
+Line 997: (
+Line 997: ID = retval
+Line 997: )
+Line 998: ID = goto
+Line 998: ID = bad_fork_cleanup_namespace
+Line 998: ;
+Line 1000: ID = p
+Line 1000: -
+Line 1000: >
+Line 1000: ID = set_child_tid
+Line 1000: =
+Line 1000: (
+Line 1000: ID = clone_flags
+Line 1000: Unrecognized token: 38
+Line 1000: ID = CLONE_CHILD_SETTID
+Line 1000: )
+Line 1000: Unrecognized token: 63
+Line 1000: ID = child_tidptr
+Line 1000: Unrecognized token: 58
+Line 1000: ID = NULL
+Line 1000: ;
+Line 1004: ID = p
+Line 1004: -
+Line 1004: >
+Line 1004: ID = clear_child_tid
+Line 1004: =
+Line 1004: (
+Line 1004: ID = clone_flags
+Line 1004: Unrecognized token: 38
+Line 1004: ID = CLONE_CHILD_CLEARTID
+Line 1004: )
+Line 1004: Unrecognized token: 63
+Line 1004: ID = child_tidptr
+Line 1004: Unrecognized token: 58
+Line 1004: ID = NULL
+Line 1004: ;
+Line 1010: ID = clear_tsk_thread_flag
+Line 1010: (
+Line 1010: ID = p
+Line 1010: ,
+Line 1010: ID = TIF_SYSCALL_TRACE
+Line 1010: )
+Line 1010: ;
+Line 1015: ID = p
+Line 1015: -
+Line 1015: >
+Line 1015: ID = parent_exec_id
+Line 1015: =
+Line 1015: ID = p
+Line 1015: -
+Line 1015: >
+Line 1015: ID = self_exec_id
+Line 1015: ;
+Line 1018: ID = p
+Line 1018: -
+Line 1018: >
+Line 1018: ID = exit_signal
+Line 1018: =
+Line 1018: (
+Line 1018: ID = clone_flags
+Line 1018: Unrecognized token: 38
+Line 1018: ID = CLONE_THREAD
+Line 1018: )
+Line 1018: Unrecognized token: 63
+Line 1018: -
+Line 1018: INTCON = 1
+Line 1018: Unrecognized token: 58
+Line 1018: (
+Line 1018: ID = clone_flags
+Line 1018: Unrecognized token: 38
+Line 1018: ID = CSIGNAL
+Line 1018: )
+Line 1018: ;
+Line 1019: ID = p
+Line 1019: -
+Line 1019: >
+Line 1019: ID = pdeath_signal
+Line 1019: =
+Line 1019: INTCON = 0
+Line 1019: ;
+Line 1022: ID = sched_fork
+Line 1022: (
+Line 1022: ID = p
+Line 1022: )
+Line 1022: ;
+Line 1028: ID = p
+Line 1028: -
+Line 1028: >
+Line 1028: ID = tgid
+Line 1028: =
+Line 1028: ID = p
+Line 1028: -
+Line 1028: >
+Line 1028: ID = pid
+Line 1028: ;
+Line 1029: ID = p
+Line 1029: -
+Line 1029: >
+Line 1029: ID = group_leader
+Line 1029: =
+Line 1029: ID = p
+Line 1029: ;
+Line 1030: ID = INIT_LIST_HEAD
+Line 1030: (
+Line 1030: Unrecognized token: 38
+Line 1030: ID = p
+Line 1030: -
+Line 1030: >
+Line 1030: ID = ptrace_children
+Line 1030: )
+Line 1030: ;
+Line 1031: ID = INIT_LIST_HEAD
+Line 1031: (
+Line 1031: Unrecognized token: 38
+Line 1031: ID = p
+Line 1031: -
+Line 1031: >
+Line 1031: ID = ptrace_list
+Line 1031: )
+Line 1031: ;
+Line 1034: ID = write_lock_irq
+Line 1034: (
+Line 1034: Unrecognized token: 38
+Line 1034: ID = tasklist_lock
+Line 1034: )
+Line 1034: ;
+Line 1039: if
+Line 1039: (
+Line 1039: ID = sigismember
+Line 1039: (
+Line 1039: Unrecognized token: 38
+Line 1039: ID = current
+Line 1039: -
+Line 1039: >
+Line 1039: ID = pending
+Line 1039: Unrecognized token: 46
+Line 1039: ID = signal
+Line 1039: ,
+Line 1039: ID = SIGKILL
+Line 1039: )
+Line 1039: )
+Line 1039: {
+Line 1040: ID = write_unlock_irq
+Line 1040: (
+Line 1040: Unrecognized token: 38
+Line 1040: ID = tasklist_lock
+Line 1040: )
+Line 1040: ;
+Line 1041: ID = retval
+Line 1041: =
+Line 1041: -
+Line 1041: ID = EINTR
+Line 1041: ;
+Line 1042: ID = goto
+Line 1042: ID = bad_fork_cleanup_namespace
+Line 1042: ;
+Line 1043: }
+Line 1046: if
+Line 1046: (
+Line 1046: ID = clone_flags
+Line 1046: Unrecognized token: 38
+Line 1046: ID = CLONE_PARENT
+Line 1046: )
+Line 1047: ID = p
+Line 1047: -
+Line 1047: >
+Line 1047: ID = real_parent
+Line 1047: =
+Line 1047: ID = current
+Line 1047: -
+Line 1047: >
+Line 1047: ID = real_parent
+Line 1047: ;
+Line 1048: else
+Line 1049: ID = p
+Line 1049: -
+Line 1049: >
+Line 1049: ID = real_parent
+Line 1049: =
+Line 1049: ID = current
+Line 1049: ;
+Line 1050: ID = p
+Line 1050: -
+Line 1050: >
+Line 1050: ID = parent
+Line 1050: =
+Line 1050: ID = p
+Line 1050: -
+Line 1050: >
+Line 1050: ID = real_parent
+Line 1050: ;
+Line 1052: if
+Line 1052: (
+Line 1052: ID = clone_flags
+Line 1052: Unrecognized token: 38
+Line 1052: ID = CLONE_THREAD
+Line 1052: )
+Line 1052: {
+Line 1053: ID = spin_lock
+Line 1053: (
+Line 1053: Unrecognized token: 38
+Line 1053: ID = current
+Line 1053: -
+Line 1053: >
+Line 1053: ID = sighand
+Line 1053: -
+Line 1053: >
+Line 1053: ID = siglock
+Line 1053: )
+Line 1053: ;
+Line 1059: if
+Line 1059: (
+Line 1059: ID = current
+Line 1059: -
+Line 1059: >
+Line 1059: ID = signal
+Line 1059: -
+Line 1059: >
+Line 1059: ID = group_exit
+Line 1059: )
+Line 1059: {
+Line 1060: ID = spin_unlock
+Line 1060: (
+Line 1060: Unrecognized token: 38
+Line 1060: ID = current
+Line 1060: -
+Line 1060: >
+Line 1060: ID = sighand
+Line 1060: -
+Line 1060: >
+Line 1060: ID = siglock
+Line 1060: )
+Line 1060: ;
+Line 1061: ID = write_unlock_irq
+Line 1061: (
+Line 1061: Unrecognized token: 38
+Line 1061: ID = tasklist_lock
+Line 1061: )
+Line 1061: ;
+Line 1062: ID = retval
+Line 1062: =
+Line 1062: -
+Line 1062: ID = EAGAIN
+Line 1062: ;
+Line 1063: ID = goto
+Line 1063: ID = bad_fork_cleanup_namespace
+Line 1063: ;
+Line 1064: }
+Line 1065: ID = p
+Line 1065: -
+Line 1065: >
+Line 1065: ID = tgid
+Line 1065: =
+Line 1065: ID = current
+Line 1065: -
+Line 1065: >
+Line 1065: ID = tgid
+Line 1065: ;
+Line 1066: ID = p
+Line 1066: -
+Line 1066: >
+Line 1066: ID = group_leader
+Line 1066: =
+Line 1066: ID = current
+Line 1066: -
+Line 1066: >
+Line 1066: ID = group_leader
+Line 1066: ;
+Line 1068: if
+Line 1068: (
+Line 1068: ID = current
+Line 1068: -
+Line 1068: >
+Line 1068: ID = signal
+Line 1068: -
+Line 1068: >
+Line 1068: ID = group_stop_count
+Line 1068: >
+Line 1068: INTCON = 0
+Line 1068: )
+Line 1068: {
+Line 1074: ID = current
+Line 1074: -
+Line 1074: >
+Line 1074: ID = signal
+Line 1074: -
+Line 1074: >
+Line 1074: ID = group_stop_count
+Line 1074: +
+Line 1074: +
+Line 1074: ;
+Line 1075: ID = set_tsk_thread_flag
+Line 1075: (
+Line 1075: ID = p
+Line 1075: ,
+Line 1075: ID = TIF_SIGPENDING
+Line 1075: )
+Line 1075: ;
+Line 1076: }
+Line 1078: ID = spin_unlock
+Line 1078: (
+Line 1078: Unrecognized token: 38
+Line 1078: ID = current
+Line 1078: -
+Line 1078: >
+Line 1078: ID = sighand
+Line 1078: -
+Line 1078: >
+Line 1078: ID = siglock
+Line 1078: )
+Line 1078: ;
+Line 1079: }
+Line 1081: ID = SET_LINKS
+Line 1081: (
+Line 1081: ID = p
+Line 1081: )
+Line 1081: ;
+Line 1082: if
+Line 1082: (
+Line 1082: ID = p
+Line 1082: -
+Line 1082: >
+Line 1082: ID = ptrace
+Line 1082: Unrecognized token: 38
+Line 1082: ID = PT_PTRACED
+Line 1082: )
+Line 1083: Unrecognized token: 95
+Line 1083: Unrecognized token: 95
+Line 1083: ID = ptrace_link
+Line 1083: (
+Line 1083: ID = p
+Line 1083: ,
+Line 1083: ID = current
+Line 1083: -
+Line 1083: >
+Line 1083: ID = parent
+Line 1083: )
+Line 1083: ;
+Line 1085: ID = attach_pid
+Line 1085: (
+Line 1085: ID = p
+Line 1085: ,
+Line 1085: ID = PIDTYPE_PID
+Line 1085: ,
+Line 1085: ID = p
+Line 1085: -
+Line 1085: >
+Line 1085: ID = pid
+Line 1085: )
+Line 1085: ;
+Line 1086: if
+Line 1086: (
+Line 1086: ID = thread_group_leader
+Line 1086: (
+Line 1086: ID = p
+Line 1086: )
+Line 1086: )
+Line 1086: {
+Line 1087: ID = attach_pid
+Line 1087: (
+Line 1087: ID = p
+Line 1087: ,
+Line 1087: ID = PIDTYPE_TGID
+Line 1087: ,
+Line 1087: ID = p
+Line 1087: -
+Line 1087: >
+Line 1087: ID = tgid
+Line 1087: )
+Line 1087: ;
+Line 1088: ID = attach_pid
+Line 1088: (
+Line 1088: ID = p
+Line 1088: ,
+Line 1088: ID = PIDTYPE_PGID
+Line 1088: ,
+Line 1088: ID = process_group
+Line 1088: (
+Line 1088: ID = p
+Line 1088: )
+Line 1088: )
+Line 1088: ;
+Line 1089: ID = attach_pid
+Line 1089: (
+Line 1089: ID = p
+Line 1089: ,
+Line 1089: ID = PIDTYPE_SID
+Line 1089: ,
+Line 1089: ID = p
+Line 1089: -
+Line 1089: >
+Line 1089: ID = signal
+Line 1089: -
+Line 1089: >
+Line 1089: ID = session
+Line 1089: )
+Line 1089: ;
+Line 1090: if
+Line 1090: (
+Line 1090: ID = p
+Line 1090: -
+Line 1090: >
+Line 1090: ID = pid
+Line 1090: )
+Line 1091: Unrecognized token: 95
+Line 1091: Unrecognized token: 95
+Line 1091: ID = get_cpu_var
+Line 1091: (
+Line 1091: ID = process_counts
+Line 1091: )
+Line 1091: +
+Line 1091: +
+Line 1091: ;
+Line 1092: }
+Line 1092: else
+Line 1093: ID = link_pid
+Line 1093: (
+Line 1093: ID = p
+Line 1093: ,
+Line 1093: ID = p
+Line 1093: -
+Line 1093: >
+Line 1093: ID = pids
+Line 1093: +
+Line 1093: ID = PIDTYPE_TGID
+Line 1093: ,
+Line 1093: Unrecognized token: 38
+Line 1093: ID = p
+Line 1093: -
+Line 1093: >
+Line 1093: ID = group_leader
+Line 1093: -
+Line 1093: >
+Line 1093: ID = pids
+Line 1093: [
+Line 1093: ID = PIDTYPE_TGID
+Line 1093: ]
+Line 1093: Unrecognized token: 46
+Line 1093: ID = pid
+Line 1093: )
+Line 1093: ;
+Line 1095: ID = nr_threads
+Line 1095: +
+Line 1095: +
+Line 1095: ;
+Line 1096: ID = write_unlock_irq
+Line 1096: (
+Line 1096: Unrecognized token: 38
+Line 1096: ID = tasklist_lock
+Line 1096: )
+Line 1096: ;
+Line 1097: ID = retval
+Line 1097: =
+Line 1097: INTCON = 0
+Line 1097: ;
+Line 1099: ID = fork_out
+Line 1099: Unrecognized token: 58
+Line 1100: if
+Line 1100: (
+Line 1100: ID = retval
+Line 1100: )
+Line 1101: return
+Line 1101: ID = ERR_PTR
+Line 1101: (
+Line 1101: ID = retval
+Line 1101: )
+Line 1101: ;
+Line 1102: return
+Line 1102: ID = p
+Line 1102: ;
+Line 1104: ID = bad_fork_cleanup_namespace
+Line 1104: Unrecognized token: 58
+Line 1105: ID = exit_namespace
+Line 1105: (
+Line 1105: ID = p
+Line 1105: )
+Line 1105: ;
+Line 1106: ID = bad_fork_cleanup_mm
+Line 1106: Unrecognized token: 58
+Line 1107: ID = exit_mm
+Line 1107: (
+Line 1107: ID = p
+Line 1107: )
+Line 1107: ;
+Line 1108: if
+Line 1108: (
+Line 1108: ID = p
+Line 1108: -
+Line 1108: >
+Line 1108: ID = active_mm
+Line 1108: )
+Line 1109: ID = mmdrop
+Line 1109: (
+Line 1109: ID = p
+Line 1109: -
+Line 1109: >
+Line 1109: ID = active_mm
+Line 1109: )
+Line 1109: ;
+Line 1110: ID = bad_fork_cleanup_signal
+Line 1110: Unrecognized token: 58
+Line 1111: ID = exit_signal
+Line 1111: (
+Line 1111: ID = p
+Line 1111: )
+Line 1111: ;
+Line 1112: ID = bad_fork_cleanup_sighand
+Line 1112: Unrecognized token: 58
+Line 1113: ID = exit_sighand
+Line 1113: (
+Line 1113: ID = p
+Line 1113: )
+Line 1113: ;
+Line 1114: ID = bad_fork_cleanup_fs
+Line 1114: Unrecognized token: 58
+Line 1115: ID = exit_fs
+Line 1115: (
+Line 1115: ID = p
+Line 1115: )
+Line 1115: ;
+Line 1116: ID = bad_fork_cleanup_files
+Line 1116: Unrecognized token: 58
+Line 1117: ID = exit_files
+Line 1117: (
+Line 1117: ID = p
+Line 1117: )
+Line 1117: ;
+Line 1118: ID = bad_fork_cleanup_semundo
+Line 1118: Unrecognized token: 58
+Line 1119: ID = exit_sem
+Line 1119: (
+Line 1119: ID = p
+Line 1119: )
+Line 1119: ;
+Line 1120: ID = bad_fork_cleanup_audit
+Line 1120: Unrecognized token: 58
+Line 1121: ID = audit_free
+Line 1121: (
+Line 1121: ID = p
+Line 1121: )
+Line 1121: ;
+Line 1122: ID = bad_fork_cleanup_security
+Line 1122: Unrecognized token: 58
+Line 1123: ID = security_task_free
+Line 1123: (
+Line 1123: ID = p
+Line 1123: )
+Line 1123: ;
+Line 1124: ID = bad_fork_cleanup_policy
+Line 1124: Unrecognized token: 58
+Line 1125: Unrecognized token: 35
+Line 1125: ID = ifdef
+Line 1125: ID = CONFIG_NUMA
+Line 1126: ID = mpol_free
+Line 1126: (
+Line 1126: ID = p
+Line 1126: -
+Line 1126: >
+Line 1126: ID = mempolicy
+Line 1126: )
+Line 1126: ;
+Line 1127: Unrecognized token: 35
+Line 1127: ID = endif
+Line 1128: ID = bad_fork_cleanup
+Line 1128: Unrecognized token: 58
+Line 1129: if
+Line 1129: (
+Line 1129: ID = p
+Line 1129: -
+Line 1129: >
+Line 1129: ID = pid
+Line 1129: >
+Line 1129: INTCON = 0
+Line 1129: )
+Line 1130: ID = free_pidmap
+Line 1130: (
+Line 1130: ID = p
+Line 1130: -
+Line 1130: >
+Line 1130: ID = pid
+Line 1130: )
+Line 1130: ;
+Line 1131: if
+Line 1131: (
+Line 1131: ID = p
+Line 1131: -
+Line 1131: >
+Line 1131: ID = binfmt
+Line 1131: )
+Line 1132: ID = module_put
+Line 1132: (
+Line 1132: ID = p
+Line 1132: -
+Line 1132: >
+Line 1132: ID = binfmt
+Line 1132: -
+Line 1132: >
+Line 1132: ID = module
+Line 1132: )
+Line 1132: ;
+Line 1133: ID = bad_fork_cleanup_put_domain
+Line 1133: Unrecognized token: 58
+Line 1134: ID = module_put
+Line 1134: (
+Line 1134: ID = p
+Line 1134: -
+Line 1134: >
+Line 1134: ID = thread_info
+Line 1134: -
+Line 1134: >
+Line 1134: ID = exec_domain
+Line 1134: -
+Line 1134: >
+Line 1134: ID = module
+Line 1134: )
+Line 1134: ;
+Line 1135: ID = bad_fork_cleanup_count
+Line 1135: Unrecognized token: 58
+Line 1136: ID = put_group_info
+Line 1136: (
+Line 1136: ID = p
+Line 1136: -
+Line 1136: >
+Line 1136: ID = group_info
+Line 1136: )
+Line 1136: ;
+Line 1137: ID = atomic_dec
+Line 1137: (
+Line 1137: Unrecognized token: 38
+Line 1137: ID = p
+Line 1137: -
+Line 1137: >
+Line 1137: ID = user
+Line 1137: -
+Line 1137: >
+Line 1137: ID = processes
+Line 1137: )
+Line 1137: ;
+Line 1138: ID = free_uid
+Line 1138: (
+Line 1138: ID = p
+Line 1138: -
+Line 1138: >
+Line 1138: ID = user
+Line 1138: )
+Line 1138: ;
+Line 1139: ID = bad_fork_free
+Line 1139: Unrecognized token: 58
+Line 1140: ID = free_task
+Line 1140: (
+Line 1140: ID = p
+Line 1140: )
+Line 1140: ;
+Line 1141: ID = goto
+Line 1141: ID = fork_out
+Line 1141: ;
+Line 1142: }
+Line 1144: ID = static
+Line 1144: ID = inline
+Line 1144: int
+Line 1144: ID = fork_traceflag
+Line 1144: (
+Line 1144: ID = unsigned
+Line 1144: ID = clone_flags
+Line 1144: )
+Line 1145: {
+Line 1146: if
+Line 1146: (
+Line 1146: ID = clone_flags
+Line 1146: Unrecognized token: 38
+Line 1146: (
+Line 1146: ID = CLONE_UNTRACED
+Line 1146: Unrecognized token: 124
+Line 1146: ID = CLONE_IDLETASK
+Line 1146: )
+Line 1146: )
+Line 1147: return
+Line 1147: INTCON = 0
+Line 1147: ;
+Line 1148: else
+Line 1148: if
+Line 1148: (
+Line 1148: ID = clone_flags
+Line 1148: Unrecognized token: 38
+Line 1148: ID = CLONE_VFORK
+Line 1148: )
+Line 1148: {
+Line 1149: if
+Line 1149: (
+Line 1149: ID = current
+Line 1149: -
+Line 1149: >
+Line 1149: ID = ptrace
+Line 1149: Unrecognized token: 38
+Line 1149: ID = PT_TRACE_VFORK
+Line 1149: )
+Line 1150: return
+Line 1150: ID = PTRACE_EVENT_VFORK
+Line 1150: ;
+Line 1151: }
+Line 1151: else
+Line 1151: if
+Line 1151: (
+Line 1151: (
+Line 1151: ID = clone_flags
+Line 1151: Unrecognized token: 38
+Line 1151: ID = CSIGNAL
+Line 1151: )
+Line 1151: !=
+Line 1151: ID = SIGCHLD
+Line 1151: )
+Line 1151: {
+Line 1152: if
+Line 1152: (
+Line 1152: ID = current
+Line 1152: -
+Line 1152: >
+Line 1152: ID = ptrace
+Line 1152: Unrecognized token: 38
+Line 1152: ID = PT_TRACE_CLONE
+Line 1152: )
+Line 1153: return
+Line 1153: ID = PTRACE_EVENT_CLONE
+Line 1153: ;
+Line 1154: }
+Line 1154: else
+Line 1154: if
+Line 1154: (
+Line 1154: ID = current
+Line 1154: -
+Line 1154: >
+Line 1154: ID = ptrace
+Line 1154: Unrecognized token: 38
+Line 1154: ID = PT_TRACE_FORK
+Line 1154: )
+Line 1155: return
+Line 1155: ID = PTRACE_EVENT_FORK
+Line 1155: ;
+Line 1157: return
+Line 1157: INTCON = 0
+Line 1157: ;
+Line 1158: }
+Line 1166: ID = long
+Line 1166: ID = do_fork
+Line 1166: (
+Line 1166: ID = unsigned
+Line 1166: ID = long
+Line 1166: ID = clone_flags
+Line 1166: ,
+Line 1167: ID = unsigned
+Line 1167: ID = long
+Line 1167: ID = stack_start
+Line 1167: ,
+Line 1168: ID = struct
+Line 1168: ID = pt_regs
+Line 1168: *
+Line 1168: ID = regs
+Line 1168: ,
+Line 1169: ID = unsigned
+Line 1169: ID = long
+Line 1169: ID = stack_size
+Line 1169: ,
+Line 1170: int
+Line 1170: Unrecognized token: 95
+Line 1170: Unrecognized token: 95
+Line 1170: ID = user
+Line 1170: *
+Line 1170: ID = parent_tidptr
+Line 1170: ,
+Line 1171: int
+Line 1171: Unrecognized token: 95
+Line 1171: Unrecognized token: 95
+Line 1171: ID = user
+Line 1171: *
+Line 1171: ID = child_tidptr
+Line 1171: )
+Line 1172: {
+Line 1173: ID = struct
+Line 1173: ID = task_struct
+Line 1173: *
+Line 1173: ID = p
+Line 1173: ;
+Line 1174: int
+Line 1174: ID = trace
+Line 1174: =
+Line 1174: INTCON = 0
+Line 1174: ;
+Line 1175: ID = long
+Line 1175: ID = pid
+Line 1175: ;
+Line 1177: if
+Line 1177: (
+Line 1177: ID = unlikely
+Line 1177: (
+Line 1177: ID = current
+Line 1177: -
+Line 1177: >
+Line 1177: ID = ptrace
+Line 1177: )
+Line 1177: )
+Line 1177: {
+Line 1178: ID = trace
+Line 1178: =
+Line 1178: ID = fork_traceflag
+Line 1178: (
+Line 1178: ID = clone_flags
+Line 1178: )
+Line 1178: ;
+Line 1179: if
+Line 1179: (
+Line 1179: ID = trace
+Line 1179: )
+Line 1180: ID = clone_flags
+Line 1180: Unrecognized token: 124
+Line 1180: =
+Line 1180: ID = CLONE_PTRACE
+Line 1180: ;
+Line 1181: }
+Line 1183: ID = p
+Line 1183: =
+Line 1183: ID = copy_process
+Line 1183: (
+Line 1183: ID = clone_flags
+Line 1183: ,
+Line 1183: ID = stack_start
+Line 1183: ,
+Line 1183: ID = regs
+Line 1183: ,
+Line 1183: ID = stack_size
+Line 1183: ,
+Line 1183: ID = parent_tidptr
+Line 1183: ,
+Line 1183: ID = child_tidptr
+Line 1183: )
+Line 1183: ;
+Line 1188: ID = pid
+Line 1188: =
+Line 1188: ID = IS_ERR
+Line 1188: (
+Line 1188: ID = p
+Line 1188: )
+Line 1188: Unrecognized token: 63
+Line 1188: ID = PTR_ERR
+Line 1188: (
+Line 1188: ID = p
+Line 1188: )
+Line 1188: Unrecognized token: 58
+Line 1188: ID = p
+Line 1188: -
+Line 1188: >
+Line 1188: ID = pid
+Line 1188: ;
+Line 1190: if
+Line 1190: (
+Line 1190: !
+Line 1190: ID = IS_ERR
+Line 1190: (
+Line 1190: ID = p
+Line 1190: )
+Line 1190: )
+Line 1190: {
+Line 1191: ID = struct
+Line 1191: ID = completion
+Line 1191: ID = vfork
+Line 1191: ;
+Line 1193: if
+Line 1193: (
+Line 1193: ID = clone_flags
+Line 1193: Unrecognized token: 38
+Line 1193: ID = CLONE_VFORK
+Line 1193: )
+Line 1193: {
+Line 1194: ID = p
+Line 1194: -
+Line 1194: >
+Line 1194: ID = vfork_done
+Line 1194: =
+Line 1194: Unrecognized token: 38
+Line 1194: ID = vfork
+Line 1194: ;
+Line 1195: ID = init_completion
+Line 1195: (
+Line 1195: Unrecognized token: 38
+Line 1195: ID = vfork
+Line 1195: )
+Line 1195: ;
+Line 1196: }
+Line 1198: if
+Line 1198: (
+Line 1198: (
+Line 1198: ID = p
+Line 1198: -
+Line 1198: >
+Line 1198: ID = ptrace
+Line 1198: Unrecognized token: 38
+Line 1198: ID = PT_PTRACED
+Line 1198: )
+Line 1198: ||
+Line 1198: (
+Line 1198: ID = clone_flags
+Line 1198: Unrecognized token: 38
+Line 1198: ID = CLONE_STOPPED
+Line 1198: )
+Line 1198: )
+Line 1198: {
+Line 1202: ID = sigaddset
+Line 1202: (
+Line 1202: Unrecognized token: 38
+Line 1202: ID = p
+Line 1202: -
+Line 1202: >
+Line 1202: ID = pending
+Line 1202: Unrecognized token: 46
+Line 1202: ID = signal
+Line 1202: ,
+Line 1202: ID = SIGSTOP
+Line 1202: )
+Line 1202: ;
+Line 1203: ID = set_tsk_thread_flag
+Line 1203: (
+Line 1203: ID = p
+Line 1203: ,
+Line 1203: ID = TIF_SIGPENDING
+Line 1203: )
+Line 1203: ;
+Line 1204: }
+Line 1206: if
+Line 1206: (
+Line 1206: !
+Line 1206: (
+Line 1206: ID = clone_flags
+Line 1206: Unrecognized token: 38
+Line 1206: ID = CLONE_STOPPED
+Line 1206: )
+Line 1206: )
+Line 1206: {
+Line 1218: if
+Line 1218: (
+Line 1218: ID = clone_flags
+Line 1218: Unrecognized token: 38
+Line 1218: ID = CLONE_VM
+Line 1218: )
+Line 1219: ID = wake_up_forked_thread
+Line 1219: (
+Line 1219: ID = p
+Line 1219: )
+Line 1219: ;
+Line 1220: else
+Line 1221: ID = wake_up_forked_process
+Line 1221: (
+Line 1221: ID = p
+Line 1221: )
+Line 1221: ;
+Line 1222: }
+Line 1222: else
+Line 1222: {
+Line 1223: int
+Line 1223: ID = cpu
+Line 1223: =
+Line 1223: ID = get_cpu
+Line 1223: (
+Line 1223: )
+Line 1223: ;
+Line 1225: ID = p
+Line 1225: -
+Line 1225: >
+Line 1225: ID = state
+Line 1225: =
+Line 1225: ID = TASK_STOPPED
+Line 1225: ;
+Line 1226: if
+Line 1226: (
+Line 1226: ID = cpu_is_offline
+Line 1226: (
+Line 1226: ID = task_cpu
+Line 1226: (
+Line 1226: ID = p
+Line 1226: )
+Line 1226: )
+Line 1226: )
+Line 1227: ID = set_task_cpu
+Line 1227: (
+Line 1227: ID = p
+Line 1227: ,
+Line 1227: ID = cpu
+Line 1227: )
+Line 1227: ;
+Line 1229: ID = put_cpu
+Line 1229: (
+Line 1229: )
+Line 1229: ;
+Line 1230: }
+Line 1231: +
+Line 1231: +
+Line 1231: ID = total_forks
+Line 1231: ;
+Line 1233: if
+Line 1233: (
+Line 1233: ID = unlikely
+Line 1233: (
+Line 1233: ID = trace
+Line 1233: )
+Line 1233: )
+Line 1233: {
+Line 1234: ID = current
+Line 1234: -
+Line 1234: >
+Line 1234: ID = ptrace_message
+Line 1234: =
+Line 1234: ID = pid
+Line 1234: ;
+Line 1235: ID = ptrace_notify
+Line 1235: (
+Line 1235: (
+Line 1235: ID = trace
+Line 1235: <
+Line 1235: <
+Line 1235: INTCON = 8
+Line 1235: )
+Line 1235: Unrecognized token: 124
+Line 1235: ID = SIGTRAP
+Line 1235: )
+Line 1235: ;
+Line 1236: }
+Line 1238: if
+Line 1238: (
+Line 1238: ID = clone_flags
+Line 1238: Unrecognized token: 38
+Line 1238: ID = CLONE_VFORK
+Line 1238: )
+Line 1238: {
+Line 1239: ID = wait_for_completion
+Line 1239: (
+Line 1239: Unrecognized token: 38
+Line 1239: ID = vfork
+Line 1239: )
+Line 1239: ;
+Line 1240: if
+Line 1240: (
+Line 1240: ID = unlikely
+Line 1240: (
+Line 1240: ID = current
+Line 1240: -
+Line 1240: >
+Line 1240: ID = ptrace
+Line 1240: Unrecognized token: 38
+Line 1240: ID = PT_TRACE_VFORK_DONE
+Line 1240: )
+Line 1240: )
+Line 1241: ID = ptrace_notify
+Line 1241: (
+Line 1241: (
+Line 1241: ID = PTRACE_EVENT_VFORK_DONE
+Line 1241: <
+Line 1241: <
+Line 1241: INTCON = 8
+Line 1241: )
+Line 1241: Unrecognized token: 124
+Line 1241: ID = SIGTRAP
+Line 1241: )
+Line 1241: ;
+Line 1242: }
+Line 1242: else
+Line 1247: ID = set_need_resched
+Line 1247: (
+Line 1247: )
+Line 1247: ;
+Line 1248: }
+Line 1249: return
+Line 1249: ID = pid
+Line 1249: ;
+Line 1250: }
+Line 1253: ID = kmem_cache_t
+Line 1253: *
+Line 1253: ID = signal_cachep
+Line 1253: ;
+Line 1256: ID = kmem_cache_t
+Line 1256: *
+Line 1256: ID = sighand_cachep
+Line 1256: ;
+Line 1259: ID = kmem_cache_t
+Line 1259: *
+Line 1259: ID = files_cachep
+Line 1259: ;
+Line 1262: ID = kmem_cache_t
+Line 1262: *
+Line 1262: ID = fs_cachep
+Line 1262: ;
+Line 1265: ID = kmem_cache_t
+Line 1265: *
+Line 1265: ID = vm_area_cachep
+Line 1265: ;
+Line 1268: ID = kmem_cache_t
+Line 1268: *
+Line 1268: ID = mm_cachep
+Line 1268: ;
+Line 1270: void
+Line 1270: Unrecognized token: 95
+Line 1270: Unrecognized token: 95
+Line 1270: ID = init
+Line 1270: ID = proc_caches_init
+Line 1270: (
+Line 1270: void
+Line 1270: )
+Line 1271: {
+Line 1272: ID = sighand_cachep
+Line 1272: =
+Line 1272: ID = kmem_cache_create
+Line 1272: (
+Line 1272: STRINGCON = "sighand_cache"
+Line 1272: ,
+Line 1273: ID = sizeof
+Line 1273: (
+Line 1273: ID = struct
+Line 1273: ID = sighand_struct
+Line 1273: )
+Line 1273: ,
+Line 1273: INTCON = 0
+Line 1273: ,
+Line 1274: ID = SLAB_HWCACHE_ALIGN
+Line 1274: Unrecognized token: 124
+Line 1274: ID = SLAB_PANIC
+Line 1274: ,
+Line 1274: ID = NULL
+Line 1274: ,
+Line 1274: ID = NULL
+Line 1274: )
+Line 1274: ;
+Line 1275: ID = signal_cachep
+Line 1275: =
+Line 1275: ID = kmem_cache_create
+Line 1275: (
+Line 1275: STRINGCON = "signal_cache"
+Line 1275: ,
+Line 1276: ID = sizeof
+Line 1276: (
+Line 1276: ID = struct
+Line 1276: ID = signal_struct
+Line 1276: )
+Line 1276: ,
+Line 1276: INTCON = 0
+Line 1276: ,
+Line 1277: ID = SLAB_HWCACHE_ALIGN
+Line 1277: Unrecognized token: 124
+Line 1277: ID = SLAB_PANIC
+Line 1277: ,
+Line 1277: ID = NULL
+Line 1277: ,
+Line 1277: ID = NULL
+Line 1277: )
+Line 1277: ;
+Line 1278: ID = files_cachep
+Line 1278: =
+Line 1278: ID = kmem_cache_create
+Line 1278: (
+Line 1278: STRINGCON = "files_cache"
+Line 1278: ,
+Line 1279: ID = sizeof
+Line 1279: (
+Line 1279: ID = struct
+Line 1279: ID = files_struct
+Line 1279: )
+Line 1279: ,
+Line 1279: INTCON = 0
+Line 1279: ,
+Line 1280: ID = SLAB_HWCACHE_ALIGN
+Line 1280: Unrecognized token: 124
+Line 1280: ID = SLAB_PANIC
+Line 1280: ,
+Line 1280: ID = NULL
+Line 1280: ,
+Line 1280: ID = NULL
+Line 1280: )
+Line 1280: ;
+Line 1281: ID = fs_cachep
+Line 1281: =
+Line 1281: ID = kmem_cache_create
+Line 1281: (
+Line 1281: STRINGCON = "fs_cache"
+Line 1281: ,
+Line 1282: ID = sizeof
+Line 1282: (
+Line 1282: ID = struct
+Line 1282: ID = fs_struct
+Line 1282: )
+Line 1282: ,
+Line 1282: INTCON = 0
+Line 1282: ,
+Line 1283: ID = SLAB_HWCACHE_ALIGN
+Line 1283: Unrecognized token: 124
+Line 1283: ID = SLAB_PANIC
+Line 1283: ,
+Line 1283: ID = NULL
+Line 1283: ,
+Line 1283: ID = NULL
+Line 1283: )
+Line 1283: ;
+Line 1284: ID = vm_area_cachep
+Line 1284: =
+Line 1284: ID = kmem_cache_create
+Line 1284: (
+Line 1284: STRINGCON = "vm_area_struct"
+Line 1284: ,
+Line 1285: ID = sizeof
+Line 1285: (
+Line 1285: ID = struct
+Line 1285: ID = vm_area_struct
+Line 1285: )
+Line 1285: ,
+Line 1285: INTCON = 0
+Line 1285: ,
+Line 1286: ID = SLAB_PANIC
+Line 1286: ,
+Line 1286: ID = NULL
+Line 1286: ,
+Line 1286: ID = NULL
+Line 1286: )
+Line 1286: ;
+Line 1287: ID = mm_cachep
+Line 1287: =
+Line 1287: ID = kmem_cache_create
+Line 1287: (
+Line 1287: STRINGCON = "mm_struct"
+Line 1287: ,
+Line 1288: ID = sizeof
+Line 1288: (
+Line 1288: ID = struct
+Line 1288: ID = mm_struct
+Line 1288: )
+Line 1288: ,
+Line 1288: INTCON = 0
+Line 1288: ,
+Line 1289: ID = SLAB_HWCACHE_ALIGN
+Line 1289: Unrecognized token: 124
+Line 1289: ID = SLAB_PANIC
+Line 1289: ,
+Line 1289: ID = NULL
+Line 1289: ,
+Line 1289: ID = NULL
+Line 1289: )
+Line 1289: ;
+Line 1290: }
+Line 1291: -EOF-

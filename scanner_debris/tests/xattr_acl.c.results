@@ -1,0 +1,492 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = module
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = sched
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = slab
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = fs
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = posix_acl_xattr
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 18: ID = struct
+Line 18: ID = posix_acl
+Line 18: *
+Line 19: ID = posix_acl_from_xattr
+Line 19: (
+Line 19: ID = const
+Line 19: void
+Line 19: *
+Line 19: ID = value
+Line 19: ,
+Line 19: ID = size_t
+Line 19: ID = size
+Line 19: )
+Line 20: {
+Line 21: ID = posix_acl_xattr_header
+Line 21: *
+Line 21: ID = header
+Line 21: =
+Line 21: (
+Line 21: ID = posix_acl_xattr_header
+Line 21: *
+Line 21: )
+Line 21: ID = value
+Line 21: ;
+Line 22: ID = posix_acl_xattr_entry
+Line 22: *
+Line 22: ID = entry
+Line 22: =
+Line 22: (
+Line 22: ID = posix_acl_xattr_entry
+Line 22: *
+Line 22: )
+Line 22: (
+Line 22: ID = header
+Line 22: +
+Line 22: INTCON = 1
+Line 22: )
+Line 22: ,
+Line 22: *
+Line 22: ID = end
+Line 22: ;
+Line 23: int
+Line 23: ID = count
+Line 23: ;
+Line 24: ID = struct
+Line 24: ID = posix_acl
+Line 24: *
+Line 24: ID = acl
+Line 24: ;
+Line 25: ID = struct
+Line 25: ID = posix_acl_entry
+Line 25: *
+Line 25: ID = acl_e
+Line 25: ;
+Line 27: if
+Line 27: (
+Line 27: !
+Line 27: ID = value
+Line 27: )
+Line 28: return
+Line 28: ID = NULL
+Line 28: ;
+Line 29: if
+Line 29: (
+Line 29: ID = size
+Line 29: <
+Line 29: ID = sizeof
+Line 29: (
+Line 29: ID = posix_acl_xattr_header
+Line 29: )
+Line 29: )
+Line 30: return
+Line 30: ID = ERR_PTR
+Line 30: (
+Line 30: -
+Line 30: ID = EINVAL
+Line 30: )
+Line 30: ;
+Line 31: if
+Line 31: (
+Line 31: ID = header
+Line 31: -
+Line 31: >
+Line 31: ID = a_version
+Line 31: !=
+Line 31: ID = cpu_to_le32
+Line 31: (
+Line 31: ID = POSIX_ACL_XATTR_VERSION
+Line 31: )
+Line 31: )
+Line 32: return
+Line 32: ID = ERR_PTR
+Line 32: (
+Line 32: -
+Line 32: ID = EOPNOTSUPP
+Line 32: )
+Line 32: ;
+Line 34: ID = count
+Line 34: =
+Line 34: ID = posix_acl_xattr_count
+Line 34: (
+Line 34: ID = size
+Line 34: )
+Line 34: ;
+Line 35: if
+Line 35: (
+Line 35: ID = count
+Line 35: <
+Line 35: INTCON = 0
+Line 35: )
+Line 36: return
+Line 36: ID = ERR_PTR
+Line 36: (
+Line 36: -
+Line 36: ID = EINVAL
+Line 36: )
+Line 36: ;
+Line 37: if
+Line 37: (
+Line 37: ID = count
+Line 37: ==
+Line 37: INTCON = 0
+Line 37: )
+Line 38: return
+Line 38: ID = NULL
+Line 38: ;
+Line 40: ID = acl
+Line 40: =
+Line 40: ID = posix_acl_alloc
+Line 40: (
+Line 40: ID = count
+Line 40: ,
+Line 40: ID = GFP_KERNEL
+Line 40: )
+Line 40: ;
+Line 41: if
+Line 41: (
+Line 41: !
+Line 41: ID = acl
+Line 41: )
+Line 42: return
+Line 42: ID = ERR_PTR
+Line 42: (
+Line 42: -
+Line 42: ID = ENOMEM
+Line 42: )
+Line 42: ;
+Line 43: ID = acl_e
+Line 43: =
+Line 43: ID = acl
+Line 43: -
+Line 43: >
+Line 43: ID = a_entries
+Line 43: ;
+Line 45: for
+Line 45: (
+Line 45: ID = end
+Line 45: =
+Line 45: ID = entry
+Line 45: +
+Line 45: ID = count
+Line 45: ;
+Line 45: ID = entry
+Line 45: !=
+Line 45: ID = end
+Line 45: ;
+Line 45: ID = acl_e
+Line 45: +
+Line 45: +
+Line 45: ,
+Line 45: ID = entry
+Line 45: +
+Line 45: +
+Line 45: )
+Line 45: {
+Line 46: ID = acl_e
+Line 46: -
+Line 46: >
+Line 46: ID = e_tag
+Line 46: =
+Line 46: ID = le16_to_cpu
+Line 46: (
+Line 46: ID = entry
+Line 46: -
+Line 46: >
+Line 46: ID = e_tag
+Line 46: )
+Line 46: ;
+Line 47: ID = acl_e
+Line 47: -
+Line 47: >
+Line 47: ID = e_perm
+Line 47: =
+Line 47: ID = le16_to_cpu
+Line 47: (
+Line 47: ID = entry
+Line 47: -
+Line 47: >
+Line 47: ID = e_perm
+Line 47: )
+Line 47: ;
+Line 49: ID = switch
+Line 49: (
+Line 49: ID = acl_e
+Line 49: -
+Line 49: >
+Line 49: ID = e_tag
+Line 49: )
+Line 49: {
+Line 50: ID = case
+Line 50: ID = ACL_USER_OBJ
+Line 50: Unrecognized token: 58
+Line 51: ID = case
+Line 51: ID = ACL_GROUP_OBJ
+Line 51: Unrecognized token: 58
+Line 52: ID = case
+Line 52: ID = ACL_MASK
+Line 52: Unrecognized token: 58
+Line 53: ID = case
+Line 53: ID = ACL_OTHER
+Line 53: Unrecognized token: 58
+Line 54: ID = acl_e
+Line 54: -
+Line 54: >
+Line 54: ID = e_id
+Line 54: =
+Line 54: ID = ACL_UNDEFINED_ID
+Line 54: ;
+Line 55: ID = break
+Line 55: ;
+Line 57: ID = case
+Line 57: ID = ACL_USER
+Line 57: Unrecognized token: 58
+Line 58: ID = case
+Line 58: ID = ACL_GROUP
+Line 58: Unrecognized token: 58
+Line 59: ID = acl_e
+Line 59: -
+Line 59: >
+Line 59: ID = e_id
+Line 59: =
+Line 59: ID = le32_to_cpu
+Line 59: (
+Line 59: ID = entry
+Line 59: -
+Line 59: >
+Line 59: ID = e_id
+Line 59: )
+Line 59: ;
+Line 60: ID = break
+Line 60: ;
+Line 62: ID = default
+Line 62: Unrecognized token: 58
+Line 63: ID = goto
+Line 63: ID = fail
+Line 63: ;
+Line 64: }
+Line 65: }
+Line 66: return
+Line 66: ID = acl
+Line 66: ;
+Line 68: ID = fail
+Line 68: Unrecognized token: 58
+Line 69: ID = posix_acl_release
+Line 69: (
+Line 69: ID = acl
+Line 69: )
+Line 69: ;
+Line 70: return
+Line 70: ID = ERR_PTR
+Line 70: (
+Line 70: -
+Line 70: ID = EINVAL
+Line 70: )
+Line 70: ;
+Line 71: }
+Line 72: ID = EXPORT_SYMBOL
+Line 72: (
+Line 72: ID = posix_acl_from_xattr
+Line 72: )
+Line 72: ;
+Line 77: int
+Line 78: ID = posix_acl_to_xattr
+Line 78: (
+Line 78: ID = const
+Line 78: ID = struct
+Line 78: ID = posix_acl
+Line 78: *
+Line 78: ID = acl
+Line 78: ,
+Line 78: void
+Line 78: *
+Line 78: ID = buffer
+Line 78: ,
+Line 78: ID = size_t
+Line 78: ID = size
+Line 78: )
+Line 79: {
+Line 80: ID = posix_acl_xattr_header
+Line 80: *
+Line 80: ID = ext_acl
+Line 80: =
+Line 80: (
+Line 80: ID = posix_acl_xattr_header
+Line 80: *
+Line 80: )
+Line 80: ID = buffer
+Line 80: ;
+Line 81: ID = posix_acl_xattr_entry
+Line 81: *
+Line 81: ID = ext_entry
+Line 81: =
+Line 81: ID = ext_acl
+Line 81: -
+Line 81: >
+Line 81: ID = a_entries
+Line 81: ;
+Line 82: int
+Line 82: ID = real_size
+Line 82: ,
+Line 82: ID = n
+Line 82: ;
+Line 84: ID = real_size
+Line 84: =
+Line 84: ID = posix_acl_xattr_size
+Line 84: (
+Line 84: ID = acl
+Line 84: -
+Line 84: >
+Line 84: ID = a_count
+Line 84: )
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: !
+Line 85: ID = buffer
+Line 85: )
+Line 86: return
+Line 86: ID = real_size
+Line 86: ;
+Line 87: if
+Line 87: (
+Line 87: ID = real_size
+Line 87: >
+Line 87: ID = size
+Line 87: )
+Line 88: return
+Line 88: -
+Line 88: ID = ERANGE
+Line 88: ;
+Line 90: ID = ext_acl
+Line 90: -
+Line 90: >
+Line 90: ID = a_version
+Line 90: =
+Line 90: ID = cpu_to_le32
+Line 90: (
+Line 90: ID = POSIX_ACL_XATTR_VERSION
+Line 90: )
+Line 90: ;
+Line 92: for
+Line 92: (
+Line 92: ID = n
+Line 92: =
+Line 92: INTCON = 0
+Line 92: ;
+Line 92: ID = n
+Line 92: <
+Line 92: ID = acl
+Line 92: -
+Line 92: >
+Line 92: ID = a_count
+Line 92: ;
+Line 92: ID = n
+Line 92: +
+Line 92: +
+Line 92: ,
+Line 92: ID = ext_entry
+Line 92: +
+Line 92: +
+Line 92: )
+Line 92: {
+Line 93: ID = ext_entry
+Line 93: -
+Line 93: >
+Line 93: ID = e_tag
+Line 93: =
+Line 93: ID = cpu_to_le16
+Line 93: (
+Line 93: ID = acl
+Line 93: -
+Line 93: >
+Line 93: ID = a_entries
+Line 93: [
+Line 93: ID = n
+Line 93: ]
+Line 93: Unrecognized token: 46
+Line 93: ID = e_tag
+Line 93: )
+Line 93: ;
+Line 94: ID = ext_entry
+Line 94: -
+Line 94: >
+Line 94: ID = e_perm
+Line 94: =
+Line 94: ID = cpu_to_le16
+Line 94: (
+Line 94: ID = acl
+Line 94: -
+Line 94: >
+Line 94: ID = a_entries
+Line 94: [
+Line 94: ID = n
+Line 94: ]
+Line 94: Unrecognized token: 46
+Line 94: ID = e_perm
+Line 94: )
+Line 94: ;
+Line 95: ID = ext_entry
+Line 95: -
+Line 95: >
+Line 95: ID = e_id
+Line 95: =
+Line 95: ID = cpu_to_le32
+Line 95: (
+Line 95: ID = acl
+Line 95: -
+Line 95: >
+Line 95: ID = a_entries
+Line 95: [
+Line 95: ID = n
+Line 95: ]
+Line 95: Unrecognized token: 46
+Line 95: ID = e_id
+Line 95: )
+Line 95: ;
+Line 96: }
+Line 97: return
+Line 97: ID = real_size
+Line 97: ;
+Line 98: }
+Line 99: ID = EXPORT_SYMBOL
+Line 99: (
+Line 99: ID = posix_acl_to_xattr
+Line 99: )
+Line 99: ;
+Line 100: -EOF-

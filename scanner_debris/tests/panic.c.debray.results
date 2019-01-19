@@ -1,0 +1,479 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = config
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = sched
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = delay
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = reboot
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = notifier
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = init
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = sysrq
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = syscalls
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = interrupt
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = nmi
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 23: int
+Line 23: ID = panic_timeout
+Line 23: ;
+Line 24: int
+Line 24: ID = panic_on_oops
+Line 24: ;
+Line 25: int
+Line 25: ID = tainted
+Line 25: ;
+Line 27: ID = EXPORT_SYMBOL
+Line 27: (
+Line 27: ID = panic_timeout
+Line 27: )
+Line 27: ;
+Line 29: ID = struct
+Line 29: ID = notifier_block
+Line 29: *
+Line 29: ID = panic_notifier_list
+Line 29: ;
+Line 31: ID = EXPORT_SYMBOL
+Line 31: (
+Line 31: ID = panic_notifier_list
+Line 31: )
+Line 31: ;
+Line 33: ID = static
+Line 33: int
+Line 33: Unrecognized token: 95
+Line 33: Unrecognized token: 95
+Line 33: ID = init
+Line 33: ID = panic_setup
+Line 33: (
+Line 33: char
+Line 33: *
+Line 33: ID = str
+Line 33: )
+Line 34: {
+Line 35: ID = panic_timeout
+Line 35: =
+Line 35: ID = simple_strtoul
+Line 35: (
+Line 35: ID = str
+Line 35: ,
+Line 35: ID = NULL
+Line 35: ,
+Line 35: INTCON = 0
+Line 35: )
+Line 35: ;
+Line 36: return
+Line 36: INTCON = 1
+Line 36: ;
+Line 37: }
+Line 38: Unrecognized token: 95
+Line 38: Unrecognized token: 95
+Line 38: ID = setup
+Line 38: (
+Line 38: STRINGCON = "panic="
+Line 38: ,
+Line 38: ID = panic_setup
+Line 38: )
+Line 38: ;
+Line 50: ID = NORET_TYPE
+Line 50: void
+Line 50: ID = panic
+Line 50: (
+Line 50: ID = const
+Line 50: char
+Line 50: *
+Line 50: ID = fmt
+Line 50: ,
+Line 50: Unrecognized token: 46
+Line 50: Unrecognized token: 46
+Line 50: Unrecognized token: 46
+Line 50: )
+Line 51: {
+Line 52: ID = static
+Line 52: char
+Line 52: ID = buf
+Line 52: [
+Line 52: INTCON = 1024
+Line 52: ]
+Line 52: ;
+Line 53: ID = va_list
+Line 53: ID = args
+Line 53: ;
+Line 54: Unrecognized token: 35
+Line 54: if
+Line 54: ID = defined
+Line 54: (
+Line 54: ID = CONFIG_ARCH_S390
+Line 54: )
+Line 55: ID = unsigned
+Line 55: ID = long
+Line 55: ID = caller
+Line 55: =
+Line 55: (
+Line 55: ID = unsigned
+Line 55: ID = long
+Line 55: )
+Line 55: Unrecognized token: 95
+Line 55: Unrecognized token: 95
+Line 55: ID = builtin_return_address
+Line 55: (
+Line 55: INTCON = 0
+Line 55: )
+Line 55: ;
+Line 56: Unrecognized token: 35
+Line 56: ID = endif
+Line 58: ID = bust_spinlocks
+Line 58: (
+Line 58: INTCON = 1
+Line 58: )
+Line 58: ;
+Line 59: ID = va_start
+Line 59: (
+Line 59: ID = args
+Line 59: ,
+Line 59: ID = fmt
+Line 59: )
+Line 59: ;
+Line 60: ID = vsnprintf
+Line 60: (
+Line 60: ID = buf
+Line 60: ,
+Line 60: ID = sizeof
+Line 60: (
+Line 60: ID = buf
+Line 60: )
+Line 60: ,
+Line 60: ID = fmt
+Line 60: ,
+Line 60: ID = args
+Line 60: )
+Line 60: ;
+Line 61: ID = va_end
+Line 61: (
+Line 61: ID = args
+Line 61: )
+Line 61: ;
+Line 62: ID = printk
+Line 62: (
+Line 62: ID = KERN_EMERG
+Line 62: STRINGCON = "Kernel panic: %s\n"
+Line 62: ,
+Line 62: ID = buf
+Line 62: )
+Line 62: ;
+Line 63: if
+Line 63: (
+Line 63: ID = in_interrupt
+Line 63: (
+Line 63: )
+Line 63: )
+Line 64: ID = printk
+Line 64: (
+Line 64: ID = KERN_EMERG
+Line 64: STRINGCON = "In interrupt handler - not syncing\n"
+Line 64: )
+Line 64: ;
+Line 65: else
+Line 65: if
+Line 65: (
+Line 65: !
+Line 65: ID = current
+Line 65: -
+Line 65: >
+Line 65: ID = pid
+Line 65: )
+Line 66: ID = printk
+Line 66: (
+Line 66: ID = KERN_EMERG
+Line 66: STRINGCON = "In idle task - not syncing\n"
+Line 66: )
+Line 66: ;
+Line 67: else
+Line 68: ID = sys_sync
+Line 68: (
+Line 68: )
+Line 68: ;
+Line 69: ID = bust_spinlocks
+Line 69: (
+Line 69: INTCON = 0
+Line 69: )
+Line 69: ;
+Line 71: Unrecognized token: 35
+Line 71: ID = ifdef
+Line 71: ID = CONFIG_SMP
+Line 72: ID = smp_send_stop
+Line 72: (
+Line 72: )
+Line 72: ;
+Line 73: Unrecognized token: 35
+Line 73: ID = endif
+Line 75: ID = notifier_call_chain
+Line 75: (
+Line 75: Unrecognized token: 38
+Line 75: ID = panic_notifier_list
+Line 75: ,
+Line 75: INTCON = 0
+Line 75: ,
+Line 75: ID = buf
+Line 75: )
+Line 75: ;
+Line 77: if
+Line 77: (
+Line 77: ID = panic_timeout
+Line 77: >
+Line 77: INTCON = 0
+Line 77: )
+Line 78: {
+Line 79: int
+Line 79: ID = i
+Line 79: ;
+Line 84: ID = printk
+Line 84: (
+Line 84: ID = KERN_EMERG
+Line 84: STRINGCON = "Rebooting in %d seconds.."
+Line 84: ,
+Line 84: ID = panic_timeout
+Line 84: )
+Line 84: ;
+Line 85: for
+Line 85: (
+Line 85: ID = i
+Line 85: =
+Line 85: INTCON = 0
+Line 85: ;
+Line 85: ID = i
+Line 85: <
+Line 85: ID = panic_timeout
+Line 85: ;
+Line 85: ID = i
+Line 85: +
+Line 85: +
+Line 85: )
+Line 85: {
+Line 86: ID = touch_nmi_watchdog
+Line 86: (
+Line 86: )
+Line 86: ;
+Line 87: ID = mdelay
+Line 87: (
+Line 87: INTCON = 1000
+Line 87: )
+Line 87: ;
+Line 88: }
+Line 94: ID = machine_restart
+Line 94: (
+Line 94: ID = NULL
+Line 94: )
+Line 94: ;
+Line 95: }
+Line 96: Unrecognized token: 35
+Line 96: ID = ifdef
+Line 96: Unrecognized token: 95
+Line 96: Unrecognized token: 95
+Line 96: ID = sparc__
+Line 97: {
+Line 98: extern
+Line 98: int
+Line 98: ID = stop_a_enabled
+Line 98: ;
+Line 100: ID = stop_a_enabled
+Line 100: =
+Line 100: INTCON = 1
+Line 100: ;
+Line 101: ID = printk
+Line 101: (
+Line 101: ID = KERN_EMERG
+Line 101: STRINGCON = "Press L1-A to return to the boot prom\n"
+Line 101: )
+Line 101: ;
+Line 102: }
+Line 103: Unrecognized token: 35
+Line 103: ID = endif
+Line 104: Unrecognized token: 35
+Line 104: if
+Line 104: ID = defined
+Line 104: (
+Line 104: ID = CONFIG_ARCH_S390
+Line 104: )
+Line 105: ID = disabled_wait
+Line 105: (
+Line 105: ID = caller
+Line 105: )
+Line 105: ;
+Line 106: Unrecognized token: 35
+Line 106: ID = endif
+Line 107: ID = local_irq_enable
+Line 107: (
+Line 107: )
+Line 107: ;
+Line 108: for
+Line 108: (
+Line 108: ;
+Line 108: ;
+Line 108: )
+Line 109: ;
+Line 110: }
+Line 112: ID = EXPORT_SYMBOL
+Line 112: (
+Line 112: ID = panic
+Line 112: )
+Line 112: ;
+Line 124: ID = const
+Line 124: char
+Line 124: *
+Line 124: ID = print_tainted
+Line 124: (
+Line 124: void
+Line 124: )
+Line 125: {
+Line 126: ID = static
+Line 126: char
+Line 126: ID = buf
+Line 126: [
+Line 126: INTCON = 20
+Line 126: ]
+Line 126: ;
+Line 127: if
+Line 127: (
+Line 127: ID = tainted
+Line 127: )
+Line 127: {
+Line 128: ID = snprintf
+Line 128: (
+Line 128: ID = buf
+Line 128: ,
+Line 128: ID = sizeof
+Line 128: (
+Line 128: ID = buf
+Line 128: )
+Line 128: ,
+Line 128: STRINGCON = "Tainted: %c%c%c"
+Line 128: ,
+Line 129: ID = tainted
+Line 129: Unrecognized token: 38
+Line 129: ID = TAINT_PROPRIETARY_MODULE
+Line 129: Unrecognized token: 63
+Line 129: CHARCON = 'P'
+Line 129: Unrecognized token: 58
+Line 129: CHARCON = 'G'
+Line 129: ,
+Line 130: ID = tainted
+Line 130: Unrecognized token: 38
+Line 130: ID = TAINT_FORCED_MODULE
+Line 130: Unrecognized token: 63
+Line 130: CHARCON = 'F'
+Line 130: Unrecognized token: 58
+Line 130: CHARCON = ' '
+Line 130: ,
+Line 131: ID = tainted
+Line 131: Unrecognized token: 38
+Line 131: ID = TAINT_UNSAFE_SMP
+Line 131: Unrecognized token: 63
+Line 131: CHARCON = 'S'
+Line 131: Unrecognized token: 58
+Line 131: CHARCON = ' '
+Line 131: )
+Line 131: ;
+Line 132: }
+Line 133: else
+Line 134: ID = snprintf
+Line 134: (
+Line 134: ID = buf
+Line 134: ,
+Line 134: ID = sizeof
+Line 134: (
+Line 134: ID = buf
+Line 134: )
+Line 134: ,
+Line 134: STRINGCON = "Not tainted"
+Line 134: )
+Line 134: ;
+Line 135: return
+Line 135: (
+Line 135: ID = buf
+Line 135: )
+Line 135: ;
+Line 136: }
+Line 137: -EOF-

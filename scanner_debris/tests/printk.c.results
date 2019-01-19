@@ -1,0 +1,3405 @@
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = kernel
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = mm
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = tty
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = tty_driver
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = smp_lock
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = console
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = init
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = module
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = interrupt
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = config
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = delay
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = smp
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = security
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = bootmem
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = asm
+Line 34: /
+Line 34: ID = uaccess
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 36: Unrecognized token: 35
+Line 36: ID = define
+Line 36: Unrecognized token: 95
+Line 36: Unrecognized token: 95
+Line 36: ID = LOG_BUF_LEN
+Line 36: (
+Line 36: INTCON = 1
+Line 36: <
+Line 36: <
+Line 36: ID = CONFIG_LOG_BUF_SHIFT
+Line 36: )
+Line 39: Unrecognized token: 35
+Line 39: ID = define
+Line 39: ID = DEFAULT_MESSAGE_LOGLEVEL
+Line 39: INTCON = 4
+Line 42: Unrecognized token: 35
+Line 42: ID = define
+Line 42: ID = MINIMUM_CONSOLE_LOGLEVEL
+Line 42: INTCON = 1
+Line 43: Unrecognized token: 35
+Line 43: ID = define
+Line 43: ID = DEFAULT_CONSOLE_LOGLEVEL
+Line 43: INTCON = 7
+Line 45: ID = DECLARE_WAIT_QUEUE_HEAD
+Line 45: (
+Line 45: ID = log_wait
+Line 45: )
+Line 45: ;
+Line 47: int
+Line 47: ID = console_printk
+Line 47: [
+Line 47: INTCON = 4
+Line 47: ]
+Line 47: =
+Line 47: {
+Line 48: ID = DEFAULT_CONSOLE_LOGLEVEL
+Line 48: ,
+Line 49: ID = DEFAULT_MESSAGE_LOGLEVEL
+Line 49: ,
+Line 50: ID = MINIMUM_CONSOLE_LOGLEVEL
+Line 50: ,
+Line 51: ID = DEFAULT_CONSOLE_LOGLEVEL
+Line 51: ,
+Line 52: }
+Line 52: ;
+Line 54: ID = EXPORT_SYMBOL
+Line 54: (
+Line 54: ID = console_printk
+Line 54: )
+Line 54: ;
+Line 56: int
+Line 56: ID = oops_in_progress
+Line 56: ;
+Line 63: ID = static
+Line 63: ID = DECLARE_MUTEX
+Line 63: (
+Line 63: ID = console_sem
+Line 63: )
+Line 63: ;
+Line 64: ID = struct
+Line 64: ID = console
+Line 64: *
+Line 64: ID = console_drivers
+Line 64: ;
+Line 73: ID = static
+Line 73: int
+Line 73: ID = console_locked
+Line 73: ;
+Line 80: ID = static
+Line 80: ID = spinlock_t
+Line 80: ID = logbuf_lock
+Line 80: =
+Line 80: ID = SPIN_LOCK_UNLOCKED
+Line 80: ;
+Line 82: ID = static
+Line 82: char
+Line 82: Unrecognized token: 95
+Line 82: Unrecognized token: 95
+Line 82: ID = log_buf
+Line 82: [
+Line 82: Unrecognized token: 95
+Line 82: Unrecognized token: 95
+Line 82: ID = LOG_BUF_LEN
+Line 82: ]
+Line 82: ;
+Line 83: ID = static
+Line 83: char
+Line 83: *
+Line 83: ID = log_buf
+Line 83: =
+Line 83: Unrecognized token: 95
+Line 83: Unrecognized token: 95
+Line 83: ID = log_buf
+Line 83: ;
+Line 84: ID = static
+Line 84: int
+Line 84: ID = log_buf_len
+Line 84: =
+Line 84: Unrecognized token: 95
+Line 84: Unrecognized token: 95
+Line 84: ID = LOG_BUF_LEN
+Line 84: ;
+Line 86: Unrecognized token: 35
+Line 86: ID = define
+Line 86: ID = LOG_BUF_MASK
+Line 86: (
+Line 86: ID = log_buf_len
+Line 86: -
+Line 86: INTCON = 1
+Line 86: )
+Line 87: Unrecognized token: 35
+Line 87: ID = define
+Line 87: ID = LOG_BUF
+Line 87: (
+Line 87: ID = idx
+Line 87: )
+Line 87: (
+Line 87: ID = log_buf
+Line 87: [
+Line 87: (
+Line 87: ID = idx
+Line 87: )
+Line 87: Unrecognized token: 38
+Line 87: ID = LOG_BUF_MASK
+Line 87: ]
+Line 87: )
+Line 93: ID = static
+Line 93: ID = unsigned
+Line 93: ID = long
+Line 93: ID = log_start
+Line 93: ;
+Line 94: ID = static
+Line 94: ID = unsigned
+Line 94: ID = long
+Line 94: ID = con_start
+Line 94: ;
+Line 95: ID = static
+Line 95: ID = unsigned
+Line 95: ID = long
+Line 95: ID = log_end
+Line 95: ;
+Line 96: ID = static
+Line 96: ID = unsigned
+Line 96: ID = long
+Line 96: ID = logged_chars
+Line 96: ;
+Line 101: ID = struct
+Line 101: ID = console_cmdline
+Line 102: {
+Line 103: char
+Line 103: ID = name
+Line 103: [
+Line 103: INTCON = 8
+Line 103: ]
+Line 103: ;
+Line 104: int
+Line 104: ID = index
+Line 104: ;
+Line 105: char
+Line 105: *
+Line 105: ID = options
+Line 105: ;
+Line 106: }
+Line 106: ;
+Line 108: Unrecognized token: 35
+Line 108: ID = define
+Line 108: ID = MAX_CMDLINECONSOLES
+Line 108: INTCON = 8
+Line 110: ID = static
+Line 110: ID = struct
+Line 110: ID = console_cmdline
+Line 110: ID = console_cmdline
+Line 110: [
+Line 110: ID = MAX_CMDLINECONSOLES
+Line 110: ]
+Line 110: ;
+Line 111: ID = static
+Line 111: int
+Line 111: ID = preferred_console
+Line 111: =
+Line 111: -
+Line 111: INTCON = 1
+Line 111: ;
+Line 114: ID = static
+Line 114: int
+Line 114: ID = console_may_schedule
+Line 114: ;
+Line 119: ID = static
+Line 119: int
+Line 119: Unrecognized token: 95
+Line 119: Unrecognized token: 95
+Line 119: ID = init
+Line 119: ID = console_setup
+Line 119: (
+Line 119: char
+Line 119: *
+Line 119: ID = str
+Line 119: )
+Line 120: {
+Line 121: char
+Line 121: ID = name
+Line 121: [
+Line 121: ID = sizeof
+Line 121: (
+Line 121: ID = console_cmdline
+Line 121: [
+Line 121: INTCON = 0
+Line 121: ]
+Line 121: Unrecognized token: 46
+Line 121: ID = name
+Line 121: )
+Line 121: ]
+Line 121: ;
+Line 122: char
+Line 122: *
+Line 122: ID = s
+Line 122: ,
+Line 122: *
+Line 122: ID = options
+Line 122: ;
+Line 123: int
+Line 123: ID = idx
+Line 123: ;
+Line 128: if
+Line 128: (
+Line 128: ID = str
+Line 128: [
+Line 128: INTCON = 0
+Line 128: ]
+Line 128: >=
+Line 128: CHARCON = '0'
+Line 128: &&
+Line 128: ID = str
+Line 128: [
+Line 128: INTCON = 0
+Line 128: ]
+Line 128: <=
+Line 128: CHARCON = '9'
+Line 128: )
+Line 128: {
+Line 129: ID = strcpy
+Line 129: (
+Line 129: ID = name
+Line 129: ,
+Line 129: STRINGCON = "ttyS"
+Line 129: )
+Line 129: ;
+Line 130: ID = strncpy
+Line 130: (
+Line 130: ID = name
+Line 130: +
+Line 130: INTCON = 4
+Line 130: ,
+Line 130: ID = str
+Line 130: ,
+Line 130: ID = sizeof
+Line 130: (
+Line 130: ID = name
+Line 130: )
+Line 130: -
+Line 130: INTCON = 5
+Line 130: )
+Line 130: ;
+Line 131: }
+Line 131: else
+Line 132: ID = strncpy
+Line 132: (
+Line 132: ID = name
+Line 132: ,
+Line 132: ID = str
+Line 132: ,
+Line 132: ID = sizeof
+Line 132: (
+Line 132: ID = name
+Line 132: )
+Line 132: -
+Line 132: INTCON = 1
+Line 132: )
+Line 132: ;
+Line 133: ID = name
+Line 133: [
+Line 133: ID = sizeof
+Line 133: (
+Line 133: ID = name
+Line 133: )
+Line 133: -
+Line 133: INTCON = 1
+Line 133: ]
+Line 133: =
+Line 133: INTCON = 0
+Line 133: ;
+Line 134: if
+Line 134: (
+Line 134: (
+Line 134: ID = options
+Line 134: =
+Line 134: ID = strchr
+Line 134: (
+Line 134: ID = str
+Line 134: ,
+Line 134: CHARCON = ','
+Line 134: )
+Line 134: )
+Line 134: !=
+Line 134: ID = NULL
+Line 134: )
+Line 135: *
+Line 135: (
+Line 135: ID = options
+Line 135: +
+Line 135: +
+Line 135: )
+Line 135: =
+Line 135: INTCON = 0
+Line 135: ;
+Line 136: Unrecognized token: 35
+Line 136: ID = ifdef
+Line 136: Unrecognized token: 95
+Line 136: Unrecognized token: 95
+Line 136: ID = sparc__
+Line 137: if
+Line 137: (
+Line 137: !
+Line 137: ID = strcmp
+Line 137: (
+Line 137: ID = str
+Line 137: ,
+Line 137: STRINGCON = "ttya"
+Line 137: )
+Line 137: )
+Line 138: ID = strcpy
+Line 138: (
+Line 138: ID = name
+Line 138: ,
+Line 138: STRINGCON = "ttyS0"
+Line 138: )
+Line 138: ;
+Line 139: if
+Line 139: (
+Line 139: !
+Line 139: ID = strcmp
+Line 139: (
+Line 139: ID = str
+Line 139: ,
+Line 139: STRINGCON = "ttyb"
+Line 139: )
+Line 139: )
+Line 140: ID = strcpy
+Line 140: (
+Line 140: ID = name
+Line 140: ,
+Line 140: STRINGCON = "ttyS1"
+Line 140: )
+Line 140: ;
+Line 141: Unrecognized token: 35
+Line 141: ID = endif
+Line 142: for
+Line 142: (
+Line 142: ID = s
+Line 142: =
+Line 142: ID = name
+Line 142: ;
+Line 142: *
+Line 142: ID = s
+Line 142: ;
+Line 142: ID = s
+Line 142: +
+Line 142: +
+Line 142: )
+Line 143: if
+Line 143: (
+Line 143: *
+Line 143: ID = s
+Line 143: >=
+Line 143: CHARCON = '0'
+Line 143: &&
+Line 143: *
+Line 143: ID = s
+Line 143: <=
+Line 143: CHARCON = '9'
+Line 143: )
+Line 144: ID = break
+Line 144: ;
+Line 145: ID = idx
+Line 145: =
+Line 145: ID = simple_strtoul
+Line 145: (
+Line 145: ID = s
+Line 145: ,
+Line 145: ID = NULL
+Line 145: ,
+Line 145: INTCON = 10
+Line 145: )
+Line 145: ;
+Line 146: *
+Line 146: ID = s
+Line 146: =
+Line 146: INTCON = 0
+Line 146: ;
+Line 148: ID = add_preferred_console
+Line 148: (
+Line 148: ID = name
+Line 148: ,
+Line 148: ID = idx
+Line 148: ,
+Line 148: ID = options
+Line 148: )
+Line 148: ;
+Line 149: return
+Line 149: INTCON = 1
+Line 149: ;
+Line 150: }
+Line 152: Unrecognized token: 95
+Line 152: Unrecognized token: 95
+Line 152: ID = setup
+Line 152: (
+Line 152: STRINGCON = "console="
+Line 152: ,
+Line 152: ID = console_setup
+Line 152: )
+Line 152: ;
+Line 164: int
+Line 164: Unrecognized token: 95
+Line 164: Unrecognized token: 95
+Line 164: ID = init
+Line 164: ID = add_preferred_console
+Line 164: (
+Line 164: char
+Line 164: *
+Line 164: ID = name
+Line 164: ,
+Line 164: int
+Line 164: ID = idx
+Line 164: ,
+Line 164: char
+Line 164: *
+Line 164: ID = options
+Line 164: )
+Line 165: {
+Line 166: ID = struct
+Line 166: ID = console_cmdline
+Line 166: *
+Line 166: ID = c
+Line 166: ;
+Line 167: int
+Line 167: ID = i
+Line 167: ;
+Line 173: for
+Line 173: (
+Line 173: ID = i
+Line 173: =
+Line 173: INTCON = 0
+Line 173: ;
+Line 173: ID = i
+Line 173: <
+Line 173: ID = MAX_CMDLINECONSOLES
+Line 173: &&
+Line 173: ID = console_cmdline
+Line 173: [
+Line 173: ID = i
+Line 173: ]
+Line 173: Unrecognized token: 46
+Line 173: ID = name
+Line 173: [
+Line 173: INTCON = 0
+Line 173: ]
+Line 173: ;
+Line 173: ID = i
+Line 173: +
+Line 173: +
+Line 173: )
+Line 174: if
+Line 174: (
+Line 174: ID = strcmp
+Line 174: (
+Line 174: ID = console_cmdline
+Line 174: [
+Line 174: ID = i
+Line 174: ]
+Line 174: Unrecognized token: 46
+Line 174: ID = name
+Line 174: ,
+Line 174: ID = name
+Line 174: )
+Line 174: ==
+Line 174: INTCON = 0
+Line 174: &&
+Line 175: ID = console_cmdline
+Line 175: [
+Line 175: ID = i
+Line 175: ]
+Line 175: Unrecognized token: 46
+Line 175: ID = index
+Line 175: ==
+Line 175: ID = idx
+Line 175: )
+Line 175: {
+Line 176: ID = preferred_console
+Line 176: =
+Line 176: ID = i
+Line 176: ;
+Line 177: return
+Line 177: INTCON = 0
+Line 177: ;
+Line 178: }
+Line 179: if
+Line 179: (
+Line 179: ID = i
+Line 179: ==
+Line 179: ID = MAX_CMDLINECONSOLES
+Line 179: )
+Line 180: return
+Line 180: -
+Line 180: ID = E2BIG
+Line 180: ;
+Line 181: ID = preferred_console
+Line 181: =
+Line 181: ID = i
+Line 181: ;
+Line 182: ID = c
+Line 182: =
+Line 182: Unrecognized token: 38
+Line 182: ID = console_cmdline
+Line 182: [
+Line 182: ID = i
+Line 182: ]
+Line 182: ;
+Line 183: ID = memcpy
+Line 183: (
+Line 183: ID = c
+Line 183: -
+Line 183: >
+Line 183: ID = name
+Line 183: ,
+Line 183: ID = name
+Line 183: ,
+Line 183: ID = sizeof
+Line 183: (
+Line 183: ID = c
+Line 183: -
+Line 183: >
+Line 183: ID = name
+Line 183: )
+Line 183: )
+Line 183: ;
+Line 184: ID = c
+Line 184: -
+Line 184: >
+Line 184: ID = name
+Line 184: [
+Line 184: ID = sizeof
+Line 184: (
+Line 184: ID = c
+Line 184: -
+Line 184: >
+Line 184: ID = name
+Line 184: )
+Line 184: -
+Line 184: INTCON = 1
+Line 184: ]
+Line 184: =
+Line 184: INTCON = 0
+Line 184: ;
+Line 185: ID = c
+Line 185: -
+Line 185: >
+Line 185: ID = options
+Line 185: =
+Line 185: ID = options
+Line 185: ;
+Line 186: ID = c
+Line 186: -
+Line 186: >
+Line 186: ID = index
+Line 186: =
+Line 186: ID = idx
+Line 186: ;
+Line 187: return
+Line 187: INTCON = 0
+Line 187: ;
+Line 188: }
+Line 190: ID = static
+Line 190: int
+Line 190: Unrecognized token: 95
+Line 190: Unrecognized token: 95
+Line 190: ID = init
+Line 190: ID = log_buf_len_setup
+Line 190: (
+Line 190: char
+Line 190: *
+Line 190: ID = str
+Line 190: )
+Line 191: {
+Line 192: ID = unsigned
+Line 192: ID = long
+Line 192: ID = size
+Line 192: =
+Line 192: ID = memparse
+Line 192: (
+Line 192: ID = str
+Line 192: ,
+Line 192: Unrecognized token: 38
+Line 192: ID = str
+Line 192: )
+Line 192: ;
+Line 193: ID = unsigned
+Line 193: ID = long
+Line 193: ID = flags
+Line 193: ;
+Line 195: if
+Line 195: (
+Line 195: ID = size
+Line 195: >
+Line 195: ID = log_buf_len
+Line 195: )
+Line 195: {
+Line 196: ID = unsigned
+Line 196: ID = long
+Line 196: ID = start
+Line 196: ,
+Line 196: ID = dest_idx
+Line 196: ,
+Line 196: ID = offset
+Line 196: ;
+Line 197: char
+Line 197: *
+Line 197: ID = new_log_buf
+Line 197: ;
+Line 199: ID = new_log_buf
+Line 199: =
+Line 199: ID = alloc_bootmem
+Line 199: (
+Line 199: ID = size
+Line 199: )
+Line 199: ;
+Line 200: if
+Line 200: (
+Line 200: !
+Line 200: ID = new_log_buf
+Line 200: )
+Line 200: {
+Line 201: ID = printk
+Line 201: (
+Line 201: STRINGCON = "log_buf_len: allocation failed\n"
+Line 201: )
+Line 201: ;
+Line 202: ID = goto
+Line 202: ID = out
+Line 202: ;
+Line 203: }
+Line 205: ID = spin_lock_irqsave
+Line 205: (
+Line 205: Unrecognized token: 38
+Line 205: ID = logbuf_lock
+Line 205: ,
+Line 205: ID = flags
+Line 205: )
+Line 205: ;
+Line 206: ID = log_buf_len
+Line 206: =
+Line 206: ID = size
+Line 206: ;
+Line 207: ID = log_buf
+Line 207: =
+Line 207: ID = new_log_buf
+Line 207: ;
+Line 209: ID = offset
+Line 209: =
+Line 209: ID = start
+Line 209: =
+Line 209: ID = min
+Line 209: (
+Line 209: ID = con_start
+Line 209: ,
+Line 209: ID = log_start
+Line 209: )
+Line 209: ;
+Line 210: ID = dest_idx
+Line 210: =
+Line 210: INTCON = 0
+Line 210: ;
+Line 211: while
+Line 211: (
+Line 211: ID = start
+Line 211: !=
+Line 211: ID = log_end
+Line 211: )
+Line 211: {
+Line 212: ID = log_buf
+Line 212: [
+Line 212: ID = dest_idx
+Line 212: ]
+Line 212: =
+Line 212: Unrecognized token: 95
+Line 212: Unrecognized token: 95
+Line 212: ID = log_buf
+Line 212: [
+Line 212: ID = start
+Line 212: Unrecognized token: 38
+Line 212: (
+Line 212: Unrecognized token: 95
+Line 212: Unrecognized token: 95
+Line 212: ID = LOG_BUF_LEN
+Line 212: -
+Line 212: INTCON = 1
+Line 212: )
+Line 212: ]
+Line 212: ;
+Line 213: ID = start
+Line 213: +
+Line 213: +
+Line 213: ;
+Line 214: ID = dest_idx
+Line 214: +
+Line 214: +
+Line 214: ;
+Line 215: }
+Line 216: ID = log_start
+Line 216: -
+Line 216: =
+Line 216: ID = offset
+Line 216: ;
+Line 217: ID = con_start
+Line 217: -
+Line 217: =
+Line 217: ID = offset
+Line 217: ;
+Line 218: ID = log_end
+Line 218: -
+Line 218: =
+Line 218: ID = offset
+Line 218: ;
+Line 219: ID = spin_unlock_irqrestore
+Line 219: (
+Line 219: Unrecognized token: 38
+Line 219: ID = logbuf_lock
+Line 219: ,
+Line 219: ID = flags
+Line 219: )
+Line 219: ;
+Line 221: ID = printk
+Line 221: (
+Line 221: STRINGCON = "log_buf_len: %d\n"
+Line 221: ,
+Line 221: ID = log_buf_len
+Line 221: )
+Line 221: ;
+Line 222: }
+Line 223: ID = out
+Line 223: Unrecognized token: 58
+Line 225: return
+Line 225: INTCON = 1
+Line 225: ;
+Line 226: }
+Line 228: Unrecognized token: 95
+Line 228: Unrecognized token: 95
+Line 228: ID = setup
+Line 228: (
+Line 228: STRINGCON = "log_buf_len="
+Line 228: ,
+Line 228: ID = log_buf_len_setup
+Line 228: )
+Line 228: ;
+Line 245: int
+Line 245: ID = do_syslog
+Line 245: (
+Line 245: int
+Line 245: ID = type
+Line 245: ,
+Line 245: char
+Line 245: Unrecognized token: 95
+Line 245: Unrecognized token: 95
+Line 245: ID = user
+Line 245: *
+Line 245: ID = buf
+Line 245: ,
+Line 245: int
+Line 245: ID = len
+Line 245: )
+Line 246: {
+Line 247: ID = unsigned
+Line 247: ID = long
+Line 247: ID = i
+Line 247: ,
+Line 247: ID = j
+Line 247: ,
+Line 247: ID = limit
+Line 247: ,
+Line 247: ID = count
+Line 247: ;
+Line 248: int
+Line 248: ID = do_clear
+Line 248: =
+Line 248: INTCON = 0
+Line 248: ;
+Line 249: char
+Line 249: ID = c
+Line 249: ;
+Line 250: int
+Line 250: ID = error
+Line 250: =
+Line 250: INTCON = 0
+Line 250: ;
+Line 252: ID = error
+Line 252: =
+Line 252: ID = security_syslog
+Line 252: (
+Line 252: ID = type
+Line 252: )
+Line 252: ;
+Line 253: if
+Line 253: (
+Line 253: ID = error
+Line 253: )
+Line 254: return
+Line 254: ID = error
+Line 254: ;
+Line 256: ID = switch
+Line 256: (
+Line 256: ID = type
+Line 256: )
+Line 256: {
+Line 257: ID = case
+Line 257: INTCON = 0
+Line 257: Unrecognized token: 58
+Line 258: ID = break
+Line 258: ;
+Line 259: ID = case
+Line 259: INTCON = 1
+Line 259: Unrecognized token: 58
+Line 260: ID = break
+Line 260: ;
+Line 261: ID = case
+Line 261: INTCON = 2
+Line 261: Unrecognized token: 58
+Line 262: ID = error
+Line 262: =
+Line 262: -
+Line 262: ID = EINVAL
+Line 262: ;
+Line 263: if
+Line 263: (
+Line 263: !
+Line 263: ID = buf
+Line 263: ||
+Line 263: ID = len
+Line 263: <
+Line 263: INTCON = 0
+Line 263: )
+Line 264: ID = goto
+Line 264: ID = out
+Line 264: ;
+Line 265: ID = error
+Line 265: =
+Line 265: INTCON = 0
+Line 265: ;
+Line 266: if
+Line 266: (
+Line 266: !
+Line 266: ID = len
+Line 266: )
+Line 267: ID = goto
+Line 267: ID = out
+Line 267: ;
+Line 268: ID = error
+Line 268: =
+Line 268: ID = verify_area
+Line 268: (
+Line 268: ID = VERIFY_WRITE
+Line 268: ,
+Line 268: ID = buf
+Line 268: ,
+Line 268: ID = len
+Line 268: )
+Line 268: ;
+Line 269: if
+Line 269: (
+Line 269: ID = error
+Line 269: )
+Line 270: ID = goto
+Line 270: ID = out
+Line 270: ;
+Line 271: ID = error
+Line 271: =
+Line 271: ID = wait_event_interruptible
+Line 271: (
+Line 271: ID = log_wait
+Line 271: ,
+Line 271: (
+Line 271: ID = log_start
+Line 271: -
+Line 271: ID = log_end
+Line 271: )
+Line 271: )
+Line 271: ;
+Line 272: if
+Line 272: (
+Line 272: ID = error
+Line 272: )
+Line 273: ID = goto
+Line 273: ID = out
+Line 273: ;
+Line 274: ID = i
+Line 274: =
+Line 274: INTCON = 0
+Line 274: ;
+Line 275: ID = spin_lock_irq
+Line 275: (
+Line 275: Unrecognized token: 38
+Line 275: ID = logbuf_lock
+Line 275: )
+Line 275: ;
+Line 276: while
+Line 276: (
+Line 276: !
+Line 276: ID = error
+Line 276: &&
+Line 276: (
+Line 276: ID = log_start
+Line 276: !=
+Line 276: ID = log_end
+Line 276: )
+Line 276: &&
+Line 276: ID = i
+Line 276: <
+Line 276: ID = len
+Line 276: )
+Line 276: {
+Line 277: ID = c
+Line 277: =
+Line 277: ID = LOG_BUF
+Line 277: (
+Line 277: ID = log_start
+Line 277: )
+Line 277: ;
+Line 278: ID = log_start
+Line 278: +
+Line 278: +
+Line 278: ;
+Line 279: ID = spin_unlock_irq
+Line 279: (
+Line 279: Unrecognized token: 38
+Line 279: ID = logbuf_lock
+Line 279: )
+Line 279: ;
+Line 280: ID = error
+Line 280: =
+Line 280: Unrecognized token: 95
+Line 280: Unrecognized token: 95
+Line 280: ID = put_user
+Line 280: (
+Line 280: ID = c
+Line 280: ,
+Line 280: ID = buf
+Line 280: )
+Line 280: ;
+Line 281: ID = buf
+Line 281: +
+Line 281: +
+Line 281: ;
+Line 282: ID = i
+Line 282: +
+Line 282: +
+Line 282: ;
+Line 283: ID = spin_lock_irq
+Line 283: (
+Line 283: Unrecognized token: 38
+Line 283: ID = logbuf_lock
+Line 283: )
+Line 283: ;
+Line 284: }
+Line 285: ID = spin_unlock_irq
+Line 285: (
+Line 285: Unrecognized token: 38
+Line 285: ID = logbuf_lock
+Line 285: )
+Line 285: ;
+Line 286: if
+Line 286: (
+Line 286: !
+Line 286: ID = error
+Line 286: )
+Line 287: ID = error
+Line 287: =
+Line 287: ID = i
+Line 287: ;
+Line 288: ID = break
+Line 288: ;
+Line 289: ID = case
+Line 289: INTCON = 4
+Line 289: Unrecognized token: 58
+Line 290: ID = do_clear
+Line 290: =
+Line 290: INTCON = 1
+Line 290: ;
+Line 292: ID = case
+Line 292: INTCON = 3
+Line 292: Unrecognized token: 58
+Line 293: ID = error
+Line 293: =
+Line 293: -
+Line 293: ID = EINVAL
+Line 293: ;
+Line 294: if
+Line 294: (
+Line 294: !
+Line 294: ID = buf
+Line 294: ||
+Line 294: ID = len
+Line 294: <
+Line 294: INTCON = 0
+Line 294: )
+Line 295: ID = goto
+Line 295: ID = out
+Line 295: ;
+Line 296: ID = error
+Line 296: =
+Line 296: INTCON = 0
+Line 296: ;
+Line 297: if
+Line 297: (
+Line 297: !
+Line 297: ID = len
+Line 297: )
+Line 298: ID = goto
+Line 298: ID = out
+Line 298: ;
+Line 299: ID = error
+Line 299: =
+Line 299: ID = verify_area
+Line 299: (
+Line 299: ID = VERIFY_WRITE
+Line 299: ,
+Line 299: ID = buf
+Line 299: ,
+Line 299: ID = len
+Line 299: )
+Line 299: ;
+Line 300: if
+Line 300: (
+Line 300: ID = error
+Line 300: )
+Line 301: ID = goto
+Line 301: ID = out
+Line 301: ;
+Line 302: ID = count
+Line 302: =
+Line 302: ID = len
+Line 302: ;
+Line 303: if
+Line 303: (
+Line 303: ID = count
+Line 303: >
+Line 303: ID = log_buf_len
+Line 303: )
+Line 304: ID = count
+Line 304: =
+Line 304: ID = log_buf_len
+Line 304: ;
+Line 305: ID = spin_lock_irq
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = logbuf_lock
+Line 305: )
+Line 305: ;
+Line 306: if
+Line 306: (
+Line 306: ID = count
+Line 306: >
+Line 306: ID = logged_chars
+Line 306: )
+Line 307: ID = count
+Line 307: =
+Line 307: ID = logged_chars
+Line 307: ;
+Line 308: if
+Line 308: (
+Line 308: ID = do_clear
+Line 308: )
+Line 309: ID = logged_chars
+Line 309: =
+Line 309: INTCON = 0
+Line 309: ;
+Line 310: ID = limit
+Line 310: =
+Line 310: ID = log_end
+Line 310: ;
+Line 317: for
+Line 317: (
+Line 317: ID = i
+Line 317: =
+Line 317: INTCON = 0
+Line 317: ;
+Line 317: ID = i
+Line 317: <
+Line 317: ID = count
+Line 317: &&
+Line 317: !
+Line 317: ID = error
+Line 317: ;
+Line 317: ID = i
+Line 317: +
+Line 317: +
+Line 317: )
+Line 317: {
+Line 318: ID = j
+Line 318: =
+Line 318: ID = limit
+Line 318: -
+Line 318: INTCON = 1
+Line 318: -
+Line 318: ID = i
+Line 318: ;
+Line 319: if
+Line 319: (
+Line 319: ID = j
+Line 319: +
+Line 319: ID = log_buf_len
+Line 319: <
+Line 319: ID = log_end
+Line 319: )
+Line 320: ID = break
+Line 320: ;
+Line 321: ID = c
+Line 321: =
+Line 321: ID = LOG_BUF
+Line 321: (
+Line 321: ID = j
+Line 321: )
+Line 321: ;
+Line 322: ID = spin_unlock_irq
+Line 322: (
+Line 322: Unrecognized token: 38
+Line 322: ID = logbuf_lock
+Line 322: )
+Line 322: ;
+Line 323: ID = error
+Line 323: =
+Line 323: Unrecognized token: 95
+Line 323: Unrecognized token: 95
+Line 323: ID = put_user
+Line 323: (
+Line 323: ID = c
+Line 323: ,
+Line 323: Unrecognized token: 38
+Line 323: ID = buf
+Line 323: [
+Line 323: ID = count
+Line 323: -
+Line 323: INTCON = 1
+Line 323: -
+Line 323: ID = i
+Line 323: ]
+Line 323: )
+Line 323: ;
+Line 324: ID = spin_lock_irq
+Line 324: (
+Line 324: Unrecognized token: 38
+Line 324: ID = logbuf_lock
+Line 324: )
+Line 324: ;
+Line 325: }
+Line 326: ID = spin_unlock_irq
+Line 326: (
+Line 326: Unrecognized token: 38
+Line 326: ID = logbuf_lock
+Line 326: )
+Line 326: ;
+Line 327: if
+Line 327: (
+Line 327: ID = error
+Line 327: )
+Line 328: ID = break
+Line 328: ;
+Line 329: ID = error
+Line 329: =
+Line 329: ID = i
+Line 329: ;
+Line 330: if
+Line 330: (
+Line 330: ID = i
+Line 330: !=
+Line 330: ID = count
+Line 330: )
+Line 330: {
+Line 331: int
+Line 331: ID = offset
+Line 331: =
+Line 331: ID = count
+Line 331: -
+Line 331: ID = error
+Line 331: ;
+Line 333: for
+Line 333: (
+Line 333: ID = i
+Line 333: =
+Line 333: INTCON = 0
+Line 333: ;
+Line 333: ID = i
+Line 333: <
+Line 333: ID = error
+Line 333: ;
+Line 333: ID = i
+Line 333: +
+Line 333: +
+Line 333: )
+Line 333: {
+Line 334: if
+Line 334: (
+Line 334: Unrecognized token: 95
+Line 334: Unrecognized token: 95
+Line 334: ID = get_user
+Line 334: (
+Line 334: ID = c
+Line 334: ,
+Line 334: Unrecognized token: 38
+Line 334: ID = buf
+Line 334: [
+Line 334: ID = i
+Line 334: +
+Line 334: ID = offset
+Line 334: ]
+Line 334: )
+Line 334: ||
+Line 335: Unrecognized token: 95
+Line 335: Unrecognized token: 95
+Line 335: ID = put_user
+Line 335: (
+Line 335: ID = c
+Line 335: ,
+Line 335: Unrecognized token: 38
+Line 335: ID = buf
+Line 335: [
+Line 335: ID = i
+Line 335: ]
+Line 335: )
+Line 335: )
+Line 335: {
+Line 336: ID = error
+Line 336: =
+Line 336: -
+Line 336: ID = EFAULT
+Line 336: ;
+Line 337: ID = break
+Line 337: ;
+Line 338: }
+Line 339: }
+Line 340: }
+Line 341: ID = break
+Line 341: ;
+Line 342: ID = case
+Line 342: INTCON = 5
+Line 342: Unrecognized token: 58
+Line 343: ID = logged_chars
+Line 343: =
+Line 343: INTCON = 0
+Line 343: ;
+Line 344: ID = break
+Line 344: ;
+Line 345: ID = case
+Line 345: INTCON = 6
+Line 345: Unrecognized token: 58
+Line 346: ID = console_loglevel
+Line 346: =
+Line 346: ID = minimum_console_loglevel
+Line 346: ;
+Line 347: ID = break
+Line 347: ;
+Line 348: ID = case
+Line 348: INTCON = 7
+Line 348: Unrecognized token: 58
+Line 349: ID = console_loglevel
+Line 349: =
+Line 349: ID = default_console_loglevel
+Line 349: ;
+Line 350: ID = break
+Line 350: ;
+Line 351: ID = case
+Line 351: INTCON = 8
+Line 351: Unrecognized token: 58
+Line 352: ID = error
+Line 352: =
+Line 352: -
+Line 352: ID = EINVAL
+Line 352: ;
+Line 353: if
+Line 353: (
+Line 353: ID = len
+Line 353: <
+Line 353: INTCON = 1
+Line 353: ||
+Line 353: ID = len
+Line 353: >
+Line 353: INTCON = 8
+Line 353: )
+Line 354: ID = goto
+Line 354: ID = out
+Line 354: ;
+Line 355: if
+Line 355: (
+Line 355: ID = len
+Line 355: <
+Line 355: ID = minimum_console_loglevel
+Line 355: )
+Line 356: ID = len
+Line 356: =
+Line 356: ID = minimum_console_loglevel
+Line 356: ;
+Line 357: ID = console_loglevel
+Line 357: =
+Line 357: ID = len
+Line 357: ;
+Line 358: ID = error
+Line 358: =
+Line 358: INTCON = 0
+Line 358: ;
+Line 359: ID = break
+Line 359: ;
+Line 360: ID = case
+Line 360: INTCON = 9
+Line 360: Unrecognized token: 58
+Line 361: ID = error
+Line 361: =
+Line 361: ID = log_end
+Line 361: -
+Line 361: ID = log_start
+Line 361: ;
+Line 362: ID = break
+Line 362: ;
+Line 363: ID = case
+Line 363: INTCON = 10
+Line 363: Unrecognized token: 58
+Line 364: ID = error
+Line 364: =
+Line 364: ID = log_buf_len
+Line 364: ;
+Line 365: ID = break
+Line 365: ;
+Line 366: ID = default
+Line 366: Unrecognized token: 58
+Line 367: ID = error
+Line 367: =
+Line 367: -
+Line 367: ID = EINVAL
+Line 367: ;
+Line 368: ID = break
+Line 368: ;
+Line 369: }
+Line 370: ID = out
+Line 370: Unrecognized token: 58
+Line 371: return
+Line 371: ID = error
+Line 371: ;
+Line 372: }
+Line 374: ID = asmlinkage
+Line 374: ID = long
+Line 374: ID = sys_syslog
+Line 374: (
+Line 374: int
+Line 374: ID = type
+Line 374: ,
+Line 374: char
+Line 374: Unrecognized token: 95
+Line 374: Unrecognized token: 95
+Line 374: ID = user
+Line 374: *
+Line 374: ID = buf
+Line 374: ,
+Line 374: int
+Line 374: ID = len
+Line 374: )
+Line 375: {
+Line 376: return
+Line 376: ID = do_syslog
+Line 376: (
+Line 376: ID = type
+Line 376: ,
+Line 376: ID = buf
+Line 376: ,
+Line 376: ID = len
+Line 376: )
+Line 376: ;
+Line 377: }
+Line 382: ID = static
+Line 382: void
+Line 382: Unrecognized token: 95
+Line 382: Unrecognized token: 95
+Line 382: ID = call_console_drivers
+Line 382: (
+Line 382: ID = unsigned
+Line 382: ID = long
+Line 382: ID = start
+Line 382: ,
+Line 382: ID = unsigned
+Line 382: ID = long
+Line 382: ID = end
+Line 382: )
+Line 383: {
+Line 384: ID = struct
+Line 384: ID = console
+Line 384: *
+Line 384: ID = con
+Line 384: ;
+Line 386: for
+Line 386: (
+Line 386: ID = con
+Line 386: =
+Line 386: ID = console_drivers
+Line 386: ;
+Line 386: ID = con
+Line 386: ;
+Line 386: ID = con
+Line 386: =
+Line 386: ID = con
+Line 386: -
+Line 386: >
+Line 386: ID = next
+Line 386: )
+Line 386: {
+Line 387: if
+Line 387: (
+Line 387: (
+Line 387: ID = con
+Line 387: -
+Line 387: >
+Line 387: ID = flags
+Line 387: Unrecognized token: 38
+Line 387: ID = CON_ENABLED
+Line 387: )
+Line 387: &&
+Line 387: ID = con
+Line 387: -
+Line 387: >
+Line 387: ID = write
+Line 387: )
+Line 388: ID = con
+Line 388: -
+Line 388: >
+Line 388: ID = write
+Line 388: (
+Line 388: ID = con
+Line 388: ,
+Line 388: Unrecognized token: 38
+Line 388: ID = LOG_BUF
+Line 388: (
+Line 388: ID = start
+Line 388: )
+Line 388: ,
+Line 388: ID = end
+Line 388: -
+Line 388: ID = start
+Line 388: )
+Line 388: ;
+Line 389: }
+Line 390: }
+Line 395: ID = static
+Line 395: void
+Line 395: Unrecognized token: 95
+Line 395: ID = call_console_drivers
+Line 395: (
+Line 395: ID = unsigned
+Line 395: ID = long
+Line 395: ID = start
+Line 395: ,
+Line 396: ID = unsigned
+Line 396: ID = long
+Line 396: ID = end
+Line 396: ,
+Line 396: int
+Line 396: ID = msg_log_level
+Line 396: )
+Line 397: {
+Line 398: if
+Line 398: (
+Line 398: ID = msg_log_level
+Line 398: <
+Line 398: ID = console_loglevel
+Line 398: &&
+Line 399: ID = console_drivers
+Line 399: &&
+Line 399: ID = start
+Line 399: !=
+Line 399: ID = end
+Line 399: )
+Line 399: {
+Line 400: if
+Line 400: (
+Line 400: (
+Line 400: ID = start
+Line 400: Unrecognized token: 38
+Line 400: ID = LOG_BUF_MASK
+Line 400: )
+Line 400: >
+Line 400: (
+Line 400: ID = end
+Line 400: Unrecognized token: 38
+Line 400: ID = LOG_BUF_MASK
+Line 400: )
+Line 400: )
+Line 400: {
+Line 402: Unrecognized token: 95
+Line 402: Unrecognized token: 95
+Line 402: ID = call_console_drivers
+Line 402: (
+Line 402: ID = start
+Line 402: Unrecognized token: 38
+Line 402: ID = LOG_BUF_MASK
+Line 402: ,
+Line 403: ID = log_buf_len
+Line 403: )
+Line 403: ;
+Line 404: Unrecognized token: 95
+Line 404: Unrecognized token: 95
+Line 404: ID = call_console_drivers
+Line 404: (
+Line 404: INTCON = 0
+Line 404: ,
+Line 404: ID = end
+Line 404: Unrecognized token: 38
+Line 404: ID = LOG_BUF_MASK
+Line 404: )
+Line 404: ;
+Line 405: }
+Line 405: else
+Line 405: {
+Line 406: Unrecognized token: 95
+Line 406: Unrecognized token: 95
+Line 406: ID = call_console_drivers
+Line 406: (
+Line 406: ID = start
+Line 406: ,
+Line 406: ID = end
+Line 406: )
+Line 406: ;
+Line 407: }
+Line 408: }
+Line 409: }
+Line 416: ID = static
+Line 416: void
+Line 416: ID = call_console_drivers
+Line 416: (
+Line 416: ID = unsigned
+Line 416: ID = long
+Line 416: ID = start
+Line 416: ,
+Line 416: ID = unsigned
+Line 416: ID = long
+Line 416: ID = end
+Line 416: )
+Line 417: {
+Line 418: ID = unsigned
+Line 418: ID = long
+Line 418: ID = cur_index
+Line 418: ,
+Line 418: ID = start_print
+Line 418: ;
+Line 419: ID = static
+Line 419: int
+Line 419: ID = msg_level
+Line 419: =
+Line 419: -
+Line 419: INTCON = 1
+Line 419: ;
+Line 421: if
+Line 421: (
+Line 421: (
+Line 421: (
+Line 421: ID = long
+Line 421: )
+Line 421: (
+Line 421: ID = start
+Line 421: -
+Line 421: ID = end
+Line 421: )
+Line 421: )
+Line 421: >
+Line 421: INTCON = 0
+Line 421: )
+Line 422: ID = BUG
+Line 422: (
+Line 422: )
+Line 422: ;
+Line 424: ID = cur_index
+Line 424: =
+Line 424: ID = start
+Line 424: ;
+Line 425: ID = start_print
+Line 425: =
+Line 425: ID = start
+Line 425: ;
+Line 426: while
+Line 426: (
+Line 426: ID = cur_index
+Line 426: !=
+Line 426: ID = end
+Line 426: )
+Line 426: {
+Line 427: if
+Line 427: (
+Line 427: ID = msg_level
+Line 427: <
+Line 427: INTCON = 0
+Line 427: &&
+Line 428: (
+Line 428: (
+Line 428: ID = end
+Line 428: -
+Line 428: ID = cur_index
+Line 428: )
+Line 428: >
+Line 428: INTCON = 2
+Line 428: )
+Line 428: &&
+Line 429: ID = LOG_BUF
+Line 429: (
+Line 429: ID = cur_index
+Line 429: +
+Line 429: INTCON = 0
+Line 429: )
+Line 429: ==
+Line 429: CHARCON = '<'
+Line 429: &&
+Line 430: ID = LOG_BUF
+Line 430: (
+Line 430: ID = cur_index
+Line 430: +
+Line 430: INTCON = 1
+Line 430: )
+Line 430: >=
+Line 430: CHARCON = '0'
+Line 430: &&
+Line 431: ID = LOG_BUF
+Line 431: (
+Line 431: ID = cur_index
+Line 431: +
+Line 431: INTCON = 1
+Line 431: )
+Line 431: <=
+Line 431: CHARCON = '7'
+Line 431: &&
+Line 432: ID = LOG_BUF
+Line 432: (
+Line 432: ID = cur_index
+Line 432: +
+Line 432: INTCON = 2
+Line 432: )
+Line 432: ==
+Line 432: CHARCON = '>'
+Line 432: )
+Line 433: {
+Line 434: ID = msg_level
+Line 434: =
+Line 434: ID = LOG_BUF
+Line 434: (
+Line 434: ID = cur_index
+Line 434: +
+Line 434: INTCON = 1
+Line 434: )
+Line 434: -
+Line 434: CHARCON = '0'
+Line 434: ;
+Line 435: ID = cur_index
+Line 435: +
+Line 435: =
+Line 435: INTCON = 3
+Line 435: ;
+Line 436: ID = start_print
+Line 436: =
+Line 436: ID = cur_index
+Line 436: ;
+Line 437: }
+Line 438: while
+Line 438: (
+Line 438: ID = cur_index
+Line 438: !=
+Line 438: ID = end
+Line 438: )
+Line 438: {
+Line 439: char
+Line 439: ID = c
+Line 439: =
+Line 439: ID = LOG_BUF
+Line 439: (
+Line 439: ID = cur_index
+Line 439: )
+Line 439: ;
+Line 440: ID = cur_index
+Line 440: +
+Line 440: +
+Line 440: ;
+Line 442: if
+Line 442: (
+Line 442: ID = c
+Line 442: ==
+Line 442: CHARCON = '\n'
+Line 442: )
+Line 442: {
+Line 443: if
+Line 443: (
+Line 443: ID = msg_level
+Line 443: <
+Line 443: INTCON = 0
+Line 443: )
+Line 443: {
+Line 450: ID = msg_level
+Line 450: =
+Line 450: ID = default_message_loglevel
+Line 450: ;
+Line 451: }
+Line 452: Unrecognized token: 95
+Line 452: ID = call_console_drivers
+Line 452: (
+Line 452: ID = start_print
+Line 452: ,
+Line 452: ID = cur_index
+Line 452: ,
+Line 452: ID = msg_level
+Line 452: )
+Line 452: ;
+Line 453: ID = msg_level
+Line 453: =
+Line 453: -
+Line 453: INTCON = 1
+Line 453: ;
+Line 454: ID = start_print
+Line 454: =
+Line 454: ID = cur_index
+Line 454: ;
+Line 455: ID = break
+Line 455: ;
+Line 456: }
+Line 457: }
+Line 458: }
+Line 459: Unrecognized token: 95
+Line 459: ID = call_console_drivers
+Line 459: (
+Line 459: ID = start_print
+Line 459: ,
+Line 459: ID = end
+Line 459: ,
+Line 459: ID = msg_level
+Line 459: )
+Line 459: ;
+Line 460: }
+Line 462: ID = static
+Line 462: void
+Line 462: ID = emit_log_char
+Line 462: (
+Line 462: char
+Line 462: ID = c
+Line 462: )
+Line 463: {
+Line 464: ID = LOG_BUF
+Line 464: (
+Line 464: ID = log_end
+Line 464: )
+Line 464: =
+Line 464: ID = c
+Line 464: ;
+Line 465: ID = log_end
+Line 465: +
+Line 465: +
+Line 465: ;
+Line 466: if
+Line 466: (
+Line 466: ID = log_end
+Line 466: -
+Line 466: ID = log_start
+Line 466: >
+Line 466: ID = log_buf_len
+Line 466: )
+Line 467: ID = log_start
+Line 467: =
+Line 467: ID = log_end
+Line 467: -
+Line 467: ID = log_buf_len
+Line 467: ;
+Line 468: if
+Line 468: (
+Line 468: ID = log_end
+Line 468: -
+Line 468: ID = con_start
+Line 468: >
+Line 468: ID = log_buf_len
+Line 468: )
+Line 469: ID = con_start
+Line 469: =
+Line 469: ID = log_end
+Line 469: -
+Line 469: ID = log_buf_len
+Line 469: ;
+Line 470: if
+Line 470: (
+Line 470: ID = logged_chars
+Line 470: <
+Line 470: ID = log_buf_len
+Line 470: )
+Line 471: ID = logged_chars
+Line 471: +
+Line 471: +
+Line 471: ;
+Line 472: }
+Line 479: ID = static
+Line 479: void
+Line 479: ID = zap_locks
+Line 479: (
+Line 479: void
+Line 479: )
+Line 480: {
+Line 481: ID = static
+Line 481: ID = unsigned
+Line 481: ID = long
+Line 481: ID = oops_timestamp
+Line 481: ;
+Line 483: if
+Line 483: (
+Line 483: ID = time_after_eq
+Line 483: (
+Line 483: ID = jiffies
+Line 483: ,
+Line 483: ID = oops_timestamp
+Line 483: )
+Line 483: &&
+Line 484: !
+Line 484: ID = time_after
+Line 484: (
+Line 484: ID = jiffies
+Line 484: ,
+Line 484: ID = oops_timestamp
+Line 484: +
+Line 484: INTCON = 30
+Line 484: *
+Line 484: ID = HZ
+Line 484: )
+Line 484: )
+Line 485: return
+Line 485: ;
+Line 487: ID = oops_timestamp
+Line 487: =
+Line 487: ID = jiffies
+Line 487: ;
+Line 490: ID = spin_lock_init
+Line 490: (
+Line 490: Unrecognized token: 38
+Line 490: ID = logbuf_lock
+Line 490: )
+Line 490: ;
+Line 492: ID = init_MUTEX
+Line 492: (
+Line 492: Unrecognized token: 38
+Line 492: ID = console_sem
+Line 492: )
+Line 492: ;
+Line 493: }
+Line 508: ID = asmlinkage
+Line 508: int
+Line 508: ID = printk
+Line 508: (
+Line 508: ID = const
+Line 508: char
+Line 508: *
+Line 508: ID = fmt
+Line 508: ,
+Line 508: Unrecognized token: 46
+Line 508: Unrecognized token: 46
+Line 508: Unrecognized token: 46
+Line 508: )
+Line 509: {
+Line 510: ID = va_list
+Line 510: ID = args
+Line 510: ;
+Line 511: ID = unsigned
+Line 511: ID = long
+Line 511: ID = flags
+Line 511: ;
+Line 512: int
+Line 512: ID = printed_len
+Line 512: ;
+Line 513: char
+Line 513: *
+Line 513: ID = p
+Line 513: ;
+Line 514: ID = static
+Line 514: char
+Line 514: ID = printk_buf
+Line 514: [
+Line 514: INTCON = 1024
+Line 514: ]
+Line 514: ;
+Line 515: ID = static
+Line 515: int
+Line 515: ID = log_level_unknown
+Line 515: =
+Line 515: INTCON = 1
+Line 515: ;
+Line 517: if
+Line 517: (
+Line 517: ID = unlikely
+Line 517: (
+Line 517: ID = oops_in_progress
+Line 517: )
+Line 517: )
+Line 518: ID = zap_locks
+Line 518: (
+Line 518: )
+Line 518: ;
+Line 521: ID = spin_lock_irqsave
+Line 521: (
+Line 521: Unrecognized token: 38
+Line 521: ID = logbuf_lock
+Line 521: ,
+Line 521: ID = flags
+Line 521: )
+Line 521: ;
+Line 524: ID = va_start
+Line 524: (
+Line 524: ID = args
+Line 524: ,
+Line 524: ID = fmt
+Line 524: )
+Line 524: ;
+Line 525: ID = printed_len
+Line 525: =
+Line 525: ID = vscnprintf
+Line 525: (
+Line 525: ID = printk_buf
+Line 525: ,
+Line 525: ID = sizeof
+Line 525: (
+Line 525: ID = printk_buf
+Line 525: )
+Line 525: ,
+Line 525: ID = fmt
+Line 525: ,
+Line 525: ID = args
+Line 525: )
+Line 525: ;
+Line 526: ID = va_end
+Line 526: (
+Line 526: ID = args
+Line 526: )
+Line 526: ;
+Line 532: for
+Line 532: (
+Line 532: ID = p
+Line 532: =
+Line 532: ID = printk_buf
+Line 532: ;
+Line 532: *
+Line 532: ID = p
+Line 532: ;
+Line 532: ID = p
+Line 532: +
+Line 532: +
+Line 532: )
+Line 532: {
+Line 533: if
+Line 533: (
+Line 533: ID = log_level_unknown
+Line 533: )
+Line 533: {
+Line 534: if
+Line 534: (
+Line 534: ID = p
+Line 534: [
+Line 534: INTCON = 0
+Line 534: ]
+Line 534: !=
+Line 534: CHARCON = '<'
+Line 534: ||
+Line 534: ID = p
+Line 534: [
+Line 534: INTCON = 1
+Line 534: ]
+Line 534: <
+Line 534: CHARCON = '0'
+Line 534: ||
+Line 534: ID = p
+Line 534: [
+Line 534: INTCON = 1
+Line 534: ]
+Line 534: >
+Line 534: CHARCON = '7'
+Line 534: ||
+Line 534: ID = p
+Line 534: [
+Line 534: INTCON = 2
+Line 534: ]
+Line 534: !=
+Line 534: CHARCON = '>'
+Line 534: )
+Line 534: {
+Line 535: ID = emit_log_char
+Line 535: (
+Line 535: CHARCON = '<'
+Line 535: )
+Line 535: ;
+Line 536: ID = emit_log_char
+Line 536: (
+Line 536: ID = default_message_loglevel
+Line 536: +
+Line 536: CHARCON = '0'
+Line 536: )
+Line 536: ;
+Line 537: ID = emit_log_char
+Line 537: (
+Line 537: CHARCON = '>'
+Line 537: )
+Line 537: ;
+Line 538: }
+Line 539: ID = log_level_unknown
+Line 539: =
+Line 539: INTCON = 0
+Line 539: ;
+Line 540: }
+Line 541: ID = emit_log_char
+Line 541: (
+Line 541: *
+Line 541: ID = p
+Line 541: )
+Line 541: ;
+Line 542: if
+Line 542: (
+Line 542: *
+Line 542: ID = p
+Line 542: ==
+Line 542: CHARCON = '\n'
+Line 542: )
+Line 543: ID = log_level_unknown
+Line 543: =
+Line 543: INTCON = 1
+Line 543: ;
+Line 544: }
+Line 546: if
+Line 546: (
+Line 546: !
+Line 546: ID = cpu_online
+Line 546: (
+Line 546: ID = smp_processor_id
+Line 546: (
+Line 546: )
+Line 546: )
+Line 546: &&
+Line 547: ID = system_state
+Line 547: !=
+Line 547: ID = SYSTEM_RUNNING
+Line 547: )
+Line 547: {
+Line 554: ID = spin_unlock_irqrestore
+Line 554: (
+Line 554: Unrecognized token: 38
+Line 554: ID = logbuf_lock
+Line 554: ,
+Line 554: ID = flags
+Line 554: )
+Line 554: ;
+Line 555: ID = goto
+Line 555: ID = out
+Line 555: ;
+Line 556: }
+Line 557: if
+Line 557: (
+Line 557: !
+Line 557: ID = down_trylock
+Line 557: (
+Line 557: Unrecognized token: 38
+Line 557: ID = console_sem
+Line 557: )
+Line 557: )
+Line 557: {
+Line 558: ID = console_locked
+Line 558: =
+Line 558: INTCON = 1
+Line 558: ;
+Line 563: ID = spin_unlock_irqrestore
+Line 563: (
+Line 563: Unrecognized token: 38
+Line 563: ID = logbuf_lock
+Line 563: ,
+Line 563: ID = flags
+Line 563: )
+Line 563: ;
+Line 564: ID = console_may_schedule
+Line 564: =
+Line 564: INTCON = 0
+Line 564: ;
+Line 565: ID = release_console_sem
+Line 565: (
+Line 565: )
+Line 565: ;
+Line 566: }
+Line 566: else
+Line 566: {
+Line 572: ID = spin_unlock_irqrestore
+Line 572: (
+Line 572: Unrecognized token: 38
+Line 572: ID = logbuf_lock
+Line 572: ,
+Line 572: ID = flags
+Line 572: )
+Line 572: ;
+Line 573: }
+Line 574: ID = out
+Line 574: Unrecognized token: 58
+Line 575: return
+Line 575: ID = printed_len
+Line 575: ;
+Line 576: }
+Line 577: ID = EXPORT_SYMBOL
+Line 577: (
+Line 577: ID = printk
+Line 577: )
+Line 577: ;
+Line 587: void
+Line 587: ID = acquire_console_sem
+Line 587: (
+Line 587: void
+Line 587: )
+Line 588: {
+Line 589: if
+Line 589: (
+Line 589: ID = in_interrupt
+Line 589: (
+Line 589: )
+Line 589: )
+Line 590: ID = BUG
+Line 590: (
+Line 590: )
+Line 590: ;
+Line 591: ID = down
+Line 591: (
+Line 591: Unrecognized token: 38
+Line 591: ID = console_sem
+Line 591: )
+Line 591: ;
+Line 592: ID = console_locked
+Line 592: =
+Line 592: INTCON = 1
+Line 592: ;
+Line 593: ID = console_may_schedule
+Line 593: =
+Line 593: INTCON = 1
+Line 593: ;
+Line 594: }
+Line 595: ID = EXPORT_SYMBOL
+Line 595: (
+Line 595: ID = acquire_console_sem
+Line 595: )
+Line 595: ;
+Line 597: int
+Line 597: ID = is_console_locked
+Line 597: (
+Line 597: void
+Line 597: )
+Line 598: {
+Line 599: return
+Line 599: ID = console_locked
+Line 599: ;
+Line 600: }
+Line 601: ID = EXPORT_SYMBOL
+Line 601: (
+Line 601: ID = is_console_locked
+Line 601: )
+Line 601: ;
+Line 617: void
+Line 617: ID = release_console_sem
+Line 617: (
+Line 617: void
+Line 617: )
+Line 618: {
+Line 619: ID = unsigned
+Line 619: ID = long
+Line 619: ID = flags
+Line 619: ;
+Line 620: ID = unsigned
+Line 620: ID = long
+Line 620: Unrecognized token: 95
+Line 620: ID = con_start
+Line 620: ,
+Line 620: Unrecognized token: 95
+Line 620: ID = log_end
+Line 620: ;
+Line 621: ID = unsigned
+Line 621: ID = long
+Line 621: ID = wake_klogd
+Line 621: =
+Line 621: INTCON = 0
+Line 621: ;
+Line 623: for
+Line 623: (
+Line 623: ;
+Line 623: ;
+Line 623: )
+Line 623: {
+Line 624: ID = spin_lock_irqsave
+Line 624: (
+Line 624: Unrecognized token: 38
+Line 624: ID = logbuf_lock
+Line 624: ,
+Line 624: ID = flags
+Line 624: )
+Line 624: ;
+Line 625: ID = wake_klogd
+Line 625: Unrecognized token: 124
+Line 625: =
+Line 625: ID = log_start
+Line 625: -
+Line 625: ID = log_end
+Line 625: ;
+Line 626: if
+Line 626: (
+Line 626: ID = con_start
+Line 626: ==
+Line 626: ID = log_end
+Line 626: )
+Line 627: ID = break
+Line 627: ;
+Line 628: Unrecognized token: 95
+Line 628: ID = con_start
+Line 628: =
+Line 628: ID = con_start
+Line 628: ;
+Line 629: Unrecognized token: 95
+Line 629: ID = log_end
+Line 629: =
+Line 629: ID = log_end
+Line 629: ;
+Line 630: ID = con_start
+Line 630: =
+Line 630: ID = log_end
+Line 630: ;
+Line 631: ID = spin_unlock_irqrestore
+Line 631: (
+Line 631: Unrecognized token: 38
+Line 631: ID = logbuf_lock
+Line 631: ,
+Line 631: ID = flags
+Line 631: )
+Line 631: ;
+Line 632: ID = call_console_drivers
+Line 632: (
+Line 632: Unrecognized token: 95
+Line 632: ID = con_start
+Line 632: ,
+Line 632: Unrecognized token: 95
+Line 632: ID = log_end
+Line 632: )
+Line 632: ;
+Line 633: }
+Line 634: ID = console_locked
+Line 634: =
+Line 634: INTCON = 0
+Line 634: ;
+Line 635: ID = console_may_schedule
+Line 635: =
+Line 635: INTCON = 0
+Line 635: ;
+Line 636: ID = up
+Line 636: (
+Line 636: Unrecognized token: 38
+Line 636: ID = console_sem
+Line 636: )
+Line 636: ;
+Line 637: ID = spin_unlock_irqrestore
+Line 637: (
+Line 637: Unrecognized token: 38
+Line 637: ID = logbuf_lock
+Line 637: ,
+Line 637: ID = flags
+Line 637: )
+Line 637: ;
+Line 638: if
+Line 638: (
+Line 638: ID = wake_klogd
+Line 638: &&
+Line 638: !
+Line 638: ID = oops_in_progress
+Line 638: &&
+Line 638: ID = waitqueue_active
+Line 638: (
+Line 638: Unrecognized token: 38
+Line 638: ID = log_wait
+Line 638: )
+Line 638: )
+Line 639: ID = wake_up_interruptible
+Line 639: (
+Line 639: Unrecognized token: 38
+Line 639: ID = log_wait
+Line 639: )
+Line 639: ;
+Line 640: }
+Line 641: ID = EXPORT_SYMBOL
+Line 641: (
+Line 641: ID = release_console_sem
+Line 641: )
+Line 641: ;
+Line 651: void
+Line 651: ID = console_conditional_schedule
+Line 651: (
+Line 651: void
+Line 651: )
+Line 652: {
+Line 653: if
+Line 653: (
+Line 653: ID = console_may_schedule
+Line 653: &&
+Line 653: ID = need_resched
+Line 653: (
+Line 653: )
+Line 653: )
+Line 653: {
+Line 654: ID = set_current_state
+Line 654: (
+Line 654: ID = TASK_RUNNING
+Line 654: )
+Line 654: ;
+Line 655: ID = schedule
+Line 655: (
+Line 655: )
+Line 655: ;
+Line 656: }
+Line 657: }
+Line 658: ID = EXPORT_SYMBOL
+Line 658: (
+Line 658: ID = console_conditional_schedule
+Line 658: )
+Line 658: ;
+Line 660: void
+Line 660: ID = console_print
+Line 660: (
+Line 660: ID = const
+Line 660: char
+Line 660: *
+Line 660: ID = s
+Line 660: )
+Line 661: {
+Line 662: ID = printk
+Line 662: (
+Line 662: ID = KERN_EMERG
+Line 662: STRINGCON = "%s"
+Line 662: ,
+Line 662: ID = s
+Line 662: )
+Line 662: ;
+Line 663: }
+Line 664: ID = EXPORT_SYMBOL
+Line 664: (
+Line 664: ID = console_print
+Line 664: )
+Line 664: ;
+Line 666: void
+Line 666: ID = console_unblank
+Line 666: (
+Line 666: void
+Line 666: )
+Line 667: {
+Line 668: ID = struct
+Line 668: ID = console
+Line 668: *
+Line 668: ID = c
+Line 668: ;
+Line 675: if
+Line 675: (
+Line 675: ID = down_trylock
+Line 675: (
+Line 675: Unrecognized token: 38
+Line 675: ID = console_sem
+Line 675: )
+Line 675: !=
+Line 675: INTCON = 0
+Line 675: )
+Line 676: return
+Line 676: ;
+Line 677: ID = console_locked
+Line 677: =
+Line 677: INTCON = 1
+Line 677: ;
+Line 678: ID = console_may_schedule
+Line 678: =
+Line 678: INTCON = 0
+Line 678: ;
+Line 679: for
+Line 679: (
+Line 679: ID = c
+Line 679: =
+Line 679: ID = console_drivers
+Line 679: ;
+Line 679: ID = c
+Line 679: !=
+Line 679: ID = NULL
+Line 679: ;
+Line 679: ID = c
+Line 679: =
+Line 679: ID = c
+Line 679: -
+Line 679: >
+Line 679: ID = next
+Line 679: )
+Line 680: if
+Line 680: (
+Line 680: (
+Line 680: ID = c
+Line 680: -
+Line 680: >
+Line 680: ID = flags
+Line 680: Unrecognized token: 38
+Line 680: ID = CON_ENABLED
+Line 680: )
+Line 680: &&
+Line 680: ID = c
+Line 680: -
+Line 680: >
+Line 680: ID = unblank
+Line 680: )
+Line 681: ID = c
+Line 681: -
+Line 681: >
+Line 681: ID = unblank
+Line 681: (
+Line 681: )
+Line 681: ;
+Line 682: ID = release_console_sem
+Line 682: (
+Line 682: )
+Line 682: ;
+Line 683: }
+Line 684: ID = EXPORT_SYMBOL
+Line 684: (
+Line 684: ID = console_unblank
+Line 684: )
+Line 684: ;
+Line 689: ID = struct
+Line 689: ID = tty_driver
+Line 689: *
+Line 689: ID = console_device
+Line 689: (
+Line 689: int
+Line 689: *
+Line 689: ID = index
+Line 689: )
+Line 690: {
+Line 691: ID = struct
+Line 691: ID = console
+Line 691: *
+Line 691: ID = c
+Line 691: ;
+Line 692: ID = struct
+Line 692: ID = tty_driver
+Line 692: *
+Line 692: ID = driver
+Line 692: =
+Line 692: ID = NULL
+Line 692: ;
+Line 694: ID = acquire_console_sem
+Line 694: (
+Line 694: )
+Line 694: ;
+Line 695: for
+Line 695: (
+Line 695: ID = c
+Line 695: =
+Line 695: ID = console_drivers
+Line 695: ;
+Line 695: ID = c
+Line 695: !=
+Line 695: ID = NULL
+Line 695: ;
+Line 695: ID = c
+Line 695: =
+Line 695: ID = c
+Line 695: -
+Line 695: >
+Line 695: ID = next
+Line 695: )
+Line 695: {
+Line 696: if
+Line 696: (
+Line 696: !
+Line 696: ID = c
+Line 696: -
+Line 696: >
+Line 696: ID = device
+Line 696: )
+Line 697: ID = continue
+Line 697: ;
+Line 698: ID = driver
+Line 698: =
+Line 698: ID = c
+Line 698: -
+Line 698: >
+Line 698: ID = device
+Line 698: (
+Line 698: ID = c
+Line 698: ,
+Line 698: ID = index
+Line 698: )
+Line 698: ;
+Line 699: if
+Line 699: (
+Line 699: ID = driver
+Line 699: )
+Line 700: ID = break
+Line 700: ;
+Line 701: }
+Line 702: ID = release_console_sem
+Line 702: (
+Line 702: )
+Line 702: ;
+Line 703: return
+Line 703: ID = driver
+Line 703: ;
+Line 704: }
+Line 711: void
+Line 711: ID = console_stop
+Line 711: (
+Line 711: ID = struct
+Line 711: ID = console
+Line 711: *
+Line 711: ID = console
+Line 711: )
+Line 712: {
+Line 713: ID = acquire_console_sem
+Line 713: (
+Line 713: )
+Line 713: ;
+Line 714: ID = console
+Line 714: -
+Line 714: >
+Line 714: ID = flags
+Line 714: Unrecognized token: 38
+Line 714: =
+Line 714: Unrecognized token: 126
+Line 714: ID = CON_ENABLED
+Line 714: ;
+Line 715: ID = release_console_sem
+Line 715: (
+Line 715: )
+Line 715: ;
+Line 716: }
+Line 717: ID = EXPORT_SYMBOL
+Line 717: (
+Line 717: ID = console_stop
+Line 717: )
+Line 717: ;
+Line 719: void
+Line 719: ID = console_start
+Line 719: (
+Line 719: ID = struct
+Line 719: ID = console
+Line 719: *
+Line 719: ID = console
+Line 719: )
+Line 720: {
+Line 721: ID = acquire_console_sem
+Line 721: (
+Line 721: )
+Line 721: ;
+Line 722: ID = console
+Line 722: -
+Line 722: >
+Line 722: ID = flags
+Line 722: Unrecognized token: 124
+Line 722: =
+Line 722: ID = CON_ENABLED
+Line 722: ;
+Line 723: ID = release_console_sem
+Line 723: (
+Line 723: )
+Line 723: ;
+Line 724: }
+Line 725: ID = EXPORT_SYMBOL
+Line 725: (
+Line 725: ID = console_start
+Line 725: )
+Line 725: ;
+Line 733: void
+Line 733: ID = register_console
+Line 733: (
+Line 733: ID = struct
+Line 733: ID = console
+Line 733: *
+Line 733: ID = console
+Line 733: )
+Line 734: {
+Line 735: int
+Line 735: ID = i
+Line 735: ;
+Line 736: ID = unsigned
+Line 736: ID = long
+Line 736: ID = flags
+Line 736: ;
+Line 743: if
+Line 743: (
+Line 743: ID = preferred_console
+Line 743: <
+Line 743: INTCON = 0
+Line 743: )
+Line 743: {
+Line 744: if
+Line 744: (
+Line 744: ID = console
+Line 744: -
+Line 744: >
+Line 744: ID = index
+Line 744: <
+Line 744: INTCON = 0
+Line 744: )
+Line 745: ID = console
+Line 745: -
+Line 745: >
+Line 745: ID = index
+Line 745: =
+Line 745: INTCON = 0
+Line 745: ;
+Line 746: if
+Line 746: (
+Line 746: ID = console
+Line 746: -
+Line 746: >
+Line 746: ID = setup
+Line 746: ==
+Line 746: ID = NULL
+Line 746: ||
+Line 747: ID = console
+Line 747: -
+Line 747: >
+Line 747: ID = setup
+Line 747: (
+Line 747: ID = console
+Line 747: ,
+Line 747: ID = NULL
+Line 747: )
+Line 747: ==
+Line 747: INTCON = 0
+Line 747: )
+Line 747: {
+Line 748: ID = console
+Line 748: -
+Line 748: >
+Line 748: ID = flags
+Line 748: Unrecognized token: 124
+Line 748: =
+Line 748: ID = CON_ENABLED
+Line 748: Unrecognized token: 124
+Line 748: ID = CON_CONSDEV
+Line 748: ;
+Line 749: ID = preferred_console
+Line 749: =
+Line 749: INTCON = 0
+Line 749: ;
+Line 750: }
+Line 751: }
+Line 757: for
+Line 757: (
+Line 757: ID = i
+Line 757: =
+Line 757: INTCON = 0
+Line 757: ;
+Line 757: ID = i
+Line 757: <
+Line 757: ID = MAX_CMDLINECONSOLES
+Line 757: &&
+Line 757: ID = console_cmdline
+Line 757: [
+Line 757: ID = i
+Line 757: ]
+Line 757: Unrecognized token: 46
+Line 757: ID = name
+Line 757: [
+Line 757: INTCON = 0
+Line 757: ]
+Line 757: ;
+Line 757: ID = i
+Line 757: +
+Line 757: +
+Line 757: )
+Line 757: {
+Line 758: if
+Line 758: (
+Line 758: ID = strcmp
+Line 758: (
+Line 758: ID = console_cmdline
+Line 758: [
+Line 758: ID = i
+Line 758: ]
+Line 758: Unrecognized token: 46
+Line 758: ID = name
+Line 758: ,
+Line 758: ID = console
+Line 758: -
+Line 758: >
+Line 758: ID = name
+Line 758: )
+Line 758: !=
+Line 758: INTCON = 0
+Line 758: )
+Line 759: ID = continue
+Line 759: ;
+Line 760: if
+Line 760: (
+Line 760: ID = console
+Line 760: -
+Line 760: >
+Line 760: ID = index
+Line 760: >=
+Line 760: INTCON = 0
+Line 760: &&
+Line 761: ID = console
+Line 761: -
+Line 761: >
+Line 761: ID = index
+Line 761: !=
+Line 761: ID = console_cmdline
+Line 761: [
+Line 761: ID = i
+Line 761: ]
+Line 761: Unrecognized token: 46
+Line 761: ID = index
+Line 761: )
+Line 762: ID = continue
+Line 762: ;
+Line 763: if
+Line 763: (
+Line 763: ID = console
+Line 763: -
+Line 763: >
+Line 763: ID = index
+Line 763: <
+Line 763: INTCON = 0
+Line 763: )
+Line 764: ID = console
+Line 764: -
+Line 764: >
+Line 764: ID = index
+Line 764: =
+Line 764: ID = console_cmdline
+Line 764: [
+Line 764: ID = i
+Line 764: ]
+Line 764: Unrecognized token: 46
+Line 764: ID = index
+Line 764: ;
+Line 765: if
+Line 765: (
+Line 765: ID = console
+Line 765: -
+Line 765: >
+Line 765: ID = setup
+Line 765: &&
+Line 766: ID = console
+Line 766: -
+Line 766: >
+Line 766: ID = setup
+Line 766: (
+Line 766: ID = console
+Line 766: ,
+Line 766: ID = console_cmdline
+Line 766: [
+Line 766: ID = i
+Line 766: ]
+Line 766: Unrecognized token: 46
+Line 766: ID = options
+Line 766: )
+Line 766: !=
+Line 766: INTCON = 0
+Line 766: )
+Line 767: ID = break
+Line 767: ;
+Line 768: ID = console
+Line 768: -
+Line 768: >
+Line 768: ID = flags
+Line 768: Unrecognized token: 124
+Line 768: =
+Line 768: ID = CON_ENABLED
+Line 768: ;
+Line 769: ID = console
+Line 769: -
+Line 769: >
+Line 769: ID = index
+Line 769: =
+Line 769: ID = console_cmdline
+Line 769: [
+Line 769: ID = i
+Line 769: ]
+Line 769: Unrecognized token: 46
+Line 769: ID = index
+Line 769: ;
+Line 770: if
+Line 770: (
+Line 770: ID = i
+Line 770: ==
+Line 770: ID = preferred_console
+Line 770: )
+Line 771: ID = console
+Line 771: -
+Line 771: >
+Line 771: ID = flags
+Line 771: Unrecognized token: 124
+Line 771: =
+Line 771: ID = CON_CONSDEV
+Line 771: ;
+Line 772: ID = break
+Line 772: ;
+Line 773: }
+Line 775: if
+Line 775: (
+Line 775: !
+Line 775: (
+Line 775: ID = console
+Line 775: -
+Line 775: >
+Line 775: ID = flags
+Line 775: Unrecognized token: 38
+Line 775: ID = CON_ENABLED
+Line 775: )
+Line 775: )
+Line 776: return
+Line 776: ;
+Line 782: ID = acquire_console_sem
+Line 782: (
+Line 782: )
+Line 782: ;
+Line 783: if
+Line 783: (
+Line 783: (
+Line 783: ID = console
+Line 783: -
+Line 783: >
+Line 783: ID = flags
+Line 783: Unrecognized token: 38
+Line 783: ID = CON_CONSDEV
+Line 783: )
+Line 783: ||
+Line 783: ID = console_drivers
+Line 783: ==
+Line 783: ID = NULL
+Line 783: )
+Line 783: {
+Line 784: ID = console
+Line 784: -
+Line 784: >
+Line 784: ID = next
+Line 784: =
+Line 784: ID = console_drivers
+Line 784: ;
+Line 785: ID = console_drivers
+Line 785: =
+Line 785: ID = console
+Line 785: ;
+Line 786: }
+Line 786: else
+Line 786: {
+Line 787: ID = console
+Line 787: -
+Line 787: >
+Line 787: ID = next
+Line 787: =
+Line 787: ID = console_drivers
+Line 787: -
+Line 787: >
+Line 787: ID = next
+Line 787: ;
+Line 788: ID = console_drivers
+Line 788: -
+Line 788: >
+Line 788: ID = next
+Line 788: =
+Line 788: ID = console
+Line 788: ;
+Line 789: }
+Line 790: if
+Line 790: (
+Line 790: ID = console
+Line 790: -
+Line 790: >
+Line 790: ID = flags
+Line 790: Unrecognized token: 38
+Line 790: ID = CON_PRINTBUFFER
+Line 790: )
+Line 790: {
+Line 795: ID = spin_lock_irqsave
+Line 795: (
+Line 795: Unrecognized token: 38
+Line 795: ID = logbuf_lock
+Line 795: ,
+Line 795: ID = flags
+Line 795: )
+Line 795: ;
+Line 796: ID = con_start
+Line 796: =
+Line 796: ID = log_start
+Line 796: ;
+Line 797: ID = spin_unlock_irqrestore
+Line 797: (
+Line 797: Unrecognized token: 38
+Line 797: ID = logbuf_lock
+Line 797: ,
+Line 797: ID = flags
+Line 797: )
+Line 797: ;
+Line 798: }
+Line 799: ID = release_console_sem
+Line 799: (
+Line 799: )
+Line 799: ;
+Line 800: }
+Line 801: ID = EXPORT_SYMBOL
+Line 801: (
+Line 801: ID = register_console
+Line 801: )
+Line 801: ;
+Line 803: int
+Line 803: ID = unregister_console
+Line 803: (
+Line 803: ID = struct
+Line 803: ID = console
+Line 803: *
+Line 803: ID = console
+Line 803: )
+Line 804: {
+Line 805: ID = struct
+Line 805: ID = console
+Line 805: *
+Line 805: ID = a
+Line 805: ,
+Line 805: *
+Line 805: ID = b
+Line 805: ;
+Line 806: int
+Line 806: ID = res
+Line 806: =
+Line 806: INTCON = 1
+Line 806: ;
+Line 808: ID = acquire_console_sem
+Line 808: (
+Line 808: )
+Line 808: ;
+Line 809: if
+Line 809: (
+Line 809: ID = console_drivers
+Line 809: ==
+Line 809: ID = console
+Line 809: )
+Line 809: {
+Line 810: ID = console_drivers
+Line 810: =
+Line 810: ID = console
+Line 810: -
+Line 810: >
+Line 810: ID = next
+Line 810: ;
+Line 811: ID = res
+Line 811: =
+Line 811: INTCON = 0
+Line 811: ;
+Line 812: }
+Line 812: else
+Line 812: {
+Line 813: for
+Line 813: (
+Line 813: ID = a
+Line 813: =
+Line 813: ID = console_drivers
+Line 813: -
+Line 813: >
+Line 813: ID = next
+Line 813: ,
+Line 813: ID = b
+Line 813: =
+Line 813: ID = console_drivers
+Line 813: ;
+Line 814: ID = a
+Line 814: ;
+Line 814: ID = b
+Line 814: =
+Line 814: ID = a
+Line 814: ,
+Line 814: ID = a
+Line 814: =
+Line 814: ID = b
+Line 814: -
+Line 814: >
+Line 814: ID = next
+Line 814: )
+Line 814: {
+Line 815: if
+Line 815: (
+Line 815: ID = a
+Line 815: ==
+Line 815: ID = console
+Line 815: )
+Line 815: {
+Line 816: ID = b
+Line 816: -
+Line 816: >
+Line 816: ID = next
+Line 816: =
+Line 816: ID = a
+Line 816: -
+Line 816: >
+Line 816: ID = next
+Line 816: ;
+Line 817: ID = res
+Line 817: =
+Line 817: INTCON = 0
+Line 817: ;
+Line 818: ID = break
+Line 818: ;
+Line 819: }
+Line 820: }
+Line 821: }
+Line 827: if
+Line 827: (
+Line 827: ID = console_drivers
+Line 827: ==
+Line 827: ID = NULL
+Line 827: )
+Line 828: ID = preferred_console
+Line 828: =
+Line 828: -
+Line 828: INTCON = 1
+Line 828: ;
+Line 831: ID = release_console_sem
+Line 831: (
+Line 831: )
+Line 831: ;
+Line 832: return
+Line 832: ID = res
+Line 832: ;
+Line 833: }
+Line 834: ID = EXPORT_SYMBOL
+Line 834: (
+Line 834: ID = unregister_console
+Line 834: )
+Line 834: ;
+Line 843: void
+Line 843: ID = tty_write_message
+Line 843: (
+Line 843: ID = struct
+Line 843: ID = tty_struct
+Line 843: *
+Line 843: ID = tty
+Line 843: ,
+Line 843: char
+Line 843: *
+Line 843: ID = msg
+Line 843: )
+Line 844: {
+Line 845: if
+Line 845: (
+Line 845: ID = tty
+Line 845: &&
+Line 845: ID = tty
+Line 845: -
+Line 845: >
+Line 845: ID = driver
+Line 845: -
+Line 845: >
+Line 845: ID = write
+Line 845: )
+Line 846: ID = tty
+Line 846: -
+Line 846: >
+Line 846: ID = driver
+Line 846: -
+Line 846: >
+Line 846: ID = write
+Line 846: (
+Line 846: ID = tty
+Line 846: ,
+Line 846: INTCON = 0
+Line 846: ,
+Line 846: ID = msg
+Line 846: ,
+Line 846: ID = strlen
+Line 846: (
+Line 846: ID = msg
+Line 846: )
+Line 846: )
+Line 846: ;
+Line 847: return
+Line 847: ;
+Line 848: }
+Line 857: int
+Line 857: Unrecognized token: 95
+Line 857: Unrecognized token: 95
+Line 857: ID = printk_ratelimit
+Line 857: (
+Line 857: int
+Line 857: ID = ratelimit_jiffies
+Line 857: ,
+Line 857: int
+Line 857: ID = ratelimit_burst
+Line 857: )
+Line 858: {
+Line 859: ID = static
+Line 859: ID = spinlock_t
+Line 859: ID = ratelimit_lock
+Line 859: =
+Line 859: ID = SPIN_LOCK_UNLOCKED
+Line 859: ;
+Line 860: ID = static
+Line 860: ID = unsigned
+Line 860: ID = long
+Line 860: ID = toks
+Line 860: =
+Line 860: INTCON = 10
+Line 860: *
+Line 860: INTCON = 5
+Line 860: *
+Line 860: ID = HZ
+Line 860: ;
+Line 861: ID = static
+Line 861: ID = unsigned
+Line 861: ID = long
+Line 861: ID = last_msg
+Line 861: ;
+Line 862: ID = static
+Line 862: int
+Line 862: ID = missed
+Line 862: ;
+Line 863: ID = unsigned
+Line 863: ID = long
+Line 863: ID = flags
+Line 863: ;
+Line 864: ID = unsigned
+Line 864: ID = long
+Line 864: ID = now
+Line 864: =
+Line 864: ID = jiffies
+Line 864: ;
+Line 866: ID = spin_lock_irqsave
+Line 866: (
+Line 866: Unrecognized token: 38
+Line 866: ID = ratelimit_lock
+Line 866: ,
+Line 866: ID = flags
+Line 866: )
+Line 866: ;
+Line 867: ID = toks
+Line 867: +
+Line 867: =
+Line 867: ID = now
+Line 867: -
+Line 867: ID = last_msg
+Line 867: ;
+Line 868: ID = last_msg
+Line 868: =
+Line 868: ID = now
+Line 868: ;
+Line 869: if
+Line 869: (
+Line 869: ID = toks
+Line 869: >
+Line 869: (
+Line 869: ID = ratelimit_burst
+Line 869: *
+Line 869: ID = ratelimit_jiffies
+Line 869: )
+Line 869: )
+Line 870: ID = toks
+Line 870: =
+Line 870: ID = ratelimit_burst
+Line 870: *
+Line 870: ID = ratelimit_jiffies
+Line 870: ;
+Line 871: if
+Line 871: (
+Line 871: ID = toks
+Line 871: >=
+Line 871: ID = ratelimit_jiffies
+Line 871: )
+Line 871: {
+Line 872: int
+Line 872: ID = lost
+Line 872: =
+Line 872: ID = missed
+Line 872: ;
+Line 873: ID = missed
+Line 873: =
+Line 873: INTCON = 0
+Line 873: ;
+Line 874: ID = toks
+Line 874: -
+Line 874: =
+Line 874: ID = ratelimit_jiffies
+Line 874: ;
+Line 875: ID = spin_unlock_irqrestore
+Line 875: (
+Line 875: Unrecognized token: 38
+Line 875: ID = ratelimit_lock
+Line 875: ,
+Line 875: ID = flags
+Line 875: )
+Line 875: ;
+Line 876: if
+Line 876: (
+Line 876: ID = lost
+Line 876: )
+Line 877: ID = printk
+Line 877: (
+Line 877: ID = KERN_WARNING
+Line 877: STRINGCON = "printk: %d messages suppressed.\n"
+Line 877: ,
+Line 877: ID = lost
+Line 877: )
+Line 877: ;
+Line 878: return
+Line 878: INTCON = 1
+Line 878: ;
+Line 879: }
+Line 880: ID = missed
+Line 880: +
+Line 880: +
+Line 880: ;
+Line 881: ID = spin_unlock_irqrestore
+Line 881: (
+Line 881: Unrecognized token: 38
+Line 881: ID = ratelimit_lock
+Line 881: ,
+Line 881: ID = flags
+Line 881: )
+Line 881: ;
+Line 882: return
+Line 882: INTCON = 0
+Line 882: ;
+Line 883: }
+Line 884: ID = EXPORT_SYMBOL
+Line 884: (
+Line 884: Unrecognized token: 95
+Line 884: Unrecognized token: 95
+Line 884: ID = printk_ratelimit
+Line 884: )
+Line 884: ;
+Line 887: int
+Line 887: ID = printk_ratelimit_jiffies
+Line 887: =
+Line 887: INTCON = 5
+Line 887: *
+Line 887: ID = HZ
+Line 887: ;
+Line 890: int
+Line 890: ID = printk_ratelimit_burst
+Line 890: =
+Line 890: INTCON = 10
+Line 890: ;
+Line 892: int
+Line 892: ID = printk_ratelimit
+Line 892: (
+Line 892: void
+Line 892: )
+Line 893: {
+Line 894: return
+Line 894: Unrecognized token: 95
+Line 894: Unrecognized token: 95
+Line 894: ID = printk_ratelimit
+Line 894: (
+Line 894: ID = printk_ratelimit_jiffies
+Line 894: ,
+Line 895: ID = printk_ratelimit_burst
+Line 895: )
+Line 895: ;
+Line 896: }
+Line 897: ID = EXPORT_SYMBOL
+Line 897: (
+Line 897: ID = printk_ratelimit
+Line 897: )
+Line 897: ;
+Line 898: -EOF-

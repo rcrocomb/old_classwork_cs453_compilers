@@ -1,0 +1,39 @@
+void alpha(void) {}
+void alpha(void);
+
+int bravo(void) { return 2; }
+void bravo(void);
+
+char charlie(void) { return 'a'; }
+void charlie(void);
+
+void delta(int a) {}
+void delta(void);
+
+void echo(char a){}
+void echo(void);
+
+void foxtrot(int a);
+void foxtrot(char a) {}
+
+void golf(int a);
+int golf(int a) {}
+
+void hotel(int a);
+void hotel(int a);
+
+void india(void) {}
+void india(void) {}
+
+int juliet;
+void juliet(void);
+
+int kilo;
+int kilo(int k) { return 42; }
+
+int lima(void) { return 5; }
+int lima(int x) { return 2; }
+
+int mike(void) { return; }
+
+int november (void) { }

@@ -1,0 +1,954 @@
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = fs
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = slab
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = kmod
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = init
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = module
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = asm
+Line 14: /
+Line 14: ID = uaccess
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 29: ID = static
+Line 29: ID = struct
+Line 29: ID = file_system_type
+Line 29: *
+Line 29: ID = file_systems
+Line 29: ;
+Line 30: ID = static
+Line 30: ID = rwlock_t
+Line 30: ID = file_systems_lock
+Line 30: =
+Line 30: ID = RW_LOCK_UNLOCKED
+Line 30: ;
+Line 33: void
+Line 33: ID = get_filesystem
+Line 33: (
+Line 33: ID = struct
+Line 33: ID = file_system_type
+Line 33: *
+Line 33: ID = fs
+Line 33: )
+Line 34: {
+Line 35: Unrecognized token: 95
+Line 35: Unrecognized token: 95
+Line 35: ID = module_get
+Line 35: (
+Line 35: ID = fs
+Line 35: -
+Line 35: >
+Line 35: ID = owner
+Line 35: )
+Line 35: ;
+Line 36: }
+Line 38: void
+Line 38: ID = put_filesystem
+Line 38: (
+Line 38: ID = struct
+Line 38: ID = file_system_type
+Line 38: *
+Line 38: ID = fs
+Line 38: )
+Line 39: {
+Line 40: ID = module_put
+Line 40: (
+Line 40: ID = fs
+Line 40: -
+Line 40: >
+Line 40: ID = owner
+Line 40: )
+Line 40: ;
+Line 41: }
+Line 43: ID = static
+Line 43: ID = struct
+Line 43: ID = file_system_type
+Line 43: *
+Line 43: *
+Line 43: ID = find_filesystem
+Line 43: (
+Line 43: ID = const
+Line 43: char
+Line 43: *
+Line 43: ID = name
+Line 43: )
+Line 44: {
+Line 45: ID = struct
+Line 45: ID = file_system_type
+Line 45: *
+Line 45: *
+Line 45: ID = p
+Line 45: ;
+Line 46: for
+Line 46: (
+Line 46: ID = p
+Line 46: =
+Line 46: Unrecognized token: 38
+Line 46: ID = file_systems
+Line 46: ;
+Line 46: *
+Line 46: ID = p
+Line 46: ;
+Line 46: ID = p
+Line 46: =
+Line 46: Unrecognized token: 38
+Line 46: (
+Line 46: *
+Line 46: ID = p
+Line 46: )
+Line 46: -
+Line 46: >
+Line 46: ID = next
+Line 46: )
+Line 47: if
+Line 47: (
+Line 47: ID = strcmp
+Line 47: (
+Line 47: (
+Line 47: *
+Line 47: ID = p
+Line 47: )
+Line 47: -
+Line 47: >
+Line 47: ID = name
+Line 47: ,
+Line 47: ID = name
+Line 47: )
+Line 47: ==
+Line 47: INTCON = 0
+Line 47: )
+Line 48: ID = break
+Line 48: ;
+Line 49: return
+Line 49: ID = p
+Line 49: ;
+Line 50: }
+Line 65: int
+Line 65: ID = register_filesystem
+Line 65: (
+Line 65: ID = struct
+Line 65: ID = file_system_type
+Line 65: *
+Line 65: ID = fs
+Line 65: )
+Line 66: {
+Line 67: int
+Line 67: ID = res
+Line 67: =
+Line 67: INTCON = 0
+Line 67: ;
+Line 68: ID = struct
+Line 68: ID = file_system_type
+Line 68: *
+Line 68: *
+Line 68: ID = p
+Line 68: ;
+Line 70: if
+Line 70: (
+Line 70: !
+Line 70: ID = fs
+Line 70: )
+Line 71: return
+Line 71: -
+Line 71: ID = EINVAL
+Line 71: ;
+Line 72: if
+Line 72: (
+Line 72: ID = fs
+Line 72: -
+Line 72: >
+Line 72: ID = next
+Line 72: )
+Line 73: return
+Line 73: -
+Line 73: ID = EBUSY
+Line 73: ;
+Line 74: ID = INIT_LIST_HEAD
+Line 74: (
+Line 74: Unrecognized token: 38
+Line 74: ID = fs
+Line 74: -
+Line 74: >
+Line 74: ID = fs_supers
+Line 74: )
+Line 74: ;
+Line 75: ID = write_lock
+Line 75: (
+Line 75: Unrecognized token: 38
+Line 75: ID = file_systems_lock
+Line 75: )
+Line 75: ;
+Line 76: ID = p
+Line 76: =
+Line 76: ID = find_filesystem
+Line 76: (
+Line 76: ID = fs
+Line 76: -
+Line 76: >
+Line 76: ID = name
+Line 76: )
+Line 76: ;
+Line 77: if
+Line 77: (
+Line 77: *
+Line 77: ID = p
+Line 77: )
+Line 78: ID = res
+Line 78: =
+Line 78: -
+Line 78: ID = EBUSY
+Line 78: ;
+Line 79: else
+Line 80: *
+Line 80: ID = p
+Line 80: =
+Line 80: ID = fs
+Line 80: ;
+Line 81: ID = write_unlock
+Line 81: (
+Line 81: Unrecognized token: 38
+Line 81: ID = file_systems_lock
+Line 81: )
+Line 81: ;
+Line 82: return
+Line 82: ID = res
+Line 82: ;
+Line 83: }
+Line 85: ID = EXPORT_SYMBOL
+Line 85: (
+Line 85: ID = register_filesystem
+Line 85: )
+Line 85: ;
+Line 99: int
+Line 99: ID = unregister_filesystem
+Line 99: (
+Line 99: ID = struct
+Line 99: ID = file_system_type
+Line 99: *
+Line 99: ID = fs
+Line 99: )
+Line 100: {
+Line 101: ID = struct
+Line 101: ID = file_system_type
+Line 101: *
+Line 101: *
+Line 101: ID = tmp
+Line 101: ;
+Line 103: ID = write_lock
+Line 103: (
+Line 103: Unrecognized token: 38
+Line 103: ID = file_systems_lock
+Line 103: )
+Line 103: ;
+Line 104: ID = tmp
+Line 104: =
+Line 104: Unrecognized token: 38
+Line 104: ID = file_systems
+Line 104: ;
+Line 105: while
+Line 105: (
+Line 105: *
+Line 105: ID = tmp
+Line 105: )
+Line 105: {
+Line 106: if
+Line 106: (
+Line 106: ID = fs
+Line 106: ==
+Line 106: *
+Line 106: ID = tmp
+Line 106: )
+Line 106: {
+Line 107: *
+Line 107: ID = tmp
+Line 107: =
+Line 107: ID = fs
+Line 107: -
+Line 107: >
+Line 107: ID = next
+Line 107: ;
+Line 108: ID = fs
+Line 108: -
+Line 108: >
+Line 108: ID = next
+Line 108: =
+Line 108: ID = NULL
+Line 108: ;
+Line 109: ID = write_unlock
+Line 109: (
+Line 109: Unrecognized token: 38
+Line 109: ID = file_systems_lock
+Line 109: )
+Line 109: ;
+Line 110: return
+Line 110: INTCON = 0
+Line 110: ;
+Line 111: }
+Line 112: ID = tmp
+Line 112: =
+Line 112: Unrecognized token: 38
+Line 112: (
+Line 112: *
+Line 112: ID = tmp
+Line 112: )
+Line 112: -
+Line 112: >
+Line 112: ID = next
+Line 112: ;
+Line 113: }
+Line 114: ID = write_unlock
+Line 114: (
+Line 114: Unrecognized token: 38
+Line 114: ID = file_systems_lock
+Line 114: )
+Line 114: ;
+Line 115: return
+Line 115: -
+Line 115: ID = EINVAL
+Line 115: ;
+Line 116: }
+Line 118: ID = EXPORT_SYMBOL
+Line 118: (
+Line 118: ID = unregister_filesystem
+Line 118: )
+Line 118: ;
+Line 120: ID = static
+Line 120: int
+Line 120: ID = fs_index
+Line 120: (
+Line 120: ID = const
+Line 120: char
+Line 120: Unrecognized token: 95
+Line 120: Unrecognized token: 95
+Line 120: ID = user
+Line 120: *
+Line 120: Unrecognized token: 95
+Line 120: Unrecognized token: 95
+Line 120: ID = name
+Line 120: )
+Line 121: {
+Line 122: ID = struct
+Line 122: ID = file_system_type
+Line 122: *
+Line 122: ID = tmp
+Line 122: ;
+Line 123: char
+Line 123: *
+Line 123: ID = name
+Line 123: ;
+Line 124: int
+Line 124: ID = err
+Line 124: ,
+Line 124: ID = index
+Line 124: ;
+Line 126: ID = name
+Line 126: =
+Line 126: ID = getname
+Line 126: (
+Line 126: Unrecognized token: 95
+Line 126: Unrecognized token: 95
+Line 126: ID = name
+Line 126: )
+Line 126: ;
+Line 127: ID = err
+Line 127: =
+Line 127: ID = PTR_ERR
+Line 127: (
+Line 127: ID = name
+Line 127: )
+Line 127: ;
+Line 128: if
+Line 128: (
+Line 128: ID = IS_ERR
+Line 128: (
+Line 128: ID = name
+Line 128: )
+Line 128: )
+Line 129: return
+Line 129: ID = err
+Line 129: ;
+Line 131: ID = err
+Line 131: =
+Line 131: -
+Line 131: ID = EINVAL
+Line 131: ;
+Line 132: ID = read_lock
+Line 132: (
+Line 132: Unrecognized token: 38
+Line 132: ID = file_systems_lock
+Line 132: )
+Line 132: ;
+Line 133: for
+Line 133: (
+Line 133: ID = tmp
+Line 133: =
+Line 133: ID = file_systems
+Line 133: ,
+Line 133: ID = index
+Line 133: =
+Line 133: INTCON = 0
+Line 133: ;
+Line 133: ID = tmp
+Line 133: ;
+Line 133: ID = tmp
+Line 133: =
+Line 133: ID = tmp
+Line 133: -
+Line 133: >
+Line 133: ID = next
+Line 133: ,
+Line 133: ID = index
+Line 133: +
+Line 133: +
+Line 133: )
+Line 133: {
+Line 134: if
+Line 134: (
+Line 134: ID = strcmp
+Line 134: (
+Line 134: ID = tmp
+Line 134: -
+Line 134: >
+Line 134: ID = name
+Line 134: ,
+Line 134: ID = name
+Line 134: )
+Line 134: ==
+Line 134: INTCON = 0
+Line 134: )
+Line 134: {
+Line 135: ID = err
+Line 135: =
+Line 135: ID = index
+Line 135: ;
+Line 136: ID = break
+Line 136: ;
+Line 137: }
+Line 138: }
+Line 139: ID = read_unlock
+Line 139: (
+Line 139: Unrecognized token: 38
+Line 139: ID = file_systems_lock
+Line 139: )
+Line 139: ;
+Line 140: ID = putname
+Line 140: (
+Line 140: ID = name
+Line 140: )
+Line 140: ;
+Line 141: return
+Line 141: ID = err
+Line 141: ;
+Line 142: }
+Line 144: ID = static
+Line 144: int
+Line 144: ID = fs_name
+Line 144: (
+Line 144: ID = unsigned
+Line 144: int
+Line 144: ID = index
+Line 144: ,
+Line 144: char
+Line 144: Unrecognized token: 95
+Line 144: Unrecognized token: 95
+Line 144: ID = user
+Line 144: *
+Line 144: ID = buf
+Line 144: )
+Line 145: {
+Line 146: ID = struct
+Line 146: ID = file_system_type
+Line 146: *
+Line 146: ID = tmp
+Line 146: ;
+Line 147: int
+Line 147: ID = len
+Line 147: ,
+Line 147: ID = res
+Line 147: ;
+Line 149: ID = read_lock
+Line 149: (
+Line 149: Unrecognized token: 38
+Line 149: ID = file_systems_lock
+Line 149: )
+Line 149: ;
+Line 150: for
+Line 150: (
+Line 150: ID = tmp
+Line 150: =
+Line 150: ID = file_systems
+Line 150: ;
+Line 150: ID = tmp
+Line 150: ;
+Line 150: ID = tmp
+Line 150: =
+Line 150: ID = tmp
+Line 150: -
+Line 150: >
+Line 150: ID = next
+Line 150: ,
+Line 150: ID = index
+Line 150: -
+Line 150: -
+Line 150: )
+Line 151: if
+Line 151: (
+Line 151: ID = index
+Line 151: <=
+Line 151: INTCON = 0
+Line 151: &&
+Line 151: ID = try_module_get
+Line 151: (
+Line 151: ID = tmp
+Line 151: -
+Line 151: >
+Line 151: ID = owner
+Line 151: )
+Line 151: )
+Line 152: ID = break
+Line 152: ;
+Line 153: ID = read_unlock
+Line 153: (
+Line 153: Unrecognized token: 38
+Line 153: ID = file_systems_lock
+Line 153: )
+Line 153: ;
+Line 154: if
+Line 154: (
+Line 154: !
+Line 154: ID = tmp
+Line 154: )
+Line 155: return
+Line 155: -
+Line 155: ID = EINVAL
+Line 155: ;
+Line 158: ID = len
+Line 158: =
+Line 158: ID = strlen
+Line 158: (
+Line 158: ID = tmp
+Line 158: -
+Line 158: >
+Line 158: ID = name
+Line 158: )
+Line 158: +
+Line 158: INTCON = 1
+Line 158: ;
+Line 159: ID = res
+Line 159: =
+Line 159: ID = copy_to_user
+Line 159: (
+Line 159: ID = buf
+Line 159: ,
+Line 159: ID = tmp
+Line 159: -
+Line 159: >
+Line 159: ID = name
+Line 159: ,
+Line 159: ID = len
+Line 159: )
+Line 159: Unrecognized token: 63
+Line 159: -
+Line 159: ID = EFAULT
+Line 159: Unrecognized token: 58
+Line 159: INTCON = 0
+Line 159: ;
+Line 160: ID = put_filesystem
+Line 160: (
+Line 160: ID = tmp
+Line 160: )
+Line 160: ;
+Line 161: return
+Line 161: ID = res
+Line 161: ;
+Line 162: }
+Line 164: ID = static
+Line 164: int
+Line 164: ID = fs_maxindex
+Line 164: (
+Line 164: void
+Line 164: )
+Line 165: {
+Line 166: ID = struct
+Line 166: ID = file_system_type
+Line 166: *
+Line 166: ID = tmp
+Line 166: ;
+Line 167: int
+Line 167: ID = index
+Line 167: ;
+Line 169: ID = read_lock
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = file_systems_lock
+Line 169: )
+Line 169: ;
+Line 170: for
+Line 170: (
+Line 170: ID = tmp
+Line 170: =
+Line 170: ID = file_systems
+Line 170: ,
+Line 170: ID = index
+Line 170: =
+Line 170: INTCON = 0
+Line 170: ;
+Line 170: ID = tmp
+Line 170: ;
+Line 170: ID = tmp
+Line 170: =
+Line 170: ID = tmp
+Line 170: -
+Line 170: >
+Line 170: ID = next
+Line 170: ,
+Line 170: ID = index
+Line 170: +
+Line 170: +
+Line 170: )
+Line 171: ;
+Line 172: ID = read_unlock
+Line 172: (
+Line 172: Unrecognized token: 38
+Line 172: ID = file_systems_lock
+Line 172: )
+Line 172: ;
+Line 173: return
+Line 173: ID = index
+Line 173: ;
+Line 174: }
+Line 179: ID = asmlinkage
+Line 179: ID = long
+Line 179: ID = sys_sysfs
+Line 179: (
+Line 179: int
+Line 179: ID = option
+Line 179: ,
+Line 179: ID = unsigned
+Line 179: ID = long
+Line 179: ID = arg1
+Line 179: ,
+Line 179: ID = unsigned
+Line 179: ID = long
+Line 179: ID = arg2
+Line 179: )
+Line 180: {
+Line 181: int
+Line 181: ID = retval
+Line 181: =
+Line 181: -
+Line 181: ID = EINVAL
+Line 181: ;
+Line 183: ID = switch
+Line 183: (
+Line 183: ID = option
+Line 183: )
+Line 183: {
+Line 184: ID = case
+Line 184: INTCON = 1
+Line 184: Unrecognized token: 58
+Line 185: ID = retval
+Line 185: =
+Line 185: ID = fs_index
+Line 185: (
+Line 185: (
+Line 185: ID = const
+Line 185: char
+Line 185: Unrecognized token: 95
+Line 185: Unrecognized token: 95
+Line 185: ID = user
+Line 185: *
+Line 185: )
+Line 185: ID = arg1
+Line 185: )
+Line 185: ;
+Line 186: ID = break
+Line 186: ;
+Line 188: ID = case
+Line 188: INTCON = 2
+Line 188: Unrecognized token: 58
+Line 189: ID = retval
+Line 189: =
+Line 189: ID = fs_name
+Line 189: (
+Line 189: ID = arg1
+Line 189: ,
+Line 189: (
+Line 189: char
+Line 189: Unrecognized token: 95
+Line 189: Unrecognized token: 95
+Line 189: ID = user
+Line 189: *
+Line 189: )
+Line 189: ID = arg2
+Line 189: )
+Line 189: ;
+Line 190: ID = break
+Line 190: ;
+Line 192: ID = case
+Line 192: INTCON = 3
+Line 192: Unrecognized token: 58
+Line 193: ID = retval
+Line 193: =
+Line 193: ID = fs_maxindex
+Line 193: (
+Line 193: )
+Line 193: ;
+Line 194: ID = break
+Line 194: ;
+Line 195: }
+Line 196: return
+Line 196: ID = retval
+Line 196: ;
+Line 197: }
+Line 199: int
+Line 199: ID = get_filesystem_list
+Line 199: (
+Line 199: char
+Line 199: *
+Line 199: ID = buf
+Line 199: )
+Line 200: {
+Line 201: int
+Line 201: ID = len
+Line 201: =
+Line 201: INTCON = 0
+Line 201: ;
+Line 202: ID = struct
+Line 202: ID = file_system_type
+Line 202: *
+Line 202: ID = tmp
+Line 202: ;
+Line 204: ID = read_lock
+Line 204: (
+Line 204: Unrecognized token: 38
+Line 204: ID = file_systems_lock
+Line 204: )
+Line 204: ;
+Line 205: ID = tmp
+Line 205: =
+Line 205: ID = file_systems
+Line 205: ;
+Line 206: while
+Line 206: (
+Line 206: ID = tmp
+Line 206: &&
+Line 206: ID = len
+Line 206: <
+Line 206: ID = PAGE_SIZE
+Line 206: -
+Line 206: INTCON = 80
+Line 206: )
+Line 206: {
+Line 207: ID = len
+Line 207: +
+Line 207: =
+Line 207: ID = sprintf
+Line 207: (
+Line 207: ID = buf
+Line 207: +
+Line 207: ID = len
+Line 207: ,
+Line 207: STRINGCON = "%s\t%s\n"
+Line 207: ,
+Line 208: (
+Line 208: ID = tmp
+Line 208: -
+Line 208: >
+Line 208: ID = fs_flags
+Line 208: Unrecognized token: 38
+Line 208: ID = FS_REQUIRES_DEV
+Line 208: )
+Line 208: Unrecognized token: 63
+Line 208: STRINGCON = ""
+Line 208: Unrecognized token: 58
+Line 208: STRINGCON = "nodev"
+Line 208: ,
+Line 209: ID = tmp
+Line 209: -
+Line 209: >
+Line 209: ID = name
+Line 209: )
+Line 209: ;
+Line 210: ID = tmp
+Line 210: =
+Line 210: ID = tmp
+Line 210: -
+Line 210: >
+Line 210: ID = next
+Line 210: ;
+Line 211: }
+Line 212: ID = read_unlock
+Line 212: (
+Line 212: Unrecognized token: 38
+Line 212: ID = file_systems_lock
+Line 212: )
+Line 212: ;
+Line 213: return
+Line 213: ID = len
+Line 213: ;
+Line 214: }
+Line 216: ID = struct
+Line 216: ID = file_system_type
+Line 216: *
+Line 216: ID = get_fs_type
+Line 216: (
+Line 216: ID = const
+Line 216: char
+Line 216: *
+Line 216: ID = name
+Line 216: )
+Line 217: {
+Line 218: ID = struct
+Line 218: ID = file_system_type
+Line 218: *
+Line 218: ID = fs
+Line 218: ;
+Line 220: ID = read_lock
+Line 220: (
+Line 220: Unrecognized token: 38
+Line 220: ID = file_systems_lock
+Line 220: )
+Line 220: ;
+Line 221: ID = fs
+Line 221: =
+Line 221: *
+Line 221: (
+Line 221: ID = find_filesystem
+Line 221: (
+Line 221: ID = name
+Line 221: )
+Line 221: )
+Line 221: ;
+Line 222: if
+Line 222: (
+Line 222: ID = fs
+Line 222: &&
+Line 222: !
+Line 222: ID = try_module_get
+Line 222: (
+Line 222: ID = fs
+Line 222: -
+Line 222: >
+Line 222: ID = owner
+Line 222: )
+Line 222: )
+Line 223: ID = fs
+Line 223: =
+Line 223: ID = NULL
+Line 223: ;
+Line 224: ID = read_unlock
+Line 224: (
+Line 224: Unrecognized token: 38
+Line 224: ID = file_systems_lock
+Line 224: )
+Line 224: ;
+Line 225: if
+Line 225: (
+Line 225: !
+Line 225: ID = fs
+Line 225: &&
+Line 225: (
+Line 225: ID = request_module
+Line 225: (
+Line 225: STRINGCON = "%s"
+Line 225: ,
+Line 225: ID = name
+Line 225: )
+Line 225: ==
+Line 225: INTCON = 0
+Line 225: )
+Line 225: )
+Line 225: {
+Line 226: ID = read_lock
+Line 226: (
+Line 226: Unrecognized token: 38
+Line 226: ID = file_systems_lock
+Line 226: )
+Line 226: ;
+Line 227: ID = fs
+Line 227: =
+Line 227: *
+Line 227: (
+Line 227: ID = find_filesystem
+Line 227: (
+Line 227: ID = name
+Line 227: )
+Line 227: )
+Line 227: ;
+Line 228: if
+Line 228: (
+Line 228: ID = fs
+Line 228: &&
+Line 228: !
+Line 228: ID = try_module_get
+Line 228: (
+Line 228: ID = fs
+Line 228: -
+Line 228: >
+Line 228: ID = owner
+Line 228: )
+Line 228: )
+Line 229: ID = fs
+Line 229: =
+Line 229: ID = NULL
+Line 229: ;
+Line 230: ID = read_unlock
+Line 230: (
+Line 230: Unrecognized token: 38
+Line 230: ID = file_systems_lock
+Line 230: )
+Line 230: ;
+Line 231: }
+Line 232: return
+Line 232: ID = fs
+Line 232: ;
+Line 233: }
+Line 235: ID = EXPORT_SYMBOL
+Line 235: (
+Line 235: ID = get_fs_type
+Line 235: )
+Line 235: ;
+Line 236: -EOF-

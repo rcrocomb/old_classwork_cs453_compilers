@@ -1,0 +1,23 @@
+/* Testing returns and implicit int */
+
+a(void)
+{
+    return 42;
+}
+
+b(void)
+{
+    return 'x';
+}
+
+c(void)
+{
+    int d[4];
+    return d[0];
+}
+
+d(void)
+{
+    char e[4];
+    return e[1];
+}

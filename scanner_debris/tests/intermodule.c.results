@@ -1,0 +1,686 @@
+Line 4: Unrecognized token: 35
+Line 4: ID = include
+Line 4: <
+Line 4: ID = linux
+Line 4: /
+Line 4: ID = module
+Line 4: Unrecognized token: 46
+Line 4: ID = h
+Line 4: >
+Line 5: Unrecognized token: 35
+Line 5: ID = include
+Line 5: <
+Line 5: ID = linux
+Line 5: /
+Line 5: ID = kmod
+Line 5: Unrecognized token: 46
+Line 5: ID = h
+Line 5: >
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = spinlock
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = list
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = slab
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 16: ID = static
+Line 16: ID = struct
+Line 16: ID = list_head
+Line 16: ID = ime_list
+Line 16: =
+Line 16: ID = LIST_HEAD_INIT
+Line 16: (
+Line 16: ID = ime_list
+Line 16: )
+Line 16: ;
+Line 17: ID = static
+Line 17: ID = spinlock_t
+Line 17: ID = ime_lock
+Line 17: =
+Line 17: ID = SPIN_LOCK_UNLOCKED
+Line 17: ;
+Line 18: ID = static
+Line 18: int
+Line 18: ID = kmalloc_failed
+Line 18: ;
+Line 20: ID = struct
+Line 20: ID = inter_module_entry
+Line 20: {
+Line 21: ID = struct
+Line 21: ID = list_head
+Line 21: ID = list
+Line 21: ;
+Line 22: ID = const
+Line 22: char
+Line 22: *
+Line 22: ID = im_name
+Line 22: ;
+Line 23: ID = struct
+Line 23: ID = module
+Line 23: *
+Line 23: ID = owner
+Line 23: ;
+Line 24: ID = const
+Line 24: void
+Line 24: *
+Line 24: ID = userdata
+Line 24: ;
+Line 25: }
+Line 25: ;
+Line 37: void
+Line 37: ID = inter_module_register
+Line 37: (
+Line 37: ID = const
+Line 37: char
+Line 37: *
+Line 37: ID = im_name
+Line 37: ,
+Line 37: ID = struct
+Line 37: ID = module
+Line 37: *
+Line 37: ID = owner
+Line 37: ,
+Line 37: ID = const
+Line 37: void
+Line 37: *
+Line 37: ID = userdata
+Line 37: )
+Line 38: {
+Line 39: ID = struct
+Line 39: ID = list_head
+Line 39: *
+Line 39: ID = tmp
+Line 39: ;
+Line 40: ID = struct
+Line 40: ID = inter_module_entry
+Line 40: *
+Line 40: ID = ime
+Line 40: ,
+Line 40: *
+Line 40: ID = ime_new
+Line 40: ;
+Line 42: if
+Line 42: (
+Line 42: !
+Line 42: (
+Line 42: ID = ime_new
+Line 42: =
+Line 42: ID = kmalloc
+Line 42: (
+Line 42: ID = sizeof
+Line 42: (
+Line 42: *
+Line 42: ID = ime
+Line 42: )
+Line 42: ,
+Line 42: ID = GFP_KERNEL
+Line 42: )
+Line 42: )
+Line 42: )
+Line 42: {
+Line 44: ID = printk
+Line 44: (
+Line 44: ID = KERN_ERR
+Line 45: STRINGCON = "Aiee, inter_module_register: cannot kmalloc entry for '%s'\n"
+Line 45: ,
+Line 46: ID = im_name
+Line 46: )
+Line 46: ;
+Line 47: ID = kmalloc_failed
+Line 47: =
+Line 47: INTCON = 1
+Line 47: ;
+Line 48: return
+Line 48: ;
+Line 49: }
+Line 50: ID = memset
+Line 50: (
+Line 50: ID = ime_new
+Line 50: ,
+Line 50: INTCON = 0
+Line 50: ,
+Line 50: ID = sizeof
+Line 50: (
+Line 50: *
+Line 50: ID = ime_new
+Line 50: )
+Line 50: )
+Line 50: ;
+Line 51: ID = ime_new
+Line 51: -
+Line 51: >
+Line 51: ID = im_name
+Line 51: =
+Line 51: ID = im_name
+Line 51: ;
+Line 52: ID = ime_new
+Line 52: -
+Line 52: >
+Line 52: ID = owner
+Line 52: =
+Line 52: ID = owner
+Line 52: ;
+Line 53: ID = ime_new
+Line 53: -
+Line 53: >
+Line 53: ID = userdata
+Line 53: =
+Line 53: ID = userdata
+Line 53: ;
+Line 55: ID = spin_lock
+Line 55: (
+Line 55: Unrecognized token: 38
+Line 55: ID = ime_lock
+Line 55: )
+Line 55: ;
+Line 56: ID = list_for_each
+Line 56: (
+Line 56: ID = tmp
+Line 56: ,
+Line 56: Unrecognized token: 38
+Line 56: ID = ime_list
+Line 56: )
+Line 56: {
+Line 57: ID = ime
+Line 57: =
+Line 57: ID = list_entry
+Line 57: (
+Line 57: ID = tmp
+Line 57: ,
+Line 57: ID = struct
+Line 57: ID = inter_module_entry
+Line 57: ,
+Line 57: ID = list
+Line 57: )
+Line 57: ;
+Line 58: if
+Line 58: (
+Line 58: ID = strcmp
+Line 58: (
+Line 58: ID = ime
+Line 58: -
+Line 58: >
+Line 58: ID = im_name
+Line 58: ,
+Line 58: ID = im_name
+Line 58: )
+Line 58: ==
+Line 58: INTCON = 0
+Line 58: )
+Line 58: {
+Line 59: ID = spin_unlock
+Line 59: (
+Line 59: Unrecognized token: 38
+Line 59: ID = ime_lock
+Line 59: )
+Line 59: ;
+Line 60: ID = kfree
+Line 60: (
+Line 60: ID = ime_new
+Line 60: )
+Line 60: ;
+Line 62: ID = printk
+Line 62: (
+Line 62: ID = KERN_ERR
+Line 62: STRINGCON = "inter_module_register: duplicate im_name '%s'"
+Line 62: ,
+Line 62: ID = im_name
+Line 62: )
+Line 62: ;
+Line 63: ID = BUG
+Line 63: (
+Line 63: )
+Line 63: ;
+Line 64: }
+Line 65: }
+Line 66: ID = list_add
+Line 66: (
+Line 66: Unrecognized token: 38
+Line 66: (
+Line 66: ID = ime_new
+Line 66: -
+Line 66: >
+Line 66: ID = list
+Line 66: )
+Line 66: ,
+Line 66: Unrecognized token: 38
+Line 66: ID = ime_list
+Line 66: )
+Line 66: ;
+Line 67: ID = spin_unlock
+Line 67: (
+Line 67: Unrecognized token: 38
+Line 67: ID = ime_lock
+Line 67: )
+Line 67: ;
+Line 68: }
+Line 78: void
+Line 78: ID = inter_module_unregister
+Line 78: (
+Line 78: ID = const
+Line 78: char
+Line 78: *
+Line 78: ID = im_name
+Line 78: )
+Line 79: {
+Line 80: ID = struct
+Line 80: ID = list_head
+Line 80: *
+Line 80: ID = tmp
+Line 80: ;
+Line 81: ID = struct
+Line 81: ID = inter_module_entry
+Line 81: *
+Line 81: ID = ime
+Line 81: ;
+Line 83: ID = spin_lock
+Line 83: (
+Line 83: Unrecognized token: 38
+Line 83: ID = ime_lock
+Line 83: )
+Line 83: ;
+Line 84: ID = list_for_each
+Line 84: (
+Line 84: ID = tmp
+Line 84: ,
+Line 84: Unrecognized token: 38
+Line 84: ID = ime_list
+Line 84: )
+Line 84: {
+Line 85: ID = ime
+Line 85: =
+Line 85: ID = list_entry
+Line 85: (
+Line 85: ID = tmp
+Line 85: ,
+Line 85: ID = struct
+Line 85: ID = inter_module_entry
+Line 85: ,
+Line 85: ID = list
+Line 85: )
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: ID = strcmp
+Line 86: (
+Line 86: ID = ime
+Line 86: -
+Line 86: >
+Line 86: ID = im_name
+Line 86: ,
+Line 86: ID = im_name
+Line 86: )
+Line 86: ==
+Line 86: INTCON = 0
+Line 86: )
+Line 86: {
+Line 87: ID = list_del
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: (
+Line 87: ID = ime
+Line 87: -
+Line 87: >
+Line 87: ID = list
+Line 87: )
+Line 87: )
+Line 87: ;
+Line 88: ID = spin_unlock
+Line 88: (
+Line 88: Unrecognized token: 38
+Line 88: ID = ime_lock
+Line 88: )
+Line 88: ;
+Line 89: ID = kfree
+Line 89: (
+Line 89: ID = ime
+Line 89: )
+Line 89: ;
+Line 90: return
+Line 90: ;
+Line 91: }
+Line 92: }
+Line 93: ID = spin_unlock
+Line 93: (
+Line 93: Unrecognized token: 38
+Line 93: ID = ime_lock
+Line 93: )
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: ID = kmalloc_failed
+Line 94: )
+Line 94: {
+Line 95: ID = printk
+Line 95: (
+Line 95: ID = KERN_ERR
+Line 96: STRINGCON = "inter_module_unregister: no entry for '%s', "
+Line 97: STRINGCON = "probably caused by previous kmalloc failure\n"
+Line 97: ,
+Line 98: ID = im_name
+Line 98: )
+Line 98: ;
+Line 99: return
+Line 99: ;
+Line 100: }
+Line 101: else
+Line 101: {
+Line 103: ID = printk
+Line 103: (
+Line 103: ID = KERN_ERR
+Line 103: STRINGCON = "inter_module_unregister: no entry for '%s'"
+Line 103: ,
+Line 103: ID = im_name
+Line 103: )
+Line 103: ;
+Line 104: ID = BUG
+Line 104: (
+Line 104: )
+Line 104: ;
+Line 105: }
+Line 106: }
+Line 116: ID = const
+Line 116: void
+Line 116: *
+Line 116: ID = inter_module_get
+Line 116: (
+Line 116: ID = const
+Line 116: char
+Line 116: *
+Line 116: ID = im_name
+Line 116: )
+Line 117: {
+Line 118: ID = struct
+Line 118: ID = list_head
+Line 118: *
+Line 118: ID = tmp
+Line 118: ;
+Line 119: ID = struct
+Line 119: ID = inter_module_entry
+Line 119: *
+Line 119: ID = ime
+Line 119: ;
+Line 120: ID = const
+Line 120: void
+Line 120: *
+Line 120: ID = result
+Line 120: =
+Line 120: ID = NULL
+Line 120: ;
+Line 122: ID = spin_lock
+Line 122: (
+Line 122: Unrecognized token: 38
+Line 122: ID = ime_lock
+Line 122: )
+Line 122: ;
+Line 123: ID = list_for_each
+Line 123: (
+Line 123: ID = tmp
+Line 123: ,
+Line 123: Unrecognized token: 38
+Line 123: ID = ime_list
+Line 123: )
+Line 123: {
+Line 124: ID = ime
+Line 124: =
+Line 124: ID = list_entry
+Line 124: (
+Line 124: ID = tmp
+Line 124: ,
+Line 124: ID = struct
+Line 124: ID = inter_module_entry
+Line 124: ,
+Line 124: ID = list
+Line 124: )
+Line 124: ;
+Line 125: if
+Line 125: (
+Line 125: ID = strcmp
+Line 125: (
+Line 125: ID = ime
+Line 125: -
+Line 125: >
+Line 125: ID = im_name
+Line 125: ,
+Line 125: ID = im_name
+Line 125: )
+Line 125: ==
+Line 125: INTCON = 0
+Line 125: )
+Line 125: {
+Line 126: if
+Line 126: (
+Line 126: ID = try_module_get
+Line 126: (
+Line 126: ID = ime
+Line 126: -
+Line 126: >
+Line 126: ID = owner
+Line 126: )
+Line 126: )
+Line 127: ID = result
+Line 127: =
+Line 127: ID = ime
+Line 127: -
+Line 127: >
+Line 127: ID = userdata
+Line 127: ;
+Line 128: ID = break
+Line 128: ;
+Line 129: }
+Line 130: }
+Line 131: ID = spin_unlock
+Line 131: (
+Line 131: Unrecognized token: 38
+Line 131: ID = ime_lock
+Line 131: )
+Line 131: ;
+Line 132: return
+Line 132: (
+Line 132: ID = result
+Line 132: )
+Line 132: ;
+Line 133: }
+Line 142: ID = const
+Line 142: void
+Line 142: *
+Line 142: ID = inter_module_get_request
+Line 142: (
+Line 142: ID = const
+Line 142: char
+Line 142: *
+Line 142: ID = im_name
+Line 142: ,
+Line 142: ID = const
+Line 142: char
+Line 142: *
+Line 142: ID = modname
+Line 142: )
+Line 143: {
+Line 144: ID = const
+Line 144: void
+Line 144: *
+Line 144: ID = result
+Line 144: =
+Line 144: ID = inter_module_get
+Line 144: (
+Line 144: ID = im_name
+Line 144: )
+Line 144: ;
+Line 145: if
+Line 145: (
+Line 145: !
+Line 145: ID = result
+Line 145: )
+Line 145: {
+Line 146: ID = request_module
+Line 146: (
+Line 146: STRINGCON = "%s"
+Line 146: ,
+Line 146: ID = modname
+Line 146: )
+Line 146: ;
+Line 147: ID = result
+Line 147: =
+Line 147: ID = inter_module_get
+Line 147: (
+Line 147: ID = im_name
+Line 147: )
+Line 147: ;
+Line 148: }
+Line 149: return
+Line 149: (
+Line 149: ID = result
+Line 149: )
+Line 149: ;
+Line 150: }
+Line 159: void
+Line 159: ID = inter_module_put
+Line 159: (
+Line 159: ID = const
+Line 159: char
+Line 159: *
+Line 159: ID = im_name
+Line 159: )
+Line 160: {
+Line 161: ID = struct
+Line 161: ID = list_head
+Line 161: *
+Line 161: ID = tmp
+Line 161: ;
+Line 162: ID = struct
+Line 162: ID = inter_module_entry
+Line 162: *
+Line 162: ID = ime
+Line 162: ;
+Line 164: ID = spin_lock
+Line 164: (
+Line 164: Unrecognized token: 38
+Line 164: ID = ime_lock
+Line 164: )
+Line 164: ;
+Line 165: ID = list_for_each
+Line 165: (
+Line 165: ID = tmp
+Line 165: ,
+Line 165: Unrecognized token: 38
+Line 165: ID = ime_list
+Line 165: )
+Line 165: {
+Line 166: ID = ime
+Line 166: =
+Line 166: ID = list_entry
+Line 166: (
+Line 166: ID = tmp
+Line 166: ,
+Line 166: ID = struct
+Line 166: ID = inter_module_entry
+Line 166: ,
+Line 166: ID = list
+Line 166: )
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: ID = strcmp
+Line 167: (
+Line 167: ID = ime
+Line 167: -
+Line 167: >
+Line 167: ID = im_name
+Line 167: ,
+Line 167: ID = im_name
+Line 167: )
+Line 167: ==
+Line 167: INTCON = 0
+Line 167: )
+Line 167: {
+Line 168: if
+Line 168: (
+Line 168: ID = ime
+Line 168: -
+Line 168: >
+Line 168: ID = owner
+Line 168: )
+Line 169: ID = module_put
+Line 169: (
+Line 169: ID = ime
+Line 169: -
+Line 169: >
+Line 169: ID = owner
+Line 169: )
+Line 169: ;
+Line 170: ID = spin_unlock
+Line 170: (
+Line 170: Unrecognized token: 38
+Line 170: ID = ime_lock
+Line 170: )
+Line 170: ;
+Line 171: return
+Line 171: ;
+Line 172: }
+Line 173: }
+Line 174: ID = spin_unlock
+Line 174: (
+Line 174: Unrecognized token: 38
+Line 174: ID = ime_lock
+Line 174: )
+Line 174: ;
+Line 175: ID = printk
+Line 175: (
+Line 175: ID = KERN_ERR
+Line 175: STRINGCON = "inter_module_put: no entry for '%s'"
+Line 175: ,
+Line 175: ID = im_name
+Line 175: )
+Line 175: ;
+Line 176: ID = BUG
+Line 176: (
+Line 176: )
+Line 176: ;
+Line 177: }
+Line 179: ID = EXPORT_SYMBOL
+Line 179: (
+Line 179: ID = inter_module_register
+Line 179: )
+Line 179: ;
+Line 180: ID = EXPORT_SYMBOL
+Line 180: (
+Line 180: ID = inter_module_unregister
+Line 180: )
+Line 180: ;
+Line 181: ID = EXPORT_SYMBOL
+Line 181: (
+Line 181: ID = inter_module_get
+Line 181: )
+Line 181: ;
+Line 182: ID = EXPORT_SYMBOL
+Line 182: (
+Line 182: ID = inter_module_get_request
+Line 182: )
+Line 182: ;
+Line 183: ID = EXPORT_SYMBOL
+Line 183: (
+Line 183: ID = inter_module_put
+Line 183: )
+Line 183: ;
+Line 184: -EOF-

@@ -1,0 +1,7 @@
+int
+blah(void)
+{
+    int z;
+
+    z = bob();
+}

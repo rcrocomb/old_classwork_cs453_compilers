@@ -1,0 +1,2897 @@
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = slab
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = poll
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = fs
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = file
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = jhash
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = init
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = futex
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = linux
+Line 39: /
+Line 39: ID = mount
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = linux
+Line 40: /
+Line 40: ID = pagemap
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = linux
+Line 41: /
+Line 41: ID = syscalls
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 43: Unrecognized token: 35
+Line 43: ID = define
+Line 43: ID = FUTEX_HASHBITS
+Line 43: INTCON = 8
+Line 53: ID = union
+Line 53: ID = futex_key
+Line 53: {
+Line 54: ID = struct
+Line 54: {
+Line 55: ID = unsigned
+Line 55: ID = long
+Line 55: ID = pgoff
+Line 55: ;
+Line 56: ID = struct
+Line 56: ID = inode
+Line 56: *
+Line 56: ID = inode
+Line 56: ;
+Line 57: int
+Line 57: ID = offset
+Line 57: ;
+Line 58: }
+Line 58: ID = shared
+Line 58: ;
+Line 59: ID = struct
+Line 59: {
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = uaddr
+Line 60: ;
+Line 61: ID = struct
+Line 61: ID = mm_struct
+Line 61: *
+Line 61: ID = mm
+Line 61: ;
+Line 62: int
+Line 62: ID = offset
+Line 62: ;
+Line 63: }
+Line 63: ID = private
+Line 63: ;
+Line 64: ID = struct
+Line 64: {
+Line 65: ID = unsigned
+Line 65: ID = long
+Line 65: ID = word
+Line 65: ;
+Line 66: void
+Line 66: *
+Line 66: ID = ptr
+Line 66: ;
+Line 67: int
+Line 67: ID = offset
+Line 67: ;
+Line 68: }
+Line 68: ID = both
+Line 68: ;
+Line 69: }
+Line 69: ;
+Line 80: ID = struct
+Line 80: ID = futex_q
+Line 80: {
+Line 81: ID = struct
+Line 81: ID = list_head
+Line 81: ID = list
+Line 81: ;
+Line 82: ID = wait_queue_head_t
+Line 82: ID = waiters
+Line 82: ;
+Line 85: ID = spinlock_t
+Line 85: *
+Line 85: ID = lock_ptr
+Line 85: ;
+Line 88: ID = union
+Line 88: ID = futex_key
+Line 88: ID = key
+Line 88: ;
+Line 91: int
+Line 91: ID = fd
+Line 91: ;
+Line 92: ID = struct
+Line 92: ID = file
+Line 92: *
+Line 92: ID = filp
+Line 92: ;
+Line 93: }
+Line 93: ;
+Line 98: ID = struct
+Line 98: ID = futex_hash_bucket
+Line 98: {
+Line 99: ID = spinlock_t
+Line 99: ID = lock
+Line 99: ;
+Line 100: ID = unsigned
+Line 100: int
+Line 100: ID = nqueued
+Line 100: ;
+Line 101: ID = struct
+Line 101: ID = list_head
+Line 101: ID = chain
+Line 101: ;
+Line 102: }
+Line 102: ;
+Line 104: ID = static
+Line 104: ID = struct
+Line 104: ID = futex_hash_bucket
+Line 104: ID = futex_queues
+Line 104: [
+Line 104: INTCON = 1
+Line 104: <
+Line 104: <
+Line 104: ID = FUTEX_HASHBITS
+Line 104: ]
+Line 104: ;
+Line 107: ID = static
+Line 107: ID = struct
+Line 107: ID = vfsmount
+Line 107: *
+Line 107: ID = futex_mnt
+Line 107: ;
+Line 112: ID = static
+Line 112: ID = struct
+Line 112: ID = futex_hash_bucket
+Line 112: *
+Line 112: ID = hash_futex
+Line 112: (
+Line 112: ID = union
+Line 112: ID = futex_key
+Line 112: *
+Line 112: ID = key
+Line 112: )
+Line 113: {
+Line 114: ID = u32
+Line 114: ID = hash
+Line 114: =
+Line 114: ID = jhash2
+Line 114: (
+Line 114: (
+Line 114: ID = u32
+Line 114: *
+Line 114: )
+Line 114: Unrecognized token: 38
+Line 114: ID = key
+Line 114: -
+Line 114: >
+Line 114: ID = both
+Line 114: Unrecognized token: 46
+Line 114: ID = word
+Line 114: ,
+Line 115: (
+Line 115: ID = sizeof
+Line 115: (
+Line 115: ID = key
+Line 115: -
+Line 115: >
+Line 115: ID = both
+Line 115: Unrecognized token: 46
+Line 115: ID = word
+Line 115: )
+Line 115: +
+Line 115: ID = sizeof
+Line 115: (
+Line 115: ID = key
+Line 115: -
+Line 115: >
+Line 115: ID = both
+Line 115: Unrecognized token: 46
+Line 115: ID = ptr
+Line 115: )
+Line 115: )
+Line 115: /
+Line 115: INTCON = 4
+Line 115: ,
+Line 116: ID = key
+Line 116: -
+Line 116: >
+Line 116: ID = both
+Line 116: Unrecognized token: 46
+Line 116: ID = offset
+Line 116: )
+Line 116: ;
+Line 117: return
+Line 117: Unrecognized token: 38
+Line 117: ID = futex_queues
+Line 117: [
+Line 117: ID = hash
+Line 117: Unrecognized token: 38
+Line 117: (
+Line 117: (
+Line 117: INTCON = 1
+Line 117: <
+Line 117: <
+Line 117: ID = FUTEX_HASHBITS
+Line 117: )
+Line 117: -
+Line 117: INTCON = 1
+Line 117: )
+Line 117: ]
+Line 117: ;
+Line 118: }
+Line 123: ID = static
+Line 123: ID = inline
+Line 123: int
+Line 123: ID = match_futex
+Line 123: (
+Line 123: ID = union
+Line 123: ID = futex_key
+Line 123: *
+Line 123: ID = key1
+Line 123: ,
+Line 123: ID = union
+Line 123: ID = futex_key
+Line 123: *
+Line 123: ID = key2
+Line 123: )
+Line 124: {
+Line 125: return
+Line 125: (
+Line 125: ID = key1
+Line 125: -
+Line 125: >
+Line 125: ID = both
+Line 125: Unrecognized token: 46
+Line 125: ID = word
+Line 125: ==
+Line 125: ID = key2
+Line 125: -
+Line 125: >
+Line 125: ID = both
+Line 125: Unrecognized token: 46
+Line 125: ID = word
+Line 126: &&
+Line 126: ID = key1
+Line 126: -
+Line 126: >
+Line 126: ID = both
+Line 126: Unrecognized token: 46
+Line 126: ID = ptr
+Line 126: ==
+Line 126: ID = key2
+Line 126: -
+Line 126: >
+Line 126: ID = both
+Line 126: Unrecognized token: 46
+Line 126: ID = ptr
+Line 127: &&
+Line 127: ID = key1
+Line 127: -
+Line 127: >
+Line 127: ID = both
+Line 127: Unrecognized token: 46
+Line 127: ID = offset
+Line 127: ==
+Line 127: ID = key2
+Line 127: -
+Line 127: >
+Line 127: ID = both
+Line 127: Unrecognized token: 46
+Line 127: ID = offset
+Line 127: )
+Line 127: ;
+Line 128: }
+Line 142: ID = static
+Line 142: int
+Line 142: ID = get_futex_key
+Line 142: (
+Line 142: ID = unsigned
+Line 142: ID = long
+Line 142: ID = uaddr
+Line 142: ,
+Line 142: ID = union
+Line 142: ID = futex_key
+Line 142: *
+Line 142: ID = key
+Line 142: )
+Line 143: {
+Line 144: ID = struct
+Line 144: ID = mm_struct
+Line 144: *
+Line 144: ID = mm
+Line 144: =
+Line 144: ID = current
+Line 144: -
+Line 144: >
+Line 144: ID = mm
+Line 144: ;
+Line 145: ID = struct
+Line 145: ID = vm_area_struct
+Line 145: *
+Line 145: ID = vma
+Line 145: ;
+Line 146: ID = struct
+Line 146: ID = page
+Line 146: *
+Line 146: ID = page
+Line 146: ;
+Line 147: int
+Line 147: ID = err
+Line 147: ;
+Line 152: ID = key
+Line 152: -
+Line 152: >
+Line 152: ID = both
+Line 152: Unrecognized token: 46
+Line 152: ID = offset
+Line 152: =
+Line 152: ID = uaddr
+Line 152: Unrecognized token: 37
+Line 152: ID = PAGE_SIZE
+Line 152: ;
+Line 153: if
+Line 153: (
+Line 153: ID = unlikely
+Line 153: (
+Line 153: (
+Line 153: ID = key
+Line 153: -
+Line 153: >
+Line 153: ID = both
+Line 153: Unrecognized token: 46
+Line 153: ID = offset
+Line 153: Unrecognized token: 37
+Line 153: ID = sizeof
+Line 153: (
+Line 153: ID = u32
+Line 153: )
+Line 153: )
+Line 153: !=
+Line 153: INTCON = 0
+Line 153: )
+Line 153: )
+Line 154: return
+Line 154: -
+Line 154: ID = EINVAL
+Line 154: ;
+Line 155: ID = uaddr
+Line 155: -
+Line 155: =
+Line 155: ID = key
+Line 155: -
+Line 155: >
+Line 155: ID = both
+Line 155: Unrecognized token: 46
+Line 155: ID = offset
+Line 155: ;
+Line 161: ID = vma
+Line 161: =
+Line 161: ID = find_extend_vma
+Line 161: (
+Line 161: ID = mm
+Line 161: ,
+Line 161: ID = uaddr
+Line 161: )
+Line 161: ;
+Line 162: if
+Line 162: (
+Line 162: ID = unlikely
+Line 162: (
+Line 162: !
+Line 162: ID = vma
+Line 162: )
+Line 162: )
+Line 163: return
+Line 163: -
+Line 163: ID = EFAULT
+Line 163: ;
+Line 168: if
+Line 168: (
+Line 168: ID = unlikely
+Line 168: (
+Line 168: (
+Line 168: ID = vma
+Line 168: -
+Line 168: >
+Line 168: ID = vm_flags
+Line 168: Unrecognized token: 38
+Line 168: (
+Line 168: ID = VM_IO
+Line 168: Unrecognized token: 124
+Line 168: ID = VM_READ
+Line 168: )
+Line 168: )
+Line 168: !=
+Line 168: ID = VM_READ
+Line 168: )
+Line 168: )
+Line 169: return
+Line 169: (
+Line 169: ID = vma
+Line 169: -
+Line 169: >
+Line 169: ID = vm_flags
+Line 169: Unrecognized token: 38
+Line 169: ID = VM_IO
+Line 169: )
+Line 169: Unrecognized token: 63
+Line 169: -
+Line 169: ID = EPERM
+Line 169: Unrecognized token: 58
+Line 169: -
+Line 169: ID = EACCES
+Line 169: ;
+Line 180: if
+Line 180: (
+Line 180: ID = likely
+Line 180: (
+Line 180: !
+Line 180: (
+Line 180: ID = vma
+Line 180: -
+Line 180: >
+Line 180: ID = vm_flags
+Line 180: Unrecognized token: 38
+Line 180: ID = VM_MAYSHARE
+Line 180: )
+Line 180: )
+Line 180: )
+Line 180: {
+Line 181: ID = key
+Line 181: -
+Line 181: >
+Line 181: ID = private
+Line 181: Unrecognized token: 46
+Line 181: ID = mm
+Line 181: =
+Line 181: ID = mm
+Line 181: ;
+Line 182: ID = key
+Line 182: -
+Line 182: >
+Line 182: ID = private
+Line 182: Unrecognized token: 46
+Line 182: ID = uaddr
+Line 182: =
+Line 182: ID = uaddr
+Line 182: ;
+Line 183: return
+Line 183: INTCON = 0
+Line 183: ;
+Line 184: }
+Line 189: ID = key
+Line 189: -
+Line 189: >
+Line 189: ID = shared
+Line 189: Unrecognized token: 46
+Line 189: ID = inode
+Line 189: =
+Line 189: ID = vma
+Line 189: -
+Line 189: >
+Line 189: ID = vm_file
+Line 189: -
+Line 189: >
+Line 189: ID = f_dentry
+Line 189: -
+Line 189: >
+Line 189: ID = d_inode
+Line 189: ;
+Line 190: ID = key
+Line 190: -
+Line 190: >
+Line 190: ID = both
+Line 190: Unrecognized token: 46
+Line 190: ID = offset
+Line 190: +
+Line 190: +
+Line 190: ;
+Line 191: if
+Line 191: (
+Line 191: ID = likely
+Line 191: (
+Line 191: !
+Line 191: (
+Line 191: ID = vma
+Line 191: -
+Line 191: >
+Line 191: ID = vm_flags
+Line 191: Unrecognized token: 38
+Line 191: ID = VM_NONLINEAR
+Line 191: )
+Line 191: )
+Line 191: )
+Line 191: {
+Line 192: ID = key
+Line 192: -
+Line 192: >
+Line 192: ID = shared
+Line 192: Unrecognized token: 46
+Line 192: ID = pgoff
+Line 192: =
+Line 192: (
+Line 192: (
+Line 192: (
+Line 192: ID = uaddr
+Line 192: -
+Line 192: ID = vma
+Line 192: -
+Line 192: >
+Line 192: ID = vm_start
+Line 192: )
+Line 192: >
+Line 192: >
+Line 192: ID = PAGE_SHIFT
+Line 192: )
+Line 193: +
+Line 193: ID = vma
+Line 193: -
+Line 193: >
+Line 193: ID = vm_pgoff
+Line 193: )
+Line 193: ;
+Line 194: return
+Line 194: INTCON = 0
+Line 194: ;
+Line 195: }
+Line 207: ID = spin_lock
+Line 207: (
+Line 207: Unrecognized token: 38
+Line 207: ID = current
+Line 207: -
+Line 207: >
+Line 207: ID = mm
+Line 207: -
+Line 207: >
+Line 207: ID = page_table_lock
+Line 207: )
+Line 207: ;
+Line 208: ID = page
+Line 208: =
+Line 208: ID = follow_page
+Line 208: (
+Line 208: ID = mm
+Line 208: ,
+Line 208: ID = uaddr
+Line 208: ,
+Line 208: INTCON = 0
+Line 208: )
+Line 208: ;
+Line 209: if
+Line 209: (
+Line 209: ID = likely
+Line 209: (
+Line 209: ID = page
+Line 209: !=
+Line 209: ID = NULL
+Line 209: )
+Line 209: )
+Line 209: {
+Line 210: ID = key
+Line 210: -
+Line 210: >
+Line 210: ID = shared
+Line 210: Unrecognized token: 46
+Line 210: ID = pgoff
+Line 210: =
+Line 211: ID = page
+Line 211: -
+Line 211: >
+Line 211: ID = index
+Line 211: <
+Line 211: <
+Line 211: (
+Line 211: ID = PAGE_CACHE_SHIFT
+Line 211: -
+Line 211: ID = PAGE_SHIFT
+Line 211: )
+Line 211: ;
+Line 212: ID = spin_unlock
+Line 212: (
+Line 212: Unrecognized token: 38
+Line 212: ID = current
+Line 212: -
+Line 212: >
+Line 212: ID = mm
+Line 212: -
+Line 212: >
+Line 212: ID = page_table_lock
+Line 212: )
+Line 212: ;
+Line 213: return
+Line 213: INTCON = 0
+Line 213: ;
+Line 214: }
+Line 215: ID = spin_unlock
+Line 215: (
+Line 215: Unrecognized token: 38
+Line 215: ID = current
+Line 215: -
+Line 215: >
+Line 215: ID = mm
+Line 215: -
+Line 215: >
+Line 215: ID = page_table_lock
+Line 215: )
+Line 215: ;
+Line 220: ID = err
+Line 220: =
+Line 220: ID = get_user_pages
+Line 220: (
+Line 220: ID = current
+Line 220: ,
+Line 220: ID = mm
+Line 220: ,
+Line 220: ID = uaddr
+Line 220: ,
+Line 220: INTCON = 1
+Line 220: ,
+Line 220: INTCON = 0
+Line 220: ,
+Line 220: INTCON = 0
+Line 220: ,
+Line 220: Unrecognized token: 38
+Line 220: ID = page
+Line 220: ,
+Line 220: ID = NULL
+Line 220: )
+Line 220: ;
+Line 221: if
+Line 221: (
+Line 221: ID = err
+Line 221: >=
+Line 221: INTCON = 0
+Line 221: )
+Line 221: {
+Line 222: ID = key
+Line 222: -
+Line 222: >
+Line 222: ID = shared
+Line 222: Unrecognized token: 46
+Line 222: ID = pgoff
+Line 222: =
+Line 223: ID = page
+Line 223: -
+Line 223: >
+Line 223: ID = index
+Line 223: <
+Line 223: <
+Line 223: (
+Line 223: ID = PAGE_CACHE_SHIFT
+Line 223: -
+Line 223: ID = PAGE_SHIFT
+Line 223: )
+Line 223: ;
+Line 224: ID = put_page
+Line 224: (
+Line 224: ID = page
+Line 224: )
+Line 224: ;
+Line 225: return
+Line 225: INTCON = 0
+Line 225: ;
+Line 226: }
+Line 227: return
+Line 227: ID = err
+Line 227: ;
+Line 228: }
+Line 237: ID = static
+Line 237: ID = inline
+Line 237: void
+Line 237: ID = get_key_refs
+Line 237: (
+Line 237: ID = union
+Line 237: ID = futex_key
+Line 237: *
+Line 237: ID = key
+Line 237: )
+Line 238: {
+Line 239: if
+Line 239: (
+Line 239: ID = key
+Line 239: -
+Line 239: >
+Line 239: ID = both
+Line 239: Unrecognized token: 46
+Line 239: ID = ptr
+Line 239: !=
+Line 239: INTCON = 0
+Line 239: )
+Line 239: {
+Line 240: if
+Line 240: (
+Line 240: ID = key
+Line 240: -
+Line 240: >
+Line 240: ID = both
+Line 240: Unrecognized token: 46
+Line 240: ID = offset
+Line 240: Unrecognized token: 38
+Line 240: INTCON = 1
+Line 240: )
+Line 241: ID = atomic_inc
+Line 241: (
+Line 241: Unrecognized token: 38
+Line 241: ID = key
+Line 241: -
+Line 241: >
+Line 241: ID = shared
+Line 241: Unrecognized token: 46
+Line 241: ID = inode
+Line 241: -
+Line 241: >
+Line 241: ID = i_count
+Line 241: )
+Line 241: ;
+Line 242: else
+Line 243: ID = atomic_inc
+Line 243: (
+Line 243: Unrecognized token: 38
+Line 243: ID = key
+Line 243: -
+Line 243: >
+Line 243: ID = private
+Line 243: Unrecognized token: 46
+Line 243: ID = mm
+Line 243: -
+Line 243: >
+Line 243: ID = mm_count
+Line 243: )
+Line 243: ;
+Line 244: }
+Line 245: }
+Line 251: ID = static
+Line 251: void
+Line 251: ID = drop_key_refs
+Line 251: (
+Line 251: ID = union
+Line 251: ID = futex_key
+Line 251: *
+Line 251: ID = key
+Line 251: )
+Line 252: {
+Line 253: if
+Line 253: (
+Line 253: ID = key
+Line 253: -
+Line 253: >
+Line 253: ID = both
+Line 253: Unrecognized token: 46
+Line 253: ID = ptr
+Line 253: !=
+Line 253: INTCON = 0
+Line 253: )
+Line 253: {
+Line 254: if
+Line 254: (
+Line 254: ID = key
+Line 254: -
+Line 254: >
+Line 254: ID = both
+Line 254: Unrecognized token: 46
+Line 254: ID = offset
+Line 254: Unrecognized token: 38
+Line 254: INTCON = 1
+Line 254: )
+Line 255: ID = iput
+Line 255: (
+Line 255: ID = key
+Line 255: -
+Line 255: >
+Line 255: ID = shared
+Line 255: Unrecognized token: 46
+Line 255: ID = inode
+Line 255: )
+Line 255: ;
+Line 256: else
+Line 257: ID = mmdrop
+Line 257: (
+Line 257: ID = key
+Line 257: -
+Line 257: >
+Line 257: ID = private
+Line 257: Unrecognized token: 46
+Line 257: ID = mm
+Line 257: )
+Line 257: ;
+Line 258: }
+Line 259: }
+Line 265: ID = static
+Line 265: void
+Line 265: ID = wake_futex
+Line 265: (
+Line 265: ID = struct
+Line 265: ID = futex_q
+Line 265: *
+Line 265: ID = q
+Line 265: )
+Line 266: {
+Line 267: ID = list_del_init
+Line 267: (
+Line 267: Unrecognized token: 38
+Line 267: ID = q
+Line 267: -
+Line 267: >
+Line 267: ID = list
+Line 267: )
+Line 267: ;
+Line 268: if
+Line 268: (
+Line 268: ID = q
+Line 268: -
+Line 268: >
+Line 268: ID = filp
+Line 268: )
+Line 269: ID = send_sigio
+Line 269: (
+Line 269: Unrecognized token: 38
+Line 269: ID = q
+Line 269: -
+Line 269: >
+Line 269: ID = filp
+Line 269: -
+Line 269: >
+Line 269: ID = f_owner
+Line 269: ,
+Line 269: ID = q
+Line 269: -
+Line 269: >
+Line 269: ID = fd
+Line 269: ,
+Line 269: ID = POLL_IN
+Line 269: )
+Line 269: ;
+Line 274: ID = wake_up_all
+Line 274: (
+Line 274: Unrecognized token: 38
+Line 274: ID = q
+Line 274: -
+Line 274: >
+Line 274: ID = waiters
+Line 274: )
+Line 274: ;
+Line 279: ID = q
+Line 279: -
+Line 279: >
+Line 279: ID = lock_ptr
+Line 279: =
+Line 279: ID = NULL
+Line 279: ;
+Line 280: }
+Line 286: ID = static
+Line 286: int
+Line 286: ID = futex_wake
+Line 286: (
+Line 286: ID = unsigned
+Line 286: ID = long
+Line 286: ID = uaddr
+Line 286: ,
+Line 286: int
+Line 286: ID = nr_wake
+Line 286: )
+Line 287: {
+Line 288: ID = union
+Line 288: ID = futex_key
+Line 288: ID = key
+Line 288: ;
+Line 289: ID = struct
+Line 289: ID = futex_hash_bucket
+Line 289: *
+Line 289: ID = bh
+Line 289: ;
+Line 290: ID = struct
+Line 290: ID = list_head
+Line 290: *
+Line 290: ID = head
+Line 290: ;
+Line 291: ID = struct
+Line 291: ID = futex_q
+Line 291: *
+Line 291: ID = this
+Line 291: ,
+Line 291: *
+Line 291: ID = next
+Line 291: ;
+Line 292: int
+Line 292: ID = ret
+Line 292: ;
+Line 294: ID = down_read
+Line 294: (
+Line 294: Unrecognized token: 38
+Line 294: ID = current
+Line 294: -
+Line 294: >
+Line 294: ID = mm
+Line 294: -
+Line 294: >
+Line 294: ID = mmap_sem
+Line 294: )
+Line 294: ;
+Line 296: ID = ret
+Line 296: =
+Line 296: ID = get_futex_key
+Line 296: (
+Line 296: ID = uaddr
+Line 296: ,
+Line 296: Unrecognized token: 38
+Line 296: ID = key
+Line 296: )
+Line 296: ;
+Line 297: if
+Line 297: (
+Line 297: ID = unlikely
+Line 297: (
+Line 297: ID = ret
+Line 297: !=
+Line 297: INTCON = 0
+Line 297: )
+Line 297: )
+Line 298: ID = goto
+Line 298: ID = out
+Line 298: ;
+Line 300: ID = bh
+Line 300: =
+Line 300: ID = hash_futex
+Line 300: (
+Line 300: Unrecognized token: 38
+Line 300: ID = key
+Line 300: )
+Line 300: ;
+Line 301: ID = spin_lock
+Line 301: (
+Line 301: Unrecognized token: 38
+Line 301: ID = bh
+Line 301: -
+Line 301: >
+Line 301: ID = lock
+Line 301: )
+Line 301: ;
+Line 302: ID = head
+Line 302: =
+Line 302: Unrecognized token: 38
+Line 302: ID = bh
+Line 302: -
+Line 302: >
+Line 302: ID = chain
+Line 302: ;
+Line 304: ID = list_for_each_entry_safe
+Line 304: (
+Line 304: ID = this
+Line 304: ,
+Line 304: ID = next
+Line 304: ,
+Line 304: ID = head
+Line 304: ,
+Line 304: ID = list
+Line 304: )
+Line 304: {
+Line 305: if
+Line 305: (
+Line 305: ID = match_futex
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = this
+Line 305: -
+Line 305: >
+Line 305: ID = key
+Line 305: ,
+Line 305: Unrecognized token: 38
+Line 305: ID = key
+Line 305: )
+Line 305: )
+Line 305: {
+Line 306: ID = wake_futex
+Line 306: (
+Line 306: ID = this
+Line 306: )
+Line 306: ;
+Line 307: if
+Line 307: (
+Line 307: +
+Line 307: +
+Line 307: ID = ret
+Line 307: >=
+Line 307: ID = nr_wake
+Line 307: )
+Line 308: ID = break
+Line 308: ;
+Line 309: }
+Line 310: }
+Line 312: ID = spin_unlock
+Line 312: (
+Line 312: Unrecognized token: 38
+Line 312: ID = bh
+Line 312: -
+Line 312: >
+Line 312: ID = lock
+Line 312: )
+Line 312: ;
+Line 313: ID = out
+Line 313: Unrecognized token: 58
+Line 314: ID = up_read
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = current
+Line 314: -
+Line 314: >
+Line 314: ID = mm
+Line 314: -
+Line 314: >
+Line 314: ID = mmap_sem
+Line 314: )
+Line 314: ;
+Line 315: return
+Line 315: ID = ret
+Line 315: ;
+Line 316: }
+Line 322: ID = static
+Line 322: int
+Line 322: ID = futex_requeue
+Line 322: (
+Line 322: ID = unsigned
+Line 322: ID = long
+Line 322: ID = uaddr1
+Line 322: ,
+Line 322: ID = unsigned
+Line 322: ID = long
+Line 322: ID = uaddr2
+Line 322: ,
+Line 323: int
+Line 323: ID = nr_wake
+Line 323: ,
+Line 323: int
+Line 323: ID = nr_requeue
+Line 323: ,
+Line 323: int
+Line 323: *
+Line 323: ID = valp
+Line 323: )
+Line 324: {
+Line 325: ID = union
+Line 325: ID = futex_key
+Line 325: ID = key1
+Line 325: ,
+Line 325: ID = key2
+Line 325: ;
+Line 326: ID = struct
+Line 326: ID = futex_hash_bucket
+Line 326: *
+Line 326: ID = bh1
+Line 326: ,
+Line 326: *
+Line 326: ID = bh2
+Line 326: ;
+Line 327: ID = struct
+Line 327: ID = list_head
+Line 327: *
+Line 327: ID = head1
+Line 327: ;
+Line 328: ID = struct
+Line 328: ID = futex_q
+Line 328: *
+Line 328: ID = this
+Line 328: ,
+Line 328: *
+Line 328: ID = next
+Line 328: ;
+Line 329: int
+Line 329: ID = ret
+Line 329: ,
+Line 329: ID = drop_count
+Line 329: =
+Line 329: INTCON = 0
+Line 329: ;
+Line 330: ID = unsigned
+Line 330: int
+Line 330: ID = nqueued
+Line 330: ;
+Line 332: ID = down_read
+Line 332: (
+Line 332: Unrecognized token: 38
+Line 332: ID = current
+Line 332: -
+Line 332: >
+Line 332: ID = mm
+Line 332: -
+Line 332: >
+Line 332: ID = mmap_sem
+Line 332: )
+Line 332: ;
+Line 334: ID = ret
+Line 334: =
+Line 334: ID = get_futex_key
+Line 334: (
+Line 334: ID = uaddr1
+Line 334: ,
+Line 334: Unrecognized token: 38
+Line 334: ID = key1
+Line 334: )
+Line 334: ;
+Line 335: if
+Line 335: (
+Line 335: ID = unlikely
+Line 335: (
+Line 335: ID = ret
+Line 335: !=
+Line 335: INTCON = 0
+Line 335: )
+Line 335: )
+Line 336: ID = goto
+Line 336: ID = out
+Line 336: ;
+Line 337: ID = ret
+Line 337: =
+Line 337: ID = get_futex_key
+Line 337: (
+Line 337: ID = uaddr2
+Line 337: ,
+Line 337: Unrecognized token: 38
+Line 337: ID = key2
+Line 337: )
+Line 337: ;
+Line 338: if
+Line 338: (
+Line 338: ID = unlikely
+Line 338: (
+Line 338: ID = ret
+Line 338: !=
+Line 338: INTCON = 0
+Line 338: )
+Line 338: )
+Line 339: ID = goto
+Line 339: ID = out
+Line 339: ;
+Line 341: ID = bh1
+Line 341: =
+Line 341: ID = hash_futex
+Line 341: (
+Line 341: Unrecognized token: 38
+Line 341: ID = key1
+Line 341: )
+Line 341: ;
+Line 342: ID = bh2
+Line 342: =
+Line 342: ID = hash_futex
+Line 342: (
+Line 342: Unrecognized token: 38
+Line 342: ID = key2
+Line 342: )
+Line 342: ;
+Line 344: ID = nqueued
+Line 344: =
+Line 344: ID = bh1
+Line 344: -
+Line 344: >
+Line 344: ID = nqueued
+Line 344: ;
+Line 345: if
+Line 345: (
+Line 345: ID = likely
+Line 345: (
+Line 345: ID = valp
+Line 345: !=
+Line 345: ID = NULL
+Line 345: )
+Line 345: )
+Line 345: {
+Line 346: int
+Line 346: ID = curval
+Line 346: ;
+Line 356: ID = smp_mb
+Line 356: (
+Line 356: )
+Line 356: ;
+Line 358: if
+Line 358: (
+Line 358: ID = get_user
+Line 358: (
+Line 358: ID = curval
+Line 358: ,
+Line 358: (
+Line 358: int
+Line 358: Unrecognized token: 95
+Line 358: Unrecognized token: 95
+Line 358: ID = user
+Line 358: *
+Line 358: )
+Line 358: ID = uaddr1
+Line 358: )
+Line 358: !=
+Line 358: INTCON = 0
+Line 358: )
+Line 358: {
+Line 359: ID = ret
+Line 359: =
+Line 359: -
+Line 359: ID = EFAULT
+Line 359: ;
+Line 360: ID = goto
+Line 360: ID = out
+Line 360: ;
+Line 361: }
+Line 362: if
+Line 362: (
+Line 362: ID = curval
+Line 362: !=
+Line 362: *
+Line 362: ID = valp
+Line 362: )
+Line 362: {
+Line 363: ID = ret
+Line 363: =
+Line 363: -
+Line 363: ID = EAGAIN
+Line 363: ;
+Line 364: ID = goto
+Line 364: ID = out
+Line 364: ;
+Line 365: }
+Line 366: }
+Line 368: if
+Line 368: (
+Line 368: ID = bh1
+Line 368: <
+Line 368: ID = bh2
+Line 368: )
+Line 369: ID = spin_lock
+Line 369: (
+Line 369: Unrecognized token: 38
+Line 369: ID = bh1
+Line 369: -
+Line 369: >
+Line 369: ID = lock
+Line 369: )
+Line 369: ;
+Line 370: ID = spin_lock
+Line 370: (
+Line 370: Unrecognized token: 38
+Line 370: ID = bh2
+Line 370: -
+Line 370: >
+Line 370: ID = lock
+Line 370: )
+Line 370: ;
+Line 371: if
+Line 371: (
+Line 371: ID = bh1
+Line 371: >
+Line 371: ID = bh2
+Line 371: )
+Line 372: ID = spin_lock
+Line 372: (
+Line 372: Unrecognized token: 38
+Line 372: ID = bh1
+Line 372: -
+Line 372: >
+Line 372: ID = lock
+Line 372: )
+Line 372: ;
+Line 374: if
+Line 374: (
+Line 374: ID = unlikely
+Line 374: (
+Line 374: ID = nqueued
+Line 374: !=
+Line 374: ID = bh1
+Line 374: -
+Line 374: >
+Line 374: ID = nqueued
+Line 374: &&
+Line 374: ID = valp
+Line 374: !=
+Line 374: ID = NULL
+Line 374: )
+Line 374: )
+Line 374: {
+Line 375: ID = ret
+Line 375: =
+Line 375: -
+Line 375: ID = EAGAIN
+Line 375: ;
+Line 376: ID = goto
+Line 376: ID = out_unlock
+Line 376: ;
+Line 377: }
+Line 379: ID = head1
+Line 379: =
+Line 379: Unrecognized token: 38
+Line 379: ID = bh1
+Line 379: -
+Line 379: >
+Line 379: ID = chain
+Line 379: ;
+Line 380: ID = list_for_each_entry_safe
+Line 380: (
+Line 380: ID = this
+Line 380: ,
+Line 380: ID = next
+Line 380: ,
+Line 380: ID = head1
+Line 380: ,
+Line 380: ID = list
+Line 380: )
+Line 380: {
+Line 381: if
+Line 381: (
+Line 381: !
+Line 381: ID = match_futex
+Line 381: (
+Line 381: Unrecognized token: 38
+Line 381: ID = this
+Line 381: -
+Line 381: >
+Line 381: ID = key
+Line 381: ,
+Line 381: Unrecognized token: 38
+Line 381: ID = key1
+Line 381: )
+Line 381: )
+Line 382: ID = continue
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: +
+Line 383: +
+Line 383: ID = ret
+Line 383: <=
+Line 383: ID = nr_wake
+Line 383: )
+Line 383: {
+Line 384: ID = wake_futex
+Line 384: (
+Line 384: ID = this
+Line 384: )
+Line 384: ;
+Line 385: }
+Line 385: else
+Line 385: {
+Line 386: ID = list_move_tail
+Line 386: (
+Line 386: Unrecognized token: 38
+Line 386: ID = this
+Line 386: -
+Line 386: >
+Line 386: ID = list
+Line 386: ,
+Line 386: Unrecognized token: 38
+Line 386: ID = bh2
+Line 386: -
+Line 386: >
+Line 386: ID = chain
+Line 386: )
+Line 386: ;
+Line 387: ID = this
+Line 387: -
+Line 387: >
+Line 387: ID = lock_ptr
+Line 387: =
+Line 387: Unrecognized token: 38
+Line 387: ID = bh2
+Line 387: -
+Line 387: >
+Line 387: ID = lock
+Line 387: ;
+Line 388: ID = this
+Line 388: -
+Line 388: >
+Line 388: ID = key
+Line 388: =
+Line 388: ID = key2
+Line 388: ;
+Line 389: ID = get_key_refs
+Line 389: (
+Line 389: Unrecognized token: 38
+Line 389: ID = key2
+Line 389: )
+Line 389: ;
+Line 390: ID = drop_count
+Line 390: +
+Line 390: +
+Line 390: ;
+Line 392: if
+Line 392: (
+Line 392: ID = ret
+Line 392: -
+Line 392: ID = nr_wake
+Line 392: >=
+Line 392: ID = nr_requeue
+Line 392: )
+Line 393: ID = break
+Line 393: ;
+Line 395: if
+Line 395: (
+Line 395: ID = head1
+Line 395: ==
+Line 395: Unrecognized token: 38
+Line 395: ID = bh2
+Line 395: -
+Line 395: >
+Line 395: ID = chain
+Line 395: &&
+Line 395: ID = head1
+Line 395: !=
+Line 395: Unrecognized token: 38
+Line 395: ID = next
+Line 395: -
+Line 395: >
+Line 395: ID = list
+Line 395: )
+Line 396: ID = head1
+Line 396: =
+Line 396: Unrecognized token: 38
+Line 396: ID = this
+Line 396: -
+Line 396: >
+Line 396: ID = list
+Line 396: ;
+Line 397: }
+Line 398: }
+Line 400: ID = out_unlock
+Line 400: Unrecognized token: 58
+Line 401: ID = spin_unlock
+Line 401: (
+Line 401: Unrecognized token: 38
+Line 401: ID = bh1
+Line 401: -
+Line 401: >
+Line 401: ID = lock
+Line 401: )
+Line 401: ;
+Line 402: if
+Line 402: (
+Line 402: ID = bh1
+Line 402: !=
+Line 402: ID = bh2
+Line 402: )
+Line 403: ID = spin_unlock
+Line 403: (
+Line 403: Unrecognized token: 38
+Line 403: ID = bh2
+Line 403: -
+Line 403: >
+Line 403: ID = lock
+Line 403: )
+Line 403: ;
+Line 406: while
+Line 406: (
+Line 406: -
+Line 406: -
+Line 406: ID = drop_count
+Line 406: >=
+Line 406: INTCON = 0
+Line 406: )
+Line 407: ID = drop_key_refs
+Line 407: (
+Line 407: Unrecognized token: 38
+Line 407: ID = key1
+Line 407: )
+Line 407: ;
+Line 409: ID = out
+Line 409: Unrecognized token: 58
+Line 410: ID = up_read
+Line 410: (
+Line 410: Unrecognized token: 38
+Line 410: ID = current
+Line 410: -
+Line 410: >
+Line 410: ID = mm
+Line 410: -
+Line 410: >
+Line 410: ID = mmap_sem
+Line 410: )
+Line 410: ;
+Line 411: return
+Line 411: ID = ret
+Line 411: ;
+Line 412: }
+Line 420: ID = static
+Line 420: void
+Line 420: ID = queue_me
+Line 420: (
+Line 420: ID = struct
+Line 420: ID = futex_q
+Line 420: *
+Line 420: ID = q
+Line 420: ,
+Line 420: int
+Line 420: ID = fd
+Line 420: ,
+Line 420: ID = struct
+Line 420: ID = file
+Line 420: *
+Line 420: ID = filp
+Line 420: )
+Line 421: {
+Line 422: ID = struct
+Line 422: ID = futex_hash_bucket
+Line 422: *
+Line 422: ID = bh
+Line 422: ;
+Line 424: ID = q
+Line 424: -
+Line 424: >
+Line 424: ID = fd
+Line 424: =
+Line 424: ID = fd
+Line 424: ;
+Line 425: ID = q
+Line 425: -
+Line 425: >
+Line 425: ID = filp
+Line 425: =
+Line 425: ID = filp
+Line 425: ;
+Line 427: ID = init_waitqueue_head
+Line 427: (
+Line 427: Unrecognized token: 38
+Line 427: ID = q
+Line 427: -
+Line 427: >
+Line 427: ID = waiters
+Line 427: )
+Line 427: ;
+Line 429: ID = get_key_refs
+Line 429: (
+Line 429: Unrecognized token: 38
+Line 429: ID = q
+Line 429: -
+Line 429: >
+Line 429: ID = key
+Line 429: )
+Line 429: ;
+Line 430: ID = bh
+Line 430: =
+Line 430: ID = hash_futex
+Line 430: (
+Line 430: Unrecognized token: 38
+Line 430: ID = q
+Line 430: -
+Line 430: >
+Line 430: ID = key
+Line 430: )
+Line 430: ;
+Line 431: ID = q
+Line 431: -
+Line 431: >
+Line 431: ID = lock_ptr
+Line 431: =
+Line 431: Unrecognized token: 38
+Line 431: ID = bh
+Line 431: -
+Line 431: >
+Line 431: ID = lock
+Line 431: ;
+Line 433: ID = spin_lock
+Line 433: (
+Line 433: Unrecognized token: 38
+Line 433: ID = bh
+Line 433: -
+Line 433: >
+Line 433: ID = lock
+Line 433: )
+Line 433: ;
+Line 434: ID = bh
+Line 434: -
+Line 434: >
+Line 434: ID = nqueued
+Line 434: +
+Line 434: +
+Line 434: ;
+Line 435: ID = list_add_tail
+Line 435: (
+Line 435: Unrecognized token: 38
+Line 435: ID = q
+Line 435: -
+Line 435: >
+Line 435: ID = list
+Line 435: ,
+Line 435: Unrecognized token: 38
+Line 435: ID = bh
+Line 435: -
+Line 435: >
+Line 435: ID = chain
+Line 435: )
+Line 435: ;
+Line 436: ID = spin_unlock
+Line 436: (
+Line 436: Unrecognized token: 38
+Line 436: ID = bh
+Line 436: -
+Line 436: >
+Line 436: ID = lock
+Line 436: )
+Line 436: ;
+Line 437: }
+Line 440: ID = static
+Line 440: int
+Line 440: ID = unqueue_me
+Line 440: (
+Line 440: ID = struct
+Line 440: ID = futex_q
+Line 440: *
+Line 440: ID = q
+Line 440: )
+Line 441: {
+Line 442: int
+Line 442: ID = ret
+Line 442: =
+Line 442: INTCON = 0
+Line 442: ;
+Line 443: ID = spinlock_t
+Line 443: *
+Line 443: ID = lock_ptr
+Line 443: ;
+Line 446: ID = retry
+Line 446: Unrecognized token: 58
+Line 447: ID = lock_ptr
+Line 447: =
+Line 447: ID = q
+Line 447: -
+Line 447: >
+Line 447: ID = lock_ptr
+Line 447: ;
+Line 448: if
+Line 448: (
+Line 448: ID = lock_ptr
+Line 448: !=
+Line 448: INTCON = 0
+Line 448: )
+Line 448: {
+Line 449: ID = spin_lock
+Line 449: (
+Line 449: ID = lock_ptr
+Line 449: )
+Line 449: ;
+Line 463: if
+Line 463: (
+Line 463: ID = unlikely
+Line 463: (
+Line 463: ID = lock_ptr
+Line 463: !=
+Line 463: ID = q
+Line 463: -
+Line 463: >
+Line 463: ID = lock_ptr
+Line 463: )
+Line 463: )
+Line 463: {
+Line 464: ID = spin_unlock
+Line 464: (
+Line 464: ID = lock_ptr
+Line 464: )
+Line 464: ;
+Line 465: ID = goto
+Line 465: ID = retry
+Line 465: ;
+Line 466: }
+Line 467: ID = WARN_ON
+Line 467: (
+Line 467: ID = list_empty
+Line 467: (
+Line 467: Unrecognized token: 38
+Line 467: ID = q
+Line 467: -
+Line 467: >
+Line 467: ID = list
+Line 467: )
+Line 467: )
+Line 467: ;
+Line 468: ID = list_del
+Line 468: (
+Line 468: Unrecognized token: 38
+Line 468: ID = q
+Line 468: -
+Line 468: >
+Line 468: ID = list
+Line 468: )
+Line 468: ;
+Line 469: ID = spin_unlock
+Line 469: (
+Line 469: ID = lock_ptr
+Line 469: )
+Line 469: ;
+Line 470: ID = ret
+Line 470: =
+Line 470: INTCON = 1
+Line 470: ;
+Line 471: }
+Line 473: ID = drop_key_refs
+Line 473: (
+Line 473: Unrecognized token: 38
+Line 473: ID = q
+Line 473: -
+Line 473: >
+Line 473: ID = key
+Line 473: )
+Line 473: ;
+Line 474: return
+Line 474: ID = ret
+Line 474: ;
+Line 475: }
+Line 477: ID = static
+Line 477: int
+Line 477: ID = futex_wait
+Line 477: (
+Line 477: ID = unsigned
+Line 477: ID = long
+Line 477: ID = uaddr
+Line 477: ,
+Line 477: int
+Line 477: ID = val
+Line 477: ,
+Line 477: ID = unsigned
+Line 477: ID = long
+Line 477: ID = time
+Line 477: )
+Line 478: {
+Line 479: ID = DECLARE_WAITQUEUE
+Line 479: (
+Line 479: ID = wait
+Line 479: ,
+Line 479: ID = current
+Line 479: )
+Line 479: ;
+Line 480: int
+Line 480: ID = ret
+Line 480: ,
+Line 480: ID = curval
+Line 480: ;
+Line 481: ID = struct
+Line 481: ID = futex_q
+Line 481: ID = q
+Line 481: ;
+Line 483: ID = down_read
+Line 483: (
+Line 483: Unrecognized token: 38
+Line 483: ID = current
+Line 483: -
+Line 483: >
+Line 483: ID = mm
+Line 483: -
+Line 483: >
+Line 483: ID = mmap_sem
+Line 483: )
+Line 483: ;
+Line 485: ID = ret
+Line 485: =
+Line 485: ID = get_futex_key
+Line 485: (
+Line 485: ID = uaddr
+Line 485: ,
+Line 485: Unrecognized token: 38
+Line 485: ID = q
+Line 485: Unrecognized token: 46
+Line 485: ID = key
+Line 485: )
+Line 485: ;
+Line 486: if
+Line 486: (
+Line 486: ID = unlikely
+Line 486: (
+Line 486: ID = ret
+Line 486: !=
+Line 486: INTCON = 0
+Line 486: )
+Line 486: )
+Line 487: ID = goto
+Line 487: ID = out_release_sem
+Line 487: ;
+Line 489: ID = queue_me
+Line 489: (
+Line 489: Unrecognized token: 38
+Line 489: ID = q
+Line 489: ,
+Line 489: -
+Line 489: INTCON = 1
+Line 489: ,
+Line 489: ID = NULL
+Line 489: )
+Line 489: ;
+Line 496: if
+Line 496: (
+Line 496: ID = get_user
+Line 496: (
+Line 496: ID = curval
+Line 496: ,
+Line 496: (
+Line 496: int
+Line 496: Unrecognized token: 95
+Line 496: Unrecognized token: 95
+Line 496: ID = user
+Line 496: *
+Line 496: )
+Line 496: ID = uaddr
+Line 496: )
+Line 496: !=
+Line 496: INTCON = 0
+Line 496: )
+Line 496: {
+Line 497: ID = ret
+Line 497: =
+Line 497: -
+Line 497: ID = EFAULT
+Line 497: ;
+Line 498: ID = goto
+Line 498: ID = out_unqueue
+Line 498: ;
+Line 499: }
+Line 500: if
+Line 500: (
+Line 500: ID = curval
+Line 500: !=
+Line 500: ID = val
+Line 500: )
+Line 500: {
+Line 501: ID = ret
+Line 501: =
+Line 501: -
+Line 501: ID = EWOULDBLOCK
+Line 501: ;
+Line 502: ID = goto
+Line 502: ID = out_unqueue
+Line 502: ;
+Line 503: }
+Line 509: ID = up_read
+Line 509: (
+Line 509: Unrecognized token: 38
+Line 509: ID = current
+Line 509: -
+Line 509: >
+Line 509: ID = mm
+Line 509: -
+Line 509: >
+Line 509: ID = mmap_sem
+Line 509: )
+Line 509: ;
+Line 521: Unrecognized token: 95
+Line 521: Unrecognized token: 95
+Line 521: ID = set_current_state
+Line 521: (
+Line 521: ID = TASK_INTERRUPTIBLE
+Line 521: )
+Line 521: ;
+Line 522: ID = add_wait_queue
+Line 522: (
+Line 522: Unrecognized token: 38
+Line 522: ID = q
+Line 522: Unrecognized token: 46
+Line 522: ID = waiters
+Line 522: ,
+Line 522: Unrecognized token: 38
+Line 522: ID = wait
+Line 522: )
+Line 522: ;
+Line 527: if
+Line 527: (
+Line 527: ID = likely
+Line 527: (
+Line 527: !
+Line 527: ID = list_empty
+Line 527: (
+Line 527: Unrecognized token: 38
+Line 527: ID = q
+Line 527: Unrecognized token: 46
+Line 527: ID = list
+Line 527: )
+Line 527: )
+Line 527: )
+Line 528: ID = time
+Line 528: =
+Line 528: ID = schedule_timeout
+Line 528: (
+Line 528: ID = time
+Line 528: )
+Line 528: ;
+Line 529: Unrecognized token: 95
+Line 529: Unrecognized token: 95
+Line 529: ID = set_current_state
+Line 529: (
+Line 529: ID = TASK_RUNNING
+Line 529: )
+Line 529: ;
+Line 537: if
+Line 537: (
+Line 537: !
+Line 537: ID = unqueue_me
+Line 537: (
+Line 537: Unrecognized token: 38
+Line 537: ID = q
+Line 537: )
+Line 537: )
+Line 538: return
+Line 538: INTCON = 0
+Line 538: ;
+Line 539: if
+Line 539: (
+Line 539: ID = time
+Line 539: ==
+Line 539: INTCON = 0
+Line 539: )
+Line 540: return
+Line 540: -
+Line 540: ID = ETIMEDOUT
+Line 540: ;
+Line 542: ID = WARN_ON
+Line 542: (
+Line 542: !
+Line 542: ID = signal_pending
+Line 542: (
+Line 542: ID = current
+Line 542: )
+Line 542: )
+Line 542: ;
+Line 543: return
+Line 543: -
+Line 543: ID = EINTR
+Line 543: ;
+Line 545: ID = out_unqueue
+Line 545: Unrecognized token: 58
+Line 547: if
+Line 547: (
+Line 547: !
+Line 547: ID = unqueue_me
+Line 547: (
+Line 547: Unrecognized token: 38
+Line 547: ID = q
+Line 547: )
+Line 547: )
+Line 548: ID = ret
+Line 548: =
+Line 548: INTCON = 0
+Line 548: ;
+Line 549: ID = out_release_sem
+Line 549: Unrecognized token: 58
+Line 550: ID = up_read
+Line 550: (
+Line 550: Unrecognized token: 38
+Line 550: ID = current
+Line 550: -
+Line 550: >
+Line 550: ID = mm
+Line 550: -
+Line 550: >
+Line 550: ID = mmap_sem
+Line 550: )
+Line 550: ;
+Line 551: return
+Line 551: ID = ret
+Line 551: ;
+Line 552: }
+Line 554: ID = static
+Line 554: int
+Line 554: ID = futex_close
+Line 554: (
+Line 554: ID = struct
+Line 554: ID = inode
+Line 554: *
+Line 554: ID = inode
+Line 554: ,
+Line 554: ID = struct
+Line 554: ID = file
+Line 554: *
+Line 554: ID = filp
+Line 554: )
+Line 555: {
+Line 556: ID = struct
+Line 556: ID = futex_q
+Line 556: *
+Line 556: ID = q
+Line 556: =
+Line 556: ID = filp
+Line 556: -
+Line 556: >
+Line 556: ID = private_data
+Line 556: ;
+Line 558: ID = unqueue_me
+Line 558: (
+Line 558: ID = q
+Line 558: )
+Line 558: ;
+Line 559: ID = kfree
+Line 559: (
+Line 559: ID = q
+Line 559: )
+Line 559: ;
+Line 560: return
+Line 560: INTCON = 0
+Line 560: ;
+Line 561: }
+Line 564: ID = static
+Line 564: ID = unsigned
+Line 564: int
+Line 564: ID = futex_poll
+Line 564: (
+Line 564: ID = struct
+Line 564: ID = file
+Line 564: *
+Line 564: ID = filp
+Line 564: ,
+Line 565: ID = struct
+Line 565: ID = poll_table_struct
+Line 565: *
+Line 565: ID = wait
+Line 565: )
+Line 566: {
+Line 567: ID = struct
+Line 567: ID = futex_q
+Line 567: *
+Line 567: ID = q
+Line 567: =
+Line 567: ID = filp
+Line 567: -
+Line 567: >
+Line 567: ID = private_data
+Line 567: ;
+Line 568: int
+Line 568: ID = ret
+Line 568: =
+Line 568: INTCON = 0
+Line 568: ;
+Line 570: ID = poll_wait
+Line 570: (
+Line 570: ID = filp
+Line 570: ,
+Line 570: Unrecognized token: 38
+Line 570: ID = q
+Line 570: -
+Line 570: >
+Line 570: ID = waiters
+Line 570: ,
+Line 570: ID = wait
+Line 570: )
+Line 570: ;
+Line 576: if
+Line 576: (
+Line 576: ID = list_empty
+Line 576: (
+Line 576: Unrecognized token: 38
+Line 576: ID = q
+Line 576: -
+Line 576: >
+Line 576: ID = list
+Line 576: )
+Line 576: )
+Line 577: ID = ret
+Line 577: =
+Line 577: ID = POLLIN
+Line 577: Unrecognized token: 124
+Line 577: ID = POLLRDNORM
+Line 577: ;
+Line 579: return
+Line 579: ID = ret
+Line 579: ;
+Line 580: }
+Line 582: ID = static
+Line 582: ID = struct
+Line 582: ID = file_operations
+Line 582: ID = futex_fops
+Line 582: =
+Line 582: {
+Line 583: Unrecognized token: 46
+Line 583: ID = release
+Line 583: =
+Line 583: ID = futex_close
+Line 583: ,
+Line 584: Unrecognized token: 46
+Line 584: ID = poll
+Line 584: =
+Line 584: ID = futex_poll
+Line 584: ,
+Line 585: }
+Line 585: ;
+Line 591: ID = static
+Line 591: int
+Line 591: ID = futex_fd
+Line 591: (
+Line 591: ID = unsigned
+Line 591: ID = long
+Line 591: ID = uaddr
+Line 591: ,
+Line 591: int
+Line 591: ID = signal
+Line 591: )
+Line 592: {
+Line 593: ID = struct
+Line 593: ID = futex_q
+Line 593: *
+Line 593: ID = q
+Line 593: ;
+Line 594: ID = struct
+Line 594: ID = file
+Line 594: *
+Line 594: ID = filp
+Line 594: ;
+Line 595: int
+Line 595: ID = ret
+Line 595: ,
+Line 595: ID = err
+Line 595: ;
+Line 597: ID = ret
+Line 597: =
+Line 597: -
+Line 597: ID = EINVAL
+Line 597: ;
+Line 598: if
+Line 598: (
+Line 598: ID = signal
+Line 598: <
+Line 598: INTCON = 0
+Line 598: ||
+Line 598: ID = signal
+Line 598: >
+Line 598: Unrecognized token: 95
+Line 598: ID = NSIG
+Line 598: )
+Line 599: ID = goto
+Line 599: ID = out
+Line 599: ;
+Line 601: ID = ret
+Line 601: =
+Line 601: ID = get_unused_fd
+Line 601: (
+Line 601: )
+Line 601: ;
+Line 602: if
+Line 602: (
+Line 602: ID = ret
+Line 602: <
+Line 602: INTCON = 0
+Line 602: )
+Line 603: ID = goto
+Line 603: ID = out
+Line 603: ;
+Line 604: ID = filp
+Line 604: =
+Line 604: ID = get_empty_filp
+Line 604: (
+Line 604: )
+Line 604: ;
+Line 605: if
+Line 605: (
+Line 605: !
+Line 605: ID = filp
+Line 605: )
+Line 605: {
+Line 606: ID = put_unused_fd
+Line 606: (
+Line 606: ID = ret
+Line 606: )
+Line 606: ;
+Line 607: ID = ret
+Line 607: =
+Line 607: -
+Line 607: ID = ENFILE
+Line 607: ;
+Line 608: ID = goto
+Line 608: ID = out
+Line 608: ;
+Line 609: }
+Line 610: ID = filp
+Line 610: -
+Line 610: >
+Line 610: ID = f_op
+Line 610: =
+Line 610: Unrecognized token: 38
+Line 610: ID = futex_fops
+Line 610: ;
+Line 611: ID = filp
+Line 611: -
+Line 611: >
+Line 611: ID = f_vfsmnt
+Line 611: =
+Line 611: ID = mntget
+Line 611: (
+Line 611: ID = futex_mnt
+Line 611: )
+Line 611: ;
+Line 612: ID = filp
+Line 612: -
+Line 612: >
+Line 612: ID = f_dentry
+Line 612: =
+Line 612: ID = dget
+Line 612: (
+Line 612: ID = futex_mnt
+Line 612: -
+Line 612: >
+Line 612: ID = mnt_root
+Line 612: )
+Line 612: ;
+Line 613: ID = filp
+Line 613: -
+Line 613: >
+Line 613: ID = f_mapping
+Line 613: =
+Line 613: ID = filp
+Line 613: -
+Line 613: >
+Line 613: ID = f_dentry
+Line 613: -
+Line 613: >
+Line 613: ID = d_inode
+Line 613: -
+Line 613: >
+Line 613: ID = i_mapping
+Line 613: ;
+Line 615: if
+Line 615: (
+Line 615: ID = signal
+Line 615: )
+Line 615: {
+Line 616: int
+Line 616: ID = err
+Line 616: ;
+Line 617: ID = err
+Line 617: =
+Line 617: ID = f_setown
+Line 617: (
+Line 617: ID = filp
+Line 617: ,
+Line 617: ID = current
+Line 617: -
+Line 617: >
+Line 617: ID = pid
+Line 617: ,
+Line 617: INTCON = 1
+Line 617: )
+Line 617: ;
+Line 618: if
+Line 618: (
+Line 618: ID = err
+Line 618: <
+Line 618: INTCON = 0
+Line 618: )
+Line 618: {
+Line 619: ID = put_unused_fd
+Line 619: (
+Line 619: ID = ret
+Line 619: )
+Line 619: ;
+Line 620: ID = put_filp
+Line 620: (
+Line 620: ID = filp
+Line 620: )
+Line 620: ;
+Line 621: ID = ret
+Line 621: =
+Line 621: ID = err
+Line 621: ;
+Line 622: ID = goto
+Line 622: ID = out
+Line 622: ;
+Line 623: }
+Line 624: ID = filp
+Line 624: -
+Line 624: >
+Line 624: ID = f_owner
+Line 624: Unrecognized token: 46
+Line 624: ID = signum
+Line 624: =
+Line 624: ID = signal
+Line 624: ;
+Line 625: }
+Line 627: ID = q
+Line 627: =
+Line 627: ID = kmalloc
+Line 627: (
+Line 627: ID = sizeof
+Line 627: (
+Line 627: *
+Line 627: ID = q
+Line 627: )
+Line 627: ,
+Line 627: ID = GFP_KERNEL
+Line 627: )
+Line 627: ;
+Line 628: if
+Line 628: (
+Line 628: !
+Line 628: ID = q
+Line 628: )
+Line 628: {
+Line 629: ID = put_unused_fd
+Line 629: (
+Line 629: ID = ret
+Line 629: )
+Line 629: ;
+Line 630: ID = put_filp
+Line 630: (
+Line 630: ID = filp
+Line 630: )
+Line 630: ;
+Line 631: ID = ret
+Line 631: =
+Line 631: -
+Line 631: ID = ENOMEM
+Line 631: ;
+Line 632: ID = goto
+Line 632: ID = out
+Line 632: ;
+Line 633: }
+Line 635: ID = down_read
+Line 635: (
+Line 635: Unrecognized token: 38
+Line 635: ID = current
+Line 635: -
+Line 635: >
+Line 635: ID = mm
+Line 635: -
+Line 635: >
+Line 635: ID = mmap_sem
+Line 635: )
+Line 635: ;
+Line 636: ID = err
+Line 636: =
+Line 636: ID = get_futex_key
+Line 636: (
+Line 636: ID = uaddr
+Line 636: ,
+Line 636: Unrecognized token: 38
+Line 636: ID = q
+Line 636: -
+Line 636: >
+Line 636: ID = key
+Line 636: )
+Line 636: ;
+Line 638: if
+Line 638: (
+Line 638: ID = unlikely
+Line 638: (
+Line 638: ID = err
+Line 638: !=
+Line 638: INTCON = 0
+Line 638: )
+Line 638: )
+Line 638: {
+Line 639: ID = up_read
+Line 639: (
+Line 639: Unrecognized token: 38
+Line 639: ID = current
+Line 639: -
+Line 639: >
+Line 639: ID = mm
+Line 639: -
+Line 639: >
+Line 639: ID = mmap_sem
+Line 639: )
+Line 639: ;
+Line 640: ID = put_unused_fd
+Line 640: (
+Line 640: ID = ret
+Line 640: )
+Line 640: ;
+Line 641: ID = put_filp
+Line 641: (
+Line 641: ID = filp
+Line 641: )
+Line 641: ;
+Line 642: ID = kfree
+Line 642: (
+Line 642: ID = q
+Line 642: )
+Line 642: ;
+Line 643: return
+Line 643: ID = err
+Line 643: ;
+Line 644: }
+Line 650: ID = filp
+Line 650: -
+Line 650: >
+Line 650: ID = private_data
+Line 650: =
+Line 650: ID = q
+Line 650: ;
+Line 652: ID = queue_me
+Line 652: (
+Line 652: ID = q
+Line 652: ,
+Line 652: ID = ret
+Line 652: ,
+Line 652: ID = filp
+Line 652: )
+Line 652: ;
+Line 653: ID = up_read
+Line 653: (
+Line 653: Unrecognized token: 38
+Line 653: ID = current
+Line 653: -
+Line 653: >
+Line 653: ID = mm
+Line 653: -
+Line 653: >
+Line 653: ID = mmap_sem
+Line 653: )
+Line 653: ;
+Line 656: ID = fd_install
+Line 656: (
+Line 656: ID = ret
+Line 656: ,
+Line 656: ID = filp
+Line 656: )
+Line 656: ;
+Line 657: ID = out
+Line 657: Unrecognized token: 58
+Line 658: return
+Line 658: ID = ret
+Line 658: ;
+Line 659: }
+Line 661: ID = long
+Line 661: ID = do_futex
+Line 661: (
+Line 661: ID = unsigned
+Line 661: ID = long
+Line 661: ID = uaddr
+Line 661: ,
+Line 661: int
+Line 661: ID = op
+Line 661: ,
+Line 661: int
+Line 661: ID = val
+Line 661: ,
+Line 661: ID = unsigned
+Line 661: ID = long
+Line 661: ID = timeout
+Line 661: ,
+Line 662: ID = unsigned
+Line 662: ID = long
+Line 662: ID = uaddr2
+Line 662: ,
+Line 662: int
+Line 662: ID = val2
+Line 662: ,
+Line 662: int
+Line 662: ID = val3
+Line 662: )
+Line 663: {
+Line 664: int
+Line 664: ID = ret
+Line 664: ;
+Line 666: ID = switch
+Line 666: (
+Line 666: ID = op
+Line 666: )
+Line 666: {
+Line 667: ID = case
+Line 667: ID = FUTEX_WAIT
+Line 667: Unrecognized token: 58
+Line 668: ID = ret
+Line 668: =
+Line 668: ID = futex_wait
+Line 668: (
+Line 668: ID = uaddr
+Line 668: ,
+Line 668: ID = val
+Line 668: ,
+Line 668: ID = timeout
+Line 668: )
+Line 668: ;
+Line 669: ID = break
+Line 669: ;
+Line 670: ID = case
+Line 670: ID = FUTEX_WAKE
+Line 670: Unrecognized token: 58
+Line 671: ID = ret
+Line 671: =
+Line 671: ID = futex_wake
+Line 671: (
+Line 671: ID = uaddr
+Line 671: ,
+Line 671: ID = val
+Line 671: )
+Line 671: ;
+Line 672: ID = break
+Line 672: ;
+Line 673: ID = case
+Line 673: ID = FUTEX_FD
+Line 673: Unrecognized token: 58
+Line 675: ID = ret
+Line 675: =
+Line 675: ID = futex_fd
+Line 675: (
+Line 675: ID = uaddr
+Line 675: ,
+Line 675: ID = val
+Line 675: )
+Line 675: ;
+Line 676: ID = break
+Line 676: ;
+Line 677: ID = case
+Line 677: ID = FUTEX_REQUEUE
+Line 677: Unrecognized token: 58
+Line 678: ID = ret
+Line 678: =
+Line 678: ID = futex_requeue
+Line 678: (
+Line 678: ID = uaddr
+Line 678: ,
+Line 678: ID = uaddr2
+Line 678: ,
+Line 678: ID = val
+Line 678: ,
+Line 678: ID = val2
+Line 678: ,
+Line 678: ID = NULL
+Line 678: )
+Line 678: ;
+Line 679: ID = break
+Line 679: ;
+Line 680: ID = case
+Line 680: ID = FUTEX_CMP_REQUEUE
+Line 680: Unrecognized token: 58
+Line 681: ID = ret
+Line 681: =
+Line 681: ID = futex_requeue
+Line 681: (
+Line 681: ID = uaddr
+Line 681: ,
+Line 681: ID = uaddr2
+Line 681: ,
+Line 681: ID = val
+Line 681: ,
+Line 681: ID = val2
+Line 681: ,
+Line 681: Unrecognized token: 38
+Line 681: ID = val3
+Line 681: )
+Line 681: ;
+Line 682: ID = break
+Line 682: ;
+Line 683: ID = default
+Line 683: Unrecognized token: 58
+Line 684: ID = ret
+Line 684: =
+Line 684: -
+Line 684: ID = ENOSYS
+Line 684: ;
+Line 685: }
+Line 686: return
+Line 686: ID = ret
+Line 686: ;
+Line 687: }
+Line 690: ID = asmlinkage
+Line 690: ID = long
+Line 690: ID = sys_futex
+Line 690: (
+Line 690: ID = u32
+Line 690: Unrecognized token: 95
+Line 690: Unrecognized token: 95
+Line 690: ID = user
+Line 690: *
+Line 690: ID = uaddr
+Line 690: ,
+Line 690: int
+Line 690: ID = op
+Line 690: ,
+Line 690: int
+Line 690: ID = val
+Line 690: ,
+Line 691: ID = struct
+Line 691: ID = timespec
+Line 691: Unrecognized token: 95
+Line 691: Unrecognized token: 95
+Line 691: ID = user
+Line 691: *
+Line 691: ID = utime
+Line 691: ,
+Line 691: ID = u32
+Line 691: Unrecognized token: 95
+Line 691: Unrecognized token: 95
+Line 691: ID = user
+Line 691: *
+Line 691: ID = uaddr2
+Line 691: ,
+Line 692: int
+Line 692: ID = val3
+Line 692: )
+Line 693: {
+Line 694: ID = struct
+Line 694: ID = timespec
+Line 694: ID = t
+Line 694: ;
+Line 695: ID = unsigned
+Line 695: ID = long
+Line 695: ID = timeout
+Line 695: =
+Line 695: ID = MAX_SCHEDULE_TIMEOUT
+Line 695: ;
+Line 696: int
+Line 696: ID = val2
+Line 696: =
+Line 696: INTCON = 0
+Line 696: ;
+Line 698: if
+Line 698: (
+Line 698: (
+Line 698: ID = op
+Line 698: ==
+Line 698: ID = FUTEX_WAIT
+Line 698: )
+Line 698: &&
+Line 698: ID = utime
+Line 698: )
+Line 698: {
+Line 699: if
+Line 699: (
+Line 699: ID = copy_from_user
+Line 699: (
+Line 699: Unrecognized token: 38
+Line 699: ID = t
+Line 699: ,
+Line 699: ID = utime
+Line 699: ,
+Line 699: ID = sizeof
+Line 699: (
+Line 699: ID = t
+Line 699: )
+Line 699: )
+Line 699: !=
+Line 699: INTCON = 0
+Line 699: )
+Line 700: return
+Line 700: -
+Line 700: ID = EFAULT
+Line 700: ;
+Line 701: ID = timeout
+Line 701: =
+Line 701: ID = timespec_to_jiffies
+Line 701: (
+Line 701: Unrecognized token: 38
+Line 701: ID = t
+Line 701: )
+Line 701: +
+Line 701: INTCON = 1
+Line 701: ;
+Line 702: }
+Line 706: if
+Line 706: (
+Line 706: ID = op
+Line 706: >=
+Line 706: ID = FUTEX_REQUEUE
+Line 706: )
+Line 707: ID = val2
+Line 707: =
+Line 707: (
+Line 707: int
+Line 707: )
+Line 707: (
+Line 707: ID = unsigned
+Line 707: ID = long
+Line 707: )
+Line 707: ID = utime
+Line 707: ;
+Line 709: return
+Line 709: ID = do_futex
+Line 709: (
+Line 709: (
+Line 709: ID = unsigned
+Line 709: ID = long
+Line 709: )
+Line 709: ID = uaddr
+Line 709: ,
+Line 709: ID = op
+Line 709: ,
+Line 709: ID = val
+Line 709: ,
+Line 709: ID = timeout
+Line 709: ,
+Line 710: (
+Line 710: ID = unsigned
+Line 710: ID = long
+Line 710: )
+Line 710: ID = uaddr2
+Line 710: ,
+Line 710: ID = val2
+Line 710: ,
+Line 710: ID = val3
+Line 710: )
+Line 710: ;
+Line 711: }
+Line 713: ID = static
+Line 713: ID = struct
+Line 713: ID = super_block
+Line 713: *
+Line 714: ID = futexfs_get_sb
+Line 714: (
+Line 714: ID = struct
+Line 714: ID = file_system_type
+Line 714: *
+Line 714: ID = fs_type
+Line 714: ,
+Line 715: int
+Line 715: ID = flags
+Line 715: ,
+Line 715: ID = const
+Line 715: char
+Line 715: *
+Line 715: ID = dev_name
+Line 715: ,
+Line 715: void
+Line 715: *
+Line 715: ID = data
+Line 715: )
+Line 716: {
+Line 717: return
+Line 717: ID = get_sb_pseudo
+Line 717: (
+Line 717: ID = fs_type
+Line 717: ,
+Line 717: STRINGCON = "futex"
+Line 717: ,
+Line 717: ID = NULL
+Line 717: ,
+Line 717: INTCON = 0
+Line 717: ID = xBAD1DEA
+Line 717: )
+Line 717: ;
+Line 718: }
+Line 720: ID = static
+Line 720: ID = struct
+Line 720: ID = file_system_type
+Line 720: ID = futex_fs_type
+Line 720: =
+Line 720: {
+Line 721: Unrecognized token: 46
+Line 721: ID = name
+Line 721: =
+Line 721: STRINGCON = "futexfs"
+Line 721: ,
+Line 722: Unrecognized token: 46
+Line 722: ID = get_sb
+Line 722: =
+Line 722: ID = futexfs_get_sb
+Line 722: ,
+Line 723: Unrecognized token: 46
+Line 723: ID = kill_sb
+Line 723: =
+Line 723: ID = kill_anon_super
+Line 723: ,
+Line 724: }
+Line 724: ;
+Line 726: ID = static
+Line 726: int
+Line 726: Unrecognized token: 95
+Line 726: Unrecognized token: 95
+Line 726: ID = init
+Line 726: ID = init
+Line 726: (
+Line 726: void
+Line 726: )
+Line 727: {
+Line 728: ID = unsigned
+Line 728: int
+Line 728: ID = i
+Line 728: ;
+Line 730: ID = register_filesystem
+Line 730: (
+Line 730: Unrecognized token: 38
+Line 730: ID = futex_fs_type
+Line 730: )
+Line 730: ;
+Line 731: ID = futex_mnt
+Line 731: =
+Line 731: ID = kern_mount
+Line 731: (
+Line 731: Unrecognized token: 38
+Line 731: ID = futex_fs_type
+Line 731: )
+Line 731: ;
+Line 733: for
+Line 733: (
+Line 733: ID = i
+Line 733: =
+Line 733: INTCON = 0
+Line 733: ;
+Line 733: ID = i
+Line 733: <
+Line 733: ID = ARRAY_SIZE
+Line 733: (
+Line 733: ID = futex_queues
+Line 733: )
+Line 733: ;
+Line 733: ID = i
+Line 733: +
+Line 733: +
+Line 733: )
+Line 733: {
+Line 734: ID = INIT_LIST_HEAD
+Line 734: (
+Line 734: Unrecognized token: 38
+Line 734: ID = futex_queues
+Line 734: [
+Line 734: ID = i
+Line 734: ]
+Line 734: Unrecognized token: 46
+Line 734: ID = chain
+Line 734: )
+Line 734: ;
+Line 735: ID = futex_queues
+Line 735: [
+Line 735: ID = i
+Line 735: ]
+Line 735: Unrecognized token: 46
+Line 735: ID = lock
+Line 735: =
+Line 735: ID = SPIN_LOCK_UNLOCKED
+Line 735: ;
+Line 736: }
+Line 737: return
+Line 737: INTCON = 0
+Line 737: ;
+Line 738: }
+Line 739: Unrecognized token: 95
+Line 739: Unrecognized token: 95
+Line 739: ID = initcall
+Line 739: (
+Line 739: ID = init
+Line 739: )
+Line 739: ;
+Line 740: -EOF-

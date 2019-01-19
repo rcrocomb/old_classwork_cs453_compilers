@@ -1,0 +1,7 @@
+int bob(int a, char b, int c)
+{
+    char e;
+    int d;
+
+    return f + d * a - e / a + b;
+}

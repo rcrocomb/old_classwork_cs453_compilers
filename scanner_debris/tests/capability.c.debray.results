@@ -1,0 +1,815 @@
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = module
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = security
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = asm
+Line 13: /
+Line 13: ID = uaccess
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 15: ID = unsigned
+Line 15: ID = securebits
+Line 15: =
+Line 15: ID = SECUREBITS_DEFAULT
+Line 15: ;
+Line 16: ID = kernel_cap_t
+Line 16: ID = cap_bset
+Line 16: =
+Line 16: ID = CAP_INIT_EFF_SET
+Line 16: ;
+Line 18: ID = EXPORT_SYMBOL
+Line 18: (
+Line 18: ID = securebits
+Line 18: )
+Line 18: ;
+Line 19: ID = EXPORT_SYMBOL
+Line 19: (
+Line 19: ID = cap_bset
+Line 19: )
+Line 19: ;
+Line 25: ID = spinlock_t
+Line 25: ID = task_capability_lock
+Line 25: =
+Line 25: ID = SPIN_LOCK_UNLOCKED
+Line 25: ;
+Line 36: ID = asmlinkage
+Line 36: ID = long
+Line 36: ID = sys_capget
+Line 36: (
+Line 36: ID = cap_user_header_t
+Line 36: ID = header
+Line 36: ,
+Line 36: ID = cap_user_data_t
+Line 36: ID = dataptr
+Line 36: )
+Line 37: {
+Line 38: int
+Line 38: ID = ret
+Line 38: =
+Line 38: INTCON = 0
+Line 38: ;
+Line 39: ID = pid_t
+Line 39: ID = pid
+Line 39: ;
+Line 40: Unrecognized token: 95
+Line 40: Unrecognized token: 95
+Line 40: ID = u32
+Line 40: ID = version
+Line 40: ;
+Line 41: ID = task_t
+Line 41: *
+Line 41: ID = target
+Line 41: ;
+Line 42: ID = struct
+Line 42: Unrecognized token: 95
+Line 42: Unrecognized token: 95
+Line 42: ID = user_cap_data_struct
+Line 42: ID = data
+Line 42: ;
+Line 44: if
+Line 44: (
+Line 44: ID = get_user
+Line 44: (
+Line 44: ID = version
+Line 44: ,
+Line 44: Unrecognized token: 38
+Line 44: ID = header
+Line 44: -
+Line 44: >
+Line 44: ID = version
+Line 44: )
+Line 44: )
+Line 45: return
+Line 45: -
+Line 45: ID = EFAULT
+Line 45: ;
+Line 47: if
+Line 47: (
+Line 47: ID = version
+Line 47: !=
+Line 47: Unrecognized token: 95
+Line 47: ID = LINUX_CAPABILITY_VERSION
+Line 47: )
+Line 47: {
+Line 48: if
+Line 48: (
+Line 48: ID = put_user
+Line 48: (
+Line 48: Unrecognized token: 95
+Line 48: ID = LINUX_CAPABILITY_VERSION
+Line 48: ,
+Line 48: Unrecognized token: 38
+Line 48: ID = header
+Line 48: -
+Line 48: >
+Line 48: ID = version
+Line 48: )
+Line 48: )
+Line 49: return
+Line 49: -
+Line 49: ID = EFAULT
+Line 49: ;
+Line 50: return
+Line 50: -
+Line 50: ID = EINVAL
+Line 50: ;
+Line 51: }
+Line 53: if
+Line 53: (
+Line 53: ID = get_user
+Line 53: (
+Line 53: ID = pid
+Line 53: ,
+Line 53: Unrecognized token: 38
+Line 53: ID = header
+Line 53: -
+Line 53: >
+Line 53: ID = pid
+Line 53: )
+Line 53: )
+Line 54: return
+Line 54: -
+Line 54: ID = EFAULT
+Line 54: ;
+Line 56: if
+Line 56: (
+Line 56: ID = pid
+Line 56: <
+Line 56: INTCON = 0
+Line 56: )
+Line 57: return
+Line 57: -
+Line 57: ID = EINVAL
+Line 57: ;
+Line 59: ID = spin_lock
+Line 59: (
+Line 59: Unrecognized token: 38
+Line 59: ID = task_capability_lock
+Line 59: )
+Line 59: ;
+Line 60: ID = read_lock
+Line 60: (
+Line 60: Unrecognized token: 38
+Line 60: ID = tasklist_lock
+Line 60: )
+Line 60: ;
+Line 62: if
+Line 62: (
+Line 62: ID = pid
+Line 62: &&
+Line 62: ID = pid
+Line 62: !=
+Line 62: ID = current
+Line 62: -
+Line 62: >
+Line 62: ID = pid
+Line 62: )
+Line 62: {
+Line 63: ID = target
+Line 63: =
+Line 63: ID = find_task_by_pid
+Line 63: (
+Line 63: ID = pid
+Line 63: )
+Line 63: ;
+Line 64: if
+Line 64: (
+Line 64: !
+Line 64: ID = target
+Line 64: )
+Line 64: {
+Line 65: ID = ret
+Line 65: =
+Line 65: -
+Line 65: ID = ESRCH
+Line 65: ;
+Line 66: ID = goto
+Line 66: ID = out
+Line 66: ;
+Line 67: }
+Line 68: }
+Line 68: else
+Line 69: ID = target
+Line 69: =
+Line 69: ID = current
+Line 69: ;
+Line 71: ID = ret
+Line 71: =
+Line 71: ID = security_capget
+Line 71: (
+Line 71: ID = target
+Line 71: ,
+Line 71: Unrecognized token: 38
+Line 71: ID = data
+Line 71: Unrecognized token: 46
+Line 71: ID = effective
+Line 71: ,
+Line 71: Unrecognized token: 38
+Line 71: ID = data
+Line 71: Unrecognized token: 46
+Line 71: ID = inheritable
+Line 71: ,
+Line 71: Unrecognized token: 38
+Line 71: ID = data
+Line 71: Unrecognized token: 46
+Line 71: ID = permitted
+Line 71: )
+Line 71: ;
+Line 73: ID = out
+Line 73: Unrecognized token: 58
+Line 74: ID = read_unlock
+Line 74: (
+Line 74: Unrecognized token: 38
+Line 74: ID = tasklist_lock
+Line 74: )
+Line 74: ;
+Line 75: ID = spin_unlock
+Line 75: (
+Line 75: Unrecognized token: 38
+Line 75: ID = task_capability_lock
+Line 75: )
+Line 75: ;
+Line 77: if
+Line 77: (
+Line 77: !
+Line 77: ID = ret
+Line 77: &&
+Line 77: ID = copy_to_user
+Line 77: (
+Line 77: ID = dataptr
+Line 77: ,
+Line 77: Unrecognized token: 38
+Line 77: ID = data
+Line 77: ,
+Line 77: ID = sizeof
+Line 77: ID = data
+Line 77: )
+Line 77: )
+Line 78: return
+Line 78: -
+Line 78: ID = EFAULT
+Line 78: ;
+Line 80: return
+Line 80: ID = ret
+Line 80: ;
+Line 81: }
+Line 87: ID = static
+Line 87: ID = inline
+Line 87: void
+Line 87: ID = cap_set_pg
+Line 87: (
+Line 87: int
+Line 87: ID = pgrp
+Line 87: ,
+Line 87: ID = kernel_cap_t
+Line 87: *
+Line 87: ID = effective
+Line 87: ,
+Line 88: ID = kernel_cap_t
+Line 88: *
+Line 88: ID = inheritable
+Line 88: ,
+Line 89: ID = kernel_cap_t
+Line 89: *
+Line 89: ID = permitted
+Line 89: )
+Line 90: {
+Line 91: ID = task_t
+Line 91: *
+Line 91: ID = g
+Line 91: ,
+Line 91: *
+Line 91: ID = target
+Line 91: ;
+Line 92: ID = struct
+Line 92: ID = list_head
+Line 92: *
+Line 92: ID = l
+Line 92: ;
+Line 93: ID = struct
+Line 93: ID = pid
+Line 93: *
+Line 93: ID = pid
+Line 93: ;
+Line 95: ID = for_each_task_pid
+Line 95: (
+Line 95: ID = pgrp
+Line 95: ,
+Line 95: ID = PIDTYPE_PGID
+Line 95: ,
+Line 95: ID = g
+Line 95: ,
+Line 95: ID = l
+Line 95: ,
+Line 95: ID = pid
+Line 95: )
+Line 95: {
+Line 96: ID = target
+Line 96: =
+Line 96: ID = g
+Line 96: ;
+Line 97: ID = while_each_thread
+Line 97: (
+Line 97: ID = g
+Line 97: ,
+Line 97: ID = target
+Line 97: )
+Line 98: ID = security_capset_set
+Line 98: (
+Line 98: ID = target
+Line 98: ,
+Line 98: ID = effective
+Line 98: ,
+Line 98: ID = inheritable
+Line 98: ,
+Line 98: ID = permitted
+Line 98: )
+Line 98: ;
+Line 99: }
+Line 100: }
+Line 106: ID = static
+Line 106: ID = inline
+Line 106: void
+Line 106: ID = cap_set_all
+Line 106: (
+Line 106: ID = kernel_cap_t
+Line 106: *
+Line 106: ID = effective
+Line 106: ,
+Line 107: ID = kernel_cap_t
+Line 107: *
+Line 107: ID = inheritable
+Line 107: ,
+Line 108: ID = kernel_cap_t
+Line 108: *
+Line 108: ID = permitted
+Line 108: )
+Line 109: {
+Line 110: ID = task_t
+Line 110: *
+Line 110: ID = g
+Line 110: ,
+Line 110: *
+Line 110: ID = target
+Line 110: ;
+Line 112: ID = do_each_thread
+Line 112: (
+Line 112: ID = g
+Line 112: ,
+Line 112: ID = target
+Line 112: )
+Line 112: {
+Line 113: if
+Line 113: (
+Line 113: ID = target
+Line 113: ==
+Line 113: ID = current
+Line 113: ||
+Line 113: ID = target
+Line 113: -
+Line 113: >
+Line 113: ID = pid
+Line 113: ==
+Line 113: INTCON = 1
+Line 113: )
+Line 114: ID = continue
+Line 114: ;
+Line 115: ID = security_capset_set
+Line 115: (
+Line 115: ID = target
+Line 115: ,
+Line 115: ID = effective
+Line 115: ,
+Line 115: ID = inheritable
+Line 115: ,
+Line 115: ID = permitted
+Line 115: )
+Line 115: ;
+Line 116: }
+Line 116: ID = while_each_thread
+Line 116: (
+Line 116: ID = g
+Line 116: ,
+Line 116: ID = target
+Line 116: )
+Line 116: ;
+Line 117: }
+Line 131: ID = asmlinkage
+Line 131: ID = long
+Line 131: ID = sys_capset
+Line 131: (
+Line 131: ID = cap_user_header_t
+Line 131: ID = header
+Line 131: ,
+Line 131: ID = const
+Line 131: ID = cap_user_data_t
+Line 131: ID = data
+Line 131: )
+Line 132: {
+Line 133: ID = kernel_cap_t
+Line 133: ID = inheritable
+Line 133: ,
+Line 133: ID = permitted
+Line 133: ,
+Line 133: ID = effective
+Line 133: ;
+Line 134: Unrecognized token: 95
+Line 134: Unrecognized token: 95
+Line 134: ID = u32
+Line 134: ID = version
+Line 134: ;
+Line 135: ID = task_t
+Line 135: *
+Line 135: ID = target
+Line 135: ;
+Line 136: int
+Line 136: ID = ret
+Line 136: ;
+Line 137: ID = pid_t
+Line 137: ID = pid
+Line 137: ;
+Line 139: if
+Line 139: (
+Line 139: ID = get_user
+Line 139: (
+Line 139: ID = version
+Line 139: ,
+Line 139: Unrecognized token: 38
+Line 139: ID = header
+Line 139: -
+Line 139: >
+Line 139: ID = version
+Line 139: )
+Line 139: )
+Line 140: return
+Line 140: -
+Line 140: ID = EFAULT
+Line 140: ;
+Line 142: if
+Line 142: (
+Line 142: ID = version
+Line 142: !=
+Line 142: Unrecognized token: 95
+Line 142: ID = LINUX_CAPABILITY_VERSION
+Line 142: )
+Line 142: {
+Line 143: if
+Line 143: (
+Line 143: ID = put_user
+Line 143: (
+Line 143: Unrecognized token: 95
+Line 143: ID = LINUX_CAPABILITY_VERSION
+Line 143: ,
+Line 143: Unrecognized token: 38
+Line 143: ID = header
+Line 143: -
+Line 143: >
+Line 143: ID = version
+Line 143: )
+Line 143: )
+Line 144: return
+Line 144: -
+Line 144: ID = EFAULT
+Line 144: ;
+Line 145: return
+Line 145: -
+Line 145: ID = EINVAL
+Line 145: ;
+Line 146: }
+Line 148: if
+Line 148: (
+Line 148: ID = get_user
+Line 148: (
+Line 148: ID = pid
+Line 148: ,
+Line 148: Unrecognized token: 38
+Line 148: ID = header
+Line 148: -
+Line 148: >
+Line 148: ID = pid
+Line 148: )
+Line 148: )
+Line 149: return
+Line 149: -
+Line 149: ID = EFAULT
+Line 149: ;
+Line 151: if
+Line 151: (
+Line 151: ID = pid
+Line 151: &&
+Line 151: !
+Line 151: ID = capable
+Line 151: (
+Line 151: ID = CAP_SETPCAP
+Line 151: )
+Line 151: )
+Line 152: return
+Line 152: -
+Line 152: ID = EPERM
+Line 152: ;
+Line 154: if
+Line 154: (
+Line 154: ID = copy_from_user
+Line 154: (
+Line 154: Unrecognized token: 38
+Line 154: ID = effective
+Line 154: ,
+Line 154: Unrecognized token: 38
+Line 154: ID = data
+Line 154: -
+Line 154: >
+Line 154: ID = effective
+Line 154: ,
+Line 154: ID = sizeof
+Line 154: (
+Line 154: ID = effective
+Line 154: )
+Line 154: )
+Line 154: ||
+Line 155: ID = copy_from_user
+Line 155: (
+Line 155: Unrecognized token: 38
+Line 155: ID = inheritable
+Line 155: ,
+Line 155: Unrecognized token: 38
+Line 155: ID = data
+Line 155: -
+Line 155: >
+Line 155: ID = inheritable
+Line 155: ,
+Line 155: ID = sizeof
+Line 155: (
+Line 155: ID = inheritable
+Line 155: )
+Line 155: )
+Line 155: ||
+Line 156: ID = copy_from_user
+Line 156: (
+Line 156: Unrecognized token: 38
+Line 156: ID = permitted
+Line 156: ,
+Line 156: Unrecognized token: 38
+Line 156: ID = data
+Line 156: -
+Line 156: >
+Line 156: ID = permitted
+Line 156: ,
+Line 156: ID = sizeof
+Line 156: (
+Line 156: ID = permitted
+Line 156: )
+Line 156: )
+Line 156: )
+Line 157: return
+Line 157: -
+Line 157: ID = EFAULT
+Line 157: ;
+Line 159: ID = spin_lock
+Line 159: (
+Line 159: Unrecognized token: 38
+Line 159: ID = task_capability_lock
+Line 159: )
+Line 159: ;
+Line 160: ID = read_lock
+Line 160: (
+Line 160: Unrecognized token: 38
+Line 160: ID = tasklist_lock
+Line 160: )
+Line 160: ;
+Line 162: if
+Line 162: (
+Line 162: ID = pid
+Line 162: >
+Line 162: INTCON = 0
+Line 162: &&
+Line 162: ID = pid
+Line 162: !=
+Line 162: ID = current
+Line 162: -
+Line 162: >
+Line 162: ID = pid
+Line 162: )
+Line 162: {
+Line 163: ID = target
+Line 163: =
+Line 163: ID = find_task_by_pid
+Line 163: (
+Line 163: ID = pid
+Line 163: )
+Line 163: ;
+Line 164: if
+Line 164: (
+Line 164: !
+Line 164: ID = target
+Line 164: )
+Line 164: {
+Line 165: ID = ret
+Line 165: =
+Line 165: -
+Line 165: ID = ESRCH
+Line 165: ;
+Line 166: ID = goto
+Line 166: ID = out
+Line 166: ;
+Line 167: }
+Line 168: }
+Line 168: else
+Line 169: ID = target
+Line 169: =
+Line 169: ID = current
+Line 169: ;
+Line 171: ID = ret
+Line 171: =
+Line 171: -
+Line 171: ID = EPERM
+Line 171: ;
+Line 173: if
+Line 173: (
+Line 173: ID = security_capset_check
+Line 173: (
+Line 173: ID = target
+Line 173: ,
+Line 173: Unrecognized token: 38
+Line 173: ID = effective
+Line 173: ,
+Line 173: Unrecognized token: 38
+Line 173: ID = inheritable
+Line 173: ,
+Line 173: Unrecognized token: 38
+Line 173: ID = permitted
+Line 173: )
+Line 173: )
+Line 174: ID = goto
+Line 174: ID = out
+Line 174: ;
+Line 176: if
+Line 176: (
+Line 176: !
+Line 176: ID = cap_issubset
+Line 176: (
+Line 176: ID = inheritable
+Line 176: ,
+Line 176: ID = cap_combine
+Line 176: (
+Line 176: ID = target
+Line 176: -
+Line 176: >
+Line 176: ID = cap_inheritable
+Line 176: ,
+Line 177: ID = current
+Line 177: -
+Line 177: >
+Line 177: ID = cap_permitted
+Line 177: )
+Line 177: )
+Line 177: )
+Line 178: ID = goto
+Line 178: ID = out
+Line 178: ;
+Line 181: if
+Line 181: (
+Line 181: !
+Line 181: ID = cap_issubset
+Line 181: (
+Line 181: ID = permitted
+Line 181: ,
+Line 181: ID = cap_combine
+Line 181: (
+Line 181: ID = target
+Line 181: -
+Line 181: >
+Line 181: ID = cap_permitted
+Line 181: ,
+Line 182: ID = current
+Line 182: -
+Line 182: >
+Line 182: ID = cap_permitted
+Line 182: )
+Line 182: )
+Line 182: )
+Line 183: ID = goto
+Line 183: ID = out
+Line 183: ;
+Line 186: if
+Line 186: (
+Line 186: !
+Line 186: ID = cap_issubset
+Line 186: (
+Line 186: ID = effective
+Line 186: ,
+Line 186: ID = permitted
+Line 186: )
+Line 186: )
+Line 187: ID = goto
+Line 187: ID = out
+Line 187: ;
+Line 189: ID = ret
+Line 189: =
+Line 189: INTCON = 0
+Line 189: ;
+Line 193: if
+Line 193: (
+Line 193: ID = pid
+Line 193: <
+Line 193: INTCON = 0
+Line 193: )
+Line 193: {
+Line 194: if
+Line 194: (
+Line 194: ID = pid
+Line 194: ==
+Line 194: -
+Line 194: INTCON = 1
+Line 194: )
+Line 195: ID = cap_set_all
+Line 195: (
+Line 195: Unrecognized token: 38
+Line 195: ID = effective
+Line 195: ,
+Line 195: Unrecognized token: 38
+Line 195: ID = inheritable
+Line 195: ,
+Line 195: Unrecognized token: 38
+Line 195: ID = permitted
+Line 195: )
+Line 195: ;
+Line 197: else
+Line 198: ID = cap_set_pg
+Line 198: (
+Line 198: -
+Line 198: ID = pid
+Line 198: ,
+Line 198: Unrecognized token: 38
+Line 198: ID = effective
+Line 198: ,
+Line 198: Unrecognized token: 38
+Line 198: ID = inheritable
+Line 198: ,
+Line 198: Unrecognized token: 38
+Line 198: ID = permitted
+Line 198: )
+Line 198: ;
+Line 199: }
+Line 199: else
+Line 199: {
+Line 200: ID = security_capset_set
+Line 200: (
+Line 200: ID = target
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = effective
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = inheritable
+Line 200: ,
+Line 200: Unrecognized token: 38
+Line 200: ID = permitted
+Line 200: )
+Line 200: ;
+Line 201: }
+Line 203: ID = out
+Line 203: Unrecognized token: 58
+Line 204: ID = read_unlock
+Line 204: (
+Line 204: Unrecognized token: 38
+Line 204: ID = tasklist_lock
+Line 204: )
+Line 204: ;
+Line 205: ID = spin_unlock
+Line 205: (
+Line 205: Unrecognized token: 38
+Line 205: ID = task_capability_lock
+Line 205: )
+Line 205: ;
+Line 207: return
+Line 207: ID = ret
+Line 207: ;
+Line 208: }
+Line 209: -EOF-

@@ -1,0 +1,961 @@
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = proc_fs
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = smp
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = init
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = notifier
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = sched
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = unistd
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = cpu
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = module
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = kmod
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = kthread
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = stop_machine
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = asm
+Line 17: /
+Line 17: ID = semaphore
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 20: ID = DECLARE_MUTEX
+Line 20: (
+Line 20: ID = cpucontrol
+Line 20: )
+Line 20: ;
+Line 22: ID = static
+Line 22: ID = struct
+Line 22: ID = notifier_block
+Line 22: *
+Line 22: ID = cpu_chain
+Line 22: ;
+Line 25: int
+Line 25: ID = register_cpu_notifier
+Line 25: (
+Line 25: ID = struct
+Line 25: ID = notifier_block
+Line 25: *
+Line 25: ID = nb
+Line 25: )
+Line 26: {
+Line 27: int
+Line 27: ID = ret
+Line 27: ;
+Line 29: if
+Line 29: (
+Line 29: (
+Line 29: ID = ret
+Line 29: =
+Line 29: ID = down_interruptible
+Line 29: (
+Line 29: Unrecognized token: 38
+Line 29: ID = cpucontrol
+Line 29: )
+Line 29: )
+Line 29: !=
+Line 29: INTCON = 0
+Line 29: )
+Line 30: return
+Line 30: ID = ret
+Line 30: ;
+Line 31: ID = ret
+Line 31: =
+Line 31: ID = notifier_chain_register
+Line 31: (
+Line 31: Unrecognized token: 38
+Line 31: ID = cpu_chain
+Line 31: ,
+Line 31: ID = nb
+Line 31: )
+Line 31: ;
+Line 32: ID = up
+Line 32: (
+Line 32: Unrecognized token: 38
+Line 32: ID = cpucontrol
+Line 32: )
+Line 32: ;
+Line 33: return
+Line 33: ID = ret
+Line 33: ;
+Line 34: }
+Line 35: ID = EXPORT_SYMBOL
+Line 35: (
+Line 35: ID = register_cpu_notifier
+Line 35: )
+Line 35: ;
+Line 37: void
+Line 37: ID = unregister_cpu_notifier
+Line 37: (
+Line 37: ID = struct
+Line 37: ID = notifier_block
+Line 37: *
+Line 37: ID = nb
+Line 37: )
+Line 38: {
+Line 39: ID = down
+Line 39: (
+Line 39: Unrecognized token: 38
+Line 39: ID = cpucontrol
+Line 39: )
+Line 39: ;
+Line 40: ID = notifier_chain_unregister
+Line 40: (
+Line 40: Unrecognized token: 38
+Line 40: ID = cpu_chain
+Line 40: ,
+Line 40: ID = nb
+Line 40: )
+Line 40: ;
+Line 41: ID = up
+Line 41: (
+Line 41: Unrecognized token: 38
+Line 41: ID = cpucontrol
+Line 41: )
+Line 41: ;
+Line 42: }
+Line 43: ID = EXPORT_SYMBOL
+Line 43: (
+Line 43: ID = unregister_cpu_notifier
+Line 43: )
+Line 43: ;
+Line 45: Unrecognized token: 35
+Line 45: ID = ifdef
+Line 45: ID = CONFIG_HOTPLUG_CPU
+Line 46: ID = static
+Line 46: ID = inline
+Line 46: void
+Line 46: ID = check_for_tasks
+Line 46: (
+Line 46: int
+Line 46: ID = cpu
+Line 46: )
+Line 47: {
+Line 48: ID = struct
+Line 48: ID = task_struct
+Line 48: *
+Line 48: ID = p
+Line 48: ;
+Line 50: ID = write_lock_irq
+Line 50: (
+Line 50: Unrecognized token: 38
+Line 50: ID = tasklist_lock
+Line 50: )
+Line 50: ;
+Line 51: ID = for_each_process
+Line 51: (
+Line 51: ID = p
+Line 51: )
+Line 51: {
+Line 52: if
+Line 52: (
+Line 52: ID = task_cpu
+Line 52: (
+Line 52: ID = p
+Line 52: )
+Line 52: ==
+Line 52: ID = cpu
+Line 52: &&
+Line 52: (
+Line 52: ID = p
+Line 52: -
+Line 52: >
+Line 52: ID = utime
+Line 52: !=
+Line 52: INTCON = 0
+Line 52: ||
+Line 52: ID = p
+Line 52: -
+Line 52: >
+Line 52: ID = stime
+Line 52: !=
+Line 52: INTCON = 0
+Line 52: )
+Line 52: )
+Line 53: ID = printk
+Line 53: (
+Line 53: ID = KERN_WARNING
+Line 53: Unrecognized token: 34
+Line 53: ID = Task
+Line 53: Unrecognized token: 37
+Line 53: ID = s
+Line 53: (
+Line 53: ID = pid
+Line 53: =
+Line 53: Unrecognized token: 37
+Line 53: ID = d
+Line 53: )
+Line 53: ID = is
+Line 53: ID = on
+Line 53: ID = cpu
+Line 53: Unrecognized token: 37
+Line 53: ID = d
+Line 53: Unrecognized token: 92
+Line 54: (
+Line 54: ID = state
+Line 54: =
+Line 54: Unrecognized token: 37
+Line 54: ID = ld
+Line 54: ,
+Line 54: ID = flags
+Line 54: =
+Line 54: Unrecognized token: 37
+Line 54: ID = lx
+Line 54: )
+Line 54: Unrecognized token: 92
+Line 54: ID = n
+Line 54: Unrecognized token: 34
+Line 54: ,
+Line 55: ID = p
+Line 55: -
+Line 55: >
+Line 55: ID = comm
+Line 55: ,
+Line 55: ID = p
+Line 55: -
+Line 55: >
+Line 55: ID = pid
+Line 55: ,
+Line 55: ID = cpu
+Line 55: ,
+Line 55: ID = p
+Line 55: -
+Line 55: >
+Line 55: ID = state
+Line 55: ,
+Line 55: ID = p
+Line 55: -
+Line 55: >
+Line 55: ID = flags
+Line 55: )
+Line 55: ;
+Line 56: }
+Line 57: ID = write_unlock_irq
+Line 57: (
+Line 57: Unrecognized token: 38
+Line 57: ID = tasklist_lock
+Line 57: )
+Line 57: ;
+Line 58: }
+Line 62: ID = static
+Line 62: int
+Line 62: ID = cpu_run_sbin_hotplug
+Line 62: (
+Line 62: ID = unsigned
+Line 62: int
+Line 62: ID = cpu
+Line 62: ,
+Line 62: ID = const
+Line 62: char
+Line 62: *
+Line 62: ID = action
+Line 62: )
+Line 63: {
+Line 64: char
+Line 64: *
+Line 64: ID = argv
+Line 64: [
+Line 64: INTCON = 3
+Line 64: ]
+Line 64: ,
+Line 64: *
+Line 64: ID = envp
+Line 64: [
+Line 64: INTCON = 5
+Line 64: ]
+Line 64: ,
+Line 64: ID = cpu_str
+Line 64: [
+Line 64: INTCON = 12
+Line 64: ]
+Line 64: ,
+Line 64: ID = action_str
+Line 64: [
+Line 64: INTCON = 32
+Line 64: ]
+Line 64: ;
+Line 65: int
+Line 65: ID = i
+Line 65: ;
+Line 67: ID = sprintf
+Line 67: (
+Line 67: ID = cpu_str
+Line 67: ,
+Line 67: STRINGCON = "CPU=%d"
+Line 67: ,
+Line 67: ID = cpu
+Line 67: )
+Line 67: ;
+Line 68: ID = sprintf
+Line 68: (
+Line 68: ID = action_str
+Line 68: ,
+Line 68: STRINGCON = "ACTION=%s"
+Line 68: ,
+Line 68: ID = action
+Line 68: )
+Line 68: ;
+Line 71: ID = i
+Line 71: =
+Line 71: INTCON = 0
+Line 71: ;
+Line 72: ID = argv
+Line 72: [
+Line 72: ID = i
+Line 72: +
+Line 72: +
+Line 72: ]
+Line 72: =
+Line 72: ID = hotplug_path
+Line 72: ;
+Line 73: ID = argv
+Line 73: [
+Line 73: ID = i
+Line 73: +
+Line 73: +
+Line 73: ]
+Line 73: =
+Line 73: STRINGCON = "cpu"
+Line 73: ;
+Line 74: ID = argv
+Line 74: [
+Line 74: ID = i
+Line 74: ]
+Line 74: =
+Line 74: ID = NULL
+Line 74: ;
+Line 76: ID = i
+Line 76: =
+Line 76: INTCON = 0
+Line 76: ;
+Line 78: ID = envp
+Line 78: [
+Line 78: ID = i
+Line 78: +
+Line 78: +
+Line 78: ]
+Line 78: =
+Line 78: STRINGCON = "HOME=/"
+Line 78: ;
+Line 79: ID = envp
+Line 79: [
+Line 79: ID = i
+Line 79: +
+Line 79: +
+Line 79: ]
+Line 79: =
+Line 79: STRINGCON = "PATH=/sbin:/bin:/usr/sbin:/usr/bin"
+Line 79: ;
+Line 80: ID = envp
+Line 80: [
+Line 80: ID = i
+Line 80: +
+Line 80: +
+Line 80: ]
+Line 80: =
+Line 80: ID = cpu_str
+Line 80: ;
+Line 81: ID = envp
+Line 81: [
+Line 81: ID = i
+Line 81: +
+Line 81: +
+Line 81: ]
+Line 81: =
+Line 81: ID = action_str
+Line 81: ;
+Line 82: ID = envp
+Line 82: [
+Line 82: ID = i
+Line 82: ]
+Line 82: =
+Line 82: ID = NULL
+Line 82: ;
+Line 84: return
+Line 84: ID = call_usermodehelper
+Line 84: (
+Line 84: ID = argv
+Line 84: [
+Line 84: INTCON = 0
+Line 84: ]
+Line 84: ,
+Line 84: ID = argv
+Line 84: ,
+Line 84: ID = envp
+Line 84: ,
+Line 84: INTCON = 0
+Line 84: )
+Line 84: ;
+Line 85: }
+Line 88: ID = static
+Line 88: int
+Line 88: ID = take_cpu_down
+Line 88: (
+Line 88: void
+Line 88: *
+Line 88: ID = unused
+Line 88: )
+Line 89: {
+Line 90: int
+Line 90: ID = err
+Line 90: ;
+Line 93: ID = cpu_clear
+Line 93: (
+Line 93: ID = smp_processor_id
+Line 93: (
+Line 93: )
+Line 93: ,
+Line 93: ID = cpu_online_map
+Line 93: )
+Line 93: ;
+Line 96: ID = err
+Line 96: =
+Line 96: Unrecognized token: 95
+Line 96: Unrecognized token: 95
+Line 96: ID = cpu_disable
+Line 96: (
+Line 96: )
+Line 96: ;
+Line 97: if
+Line 97: (
+Line 97: ID = err
+Line 97: <
+Line 97: INTCON = 0
+Line 97: )
+Line 98: ID = cpu_set
+Line 98: (
+Line 98: ID = smp_processor_id
+Line 98: (
+Line 98: )
+Line 98: ,
+Line 98: ID = cpu_online_map
+Line 98: )
+Line 98: ;
+Line 99: else
+Line 102: ID = sched_idle_next
+Line 102: (
+Line 102: )
+Line 102: ;
+Line 104: return
+Line 104: ID = err
+Line 104: ;
+Line 105: }
+Line 107: int
+Line 107: ID = cpu_down
+Line 107: (
+Line 107: ID = unsigned
+Line 107: int
+Line 107: ID = cpu
+Line 107: )
+Line 108: {
+Line 109: int
+Line 109: ID = err
+Line 109: ;
+Line 110: ID = struct
+Line 110: ID = task_struct
+Line 110: *
+Line 110: ID = p
+Line 110: ;
+Line 111: ID = cpumask_t
+Line 111: ID = old_allowed
+Line 111: ,
+Line 111: ID = tmp
+Line 111: ;
+Line 113: if
+Line 113: (
+Line 113: (
+Line 113: ID = err
+Line 113: =
+Line 113: ID = lock_cpu_hotplug_interruptible
+Line 113: (
+Line 113: )
+Line 113: )
+Line 113: !=
+Line 113: INTCON = 0
+Line 113: )
+Line 114: return
+Line 114: ID = err
+Line 114: ;
+Line 116: if
+Line 116: (
+Line 116: ID = num_online_cpus
+Line 116: (
+Line 116: )
+Line 116: ==
+Line 116: INTCON = 1
+Line 116: )
+Line 116: {
+Line 117: ID = err
+Line 117: =
+Line 117: -
+Line 117: ID = EBUSY
+Line 117: ;
+Line 118: ID = goto
+Line 118: ID = out
+Line 118: ;
+Line 119: }
+Line 121: if
+Line 121: (
+Line 121: !
+Line 121: ID = cpu_online
+Line 121: (
+Line 121: ID = cpu
+Line 121: )
+Line 121: )
+Line 121: {
+Line 122: ID = err
+Line 122: =
+Line 122: -
+Line 122: ID = EINVAL
+Line 122: ;
+Line 123: ID = goto
+Line 123: ID = out
+Line 123: ;
+Line 124: }
+Line 127: ID = old_allowed
+Line 127: =
+Line 127: ID = current
+Line 127: -
+Line 127: >
+Line 127: ID = cpus_allowed
+Line 127: ;
+Line 128: ID = tmp
+Line 128: =
+Line 128: ID = CPU_MASK_ALL
+Line 128: ;
+Line 129: ID = cpu_clear
+Line 129: (
+Line 129: ID = cpu
+Line 129: ,
+Line 129: ID = tmp
+Line 129: )
+Line 129: ;
+Line 130: ID = set_cpus_allowed
+Line 130: (
+Line 130: ID = current
+Line 130: ,
+Line 130: ID = tmp
+Line 130: )
+Line 130: ;
+Line 132: ID = p
+Line 132: =
+Line 132: Unrecognized token: 95
+Line 132: Unrecognized token: 95
+Line 132: ID = stop_machine_run
+Line 132: (
+Line 132: ID = take_cpu_down
+Line 132: ,
+Line 132: ID = NULL
+Line 132: ,
+Line 132: ID = cpu
+Line 132: )
+Line 132: ;
+Line 133: if
+Line 133: (
+Line 133: ID = IS_ERR
+Line 133: (
+Line 133: ID = p
+Line 133: )
+Line 133: )
+Line 133: {
+Line 134: ID = err
+Line 134: =
+Line 134: ID = PTR_ERR
+Line 134: (
+Line 134: ID = p
+Line 134: )
+Line 134: ;
+Line 135: ID = goto
+Line 135: ID = out_allowed
+Line 135: ;
+Line 136: }
+Line 138: if
+Line 138: (
+Line 138: ID = cpu_online
+Line 138: (
+Line 138: ID = cpu
+Line 138: )
+Line 138: )
+Line 139: ID = goto
+Line 139: ID = out_thread
+Line 139: ;
+Line 142: while
+Line 142: (
+Line 142: !
+Line 142: ID = idle_cpu
+Line 142: (
+Line 142: ID = cpu
+Line 142: )
+Line 142: )
+Line 143: ID = yield
+Line 143: (
+Line 143: )
+Line 143: ;
+Line 146: Unrecognized token: 95
+Line 146: Unrecognized token: 95
+Line 146: ID = cpu_die
+Line 146: (
+Line 146: ID = cpu
+Line 146: )
+Line 146: ;
+Line 149: ID = kthread_bind
+Line 149: (
+Line 149: ID = p
+Line 149: ,
+Line 149: ID = smp_processor_id
+Line 149: (
+Line 149: )
+Line 149: )
+Line 149: ;
+Line 152: if
+Line 152: (
+Line 152: ID = notifier_call_chain
+Line 152: (
+Line 152: Unrecognized token: 38
+Line 152: ID = cpu_chain
+Line 152: ,
+Line 152: ID = CPU_DEAD
+Line 152: ,
+Line 152: (
+Line 152: void
+Line 152: *
+Line 152: )
+Line 152: (
+Line 152: ID = long
+Line 152: )
+Line 152: ID = cpu
+Line 152: )
+Line 153: ==
+Line 153: ID = NOTIFY_BAD
+Line 153: )
+Line 154: ID = BUG
+Line 154: (
+Line 154: )
+Line 154: ;
+Line 156: ID = check_for_tasks
+Line 156: (
+Line 156: ID = cpu
+Line 156: )
+Line 156: ;
+Line 158: ID = cpu_run_sbin_hotplug
+Line 158: (
+Line 158: ID = cpu
+Line 158: ,
+Line 158: STRINGCON = "offline"
+Line 158: )
+Line 158: ;
+Line 160: ID = out_thread
+Line 160: Unrecognized token: 58
+Line 161: ID = err
+Line 161: =
+Line 161: ID = kthread_stop
+Line 161: (
+Line 161: ID = p
+Line 161: )
+Line 161: ;
+Line 162: ID = out_allowed
+Line 162: Unrecognized token: 58
+Line 163: ID = set_cpus_allowed
+Line 163: (
+Line 163: ID = current
+Line 163: ,
+Line 163: ID = old_allowed
+Line 163: )
+Line 163: ;
+Line 164: ID = out
+Line 164: Unrecognized token: 58
+Line 165: ID = unlock_cpu_hotplug
+Line 165: (
+Line 165: )
+Line 165: ;
+Line 166: return
+Line 166: ID = err
+Line 166: ;
+Line 167: }
+Line 168: Unrecognized token: 35
+Line 168: else
+Line 169: ID = static
+Line 169: ID = inline
+Line 169: int
+Line 169: ID = cpu_run_sbin_hotplug
+Line 169: (
+Line 169: ID = unsigned
+Line 169: int
+Line 169: ID = cpu
+Line 169: ,
+Line 169: ID = const
+Line 169: char
+Line 169: *
+Line 169: ID = action
+Line 169: )
+Line 170: {
+Line 171: return
+Line 171: INTCON = 0
+Line 171: ;
+Line 172: }
+Line 173: Unrecognized token: 35
+Line 173: ID = endif
+Line 175: int
+Line 175: Unrecognized token: 95
+Line 175: Unrecognized token: 95
+Line 175: ID = devinit
+Line 175: ID = cpu_up
+Line 175: (
+Line 175: ID = unsigned
+Line 175: int
+Line 175: ID = cpu
+Line 175: )
+Line 176: {
+Line 177: int
+Line 177: ID = ret
+Line 177: ;
+Line 178: void
+Line 178: *
+Line 178: ID = hcpu
+Line 178: =
+Line 178: (
+Line 178: void
+Line 178: *
+Line 178: )
+Line 178: (
+Line 178: ID = long
+Line 178: )
+Line 178: ID = cpu
+Line 178: ;
+Line 180: if
+Line 180: (
+Line 180: (
+Line 180: ID = ret
+Line 180: =
+Line 180: ID = down_interruptible
+Line 180: (
+Line 180: Unrecognized token: 38
+Line 180: ID = cpucontrol
+Line 180: )
+Line 180: )
+Line 180: !=
+Line 180: INTCON = 0
+Line 180: )
+Line 181: return
+Line 181: ID = ret
+Line 181: ;
+Line 183: if
+Line 183: (
+Line 183: ID = cpu_online
+Line 183: (
+Line 183: ID = cpu
+Line 183: )
+Line 183: ||
+Line 183: !
+Line 183: ID = cpu_present
+Line 183: (
+Line 183: ID = cpu
+Line 183: )
+Line 183: )
+Line 183: {
+Line 184: ID = ret
+Line 184: =
+Line 184: -
+Line 184: ID = EINVAL
+Line 184: ;
+Line 185: ID = goto
+Line 185: ID = out
+Line 185: ;
+Line 186: }
+Line 187: ID = ret
+Line 187: =
+Line 187: ID = notifier_call_chain
+Line 187: (
+Line 187: Unrecognized token: 38
+Line 187: ID = cpu_chain
+Line 187: ,
+Line 187: ID = CPU_UP_PREPARE
+Line 187: ,
+Line 187: ID = hcpu
+Line 187: )
+Line 187: ;
+Line 188: if
+Line 188: (
+Line 188: ID = ret
+Line 188: ==
+Line 188: ID = NOTIFY_BAD
+Line 188: )
+Line 188: {
+Line 189: ID = printk
+Line 189: (
+Line 189: STRINGCON = "%s: attempt to bring up CPU %u failed\n"
+Line 189: ,
+Line 190: Unrecognized token: 95
+Line 190: Unrecognized token: 95
+Line 190: ID = FUNCTION__
+Line 190: ,
+Line 190: ID = cpu
+Line 190: )
+Line 190: ;
+Line 191: ID = ret
+Line 191: =
+Line 191: -
+Line 191: ID = EINVAL
+Line 191: ;
+Line 192: ID = goto
+Line 192: ID = out_notify
+Line 192: ;
+Line 193: }
+Line 196: ID = ret
+Line 196: =
+Line 196: Unrecognized token: 95
+Line 196: Unrecognized token: 95
+Line 196: ID = cpu_up
+Line 196: (
+Line 196: ID = cpu
+Line 196: )
+Line 196: ;
+Line 197: if
+Line 197: (
+Line 197: ID = ret
+Line 197: !=
+Line 197: INTCON = 0
+Line 197: )
+Line 198: ID = goto
+Line 198: ID = out_notify
+Line 198: ;
+Line 199: if
+Line 199: (
+Line 199: !
+Line 199: ID = cpu_online
+Line 199: (
+Line 199: ID = cpu
+Line 199: )
+Line 199: )
+Line 200: ID = BUG
+Line 200: (
+Line 200: )
+Line 200: ;
+Line 203: ID = notifier_call_chain
+Line 203: (
+Line 203: Unrecognized token: 38
+Line 203: ID = cpu_chain
+Line 203: ,
+Line 203: ID = CPU_ONLINE
+Line 203: ,
+Line 203: ID = hcpu
+Line 203: )
+Line 203: ;
+Line 205: ID = out_notify
+Line 205: Unrecognized token: 58
+Line 206: if
+Line 206: (
+Line 206: ID = ret
+Line 206: !=
+Line 206: INTCON = 0
+Line 206: )
+Line 207: ID = notifier_call_chain
+Line 207: (
+Line 207: Unrecognized token: 38
+Line 207: ID = cpu_chain
+Line 207: ,
+Line 207: ID = CPU_UP_CANCELED
+Line 207: ,
+Line 207: ID = hcpu
+Line 207: )
+Line 207: ;
+Line 208: ID = out
+Line 208: Unrecognized token: 58
+Line 209: ID = up
+Line 209: (
+Line 209: Unrecognized token: 38
+Line 209: ID = cpucontrol
+Line 209: )
+Line 209: ;
+Line 210: return
+Line 210: ID = ret
+Line 210: ;
+Line 211: }
+Line 212: -EOF-

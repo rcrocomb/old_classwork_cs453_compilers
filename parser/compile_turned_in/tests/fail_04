@@ -1,0 +1,12 @@
+bob;    /* cannot declare a variable int implicitly: only function
+           return types*/
+
+char
+bob(void)
+{
+    int x, y; char z;
+    for( x = 1; x < 42; x = x + 1)
+    {
+        y = 1;
+    }
+}

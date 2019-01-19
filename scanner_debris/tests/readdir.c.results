@@ -1,0 +1,1699 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = module
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = time
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = mm
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = errno
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = stat
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = file
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = smp_lock
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = fs
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = dirent
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = security
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = unistd
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = asm
+Line 19: /
+Line 19: ID = uaccess
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 21: int
+Line 21: ID = vfs_readdir
+Line 21: (
+Line 21: ID = struct
+Line 21: ID = file
+Line 21: *
+Line 21: ID = file
+Line 21: ,
+Line 21: ID = filldir_t
+Line 21: ID = filler
+Line 21: ,
+Line 21: void
+Line 21: *
+Line 21: ID = buf
+Line 21: )
+Line 22: {
+Line 23: ID = struct
+Line 23: ID = inode
+Line 23: *
+Line 23: ID = inode
+Line 23: =
+Line 23: ID = file
+Line 23: -
+Line 23: >
+Line 23: ID = f_dentry
+Line 23: -
+Line 23: >
+Line 23: ID = d_inode
+Line 23: ;
+Line 24: int
+Line 24: ID = res
+Line 24: =
+Line 24: -
+Line 24: ID = ENOTDIR
+Line 24: ;
+Line 25: if
+Line 25: (
+Line 25: !
+Line 25: ID = file
+Line 25: -
+Line 25: >
+Line 25: ID = f_op
+Line 25: ||
+Line 25: !
+Line 25: ID = file
+Line 25: -
+Line 25: >
+Line 25: ID = f_op
+Line 25: -
+Line 25: >
+Line 25: ID = readdir
+Line 25: )
+Line 26: ID = goto
+Line 26: ID = out
+Line 26: ;
+Line 28: ID = res
+Line 28: =
+Line 28: ID = security_file_permission
+Line 28: (
+Line 28: ID = file
+Line 28: ,
+Line 28: ID = MAY_READ
+Line 28: )
+Line 28: ;
+Line 29: if
+Line 29: (
+Line 29: ID = res
+Line 29: )
+Line 30: ID = goto
+Line 30: ID = out
+Line 30: ;
+Line 32: ID = down
+Line 32: (
+Line 32: Unrecognized token: 38
+Line 32: ID = inode
+Line 32: -
+Line 32: >
+Line 32: ID = i_sem
+Line 32: )
+Line 32: ;
+Line 33: ID = res
+Line 33: =
+Line 33: -
+Line 33: ID = ENOENT
+Line 33: ;
+Line 34: if
+Line 34: (
+Line 34: !
+Line 34: ID = IS_DEADDIR
+Line 34: (
+Line 34: ID = inode
+Line 34: )
+Line 34: )
+Line 34: {
+Line 35: ID = res
+Line 35: =
+Line 35: ID = file
+Line 35: -
+Line 35: >
+Line 35: ID = f_op
+Line 35: -
+Line 35: >
+Line 35: ID = readdir
+Line 35: (
+Line 35: ID = file
+Line 35: ,
+Line 35: ID = buf
+Line 35: ,
+Line 35: ID = filler
+Line 35: )
+Line 35: ;
+Line 36: ID = file_accessed
+Line 36: (
+Line 36: ID = file
+Line 36: )
+Line 36: ;
+Line 37: }
+Line 38: ID = up
+Line 38: (
+Line 38: Unrecognized token: 38
+Line 38: ID = inode
+Line 38: -
+Line 38: >
+Line 38: ID = i_sem
+Line 38: )
+Line 38: ;
+Line 39: ID = out
+Line 39: Unrecognized token: 58
+Line 40: return
+Line 40: ID = res
+Line 40: ;
+Line 41: }
+Line 43: ID = EXPORT_SYMBOL
+Line 43: (
+Line 43: ID = vfs_readdir
+Line 43: )
+Line 43: ;
+Line 53: Unrecognized token: 35
+Line 53: ID = define
+Line 53: ID = NAME_OFFSET
+Line 53: (
+Line 53: ID = de
+Line 53: )
+Line 53: (
+Line 53: (
+Line 53: int
+Line 53: )
+Line 53: (
+Line 53: (
+Line 53: ID = de
+Line 53: )
+Line 53: -
+Line 53: >
+Line 53: ID = d_name
+Line 53: -
+Line 53: (
+Line 53: char
+Line 53: Unrecognized token: 95
+Line 53: Unrecognized token: 95
+Line 53: ID = user
+Line 53: *
+Line 53: )
+Line 53: (
+Line 53: ID = de
+Line 53: )
+Line 53: )
+Line 53: )
+Line 54: Unrecognized token: 35
+Line 54: ID = define
+Line 54: ID = ROUND_UP
+Line 54: (
+Line 54: ID = x
+Line 54: )
+Line 54: (
+Line 54: (
+Line 54: (
+Line 54: ID = x
+Line 54: )
+Line 54: +
+Line 54: ID = sizeof
+Line 54: (
+Line 54: ID = long
+Line 54: )
+Line 54: -
+Line 54: INTCON = 1
+Line 54: )
+Line 54: Unrecognized token: 38
+Line 54: Unrecognized token: 126
+Line 54: (
+Line 54: ID = sizeof
+Line 54: (
+Line 54: ID = long
+Line 54: )
+Line 54: -
+Line 54: INTCON = 1
+Line 54: )
+Line 54: )
+Line 56: Unrecognized token: 35
+Line 56: ID = ifdef
+Line 56: Unrecognized token: 95
+Line 56: Unrecognized token: 95
+Line 56: ID = ARCH_WANT_OLD_READDIR
+Line 58: ID = struct
+Line 58: ID = old_linux_dirent
+Line 58: {
+Line 59: ID = unsigned
+Line 59: ID = long
+Line 59: ID = d_ino
+Line 59: ;
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = d_offset
+Line 60: ;
+Line 61: ID = unsigned
+Line 61: ID = short
+Line 61: ID = d_namlen
+Line 61: ;
+Line 62: char
+Line 62: ID = d_name
+Line 62: [
+Line 62: INTCON = 1
+Line 62: ]
+Line 62: ;
+Line 63: }
+Line 63: ;
+Line 65: ID = struct
+Line 65: ID = readdir_callback
+Line 65: {
+Line 66: ID = struct
+Line 66: ID = old_linux_dirent
+Line 66: Unrecognized token: 95
+Line 66: Unrecognized token: 95
+Line 66: ID = user
+Line 66: *
+Line 66: ID = dirent
+Line 66: ;
+Line 67: int
+Line 67: ID = result
+Line 67: ;
+Line 68: }
+Line 68: ;
+Line 70: ID = static
+Line 70: int
+Line 70: ID = fillonedir
+Line 70: (
+Line 70: void
+Line 70: *
+Line 70: Unrecognized token: 95
+Line 70: Unrecognized token: 95
+Line 70: ID = buf
+Line 70: ,
+Line 70: ID = const
+Line 70: char
+Line 70: *
+Line 70: ID = name
+Line 70: ,
+Line 70: int
+Line 70: ID = namlen
+Line 70: ,
+Line 70: ID = loff_t
+Line 70: ID = offset
+Line 70: ,
+Line 71: ID = ino_t
+Line 71: ID = ino
+Line 71: ,
+Line 71: ID = unsigned
+Line 71: int
+Line 71: ID = d_type
+Line 71: )
+Line 72: {
+Line 73: ID = struct
+Line 73: ID = readdir_callback
+Line 73: *
+Line 73: ID = buf
+Line 73: =
+Line 73: (
+Line 73: ID = struct
+Line 73: ID = readdir_callback
+Line 73: *
+Line 73: )
+Line 73: Unrecognized token: 95
+Line 73: Unrecognized token: 95
+Line 73: ID = buf
+Line 73: ;
+Line 74: ID = struct
+Line 74: ID = old_linux_dirent
+Line 74: Unrecognized token: 95
+Line 74: Unrecognized token: 95
+Line 74: ID = user
+Line 74: *
+Line 74: ID = dirent
+Line 74: ;
+Line 76: if
+Line 76: (
+Line 76: ID = buf
+Line 76: -
+Line 76: >
+Line 76: ID = result
+Line 76: )
+Line 77: return
+Line 77: -
+Line 77: ID = EINVAL
+Line 77: ;
+Line 78: ID = buf
+Line 78: -
+Line 78: >
+Line 78: ID = result
+Line 78: +
+Line 78: +
+Line 78: ;
+Line 79: ID = dirent
+Line 79: =
+Line 79: ID = buf
+Line 79: -
+Line 79: >
+Line 79: ID = dirent
+Line 79: ;
+Line 80: if
+Line 80: (
+Line 80: !
+Line 80: ID = access_ok
+Line 80: (
+Line 80: ID = VERIFY_WRITE
+Line 80: ,
+Line 80: ID = dirent
+Line 80: ,
+Line 81: (
+Line 81: ID = unsigned
+Line 81: ID = long
+Line 81: )
+Line 81: (
+Line 81: ID = dirent
+Line 81: -
+Line 81: >
+Line 81: ID = d_name
+Line 81: +
+Line 81: ID = namlen
+Line 81: +
+Line 81: INTCON = 1
+Line 81: )
+Line 81: -
+Line 82: (
+Line 82: ID = unsigned
+Line 82: ID = long
+Line 82: )
+Line 82: ID = dirent
+Line 82: )
+Line 82: )
+Line 83: ID = goto
+Line 83: ID = efault
+Line 83: ;
+Line 84: if
+Line 84: (
+Line 84: Unrecognized token: 95
+Line 84: Unrecognized token: 95
+Line 84: ID = put_user
+Line 84: (
+Line 84: ID = ino
+Line 84: ,
+Line 84: Unrecognized token: 38
+Line 84: ID = dirent
+Line 84: -
+Line 84: >
+Line 84: ID = d_ino
+Line 84: )
+Line 84: ||
+Line 85: Unrecognized token: 95
+Line 85: Unrecognized token: 95
+Line 85: ID = put_user
+Line 85: (
+Line 85: ID = offset
+Line 85: ,
+Line 85: Unrecognized token: 38
+Line 85: ID = dirent
+Line 85: -
+Line 85: >
+Line 85: ID = d_offset
+Line 85: )
+Line 85: ||
+Line 86: Unrecognized token: 95
+Line 86: Unrecognized token: 95
+Line 86: ID = put_user
+Line 86: (
+Line 86: ID = namlen
+Line 86: ,
+Line 86: Unrecognized token: 38
+Line 86: ID = dirent
+Line 86: -
+Line 86: >
+Line 86: ID = d_namlen
+Line 86: )
+Line 86: ||
+Line 87: Unrecognized token: 95
+Line 87: Unrecognized token: 95
+Line 87: ID = copy_to_user
+Line 87: (
+Line 87: ID = dirent
+Line 87: -
+Line 87: >
+Line 87: ID = d_name
+Line 87: ,
+Line 87: ID = name
+Line 87: ,
+Line 87: ID = namlen
+Line 87: )
+Line 87: ||
+Line 88: Unrecognized token: 95
+Line 88: Unrecognized token: 95
+Line 88: ID = put_user
+Line 88: (
+Line 88: INTCON = 0
+Line 88: ,
+Line 88: ID = dirent
+Line 88: -
+Line 88: >
+Line 88: ID = d_name
+Line 88: +
+Line 88: ID = namlen
+Line 88: )
+Line 88: )
+Line 89: ID = goto
+Line 89: ID = efault
+Line 89: ;
+Line 90: return
+Line 90: INTCON = 0
+Line 90: ;
+Line 91: ID = efault
+Line 91: Unrecognized token: 58
+Line 92: ID = buf
+Line 92: -
+Line 92: >
+Line 92: ID = result
+Line 92: =
+Line 92: -
+Line 92: ID = EFAULT
+Line 92: ;
+Line 93: return
+Line 93: -
+Line 93: ID = EFAULT
+Line 93: ;
+Line 94: }
+Line 96: ID = asmlinkage
+Line 96: ID = long
+Line 96: ID = old_readdir
+Line 96: (
+Line 96: ID = unsigned
+Line 96: int
+Line 96: ID = fd
+Line 96: ,
+Line 96: ID = struct
+Line 96: ID = old_linux_dirent
+Line 96: Unrecognized token: 95
+Line 96: Unrecognized token: 95
+Line 96: ID = user
+Line 96: *
+Line 96: ID = dirent
+Line 96: ,
+Line 96: ID = unsigned
+Line 96: int
+Line 96: ID = count
+Line 96: )
+Line 97: {
+Line 98: int
+Line 98: ID = error
+Line 98: ;
+Line 99: ID = struct
+Line 99: ID = file
+Line 99: *
+Line 99: ID = file
+Line 99: ;
+Line 100: ID = struct
+Line 100: ID = readdir_callback
+Line 100: ID = buf
+Line 100: ;
+Line 102: ID = error
+Line 102: =
+Line 102: -
+Line 102: ID = EBADF
+Line 102: ;
+Line 103: ID = file
+Line 103: =
+Line 103: ID = fget
+Line 103: (
+Line 103: ID = fd
+Line 103: )
+Line 103: ;
+Line 104: if
+Line 104: (
+Line 104: !
+Line 104: ID = file
+Line 104: )
+Line 105: ID = goto
+Line 105: ID = out
+Line 105: ;
+Line 107: ID = buf
+Line 107: Unrecognized token: 46
+Line 107: ID = result
+Line 107: =
+Line 107: INTCON = 0
+Line 107: ;
+Line 108: ID = buf
+Line 108: Unrecognized token: 46
+Line 108: ID = dirent
+Line 108: =
+Line 108: ID = dirent
+Line 108: ;
+Line 110: ID = error
+Line 110: =
+Line 110: ID = vfs_readdir
+Line 110: (
+Line 110: ID = file
+Line 110: ,
+Line 110: ID = fillonedir
+Line 110: ,
+Line 110: Unrecognized token: 38
+Line 110: ID = buf
+Line 110: )
+Line 110: ;
+Line 111: if
+Line 111: (
+Line 111: ID = error
+Line 111: >=
+Line 111: INTCON = 0
+Line 111: )
+Line 112: ID = error
+Line 112: =
+Line 112: ID = buf
+Line 112: Unrecognized token: 46
+Line 112: ID = result
+Line 112: ;
+Line 114: ID = fput
+Line 114: (
+Line 114: ID = file
+Line 114: )
+Line 114: ;
+Line 115: ID = out
+Line 115: Unrecognized token: 58
+Line 116: return
+Line 116: ID = error
+Line 116: ;
+Line 117: }
+Line 119: Unrecognized token: 35
+Line 119: ID = endif
+Line 125: ID = struct
+Line 125: ID = linux_dirent
+Line 125: {
+Line 126: ID = unsigned
+Line 126: ID = long
+Line 126: ID = d_ino
+Line 126: ;
+Line 127: ID = unsigned
+Line 127: ID = long
+Line 127: ID = d_off
+Line 127: ;
+Line 128: ID = unsigned
+Line 128: ID = short
+Line 128: ID = d_reclen
+Line 128: ;
+Line 129: char
+Line 129: ID = d_name
+Line 129: [
+Line 129: INTCON = 1
+Line 129: ]
+Line 129: ;
+Line 130: }
+Line 130: ;
+Line 132: ID = struct
+Line 132: ID = getdents_callback
+Line 132: {
+Line 133: ID = struct
+Line 133: ID = linux_dirent
+Line 133: Unrecognized token: 95
+Line 133: Unrecognized token: 95
+Line 133: ID = user
+Line 133: *
+Line 133: ID = current_dir
+Line 133: ;
+Line 134: ID = struct
+Line 134: ID = linux_dirent
+Line 134: Unrecognized token: 95
+Line 134: Unrecognized token: 95
+Line 134: ID = user
+Line 134: *
+Line 134: ID = previous
+Line 134: ;
+Line 135: int
+Line 135: ID = count
+Line 135: ;
+Line 136: int
+Line 136: ID = error
+Line 136: ;
+Line 137: }
+Line 137: ;
+Line 139: ID = static
+Line 139: int
+Line 139: ID = filldir
+Line 139: (
+Line 139: void
+Line 139: *
+Line 139: Unrecognized token: 95
+Line 139: Unrecognized token: 95
+Line 139: ID = buf
+Line 139: ,
+Line 139: ID = const
+Line 139: char
+Line 139: *
+Line 139: ID = name
+Line 139: ,
+Line 139: int
+Line 139: ID = namlen
+Line 139: ,
+Line 139: ID = loff_t
+Line 139: ID = offset
+Line 139: ,
+Line 140: ID = ino_t
+Line 140: ID = ino
+Line 140: ,
+Line 140: ID = unsigned
+Line 140: int
+Line 140: ID = d_type
+Line 140: )
+Line 141: {
+Line 142: ID = struct
+Line 142: ID = linux_dirent
+Line 142: Unrecognized token: 95
+Line 142: Unrecognized token: 95
+Line 142: ID = user
+Line 142: *
+Line 142: ID = dirent
+Line 142: ;
+Line 143: ID = struct
+Line 143: ID = getdents_callback
+Line 143: *
+Line 143: ID = buf
+Line 143: =
+Line 143: (
+Line 143: ID = struct
+Line 143: ID = getdents_callback
+Line 143: *
+Line 143: )
+Line 143: Unrecognized token: 95
+Line 143: Unrecognized token: 95
+Line 143: ID = buf
+Line 143: ;
+Line 144: int
+Line 144: ID = reclen
+Line 144: =
+Line 144: ID = ROUND_UP
+Line 144: (
+Line 144: ID = NAME_OFFSET
+Line 144: (
+Line 144: ID = dirent
+Line 144: )
+Line 144: +
+Line 144: ID = namlen
+Line 144: +
+Line 144: INTCON = 2
+Line 144: )
+Line 144: ;
+Line 146: ID = buf
+Line 146: -
+Line 146: >
+Line 146: ID = error
+Line 146: =
+Line 146: -
+Line 146: ID = EINVAL
+Line 146: ;
+Line 147: if
+Line 147: (
+Line 147: ID = reclen
+Line 147: >
+Line 147: ID = buf
+Line 147: -
+Line 147: >
+Line 147: ID = count
+Line 147: )
+Line 148: return
+Line 148: -
+Line 148: ID = EINVAL
+Line 148: ;
+Line 149: ID = dirent
+Line 149: =
+Line 149: ID = buf
+Line 149: -
+Line 149: >
+Line 149: ID = previous
+Line 149: ;
+Line 150: if
+Line 150: (
+Line 150: ID = dirent
+Line 150: )
+Line 150: {
+Line 151: if
+Line 151: (
+Line 151: Unrecognized token: 95
+Line 151: Unrecognized token: 95
+Line 151: ID = put_user
+Line 151: (
+Line 151: ID = offset
+Line 151: ,
+Line 151: Unrecognized token: 38
+Line 151: ID = dirent
+Line 151: -
+Line 151: >
+Line 151: ID = d_off
+Line 151: )
+Line 151: )
+Line 152: ID = goto
+Line 152: ID = efault
+Line 152: ;
+Line 153: }
+Line 154: ID = dirent
+Line 154: =
+Line 154: ID = buf
+Line 154: -
+Line 154: >
+Line 154: ID = current_dir
+Line 154: ;
+Line 155: if
+Line 155: (
+Line 155: Unrecognized token: 95
+Line 155: Unrecognized token: 95
+Line 155: ID = put_user
+Line 155: (
+Line 155: ID = ino
+Line 155: ,
+Line 155: Unrecognized token: 38
+Line 155: ID = dirent
+Line 155: -
+Line 155: >
+Line 155: ID = d_ino
+Line 155: )
+Line 155: )
+Line 156: ID = goto
+Line 156: ID = efault
+Line 156: ;
+Line 157: if
+Line 157: (
+Line 157: Unrecognized token: 95
+Line 157: Unrecognized token: 95
+Line 157: ID = put_user
+Line 157: (
+Line 157: ID = reclen
+Line 157: ,
+Line 157: Unrecognized token: 38
+Line 157: ID = dirent
+Line 157: -
+Line 157: >
+Line 157: ID = d_reclen
+Line 157: )
+Line 157: )
+Line 158: ID = goto
+Line 158: ID = efault
+Line 158: ;
+Line 159: if
+Line 159: (
+Line 159: ID = copy_to_user
+Line 159: (
+Line 159: ID = dirent
+Line 159: -
+Line 159: >
+Line 159: ID = d_name
+Line 159: ,
+Line 159: ID = name
+Line 159: ,
+Line 159: ID = namlen
+Line 159: )
+Line 159: )
+Line 160: ID = goto
+Line 160: ID = efault
+Line 160: ;
+Line 161: if
+Line 161: (
+Line 161: Unrecognized token: 95
+Line 161: Unrecognized token: 95
+Line 161: ID = put_user
+Line 161: (
+Line 161: INTCON = 0
+Line 161: ,
+Line 161: ID = dirent
+Line 161: -
+Line 161: >
+Line 161: ID = d_name
+Line 161: +
+Line 161: ID = namlen
+Line 161: )
+Line 161: )
+Line 162: ID = goto
+Line 162: ID = efault
+Line 162: ;
+Line 163: if
+Line 163: (
+Line 163: Unrecognized token: 95
+Line 163: Unrecognized token: 95
+Line 163: ID = put_user
+Line 163: (
+Line 163: ID = d_type
+Line 163: ,
+Line 163: (
+Line 163: char
+Line 163: Unrecognized token: 95
+Line 163: Unrecognized token: 95
+Line 163: ID = user
+Line 163: *
+Line 163: )
+Line 163: ID = dirent
+Line 163: +
+Line 163: ID = reclen
+Line 163: -
+Line 163: INTCON = 1
+Line 163: )
+Line 163: )
+Line 164: ID = goto
+Line 164: ID = efault
+Line 164: ;
+Line 165: ID = buf
+Line 165: -
+Line 165: >
+Line 165: ID = previous
+Line 165: =
+Line 165: ID = dirent
+Line 165: ;
+Line 166: ID = dirent
+Line 166: =
+Line 166: (
+Line 166: void
+Line 166: Unrecognized token: 95
+Line 166: Unrecognized token: 95
+Line 166: ID = user
+Line 166: *
+Line 166: )
+Line 166: ID = dirent
+Line 166: +
+Line 166: ID = reclen
+Line 166: ;
+Line 167: ID = buf
+Line 167: -
+Line 167: >
+Line 167: ID = current_dir
+Line 167: =
+Line 167: ID = dirent
+Line 167: ;
+Line 168: ID = buf
+Line 168: -
+Line 168: >
+Line 168: ID = count
+Line 168: -
+Line 168: =
+Line 168: ID = reclen
+Line 168: ;
+Line 169: return
+Line 169: INTCON = 0
+Line 169: ;
+Line 170: ID = efault
+Line 170: Unrecognized token: 58
+Line 171: ID = buf
+Line 171: -
+Line 171: >
+Line 171: ID = error
+Line 171: =
+Line 171: -
+Line 171: ID = EFAULT
+Line 171: ;
+Line 172: return
+Line 172: -
+Line 172: ID = EFAULT
+Line 172: ;
+Line 173: }
+Line 175: ID = asmlinkage
+Line 175: ID = long
+Line 175: ID = sys_getdents
+Line 175: (
+Line 175: ID = unsigned
+Line 175: int
+Line 175: ID = fd
+Line 175: ,
+Line 175: ID = struct
+Line 175: ID = linux_dirent
+Line 175: Unrecognized token: 95
+Line 175: Unrecognized token: 95
+Line 175: ID = user
+Line 175: *
+Line 175: ID = dirent
+Line 175: ,
+Line 175: ID = unsigned
+Line 175: int
+Line 175: ID = count
+Line 175: )
+Line 176: {
+Line 177: ID = struct
+Line 177: ID = file
+Line 177: *
+Line 177: ID = file
+Line 177: ;
+Line 178: ID = struct
+Line 178: ID = linux_dirent
+Line 178: Unrecognized token: 95
+Line 178: Unrecognized token: 95
+Line 178: ID = user
+Line 178: *
+Line 178: ID = lastdirent
+Line 178: ;
+Line 179: ID = struct
+Line 179: ID = getdents_callback
+Line 179: ID = buf
+Line 179: ;
+Line 180: int
+Line 180: ID = error
+Line 180: ;
+Line 182: ID = error
+Line 182: =
+Line 182: -
+Line 182: ID = EFAULT
+Line 182: ;
+Line 183: if
+Line 183: (
+Line 183: !
+Line 183: ID = access_ok
+Line 183: (
+Line 183: ID = VERIFY_WRITE
+Line 183: ,
+Line 183: ID = dirent
+Line 183: ,
+Line 183: ID = count
+Line 183: )
+Line 183: )
+Line 184: ID = goto
+Line 184: ID = out
+Line 184: ;
+Line 186: ID = error
+Line 186: =
+Line 186: -
+Line 186: ID = EBADF
+Line 186: ;
+Line 187: ID = file
+Line 187: =
+Line 187: ID = fget
+Line 187: (
+Line 187: ID = fd
+Line 187: )
+Line 187: ;
+Line 188: if
+Line 188: (
+Line 188: !
+Line 188: ID = file
+Line 188: )
+Line 189: ID = goto
+Line 189: ID = out
+Line 189: ;
+Line 191: ID = buf
+Line 191: Unrecognized token: 46
+Line 191: ID = current_dir
+Line 191: =
+Line 191: ID = dirent
+Line 191: ;
+Line 192: ID = buf
+Line 192: Unrecognized token: 46
+Line 192: ID = previous
+Line 192: =
+Line 192: ID = NULL
+Line 192: ;
+Line 193: ID = buf
+Line 193: Unrecognized token: 46
+Line 193: ID = count
+Line 193: =
+Line 193: ID = count
+Line 193: ;
+Line 194: ID = buf
+Line 194: Unrecognized token: 46
+Line 194: ID = error
+Line 194: =
+Line 194: INTCON = 0
+Line 194: ;
+Line 196: ID = error
+Line 196: =
+Line 196: ID = vfs_readdir
+Line 196: (
+Line 196: ID = file
+Line 196: ,
+Line 196: ID = filldir
+Line 196: ,
+Line 196: Unrecognized token: 38
+Line 196: ID = buf
+Line 196: )
+Line 196: ;
+Line 197: if
+Line 197: (
+Line 197: ID = error
+Line 197: <
+Line 197: INTCON = 0
+Line 197: )
+Line 198: ID = goto
+Line 198: ID = out_putf
+Line 198: ;
+Line 199: ID = error
+Line 199: =
+Line 199: ID = buf
+Line 199: Unrecognized token: 46
+Line 199: ID = error
+Line 199: ;
+Line 200: ID = lastdirent
+Line 200: =
+Line 200: ID = buf
+Line 200: Unrecognized token: 46
+Line 200: ID = previous
+Line 200: ;
+Line 201: if
+Line 201: (
+Line 201: ID = lastdirent
+Line 201: )
+Line 201: {
+Line 202: if
+Line 202: (
+Line 202: ID = put_user
+Line 202: (
+Line 202: ID = file
+Line 202: -
+Line 202: >
+Line 202: ID = f_pos
+Line 202: ,
+Line 202: Unrecognized token: 38
+Line 202: ID = lastdirent
+Line 202: -
+Line 202: >
+Line 202: ID = d_off
+Line 202: )
+Line 202: )
+Line 203: ID = error
+Line 203: =
+Line 203: -
+Line 203: ID = EFAULT
+Line 203: ;
+Line 204: else
+Line 205: ID = error
+Line 205: =
+Line 205: ID = count
+Line 205: -
+Line 205: ID = buf
+Line 205: Unrecognized token: 46
+Line 205: ID = count
+Line 205: ;
+Line 206: }
+Line 208: ID = out_putf
+Line 208: Unrecognized token: 58
+Line 209: ID = fput
+Line 209: (
+Line 209: ID = file
+Line 209: )
+Line 209: ;
+Line 210: ID = out
+Line 210: Unrecognized token: 58
+Line 211: return
+Line 211: ID = error
+Line 211: ;
+Line 212: }
+Line 214: Unrecognized token: 35
+Line 214: ID = define
+Line 214: ID = ROUND_UP64
+Line 214: (
+Line 214: ID = x
+Line 214: )
+Line 214: (
+Line 214: (
+Line 214: (
+Line 214: ID = x
+Line 214: )
+Line 214: +
+Line 214: ID = sizeof
+Line 214: (
+Line 214: ID = u64
+Line 214: )
+Line 214: -
+Line 214: INTCON = 1
+Line 214: )
+Line 214: Unrecognized token: 38
+Line 214: Unrecognized token: 126
+Line 214: (
+Line 214: ID = sizeof
+Line 214: (
+Line 214: ID = u64
+Line 214: )
+Line 214: -
+Line 214: INTCON = 1
+Line 214: )
+Line 214: )
+Line 216: ID = struct
+Line 216: ID = getdents_callback64
+Line 216: {
+Line 217: ID = struct
+Line 217: ID = linux_dirent64
+Line 217: Unrecognized token: 95
+Line 217: Unrecognized token: 95
+Line 217: ID = user
+Line 217: *
+Line 217: ID = current_dir
+Line 217: ;
+Line 218: ID = struct
+Line 218: ID = linux_dirent64
+Line 218: Unrecognized token: 95
+Line 218: Unrecognized token: 95
+Line 218: ID = user
+Line 218: *
+Line 218: ID = previous
+Line 218: ;
+Line 219: int
+Line 219: ID = count
+Line 219: ;
+Line 220: int
+Line 220: ID = error
+Line 220: ;
+Line 221: }
+Line 221: ;
+Line 223: ID = static
+Line 223: int
+Line 223: ID = filldir64
+Line 223: (
+Line 223: void
+Line 223: *
+Line 223: Unrecognized token: 95
+Line 223: Unrecognized token: 95
+Line 223: ID = buf
+Line 223: ,
+Line 223: ID = const
+Line 223: char
+Line 223: *
+Line 223: ID = name
+Line 223: ,
+Line 223: int
+Line 223: ID = namlen
+Line 223: ,
+Line 223: ID = loff_t
+Line 223: ID = offset
+Line 223: ,
+Line 224: ID = ino_t
+Line 224: ID = ino
+Line 224: ,
+Line 224: ID = unsigned
+Line 224: int
+Line 224: ID = d_type
+Line 224: )
+Line 225: {
+Line 226: ID = struct
+Line 226: ID = linux_dirent64
+Line 226: Unrecognized token: 95
+Line 226: Unrecognized token: 95
+Line 226: ID = user
+Line 226: *
+Line 226: ID = dirent
+Line 226: ;
+Line 227: ID = struct
+Line 227: ID = getdents_callback64
+Line 227: *
+Line 227: ID = buf
+Line 227: =
+Line 227: (
+Line 227: ID = struct
+Line 227: ID = getdents_callback64
+Line 227: *
+Line 227: )
+Line 227: Unrecognized token: 95
+Line 227: Unrecognized token: 95
+Line 227: ID = buf
+Line 227: ;
+Line 228: int
+Line 228: ID = reclen
+Line 228: =
+Line 228: ID = ROUND_UP64
+Line 228: (
+Line 228: ID = NAME_OFFSET
+Line 228: (
+Line 228: ID = dirent
+Line 228: )
+Line 228: +
+Line 228: ID = namlen
+Line 228: +
+Line 228: INTCON = 1
+Line 228: )
+Line 228: ;
+Line 230: ID = buf
+Line 230: -
+Line 230: >
+Line 230: ID = error
+Line 230: =
+Line 230: -
+Line 230: ID = EINVAL
+Line 230: ;
+Line 231: if
+Line 231: (
+Line 231: ID = reclen
+Line 231: >
+Line 231: ID = buf
+Line 231: -
+Line 231: >
+Line 231: ID = count
+Line 231: )
+Line 232: return
+Line 232: -
+Line 232: ID = EINVAL
+Line 232: ;
+Line 233: ID = dirent
+Line 233: =
+Line 233: ID = buf
+Line 233: -
+Line 233: >
+Line 233: ID = previous
+Line 233: ;
+Line 234: if
+Line 234: (
+Line 234: ID = dirent
+Line 234: )
+Line 234: {
+Line 235: if
+Line 235: (
+Line 235: Unrecognized token: 95
+Line 235: Unrecognized token: 95
+Line 235: ID = put_user
+Line 235: (
+Line 235: ID = offset
+Line 235: ,
+Line 235: Unrecognized token: 38
+Line 235: ID = dirent
+Line 235: -
+Line 235: >
+Line 235: ID = d_off
+Line 235: )
+Line 235: )
+Line 236: ID = goto
+Line 236: ID = efault
+Line 236: ;
+Line 237: }
+Line 238: ID = dirent
+Line 238: =
+Line 238: ID = buf
+Line 238: -
+Line 238: >
+Line 238: ID = current_dir
+Line 238: ;
+Line 239: if
+Line 239: (
+Line 239: Unrecognized token: 95
+Line 239: Unrecognized token: 95
+Line 239: ID = put_user
+Line 239: (
+Line 239: ID = ino
+Line 239: ,
+Line 239: Unrecognized token: 38
+Line 239: ID = dirent
+Line 239: -
+Line 239: >
+Line 239: ID = d_ino
+Line 239: )
+Line 239: )
+Line 240: ID = goto
+Line 240: ID = efault
+Line 240: ;
+Line 241: if
+Line 241: (
+Line 241: Unrecognized token: 95
+Line 241: Unrecognized token: 95
+Line 241: ID = put_user
+Line 241: (
+Line 241: INTCON = 0
+Line 241: ,
+Line 241: Unrecognized token: 38
+Line 241: ID = dirent
+Line 241: -
+Line 241: >
+Line 241: ID = d_off
+Line 241: )
+Line 241: )
+Line 242: ID = goto
+Line 242: ID = efault
+Line 242: ;
+Line 243: if
+Line 243: (
+Line 243: Unrecognized token: 95
+Line 243: Unrecognized token: 95
+Line 243: ID = put_user
+Line 243: (
+Line 243: ID = reclen
+Line 243: ,
+Line 243: Unrecognized token: 38
+Line 243: ID = dirent
+Line 243: -
+Line 243: >
+Line 243: ID = d_reclen
+Line 243: )
+Line 243: )
+Line 244: ID = goto
+Line 244: ID = efault
+Line 244: ;
+Line 245: if
+Line 245: (
+Line 245: Unrecognized token: 95
+Line 245: Unrecognized token: 95
+Line 245: ID = put_user
+Line 245: (
+Line 245: ID = d_type
+Line 245: ,
+Line 245: Unrecognized token: 38
+Line 245: ID = dirent
+Line 245: -
+Line 245: >
+Line 245: ID = d_type
+Line 245: )
+Line 245: )
+Line 246: ID = goto
+Line 246: ID = efault
+Line 246: ;
+Line 247: if
+Line 247: (
+Line 247: ID = copy_to_user
+Line 247: (
+Line 247: ID = dirent
+Line 247: -
+Line 247: >
+Line 247: ID = d_name
+Line 247: ,
+Line 247: ID = name
+Line 247: ,
+Line 247: ID = namlen
+Line 247: )
+Line 247: )
+Line 248: ID = goto
+Line 248: ID = efault
+Line 248: ;
+Line 249: if
+Line 249: (
+Line 249: Unrecognized token: 95
+Line 249: Unrecognized token: 95
+Line 249: ID = put_user
+Line 249: (
+Line 249: INTCON = 0
+Line 249: ,
+Line 249: ID = dirent
+Line 249: -
+Line 249: >
+Line 249: ID = d_name
+Line 249: +
+Line 249: ID = namlen
+Line 249: )
+Line 249: )
+Line 250: ID = goto
+Line 250: ID = efault
+Line 250: ;
+Line 251: ID = buf
+Line 251: -
+Line 251: >
+Line 251: ID = previous
+Line 251: =
+Line 251: ID = dirent
+Line 251: ;
+Line 252: ID = dirent
+Line 252: =
+Line 252: (
+Line 252: void
+Line 252: Unrecognized token: 95
+Line 252: Unrecognized token: 95
+Line 252: ID = user
+Line 252: *
+Line 252: )
+Line 252: ID = dirent
+Line 252: +
+Line 252: ID = reclen
+Line 252: ;
+Line 253: ID = buf
+Line 253: -
+Line 253: >
+Line 253: ID = current_dir
+Line 253: =
+Line 253: ID = dirent
+Line 253: ;
+Line 254: ID = buf
+Line 254: -
+Line 254: >
+Line 254: ID = count
+Line 254: -
+Line 254: =
+Line 254: ID = reclen
+Line 254: ;
+Line 255: return
+Line 255: INTCON = 0
+Line 255: ;
+Line 256: ID = efault
+Line 256: Unrecognized token: 58
+Line 257: ID = buf
+Line 257: -
+Line 257: >
+Line 257: ID = error
+Line 257: =
+Line 257: -
+Line 257: ID = EFAULT
+Line 257: ;
+Line 258: return
+Line 258: -
+Line 258: ID = EFAULT
+Line 258: ;
+Line 259: }
+Line 261: ID = asmlinkage
+Line 261: ID = long
+Line 261: ID = sys_getdents64
+Line 261: (
+Line 261: ID = unsigned
+Line 261: int
+Line 261: ID = fd
+Line 261: ,
+Line 261: ID = struct
+Line 261: ID = linux_dirent64
+Line 261: Unrecognized token: 95
+Line 261: Unrecognized token: 95
+Line 261: ID = user
+Line 261: *
+Line 261: ID = dirent
+Line 261: ,
+Line 261: ID = unsigned
+Line 261: int
+Line 261: ID = count
+Line 261: )
+Line 262: {
+Line 263: ID = struct
+Line 263: ID = file
+Line 263: *
+Line 263: ID = file
+Line 263: ;
+Line 264: ID = struct
+Line 264: ID = linux_dirent64
+Line 264: Unrecognized token: 95
+Line 264: Unrecognized token: 95
+Line 264: ID = user
+Line 264: *
+Line 264: ID = lastdirent
+Line 264: ;
+Line 265: ID = struct
+Line 265: ID = getdents_callback64
+Line 265: ID = buf
+Line 265: ;
+Line 266: int
+Line 266: ID = error
+Line 266: ;
+Line 268: ID = error
+Line 268: =
+Line 268: -
+Line 268: ID = EFAULT
+Line 268: ;
+Line 269: if
+Line 269: (
+Line 269: !
+Line 269: ID = access_ok
+Line 269: (
+Line 269: ID = VERIFY_WRITE
+Line 269: ,
+Line 269: ID = dirent
+Line 269: ,
+Line 269: ID = count
+Line 269: )
+Line 269: )
+Line 270: ID = goto
+Line 270: ID = out
+Line 270: ;
+Line 272: ID = error
+Line 272: =
+Line 272: -
+Line 272: ID = EBADF
+Line 272: ;
+Line 273: ID = file
+Line 273: =
+Line 273: ID = fget
+Line 273: (
+Line 273: ID = fd
+Line 273: )
+Line 273: ;
+Line 274: if
+Line 274: (
+Line 274: !
+Line 274: ID = file
+Line 274: )
+Line 275: ID = goto
+Line 275: ID = out
+Line 275: ;
+Line 277: ID = buf
+Line 277: Unrecognized token: 46
+Line 277: ID = current_dir
+Line 277: =
+Line 277: ID = dirent
+Line 277: ;
+Line 278: ID = buf
+Line 278: Unrecognized token: 46
+Line 278: ID = previous
+Line 278: =
+Line 278: ID = NULL
+Line 278: ;
+Line 279: ID = buf
+Line 279: Unrecognized token: 46
+Line 279: ID = count
+Line 279: =
+Line 279: ID = count
+Line 279: ;
+Line 280: ID = buf
+Line 280: Unrecognized token: 46
+Line 280: ID = error
+Line 280: =
+Line 280: INTCON = 0
+Line 280: ;
+Line 282: ID = error
+Line 282: =
+Line 282: ID = vfs_readdir
+Line 282: (
+Line 282: ID = file
+Line 282: ,
+Line 282: ID = filldir64
+Line 282: ,
+Line 282: Unrecognized token: 38
+Line 282: ID = buf
+Line 282: )
+Line 282: ;
+Line 283: if
+Line 283: (
+Line 283: ID = error
+Line 283: <
+Line 283: INTCON = 0
+Line 283: )
+Line 284: ID = goto
+Line 284: ID = out_putf
+Line 284: ;
+Line 285: ID = error
+Line 285: =
+Line 285: ID = buf
+Line 285: Unrecognized token: 46
+Line 285: ID = error
+Line 285: ;
+Line 286: ID = lastdirent
+Line 286: =
+Line 286: ID = buf
+Line 286: Unrecognized token: 46
+Line 286: ID = previous
+Line 286: ;
+Line 287: if
+Line 287: (
+Line 287: ID = lastdirent
+Line 287: )
+Line 287: {
+Line 288: ID = typeof
+Line 288: (
+Line 288: ID = lastdirent
+Line 288: -
+Line 288: >
+Line 288: ID = d_off
+Line 288: )
+Line 288: ID = d_off
+Line 288: =
+Line 288: ID = file
+Line 288: -
+Line 288: >
+Line 288: ID = f_pos
+Line 288: ;
+Line 289: Unrecognized token: 95
+Line 289: Unrecognized token: 95
+Line 289: ID = put_user
+Line 289: (
+Line 289: ID = d_off
+Line 289: ,
+Line 289: Unrecognized token: 38
+Line 289: ID = lastdirent
+Line 289: -
+Line 289: >
+Line 289: ID = d_off
+Line 289: )
+Line 289: ;
+Line 290: ID = error
+Line 290: =
+Line 290: ID = count
+Line 290: -
+Line 290: ID = buf
+Line 290: Unrecognized token: 46
+Line 290: ID = count
+Line 290: ;
+Line 291: }
+Line 293: ID = out_putf
+Line 293: Unrecognized token: 58
+Line 294: ID = fput
+Line 294: (
+Line 294: ID = file
+Line 294: )
+Line 294: ;
+Line 295: ID = out
+Line 295: Unrecognized token: 58
+Line 296: return
+Line 296: ID = error
+Line 296: ;
+Line 297: }
+Line 298: -EOF-

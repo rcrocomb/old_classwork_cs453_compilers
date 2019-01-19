@@ -1,0 +1,2228 @@
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = module
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = kernel
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = sched
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = init
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = signal
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = completion
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = workqueue
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = slab
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = cpu
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = notifier
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = kthread
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 38: ID = struct
+Line 38: ID = cpu_workqueue_struct
+Line 38: {
+Line 40: ID = spinlock_t
+Line 40: ID = lock
+Line 40: ;
+Line 42: ID = long
+Line 42: ID = remove_sequence
+Line 42: ;
+Line 43: ID = long
+Line 43: ID = insert_sequence
+Line 43: ;
+Line 45: ID = struct
+Line 45: ID = list_head
+Line 45: ID = worklist
+Line 45: ;
+Line 46: ID = wait_queue_head_t
+Line 46: ID = more_work
+Line 46: ;
+Line 47: ID = wait_queue_head_t
+Line 47: ID = work_done
+Line 47: ;
+Line 49: ID = struct
+Line 49: ID = workqueue_struct
+Line 49: *
+Line 49: ID = wq
+Line 49: ;
+Line 50: ID = task_t
+Line 50: *
+Line 50: ID = thread
+Line 50: ;
+Line 52: int
+Line 52: ID = run_depth
+Line 52: ;
+Line 53: }
+Line 53: Unrecognized token: 95
+Line 53: Unrecognized token: 95
+Line 53: Unrecognized token: 95
+Line 53: Unrecognized token: 95
+Line 53: ID = cacheline_aligned
+Line 53: ;
+Line 59: ID = struct
+Line 59: ID = workqueue_struct
+Line 59: {
+Line 60: ID = struct
+Line 60: ID = cpu_workqueue_struct
+Line 60: ID = cpu_wq
+Line 60: [
+Line 60: ID = NR_CPUS
+Line 60: ]
+Line 60: ;
+Line 61: ID = const
+Line 61: char
+Line 61: *
+Line 61: ID = name
+Line 61: ;
+Line 62: ID = struct
+Line 62: ID = list_head
+Line 62: ID = list
+Line 62: ;
+Line 63: }
+Line 63: ;
+Line 67: ID = static
+Line 67: ID = spinlock_t
+Line 67: ID = workqueue_lock
+Line 67: =
+Line 67: ID = SPIN_LOCK_UNLOCKED
+Line 67: ;
+Line 68: ID = static
+Line 68: ID = LIST_HEAD
+Line 68: (
+Line 68: ID = workqueues
+Line 68: )
+Line 68: ;
+Line 71: ID = static
+Line 71: ID = inline
+Line 71: int
+Line 71: ID = is_single_threaded
+Line 71: (
+Line 71: ID = struct
+Line 71: ID = workqueue_struct
+Line 71: *
+Line 71: ID = wq
+Line 71: )
+Line 72: {
+Line 73: return
+Line 73: ID = list_empty
+Line 73: (
+Line 73: Unrecognized token: 38
+Line 73: ID = wq
+Line 73: -
+Line 73: >
+Line 73: ID = list
+Line 73: )
+Line 73: ;
+Line 74: }
+Line 77: ID = static
+Line 77: void
+Line 77: Unrecognized token: 95
+Line 77: Unrecognized token: 95
+Line 77: ID = queue_work
+Line 77: (
+Line 77: ID = struct
+Line 77: ID = cpu_workqueue_struct
+Line 77: *
+Line 77: ID = cwq
+Line 77: ,
+Line 78: ID = struct
+Line 78: ID = work_struct
+Line 78: *
+Line 78: ID = work
+Line 78: )
+Line 79: {
+Line 80: ID = unsigned
+Line 80: ID = long
+Line 80: ID = flags
+Line 80: ;
+Line 82: ID = spin_lock_irqsave
+Line 82: (
+Line 82: Unrecognized token: 38
+Line 82: ID = cwq
+Line 82: -
+Line 82: >
+Line 82: ID = lock
+Line 82: ,
+Line 82: ID = flags
+Line 82: )
+Line 82: ;
+Line 83: ID = work
+Line 83: -
+Line 83: >
+Line 83: ID = wq_data
+Line 83: =
+Line 83: ID = cwq
+Line 83: ;
+Line 84: ID = list_add_tail
+Line 84: (
+Line 84: Unrecognized token: 38
+Line 84: ID = work
+Line 84: -
+Line 84: >
+Line 84: ID = entry
+Line 84: ,
+Line 84: Unrecognized token: 38
+Line 84: ID = cwq
+Line 84: -
+Line 84: >
+Line 84: ID = worklist
+Line 84: )
+Line 84: ;
+Line 85: ID = cwq
+Line 85: -
+Line 85: >
+Line 85: ID = insert_sequence
+Line 85: +
+Line 85: +
+Line 85: ;
+Line 86: ID = wake_up
+Line 86: (
+Line 86: Unrecognized token: 38
+Line 86: ID = cwq
+Line 86: -
+Line 86: >
+Line 86: ID = more_work
+Line 86: )
+Line 86: ;
+Line 87: ID = spin_unlock_irqrestore
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: ID = cwq
+Line 87: -
+Line 87: >
+Line 87: ID = lock
+Line 87: ,
+Line 87: ID = flags
+Line 87: )
+Line 87: ;
+Line 88: }
+Line 97: int
+Line 97: ID = fastcall
+Line 97: ID = queue_work
+Line 97: (
+Line 97: ID = struct
+Line 97: ID = workqueue_struct
+Line 97: *
+Line 97: ID = wq
+Line 97: ,
+Line 97: ID = struct
+Line 97: ID = work_struct
+Line 97: *
+Line 97: ID = work
+Line 97: )
+Line 98: {
+Line 99: int
+Line 99: ID = ret
+Line 99: =
+Line 99: INTCON = 0
+Line 99: ,
+Line 99: ID = cpu
+Line 99: =
+Line 99: ID = get_cpu
+Line 99: (
+Line 99: )
+Line 99: ;
+Line 101: if
+Line 101: (
+Line 101: !
+Line 101: ID = test_and_set_bit
+Line 101: (
+Line 101: INTCON = 0
+Line 101: ,
+Line 101: Unrecognized token: 38
+Line 101: ID = work
+Line 101: -
+Line 101: >
+Line 101: ID = pending
+Line 101: )
+Line 101: )
+Line 101: {
+Line 102: if
+Line 102: (
+Line 102: ID = unlikely
+Line 102: (
+Line 102: ID = is_single_threaded
+Line 102: (
+Line 102: ID = wq
+Line 102: )
+Line 102: )
+Line 102: )
+Line 103: ID = cpu
+Line 103: =
+Line 103: INTCON = 0
+Line 103: ;
+Line 104: ID = BUG_ON
+Line 104: (
+Line 104: !
+Line 104: ID = list_empty
+Line 104: (
+Line 104: Unrecognized token: 38
+Line 104: ID = work
+Line 104: -
+Line 104: >
+Line 104: ID = entry
+Line 104: )
+Line 104: )
+Line 104: ;
+Line 105: Unrecognized token: 95
+Line 105: Unrecognized token: 95
+Line 105: ID = queue_work
+Line 105: (
+Line 105: ID = wq
+Line 105: -
+Line 105: >
+Line 105: ID = cpu_wq
+Line 105: +
+Line 105: ID = cpu
+Line 105: ,
+Line 105: ID = work
+Line 105: )
+Line 105: ;
+Line 106: ID = ret
+Line 106: =
+Line 106: INTCON = 1
+Line 106: ;
+Line 107: }
+Line 108: ID = put_cpu
+Line 108: (
+Line 108: )
+Line 108: ;
+Line 109: return
+Line 109: ID = ret
+Line 109: ;
+Line 110: }
+Line 112: ID = static
+Line 112: void
+Line 112: ID = delayed_work_timer_fn
+Line 112: (
+Line 112: ID = unsigned
+Line 112: ID = long
+Line 112: Unrecognized token: 95
+Line 112: Unrecognized token: 95
+Line 112: ID = data
+Line 112: )
+Line 113: {
+Line 114: ID = struct
+Line 114: ID = work_struct
+Line 114: *
+Line 114: ID = work
+Line 114: =
+Line 114: (
+Line 114: ID = struct
+Line 114: ID = work_struct
+Line 114: *
+Line 114: )
+Line 114: Unrecognized token: 95
+Line 114: Unrecognized token: 95
+Line 114: ID = data
+Line 114: ;
+Line 115: ID = struct
+Line 115: ID = workqueue_struct
+Line 115: *
+Line 115: ID = wq
+Line 115: =
+Line 115: ID = work
+Line 115: -
+Line 115: >
+Line 115: ID = wq_data
+Line 115: ;
+Line 116: int
+Line 116: ID = cpu
+Line 116: =
+Line 116: ID = smp_processor_id
+Line 116: (
+Line 116: )
+Line 116: ;
+Line 118: if
+Line 118: (
+Line 118: ID = unlikely
+Line 118: (
+Line 118: ID = is_single_threaded
+Line 118: (
+Line 118: ID = wq
+Line 118: )
+Line 118: )
+Line 118: )
+Line 119: ID = cpu
+Line 119: =
+Line 119: INTCON = 0
+Line 119: ;
+Line 121: Unrecognized token: 95
+Line 121: Unrecognized token: 95
+Line 121: ID = queue_work
+Line 121: (
+Line 121: ID = wq
+Line 121: -
+Line 121: >
+Line 121: ID = cpu_wq
+Line 121: +
+Line 121: ID = cpu
+Line 121: ,
+Line 121: ID = work
+Line 121: )
+Line 121: ;
+Line 122: }
+Line 124: int
+Line 124: ID = fastcall
+Line 124: ID = queue_delayed_work
+Line 124: (
+Line 124: ID = struct
+Line 124: ID = workqueue_struct
+Line 124: *
+Line 124: ID = wq
+Line 124: ,
+Line 125: ID = struct
+Line 125: ID = work_struct
+Line 125: *
+Line 125: ID = work
+Line 125: ,
+Line 125: ID = unsigned
+Line 125: ID = long
+Line 125: ID = delay
+Line 125: )
+Line 126: {
+Line 127: int
+Line 127: ID = ret
+Line 127: =
+Line 127: INTCON = 0
+Line 127: ;
+Line 128: ID = struct
+Line 128: ID = timer_list
+Line 128: *
+Line 128: ID = timer
+Line 128: =
+Line 128: Unrecognized token: 38
+Line 128: ID = work
+Line 128: -
+Line 128: >
+Line 128: ID = timer
+Line 128: ;
+Line 130: if
+Line 130: (
+Line 130: !
+Line 130: ID = test_and_set_bit
+Line 130: (
+Line 130: INTCON = 0
+Line 130: ,
+Line 130: Unrecognized token: 38
+Line 130: ID = work
+Line 130: -
+Line 130: >
+Line 130: ID = pending
+Line 130: )
+Line 130: )
+Line 130: {
+Line 131: ID = BUG_ON
+Line 131: (
+Line 131: ID = timer_pending
+Line 131: (
+Line 131: ID = timer
+Line 131: )
+Line 131: )
+Line 131: ;
+Line 132: ID = BUG_ON
+Line 132: (
+Line 132: !
+Line 132: ID = list_empty
+Line 132: (
+Line 132: Unrecognized token: 38
+Line 132: ID = work
+Line 132: -
+Line 132: >
+Line 132: ID = entry
+Line 132: )
+Line 132: )
+Line 132: ;
+Line 135: ID = work
+Line 135: -
+Line 135: >
+Line 135: ID = wq_data
+Line 135: =
+Line 135: ID = wq
+Line 135: ;
+Line 136: ID = timer
+Line 136: -
+Line 136: >
+Line 136: ID = expires
+Line 136: =
+Line 136: ID = jiffies
+Line 136: +
+Line 136: ID = delay
+Line 136: ;
+Line 137: ID = timer
+Line 137: -
+Line 137: >
+Line 137: ID = data
+Line 137: =
+Line 137: (
+Line 137: ID = unsigned
+Line 137: ID = long
+Line 137: )
+Line 137: ID = work
+Line 137: ;
+Line 138: ID = timer
+Line 138: -
+Line 138: >
+Line 138: ID = function
+Line 138: =
+Line 138: ID = delayed_work_timer_fn
+Line 138: ;
+Line 139: ID = add_timer
+Line 139: (
+Line 139: ID = timer
+Line 139: )
+Line 139: ;
+Line 140: ID = ret
+Line 140: =
+Line 140: INTCON = 1
+Line 140: ;
+Line 141: }
+Line 142: return
+Line 142: ID = ret
+Line 142: ;
+Line 143: }
+Line 145: ID = static
+Line 145: ID = inline
+Line 145: void
+Line 145: ID = run_workqueue
+Line 145: (
+Line 145: ID = struct
+Line 145: ID = cpu_workqueue_struct
+Line 145: *
+Line 145: ID = cwq
+Line 145: )
+Line 146: {
+Line 147: ID = unsigned
+Line 147: ID = long
+Line 147: ID = flags
+Line 147: ;
+Line 153: ID = spin_lock_irqsave
+Line 153: (
+Line 153: Unrecognized token: 38
+Line 153: ID = cwq
+Line 153: -
+Line 153: >
+Line 153: ID = lock
+Line 153: ,
+Line 153: ID = flags
+Line 153: )
+Line 153: ;
+Line 154: ID = cwq
+Line 154: -
+Line 154: >
+Line 154: ID = run_depth
+Line 154: +
+Line 154: +
+Line 154: ;
+Line 155: if
+Line 155: (
+Line 155: ID = cwq
+Line 155: -
+Line 155: >
+Line 155: ID = run_depth
+Line 155: >
+Line 155: INTCON = 3
+Line 155: )
+Line 155: {
+Line 157: ID = printk
+Line 157: (
+Line 157: STRINGCON = "%s: recursion depth exceeded: %d\n"
+Line 157: ,
+Line 158: Unrecognized token: 95
+Line 158: Unrecognized token: 95
+Line 158: ID = FUNCTION__
+Line 158: ,
+Line 158: ID = cwq
+Line 158: -
+Line 158: >
+Line 158: ID = run_depth
+Line 158: )
+Line 158: ;
+Line 159: ID = dump_stack
+Line 159: (
+Line 159: )
+Line 159: ;
+Line 160: }
+Line 161: while
+Line 161: (
+Line 161: !
+Line 161: ID = list_empty
+Line 161: (
+Line 161: Unrecognized token: 38
+Line 161: ID = cwq
+Line 161: -
+Line 161: >
+Line 161: ID = worklist
+Line 161: )
+Line 161: )
+Line 161: {
+Line 162: ID = struct
+Line 162: ID = work_struct
+Line 162: *
+Line 162: ID = work
+Line 162: =
+Line 162: ID = list_entry
+Line 162: (
+Line 162: ID = cwq
+Line 162: -
+Line 162: >
+Line 162: ID = worklist
+Line 162: Unrecognized token: 46
+Line 162: ID = next
+Line 162: ,
+Line 163: ID = struct
+Line 163: ID = work_struct
+Line 163: ,
+Line 163: ID = entry
+Line 163: )
+Line 163: ;
+Line 164: void
+Line 164: (
+Line 164: *
+Line 164: ID = f
+Line 164: )
+Line 164: (
+Line 164: void
+Line 164: *
+Line 164: )
+Line 164: =
+Line 164: ID = work
+Line 164: -
+Line 164: >
+Line 164: ID = func
+Line 164: ;
+Line 165: void
+Line 165: *
+Line 165: ID = data
+Line 165: =
+Line 165: ID = work
+Line 165: -
+Line 165: >
+Line 165: ID = data
+Line 165: ;
+Line 167: ID = list_del_init
+Line 167: (
+Line 167: ID = cwq
+Line 167: -
+Line 167: >
+Line 167: ID = worklist
+Line 167: Unrecognized token: 46
+Line 167: ID = next
+Line 167: )
+Line 167: ;
+Line 168: ID = spin_unlock_irqrestore
+Line 168: (
+Line 168: Unrecognized token: 38
+Line 168: ID = cwq
+Line 168: -
+Line 168: >
+Line 168: ID = lock
+Line 168: ,
+Line 168: ID = flags
+Line 168: )
+Line 168: ;
+Line 170: ID = BUG_ON
+Line 170: (
+Line 170: ID = work
+Line 170: -
+Line 170: >
+Line 170: ID = wq_data
+Line 170: !=
+Line 170: ID = cwq
+Line 170: )
+Line 170: ;
+Line 171: ID = clear_bit
+Line 171: (
+Line 171: INTCON = 0
+Line 171: ,
+Line 171: Unrecognized token: 38
+Line 171: ID = work
+Line 171: -
+Line 171: >
+Line 171: ID = pending
+Line 171: )
+Line 171: ;
+Line 172: ID = f
+Line 172: (
+Line 172: ID = data
+Line 172: )
+Line 172: ;
+Line 174: ID = spin_lock_irqsave
+Line 174: (
+Line 174: Unrecognized token: 38
+Line 174: ID = cwq
+Line 174: -
+Line 174: >
+Line 174: ID = lock
+Line 174: ,
+Line 174: ID = flags
+Line 174: )
+Line 174: ;
+Line 175: ID = cwq
+Line 175: -
+Line 175: >
+Line 175: ID = remove_sequence
+Line 175: +
+Line 175: +
+Line 175: ;
+Line 176: ID = wake_up
+Line 176: (
+Line 176: Unrecognized token: 38
+Line 176: ID = cwq
+Line 176: -
+Line 176: >
+Line 176: ID = work_done
+Line 176: )
+Line 176: ;
+Line 177: }
+Line 178: ID = cwq
+Line 178: -
+Line 178: >
+Line 178: ID = run_depth
+Line 178: -
+Line 178: -
+Line 178: ;
+Line 179: ID = spin_unlock_irqrestore
+Line 179: (
+Line 179: Unrecognized token: 38
+Line 179: ID = cwq
+Line 179: -
+Line 179: >
+Line 179: ID = lock
+Line 179: ,
+Line 179: ID = flags
+Line 179: )
+Line 179: ;
+Line 180: }
+Line 182: ID = static
+Line 182: int
+Line 182: ID = worker_thread
+Line 182: (
+Line 182: void
+Line 182: *
+Line 182: Unrecognized token: 95
+Line 182: Unrecognized token: 95
+Line 182: ID = cwq
+Line 182: )
+Line 183: {
+Line 184: ID = struct
+Line 184: ID = cpu_workqueue_struct
+Line 184: *
+Line 184: ID = cwq
+Line 184: =
+Line 184: Unrecognized token: 95
+Line 184: Unrecognized token: 95
+Line 184: ID = cwq
+Line 184: ;
+Line 185: ID = DECLARE_WAITQUEUE
+Line 185: (
+Line 185: ID = wait
+Line 185: ,
+Line 185: ID = current
+Line 185: )
+Line 185: ;
+Line 186: ID = struct
+Line 186: ID = k_sigaction
+Line 186: ID = sa
+Line 186: ;
+Line 187: ID = sigset_t
+Line 187: ID = blocked
+Line 187: ;
+Line 189: ID = current
+Line 189: -
+Line 189: >
+Line 189: ID = flags
+Line 189: Unrecognized token: 124
+Line 189: =
+Line 189: ID = PF_NOFREEZE
+Line 189: ;
+Line 191: ID = set_user_nice
+Line 191: (
+Line 191: ID = current
+Line 191: ,
+Line 191: -
+Line 191: INTCON = 10
+Line 191: )
+Line 191: ;
+Line 194: ID = sigfillset
+Line 194: (
+Line 194: Unrecognized token: 38
+Line 194: ID = blocked
+Line 194: )
+Line 194: ;
+Line 195: ID = sigprocmask
+Line 195: (
+Line 195: ID = SIG_BLOCK
+Line 195: ,
+Line 195: Unrecognized token: 38
+Line 195: ID = blocked
+Line 195: ,
+Line 195: ID = NULL
+Line 195: )
+Line 195: ;
+Line 196: ID = flush_signals
+Line 196: (
+Line 196: ID = current
+Line 196: )
+Line 196: ;
+Line 199: ID = sa
+Line 199: Unrecognized token: 46
+Line 199: ID = sa
+Line 199: Unrecognized token: 46
+Line 199: ID = sa_handler
+Line 199: =
+Line 199: ID = SIG_IGN
+Line 199: ;
+Line 200: ID = sa
+Line 200: Unrecognized token: 46
+Line 200: ID = sa
+Line 200: Unrecognized token: 46
+Line 200: ID = sa_flags
+Line 200: =
+Line 200: INTCON = 0
+Line 200: ;
+Line 201: ID = siginitset
+Line 201: (
+Line 201: Unrecognized token: 38
+Line 201: ID = sa
+Line 201: Unrecognized token: 46
+Line 201: ID = sa
+Line 201: Unrecognized token: 46
+Line 201: ID = sa_mask
+Line 201: ,
+Line 201: ID = sigmask
+Line 201: (
+Line 201: ID = SIGCHLD
+Line 201: )
+Line 201: )
+Line 201: ;
+Line 202: ID = do_sigaction
+Line 202: (
+Line 202: ID = SIGCHLD
+Line 202: ,
+Line 202: Unrecognized token: 38
+Line 202: ID = sa
+Line 202: ,
+Line 202: (
+Line 202: ID = struct
+Line 202: ID = k_sigaction
+Line 202: *
+Line 202: )
+Line 202: INTCON = 0
+Line 202: )
+Line 202: ;
+Line 204: ID = set_current_state
+Line 204: (
+Line 204: ID = TASK_INTERRUPTIBLE
+Line 204: )
+Line 204: ;
+Line 205: while
+Line 205: (
+Line 205: !
+Line 205: ID = kthread_should_stop
+Line 205: (
+Line 205: )
+Line 205: )
+Line 205: {
+Line 206: ID = add_wait_queue
+Line 206: (
+Line 206: Unrecognized token: 38
+Line 206: ID = cwq
+Line 206: -
+Line 206: >
+Line 206: ID = more_work
+Line 206: ,
+Line 206: Unrecognized token: 38
+Line 206: ID = wait
+Line 206: )
+Line 206: ;
+Line 207: if
+Line 207: (
+Line 207: ID = list_empty
+Line 207: (
+Line 207: Unrecognized token: 38
+Line 207: ID = cwq
+Line 207: -
+Line 207: >
+Line 207: ID = worklist
+Line 207: )
+Line 207: )
+Line 208: ID = schedule
+Line 208: (
+Line 208: )
+Line 208: ;
+Line 209: else
+Line 210: Unrecognized token: 95
+Line 210: Unrecognized token: 95
+Line 210: ID = set_current_state
+Line 210: (
+Line 210: ID = TASK_RUNNING
+Line 210: )
+Line 210: ;
+Line 211: ID = remove_wait_queue
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = cwq
+Line 211: -
+Line 211: >
+Line 211: ID = more_work
+Line 211: ,
+Line 211: Unrecognized token: 38
+Line 211: ID = wait
+Line 211: )
+Line 211: ;
+Line 213: if
+Line 213: (
+Line 213: !
+Line 213: ID = list_empty
+Line 213: (
+Line 213: Unrecognized token: 38
+Line 213: ID = cwq
+Line 213: -
+Line 213: >
+Line 213: ID = worklist
+Line 213: )
+Line 213: )
+Line 214: ID = run_workqueue
+Line 214: (
+Line 214: ID = cwq
+Line 214: )
+Line 214: ;
+Line 215: ID = set_current_state
+Line 215: (
+Line 215: ID = TASK_INTERRUPTIBLE
+Line 215: )
+Line 215: ;
+Line 216: }
+Line 217: Unrecognized token: 95
+Line 217: Unrecognized token: 95
+Line 217: ID = set_current_state
+Line 217: (
+Line 217: ID = TASK_RUNNING
+Line 217: )
+Line 217: ;
+Line 218: return
+Line 218: INTCON = 0
+Line 218: ;
+Line 219: }
+Line 221: ID = static
+Line 221: void
+Line 221: ID = flush_cpu_workqueue
+Line 221: (
+Line 221: ID = struct
+Line 221: ID = cpu_workqueue_struct
+Line 221: *
+Line 221: ID = cwq
+Line 221: )
+Line 222: {
+Line 223: if
+Line 223: (
+Line 223: ID = cwq
+Line 223: -
+Line 223: >
+Line 223: ID = thread
+Line 223: ==
+Line 223: ID = current
+Line 223: )
+Line 223: {
+Line 228: ID = run_workqueue
+Line 228: (
+Line 228: ID = cwq
+Line 228: )
+Line 228: ;
+Line 229: }
+Line 229: else
+Line 229: {
+Line 230: ID = DEFINE_WAIT
+Line 230: (
+Line 230: ID = wait
+Line 230: )
+Line 230: ;
+Line 231: ID = long
+Line 231: ID = sequence_needed
+Line 231: ;
+Line 233: ID = spin_lock_irq
+Line 233: (
+Line 233: Unrecognized token: 38
+Line 233: ID = cwq
+Line 233: -
+Line 233: >
+Line 233: ID = lock
+Line 233: )
+Line 233: ;
+Line 234: ID = sequence_needed
+Line 234: =
+Line 234: ID = cwq
+Line 234: -
+Line 234: >
+Line 234: ID = insert_sequence
+Line 234: ;
+Line 236: while
+Line 236: (
+Line 236: ID = sequence_needed
+Line 236: -
+Line 236: ID = cwq
+Line 236: -
+Line 236: >
+Line 236: ID = remove_sequence
+Line 236: >
+Line 236: INTCON = 0
+Line 236: )
+Line 236: {
+Line 237: ID = prepare_to_wait
+Line 237: (
+Line 237: Unrecognized token: 38
+Line 237: ID = cwq
+Line 237: -
+Line 237: >
+Line 237: ID = work_done
+Line 237: ,
+Line 237: Unrecognized token: 38
+Line 237: ID = wait
+Line 237: ,
+Line 238: ID = TASK_UNINTERRUPTIBLE
+Line 238: )
+Line 238: ;
+Line 239: ID = spin_unlock_irq
+Line 239: (
+Line 239: Unrecognized token: 38
+Line 239: ID = cwq
+Line 239: -
+Line 239: >
+Line 239: ID = lock
+Line 239: )
+Line 239: ;
+Line 240: ID = schedule
+Line 240: (
+Line 240: )
+Line 240: ;
+Line 241: ID = spin_lock_irq
+Line 241: (
+Line 241: Unrecognized token: 38
+Line 241: ID = cwq
+Line 241: -
+Line 241: >
+Line 241: ID = lock
+Line 241: )
+Line 241: ;
+Line 242: }
+Line 243: ID = finish_wait
+Line 243: (
+Line 243: Unrecognized token: 38
+Line 243: ID = cwq
+Line 243: -
+Line 243: >
+Line 243: ID = work_done
+Line 243: ,
+Line 243: Unrecognized token: 38
+Line 243: ID = wait
+Line 243: )
+Line 243: ;
+Line 244: ID = spin_unlock_irq
+Line 244: (
+Line 244: Unrecognized token: 38
+Line 244: ID = cwq
+Line 244: -
+Line 244: >
+Line 244: ID = lock
+Line 244: )
+Line 244: ;
+Line 245: }
+Line 246: }
+Line 262: void
+Line 262: ID = fastcall
+Line 262: ID = flush_workqueue
+Line 262: (
+Line 262: ID = struct
+Line 262: ID = workqueue_struct
+Line 262: *
+Line 262: ID = wq
+Line 262: )
+Line 263: {
+Line 264: ID = might_sleep
+Line 264: (
+Line 264: )
+Line 264: ;
+Line 266: if
+Line 266: (
+Line 266: ID = is_single_threaded
+Line 266: (
+Line 266: ID = wq
+Line 266: )
+Line 266: )
+Line 266: {
+Line 268: ID = flush_cpu_workqueue
+Line 268: (
+Line 268: ID = wq
+Line 268: -
+Line 268: >
+Line 268: ID = cpu_wq
+Line 268: +
+Line 268: INTCON = 0
+Line 268: )
+Line 268: ;
+Line 269: }
+Line 269: else
+Line 269: {
+Line 270: int
+Line 270: ID = cpu
+Line 270: ;
+Line 272: ID = lock_cpu_hotplug
+Line 272: (
+Line 272: )
+Line 272: ;
+Line 273: ID = for_each_online_cpu
+Line 273: (
+Line 273: ID = cpu
+Line 273: )
+Line 274: ID = flush_cpu_workqueue
+Line 274: (
+Line 274: ID = wq
+Line 274: -
+Line 274: >
+Line 274: ID = cpu_wq
+Line 274: +
+Line 274: ID = cpu
+Line 274: )
+Line 274: ;
+Line 275: ID = unlock_cpu_hotplug
+Line 275: (
+Line 275: )
+Line 275: ;
+Line 276: }
+Line 277: }
+Line 279: ID = static
+Line 279: ID = struct
+Line 279: ID = task_struct
+Line 279: *
+Line 279: ID = create_workqueue_thread
+Line 279: (
+Line 279: ID = struct
+Line 279: ID = workqueue_struct
+Line 279: *
+Line 279: ID = wq
+Line 279: ,
+Line 280: int
+Line 280: ID = cpu
+Line 280: )
+Line 281: {
+Line 282: ID = struct
+Line 282: ID = cpu_workqueue_struct
+Line 282: *
+Line 282: ID = cwq
+Line 282: =
+Line 282: ID = wq
+Line 282: -
+Line 282: >
+Line 282: ID = cpu_wq
+Line 282: +
+Line 282: ID = cpu
+Line 282: ;
+Line 283: ID = struct
+Line 283: ID = task_struct
+Line 283: *
+Line 283: ID = p
+Line 283: ;
+Line 285: ID = spin_lock_init
+Line 285: (
+Line 285: Unrecognized token: 38
+Line 285: ID = cwq
+Line 285: -
+Line 285: >
+Line 285: ID = lock
+Line 285: )
+Line 285: ;
+Line 286: ID = cwq
+Line 286: -
+Line 286: >
+Line 286: ID = wq
+Line 286: =
+Line 286: ID = wq
+Line 286: ;
+Line 287: ID = cwq
+Line 287: -
+Line 287: >
+Line 287: ID = thread
+Line 287: =
+Line 287: ID = NULL
+Line 287: ;
+Line 288: ID = cwq
+Line 288: -
+Line 288: >
+Line 288: ID = insert_sequence
+Line 288: =
+Line 288: INTCON = 0
+Line 288: ;
+Line 289: ID = cwq
+Line 289: -
+Line 289: >
+Line 289: ID = remove_sequence
+Line 289: =
+Line 289: INTCON = 0
+Line 289: ;
+Line 290: ID = INIT_LIST_HEAD
+Line 290: (
+Line 290: Unrecognized token: 38
+Line 290: ID = cwq
+Line 290: -
+Line 290: >
+Line 290: ID = worklist
+Line 290: )
+Line 290: ;
+Line 291: ID = init_waitqueue_head
+Line 291: (
+Line 291: Unrecognized token: 38
+Line 291: ID = cwq
+Line 291: -
+Line 291: >
+Line 291: ID = more_work
+Line 291: )
+Line 291: ;
+Line 292: ID = init_waitqueue_head
+Line 292: (
+Line 292: Unrecognized token: 38
+Line 292: ID = cwq
+Line 292: -
+Line 292: >
+Line 292: ID = work_done
+Line 292: )
+Line 292: ;
+Line 294: if
+Line 294: (
+Line 294: ID = is_single_threaded
+Line 294: (
+Line 294: ID = wq
+Line 294: )
+Line 294: )
+Line 295: ID = p
+Line 295: =
+Line 295: ID = kthread_create
+Line 295: (
+Line 295: ID = worker_thread
+Line 295: ,
+Line 295: ID = cwq
+Line 295: ,
+Line 295: STRINGCON = "%s"
+Line 295: ,
+Line 295: ID = wq
+Line 295: -
+Line 295: >
+Line 295: ID = name
+Line 295: )
+Line 295: ;
+Line 296: else
+Line 297: ID = p
+Line 297: =
+Line 297: ID = kthread_create
+Line 297: (
+Line 297: ID = worker_thread
+Line 297: ,
+Line 297: ID = cwq
+Line 297: ,
+Line 297: STRINGCON = "%s/%d"
+Line 297: ,
+Line 297: ID = wq
+Line 297: -
+Line 297: >
+Line 297: ID = name
+Line 297: ,
+Line 297: ID = cpu
+Line 297: )
+Line 297: ;
+Line 298: if
+Line 298: (
+Line 298: ID = IS_ERR
+Line 298: (
+Line 298: ID = p
+Line 298: )
+Line 298: )
+Line 299: return
+Line 299: ID = NULL
+Line 299: ;
+Line 300: ID = cwq
+Line 300: -
+Line 300: >
+Line 300: ID = thread
+Line 300: =
+Line 300: ID = p
+Line 300: ;
+Line 301: return
+Line 301: ID = p
+Line 301: ;
+Line 302: }
+Line 304: ID = struct
+Line 304: ID = workqueue_struct
+Line 304: *
+Line 304: Unrecognized token: 95
+Line 304: Unrecognized token: 95
+Line 304: ID = create_workqueue
+Line 304: (
+Line 304: ID = const
+Line 304: char
+Line 304: *
+Line 304: ID = name
+Line 304: ,
+Line 305: int
+Line 305: ID = singlethread
+Line 305: )
+Line 306: {
+Line 307: int
+Line 307: ID = cpu
+Line 307: ,
+Line 307: ID = destroy
+Line 307: =
+Line 307: INTCON = 0
+Line 307: ;
+Line 308: ID = struct
+Line 308: ID = workqueue_struct
+Line 308: *
+Line 308: ID = wq
+Line 308: ;
+Line 309: ID = struct
+Line 309: ID = task_struct
+Line 309: *
+Line 309: ID = p
+Line 309: ;
+Line 311: ID = BUG_ON
+Line 311: (
+Line 311: ID = strlen
+Line 311: (
+Line 311: ID = name
+Line 311: )
+Line 311: >
+Line 311: INTCON = 10
+Line 311: )
+Line 311: ;
+Line 313: ID = wq
+Line 313: =
+Line 313: ID = kmalloc
+Line 313: (
+Line 313: ID = sizeof
+Line 313: (
+Line 313: *
+Line 313: ID = wq
+Line 313: )
+Line 313: ,
+Line 313: ID = GFP_KERNEL
+Line 313: )
+Line 313: ;
+Line 314: if
+Line 314: (
+Line 314: !
+Line 314: ID = wq
+Line 314: )
+Line 315: return
+Line 315: ID = NULL
+Line 315: ;
+Line 316: ID = memset
+Line 316: (
+Line 316: ID = wq
+Line 316: ,
+Line 316: INTCON = 0
+Line 316: ,
+Line 316: ID = sizeof
+Line 316: (
+Line 316: *
+Line 316: ID = wq
+Line 316: )
+Line 316: )
+Line 316: ;
+Line 318: ID = wq
+Line 318: -
+Line 318: >
+Line 318: ID = name
+Line 318: =
+Line 318: ID = name
+Line 318: ;
+Line 320: ID = lock_cpu_hotplug
+Line 320: (
+Line 320: )
+Line 320: ;
+Line 321: if
+Line 321: (
+Line 321: ID = singlethread
+Line 321: )
+Line 321: {
+Line 322: ID = INIT_LIST_HEAD
+Line 322: (
+Line 322: Unrecognized token: 38
+Line 322: ID = wq
+Line 322: -
+Line 322: >
+Line 322: ID = list
+Line 322: )
+Line 322: ;
+Line 323: ID = p
+Line 323: =
+Line 323: ID = create_workqueue_thread
+Line 323: (
+Line 323: ID = wq
+Line 323: ,
+Line 323: INTCON = 0
+Line 323: )
+Line 323: ;
+Line 324: if
+Line 324: (
+Line 324: !
+Line 324: ID = p
+Line 324: )
+Line 325: ID = destroy
+Line 325: =
+Line 325: INTCON = 1
+Line 325: ;
+Line 326: else
+Line 327: ID = wake_up_process
+Line 327: (
+Line 327: ID = p
+Line 327: )
+Line 327: ;
+Line 328: }
+Line 328: else
+Line 328: {
+Line 329: ID = spin_lock
+Line 329: (
+Line 329: Unrecognized token: 38
+Line 329: ID = workqueue_lock
+Line 329: )
+Line 329: ;
+Line 330: ID = list_add
+Line 330: (
+Line 330: Unrecognized token: 38
+Line 330: ID = wq
+Line 330: -
+Line 330: >
+Line 330: ID = list
+Line 330: ,
+Line 330: Unrecognized token: 38
+Line 330: ID = workqueues
+Line 330: )
+Line 330: ;
+Line 331: ID = spin_unlock
+Line 331: (
+Line 331: Unrecognized token: 38
+Line 331: ID = workqueue_lock
+Line 331: )
+Line 331: ;
+Line 332: ID = for_each_online_cpu
+Line 332: (
+Line 332: ID = cpu
+Line 332: )
+Line 332: {
+Line 333: ID = p
+Line 333: =
+Line 333: ID = create_workqueue_thread
+Line 333: (
+Line 333: ID = wq
+Line 333: ,
+Line 333: ID = cpu
+Line 333: )
+Line 333: ;
+Line 334: if
+Line 334: (
+Line 334: ID = p
+Line 334: )
+Line 334: {
+Line 335: ID = kthread_bind
+Line 335: (
+Line 335: ID = p
+Line 335: ,
+Line 335: ID = cpu
+Line 335: )
+Line 335: ;
+Line 336: ID = wake_up_process
+Line 336: (
+Line 336: ID = p
+Line 336: )
+Line 336: ;
+Line 337: }
+Line 337: else
+Line 338: ID = destroy
+Line 338: =
+Line 338: INTCON = 1
+Line 338: ;
+Line 339: }
+Line 340: }
+Line 341: ID = unlock_cpu_hotplug
+Line 341: (
+Line 341: )
+Line 341: ;
+Line 346: if
+Line 346: (
+Line 346: ID = destroy
+Line 346: )
+Line 346: {
+Line 347: ID = destroy_workqueue
+Line 347: (
+Line 347: ID = wq
+Line 347: )
+Line 347: ;
+Line 348: ID = wq
+Line 348: =
+Line 348: ID = NULL
+Line 348: ;
+Line 349: }
+Line 350: return
+Line 350: ID = wq
+Line 350: ;
+Line 351: }
+Line 353: ID = static
+Line 353: void
+Line 353: ID = cleanup_workqueue_thread
+Line 353: (
+Line 353: ID = struct
+Line 353: ID = workqueue_struct
+Line 353: *
+Line 353: ID = wq
+Line 353: ,
+Line 353: int
+Line 353: ID = cpu
+Line 353: )
+Line 354: {
+Line 355: ID = struct
+Line 355: ID = cpu_workqueue_struct
+Line 355: *
+Line 355: ID = cwq
+Line 355: ;
+Line 356: ID = unsigned
+Line 356: ID = long
+Line 356: ID = flags
+Line 356: ;
+Line 357: ID = struct
+Line 357: ID = task_struct
+Line 357: *
+Line 357: ID = p
+Line 357: ;
+Line 359: ID = cwq
+Line 359: =
+Line 359: ID = wq
+Line 359: -
+Line 359: >
+Line 359: ID = cpu_wq
+Line 359: +
+Line 359: ID = cpu
+Line 359: ;
+Line 360: ID = spin_lock_irqsave
+Line 360: (
+Line 360: Unrecognized token: 38
+Line 360: ID = cwq
+Line 360: -
+Line 360: >
+Line 360: ID = lock
+Line 360: ,
+Line 360: ID = flags
+Line 360: )
+Line 360: ;
+Line 361: ID = p
+Line 361: =
+Line 361: ID = cwq
+Line 361: -
+Line 361: >
+Line 361: ID = thread
+Line 361: ;
+Line 362: ID = cwq
+Line 362: -
+Line 362: >
+Line 362: ID = thread
+Line 362: =
+Line 362: ID = NULL
+Line 362: ;
+Line 363: ID = spin_unlock_irqrestore
+Line 363: (
+Line 363: Unrecognized token: 38
+Line 363: ID = cwq
+Line 363: -
+Line 363: >
+Line 363: ID = lock
+Line 363: ,
+Line 363: ID = flags
+Line 363: )
+Line 363: ;
+Line 364: if
+Line 364: (
+Line 364: ID = p
+Line 364: )
+Line 365: ID = kthread_stop
+Line 365: (
+Line 365: ID = p
+Line 365: )
+Line 365: ;
+Line 366: }
+Line 368: void
+Line 368: ID = destroy_workqueue
+Line 368: (
+Line 368: ID = struct
+Line 368: ID = workqueue_struct
+Line 368: *
+Line 368: ID = wq
+Line 368: )
+Line 369: {
+Line 370: int
+Line 370: ID = cpu
+Line 370: ;
+Line 372: ID = flush_workqueue
+Line 372: (
+Line 372: ID = wq
+Line 372: )
+Line 372: ;
+Line 375: ID = lock_cpu_hotplug
+Line 375: (
+Line 375: )
+Line 375: ;
+Line 376: if
+Line 376: (
+Line 376: ID = is_single_threaded
+Line 376: (
+Line 376: ID = wq
+Line 376: )
+Line 376: )
+Line 377: ID = cleanup_workqueue_thread
+Line 377: (
+Line 377: ID = wq
+Line 377: ,
+Line 377: INTCON = 0
+Line 377: )
+Line 377: ;
+Line 378: else
+Line 378: {
+Line 379: ID = for_each_online_cpu
+Line 379: (
+Line 379: ID = cpu
+Line 379: )
+Line 380: ID = cleanup_workqueue_thread
+Line 380: (
+Line 380: ID = wq
+Line 380: ,
+Line 380: ID = cpu
+Line 380: )
+Line 380: ;
+Line 381: ID = spin_lock
+Line 381: (
+Line 381: Unrecognized token: 38
+Line 381: ID = workqueue_lock
+Line 381: )
+Line 381: ;
+Line 382: ID = list_del
+Line 382: (
+Line 382: Unrecognized token: 38
+Line 382: ID = wq
+Line 382: -
+Line 382: >
+Line 382: ID = list
+Line 382: )
+Line 382: ;
+Line 383: ID = spin_unlock
+Line 383: (
+Line 383: Unrecognized token: 38
+Line 383: ID = workqueue_lock
+Line 383: )
+Line 383: ;
+Line 384: }
+Line 385: ID = unlock_cpu_hotplug
+Line 385: (
+Line 385: )
+Line 385: ;
+Line 386: ID = kfree
+Line 386: (
+Line 386: ID = wq
+Line 386: )
+Line 386: ;
+Line 387: }
+Line 389: ID = static
+Line 389: ID = struct
+Line 389: ID = workqueue_struct
+Line 389: *
+Line 389: ID = keventd_wq
+Line 389: ;
+Line 391: int
+Line 391: ID = fastcall
+Line 391: ID = schedule_work
+Line 391: (
+Line 391: ID = struct
+Line 391: ID = work_struct
+Line 391: *
+Line 391: ID = work
+Line 391: )
+Line 392: {
+Line 393: return
+Line 393: ID = queue_work
+Line 393: (
+Line 393: ID = keventd_wq
+Line 393: ,
+Line 393: ID = work
+Line 393: )
+Line 393: ;
+Line 394: }
+Line 396: int
+Line 396: ID = fastcall
+Line 396: ID = schedule_delayed_work
+Line 396: (
+Line 396: ID = struct
+Line 396: ID = work_struct
+Line 396: *
+Line 396: ID = work
+Line 396: ,
+Line 396: ID = unsigned
+Line 396: ID = long
+Line 396: ID = delay
+Line 396: )
+Line 397: {
+Line 398: return
+Line 398: ID = queue_delayed_work
+Line 398: (
+Line 398: ID = keventd_wq
+Line 398: ,
+Line 398: ID = work
+Line 398: ,
+Line 398: ID = delay
+Line 398: )
+Line 398: ;
+Line 399: }
+Line 401: void
+Line 401: ID = flush_scheduled_work
+Line 401: (
+Line 401: void
+Line 401: )
+Line 402: {
+Line 403: ID = flush_workqueue
+Line 403: (
+Line 403: ID = keventd_wq
+Line 403: )
+Line 403: ;
+Line 404: }
+Line 406: int
+Line 406: ID = keventd_up
+Line 406: (
+Line 406: void
+Line 406: )
+Line 407: {
+Line 408: return
+Line 408: ID = keventd_wq
+Line 408: !=
+Line 408: ID = NULL
+Line 408: ;
+Line 409: }
+Line 411: int
+Line 411: ID = current_is_keventd
+Line 411: (
+Line 411: void
+Line 411: )
+Line 412: {
+Line 413: ID = struct
+Line 413: ID = cpu_workqueue_struct
+Line 413: *
+Line 413: ID = cwq
+Line 413: ;
+Line 414: int
+Line 414: ID = cpu
+Line 414: =
+Line 414: ID = smp_processor_id
+Line 414: (
+Line 414: )
+Line 414: ;
+Line 415: int
+Line 415: ID = ret
+Line 415: =
+Line 415: INTCON = 0
+Line 415: ;
+Line 417: ID = BUG_ON
+Line 417: (
+Line 417: !
+Line 417: ID = keventd_wq
+Line 417: )
+Line 417: ;
+Line 419: ID = cwq
+Line 419: =
+Line 419: ID = keventd_wq
+Line 419: -
+Line 419: >
+Line 419: ID = cpu_wq
+Line 419: +
+Line 419: ID = cpu
+Line 419: ;
+Line 420: if
+Line 420: (
+Line 420: ID = current
+Line 420: ==
+Line 420: ID = cwq
+Line 420: -
+Line 420: >
+Line 420: ID = thread
+Line 420: )
+Line 421: ID = ret
+Line 421: =
+Line 421: INTCON = 1
+Line 421: ;
+Line 423: return
+Line 423: ID = ret
+Line 423: ;
+Line 425: }
+Line 427: Unrecognized token: 35
+Line 427: ID = ifdef
+Line 427: ID = CONFIG_HOTPLUG_CPU
+Line 429: ID = static
+Line 429: void
+Line 429: ID = take_over_work
+Line 429: (
+Line 429: ID = struct
+Line 429: ID = workqueue_struct
+Line 429: *
+Line 429: ID = wq
+Line 429: ,
+Line 429: ID = unsigned
+Line 429: int
+Line 429: ID = cpu
+Line 429: )
+Line 430: {
+Line 431: ID = struct
+Line 431: ID = cpu_workqueue_struct
+Line 431: *
+Line 431: ID = cwq
+Line 431: =
+Line 431: ID = wq
+Line 431: -
+Line 431: >
+Line 431: ID = cpu_wq
+Line 431: +
+Line 431: ID = cpu
+Line 431: ;
+Line 432: ID = LIST_HEAD
+Line 432: (
+Line 432: ID = list
+Line 432: )
+Line 432: ;
+Line 433: ID = struct
+Line 433: ID = work_struct
+Line 433: *
+Line 433: ID = work
+Line 433: ;
+Line 435: ID = spin_lock_irq
+Line 435: (
+Line 435: Unrecognized token: 38
+Line 435: ID = cwq
+Line 435: -
+Line 435: >
+Line 435: ID = lock
+Line 435: )
+Line 435: ;
+Line 436: ID = list_splice_init
+Line 436: (
+Line 436: Unrecognized token: 38
+Line 436: ID = cwq
+Line 436: -
+Line 436: >
+Line 436: ID = worklist
+Line 436: ,
+Line 436: Unrecognized token: 38
+Line 436: ID = list
+Line 436: )
+Line 436: ;
+Line 438: while
+Line 438: (
+Line 438: !
+Line 438: ID = list_empty
+Line 438: (
+Line 438: Unrecognized token: 38
+Line 438: ID = list
+Line 438: )
+Line 438: )
+Line 438: {
+Line 439: ID = printk
+Line 439: (
+Line 439: STRINGCON = "Taking work for %s\n"
+Line 439: ,
+Line 439: ID = wq
+Line 439: -
+Line 439: >
+Line 439: ID = name
+Line 439: )
+Line 439: ;
+Line 440: ID = work
+Line 440: =
+Line 440: ID = list_entry
+Line 440: (
+Line 440: ID = list
+Line 440: Unrecognized token: 46
+Line 440: ID = next
+Line 440: ,
+Line 440: ID = struct
+Line 440: ID = work_struct
+Line 440: ,
+Line 440: ID = entry
+Line 440: )
+Line 440: ;
+Line 441: ID = list_del
+Line 441: (
+Line 441: Unrecognized token: 38
+Line 441: ID = work
+Line 441: -
+Line 441: >
+Line 441: ID = entry
+Line 441: )
+Line 441: ;
+Line 442: Unrecognized token: 95
+Line 442: Unrecognized token: 95
+Line 442: ID = queue_work
+Line 442: (
+Line 442: ID = wq
+Line 442: -
+Line 442: >
+Line 442: ID = cpu_wq
+Line 442: +
+Line 442: ID = smp_processor_id
+Line 442: (
+Line 442: )
+Line 442: ,
+Line 442: ID = work
+Line 442: )
+Line 442: ;
+Line 443: }
+Line 444: ID = spin_unlock_irq
+Line 444: (
+Line 444: Unrecognized token: 38
+Line 444: ID = cwq
+Line 444: -
+Line 444: >
+Line 444: ID = lock
+Line 444: )
+Line 444: ;
+Line 445: }
+Line 448: ID = static
+Line 448: int
+Line 448: Unrecognized token: 95
+Line 448: Unrecognized token: 95
+Line 448: ID = devinit
+Line 448: ID = workqueue_cpu_callback
+Line 448: (
+Line 448: ID = struct
+Line 448: ID = notifier_block
+Line 448: *
+Line 448: ID = nfb
+Line 448: ,
+Line 449: ID = unsigned
+Line 449: ID = long
+Line 449: ID = action
+Line 449: ,
+Line 450: void
+Line 450: *
+Line 450: ID = hcpu
+Line 450: )
+Line 451: {
+Line 452: ID = unsigned
+Line 452: int
+Line 452: ID = hotcpu
+Line 452: =
+Line 452: (
+Line 452: ID = unsigned
+Line 452: ID = long
+Line 452: )
+Line 452: ID = hcpu
+Line 452: ;
+Line 453: ID = struct
+Line 453: ID = workqueue_struct
+Line 453: *
+Line 453: ID = wq
+Line 453: ;
+Line 455: ID = switch
+Line 455: (
+Line 455: ID = action
+Line 455: )
+Line 455: {
+Line 456: ID = case
+Line 456: ID = CPU_UP_PREPARE
+Line 456: Unrecognized token: 58
+Line 458: ID = list_for_each_entry
+Line 458: (
+Line 458: ID = wq
+Line 458: ,
+Line 458: Unrecognized token: 38
+Line 458: ID = workqueues
+Line 458: ,
+Line 458: ID = list
+Line 458: )
+Line 458: {
+Line 459: if
+Line 459: (
+Line 459: ID = create_workqueue_thread
+Line 459: (
+Line 459: ID = wq
+Line 459: ,
+Line 459: ID = hotcpu
+Line 459: )
+Line 459: <
+Line 459: INTCON = 0
+Line 459: )
+Line 459: {
+Line 460: ID = printk
+Line 460: (
+Line 460: STRINGCON = "workqueue for %i failed\n"
+Line 460: ,
+Line 460: ID = hotcpu
+Line 460: )
+Line 460: ;
+Line 461: return
+Line 461: ID = NOTIFY_BAD
+Line 461: ;
+Line 462: }
+Line 463: }
+Line 464: ID = break
+Line 464: ;
+Line 466: ID = case
+Line 466: ID = CPU_ONLINE
+Line 466: Unrecognized token: 58
+Line 468: ID = list_for_each_entry
+Line 468: (
+Line 468: ID = wq
+Line 468: ,
+Line 468: Unrecognized token: 38
+Line 468: ID = workqueues
+Line 468: ,
+Line 468: ID = list
+Line 468: )
+Line 469: ID = wake_up_process
+Line 469: (
+Line 469: ID = wq
+Line 469: -
+Line 469: >
+Line 469: ID = cpu_wq
+Line 469: [
+Line 469: ID = hotcpu
+Line 469: ]
+Line 469: Unrecognized token: 46
+Line 469: ID = thread
+Line 469: )
+Line 469: ;
+Line 470: ID = break
+Line 470: ;
+Line 472: ID = case
+Line 472: ID = CPU_UP_CANCELED
+Line 472: Unrecognized token: 58
+Line 473: ID = list_for_each_entry
+Line 473: (
+Line 473: ID = wq
+Line 473: ,
+Line 473: Unrecognized token: 38
+Line 473: ID = workqueues
+Line 473: ,
+Line 473: ID = list
+Line 473: )
+Line 473: {
+Line 475: ID = kthread_bind
+Line 475: (
+Line 475: ID = wq
+Line 475: -
+Line 475: >
+Line 475: ID = cpu_wq
+Line 475: [
+Line 475: ID = hotcpu
+Line 475: ]
+Line 475: Unrecognized token: 46
+Line 475: ID = thread
+Line 475: ,
+Line 476: ID = smp_processor_id
+Line 476: (
+Line 476: )
+Line 476: )
+Line 476: ;
+Line 477: ID = cleanup_workqueue_thread
+Line 477: (
+Line 477: ID = wq
+Line 477: ,
+Line 477: ID = hotcpu
+Line 477: )
+Line 477: ;
+Line 478: }
+Line 479: ID = break
+Line 479: ;
+Line 481: ID = case
+Line 481: ID = CPU_DEAD
+Line 481: Unrecognized token: 58
+Line 482: ID = list_for_each_entry
+Line 482: (
+Line 482: ID = wq
+Line 482: ,
+Line 482: Unrecognized token: 38
+Line 482: ID = workqueues
+Line 482: ,
+Line 482: ID = list
+Line 482: )
+Line 483: ID = cleanup_workqueue_thread
+Line 483: (
+Line 483: ID = wq
+Line 483: ,
+Line 483: ID = hotcpu
+Line 483: )
+Line 483: ;
+Line 484: ID = list_for_each_entry
+Line 484: (
+Line 484: ID = wq
+Line 484: ,
+Line 484: Unrecognized token: 38
+Line 484: ID = workqueues
+Line 484: ,
+Line 484: ID = list
+Line 484: )
+Line 485: ID = take_over_work
+Line 485: (
+Line 485: ID = wq
+Line 485: ,
+Line 485: ID = hotcpu
+Line 485: )
+Line 485: ;
+Line 486: ID = break
+Line 486: ;
+Line 487: }
+Line 489: return
+Line 489: ID = NOTIFY_OK
+Line 489: ;
+Line 490: }
+Line 491: Unrecognized token: 35
+Line 491: ID = endif
+Line 493: void
+Line 493: ID = init_workqueues
+Line 493: (
+Line 493: void
+Line 493: )
+Line 494: {
+Line 495: ID = hotcpu_notifier
+Line 495: (
+Line 495: ID = workqueue_cpu_callback
+Line 495: ,
+Line 495: INTCON = 0
+Line 495: )
+Line 495: ;
+Line 496: ID = keventd_wq
+Line 496: =
+Line 496: ID = create_workqueue
+Line 496: (
+Line 496: STRINGCON = "events"
+Line 496: )
+Line 496: ;
+Line 497: ID = BUG_ON
+Line 497: (
+Line 497: !
+Line 497: ID = keventd_wq
+Line 497: )
+Line 497: ;
+Line 498: }
+Line 500: ID = EXPORT_SYMBOL_GPL
+Line 500: (
+Line 500: Unrecognized token: 95
+Line 500: Unrecognized token: 95
+Line 500: ID = create_workqueue
+Line 500: )
+Line 500: ;
+Line 501: ID = EXPORT_SYMBOL_GPL
+Line 501: (
+Line 501: ID = queue_work
+Line 501: )
+Line 501: ;
+Line 502: ID = EXPORT_SYMBOL_GPL
+Line 502: (
+Line 502: ID = queue_delayed_work
+Line 502: )
+Line 502: ;
+Line 503: ID = EXPORT_SYMBOL_GPL
+Line 503: (
+Line 503: ID = flush_workqueue
+Line 503: )
+Line 503: ;
+Line 504: ID = EXPORT_SYMBOL_GPL
+Line 504: (
+Line 504: ID = destroy_workqueue
+Line 504: )
+Line 504: ;
+Line 506: ID = EXPORT_SYMBOL
+Line 506: (
+Line 506: ID = schedule_work
+Line 506: )
+Line 506: ;
+Line 507: ID = EXPORT_SYMBOL
+Line 507: (
+Line 507: ID = schedule_delayed_work
+Line 507: )
+Line 507: ;
+Line 508: ID = EXPORT_SYMBOL
+Line 508: (
+Line 508: ID = flush_scheduled_work
+Line 508: )
+Line 508: ;
+Line 510: -EOF-

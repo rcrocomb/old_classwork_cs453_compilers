@@ -1,0 +1,5 @@
+/* malformed character constants */
+''
+'\'
+'''
+'\032'

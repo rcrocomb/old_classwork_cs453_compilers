@@ -1,0 +1,1308 @@
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = types
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = kernel
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = init
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = spinlock
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = smp
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = interrupt
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = sched
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = asm
+Line 39: /
+Line 39: ID = atomic
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = asm
+Line 40: /
+Line 40: ID = bitops
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = linux
+Line 41: /
+Line 41: ID = module
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = linux
+Line 42: /
+Line 42: ID = completion
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 43: Unrecognized token: 35
+Line 43: ID = include
+Line 43: <
+Line 43: ID = linux
+Line 43: /
+Line 43: ID = percpu
+Line 43: Unrecognized token: 46
+Line 43: ID = h
+Line 43: >
+Line 44: Unrecognized token: 35
+Line 44: ID = include
+Line 44: <
+Line 44: ID = linux
+Line 44: /
+Line 44: ID = notifier
+Line 44: Unrecognized token: 46
+Line 44: ID = h
+Line 44: >
+Line 45: Unrecognized token: 35
+Line 45: ID = include
+Line 45: <
+Line 45: ID = linux
+Line 45: /
+Line 45: ID = rcupdate
+Line 45: Unrecognized token: 46
+Line 45: ID = h
+Line 45: >
+Line 46: Unrecognized token: 35
+Line 46: ID = include
+Line 46: <
+Line 46: ID = linux
+Line 46: /
+Line 46: ID = cpu
+Line 46: Unrecognized token: 46
+Line 46: ID = h
+Line 46: >
+Line 49: ID = struct
+Line 49: ID = rcu_ctrlblk
+Line 49: ID = rcu_ctrlblk
+Line 49: =
+Line 50: {
+Line 50: Unrecognized token: 46
+Line 50: ID = cur
+Line 50: =
+Line 50: -
+Line 50: INTCON = 300
+Line 50: ,
+Line 50: Unrecognized token: 46
+Line 50: ID = completed
+Line 50: =
+Line 50: -
+Line 50: INTCON = 300
+Line 50: ,
+Line 50: Unrecognized token: 46
+Line 50: ID = lock
+Line 50: =
+Line 50: ID = SEQCNT_ZERO
+Line 50: }
+Line 50: ;
+Line 53: ID = struct
+Line 53: {
+Line 54: ID = spinlock_t
+Line 54: ID = mutex
+Line 54: ;
+Line 55: ID = cpumask_t
+Line 55: ID = rcu_cpu_mask
+Line 55: ;
+Line 57: }
+Line 57: ID = rcu_state
+Line 57: Unrecognized token: 95
+Line 57: Unrecognized token: 95
+Line 57: Unrecognized token: 95
+Line 57: Unrecognized token: 95
+Line 57: ID = cacheline_maxaligned_in_smp
+Line 57: =
+Line 58: {
+Line 58: Unrecognized token: 46
+Line 58: ID = mutex
+Line 58: =
+Line 58: ID = SPIN_LOCK_UNLOCKED
+Line 58: ,
+Line 58: Unrecognized token: 46
+Line 58: ID = rcu_cpu_mask
+Line 58: =
+Line 58: ID = CPU_MASK_NONE
+Line 58: }
+Line 58: ;
+Line 61: ID = DEFINE_PER_CPU
+Line 61: (
+Line 61: ID = struct
+Line 61: ID = rcu_data
+Line 61: ,
+Line 61: ID = rcu_data
+Line 61: )
+Line 61: =
+Line 61: {
+Line 61: INTCON = 0
+Line 61: ID = L
+Line 61: }
+Line 61: ;
+Line 64: ID = static
+Line 64: ID = DEFINE_PER_CPU
+Line 64: (
+Line 64: ID = struct
+Line 64: ID = tasklet_struct
+Line 64: ,
+Line 64: ID = rcu_tasklet
+Line 64: )
+Line 64: =
+Line 64: {
+Line 64: ID = NULL
+Line 64: }
+Line 64: ;
+Line 65: Unrecognized token: 35
+Line 65: ID = define
+Line 65: ID = RCU_tasklet
+Line 65: (
+Line 65: ID = cpu
+Line 65: )
+Line 65: (
+Line 65: ID = per_cpu
+Line 65: (
+Line 65: ID = rcu_tasklet
+Line 65: ,
+Line 65: ID = cpu
+Line 65: )
+Line 65: )
+Line 77: void
+Line 77: ID = fastcall
+Line 77: ID = call_rcu
+Line 77: (
+Line 77: ID = struct
+Line 77: ID = rcu_head
+Line 77: *
+Line 77: ID = head
+Line 77: ,
+Line 78: void
+Line 78: (
+Line 78: *
+Line 78: ID = func
+Line 78: )
+Line 78: (
+Line 78: ID = struct
+Line 78: ID = rcu_head
+Line 78: *
+Line 78: ID = rcu
+Line 78: )
+Line 78: )
+Line 79: {
+Line 80: int
+Line 80: ID = cpu
+Line 80: ;
+Line 81: ID = unsigned
+Line 81: ID = long
+Line 81: ID = flags
+Line 81: ;
+Line 83: ID = head
+Line 83: -
+Line 83: >
+Line 83: ID = func
+Line 83: =
+Line 83: ID = func
+Line 83: ;
+Line 84: ID = head
+Line 84: -
+Line 84: >
+Line 84: ID = next
+Line 84: =
+Line 84: ID = NULL
+Line 84: ;
+Line 85: ID = local_irq_save
+Line 85: (
+Line 85: ID = flags
+Line 85: )
+Line 85: ;
+Line 86: ID = cpu
+Line 86: =
+Line 86: ID = smp_processor_id
+Line 86: (
+Line 86: )
+Line 86: ;
+Line 87: *
+Line 87: ID = RCU_nxttail
+Line 87: (
+Line 87: ID = cpu
+Line 87: )
+Line 87: =
+Line 87: ID = head
+Line 87: ;
+Line 88: ID = RCU_nxttail
+Line 88: (
+Line 88: ID = cpu
+Line 88: )
+Line 88: =
+Line 88: Unrecognized token: 38
+Line 88: ID = head
+Line 88: -
+Line 88: >
+Line 88: ID = next
+Line 88: ;
+Line 89: ID = local_irq_restore
+Line 89: (
+Line 89: ID = flags
+Line 89: )
+Line 89: ;
+Line 90: }
+Line 96: ID = static
+Line 96: void
+Line 96: ID = rcu_do_batch
+Line 96: (
+Line 96: ID = struct
+Line 96: ID = rcu_head
+Line 96: *
+Line 96: ID = list
+Line 96: )
+Line 97: {
+Line 98: ID = struct
+Line 98: ID = rcu_head
+Line 98: *
+Line 98: ID = next
+Line 98: ;
+Line 100: while
+Line 100: (
+Line 100: ID = list
+Line 100: )
+Line 100: {
+Line 101: ID = next
+Line 101: =
+Line 101: ID = list
+Line 101: -
+Line 101: >
+Line 101: ID = next
+Line 101: ;
+Line 102: ID = list
+Line 102: -
+Line 102: >
+Line 102: ID = func
+Line 102: (
+Line 102: ID = list
+Line 102: )
+Line 102: ;
+Line 103: ID = list
+Line 103: =
+Line 103: ID = next
+Line 103: ;
+Line 104: }
+Line 105: }
+Line 130: ID = static
+Line 130: void
+Line 130: ID = rcu_start_batch
+Line 130: (
+Line 130: int
+Line 130: ID = next_pending
+Line 130: )
+Line 131: {
+Line 132: if
+Line 132: (
+Line 132: ID = next_pending
+Line 132: )
+Line 133: ID = rcu_ctrlblk
+Line 133: Unrecognized token: 46
+Line 133: ID = next_pending
+Line 133: =
+Line 133: INTCON = 1
+Line 133: ;
+Line 135: if
+Line 135: (
+Line 135: ID = rcu_ctrlblk
+Line 135: Unrecognized token: 46
+Line 135: ID = next_pending
+Line 135: &&
+Line 136: ID = rcu_ctrlblk
+Line 136: Unrecognized token: 46
+Line 136: ID = completed
+Line 136: ==
+Line 136: ID = rcu_ctrlblk
+Line 136: Unrecognized token: 46
+Line 136: ID = cur
+Line 136: )
+Line 136: {
+Line 138: ID = cpus_andnot
+Line 138: (
+Line 138: ID = rcu_state
+Line 138: Unrecognized token: 46
+Line 138: ID = rcu_cpu_mask
+Line 138: ,
+Line 138: ID = cpu_online_map
+Line 138: ,
+Line 139: ID = nohz_cpu_mask
+Line 139: )
+Line 139: ;
+Line 140: ID = write_seqcount_begin
+Line 140: (
+Line 140: Unrecognized token: 38
+Line 140: ID = rcu_ctrlblk
+Line 140: Unrecognized token: 46
+Line 140: ID = lock
+Line 140: )
+Line 140: ;
+Line 141: ID = rcu_ctrlblk
+Line 141: Unrecognized token: 46
+Line 141: ID = next_pending
+Line 141: =
+Line 141: INTCON = 0
+Line 141: ;
+Line 142: ID = rcu_ctrlblk
+Line 142: Unrecognized token: 46
+Line 142: ID = cur
+Line 142: +
+Line 142: +
+Line 142: ;
+Line 143: ID = write_seqcount_end
+Line 143: (
+Line 143: Unrecognized token: 38
+Line 143: ID = rcu_ctrlblk
+Line 143: Unrecognized token: 46
+Line 143: ID = lock
+Line 143: )
+Line 143: ;
+Line 144: }
+Line 145: }
+Line 152: ID = static
+Line 152: void
+Line 152: ID = cpu_quiet
+Line 152: (
+Line 152: int
+Line 152: ID = cpu
+Line 152: )
+Line 153: {
+Line 154: ID = cpu_clear
+Line 154: (
+Line 154: ID = cpu
+Line 154: ,
+Line 154: ID = rcu_state
+Line 154: Unrecognized token: 46
+Line 154: ID = rcu_cpu_mask
+Line 154: )
+Line 154: ;
+Line 155: if
+Line 155: (
+Line 155: ID = cpus_empty
+Line 155: (
+Line 155: ID = rcu_state
+Line 155: Unrecognized token: 46
+Line 155: ID = rcu_cpu_mask
+Line 155: )
+Line 155: )
+Line 155: {
+Line 157: ID = rcu_ctrlblk
+Line 157: Unrecognized token: 46
+Line 157: ID = completed
+Line 157: =
+Line 157: ID = rcu_ctrlblk
+Line 157: Unrecognized token: 46
+Line 157: ID = cur
+Line 157: ;
+Line 158: ID = rcu_start_batch
+Line 158: (
+Line 158: INTCON = 0
+Line 158: )
+Line 158: ;
+Line 159: }
+Line 160: }
+Line 167: ID = static
+Line 167: void
+Line 167: ID = rcu_check_quiescent_state
+Line 167: (
+Line 167: void
+Line 167: )
+Line 168: {
+Line 169: int
+Line 169: ID = cpu
+Line 169: =
+Line 169: ID = smp_processor_id
+Line 169: (
+Line 169: )
+Line 169: ;
+Line 171: if
+Line 171: (
+Line 171: ID = RCU_quiescbatch
+Line 171: (
+Line 171: ID = cpu
+Line 171: )
+Line 171: !=
+Line 171: ID = rcu_ctrlblk
+Line 171: Unrecognized token: 46
+Line 171: ID = cur
+Line 171: )
+Line 171: {
+Line 173: ID = RCU_qs_pending
+Line 173: (
+Line 173: ID = cpu
+Line 173: )
+Line 173: =
+Line 173: INTCON = 1
+Line 173: ;
+Line 174: ID = RCU_last_qsctr
+Line 174: (
+Line 174: ID = cpu
+Line 174: )
+Line 174: =
+Line 174: ID = RCU_qsctr
+Line 174: (
+Line 174: ID = cpu
+Line 174: )
+Line 174: ;
+Line 175: ID = RCU_quiescbatch
+Line 175: (
+Line 175: ID = cpu
+Line 175: )
+Line 175: =
+Line 175: ID = rcu_ctrlblk
+Line 175: Unrecognized token: 46
+Line 175: ID = cur
+Line 175: ;
+Line 176: return
+Line 176: ;
+Line 177: }
+Line 183: if
+Line 183: (
+Line 183: !
+Line 183: ID = RCU_qs_pending
+Line 183: (
+Line 183: ID = cpu
+Line 183: )
+Line 183: )
+Line 184: return
+Line 184: ;
+Line 191: if
+Line 191: (
+Line 191: ID = RCU_qsctr
+Line 191: (
+Line 191: ID = cpu
+Line 191: )
+Line 191: ==
+Line 191: ID = RCU_last_qsctr
+Line 191: (
+Line 191: ID = cpu
+Line 191: )
+Line 191: )
+Line 192: return
+Line 192: ;
+Line 193: ID = RCU_qs_pending
+Line 193: (
+Line 193: ID = cpu
+Line 193: )
+Line 193: =
+Line 193: INTCON = 0
+Line 193: ;
+Line 195: ID = spin_lock
+Line 195: (
+Line 195: Unrecognized token: 38
+Line 195: ID = rcu_state
+Line 195: Unrecognized token: 46
+Line 195: ID = mutex
+Line 195: )
+Line 195: ;
+Line 200: if
+Line 200: (
+Line 200: ID = likely
+Line 200: (
+Line 200: ID = RCU_quiescbatch
+Line 200: (
+Line 200: ID = cpu
+Line 200: )
+Line 200: ==
+Line 200: ID = rcu_ctrlblk
+Line 200: Unrecognized token: 46
+Line 200: ID = cur
+Line 200: )
+Line 200: )
+Line 201: ID = cpu_quiet
+Line 201: (
+Line 201: ID = cpu
+Line 201: )
+Line 201: ;
+Line 203: ID = spin_unlock
+Line 203: (
+Line 203: Unrecognized token: 38
+Line 203: ID = rcu_state
+Line 203: Unrecognized token: 46
+Line 203: ID = mutex
+Line 203: )
+Line 203: ;
+Line 204: }
+Line 207: Unrecognized token: 35
+Line 207: ID = ifdef
+Line 207: ID = CONFIG_HOTPLUG_CPU
+Line 213: ID = static
+Line 213: void
+Line 213: ID = rcu_move_batch
+Line 213: (
+Line 213: ID = struct
+Line 213: ID = rcu_head
+Line 213: *
+Line 213: ID = list
+Line 213: )
+Line 214: {
+Line 215: int
+Line 215: ID = cpu
+Line 215: ;
+Line 217: ID = local_irq_disable
+Line 217: (
+Line 217: )
+Line 217: ;
+Line 219: ID = cpu
+Line 219: =
+Line 219: ID = smp_processor_id
+Line 219: (
+Line 219: )
+Line 219: ;
+Line 221: while
+Line 221: (
+Line 221: ID = list
+Line 221: !=
+Line 221: ID = NULL
+Line 221: )
+Line 221: {
+Line 222: *
+Line 222: ID = RCU_nxttail
+Line 222: (
+Line 222: ID = cpu
+Line 222: )
+Line 222: =
+Line 222: ID = list
+Line 222: ;
+Line 223: ID = RCU_nxttail
+Line 223: (
+Line 223: ID = cpu
+Line 223: )
+Line 223: =
+Line 223: Unrecognized token: 38
+Line 223: ID = list
+Line 223: -
+Line 223: >
+Line 223: ID = next
+Line 223: ;
+Line 224: ID = list
+Line 224: =
+Line 224: ID = list
+Line 224: -
+Line 224: >
+Line 224: ID = next
+Line 224: ;
+Line 225: }
+Line 226: ID = local_irq_enable
+Line 226: (
+Line 226: )
+Line 226: ;
+Line 227: }
+Line 229: ID = static
+Line 229: void
+Line 229: ID = rcu_offline_cpu
+Line 229: (
+Line 229: int
+Line 229: ID = cpu
+Line 229: )
+Line 230: {
+Line 235: ID = spin_lock_bh
+Line 235: (
+Line 235: Unrecognized token: 38
+Line 235: ID = rcu_state
+Line 235: Unrecognized token: 46
+Line 235: ID = mutex
+Line 235: )
+Line 235: ;
+Line 236: if
+Line 236: (
+Line 236: ID = rcu_ctrlblk
+Line 236: Unrecognized token: 46
+Line 236: ID = cur
+Line 236: !=
+Line 236: ID = rcu_ctrlblk
+Line 236: Unrecognized token: 46
+Line 236: ID = completed
+Line 236: )
+Line 237: ID = cpu_quiet
+Line 237: (
+Line 237: ID = cpu
+Line 237: )
+Line 237: ;
+Line 238: ID = spin_unlock_bh
+Line 238: (
+Line 238: Unrecognized token: 38
+Line 238: ID = rcu_state
+Line 238: Unrecognized token: 46
+Line 238: ID = mutex
+Line 238: )
+Line 238: ;
+Line 240: ID = rcu_move_batch
+Line 240: (
+Line 240: ID = RCU_curlist
+Line 240: (
+Line 240: ID = cpu
+Line 240: )
+Line 240: )
+Line 240: ;
+Line 241: ID = rcu_move_batch
+Line 241: (
+Line 241: ID = RCU_nxtlist
+Line 241: (
+Line 241: ID = cpu
+Line 241: )
+Line 241: )
+Line 241: ;
+Line 243: ID = tasklet_kill_immediate
+Line 243: (
+Line 243: Unrecognized token: 38
+Line 243: ID = RCU_tasklet
+Line 243: (
+Line 243: ID = cpu
+Line 243: )
+Line 243: ,
+Line 243: ID = cpu
+Line 243: )
+Line 243: ;
+Line 244: }
+Line 246: Unrecognized token: 35
+Line 246: ID = endif
+Line 248: void
+Line 248: ID = rcu_restart_cpu
+Line 248: (
+Line 248: int
+Line 248: ID = cpu
+Line 248: )
+Line 249: {
+Line 250: ID = spin_lock_bh
+Line 250: (
+Line 250: Unrecognized token: 38
+Line 250: ID = rcu_state
+Line 250: Unrecognized token: 46
+Line 250: ID = mutex
+Line 250: )
+Line 250: ;
+Line 251: ID = RCU_quiescbatch
+Line 251: (
+Line 251: ID = cpu
+Line 251: )
+Line 251: =
+Line 251: ID = rcu_ctrlblk
+Line 251: Unrecognized token: 46
+Line 251: ID = completed
+Line 251: ;
+Line 252: ID = RCU_qs_pending
+Line 252: (
+Line 252: ID = cpu
+Line 252: )
+Line 252: =
+Line 252: INTCON = 0
+Line 252: ;
+Line 253: ID = spin_unlock_bh
+Line 253: (
+Line 253: Unrecognized token: 38
+Line 253: ID = rcu_state
+Line 253: Unrecognized token: 46
+Line 253: ID = mutex
+Line 253: )
+Line 253: ;
+Line 254: }
+Line 259: ID = static
+Line 259: void
+Line 259: ID = rcu_process_callbacks
+Line 259: (
+Line 259: ID = unsigned
+Line 259: ID = long
+Line 259: ID = unused
+Line 259: )
+Line 260: {
+Line 261: int
+Line 261: ID = cpu
+Line 261: =
+Line 261: ID = smp_processor_id
+Line 261: (
+Line 261: )
+Line 261: ;
+Line 262: ID = struct
+Line 262: ID = rcu_head
+Line 262: *
+Line 262: ID = rcu_list
+Line 262: =
+Line 262: ID = NULL
+Line 262: ;
+Line 264: if
+Line 264: (
+Line 264: ID = RCU_curlist
+Line 264: (
+Line 264: ID = cpu
+Line 264: )
+Line 264: &&
+Line 265: !
+Line 265: ID = rcu_batch_before
+Line 265: (
+Line 265: ID = rcu_ctrlblk
+Line 265: Unrecognized token: 46
+Line 265: ID = completed
+Line 265: ,
+Line 265: ID = RCU_batch
+Line 265: (
+Line 265: ID = cpu
+Line 265: )
+Line 265: )
+Line 265: )
+Line 265: {
+Line 266: ID = rcu_list
+Line 266: =
+Line 266: ID = RCU_curlist
+Line 266: (
+Line 266: ID = cpu
+Line 266: )
+Line 266: ;
+Line 267: ID = RCU_curlist
+Line 267: (
+Line 267: ID = cpu
+Line 267: )
+Line 267: =
+Line 267: ID = NULL
+Line 267: ;
+Line 268: }
+Line 270: ID = local_irq_disable
+Line 270: (
+Line 270: )
+Line 270: ;
+Line 271: if
+Line 271: (
+Line 271: ID = RCU_nxtlist
+Line 271: (
+Line 271: ID = cpu
+Line 271: )
+Line 271: &&
+Line 271: !
+Line 271: ID = RCU_curlist
+Line 271: (
+Line 271: ID = cpu
+Line 271: )
+Line 271: )
+Line 271: {
+Line 272: int
+Line 272: ID = next_pending
+Line 272: ,
+Line 272: ID = seq
+Line 272: ;
+Line 274: ID = RCU_curlist
+Line 274: (
+Line 274: ID = cpu
+Line 274: )
+Line 274: =
+Line 274: ID = RCU_nxtlist
+Line 274: (
+Line 274: ID = cpu
+Line 274: )
+Line 274: ;
+Line 275: ID = RCU_nxtlist
+Line 275: (
+Line 275: ID = cpu
+Line 275: )
+Line 275: =
+Line 275: ID = NULL
+Line 275: ;
+Line 276: ID = RCU_nxttail
+Line 276: (
+Line 276: ID = cpu
+Line 276: )
+Line 276: =
+Line 276: Unrecognized token: 38
+Line 276: ID = RCU_nxtlist
+Line 276: (
+Line 276: ID = cpu
+Line 276: )
+Line 276: ;
+Line 277: ID = local_irq_enable
+Line 277: (
+Line 277: )
+Line 277: ;
+Line 282: ID = do
+Line 282: {
+Line 283: ID = seq
+Line 283: =
+Line 283: ID = read_seqcount_begin
+Line 283: (
+Line 283: Unrecognized token: 38
+Line 283: ID = rcu_ctrlblk
+Line 283: Unrecognized token: 46
+Line 283: ID = lock
+Line 283: )
+Line 283: ;
+Line 285: ID = RCU_batch
+Line 285: (
+Line 285: ID = cpu
+Line 285: )
+Line 285: =
+Line 285: ID = rcu_ctrlblk
+Line 285: Unrecognized token: 46
+Line 285: ID = cur
+Line 285: +
+Line 285: INTCON = 1
+Line 285: ;
+Line 286: ID = next_pending
+Line 286: =
+Line 286: ID = rcu_ctrlblk
+Line 286: Unrecognized token: 46
+Line 286: ID = next_pending
+Line 286: ;
+Line 287: }
+Line 287: while
+Line 287: (
+Line 287: ID = read_seqcount_retry
+Line 287: (
+Line 287: Unrecognized token: 38
+Line 287: ID = rcu_ctrlblk
+Line 287: Unrecognized token: 46
+Line 287: ID = lock
+Line 287: ,
+Line 287: ID = seq
+Line 287: )
+Line 287: )
+Line 287: ;
+Line 289: if
+Line 289: (
+Line 289: !
+Line 289: ID = next_pending
+Line 289: )
+Line 289: {
+Line 291: ID = spin_lock
+Line 291: (
+Line 291: Unrecognized token: 38
+Line 291: ID = rcu_state
+Line 291: Unrecognized token: 46
+Line 291: ID = mutex
+Line 291: )
+Line 291: ;
+Line 292: ID = rcu_start_batch
+Line 292: (
+Line 292: INTCON = 1
+Line 292: )
+Line 292: ;
+Line 293: ID = spin_unlock
+Line 293: (
+Line 293: Unrecognized token: 38
+Line 293: ID = rcu_state
+Line 293: Unrecognized token: 46
+Line 293: ID = mutex
+Line 293: )
+Line 293: ;
+Line 294: }
+Line 295: }
+Line 295: else
+Line 295: {
+Line 296: ID = local_irq_enable
+Line 296: (
+Line 296: )
+Line 296: ;
+Line 297: }
+Line 298: ID = rcu_check_quiescent_state
+Line 298: (
+Line 298: )
+Line 298: ;
+Line 299: if
+Line 299: (
+Line 299: ID = rcu_list
+Line 299: )
+Line 300: ID = rcu_do_batch
+Line 300: (
+Line 300: ID = rcu_list
+Line 300: )
+Line 300: ;
+Line 301: }
+Line 303: void
+Line 303: ID = rcu_check_callbacks
+Line 303: (
+Line 303: int
+Line 303: ID = cpu
+Line 303: ,
+Line 303: int
+Line 303: ID = user
+Line 303: )
+Line 304: {
+Line 305: if
+Line 305: (
+Line 305: ID = user
+Line 305: ||
+Line 306: (
+Line 306: ID = idle_cpu
+Line 306: (
+Line 306: ID = cpu
+Line 306: )
+Line 306: &&
+Line 306: !
+Line 306: ID = in_softirq
+Line 306: (
+Line 306: )
+Line 306: &&
+Line 307: ID = hardirq_count
+Line 307: (
+Line 307: )
+Line 307: <=
+Line 307: (
+Line 307: INTCON = 1
+Line 307: <
+Line 307: <
+Line 307: ID = HARDIRQ_SHIFT
+Line 307: )
+Line 307: )
+Line 307: )
+Line 308: ID = RCU_qsctr
+Line 308: (
+Line 308: ID = cpu
+Line 308: )
+Line 308: +
+Line 308: +
+Line 308: ;
+Line 309: ID = tasklet_schedule
+Line 309: (
+Line 309: Unrecognized token: 38
+Line 309: ID = RCU_tasklet
+Line 309: (
+Line 309: ID = cpu
+Line 309: )
+Line 309: )
+Line 309: ;
+Line 310: }
+Line 312: ID = static
+Line 312: void
+Line 312: Unrecognized token: 95
+Line 312: Unrecognized token: 95
+Line 312: ID = devinit
+Line 312: ID = rcu_online_cpu
+Line 312: (
+Line 312: int
+Line 312: ID = cpu
+Line 312: )
+Line 313: {
+Line 314: ID = memset
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = per_cpu
+Line 314: (
+Line 314: ID = rcu_data
+Line 314: ,
+Line 314: ID = cpu
+Line 314: )
+Line 314: ,
+Line 314: INTCON = 0
+Line 314: ,
+Line 314: ID = sizeof
+Line 314: (
+Line 314: ID = struct
+Line 314: ID = rcu_data
+Line 314: )
+Line 314: )
+Line 314: ;
+Line 315: ID = tasklet_init
+Line 315: (
+Line 315: Unrecognized token: 38
+Line 315: ID = RCU_tasklet
+Line 315: (
+Line 315: ID = cpu
+Line 315: )
+Line 315: ,
+Line 315: ID = rcu_process_callbacks
+Line 315: ,
+Line 315: INTCON = 0
+Line 315: ID = UL
+Line 315: )
+Line 315: ;
+Line 316: ID = RCU_nxttail
+Line 316: (
+Line 316: ID = cpu
+Line 316: )
+Line 316: =
+Line 316: Unrecognized token: 38
+Line 316: ID = RCU_nxtlist
+Line 316: (
+Line 316: ID = cpu
+Line 316: )
+Line 316: ;
+Line 317: ID = RCU_quiescbatch
+Line 317: (
+Line 317: ID = cpu
+Line 317: )
+Line 317: =
+Line 317: ID = rcu_ctrlblk
+Line 317: Unrecognized token: 46
+Line 317: ID = completed
+Line 317: ;
+Line 318: ID = RCU_qs_pending
+Line 318: (
+Line 318: ID = cpu
+Line 318: )
+Line 318: =
+Line 318: INTCON = 0
+Line 318: ;
+Line 319: }
+Line 321: ID = static
+Line 321: int
+Line 321: Unrecognized token: 95
+Line 321: Unrecognized token: 95
+Line 321: ID = devinit
+Line 321: ID = rcu_cpu_notify
+Line 321: (
+Line 321: ID = struct
+Line 321: ID = notifier_block
+Line 321: *
+Line 321: ID = self
+Line 321: ,
+Line 322: ID = unsigned
+Line 322: ID = long
+Line 322: ID = action
+Line 322: ,
+Line 322: void
+Line 322: *
+Line 322: ID = hcpu
+Line 322: )
+Line 323: {
+Line 324: ID = long
+Line 324: ID = cpu
+Line 324: =
+Line 324: (
+Line 324: ID = long
+Line 324: )
+Line 324: ID = hcpu
+Line 324: ;
+Line 325: ID = switch
+Line 325: (
+Line 325: ID = action
+Line 325: )
+Line 325: {
+Line 326: ID = case
+Line 326: ID = CPU_UP_PREPARE
+Line 326: Unrecognized token: 58
+Line 327: ID = rcu_online_cpu
+Line 327: (
+Line 327: ID = cpu
+Line 327: )
+Line 327: ;
+Line 328: ID = break
+Line 328: ;
+Line 329: Unrecognized token: 35
+Line 329: ID = ifdef
+Line 329: ID = CONFIG_HOTPLUG_CPU
+Line 330: ID = case
+Line 330: ID = CPU_DEAD
+Line 330: Unrecognized token: 58
+Line 331: ID = rcu_offline_cpu
+Line 331: (
+Line 331: ID = cpu
+Line 331: )
+Line 331: ;
+Line 332: ID = break
+Line 332: ;
+Line 333: Unrecognized token: 35
+Line 333: ID = endif
+Line 334: ID = default
+Line 334: Unrecognized token: 58
+Line 335: ID = break
+Line 335: ;
+Line 336: }
+Line 337: return
+Line 337: ID = NOTIFY_OK
+Line 337: ;
+Line 338: }
+Line 340: ID = static
+Line 340: ID = struct
+Line 340: ID = notifier_block
+Line 340: Unrecognized token: 95
+Line 340: Unrecognized token: 95
+Line 340: ID = devinitdata
+Line 340: ID = rcu_nb
+Line 340: =
+Line 340: {
+Line 341: Unrecognized token: 46
+Line 341: ID = notifier_call
+Line 341: =
+Line 341: ID = rcu_cpu_notify
+Line 341: ,
+Line 342: }
+Line 342: ;
+Line 350: void
+Line 350: Unrecognized token: 95
+Line 350: Unrecognized token: 95
+Line 350: ID = init
+Line 350: ID = rcu_init
+Line 350: (
+Line 350: void
+Line 350: )
+Line 351: {
+Line 352: ID = rcu_cpu_notify
+Line 352: (
+Line 352: Unrecognized token: 38
+Line 352: ID = rcu_nb
+Line 352: ,
+Line 352: ID = CPU_UP_PREPARE
+Line 352: ,
+Line 353: (
+Line 353: void
+Line 353: *
+Line 353: )
+Line 353: (
+Line 353: ID = long
+Line 353: )
+Line 353: ID = smp_processor_id
+Line 353: (
+Line 353: )
+Line 353: )
+Line 353: ;
+Line 355: ID = register_cpu_notifier
+Line 355: (
+Line 355: Unrecognized token: 38
+Line 355: ID = rcu_nb
+Line 355: )
+Line 355: ;
+Line 356: }
+Line 358: ID = struct
+Line 358: ID = rcu_synchronize
+Line 358: {
+Line 359: ID = struct
+Line 359: ID = rcu_head
+Line 359: ID = head
+Line 359: ;
+Line 360: ID = struct
+Line 360: ID = completion
+Line 360: ID = completion
+Line 360: ;
+Line 361: }
+Line 361: ;
+Line 364: ID = static
+Line 364: void
+Line 364: ID = wakeme_after_rcu
+Line 364: (
+Line 364: ID = struct
+Line 364: ID = rcu_head
+Line 364: *
+Line 364: ID = head
+Line 364: )
+Line 365: {
+Line 366: ID = struct
+Line 366: ID = rcu_synchronize
+Line 366: *
+Line 366: ID = rcu
+Line 366: ;
+Line 368: ID = rcu
+Line 368: =
+Line 368: ID = container_of
+Line 368: (
+Line 368: ID = head
+Line 368: ,
+Line 368: ID = struct
+Line 368: ID = rcu_synchronize
+Line 368: ,
+Line 368: ID = head
+Line 368: )
+Line 368: ;
+Line 369: ID = complete
+Line 369: (
+Line 369: Unrecognized token: 38
+Line 369: ID = rcu
+Line 369: -
+Line 369: >
+Line 369: ID = completion
+Line 369: )
+Line 369: ;
+Line 370: }
+Line 376: void
+Line 376: ID = synchronize_kernel
+Line 376: (
+Line 376: void
+Line 376: )
+Line 377: {
+Line 378: ID = struct
+Line 378: ID = rcu_synchronize
+Line 378: ID = rcu
+Line 378: ;
+Line 380: ID = init_completion
+Line 380: (
+Line 380: Unrecognized token: 38
+Line 380: ID = rcu
+Line 380: Unrecognized token: 46
+Line 380: ID = completion
+Line 380: )
+Line 380: ;
+Line 382: ID = call_rcu
+Line 382: (
+Line 382: Unrecognized token: 38
+Line 382: ID = rcu
+Line 382: Unrecognized token: 46
+Line 382: ID = head
+Line 382: ,
+Line 382: ID = wakeme_after_rcu
+Line 382: )
+Line 382: ;
+Line 385: ID = wait_for_completion
+Line 385: (
+Line 385: Unrecognized token: 38
+Line 385: ID = rcu
+Line 385: Unrecognized token: 46
+Line 385: ID = completion
+Line 385: )
+Line 385: ;
+Line 386: }
+Line 389: ID = EXPORT_SYMBOL
+Line 389: (
+Line 389: ID = call_rcu
+Line 389: )
+Line 389: ;
+Line 390: ID = EXPORT_SYMBOL
+Line 390: (
+Line 390: ID = synchronize_kernel
+Line 390: )
+Line 390: ;
+Line 391: -EOF-

@@ -1,0 +1,410 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = fs
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = stat
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = time
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = smp_lock
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = namei
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 23: ID = static
+Line 23: int
+Line 23: ID = bad_follow_link
+Line 23: (
+Line 23: ID = struct
+Line 23: ID = dentry
+Line 23: *
+Line 23: ID = dent
+Line 23: ,
+Line 23: ID = struct
+Line 23: ID = nameidata
+Line 23: *
+Line 23: ID = nd
+Line 23: )
+Line 24: {
+Line 25: ID = nd_set_link
+Line 25: (
+Line 25: ID = nd
+Line 25: ,
+Line 25: ID = ERR_PTR
+Line 25: (
+Line 25: -
+Line 25: ID = EIO
+Line 25: )
+Line 25: )
+Line 25: ;
+Line 26: return
+Line 26: INTCON = 0
+Line 26: ;
+Line 27: }
+Line 29: ID = static
+Line 29: int
+Line 29: ID = return_EIO
+Line 29: (
+Line 29: void
+Line 29: )
+Line 30: {
+Line 31: return
+Line 31: -
+Line 31: ID = EIO
+Line 31: ;
+Line 32: }
+Line 34: Unrecognized token: 35
+Line 34: ID = define
+Line 34: ID = EIO_ERROR
+Line 34: (
+Line 34: (
+Line 34: void
+Line 34: *
+Line 34: )
+Line 34: (
+Line 34: ID = return_EIO
+Line 34: )
+Line 34: )
+Line 36: ID = static
+Line 36: ID = struct
+Line 36: ID = file_operations
+Line 36: ID = bad_file_ops
+Line 36: =
+Line 37: {
+Line 38: Unrecognized token: 46
+Line 38: ID = llseek
+Line 38: =
+Line 38: ID = EIO_ERROR
+Line 38: ,
+Line 39: Unrecognized token: 46
+Line 39: ID = aio_read
+Line 39: =
+Line 39: ID = EIO_ERROR
+Line 39: ,
+Line 40: Unrecognized token: 46
+Line 40: ID = read
+Line 40: =
+Line 40: ID = EIO_ERROR
+Line 40: ,
+Line 41: Unrecognized token: 46
+Line 41: ID = write
+Line 41: =
+Line 41: ID = EIO_ERROR
+Line 41: ,
+Line 42: Unrecognized token: 46
+Line 42: ID = aio_write
+Line 42: =
+Line 42: ID = EIO_ERROR
+Line 42: ,
+Line 43: Unrecognized token: 46
+Line 43: ID = readdir
+Line 43: =
+Line 43: ID = EIO_ERROR
+Line 43: ,
+Line 44: Unrecognized token: 46
+Line 44: ID = poll
+Line 44: =
+Line 44: ID = EIO_ERROR
+Line 44: ,
+Line 45: Unrecognized token: 46
+Line 45: ID = ioctl
+Line 45: =
+Line 45: ID = EIO_ERROR
+Line 45: ,
+Line 46: Unrecognized token: 46
+Line 46: ID = mmap
+Line 46: =
+Line 46: ID = EIO_ERROR
+Line 46: ,
+Line 47: Unrecognized token: 46
+Line 47: ID = open
+Line 47: =
+Line 47: ID = EIO_ERROR
+Line 47: ,
+Line 48: Unrecognized token: 46
+Line 48: ID = flush
+Line 48: =
+Line 48: ID = EIO_ERROR
+Line 48: ,
+Line 49: Unrecognized token: 46
+Line 49: ID = release
+Line 49: =
+Line 49: ID = EIO_ERROR
+Line 49: ,
+Line 50: Unrecognized token: 46
+Line 50: ID = fsync
+Line 50: =
+Line 50: ID = EIO_ERROR
+Line 50: ,
+Line 51: Unrecognized token: 46
+Line 51: ID = aio_fsync
+Line 51: =
+Line 51: ID = EIO_ERROR
+Line 51: ,
+Line 52: Unrecognized token: 46
+Line 52: ID = fasync
+Line 52: =
+Line 52: ID = EIO_ERROR
+Line 52: ,
+Line 53: Unrecognized token: 46
+Line 53: ID = lock
+Line 53: =
+Line 53: ID = EIO_ERROR
+Line 53: ,
+Line 54: Unrecognized token: 46
+Line 54: ID = readv
+Line 54: =
+Line 54: ID = EIO_ERROR
+Line 54: ,
+Line 55: Unrecognized token: 46
+Line 55: ID = writev
+Line 55: =
+Line 55: ID = EIO_ERROR
+Line 55: ,
+Line 56: Unrecognized token: 46
+Line 56: ID = sendfile
+Line 56: =
+Line 56: ID = EIO_ERROR
+Line 56: ,
+Line 57: Unrecognized token: 46
+Line 57: ID = sendpage
+Line 57: =
+Line 57: ID = EIO_ERROR
+Line 57: ,
+Line 58: Unrecognized token: 46
+Line 58: ID = get_unmapped_area
+Line 58: =
+Line 58: ID = EIO_ERROR
+Line 58: ,
+Line 59: }
+Line 59: ;
+Line 61: ID = struct
+Line 61: ID = inode_operations
+Line 61: ID = bad_inode_ops
+Line 61: =
+Line 62: {
+Line 63: Unrecognized token: 46
+Line 63: ID = create
+Line 63: =
+Line 63: ID = EIO_ERROR
+Line 63: ,
+Line 64: Unrecognized token: 46
+Line 64: ID = lookup
+Line 64: =
+Line 64: ID = EIO_ERROR
+Line 64: ,
+Line 65: Unrecognized token: 46
+Line 65: ID = link
+Line 65: =
+Line 65: ID = EIO_ERROR
+Line 65: ,
+Line 66: Unrecognized token: 46
+Line 66: ID = unlink
+Line 66: =
+Line 66: ID = EIO_ERROR
+Line 66: ,
+Line 67: Unrecognized token: 46
+Line 67: ID = symlink
+Line 67: =
+Line 67: ID = EIO_ERROR
+Line 67: ,
+Line 68: Unrecognized token: 46
+Line 68: ID = mkdir
+Line 68: =
+Line 68: ID = EIO_ERROR
+Line 68: ,
+Line 69: Unrecognized token: 46
+Line 69: ID = rmdir
+Line 69: =
+Line 69: ID = EIO_ERROR
+Line 69: ,
+Line 70: Unrecognized token: 46
+Line 70: ID = mknod
+Line 70: =
+Line 70: ID = EIO_ERROR
+Line 70: ,
+Line 71: Unrecognized token: 46
+Line 71: ID = rename
+Line 71: =
+Line 71: ID = EIO_ERROR
+Line 71: ,
+Line 72: Unrecognized token: 46
+Line 72: ID = readlink
+Line 72: =
+Line 72: ID = EIO_ERROR
+Line 72: ,
+Line 73: Unrecognized token: 46
+Line 73: ID = follow_link
+Line 73: =
+Line 73: ID = bad_follow_link
+Line 73: ,
+Line 74: Unrecognized token: 46
+Line 74: ID = truncate
+Line 74: =
+Line 74: ID = EIO_ERROR
+Line 74: ,
+Line 75: Unrecognized token: 46
+Line 75: ID = permission
+Line 75: =
+Line 75: ID = EIO_ERROR
+Line 75: ,
+Line 76: Unrecognized token: 46
+Line 76: ID = getattr
+Line 76: =
+Line 76: ID = EIO_ERROR
+Line 76: ,
+Line 77: Unrecognized token: 46
+Line 77: ID = setattr
+Line 77: =
+Line 77: ID = EIO_ERROR
+Line 77: ,
+Line 78: Unrecognized token: 46
+Line 78: ID = setxattr
+Line 78: =
+Line 78: ID = EIO_ERROR
+Line 78: ,
+Line 79: Unrecognized token: 46
+Line 79: ID = getxattr
+Line 79: =
+Line 79: ID = EIO_ERROR
+Line 79: ,
+Line 80: Unrecognized token: 46
+Line 80: ID = listxattr
+Line 80: =
+Line 80: ID = EIO_ERROR
+Line 80: ,
+Line 81: Unrecognized token: 46
+Line 81: ID = removexattr
+Line 81: =
+Line 81: ID = EIO_ERROR
+Line 81: ,
+Line 82: }
+Line 82: ;
+Line 103: void
+Line 103: ID = make_bad_inode
+Line 103: (
+Line 103: ID = struct
+Line 103: ID = inode
+Line 103: *
+Line 103: ID = inode
+Line 103: )
+Line 104: {
+Line 105: ID = remove_inode_hash
+Line 105: (
+Line 105: ID = inode
+Line 105: )
+Line 105: ;
+Line 107: ID = inode
+Line 107: -
+Line 107: >
+Line 107: ID = i_mode
+Line 107: =
+Line 107: ID = S_IFREG
+Line 107: ;
+Line 108: ID = inode
+Line 108: -
+Line 108: >
+Line 108: ID = i_atime
+Line 108: =
+Line 108: ID = inode
+Line 108: -
+Line 108: >
+Line 108: ID = i_mtime
+Line 108: =
+Line 108: ID = inode
+Line 108: -
+Line 108: >
+Line 108: ID = i_ctime
+Line 108: =
+Line 108: ID = CURRENT_TIME
+Line 108: ;
+Line 109: ID = inode
+Line 109: -
+Line 109: >
+Line 109: ID = i_op
+Line 109: =
+Line 109: Unrecognized token: 38
+Line 109: ID = bad_inode_ops
+Line 109: ;
+Line 110: ID = inode
+Line 110: -
+Line 110: >
+Line 110: ID = i_fop
+Line 110: =
+Line 110: Unrecognized token: 38
+Line 110: ID = bad_file_ops
+Line 110: ;
+Line 111: }
+Line 112: ID = EXPORT_SYMBOL
+Line 112: (
+Line 112: ID = make_bad_inode
+Line 112: )
+Line 112: ;
+Line 127: int
+Line 127: ID = is_bad_inode
+Line 127: (
+Line 127: ID = struct
+Line 127: ID = inode
+Line 127: *
+Line 127: ID = inode
+Line 127: )
+Line 128: {
+Line 129: return
+Line 129: (
+Line 129: ID = inode
+Line 129: -
+Line 129: >
+Line 129: ID = i_op
+Line 129: ==
+Line 129: Unrecognized token: 38
+Line 129: ID = bad_inode_ops
+Line 129: )
+Line 129: ;
+Line 130: }
+Line 132: ID = EXPORT_SYMBOL
+Line 132: (
+Line 132: ID = is_bad_inode
+Line 132: )
+Line 132: ;
+Line 133: -EOF-

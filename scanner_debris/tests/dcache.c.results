@@ -1,0 +1,6170 @@
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = config
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = string
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = mm
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = fs
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = slab
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = init
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = smp_lock
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = hash
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = cache
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = module
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = mount
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = file
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = asm
+Line 29: /
+Line 29: ID = uaccess
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = security
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = seqlock
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = swap
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = bootmem
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 37: int
+Line 37: ID = sysctl_vfs_cache_pressure
+Line 37: =
+Line 37: INTCON = 100
+Line 37: ;
+Line 39: ID = spinlock_t
+Line 39: ID = dcache_lock
+Line 39: Unrecognized token: 95
+Line 39: Unrecognized token: 95
+Line 39: ID = cacheline_aligned_in_smp
+Line 39: =
+Line 39: ID = SPIN_LOCK_UNLOCKED
+Line 39: ;
+Line 40: ID = seqlock_t
+Line 40: ID = rename_lock
+Line 40: Unrecognized token: 95
+Line 40: Unrecognized token: 95
+Line 40: ID = cacheline_aligned_in_smp
+Line 40: =
+Line 40: ID = SEQLOCK_UNLOCKED
+Line 40: ;
+Line 42: ID = EXPORT_SYMBOL
+Line 42: (
+Line 42: ID = dcache_lock
+Line 42: )
+Line 42: ;
+Line 44: ID = static
+Line 44: ID = kmem_cache_t
+Line 44: *
+Line 44: ID = dentry_cache
+Line 44: ;
+Line 46: Unrecognized token: 35
+Line 46: ID = define
+Line 46: ID = DNAME_INLINE_LEN
+Line 46: (
+Line 46: ID = sizeof
+Line 46: (
+Line 46: ID = struct
+Line 46: ID = dentry
+Line 46: )
+Line 46: -
+Line 46: ID = offsetof
+Line 46: (
+Line 46: ID = struct
+Line 46: ID = dentry
+Line 46: ,
+Line 46: ID = d_iname
+Line 46: )
+Line 46: )
+Line 56: Unrecognized token: 35
+Line 56: ID = define
+Line 56: ID = D_HASHBITS
+Line 56: ID = d_hash_shift
+Line 57: Unrecognized token: 35
+Line 57: ID = define
+Line 57: ID = D_HASHMASK
+Line 57: ID = d_hash_mask
+Line 59: ID = static
+Line 59: ID = unsigned
+Line 59: int
+Line 59: ID = d_hash_mask
+Line 59: ;
+Line 60: ID = static
+Line 60: ID = unsigned
+Line 60: int
+Line 60: ID = d_hash_shift
+Line 60: ;
+Line 61: ID = static
+Line 61: ID = struct
+Line 61: ID = hlist_head
+Line 61: *
+Line 61: ID = dentry_hashtable
+Line 61: ;
+Line 62: ID = static
+Line 62: ID = LIST_HEAD
+Line 62: (
+Line 62: ID = dentry_unused
+Line 62: )
+Line 62: ;
+Line 65: ID = struct
+Line 65: ID = dentry_stat_t
+Line 65: ID = dentry_stat
+Line 65: =
+Line 65: {
+Line 66: Unrecognized token: 46
+Line 66: ID = age_limit
+Line 66: =
+Line 66: INTCON = 45
+Line 66: ,
+Line 67: }
+Line 67: ;
+Line 69: ID = static
+Line 69: void
+Line 69: ID = d_callback
+Line 69: (
+Line 69: ID = struct
+Line 69: ID = rcu_head
+Line 69: *
+Line 69: ID = head
+Line 69: )
+Line 70: {
+Line 71: ID = struct
+Line 71: ID = dentry
+Line 71: *
+Line 71: ID = dentry
+Line 71: =
+Line 71: ID = container_of
+Line 71: (
+Line 71: ID = head
+Line 71: ,
+Line 71: ID = struct
+Line 71: ID = dentry
+Line 71: ,
+Line 71: ID = d_rcu
+Line 71: )
+Line 71: ;
+Line 73: if
+Line 73: (
+Line 73: ID = dname_external
+Line 73: (
+Line 73: ID = dentry
+Line 73: )
+Line 73: )
+Line 74: ID = kfree
+Line 74: (
+Line 74: ID = dentry
+Line 74: -
+Line 74: >
+Line 74: ID = d_name
+Line 74: Unrecognized token: 46
+Line 74: ID = name
+Line 74: )
+Line 74: ;
+Line 75: ID = kmem_cache_free
+Line 75: (
+Line 75: ID = dentry_cache
+Line 75: ,
+Line 75: ID = dentry
+Line 75: )
+Line 75: ;
+Line 76: }
+Line 82: ID = static
+Line 82: void
+Line 82: ID = d_free
+Line 82: (
+Line 82: ID = struct
+Line 82: ID = dentry
+Line 82: *
+Line 82: ID = dentry
+Line 82: )
+Line 83: {
+Line 84: if
+Line 84: (
+Line 84: ID = dentry
+Line 84: -
+Line 84: >
+Line 84: ID = d_op
+Line 84: &&
+Line 84: ID = dentry
+Line 84: -
+Line 84: >
+Line 84: ID = d_op
+Line 84: -
+Line 84: >
+Line 84: ID = d_release
+Line 84: )
+Line 85: ID = dentry
+Line 85: -
+Line 85: >
+Line 85: ID = d_op
+Line 85: -
+Line 85: >
+Line 85: ID = d_release
+Line 85: (
+Line 85: ID = dentry
+Line 85: )
+Line 85: ;
+Line 86: ID = call_rcu
+Line 86: (
+Line 86: Unrecognized token: 38
+Line 86: ID = dentry
+Line 86: -
+Line 86: >
+Line 86: ID = d_rcu
+Line 86: ,
+Line 86: ID = d_callback
+Line 86: )
+Line 86: ;
+Line 87: }
+Line 94: ID = static
+Line 94: ID = inline
+Line 94: void
+Line 94: ID = dentry_iput
+Line 94: (
+Line 94: ID = struct
+Line 94: ID = dentry
+Line 94: *
+Line 94: ID = dentry
+Line 94: )
+Line 95: {
+Line 96: ID = struct
+Line 96: ID = inode
+Line 96: *
+Line 96: ID = inode
+Line 96: =
+Line 96: ID = dentry
+Line 96: -
+Line 96: >
+Line 96: ID = d_inode
+Line 96: ;
+Line 97: if
+Line 97: (
+Line 97: ID = inode
+Line 97: )
+Line 97: {
+Line 98: ID = dentry
+Line 98: -
+Line 98: >
+Line 98: ID = d_inode
+Line 98: =
+Line 98: ID = NULL
+Line 98: ;
+Line 99: ID = list_del_init
+Line 99: (
+Line 99: Unrecognized token: 38
+Line 99: ID = dentry
+Line 99: -
+Line 99: >
+Line 99: ID = d_alias
+Line 99: )
+Line 99: ;
+Line 100: ID = spin_unlock
+Line 100: (
+Line 100: Unrecognized token: 38
+Line 100: ID = dentry
+Line 100: -
+Line 100: >
+Line 100: ID = d_lock
+Line 100: )
+Line 100: ;
+Line 101: ID = spin_unlock
+Line 101: (
+Line 101: Unrecognized token: 38
+Line 101: ID = dcache_lock
+Line 101: )
+Line 101: ;
+Line 102: if
+Line 102: (
+Line 102: ID = dentry
+Line 102: -
+Line 102: >
+Line 102: ID = d_op
+Line 102: &&
+Line 102: ID = dentry
+Line 102: -
+Line 102: >
+Line 102: ID = d_op
+Line 102: -
+Line 102: >
+Line 102: ID = d_iput
+Line 102: )
+Line 103: ID = dentry
+Line 103: -
+Line 103: >
+Line 103: ID = d_op
+Line 103: -
+Line 103: >
+Line 103: ID = d_iput
+Line 103: (
+Line 103: ID = dentry
+Line 103: ,
+Line 103: ID = inode
+Line 103: )
+Line 103: ;
+Line 104: else
+Line 105: ID = iput
+Line 105: (
+Line 105: ID = inode
+Line 105: )
+Line 105: ;
+Line 106: }
+Line 106: else
+Line 106: {
+Line 107: ID = spin_unlock
+Line 107: (
+Line 107: Unrecognized token: 38
+Line 107: ID = dentry
+Line 107: -
+Line 107: >
+Line 107: ID = d_lock
+Line 107: )
+Line 107: ;
+Line 108: ID = spin_unlock
+Line 108: (
+Line 108: Unrecognized token: 38
+Line 108: ID = dcache_lock
+Line 108: )
+Line 108: ;
+Line 109: }
+Line 110: }
+Line 141: void
+Line 141: ID = dput
+Line 141: (
+Line 141: ID = struct
+Line 141: ID = dentry
+Line 141: *
+Line 141: ID = dentry
+Line 141: )
+Line 142: {
+Line 143: if
+Line 143: (
+Line 143: !
+Line 143: ID = dentry
+Line 143: )
+Line 144: return
+Line 144: ;
+Line 146: ID = repeat
+Line 146: Unrecognized token: 58
+Line 147: if
+Line 147: (
+Line 147: !
+Line 147: ID = atomic_dec_and_lock
+Line 147: (
+Line 147: Unrecognized token: 38
+Line 147: ID = dentry
+Line 147: -
+Line 147: >
+Line 147: ID = d_count
+Line 147: ,
+Line 147: Unrecognized token: 38
+Line 147: ID = dcache_lock
+Line 147: )
+Line 147: )
+Line 148: return
+Line 148: ;
+Line 150: ID = spin_lock
+Line 150: (
+Line 150: Unrecognized token: 38
+Line 150: ID = dentry
+Line 150: -
+Line 150: >
+Line 150: ID = d_lock
+Line 150: )
+Line 150: ;
+Line 151: if
+Line 151: (
+Line 151: ID = atomic_read
+Line 151: (
+Line 151: Unrecognized token: 38
+Line 151: ID = dentry
+Line 151: -
+Line 151: >
+Line 151: ID = d_count
+Line 151: )
+Line 151: )
+Line 151: {
+Line 152: ID = spin_unlock
+Line 152: (
+Line 152: Unrecognized token: 38
+Line 152: ID = dentry
+Line 152: -
+Line 152: >
+Line 152: ID = d_lock
+Line 152: )
+Line 152: ;
+Line 153: ID = spin_unlock
+Line 153: (
+Line 153: Unrecognized token: 38
+Line 153: ID = dcache_lock
+Line 153: )
+Line 153: ;
+Line 154: return
+Line 154: ;
+Line 155: }
+Line 160: if
+Line 160: (
+Line 160: ID = dentry
+Line 160: -
+Line 160: >
+Line 160: ID = d_op
+Line 160: &&
+Line 160: ID = dentry
+Line 160: -
+Line 160: >
+Line 160: ID = d_op
+Line 160: -
+Line 160: >
+Line 160: ID = d_delete
+Line 160: )
+Line 160: {
+Line 161: if
+Line 161: (
+Line 161: ID = dentry
+Line 161: -
+Line 161: >
+Line 161: ID = d_op
+Line 161: -
+Line 161: >
+Line 161: ID = d_delete
+Line 161: (
+Line 161: ID = dentry
+Line 161: )
+Line 161: )
+Line 162: ID = goto
+Line 162: ID = unhash_it
+Line 162: ;
+Line 163: }
+Line 165: if
+Line 165: (
+Line 165: ID = d_unhashed
+Line 165: (
+Line 165: ID = dentry
+Line 165: )
+Line 165: )
+Line 166: ID = goto
+Line 166: ID = kill_it
+Line 166: ;
+Line 167: if
+Line 167: (
+Line 167: ID = list_empty
+Line 167: (
+Line 167: Unrecognized token: 38
+Line 167: ID = dentry
+Line 167: -
+Line 167: >
+Line 167: ID = d_lru
+Line 167: )
+Line 167: )
+Line 167: {
+Line 168: ID = dentry
+Line 168: -
+Line 168: >
+Line 168: ID = d_flags
+Line 168: Unrecognized token: 124
+Line 168: =
+Line 168: ID = DCACHE_REFERENCED
+Line 168: ;
+Line 169: ID = list_add
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = dentry
+Line 169: -
+Line 169: >
+Line 169: ID = d_lru
+Line 169: ,
+Line 169: Unrecognized token: 38
+Line 169: ID = dentry_unused
+Line 169: )
+Line 169: ;
+Line 170: ID = dentry_stat
+Line 170: Unrecognized token: 46
+Line 170: ID = nr_unused
+Line 170: +
+Line 170: +
+Line 170: ;
+Line 171: }
+Line 172: ID = spin_unlock
+Line 172: (
+Line 172: Unrecognized token: 38
+Line 172: ID = dentry
+Line 172: -
+Line 172: >
+Line 172: ID = d_lock
+Line 172: )
+Line 172: ;
+Line 173: ID = spin_unlock
+Line 173: (
+Line 173: Unrecognized token: 38
+Line 173: ID = dcache_lock
+Line 173: )
+Line 173: ;
+Line 174: return
+Line 174: ;
+Line 176: ID = unhash_it
+Line 176: Unrecognized token: 58
+Line 177: Unrecognized token: 95
+Line 177: Unrecognized token: 95
+Line 177: ID = d_drop
+Line 177: (
+Line 177: ID = dentry
+Line 177: )
+Line 177: ;
+Line 179: ID = kill_it
+Line 179: Unrecognized token: 58
+Line 179: {
+Line 180: ID = struct
+Line 180: ID = dentry
+Line 180: *
+Line 180: ID = parent
+Line 180: ;
+Line 185: if
+Line 185: (
+Line 185: !
+Line 185: ID = list_empty
+Line 185: (
+Line 185: Unrecognized token: 38
+Line 185: ID = dentry
+Line 185: -
+Line 185: >
+Line 185: ID = d_lru
+Line 185: )
+Line 185: )
+Line 185: {
+Line 186: ID = list_del
+Line 186: (
+Line 186: Unrecognized token: 38
+Line 186: ID = dentry
+Line 186: -
+Line 186: >
+Line 186: ID = d_lru
+Line 186: )
+Line 186: ;
+Line 187: ID = dentry_stat
+Line 187: Unrecognized token: 46
+Line 187: ID = nr_unused
+Line 187: -
+Line 187: -
+Line 187: ;
+Line 188: }
+Line 189: ID = list_del
+Line 189: (
+Line 189: Unrecognized token: 38
+Line 189: ID = dentry
+Line 189: -
+Line 189: >
+Line 189: ID = d_child
+Line 189: )
+Line 189: ;
+Line 190: ID = dentry_stat
+Line 190: Unrecognized token: 46
+Line 190: ID = nr_dentry
+Line 190: -
+Line 190: -
+Line 190: ;
+Line 192: ID = dentry_iput
+Line 192: (
+Line 192: ID = dentry
+Line 192: )
+Line 192: ;
+Line 193: ID = parent
+Line 193: =
+Line 193: ID = dentry
+Line 193: -
+Line 193: >
+Line 193: ID = d_parent
+Line 193: ;
+Line 194: ID = d_free
+Line 194: (
+Line 194: ID = dentry
+Line 194: )
+Line 194: ;
+Line 195: if
+Line 195: (
+Line 195: ID = dentry
+Line 195: ==
+Line 195: ID = parent
+Line 195: )
+Line 196: return
+Line 196: ;
+Line 197: ID = dentry
+Line 197: =
+Line 197: ID = parent
+Line 197: ;
+Line 198: ID = goto
+Line 198: ID = repeat
+Line 198: ;
+Line 199: }
+Line 200: }
+Line 214: int
+Line 214: ID = d_invalidate
+Line 214: (
+Line 214: ID = struct
+Line 214: ID = dentry
+Line 214: *
+Line 214: ID = dentry
+Line 214: )
+Line 215: {
+Line 219: ID = spin_lock
+Line 219: (
+Line 219: Unrecognized token: 38
+Line 219: ID = dcache_lock
+Line 219: )
+Line 219: ;
+Line 220: if
+Line 220: (
+Line 220: ID = d_unhashed
+Line 220: (
+Line 220: ID = dentry
+Line 220: )
+Line 220: )
+Line 220: {
+Line 221: ID = spin_unlock
+Line 221: (
+Line 221: Unrecognized token: 38
+Line 221: ID = dcache_lock
+Line 221: )
+Line 221: ;
+Line 222: return
+Line 222: INTCON = 0
+Line 222: ;
+Line 223: }
+Line 228: if
+Line 228: (
+Line 228: !
+Line 228: ID = list_empty
+Line 228: (
+Line 228: Unrecognized token: 38
+Line 228: ID = dentry
+Line 228: -
+Line 228: >
+Line 228: ID = d_subdirs
+Line 228: )
+Line 228: )
+Line 228: {
+Line 229: ID = spin_unlock
+Line 229: (
+Line 229: Unrecognized token: 38
+Line 229: ID = dcache_lock
+Line 229: )
+Line 229: ;
+Line 230: ID = shrink_dcache_parent
+Line 230: (
+Line 230: ID = dentry
+Line 230: )
+Line 230: ;
+Line 231: ID = spin_lock
+Line 231: (
+Line 231: Unrecognized token: 38
+Line 231: ID = dcache_lock
+Line 231: )
+Line 231: ;
+Line 232: }
+Line 244: ID = spin_lock
+Line 244: (
+Line 244: Unrecognized token: 38
+Line 244: ID = dentry
+Line 244: -
+Line 244: >
+Line 244: ID = d_lock
+Line 244: )
+Line 244: ;
+Line 245: if
+Line 245: (
+Line 245: ID = atomic_read
+Line 245: (
+Line 245: Unrecognized token: 38
+Line 245: ID = dentry
+Line 245: -
+Line 245: >
+Line 245: ID = d_count
+Line 245: )
+Line 245: >
+Line 245: INTCON = 1
+Line 245: )
+Line 245: {
+Line 246: if
+Line 246: (
+Line 246: ID = dentry
+Line 246: -
+Line 246: >
+Line 246: ID = d_inode
+Line 246: &&
+Line 246: ID = S_ISDIR
+Line 246: (
+Line 246: ID = dentry
+Line 246: -
+Line 246: >
+Line 246: ID = d_inode
+Line 246: -
+Line 246: >
+Line 246: ID = i_mode
+Line 246: )
+Line 246: )
+Line 246: {
+Line 247: ID = spin_unlock
+Line 247: (
+Line 247: Unrecognized token: 38
+Line 247: ID = dentry
+Line 247: -
+Line 247: >
+Line 247: ID = d_lock
+Line 247: )
+Line 247: ;
+Line 248: ID = spin_unlock
+Line 248: (
+Line 248: Unrecognized token: 38
+Line 248: ID = dcache_lock
+Line 248: )
+Line 248: ;
+Line 249: return
+Line 249: -
+Line 249: ID = EBUSY
+Line 249: ;
+Line 250: }
+Line 251: }
+Line 253: Unrecognized token: 95
+Line 253: Unrecognized token: 95
+Line 253: ID = d_drop
+Line 253: (
+Line 253: ID = dentry
+Line 253: )
+Line 253: ;
+Line 254: ID = spin_unlock
+Line 254: (
+Line 254: Unrecognized token: 38
+Line 254: ID = dentry
+Line 254: -
+Line 254: >
+Line 254: ID = d_lock
+Line 254: )
+Line 254: ;
+Line 255: ID = spin_unlock
+Line 255: (
+Line 255: Unrecognized token: 38
+Line 255: ID = dcache_lock
+Line 255: )
+Line 255: ;
+Line 256: return
+Line 256: INTCON = 0
+Line 256: ;
+Line 257: }
+Line 261: ID = static
+Line 261: ID = inline
+Line 261: ID = struct
+Line 261: ID = dentry
+Line 261: *
+Line 261: Unrecognized token: 95
+Line 261: Unrecognized token: 95
+Line 261: ID = dget_locked
+Line 261: (
+Line 261: ID = struct
+Line 261: ID = dentry
+Line 261: *
+Line 261: ID = dentry
+Line 261: )
+Line 262: {
+Line 263: ID = atomic_inc
+Line 263: (
+Line 263: Unrecognized token: 38
+Line 263: ID = dentry
+Line 263: -
+Line 263: >
+Line 263: ID = d_count
+Line 263: )
+Line 263: ;
+Line 264: if
+Line 264: (
+Line 264: !
+Line 264: ID = list_empty
+Line 264: (
+Line 264: Unrecognized token: 38
+Line 264: ID = dentry
+Line 264: -
+Line 264: >
+Line 264: ID = d_lru
+Line 264: )
+Line 264: )
+Line 264: {
+Line 265: ID = dentry_stat
+Line 265: Unrecognized token: 46
+Line 265: ID = nr_unused
+Line 265: -
+Line 265: -
+Line 265: ;
+Line 266: ID = list_del_init
+Line 266: (
+Line 266: Unrecognized token: 38
+Line 266: ID = dentry
+Line 266: -
+Line 266: >
+Line 266: ID = d_lru
+Line 266: )
+Line 266: ;
+Line 267: }
+Line 268: return
+Line 268: ID = dentry
+Line 268: ;
+Line 269: }
+Line 271: ID = struct
+Line 271: ID = dentry
+Line 271: *
+Line 271: ID = dget_locked
+Line 271: (
+Line 271: ID = struct
+Line 271: ID = dentry
+Line 271: *
+Line 271: ID = dentry
+Line 271: )
+Line 272: {
+Line 273: return
+Line 273: Unrecognized token: 95
+Line 273: Unrecognized token: 95
+Line 273: ID = dget_locked
+Line 273: (
+Line 273: ID = dentry
+Line 273: )
+Line 273: ;
+Line 274: }
+Line 289: ID = struct
+Line 289: ID = dentry
+Line 289: *
+Line 289: ID = d_find_alias
+Line 289: (
+Line 289: ID = struct
+Line 289: ID = inode
+Line 289: *
+Line 289: ID = inode
+Line 289: )
+Line 290: {
+Line 291: ID = struct
+Line 291: ID = list_head
+Line 291: *
+Line 291: ID = head
+Line 291: ,
+Line 291: *
+Line 291: ID = next
+Line 291: ,
+Line 291: *
+Line 291: ID = tmp
+Line 291: ;
+Line 292: ID = struct
+Line 292: ID = dentry
+Line 292: *
+Line 292: ID = alias
+Line 292: ,
+Line 292: *
+Line 292: ID = discon_alias
+Line 292: =
+Line 292: ID = NULL
+Line 292: ;
+Line 294: ID = spin_lock
+Line 294: (
+Line 294: Unrecognized token: 38
+Line 294: ID = dcache_lock
+Line 294: )
+Line 294: ;
+Line 295: ID = head
+Line 295: =
+Line 295: Unrecognized token: 38
+Line 295: ID = inode
+Line 295: -
+Line 295: >
+Line 295: ID = i_dentry
+Line 295: ;
+Line 296: ID = next
+Line 296: =
+Line 296: ID = inode
+Line 296: -
+Line 296: >
+Line 296: ID = i_dentry
+Line 296: Unrecognized token: 46
+Line 296: ID = next
+Line 296: ;
+Line 297: while
+Line 297: (
+Line 297: ID = next
+Line 297: !=
+Line 297: ID = head
+Line 297: )
+Line 297: {
+Line 298: ID = tmp
+Line 298: =
+Line 298: ID = next
+Line 298: ;
+Line 299: ID = next
+Line 299: =
+Line 299: ID = tmp
+Line 299: -
+Line 299: >
+Line 299: ID = next
+Line 299: ;
+Line 300: ID = prefetch
+Line 300: (
+Line 300: ID = next
+Line 300: )
+Line 300: ;
+Line 301: ID = alias
+Line 301: =
+Line 301: ID = list_entry
+Line 301: (
+Line 301: ID = tmp
+Line 301: ,
+Line 301: ID = struct
+Line 301: ID = dentry
+Line 301: ,
+Line 301: ID = d_alias
+Line 301: )
+Line 301: ;
+Line 302: if
+Line 302: (
+Line 302: !
+Line 302: ID = d_unhashed
+Line 302: (
+Line 302: ID = alias
+Line 302: )
+Line 302: )
+Line 302: {
+Line 303: if
+Line 303: (
+Line 303: ID = alias
+Line 303: -
+Line 303: >
+Line 303: ID = d_flags
+Line 303: Unrecognized token: 38
+Line 303: ID = DCACHE_DISCONNECTED
+Line 303: )
+Line 304: ID = discon_alias
+Line 304: =
+Line 304: ID = alias
+Line 304: ;
+Line 305: else
+Line 305: {
+Line 306: Unrecognized token: 95
+Line 306: Unrecognized token: 95
+Line 306: ID = dget_locked
+Line 306: (
+Line 306: ID = alias
+Line 306: )
+Line 306: ;
+Line 307: ID = spin_unlock
+Line 307: (
+Line 307: Unrecognized token: 38
+Line 307: ID = dcache_lock
+Line 307: )
+Line 307: ;
+Line 308: return
+Line 308: ID = alias
+Line 308: ;
+Line 309: }
+Line 310: }
+Line 311: }
+Line 312: if
+Line 312: (
+Line 312: ID = discon_alias
+Line 312: )
+Line 313: Unrecognized token: 95
+Line 313: Unrecognized token: 95
+Line 313: ID = dget_locked
+Line 313: (
+Line 313: ID = discon_alias
+Line 313: )
+Line 313: ;
+Line 314: ID = spin_unlock
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = dcache_lock
+Line 314: )
+Line 314: ;
+Line 315: return
+Line 315: ID = discon_alias
+Line 315: ;
+Line 316: }
+Line 322: void
+Line 322: ID = d_prune_aliases
+Line 322: (
+Line 322: ID = struct
+Line 322: ID = inode
+Line 322: *
+Line 322: ID = inode
+Line 322: )
+Line 323: {
+Line 324: ID = struct
+Line 324: ID = list_head
+Line 324: *
+Line 324: ID = tmp
+Line 324: ,
+Line 324: *
+Line 324: ID = head
+Line 324: =
+Line 324: Unrecognized token: 38
+Line 324: ID = inode
+Line 324: -
+Line 324: >
+Line 324: ID = i_dentry
+Line 324: ;
+Line 325: ID = restart
+Line 325: Unrecognized token: 58
+Line 326: ID = spin_lock
+Line 326: (
+Line 326: Unrecognized token: 38
+Line 326: ID = dcache_lock
+Line 326: )
+Line 326: ;
+Line 327: ID = tmp
+Line 327: =
+Line 327: ID = head
+Line 327: ;
+Line 328: while
+Line 328: (
+Line 328: (
+Line 328: ID = tmp
+Line 328: =
+Line 328: ID = tmp
+Line 328: -
+Line 328: >
+Line 328: ID = next
+Line 328: )
+Line 328: !=
+Line 328: ID = head
+Line 328: )
+Line 328: {
+Line 329: ID = struct
+Line 329: ID = dentry
+Line 329: *
+Line 329: ID = dentry
+Line 329: =
+Line 329: ID = list_entry
+Line 329: (
+Line 329: ID = tmp
+Line 329: ,
+Line 329: ID = struct
+Line 329: ID = dentry
+Line 329: ,
+Line 329: ID = d_alias
+Line 329: )
+Line 329: ;
+Line 330: if
+Line 330: (
+Line 330: !
+Line 330: ID = atomic_read
+Line 330: (
+Line 330: Unrecognized token: 38
+Line 330: ID = dentry
+Line 330: -
+Line 330: >
+Line 330: ID = d_count
+Line 330: )
+Line 330: )
+Line 330: {
+Line 331: Unrecognized token: 95
+Line 331: Unrecognized token: 95
+Line 331: ID = dget_locked
+Line 331: (
+Line 331: ID = dentry
+Line 331: )
+Line 331: ;
+Line 332: Unrecognized token: 95
+Line 332: Unrecognized token: 95
+Line 332: ID = d_drop
+Line 332: (
+Line 332: ID = dentry
+Line 332: )
+Line 332: ;
+Line 333: ID = spin_unlock
+Line 333: (
+Line 333: Unrecognized token: 38
+Line 333: ID = dcache_lock
+Line 333: )
+Line 333: ;
+Line 334: ID = dput
+Line 334: (
+Line 334: ID = dentry
+Line 334: )
+Line 334: ;
+Line 335: ID = goto
+Line 335: ID = restart
+Line 335: ;
+Line 336: }
+Line 337: }
+Line 338: ID = spin_unlock
+Line 338: (
+Line 338: Unrecognized token: 38
+Line 338: ID = dcache_lock
+Line 338: )
+Line 338: ;
+Line 339: }
+Line 347: ID = static
+Line 347: ID = inline
+Line 347: void
+Line 347: ID = prune_one_dentry
+Line 347: (
+Line 347: ID = struct
+Line 347: ID = dentry
+Line 347: *
+Line 347: ID = dentry
+Line 347: )
+Line 348: {
+Line 349: ID = struct
+Line 349: ID = dentry
+Line 349: *
+Line 349: ID = parent
+Line 349: ;
+Line 351: Unrecognized token: 95
+Line 351: Unrecognized token: 95
+Line 351: ID = d_drop
+Line 351: (
+Line 351: ID = dentry
+Line 351: )
+Line 351: ;
+Line 352: ID = list_del
+Line 352: (
+Line 352: Unrecognized token: 38
+Line 352: ID = dentry
+Line 352: -
+Line 352: >
+Line 352: ID = d_child
+Line 352: )
+Line 352: ;
+Line 353: ID = dentry_stat
+Line 353: Unrecognized token: 46
+Line 353: ID = nr_dentry
+Line 353: -
+Line 353: -
+Line 353: ;
+Line 354: ID = dentry_iput
+Line 354: (
+Line 354: ID = dentry
+Line 354: )
+Line 354: ;
+Line 355: ID = parent
+Line 355: =
+Line 355: ID = dentry
+Line 355: -
+Line 355: >
+Line 355: ID = d_parent
+Line 355: ;
+Line 356: ID = d_free
+Line 356: (
+Line 356: ID = dentry
+Line 356: )
+Line 356: ;
+Line 357: if
+Line 357: (
+Line 357: ID = parent
+Line 357: !=
+Line 357: ID = dentry
+Line 357: )
+Line 358: ID = dput
+Line 358: (
+Line 358: ID = parent
+Line 358: )
+Line 358: ;
+Line 359: ID = spin_lock
+Line 359: (
+Line 359: Unrecognized token: 38
+Line 359: ID = dcache_lock
+Line 359: )
+Line 359: ;
+Line 360: }
+Line 375: ID = static
+Line 375: void
+Line 375: ID = prune_dcache
+Line 375: (
+Line 375: int
+Line 375: ID = count
+Line 375: )
+Line 376: {
+Line 377: ID = spin_lock
+Line 377: (
+Line 377: Unrecognized token: 38
+Line 377: ID = dcache_lock
+Line 377: )
+Line 377: ;
+Line 378: for
+Line 378: (
+Line 378: ;
+Line 378: ID = count
+Line 378: ;
+Line 378: ID = count
+Line 378: -
+Line 378: -
+Line 378: )
+Line 378: {
+Line 379: ID = struct
+Line 379: ID = dentry
+Line 379: *
+Line 379: ID = dentry
+Line 379: ;
+Line 380: ID = struct
+Line 380: ID = list_head
+Line 380: *
+Line 380: ID = tmp
+Line 380: ;
+Line 382: ID = tmp
+Line 382: =
+Line 382: ID = dentry_unused
+Line 382: Unrecognized token: 46
+Line 382: ID = prev
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: ID = tmp
+Line 383: ==
+Line 383: Unrecognized token: 38
+Line 383: ID = dentry_unused
+Line 383: )
+Line 384: ID = break
+Line 384: ;
+Line 385: ID = list_del_init
+Line 385: (
+Line 385: ID = tmp
+Line 385: )
+Line 385: ;
+Line 386: ID = prefetch
+Line 386: (
+Line 386: ID = dentry_unused
+Line 386: Unrecognized token: 46
+Line 386: ID = prev
+Line 386: )
+Line 386: ;
+Line 387: ID = dentry_stat
+Line 387: Unrecognized token: 46
+Line 387: ID = nr_unused
+Line 387: -
+Line 387: -
+Line 387: ;
+Line 388: ID = dentry
+Line 388: =
+Line 388: ID = list_entry
+Line 388: (
+Line 388: ID = tmp
+Line 388: ,
+Line 388: ID = struct
+Line 388: ID = dentry
+Line 388: ,
+Line 388: ID = d_lru
+Line 388: )
+Line 388: ;
+Line 390: ID = spin_lock
+Line 390: (
+Line 390: Unrecognized token: 38
+Line 390: ID = dentry
+Line 390: -
+Line 390: >
+Line 390: ID = d_lock
+Line 390: )
+Line 390: ;
+Line 396: if
+Line 396: (
+Line 396: ID = atomic_read
+Line 396: (
+Line 396: Unrecognized token: 38
+Line 396: ID = dentry
+Line 396: -
+Line 396: >
+Line 396: ID = d_count
+Line 396: )
+Line 396: )
+Line 396: {
+Line 397: ID = spin_unlock
+Line 397: (
+Line 397: Unrecognized token: 38
+Line 397: ID = dentry
+Line 397: -
+Line 397: >
+Line 397: ID = d_lock
+Line 397: )
+Line 397: ;
+Line 398: ID = continue
+Line 398: ;
+Line 399: }
+Line 401: if
+Line 401: (
+Line 401: ID = dentry
+Line 401: -
+Line 401: >
+Line 401: ID = d_flags
+Line 401: Unrecognized token: 38
+Line 401: ID = DCACHE_REFERENCED
+Line 401: )
+Line 401: {
+Line 402: ID = dentry
+Line 402: -
+Line 402: >
+Line 402: ID = d_flags
+Line 402: Unrecognized token: 38
+Line 402: =
+Line 402: Unrecognized token: 126
+Line 402: ID = DCACHE_REFERENCED
+Line 402: ;
+Line 403: ID = list_add
+Line 403: (
+Line 403: Unrecognized token: 38
+Line 403: ID = dentry
+Line 403: -
+Line 403: >
+Line 403: ID = d_lru
+Line 403: ,
+Line 403: Unrecognized token: 38
+Line 403: ID = dentry_unused
+Line 403: )
+Line 403: ;
+Line 404: ID = dentry_stat
+Line 404: Unrecognized token: 46
+Line 404: ID = nr_unused
+Line 404: +
+Line 404: +
+Line 404: ;
+Line 405: ID = spin_unlock
+Line 405: (
+Line 405: Unrecognized token: 38
+Line 405: ID = dentry
+Line 405: -
+Line 405: >
+Line 405: ID = d_lock
+Line 405: )
+Line 405: ;
+Line 406: ID = continue
+Line 406: ;
+Line 407: }
+Line 408: ID = prune_one_dentry
+Line 408: (
+Line 408: ID = dentry
+Line 408: )
+Line 408: ;
+Line 409: }
+Line 410: ID = spin_unlock
+Line 410: (
+Line 410: Unrecognized token: 38
+Line 410: ID = dcache_lock
+Line 410: )
+Line 410: ;
+Line 411: }
+Line 435: void
+Line 435: ID = shrink_dcache_sb
+Line 435: (
+Line 435: ID = struct
+Line 435: ID = super_block
+Line 435: *
+Line 435: ID = sb
+Line 435: )
+Line 436: {
+Line 437: ID = struct
+Line 437: ID = list_head
+Line 437: *
+Line 437: ID = tmp
+Line 437: ,
+Line 437: *
+Line 437: ID = next
+Line 437: ;
+Line 438: ID = struct
+Line 438: ID = dentry
+Line 438: *
+Line 438: ID = dentry
+Line 438: ;
+Line 444: ID = spin_lock
+Line 444: (
+Line 444: Unrecognized token: 38
+Line 444: ID = dcache_lock
+Line 444: )
+Line 444: ;
+Line 445: ID = next
+Line 445: =
+Line 445: ID = dentry_unused
+Line 445: Unrecognized token: 46
+Line 445: ID = next
+Line 445: ;
+Line 446: while
+Line 446: (
+Line 446: ID = next
+Line 446: !=
+Line 446: Unrecognized token: 38
+Line 446: ID = dentry_unused
+Line 446: )
+Line 446: {
+Line 447: ID = tmp
+Line 447: =
+Line 447: ID = next
+Line 447: ;
+Line 448: ID = next
+Line 448: =
+Line 448: ID = tmp
+Line 448: -
+Line 448: >
+Line 448: ID = next
+Line 448: ;
+Line 449: ID = dentry
+Line 449: =
+Line 449: ID = list_entry
+Line 449: (
+Line 449: ID = tmp
+Line 449: ,
+Line 449: ID = struct
+Line 449: ID = dentry
+Line 449: ,
+Line 449: ID = d_lru
+Line 449: )
+Line 449: ;
+Line 450: if
+Line 450: (
+Line 450: ID = dentry
+Line 450: -
+Line 450: >
+Line 450: ID = d_sb
+Line 450: !=
+Line 450: ID = sb
+Line 450: )
+Line 451: ID = continue
+Line 451: ;
+Line 452: ID = list_del
+Line 452: (
+Line 452: ID = tmp
+Line 452: )
+Line 452: ;
+Line 453: ID = list_add
+Line 453: (
+Line 453: ID = tmp
+Line 453: ,
+Line 453: Unrecognized token: 38
+Line 453: ID = dentry_unused
+Line 453: )
+Line 453: ;
+Line 454: }
+Line 459: ID = repeat
+Line 459: Unrecognized token: 58
+Line 460: ID = next
+Line 460: =
+Line 460: ID = dentry_unused
+Line 460: Unrecognized token: 46
+Line 460: ID = next
+Line 460: ;
+Line 461: while
+Line 461: (
+Line 461: ID = next
+Line 461: !=
+Line 461: Unrecognized token: 38
+Line 461: ID = dentry_unused
+Line 461: )
+Line 461: {
+Line 462: ID = tmp
+Line 462: =
+Line 462: ID = next
+Line 462: ;
+Line 463: ID = next
+Line 463: =
+Line 463: ID = tmp
+Line 463: -
+Line 463: >
+Line 463: ID = next
+Line 463: ;
+Line 464: ID = dentry
+Line 464: =
+Line 464: ID = list_entry
+Line 464: (
+Line 464: ID = tmp
+Line 464: ,
+Line 464: ID = struct
+Line 464: ID = dentry
+Line 464: ,
+Line 464: ID = d_lru
+Line 464: )
+Line 464: ;
+Line 465: if
+Line 465: (
+Line 465: ID = dentry
+Line 465: -
+Line 465: >
+Line 465: ID = d_sb
+Line 465: !=
+Line 465: ID = sb
+Line 465: )
+Line 466: ID = continue
+Line 466: ;
+Line 467: ID = dentry_stat
+Line 467: Unrecognized token: 46
+Line 467: ID = nr_unused
+Line 467: -
+Line 467: -
+Line 467: ;
+Line 468: ID = list_del_init
+Line 468: (
+Line 468: ID = tmp
+Line 468: )
+Line 468: ;
+Line 469: ID = spin_lock
+Line 469: (
+Line 469: Unrecognized token: 38
+Line 469: ID = dentry
+Line 469: -
+Line 469: >
+Line 469: ID = d_lock
+Line 469: )
+Line 469: ;
+Line 470: if
+Line 470: (
+Line 470: ID = atomic_read
+Line 470: (
+Line 470: Unrecognized token: 38
+Line 470: ID = dentry
+Line 470: -
+Line 470: >
+Line 470: ID = d_count
+Line 470: )
+Line 470: )
+Line 470: {
+Line 471: ID = spin_unlock
+Line 471: (
+Line 471: Unrecognized token: 38
+Line 471: ID = dentry
+Line 471: -
+Line 471: >
+Line 471: ID = d_lock
+Line 471: )
+Line 471: ;
+Line 472: ID = continue
+Line 472: ;
+Line 473: }
+Line 474: ID = prune_one_dentry
+Line 474: (
+Line 474: ID = dentry
+Line 474: )
+Line 474: ;
+Line 475: ID = goto
+Line 475: ID = repeat
+Line 475: ;
+Line 476: }
+Line 477: ID = spin_unlock
+Line 477: (
+Line 477: Unrecognized token: 38
+Line 477: ID = dcache_lock
+Line 477: )
+Line 477: ;
+Line 478: }
+Line 494: int
+Line 494: ID = have_submounts
+Line 494: (
+Line 494: ID = struct
+Line 494: ID = dentry
+Line 494: *
+Line 494: ID = parent
+Line 494: )
+Line 495: {
+Line 496: ID = struct
+Line 496: ID = dentry
+Line 496: *
+Line 496: ID = this_parent
+Line 496: =
+Line 496: ID = parent
+Line 496: ;
+Line 497: ID = struct
+Line 497: ID = list_head
+Line 497: *
+Line 497: ID = next
+Line 497: ;
+Line 499: ID = spin_lock
+Line 499: (
+Line 499: Unrecognized token: 38
+Line 499: ID = dcache_lock
+Line 499: )
+Line 499: ;
+Line 500: if
+Line 500: (
+Line 500: ID = d_mountpoint
+Line 500: (
+Line 500: ID = parent
+Line 500: )
+Line 500: )
+Line 501: ID = goto
+Line 501: ID = positive
+Line 501: ;
+Line 502: ID = repeat
+Line 502: Unrecognized token: 58
+Line 503: ID = next
+Line 503: =
+Line 503: ID = this_parent
+Line 503: -
+Line 503: >
+Line 503: ID = d_subdirs
+Line 503: Unrecognized token: 46
+Line 503: ID = next
+Line 503: ;
+Line 504: ID = resume
+Line 504: Unrecognized token: 58
+Line 505: while
+Line 505: (
+Line 505: ID = next
+Line 505: !=
+Line 505: Unrecognized token: 38
+Line 505: ID = this_parent
+Line 505: -
+Line 505: >
+Line 505: ID = d_subdirs
+Line 505: )
+Line 505: {
+Line 506: ID = struct
+Line 506: ID = list_head
+Line 506: *
+Line 506: ID = tmp
+Line 506: =
+Line 506: ID = next
+Line 506: ;
+Line 507: ID = struct
+Line 507: ID = dentry
+Line 507: *
+Line 507: ID = dentry
+Line 507: =
+Line 507: ID = list_entry
+Line 507: (
+Line 507: ID = tmp
+Line 507: ,
+Line 507: ID = struct
+Line 507: ID = dentry
+Line 507: ,
+Line 507: ID = d_child
+Line 507: )
+Line 507: ;
+Line 508: ID = next
+Line 508: =
+Line 508: ID = tmp
+Line 508: -
+Line 508: >
+Line 508: ID = next
+Line 508: ;
+Line 510: if
+Line 510: (
+Line 510: ID = d_mountpoint
+Line 510: (
+Line 510: ID = dentry
+Line 510: )
+Line 510: )
+Line 511: ID = goto
+Line 511: ID = positive
+Line 511: ;
+Line 512: if
+Line 512: (
+Line 512: !
+Line 512: ID = list_empty
+Line 512: (
+Line 512: Unrecognized token: 38
+Line 512: ID = dentry
+Line 512: -
+Line 512: >
+Line 512: ID = d_subdirs
+Line 512: )
+Line 512: )
+Line 512: {
+Line 513: ID = this_parent
+Line 513: =
+Line 513: ID = dentry
+Line 513: ;
+Line 514: ID = goto
+Line 514: ID = repeat
+Line 514: ;
+Line 515: }
+Line 516: }
+Line 520: if
+Line 520: (
+Line 520: ID = this_parent
+Line 520: !=
+Line 520: ID = parent
+Line 520: )
+Line 520: {
+Line 521: ID = next
+Line 521: =
+Line 521: ID = this_parent
+Line 521: -
+Line 521: >
+Line 521: ID = d_child
+Line 521: Unrecognized token: 46
+Line 521: ID = next
+Line 521: ;
+Line 522: ID = this_parent
+Line 522: =
+Line 522: ID = this_parent
+Line 522: -
+Line 522: >
+Line 522: ID = d_parent
+Line 522: ;
+Line 523: ID = goto
+Line 523: ID = resume
+Line 523: ;
+Line 524: }
+Line 525: ID = spin_unlock
+Line 525: (
+Line 525: Unrecognized token: 38
+Line 525: ID = dcache_lock
+Line 525: )
+Line 525: ;
+Line 526: return
+Line 526: INTCON = 0
+Line 526: ;
+Line 527: ID = positive
+Line 527: Unrecognized token: 58
+Line 528: ID = spin_unlock
+Line 528: (
+Line 528: Unrecognized token: 38
+Line 528: ID = dcache_lock
+Line 528: )
+Line 528: ;
+Line 529: return
+Line 529: INTCON = 1
+Line 529: ;
+Line 530: }
+Line 539: ID = static
+Line 539: int
+Line 539: ID = select_parent
+Line 539: (
+Line 539: ID = struct
+Line 539: ID = dentry
+Line 539: *
+Line 539: ID = parent
+Line 539: )
+Line 540: {
+Line 541: ID = struct
+Line 541: ID = dentry
+Line 541: *
+Line 541: ID = this_parent
+Line 541: =
+Line 541: ID = parent
+Line 541: ;
+Line 542: ID = struct
+Line 542: ID = list_head
+Line 542: *
+Line 542: ID = next
+Line 542: ;
+Line 543: int
+Line 543: ID = found
+Line 543: =
+Line 543: INTCON = 0
+Line 543: ;
+Line 545: ID = spin_lock
+Line 545: (
+Line 545: Unrecognized token: 38
+Line 545: ID = dcache_lock
+Line 545: )
+Line 545: ;
+Line 546: ID = repeat
+Line 546: Unrecognized token: 58
+Line 547: ID = next
+Line 547: =
+Line 547: ID = this_parent
+Line 547: -
+Line 547: >
+Line 547: ID = d_subdirs
+Line 547: Unrecognized token: 46
+Line 547: ID = next
+Line 547: ;
+Line 548: ID = resume
+Line 548: Unrecognized token: 58
+Line 549: while
+Line 549: (
+Line 549: ID = next
+Line 549: !=
+Line 549: Unrecognized token: 38
+Line 549: ID = this_parent
+Line 549: -
+Line 549: >
+Line 549: ID = d_subdirs
+Line 549: )
+Line 549: {
+Line 550: ID = struct
+Line 550: ID = list_head
+Line 550: *
+Line 550: ID = tmp
+Line 550: =
+Line 550: ID = next
+Line 550: ;
+Line 551: ID = struct
+Line 551: ID = dentry
+Line 551: *
+Line 551: ID = dentry
+Line 551: =
+Line 551: ID = list_entry
+Line 551: (
+Line 551: ID = tmp
+Line 551: ,
+Line 551: ID = struct
+Line 551: ID = dentry
+Line 551: ,
+Line 551: ID = d_child
+Line 551: )
+Line 551: ;
+Line 552: ID = next
+Line 552: =
+Line 552: ID = tmp
+Line 552: -
+Line 552: >
+Line 552: ID = next
+Line 552: ;
+Line 554: if
+Line 554: (
+Line 554: !
+Line 554: ID = list_empty
+Line 554: (
+Line 554: Unrecognized token: 38
+Line 554: ID = dentry
+Line 554: -
+Line 554: >
+Line 554: ID = d_lru
+Line 554: )
+Line 554: )
+Line 554: {
+Line 555: ID = dentry_stat
+Line 555: Unrecognized token: 46
+Line 555: ID = nr_unused
+Line 555: -
+Line 555: -
+Line 555: ;
+Line 556: ID = list_del_init
+Line 556: (
+Line 556: Unrecognized token: 38
+Line 556: ID = dentry
+Line 556: -
+Line 556: >
+Line 556: ID = d_lru
+Line 556: )
+Line 556: ;
+Line 557: }
+Line 562: if
+Line 562: (
+Line 562: !
+Line 562: ID = atomic_read
+Line 562: (
+Line 562: Unrecognized token: 38
+Line 562: ID = dentry
+Line 562: -
+Line 562: >
+Line 562: ID = d_count
+Line 562: )
+Line 562: )
+Line 562: {
+Line 563: ID = list_add
+Line 563: (
+Line 563: Unrecognized token: 38
+Line 563: ID = dentry
+Line 563: -
+Line 563: >
+Line 563: ID = d_lru
+Line 563: ,
+Line 563: ID = dentry_unused
+Line 563: Unrecognized token: 46
+Line 563: ID = prev
+Line 563: )
+Line 563: ;
+Line 564: ID = dentry_stat
+Line 564: Unrecognized token: 46
+Line 564: ID = nr_unused
+Line 564: +
+Line 564: +
+Line 564: ;
+Line 565: ID = found
+Line 565: +
+Line 565: +
+Line 565: ;
+Line 566: }
+Line 570: if
+Line 570: (
+Line 570: !
+Line 570: ID = list_empty
+Line 570: (
+Line 570: Unrecognized token: 38
+Line 570: ID = dentry
+Line 570: -
+Line 570: >
+Line 570: ID = d_subdirs
+Line 570: )
+Line 570: )
+Line 570: {
+Line 571: ID = this_parent
+Line 571: =
+Line 571: ID = dentry
+Line 571: ;
+Line 572: Unrecognized token: 35
+Line 572: ID = ifdef
+Line 572: ID = DCACHE_DEBUG
+Line 573: ID = printk
+Line 573: (
+Line 573: ID = KERN_DEBUG
+Line 573: STRINGCON = "select_parent: descending to %s/%s, found=%d\n"
+Line 573: ,
+Line 574: ID = dentry
+Line 574: -
+Line 574: >
+Line 574: ID = d_parent
+Line 574: -
+Line 574: >
+Line 574: ID = d_name
+Line 574: Unrecognized token: 46
+Line 574: ID = name
+Line 574: ,
+Line 574: ID = dentry
+Line 574: -
+Line 574: >
+Line 574: ID = d_name
+Line 574: Unrecognized token: 46
+Line 574: ID = name
+Line 574: ,
+Line 574: ID = found
+Line 574: )
+Line 574: ;
+Line 575: Unrecognized token: 35
+Line 575: ID = endif
+Line 576: ID = goto
+Line 576: ID = repeat
+Line 576: ;
+Line 577: }
+Line 578: }
+Line 582: if
+Line 582: (
+Line 582: ID = this_parent
+Line 582: !=
+Line 582: ID = parent
+Line 582: )
+Line 582: {
+Line 583: ID = next
+Line 583: =
+Line 583: ID = this_parent
+Line 583: -
+Line 583: >
+Line 583: ID = d_child
+Line 583: Unrecognized token: 46
+Line 583: ID = next
+Line 583: ;
+Line 584: ID = this_parent
+Line 584: =
+Line 584: ID = this_parent
+Line 584: -
+Line 584: >
+Line 584: ID = d_parent
+Line 584: ;
+Line 585: Unrecognized token: 35
+Line 585: ID = ifdef
+Line 585: ID = DCACHE_DEBUG
+Line 586: ID = printk
+Line 586: (
+Line 586: ID = KERN_DEBUG
+Line 586: STRINGCON = "select_parent: ascending to %s/%s, found=%d\n"
+Line 586: ,
+Line 587: ID = this_parent
+Line 587: -
+Line 587: >
+Line 587: ID = d_parent
+Line 587: -
+Line 587: >
+Line 587: ID = d_name
+Line 587: Unrecognized token: 46
+Line 587: ID = name
+Line 587: ,
+Line 587: ID = this_parent
+Line 587: -
+Line 587: >
+Line 587: ID = d_name
+Line 587: Unrecognized token: 46
+Line 587: ID = name
+Line 587: ,
+Line 587: ID = found
+Line 587: )
+Line 587: ;
+Line 588: Unrecognized token: 35
+Line 588: ID = endif
+Line 589: ID = goto
+Line 589: ID = resume
+Line 589: ;
+Line 590: }
+Line 591: ID = spin_unlock
+Line 591: (
+Line 591: Unrecognized token: 38
+Line 591: ID = dcache_lock
+Line 591: )
+Line 591: ;
+Line 592: return
+Line 592: ID = found
+Line 592: ;
+Line 593: }
+Line 602: void
+Line 602: ID = shrink_dcache_parent
+Line 602: (
+Line 602: ID = struct
+Line 602: ID = dentry
+Line 602: *
+Line 602: ID = parent
+Line 602: )
+Line 603: {
+Line 604: int
+Line 604: ID = found
+Line 604: ;
+Line 606: while
+Line 606: (
+Line 606: (
+Line 606: ID = found
+Line 606: =
+Line 606: ID = select_parent
+Line 606: (
+Line 606: ID = parent
+Line 606: )
+Line 606: )
+Line 606: !=
+Line 606: INTCON = 0
+Line 606: )
+Line 607: ID = prune_dcache
+Line 607: (
+Line 607: ID = found
+Line 607: )
+Line 607: ;
+Line 608: }
+Line 620: void
+Line 620: ID = shrink_dcache_anon
+Line 620: (
+Line 620: ID = struct
+Line 620: ID = hlist_head
+Line 620: *
+Line 620: ID = head
+Line 620: )
+Line 621: {
+Line 622: ID = struct
+Line 622: ID = hlist_node
+Line 622: *
+Line 622: ID = lp
+Line 622: ;
+Line 623: int
+Line 623: ID = found
+Line 623: ;
+Line 624: ID = do
+Line 624: {
+Line 625: ID = found
+Line 625: =
+Line 625: INTCON = 0
+Line 625: ;
+Line 626: ID = spin_lock
+Line 626: (
+Line 626: Unrecognized token: 38
+Line 626: ID = dcache_lock
+Line 626: )
+Line 626: ;
+Line 627: ID = hlist_for_each
+Line 627: (
+Line 627: ID = lp
+Line 627: ,
+Line 627: ID = head
+Line 627: )
+Line 627: {
+Line 628: ID = struct
+Line 628: ID = dentry
+Line 628: *
+Line 628: ID = this
+Line 628: =
+Line 628: ID = hlist_entry
+Line 628: (
+Line 628: ID = lp
+Line 628: ,
+Line 628: ID = struct
+Line 628: ID = dentry
+Line 628: ,
+Line 628: ID = d_hash
+Line 628: )
+Line 628: ;
+Line 629: if
+Line 629: (
+Line 629: !
+Line 629: ID = list_empty
+Line 629: (
+Line 629: Unrecognized token: 38
+Line 629: ID = this
+Line 629: -
+Line 629: >
+Line 629: ID = d_lru
+Line 629: )
+Line 629: )
+Line 629: {
+Line 630: ID = dentry_stat
+Line 630: Unrecognized token: 46
+Line 630: ID = nr_unused
+Line 630: -
+Line 630: -
+Line 630: ;
+Line 631: ID = list_del_init
+Line 631: (
+Line 631: Unrecognized token: 38
+Line 631: ID = this
+Line 631: -
+Line 631: >
+Line 631: ID = d_lru
+Line 631: )
+Line 631: ;
+Line 632: }
+Line 638: if
+Line 638: (
+Line 638: !
+Line 638: ID = atomic_read
+Line 638: (
+Line 638: Unrecognized token: 38
+Line 638: ID = this
+Line 638: -
+Line 638: >
+Line 638: ID = d_count
+Line 638: )
+Line 638: )
+Line 638: {
+Line 639: ID = list_add_tail
+Line 639: (
+Line 639: Unrecognized token: 38
+Line 639: ID = this
+Line 639: -
+Line 639: >
+Line 639: ID = d_lru
+Line 639: ,
+Line 639: Unrecognized token: 38
+Line 639: ID = dentry_unused
+Line 639: )
+Line 639: ;
+Line 640: ID = dentry_stat
+Line 640: Unrecognized token: 46
+Line 640: ID = nr_unused
+Line 640: +
+Line 640: +
+Line 640: ;
+Line 641: ID = found
+Line 641: +
+Line 641: +
+Line 641: ;
+Line 642: }
+Line 643: }
+Line 644: ID = spin_unlock
+Line 644: (
+Line 644: Unrecognized token: 38
+Line 644: ID = dcache_lock
+Line 644: )
+Line 644: ;
+Line 645: ID = prune_dcache
+Line 645: (
+Line 645: ID = found
+Line 645: )
+Line 645: ;
+Line 646: }
+Line 646: while
+Line 646: (
+Line 646: ID = found
+Line 646: )
+Line 646: ;
+Line 647: }
+Line 661: ID = static
+Line 661: int
+Line 661: ID = shrink_dcache_memory
+Line 661: (
+Line 661: int
+Line 661: ID = nr
+Line 661: ,
+Line 661: ID = unsigned
+Line 661: int
+Line 661: ID = gfp_mask
+Line 661: )
+Line 662: {
+Line 663: if
+Line 663: (
+Line 663: ID = nr
+Line 663: )
+Line 663: {
+Line 664: if
+Line 664: (
+Line 664: !
+Line 664: (
+Line 664: ID = gfp_mask
+Line 664: Unrecognized token: 38
+Line 664: Unrecognized token: 95
+Line 664: Unrecognized token: 95
+Line 664: ID = GFP_FS
+Line 664: )
+Line 664: )
+Line 665: return
+Line 665: -
+Line 665: INTCON = 1
+Line 665: ;
+Line 666: ID = prune_dcache
+Line 666: (
+Line 666: ID = nr
+Line 666: )
+Line 666: ;
+Line 667: }
+Line 668: return
+Line 668: (
+Line 668: ID = dentry_stat
+Line 668: Unrecognized token: 46
+Line 668: ID = nr_unused
+Line 668: /
+Line 668: INTCON = 100
+Line 668: )
+Line 668: *
+Line 668: ID = sysctl_vfs_cache_pressure
+Line 668: ;
+Line 669: }
+Line 681: ID = struct
+Line 681: ID = dentry
+Line 681: *
+Line 681: ID = d_alloc
+Line 681: (
+Line 681: ID = struct
+Line 681: ID = dentry
+Line 681: *
+Line 681: ID = parent
+Line 681: ,
+Line 681: ID = const
+Line 681: ID = struct
+Line 681: ID = qstr
+Line 681: *
+Line 681: ID = name
+Line 681: )
+Line 682: {
+Line 683: ID = struct
+Line 683: ID = dentry
+Line 683: *
+Line 683: ID = dentry
+Line 683: ;
+Line 684: char
+Line 684: *
+Line 684: ID = dname
+Line 684: ;
+Line 686: ID = dentry
+Line 686: =
+Line 686: ID = kmem_cache_alloc
+Line 686: (
+Line 686: ID = dentry_cache
+Line 686: ,
+Line 686: ID = GFP_KERNEL
+Line 686: )
+Line 686: ;
+Line 687: if
+Line 687: (
+Line 687: !
+Line 687: ID = dentry
+Line 687: )
+Line 688: return
+Line 688: ID = NULL
+Line 688: ;
+Line 690: if
+Line 690: (
+Line 690: ID = name
+Line 690: -
+Line 690: >
+Line 690: ID = len
+Line 690: >
+Line 690: ID = DNAME_INLINE_LEN
+Line 690: -
+Line 690: INTCON = 1
+Line 690: )
+Line 690: {
+Line 691: ID = dname
+Line 691: =
+Line 691: ID = kmalloc
+Line 691: (
+Line 691: ID = name
+Line 691: -
+Line 691: >
+Line 691: ID = len
+Line 691: +
+Line 691: INTCON = 1
+Line 691: ,
+Line 691: ID = GFP_KERNEL
+Line 691: )
+Line 691: ;
+Line 692: if
+Line 692: (
+Line 692: !
+Line 692: ID = dname
+Line 692: )
+Line 692: {
+Line 693: ID = kmem_cache_free
+Line 693: (
+Line 693: ID = dentry_cache
+Line 693: ,
+Line 693: ID = dentry
+Line 693: )
+Line 693: ;
+Line 694: return
+Line 694: ID = NULL
+Line 694: ;
+Line 695: }
+Line 696: }
+Line 696: else
+Line 696: {
+Line 697: ID = dname
+Line 697: =
+Line 697: ID = dentry
+Line 697: -
+Line 697: >
+Line 697: ID = d_iname
+Line 697: ;
+Line 698: }
+Line 699: ID = dentry
+Line 699: -
+Line 699: >
+Line 699: ID = d_name
+Line 699: Unrecognized token: 46
+Line 699: ID = name
+Line 699: =
+Line 699: ID = dname
+Line 699: ;
+Line 701: ID = dentry
+Line 701: -
+Line 701: >
+Line 701: ID = d_name
+Line 701: Unrecognized token: 46
+Line 701: ID = len
+Line 701: =
+Line 701: ID = name
+Line 701: -
+Line 701: >
+Line 701: ID = len
+Line 701: ;
+Line 702: ID = dentry
+Line 702: -
+Line 702: >
+Line 702: ID = d_name
+Line 702: Unrecognized token: 46
+Line 702: ID = hash
+Line 702: =
+Line 702: ID = name
+Line 702: -
+Line 702: >
+Line 702: ID = hash
+Line 702: ;
+Line 703: ID = memcpy
+Line 703: (
+Line 703: ID = dname
+Line 703: ,
+Line 703: ID = name
+Line 703: -
+Line 703: >
+Line 703: ID = name
+Line 703: ,
+Line 703: ID = name
+Line 703: -
+Line 703: >
+Line 703: ID = len
+Line 703: )
+Line 703: ;
+Line 704: ID = dname
+Line 704: [
+Line 704: ID = name
+Line 704: -
+Line 704: >
+Line 704: ID = len
+Line 704: ]
+Line 704: =
+Line 704: INTCON = 0
+Line 704: ;
+Line 706: ID = atomic_set
+Line 706: (
+Line 706: Unrecognized token: 38
+Line 706: ID = dentry
+Line 706: -
+Line 706: >
+Line 706: ID = d_count
+Line 706: ,
+Line 706: INTCON = 1
+Line 706: )
+Line 706: ;
+Line 707: ID = dentry
+Line 707: -
+Line 707: >
+Line 707: ID = d_flags
+Line 707: =
+Line 707: ID = DCACHE_UNHASHED
+Line 707: ;
+Line 708: ID = dentry
+Line 708: -
+Line 708: >
+Line 708: ID = d_lock
+Line 708: =
+Line 708: ID = SPIN_LOCK_UNLOCKED
+Line 708: ;
+Line 709: ID = dentry
+Line 709: -
+Line 709: >
+Line 709: ID = d_inode
+Line 709: =
+Line 709: ID = NULL
+Line 709: ;
+Line 710: ID = dentry
+Line 710: -
+Line 710: >
+Line 710: ID = d_parent
+Line 710: =
+Line 710: ID = NULL
+Line 710: ;
+Line 711: ID = dentry
+Line 711: -
+Line 711: >
+Line 711: ID = d_sb
+Line 711: =
+Line 711: ID = NULL
+Line 711: ;
+Line 712: ID = dentry
+Line 712: -
+Line 712: >
+Line 712: ID = d_op
+Line 712: =
+Line 712: ID = NULL
+Line 712: ;
+Line 713: ID = dentry
+Line 713: -
+Line 713: >
+Line 713: ID = d_fsdata
+Line 713: =
+Line 713: ID = NULL
+Line 713: ;
+Line 714: ID = dentry
+Line 714: -
+Line 714: >
+Line 714: ID = d_mounted
+Line 714: =
+Line 714: INTCON = 0
+Line 714: ;
+Line 715: ID = dentry
+Line 715: -
+Line 715: >
+Line 715: ID = d_cookie
+Line 715: =
+Line 715: ID = NULL
+Line 715: ;
+Line 716: ID = dentry
+Line 716: -
+Line 716: >
+Line 716: ID = d_bucket
+Line 716: =
+Line 716: ID = NULL
+Line 716: ;
+Line 717: ID = INIT_HLIST_NODE
+Line 717: (
+Line 717: Unrecognized token: 38
+Line 717: ID = dentry
+Line 717: -
+Line 717: >
+Line 717: ID = d_hash
+Line 717: )
+Line 717: ;
+Line 718: ID = INIT_LIST_HEAD
+Line 718: (
+Line 718: Unrecognized token: 38
+Line 718: ID = dentry
+Line 718: -
+Line 718: >
+Line 718: ID = d_lru
+Line 718: )
+Line 718: ;
+Line 719: ID = INIT_LIST_HEAD
+Line 719: (
+Line 719: Unrecognized token: 38
+Line 719: ID = dentry
+Line 719: -
+Line 719: >
+Line 719: ID = d_subdirs
+Line 719: )
+Line 719: ;
+Line 720: ID = INIT_LIST_HEAD
+Line 720: (
+Line 720: Unrecognized token: 38
+Line 720: ID = dentry
+Line 720: -
+Line 720: >
+Line 720: ID = d_alias
+Line 720: )
+Line 720: ;
+Line 722: if
+Line 722: (
+Line 722: ID = parent
+Line 722: )
+Line 722: {
+Line 723: ID = dentry
+Line 723: -
+Line 723: >
+Line 723: ID = d_parent
+Line 723: =
+Line 723: ID = dget
+Line 723: (
+Line 723: ID = parent
+Line 723: )
+Line 723: ;
+Line 724: ID = dentry
+Line 724: -
+Line 724: >
+Line 724: ID = d_sb
+Line 724: =
+Line 724: ID = parent
+Line 724: -
+Line 724: >
+Line 724: ID = d_sb
+Line 724: ;
+Line 725: }
+Line 725: else
+Line 725: {
+Line 726: ID = INIT_LIST_HEAD
+Line 726: (
+Line 726: Unrecognized token: 38
+Line 726: ID = dentry
+Line 726: -
+Line 726: >
+Line 726: ID = d_child
+Line 726: )
+Line 726: ;
+Line 727: }
+Line 729: ID = spin_lock
+Line 729: (
+Line 729: Unrecognized token: 38
+Line 729: ID = dcache_lock
+Line 729: )
+Line 729: ;
+Line 730: if
+Line 730: (
+Line 730: ID = parent
+Line 730: )
+Line 731: ID = list_add
+Line 731: (
+Line 731: Unrecognized token: 38
+Line 731: ID = dentry
+Line 731: -
+Line 731: >
+Line 731: ID = d_child
+Line 731: ,
+Line 731: Unrecognized token: 38
+Line 731: ID = parent
+Line 731: -
+Line 731: >
+Line 731: ID = d_subdirs
+Line 731: )
+Line 731: ;
+Line 732: ID = dentry_stat
+Line 732: Unrecognized token: 46
+Line 732: ID = nr_dentry
+Line 732: +
+Line 732: +
+Line 732: ;
+Line 733: ID = spin_unlock
+Line 733: (
+Line 733: Unrecognized token: 38
+Line 733: ID = dcache_lock
+Line 733: )
+Line 733: ;
+Line 735: return
+Line 735: ID = dentry
+Line 735: ;
+Line 736: }
+Line 753: void
+Line 753: ID = d_instantiate
+Line 753: (
+Line 753: ID = struct
+Line 753: ID = dentry
+Line 753: *
+Line 753: ID = entry
+Line 753: ,
+Line 753: ID = struct
+Line 753: ID = inode
+Line 753: *
+Line 753: ID = inode
+Line 753: )
+Line 754: {
+Line 755: if
+Line 755: (
+Line 755: !
+Line 755: ID = list_empty
+Line 755: (
+Line 755: Unrecognized token: 38
+Line 755: ID = entry
+Line 755: -
+Line 755: >
+Line 755: ID = d_alias
+Line 755: )
+Line 755: )
+Line 755: ID = BUG
+Line 755: (
+Line 755: )
+Line 755: ;
+Line 756: ID = spin_lock
+Line 756: (
+Line 756: Unrecognized token: 38
+Line 756: ID = dcache_lock
+Line 756: )
+Line 756: ;
+Line 757: if
+Line 757: (
+Line 757: ID = inode
+Line 757: )
+Line 758: ID = list_add
+Line 758: (
+Line 758: Unrecognized token: 38
+Line 758: ID = entry
+Line 758: -
+Line 758: >
+Line 758: ID = d_alias
+Line 758: ,
+Line 758: Unrecognized token: 38
+Line 758: ID = inode
+Line 758: -
+Line 758: >
+Line 758: ID = i_dentry
+Line 758: )
+Line 758: ;
+Line 759: ID = entry
+Line 759: -
+Line 759: >
+Line 759: ID = d_inode
+Line 759: =
+Line 759: ID = inode
+Line 759: ;
+Line 760: ID = spin_unlock
+Line 760: (
+Line 760: Unrecognized token: 38
+Line 760: ID = dcache_lock
+Line 760: )
+Line 760: ;
+Line 761: ID = security_d_instantiate
+Line 761: (
+Line 761: ID = entry
+Line 761: ,
+Line 761: ID = inode
+Line 761: )
+Line 761: ;
+Line 762: }
+Line 773: ID = struct
+Line 773: ID = dentry
+Line 773: *
+Line 773: ID = d_alloc_root
+Line 773: (
+Line 773: ID = struct
+Line 773: ID = inode
+Line 773: *
+Line 773: ID = root_inode
+Line 773: )
+Line 774: {
+Line 775: ID = struct
+Line 775: ID = dentry
+Line 775: *
+Line 775: ID = res
+Line 775: =
+Line 775: ID = NULL
+Line 775: ;
+Line 777: if
+Line 777: (
+Line 777: ID = root_inode
+Line 777: )
+Line 777: {
+Line 778: ID = static
+Line 778: ID = const
+Line 778: ID = struct
+Line 778: ID = qstr
+Line 778: ID = name
+Line 778: =
+Line 778: {
+Line 778: Unrecognized token: 46
+Line 778: ID = name
+Line 778: =
+Line 778: STRINGCON = "/"
+Line 778: ,
+Line 778: Unrecognized token: 46
+Line 778: ID = len
+Line 778: =
+Line 778: INTCON = 1
+Line 778: }
+Line 778: ;
+Line 780: ID = res
+Line 780: =
+Line 780: ID = d_alloc
+Line 780: (
+Line 780: ID = NULL
+Line 780: ,
+Line 780: Unrecognized token: 38
+Line 780: ID = name
+Line 780: )
+Line 780: ;
+Line 781: if
+Line 781: (
+Line 781: ID = res
+Line 781: )
+Line 781: {
+Line 782: ID = res
+Line 782: -
+Line 782: >
+Line 782: ID = d_sb
+Line 782: =
+Line 782: ID = root_inode
+Line 782: -
+Line 782: >
+Line 782: ID = i_sb
+Line 782: ;
+Line 783: ID = res
+Line 783: -
+Line 783: >
+Line 783: ID = d_parent
+Line 783: =
+Line 783: ID = res
+Line 783: ;
+Line 784: ID = d_instantiate
+Line 784: (
+Line 784: ID = res
+Line 784: ,
+Line 784: ID = root_inode
+Line 784: )
+Line 784: ;
+Line 785: }
+Line 786: }
+Line 787: return
+Line 787: ID = res
+Line 787: ;
+Line 788: }
+Line 790: ID = static
+Line 790: ID = inline
+Line 790: ID = struct
+Line 790: ID = hlist_head
+Line 790: *
+Line 790: ID = d_hash
+Line 790: (
+Line 790: ID = struct
+Line 790: ID = dentry
+Line 790: *
+Line 790: ID = parent
+Line 790: ,
+Line 791: ID = unsigned
+Line 791: ID = long
+Line 791: ID = hash
+Line 791: )
+Line 792: {
+Line 793: ID = hash
+Line 793: +
+Line 793: =
+Line 793: (
+Line 793: (
+Line 793: ID = unsigned
+Line 793: ID = long
+Line 793: )
+Line 793: ID = parent
+Line 793: Unrecognized token: 94
+Line 793: ID = GOLDEN_RATIO_PRIME
+Line 793: )
+Line 793: /
+Line 793: ID = L1_CACHE_BYTES
+Line 793: ;
+Line 794: ID = hash
+Line 794: =
+Line 794: ID = hash
+Line 794: Unrecognized token: 94
+Line 794: (
+Line 794: (
+Line 794: ID = hash
+Line 794: Unrecognized token: 94
+Line 794: ID = GOLDEN_RATIO_PRIME
+Line 794: )
+Line 794: >
+Line 794: >
+Line 794: ID = D_HASHBITS
+Line 794: )
+Line 794: ;
+Line 795: return
+Line 795: ID = dentry_hashtable
+Line 795: +
+Line 795: (
+Line 795: ID = hash
+Line 795: Unrecognized token: 38
+Line 795: ID = D_HASHMASK
+Line 795: )
+Line 795: ;
+Line 796: }
+Line 818: ID = struct
+Line 818: ID = dentry
+Line 818: *
+Line 818: ID = d_alloc_anon
+Line 818: (
+Line 818: ID = struct
+Line 818: ID = inode
+Line 818: *
+Line 818: ID = inode
+Line 818: )
+Line 819: {
+Line 820: ID = static
+Line 820: ID = const
+Line 820: ID = struct
+Line 820: ID = qstr
+Line 820: ID = anonstring
+Line 820: =
+Line 820: {
+Line 820: Unrecognized token: 46
+Line 820: ID = name
+Line 820: =
+Line 820: STRINGCON = ""
+Line 820: }
+Line 820: ;
+Line 821: ID = struct
+Line 821: ID = dentry
+Line 821: *
+Line 821: ID = tmp
+Line 821: ;
+Line 822: ID = struct
+Line 822: ID = dentry
+Line 822: *
+Line 822: ID = res
+Line 822: ;
+Line 824: if
+Line 824: (
+Line 824: (
+Line 824: ID = res
+Line 824: =
+Line 824: ID = d_find_alias
+Line 824: (
+Line 824: ID = inode
+Line 824: )
+Line 824: )
+Line 824: )
+Line 824: {
+Line 825: ID = iput
+Line 825: (
+Line 825: ID = inode
+Line 825: )
+Line 825: ;
+Line 826: return
+Line 826: ID = res
+Line 826: ;
+Line 827: }
+Line 829: ID = tmp
+Line 829: =
+Line 829: ID = d_alloc
+Line 829: (
+Line 829: ID = NULL
+Line 829: ,
+Line 829: Unrecognized token: 38
+Line 829: ID = anonstring
+Line 829: )
+Line 829: ;
+Line 830: if
+Line 830: (
+Line 830: !
+Line 830: ID = tmp
+Line 830: )
+Line 831: return
+Line 831: ID = NULL
+Line 831: ;
+Line 833: ID = tmp
+Line 833: -
+Line 833: >
+Line 833: ID = d_parent
+Line 833: =
+Line 833: ID = tmp
+Line 833: ;
+Line 835: ID = spin_lock
+Line 835: (
+Line 835: Unrecognized token: 38
+Line 835: ID = dcache_lock
+Line 835: )
+Line 835: ;
+Line 836: if
+Line 836: (
+Line 836: ID = S_ISDIR
+Line 836: (
+Line 836: ID = inode
+Line 836: -
+Line 836: >
+Line 836: ID = i_mode
+Line 836: )
+Line 836: &&
+Line 836: !
+Line 836: ID = list_empty
+Line 836: (
+Line 836: Unrecognized token: 38
+Line 836: ID = inode
+Line 836: -
+Line 836: >
+Line 836: ID = i_dentry
+Line 836: )
+Line 836: )
+Line 836: {
+Line 840: ID = res
+Line 840: =
+Line 840: ID = list_entry
+Line 840: (
+Line 840: ID = inode
+Line 840: -
+Line 840: >
+Line 840: ID = i_dentry
+Line 840: Unrecognized token: 46
+Line 840: ID = next
+Line 840: ,
+Line 840: ID = struct
+Line 840: ID = dentry
+Line 840: ,
+Line 840: ID = d_alias
+Line 840: )
+Line 840: ;
+Line 841: Unrecognized token: 95
+Line 841: Unrecognized token: 95
+Line 841: ID = dget_locked
+Line 841: (
+Line 841: ID = res
+Line 841: )
+Line 841: ;
+Line 842: }
+Line 842: else
+Line 842: {
+Line 844: ID = res
+Line 844: =
+Line 844: ID = tmp
+Line 844: ;
+Line 845: ID = tmp
+Line 845: =
+Line 845: ID = NULL
+Line 845: ;
+Line 846: if
+Line 846: (
+Line 846: ID = res
+Line 846: )
+Line 846: {
+Line 847: ID = spin_lock
+Line 847: (
+Line 847: Unrecognized token: 38
+Line 847: ID = res
+Line 847: -
+Line 847: >
+Line 847: ID = d_lock
+Line 847: )
+Line 847: ;
+Line 848: ID = res
+Line 848: -
+Line 848: >
+Line 848: ID = d_sb
+Line 848: =
+Line 848: ID = inode
+Line 848: -
+Line 848: >
+Line 848: ID = i_sb
+Line 848: ;
+Line 849: ID = res
+Line 849: -
+Line 849: >
+Line 849: ID = d_parent
+Line 849: =
+Line 849: ID = res
+Line 849: ;
+Line 850: ID = res
+Line 850: -
+Line 850: >
+Line 850: ID = d_inode
+Line 850: =
+Line 850: ID = inode
+Line 850: ;
+Line 856: ID = res
+Line 856: -
+Line 856: >
+Line 856: ID = d_bucket
+Line 856: =
+Line 856: ID = NULL
+Line 856: ;
+Line 857: ID = res
+Line 857: -
+Line 857: >
+Line 857: ID = d_flags
+Line 857: Unrecognized token: 124
+Line 857: =
+Line 857: ID = DCACHE_DISCONNECTED
+Line 857: ;
+Line 858: ID = res
+Line 858: -
+Line 858: >
+Line 858: ID = d_flags
+Line 858: Unrecognized token: 38
+Line 858: =
+Line 858: Unrecognized token: 126
+Line 858: ID = DCACHE_UNHASHED
+Line 858: ;
+Line 859: ID = list_add
+Line 859: (
+Line 859: Unrecognized token: 38
+Line 859: ID = res
+Line 859: -
+Line 859: >
+Line 859: ID = d_alias
+Line 859: ,
+Line 859: Unrecognized token: 38
+Line 859: ID = inode
+Line 859: -
+Line 859: >
+Line 859: ID = i_dentry
+Line 859: )
+Line 859: ;
+Line 860: ID = hlist_add_head
+Line 860: (
+Line 860: Unrecognized token: 38
+Line 860: ID = res
+Line 860: -
+Line 860: >
+Line 860: ID = d_hash
+Line 860: ,
+Line 860: Unrecognized token: 38
+Line 860: ID = inode
+Line 860: -
+Line 860: >
+Line 860: ID = i_sb
+Line 860: -
+Line 860: >
+Line 860: ID = s_anon
+Line 860: )
+Line 860: ;
+Line 861: ID = spin_unlock
+Line 861: (
+Line 861: Unrecognized token: 38
+Line 861: ID = res
+Line 861: -
+Line 861: >
+Line 861: ID = d_lock
+Line 861: )
+Line 861: ;
+Line 862: }
+Line 863: ID = inode
+Line 863: =
+Line 863: ID = NULL
+Line 863: ;
+Line 864: }
+Line 865: ID = spin_unlock
+Line 865: (
+Line 865: Unrecognized token: 38
+Line 865: ID = dcache_lock
+Line 865: )
+Line 865: ;
+Line 867: if
+Line 867: (
+Line 867: ID = inode
+Line 867: )
+Line 868: ID = iput
+Line 868: (
+Line 868: ID = inode
+Line 868: )
+Line 868: ;
+Line 869: if
+Line 869: (
+Line 869: ID = tmp
+Line 869: )
+Line 870: ID = dput
+Line 870: (
+Line 870: ID = tmp
+Line 870: )
+Line 870: ;
+Line 871: return
+Line 871: ID = res
+Line 871: ;
+Line 872: }
+Line 891: ID = struct
+Line 891: ID = dentry
+Line 891: *
+Line 891: ID = d_splice_alias
+Line 891: (
+Line 891: ID = struct
+Line 891: ID = inode
+Line 891: *
+Line 891: ID = inode
+Line 891: ,
+Line 891: ID = struct
+Line 891: ID = dentry
+Line 891: *
+Line 891: ID = dentry
+Line 891: )
+Line 892: {
+Line 893: ID = struct
+Line 893: ID = dentry
+Line 893: *
+Line 893: ID = new
+Line 893: =
+Line 893: ID = NULL
+Line 893: ;
+Line 895: if
+Line 895: (
+Line 895: ID = inode
+Line 895: &&
+Line 895: ID = S_ISDIR
+Line 895: (
+Line 895: ID = inode
+Line 895: -
+Line 895: >
+Line 895: ID = i_mode
+Line 895: )
+Line 895: )
+Line 895: {
+Line 896: ID = spin_lock
+Line 896: (
+Line 896: Unrecognized token: 38
+Line 896: ID = dcache_lock
+Line 896: )
+Line 896: ;
+Line 897: if
+Line 897: (
+Line 897: !
+Line 897: ID = list_empty
+Line 897: (
+Line 897: Unrecognized token: 38
+Line 897: ID = inode
+Line 897: -
+Line 897: >
+Line 897: ID = i_dentry
+Line 897: )
+Line 897: )
+Line 897: {
+Line 898: ID = new
+Line 898: =
+Line 898: ID = list_entry
+Line 898: (
+Line 898: ID = inode
+Line 898: -
+Line 898: >
+Line 898: ID = i_dentry
+Line 898: Unrecognized token: 46
+Line 898: ID = next
+Line 898: ,
+Line 898: ID = struct
+Line 898: ID = dentry
+Line 898: ,
+Line 898: ID = d_alias
+Line 898: )
+Line 898: ;
+Line 899: Unrecognized token: 95
+Line 899: Unrecognized token: 95
+Line 899: ID = dget_locked
+Line 899: (
+Line 899: ID = new
+Line 899: )
+Line 899: ;
+Line 900: ID = spin_unlock
+Line 900: (
+Line 900: Unrecognized token: 38
+Line 900: ID = dcache_lock
+Line 900: )
+Line 900: ;
+Line 901: ID = security_d_instantiate
+Line 901: (
+Line 901: ID = new
+Line 901: ,
+Line 901: ID = inode
+Line 901: )
+Line 901: ;
+Line 902: ID = d_rehash
+Line 902: (
+Line 902: ID = dentry
+Line 902: )
+Line 902: ;
+Line 903: ID = d_move
+Line 903: (
+Line 903: ID = new
+Line 903: ,
+Line 903: ID = dentry
+Line 903: )
+Line 903: ;
+Line 904: ID = iput
+Line 904: (
+Line 904: ID = inode
+Line 904: )
+Line 904: ;
+Line 905: }
+Line 905: else
+Line 905: {
+Line 907: ID = list_add
+Line 907: (
+Line 907: Unrecognized token: 38
+Line 907: ID = dentry
+Line 907: -
+Line 907: >
+Line 907: ID = d_alias
+Line 907: ,
+Line 907: Unrecognized token: 38
+Line 907: ID = inode
+Line 907: -
+Line 907: >
+Line 907: ID = i_dentry
+Line 907: )
+Line 907: ;
+Line 908: ID = dentry
+Line 908: -
+Line 908: >
+Line 908: ID = d_inode
+Line 908: =
+Line 908: ID = inode
+Line 908: ;
+Line 909: ID = spin_unlock
+Line 909: (
+Line 909: Unrecognized token: 38
+Line 909: ID = dcache_lock
+Line 909: )
+Line 909: ;
+Line 910: ID = security_d_instantiate
+Line 910: (
+Line 910: ID = dentry
+Line 910: ,
+Line 910: ID = inode
+Line 910: )
+Line 910: ;
+Line 911: ID = d_rehash
+Line 911: (
+Line 911: ID = dentry
+Line 911: )
+Line 911: ;
+Line 912: }
+Line 913: }
+Line 913: else
+Line 914: ID = d_add
+Line 914: (
+Line 914: ID = dentry
+Line 914: ,
+Line 914: ID = inode
+Line 914: )
+Line 914: ;
+Line 915: return
+Line 915: ID = new
+Line 915: ;
+Line 916: }
+Line 948: ID = struct
+Line 948: ID = dentry
+Line 948: *
+Line 948: ID = d_lookup
+Line 948: (
+Line 948: ID = struct
+Line 948: ID = dentry
+Line 948: *
+Line 948: ID = parent
+Line 948: ,
+Line 948: ID = struct
+Line 948: ID = qstr
+Line 948: *
+Line 948: ID = name
+Line 948: )
+Line 949: {
+Line 950: ID = struct
+Line 950: ID = dentry
+Line 950: *
+Line 950: ID = dentry
+Line 950: =
+Line 950: ID = NULL
+Line 950: ;
+Line 951: ID = unsigned
+Line 951: ID = long
+Line 951: ID = seq
+Line 951: ;
+Line 953: ID = do
+Line 953: {
+Line 954: ID = seq
+Line 954: =
+Line 954: ID = read_seqbegin
+Line 954: (
+Line 954: Unrecognized token: 38
+Line 954: ID = rename_lock
+Line 954: )
+Line 954: ;
+Line 955: ID = dentry
+Line 955: =
+Line 955: Unrecognized token: 95
+Line 955: Unrecognized token: 95
+Line 955: ID = d_lookup
+Line 955: (
+Line 955: ID = parent
+Line 955: ,
+Line 955: ID = name
+Line 955: )
+Line 955: ;
+Line 956: if
+Line 956: (
+Line 956: ID = dentry
+Line 956: )
+Line 957: ID = break
+Line 957: ;
+Line 958: }
+Line 958: while
+Line 958: (
+Line 958: ID = read_seqretry
+Line 958: (
+Line 958: Unrecognized token: 38
+Line 958: ID = rename_lock
+Line 958: ,
+Line 958: ID = seq
+Line 958: )
+Line 958: )
+Line 958: ;
+Line 959: return
+Line 959: ID = dentry
+Line 959: ;
+Line 960: }
+Line 962: ID = struct
+Line 962: ID = dentry
+Line 962: *
+Line 962: Unrecognized token: 95
+Line 962: Unrecognized token: 95
+Line 962: ID = d_lookup
+Line 962: (
+Line 962: ID = struct
+Line 962: ID = dentry
+Line 962: *
+Line 962: ID = parent
+Line 962: ,
+Line 962: ID = struct
+Line 962: ID = qstr
+Line 962: *
+Line 962: ID = name
+Line 962: )
+Line 963: {
+Line 964: ID = unsigned
+Line 964: int
+Line 964: ID = len
+Line 964: =
+Line 964: ID = name
+Line 964: -
+Line 964: >
+Line 964: ID = len
+Line 964: ;
+Line 965: ID = unsigned
+Line 965: int
+Line 965: ID = hash
+Line 965: =
+Line 965: ID = name
+Line 965: -
+Line 965: >
+Line 965: ID = hash
+Line 965: ;
+Line 966: ID = const
+Line 966: ID = unsigned
+Line 966: char
+Line 966: *
+Line 966: ID = str
+Line 966: =
+Line 966: ID = name
+Line 966: -
+Line 966: >
+Line 966: ID = name
+Line 966: ;
+Line 967: ID = struct
+Line 967: ID = hlist_head
+Line 967: *
+Line 967: ID = head
+Line 967: =
+Line 967: ID = d_hash
+Line 967: (
+Line 967: ID = parent
+Line 967: ,
+Line 967: ID = hash
+Line 967: )
+Line 967: ;
+Line 968: ID = struct
+Line 968: ID = dentry
+Line 968: *
+Line 968: ID = found
+Line 968: =
+Line 968: ID = NULL
+Line 968: ;
+Line 969: ID = struct
+Line 969: ID = hlist_node
+Line 969: *
+Line 969: ID = node
+Line 969: ;
+Line 971: ID = rcu_read_lock
+Line 971: (
+Line 971: )
+Line 971: ;
+Line 973: ID = hlist_for_each
+Line 973: (
+Line 973: ID = node
+Line 973: ,
+Line 973: ID = head
+Line 973: )
+Line 973: {
+Line 974: ID = struct
+Line 974: ID = dentry
+Line 974: *
+Line 974: ID = dentry
+Line 974: ;
+Line 975: ID = struct
+Line 975: ID = qstr
+Line 975: *
+Line 975: ID = qstr
+Line 975: ;
+Line 977: ID = smp_read_barrier_depends
+Line 977: (
+Line 977: )
+Line 977: ;
+Line 978: ID = dentry
+Line 978: =
+Line 978: ID = hlist_entry
+Line 978: (
+Line 978: ID = node
+Line 978: ,
+Line 978: ID = struct
+Line 978: ID = dentry
+Line 978: ,
+Line 978: ID = d_hash
+Line 978: )
+Line 978: ;
+Line 980: ID = smp_rmb
+Line 980: (
+Line 980: )
+Line 980: ;
+Line 982: if
+Line 982: (
+Line 982: ID = dentry
+Line 982: -
+Line 982: >
+Line 982: ID = d_name
+Line 982: Unrecognized token: 46
+Line 982: ID = hash
+Line 982: !=
+Line 982: ID = hash
+Line 982: )
+Line 983: ID = continue
+Line 983: ;
+Line 984: if
+Line 984: (
+Line 984: ID = dentry
+Line 984: -
+Line 984: >
+Line 984: ID = d_parent
+Line 984: !=
+Line 984: ID = parent
+Line 984: )
+Line 985: ID = continue
+Line 985: ;
+Line 987: ID = spin_lock
+Line 987: (
+Line 987: Unrecognized token: 38
+Line 987: ID = dentry
+Line 987: -
+Line 987: >
+Line 987: ID = d_lock
+Line 987: )
+Line 987: ;
+Line 993: if
+Line 993: (
+Line 993: ID = unlikely
+Line 993: (
+Line 993: ID = dentry
+Line 993: -
+Line 993: >
+Line 993: ID = d_bucket
+Line 993: !=
+Line 993: ID = head
+Line 993: )
+Line 993: )
+Line 994: ID = goto
+Line 994: ID = terminate
+Line 994: ;
+Line 1001: if
+Line 1001: (
+Line 1001: ID = dentry
+Line 1001: -
+Line 1001: >
+Line 1001: ID = d_parent
+Line 1001: !=
+Line 1001: ID = parent
+Line 1001: )
+Line 1002: ID = goto
+Line 1002: ID = next
+Line 1002: ;
+Line 1004: ID = qstr
+Line 1004: =
+Line 1004: Unrecognized token: 38
+Line 1004: ID = dentry
+Line 1004: -
+Line 1004: >
+Line 1004: ID = d_name
+Line 1004: ;
+Line 1005: ID = smp_read_barrier_depends
+Line 1005: (
+Line 1005: )
+Line 1005: ;
+Line 1006: if
+Line 1006: (
+Line 1006: ID = parent
+Line 1006: -
+Line 1006: >
+Line 1006: ID = d_op
+Line 1006: &&
+Line 1006: ID = parent
+Line 1006: -
+Line 1006: >
+Line 1006: ID = d_op
+Line 1006: -
+Line 1006: >
+Line 1006: ID = d_compare
+Line 1006: )
+Line 1006: {
+Line 1007: if
+Line 1007: (
+Line 1007: ID = parent
+Line 1007: -
+Line 1007: >
+Line 1007: ID = d_op
+Line 1007: -
+Line 1007: >
+Line 1007: ID = d_compare
+Line 1007: (
+Line 1007: ID = parent
+Line 1007: ,
+Line 1007: ID = qstr
+Line 1007: ,
+Line 1007: ID = name
+Line 1007: )
+Line 1007: )
+Line 1008: ID = goto
+Line 1008: ID = next
+Line 1008: ;
+Line 1009: }
+Line 1009: else
+Line 1009: {
+Line 1010: if
+Line 1010: (
+Line 1010: ID = qstr
+Line 1010: -
+Line 1010: >
+Line 1010: ID = len
+Line 1010: !=
+Line 1010: ID = len
+Line 1010: )
+Line 1011: ID = goto
+Line 1011: ID = next
+Line 1011: ;
+Line 1012: if
+Line 1012: (
+Line 1012: ID = memcmp
+Line 1012: (
+Line 1012: ID = qstr
+Line 1012: -
+Line 1012: >
+Line 1012: ID = name
+Line 1012: ,
+Line 1012: ID = str
+Line 1012: ,
+Line 1012: ID = len
+Line 1012: )
+Line 1012: )
+Line 1013: ID = goto
+Line 1013: ID = next
+Line 1013: ;
+Line 1014: }
+Line 1016: if
+Line 1016: (
+Line 1016: !
+Line 1016: ID = d_unhashed
+Line 1016: (
+Line 1016: ID = dentry
+Line 1016: )
+Line 1016: )
+Line 1016: {
+Line 1017: ID = atomic_inc
+Line 1017: (
+Line 1017: Unrecognized token: 38
+Line 1017: ID = dentry
+Line 1017: -
+Line 1017: >
+Line 1017: ID = d_count
+Line 1017: )
+Line 1017: ;
+Line 1018: ID = found
+Line 1018: =
+Line 1018: ID = dentry
+Line 1018: ;
+Line 1019: }
+Line 1020: ID = terminate
+Line 1020: Unrecognized token: 58
+Line 1021: ID = spin_unlock
+Line 1021: (
+Line 1021: Unrecognized token: 38
+Line 1021: ID = dentry
+Line 1021: -
+Line 1021: >
+Line 1021: ID = d_lock
+Line 1021: )
+Line 1021: ;
+Line 1022: ID = break
+Line 1022: ;
+Line 1023: ID = next
+Line 1023: Unrecognized token: 58
+Line 1024: ID = spin_unlock
+Line 1024: (
+Line 1024: Unrecognized token: 38
+Line 1024: ID = dentry
+Line 1024: -
+Line 1024: >
+Line 1024: ID = d_lock
+Line 1024: )
+Line 1024: ;
+Line 1025: }
+Line 1026: ID = rcu_read_unlock
+Line 1026: (
+Line 1026: )
+Line 1026: ;
+Line 1028: return
+Line 1028: ID = found
+Line 1028: ;
+Line 1029: }
+Line 1043: int
+Line 1043: ID = d_validate
+Line 1043: (
+Line 1043: ID = struct
+Line 1043: ID = dentry
+Line 1043: *
+Line 1043: ID = dentry
+Line 1043: ,
+Line 1043: ID = struct
+Line 1043: ID = dentry
+Line 1043: *
+Line 1043: ID = dparent
+Line 1043: )
+Line 1044: {
+Line 1045: ID = struct
+Line 1045: ID = hlist_head
+Line 1045: *
+Line 1045: ID = base
+Line 1045: ;
+Line 1046: ID = struct
+Line 1046: ID = hlist_node
+Line 1046: *
+Line 1046: ID = lhp
+Line 1046: ;
+Line 1049: if
+Line 1049: (
+Line 1049: !
+Line 1049: ID = kmem_ptr_validate
+Line 1049: (
+Line 1049: ID = dentry_cache
+Line 1049: ,
+Line 1049: ID = dentry
+Line 1049: )
+Line 1049: )
+Line 1050: ID = goto
+Line 1050: ID = out
+Line 1050: ;
+Line 1052: if
+Line 1052: (
+Line 1052: ID = dentry
+Line 1052: -
+Line 1052: >
+Line 1052: ID = d_parent
+Line 1052: !=
+Line 1052: ID = dparent
+Line 1052: )
+Line 1053: ID = goto
+Line 1053: ID = out
+Line 1053: ;
+Line 1055: ID = spin_lock
+Line 1055: (
+Line 1055: Unrecognized token: 38
+Line 1055: ID = dcache_lock
+Line 1055: )
+Line 1055: ;
+Line 1056: ID = base
+Line 1056: =
+Line 1056: ID = d_hash
+Line 1056: (
+Line 1056: ID = dparent
+Line 1056: ,
+Line 1056: ID = dentry
+Line 1056: -
+Line 1056: >
+Line 1056: ID = d_name
+Line 1056: Unrecognized token: 46
+Line 1056: ID = hash
+Line 1056: )
+Line 1056: ;
+Line 1057: ID = hlist_for_each
+Line 1057: (
+Line 1057: ID = lhp
+Line 1057: ,
+Line 1057: ID = base
+Line 1057: )
+Line 1057: {
+Line 1061: if
+Line 1061: (
+Line 1061: ID = dentry
+Line 1061: ==
+Line 1061: ID = hlist_entry
+Line 1061: (
+Line 1061: ID = lhp
+Line 1061: ,
+Line 1061: ID = struct
+Line 1061: ID = dentry
+Line 1061: ,
+Line 1061: ID = d_hash
+Line 1061: )
+Line 1061: )
+Line 1061: {
+Line 1062: Unrecognized token: 95
+Line 1062: Unrecognized token: 95
+Line 1062: ID = dget_locked
+Line 1062: (
+Line 1062: ID = dentry
+Line 1062: )
+Line 1062: ;
+Line 1063: ID = spin_unlock
+Line 1063: (
+Line 1063: Unrecognized token: 38
+Line 1063: ID = dcache_lock
+Line 1063: )
+Line 1063: ;
+Line 1064: return
+Line 1064: INTCON = 1
+Line 1064: ;
+Line 1065: }
+Line 1066: }
+Line 1067: ID = spin_unlock
+Line 1067: (
+Line 1067: Unrecognized token: 38
+Line 1067: ID = dcache_lock
+Line 1067: )
+Line 1067: ;
+Line 1068: ID = out
+Line 1068: Unrecognized token: 58
+Line 1069: return
+Line 1069: INTCON = 0
+Line 1069: ;
+Line 1070: }
+Line 1093: void
+Line 1093: ID = d_delete
+Line 1093: (
+Line 1093: ID = struct
+Line 1093: ID = dentry
+Line 1093: *
+Line 1093: ID = dentry
+Line 1093: )
+Line 1094: {
+Line 1098: ID = spin_lock
+Line 1098: (
+Line 1098: Unrecognized token: 38
+Line 1098: ID = dcache_lock
+Line 1098: )
+Line 1098: ;
+Line 1099: ID = spin_lock
+Line 1099: (
+Line 1099: Unrecognized token: 38
+Line 1099: ID = dentry
+Line 1099: -
+Line 1099: >
+Line 1099: ID = d_lock
+Line 1099: )
+Line 1099: ;
+Line 1100: if
+Line 1100: (
+Line 1100: ID = atomic_read
+Line 1100: (
+Line 1100: Unrecognized token: 38
+Line 1100: ID = dentry
+Line 1100: -
+Line 1100: >
+Line 1100: ID = d_count
+Line 1100: )
+Line 1100: ==
+Line 1100: INTCON = 1
+Line 1100: )
+Line 1100: {
+Line 1101: ID = dentry_iput
+Line 1101: (
+Line 1101: ID = dentry
+Line 1101: )
+Line 1101: ;
+Line 1102: return
+Line 1102: ;
+Line 1103: }
+Line 1105: if
+Line 1105: (
+Line 1105: !
+Line 1105: ID = d_unhashed
+Line 1105: (
+Line 1105: ID = dentry
+Line 1105: )
+Line 1105: )
+Line 1106: Unrecognized token: 95
+Line 1106: Unrecognized token: 95
+Line 1106: ID = d_drop
+Line 1106: (
+Line 1106: ID = dentry
+Line 1106: )
+Line 1106: ;
+Line 1108: ID = spin_unlock
+Line 1108: (
+Line 1108: Unrecognized token: 38
+Line 1108: ID = dentry
+Line 1108: -
+Line 1108: >
+Line 1108: ID = d_lock
+Line 1108: )
+Line 1108: ;
+Line 1109: ID = spin_unlock
+Line 1109: (
+Line 1109: Unrecognized token: 38
+Line 1109: ID = dcache_lock
+Line 1109: )
+Line 1109: ;
+Line 1110: }
+Line 1119: void
+Line 1119: ID = d_rehash
+Line 1119: (
+Line 1119: ID = struct
+Line 1119: ID = dentry
+Line 1119: *
+Line 1119: ID = entry
+Line 1119: )
+Line 1120: {
+Line 1121: ID = struct
+Line 1121: ID = hlist_head
+Line 1121: *
+Line 1121: ID = list
+Line 1121: =
+Line 1121: ID = d_hash
+Line 1121: (
+Line 1121: ID = entry
+Line 1121: -
+Line 1121: >
+Line 1121: ID = d_parent
+Line 1121: ,
+Line 1121: ID = entry
+Line 1121: -
+Line 1121: >
+Line 1121: ID = d_name
+Line 1121: Unrecognized token: 46
+Line 1121: ID = hash
+Line 1121: )
+Line 1121: ;
+Line 1123: ID = spin_lock
+Line 1123: (
+Line 1123: Unrecognized token: 38
+Line 1123: ID = dcache_lock
+Line 1123: )
+Line 1123: ;
+Line 1124: ID = spin_lock
+Line 1124: (
+Line 1124: Unrecognized token: 38
+Line 1124: ID = entry
+Line 1124: -
+Line 1124: >
+Line 1124: ID = d_lock
+Line 1124: )
+Line 1124: ;
+Line 1125: ID = entry
+Line 1125: -
+Line 1125: >
+Line 1125: ID = d_flags
+Line 1125: Unrecognized token: 38
+Line 1125: =
+Line 1125: Unrecognized token: 126
+Line 1125: ID = DCACHE_UNHASHED
+Line 1125: ;
+Line 1126: ID = spin_unlock
+Line 1126: (
+Line 1126: Unrecognized token: 38
+Line 1126: ID = entry
+Line 1126: -
+Line 1126: >
+Line 1126: ID = d_lock
+Line 1126: )
+Line 1126: ;
+Line 1127: ID = entry
+Line 1127: -
+Line 1127: >
+Line 1127: ID = d_bucket
+Line 1127: =
+Line 1127: ID = list
+Line 1127: ;
+Line 1128: ID = hlist_add_head_rcu
+Line 1128: (
+Line 1128: Unrecognized token: 38
+Line 1128: ID = entry
+Line 1128: -
+Line 1128: >
+Line 1128: ID = d_hash
+Line 1128: ,
+Line 1128: ID = list
+Line 1128: )
+Line 1128: ;
+Line 1129: ID = spin_unlock
+Line 1129: (
+Line 1129: Unrecognized token: 38
+Line 1129: ID = dcache_lock
+Line 1129: )
+Line 1129: ;
+Line 1130: }
+Line 1132: Unrecognized token: 35
+Line 1132: ID = define
+Line 1132: ID = do_switch
+Line 1132: (
+Line 1132: ID = x
+Line 1132: ,
+Line 1132: ID = y
+Line 1132: )
+Line 1132: ID = do
+Line 1132: {
+Line 1132: Unrecognized token: 92
+Line 1133: Unrecognized token: 95
+Line 1133: Unrecognized token: 95
+Line 1133: ID = typeof__
+Line 1133: (
+Line 1133: ID = x
+Line 1133: )
+Line 1133: Unrecognized token: 95
+Line 1133: Unrecognized token: 95
+Line 1133: ID = tmp
+Line 1133: =
+Line 1133: ID = x
+Line 1133: ;
+Line 1133: Unrecognized token: 92
+Line 1134: ID = x
+Line 1134: =
+Line 1134: ID = y
+Line 1134: ;
+Line 1134: ID = y
+Line 1134: =
+Line 1134: Unrecognized token: 95
+Line 1134: Unrecognized token: 95
+Line 1134: ID = tmp
+Line 1134: ;
+Line 1134: }
+Line 1134: while
+Line 1134: (
+Line 1134: INTCON = 0
+Line 1134: )
+Line 1147: ID = static
+Line 1147: void
+Line 1147: ID = switch_names
+Line 1147: (
+Line 1147: ID = struct
+Line 1147: ID = dentry
+Line 1147: *
+Line 1147: ID = dentry
+Line 1147: ,
+Line 1147: ID = struct
+Line 1147: ID = dentry
+Line 1147: *
+Line 1147: ID = target
+Line 1147: )
+Line 1148: {
+Line 1149: if
+Line 1149: (
+Line 1149: ID = dname_external
+Line 1149: (
+Line 1149: ID = target
+Line 1149: )
+Line 1149: )
+Line 1149: {
+Line 1150: if
+Line 1150: (
+Line 1150: ID = dname_external
+Line 1150: (
+Line 1150: ID = dentry
+Line 1150: )
+Line 1150: )
+Line 1150: {
+Line 1154: ID = do_switch
+Line 1154: (
+Line 1154: ID = target
+Line 1154: -
+Line 1154: >
+Line 1154: ID = d_name
+Line 1154: Unrecognized token: 46
+Line 1154: ID = name
+Line 1154: ,
+Line 1154: ID = dentry
+Line 1154: -
+Line 1154: >
+Line 1154: ID = d_name
+Line 1154: Unrecognized token: 46
+Line 1154: ID = name
+Line 1154: )
+Line 1154: ;
+Line 1155: }
+Line 1155: else
+Line 1155: {
+Line 1160: ID = dentry
+Line 1160: -
+Line 1160: >
+Line 1160: ID = d_name
+Line 1160: Unrecognized token: 46
+Line 1160: ID = name
+Line 1160: =
+Line 1160: ID = target
+Line 1160: -
+Line 1160: >
+Line 1160: ID = d_name
+Line 1160: Unrecognized token: 46
+Line 1160: ID = name
+Line 1160: ;
+Line 1161: ID = target
+Line 1161: -
+Line 1161: >
+Line 1161: ID = d_name
+Line 1161: Unrecognized token: 46
+Line 1161: ID = name
+Line 1161: =
+Line 1161: ID = target
+Line 1161: -
+Line 1161: >
+Line 1161: ID = d_iname
+Line 1161: ;
+Line 1162: }
+Line 1163: }
+Line 1163: else
+Line 1163: {
+Line 1164: if
+Line 1164: (
+Line 1164: ID = dname_external
+Line 1164: (
+Line 1164: ID = dentry
+Line 1164: )
+Line 1164: )
+Line 1164: {
+Line 1169: ID = memcpy
+Line 1169: (
+Line 1169: ID = dentry
+Line 1169: -
+Line 1169: >
+Line 1169: ID = d_iname
+Line 1169: ,
+Line 1169: ID = target
+Line 1169: -
+Line 1169: >
+Line 1169: ID = d_name
+Line 1169: Unrecognized token: 46
+Line 1169: ID = name
+Line 1169: ,
+Line 1170: ID = target
+Line 1170: -
+Line 1170: >
+Line 1170: ID = d_name
+Line 1170: Unrecognized token: 46
+Line 1170: ID = len
+Line 1170: +
+Line 1170: INTCON = 1
+Line 1170: )
+Line 1170: ;
+Line 1171: ID = target
+Line 1171: -
+Line 1171: >
+Line 1171: ID = d_name
+Line 1171: Unrecognized token: 46
+Line 1171: ID = name
+Line 1171: =
+Line 1171: ID = dentry
+Line 1171: -
+Line 1171: >
+Line 1171: ID = d_name
+Line 1171: Unrecognized token: 46
+Line 1171: ID = name
+Line 1171: ;
+Line 1172: ID = dentry
+Line 1172: -
+Line 1172: >
+Line 1172: ID = d_name
+Line 1172: Unrecognized token: 46
+Line 1172: ID = name
+Line 1172: =
+Line 1172: ID = dentry
+Line 1172: -
+Line 1172: >
+Line 1172: ID = d_iname
+Line 1172: ;
+Line 1173: }
+Line 1173: else
+Line 1173: {
+Line 1177: ID = memcpy
+Line 1177: (
+Line 1177: ID = dentry
+Line 1177: -
+Line 1177: >
+Line 1177: ID = d_iname
+Line 1177: ,
+Line 1177: ID = target
+Line 1177: -
+Line 1177: >
+Line 1177: ID = d_name
+Line 1177: Unrecognized token: 46
+Line 1177: ID = name
+Line 1177: ,
+Line 1178: ID = target
+Line 1178: -
+Line 1178: >
+Line 1178: ID = d_name
+Line 1178: Unrecognized token: 46
+Line 1178: ID = len
+Line 1178: +
+Line 1178: INTCON = 1
+Line 1178: )
+Line 1178: ;
+Line 1179: }
+Line 1180: }
+Line 1181: }
+Line 1204: void
+Line 1204: ID = d_move
+Line 1204: (
+Line 1204: ID = struct
+Line 1204: ID = dentry
+Line 1204: *
+Line 1204: ID = dentry
+Line 1204: ,
+Line 1204: ID = struct
+Line 1204: ID = dentry
+Line 1204: *
+Line 1204: ID = target
+Line 1204: )
+Line 1205: {
+Line 1206: if
+Line 1206: (
+Line 1206: !
+Line 1206: ID = dentry
+Line 1206: -
+Line 1206: >
+Line 1206: ID = d_inode
+Line 1206: )
+Line 1207: ID = printk
+Line 1207: (
+Line 1207: ID = KERN_WARNING
+Line 1207: STRINGCON = "VFS: moving negative dcache entry\n"
+Line 1207: )
+Line 1207: ;
+Line 1209: ID = spin_lock
+Line 1209: (
+Line 1209: Unrecognized token: 38
+Line 1209: ID = dcache_lock
+Line 1209: )
+Line 1209: ;
+Line 1210: ID = write_seqlock
+Line 1210: (
+Line 1210: Unrecognized token: 38
+Line 1210: ID = rename_lock
+Line 1210: )
+Line 1210: ;
+Line 1214: if
+Line 1214: (
+Line 1214: ID = target
+Line 1214: <
+Line 1214: ID = dentry
+Line 1214: )
+Line 1214: {
+Line 1215: ID = spin_lock
+Line 1215: (
+Line 1215: Unrecognized token: 38
+Line 1215: ID = target
+Line 1215: -
+Line 1215: >
+Line 1215: ID = d_lock
+Line 1215: )
+Line 1215: ;
+Line 1216: ID = spin_lock
+Line 1216: (
+Line 1216: Unrecognized token: 38
+Line 1216: ID = dentry
+Line 1216: -
+Line 1216: >
+Line 1216: ID = d_lock
+Line 1216: )
+Line 1216: ;
+Line 1217: }
+Line 1217: else
+Line 1217: {
+Line 1218: ID = spin_lock
+Line 1218: (
+Line 1218: Unrecognized token: 38
+Line 1218: ID = dentry
+Line 1218: -
+Line 1218: >
+Line 1218: ID = d_lock
+Line 1218: )
+Line 1218: ;
+Line 1219: ID = spin_lock
+Line 1219: (
+Line 1219: Unrecognized token: 38
+Line 1219: ID = target
+Line 1219: -
+Line 1219: >
+Line 1219: ID = d_lock
+Line 1219: )
+Line 1219: ;
+Line 1220: }
+Line 1223: if
+Line 1223: (
+Line 1223: ID = dentry
+Line 1223: -
+Line 1223: >
+Line 1223: ID = d_flags
+Line 1223: Unrecognized token: 38
+Line 1223: ID = DCACHE_UNHASHED
+Line 1223: )
+Line 1224: ID = goto
+Line 1224: ID = already_unhashed
+Line 1224: ;
+Line 1225: if
+Line 1225: (
+Line 1225: ID = dentry
+Line 1225: -
+Line 1225: >
+Line 1225: ID = d_bucket
+Line 1225: !=
+Line 1225: ID = target
+Line 1225: -
+Line 1225: >
+Line 1225: ID = d_bucket
+Line 1225: )
+Line 1225: {
+Line 1226: ID = hlist_del_rcu
+Line 1226: (
+Line 1226: Unrecognized token: 38
+Line 1226: ID = dentry
+Line 1226: -
+Line 1226: >
+Line 1226: ID = d_hash
+Line 1226: )
+Line 1226: ;
+Line 1227: ID = already_unhashed
+Line 1227: Unrecognized token: 58
+Line 1228: ID = dentry
+Line 1228: -
+Line 1228: >
+Line 1228: ID = d_bucket
+Line 1228: =
+Line 1228: ID = target
+Line 1228: -
+Line 1228: >
+Line 1228: ID = d_bucket
+Line 1228: ;
+Line 1229: ID = hlist_add_head_rcu
+Line 1229: (
+Line 1229: Unrecognized token: 38
+Line 1229: ID = dentry
+Line 1229: -
+Line 1229: >
+Line 1229: ID = d_hash
+Line 1229: ,
+Line 1229: ID = target
+Line 1229: -
+Line 1229: >
+Line 1229: ID = d_bucket
+Line 1229: )
+Line 1229: ;
+Line 1230: ID = dentry
+Line 1230: -
+Line 1230: >
+Line 1230: ID = d_flags
+Line 1230: Unrecognized token: 38
+Line 1230: =
+Line 1230: Unrecognized token: 126
+Line 1230: ID = DCACHE_UNHASHED
+Line 1230: ;
+Line 1231: }
+Line 1234: Unrecognized token: 95
+Line 1234: Unrecognized token: 95
+Line 1234: ID = d_drop
+Line 1234: (
+Line 1234: ID = target
+Line 1234: )
+Line 1234: ;
+Line 1236: ID = list_del
+Line 1236: (
+Line 1236: Unrecognized token: 38
+Line 1236: ID = dentry
+Line 1236: -
+Line 1236: >
+Line 1236: ID = d_child
+Line 1236: )
+Line 1236: ;
+Line 1237: ID = list_del
+Line 1237: (
+Line 1237: Unrecognized token: 38
+Line 1237: ID = target
+Line 1237: -
+Line 1237: >
+Line 1237: ID = d_child
+Line 1237: )
+Line 1237: ;
+Line 1240: ID = switch_names
+Line 1240: (
+Line 1240: ID = dentry
+Line 1240: ,
+Line 1240: ID = target
+Line 1240: )
+Line 1240: ;
+Line 1241: ID = smp_wmb
+Line 1241: (
+Line 1241: )
+Line 1241: ;
+Line 1242: ID = do_switch
+Line 1242: (
+Line 1242: ID = dentry
+Line 1242: -
+Line 1242: >
+Line 1242: ID = d_name
+Line 1242: Unrecognized token: 46
+Line 1242: ID = len
+Line 1242: ,
+Line 1242: ID = target
+Line 1242: -
+Line 1242: >
+Line 1242: ID = d_name
+Line 1242: Unrecognized token: 46
+Line 1242: ID = len
+Line 1242: )
+Line 1242: ;
+Line 1243: ID = do_switch
+Line 1243: (
+Line 1243: ID = dentry
+Line 1243: -
+Line 1243: >
+Line 1243: ID = d_name
+Line 1243: Unrecognized token: 46
+Line 1243: ID = hash
+Line 1243: ,
+Line 1243: ID = target
+Line 1243: -
+Line 1243: >
+Line 1243: ID = d_name
+Line 1243: Unrecognized token: 46
+Line 1243: ID = hash
+Line 1243: )
+Line 1243: ;
+Line 1246: if
+Line 1246: (
+Line 1246: ID = IS_ROOT
+Line 1246: (
+Line 1246: ID = dentry
+Line 1246: )
+Line 1246: )
+Line 1246: {
+Line 1247: ID = dentry
+Line 1247: -
+Line 1247: >
+Line 1247: ID = d_parent
+Line 1247: =
+Line 1247: ID = target
+Line 1247: -
+Line 1247: >
+Line 1247: ID = d_parent
+Line 1247: ;
+Line 1248: ID = target
+Line 1248: -
+Line 1248: >
+Line 1248: ID = d_parent
+Line 1248: =
+Line 1248: ID = target
+Line 1248: ;
+Line 1249: ID = INIT_LIST_HEAD
+Line 1249: (
+Line 1249: Unrecognized token: 38
+Line 1249: ID = target
+Line 1249: -
+Line 1249: >
+Line 1249: ID = d_child
+Line 1249: )
+Line 1249: ;
+Line 1250: }
+Line 1250: else
+Line 1250: {
+Line 1251: ID = do_switch
+Line 1251: (
+Line 1251: ID = dentry
+Line 1251: -
+Line 1251: >
+Line 1251: ID = d_parent
+Line 1251: ,
+Line 1251: ID = target
+Line 1251: -
+Line 1251: >
+Line 1251: ID = d_parent
+Line 1251: )
+Line 1251: ;
+Line 1254: ID = list_add
+Line 1254: (
+Line 1254: Unrecognized token: 38
+Line 1254: ID = target
+Line 1254: -
+Line 1254: >
+Line 1254: ID = d_child
+Line 1254: ,
+Line 1254: Unrecognized token: 38
+Line 1254: ID = target
+Line 1254: -
+Line 1254: >
+Line 1254: ID = d_parent
+Line 1254: -
+Line 1254: >
+Line 1254: ID = d_subdirs
+Line 1254: )
+Line 1254: ;
+Line 1255: }
+Line 1257: ID = list_add
+Line 1257: (
+Line 1257: Unrecognized token: 38
+Line 1257: ID = dentry
+Line 1257: -
+Line 1257: >
+Line 1257: ID = d_child
+Line 1257: ,
+Line 1257: Unrecognized token: 38
+Line 1257: ID = dentry
+Line 1257: -
+Line 1257: >
+Line 1257: ID = d_parent
+Line 1257: -
+Line 1257: >
+Line 1257: ID = d_subdirs
+Line 1257: )
+Line 1257: ;
+Line 1258: ID = spin_unlock
+Line 1258: (
+Line 1258: Unrecognized token: 38
+Line 1258: ID = target
+Line 1258: -
+Line 1258: >
+Line 1258: ID = d_lock
+Line 1258: )
+Line 1258: ;
+Line 1259: ID = spin_unlock
+Line 1259: (
+Line 1259: Unrecognized token: 38
+Line 1259: ID = dentry
+Line 1259: -
+Line 1259: >
+Line 1259: ID = d_lock
+Line 1259: )
+Line 1259: ;
+Line 1260: ID = write_sequnlock
+Line 1260: (
+Line 1260: Unrecognized token: 38
+Line 1260: ID = rename_lock
+Line 1260: )
+Line 1260: ;
+Line 1261: ID = spin_unlock
+Line 1261: (
+Line 1261: Unrecognized token: 38
+Line 1261: ID = dcache_lock
+Line 1261: )
+Line 1261: ;
+Line 1262: }
+Line 1280: ID = static
+Line 1280: char
+Line 1280: *
+Line 1280: Unrecognized token: 95
+Line 1280: Unrecognized token: 95
+Line 1280: ID = d_path
+Line 1280: (
+Line 1280: ID = struct
+Line 1280: ID = dentry
+Line 1280: *
+Line 1280: ID = dentry
+Line 1280: ,
+Line 1280: ID = struct
+Line 1280: ID = vfsmount
+Line 1280: *
+Line 1280: ID = vfsmnt
+Line 1280: ,
+Line 1281: ID = struct
+Line 1281: ID = dentry
+Line 1281: *
+Line 1281: ID = root
+Line 1281: ,
+Line 1281: ID = struct
+Line 1281: ID = vfsmount
+Line 1281: *
+Line 1281: ID = rootmnt
+Line 1281: ,
+Line 1282: char
+Line 1282: *
+Line 1282: ID = buffer
+Line 1282: ,
+Line 1282: int
+Line 1282: ID = buflen
+Line 1282: )
+Line 1283: {
+Line 1284: char
+Line 1284: *
+Line 1284: ID = end
+Line 1284: =
+Line 1284: ID = buffer
+Line 1284: +
+Line 1284: ID = buflen
+Line 1284: ;
+Line 1285: char
+Line 1285: *
+Line 1285: ID = retval
+Line 1285: ;
+Line 1286: int
+Line 1286: ID = namelen
+Line 1286: ;
+Line 1288: *
+Line 1288: -
+Line 1288: -
+Line 1288: ID = end
+Line 1288: =
+Line 1288: CHARCON = '\0'
+Line 1288: ;
+Line 1289: ID = buflen
+Line 1289: -
+Line 1289: -
+Line 1289: ;
+Line 1290: if
+Line 1290: (
+Line 1290: !
+Line 1290: ID = IS_ROOT
+Line 1290: (
+Line 1290: ID = dentry
+Line 1290: )
+Line 1290: &&
+Line 1290: ID = d_unhashed
+Line 1290: (
+Line 1290: ID = dentry
+Line 1290: )
+Line 1290: )
+Line 1290: {
+Line 1291: ID = buflen
+Line 1291: -
+Line 1291: =
+Line 1291: INTCON = 10
+Line 1291: ;
+Line 1292: ID = end
+Line 1292: -
+Line 1292: =
+Line 1292: INTCON = 10
+Line 1292: ;
+Line 1293: if
+Line 1293: (
+Line 1293: ID = buflen
+Line 1293: <
+Line 1293: INTCON = 0
+Line 1293: )
+Line 1294: ID = goto
+Line 1294: ID = Elong
+Line 1294: ;
+Line 1295: ID = memcpy
+Line 1295: (
+Line 1295: ID = end
+Line 1295: ,
+Line 1295: STRINGCON = " (deleted)"
+Line 1295: ,
+Line 1295: INTCON = 10
+Line 1295: )
+Line 1295: ;
+Line 1296: }
+Line 1298: if
+Line 1298: (
+Line 1298: ID = buflen
+Line 1298: <
+Line 1298: INTCON = 1
+Line 1298: )
+Line 1299: ID = goto
+Line 1299: ID = Elong
+Line 1299: ;
+Line 1301: ID = retval
+Line 1301: =
+Line 1301: ID = end
+Line 1301: -
+Line 1301: INTCON = 1
+Line 1301: ;
+Line 1302: *
+Line 1302: ID = retval
+Line 1302: =
+Line 1302: CHARCON = '/'
+Line 1302: ;
+Line 1304: for
+Line 1304: (
+Line 1304: ;
+Line 1304: ;
+Line 1304: )
+Line 1304: {
+Line 1305: ID = struct
+Line 1305: ID = dentry
+Line 1305: *
+Line 1305: ID = parent
+Line 1305: ;
+Line 1307: if
+Line 1307: (
+Line 1307: ID = dentry
+Line 1307: ==
+Line 1307: ID = root
+Line 1307: &&
+Line 1307: ID = vfsmnt
+Line 1307: ==
+Line 1307: ID = rootmnt
+Line 1307: )
+Line 1308: ID = break
+Line 1308: ;
+Line 1309: if
+Line 1309: (
+Line 1309: ID = dentry
+Line 1309: ==
+Line 1309: ID = vfsmnt
+Line 1309: -
+Line 1309: >
+Line 1309: ID = mnt_root
+Line 1309: ||
+Line 1309: ID = IS_ROOT
+Line 1309: (
+Line 1309: ID = dentry
+Line 1309: )
+Line 1309: )
+Line 1309: {
+Line 1311: ID = spin_lock
+Line 1311: (
+Line 1311: Unrecognized token: 38
+Line 1311: ID = vfsmount_lock
+Line 1311: )
+Line 1311: ;
+Line 1312: if
+Line 1312: (
+Line 1312: ID = vfsmnt
+Line 1312: -
+Line 1312: >
+Line 1312: ID = mnt_parent
+Line 1312: ==
+Line 1312: ID = vfsmnt
+Line 1312: )
+Line 1312: {
+Line 1313: ID = spin_unlock
+Line 1313: (
+Line 1313: Unrecognized token: 38
+Line 1313: ID = vfsmount_lock
+Line 1313: )
+Line 1313: ;
+Line 1314: ID = goto
+Line 1314: ID = global_root
+Line 1314: ;
+Line 1315: }
+Line 1316: ID = dentry
+Line 1316: =
+Line 1316: ID = vfsmnt
+Line 1316: -
+Line 1316: >
+Line 1316: ID = mnt_mountpoint
+Line 1316: ;
+Line 1317: ID = vfsmnt
+Line 1317: =
+Line 1317: ID = vfsmnt
+Line 1317: -
+Line 1317: >
+Line 1317: ID = mnt_parent
+Line 1317: ;
+Line 1318: ID = spin_unlock
+Line 1318: (
+Line 1318: Unrecognized token: 38
+Line 1318: ID = vfsmount_lock
+Line 1318: )
+Line 1318: ;
+Line 1319: ID = continue
+Line 1319: ;
+Line 1320: }
+Line 1321: ID = parent
+Line 1321: =
+Line 1321: ID = dentry
+Line 1321: -
+Line 1321: >
+Line 1321: ID = d_parent
+Line 1321: ;
+Line 1322: ID = prefetch
+Line 1322: (
+Line 1322: ID = parent
+Line 1322: )
+Line 1322: ;
+Line 1323: ID = namelen
+Line 1323: =
+Line 1323: ID = dentry
+Line 1323: -
+Line 1323: >
+Line 1323: ID = d_name
+Line 1323: Unrecognized token: 46
+Line 1323: ID = len
+Line 1323: ;
+Line 1324: ID = buflen
+Line 1324: -
+Line 1324: =
+Line 1324: ID = namelen
+Line 1324: +
+Line 1324: INTCON = 1
+Line 1324: ;
+Line 1325: if
+Line 1325: (
+Line 1325: ID = buflen
+Line 1325: <
+Line 1325: INTCON = 0
+Line 1325: )
+Line 1326: ID = goto
+Line 1326: ID = Elong
+Line 1326: ;
+Line 1327: ID = end
+Line 1327: -
+Line 1327: =
+Line 1327: ID = namelen
+Line 1327: ;
+Line 1328: ID = memcpy
+Line 1328: (
+Line 1328: ID = end
+Line 1328: ,
+Line 1328: ID = dentry
+Line 1328: -
+Line 1328: >
+Line 1328: ID = d_name
+Line 1328: Unrecognized token: 46
+Line 1328: ID = name
+Line 1328: ,
+Line 1328: ID = namelen
+Line 1328: )
+Line 1328: ;
+Line 1329: *
+Line 1329: -
+Line 1329: -
+Line 1329: ID = end
+Line 1329: =
+Line 1329: CHARCON = '/'
+Line 1329: ;
+Line 1330: ID = retval
+Line 1330: =
+Line 1330: ID = end
+Line 1330: ;
+Line 1331: ID = dentry
+Line 1331: =
+Line 1331: ID = parent
+Line 1331: ;
+Line 1332: }
+Line 1334: return
+Line 1334: ID = retval
+Line 1334: ;
+Line 1336: ID = global_root
+Line 1336: Unrecognized token: 58
+Line 1337: ID = namelen
+Line 1337: =
+Line 1337: ID = dentry
+Line 1337: -
+Line 1337: >
+Line 1337: ID = d_name
+Line 1337: Unrecognized token: 46
+Line 1337: ID = len
+Line 1337: ;
+Line 1338: ID = buflen
+Line 1338: -
+Line 1338: =
+Line 1338: ID = namelen
+Line 1338: ;
+Line 1339: if
+Line 1339: (
+Line 1339: ID = buflen
+Line 1339: <
+Line 1339: INTCON = 0
+Line 1339: )
+Line 1340: ID = goto
+Line 1340: ID = Elong
+Line 1340: ;
+Line 1341: ID = retval
+Line 1341: -
+Line 1341: =
+Line 1341: ID = namelen
+Line 1341: -
+Line 1341: INTCON = 1
+Line 1341: ;
+Line 1342: ID = memcpy
+Line 1342: (
+Line 1342: ID = retval
+Line 1342: ,
+Line 1342: ID = dentry
+Line 1342: -
+Line 1342: >
+Line 1342: ID = d_name
+Line 1342: Unrecognized token: 46
+Line 1342: ID = name
+Line 1342: ,
+Line 1342: ID = namelen
+Line 1342: )
+Line 1342: ;
+Line 1343: return
+Line 1343: ID = retval
+Line 1343: ;
+Line 1344: ID = Elong
+Line 1344: Unrecognized token: 58
+Line 1345: return
+Line 1345: ID = ERR_PTR
+Line 1345: (
+Line 1345: -
+Line 1345: ID = ENAMETOOLONG
+Line 1345: )
+Line 1345: ;
+Line 1346: }
+Line 1349: char
+Line 1349: *
+Line 1349: ID = d_path
+Line 1349: (
+Line 1349: ID = struct
+Line 1349: ID = dentry
+Line 1349: *
+Line 1349: ID = dentry
+Line 1349: ,
+Line 1349: ID = struct
+Line 1349: ID = vfsmount
+Line 1349: *
+Line 1349: ID = vfsmnt
+Line 1349: ,
+Line 1350: char
+Line 1350: *
+Line 1350: ID = buf
+Line 1350: ,
+Line 1350: int
+Line 1350: ID = buflen
+Line 1350: )
+Line 1351: {
+Line 1352: char
+Line 1352: *
+Line 1352: ID = res
+Line 1352: ;
+Line 1353: ID = struct
+Line 1353: ID = vfsmount
+Line 1353: *
+Line 1353: ID = rootmnt
+Line 1353: ;
+Line 1354: ID = struct
+Line 1354: ID = dentry
+Line 1354: *
+Line 1354: ID = root
+Line 1354: ;
+Line 1356: ID = read_lock
+Line 1356: (
+Line 1356: Unrecognized token: 38
+Line 1356: ID = current
+Line 1356: -
+Line 1356: >
+Line 1356: ID = fs
+Line 1356: -
+Line 1356: >
+Line 1356: ID = lock
+Line 1356: )
+Line 1356: ;
+Line 1357: ID = rootmnt
+Line 1357: =
+Line 1357: ID = mntget
+Line 1357: (
+Line 1357: ID = current
+Line 1357: -
+Line 1357: >
+Line 1357: ID = fs
+Line 1357: -
+Line 1357: >
+Line 1357: ID = rootmnt
+Line 1357: )
+Line 1357: ;
+Line 1358: ID = root
+Line 1358: =
+Line 1358: ID = dget
+Line 1358: (
+Line 1358: ID = current
+Line 1358: -
+Line 1358: >
+Line 1358: ID = fs
+Line 1358: -
+Line 1358: >
+Line 1358: ID = root
+Line 1358: )
+Line 1358: ;
+Line 1359: ID = read_unlock
+Line 1359: (
+Line 1359: Unrecognized token: 38
+Line 1359: ID = current
+Line 1359: -
+Line 1359: >
+Line 1359: ID = fs
+Line 1359: -
+Line 1359: >
+Line 1359: ID = lock
+Line 1359: )
+Line 1359: ;
+Line 1360: ID = spin_lock
+Line 1360: (
+Line 1360: Unrecognized token: 38
+Line 1360: ID = dcache_lock
+Line 1360: )
+Line 1360: ;
+Line 1361: ID = res
+Line 1361: =
+Line 1361: Unrecognized token: 95
+Line 1361: Unrecognized token: 95
+Line 1361: ID = d_path
+Line 1361: (
+Line 1361: ID = dentry
+Line 1361: ,
+Line 1361: ID = vfsmnt
+Line 1361: ,
+Line 1361: ID = root
+Line 1361: ,
+Line 1361: ID = rootmnt
+Line 1361: ,
+Line 1361: ID = buf
+Line 1361: ,
+Line 1361: ID = buflen
+Line 1361: )
+Line 1361: ;
+Line 1362: ID = spin_unlock
+Line 1362: (
+Line 1362: Unrecognized token: 38
+Line 1362: ID = dcache_lock
+Line 1362: )
+Line 1362: ;
+Line 1363: ID = dput
+Line 1363: (
+Line 1363: ID = root
+Line 1363: )
+Line 1363: ;
+Line 1364: ID = mntput
+Line 1364: (
+Line 1364: ID = rootmnt
+Line 1364: )
+Line 1364: ;
+Line 1365: return
+Line 1365: ID = res
+Line 1365: ;
+Line 1366: }
+Line 1386: ID = asmlinkage
+Line 1386: ID = long
+Line 1386: ID = sys_getcwd
+Line 1386: (
+Line 1386: char
+Line 1386: Unrecognized token: 95
+Line 1386: Unrecognized token: 95
+Line 1386: ID = user
+Line 1386: *
+Line 1386: ID = buf
+Line 1386: ,
+Line 1386: ID = unsigned
+Line 1386: ID = long
+Line 1386: ID = size
+Line 1386: )
+Line 1387: {
+Line 1388: int
+Line 1388: ID = error
+Line 1388: ;
+Line 1389: ID = struct
+Line 1389: ID = vfsmount
+Line 1389: *
+Line 1389: ID = pwdmnt
+Line 1389: ,
+Line 1389: *
+Line 1389: ID = rootmnt
+Line 1389: ;
+Line 1390: ID = struct
+Line 1390: ID = dentry
+Line 1390: *
+Line 1390: ID = pwd
+Line 1390: ,
+Line 1390: *
+Line 1390: ID = root
+Line 1390: ;
+Line 1391: char
+Line 1391: *
+Line 1391: ID = page
+Line 1391: =
+Line 1391: (
+Line 1391: char
+Line 1391: *
+Line 1391: )
+Line 1391: Unrecognized token: 95
+Line 1391: Unrecognized token: 95
+Line 1391: ID = get_free_page
+Line 1391: (
+Line 1391: ID = GFP_USER
+Line 1391: )
+Line 1391: ;
+Line 1393: if
+Line 1393: (
+Line 1393: !
+Line 1393: ID = page
+Line 1393: )
+Line 1394: return
+Line 1394: -
+Line 1394: ID = ENOMEM
+Line 1394: ;
+Line 1396: ID = read_lock
+Line 1396: (
+Line 1396: Unrecognized token: 38
+Line 1396: ID = current
+Line 1396: -
+Line 1396: >
+Line 1396: ID = fs
+Line 1396: -
+Line 1396: >
+Line 1396: ID = lock
+Line 1396: )
+Line 1396: ;
+Line 1397: ID = pwdmnt
+Line 1397: =
+Line 1397: ID = mntget
+Line 1397: (
+Line 1397: ID = current
+Line 1397: -
+Line 1397: >
+Line 1397: ID = fs
+Line 1397: -
+Line 1397: >
+Line 1397: ID = pwdmnt
+Line 1397: )
+Line 1397: ;
+Line 1398: ID = pwd
+Line 1398: =
+Line 1398: ID = dget
+Line 1398: (
+Line 1398: ID = current
+Line 1398: -
+Line 1398: >
+Line 1398: ID = fs
+Line 1398: -
+Line 1398: >
+Line 1398: ID = pwd
+Line 1398: )
+Line 1398: ;
+Line 1399: ID = rootmnt
+Line 1399: =
+Line 1399: ID = mntget
+Line 1399: (
+Line 1399: ID = current
+Line 1399: -
+Line 1399: >
+Line 1399: ID = fs
+Line 1399: -
+Line 1399: >
+Line 1399: ID = rootmnt
+Line 1399: )
+Line 1399: ;
+Line 1400: ID = root
+Line 1400: =
+Line 1400: ID = dget
+Line 1400: (
+Line 1400: ID = current
+Line 1400: -
+Line 1400: >
+Line 1400: ID = fs
+Line 1400: -
+Line 1400: >
+Line 1400: ID = root
+Line 1400: )
+Line 1400: ;
+Line 1401: ID = read_unlock
+Line 1401: (
+Line 1401: Unrecognized token: 38
+Line 1401: ID = current
+Line 1401: -
+Line 1401: >
+Line 1401: ID = fs
+Line 1401: -
+Line 1401: >
+Line 1401: ID = lock
+Line 1401: )
+Line 1401: ;
+Line 1403: ID = error
+Line 1403: =
+Line 1403: -
+Line 1403: ID = ENOENT
+Line 1403: ;
+Line 1405: ID = spin_lock
+Line 1405: (
+Line 1405: Unrecognized token: 38
+Line 1405: ID = dcache_lock
+Line 1405: )
+Line 1405: ;
+Line 1406: if
+Line 1406: (
+Line 1406: ID = pwd
+Line 1406: -
+Line 1406: >
+Line 1406: ID = d_parent
+Line 1406: ==
+Line 1406: ID = pwd
+Line 1406: ||
+Line 1406: !
+Line 1406: ID = d_unhashed
+Line 1406: (
+Line 1406: ID = pwd
+Line 1406: )
+Line 1406: )
+Line 1406: {
+Line 1407: ID = unsigned
+Line 1407: ID = long
+Line 1407: ID = len
+Line 1407: ;
+Line 1408: char
+Line 1408: *
+Line 1408: ID = cwd
+Line 1408: ;
+Line 1410: ID = cwd
+Line 1410: =
+Line 1410: Unrecognized token: 95
+Line 1410: Unrecognized token: 95
+Line 1410: ID = d_path
+Line 1410: (
+Line 1410: ID = pwd
+Line 1410: ,
+Line 1410: ID = pwdmnt
+Line 1410: ,
+Line 1410: ID = root
+Line 1410: ,
+Line 1410: ID = rootmnt
+Line 1410: ,
+Line 1410: ID = page
+Line 1410: ,
+Line 1410: ID = PAGE_SIZE
+Line 1410: )
+Line 1410: ;
+Line 1411: ID = spin_unlock
+Line 1411: (
+Line 1411: Unrecognized token: 38
+Line 1411: ID = dcache_lock
+Line 1411: )
+Line 1411: ;
+Line 1413: ID = error
+Line 1413: =
+Line 1413: ID = PTR_ERR
+Line 1413: (
+Line 1413: ID = cwd
+Line 1413: )
+Line 1413: ;
+Line 1414: if
+Line 1414: (
+Line 1414: ID = IS_ERR
+Line 1414: (
+Line 1414: ID = cwd
+Line 1414: )
+Line 1414: )
+Line 1415: ID = goto
+Line 1415: ID = out
+Line 1415: ;
+Line 1417: ID = error
+Line 1417: =
+Line 1417: -
+Line 1417: ID = ERANGE
+Line 1417: ;
+Line 1418: ID = len
+Line 1418: =
+Line 1418: ID = PAGE_SIZE
+Line 1418: +
+Line 1418: ID = page
+Line 1418: -
+Line 1418: ID = cwd
+Line 1418: ;
+Line 1419: if
+Line 1419: (
+Line 1419: ID = len
+Line 1419: <=
+Line 1419: ID = size
+Line 1419: )
+Line 1419: {
+Line 1420: ID = error
+Line 1420: =
+Line 1420: ID = len
+Line 1420: ;
+Line 1421: if
+Line 1421: (
+Line 1421: ID = copy_to_user
+Line 1421: (
+Line 1421: ID = buf
+Line 1421: ,
+Line 1421: ID = cwd
+Line 1421: ,
+Line 1421: ID = len
+Line 1421: )
+Line 1421: )
+Line 1422: ID = error
+Line 1422: =
+Line 1422: -
+Line 1422: ID = EFAULT
+Line 1422: ;
+Line 1423: }
+Line 1424: }
+Line 1424: else
+Line 1425: ID = spin_unlock
+Line 1425: (
+Line 1425: Unrecognized token: 38
+Line 1425: ID = dcache_lock
+Line 1425: )
+Line 1425: ;
+Line 1427: ID = out
+Line 1427: Unrecognized token: 58
+Line 1428: ID = dput
+Line 1428: (
+Line 1428: ID = pwd
+Line 1428: )
+Line 1428: ;
+Line 1429: ID = mntput
+Line 1429: (
+Line 1429: ID = pwdmnt
+Line 1429: )
+Line 1429: ;
+Line 1430: ID = dput
+Line 1430: (
+Line 1430: ID = root
+Line 1430: )
+Line 1430: ;
+Line 1431: ID = mntput
+Line 1431: (
+Line 1431: ID = rootmnt
+Line 1431: )
+Line 1431: ;
+Line 1432: ID = free_page
+Line 1432: (
+Line 1432: (
+Line 1432: ID = unsigned
+Line 1432: ID = long
+Line 1432: )
+Line 1432: ID = page
+Line 1432: )
+Line 1432: ;
+Line 1433: return
+Line 1433: ID = error
+Line 1433: ;
+Line 1434: }
+Line 1452: int
+Line 1452: ID = is_subdir
+Line 1452: (
+Line 1452: ID = struct
+Line 1452: ID = dentry
+Line 1452: *
+Line 1452: ID = new_dentry
+Line 1452: ,
+Line 1452: ID = struct
+Line 1452: ID = dentry
+Line 1452: *
+Line 1452: ID = old_dentry
+Line 1452: )
+Line 1453: {
+Line 1454: int
+Line 1454: ID = result
+Line 1454: ;
+Line 1455: ID = struct
+Line 1455: ID = dentry
+Line 1455: *
+Line 1455: ID = saved
+Line 1455: =
+Line 1455: ID = new_dentry
+Line 1455: ;
+Line 1456: ID = unsigned
+Line 1456: ID = long
+Line 1456: ID = seq
+Line 1456: ;
+Line 1458: ID = result
+Line 1458: =
+Line 1458: INTCON = 0
+Line 1458: ;
+Line 1462: ID = rcu_read_lock
+Line 1462: (
+Line 1462: )
+Line 1462: ;
+Line 1463: ID = do
+Line 1463: {
+Line 1465: ID = new_dentry
+Line 1465: =
+Line 1465: ID = saved
+Line 1465: ;
+Line 1466: ID = seq
+Line 1466: =
+Line 1466: ID = read_seqbegin
+Line 1466: (
+Line 1466: Unrecognized token: 38
+Line 1466: ID = rename_lock
+Line 1466: )
+Line 1466: ;
+Line 1467: for
+Line 1467: (
+Line 1467: ;
+Line 1467: ;
+Line 1467: )
+Line 1467: {
+Line 1468: if
+Line 1468: (
+Line 1468: ID = new_dentry
+Line 1468: !=
+Line 1468: ID = old_dentry
+Line 1468: )
+Line 1468: {
+Line 1469: ID = struct
+Line 1469: ID = dentry
+Line 1469: *
+Line 1469: ID = parent
+Line 1469: =
+Line 1469: ID = new_dentry
+Line 1469: -
+Line 1469: >
+Line 1469: ID = d_parent
+Line 1469: ;
+Line 1470: if
+Line 1470: (
+Line 1470: ID = parent
+Line 1470: ==
+Line 1470: ID = new_dentry
+Line 1470: )
+Line 1471: ID = break
+Line 1471: ;
+Line 1472: ID = new_dentry
+Line 1472: =
+Line 1472: ID = parent
+Line 1472: ;
+Line 1473: ID = continue
+Line 1473: ;
+Line 1474: }
+Line 1475: ID = result
+Line 1475: =
+Line 1475: INTCON = 1
+Line 1475: ;
+Line 1476: ID = break
+Line 1476: ;
+Line 1477: }
+Line 1478: }
+Line 1478: while
+Line 1478: (
+Line 1478: ID = read_seqretry
+Line 1478: (
+Line 1478: Unrecognized token: 38
+Line 1478: ID = rename_lock
+Line 1478: ,
+Line 1478: ID = seq
+Line 1478: )
+Line 1478: )
+Line 1478: ;
+Line 1479: ID = rcu_read_unlock
+Line 1479: (
+Line 1479: )
+Line 1479: ;
+Line 1481: return
+Line 1481: ID = result
+Line 1481: ;
+Line 1482: }
+Line 1484: void
+Line 1484: ID = d_genocide
+Line 1484: (
+Line 1484: ID = struct
+Line 1484: ID = dentry
+Line 1484: *
+Line 1484: ID = root
+Line 1484: )
+Line 1485: {
+Line 1486: ID = struct
+Line 1486: ID = dentry
+Line 1486: *
+Line 1486: ID = this_parent
+Line 1486: =
+Line 1486: ID = root
+Line 1486: ;
+Line 1487: ID = struct
+Line 1487: ID = list_head
+Line 1487: *
+Line 1487: ID = next
+Line 1487: ;
+Line 1489: ID = spin_lock
+Line 1489: (
+Line 1489: Unrecognized token: 38
+Line 1489: ID = dcache_lock
+Line 1489: )
+Line 1489: ;
+Line 1490: ID = repeat
+Line 1490: Unrecognized token: 58
+Line 1491: ID = next
+Line 1491: =
+Line 1491: ID = this_parent
+Line 1491: -
+Line 1491: >
+Line 1491: ID = d_subdirs
+Line 1491: Unrecognized token: 46
+Line 1491: ID = next
+Line 1491: ;
+Line 1492: ID = resume
+Line 1492: Unrecognized token: 58
+Line 1493: while
+Line 1493: (
+Line 1493: ID = next
+Line 1493: !=
+Line 1493: Unrecognized token: 38
+Line 1493: ID = this_parent
+Line 1493: -
+Line 1493: >
+Line 1493: ID = d_subdirs
+Line 1493: )
+Line 1493: {
+Line 1494: ID = struct
+Line 1494: ID = list_head
+Line 1494: *
+Line 1494: ID = tmp
+Line 1494: =
+Line 1494: ID = next
+Line 1494: ;
+Line 1495: ID = struct
+Line 1495: ID = dentry
+Line 1495: *
+Line 1495: ID = dentry
+Line 1495: =
+Line 1495: ID = list_entry
+Line 1495: (
+Line 1495: ID = tmp
+Line 1495: ,
+Line 1495: ID = struct
+Line 1495: ID = dentry
+Line 1495: ,
+Line 1495: ID = d_child
+Line 1495: )
+Line 1495: ;
+Line 1496: ID = next
+Line 1496: =
+Line 1496: ID = tmp
+Line 1496: -
+Line 1496: >
+Line 1496: ID = next
+Line 1496: ;
+Line 1497: if
+Line 1497: (
+Line 1497: ID = d_unhashed
+Line 1497: (
+Line 1497: ID = dentry
+Line 1497: )
+Line 1497: ||
+Line 1497: !
+Line 1497: ID = dentry
+Line 1497: -
+Line 1497: >
+Line 1497: ID = d_inode
+Line 1497: )
+Line 1498: ID = continue
+Line 1498: ;
+Line 1499: if
+Line 1499: (
+Line 1499: !
+Line 1499: ID = list_empty
+Line 1499: (
+Line 1499: Unrecognized token: 38
+Line 1499: ID = dentry
+Line 1499: -
+Line 1499: >
+Line 1499: ID = d_subdirs
+Line 1499: )
+Line 1499: )
+Line 1499: {
+Line 1500: ID = this_parent
+Line 1500: =
+Line 1500: ID = dentry
+Line 1500: ;
+Line 1501: ID = goto
+Line 1501: ID = repeat
+Line 1501: ;
+Line 1502: }
+Line 1503: ID = atomic_dec
+Line 1503: (
+Line 1503: Unrecognized token: 38
+Line 1503: ID = dentry
+Line 1503: -
+Line 1503: >
+Line 1503: ID = d_count
+Line 1503: )
+Line 1503: ;
+Line 1504: }
+Line 1505: if
+Line 1505: (
+Line 1505: ID = this_parent
+Line 1505: !=
+Line 1505: ID = root
+Line 1505: )
+Line 1505: {
+Line 1506: ID = next
+Line 1506: =
+Line 1506: ID = this_parent
+Line 1506: -
+Line 1506: >
+Line 1506: ID = d_child
+Line 1506: Unrecognized token: 46
+Line 1506: ID = next
+Line 1506: ;
+Line 1507: ID = atomic_dec
+Line 1507: (
+Line 1507: Unrecognized token: 38
+Line 1507: ID = this_parent
+Line 1507: -
+Line 1507: >
+Line 1507: ID = d_count
+Line 1507: )
+Line 1507: ;
+Line 1508: ID = this_parent
+Line 1508: =
+Line 1508: ID = this_parent
+Line 1508: -
+Line 1508: >
+Line 1508: ID = d_parent
+Line 1508: ;
+Line 1509: ID = goto
+Line 1509: ID = resume
+Line 1509: ;
+Line 1510: }
+Line 1511: ID = spin_unlock
+Line 1511: (
+Line 1511: Unrecognized token: 38
+Line 1511: ID = dcache_lock
+Line 1511: )
+Line 1511: ;
+Line 1512: }
+Line 1528: ID = ino_t
+Line 1528: ID = find_inode_number
+Line 1528: (
+Line 1528: ID = struct
+Line 1528: ID = dentry
+Line 1528: *
+Line 1528: ID = dir
+Line 1528: ,
+Line 1528: ID = struct
+Line 1528: ID = qstr
+Line 1528: *
+Line 1528: ID = name
+Line 1528: )
+Line 1529: {
+Line 1530: ID = struct
+Line 1530: ID = dentry
+Line 1530: *
+Line 1530: ID = dentry
+Line 1530: ;
+Line 1531: ID = ino_t
+Line 1531: ID = ino
+Line 1531: =
+Line 1531: INTCON = 0
+Line 1531: ;
+Line 1538: ID = name
+Line 1538: -
+Line 1538: >
+Line 1538: ID = hash
+Line 1538: =
+Line 1538: ID = full_name_hash
+Line 1538: (
+Line 1538: ID = name
+Line 1538: -
+Line 1538: >
+Line 1538: ID = name
+Line 1538: ,
+Line 1538: ID = name
+Line 1538: -
+Line 1538: >
+Line 1538: ID = len
+Line 1538: )
+Line 1538: ;
+Line 1539: if
+Line 1539: (
+Line 1539: ID = dir
+Line 1539: -
+Line 1539: >
+Line 1539: ID = d_op
+Line 1539: &&
+Line 1539: ID = dir
+Line 1539: -
+Line 1539: >
+Line 1539: ID = d_op
+Line 1539: -
+Line 1539: >
+Line 1539: ID = d_hash
+Line 1539: )
+Line 1540: {
+Line 1541: if
+Line 1541: (
+Line 1541: ID = dir
+Line 1541: -
+Line 1541: >
+Line 1541: ID = d_op
+Line 1541: -
+Line 1541: >
+Line 1541: ID = d_hash
+Line 1541: (
+Line 1541: ID = dir
+Line 1541: ,
+Line 1541: ID = name
+Line 1541: )
+Line 1541: !=
+Line 1541: INTCON = 0
+Line 1541: )
+Line 1542: ID = goto
+Line 1542: ID = out
+Line 1542: ;
+Line 1543: }
+Line 1545: ID = dentry
+Line 1545: =
+Line 1545: ID = d_lookup
+Line 1545: (
+Line 1545: ID = dir
+Line 1545: ,
+Line 1545: ID = name
+Line 1545: )
+Line 1545: ;
+Line 1546: if
+Line 1546: (
+Line 1546: ID = dentry
+Line 1546: )
+Line 1547: {
+Line 1548: if
+Line 1548: (
+Line 1548: ID = dentry
+Line 1548: -
+Line 1548: >
+Line 1548: ID = d_inode
+Line 1548: )
+Line 1549: ID = ino
+Line 1549: =
+Line 1549: ID = dentry
+Line 1549: -
+Line 1549: >
+Line 1549: ID = d_inode
+Line 1549: -
+Line 1549: >
+Line 1549: ID = i_ino
+Line 1549: ;
+Line 1550: ID = dput
+Line 1550: (
+Line 1550: ID = dentry
+Line 1550: )
+Line 1550: ;
+Line 1551: }
+Line 1552: ID = out
+Line 1552: Unrecognized token: 58
+Line 1553: return
+Line 1553: ID = ino
+Line 1553: ;
+Line 1554: }
+Line 1556: ID = static
+Line 1556: Unrecognized token: 95
+Line 1556: Unrecognized token: 95
+Line 1556: ID = initdata
+Line 1556: ID = unsigned
+Line 1556: ID = long
+Line 1556: ID = dhash_entries
+Line 1556: ;
+Line 1557: ID = static
+Line 1557: int
+Line 1557: Unrecognized token: 95
+Line 1557: Unrecognized token: 95
+Line 1557: ID = init
+Line 1557: ID = set_dhash_entries
+Line 1557: (
+Line 1557: char
+Line 1557: *
+Line 1557: ID = str
+Line 1557: )
+Line 1558: {
+Line 1559: if
+Line 1559: (
+Line 1559: !
+Line 1559: ID = str
+Line 1559: )
+Line 1560: return
+Line 1560: INTCON = 0
+Line 1560: ;
+Line 1561: ID = dhash_entries
+Line 1561: =
+Line 1561: ID = simple_strtoul
+Line 1561: (
+Line 1561: ID = str
+Line 1561: ,
+Line 1561: Unrecognized token: 38
+Line 1561: ID = str
+Line 1561: ,
+Line 1561: INTCON = 0
+Line 1561: )
+Line 1561: ;
+Line 1562: return
+Line 1562: INTCON = 1
+Line 1562: ;
+Line 1563: }
+Line 1564: Unrecognized token: 95
+Line 1564: Unrecognized token: 95
+Line 1564: ID = setup
+Line 1564: (
+Line 1564: STRINGCON = "dhash_entries="
+Line 1564: ,
+Line 1564: ID = set_dhash_entries
+Line 1564: )
+Line 1564: ;
+Line 1566: ID = static
+Line 1566: void
+Line 1566: Unrecognized token: 95
+Line 1566: Unrecognized token: 95
+Line 1566: ID = init
+Line 1566: ID = dcache_init_early
+Line 1566: (
+Line 1566: void
+Line 1566: )
+Line 1567: {
+Line 1568: int
+Line 1568: ID = loop
+Line 1568: ;
+Line 1570: ID = dentry_hashtable
+Line 1570: =
+Line 1571: ID = alloc_large_system_hash
+Line 1571: (
+Line 1571: STRINGCON = "Dentry cache"
+Line 1571: ,
+Line 1572: ID = sizeof
+Line 1572: (
+Line 1572: ID = struct
+Line 1572: ID = hlist_head
+Line 1572: )
+Line 1572: ,
+Line 1573: ID = dhash_entries
+Line 1573: ,
+Line 1574: INTCON = 13
+Line 1574: ,
+Line 1575: INTCON = 0
+Line 1575: ,
+Line 1576: Unrecognized token: 38
+Line 1576: ID = d_hash_shift
+Line 1576: ,
+Line 1577: Unrecognized token: 38
+Line 1577: ID = d_hash_mask
+Line 1577: )
+Line 1577: ;
+Line 1579: for
+Line 1579: (
+Line 1579: ID = loop
+Line 1579: =
+Line 1579: INTCON = 0
+Line 1579: ;
+Line 1579: ID = loop
+Line 1579: <
+Line 1579: (
+Line 1579: INTCON = 1
+Line 1579: <
+Line 1579: <
+Line 1579: ID = d_hash_shift
+Line 1579: )
+Line 1579: ;
+Line 1579: ID = loop
+Line 1579: +
+Line 1579: +
+Line 1579: )
+Line 1580: ID = INIT_HLIST_HEAD
+Line 1580: (
+Line 1580: Unrecognized token: 38
+Line 1580: ID = dentry_hashtable
+Line 1580: [
+Line 1580: ID = loop
+Line 1580: ]
+Line 1580: )
+Line 1580: ;
+Line 1581: }
+Line 1583: ID = static
+Line 1583: void
+Line 1583: Unrecognized token: 95
+Line 1583: Unrecognized token: 95
+Line 1583: ID = init
+Line 1583: ID = dcache_init
+Line 1583: (
+Line 1583: ID = unsigned
+Line 1583: ID = long
+Line 1583: ID = mempages
+Line 1583: )
+Line 1584: {
+Line 1590: ID = dentry_cache
+Line 1590: =
+Line 1590: ID = kmem_cache_create
+Line 1590: (
+Line 1590: STRINGCON = "dentry_cache"
+Line 1590: ,
+Line 1591: ID = sizeof
+Line 1591: (
+Line 1591: ID = struct
+Line 1591: ID = dentry
+Line 1591: )
+Line 1591: ,
+Line 1592: INTCON = 0
+Line 1592: ,
+Line 1593: ID = SLAB_RECLAIM_ACCOUNT
+Line 1593: Unrecognized token: 124
+Line 1593: ID = SLAB_PANIC
+Line 1593: ,
+Line 1594: ID = NULL
+Line 1594: ,
+Line 1594: ID = NULL
+Line 1594: )
+Line 1594: ;
+Line 1596: ID = set_shrinker
+Line 1596: (
+Line 1596: ID = DEFAULT_SEEKS
+Line 1596: ,
+Line 1596: ID = shrink_dcache_memory
+Line 1596: )
+Line 1596: ;
+Line 1597: }
+Line 1600: ID = kmem_cache_t
+Line 1600: *
+Line 1600: ID = names_cachep
+Line 1600: ;
+Line 1603: ID = kmem_cache_t
+Line 1603: *
+Line 1603: ID = filp_cachep
+Line 1603: ;
+Line 1605: ID = EXPORT_SYMBOL
+Line 1605: (
+Line 1605: ID = d_genocide
+Line 1605: )
+Line 1605: ;
+Line 1607: extern
+Line 1607: void
+Line 1607: ID = bdev_cache_init
+Line 1607: (
+Line 1607: void
+Line 1607: )
+Line 1607: ;
+Line 1608: extern
+Line 1608: void
+Line 1608: ID = chrdev_init
+Line 1608: (
+Line 1608: void
+Line 1608: )
+Line 1608: ;
+Line 1610: void
+Line 1610: Unrecognized token: 95
+Line 1610: Unrecognized token: 95
+Line 1610: ID = init
+Line 1610: ID = vfs_caches_init_early
+Line 1610: (
+Line 1610: void
+Line 1610: )
+Line 1611: {
+Line 1612: ID = dcache_init_early
+Line 1612: (
+Line 1612: )
+Line 1612: ;
+Line 1613: ID = inode_init_early
+Line 1613: (
+Line 1613: )
+Line 1613: ;
+Line 1614: }
+Line 1616: void
+Line 1616: Unrecognized token: 95
+Line 1616: Unrecognized token: 95
+Line 1616: ID = init
+Line 1616: ID = vfs_caches_init
+Line 1616: (
+Line 1616: ID = unsigned
+Line 1616: ID = long
+Line 1616: ID = mempages
+Line 1616: )
+Line 1617: {
+Line 1618: ID = unsigned
+Line 1618: ID = long
+Line 1618: ID = reserve
+Line 1618: ;
+Line 1623: ID = reserve
+Line 1623: =
+Line 1623: ID = min
+Line 1623: (
+Line 1623: (
+Line 1623: ID = mempages
+Line 1623: -
+Line 1623: ID = nr_free_pages
+Line 1623: (
+Line 1623: )
+Line 1623: )
+Line 1623: *
+Line 1623: INTCON = 3
+Line 1623: /
+Line 1623: INTCON = 2
+Line 1623: ,
+Line 1623: ID = mempages
+Line 1623: -
+Line 1623: INTCON = 1
+Line 1623: )
+Line 1623: ;
+Line 1624: ID = mempages
+Line 1624: -
+Line 1624: =
+Line 1624: ID = reserve
+Line 1624: ;
+Line 1626: ID = names_cachep
+Line 1626: =
+Line 1626: ID = kmem_cache_create
+Line 1626: (
+Line 1626: STRINGCON = "names_cache"
+Line 1626: ,
+Line 1626: ID = PATH_MAX
+Line 1626: ,
+Line 1626: INTCON = 0
+Line 1626: ,
+Line 1627: ID = SLAB_HWCACHE_ALIGN
+Line 1627: Unrecognized token: 124
+Line 1627: ID = SLAB_PANIC
+Line 1627: ,
+Line 1627: ID = NULL
+Line 1627: ,
+Line 1627: ID = NULL
+Line 1627: )
+Line 1627: ;
+Line 1629: ID = filp_cachep
+Line 1629: =
+Line 1629: ID = kmem_cache_create
+Line 1629: (
+Line 1629: STRINGCON = "filp"
+Line 1629: ,
+Line 1629: ID = sizeof
+Line 1629: (
+Line 1629: ID = struct
+Line 1629: ID = file
+Line 1629: )
+Line 1629: ,
+Line 1629: INTCON = 0
+Line 1629: ,
+Line 1630: ID = SLAB_HWCACHE_ALIGN
+Line 1630: Unrecognized token: 124
+Line 1630: ID = SLAB_PANIC
+Line 1630: ,
+Line 1630: ID = filp_ctor
+Line 1630: ,
+Line 1630: ID = filp_dtor
+Line 1630: )
+Line 1630: ;
+Line 1632: ID = dcache_init
+Line 1632: (
+Line 1632: ID = mempages
+Line 1632: )
+Line 1632: ;
+Line 1633: ID = inode_init
+Line 1633: (
+Line 1633: ID = mempages
+Line 1633: )
+Line 1633: ;
+Line 1634: ID = files_init
+Line 1634: (
+Line 1634: ID = mempages
+Line 1634: )
+Line 1634: ;
+Line 1635: ID = mnt_init
+Line 1635: (
+Line 1635: ID = mempages
+Line 1635: )
+Line 1635: ;
+Line 1636: ID = bdev_cache_init
+Line 1636: (
+Line 1636: )
+Line 1636: ;
+Line 1637: ID = chrdev_init
+Line 1637: (
+Line 1637: )
+Line 1637: ;
+Line 1638: }
+Line 1640: ID = EXPORT_SYMBOL
+Line 1640: (
+Line 1640: ID = d_alloc
+Line 1640: )
+Line 1640: ;
+Line 1641: ID = EXPORT_SYMBOL
+Line 1641: (
+Line 1641: ID = d_alloc_anon
+Line 1641: )
+Line 1641: ;
+Line 1642: ID = EXPORT_SYMBOL
+Line 1642: (
+Line 1642: ID = d_alloc_root
+Line 1642: )
+Line 1642: ;
+Line 1643: ID = EXPORT_SYMBOL
+Line 1643: (
+Line 1643: ID = d_delete
+Line 1643: )
+Line 1643: ;
+Line 1644: ID = EXPORT_SYMBOL
+Line 1644: (
+Line 1644: ID = d_find_alias
+Line 1644: )
+Line 1644: ;
+Line 1645: ID = EXPORT_SYMBOL
+Line 1645: (
+Line 1645: ID = d_instantiate
+Line 1645: )
+Line 1645: ;
+Line 1646: ID = EXPORT_SYMBOL
+Line 1646: (
+Line 1646: ID = d_invalidate
+Line 1646: )
+Line 1646: ;
+Line 1647: ID = EXPORT_SYMBOL
+Line 1647: (
+Line 1647: ID = d_lookup
+Line 1647: )
+Line 1647: ;
+Line 1648: ID = EXPORT_SYMBOL
+Line 1648: (
+Line 1648: ID = d_move
+Line 1648: )
+Line 1648: ;
+Line 1649: ID = EXPORT_SYMBOL
+Line 1649: (
+Line 1649: ID = d_path
+Line 1649: )
+Line 1649: ;
+Line 1650: ID = EXPORT_SYMBOL
+Line 1650: (
+Line 1650: ID = d_prune_aliases
+Line 1650: )
+Line 1650: ;
+Line 1651: ID = EXPORT_SYMBOL
+Line 1651: (
+Line 1651: ID = d_rehash
+Line 1651: )
+Line 1651: ;
+Line 1652: ID = EXPORT_SYMBOL
+Line 1652: (
+Line 1652: ID = d_splice_alias
+Line 1652: )
+Line 1652: ;
+Line 1653: ID = EXPORT_SYMBOL
+Line 1653: (
+Line 1653: ID = d_validate
+Line 1653: )
+Line 1653: ;
+Line 1654: ID = EXPORT_SYMBOL
+Line 1654: (
+Line 1654: ID = dget_locked
+Line 1654: )
+Line 1654: ;
+Line 1655: ID = EXPORT_SYMBOL
+Line 1655: (
+Line 1655: ID = dput
+Line 1655: )
+Line 1655: ;
+Line 1656: ID = EXPORT_SYMBOL
+Line 1656: (
+Line 1656: ID = find_inode_number
+Line 1656: )
+Line 1656: ;
+Line 1657: ID = EXPORT_SYMBOL
+Line 1657: (
+Line 1657: ID = have_submounts
+Line 1657: )
+Line 1657: ;
+Line 1658: ID = EXPORT_SYMBOL
+Line 1658: (
+Line 1658: ID = is_subdir
+Line 1658: )
+Line 1658: ;
+Line 1659: ID = EXPORT_SYMBOL
+Line 1659: (
+Line 1659: ID = names_cachep
+Line 1659: )
+Line 1659: ;
+Line 1660: ID = EXPORT_SYMBOL
+Line 1660: (
+Line 1660: ID = shrink_dcache_anon
+Line 1660: )
+Line 1660: ;
+Line 1661: ID = EXPORT_SYMBOL
+Line 1661: (
+Line 1661: ID = shrink_dcache_parent
+Line 1661: )
+Line 1661: ;
+Line 1662: ID = EXPORT_SYMBOL
+Line 1662: (
+Line 1662: ID = shrink_dcache_sb
+Line 1662: )
+Line 1662: ;
+Line 1663: -EOF-

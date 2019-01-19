@@ -1,0 +1,45 @@
+void alpha(void);
+
+void bravo(void)
+{
+    alpha();
+}
+
+void charlie(int a);
+
+
+void delta(void)
+{
+    int a;
+    char b;
+    int c[4];
+    int d[4];
+
+    charlie(2);
+    charlie('2');
+    charlie(a);
+    charlie(b);
+    charlie(c[0]);
+    charlie(d[2]);
+}
+
+void echo(int a, char b, int c[], char d[])
+{
+
+}
+
+void foxtrot(void)
+{
+    int a;
+    char b;
+    int c[4];
+    char d[4];
+
+    echo(a, b, c, d);
+    echo(1, b, c, d);
+    echo(1, 'b', c, d);
+    echo(1, 'b', c, "hey");
+
+}
+
+

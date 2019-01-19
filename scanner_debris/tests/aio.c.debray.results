@@ -1,0 +1,6158 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = kernel
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = init
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = errno
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = time
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = aio_abi
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = module
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: Unrecognized token: 35
+Line 18: ID = define
+Line 18: ID = DEBUG
+Line 18: INTCON = 0
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = sched
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = fs
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = file
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = mm
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = mman
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = slab
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = timer
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = aio
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = highmem
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = workqueue
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = security
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = asm
+Line 32: /
+Line 32: ID = kmap_types
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = asm
+Line 33: /
+Line 33: ID = uaccess
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = asm
+Line 34: /
+Line 34: ID = mmu_context
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 36: Unrecognized token: 35
+Line 36: if
+Line 36: ID = DEBUG
+Line 36: >
+Line 36: INTCON = 1
+Line 37: Unrecognized token: 35
+Line 37: ID = define
+Line 37: ID = dprintk
+Line 37: ID = printk
+Line 38: Unrecognized token: 35
+Line 38: else
+Line 39: Unrecognized token: 35
+Line 39: ID = define
+Line 39: ID = dprintk
+Line 39: (
+Line 39: ID = x
+Line 39: Unrecognized token: 46
+Line 39: Unrecognized token: 46
+Line 39: Unrecognized token: 46
+Line 39: )
+Line 39: ID = do
+Line 39: {
+Line 39: ;
+Line 39: }
+Line 39: while
+Line 39: (
+Line 39: INTCON = 0
+Line 39: )
+Line 40: Unrecognized token: 35
+Line 40: ID = endif
+Line 43: ID = atomic_t
+Line 43: ID = aio_nr
+Line 43: =
+Line 43: ID = ATOMIC_INIT
+Line 43: (
+Line 43: INTCON = 0
+Line 43: )
+Line 43: ;
+Line 44: ID = unsigned
+Line 44: ID = aio_max_nr
+Line 44: =
+Line 44: INTCON = 0
+Line 44: ID = x10000
+Line 44: ;
+Line 47: ID = static
+Line 47: ID = kmem_cache_t
+Line 47: *
+Line 47: ID = kiocb_cachep
+Line 47: ;
+Line 48: ID = static
+Line 48: ID = kmem_cache_t
+Line 48: *
+Line 48: ID = kioctx_cachep
+Line 48: ;
+Line 50: ID = static
+Line 50: ID = struct
+Line 50: ID = workqueue_struct
+Line 50: *
+Line 50: ID = aio_wq
+Line 50: ;
+Line 53: ID = static
+Line 53: void
+Line 53: ID = aio_fput_routine
+Line 53: (
+Line 53: void
+Line 53: *
+Line 53: )
+Line 53: ;
+Line 54: ID = static
+Line 54: ID = DECLARE_WORK
+Line 54: (
+Line 54: ID = fput_work
+Line 54: ,
+Line 54: ID = aio_fput_routine
+Line 54: ,
+Line 54: ID = NULL
+Line 54: )
+Line 54: ;
+Line 56: ID = static
+Line 56: ID = spinlock_t
+Line 56: ID = fput_lock
+Line 56: =
+Line 56: ID = SPIN_LOCK_UNLOCKED
+Line 56: ;
+Line 57: ID = LIST_HEAD
+Line 57: (
+Line 57: ID = fput_head
+Line 57: )
+Line 57: ;
+Line 59: ID = static
+Line 59: void
+Line 59: ID = aio_kick_handler
+Line 59: (
+Line 59: void
+Line 59: *
+Line 59: )
+Line 59: ;
+Line 65: ID = static
+Line 65: int
+Line 65: Unrecognized token: 95
+Line 65: Unrecognized token: 95
+Line 65: ID = init
+Line 65: ID = aio_setup
+Line 65: (
+Line 65: void
+Line 65: )
+Line 66: {
+Line 67: ID = kiocb_cachep
+Line 67: =
+Line 67: ID = kmem_cache_create
+Line 67: (
+Line 67: STRINGCON = "kiocb"
+Line 67: ,
+Line 67: ID = sizeof
+Line 67: (
+Line 67: ID = struct
+Line 67: ID = kiocb
+Line 67: )
+Line 67: ,
+Line 68: INTCON = 0
+Line 68: ,
+Line 68: ID = SLAB_HWCACHE_ALIGN
+Line 68: Unrecognized token: 124
+Line 68: ID = SLAB_PANIC
+Line 68: ,
+Line 68: ID = NULL
+Line 68: ,
+Line 68: ID = NULL
+Line 68: )
+Line 68: ;
+Line 69: ID = kioctx_cachep
+Line 69: =
+Line 69: ID = kmem_cache_create
+Line 69: (
+Line 69: STRINGCON = "kioctx"
+Line 69: ,
+Line 69: ID = sizeof
+Line 69: (
+Line 69: ID = struct
+Line 69: ID = kioctx
+Line 69: )
+Line 69: ,
+Line 70: INTCON = 0
+Line 70: ,
+Line 70: ID = SLAB_HWCACHE_ALIGN
+Line 70: Unrecognized token: 124
+Line 70: ID = SLAB_PANIC
+Line 70: ,
+Line 70: ID = NULL
+Line 70: ,
+Line 70: ID = NULL
+Line 70: )
+Line 70: ;
+Line 72: ID = aio_wq
+Line 72: =
+Line 72: ID = create_workqueue
+Line 72: (
+Line 72: STRINGCON = "aio"
+Line 72: )
+Line 72: ;
+Line 74: ID = pr_debug
+Line 74: (
+Line 74: STRINGCON = "aio_setup: sizeof(struct page) = %d\n"
+Line 74: ,
+Line 74: (
+Line 74: int
+Line 74: )
+Line 74: ID = sizeof
+Line 74: (
+Line 74: ID = struct
+Line 74: ID = page
+Line 74: )
+Line 74: )
+Line 74: ;
+Line 76: return
+Line 76: INTCON = 0
+Line 76: ;
+Line 77: }
+Line 79: ID = static
+Line 79: void
+Line 79: ID = aio_free_ring
+Line 79: (
+Line 79: ID = struct
+Line 79: ID = kioctx
+Line 79: *
+Line 79: ID = ctx
+Line 79: )
+Line 80: {
+Line 81: ID = struct
+Line 81: ID = aio_ring_info
+Line 81: *
+Line 81: ID = info
+Line 81: =
+Line 81: Unrecognized token: 38
+Line 81: ID = ctx
+Line 81: -
+Line 81: >
+Line 81: ID = ring_info
+Line 81: ;
+Line 82: ID = long
+Line 82: ID = i
+Line 82: ;
+Line 84: for
+Line 84: (
+Line 84: ID = i
+Line 84: =
+Line 84: INTCON = 0
+Line 84: ;
+Line 84: ID = i
+Line 84: <
+Line 84: ID = info
+Line 84: -
+Line 84: >
+Line 84: ID = nr_pages
+Line 84: ;
+Line 84: ID = i
+Line 84: +
+Line 84: +
+Line 84: )
+Line 85: ID = put_page
+Line 85: (
+Line 85: ID = info
+Line 85: -
+Line 85: >
+Line 85: ID = ring_pages
+Line 85: [
+Line 85: ID = i
+Line 85: ]
+Line 85: )
+Line 85: ;
+Line 87: if
+Line 87: (
+Line 87: ID = info
+Line 87: -
+Line 87: >
+Line 87: ID = mmap_size
+Line 87: )
+Line 87: {
+Line 88: ID = down_write
+Line 88: (
+Line 88: Unrecognized token: 38
+Line 88: ID = ctx
+Line 88: -
+Line 88: >
+Line 88: ID = mm
+Line 88: -
+Line 88: >
+Line 88: ID = mmap_sem
+Line 88: )
+Line 88: ;
+Line 89: ID = do_munmap
+Line 89: (
+Line 89: ID = ctx
+Line 89: -
+Line 89: >
+Line 89: ID = mm
+Line 89: ,
+Line 89: ID = info
+Line 89: -
+Line 89: >
+Line 89: ID = mmap_base
+Line 89: ,
+Line 89: ID = info
+Line 89: -
+Line 89: >
+Line 89: ID = mmap_size
+Line 89: )
+Line 89: ;
+Line 90: ID = up_write
+Line 90: (
+Line 90: Unrecognized token: 38
+Line 90: ID = ctx
+Line 90: -
+Line 90: >
+Line 90: ID = mm
+Line 90: -
+Line 90: >
+Line 90: ID = mmap_sem
+Line 90: )
+Line 90: ;
+Line 91: }
+Line 93: if
+Line 93: (
+Line 93: ID = info
+Line 93: -
+Line 93: >
+Line 93: ID = ring_pages
+Line 93: &&
+Line 93: ID = info
+Line 93: -
+Line 93: >
+Line 93: ID = ring_pages
+Line 93: !=
+Line 93: ID = info
+Line 93: -
+Line 93: >
+Line 93: ID = internal_pages
+Line 93: )
+Line 94: ID = kfree
+Line 94: (
+Line 94: ID = info
+Line 94: -
+Line 94: >
+Line 94: ID = ring_pages
+Line 94: )
+Line 94: ;
+Line 95: ID = info
+Line 95: -
+Line 95: >
+Line 95: ID = ring_pages
+Line 95: =
+Line 95: ID = NULL
+Line 95: ;
+Line 96: ID = info
+Line 96: -
+Line 96: >
+Line 96: ID = nr
+Line 96: =
+Line 96: INTCON = 0
+Line 96: ;
+Line 97: }
+Line 99: ID = static
+Line 99: int
+Line 99: ID = aio_setup_ring
+Line 99: (
+Line 99: ID = struct
+Line 99: ID = kioctx
+Line 99: *
+Line 99: ID = ctx
+Line 99: )
+Line 100: {
+Line 101: ID = struct
+Line 101: ID = aio_ring
+Line 101: *
+Line 101: ID = ring
+Line 101: ;
+Line 102: ID = struct
+Line 102: ID = aio_ring_info
+Line 102: *
+Line 102: ID = info
+Line 102: =
+Line 102: Unrecognized token: 38
+Line 102: ID = ctx
+Line 102: -
+Line 102: >
+Line 102: ID = ring_info
+Line 102: ;
+Line 103: ID = unsigned
+Line 103: ID = nr_events
+Line 103: =
+Line 103: ID = ctx
+Line 103: -
+Line 103: >
+Line 103: ID = max_reqs
+Line 103: ;
+Line 104: ID = unsigned
+Line 104: ID = long
+Line 104: ID = size
+Line 104: ;
+Line 105: int
+Line 105: ID = nr_pages
+Line 105: ;
+Line 108: ID = nr_events
+Line 108: +
+Line 108: =
+Line 108: INTCON = 2
+Line 108: ;
+Line 110: ID = size
+Line 110: =
+Line 110: ID = sizeof
+Line 110: (
+Line 110: ID = struct
+Line 110: ID = aio_ring
+Line 110: )
+Line 110: ;
+Line 111: ID = size
+Line 111: +
+Line 111: =
+Line 111: ID = sizeof
+Line 111: (
+Line 111: ID = struct
+Line 111: ID = io_event
+Line 111: )
+Line 111: *
+Line 111: ID = nr_events
+Line 111: ;
+Line 112: ID = nr_pages
+Line 112: =
+Line 112: (
+Line 112: ID = size
+Line 112: +
+Line 112: ID = PAGE_SIZE
+Line 112: -
+Line 112: INTCON = 1
+Line 112: )
+Line 112: >
+Line 112: >
+Line 112: ID = PAGE_SHIFT
+Line 112: ;
+Line 114: if
+Line 114: (
+Line 114: ID = nr_pages
+Line 114: <
+Line 114: INTCON = 0
+Line 114: )
+Line 115: return
+Line 115: -
+Line 115: ID = EINVAL
+Line 115: ;
+Line 117: ID = info
+Line 117: -
+Line 117: >
+Line 117: ID = nr_pages
+Line 117: =
+Line 117: ID = nr_pages
+Line 117: ;
+Line 119: ID = nr_events
+Line 119: =
+Line 119: (
+Line 119: ID = PAGE_SIZE
+Line 119: *
+Line 119: ID = nr_pages
+Line 119: -
+Line 119: ID = sizeof
+Line 119: (
+Line 119: ID = struct
+Line 119: ID = aio_ring
+Line 119: )
+Line 119: )
+Line 119: /
+Line 119: ID = sizeof
+Line 119: (
+Line 119: ID = struct
+Line 119: ID = io_event
+Line 119: )
+Line 119: ;
+Line 121: ID = info
+Line 121: -
+Line 121: >
+Line 121: ID = nr
+Line 121: =
+Line 121: INTCON = 0
+Line 121: ;
+Line 122: ID = info
+Line 122: -
+Line 122: >
+Line 122: ID = ring_pages
+Line 122: =
+Line 122: ID = info
+Line 122: -
+Line 122: >
+Line 122: ID = internal_pages
+Line 122: ;
+Line 123: if
+Line 123: (
+Line 123: ID = nr_pages
+Line 123: >
+Line 123: ID = AIO_RING_PAGES
+Line 123: )
+Line 123: {
+Line 124: ID = info
+Line 124: -
+Line 124: >
+Line 124: ID = ring_pages
+Line 124: =
+Line 124: ID = kmalloc
+Line 124: (
+Line 124: ID = sizeof
+Line 124: (
+Line 124: ID = struct
+Line 124: ID = page
+Line 124: *
+Line 124: )
+Line 124: *
+Line 124: ID = nr_pages
+Line 124: ,
+Line 124: ID = GFP_KERNEL
+Line 124: )
+Line 124: ;
+Line 125: if
+Line 125: (
+Line 125: !
+Line 125: ID = info
+Line 125: -
+Line 125: >
+Line 125: ID = ring_pages
+Line 125: )
+Line 126: return
+Line 126: -
+Line 126: ID = ENOMEM
+Line 126: ;
+Line 127: ID = memset
+Line 127: (
+Line 127: ID = info
+Line 127: -
+Line 127: >
+Line 127: ID = ring_pages
+Line 127: ,
+Line 127: INTCON = 0
+Line 127: ,
+Line 127: ID = sizeof
+Line 127: (
+Line 127: ID = struct
+Line 127: ID = page
+Line 127: *
+Line 127: )
+Line 127: *
+Line 127: ID = nr_pages
+Line 127: )
+Line 127: ;
+Line 128: }
+Line 130: ID = info
+Line 130: -
+Line 130: >
+Line 130: ID = mmap_size
+Line 130: =
+Line 130: ID = nr_pages
+Line 130: *
+Line 130: ID = PAGE_SIZE
+Line 130: ;
+Line 131: ID = dprintk
+Line 131: (
+Line 131: STRINGCON = "attempting mmap of %lu bytes\n"
+Line 131: ,
+Line 131: ID = info
+Line 131: -
+Line 131: >
+Line 131: ID = mmap_size
+Line 131: )
+Line 131: ;
+Line 132: ID = down_write
+Line 132: (
+Line 132: Unrecognized token: 38
+Line 132: ID = ctx
+Line 132: -
+Line 132: >
+Line 132: ID = mm
+Line 132: -
+Line 132: >
+Line 132: ID = mmap_sem
+Line 132: )
+Line 132: ;
+Line 133: ID = info
+Line 133: -
+Line 133: >
+Line 133: ID = mmap_base
+Line 133: =
+Line 133: ID = do_mmap
+Line 133: (
+Line 133: ID = NULL
+Line 133: ,
+Line 133: INTCON = 0
+Line 133: ,
+Line 133: ID = info
+Line 133: -
+Line 133: >
+Line 133: ID = mmap_size
+Line 133: ,
+Line 134: ID = PROT_READ
+Line 134: Unrecognized token: 124
+Line 134: ID = PROT_WRITE
+Line 134: ,
+Line 134: ID = MAP_ANON
+Line 134: Unrecognized token: 124
+Line 134: ID = MAP_PRIVATE
+Line 134: ,
+Line 135: INTCON = 0
+Line 135: )
+Line 135: ;
+Line 136: if
+Line 136: (
+Line 136: ID = IS_ERR
+Line 136: (
+Line 136: (
+Line 136: void
+Line 136: *
+Line 136: )
+Line 136: ID = info
+Line 136: -
+Line 136: >
+Line 136: ID = mmap_base
+Line 136: )
+Line 136: )
+Line 136: {
+Line 137: ID = up_write
+Line 137: (
+Line 137: Unrecognized token: 38
+Line 137: ID = ctx
+Line 137: -
+Line 137: >
+Line 137: ID = mm
+Line 137: -
+Line 137: >
+Line 137: ID = mmap_sem
+Line 137: )
+Line 137: ;
+Line 138: ID = printk
+Line 138: (
+Line 138: STRINGCON = "mmap err: %ld\n"
+Line 138: ,
+Line 138: -
+Line 138: ID = info
+Line 138: -
+Line 138: >
+Line 138: ID = mmap_base
+Line 138: )
+Line 138: ;
+Line 139: ID = info
+Line 139: -
+Line 139: >
+Line 139: ID = mmap_size
+Line 139: =
+Line 139: INTCON = 0
+Line 139: ;
+Line 140: ID = aio_free_ring
+Line 140: (
+Line 140: ID = ctx
+Line 140: )
+Line 140: ;
+Line 141: return
+Line 141: -
+Line 141: ID = EAGAIN
+Line 141: ;
+Line 142: }
+Line 144: ID = dprintk
+Line 144: (
+Line 144: STRINGCON = "mmap address: 0x%08lx\n"
+Line 144: ,
+Line 144: ID = info
+Line 144: -
+Line 144: >
+Line 144: ID = mmap_base
+Line 144: )
+Line 144: ;
+Line 145: ID = info
+Line 145: -
+Line 145: >
+Line 145: ID = nr_pages
+Line 145: =
+Line 145: ID = get_user_pages
+Line 145: (
+Line 145: ID = current
+Line 145: ,
+Line 145: ID = ctx
+Line 145: -
+Line 145: >
+Line 145: ID = mm
+Line 145: ,
+Line 146: ID = info
+Line 146: -
+Line 146: >
+Line 146: ID = mmap_base
+Line 146: ,
+Line 146: ID = nr_pages
+Line 146: ,
+Line 147: INTCON = 1
+Line 147: ,
+Line 147: INTCON = 0
+Line 147: ,
+Line 147: ID = info
+Line 147: -
+Line 147: >
+Line 147: ID = ring_pages
+Line 147: ,
+Line 147: ID = NULL
+Line 147: )
+Line 147: ;
+Line 148: ID = up_write
+Line 148: (
+Line 148: Unrecognized token: 38
+Line 148: ID = ctx
+Line 148: -
+Line 148: >
+Line 148: ID = mm
+Line 148: -
+Line 148: >
+Line 148: ID = mmap_sem
+Line 148: )
+Line 148: ;
+Line 150: if
+Line 150: (
+Line 150: ID = unlikely
+Line 150: (
+Line 150: ID = info
+Line 150: -
+Line 150: >
+Line 150: ID = nr_pages
+Line 150: !=
+Line 150: ID = nr_pages
+Line 150: )
+Line 150: )
+Line 150: {
+Line 151: ID = aio_free_ring
+Line 151: (
+Line 151: ID = ctx
+Line 151: )
+Line 151: ;
+Line 152: return
+Line 152: -
+Line 152: ID = EAGAIN
+Line 152: ;
+Line 153: }
+Line 155: ID = ctx
+Line 155: -
+Line 155: >
+Line 155: ID = user_id
+Line 155: =
+Line 155: ID = info
+Line 155: -
+Line 155: >
+Line 155: ID = mmap_base
+Line 155: ;
+Line 157: ID = info
+Line 157: -
+Line 157: >
+Line 157: ID = nr
+Line 157: =
+Line 157: ID = nr_events
+Line 157: ;
+Line 159: ID = ring
+Line 159: =
+Line 159: ID = kmap_atomic
+Line 159: (
+Line 159: ID = info
+Line 159: -
+Line 159: >
+Line 159: ID = ring_pages
+Line 159: [
+Line 159: INTCON = 0
+Line 159: ]
+Line 159: ,
+Line 159: ID = KM_USER0
+Line 159: )
+Line 159: ;
+Line 160: ID = ring
+Line 160: -
+Line 160: >
+Line 160: ID = nr
+Line 160: =
+Line 160: ID = nr_events
+Line 160: ;
+Line 161: ID = ring
+Line 161: -
+Line 161: >
+Line 161: ID = id
+Line 161: =
+Line 161: ID = ctx
+Line 161: -
+Line 161: >
+Line 161: ID = user_id
+Line 161: ;
+Line 162: ID = ring
+Line 162: -
+Line 162: >
+Line 162: ID = head
+Line 162: =
+Line 162: ID = ring
+Line 162: -
+Line 162: >
+Line 162: ID = tail
+Line 162: =
+Line 162: INTCON = 0
+Line 162: ;
+Line 163: ID = ring
+Line 163: -
+Line 163: >
+Line 163: ID = magic
+Line 163: =
+Line 163: ID = AIO_RING_MAGIC
+Line 163: ;
+Line 164: ID = ring
+Line 164: -
+Line 164: >
+Line 164: ID = compat_features
+Line 164: =
+Line 164: ID = AIO_RING_COMPAT_FEATURES
+Line 164: ;
+Line 165: ID = ring
+Line 165: -
+Line 165: >
+Line 165: ID = incompat_features
+Line 165: =
+Line 165: ID = AIO_RING_INCOMPAT_FEATURES
+Line 165: ;
+Line 166: ID = ring
+Line 166: -
+Line 166: >
+Line 166: ID = header_length
+Line 166: =
+Line 166: ID = sizeof
+Line 166: (
+Line 166: ID = struct
+Line 166: ID = aio_ring
+Line 166: )
+Line 166: ;
+Line 167: ID = kunmap_atomic
+Line 167: (
+Line 167: ID = ring
+Line 167: ,
+Line 167: ID = KM_USER0
+Line 167: )
+Line 167: ;
+Line 169: return
+Line 169: INTCON = 0
+Line 169: ;
+Line 170: }
+Line 176: Unrecognized token: 35
+Line 176: ID = define
+Line 176: ID = AIO_EVENTS_PER_PAGE
+Line 176: (
+Line 176: ID = PAGE_SIZE
+Line 176: /
+Line 176: ID = sizeof
+Line 176: (
+Line 176: ID = struct
+Line 176: ID = io_event
+Line 176: )
+Line 176: )
+Line 177: Unrecognized token: 35
+Line 177: ID = define
+Line 177: ID = AIO_EVENTS_FIRST_PAGE
+Line 177: (
+Line 177: (
+Line 177: ID = PAGE_SIZE
+Line 177: -
+Line 177: ID = sizeof
+Line 177: (
+Line 177: ID = struct
+Line 177: ID = aio_ring
+Line 177: )
+Line 177: )
+Line 177: /
+Line 177: ID = sizeof
+Line 177: (
+Line 177: ID = struct
+Line 177: ID = io_event
+Line 177: )
+Line 177: )
+Line 178: Unrecognized token: 35
+Line 178: ID = define
+Line 178: ID = AIO_EVENTS_OFFSET
+Line 178: (
+Line 178: ID = AIO_EVENTS_PER_PAGE
+Line 178: -
+Line 178: ID = AIO_EVENTS_FIRST_PAGE
+Line 178: )
+Line 180: Unrecognized token: 35
+Line 180: ID = define
+Line 180: ID = aio_ring_event
+Line 180: (
+Line 180: ID = info
+Line 180: ,
+Line 180: ID = nr
+Line 180: ,
+Line 180: ID = km
+Line 180: )
+Line 180: (
+Line 180: {
+Line 180: Unrecognized token: 92
+Line 181: ID = unsigned
+Line 181: ID = pos
+Line 181: =
+Line 181: (
+Line 181: ID = nr
+Line 181: )
+Line 181: +
+Line 181: ID = AIO_EVENTS_OFFSET
+Line 181: ;
+Line 181: Unrecognized token: 92
+Line 182: ID = struct
+Line 182: ID = io_event
+Line 182: *
+Line 182: Unrecognized token: 95
+Line 182: Unrecognized token: 95
+Line 182: ID = event
+Line 182: ;
+Line 182: Unrecognized token: 92
+Line 183: Unrecognized token: 95
+Line 183: Unrecognized token: 95
+Line 183: ID = event
+Line 183: =
+Line 183: ID = kmap_atomic
+Line 183: (
+Line 183: Unrecognized token: 92
+Line 184: (
+Line 184: ID = info
+Line 184: )
+Line 184: -
+Line 184: >
+Line 184: ID = ring_pages
+Line 184: [
+Line 184: ID = pos
+Line 184: /
+Line 184: ID = AIO_EVENTS_PER_PAGE
+Line 184: ]
+Line 184: ,
+Line 184: ID = km
+Line 184: )
+Line 184: ;
+Line 184: Unrecognized token: 92
+Line 185: Unrecognized token: 95
+Line 185: Unrecognized token: 95
+Line 185: ID = event
+Line 185: +
+Line 185: =
+Line 185: ID = pos
+Line 185: Unrecognized token: 37
+Line 185: ID = AIO_EVENTS_PER_PAGE
+Line 185: ;
+Line 185: Unrecognized token: 92
+Line 186: Unrecognized token: 95
+Line 186: Unrecognized token: 95
+Line 186: ID = event
+Line 186: ;
+Line 186: Unrecognized token: 92
+Line 187: }
+Line 187: )
+Line 189: Unrecognized token: 35
+Line 189: ID = define
+Line 189: ID = put_aio_ring_event
+Line 189: (
+Line 189: ID = event
+Line 189: ,
+Line 189: ID = km
+Line 189: )
+Line 189: ID = do
+Line 189: {
+Line 189: Unrecognized token: 92
+Line 190: ID = struct
+Line 190: ID = io_event
+Line 190: *
+Line 190: Unrecognized token: 95
+Line 190: Unrecognized token: 95
+Line 190: ID = event
+Line 190: =
+Line 190: (
+Line 190: ID = event
+Line 190: )
+Line 190: ;
+Line 190: Unrecognized token: 92
+Line 191: (
+Line 191: void
+Line 191: )
+Line 191: Unrecognized token: 95
+Line 191: Unrecognized token: 95
+Line 191: ID = event
+Line 191: ;
+Line 191: Unrecognized token: 92
+Line 192: ID = kunmap_atomic
+Line 192: (
+Line 192: (
+Line 192: void
+Line 192: *
+Line 192: )
+Line 192: (
+Line 192: (
+Line 192: ID = unsigned
+Line 192: ID = long
+Line 192: )
+Line 192: Unrecognized token: 95
+Line 192: Unrecognized token: 95
+Line 192: ID = event
+Line 192: Unrecognized token: 38
+Line 192: ID = PAGE_MASK
+Line 192: )
+Line 192: ,
+Line 192: ID = km
+Line 192: )
+Line 192: ;
+Line 192: Unrecognized token: 92
+Line 193: }
+Line 193: while
+Line 193: (
+Line 193: INTCON = 0
+Line 193: )
+Line 198: ID = static
+Line 198: ID = struct
+Line 198: ID = kioctx
+Line 198: *
+Line 198: ID = ioctx_alloc
+Line 198: (
+Line 198: ID = unsigned
+Line 198: ID = nr_events
+Line 198: )
+Line 199: {
+Line 200: ID = struct
+Line 200: ID = mm_struct
+Line 200: *
+Line 200: ID = mm
+Line 200: ;
+Line 201: ID = struct
+Line 201: ID = kioctx
+Line 201: *
+Line 201: ID = ctx
+Line 201: ;
+Line 204: if
+Line 204: (
+Line 204: (
+Line 204: ID = nr_events
+Line 204: >
+Line 204: (
+Line 204: INTCON = 0
+Line 204: ID = x10000000U
+Line 204: /
+Line 204: ID = sizeof
+Line 204: (
+Line 204: ID = struct
+Line 204: ID = io_event
+Line 204: )
+Line 204: )
+Line 204: )
+Line 204: ||
+Line 205: (
+Line 205: ID = nr_events
+Line 205: >
+Line 205: (
+Line 205: INTCON = 0
+Line 205: ID = x10000000U
+Line 205: /
+Line 205: ID = sizeof
+Line 205: (
+Line 205: ID = struct
+Line 205: ID = kiocb
+Line 205: )
+Line 205: )
+Line 205: )
+Line 205: )
+Line 205: {
+Line 206: ID = pr_debug
+Line 206: (
+Line 206: STRINGCON = "ENOMEM: nr_events too high\n"
+Line 206: )
+Line 206: ;
+Line 207: return
+Line 207: ID = ERR_PTR
+Line 207: (
+Line 207: -
+Line 207: ID = EINVAL
+Line 207: )
+Line 207: ;
+Line 208: }
+Line 210: if
+Line 210: (
+Line 210: ID = nr_events
+Line 210: >
+Line 210: ID = aio_max_nr
+Line 210: )
+Line 211: return
+Line 211: ID = ERR_PTR
+Line 211: (
+Line 211: -
+Line 211: ID = EAGAIN
+Line 211: )
+Line 211: ;
+Line 213: ID = ctx
+Line 213: =
+Line 213: ID = kmem_cache_alloc
+Line 213: (
+Line 213: ID = kioctx_cachep
+Line 213: ,
+Line 213: ID = GFP_KERNEL
+Line 213: )
+Line 213: ;
+Line 214: if
+Line 214: (
+Line 214: !
+Line 214: ID = ctx
+Line 214: )
+Line 215: return
+Line 215: ID = ERR_PTR
+Line 215: (
+Line 215: -
+Line 215: ID = ENOMEM
+Line 215: )
+Line 215: ;
+Line 217: ID = memset
+Line 217: (
+Line 217: ID = ctx
+Line 217: ,
+Line 217: INTCON = 0
+Line 217: ,
+Line 217: ID = sizeof
+Line 217: (
+Line 217: *
+Line 217: ID = ctx
+Line 217: )
+Line 217: )
+Line 217: ;
+Line 218: ID = ctx
+Line 218: -
+Line 218: >
+Line 218: ID = max_reqs
+Line 218: =
+Line 218: ID = nr_events
+Line 218: ;
+Line 219: ID = mm
+Line 219: =
+Line 219: ID = ctx
+Line 219: -
+Line 219: >
+Line 219: ID = mm
+Line 219: =
+Line 219: ID = current
+Line 219: -
+Line 219: >
+Line 219: ID = mm
+Line 219: ;
+Line 220: ID = atomic_inc
+Line 220: (
+Line 220: Unrecognized token: 38
+Line 220: ID = mm
+Line 220: -
+Line 220: >
+Line 220: ID = mm_count
+Line 220: )
+Line 220: ;
+Line 222: ID = atomic_set
+Line 222: (
+Line 222: Unrecognized token: 38
+Line 222: ID = ctx
+Line 222: -
+Line 222: >
+Line 222: ID = users
+Line 222: ,
+Line 222: INTCON = 1
+Line 222: )
+Line 222: ;
+Line 223: ID = spin_lock_init
+Line 223: (
+Line 223: Unrecognized token: 38
+Line 223: ID = ctx
+Line 223: -
+Line 223: >
+Line 223: ID = ctx_lock
+Line 223: )
+Line 223: ;
+Line 224: ID = spin_lock_init
+Line 224: (
+Line 224: Unrecognized token: 38
+Line 224: ID = ctx
+Line 224: -
+Line 224: >
+Line 224: ID = ring_info
+Line 224: Unrecognized token: 46
+Line 224: ID = ring_lock
+Line 224: )
+Line 224: ;
+Line 225: ID = init_waitqueue_head
+Line 225: (
+Line 225: Unrecognized token: 38
+Line 225: ID = ctx
+Line 225: -
+Line 225: >
+Line 225: ID = wait
+Line 225: )
+Line 225: ;
+Line 227: ID = INIT_LIST_HEAD
+Line 227: (
+Line 227: Unrecognized token: 38
+Line 227: ID = ctx
+Line 227: -
+Line 227: >
+Line 227: ID = active_reqs
+Line 227: )
+Line 227: ;
+Line 228: ID = INIT_LIST_HEAD
+Line 228: (
+Line 228: Unrecognized token: 38
+Line 228: ID = ctx
+Line 228: -
+Line 228: >
+Line 228: ID = run_list
+Line 228: )
+Line 228: ;
+Line 229: ID = INIT_WORK
+Line 229: (
+Line 229: Unrecognized token: 38
+Line 229: ID = ctx
+Line 229: -
+Line 229: >
+Line 229: ID = wq
+Line 229: ,
+Line 229: ID = aio_kick_handler
+Line 229: ,
+Line 229: ID = ctx
+Line 229: )
+Line 229: ;
+Line 231: if
+Line 231: (
+Line 231: ID = aio_setup_ring
+Line 231: (
+Line 231: ID = ctx
+Line 231: )
+Line 231: <
+Line 231: INTCON = 0
+Line 231: )
+Line 232: ID = goto
+Line 232: ID = out_freectx
+Line 232: ;
+Line 235: ID = atomic_add
+Line 235: (
+Line 235: ID = ctx
+Line 235: -
+Line 235: >
+Line 235: ID = max_reqs
+Line 235: ,
+Line 235: Unrecognized token: 38
+Line 235: ID = aio_nr
+Line 235: )
+Line 235: ;
+Line 236: if
+Line 236: (
+Line 236: ID = unlikely
+Line 236: (
+Line 236: ID = atomic_read
+Line 236: (
+Line 236: Unrecognized token: 38
+Line 236: ID = aio_nr
+Line 236: )
+Line 236: >
+Line 236: ID = aio_max_nr
+Line 236: )
+Line 236: )
+Line 237: ID = goto
+Line 237: ID = out_cleanup
+Line 237: ;
+Line 240: ID = write_lock
+Line 240: (
+Line 240: Unrecognized token: 38
+Line 240: ID = mm
+Line 240: -
+Line 240: >
+Line 240: ID = ioctx_list_lock
+Line 240: )
+Line 240: ;
+Line 241: ID = ctx
+Line 241: -
+Line 241: >
+Line 241: ID = next
+Line 241: =
+Line 241: ID = mm
+Line 241: -
+Line 241: >
+Line 241: ID = ioctx_list
+Line 241: ;
+Line 242: ID = mm
+Line 242: -
+Line 242: >
+Line 242: ID = ioctx_list
+Line 242: =
+Line 242: ID = ctx
+Line 242: ;
+Line 243: ID = write_unlock
+Line 243: (
+Line 243: Unrecognized token: 38
+Line 243: ID = mm
+Line 243: -
+Line 243: >
+Line 243: ID = ioctx_list_lock
+Line 243: )
+Line 243: ;
+Line 245: ID = dprintk
+Line 245: (
+Line 245: STRINGCON = "aio: allocated ioctx %p[%ld]: mm=%p mask=0x%x\n"
+Line 245: ,
+Line 246: ID = ctx
+Line 246: ,
+Line 246: ID = ctx
+Line 246: -
+Line 246: >
+Line 246: ID = user_id
+Line 246: ,
+Line 246: ID = current
+Line 246: -
+Line 246: >
+Line 246: ID = mm
+Line 246: ,
+Line 246: ID = ctx
+Line 246: -
+Line 246: >
+Line 246: ID = ring_info
+Line 246: Unrecognized token: 46
+Line 246: ID = nr
+Line 246: )
+Line 246: ;
+Line 247: return
+Line 247: ID = ctx
+Line 247: ;
+Line 249: ID = out_cleanup
+Line 249: Unrecognized token: 58
+Line 250: ID = atomic_sub
+Line 250: (
+Line 250: ID = ctx
+Line 250: -
+Line 250: >
+Line 250: ID = max_reqs
+Line 250: ,
+Line 250: Unrecognized token: 38
+Line 250: ID = aio_nr
+Line 250: )
+Line 250: ;
+Line 251: ID = ctx
+Line 251: -
+Line 251: >
+Line 251: ID = max_reqs
+Line 251: =
+Line 251: INTCON = 0
+Line 251: ;
+Line 252: Unrecognized token: 95
+Line 252: Unrecognized token: 95
+Line 252: ID = put_ioctx
+Line 252: (
+Line 252: ID = ctx
+Line 252: )
+Line 252: ;
+Line 253: return
+Line 253: ID = ERR_PTR
+Line 253: (
+Line 253: -
+Line 253: ID = EAGAIN
+Line 253: )
+Line 253: ;
+Line 255: ID = out_freectx
+Line 255: Unrecognized token: 58
+Line 256: ID = mmdrop
+Line 256: (
+Line 256: ID = mm
+Line 256: )
+Line 256: ;
+Line 257: ID = kmem_cache_free
+Line 257: (
+Line 257: ID = kioctx_cachep
+Line 257: ,
+Line 257: ID = ctx
+Line 257: )
+Line 257: ;
+Line 258: ID = ctx
+Line 258: =
+Line 258: ID = ERR_PTR
+Line 258: (
+Line 258: -
+Line 258: ID = ENOMEM
+Line 258: )
+Line 258: ;
+Line 260: ID = dprintk
+Line 260: (
+Line 260: STRINGCON = "aio: error allocating ioctx %p\n"
+Line 260: ,
+Line 260: ID = ctx
+Line 260: )
+Line 260: ;
+Line 261: return
+Line 261: ID = ctx
+Line 261: ;
+Line 262: }
+Line 269: ID = static
+Line 269: void
+Line 269: ID = aio_cancel_all
+Line 269: (
+Line 269: ID = struct
+Line 269: ID = kioctx
+Line 269: *
+Line 269: ID = ctx
+Line 269: )
+Line 270: {
+Line 271: int
+Line 271: (
+Line 271: *
+Line 271: ID = cancel
+Line 271: )
+Line 271: (
+Line 271: ID = struct
+Line 271: ID = kiocb
+Line 271: *
+Line 271: ,
+Line 271: ID = struct
+Line 271: ID = io_event
+Line 271: *
+Line 271: )
+Line 271: ;
+Line 272: ID = struct
+Line 272: ID = io_event
+Line 272: ID = res
+Line 272: ;
+Line 273: ID = spin_lock_irq
+Line 273: (
+Line 273: Unrecognized token: 38
+Line 273: ID = ctx
+Line 273: -
+Line 273: >
+Line 273: ID = ctx_lock
+Line 273: )
+Line 273: ;
+Line 274: ID = ctx
+Line 274: -
+Line 274: >
+Line 274: ID = dead
+Line 274: =
+Line 274: INTCON = 1
+Line 274: ;
+Line 275: while
+Line 275: (
+Line 275: !
+Line 275: ID = list_empty
+Line 275: (
+Line 275: Unrecognized token: 38
+Line 275: ID = ctx
+Line 275: -
+Line 275: >
+Line 275: ID = active_reqs
+Line 275: )
+Line 275: )
+Line 275: {
+Line 276: ID = struct
+Line 276: ID = list_head
+Line 276: *
+Line 276: ID = pos
+Line 276: =
+Line 276: ID = ctx
+Line 276: -
+Line 276: >
+Line 276: ID = active_reqs
+Line 276: Unrecognized token: 46
+Line 276: ID = next
+Line 276: ;
+Line 277: ID = struct
+Line 277: ID = kiocb
+Line 277: *
+Line 277: ID = iocb
+Line 277: =
+Line 277: ID = list_kiocb
+Line 277: (
+Line 277: ID = pos
+Line 277: )
+Line 277: ;
+Line 278: ID = list_del_init
+Line 278: (
+Line 278: Unrecognized token: 38
+Line 278: ID = iocb
+Line 278: -
+Line 278: >
+Line 278: ID = ki_list
+Line 278: )
+Line 278: ;
+Line 279: ID = cancel
+Line 279: =
+Line 279: ID = iocb
+Line 279: -
+Line 279: >
+Line 279: ID = ki_cancel
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: ID = cancel
+Line 280: )
+Line 280: {
+Line 281: ID = iocb
+Line 281: -
+Line 281: >
+Line 281: ID = ki_users
+Line 281: +
+Line 281: +
+Line 281: ;
+Line 282: ID = spin_unlock_irq
+Line 282: (
+Line 282: Unrecognized token: 38
+Line 282: ID = ctx
+Line 282: -
+Line 282: >
+Line 282: ID = ctx_lock
+Line 282: )
+Line 282: ;
+Line 283: ID = cancel
+Line 283: (
+Line 283: ID = iocb
+Line 283: ,
+Line 283: Unrecognized token: 38
+Line 283: ID = res
+Line 283: )
+Line 283: ;
+Line 284: ID = spin_lock_irq
+Line 284: (
+Line 284: Unrecognized token: 38
+Line 284: ID = ctx
+Line 284: -
+Line 284: >
+Line 284: ID = ctx_lock
+Line 284: )
+Line 284: ;
+Line 285: }
+Line 286: }
+Line 287: ID = spin_unlock_irq
+Line 287: (
+Line 287: Unrecognized token: 38
+Line 287: ID = ctx
+Line 287: -
+Line 287: >
+Line 287: ID = ctx_lock
+Line 287: )
+Line 287: ;
+Line 288: }
+Line 290: void
+Line 290: ID = wait_for_all_aios
+Line 290: (
+Line 290: ID = struct
+Line 290: ID = kioctx
+Line 290: *
+Line 290: ID = ctx
+Line 290: )
+Line 291: {
+Line 292: ID = struct
+Line 292: ID = task_struct
+Line 292: *
+Line 292: ID = tsk
+Line 292: =
+Line 292: ID = current
+Line 292: ;
+Line 293: ID = DECLARE_WAITQUEUE
+Line 293: (
+Line 293: ID = wait
+Line 293: ,
+Line 293: ID = tsk
+Line 293: )
+Line 293: ;
+Line 295: if
+Line 295: (
+Line 295: !
+Line 295: ID = ctx
+Line 295: -
+Line 295: >
+Line 295: ID = reqs_active
+Line 295: )
+Line 296: return
+Line 296: ;
+Line 298: ID = add_wait_queue
+Line 298: (
+Line 298: Unrecognized token: 38
+Line 298: ID = ctx
+Line 298: -
+Line 298: >
+Line 298: ID = wait
+Line 298: ,
+Line 298: Unrecognized token: 38
+Line 298: ID = wait
+Line 298: )
+Line 298: ;
+Line 299: ID = set_task_state
+Line 299: (
+Line 299: ID = tsk
+Line 299: ,
+Line 299: ID = TASK_UNINTERRUPTIBLE
+Line 299: )
+Line 299: ;
+Line 300: while
+Line 300: (
+Line 300: ID = ctx
+Line 300: -
+Line 300: >
+Line 300: ID = reqs_active
+Line 300: )
+Line 300: {
+Line 301: ID = schedule
+Line 301: (
+Line 301: )
+Line 301: ;
+Line 302: ID = set_task_state
+Line 302: (
+Line 302: ID = tsk
+Line 302: ,
+Line 302: ID = TASK_UNINTERRUPTIBLE
+Line 302: )
+Line 302: ;
+Line 303: }
+Line 304: Unrecognized token: 95
+Line 304: Unrecognized token: 95
+Line 304: ID = set_task_state
+Line 304: (
+Line 304: ID = tsk
+Line 304: ,
+Line 304: ID = TASK_RUNNING
+Line 304: )
+Line 304: ;
+Line 305: ID = remove_wait_queue
+Line 305: (
+Line 305: Unrecognized token: 38
+Line 305: ID = ctx
+Line 305: -
+Line 305: >
+Line 305: ID = wait
+Line 305: ,
+Line 305: Unrecognized token: 38
+Line 305: ID = wait
+Line 305: )
+Line 305: ;
+Line 306: }
+Line 311: ID = ssize_t
+Line 311: ID = fastcall
+Line 311: ID = wait_on_sync_kiocb
+Line 311: (
+Line 311: ID = struct
+Line 311: ID = kiocb
+Line 311: *
+Line 311: ID = iocb
+Line 311: )
+Line 312: {
+Line 313: while
+Line 313: (
+Line 313: ID = iocb
+Line 313: -
+Line 313: >
+Line 313: ID = ki_users
+Line 313: )
+Line 313: {
+Line 314: ID = set_current_state
+Line 314: (
+Line 314: ID = TASK_UNINTERRUPTIBLE
+Line 314: )
+Line 314: ;
+Line 315: if
+Line 315: (
+Line 315: !
+Line 315: ID = iocb
+Line 315: -
+Line 315: >
+Line 315: ID = ki_users
+Line 315: )
+Line 316: ID = break
+Line 316: ;
+Line 317: ID = schedule
+Line 317: (
+Line 317: )
+Line 317: ;
+Line 318: }
+Line 319: Unrecognized token: 95
+Line 319: Unrecognized token: 95
+Line 319: ID = set_current_state
+Line 319: (
+Line 319: ID = TASK_RUNNING
+Line 319: )
+Line 319: ;
+Line 320: return
+Line 320: ID = iocb
+Line 320: -
+Line 320: >
+Line 320: ID = ki_user_data
+Line 320: ;
+Line 321: }
+Line 330: void
+Line 330: ID = fastcall
+Line 330: ID = exit_aio
+Line 330: (
+Line 330: ID = struct
+Line 330: ID = mm_struct
+Line 330: *
+Line 330: ID = mm
+Line 330: )
+Line 331: {
+Line 332: ID = struct
+Line 332: ID = kioctx
+Line 332: *
+Line 332: ID = ctx
+Line 332: =
+Line 332: ID = mm
+Line 332: -
+Line 332: >
+Line 332: ID = ioctx_list
+Line 332: ;
+Line 333: ID = mm
+Line 333: -
+Line 333: >
+Line 333: ID = ioctx_list
+Line 333: =
+Line 333: ID = NULL
+Line 333: ;
+Line 334: while
+Line 334: (
+Line 334: ID = ctx
+Line 334: )
+Line 334: {
+Line 335: ID = struct
+Line 335: ID = kioctx
+Line 335: *
+Line 335: ID = next
+Line 335: =
+Line 335: ID = ctx
+Line 335: -
+Line 335: >
+Line 335: ID = next
+Line 335: ;
+Line 336: ID = ctx
+Line 336: -
+Line 336: >
+Line 336: ID = next
+Line 336: =
+Line 336: ID = NULL
+Line 336: ;
+Line 337: ID = aio_cancel_all
+Line 337: (
+Line 337: ID = ctx
+Line 337: )
+Line 337: ;
+Line 339: ID = wait_for_all_aios
+Line 339: (
+Line 339: ID = ctx
+Line 339: )
+Line 339: ;
+Line 341: if
+Line 341: (
+Line 341: INTCON = 1
+Line 341: !=
+Line 341: ID = atomic_read
+Line 341: (
+Line 341: Unrecognized token: 38
+Line 341: ID = ctx
+Line 341: -
+Line 341: >
+Line 341: ID = users
+Line 341: )
+Line 341: )
+Line 342: ID = printk
+Line 342: (
+Line 342: ID = KERN_DEBUG
+Line 343: STRINGCON = "exit_aio:ioctx still alive: %d %d %d\n"
+Line 343: ,
+Line 344: ID = atomic_read
+Line 344: (
+Line 344: Unrecognized token: 38
+Line 344: ID = ctx
+Line 344: -
+Line 344: >
+Line 344: ID = users
+Line 344: )
+Line 344: ,
+Line 344: ID = ctx
+Line 344: -
+Line 344: >
+Line 344: ID = dead
+Line 344: ,
+Line 345: ID = ctx
+Line 345: -
+Line 345: >
+Line 345: ID = reqs_active
+Line 345: )
+Line 345: ;
+Line 346: ID = put_ioctx
+Line 346: (
+Line 346: ID = ctx
+Line 346: )
+Line 346: ;
+Line 347: ID = ctx
+Line 347: =
+Line 347: ID = next
+Line 347: ;
+Line 348: }
+Line 349: }
+Line 355: void
+Line 355: ID = fastcall
+Line 355: Unrecognized token: 95
+Line 355: Unrecognized token: 95
+Line 355: ID = put_ioctx
+Line 355: (
+Line 355: ID = struct
+Line 355: ID = kioctx
+Line 355: *
+Line 355: ID = ctx
+Line 355: )
+Line 356: {
+Line 357: ID = unsigned
+Line 357: ID = nr_events
+Line 357: =
+Line 357: ID = ctx
+Line 357: -
+Line 357: >
+Line 357: ID = max_reqs
+Line 357: ;
+Line 359: if
+Line 359: (
+Line 359: ID = unlikely
+Line 359: (
+Line 359: ID = ctx
+Line 359: -
+Line 359: >
+Line 359: ID = reqs_active
+Line 359: )
+Line 359: )
+Line 360: ID = BUG
+Line 360: (
+Line 360: )
+Line 360: ;
+Line 362: ID = aio_free_ring
+Line 362: (
+Line 362: ID = ctx
+Line 362: )
+Line 362: ;
+Line 363: ID = mmdrop
+Line 363: (
+Line 363: ID = ctx
+Line 363: -
+Line 363: >
+Line 363: ID = mm
+Line 363: )
+Line 363: ;
+Line 364: ID = ctx
+Line 364: -
+Line 364: >
+Line 364: ID = mm
+Line 364: =
+Line 364: ID = NULL
+Line 364: ;
+Line 365: ID = pr_debug
+Line 365: (
+Line 365: STRINGCON = "__put_ioctx: freeing %p\n"
+Line 365: ,
+Line 365: ID = ctx
+Line 365: )
+Line 365: ;
+Line 366: ID = kmem_cache_free
+Line 366: (
+Line 366: ID = kioctx_cachep
+Line 366: ,
+Line 366: ID = ctx
+Line 366: )
+Line 366: ;
+Line 368: ID = atomic_sub
+Line 368: (
+Line 368: ID = nr_events
+Line 368: ,
+Line 368: Unrecognized token: 38
+Line 368: ID = aio_nr
+Line 368: )
+Line 368: ;
+Line 369: }
+Line 381: ID = static
+Line 381: ID = struct
+Line 381: ID = kiocb
+Line 381: *
+Line 381: ID = FASTCALL
+Line 381: (
+Line 381: Unrecognized token: 95
+Line 381: Unrecognized token: 95
+Line 381: ID = aio_get_req
+Line 381: (
+Line 381: ID = struct
+Line 381: ID = kioctx
+Line 381: *
+Line 381: ID = ctx
+Line 381: )
+Line 381: )
+Line 381: ;
+Line 382: ID = static
+Line 382: ID = struct
+Line 382: ID = kiocb
+Line 382: ID = fastcall
+Line 382: *
+Line 382: Unrecognized token: 95
+Line 382: Unrecognized token: 95
+Line 382: ID = aio_get_req
+Line 382: (
+Line 382: ID = struct
+Line 382: ID = kioctx
+Line 382: *
+Line 382: ID = ctx
+Line 382: )
+Line 383: {
+Line 384: ID = struct
+Line 384: ID = kiocb
+Line 384: *
+Line 384: ID = req
+Line 384: =
+Line 384: ID = NULL
+Line 384: ;
+Line 385: ID = struct
+Line 385: ID = aio_ring
+Line 385: *
+Line 385: ID = ring
+Line 385: ;
+Line 386: int
+Line 386: ID = okay
+Line 386: =
+Line 386: INTCON = 0
+Line 386: ;
+Line 388: ID = req
+Line 388: =
+Line 388: ID = kmem_cache_alloc
+Line 388: (
+Line 388: ID = kiocb_cachep
+Line 388: ,
+Line 388: ID = GFP_KERNEL
+Line 388: )
+Line 388: ;
+Line 389: if
+Line 389: (
+Line 389: ID = unlikely
+Line 389: (
+Line 389: !
+Line 389: ID = req
+Line 389: )
+Line 389: )
+Line 390: return
+Line 390: ID = NULL
+Line 390: ;
+Line 392: ID = req
+Line 392: -
+Line 392: >
+Line 392: ID = ki_flags
+Line 392: =
+Line 392: INTCON = 1
+Line 392: <
+Line 392: <
+Line 392: ID = KIF_LOCKED
+Line 392: ;
+Line 393: ID = req
+Line 393: -
+Line 393: >
+Line 393: ID = ki_users
+Line 393: =
+Line 393: INTCON = 2
+Line 393: ;
+Line 394: ID = req
+Line 394: -
+Line 394: >
+Line 394: ID = ki_key
+Line 394: =
+Line 394: INTCON = 0
+Line 394: ;
+Line 395: ID = req
+Line 395: -
+Line 395: >
+Line 395: ID = ki_ctx
+Line 395: =
+Line 395: ID = ctx
+Line 395: ;
+Line 396: ID = req
+Line 396: -
+Line 396: >
+Line 396: ID = ki_cancel
+Line 396: =
+Line 396: ID = NULL
+Line 396: ;
+Line 397: ID = req
+Line 397: -
+Line 397: >
+Line 397: ID = ki_retry
+Line 397: =
+Line 397: ID = NULL
+Line 397: ;
+Line 398: ID = req
+Line 398: -
+Line 398: >
+Line 398: ID = ki_obj
+Line 398: Unrecognized token: 46
+Line 398: ID = user
+Line 398: =
+Line 398: ID = NULL
+Line 398: ;
+Line 399: ID = req
+Line 399: -
+Line 399: >
+Line 399: ID = ki_dtor
+Line 399: =
+Line 399: ID = NULL
+Line 399: ;
+Line 400: ID = req
+Line 400: -
+Line 400: >
+Line 400: ID = private
+Line 400: =
+Line 400: ID = NULL
+Line 400: ;
+Line 405: ID = spin_lock_irq
+Line 405: (
+Line 405: Unrecognized token: 38
+Line 405: ID = ctx
+Line 405: -
+Line 405: >
+Line 405: ID = ctx_lock
+Line 405: )
+Line 405: ;
+Line 406: ID = ring
+Line 406: =
+Line 406: ID = kmap_atomic
+Line 406: (
+Line 406: ID = ctx
+Line 406: -
+Line 406: >
+Line 406: ID = ring_info
+Line 406: Unrecognized token: 46
+Line 406: ID = ring_pages
+Line 406: [
+Line 406: INTCON = 0
+Line 406: ]
+Line 406: ,
+Line 406: ID = KM_USER0
+Line 406: )
+Line 406: ;
+Line 407: if
+Line 407: (
+Line 407: ID = ctx
+Line 407: -
+Line 407: >
+Line 407: ID = reqs_active
+Line 407: <
+Line 407: ID = aio_ring_avail
+Line 407: (
+Line 407: Unrecognized token: 38
+Line 407: ID = ctx
+Line 407: -
+Line 407: >
+Line 407: ID = ring_info
+Line 407: ,
+Line 407: ID = ring
+Line 407: )
+Line 407: )
+Line 407: {
+Line 408: ID = list_add
+Line 408: (
+Line 408: Unrecognized token: 38
+Line 408: ID = req
+Line 408: -
+Line 408: >
+Line 408: ID = ki_list
+Line 408: ,
+Line 408: Unrecognized token: 38
+Line 408: ID = ctx
+Line 408: -
+Line 408: >
+Line 408: ID = active_reqs
+Line 408: )
+Line 408: ;
+Line 409: ID = get_ioctx
+Line 409: (
+Line 409: ID = ctx
+Line 409: )
+Line 409: ;
+Line 410: ID = ctx
+Line 410: -
+Line 410: >
+Line 410: ID = reqs_active
+Line 410: +
+Line 410: +
+Line 410: ;
+Line 411: ID = okay
+Line 411: =
+Line 411: INTCON = 1
+Line 411: ;
+Line 412: }
+Line 413: ID = kunmap_atomic
+Line 413: (
+Line 413: ID = ring
+Line 413: ,
+Line 413: ID = KM_USER0
+Line 413: )
+Line 413: ;
+Line 414: ID = spin_unlock_irq
+Line 414: (
+Line 414: Unrecognized token: 38
+Line 414: ID = ctx
+Line 414: -
+Line 414: >
+Line 414: ID = ctx_lock
+Line 414: )
+Line 414: ;
+Line 416: if
+Line 416: (
+Line 416: !
+Line 416: ID = okay
+Line 416: )
+Line 416: {
+Line 417: ID = kmem_cache_free
+Line 417: (
+Line 417: ID = kiocb_cachep
+Line 417: ,
+Line 417: ID = req
+Line 417: )
+Line 417: ;
+Line 418: ID = req
+Line 418: =
+Line 418: ID = NULL
+Line 418: ;
+Line 419: }
+Line 421: return
+Line 421: ID = req
+Line 421: ;
+Line 422: }
+Line 424: ID = static
+Line 424: ID = inline
+Line 424: ID = struct
+Line 424: ID = kiocb
+Line 424: *
+Line 424: ID = aio_get_req
+Line 424: (
+Line 424: ID = struct
+Line 424: ID = kioctx
+Line 424: *
+Line 424: ID = ctx
+Line 424: )
+Line 425: {
+Line 426: ID = struct
+Line 426: ID = kiocb
+Line 426: *
+Line 426: ID = req
+Line 426: ;
+Line 431: ID = req
+Line 431: =
+Line 431: Unrecognized token: 95
+Line 431: Unrecognized token: 95
+Line 431: ID = aio_get_req
+Line 431: (
+Line 431: ID = ctx
+Line 431: )
+Line 431: ;
+Line 432: if
+Line 432: (
+Line 432: ID = unlikely
+Line 432: (
+Line 432: ID = NULL
+Line 432: ==
+Line 432: ID = req
+Line 432: )
+Line 432: )
+Line 432: {
+Line 433: ID = aio_fput_routine
+Line 433: (
+Line 433: ID = NULL
+Line 433: )
+Line 433: ;
+Line 434: ID = req
+Line 434: =
+Line 434: Unrecognized token: 95
+Line 434: Unrecognized token: 95
+Line 434: ID = aio_get_req
+Line 434: (
+Line 434: ID = ctx
+Line 434: )
+Line 434: ;
+Line 435: }
+Line 436: return
+Line 436: ID = req
+Line 436: ;
+Line 437: }
+Line 439: ID = static
+Line 439: ID = inline
+Line 439: void
+Line 439: ID = really_put_req
+Line 439: (
+Line 439: ID = struct
+Line 439: ID = kioctx
+Line 439: *
+Line 439: ID = ctx
+Line 439: ,
+Line 439: ID = struct
+Line 439: ID = kiocb
+Line 439: *
+Line 439: ID = req
+Line 439: )
+Line 440: {
+Line 441: if
+Line 441: (
+Line 441: ID = req
+Line 441: -
+Line 441: >
+Line 441: ID = ki_dtor
+Line 441: )
+Line 442: ID = req
+Line 442: -
+Line 442: >
+Line 442: ID = ki_dtor
+Line 442: (
+Line 442: ID = req
+Line 442: )
+Line 442: ;
+Line 443: ID = req
+Line 443: -
+Line 443: >
+Line 443: ID = ki_ctx
+Line 443: =
+Line 443: ID = NULL
+Line 443: ;
+Line 444: ID = req
+Line 444: -
+Line 444: >
+Line 444: ID = ki_filp
+Line 444: =
+Line 444: ID = NULL
+Line 444: ;
+Line 445: ID = req
+Line 445: -
+Line 445: >
+Line 445: ID = ki_obj
+Line 445: Unrecognized token: 46
+Line 445: ID = user
+Line 445: =
+Line 445: ID = NULL
+Line 445: ;
+Line 446: ID = req
+Line 446: -
+Line 446: >
+Line 446: ID = ki_dtor
+Line 446: =
+Line 446: ID = NULL
+Line 446: ;
+Line 447: ID = req
+Line 447: -
+Line 447: >
+Line 447: ID = private
+Line 447: =
+Line 447: ID = NULL
+Line 447: ;
+Line 448: ID = kmem_cache_free
+Line 448: (
+Line 448: ID = kiocb_cachep
+Line 448: ,
+Line 448: ID = req
+Line 448: )
+Line 448: ;
+Line 449: ID = ctx
+Line 449: -
+Line 449: >
+Line 449: ID = reqs_active
+Line 449: -
+Line 449: -
+Line 449: ;
+Line 451: if
+Line 451: (
+Line 451: ID = unlikely
+Line 451: (
+Line 451: !
+Line 451: ID = ctx
+Line 451: -
+Line 451: >
+Line 451: ID = reqs_active
+Line 451: &&
+Line 451: ID = ctx
+Line 451: -
+Line 451: >
+Line 451: ID = dead
+Line 451: )
+Line 451: )
+Line 452: ID = wake_up
+Line 452: (
+Line 452: Unrecognized token: 38
+Line 452: ID = ctx
+Line 452: -
+Line 452: >
+Line 452: ID = wait
+Line 452: )
+Line 452: ;
+Line 453: }
+Line 455: ID = static
+Line 455: void
+Line 455: ID = aio_fput_routine
+Line 455: (
+Line 455: void
+Line 455: *
+Line 455: ID = data
+Line 455: )
+Line 456: {
+Line 457: ID = spin_lock_irq
+Line 457: (
+Line 457: Unrecognized token: 38
+Line 457: ID = fput_lock
+Line 457: )
+Line 457: ;
+Line 458: while
+Line 458: (
+Line 458: ID = likely
+Line 458: (
+Line 458: !
+Line 458: ID = list_empty
+Line 458: (
+Line 458: Unrecognized token: 38
+Line 458: ID = fput_head
+Line 458: )
+Line 458: )
+Line 458: )
+Line 458: {
+Line 459: ID = struct
+Line 459: ID = kiocb
+Line 459: *
+Line 459: ID = req
+Line 459: =
+Line 459: ID = list_kiocb
+Line 459: (
+Line 459: ID = fput_head
+Line 459: Unrecognized token: 46
+Line 459: ID = next
+Line 459: )
+Line 459: ;
+Line 460: ID = struct
+Line 460: ID = kioctx
+Line 460: *
+Line 460: ID = ctx
+Line 460: =
+Line 460: ID = req
+Line 460: -
+Line 460: >
+Line 460: ID = ki_ctx
+Line 460: ;
+Line 462: ID = list_del
+Line 462: (
+Line 462: Unrecognized token: 38
+Line 462: ID = req
+Line 462: -
+Line 462: >
+Line 462: ID = ki_list
+Line 462: )
+Line 462: ;
+Line 463: ID = spin_unlock_irq
+Line 463: (
+Line 463: Unrecognized token: 38
+Line 463: ID = fput_lock
+Line 463: )
+Line 463: ;
+Line 466: Unrecognized token: 95
+Line 466: Unrecognized token: 95
+Line 466: ID = fput
+Line 466: (
+Line 466: ID = req
+Line 466: -
+Line 466: >
+Line 466: ID = ki_filp
+Line 466: )
+Line 466: ;
+Line 469: ID = spin_lock_irq
+Line 469: (
+Line 469: Unrecognized token: 38
+Line 469: ID = ctx
+Line 469: -
+Line 469: >
+Line 469: ID = ctx_lock
+Line 469: )
+Line 469: ;
+Line 470: ID = really_put_req
+Line 470: (
+Line 470: ID = ctx
+Line 470: ,
+Line 470: ID = req
+Line 470: )
+Line 470: ;
+Line 471: ID = spin_unlock_irq
+Line 471: (
+Line 471: Unrecognized token: 38
+Line 471: ID = ctx
+Line 471: -
+Line 471: >
+Line 471: ID = ctx_lock
+Line 471: )
+Line 471: ;
+Line 473: ID = put_ioctx
+Line 473: (
+Line 473: ID = ctx
+Line 473: )
+Line 473: ;
+Line 474: ID = spin_lock_irq
+Line 474: (
+Line 474: Unrecognized token: 38
+Line 474: ID = fput_lock
+Line 474: )
+Line 474: ;
+Line 475: }
+Line 476: ID = spin_unlock_irq
+Line 476: (
+Line 476: Unrecognized token: 38
+Line 476: ID = fput_lock
+Line 476: )
+Line 476: ;
+Line 477: }
+Line 482: ID = static
+Line 482: int
+Line 482: Unrecognized token: 95
+Line 482: Unrecognized token: 95
+Line 482: ID = aio_put_req
+Line 482: (
+Line 482: ID = struct
+Line 482: ID = kioctx
+Line 482: *
+Line 482: ID = ctx
+Line 482: ,
+Line 482: ID = struct
+Line 482: ID = kiocb
+Line 482: *
+Line 482: ID = req
+Line 482: )
+Line 483: {
+Line 484: ID = dprintk
+Line 484: (
+Line 484: ID = KERN_DEBUG
+Line 484: STRINGCON = "aio_put(%p): f_count=%d\n"
+Line 484: ,
+Line 485: ID = req
+Line 485: ,
+Line 485: ID = atomic_read
+Line 485: (
+Line 485: Unrecognized token: 38
+Line 485: ID = req
+Line 485: -
+Line 485: >
+Line 485: ID = ki_filp
+Line 485: -
+Line 485: >
+Line 485: ID = f_count
+Line 485: )
+Line 485: )
+Line 485: ;
+Line 487: ID = req
+Line 487: -
+Line 487: >
+Line 487: ID = ki_users
+Line 487: -
+Line 487: -
+Line 487: ;
+Line 488: if
+Line 488: (
+Line 488: ID = unlikely
+Line 488: (
+Line 488: ID = req
+Line 488: -
+Line 488: >
+Line 488: ID = ki_users
+Line 488: <
+Line 488: INTCON = 0
+Line 488: )
+Line 488: )
+Line 489: ID = BUG
+Line 489: (
+Line 489: )
+Line 489: ;
+Line 490: if
+Line 490: (
+Line 490: ID = likely
+Line 490: (
+Line 490: ID = req
+Line 490: -
+Line 490: >
+Line 490: ID = ki_users
+Line 490: )
+Line 490: )
+Line 491: return
+Line 491: INTCON = 0
+Line 491: ;
+Line 492: ID = list_del
+Line 492: (
+Line 492: Unrecognized token: 38
+Line 492: ID = req
+Line 492: -
+Line 492: >
+Line 492: ID = ki_list
+Line 492: )
+Line 492: ;
+Line 493: ID = req
+Line 493: -
+Line 493: >
+Line 493: ID = ki_cancel
+Line 493: =
+Line 493: ID = NULL
+Line 493: ;
+Line 494: ID = req
+Line 494: -
+Line 494: >
+Line 494: ID = ki_retry
+Line 494: =
+Line 494: ID = NULL
+Line 494: ;
+Line 499: if
+Line 499: (
+Line 499: ID = unlikely
+Line 499: (
+Line 499: ID = atomic_dec_and_test
+Line 499: (
+Line 499: Unrecognized token: 38
+Line 499: ID = req
+Line 499: -
+Line 499: >
+Line 499: ID = ki_filp
+Line 499: -
+Line 499: >
+Line 499: ID = f_count
+Line 499: )
+Line 499: )
+Line 499: )
+Line 499: {
+Line 500: ID = get_ioctx
+Line 500: (
+Line 500: ID = ctx
+Line 500: )
+Line 500: ;
+Line 501: ID = spin_lock
+Line 501: (
+Line 501: Unrecognized token: 38
+Line 501: ID = fput_lock
+Line 501: )
+Line 501: ;
+Line 502: ID = list_add
+Line 502: (
+Line 502: Unrecognized token: 38
+Line 502: ID = req
+Line 502: -
+Line 502: >
+Line 502: ID = ki_list
+Line 502: ,
+Line 502: Unrecognized token: 38
+Line 502: ID = fput_head
+Line 502: )
+Line 502: ;
+Line 503: ID = spin_unlock
+Line 503: (
+Line 503: Unrecognized token: 38
+Line 503: ID = fput_lock
+Line 503: )
+Line 503: ;
+Line 504: ID = queue_work
+Line 504: (
+Line 504: ID = aio_wq
+Line 504: ,
+Line 504: Unrecognized token: 38
+Line 504: ID = fput_work
+Line 504: )
+Line 504: ;
+Line 505: }
+Line 505: else
+Line 506: ID = really_put_req
+Line 506: (
+Line 506: ID = ctx
+Line 506: ,
+Line 506: ID = req
+Line 506: )
+Line 506: ;
+Line 507: return
+Line 507: INTCON = 1
+Line 507: ;
+Line 508: }
+Line 514: int
+Line 514: ID = fastcall
+Line 514: ID = aio_put_req
+Line 514: (
+Line 514: ID = struct
+Line 514: ID = kiocb
+Line 514: *
+Line 514: ID = req
+Line 514: )
+Line 515: {
+Line 516: ID = struct
+Line 516: ID = kioctx
+Line 516: *
+Line 516: ID = ctx
+Line 516: =
+Line 516: ID = req
+Line 516: -
+Line 516: >
+Line 516: ID = ki_ctx
+Line 516: ;
+Line 517: int
+Line 517: ID = ret
+Line 517: ;
+Line 518: ID = spin_lock_irq
+Line 518: (
+Line 518: Unrecognized token: 38
+Line 518: ID = ctx
+Line 518: -
+Line 518: >
+Line 518: ID = ctx_lock
+Line 518: )
+Line 518: ;
+Line 519: ID = ret
+Line 519: =
+Line 519: Unrecognized token: 95
+Line 519: Unrecognized token: 95
+Line 519: ID = aio_put_req
+Line 519: (
+Line 519: ID = ctx
+Line 519: ,
+Line 519: ID = req
+Line 519: )
+Line 519: ;
+Line 520: ID = spin_unlock_irq
+Line 520: (
+Line 520: Unrecognized token: 38
+Line 520: ID = ctx
+Line 520: -
+Line 520: >
+Line 520: ID = ctx_lock
+Line 520: )
+Line 520: ;
+Line 521: if
+Line 521: (
+Line 521: ID = ret
+Line 521: )
+Line 522: ID = put_ioctx
+Line 522: (
+Line 522: ID = ctx
+Line 522: )
+Line 522: ;
+Line 523: return
+Line 523: ID = ret
+Line 523: ;
+Line 524: }
+Line 529: ID = struct
+Line 529: ID = kioctx
+Line 529: *
+Line 529: ID = lookup_ioctx
+Line 529: (
+Line 529: ID = unsigned
+Line 529: ID = long
+Line 529: ID = ctx_id
+Line 529: )
+Line 530: {
+Line 531: ID = struct
+Line 531: ID = kioctx
+Line 531: *
+Line 531: ID = ioctx
+Line 531: ;
+Line 532: ID = struct
+Line 532: ID = mm_struct
+Line 532: *
+Line 532: ID = mm
+Line 532: ;
+Line 534: ID = mm
+Line 534: =
+Line 534: ID = current
+Line 534: -
+Line 534: >
+Line 534: ID = mm
+Line 534: ;
+Line 535: ID = read_lock
+Line 535: (
+Line 535: Unrecognized token: 38
+Line 535: ID = mm
+Line 535: -
+Line 535: >
+Line 535: ID = ioctx_list_lock
+Line 535: )
+Line 535: ;
+Line 536: for
+Line 536: (
+Line 536: ID = ioctx
+Line 536: =
+Line 536: ID = mm
+Line 536: -
+Line 536: >
+Line 536: ID = ioctx_list
+Line 536: ;
+Line 536: ID = ioctx
+Line 536: ;
+Line 536: ID = ioctx
+Line 536: =
+Line 536: ID = ioctx
+Line 536: -
+Line 536: >
+Line 536: ID = next
+Line 536: )
+Line 537: if
+Line 537: (
+Line 537: ID = likely
+Line 537: (
+Line 537: ID = ioctx
+Line 537: -
+Line 537: >
+Line 537: ID = user_id
+Line 537: ==
+Line 537: ID = ctx_id
+Line 537: &&
+Line 537: !
+Line 537: ID = ioctx
+Line 537: -
+Line 537: >
+Line 537: ID = dead
+Line 537: )
+Line 537: )
+Line 537: {
+Line 538: ID = get_ioctx
+Line 538: (
+Line 538: ID = ioctx
+Line 538: )
+Line 538: ;
+Line 539: ID = break
+Line 539: ;
+Line 540: }
+Line 541: ID = read_unlock
+Line 541: (
+Line 541: Unrecognized token: 38
+Line 541: ID = mm
+Line 541: -
+Line 541: >
+Line 541: ID = ioctx_list_lock
+Line 541: )
+Line 541: ;
+Line 543: return
+Line 543: ID = ioctx
+Line 543: ;
+Line 544: }
+Line 546: ID = static
+Line 546: void
+Line 546: ID = use_mm
+Line 546: (
+Line 546: ID = struct
+Line 546: ID = mm_struct
+Line 546: *
+Line 546: ID = mm
+Line 546: )
+Line 547: {
+Line 548: ID = struct
+Line 548: ID = mm_struct
+Line 548: *
+Line 548: ID = active_mm
+Line 548: ;
+Line 550: ID = atomic_inc
+Line 550: (
+Line 550: Unrecognized token: 38
+Line 550: ID = mm
+Line 550: -
+Line 550: >
+Line 550: ID = mm_count
+Line 550: )
+Line 550: ;
+Line 551: ID = task_lock
+Line 551: (
+Line 551: ID = current
+Line 551: )
+Line 551: ;
+Line 552: ID = active_mm
+Line 552: =
+Line 552: ID = current
+Line 552: -
+Line 552: >
+Line 552: ID = active_mm
+Line 552: ;
+Line 553: ID = current
+Line 553: -
+Line 553: >
+Line 553: ID = mm
+Line 553: =
+Line 553: ID = mm
+Line 553: ;
+Line 554: if
+Line 554: (
+Line 554: ID = mm
+Line 554: !=
+Line 554: ID = active_mm
+Line 554: )
+Line 554: {
+Line 555: ID = current
+Line 555: -
+Line 555: >
+Line 555: ID = active_mm
+Line 555: =
+Line 555: ID = mm
+Line 555: ;
+Line 556: ID = activate_mm
+Line 556: (
+Line 556: ID = active_mm
+Line 556: ,
+Line 556: ID = mm
+Line 556: )
+Line 556: ;
+Line 557: }
+Line 558: ID = task_unlock
+Line 558: (
+Line 558: ID = current
+Line 558: )
+Line 558: ;
+Line 559: ID = mmdrop
+Line 559: (
+Line 559: ID = active_mm
+Line 559: )
+Line 559: ;
+Line 560: }
+Line 562: ID = static
+Line 562: void
+Line 562: ID = unuse_mm
+Line 562: (
+Line 562: ID = struct
+Line 562: ID = mm_struct
+Line 562: *
+Line 562: ID = mm
+Line 562: )
+Line 563: {
+Line 564: ID = task_lock
+Line 564: (
+Line 564: ID = current
+Line 564: )
+Line 564: ;
+Line 565: ID = current
+Line 565: -
+Line 565: >
+Line 565: ID = mm
+Line 565: =
+Line 565: ID = NULL
+Line 565: ;
+Line 566: ID = task_unlock
+Line 566: (
+Line 566: ID = current
+Line 566: )
+Line 566: ;
+Line 568: ID = enter_lazy_tlb
+Line 568: (
+Line 568: ID = mm
+Line 568: ,
+Line 568: ID = current
+Line 568: )
+Line 568: ;
+Line 569: }
+Line 574: ID = static
+Line 574: void
+Line 574: ID = aio_kick_handler
+Line 574: (
+Line 574: void
+Line 574: *
+Line 574: ID = data
+Line 574: )
+Line 575: {
+Line 576: ID = struct
+Line 576: ID = kioctx
+Line 576: *
+Line 576: ID = ctx
+Line 576: =
+Line 576: ID = data
+Line 576: ;
+Line 578: ID = use_mm
+Line 578: (
+Line 578: ID = ctx
+Line 578: -
+Line 578: >
+Line 578: ID = mm
+Line 578: )
+Line 578: ;
+Line 580: ID = spin_lock_irq
+Line 580: (
+Line 580: Unrecognized token: 38
+Line 580: ID = ctx
+Line 580: -
+Line 580: >
+Line 580: ID = ctx_lock
+Line 580: )
+Line 580: ;
+Line 581: while
+Line 581: (
+Line 581: !
+Line 581: ID = list_empty
+Line 581: (
+Line 581: Unrecognized token: 38
+Line 581: ID = ctx
+Line 581: -
+Line 581: >
+Line 581: ID = run_list
+Line 581: )
+Line 581: )
+Line 581: {
+Line 582: ID = struct
+Line 582: ID = kiocb
+Line 582: *
+Line 582: ID = iocb
+Line 582: ;
+Line 583: ID = long
+Line 583: ID = ret
+Line 583: ;
+Line 585: ID = iocb
+Line 585: =
+Line 585: ID = list_entry
+Line 585: (
+Line 585: ID = ctx
+Line 585: -
+Line 585: >
+Line 585: ID = run_list
+Line 585: Unrecognized token: 46
+Line 585: ID = next
+Line 585: ,
+Line 585: ID = struct
+Line 585: ID = kiocb
+Line 585: ,
+Line 586: ID = ki_run_list
+Line 586: )
+Line 586: ;
+Line 587: ID = list_del
+Line 587: (
+Line 587: Unrecognized token: 38
+Line 587: ID = iocb
+Line 587: -
+Line 587: >
+Line 587: ID = ki_run_list
+Line 587: )
+Line 587: ;
+Line 588: ID = iocb
+Line 588: -
+Line 588: >
+Line 588: ID = ki_users
+Line 588: +
+Line 588: +
+Line 588: ;
+Line 589: ID = spin_unlock_irq
+Line 589: (
+Line 589: Unrecognized token: 38
+Line 589: ID = ctx
+Line 589: -
+Line 589: >
+Line 589: ID = ctx_lock
+Line 589: )
+Line 589: ;
+Line 591: ID = kiocbClearKicked
+Line 591: (
+Line 591: ID = iocb
+Line 591: )
+Line 591: ;
+Line 592: ID = ret
+Line 592: =
+Line 592: ID = iocb
+Line 592: -
+Line 592: >
+Line 592: ID = ki_retry
+Line 592: (
+Line 592: ID = iocb
+Line 592: )
+Line 592: ;
+Line 593: if
+Line 593: (
+Line 593: -
+Line 593: ID = EIOCBQUEUED
+Line 593: !=
+Line 593: ID = ret
+Line 593: )
+Line 593: {
+Line 594: ID = aio_complete
+Line 594: (
+Line 594: ID = iocb
+Line 594: ,
+Line 594: ID = ret
+Line 594: ,
+Line 594: INTCON = 0
+Line 594: )
+Line 594: ;
+Line 595: ID = iocb
+Line 595: =
+Line 595: ID = NULL
+Line 595: ;
+Line 596: }
+Line 598: ID = spin_lock_irq
+Line 598: (
+Line 598: Unrecognized token: 38
+Line 598: ID = ctx
+Line 598: -
+Line 598: >
+Line 598: ID = ctx_lock
+Line 598: )
+Line 598: ;
+Line 599: if
+Line 599: (
+Line 599: ID = NULL
+Line 599: !=
+Line 599: ID = iocb
+Line 599: )
+Line 600: Unrecognized token: 95
+Line 600: Unrecognized token: 95
+Line 600: ID = aio_put_req
+Line 600: (
+Line 600: ID = ctx
+Line 600: ,
+Line 600: ID = iocb
+Line 600: )
+Line 600: ;
+Line 601: }
+Line 602: ID = spin_unlock_irq
+Line 602: (
+Line 602: Unrecognized token: 38
+Line 602: ID = ctx
+Line 602: -
+Line 602: >
+Line 602: ID = ctx_lock
+Line 602: )
+Line 602: ;
+Line 604: ID = unuse_mm
+Line 604: (
+Line 604: ID = ctx
+Line 604: -
+Line 604: >
+Line 604: ID = mm
+Line 604: )
+Line 604: ;
+Line 605: }
+Line 607: void
+Line 607: ID = fastcall
+Line 607: ID = kick_iocb
+Line 607: (
+Line 607: ID = struct
+Line 607: ID = kiocb
+Line 607: *
+Line 607: ID = iocb
+Line 607: )
+Line 608: {
+Line 609: ID = struct
+Line 609: ID = kioctx
+Line 609: *
+Line 609: ID = ctx
+Line 609: =
+Line 609: ID = iocb
+Line 609: -
+Line 609: >
+Line 609: ID = ki_ctx
+Line 609: ;
+Line 613: if
+Line 613: (
+Line 613: ID = is_sync_kiocb
+Line 613: (
+Line 613: ID = iocb
+Line 613: )
+Line 613: )
+Line 613: {
+Line 614: ID = kiocbSetKicked
+Line 614: (
+Line 614: ID = iocb
+Line 614: )
+Line 614: ;
+Line 615: ID = wake_up_process
+Line 615: (
+Line 615: ID = iocb
+Line 615: -
+Line 615: >
+Line 615: ID = ki_obj
+Line 615: Unrecognized token: 46
+Line 615: ID = tsk
+Line 615: )
+Line 615: ;
+Line 616: return
+Line 616: ;
+Line 617: }
+Line 619: if
+Line 619: (
+Line 619: !
+Line 619: ID = kiocbTryKick
+Line 619: (
+Line 619: ID = iocb
+Line 619: )
+Line 619: )
+Line 619: {
+Line 620: ID = unsigned
+Line 620: ID = long
+Line 620: ID = flags
+Line 620: ;
+Line 621: ID = spin_lock_irqsave
+Line 621: (
+Line 621: Unrecognized token: 38
+Line 621: ID = ctx
+Line 621: -
+Line 621: >
+Line 621: ID = ctx_lock
+Line 621: ,
+Line 621: ID = flags
+Line 621: )
+Line 621: ;
+Line 622: ID = list_add_tail
+Line 622: (
+Line 622: Unrecognized token: 38
+Line 622: ID = iocb
+Line 622: -
+Line 622: >
+Line 622: ID = ki_run_list
+Line 622: ,
+Line 622: Unrecognized token: 38
+Line 622: ID = ctx
+Line 622: -
+Line 622: >
+Line 622: ID = run_list
+Line 622: )
+Line 622: ;
+Line 623: ID = spin_unlock_irqrestore
+Line 623: (
+Line 623: Unrecognized token: 38
+Line 623: ID = ctx
+Line 623: -
+Line 623: >
+Line 623: ID = ctx_lock
+Line 623: ,
+Line 623: ID = flags
+Line 623: )
+Line 623: ;
+Line 624: ID = queue_work
+Line 624: (
+Line 624: ID = aio_wq
+Line 624: ,
+Line 624: Unrecognized token: 38
+Line 624: ID = ctx
+Line 624: -
+Line 624: >
+Line 624: ID = wq
+Line 624: )
+Line 624: ;
+Line 625: }
+Line 626: }
+Line 627: ID = EXPORT_SYMBOL
+Line 627: (
+Line 627: ID = kick_iocb
+Line 627: )
+Line 627: ;
+Line 634: int
+Line 634: ID = fastcall
+Line 634: ID = aio_complete
+Line 634: (
+Line 634: ID = struct
+Line 634: ID = kiocb
+Line 634: *
+Line 634: ID = iocb
+Line 634: ,
+Line 634: ID = long
+Line 634: ID = res
+Line 634: ,
+Line 634: ID = long
+Line 634: ID = res2
+Line 634: )
+Line 635: {
+Line 636: ID = struct
+Line 636: ID = kioctx
+Line 636: *
+Line 636: ID = ctx
+Line 636: =
+Line 636: ID = iocb
+Line 636: -
+Line 636: >
+Line 636: ID = ki_ctx
+Line 636: ;
+Line 637: ID = struct
+Line 637: ID = aio_ring_info
+Line 637: *
+Line 637: ID = info
+Line 637: ;
+Line 638: ID = struct
+Line 638: ID = aio_ring
+Line 638: *
+Line 638: ID = ring
+Line 638: ;
+Line 639: ID = struct
+Line 639: ID = io_event
+Line 639: *
+Line 639: ID = event
+Line 639: ;
+Line 640: ID = unsigned
+Line 640: ID = long
+Line 640: ID = flags
+Line 640: ;
+Line 641: ID = unsigned
+Line 641: ID = long
+Line 641: ID = tail
+Line 641: ;
+Line 642: int
+Line 642: ID = ret
+Line 642: ;
+Line 650: if
+Line 650: (
+Line 650: ID = is_sync_kiocb
+Line 650: (
+Line 650: ID = iocb
+Line 650: )
+Line 650: )
+Line 650: {
+Line 651: int
+Line 651: ID = ret
+Line 651: ;
+Line 653: ID = iocb
+Line 653: -
+Line 653: >
+Line 653: ID = ki_user_data
+Line 653: =
+Line 653: ID = res
+Line 653: ;
+Line 654: if
+Line 654: (
+Line 654: ID = iocb
+Line 654: -
+Line 654: >
+Line 654: ID = ki_users
+Line 654: ==
+Line 654: INTCON = 1
+Line 654: )
+Line 654: {
+Line 655: ID = iocb
+Line 655: -
+Line 655: >
+Line 655: ID = ki_users
+Line 655: =
+Line 655: INTCON = 0
+Line 655: ;
+Line 656: ID = ret
+Line 656: =
+Line 656: INTCON = 1
+Line 656: ;
+Line 657: }
+Line 657: else
+Line 657: {
+Line 658: ID = spin_lock_irq
+Line 658: (
+Line 658: Unrecognized token: 38
+Line 658: ID = ctx
+Line 658: -
+Line 658: >
+Line 658: ID = ctx_lock
+Line 658: )
+Line 658: ;
+Line 659: ID = iocb
+Line 659: -
+Line 659: >
+Line 659: ID = ki_users
+Line 659: -
+Line 659: -
+Line 659: ;
+Line 660: ID = ret
+Line 660: =
+Line 660: (
+Line 660: INTCON = 0
+Line 660: ==
+Line 660: ID = iocb
+Line 660: -
+Line 660: >
+Line 660: ID = ki_users
+Line 660: )
+Line 660: ;
+Line 661: ID = spin_unlock_irq
+Line 661: (
+Line 661: Unrecognized token: 38
+Line 661: ID = ctx
+Line 661: -
+Line 661: >
+Line 661: ID = ctx_lock
+Line 661: )
+Line 661: ;
+Line 662: }
+Line 664: ID = wake_up_process
+Line 664: (
+Line 664: ID = iocb
+Line 664: -
+Line 664: >
+Line 664: ID = ki_obj
+Line 664: Unrecognized token: 46
+Line 664: ID = tsk
+Line 664: )
+Line 664: ;
+Line 665: return
+Line 665: ID = ret
+Line 665: ;
+Line 666: }
+Line 668: ID = info
+Line 668: =
+Line 668: Unrecognized token: 38
+Line 668: ID = ctx
+Line 668: -
+Line 668: >
+Line 668: ID = ring_info
+Line 668: ;
+Line 676: ID = spin_lock_irqsave
+Line 676: (
+Line 676: Unrecognized token: 38
+Line 676: ID = ctx
+Line 676: -
+Line 676: >
+Line 676: ID = ctx_lock
+Line 676: ,
+Line 676: ID = flags
+Line 676: )
+Line 676: ;
+Line 678: ID = ring
+Line 678: =
+Line 678: ID = kmap_atomic
+Line 678: (
+Line 678: ID = info
+Line 678: -
+Line 678: >
+Line 678: ID = ring_pages
+Line 678: [
+Line 678: INTCON = 0
+Line 678: ]
+Line 678: ,
+Line 678: ID = KM_IRQ1
+Line 678: )
+Line 678: ;
+Line 680: ID = tail
+Line 680: =
+Line 680: ID = info
+Line 680: -
+Line 680: >
+Line 680: ID = tail
+Line 680: ;
+Line 681: ID = event
+Line 681: =
+Line 681: ID = aio_ring_event
+Line 681: (
+Line 681: ID = info
+Line 681: ,
+Line 681: ID = tail
+Line 681: ,
+Line 681: ID = KM_IRQ0
+Line 681: )
+Line 681: ;
+Line 682: ID = tail
+Line 682: =
+Line 682: (
+Line 682: ID = tail
+Line 682: +
+Line 682: INTCON = 1
+Line 682: )
+Line 682: Unrecognized token: 37
+Line 682: ID = info
+Line 682: -
+Line 682: >
+Line 682: ID = nr
+Line 682: ;
+Line 684: ID = event
+Line 684: -
+Line 684: >
+Line 684: ID = obj
+Line 684: =
+Line 684: (
+Line 684: ID = u64
+Line 684: )
+Line 684: (
+Line 684: ID = unsigned
+Line 684: ID = long
+Line 684: )
+Line 684: ID = iocb
+Line 684: -
+Line 684: >
+Line 684: ID = ki_obj
+Line 684: Unrecognized token: 46
+Line 684: ID = user
+Line 684: ;
+Line 685: ID = event
+Line 685: -
+Line 685: >
+Line 685: ID = data
+Line 685: =
+Line 685: ID = iocb
+Line 685: -
+Line 685: >
+Line 685: ID = ki_user_data
+Line 685: ;
+Line 686: ID = event
+Line 686: -
+Line 686: >
+Line 686: ID = res
+Line 686: =
+Line 686: ID = res
+Line 686: ;
+Line 687: ID = event
+Line 687: -
+Line 687: >
+Line 687: ID = res2
+Line 687: =
+Line 687: ID = res2
+Line 687: ;
+Line 689: ID = dprintk
+Line 689: (
+Line 689: STRINGCON = "aio_complete: %p[%lu]: %p: %p %Lx %lx %lx\n"
+Line 689: ,
+Line 690: ID = ctx
+Line 690: ,
+Line 690: ID = tail
+Line 690: ,
+Line 690: ID = iocb
+Line 690: ,
+Line 690: ID = iocb
+Line 690: -
+Line 690: >
+Line 690: ID = ki_obj
+Line 690: Unrecognized token: 46
+Line 690: ID = user
+Line 690: ,
+Line 690: ID = iocb
+Line 690: -
+Line 690: >
+Line 690: ID = ki_user_data
+Line 690: ,
+Line 691: ID = res
+Line 691: ,
+Line 691: ID = res2
+Line 691: )
+Line 691: ;
+Line 696: ID = smp_wmb
+Line 696: (
+Line 696: )
+Line 696: ;
+Line 698: ID = info
+Line 698: -
+Line 698: >
+Line 698: ID = tail
+Line 698: =
+Line 698: ID = tail
+Line 698: ;
+Line 699: ID = ring
+Line 699: -
+Line 699: >
+Line 699: ID = tail
+Line 699: =
+Line 699: ID = tail
+Line 699: ;
+Line 701: ID = put_aio_ring_event
+Line 701: (
+Line 701: ID = event
+Line 701: ,
+Line 701: ID = KM_IRQ0
+Line 701: )
+Line 701: ;
+Line 702: ID = kunmap_atomic
+Line 702: (
+Line 702: ID = ring
+Line 702: ,
+Line 702: ID = KM_IRQ1
+Line 702: )
+Line 702: ;
+Line 704: ID = pr_debug
+Line 704: (
+Line 704: STRINGCON = "added to ring %p at [%lu]\n"
+Line 704: ,
+Line 704: ID = iocb
+Line 704: ,
+Line 704: ID = tail
+Line 704: )
+Line 704: ;
+Line 707: ID = ret
+Line 707: =
+Line 707: Unrecognized token: 95
+Line 707: Unrecognized token: 95
+Line 707: ID = aio_put_req
+Line 707: (
+Line 707: ID = ctx
+Line 707: ,
+Line 707: ID = iocb
+Line 707: )
+Line 707: ;
+Line 709: ID = spin_unlock_irqrestore
+Line 709: (
+Line 709: Unrecognized token: 38
+Line 709: ID = ctx
+Line 709: -
+Line 709: >
+Line 709: ID = ctx_lock
+Line 709: ,
+Line 709: ID = flags
+Line 709: )
+Line 709: ;
+Line 711: if
+Line 711: (
+Line 711: ID = waitqueue_active
+Line 711: (
+Line 711: Unrecognized token: 38
+Line 711: ID = ctx
+Line 711: -
+Line 711: >
+Line 711: ID = wait
+Line 711: )
+Line 711: )
+Line 712: ID = wake_up
+Line 712: (
+Line 712: Unrecognized token: 38
+Line 712: ID = ctx
+Line 712: -
+Line 712: >
+Line 712: ID = wait
+Line 712: )
+Line 712: ;
+Line 714: if
+Line 714: (
+Line 714: ID = ret
+Line 714: )
+Line 715: ID = put_ioctx
+Line 715: (
+Line 715: ID = ctx
+Line 715: )
+Line 715: ;
+Line 717: return
+Line 717: ID = ret
+Line 717: ;
+Line 718: }
+Line 726: ID = static
+Line 726: int
+Line 726: ID = aio_read_evt
+Line 726: (
+Line 726: ID = struct
+Line 726: ID = kioctx
+Line 726: *
+Line 726: ID = ioctx
+Line 726: ,
+Line 726: ID = struct
+Line 726: ID = io_event
+Line 726: *
+Line 726: ID = ent
+Line 726: )
+Line 727: {
+Line 728: ID = struct
+Line 728: ID = aio_ring_info
+Line 728: *
+Line 728: ID = info
+Line 728: =
+Line 728: Unrecognized token: 38
+Line 728: ID = ioctx
+Line 728: -
+Line 728: >
+Line 728: ID = ring_info
+Line 728: ;
+Line 729: ID = struct
+Line 729: ID = aio_ring
+Line 729: *
+Line 729: ID = ring
+Line 729: ;
+Line 730: ID = unsigned
+Line 730: ID = long
+Line 730: ID = head
+Line 730: ;
+Line 731: int
+Line 731: ID = ret
+Line 731: =
+Line 731: INTCON = 0
+Line 731: ;
+Line 733: ID = ring
+Line 733: =
+Line 733: ID = kmap_atomic
+Line 733: (
+Line 733: ID = info
+Line 733: -
+Line 733: >
+Line 733: ID = ring_pages
+Line 733: [
+Line 733: INTCON = 0
+Line 733: ]
+Line 733: ,
+Line 733: ID = KM_USER0
+Line 733: )
+Line 733: ;
+Line 734: ID = dprintk
+Line 734: (
+Line 734: STRINGCON = "in aio_read_evt h%lu t%lu m%lu\n"
+Line 734: ,
+Line 735: (
+Line 735: ID = unsigned
+Line 735: ID = long
+Line 735: )
+Line 735: ID = ring
+Line 735: -
+Line 735: >
+Line 735: ID = head
+Line 735: ,
+Line 735: (
+Line 735: ID = unsigned
+Line 735: ID = long
+Line 735: )
+Line 735: ID = ring
+Line 735: -
+Line 735: >
+Line 735: ID = tail
+Line 735: ,
+Line 736: (
+Line 736: ID = unsigned
+Line 736: ID = long
+Line 736: )
+Line 736: ID = ring
+Line 736: -
+Line 736: >
+Line 736: ID = nr
+Line 736: )
+Line 736: ;
+Line 738: if
+Line 738: (
+Line 738: ID = ring
+Line 738: -
+Line 738: >
+Line 738: ID = head
+Line 738: ==
+Line 738: ID = ring
+Line 738: -
+Line 738: >
+Line 738: ID = tail
+Line 738: )
+Line 739: ID = goto
+Line 739: ID = out
+Line 739: ;
+Line 741: ID = spin_lock
+Line 741: (
+Line 741: Unrecognized token: 38
+Line 741: ID = info
+Line 741: -
+Line 741: >
+Line 741: ID = ring_lock
+Line 741: )
+Line 741: ;
+Line 743: ID = head
+Line 743: =
+Line 743: ID = ring
+Line 743: -
+Line 743: >
+Line 743: ID = head
+Line 743: Unrecognized token: 37
+Line 743: ID = info
+Line 743: -
+Line 743: >
+Line 743: ID = nr
+Line 743: ;
+Line 744: if
+Line 744: (
+Line 744: ID = head
+Line 744: !=
+Line 744: ID = ring
+Line 744: -
+Line 744: >
+Line 744: ID = tail
+Line 744: )
+Line 744: {
+Line 745: ID = struct
+Line 745: ID = io_event
+Line 745: *
+Line 745: ID = evp
+Line 745: =
+Line 745: ID = aio_ring_event
+Line 745: (
+Line 745: ID = info
+Line 745: ,
+Line 745: ID = head
+Line 745: ,
+Line 745: ID = KM_USER1
+Line 745: )
+Line 745: ;
+Line 746: *
+Line 746: ID = ent
+Line 746: =
+Line 746: *
+Line 746: ID = evp
+Line 746: ;
+Line 747: ID = head
+Line 747: =
+Line 747: (
+Line 747: ID = head
+Line 747: +
+Line 747: INTCON = 1
+Line 747: )
+Line 747: Unrecognized token: 37
+Line 747: ID = info
+Line 747: -
+Line 747: >
+Line 747: ID = nr
+Line 747: ;
+Line 748: ID = smp_mb
+Line 748: (
+Line 748: )
+Line 748: ;
+Line 749: ID = ring
+Line 749: -
+Line 749: >
+Line 749: ID = head
+Line 749: =
+Line 749: ID = head
+Line 749: ;
+Line 750: ID = ret
+Line 750: =
+Line 750: INTCON = 1
+Line 750: ;
+Line 751: ID = put_aio_ring_event
+Line 751: (
+Line 751: ID = evp
+Line 751: ,
+Line 751: ID = KM_USER1
+Line 751: )
+Line 751: ;
+Line 752: }
+Line 753: ID = spin_unlock
+Line 753: (
+Line 753: Unrecognized token: 38
+Line 753: ID = info
+Line 753: -
+Line 753: >
+Line 753: ID = ring_lock
+Line 753: )
+Line 753: ;
+Line 755: ID = out
+Line 755: Unrecognized token: 58
+Line 756: ID = kunmap_atomic
+Line 756: (
+Line 756: ID = ring
+Line 756: ,
+Line 756: ID = KM_USER0
+Line 756: )
+Line 756: ;
+Line 757: ID = dprintk
+Line 757: (
+Line 757: STRINGCON = "leaving aio_read_evt: %d  h%lu t%lu\n"
+Line 757: ,
+Line 757: ID = ret
+Line 757: ,
+Line 758: (
+Line 758: ID = unsigned
+Line 758: ID = long
+Line 758: )
+Line 758: ID = ring
+Line 758: -
+Line 758: >
+Line 758: ID = head
+Line 758: ,
+Line 758: (
+Line 758: ID = unsigned
+Line 758: ID = long
+Line 758: )
+Line 758: ID = ring
+Line 758: -
+Line 758: >
+Line 758: ID = tail
+Line 758: )
+Line 758: ;
+Line 759: return
+Line 759: ID = ret
+Line 759: ;
+Line 760: }
+Line 762: ID = struct
+Line 762: ID = timeout
+Line 762: {
+Line 763: ID = struct
+Line 763: ID = timer_list
+Line 763: ID = timer
+Line 763: ;
+Line 764: int
+Line 764: ID = timed_out
+Line 764: ;
+Line 765: ID = struct
+Line 765: ID = task_struct
+Line 765: *
+Line 765: ID = p
+Line 765: ;
+Line 766: }
+Line 766: ;
+Line 768: ID = static
+Line 768: void
+Line 768: ID = timeout_func
+Line 768: (
+Line 768: ID = unsigned
+Line 768: ID = long
+Line 768: ID = data
+Line 768: )
+Line 769: {
+Line 770: ID = struct
+Line 770: ID = timeout
+Line 770: *
+Line 770: ID = to
+Line 770: =
+Line 770: (
+Line 770: ID = struct
+Line 770: ID = timeout
+Line 770: *
+Line 770: )
+Line 770: ID = data
+Line 770: ;
+Line 772: ID = to
+Line 772: -
+Line 772: >
+Line 772: ID = timed_out
+Line 772: =
+Line 772: INTCON = 1
+Line 772: ;
+Line 773: ID = wake_up_process
+Line 773: (
+Line 773: ID = to
+Line 773: -
+Line 773: >
+Line 773: ID = p
+Line 773: )
+Line 773: ;
+Line 774: }
+Line 776: ID = static
+Line 776: ID = inline
+Line 776: void
+Line 776: ID = init_timeout
+Line 776: (
+Line 776: ID = struct
+Line 776: ID = timeout
+Line 776: *
+Line 776: ID = to
+Line 776: )
+Line 777: {
+Line 778: ID = init_timer
+Line 778: (
+Line 778: Unrecognized token: 38
+Line 778: ID = to
+Line 778: -
+Line 778: >
+Line 778: ID = timer
+Line 778: )
+Line 778: ;
+Line 779: ID = to
+Line 779: -
+Line 779: >
+Line 779: ID = timer
+Line 779: Unrecognized token: 46
+Line 779: ID = data
+Line 779: =
+Line 779: (
+Line 779: ID = unsigned
+Line 779: ID = long
+Line 779: )
+Line 779: ID = to
+Line 779: ;
+Line 780: ID = to
+Line 780: -
+Line 780: >
+Line 780: ID = timer
+Line 780: Unrecognized token: 46
+Line 780: ID = function
+Line 780: =
+Line 780: ID = timeout_func
+Line 780: ;
+Line 781: ID = to
+Line 781: -
+Line 781: >
+Line 781: ID = timed_out
+Line 781: =
+Line 781: INTCON = 0
+Line 781: ;
+Line 782: ID = to
+Line 782: -
+Line 782: >
+Line 782: ID = p
+Line 782: =
+Line 782: ID = current
+Line 782: ;
+Line 783: }
+Line 785: ID = static
+Line 785: ID = inline
+Line 785: void
+Line 785: ID = set_timeout
+Line 785: (
+Line 785: ID = long
+Line 785: ID = start_jiffies
+Line 785: ,
+Line 785: ID = struct
+Line 785: ID = timeout
+Line 785: *
+Line 785: ID = to
+Line 785: ,
+Line 786: ID = const
+Line 786: ID = struct
+Line 786: ID = timespec
+Line 786: *
+Line 786: ID = ts
+Line 786: )
+Line 787: {
+Line 788: ID = to
+Line 788: -
+Line 788: >
+Line 788: ID = timer
+Line 788: Unrecognized token: 46
+Line 788: ID = expires
+Line 788: =
+Line 788: ID = start_jiffies
+Line 788: +
+Line 788: ID = timespec_to_jiffies
+Line 788: (
+Line 788: ID = ts
+Line 788: )
+Line 788: ;
+Line 789: if
+Line 789: (
+Line 789: ID = time_after
+Line 789: (
+Line 789: ID = to
+Line 789: -
+Line 789: >
+Line 789: ID = timer
+Line 789: Unrecognized token: 46
+Line 789: ID = expires
+Line 789: ,
+Line 789: ID = jiffies
+Line 789: )
+Line 789: )
+Line 790: ID = add_timer
+Line 790: (
+Line 790: Unrecognized token: 38
+Line 790: ID = to
+Line 790: -
+Line 790: >
+Line 790: ID = timer
+Line 790: )
+Line 790: ;
+Line 791: else
+Line 792: ID = to
+Line 792: -
+Line 792: >
+Line 792: ID = timed_out
+Line 792: =
+Line 792: INTCON = 1
+Line 792: ;
+Line 793: }
+Line 795: ID = static
+Line 795: ID = inline
+Line 795: void
+Line 795: ID = clear_timeout
+Line 795: (
+Line 795: ID = struct
+Line 795: ID = timeout
+Line 795: *
+Line 795: ID = to
+Line 795: )
+Line 796: {
+Line 797: ID = del_singleshot_timer_sync
+Line 797: (
+Line 797: Unrecognized token: 38
+Line 797: ID = to
+Line 797: -
+Line 797: >
+Line 797: ID = timer
+Line 797: )
+Line 797: ;
+Line 798: }
+Line 800: ID = static
+Line 800: int
+Line 800: ID = read_events
+Line 800: (
+Line 800: ID = struct
+Line 800: ID = kioctx
+Line 800: *
+Line 800: ID = ctx
+Line 800: ,
+Line 801: ID = long
+Line 801: ID = min_nr
+Line 801: ,
+Line 801: ID = long
+Line 801: ID = nr
+Line 801: ,
+Line 802: ID = struct
+Line 802: ID = io_event
+Line 802: Unrecognized token: 95
+Line 802: Unrecognized token: 95
+Line 802: ID = user
+Line 802: *
+Line 802: ID = event
+Line 802: ,
+Line 803: ID = struct
+Line 803: ID = timespec
+Line 803: Unrecognized token: 95
+Line 803: Unrecognized token: 95
+Line 803: ID = user
+Line 803: *
+Line 803: ID = timeout
+Line 803: )
+Line 804: {
+Line 805: ID = long
+Line 805: ID = start_jiffies
+Line 805: =
+Line 805: ID = jiffies
+Line 805: ;
+Line 806: ID = struct
+Line 806: ID = task_struct
+Line 806: *
+Line 806: ID = tsk
+Line 806: =
+Line 806: ID = current
+Line 806: ;
+Line 807: ID = DECLARE_WAITQUEUE
+Line 807: (
+Line 807: ID = wait
+Line 807: ,
+Line 807: ID = tsk
+Line 807: )
+Line 807: ;
+Line 808: int
+Line 808: ID = ret
+Line 808: ;
+Line 809: int
+Line 809: ID = i
+Line 809: =
+Line 809: INTCON = 0
+Line 809: ;
+Line 810: ID = struct
+Line 810: ID = io_event
+Line 810: ID = ent
+Line 810: ;
+Line 811: ID = struct
+Line 811: ID = timeout
+Line 811: ID = to
+Line 811: ;
+Line 816: ID = memset
+Line 816: (
+Line 816: Unrecognized token: 38
+Line 816: ID = ent
+Line 816: ,
+Line 816: INTCON = 0
+Line 816: ,
+Line 816: ID = sizeof
+Line 816: (
+Line 816: ID = ent
+Line 816: )
+Line 816: )
+Line 816: ;
+Line 817: ID = ret
+Line 817: =
+Line 817: INTCON = 0
+Line 817: ;
+Line 819: while
+Line 819: (
+Line 819: ID = likely
+Line 819: (
+Line 819: ID = i
+Line 819: <
+Line 819: ID = nr
+Line 819: )
+Line 819: )
+Line 819: {
+Line 820: ID = ret
+Line 820: =
+Line 820: ID = aio_read_evt
+Line 820: (
+Line 820: ID = ctx
+Line 820: ,
+Line 820: Unrecognized token: 38
+Line 820: ID = ent
+Line 820: )
+Line 820: ;
+Line 821: if
+Line 821: (
+Line 821: ID = unlikely
+Line 821: (
+Line 821: ID = ret
+Line 821: <=
+Line 821: INTCON = 0
+Line 821: )
+Line 821: )
+Line 822: ID = break
+Line 822: ;
+Line 824: ID = dprintk
+Line 824: (
+Line 824: STRINGCON = "read event: %Lx %Lx %Lx %Lx\n"
+Line 824: ,
+Line 825: ID = ent
+Line 825: Unrecognized token: 46
+Line 825: ID = data
+Line 825: ,
+Line 825: ID = ent
+Line 825: Unrecognized token: 46
+Line 825: ID = obj
+Line 825: ,
+Line 825: ID = ent
+Line 825: Unrecognized token: 46
+Line 825: ID = res
+Line 825: ,
+Line 825: ID = ent
+Line 825: Unrecognized token: 46
+Line 825: ID = res2
+Line 825: )
+Line 825: ;
+Line 828: ID = ret
+Line 828: =
+Line 828: -
+Line 828: ID = EFAULT
+Line 828: ;
+Line 829: if
+Line 829: (
+Line 829: ID = unlikely
+Line 829: (
+Line 829: ID = copy_to_user
+Line 829: (
+Line 829: ID = event
+Line 829: ,
+Line 829: Unrecognized token: 38
+Line 829: ID = ent
+Line 829: ,
+Line 829: ID = sizeof
+Line 829: (
+Line 829: ID = ent
+Line 829: )
+Line 829: )
+Line 829: )
+Line 829: )
+Line 829: {
+Line 830: ID = dprintk
+Line 830: (
+Line 830: STRINGCON = "aio: lost an event due to EFAULT.\n"
+Line 830: )
+Line 830: ;
+Line 831: ID = break
+Line 831: ;
+Line 832: }
+Line 833: ID = ret
+Line 833: =
+Line 833: INTCON = 0
+Line 833: ;
+Line 836: ID = event
+Line 836: +
+Line 836: +
+Line 836: ;
+Line 837: ID = i
+Line 837: +
+Line 837: +
+Line 837: ;
+Line 838: }
+Line 840: if
+Line 840: (
+Line 840: ID = min_nr
+Line 840: <=
+Line 840: ID = i
+Line 840: )
+Line 841: return
+Line 841: ID = i
+Line 841: ;
+Line 842: if
+Line 842: (
+Line 842: ID = ret
+Line 842: )
+Line 843: return
+Line 843: ID = ret
+Line 843: ;
+Line 847: ID = init_timeout
+Line 847: (
+Line 847: Unrecognized token: 38
+Line 847: ID = to
+Line 847: )
+Line 847: ;
+Line 848: if
+Line 848: (
+Line 848: ID = timeout
+Line 848: )
+Line 848: {
+Line 849: ID = struct
+Line 849: ID = timespec
+Line 849: ID = ts
+Line 849: ;
+Line 850: ID = ret
+Line 850: =
+Line 850: -
+Line 850: ID = EFAULT
+Line 850: ;
+Line 851: if
+Line 851: (
+Line 851: ID = unlikely
+Line 851: (
+Line 851: ID = copy_from_user
+Line 851: (
+Line 851: Unrecognized token: 38
+Line 851: ID = ts
+Line 851: ,
+Line 851: ID = timeout
+Line 851: ,
+Line 851: ID = sizeof
+Line 851: (
+Line 851: ID = ts
+Line 851: )
+Line 851: )
+Line 851: )
+Line 851: )
+Line 852: ID = goto
+Line 852: ID = out
+Line 852: ;
+Line 854: ID = set_timeout
+Line 854: (
+Line 854: ID = start_jiffies
+Line 854: ,
+Line 854: Unrecognized token: 38
+Line 854: ID = to
+Line 854: ,
+Line 854: Unrecognized token: 38
+Line 854: ID = ts
+Line 854: )
+Line 854: ;
+Line 855: }
+Line 857: while
+Line 857: (
+Line 857: ID = likely
+Line 857: (
+Line 857: ID = i
+Line 857: <
+Line 857: ID = nr
+Line 857: )
+Line 857: )
+Line 857: {
+Line 858: ID = add_wait_queue_exclusive
+Line 858: (
+Line 858: Unrecognized token: 38
+Line 858: ID = ctx
+Line 858: -
+Line 858: >
+Line 858: ID = wait
+Line 858: ,
+Line 858: Unrecognized token: 38
+Line 858: ID = wait
+Line 858: )
+Line 858: ;
+Line 859: ID = do
+Line 859: {
+Line 860: ID = set_task_state
+Line 860: (
+Line 860: ID = tsk
+Line 860: ,
+Line 860: ID = TASK_INTERRUPTIBLE
+Line 860: )
+Line 860: ;
+Line 862: ID = ret
+Line 862: =
+Line 862: ID = aio_read_evt
+Line 862: (
+Line 862: ID = ctx
+Line 862: ,
+Line 862: Unrecognized token: 38
+Line 862: ID = ent
+Line 862: )
+Line 862: ;
+Line 863: if
+Line 863: (
+Line 863: ID = ret
+Line 863: )
+Line 864: ID = break
+Line 864: ;
+Line 865: if
+Line 865: (
+Line 865: ID = min_nr
+Line 865: <=
+Line 865: ID = i
+Line 865: )
+Line 866: ID = break
+Line 866: ;
+Line 867: ID = ret
+Line 867: =
+Line 867: INTCON = 0
+Line 867: ;
+Line 868: if
+Line 868: (
+Line 868: ID = to
+Line 868: Unrecognized token: 46
+Line 868: ID = timed_out
+Line 868: )
+Line 869: ID = break
+Line 869: ;
+Line 870: ID = schedule
+Line 870: (
+Line 870: )
+Line 870: ;
+Line 871: if
+Line 871: (
+Line 871: ID = signal_pending
+Line 871: (
+Line 871: ID = tsk
+Line 871: )
+Line 871: )
+Line 871: {
+Line 872: ID = ret
+Line 872: =
+Line 872: -
+Line 872: ID = EINTR
+Line 872: ;
+Line 873: ID = break
+Line 873: ;
+Line 874: }
+Line 876: }
+Line 876: while
+Line 876: (
+Line 876: INTCON = 1
+Line 876: )
+Line 876: ;
+Line 878: ID = set_task_state
+Line 878: (
+Line 878: ID = tsk
+Line 878: ,
+Line 878: ID = TASK_RUNNING
+Line 878: )
+Line 878: ;
+Line 879: ID = remove_wait_queue
+Line 879: (
+Line 879: Unrecognized token: 38
+Line 879: ID = ctx
+Line 879: -
+Line 879: >
+Line 879: ID = wait
+Line 879: ,
+Line 879: Unrecognized token: 38
+Line 879: ID = wait
+Line 879: )
+Line 879: ;
+Line 881: if
+Line 881: (
+Line 881: ID = unlikely
+Line 881: (
+Line 881: ID = ret
+Line 881: <=
+Line 881: INTCON = 0
+Line 881: )
+Line 881: )
+Line 882: ID = break
+Line 882: ;
+Line 884: ID = ret
+Line 884: =
+Line 884: -
+Line 884: ID = EFAULT
+Line 884: ;
+Line 885: if
+Line 885: (
+Line 885: ID = unlikely
+Line 885: (
+Line 885: ID = copy_to_user
+Line 885: (
+Line 885: ID = event
+Line 885: ,
+Line 885: Unrecognized token: 38
+Line 885: ID = ent
+Line 885: ,
+Line 885: ID = sizeof
+Line 885: (
+Line 885: ID = ent
+Line 885: )
+Line 885: )
+Line 885: )
+Line 885: )
+Line 885: {
+Line 886: ID = dprintk
+Line 886: (
+Line 886: STRINGCON = "aio: lost an event due to EFAULT.\n"
+Line 886: )
+Line 886: ;
+Line 887: ID = break
+Line 887: ;
+Line 888: }
+Line 891: ID = event
+Line 891: +
+Line 891: +
+Line 891: ;
+Line 892: ID = i
+Line 892: +
+Line 892: +
+Line 892: ;
+Line 893: }
+Line 895: if
+Line 895: (
+Line 895: ID = timeout
+Line 895: )
+Line 896: ID = clear_timeout
+Line 896: (
+Line 896: Unrecognized token: 38
+Line 896: ID = to
+Line 896: )
+Line 896: ;
+Line 897: ID = out
+Line 897: Unrecognized token: 58
+Line 898: return
+Line 898: ID = i
+Line 898: Unrecognized token: 63
+Line 898: ID = i
+Line 898: Unrecognized token: 58
+Line 898: ID = ret
+Line 898: ;
+Line 899: }
+Line 904: ID = static
+Line 904: void
+Line 904: ID = io_destroy
+Line 904: (
+Line 904: ID = struct
+Line 904: ID = kioctx
+Line 904: *
+Line 904: ID = ioctx
+Line 904: )
+Line 905: {
+Line 906: ID = struct
+Line 906: ID = mm_struct
+Line 906: *
+Line 906: ID = mm
+Line 906: =
+Line 906: ID = current
+Line 906: -
+Line 906: >
+Line 906: ID = mm
+Line 906: ;
+Line 907: ID = struct
+Line 907: ID = kioctx
+Line 907: *
+Line 907: *
+Line 907: ID = tmp
+Line 907: ;
+Line 908: int
+Line 908: ID = was_dead
+Line 908: ;
+Line 911: ID = write_lock
+Line 911: (
+Line 911: Unrecognized token: 38
+Line 911: ID = mm
+Line 911: -
+Line 911: >
+Line 911: ID = ioctx_list_lock
+Line 911: )
+Line 911: ;
+Line 912: ID = was_dead
+Line 912: =
+Line 912: ID = ioctx
+Line 912: -
+Line 912: >
+Line 912: ID = dead
+Line 912: ;
+Line 913: ID = ioctx
+Line 913: -
+Line 913: >
+Line 913: ID = dead
+Line 913: =
+Line 913: INTCON = 1
+Line 913: ;
+Line 914: for
+Line 914: (
+Line 914: ID = tmp
+Line 914: =
+Line 914: Unrecognized token: 38
+Line 914: ID = mm
+Line 914: -
+Line 914: >
+Line 914: ID = ioctx_list
+Line 914: ;
+Line 914: *
+Line 914: ID = tmp
+Line 914: &&
+Line 914: *
+Line 914: ID = tmp
+Line 914: !=
+Line 914: ID = ioctx
+Line 914: ;
+Line 915: ID = tmp
+Line 915: =
+Line 915: Unrecognized token: 38
+Line 915: (
+Line 915: *
+Line 915: ID = tmp
+Line 915: )
+Line 915: -
+Line 915: >
+Line 915: ID = next
+Line 915: )
+Line 916: ;
+Line 917: if
+Line 917: (
+Line 917: *
+Line 917: ID = tmp
+Line 917: )
+Line 918: *
+Line 918: ID = tmp
+Line 918: =
+Line 918: ID = ioctx
+Line 918: -
+Line 918: >
+Line 918: ID = next
+Line 918: ;
+Line 919: ID = write_unlock
+Line 919: (
+Line 919: Unrecognized token: 38
+Line 919: ID = mm
+Line 919: -
+Line 919: >
+Line 919: ID = ioctx_list_lock
+Line 919: )
+Line 919: ;
+Line 921: ID = dprintk
+Line 921: (
+Line 921: STRINGCON = "aio_release(%p)\n"
+Line 921: ,
+Line 921: ID = ioctx
+Line 921: )
+Line 921: ;
+Line 922: if
+Line 922: (
+Line 922: ID = likely
+Line 922: (
+Line 922: !
+Line 922: ID = was_dead
+Line 922: )
+Line 922: )
+Line 923: ID = put_ioctx
+Line 923: (
+Line 923: ID = ioctx
+Line 923: )
+Line 923: ;
+Line 925: ID = aio_cancel_all
+Line 925: (
+Line 925: ID = ioctx
+Line 925: )
+Line 925: ;
+Line 926: ID = wait_for_all_aios
+Line 926: (
+Line 926: ID = ioctx
+Line 926: )
+Line 926: ;
+Line 927: ID = put_ioctx
+Line 927: (
+Line 927: ID = ioctx
+Line 927: )
+Line 927: ;
+Line 928: }
+Line 943: ID = asmlinkage
+Line 943: ID = long
+Line 943: ID = sys_io_setup
+Line 943: (
+Line 943: ID = unsigned
+Line 943: ID = nr_events
+Line 943: ,
+Line 943: ID = aio_context_t
+Line 943: Unrecognized token: 95
+Line 943: Unrecognized token: 95
+Line 943: ID = user
+Line 943: *
+Line 943: ID = ctxp
+Line 943: )
+Line 944: {
+Line 945: ID = struct
+Line 945: ID = kioctx
+Line 945: *
+Line 945: ID = ioctx
+Line 945: =
+Line 945: ID = NULL
+Line 945: ;
+Line 946: ID = unsigned
+Line 946: ID = long
+Line 946: ID = ctx
+Line 946: ;
+Line 947: ID = long
+Line 947: ID = ret
+Line 947: ;
+Line 949: ID = ret
+Line 949: =
+Line 949: ID = get_user
+Line 949: (
+Line 949: ID = ctx
+Line 949: ,
+Line 949: ID = ctxp
+Line 949: )
+Line 949: ;
+Line 950: if
+Line 950: (
+Line 950: ID = unlikely
+Line 950: (
+Line 950: ID = ret
+Line 950: )
+Line 950: )
+Line 951: ID = goto
+Line 951: ID = out
+Line 951: ;
+Line 953: ID = ret
+Line 953: =
+Line 953: -
+Line 953: ID = EINVAL
+Line 953: ;
+Line 954: if
+Line 954: (
+Line 954: ID = unlikely
+Line 954: (
+Line 954: ID = ctx
+Line 954: ||
+Line 954: (
+Line 954: int
+Line 954: )
+Line 954: ID = nr_events
+Line 954: <=
+Line 954: INTCON = 0
+Line 954: )
+Line 954: )
+Line 954: {
+Line 955: ID = pr_debug
+Line 955: (
+Line 955: STRINGCON = "EINVAL: io_setup: ctx or nr_events > max\n"
+Line 955: )
+Line 955: ;
+Line 956: ID = goto
+Line 956: ID = out
+Line 956: ;
+Line 957: }
+Line 959: ID = ioctx
+Line 959: =
+Line 959: ID = ioctx_alloc
+Line 959: (
+Line 959: ID = nr_events
+Line 959: )
+Line 959: ;
+Line 960: ID = ret
+Line 960: =
+Line 960: ID = PTR_ERR
+Line 960: (
+Line 960: ID = ioctx
+Line 960: )
+Line 960: ;
+Line 961: if
+Line 961: (
+Line 961: !
+Line 961: ID = IS_ERR
+Line 961: (
+Line 961: ID = ioctx
+Line 961: )
+Line 961: )
+Line 961: {
+Line 962: ID = ret
+Line 962: =
+Line 962: ID = put_user
+Line 962: (
+Line 962: ID = ioctx
+Line 962: -
+Line 962: >
+Line 962: ID = user_id
+Line 962: ,
+Line 962: ID = ctxp
+Line 962: )
+Line 962: ;
+Line 963: if
+Line 963: (
+Line 963: !
+Line 963: ID = ret
+Line 963: )
+Line 964: return
+Line 964: INTCON = 0
+Line 964: ;
+Line 965: ID = get_ioctx
+Line 965: (
+Line 965: ID = ioctx
+Line 965: )
+Line 965: ;
+Line 966: ID = io_destroy
+Line 966: (
+Line 966: ID = ioctx
+Line 966: )
+Line 966: ;
+Line 967: }
+Line 969: ID = out
+Line 969: Unrecognized token: 58
+Line 970: return
+Line 970: ID = ret
+Line 970: ;
+Line 971: }
+Line 979: ID = asmlinkage
+Line 979: ID = long
+Line 979: ID = sys_io_destroy
+Line 979: (
+Line 979: ID = aio_context_t
+Line 979: ID = ctx
+Line 979: )
+Line 980: {
+Line 981: ID = struct
+Line 981: ID = kioctx
+Line 981: *
+Line 981: ID = ioctx
+Line 981: =
+Line 981: ID = lookup_ioctx
+Line 981: (
+Line 981: ID = ctx
+Line 981: )
+Line 981: ;
+Line 982: if
+Line 982: (
+Line 982: ID = likely
+Line 982: (
+Line 982: ID = NULL
+Line 982: !=
+Line 982: ID = ioctx
+Line 982: )
+Line 982: )
+Line 982: {
+Line 983: ID = io_destroy
+Line 983: (
+Line 983: ID = ioctx
+Line 983: )
+Line 983: ;
+Line 984: return
+Line 984: INTCON = 0
+Line 984: ;
+Line 985: }
+Line 986: ID = pr_debug
+Line 986: (
+Line 986: STRINGCON = "EINVAL: io_destroy: invalid context id\n"
+Line 986: )
+Line 986: ;
+Line 987: return
+Line 987: -
+Line 987: ID = EINVAL
+Line 987: ;
+Line 988: }
+Line 990: int
+Line 990: ID = fastcall
+Line 990: ID = io_submit_one
+Line 990: (
+Line 990: ID = struct
+Line 990: ID = kioctx
+Line 990: *
+Line 990: ID = ctx
+Line 990: ,
+Line 990: ID = struct
+Line 990: ID = iocb
+Line 990: Unrecognized token: 95
+Line 990: Unrecognized token: 95
+Line 990: ID = user
+Line 990: *
+Line 990: ID = user_iocb
+Line 990: ,
+Line 991: ID = struct
+Line 991: ID = iocb
+Line 991: *
+Line 991: ID = iocb
+Line 991: )
+Line 992: {
+Line 993: ID = struct
+Line 993: ID = kiocb
+Line 993: *
+Line 993: ID = req
+Line 993: ;
+Line 994: ID = struct
+Line 994: ID = file
+Line 994: *
+Line 994: ID = file
+Line 994: ;
+Line 995: ID = ssize_t
+Line 995: ID = ret
+Line 995: ;
+Line 996: char
+Line 996: Unrecognized token: 95
+Line 996: Unrecognized token: 95
+Line 996: ID = user
+Line 996: *
+Line 996: ID = buf
+Line 996: ;
+Line 999: if
+Line 999: (
+Line 999: ID = unlikely
+Line 999: (
+Line 999: ID = iocb
+Line 999: -
+Line 999: >
+Line 999: ID = aio_reserved1
+Line 999: ||
+Line 999: ID = iocb
+Line 999: -
+Line 999: >
+Line 999: ID = aio_reserved2
+Line 999: ||
+Line 1000: ID = iocb
+Line 1000: -
+Line 1000: >
+Line 1000: ID = aio_reserved3
+Line 1000: )
+Line 1000: )
+Line 1000: {
+Line 1001: ID = pr_debug
+Line 1001: (
+Line 1001: STRINGCON = "EINVAL: io_submit: reserve field set\n"
+Line 1001: )
+Line 1001: ;
+Line 1002: return
+Line 1002: -
+Line 1002: ID = EINVAL
+Line 1002: ;
+Line 1003: }
+Line 1006: if
+Line 1006: (
+Line 1006: ID = unlikely
+Line 1006: (
+Line 1007: (
+Line 1007: ID = iocb
+Line 1007: -
+Line 1007: >
+Line 1007: ID = aio_buf
+Line 1007: !=
+Line 1007: (
+Line 1007: ID = unsigned
+Line 1007: ID = long
+Line 1007: )
+Line 1007: ID = iocb
+Line 1007: -
+Line 1007: >
+Line 1007: ID = aio_buf
+Line 1007: )
+Line 1007: ||
+Line 1008: (
+Line 1008: ID = iocb
+Line 1008: -
+Line 1008: >
+Line 1008: ID = aio_nbytes
+Line 1008: !=
+Line 1008: (
+Line 1008: ID = size_t
+Line 1008: )
+Line 1008: ID = iocb
+Line 1008: -
+Line 1008: >
+Line 1008: ID = aio_nbytes
+Line 1008: )
+Line 1008: ||
+Line 1009: (
+Line 1009: (
+Line 1009: ID = ssize_t
+Line 1009: )
+Line 1009: ID = iocb
+Line 1009: -
+Line 1009: >
+Line 1009: ID = aio_nbytes
+Line 1009: <
+Line 1009: INTCON = 0
+Line 1009: )
+Line 1010: )
+Line 1010: )
+Line 1010: {
+Line 1011: ID = pr_debug
+Line 1011: (
+Line 1011: STRINGCON = "EINVAL: io_submit: overflow check\n"
+Line 1011: )
+Line 1011: ;
+Line 1012: return
+Line 1012: -
+Line 1012: ID = EINVAL
+Line 1012: ;
+Line 1013: }
+Line 1015: ID = file
+Line 1015: =
+Line 1015: ID = fget
+Line 1015: (
+Line 1015: ID = iocb
+Line 1015: -
+Line 1015: >
+Line 1015: ID = aio_fildes
+Line 1015: )
+Line 1015: ;
+Line 1016: if
+Line 1016: (
+Line 1016: ID = unlikely
+Line 1016: (
+Line 1016: !
+Line 1016: ID = file
+Line 1016: )
+Line 1016: )
+Line 1017: return
+Line 1017: -
+Line 1017: ID = EBADF
+Line 1017: ;
+Line 1019: ID = req
+Line 1019: =
+Line 1019: ID = aio_get_req
+Line 1019: (
+Line 1019: ID = ctx
+Line 1019: )
+Line 1019: ;
+Line 1020: if
+Line 1020: (
+Line 1020: ID = unlikely
+Line 1020: (
+Line 1020: !
+Line 1020: ID = req
+Line 1020: )
+Line 1020: )
+Line 1020: {
+Line 1021: ID = fput
+Line 1021: (
+Line 1021: ID = file
+Line 1021: )
+Line 1021: ;
+Line 1022: return
+Line 1022: -
+Line 1022: ID = EAGAIN
+Line 1022: ;
+Line 1023: }
+Line 1025: ID = req
+Line 1025: -
+Line 1025: >
+Line 1025: ID = ki_filp
+Line 1025: =
+Line 1025: ID = file
+Line 1025: ;
+Line 1026: ID = iocb
+Line 1026: -
+Line 1026: >
+Line 1026: ID = aio_key
+Line 1026: =
+Line 1026: ID = req
+Line 1026: -
+Line 1026: >
+Line 1026: ID = ki_key
+Line 1026: ;
+Line 1027: ID = ret
+Line 1027: =
+Line 1027: ID = put_user
+Line 1027: (
+Line 1027: ID = iocb
+Line 1027: -
+Line 1027: >
+Line 1027: ID = aio_key
+Line 1027: ,
+Line 1027: Unrecognized token: 38
+Line 1027: ID = user_iocb
+Line 1027: -
+Line 1027: >
+Line 1027: ID = aio_key
+Line 1027: )
+Line 1027: ;
+Line 1028: if
+Line 1028: (
+Line 1028: ID = unlikely
+Line 1028: (
+Line 1028: ID = ret
+Line 1028: )
+Line 1028: )
+Line 1028: {
+Line 1029: ID = dprintk
+Line 1029: (
+Line 1029: STRINGCON = "EFAULT: aio_key\n"
+Line 1029: )
+Line 1029: ;
+Line 1030: ID = goto
+Line 1030: ID = out_put_req
+Line 1030: ;
+Line 1031: }
+Line 1033: ID = req
+Line 1033: -
+Line 1033: >
+Line 1033: ID = ki_obj
+Line 1033: Unrecognized token: 46
+Line 1033: ID = user
+Line 1033: =
+Line 1033: ID = user_iocb
+Line 1033: ;
+Line 1034: ID = req
+Line 1034: -
+Line 1034: >
+Line 1034: ID = ki_user_data
+Line 1034: =
+Line 1034: ID = iocb
+Line 1034: -
+Line 1034: >
+Line 1034: ID = aio_data
+Line 1034: ;
+Line 1035: ID = req
+Line 1035: -
+Line 1035: >
+Line 1035: ID = ki_pos
+Line 1035: =
+Line 1035: ID = iocb
+Line 1035: -
+Line 1035: >
+Line 1035: ID = aio_offset
+Line 1035: ;
+Line 1037: ID = buf
+Line 1037: =
+Line 1037: (
+Line 1037: char
+Line 1037: Unrecognized token: 95
+Line 1037: Unrecognized token: 95
+Line 1037: ID = user
+Line 1037: *
+Line 1037: )
+Line 1037: (
+Line 1037: ID = unsigned
+Line 1037: ID = long
+Line 1037: )
+Line 1037: ID = iocb
+Line 1037: -
+Line 1037: >
+Line 1037: ID = aio_buf
+Line 1037: ;
+Line 1039: ID = switch
+Line 1039: (
+Line 1039: ID = iocb
+Line 1039: -
+Line 1039: >
+Line 1039: ID = aio_lio_opcode
+Line 1039: )
+Line 1039: {
+Line 1040: ID = case
+Line 1040: ID = IOCB_CMD_PREAD
+Line 1040: Unrecognized token: 58
+Line 1041: ID = ret
+Line 1041: =
+Line 1041: -
+Line 1041: ID = EBADF
+Line 1041: ;
+Line 1042: if
+Line 1042: (
+Line 1042: ID = unlikely
+Line 1042: (
+Line 1042: !
+Line 1042: (
+Line 1042: ID = file
+Line 1042: -
+Line 1042: >
+Line 1042: ID = f_mode
+Line 1042: Unrecognized token: 38
+Line 1042: ID = FMODE_READ
+Line 1042: )
+Line 1042: )
+Line 1042: )
+Line 1043: ID = goto
+Line 1043: ID = out_put_req
+Line 1043: ;
+Line 1044: ID = ret
+Line 1044: =
+Line 1044: -
+Line 1044: ID = EFAULT
+Line 1044: ;
+Line 1045: if
+Line 1045: (
+Line 1045: ID = unlikely
+Line 1045: (
+Line 1045: !
+Line 1045: ID = access_ok
+Line 1045: (
+Line 1045: ID = VERIFY_WRITE
+Line 1045: ,
+Line 1045: ID = buf
+Line 1045: ,
+Line 1045: ID = iocb
+Line 1045: -
+Line 1045: >
+Line 1045: ID = aio_nbytes
+Line 1045: )
+Line 1045: )
+Line 1045: )
+Line 1046: ID = goto
+Line 1046: ID = out_put_req
+Line 1046: ;
+Line 1047: ID = ret
+Line 1047: =
+Line 1047: ID = security_file_permission
+Line 1047: (
+Line 1047: ID = file
+Line 1047: ,
+Line 1047: ID = MAY_READ
+Line 1047: )
+Line 1047: ;
+Line 1048: if
+Line 1048: (
+Line 1048: ID = ret
+Line 1048: )
+Line 1049: ID = goto
+Line 1049: ID = out_put_req
+Line 1049: ;
+Line 1050: ID = ret
+Line 1050: =
+Line 1050: -
+Line 1050: ID = EINVAL
+Line 1050: ;
+Line 1051: if
+Line 1051: (
+Line 1051: ID = file
+Line 1051: -
+Line 1051: >
+Line 1051: ID = f_op
+Line 1051: -
+Line 1051: >
+Line 1051: ID = aio_read
+Line 1051: )
+Line 1052: ID = ret
+Line 1052: =
+Line 1052: ID = file
+Line 1052: -
+Line 1052: >
+Line 1052: ID = f_op
+Line 1052: -
+Line 1052: >
+Line 1052: ID = aio_read
+Line 1052: (
+Line 1052: ID = req
+Line 1052: ,
+Line 1052: ID = buf
+Line 1052: ,
+Line 1053: ID = iocb
+Line 1053: -
+Line 1053: >
+Line 1053: ID = aio_nbytes
+Line 1053: ,
+Line 1053: ID = req
+Line 1053: -
+Line 1053: >
+Line 1053: ID = ki_pos
+Line 1053: )
+Line 1053: ;
+Line 1054: ID = break
+Line 1054: ;
+Line 1055: ID = case
+Line 1055: ID = IOCB_CMD_PWRITE
+Line 1055: Unrecognized token: 58
+Line 1056: ID = ret
+Line 1056: =
+Line 1056: -
+Line 1056: ID = EBADF
+Line 1056: ;
+Line 1057: if
+Line 1057: (
+Line 1057: ID = unlikely
+Line 1057: (
+Line 1057: !
+Line 1057: (
+Line 1057: ID = file
+Line 1057: -
+Line 1057: >
+Line 1057: ID = f_mode
+Line 1057: Unrecognized token: 38
+Line 1057: ID = FMODE_WRITE
+Line 1057: )
+Line 1057: )
+Line 1057: )
+Line 1058: ID = goto
+Line 1058: ID = out_put_req
+Line 1058: ;
+Line 1059: ID = ret
+Line 1059: =
+Line 1059: -
+Line 1059: ID = EFAULT
+Line 1059: ;
+Line 1060: if
+Line 1060: (
+Line 1060: ID = unlikely
+Line 1060: (
+Line 1060: !
+Line 1060: ID = access_ok
+Line 1060: (
+Line 1060: ID = VERIFY_READ
+Line 1060: ,
+Line 1060: ID = buf
+Line 1060: ,
+Line 1060: ID = iocb
+Line 1060: -
+Line 1060: >
+Line 1060: ID = aio_nbytes
+Line 1060: )
+Line 1060: )
+Line 1060: )
+Line 1061: ID = goto
+Line 1061: ID = out_put_req
+Line 1061: ;
+Line 1062: ID = ret
+Line 1062: =
+Line 1062: ID = security_file_permission
+Line 1062: (
+Line 1062: ID = file
+Line 1062: ,
+Line 1062: ID = MAY_WRITE
+Line 1062: )
+Line 1062: ;
+Line 1063: if
+Line 1063: (
+Line 1063: ID = ret
+Line 1063: )
+Line 1064: ID = goto
+Line 1064: ID = out_put_req
+Line 1064: ;
+Line 1065: ID = ret
+Line 1065: =
+Line 1065: -
+Line 1065: ID = EINVAL
+Line 1065: ;
+Line 1066: if
+Line 1066: (
+Line 1066: ID = file
+Line 1066: -
+Line 1066: >
+Line 1066: ID = f_op
+Line 1066: -
+Line 1066: >
+Line 1066: ID = aio_write
+Line 1066: )
+Line 1067: ID = ret
+Line 1067: =
+Line 1067: ID = file
+Line 1067: -
+Line 1067: >
+Line 1067: ID = f_op
+Line 1067: -
+Line 1067: >
+Line 1067: ID = aio_write
+Line 1067: (
+Line 1067: ID = req
+Line 1067: ,
+Line 1067: ID = buf
+Line 1067: ,
+Line 1068: ID = iocb
+Line 1068: -
+Line 1068: >
+Line 1068: ID = aio_nbytes
+Line 1068: ,
+Line 1068: ID = req
+Line 1068: -
+Line 1068: >
+Line 1068: ID = ki_pos
+Line 1068: )
+Line 1068: ;
+Line 1069: ID = break
+Line 1069: ;
+Line 1070: ID = case
+Line 1070: ID = IOCB_CMD_FDSYNC
+Line 1070: Unrecognized token: 58
+Line 1071: ID = ret
+Line 1071: =
+Line 1071: -
+Line 1071: ID = EINVAL
+Line 1071: ;
+Line 1072: if
+Line 1072: (
+Line 1072: ID = file
+Line 1072: -
+Line 1072: >
+Line 1072: ID = f_op
+Line 1072: -
+Line 1072: >
+Line 1072: ID = aio_fsync
+Line 1072: )
+Line 1073: ID = ret
+Line 1073: =
+Line 1073: ID = file
+Line 1073: -
+Line 1073: >
+Line 1073: ID = f_op
+Line 1073: -
+Line 1073: >
+Line 1073: ID = aio_fsync
+Line 1073: (
+Line 1073: ID = req
+Line 1073: ,
+Line 1073: INTCON = 1
+Line 1073: )
+Line 1073: ;
+Line 1074: ID = break
+Line 1074: ;
+Line 1075: ID = case
+Line 1075: ID = IOCB_CMD_FSYNC
+Line 1075: Unrecognized token: 58
+Line 1076: ID = ret
+Line 1076: =
+Line 1076: -
+Line 1076: ID = EINVAL
+Line 1076: ;
+Line 1077: if
+Line 1077: (
+Line 1077: ID = file
+Line 1077: -
+Line 1077: >
+Line 1077: ID = f_op
+Line 1077: -
+Line 1077: >
+Line 1077: ID = aio_fsync
+Line 1077: )
+Line 1078: ID = ret
+Line 1078: =
+Line 1078: ID = file
+Line 1078: -
+Line 1078: >
+Line 1078: ID = f_op
+Line 1078: -
+Line 1078: >
+Line 1078: ID = aio_fsync
+Line 1078: (
+Line 1078: ID = req
+Line 1078: ,
+Line 1078: INTCON = 0
+Line 1078: )
+Line 1078: ;
+Line 1079: ID = break
+Line 1079: ;
+Line 1080: ID = default
+Line 1080: Unrecognized token: 58
+Line 1081: ID = dprintk
+Line 1081: (
+Line 1081: STRINGCON = "EINVAL: io_submit: no operation provided\n"
+Line 1081: )
+Line 1081: ;
+Line 1082: ID = ret
+Line 1082: =
+Line 1082: -
+Line 1082: ID = EINVAL
+Line 1082: ;
+Line 1083: }
+Line 1085: ID = aio_put_req
+Line 1085: (
+Line 1085: ID = req
+Line 1085: )
+Line 1085: ;
+Line 1086: if
+Line 1086: (
+Line 1086: ID = likely
+Line 1086: (
+Line 1086: -
+Line 1086: ID = EIOCBQUEUED
+Line 1086: ==
+Line 1086: ID = ret
+Line 1086: )
+Line 1086: )
+Line 1087: return
+Line 1087: INTCON = 0
+Line 1087: ;
+Line 1088: ID = aio_complete
+Line 1088: (
+Line 1088: ID = req
+Line 1088: ,
+Line 1088: ID = ret
+Line 1088: ,
+Line 1088: INTCON = 0
+Line 1088: )
+Line 1088: ;
+Line 1089: return
+Line 1089: INTCON = 0
+Line 1089: ;
+Line 1091: ID = out_put_req
+Line 1091: Unrecognized token: 58
+Line 1092: ID = aio_put_req
+Line 1092: (
+Line 1092: ID = req
+Line 1092: )
+Line 1092: ;
+Line 1093: ID = aio_put_req
+Line 1093: (
+Line 1093: ID = req
+Line 1093: )
+Line 1093: ;
+Line 1094: return
+Line 1094: ID = ret
+Line 1094: ;
+Line 1095: }
+Line 1109: ID = asmlinkage
+Line 1109: ID = long
+Line 1109: ID = sys_io_submit
+Line 1109: (
+Line 1109: ID = aio_context_t
+Line 1109: ID = ctx_id
+Line 1109: ,
+Line 1109: ID = long
+Line 1109: ID = nr
+Line 1109: ,
+Line 1110: ID = struct
+Line 1110: ID = iocb
+Line 1110: Unrecognized token: 95
+Line 1110: Unrecognized token: 95
+Line 1110: ID = user
+Line 1110: *
+Line 1110: Unrecognized token: 95
+Line 1110: Unrecognized token: 95
+Line 1110: ID = user
+Line 1110: *
+Line 1110: ID = iocbpp
+Line 1110: )
+Line 1111: {
+Line 1112: ID = struct
+Line 1112: ID = kioctx
+Line 1112: *
+Line 1112: ID = ctx
+Line 1112: ;
+Line 1113: ID = long
+Line 1113: ID = ret
+Line 1113: =
+Line 1113: INTCON = 0
+Line 1113: ;
+Line 1114: int
+Line 1114: ID = i
+Line 1114: ;
+Line 1116: if
+Line 1116: (
+Line 1116: ID = unlikely
+Line 1116: (
+Line 1116: ID = nr
+Line 1116: <
+Line 1116: INTCON = 0
+Line 1116: )
+Line 1116: )
+Line 1117: return
+Line 1117: -
+Line 1117: ID = EINVAL
+Line 1117: ;
+Line 1119: if
+Line 1119: (
+Line 1119: ID = unlikely
+Line 1119: (
+Line 1119: !
+Line 1119: ID = access_ok
+Line 1119: (
+Line 1119: ID = VERIFY_READ
+Line 1119: ,
+Line 1119: ID = iocbpp
+Line 1119: ,
+Line 1119: (
+Line 1119: ID = nr
+Line 1119: *
+Line 1119: ID = sizeof
+Line 1119: (
+Line 1119: *
+Line 1119: ID = iocbpp
+Line 1119: )
+Line 1119: )
+Line 1119: )
+Line 1119: )
+Line 1119: )
+Line 1120: return
+Line 1120: -
+Line 1120: ID = EFAULT
+Line 1120: ;
+Line 1122: ID = ctx
+Line 1122: =
+Line 1122: ID = lookup_ioctx
+Line 1122: (
+Line 1122: ID = ctx_id
+Line 1122: )
+Line 1122: ;
+Line 1123: if
+Line 1123: (
+Line 1123: ID = unlikely
+Line 1123: (
+Line 1123: !
+Line 1123: ID = ctx
+Line 1123: )
+Line 1123: )
+Line 1123: {
+Line 1124: ID = pr_debug
+Line 1124: (
+Line 1124: STRINGCON = "EINVAL: io_submit: invalid context id\n"
+Line 1124: )
+Line 1124: ;
+Line 1125: return
+Line 1125: -
+Line 1125: ID = EINVAL
+Line 1125: ;
+Line 1126: }
+Line 1132: for
+Line 1132: (
+Line 1132: ID = i
+Line 1132: =
+Line 1132: INTCON = 0
+Line 1132: ;
+Line 1132: ID = i
+Line 1132: <
+Line 1132: ID = nr
+Line 1132: ;
+Line 1132: ID = i
+Line 1132: +
+Line 1132: +
+Line 1132: )
+Line 1132: {
+Line 1133: ID = struct
+Line 1133: ID = iocb
+Line 1133: Unrecognized token: 95
+Line 1133: Unrecognized token: 95
+Line 1133: ID = user
+Line 1133: *
+Line 1133: ID = user_iocb
+Line 1133: ;
+Line 1134: ID = struct
+Line 1134: ID = iocb
+Line 1134: ID = tmp
+Line 1134: ;
+Line 1136: if
+Line 1136: (
+Line 1136: ID = unlikely
+Line 1136: (
+Line 1136: Unrecognized token: 95
+Line 1136: Unrecognized token: 95
+Line 1136: ID = get_user
+Line 1136: (
+Line 1136: ID = user_iocb
+Line 1136: ,
+Line 1136: ID = iocbpp
+Line 1136: +
+Line 1136: ID = i
+Line 1136: )
+Line 1136: )
+Line 1136: )
+Line 1136: {
+Line 1137: ID = ret
+Line 1137: =
+Line 1137: -
+Line 1137: ID = EFAULT
+Line 1137: ;
+Line 1138: ID = break
+Line 1138: ;
+Line 1139: }
+Line 1141: if
+Line 1141: (
+Line 1141: ID = unlikely
+Line 1141: (
+Line 1141: ID = copy_from_user
+Line 1141: (
+Line 1141: Unrecognized token: 38
+Line 1141: ID = tmp
+Line 1141: ,
+Line 1141: ID = user_iocb
+Line 1141: ,
+Line 1141: ID = sizeof
+Line 1141: (
+Line 1141: ID = tmp
+Line 1141: )
+Line 1141: )
+Line 1141: )
+Line 1141: )
+Line 1141: {
+Line 1142: ID = ret
+Line 1142: =
+Line 1142: -
+Line 1142: ID = EFAULT
+Line 1142: ;
+Line 1143: ID = break
+Line 1143: ;
+Line 1144: }
+Line 1146: ID = ret
+Line 1146: =
+Line 1146: ID = io_submit_one
+Line 1146: (
+Line 1146: ID = ctx
+Line 1146: ,
+Line 1146: ID = user_iocb
+Line 1146: ,
+Line 1146: Unrecognized token: 38
+Line 1146: ID = tmp
+Line 1146: )
+Line 1146: ;
+Line 1147: if
+Line 1147: (
+Line 1147: ID = ret
+Line 1147: )
+Line 1148: ID = break
+Line 1148: ;
+Line 1149: }
+Line 1151: ID = put_ioctx
+Line 1151: (
+Line 1151: ID = ctx
+Line 1151: )
+Line 1151: ;
+Line 1152: return
+Line 1152: ID = i
+Line 1152: Unrecognized token: 63
+Line 1152: ID = i
+Line 1152: Unrecognized token: 58
+Line 1152: ID = ret
+Line 1152: ;
+Line 1153: }
+Line 1159: ID = struct
+Line 1159: ID = kiocb
+Line 1159: *
+Line 1159: ID = lookup_kiocb
+Line 1159: (
+Line 1159: ID = struct
+Line 1159: ID = kioctx
+Line 1159: *
+Line 1159: ID = ctx
+Line 1159: ,
+Line 1159: ID = struct
+Line 1159: ID = iocb
+Line 1159: Unrecognized token: 95
+Line 1159: Unrecognized token: 95
+Line 1159: ID = user
+Line 1159: *
+Line 1159: ID = iocb
+Line 1159: ,
+Line 1159: ID = u32
+Line 1159: ID = key
+Line 1159: )
+Line 1160: {
+Line 1161: ID = struct
+Line 1161: ID = list_head
+Line 1161: *
+Line 1161: ID = pos
+Line 1161: ;
+Line 1163: ID = list_for_each
+Line 1163: (
+Line 1163: ID = pos
+Line 1163: ,
+Line 1163: Unrecognized token: 38
+Line 1163: ID = ctx
+Line 1163: -
+Line 1163: >
+Line 1163: ID = active_reqs
+Line 1163: )
+Line 1163: {
+Line 1164: ID = struct
+Line 1164: ID = kiocb
+Line 1164: *
+Line 1164: ID = kiocb
+Line 1164: =
+Line 1164: ID = list_kiocb
+Line 1164: (
+Line 1164: ID = pos
+Line 1164: )
+Line 1164: ;
+Line 1165: if
+Line 1165: (
+Line 1165: ID = kiocb
+Line 1165: -
+Line 1165: >
+Line 1165: ID = ki_obj
+Line 1165: Unrecognized token: 46
+Line 1165: ID = user
+Line 1165: ==
+Line 1165: ID = iocb
+Line 1165: &&
+Line 1165: ID = kiocb
+Line 1165: -
+Line 1165: >
+Line 1165: ID = ki_key
+Line 1165: ==
+Line 1165: ID = key
+Line 1165: )
+Line 1166: return
+Line 1166: ID = kiocb
+Line 1166: ;
+Line 1167: }
+Line 1168: return
+Line 1168: ID = NULL
+Line 1168: ;
+Line 1169: }
+Line 1181: ID = asmlinkage
+Line 1181: ID = long
+Line 1181: ID = sys_io_cancel
+Line 1181: (
+Line 1181: ID = aio_context_t
+Line 1181: ID = ctx_id
+Line 1181: ,
+Line 1181: ID = struct
+Line 1181: ID = iocb
+Line 1181: Unrecognized token: 95
+Line 1181: Unrecognized token: 95
+Line 1181: ID = user
+Line 1181: *
+Line 1181: ID = iocb
+Line 1181: ,
+Line 1182: ID = struct
+Line 1182: ID = io_event
+Line 1182: Unrecognized token: 95
+Line 1182: Unrecognized token: 95
+Line 1182: ID = user
+Line 1182: *
+Line 1182: ID = result
+Line 1182: )
+Line 1183: {
+Line 1184: int
+Line 1184: (
+Line 1184: *
+Line 1184: ID = cancel
+Line 1184: )
+Line 1184: (
+Line 1184: ID = struct
+Line 1184: ID = kiocb
+Line 1184: *
+Line 1184: ID = iocb
+Line 1184: ,
+Line 1184: ID = struct
+Line 1184: ID = io_event
+Line 1184: *
+Line 1184: ID = res
+Line 1184: )
+Line 1184: ;
+Line 1185: ID = struct
+Line 1185: ID = kioctx
+Line 1185: *
+Line 1185: ID = ctx
+Line 1185: ;
+Line 1186: ID = struct
+Line 1186: ID = kiocb
+Line 1186: *
+Line 1186: ID = kiocb
+Line 1186: ;
+Line 1187: ID = u32
+Line 1187: ID = key
+Line 1187: ;
+Line 1188: int
+Line 1188: ID = ret
+Line 1188: ;
+Line 1190: ID = ret
+Line 1190: =
+Line 1190: ID = get_user
+Line 1190: (
+Line 1190: ID = key
+Line 1190: ,
+Line 1190: Unrecognized token: 38
+Line 1190: ID = iocb
+Line 1190: -
+Line 1190: >
+Line 1190: ID = aio_key
+Line 1190: )
+Line 1190: ;
+Line 1191: if
+Line 1191: (
+Line 1191: ID = unlikely
+Line 1191: (
+Line 1191: ID = ret
+Line 1191: )
+Line 1191: )
+Line 1192: return
+Line 1192: -
+Line 1192: ID = EFAULT
+Line 1192: ;
+Line 1194: ID = ctx
+Line 1194: =
+Line 1194: ID = lookup_ioctx
+Line 1194: (
+Line 1194: ID = ctx_id
+Line 1194: )
+Line 1194: ;
+Line 1195: if
+Line 1195: (
+Line 1195: ID = unlikely
+Line 1195: (
+Line 1195: !
+Line 1195: ID = ctx
+Line 1195: )
+Line 1195: )
+Line 1196: return
+Line 1196: -
+Line 1196: ID = EINVAL
+Line 1196: ;
+Line 1198: ID = spin_lock_irq
+Line 1198: (
+Line 1198: Unrecognized token: 38
+Line 1198: ID = ctx
+Line 1198: -
+Line 1198: >
+Line 1198: ID = ctx_lock
+Line 1198: )
+Line 1198: ;
+Line 1199: ID = ret
+Line 1199: =
+Line 1199: -
+Line 1199: ID = EAGAIN
+Line 1199: ;
+Line 1200: ID = kiocb
+Line 1200: =
+Line 1200: ID = lookup_kiocb
+Line 1200: (
+Line 1200: ID = ctx
+Line 1200: ,
+Line 1200: ID = iocb
+Line 1200: ,
+Line 1200: ID = key
+Line 1200: )
+Line 1200: ;
+Line 1201: if
+Line 1201: (
+Line 1201: ID = kiocb
+Line 1201: &&
+Line 1201: ID = kiocb
+Line 1201: -
+Line 1201: >
+Line 1201: ID = ki_cancel
+Line 1201: )
+Line 1201: {
+Line 1202: ID = cancel
+Line 1202: =
+Line 1202: ID = kiocb
+Line 1202: -
+Line 1202: >
+Line 1202: ID = ki_cancel
+Line 1202: ;
+Line 1203: ID = kiocb
+Line 1203: -
+Line 1203: >
+Line 1203: ID = ki_users
+Line 1203: +
+Line 1203: +
+Line 1203: ;
+Line 1204: }
+Line 1204: else
+Line 1205: ID = cancel
+Line 1205: =
+Line 1205: ID = NULL
+Line 1205: ;
+Line 1206: ID = spin_unlock_irq
+Line 1206: (
+Line 1206: Unrecognized token: 38
+Line 1206: ID = ctx
+Line 1206: -
+Line 1206: >
+Line 1206: ID = ctx_lock
+Line 1206: )
+Line 1206: ;
+Line 1208: if
+Line 1208: (
+Line 1208: ID = NULL
+Line 1208: !=
+Line 1208: ID = cancel
+Line 1208: )
+Line 1208: {
+Line 1209: ID = struct
+Line 1209: ID = io_event
+Line 1209: ID = tmp
+Line 1209: ;
+Line 1210: ID = pr_debug
+Line 1210: (
+Line 1210: STRINGCON = "calling cancel\n"
+Line 1210: )
+Line 1210: ;
+Line 1211: ID = memset
+Line 1211: (
+Line 1211: Unrecognized token: 38
+Line 1211: ID = tmp
+Line 1211: ,
+Line 1211: INTCON = 0
+Line 1211: ,
+Line 1211: ID = sizeof
+Line 1211: (
+Line 1211: ID = tmp
+Line 1211: )
+Line 1211: )
+Line 1211: ;
+Line 1212: ID = tmp
+Line 1212: Unrecognized token: 46
+Line 1212: ID = obj
+Line 1212: =
+Line 1212: (
+Line 1212: ID = u64
+Line 1212: )
+Line 1212: (
+Line 1212: ID = unsigned
+Line 1212: ID = long
+Line 1212: )
+Line 1212: ID = kiocb
+Line 1212: -
+Line 1212: >
+Line 1212: ID = ki_obj
+Line 1212: Unrecognized token: 46
+Line 1212: ID = user
+Line 1212: ;
+Line 1213: ID = tmp
+Line 1213: Unrecognized token: 46
+Line 1213: ID = data
+Line 1213: =
+Line 1213: ID = kiocb
+Line 1213: -
+Line 1213: >
+Line 1213: ID = ki_user_data
+Line 1213: ;
+Line 1214: ID = ret
+Line 1214: =
+Line 1214: ID = cancel
+Line 1214: (
+Line 1214: ID = kiocb
+Line 1214: ,
+Line 1214: Unrecognized token: 38
+Line 1214: ID = tmp
+Line 1214: )
+Line 1214: ;
+Line 1215: if
+Line 1215: (
+Line 1215: !
+Line 1215: ID = ret
+Line 1215: )
+Line 1215: {
+Line 1219: if
+Line 1219: (
+Line 1219: ID = copy_to_user
+Line 1219: (
+Line 1219: ID = result
+Line 1219: ,
+Line 1219: Unrecognized token: 38
+Line 1219: ID = tmp
+Line 1219: ,
+Line 1219: ID = sizeof
+Line 1219: (
+Line 1219: ID = tmp
+Line 1219: )
+Line 1219: )
+Line 1219: )
+Line 1220: ID = ret
+Line 1220: =
+Line 1220: -
+Line 1220: ID = EFAULT
+Line 1220: ;
+Line 1221: }
+Line 1222: }
+Line 1222: else
+Line 1223: ID = printk
+Line 1223: (
+Line 1223: ID = KERN_DEBUG
+Line 1223: STRINGCON = "iocb has no cancel operation\n"
+Line 1223: )
+Line 1223: ;
+Line 1225: ID = put_ioctx
+Line 1225: (
+Line 1225: ID = ctx
+Line 1225: )
+Line 1225: ;
+Line 1227: return
+Line 1227: ID = ret
+Line 1227: ;
+Line 1228: }
+Line 1242: ID = asmlinkage
+Line 1242: ID = long
+Line 1242: ID = sys_io_getevents
+Line 1242: (
+Line 1242: ID = aio_context_t
+Line 1242: ID = ctx_id
+Line 1242: ,
+Line 1243: ID = long
+Line 1243: ID = min_nr
+Line 1243: ,
+Line 1244: ID = long
+Line 1244: ID = nr
+Line 1244: ,
+Line 1245: ID = struct
+Line 1245: ID = io_event
+Line 1245: Unrecognized token: 95
+Line 1245: Unrecognized token: 95
+Line 1245: ID = user
+Line 1245: *
+Line 1245: ID = events
+Line 1245: ,
+Line 1246: ID = struct
+Line 1246: ID = timespec
+Line 1246: Unrecognized token: 95
+Line 1246: Unrecognized token: 95
+Line 1246: ID = user
+Line 1246: *
+Line 1246: ID = timeout
+Line 1246: )
+Line 1247: {
+Line 1248: ID = struct
+Line 1248: ID = kioctx
+Line 1248: *
+Line 1248: ID = ioctx
+Line 1248: =
+Line 1248: ID = lookup_ioctx
+Line 1248: (
+Line 1248: ID = ctx_id
+Line 1248: )
+Line 1248: ;
+Line 1249: ID = long
+Line 1249: ID = ret
+Line 1249: =
+Line 1249: -
+Line 1249: ID = EINVAL
+Line 1249: ;
+Line 1251: if
+Line 1251: (
+Line 1251: ID = likely
+Line 1251: (
+Line 1251: ID = ioctx
+Line 1251: )
+Line 1251: )
+Line 1251: {
+Line 1252: if
+Line 1252: (
+Line 1252: ID = likely
+Line 1252: (
+Line 1252: ID = min_nr
+Line 1252: <=
+Line 1252: ID = nr
+Line 1252: &&
+Line 1252: ID = min_nr
+Line 1252: >=
+Line 1252: INTCON = 0
+Line 1252: &&
+Line 1252: ID = nr
+Line 1252: >=
+Line 1252: INTCON = 0
+Line 1252: )
+Line 1252: )
+Line 1253: ID = ret
+Line 1253: =
+Line 1253: ID = read_events
+Line 1253: (
+Line 1253: ID = ioctx
+Line 1253: ,
+Line 1253: ID = min_nr
+Line 1253: ,
+Line 1253: ID = nr
+Line 1253: ,
+Line 1253: ID = events
+Line 1253: ,
+Line 1253: ID = timeout
+Line 1253: )
+Line 1253: ;
+Line 1254: ID = put_ioctx
+Line 1254: (
+Line 1254: ID = ioctx
+Line 1254: )
+Line 1254: ;
+Line 1255: }
+Line 1257: return
+Line 1257: ID = ret
+Line 1257: ;
+Line 1258: }
+Line 1260: Unrecognized token: 95
+Line 1260: Unrecognized token: 95
+Line 1260: ID = initcall
+Line 1260: (
+Line 1260: ID = aio_setup
+Line 1260: )
+Line 1260: ;
+Line 1262: ID = EXPORT_SYMBOL
+Line 1262: (
+Line 1262: ID = aio_complete
+Line 1262: )
+Line 1262: ;
+Line 1263: ID = EXPORT_SYMBOL
+Line 1263: (
+Line 1263: ID = aio_put_req
+Line 1263: )
+Line 1263: ;
+Line 1264: ID = EXPORT_SYMBOL
+Line 1264: (
+Line 1264: ID = wait_on_sync_kiocb
+Line 1264: )
+Line 1264: ;
+Line 1265: -EOF-

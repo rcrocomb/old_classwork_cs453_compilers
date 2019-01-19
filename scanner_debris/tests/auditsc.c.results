@@ -1,0 +1,4349 @@
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = init
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = asm
+Line 33: /
+Line 33: ID = atomic
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = asm
+Line 34: /
+Line 34: ID = types
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = mm
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = module
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = audit
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = linux
+Line 39: /
+Line 39: ID = personality
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = linux
+Line 40: /
+Line 40: ID = time
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = asm
+Line 41: /
+Line 41: ID = unistd
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 47: Unrecognized token: 35
+Line 47: ID = define
+Line 47: ID = AUDIT_DEBUG
+Line 47: INTCON = 0
+Line 50: extern
+Line 50: int
+Line 50: ID = audit_enabled
+Line 50: ;
+Line 54: Unrecognized token: 35
+Line 54: ID = define
+Line 54: ID = AUDIT_NAMES
+Line 54: INTCON = 20
+Line 59: Unrecognized token: 35
+Line 59: ID = define
+Line 59: ID = AUDIT_NAMES_RESERVED
+Line 59: INTCON = 7
+Line 64: ID = enum
+Line 64: ID = audit_state
+Line 64: {
+Line 65: ID = AUDIT_DISABLED
+Line 65: ,
+Line 68: ID = AUDIT_SETUP_CONTEXT
+Line 68: ,
+Line 72: ID = AUDIT_BUILD_CONTEXT
+Line 72: ,
+Line 78: ID = AUDIT_RECORD_CONTEXT
+Line 82: }
+Line 82: ;
+Line 89: ID = struct
+Line 89: ID = audit_names
+Line 89: {
+Line 90: ID = const
+Line 90: char
+Line 90: *
+Line 90: ID = name
+Line 90: ;
+Line 91: ID = unsigned
+Line 91: ID = long
+Line 91: ID = ino
+Line 91: ;
+Line 92: ID = dev_t
+Line 92: ID = rdev
+Line 92: ;
+Line 93: }
+Line 93: ;
+Line 96: ID = struct
+Line 96: ID = audit_context
+Line 96: {
+Line 97: int
+Line 97: ID = in_syscall
+Line 97: ;
+Line 98: ID = enum
+Line 98: ID = audit_state
+Line 98: ID = state
+Line 98: ;
+Line 99: ID = unsigned
+Line 99: int
+Line 99: ID = serial
+Line 99: ;
+Line 100: ID = struct
+Line 100: ID = timespec
+Line 100: ID = ctime
+Line 100: ;
+Line 101: ID = uid_t
+Line 101: ID = loginuid
+Line 101: ;
+Line 102: int
+Line 102: ID = major
+Line 102: ;
+Line 103: ID = unsigned
+Line 103: ID = long
+Line 103: ID = argv
+Line 103: [
+Line 103: INTCON = 4
+Line 103: ]
+Line 103: ;
+Line 104: int
+Line 104: ID = return_valid
+Line 104: ;
+Line 105: int
+Line 105: ID = return_code
+Line 105: ;
+Line 106: int
+Line 106: ID = auditable
+Line 106: ;
+Line 107: int
+Line 107: ID = name_count
+Line 107: ;
+Line 108: ID = struct
+Line 108: ID = audit_names
+Line 108: ID = names
+Line 108: [
+Line 108: ID = AUDIT_NAMES
+Line 108: ]
+Line 108: ;
+Line 109: ID = struct
+Line 109: ID = audit_context
+Line 109: *
+Line 109: ID = previous
+Line 109: ;
+Line 112: ID = pid_t
+Line 112: ID = pid
+Line 112: ;
+Line 113: ID = uid_t
+Line 113: ID = uid
+Line 113: ,
+Line 113: ID = euid
+Line 113: ,
+Line 113: ID = suid
+Line 113: ,
+Line 113: ID = fsuid
+Line 113: ;
+Line 114: ID = gid_t
+Line 114: ID = gid
+Line 114: ,
+Line 114: ID = egid
+Line 114: ,
+Line 114: ID = sgid
+Line 114: ,
+Line 114: ID = fsgid
+Line 114: ;
+Line 115: ID = unsigned
+Line 115: ID = long
+Line 115: ID = personality
+Line 115: ;
+Line 117: Unrecognized token: 35
+Line 117: if
+Line 117: ID = AUDIT_DEBUG
+Line 118: int
+Line 118: ID = put_count
+Line 118: ;
+Line 119: int
+Line 119: ID = ino_count
+Line 119: ;
+Line 120: Unrecognized token: 35
+Line 120: ID = endif
+Line 121: }
+Line 121: ;
+Line 127: ID = static
+Line 127: ID = LIST_HEAD
+Line 127: (
+Line 127: ID = audit_tsklist
+Line 127: )
+Line 127: ;
+Line 128: ID = static
+Line 128: ID = LIST_HEAD
+Line 128: (
+Line 128: ID = audit_entlist
+Line 128: )
+Line 128: ;
+Line 129: ID = static
+Line 129: ID = LIST_HEAD
+Line 129: (
+Line 129: ID = audit_extlist
+Line 129: )
+Line 129: ;
+Line 131: ID = struct
+Line 131: ID = audit_entry
+Line 131: {
+Line 132: ID = struct
+Line 132: ID = list_head
+Line 132: ID = list
+Line 132: ;
+Line 133: ID = struct
+Line 133: ID = rcu_head
+Line 133: ID = rcu
+Line 133: ;
+Line 134: ID = struct
+Line 134: ID = audit_rule
+Line 134: ID = rule
+Line 134: ;
+Line 135: }
+Line 135: ;
+Line 139: ID = static
+Line 139: int
+Line 139: ID = audit_compare_rule
+Line 139: (
+Line 139: ID = struct
+Line 139: ID = audit_rule
+Line 139: *
+Line 139: ID = a
+Line 139: ,
+Line 139: ID = struct
+Line 139: ID = audit_rule
+Line 139: *
+Line 139: ID = b
+Line 139: )
+Line 140: {
+Line 141: int
+Line 141: ID = i
+Line 141: ;
+Line 143: if
+Line 143: (
+Line 143: ID = a
+Line 143: -
+Line 143: >
+Line 143: ID = flags
+Line 143: !=
+Line 143: ID = b
+Line 143: -
+Line 143: >
+Line 143: ID = flags
+Line 143: )
+Line 144: return
+Line 144: INTCON = 1
+Line 144: ;
+Line 146: if
+Line 146: (
+Line 146: ID = a
+Line 146: -
+Line 146: >
+Line 146: ID = action
+Line 146: !=
+Line 146: ID = b
+Line 146: -
+Line 146: >
+Line 146: ID = action
+Line 146: )
+Line 147: return
+Line 147: INTCON = 1
+Line 147: ;
+Line 149: if
+Line 149: (
+Line 149: ID = a
+Line 149: -
+Line 149: >
+Line 149: ID = field_count
+Line 149: !=
+Line 149: ID = b
+Line 149: -
+Line 149: >
+Line 149: ID = field_count
+Line 149: )
+Line 150: return
+Line 150: INTCON = 1
+Line 150: ;
+Line 152: for
+Line 152: (
+Line 152: ID = i
+Line 152: =
+Line 152: INTCON = 0
+Line 152: ;
+Line 152: ID = i
+Line 152: <
+Line 152: ID = a
+Line 152: -
+Line 152: >
+Line 152: ID = field_count
+Line 152: ;
+Line 152: ID = i
+Line 152: +
+Line 152: +
+Line 152: )
+Line 152: {
+Line 153: if
+Line 153: (
+Line 153: ID = a
+Line 153: -
+Line 153: >
+Line 153: ID = fields
+Line 153: [
+Line 153: ID = i
+Line 153: ]
+Line 153: !=
+Line 153: ID = b
+Line 153: -
+Line 153: >
+Line 153: ID = fields
+Line 153: [
+Line 153: ID = i
+Line 153: ]
+Line 154: ||
+Line 154: ID = a
+Line 154: -
+Line 154: >
+Line 154: ID = values
+Line 154: [
+Line 154: ID = i
+Line 154: ]
+Line 154: !=
+Line 154: ID = b
+Line 154: -
+Line 154: >
+Line 154: ID = values
+Line 154: [
+Line 154: ID = i
+Line 154: ]
+Line 154: )
+Line 155: return
+Line 155: INTCON = 1
+Line 155: ;
+Line 156: }
+Line 158: for
+Line 158: (
+Line 158: ID = i
+Line 158: =
+Line 158: INTCON = 0
+Line 158: ;
+Line 158: ID = i
+Line 158: <
+Line 158: ID = AUDIT_BITMASK_SIZE
+Line 158: ;
+Line 158: ID = i
+Line 158: +
+Line 158: +
+Line 158: )
+Line 159: if
+Line 159: (
+Line 159: ID = a
+Line 159: -
+Line 159: >
+Line 159: ID = mask
+Line 159: [
+Line 159: ID = i
+Line 159: ]
+Line 159: !=
+Line 159: ID = b
+Line 159: -
+Line 159: >
+Line 159: ID = mask
+Line 159: [
+Line 159: ID = i
+Line 159: ]
+Line 159: )
+Line 160: return
+Line 160: INTCON = 1
+Line 160: ;
+Line 162: return
+Line 162: INTCON = 0
+Line 162: ;
+Line 163: }
+Line 168: ID = static
+Line 168: ID = inline
+Line 168: int
+Line 168: ID = audit_add_rule
+Line 168: (
+Line 168: ID = struct
+Line 168: ID = audit_entry
+Line 168: *
+Line 168: ID = entry
+Line 168: ,
+Line 169: ID = struct
+Line 169: ID = list_head
+Line 169: *
+Line 169: ID = list
+Line 169: )
+Line 170: {
+Line 171: if
+Line 171: (
+Line 171: ID = entry
+Line 171: -
+Line 171: >
+Line 171: ID = rule
+Line 171: Unrecognized token: 46
+Line 171: ID = flags
+Line 171: Unrecognized token: 38
+Line 171: ID = AUDIT_PREPEND
+Line 171: )
+Line 171: {
+Line 172: ID = entry
+Line 172: -
+Line 172: >
+Line 172: ID = rule
+Line 172: Unrecognized token: 46
+Line 172: ID = flags
+Line 172: Unrecognized token: 38
+Line 172: =
+Line 172: Unrecognized token: 126
+Line 172: ID = AUDIT_PREPEND
+Line 172: ;
+Line 173: ID = list_add_rcu
+Line 173: (
+Line 173: Unrecognized token: 38
+Line 173: ID = entry
+Line 173: -
+Line 173: >
+Line 173: ID = list
+Line 173: ,
+Line 173: ID = list
+Line 173: )
+Line 173: ;
+Line 174: }
+Line 174: else
+Line 174: {
+Line 175: ID = list_add_tail_rcu
+Line 175: (
+Line 175: Unrecognized token: 38
+Line 175: ID = entry
+Line 175: -
+Line 175: >
+Line 175: ID = list
+Line 175: ,
+Line 175: ID = list
+Line 175: )
+Line 175: ;
+Line 176: }
+Line 177: return
+Line 177: INTCON = 0
+Line 177: ;
+Line 178: }
+Line 180: ID = static
+Line 180: void
+Line 180: ID = audit_free_rule
+Line 180: (
+Line 180: ID = struct
+Line 180: ID = rcu_head
+Line 180: *
+Line 180: ID = head
+Line 180: )
+Line 181: {
+Line 182: ID = struct
+Line 182: ID = audit_entry
+Line 182: *
+Line 182: ID = e
+Line 182: =
+Line 182: ID = container_of
+Line 182: (
+Line 182: ID = head
+Line 182: ,
+Line 182: ID = struct
+Line 182: ID = audit_entry
+Line 182: ,
+Line 182: ID = rcu
+Line 182: )
+Line 182: ;
+Line 183: ID = kfree
+Line 183: (
+Line 183: ID = e
+Line 183: )
+Line 183: ;
+Line 184: }
+Line 189: ID = static
+Line 189: ID = inline
+Line 189: int
+Line 189: ID = audit_del_rule
+Line 189: (
+Line 189: ID = struct
+Line 189: ID = audit_rule
+Line 189: *
+Line 189: ID = rule
+Line 189: ,
+Line 190: ID = struct
+Line 190: ID = list_head
+Line 190: *
+Line 190: ID = list
+Line 190: )
+Line 191: {
+Line 192: ID = struct
+Line 192: ID = audit_entry
+Line 192: *
+Line 192: ID = e
+Line 192: ;
+Line 196: ID = list_for_each_entry
+Line 196: (
+Line 196: ID = e
+Line 196: ,
+Line 196: ID = list
+Line 196: ,
+Line 196: ID = list
+Line 196: )
+Line 196: {
+Line 197: if
+Line 197: (
+Line 197: !
+Line 197: ID = audit_compare_rule
+Line 197: (
+Line 197: ID = rule
+Line 197: ,
+Line 197: Unrecognized token: 38
+Line 197: ID = e
+Line 197: -
+Line 197: >
+Line 197: ID = rule
+Line 197: )
+Line 197: )
+Line 197: {
+Line 198: ID = list_del_rcu
+Line 198: (
+Line 198: Unrecognized token: 38
+Line 198: ID = e
+Line 198: -
+Line 198: >
+Line 198: ID = list
+Line 198: )
+Line 198: ;
+Line 199: ID = call_rcu
+Line 199: (
+Line 199: Unrecognized token: 38
+Line 199: ID = e
+Line 199: -
+Line 199: >
+Line 199: ID = rcu
+Line 199: ,
+Line 199: ID = audit_free_rule
+Line 199: )
+Line 199: ;
+Line 200: return
+Line 200: INTCON = 0
+Line 200: ;
+Line 201: }
+Line 202: }
+Line 203: return
+Line 203: -
+Line 203: ID = EFAULT
+Line 203: ;
+Line 204: }
+Line 206: Unrecognized token: 35
+Line 206: ID = ifdef
+Line 206: ID = CONFIG_NET
+Line 209: ID = static
+Line 209: int
+Line 209: ID = audit_copy_rule
+Line 209: (
+Line 209: ID = struct
+Line 209: ID = audit_rule
+Line 209: *
+Line 209: ID = d
+Line 209: ,
+Line 209: ID = struct
+Line 209: ID = audit_rule
+Line 209: *
+Line 209: ID = s
+Line 209: )
+Line 210: {
+Line 211: int
+Line 211: ID = i
+Line 211: ;
+Line 213: if
+Line 213: (
+Line 213: ID = s
+Line 213: -
+Line 213: >
+Line 213: ID = action
+Line 213: !=
+Line 213: ID = AUDIT_NEVER
+Line 214: &&
+Line 214: ID = s
+Line 214: -
+Line 214: >
+Line 214: ID = action
+Line 214: !=
+Line 214: ID = AUDIT_POSSIBLE
+Line 215: &&
+Line 215: ID = s
+Line 215: -
+Line 215: >
+Line 215: ID = action
+Line 215: !=
+Line 215: ID = AUDIT_ALWAYS
+Line 215: )
+Line 216: return
+Line 216: -
+Line 216: INTCON = 1
+Line 216: ;
+Line 217: if
+Line 217: (
+Line 217: ID = s
+Line 217: -
+Line 217: >
+Line 217: ID = field_count
+Line 217: <
+Line 217: INTCON = 0
+Line 217: ||
+Line 217: ID = s
+Line 217: -
+Line 217: >
+Line 217: ID = field_count
+Line 217: >
+Line 217: ID = AUDIT_MAX_FIELDS
+Line 217: )
+Line 218: return
+Line 218: -
+Line 218: INTCON = 1
+Line 218: ;
+Line 220: ID = d
+Line 220: -
+Line 220: >
+Line 220: ID = flags
+Line 220: =
+Line 220: ID = s
+Line 220: -
+Line 220: >
+Line 220: ID = flags
+Line 220: ;
+Line 221: ID = d
+Line 221: -
+Line 221: >
+Line 221: ID = action
+Line 221: =
+Line 221: ID = s
+Line 221: -
+Line 221: >
+Line 221: ID = action
+Line 221: ;
+Line 222: ID = d
+Line 222: -
+Line 222: >
+Line 222: ID = field_count
+Line 222: =
+Line 222: ID = s
+Line 222: -
+Line 222: >
+Line 222: ID = field_count
+Line 222: ;
+Line 223: for
+Line 223: (
+Line 223: ID = i
+Line 223: =
+Line 223: INTCON = 0
+Line 223: ;
+Line 223: ID = i
+Line 223: <
+Line 223: ID = d
+Line 223: -
+Line 223: >
+Line 223: ID = field_count
+Line 223: ;
+Line 223: ID = i
+Line 223: +
+Line 223: +
+Line 223: )
+Line 223: {
+Line 224: ID = d
+Line 224: -
+Line 224: >
+Line 224: ID = fields
+Line 224: [
+Line 224: ID = i
+Line 224: ]
+Line 224: =
+Line 224: ID = s
+Line 224: -
+Line 224: >
+Line 224: ID = fields
+Line 224: [
+Line 224: ID = i
+Line 224: ]
+Line 224: ;
+Line 225: ID = d
+Line 225: -
+Line 225: >
+Line 225: ID = values
+Line 225: [
+Line 225: ID = i
+Line 225: ]
+Line 225: =
+Line 225: ID = s
+Line 225: -
+Line 225: >
+Line 225: ID = values
+Line 225: [
+Line 225: ID = i
+Line 225: ]
+Line 225: ;
+Line 226: }
+Line 227: for
+Line 227: (
+Line 227: ID = i
+Line 227: =
+Line 227: INTCON = 0
+Line 227: ;
+Line 227: ID = i
+Line 227: <
+Line 227: ID = AUDIT_BITMASK_SIZE
+Line 227: ;
+Line 227: ID = i
+Line 227: +
+Line 227: +
+Line 227: )
+Line 227: ID = d
+Line 227: -
+Line 227: >
+Line 227: ID = mask
+Line 227: [
+Line 227: ID = i
+Line 227: ]
+Line 227: =
+Line 227: ID = s
+Line 227: -
+Line 227: >
+Line 227: ID = mask
+Line 227: [
+Line 227: ID = i
+Line 227: ]
+Line 227: ;
+Line 228: return
+Line 228: INTCON = 0
+Line 228: ;
+Line 229: }
+Line 231: int
+Line 231: ID = audit_receive_filter
+Line 231: (
+Line 231: int
+Line 231: ID = type
+Line 231: ,
+Line 231: int
+Line 231: ID = pid
+Line 231: ,
+Line 231: int
+Line 231: ID = uid
+Line 231: ,
+Line 231: int
+Line 231: ID = seq
+Line 231: ,
+Line 231: void
+Line 231: *
+Line 231: ID = data
+Line 231: )
+Line 232: {
+Line 233: ID = u32
+Line 233: ID = flags
+Line 233: ;
+Line 234: ID = struct
+Line 234: ID = audit_entry
+Line 234: *
+Line 234: ID = entry
+Line 234: ;
+Line 235: int
+Line 235: ID = err
+Line 235: =
+Line 235: INTCON = 0
+Line 235: ;
+Line 237: ID = switch
+Line 237: (
+Line 237: ID = type
+Line 237: )
+Line 237: {
+Line 238: ID = case
+Line 238: ID = AUDIT_LIST
+Line 238: Unrecognized token: 58
+Line 241: ID = list_for_each_entry
+Line 241: (
+Line 241: ID = entry
+Line 241: ,
+Line 241: Unrecognized token: 38
+Line 241: ID = audit_tsklist
+Line 241: ,
+Line 241: ID = list
+Line 241: )
+Line 242: ID = audit_send_reply
+Line 242: (
+Line 242: ID = pid
+Line 242: ,
+Line 242: ID = seq
+Line 242: ,
+Line 242: ID = AUDIT_LIST
+Line 242: ,
+Line 242: INTCON = 0
+Line 242: ,
+Line 242: INTCON = 1
+Line 242: ,
+Line 243: Unrecognized token: 38
+Line 243: ID = entry
+Line 243: -
+Line 243: >
+Line 243: ID = rule
+Line 243: ,
+Line 243: ID = sizeof
+Line 243: (
+Line 243: ID = entry
+Line 243: -
+Line 243: >
+Line 243: ID = rule
+Line 243: )
+Line 243: )
+Line 243: ;
+Line 244: ID = list_for_each_entry
+Line 244: (
+Line 244: ID = entry
+Line 244: ,
+Line 244: Unrecognized token: 38
+Line 244: ID = audit_entlist
+Line 244: ,
+Line 244: ID = list
+Line 244: )
+Line 245: ID = audit_send_reply
+Line 245: (
+Line 245: ID = pid
+Line 245: ,
+Line 245: ID = seq
+Line 245: ,
+Line 245: ID = AUDIT_LIST
+Line 245: ,
+Line 245: INTCON = 0
+Line 245: ,
+Line 245: INTCON = 1
+Line 245: ,
+Line 246: Unrecognized token: 38
+Line 246: ID = entry
+Line 246: -
+Line 246: >
+Line 246: ID = rule
+Line 246: ,
+Line 246: ID = sizeof
+Line 246: (
+Line 246: ID = entry
+Line 246: -
+Line 246: >
+Line 246: ID = rule
+Line 246: )
+Line 246: )
+Line 246: ;
+Line 247: ID = list_for_each_entry
+Line 247: (
+Line 247: ID = entry
+Line 247: ,
+Line 247: Unrecognized token: 38
+Line 247: ID = audit_extlist
+Line 247: ,
+Line 247: ID = list
+Line 247: )
+Line 248: ID = audit_send_reply
+Line 248: (
+Line 248: ID = pid
+Line 248: ,
+Line 248: ID = seq
+Line 248: ,
+Line 248: ID = AUDIT_LIST
+Line 248: ,
+Line 248: INTCON = 0
+Line 248: ,
+Line 248: INTCON = 1
+Line 248: ,
+Line 249: Unrecognized token: 38
+Line 249: ID = entry
+Line 249: -
+Line 249: >
+Line 249: ID = rule
+Line 249: ,
+Line 249: ID = sizeof
+Line 249: (
+Line 249: ID = entry
+Line 249: -
+Line 249: >
+Line 249: ID = rule
+Line 249: )
+Line 249: )
+Line 249: ;
+Line 250: ID = audit_send_reply
+Line 250: (
+Line 250: ID = pid
+Line 250: ,
+Line 250: ID = seq
+Line 250: ,
+Line 250: ID = AUDIT_LIST
+Line 250: ,
+Line 250: INTCON = 1
+Line 250: ,
+Line 250: INTCON = 1
+Line 250: ,
+Line 250: ID = NULL
+Line 250: ,
+Line 250: INTCON = 0
+Line 250: )
+Line 250: ;
+Line 251: ID = break
+Line 251: ;
+Line 252: ID = case
+Line 252: ID = AUDIT_ADD
+Line 252: Unrecognized token: 58
+Line 253: if
+Line 253: (
+Line 253: !
+Line 253: ID = capable
+Line 253: (
+Line 253: ID = CAP_SYS_ADMIN
+Line 253: )
+Line 253: )
+Line 254: return
+Line 254: -
+Line 254: ID = EPERM
+Line 254: ;
+Line 255: if
+Line 255: (
+Line 255: !
+Line 255: (
+Line 255: ID = entry
+Line 255: =
+Line 255: ID = kmalloc
+Line 255: (
+Line 255: ID = sizeof
+Line 255: (
+Line 255: *
+Line 255: ID = entry
+Line 255: )
+Line 255: ,
+Line 255: ID = GFP_KERNEL
+Line 255: )
+Line 255: )
+Line 255: )
+Line 256: return
+Line 256: -
+Line 256: ID = ENOMEM
+Line 256: ;
+Line 257: if
+Line 257: (
+Line 257: ID = audit_copy_rule
+Line 257: (
+Line 257: Unrecognized token: 38
+Line 257: ID = entry
+Line 257: -
+Line 257: >
+Line 257: ID = rule
+Line 257: ,
+Line 257: ID = data
+Line 257: )
+Line 257: )
+Line 257: {
+Line 258: ID = kfree
+Line 258: (
+Line 258: ID = entry
+Line 258: )
+Line 258: ;
+Line 259: return
+Line 259: -
+Line 259: ID = EINVAL
+Line 259: ;
+Line 260: }
+Line 261: ID = flags
+Line 261: =
+Line 261: ID = entry
+Line 261: -
+Line 261: >
+Line 261: ID = rule
+Line 261: Unrecognized token: 46
+Line 261: ID = flags
+Line 261: ;
+Line 262: if
+Line 262: (
+Line 262: !
+Line 262: ID = err
+Line 262: &&
+Line 262: (
+Line 262: ID = flags
+Line 262: Unrecognized token: 38
+Line 262: ID = AUDIT_PER_TASK
+Line 262: )
+Line 262: )
+Line 263: ID = err
+Line 263: =
+Line 263: ID = audit_add_rule
+Line 263: (
+Line 263: ID = entry
+Line 263: ,
+Line 263: Unrecognized token: 38
+Line 263: ID = audit_tsklist
+Line 263: )
+Line 263: ;
+Line 264: if
+Line 264: (
+Line 264: !
+Line 264: ID = err
+Line 264: &&
+Line 264: (
+Line 264: ID = flags
+Line 264: Unrecognized token: 38
+Line 264: ID = AUDIT_AT_ENTRY
+Line 264: )
+Line 264: )
+Line 265: ID = err
+Line 265: =
+Line 265: ID = audit_add_rule
+Line 265: (
+Line 265: ID = entry
+Line 265: ,
+Line 265: Unrecognized token: 38
+Line 265: ID = audit_entlist
+Line 265: )
+Line 265: ;
+Line 266: if
+Line 266: (
+Line 266: !
+Line 266: ID = err
+Line 266: &&
+Line 266: (
+Line 266: ID = flags
+Line 266: Unrecognized token: 38
+Line 266: ID = AUDIT_AT_EXIT
+Line 266: )
+Line 266: )
+Line 267: ID = err
+Line 267: =
+Line 267: ID = audit_add_rule
+Line 267: (
+Line 267: ID = entry
+Line 267: ,
+Line 267: Unrecognized token: 38
+Line 267: ID = audit_extlist
+Line 267: )
+Line 267: ;
+Line 268: ID = break
+Line 268: ;
+Line 269: ID = case
+Line 269: ID = AUDIT_DEL
+Line 269: Unrecognized token: 58
+Line 270: ID = flags
+Line 270: =
+Line 270: (
+Line 270: (
+Line 270: ID = struct
+Line 270: ID = audit_rule
+Line 270: *
+Line 270: )
+Line 270: ID = data
+Line 270: )
+Line 270: -
+Line 270: >
+Line 270: ID = flags
+Line 270: ;
+Line 271: if
+Line 271: (
+Line 271: !
+Line 271: ID = err
+Line 271: &&
+Line 271: (
+Line 271: ID = flags
+Line 271: Unrecognized token: 38
+Line 271: ID = AUDIT_PER_TASK
+Line 271: )
+Line 271: )
+Line 272: ID = err
+Line 272: =
+Line 272: ID = audit_del_rule
+Line 272: (
+Line 272: ID = data
+Line 272: ,
+Line 272: Unrecognized token: 38
+Line 272: ID = audit_tsklist
+Line 272: )
+Line 272: ;
+Line 273: if
+Line 273: (
+Line 273: !
+Line 273: ID = err
+Line 273: &&
+Line 273: (
+Line 273: ID = flags
+Line 273: Unrecognized token: 38
+Line 273: ID = AUDIT_AT_ENTRY
+Line 273: )
+Line 273: )
+Line 274: ID = err
+Line 274: =
+Line 274: ID = audit_del_rule
+Line 274: (
+Line 274: ID = data
+Line 274: ,
+Line 274: Unrecognized token: 38
+Line 274: ID = audit_entlist
+Line 274: )
+Line 274: ;
+Line 275: if
+Line 275: (
+Line 275: !
+Line 275: ID = err
+Line 275: &&
+Line 275: (
+Line 275: ID = flags
+Line 275: Unrecognized token: 38
+Line 275: ID = AUDIT_AT_EXIT
+Line 275: )
+Line 275: )
+Line 276: ID = err
+Line 276: =
+Line 276: ID = audit_del_rule
+Line 276: (
+Line 276: ID = data
+Line 276: ,
+Line 276: Unrecognized token: 38
+Line 276: ID = audit_extlist
+Line 276: )
+Line 276: ;
+Line 277: ID = break
+Line 277: ;
+Line 278: ID = default
+Line 278: Unrecognized token: 58
+Line 279: return
+Line 279: -
+Line 279: ID = EINVAL
+Line 279: ;
+Line 280: }
+Line 282: return
+Line 282: ID = err
+Line 282: ;
+Line 283: }
+Line 284: Unrecognized token: 35
+Line 284: ID = endif
+Line 288: ID = static
+Line 288: int
+Line 288: ID = audit_filter_rules
+Line 288: (
+Line 288: ID = struct
+Line 288: ID = task_struct
+Line 288: *
+Line 288: ID = tsk
+Line 288: ,
+Line 289: ID = struct
+Line 289: ID = audit_rule
+Line 289: *
+Line 289: ID = rule
+Line 289: ,
+Line 290: ID = struct
+Line 290: ID = audit_context
+Line 290: *
+Line 290: ID = ctx
+Line 290: ,
+Line 291: ID = enum
+Line 291: ID = audit_state
+Line 291: *
+Line 291: ID = state
+Line 291: )
+Line 292: {
+Line 293: int
+Line 293: ID = i
+Line 293: ,
+Line 293: ID = j
+Line 293: ;
+Line 295: for
+Line 295: (
+Line 295: ID = i
+Line 295: =
+Line 295: INTCON = 0
+Line 295: ;
+Line 295: ID = i
+Line 295: <
+Line 295: ID = rule
+Line 295: -
+Line 295: >
+Line 295: ID = field_count
+Line 295: ;
+Line 295: ID = i
+Line 295: +
+Line 295: +
+Line 295: )
+Line 295: {
+Line 296: ID = u32
+Line 296: ID = field
+Line 296: =
+Line 296: ID = rule
+Line 296: -
+Line 296: >
+Line 296: ID = fields
+Line 296: [
+Line 296: ID = i
+Line 296: ]
+Line 296: Unrecognized token: 38
+Line 296: Unrecognized token: 126
+Line 296: ID = AUDIT_NEGATE
+Line 296: ;
+Line 297: ID = u32
+Line 297: ID = value
+Line 297: =
+Line 297: ID = rule
+Line 297: -
+Line 297: >
+Line 297: ID = values
+Line 297: [
+Line 297: ID = i
+Line 297: ]
+Line 297: ;
+Line 298: int
+Line 298: ID = result
+Line 298: =
+Line 298: INTCON = 0
+Line 298: ;
+Line 300: ID = switch
+Line 300: (
+Line 300: ID = field
+Line 300: )
+Line 300: {
+Line 301: ID = case
+Line 301: ID = AUDIT_PID
+Line 301: Unrecognized token: 58
+Line 302: ID = result
+Line 302: =
+Line 302: (
+Line 302: ID = tsk
+Line 302: -
+Line 302: >
+Line 302: ID = pid
+Line 302: ==
+Line 302: ID = value
+Line 302: )
+Line 302: ;
+Line 303: ID = break
+Line 303: ;
+Line 304: ID = case
+Line 304: ID = AUDIT_UID
+Line 304: Unrecognized token: 58
+Line 305: ID = result
+Line 305: =
+Line 305: (
+Line 305: ID = tsk
+Line 305: -
+Line 305: >
+Line 305: ID = uid
+Line 305: ==
+Line 305: ID = value
+Line 305: )
+Line 305: ;
+Line 306: ID = break
+Line 306: ;
+Line 307: ID = case
+Line 307: ID = AUDIT_EUID
+Line 307: Unrecognized token: 58
+Line 308: ID = result
+Line 308: =
+Line 308: (
+Line 308: ID = tsk
+Line 308: -
+Line 308: >
+Line 308: ID = euid
+Line 308: ==
+Line 308: ID = value
+Line 308: )
+Line 308: ;
+Line 309: ID = break
+Line 309: ;
+Line 310: ID = case
+Line 310: ID = AUDIT_SUID
+Line 310: Unrecognized token: 58
+Line 311: ID = result
+Line 311: =
+Line 311: (
+Line 311: ID = tsk
+Line 311: -
+Line 311: >
+Line 311: ID = suid
+Line 311: ==
+Line 311: ID = value
+Line 311: )
+Line 311: ;
+Line 312: ID = break
+Line 312: ;
+Line 313: ID = case
+Line 313: ID = AUDIT_FSUID
+Line 313: Unrecognized token: 58
+Line 314: ID = result
+Line 314: =
+Line 314: (
+Line 314: ID = tsk
+Line 314: -
+Line 314: >
+Line 314: ID = fsuid
+Line 314: ==
+Line 314: ID = value
+Line 314: )
+Line 314: ;
+Line 315: ID = break
+Line 315: ;
+Line 316: ID = case
+Line 316: ID = AUDIT_GID
+Line 316: Unrecognized token: 58
+Line 317: ID = result
+Line 317: =
+Line 317: (
+Line 317: ID = tsk
+Line 317: -
+Line 317: >
+Line 317: ID = gid
+Line 317: ==
+Line 317: ID = value
+Line 317: )
+Line 317: ;
+Line 318: ID = break
+Line 318: ;
+Line 319: ID = case
+Line 319: ID = AUDIT_EGID
+Line 319: Unrecognized token: 58
+Line 320: ID = result
+Line 320: =
+Line 320: (
+Line 320: ID = tsk
+Line 320: -
+Line 320: >
+Line 320: ID = egid
+Line 320: ==
+Line 320: ID = value
+Line 320: )
+Line 320: ;
+Line 321: ID = break
+Line 321: ;
+Line 322: ID = case
+Line 322: ID = AUDIT_SGID
+Line 322: Unrecognized token: 58
+Line 323: ID = result
+Line 323: =
+Line 323: (
+Line 323: ID = tsk
+Line 323: -
+Line 323: >
+Line 323: ID = sgid
+Line 323: ==
+Line 323: ID = value
+Line 323: )
+Line 323: ;
+Line 324: ID = break
+Line 324: ;
+Line 325: ID = case
+Line 325: ID = AUDIT_FSGID
+Line 325: Unrecognized token: 58
+Line 326: ID = result
+Line 326: =
+Line 326: (
+Line 326: ID = tsk
+Line 326: -
+Line 326: >
+Line 326: ID = fsgid
+Line 326: ==
+Line 326: ID = value
+Line 326: )
+Line 326: ;
+Line 327: ID = break
+Line 327: ;
+Line 328: ID = case
+Line 328: ID = AUDIT_PERS
+Line 328: Unrecognized token: 58
+Line 329: ID = result
+Line 329: =
+Line 329: (
+Line 329: ID = tsk
+Line 329: -
+Line 329: >
+Line 329: ID = personality
+Line 329: ==
+Line 329: ID = value
+Line 329: )
+Line 329: ;
+Line 330: ID = break
+Line 330: ;
+Line 332: ID = case
+Line 332: ID = AUDIT_EXIT
+Line 332: Unrecognized token: 58
+Line 333: if
+Line 333: (
+Line 333: ID = ctx
+Line 333: &&
+Line 333: ID = ctx
+Line 333: -
+Line 333: >
+Line 333: ID = return_valid
+Line 333: )
+Line 334: ID = result
+Line 334: =
+Line 334: (
+Line 334: ID = ctx
+Line 334: -
+Line 334: >
+Line 334: ID = return_code
+Line 334: ==
+Line 334: ID = value
+Line 334: )
+Line 334: ;
+Line 335: ID = break
+Line 335: ;
+Line 336: ID = case
+Line 336: ID = AUDIT_SUCCESS
+Line 336: Unrecognized token: 58
+Line 337: if
+Line 337: (
+Line 337: ID = ctx
+Line 337: &&
+Line 337: ID = ctx
+Line 337: -
+Line 337: >
+Line 337: ID = return_valid
+Line 337: )
+Line 338: ID = result
+Line 338: =
+Line 338: (
+Line 338: ID = ctx
+Line 338: -
+Line 338: >
+Line 338: ID = return_code
+Line 338: >=
+Line 338: INTCON = 0
+Line 338: )
+Line 338: ;
+Line 339: ID = break
+Line 339: ;
+Line 340: ID = case
+Line 340: ID = AUDIT_DEVMAJOR
+Line 340: Unrecognized token: 58
+Line 341: if
+Line 341: (
+Line 341: ID = ctx
+Line 341: )
+Line 341: {
+Line 342: for
+Line 342: (
+Line 342: ID = j
+Line 342: =
+Line 342: INTCON = 0
+Line 342: ;
+Line 342: ID = j
+Line 342: <
+Line 342: ID = ctx
+Line 342: -
+Line 342: >
+Line 342: ID = name_count
+Line 342: ;
+Line 342: ID = j
+Line 342: +
+Line 342: +
+Line 342: )
+Line 342: {
+Line 343: if
+Line 343: (
+Line 343: ID = MAJOR
+Line 343: (
+Line 343: ID = ctx
+Line 343: -
+Line 343: >
+Line 343: ID = names
+Line 343: [
+Line 343: ID = j
+Line 343: ]
+Line 343: Unrecognized token: 46
+Line 343: ID = rdev
+Line 343: )
+Line 343: ==
+Line 343: ID = value
+Line 343: )
+Line 343: {
+Line 344: +
+Line 344: +
+Line 344: ID = result
+Line 344: ;
+Line 345: ID = break
+Line 345: ;
+Line 346: }
+Line 347: }
+Line 348: }
+Line 349: ID = break
+Line 349: ;
+Line 350: ID = case
+Line 350: ID = AUDIT_DEVMINOR
+Line 350: Unrecognized token: 58
+Line 351: if
+Line 351: (
+Line 351: ID = ctx
+Line 351: )
+Line 351: {
+Line 352: for
+Line 352: (
+Line 352: ID = j
+Line 352: =
+Line 352: INTCON = 0
+Line 352: ;
+Line 352: ID = j
+Line 352: <
+Line 352: ID = ctx
+Line 352: -
+Line 352: >
+Line 352: ID = name_count
+Line 352: ;
+Line 352: ID = j
+Line 352: +
+Line 352: +
+Line 352: )
+Line 352: {
+Line 353: if
+Line 353: (
+Line 353: ID = MINOR
+Line 353: (
+Line 353: ID = ctx
+Line 353: -
+Line 353: >
+Line 353: ID = names
+Line 353: [
+Line 353: ID = j
+Line 353: ]
+Line 353: Unrecognized token: 46
+Line 353: ID = rdev
+Line 353: )
+Line 353: ==
+Line 353: ID = value
+Line 353: )
+Line 353: {
+Line 354: +
+Line 354: +
+Line 354: ID = result
+Line 354: ;
+Line 355: ID = break
+Line 355: ;
+Line 356: }
+Line 357: }
+Line 358: }
+Line 359: ID = break
+Line 359: ;
+Line 360: ID = case
+Line 360: ID = AUDIT_INODE
+Line 360: Unrecognized token: 58
+Line 361: if
+Line 361: (
+Line 361: ID = ctx
+Line 361: )
+Line 361: {
+Line 362: for
+Line 362: (
+Line 362: ID = j
+Line 362: =
+Line 362: INTCON = 0
+Line 362: ;
+Line 362: ID = j
+Line 362: <
+Line 362: ID = ctx
+Line 362: -
+Line 362: >
+Line 362: ID = name_count
+Line 362: ;
+Line 362: ID = j
+Line 362: +
+Line 362: +
+Line 362: )
+Line 362: {
+Line 363: if
+Line 363: (
+Line 363: ID = MINOR
+Line 363: (
+Line 363: ID = ctx
+Line 363: -
+Line 363: >
+Line 363: ID = names
+Line 363: [
+Line 363: ID = j
+Line 363: ]
+Line 363: Unrecognized token: 46
+Line 363: ID = ino
+Line 363: )
+Line 363: ==
+Line 363: ID = value
+Line 363: )
+Line 363: {
+Line 364: +
+Line 364: +
+Line 364: ID = result
+Line 364: ;
+Line 365: ID = break
+Line 365: ;
+Line 366: }
+Line 367: }
+Line 368: }
+Line 369: ID = break
+Line 369: ;
+Line 370: ID = case
+Line 370: ID = AUDIT_LOGINUID
+Line 370: Unrecognized token: 58
+Line 371: ID = result
+Line 371: =
+Line 371: INTCON = 0
+Line 371: ;
+Line 372: if
+Line 372: (
+Line 372: ID = ctx
+Line 372: )
+Line 373: ID = result
+Line 373: =
+Line 373: (
+Line 373: ID = ctx
+Line 373: -
+Line 373: >
+Line 373: ID = loginuid
+Line 373: ==
+Line 373: ID = value
+Line 373: )
+Line 373: ;
+Line 374: ID = break
+Line 374: ;
+Line 375: ID = case
+Line 375: ID = AUDIT_ARG0
+Line 375: Unrecognized token: 58
+Line 376: ID = case
+Line 376: ID = AUDIT_ARG1
+Line 376: Unrecognized token: 58
+Line 377: ID = case
+Line 377: ID = AUDIT_ARG2
+Line 377: Unrecognized token: 58
+Line 378: ID = case
+Line 378: ID = AUDIT_ARG3
+Line 378: Unrecognized token: 58
+Line 379: if
+Line 379: (
+Line 379: ID = ctx
+Line 379: )
+Line 380: ID = result
+Line 380: =
+Line 380: (
+Line 380: ID = ctx
+Line 380: -
+Line 380: >
+Line 380: ID = argv
+Line 380: [
+Line 380: ID = field
+Line 380: -
+Line 380: ID = AUDIT_ARG0
+Line 380: ]
+Line 380: ==
+Line 380: ID = value
+Line 380: )
+Line 380: ;
+Line 381: ID = break
+Line 381: ;
+Line 382: }
+Line 384: if
+Line 384: (
+Line 384: ID = rule
+Line 384: -
+Line 384: >
+Line 384: ID = fields
+Line 384: [
+Line 384: ID = i
+Line 384: ]
+Line 384: Unrecognized token: 38
+Line 384: ID = AUDIT_NEGATE
+Line 384: )
+Line 385: ID = result
+Line 385: =
+Line 385: !
+Line 385: ID = result
+Line 385: ;
+Line 386: if
+Line 386: (
+Line 386: !
+Line 386: ID = result
+Line 386: )
+Line 387: return
+Line 387: INTCON = 0
+Line 387: ;
+Line 388: }
+Line 389: ID = switch
+Line 389: (
+Line 389: ID = rule
+Line 389: -
+Line 389: >
+Line 389: ID = action
+Line 389: )
+Line 389: {
+Line 390: ID = case
+Line 390: ID = AUDIT_NEVER
+Line 390: Unrecognized token: 58
+Line 390: *
+Line 390: ID = state
+Line 390: =
+Line 390: ID = AUDIT_DISABLED
+Line 390: ;
+Line 390: ID = break
+Line 390: ;
+Line 391: ID = case
+Line 391: ID = AUDIT_POSSIBLE
+Line 391: Unrecognized token: 58
+Line 391: *
+Line 391: ID = state
+Line 391: =
+Line 391: ID = AUDIT_BUILD_CONTEXT
+Line 391: ;
+Line 391: ID = break
+Line 391: ;
+Line 392: ID = case
+Line 392: ID = AUDIT_ALWAYS
+Line 392: Unrecognized token: 58
+Line 392: *
+Line 392: ID = state
+Line 392: =
+Line 392: ID = AUDIT_RECORD_CONTEXT
+Line 392: ;
+Line 392: ID = break
+Line 392: ;
+Line 393: }
+Line 394: return
+Line 394: INTCON = 1
+Line 394: ;
+Line 395: }
+Line 401: ID = static
+Line 401: ID = enum
+Line 401: ID = audit_state
+Line 401: ID = audit_filter_task
+Line 401: (
+Line 401: ID = struct
+Line 401: ID = task_struct
+Line 401: *
+Line 401: ID = tsk
+Line 401: )
+Line 402: {
+Line 403: ID = struct
+Line 403: ID = audit_entry
+Line 403: *
+Line 403: ID = e
+Line 403: ;
+Line 404: ID = enum
+Line 404: ID = audit_state
+Line 404: ID = state
+Line 404: ;
+Line 406: ID = rcu_read_lock
+Line 406: (
+Line 406: )
+Line 406: ;
+Line 407: ID = list_for_each_entry_rcu
+Line 407: (
+Line 407: ID = e
+Line 407: ,
+Line 407: Unrecognized token: 38
+Line 407: ID = audit_tsklist
+Line 407: ,
+Line 407: ID = list
+Line 407: )
+Line 407: {
+Line 408: if
+Line 408: (
+Line 408: ID = audit_filter_rules
+Line 408: (
+Line 408: ID = tsk
+Line 408: ,
+Line 408: Unrecognized token: 38
+Line 408: ID = e
+Line 408: -
+Line 408: >
+Line 408: ID = rule
+Line 408: ,
+Line 408: ID = NULL
+Line 408: ,
+Line 408: Unrecognized token: 38
+Line 408: ID = state
+Line 408: )
+Line 408: )
+Line 408: {
+Line 409: ID = rcu_read_unlock
+Line 409: (
+Line 409: )
+Line 409: ;
+Line 410: return
+Line 410: ID = state
+Line 410: ;
+Line 411: }
+Line 412: }
+Line 413: ID = rcu_read_unlock
+Line 413: (
+Line 413: )
+Line 413: ;
+Line 414: return
+Line 414: ID = AUDIT_BUILD_CONTEXT
+Line 414: ;
+Line 415: }
+Line 422: ID = static
+Line 422: ID = enum
+Line 422: ID = audit_state
+Line 422: ID = audit_filter_syscall
+Line 422: (
+Line 422: ID = struct
+Line 422: ID = task_struct
+Line 422: *
+Line 422: ID = tsk
+Line 422: ,
+Line 423: ID = struct
+Line 423: ID = audit_context
+Line 423: *
+Line 423: ID = ctx
+Line 423: ,
+Line 424: ID = struct
+Line 424: ID = list_head
+Line 424: *
+Line 424: ID = list
+Line 424: )
+Line 425: {
+Line 426: ID = struct
+Line 426: ID = audit_entry
+Line 426: *
+Line 426: ID = e
+Line 426: ;
+Line 427: ID = enum
+Line 427: ID = audit_state
+Line 427: ID = state
+Line 427: ;
+Line 428: int
+Line 428: ID = word
+Line 428: =
+Line 428: ID = AUDIT_WORD
+Line 428: (
+Line 428: ID = ctx
+Line 428: -
+Line 428: >
+Line 428: ID = major
+Line 428: )
+Line 428: ;
+Line 429: int
+Line 429: ID = bit
+Line 429: =
+Line 429: ID = AUDIT_BIT
+Line 429: (
+Line 429: ID = ctx
+Line 429: -
+Line 429: >
+Line 429: ID = major
+Line 429: )
+Line 429: ;
+Line 431: ID = rcu_read_lock
+Line 431: (
+Line 431: )
+Line 431: ;
+Line 432: ID = list_for_each_entry_rcu
+Line 432: (
+Line 432: ID = e
+Line 432: ,
+Line 432: ID = list
+Line 432: ,
+Line 432: ID = list
+Line 432: )
+Line 432: {
+Line 433: if
+Line 433: (
+Line 433: (
+Line 433: ID = e
+Line 433: -
+Line 433: >
+Line 433: ID = rule
+Line 433: Unrecognized token: 46
+Line 433: ID = mask
+Line 433: [
+Line 433: ID = word
+Line 433: ]
+Line 433: Unrecognized token: 38
+Line 433: ID = bit
+Line 433: )
+Line 433: ==
+Line 433: ID = bit
+Line 434: &&
+Line 434: ID = audit_filter_rules
+Line 434: (
+Line 434: ID = tsk
+Line 434: ,
+Line 434: Unrecognized token: 38
+Line 434: ID = e
+Line 434: -
+Line 434: >
+Line 434: ID = rule
+Line 434: ,
+Line 434: ID = ctx
+Line 434: ,
+Line 434: Unrecognized token: 38
+Line 434: ID = state
+Line 434: )
+Line 434: )
+Line 434: {
+Line 435: ID = rcu_read_unlock
+Line 435: (
+Line 435: )
+Line 435: ;
+Line 436: return
+Line 436: ID = state
+Line 436: ;
+Line 437: }
+Line 438: }
+Line 439: ID = rcu_read_unlock
+Line 439: (
+Line 439: )
+Line 439: ;
+Line 440: return
+Line 440: ID = AUDIT_BUILD_CONTEXT
+Line 440: ;
+Line 441: }
+Line 444: ID = static
+Line 444: ID = inline
+Line 444: ID = struct
+Line 444: ID = audit_context
+Line 444: *
+Line 444: ID = audit_get_context
+Line 444: (
+Line 444: ID = struct
+Line 444: ID = task_struct
+Line 444: *
+Line 444: ID = tsk
+Line 444: ,
+Line 445: int
+Line 445: ID = return_valid
+Line 445: ,
+Line 446: int
+Line 446: ID = return_code
+Line 446: )
+Line 447: {
+Line 448: ID = struct
+Line 448: ID = audit_context
+Line 448: *
+Line 448: ID = context
+Line 448: =
+Line 448: ID = tsk
+Line 448: -
+Line 448: >
+Line 448: ID = audit_context
+Line 448: ;
+Line 450: if
+Line 450: (
+Line 450: ID = likely
+Line 450: (
+Line 450: !
+Line 450: ID = context
+Line 450: )
+Line 450: )
+Line 451: return
+Line 451: ID = NULL
+Line 451: ;
+Line 452: ID = context
+Line 452: -
+Line 452: >
+Line 452: ID = return_valid
+Line 452: =
+Line 452: ID = return_valid
+Line 452: ;
+Line 453: ID = context
+Line 453: -
+Line 453: >
+Line 453: ID = return_code
+Line 453: =
+Line 453: ID = return_code
+Line 453: ;
+Line 455: if
+Line 455: (
+Line 455: ID = context
+Line 455: -
+Line 455: >
+Line 455: ID = in_syscall
+Line 455: &&
+Line 455: !
+Line 455: ID = context
+Line 455: -
+Line 455: >
+Line 455: ID = auditable
+Line 455: )
+Line 455: {
+Line 456: ID = enum
+Line 456: ID = audit_state
+Line 456: ID = state
+Line 456: ;
+Line 457: ID = state
+Line 457: =
+Line 457: ID = audit_filter_syscall
+Line 457: (
+Line 457: ID = tsk
+Line 457: ,
+Line 457: ID = context
+Line 457: ,
+Line 457: Unrecognized token: 38
+Line 457: ID = audit_extlist
+Line 457: )
+Line 457: ;
+Line 458: if
+Line 458: (
+Line 458: ID = state
+Line 458: ==
+Line 458: ID = AUDIT_RECORD_CONTEXT
+Line 458: )
+Line 459: ID = context
+Line 459: -
+Line 459: >
+Line 459: ID = auditable
+Line 459: =
+Line 459: INTCON = 1
+Line 459: ;
+Line 460: }
+Line 462: ID = context
+Line 462: -
+Line 462: >
+Line 462: ID = pid
+Line 462: =
+Line 462: ID = tsk
+Line 462: -
+Line 462: >
+Line 462: ID = pid
+Line 462: ;
+Line 463: ID = context
+Line 463: -
+Line 463: >
+Line 463: ID = uid
+Line 463: =
+Line 463: ID = tsk
+Line 463: -
+Line 463: >
+Line 463: ID = uid
+Line 463: ;
+Line 464: ID = context
+Line 464: -
+Line 464: >
+Line 464: ID = gid
+Line 464: =
+Line 464: ID = tsk
+Line 464: -
+Line 464: >
+Line 464: ID = gid
+Line 464: ;
+Line 465: ID = context
+Line 465: -
+Line 465: >
+Line 465: ID = euid
+Line 465: =
+Line 465: ID = tsk
+Line 465: -
+Line 465: >
+Line 465: ID = euid
+Line 465: ;
+Line 466: ID = context
+Line 466: -
+Line 466: >
+Line 466: ID = suid
+Line 466: =
+Line 466: ID = tsk
+Line 466: -
+Line 466: >
+Line 466: ID = suid
+Line 466: ;
+Line 467: ID = context
+Line 467: -
+Line 467: >
+Line 467: ID = fsuid
+Line 467: =
+Line 467: ID = tsk
+Line 467: -
+Line 467: >
+Line 467: ID = fsuid
+Line 467: ;
+Line 468: ID = context
+Line 468: -
+Line 468: >
+Line 468: ID = egid
+Line 468: =
+Line 468: ID = tsk
+Line 468: -
+Line 468: >
+Line 468: ID = egid
+Line 468: ;
+Line 469: ID = context
+Line 469: -
+Line 469: >
+Line 469: ID = sgid
+Line 469: =
+Line 469: ID = tsk
+Line 469: -
+Line 469: >
+Line 469: ID = sgid
+Line 469: ;
+Line 470: ID = context
+Line 470: -
+Line 470: >
+Line 470: ID = fsgid
+Line 470: =
+Line 470: ID = tsk
+Line 470: -
+Line 470: >
+Line 470: ID = fsgid
+Line 470: ;
+Line 471: ID = context
+Line 471: -
+Line 471: >
+Line 471: ID = personality
+Line 471: =
+Line 471: ID = tsk
+Line 471: -
+Line 471: >
+Line 471: ID = personality
+Line 471: ;
+Line 472: ID = tsk
+Line 472: -
+Line 472: >
+Line 472: ID = audit_context
+Line 472: =
+Line 472: ID = NULL
+Line 472: ;
+Line 473: return
+Line 473: ID = context
+Line 473: ;
+Line 474: }
+Line 476: ID = static
+Line 476: ID = inline
+Line 476: void
+Line 476: ID = audit_free_names
+Line 476: (
+Line 476: ID = struct
+Line 476: ID = audit_context
+Line 476: *
+Line 476: ID = context
+Line 476: )
+Line 477: {
+Line 478: int
+Line 478: ID = i
+Line 478: ;
+Line 480: Unrecognized token: 35
+Line 480: if
+Line 480: ID = AUDIT_DEBUG
+Line 480: ==
+Line 480: INTCON = 2
+Line 481: if
+Line 481: (
+Line 481: ID = context
+Line 481: -
+Line 481: >
+Line 481: ID = auditable
+Line 482: ||
+Line 482: ID = context
+Line 482: -
+Line 482: >
+Line 482: ID = put_count
+Line 482: +
+Line 482: ID = context
+Line 482: -
+Line 482: >
+Line 482: ID = ino_count
+Line 482: !=
+Line 482: ID = context
+Line 482: -
+Line 482: >
+Line 482: ID = name_count
+Line 482: )
+Line 482: {
+Line 483: ID = printk
+Line 483: (
+Line 483: ID = KERN_ERR
+Line 483: STRINGCON = "audit.c:%d(:%d): major=%d in_syscall=%d"
+Line 484: STRINGCON = " name_count=%d put_count=%d"
+Line 485: STRINGCON = " ino_count=%d [NOT freeing]\n"
+Line 485: ,
+Line 486: Unrecognized token: 95
+Line 486: Unrecognized token: 95
+Line 486: ID = LINE__
+Line 486: ,
+Line 487: ID = context
+Line 487: -
+Line 487: >
+Line 487: ID = serial
+Line 487: ,
+Line 487: ID = context
+Line 487: -
+Line 487: >
+Line 487: ID = major
+Line 487: ,
+Line 487: ID = context
+Line 487: -
+Line 487: >
+Line 487: ID = in_syscall
+Line 487: ,
+Line 488: ID = context
+Line 488: -
+Line 488: >
+Line 488: ID = name_count
+Line 488: ,
+Line 488: ID = context
+Line 488: -
+Line 488: >
+Line 488: ID = put_count
+Line 488: ,
+Line 489: ID = context
+Line 489: -
+Line 489: >
+Line 489: ID = ino_count
+Line 489: )
+Line 489: ;
+Line 490: for
+Line 490: (
+Line 490: ID = i
+Line 490: =
+Line 490: INTCON = 0
+Line 490: ;
+Line 490: ID = i
+Line 490: <
+Line 490: ID = context
+Line 490: -
+Line 490: >
+Line 490: ID = name_count
+Line 490: ;
+Line 490: ID = i
+Line 490: +
+Line 490: +
+Line 490: )
+Line 491: ID = printk
+Line 491: (
+Line 491: ID = KERN_ERR
+Line 491: STRINGCON = "names[%d] = %p = %s\n"
+Line 491: ,
+Line 491: ID = i
+Line 491: ,
+Line 492: ID = context
+Line 492: -
+Line 492: >
+Line 492: ID = names
+Line 492: [
+Line 492: ID = i
+Line 492: ]
+Line 492: Unrecognized token: 46
+Line 492: ID = name
+Line 492: ,
+Line 493: ID = context
+Line 493: -
+Line 493: >
+Line 493: ID = names
+Line 493: [
+Line 493: ID = i
+Line 493: ]
+Line 493: Unrecognized token: 46
+Line 493: ID = name
+Line 493: )
+Line 493: ;
+Line 494: ID = dump_stack
+Line 494: (
+Line 494: )
+Line 494: ;
+Line 495: return
+Line 495: ;
+Line 496: }
+Line 497: Unrecognized token: 35
+Line 497: ID = endif
+Line 498: Unrecognized token: 35
+Line 498: if
+Line 498: ID = AUDIT_DEBUG
+Line 499: ID = context
+Line 499: -
+Line 499: >
+Line 499: ID = put_count
+Line 499: =
+Line 499: INTCON = 0
+Line 499: ;
+Line 500: ID = context
+Line 500: -
+Line 500: >
+Line 500: ID = ino_count
+Line 500: =
+Line 500: INTCON = 0
+Line 500: ;
+Line 501: Unrecognized token: 35
+Line 501: ID = endif
+Line 503: for
+Line 503: (
+Line 503: ID = i
+Line 503: =
+Line 503: INTCON = 0
+Line 503: ;
+Line 503: ID = i
+Line 503: <
+Line 503: ID = context
+Line 503: -
+Line 503: >
+Line 503: ID = name_count
+Line 503: ;
+Line 503: ID = i
+Line 503: +
+Line 503: +
+Line 503: )
+Line 504: if
+Line 504: (
+Line 504: ID = context
+Line 504: -
+Line 504: >
+Line 504: ID = names
+Line 504: [
+Line 504: ID = i
+Line 504: ]
+Line 504: Unrecognized token: 46
+Line 504: ID = name
+Line 504: )
+Line 505: Unrecognized token: 95
+Line 505: Unrecognized token: 95
+Line 505: ID = putname
+Line 505: (
+Line 505: ID = context
+Line 505: -
+Line 505: >
+Line 505: ID = names
+Line 505: [
+Line 505: ID = i
+Line 505: ]
+Line 505: Unrecognized token: 46
+Line 505: ID = name
+Line 505: )
+Line 505: ;
+Line 506: ID = context
+Line 506: -
+Line 506: >
+Line 506: ID = name_count
+Line 506: =
+Line 506: INTCON = 0
+Line 506: ;
+Line 507: }
+Line 509: ID = static
+Line 509: ID = inline
+Line 509: void
+Line 509: ID = audit_zero_context
+Line 509: (
+Line 509: ID = struct
+Line 509: ID = audit_context
+Line 509: *
+Line 509: ID = context
+Line 509: ,
+Line 510: ID = enum
+Line 510: ID = audit_state
+Line 510: ID = state
+Line 510: )
+Line 511: {
+Line 512: ID = uid_t
+Line 512: ID = loginuid
+Line 512: =
+Line 512: ID = context
+Line 512: -
+Line 512: >
+Line 512: ID = loginuid
+Line 512: ;
+Line 514: ID = memset
+Line 514: (
+Line 514: ID = context
+Line 514: ,
+Line 514: INTCON = 0
+Line 514: ,
+Line 514: ID = sizeof
+Line 514: (
+Line 514: *
+Line 514: ID = context
+Line 514: )
+Line 514: )
+Line 514: ;
+Line 515: ID = context
+Line 515: -
+Line 515: >
+Line 515: ID = state
+Line 515: =
+Line 515: ID = state
+Line 515: ;
+Line 516: ID = context
+Line 516: -
+Line 516: >
+Line 516: ID = loginuid
+Line 516: =
+Line 516: ID = loginuid
+Line 516: ;
+Line 517: }
+Line 519: ID = static
+Line 519: ID = inline
+Line 519: ID = struct
+Line 519: ID = audit_context
+Line 519: *
+Line 519: ID = audit_alloc_context
+Line 519: (
+Line 519: ID = enum
+Line 519: ID = audit_state
+Line 519: ID = state
+Line 519: )
+Line 520: {
+Line 521: ID = struct
+Line 521: ID = audit_context
+Line 521: *
+Line 521: ID = context
+Line 521: ;
+Line 523: if
+Line 523: (
+Line 523: !
+Line 523: (
+Line 523: ID = context
+Line 523: =
+Line 523: ID = kmalloc
+Line 523: (
+Line 523: ID = sizeof
+Line 523: (
+Line 523: *
+Line 523: ID = context
+Line 523: )
+Line 523: ,
+Line 523: ID = GFP_KERNEL
+Line 523: )
+Line 523: )
+Line 523: )
+Line 524: return
+Line 524: ID = NULL
+Line 524: ;
+Line 525: ID = audit_zero_context
+Line 525: (
+Line 525: ID = context
+Line 525: ,
+Line 525: ID = state
+Line 525: )
+Line 525: ;
+Line 526: return
+Line 526: ID = context
+Line 526: ;
+Line 527: }
+Line 533: int
+Line 533: ID = audit_alloc
+Line 533: (
+Line 533: ID = struct
+Line 533: ID = task_struct
+Line 533: *
+Line 533: ID = tsk
+Line 533: )
+Line 534: {
+Line 535: ID = struct
+Line 535: ID = audit_context
+Line 535: *
+Line 535: ID = context
+Line 535: ;
+Line 536: ID = enum
+Line 536: ID = audit_state
+Line 536: ID = state
+Line 536: ;
+Line 538: if
+Line 538: (
+Line 538: ID = likely
+Line 538: (
+Line 538: !
+Line 538: ID = audit_enabled
+Line 538: )
+Line 538: )
+Line 539: return
+Line 539: INTCON = 0
+Line 539: ;
+Line 541: ID = state
+Line 541: =
+Line 541: ID = audit_filter_task
+Line 541: (
+Line 541: ID = tsk
+Line 541: )
+Line 541: ;
+Line 542: if
+Line 542: (
+Line 542: ID = likely
+Line 542: (
+Line 542: ID = state
+Line 542: ==
+Line 542: ID = AUDIT_DISABLED
+Line 542: )
+Line 542: )
+Line 543: return
+Line 543: INTCON = 0
+Line 543: ;
+Line 545: if
+Line 545: (
+Line 545: !
+Line 545: (
+Line 545: ID = context
+Line 545: =
+Line 545: ID = audit_alloc_context
+Line 545: (
+Line 545: ID = state
+Line 545: )
+Line 545: )
+Line 545: )
+Line 545: {
+Line 546: ID = audit_log_lost
+Line 546: (
+Line 546: STRINGCON = "out of memory in audit_alloc"
+Line 546: )
+Line 546: ;
+Line 547: return
+Line 547: -
+Line 547: ID = ENOMEM
+Line 547: ;
+Line 548: }
+Line 551: ID = context
+Line 551: -
+Line 551: >
+Line 551: ID = loginuid
+Line 551: =
+Line 551: -
+Line 551: INTCON = 1
+Line 551: ;
+Line 552: if
+Line 552: (
+Line 552: ID = tsk
+Line 552: -
+Line 552: >
+Line 552: ID = audit_context
+Line 552: )
+Line 553: ID = context
+Line 553: -
+Line 553: >
+Line 553: ID = loginuid
+Line 553: =
+Line 553: ID = tsk
+Line 553: -
+Line 553: >
+Line 553: ID = audit_context
+Line 553: -
+Line 553: >
+Line 553: ID = loginuid
+Line 553: ;
+Line 555: ID = tsk
+Line 555: -
+Line 555: >
+Line 555: ID = audit_context
+Line 555: =
+Line 555: ID = context
+Line 555: ;
+Line 556: ID = set_tsk_thread_flag
+Line 556: (
+Line 556: ID = tsk
+Line 556: ,
+Line 556: ID = TIF_SYSCALL_AUDIT
+Line 556: )
+Line 556: ;
+Line 557: return
+Line 557: INTCON = 0
+Line 557: ;
+Line 558: }
+Line 560: ID = static
+Line 560: ID = inline
+Line 560: void
+Line 560: ID = audit_free_context
+Line 560: (
+Line 560: ID = struct
+Line 560: ID = audit_context
+Line 560: *
+Line 560: ID = context
+Line 560: )
+Line 561: {
+Line 562: ID = struct
+Line 562: ID = audit_context
+Line 562: *
+Line 562: ID = previous
+Line 562: ;
+Line 563: int
+Line 563: ID = count
+Line 563: =
+Line 563: INTCON = 0
+Line 563: ;
+Line 565: ID = do
+Line 565: {
+Line 566: ID = previous
+Line 566: =
+Line 566: ID = context
+Line 566: -
+Line 566: >
+Line 566: ID = previous
+Line 566: ;
+Line 567: if
+Line 567: (
+Line 567: ID = previous
+Line 567: ||
+Line 567: (
+Line 567: ID = count
+Line 567: &&
+Line 567: ID = count
+Line 567: <
+Line 567: INTCON = 10
+Line 567: )
+Line 567: )
+Line 567: {
+Line 568: +
+Line 568: +
+Line 568: ID = count
+Line 568: ;
+Line 569: ID = printk
+Line 569: (
+Line 569: ID = KERN_ERR
+Line 569: STRINGCON = "audit(:%d): major=%d name_count=%d:"
+Line 570: STRINGCON = " freeing multiple contexts (%d)\n"
+Line 570: ,
+Line 571: ID = context
+Line 571: -
+Line 571: >
+Line 571: ID = serial
+Line 571: ,
+Line 571: ID = context
+Line 571: -
+Line 571: >
+Line 571: ID = major
+Line 571: ,
+Line 572: ID = context
+Line 572: -
+Line 572: >
+Line 572: ID = name_count
+Line 572: ,
+Line 572: ID = count
+Line 572: )
+Line 572: ;
+Line 573: }
+Line 574: ID = audit_free_names
+Line 574: (
+Line 574: ID = context
+Line 574: )
+Line 574: ;
+Line 575: ID = kfree
+Line 575: (
+Line 575: ID = context
+Line 575: )
+Line 575: ;
+Line 576: ID = context
+Line 576: =
+Line 576: ID = previous
+Line 576: ;
+Line 577: }
+Line 577: while
+Line 577: (
+Line 577: ID = context
+Line 577: )
+Line 577: ;
+Line 578: if
+Line 578: (
+Line 578: ID = count
+Line 578: >=
+Line 578: INTCON = 10
+Line 578: )
+Line 579: ID = printk
+Line 579: (
+Line 579: ID = KERN_ERR
+Line 579: STRINGCON = "audit: freed %d contexts\n"
+Line 579: ,
+Line 579: ID = count
+Line 579: )
+Line 579: ;
+Line 580: }
+Line 582: ID = static
+Line 582: void
+Line 582: ID = audit_log_exit
+Line 582: (
+Line 582: ID = struct
+Line 582: ID = audit_context
+Line 582: *
+Line 582: ID = context
+Line 582: )
+Line 583: {
+Line 584: int
+Line 584: ID = i
+Line 584: ;
+Line 585: ID = struct
+Line 585: ID = audit_buffer
+Line 585: *
+Line 585: ID = ab
+Line 585: ;
+Line 587: ID = ab
+Line 587: =
+Line 587: ID = audit_log_start
+Line 587: (
+Line 587: ID = context
+Line 587: )
+Line 587: ;
+Line 588: if
+Line 588: (
+Line 588: !
+Line 588: ID = ab
+Line 588: )
+Line 589: return
+Line 589: ;
+Line 590: ID = audit_log_format
+Line 590: (
+Line 590: ID = ab
+Line 590: ,
+Line 590: STRINGCON = "syscall=%d"
+Line 590: ,
+Line 590: ID = context
+Line 590: -
+Line 590: >
+Line 590: ID = major
+Line 590: )
+Line 590: ;
+Line 591: if
+Line 591: (
+Line 591: ID = context
+Line 591: -
+Line 591: >
+Line 591: ID = personality
+Line 591: !=
+Line 591: ID = PER_LINUX
+Line 591: )
+Line 592: ID = audit_log_format
+Line 592: (
+Line 592: ID = ab
+Line 592: ,
+Line 592: STRINGCON = " per=%lx"
+Line 592: ,
+Line 592: ID = context
+Line 592: -
+Line 592: >
+Line 592: ID = personality
+Line 592: )
+Line 592: ;
+Line 593: if
+Line 593: (
+Line 593: ID = context
+Line 593: -
+Line 593: >
+Line 593: ID = return_valid
+Line 593: )
+Line 594: ID = audit_log_format
+Line 594: (
+Line 594: ID = ab
+Line 594: ,
+Line 594: STRINGCON = " exit=%u"
+Line 594: ,
+Line 594: ID = context
+Line 594: -
+Line 594: >
+Line 594: ID = return_code
+Line 594: )
+Line 594: ;
+Line 595: ID = audit_log_format
+Line 595: (
+Line 595: ID = ab
+Line 595: ,
+Line 596: STRINGCON = " a0=%lx a1=%lx a2=%lx a3=%lx items=%d"
+Line 597: STRINGCON = " pid=%d loginuid=%d uid=%d gid=%d"
+Line 598: STRINGCON = " euid=%d suid=%d fsuid=%d"
+Line 599: STRINGCON = " egid=%d sgid=%d fsgid=%d"
+Line 599: ,
+Line 600: ID = context
+Line 600: -
+Line 600: >
+Line 600: ID = argv
+Line 600: [
+Line 600: INTCON = 0
+Line 600: ]
+Line 600: ,
+Line 601: ID = context
+Line 601: -
+Line 601: >
+Line 601: ID = argv
+Line 601: [
+Line 601: INTCON = 1
+Line 601: ]
+Line 601: ,
+Line 602: ID = context
+Line 602: -
+Line 602: >
+Line 602: ID = argv
+Line 602: [
+Line 602: INTCON = 2
+Line 602: ]
+Line 602: ,
+Line 603: ID = context
+Line 603: -
+Line 603: >
+Line 603: ID = argv
+Line 603: [
+Line 603: INTCON = 3
+Line 603: ]
+Line 603: ,
+Line 604: ID = context
+Line 604: -
+Line 604: >
+Line 604: ID = name_count
+Line 604: ,
+Line 605: ID = context
+Line 605: -
+Line 605: >
+Line 605: ID = pid
+Line 605: ,
+Line 606: ID = context
+Line 606: -
+Line 606: >
+Line 606: ID = loginuid
+Line 606: ,
+Line 607: ID = context
+Line 607: -
+Line 607: >
+Line 607: ID = uid
+Line 607: ,
+Line 608: ID = context
+Line 608: -
+Line 608: >
+Line 608: ID = gid
+Line 608: ,
+Line 609: ID = context
+Line 609: -
+Line 609: >
+Line 609: ID = euid
+Line 609: ,
+Line 609: ID = context
+Line 609: -
+Line 609: >
+Line 609: ID = suid
+Line 609: ,
+Line 609: ID = context
+Line 609: -
+Line 609: >
+Line 609: ID = fsuid
+Line 609: ,
+Line 610: ID = context
+Line 610: -
+Line 610: >
+Line 610: ID = egid
+Line 610: ,
+Line 610: ID = context
+Line 610: -
+Line 610: >
+Line 610: ID = sgid
+Line 610: ,
+Line 610: ID = context
+Line 610: -
+Line 610: >
+Line 610: ID = fsgid
+Line 610: )
+Line 610: ;
+Line 611: ID = audit_log_end
+Line 611: (
+Line 611: ID = ab
+Line 611: )
+Line 611: ;
+Line 612: for
+Line 612: (
+Line 612: ID = i
+Line 612: =
+Line 612: INTCON = 0
+Line 612: ;
+Line 612: ID = i
+Line 612: <
+Line 612: ID = context
+Line 612: -
+Line 612: >
+Line 612: ID = name_count
+Line 612: ;
+Line 612: ID = i
+Line 612: +
+Line 612: +
+Line 612: )
+Line 612: {
+Line 613: ID = ab
+Line 613: =
+Line 613: ID = audit_log_start
+Line 613: (
+Line 613: ID = context
+Line 613: )
+Line 613: ;
+Line 614: if
+Line 614: (
+Line 614: !
+Line 614: ID = ab
+Line 614: )
+Line 615: ID = continue
+Line 615: ;
+Line 616: ID = audit_log_format
+Line 616: (
+Line 616: ID = ab
+Line 616: ,
+Line 616: STRINGCON = "item=%d"
+Line 616: ,
+Line 616: ID = i
+Line 616: )
+Line 616: ;
+Line 617: if
+Line 617: (
+Line 617: ID = context
+Line 617: -
+Line 617: >
+Line 617: ID = names
+Line 617: [
+Line 617: ID = i
+Line 617: ]
+Line 617: Unrecognized token: 46
+Line 617: ID = name
+Line 617: )
+Line 618: ID = audit_log_format
+Line 618: (
+Line 618: ID = ab
+Line 618: ,
+Line 618: STRINGCON = " name=%s"
+Line 618: ,
+Line 619: ID = context
+Line 619: -
+Line 619: >
+Line 619: ID = names
+Line 619: [
+Line 619: ID = i
+Line 619: ]
+Line 619: Unrecognized token: 46
+Line 619: ID = name
+Line 619: )
+Line 619: ;
+Line 620: if
+Line 620: (
+Line 620: ID = context
+Line 620: -
+Line 620: >
+Line 620: ID = names
+Line 620: [
+Line 620: ID = i
+Line 620: ]
+Line 620: Unrecognized token: 46
+Line 620: ID = ino
+Line 620: !=
+Line 620: (
+Line 620: ID = unsigned
+Line 620: ID = long
+Line 620: )
+Line 620: -
+Line 620: INTCON = 1
+Line 620: )
+Line 621: ID = audit_log_format
+Line 621: (
+Line 621: ID = ab
+Line 621: ,
+Line 621: STRINGCON = " inode=%lu"
+Line 621: ,
+Line 622: ID = context
+Line 622: -
+Line 622: >
+Line 622: ID = names
+Line 622: [
+Line 622: ID = i
+Line 622: ]
+Line 622: Unrecognized token: 46
+Line 622: ID = ino
+Line 622: )
+Line 622: ;
+Line 625: if
+Line 625: (
+Line 625: ID = context
+Line 625: -
+Line 625: >
+Line 625: ID = names
+Line 625: [
+Line 625: ID = i
+Line 625: ]
+Line 625: Unrecognized token: 46
+Line 625: ID = rdev
+Line 625: !=
+Line 625: -
+Line 625: INTCON = 1
+Line 625: )
+Line 626: ID = audit_log_format
+Line 626: (
+Line 626: ID = ab
+Line 626: ,
+Line 626: STRINGCON = " dev=%02x:%02x"
+Line 626: ,
+Line 627: ID = MAJOR
+Line 627: (
+Line 627: ID = context
+Line 627: -
+Line 627: >
+Line 627: ID = names
+Line 627: [
+Line 627: ID = i
+Line 627: ]
+Line 627: Unrecognized token: 46
+Line 627: ID = rdev
+Line 627: )
+Line 627: ,
+Line 628: ID = MINOR
+Line 628: (
+Line 628: ID = context
+Line 628: -
+Line 628: >
+Line 628: ID = names
+Line 628: [
+Line 628: ID = i
+Line 628: ]
+Line 628: Unrecognized token: 46
+Line 628: ID = rdev
+Line 628: )
+Line 628: )
+Line 628: ;
+Line 629: ID = audit_log_end
+Line 629: (
+Line 629: ID = ab
+Line 629: )
+Line 629: ;
+Line 630: }
+Line 631: }
+Line 635: void
+Line 635: ID = audit_free
+Line 635: (
+Line 635: ID = struct
+Line 635: ID = task_struct
+Line 635: *
+Line 635: ID = tsk
+Line 635: )
+Line 636: {
+Line 637: ID = struct
+Line 637: ID = audit_context
+Line 637: *
+Line 637: ID = context
+Line 637: ;
+Line 639: ID = task_lock
+Line 639: (
+Line 639: ID = tsk
+Line 639: )
+Line 639: ;
+Line 640: ID = context
+Line 640: =
+Line 640: ID = audit_get_context
+Line 640: (
+Line 640: ID = tsk
+Line 640: ,
+Line 640: INTCON = 0
+Line 640: ,
+Line 640: INTCON = 0
+Line 640: )
+Line 640: ;
+Line 641: ID = task_unlock
+Line 641: (
+Line 641: ID = tsk
+Line 641: )
+Line 641: ;
+Line 643: if
+Line 643: (
+Line 643: ID = likely
+Line 643: (
+Line 643: !
+Line 643: ID = context
+Line 643: )
+Line 643: )
+Line 644: return
+Line 644: ;
+Line 648: if
+Line 648: (
+Line 648: ID = context
+Line 648: -
+Line 648: >
+Line 648: ID = in_syscall
+Line 648: &&
+Line 648: ID = context
+Line 648: -
+Line 648: >
+Line 648: ID = auditable
+Line 648: )
+Line 649: ID = audit_log_exit
+Line 649: (
+Line 649: ID = context
+Line 649: )
+Line 649: ;
+Line 651: ID = audit_free_context
+Line 651: (
+Line 651: ID = context
+Line 651: )
+Line 651: ;
+Line 652: }
+Line 669: ID = static
+Line 669: ID = inline
+Line 669: ID = unsigned
+Line 669: int
+Line 669: ID = audit_serial
+Line 669: (
+Line 669: void
+Line 669: )
+Line 670: {
+Line 671: ID = static
+Line 671: ID = atomic_t
+Line 671: ID = serial
+Line 671: =
+Line 671: ID = ATOMIC_INIT
+Line 671: (
+Line 671: INTCON = 0
+Line 671: ID = xffffff
+Line 671: )
+Line 671: ;
+Line 672: ID = unsigned
+Line 672: int
+Line 672: ID = a
+Line 672: ,
+Line 672: ID = b
+Line 672: ;
+Line 674: ID = do
+Line 674: {
+Line 675: ID = a
+Line 675: =
+Line 675: ID = atomic_read
+Line 675: (
+Line 675: Unrecognized token: 38
+Line 675: ID = serial
+Line 675: )
+Line 675: ;
+Line 676: if
+Line 676: (
+Line 676: ID = atomic_dec_and_test
+Line 676: (
+Line 676: Unrecognized token: 38
+Line 676: ID = serial
+Line 676: )
+Line 676: )
+Line 677: ID = atomic_set
+Line 677: (
+Line 677: Unrecognized token: 38
+Line 677: ID = serial
+Line 677: ,
+Line 677: INTCON = 0
+Line 677: ID = xffffff
+Line 677: )
+Line 677: ;
+Line 678: ID = b
+Line 678: =
+Line 678: ID = atomic_read
+Line 678: (
+Line 678: Unrecognized token: 38
+Line 678: ID = serial
+Line 678: )
+Line 678: ;
+Line 679: }
+Line 679: while
+Line 679: (
+Line 679: ID = b
+Line 679: !=
+Line 679: ID = a
+Line 679: -
+Line 679: INTCON = 1
+Line 679: )
+Line 679: ;
+Line 681: return
+Line 681: INTCON = 0
+Line 681: ID = xffffff
+Line 681: -
+Line 681: ID = b
+Line 681: ;
+Line 682: }
+Line 691: void
+Line 691: ID = audit_syscall_entry
+Line 691: (
+Line 691: ID = struct
+Line 691: ID = task_struct
+Line 691: *
+Line 691: ID = tsk
+Line 691: ,
+Line 691: int
+Line 691: ID = major
+Line 691: ,
+Line 692: ID = unsigned
+Line 692: ID = long
+Line 692: ID = a1
+Line 692: ,
+Line 692: ID = unsigned
+Line 692: ID = long
+Line 692: ID = a2
+Line 692: ,
+Line 693: ID = unsigned
+Line 693: ID = long
+Line 693: ID = a3
+Line 693: ,
+Line 693: ID = unsigned
+Line 693: ID = long
+Line 693: ID = a4
+Line 693: )
+Line 694: {
+Line 695: ID = struct
+Line 695: ID = audit_context
+Line 695: *
+Line 695: ID = context
+Line 695: =
+Line 695: ID = tsk
+Line 695: -
+Line 695: >
+Line 695: ID = audit_context
+Line 695: ;
+Line 696: ID = enum
+Line 696: ID = audit_state
+Line 696: ID = state
+Line 696: ;
+Line 698: ID = BUG_ON
+Line 698: (
+Line 698: !
+Line 698: ID = context
+Line 698: )
+Line 698: ;
+Line 713: if
+Line 713: (
+Line 713: ID = context
+Line 713: -
+Line 713: >
+Line 713: ID = in_syscall
+Line 713: )
+Line 713: {
+Line 714: ID = struct
+Line 714: ID = audit_context
+Line 714: *
+Line 714: ID = newctx
+Line 714: ;
+Line 716: Unrecognized token: 35
+Line 716: if
+Line 716: ID = defined
+Line 716: (
+Line 716: Unrecognized token: 95
+Line 716: Unrecognized token: 95
+Line 716: ID = NR_vm86
+Line 716: )
+Line 716: &&
+Line 716: ID = defined
+Line 716: (
+Line 716: Unrecognized token: 95
+Line 716: Unrecognized token: 95
+Line 716: ID = NR_vm86old
+Line 716: )
+Line 718: if
+Line 718: (
+Line 718: ID = major
+Line 718: ==
+Line 718: Unrecognized token: 95
+Line 718: Unrecognized token: 95
+Line 718: ID = NR_vm86
+Line 718: ||
+Line 718: ID = major
+Line 718: ==
+Line 718: Unrecognized token: 95
+Line 718: Unrecognized token: 95
+Line 718: ID = NR_vm86old
+Line 718: )
+Line 719: return
+Line 719: ;
+Line 720: Unrecognized token: 35
+Line 720: ID = endif
+Line 721: Unrecognized token: 35
+Line 721: if
+Line 721: ID = AUDIT_DEBUG
+Line 722: ID = printk
+Line 722: (
+Line 722: ID = KERN_ERR
+Line 723: STRINGCON = "audit(:%d) pid=%d in syscall=%d;"
+Line 724: STRINGCON = " entering syscall=%d\n"
+Line 724: ,
+Line 725: ID = context
+Line 725: -
+Line 725: >
+Line 725: ID = serial
+Line 725: ,
+Line 725: ID = tsk
+Line 725: -
+Line 725: >
+Line 725: ID = pid
+Line 725: ,
+Line 725: ID = context
+Line 725: -
+Line 725: >
+Line 725: ID = major
+Line 725: ,
+Line 725: ID = major
+Line 725: )
+Line 725: ;
+Line 726: Unrecognized token: 35
+Line 726: ID = endif
+Line 727: ID = newctx
+Line 727: =
+Line 727: ID = audit_alloc_context
+Line 727: (
+Line 727: ID = context
+Line 727: -
+Line 727: >
+Line 727: ID = state
+Line 727: )
+Line 727: ;
+Line 728: if
+Line 728: (
+Line 728: ID = newctx
+Line 728: )
+Line 728: {
+Line 729: ID = newctx
+Line 729: -
+Line 729: >
+Line 729: ID = previous
+Line 729: =
+Line 729: ID = context
+Line 729: ;
+Line 730: ID = context
+Line 730: =
+Line 730: ID = newctx
+Line 730: ;
+Line 731: ID = tsk
+Line 731: -
+Line 731: >
+Line 731: ID = audit_context
+Line 731: =
+Line 731: ID = newctx
+Line 731: ;
+Line 732: }
+Line 732: else
+Line 732: {
+Line 737: ID = audit_zero_context
+Line 737: (
+Line 737: ID = context
+Line 737: ,
+Line 737: ID = context
+Line 737: -
+Line 737: >
+Line 737: ID = state
+Line 737: )
+Line 737: ;
+Line 738: }
+Line 739: }
+Line 740: ID = BUG_ON
+Line 740: (
+Line 740: ID = context
+Line 740: -
+Line 740: >
+Line 740: ID = in_syscall
+Line 740: ||
+Line 740: ID = context
+Line 740: -
+Line 740: >
+Line 740: ID = name_count
+Line 740: )
+Line 740: ;
+Line 742: if
+Line 742: (
+Line 742: !
+Line 742: ID = audit_enabled
+Line 742: )
+Line 743: return
+Line 743: ;
+Line 745: ID = context
+Line 745: -
+Line 745: >
+Line 745: ID = major
+Line 745: =
+Line 745: ID = major
+Line 745: ;
+Line 746: ID = context
+Line 746: -
+Line 746: >
+Line 746: ID = argv
+Line 746: [
+Line 746: INTCON = 0
+Line 746: ]
+Line 746: =
+Line 746: ID = a1
+Line 746: ;
+Line 747: ID = context
+Line 747: -
+Line 747: >
+Line 747: ID = argv
+Line 747: [
+Line 747: INTCON = 1
+Line 747: ]
+Line 747: =
+Line 747: ID = a2
+Line 747: ;
+Line 748: ID = context
+Line 748: -
+Line 748: >
+Line 748: ID = argv
+Line 748: [
+Line 748: INTCON = 2
+Line 748: ]
+Line 748: =
+Line 748: ID = a3
+Line 748: ;
+Line 749: ID = context
+Line 749: -
+Line 749: >
+Line 749: ID = argv
+Line 749: [
+Line 749: INTCON = 3
+Line 749: ]
+Line 749: =
+Line 749: ID = a4
+Line 749: ;
+Line 751: ID = state
+Line 751: =
+Line 751: ID = context
+Line 751: -
+Line 751: >
+Line 751: ID = state
+Line 751: ;
+Line 752: if
+Line 752: (
+Line 752: ID = state
+Line 752: ==
+Line 752: ID = AUDIT_SETUP_CONTEXT
+Line 752: ||
+Line 752: ID = state
+Line 752: ==
+Line 752: ID = AUDIT_BUILD_CONTEXT
+Line 752: )
+Line 753: ID = state
+Line 753: =
+Line 753: ID = audit_filter_syscall
+Line 753: (
+Line 753: ID = tsk
+Line 753: ,
+Line 753: ID = context
+Line 753: ,
+Line 753: Unrecognized token: 38
+Line 753: ID = audit_entlist
+Line 753: )
+Line 753: ;
+Line 754: if
+Line 754: (
+Line 754: ID = likely
+Line 754: (
+Line 754: ID = state
+Line 754: ==
+Line 754: ID = AUDIT_DISABLED
+Line 754: )
+Line 754: )
+Line 755: return
+Line 755: ;
+Line 757: ID = context
+Line 757: -
+Line 757: >
+Line 757: ID = serial
+Line 757: =
+Line 757: ID = audit_serial
+Line 757: (
+Line 757: )
+Line 757: ;
+Line 758: ID = context
+Line 758: -
+Line 758: >
+Line 758: ID = ctime
+Line 758: =
+Line 758: ID = CURRENT_TIME
+Line 758: ;
+Line 759: ID = context
+Line 759: -
+Line 759: >
+Line 759: ID = in_syscall
+Line 759: =
+Line 759: INTCON = 1
+Line 759: ;
+Line 760: ID = context
+Line 760: -
+Line 760: >
+Line 760: ID = auditable
+Line 760: =
+Line 760: !
+Line 760: !
+Line 760: (
+Line 760: ID = state
+Line 760: ==
+Line 760: ID = AUDIT_RECORD_CONTEXT
+Line 760: )
+Line 760: ;
+Line 761: }
+Line 768: void
+Line 768: ID = audit_syscall_exit
+Line 768: (
+Line 768: ID = struct
+Line 768: ID = task_struct
+Line 768: *
+Line 768: ID = tsk
+Line 768: ,
+Line 768: int
+Line 768: ID = return_code
+Line 768: )
+Line 769: {
+Line 770: ID = struct
+Line 770: ID = audit_context
+Line 770: *
+Line 770: ID = context
+Line 770: ;
+Line 772: ID = get_task_struct
+Line 772: (
+Line 772: ID = tsk
+Line 772: )
+Line 772: ;
+Line 773: ID = task_lock
+Line 773: (
+Line 773: ID = tsk
+Line 773: )
+Line 773: ;
+Line 774: ID = context
+Line 774: =
+Line 774: ID = audit_get_context
+Line 774: (
+Line 774: ID = tsk
+Line 774: ,
+Line 774: INTCON = 1
+Line 774: ,
+Line 774: ID = return_code
+Line 774: )
+Line 774: ;
+Line 775: ID = task_unlock
+Line 775: (
+Line 775: ID = tsk
+Line 775: )
+Line 775: ;
+Line 779: if
+Line 779: (
+Line 779: ID = likely
+Line 779: (
+Line 779: !
+Line 779: ID = context
+Line 779: )
+Line 779: )
+Line 780: return
+Line 780: ;
+Line 782: if
+Line 782: (
+Line 782: ID = context
+Line 782: -
+Line 782: >
+Line 782: ID = in_syscall
+Line 782: &&
+Line 782: ID = context
+Line 782: -
+Line 782: >
+Line 782: ID = auditable
+Line 782: )
+Line 783: ID = audit_log_exit
+Line 783: (
+Line 783: ID = context
+Line 783: )
+Line 783: ;
+Line 785: ID = context
+Line 785: -
+Line 785: >
+Line 785: ID = in_syscall
+Line 785: =
+Line 785: INTCON = 0
+Line 785: ;
+Line 786: ID = context
+Line 786: -
+Line 786: >
+Line 786: ID = auditable
+Line 786: =
+Line 786: INTCON = 0
+Line 786: ;
+Line 787: if
+Line 787: (
+Line 787: ID = context
+Line 787: -
+Line 787: >
+Line 787: ID = previous
+Line 787: )
+Line 787: {
+Line 788: ID = struct
+Line 788: ID = audit_context
+Line 788: *
+Line 788: ID = new_context
+Line 788: =
+Line 788: ID = context
+Line 788: -
+Line 788: >
+Line 788: ID = previous
+Line 788: ;
+Line 789: ID = context
+Line 789: -
+Line 789: >
+Line 789: ID = previous
+Line 789: =
+Line 789: ID = NULL
+Line 789: ;
+Line 790: ID = audit_free_context
+Line 790: (
+Line 790: ID = context
+Line 790: )
+Line 790: ;
+Line 791: ID = tsk
+Line 791: -
+Line 791: >
+Line 791: ID = audit_context
+Line 791: =
+Line 791: ID = new_context
+Line 791: ;
+Line 792: }
+Line 792: else
+Line 792: {
+Line 793: ID = audit_free_names
+Line 793: (
+Line 793: ID = context
+Line 793: )
+Line 793: ;
+Line 794: ID = audit_zero_context
+Line 794: (
+Line 794: ID = context
+Line 794: ,
+Line 794: ID = context
+Line 794: -
+Line 794: >
+Line 794: ID = state
+Line 794: )
+Line 794: ;
+Line 795: ID = tsk
+Line 795: -
+Line 795: >
+Line 795: ID = audit_context
+Line 795: =
+Line 795: ID = context
+Line 795: ;
+Line 796: }
+Line 797: ID = put_task_struct
+Line 797: (
+Line 797: ID = tsk
+Line 797: )
+Line 797: ;
+Line 798: }
+Line 801: void
+Line 801: ID = audit_getname
+Line 801: (
+Line 801: ID = const
+Line 801: char
+Line 801: *
+Line 801: ID = name
+Line 801: )
+Line 802: {
+Line 803: ID = struct
+Line 803: ID = audit_context
+Line 803: *
+Line 803: ID = context
+Line 803: =
+Line 803: ID = current
+Line 803: -
+Line 803: >
+Line 803: ID = audit_context
+Line 803: ;
+Line 805: ID = BUG_ON
+Line 805: (
+Line 805: !
+Line 805: ID = context
+Line 805: )
+Line 805: ;
+Line 806: if
+Line 806: (
+Line 806: !
+Line 806: ID = context
+Line 806: -
+Line 806: >
+Line 806: ID = in_syscall
+Line 806: )
+Line 806: {
+Line 807: Unrecognized token: 35
+Line 807: if
+Line 807: ID = AUDIT_DEBUG
+Line 807: ==
+Line 807: INTCON = 2
+Line 808: ID = printk
+Line 808: (
+Line 808: ID = KERN_ERR
+Line 808: STRINGCON = "%s:%d(:%d): ignoring getname(%p)\n"
+Line 808: ,
+Line 809: Unrecognized token: 95
+Line 809: Unrecognized token: 95
+Line 809: ID = FILE__
+Line 809: ,
+Line 809: Unrecognized token: 95
+Line 809: Unrecognized token: 95
+Line 809: ID = LINE__
+Line 809: ,
+Line 809: ID = context
+Line 809: -
+Line 809: >
+Line 809: ID = serial
+Line 809: ,
+Line 809: ID = name
+Line 809: )
+Line 809: ;
+Line 810: ID = dump_stack
+Line 810: (
+Line 810: )
+Line 810: ;
+Line 811: Unrecognized token: 35
+Line 811: ID = endif
+Line 812: return
+Line 812: ;
+Line 813: }
+Line 814: ID = BUG_ON
+Line 814: (
+Line 814: ID = context
+Line 814: -
+Line 814: >
+Line 814: ID = name_count
+Line 814: >=
+Line 814: ID = AUDIT_NAMES
+Line 814: )
+Line 814: ;
+Line 815: ID = context
+Line 815: -
+Line 815: >
+Line 815: ID = names
+Line 815: [
+Line 815: ID = context
+Line 815: -
+Line 815: >
+Line 815: ID = name_count
+Line 815: ]
+Line 815: Unrecognized token: 46
+Line 815: ID = name
+Line 815: =
+Line 815: ID = name
+Line 815: ;
+Line 816: ID = context
+Line 816: -
+Line 816: >
+Line 816: ID = names
+Line 816: [
+Line 816: ID = context
+Line 816: -
+Line 816: >
+Line 816: ID = name_count
+Line 816: ]
+Line 816: Unrecognized token: 46
+Line 816: ID = ino
+Line 816: =
+Line 816: (
+Line 816: ID = unsigned
+Line 816: ID = long
+Line 816: )
+Line 816: -
+Line 816: INTCON = 1
+Line 816: ;
+Line 817: ID = context
+Line 817: -
+Line 817: >
+Line 817: ID = names
+Line 817: [
+Line 817: ID = context
+Line 817: -
+Line 817: >
+Line 817: ID = name_count
+Line 817: ]
+Line 817: Unrecognized token: 46
+Line 817: ID = rdev
+Line 817: =
+Line 817: -
+Line 817: INTCON = 1
+Line 817: ;
+Line 818: +
+Line 818: +
+Line 818: ID = context
+Line 818: -
+Line 818: >
+Line 818: ID = name_count
+Line 818: ;
+Line 819: }
+Line 825: void
+Line 825: ID = audit_putname
+Line 825: (
+Line 825: ID = const
+Line 825: char
+Line 825: *
+Line 825: ID = name
+Line 825: )
+Line 826: {
+Line 827: ID = struct
+Line 827: ID = audit_context
+Line 827: *
+Line 827: ID = context
+Line 827: =
+Line 827: ID = current
+Line 827: -
+Line 827: >
+Line 827: ID = audit_context
+Line 827: ;
+Line 829: ID = BUG_ON
+Line 829: (
+Line 829: !
+Line 829: ID = context
+Line 829: )
+Line 829: ;
+Line 830: if
+Line 830: (
+Line 830: !
+Line 830: ID = context
+Line 830: -
+Line 830: >
+Line 830: ID = in_syscall
+Line 830: )
+Line 830: {
+Line 831: Unrecognized token: 35
+Line 831: if
+Line 831: ID = AUDIT_DEBUG
+Line 831: ==
+Line 831: INTCON = 2
+Line 832: ID = printk
+Line 832: (
+Line 832: ID = KERN_ERR
+Line 832: STRINGCON = "%s:%d(:%d): __putname(%p)\n"
+Line 832: ,
+Line 833: Unrecognized token: 95
+Line 833: Unrecognized token: 95
+Line 833: ID = FILE__
+Line 833: ,
+Line 833: Unrecognized token: 95
+Line 833: Unrecognized token: 95
+Line 833: ID = LINE__
+Line 833: ,
+Line 833: ID = context
+Line 833: -
+Line 833: >
+Line 833: ID = serial
+Line 833: ,
+Line 833: ID = name
+Line 833: )
+Line 833: ;
+Line 834: if
+Line 834: (
+Line 834: ID = context
+Line 834: -
+Line 834: >
+Line 834: ID = name_count
+Line 834: )
+Line 834: {
+Line 835: int
+Line 835: ID = i
+Line 835: ;
+Line 836: for
+Line 836: (
+Line 836: ID = i
+Line 836: =
+Line 836: INTCON = 0
+Line 836: ;
+Line 836: ID = i
+Line 836: <
+Line 836: ID = context
+Line 836: -
+Line 836: >
+Line 836: ID = name_count
+Line 836: ;
+Line 836: ID = i
+Line 836: +
+Line 836: +
+Line 836: )
+Line 837: ID = printk
+Line 837: (
+Line 837: ID = KERN_ERR
+Line 837: STRINGCON = "name[%d] = %p = %s\n"
+Line 837: ,
+Line 837: ID = i
+Line 837: ,
+Line 838: ID = context
+Line 838: -
+Line 838: >
+Line 838: ID = names
+Line 838: [
+Line 838: ID = i
+Line 838: ]
+Line 838: Unrecognized token: 46
+Line 838: ID = name
+Line 838: ,
+Line 839: ID = context
+Line 839: -
+Line 839: >
+Line 839: ID = names
+Line 839: [
+Line 839: ID = i
+Line 839: ]
+Line 839: Unrecognized token: 46
+Line 839: ID = name
+Line 839: )
+Line 839: ;
+Line 840: }
+Line 841: Unrecognized token: 35
+Line 841: ID = endif
+Line 842: Unrecognized token: 95
+Line 842: Unrecognized token: 95
+Line 842: ID = putname
+Line 842: (
+Line 842: ID = name
+Line 842: )
+Line 842: ;
+Line 843: }
+Line 844: Unrecognized token: 35
+Line 844: if
+Line 844: ID = AUDIT_DEBUG
+Line 845: else
+Line 845: {
+Line 846: +
+Line 846: +
+Line 846: ID = context
+Line 846: -
+Line 846: >
+Line 846: ID = put_count
+Line 846: ;
+Line 847: if
+Line 847: (
+Line 847: ID = context
+Line 847: -
+Line 847: >
+Line 847: ID = put_count
+Line 847: >
+Line 847: ID = context
+Line 847: -
+Line 847: >
+Line 847: ID = name_count
+Line 847: )
+Line 847: {
+Line 848: ID = printk
+Line 848: (
+Line 848: ID = KERN_ERR
+Line 848: STRINGCON = "%s:%d(:%d): major=%d"
+Line 849: STRINGCON = " in_syscall=%d putname(%p) name_count=%d"
+Line 850: STRINGCON = " put_count=%d\n"
+Line 850: ,
+Line 851: Unrecognized token: 95
+Line 851: Unrecognized token: 95
+Line 851: ID = FILE__
+Line 851: ,
+Line 851: Unrecognized token: 95
+Line 851: Unrecognized token: 95
+Line 851: ID = LINE__
+Line 851: ,
+Line 852: ID = context
+Line 852: -
+Line 852: >
+Line 852: ID = serial
+Line 852: ,
+Line 852: ID = context
+Line 852: -
+Line 852: >
+Line 852: ID = major
+Line 852: ,
+Line 853: ID = context
+Line 853: -
+Line 853: >
+Line 853: ID = in_syscall
+Line 853: ,
+Line 853: ID = name
+Line 853: ,
+Line 853: ID = context
+Line 853: -
+Line 853: >
+Line 853: ID = name_count
+Line 853: ,
+Line 854: ID = context
+Line 854: -
+Line 854: >
+Line 854: ID = put_count
+Line 854: )
+Line 854: ;
+Line 855: ID = dump_stack
+Line 855: (
+Line 855: )
+Line 855: ;
+Line 856: }
+Line 857: }
+Line 858: Unrecognized token: 35
+Line 858: ID = endif
+Line 859: }
+Line 863: void
+Line 863: ID = audit_inode
+Line 863: (
+Line 863: ID = const
+Line 863: char
+Line 863: *
+Line 863: ID = name
+Line 863: ,
+Line 863: ID = unsigned
+Line 863: ID = long
+Line 863: ID = ino
+Line 863: ,
+Line 863: ID = dev_t
+Line 863: ID = rdev
+Line 863: )
+Line 864: {
+Line 865: int
+Line 865: ID = idx
+Line 865: ;
+Line 866: ID = struct
+Line 866: ID = audit_context
+Line 866: *
+Line 866: ID = context
+Line 866: =
+Line 866: ID = current
+Line 866: -
+Line 866: >
+Line 866: ID = audit_context
+Line 866: ;
+Line 868: if
+Line 868: (
+Line 868: !
+Line 868: ID = context
+Line 868: -
+Line 868: >
+Line 868: ID = in_syscall
+Line 868: )
+Line 869: return
+Line 869: ;
+Line 870: if
+Line 870: (
+Line 870: ID = context
+Line 870: -
+Line 870: >
+Line 870: ID = name_count
+Line 871: &&
+Line 871: ID = context
+Line 871: -
+Line 871: >
+Line 871: ID = names
+Line 871: [
+Line 871: ID = context
+Line 871: -
+Line 871: >
+Line 871: ID = name_count
+Line 871: -
+Line 871: INTCON = 1
+Line 871: ]
+Line 871: Unrecognized token: 46
+Line 871: ID = name
+Line 872: &&
+Line 872: ID = context
+Line 872: -
+Line 872: >
+Line 872: ID = names
+Line 872: [
+Line 872: ID = context
+Line 872: -
+Line 872: >
+Line 872: ID = name_count
+Line 872: -
+Line 872: INTCON = 1
+Line 872: ]
+Line 872: Unrecognized token: 46
+Line 872: ID = name
+Line 872: ==
+Line 872: ID = name
+Line 872: )
+Line 873: ID = idx
+Line 873: =
+Line 873: ID = context
+Line 873: -
+Line 873: >
+Line 873: ID = name_count
+Line 873: -
+Line 873: INTCON = 1
+Line 873: ;
+Line 874: else
+Line 874: if
+Line 874: (
+Line 874: ID = context
+Line 874: -
+Line 874: >
+Line 874: ID = name_count
+Line 874: >
+Line 874: INTCON = 1
+Line 875: &&
+Line 875: ID = context
+Line 875: -
+Line 875: >
+Line 875: ID = names
+Line 875: [
+Line 875: ID = context
+Line 875: -
+Line 875: >
+Line 875: ID = name_count
+Line 875: -
+Line 875: INTCON = 2
+Line 875: ]
+Line 875: Unrecognized token: 46
+Line 875: ID = name
+Line 876: &&
+Line 876: ID = context
+Line 876: -
+Line 876: >
+Line 876: ID = names
+Line 876: [
+Line 876: ID = context
+Line 876: -
+Line 876: >
+Line 876: ID = name_count
+Line 876: -
+Line 876: INTCON = 2
+Line 876: ]
+Line 876: Unrecognized token: 46
+Line 876: ID = name
+Line 876: ==
+Line 876: ID = name
+Line 876: )
+Line 877: ID = idx
+Line 877: =
+Line 877: ID = context
+Line 877: -
+Line 877: >
+Line 877: ID = name_count
+Line 877: -
+Line 877: INTCON = 2
+Line 877: ;
+Line 878: else
+Line 878: {
+Line 881: if
+Line 881: (
+Line 881: ID = context
+Line 881: -
+Line 881: >
+Line 881: ID = name_count
+Line 881: >=
+Line 881: ID = AUDIT_NAMES
+Line 881: -
+Line 881: ID = AUDIT_NAMES_RESERVED
+Line 881: )
+Line 882: return
+Line 882: ;
+Line 883: ID = idx
+Line 883: =
+Line 883: ID = context
+Line 883: -
+Line 883: >
+Line 883: ID = name_count
+Line 883: +
+Line 883: +
+Line 883: ;
+Line 884: ID = context
+Line 884: -
+Line 884: >
+Line 884: ID = names
+Line 884: [
+Line 884: ID = idx
+Line 884: ]
+Line 884: Unrecognized token: 46
+Line 884: ID = name
+Line 884: =
+Line 884: ID = NULL
+Line 884: ;
+Line 885: Unrecognized token: 35
+Line 885: if
+Line 885: ID = AUDIT_DEBUG
+Line 886: +
+Line 886: +
+Line 886: ID = context
+Line 886: -
+Line 886: >
+Line 886: ID = ino_count
+Line 886: ;
+Line 887: Unrecognized token: 35
+Line 887: ID = endif
+Line 888: }
+Line 889: ID = context
+Line 889: -
+Line 889: >
+Line 889: ID = names
+Line 889: [
+Line 889: ID = idx
+Line 889: ]
+Line 889: Unrecognized token: 46
+Line 889: ID = ino
+Line 889: =
+Line 889: ID = ino
+Line 889: ;
+Line 890: ID = context
+Line 890: -
+Line 890: >
+Line 890: ID = names
+Line 890: [
+Line 890: ID = idx
+Line 890: ]
+Line 890: Unrecognized token: 46
+Line 890: ID = rdev
+Line 890: =
+Line 890: ID = rdev
+Line 890: ;
+Line 891: }
+Line 893: void
+Line 893: ID = audit_get_stamp
+Line 893: (
+Line 893: ID = struct
+Line 893: ID = audit_context
+Line 893: *
+Line 893: ID = ctx
+Line 893: ,
+Line 894: ID = struct
+Line 894: ID = timespec
+Line 894: *
+Line 894: ID = t
+Line 894: ,
+Line 894: int
+Line 894: *
+Line 894: ID = serial
+Line 894: )
+Line 895: {
+Line 896: if
+Line 896: (
+Line 896: ID = ctx
+Line 896: )
+Line 896: {
+Line 897: ID = t
+Line 897: -
+Line 897: >
+Line 897: ID = tv_sec
+Line 897: =
+Line 897: ID = ctx
+Line 897: -
+Line 897: >
+Line 897: ID = ctime
+Line 897: Unrecognized token: 46
+Line 897: ID = tv_sec
+Line 897: ;
+Line 898: ID = t
+Line 898: -
+Line 898: >
+Line 898: ID = tv_nsec
+Line 898: =
+Line 898: ID = ctx
+Line 898: -
+Line 898: >
+Line 898: ID = ctime
+Line 898: Unrecognized token: 46
+Line 898: ID = tv_nsec
+Line 898: ;
+Line 899: *
+Line 899: ID = serial
+Line 899: =
+Line 899: ID = ctx
+Line 899: -
+Line 899: >
+Line 899: ID = serial
+Line 899: ;
+Line 900: ID = ctx
+Line 900: -
+Line 900: >
+Line 900: ID = auditable
+Line 900: =
+Line 900: INTCON = 1
+Line 900: ;
+Line 901: }
+Line 901: else
+Line 901: {
+Line 902: *
+Line 902: ID = t
+Line 902: =
+Line 902: ID = CURRENT_TIME
+Line 902: ;
+Line 903: *
+Line 903: ID = serial
+Line 903: =
+Line 903: INTCON = 0
+Line 903: ;
+Line 904: }
+Line 905: }
+Line 907: int
+Line 907: ID = audit_set_loginuid
+Line 907: (
+Line 907: ID = struct
+Line 907: ID = audit_context
+Line 907: *
+Line 907: ID = ctx
+Line 907: ,
+Line 907: ID = uid_t
+Line 907: ID = loginuid
+Line 907: )
+Line 908: {
+Line 909: if
+Line 909: (
+Line 909: ID = ctx
+Line 909: )
+Line 909: {
+Line 910: if
+Line 910: (
+Line 910: ID = loginuid
+Line 910: <
+Line 910: INTCON = 0
+Line 910: )
+Line 911: return
+Line 911: -
+Line 911: ID = EINVAL
+Line 911: ;
+Line 912: ID = ctx
+Line 912: -
+Line 912: >
+Line 912: ID = loginuid
+Line 912: =
+Line 912: ID = loginuid
+Line 912: ;
+Line 913: }
+Line 914: return
+Line 914: INTCON = 0
+Line 914: ;
+Line 915: }
+Line 917: ID = EXPORT_SYMBOL_GPL
+Line 917: (
+Line 917: ID = audit_alloc
+Line 917: )
+Line 917: ;
+Line 918: ID = EXPORT_SYMBOL_GPL
+Line 918: (
+Line 918: ID = audit_free
+Line 918: )
+Line 918: ;
+Line 919: ID = EXPORT_SYMBOL_GPL
+Line 919: (
+Line 919: ID = audit_syscall_entry
+Line 919: )
+Line 919: ;
+Line 920: ID = EXPORT_SYMBOL_GPL
+Line 920: (
+Line 920: ID = audit_syscall_exit
+Line 920: )
+Line 920: ;
+Line 921: ID = EXPORT_SYMBOL_GPL
+Line 921: (
+Line 921: ID = audit_getname
+Line 921: )
+Line 921: ;
+Line 922: ID = EXPORT_SYMBOL_GPL
+Line 922: (
+Line 922: ID = audit_putname
+Line 922: )
+Line 922: ;
+Line 923: ID = EXPORT_SYMBOL_GPL
+Line 923: (
+Line 923: ID = audit_inode
+Line 923: )
+Line 923: ;
+Line 924: -EOF-

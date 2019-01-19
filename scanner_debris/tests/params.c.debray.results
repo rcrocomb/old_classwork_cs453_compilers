@@ -1,0 +1,1846 @@
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = moduleparam
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = kernel
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = string
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = errno
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = module
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 24: Unrecognized token: 35
+Line 24: if
+Line 24: INTCON = 0
+Line 25: Unrecognized token: 35
+Line 25: ID = define
+Line 25: ID = DEBUGP
+Line 25: ID = printk
+Line 26: Unrecognized token: 35
+Line 26: else
+Line 27: Unrecognized token: 35
+Line 27: ID = define
+Line 27: ID = DEBUGP
+Line 27: (
+Line 27: ID = fmt
+Line 27: ,
+Line 27: ID = a
+Line 27: Unrecognized token: 46
+Line 27: Unrecognized token: 46
+Line 27: Unrecognized token: 46
+Line 27: )
+Line 28: Unrecognized token: 35
+Line 28: ID = endif
+Line 30: ID = static
+Line 30: ID = inline
+Line 30: int
+Line 30: ID = dash2underscore
+Line 30: (
+Line 30: char
+Line 30: ID = c
+Line 30: )
+Line 31: {
+Line 32: if
+Line 32: (
+Line 32: ID = c
+Line 32: ==
+Line 32: CHARCON = '-'
+Line 32: )
+Line 33: return
+Line 33: CHARCON = '_'
+Line 33: ;
+Line 34: return
+Line 34: ID = c
+Line 34: ;
+Line 35: }
+Line 37: ID = static
+Line 37: ID = inline
+Line 37: int
+Line 37: ID = parameq
+Line 37: (
+Line 37: ID = const
+Line 37: char
+Line 37: *
+Line 37: ID = input
+Line 37: ,
+Line 37: ID = const
+Line 37: char
+Line 37: *
+Line 37: ID = paramname
+Line 37: )
+Line 38: {
+Line 39: ID = unsigned
+Line 39: int
+Line 39: ID = i
+Line 39: ;
+Line 40: for
+Line 40: (
+Line 40: ID = i
+Line 40: =
+Line 40: INTCON = 0
+Line 40: ;
+Line 40: ID = dash2underscore
+Line 40: (
+Line 40: ID = input
+Line 40: [
+Line 40: ID = i
+Line 40: ]
+Line 40: )
+Line 40: ==
+Line 40: ID = paramname
+Line 40: [
+Line 40: ID = i
+Line 40: ]
+Line 40: ;
+Line 40: ID = i
+Line 40: +
+Line 40: +
+Line 40: )
+Line 41: if
+Line 41: (
+Line 41: ID = input
+Line 41: [
+Line 41: ID = i
+Line 41: ]
+Line 41: ==
+Line 41: CHARCON = '\0'
+Line 41: )
+Line 42: return
+Line 42: INTCON = 1
+Line 42: ;
+Line 43: return
+Line 43: INTCON = 0
+Line 43: ;
+Line 44: }
+Line 46: ID = static
+Line 46: int
+Line 46: ID = parse_one
+Line 46: (
+Line 46: char
+Line 46: *
+Line 46: ID = param
+Line 46: ,
+Line 47: char
+Line 47: *
+Line 47: ID = val
+Line 47: ,
+Line 48: ID = struct
+Line 48: ID = kernel_param
+Line 48: *
+Line 48: ID = params
+Line 48: ,
+Line 49: ID = unsigned
+Line 49: ID = num_params
+Line 49: ,
+Line 50: int
+Line 50: (
+Line 50: *
+Line 50: ID = handle_unknown
+Line 50: )
+Line 50: (
+Line 50: char
+Line 50: *
+Line 50: ID = param
+Line 50: ,
+Line 50: char
+Line 50: *
+Line 50: ID = val
+Line 50: )
+Line 50: )
+Line 51: {
+Line 52: ID = unsigned
+Line 52: int
+Line 52: ID = i
+Line 52: ;
+Line 55: for
+Line 55: (
+Line 55: ID = i
+Line 55: =
+Line 55: INTCON = 0
+Line 55: ;
+Line 55: ID = i
+Line 55: <
+Line 55: ID = num_params
+Line 55: ;
+Line 55: ID = i
+Line 55: +
+Line 55: +
+Line 55: )
+Line 55: {
+Line 56: if
+Line 56: (
+Line 56: ID = parameq
+Line 56: (
+Line 56: ID = param
+Line 56: ,
+Line 56: ID = params
+Line 56: [
+Line 56: ID = i
+Line 56: ]
+Line 56: Unrecognized token: 46
+Line 56: ID = name
+Line 56: )
+Line 56: )
+Line 56: {
+Line 57: ID = DEBUGP
+Line 57: (
+Line 57: STRINGCON = "They are equal!  Calling %p\n"
+Line 57: ,
+Line 58: ID = params
+Line 58: [
+Line 58: ID = i
+Line 58: ]
+Line 58: Unrecognized token: 46
+Line 58: ID = set
+Line 58: )
+Line 58: ;
+Line 59: return
+Line 59: ID = params
+Line 59: [
+Line 59: ID = i
+Line 59: ]
+Line 59: Unrecognized token: 46
+Line 59: ID = set
+Line 59: (
+Line 59: ID = val
+Line 59: ,
+Line 59: Unrecognized token: 38
+Line 59: ID = params
+Line 59: [
+Line 59: ID = i
+Line 59: ]
+Line 59: )
+Line 59: ;
+Line 60: }
+Line 61: }
+Line 63: if
+Line 63: (
+Line 63: ID = handle_unknown
+Line 63: )
+Line 63: {
+Line 64: ID = DEBUGP
+Line 64: (
+Line 64: STRINGCON = "Unknown argument: calling %p\n"
+Line 64: ,
+Line 64: ID = handle_unknown
+Line 64: )
+Line 64: ;
+Line 65: return
+Line 65: ID = handle_unknown
+Line 65: (
+Line 65: ID = param
+Line 65: ,
+Line 65: ID = val
+Line 65: )
+Line 65: ;
+Line 66: }
+Line 68: ID = DEBUGP
+Line 68: (
+Line 68: STRINGCON = "Unknown argument `%s'\n"
+Line 68: ,
+Line 68: ID = param
+Line 68: )
+Line 68: ;
+Line 69: return
+Line 69: -
+Line 69: ID = ENOENT
+Line 69: ;
+Line 70: }
+Line 74: ID = static
+Line 74: char
+Line 74: *
+Line 74: ID = next_arg
+Line 74: (
+Line 74: char
+Line 74: *
+Line 74: ID = args
+Line 74: ,
+Line 74: char
+Line 74: *
+Line 74: *
+Line 74: ID = param
+Line 74: ,
+Line 74: char
+Line 74: *
+Line 74: *
+Line 74: ID = val
+Line 74: )
+Line 75: {
+Line 76: ID = unsigned
+Line 76: int
+Line 76: ID = i
+Line 76: ,
+Line 76: ID = equals
+Line 76: =
+Line 76: INTCON = 0
+Line 76: ;
+Line 77: int
+Line 77: ID = in_quote
+Line 77: =
+Line 77: INTCON = 0
+Line 77: ;
+Line 80: while
+Line 80: (
+Line 80: *
+Line 80: ID = args
+Line 80: ==
+Line 80: CHARCON = ' '
+Line 80: )
+Line 80: ID = args
+Line 80: +
+Line 80: +
+Line 80: ;
+Line 82: for
+Line 82: (
+Line 82: ID = i
+Line 82: =
+Line 82: INTCON = 0
+Line 82: ;
+Line 82: ID = args
+Line 82: [
+Line 82: ID = i
+Line 82: ]
+Line 82: ;
+Line 82: ID = i
+Line 82: +
+Line 82: +
+Line 82: )
+Line 82: {
+Line 83: if
+Line 83: (
+Line 83: ID = args
+Line 83: [
+Line 83: ID = i
+Line 83: ]
+Line 83: ==
+Line 83: CHARCON = ' '
+Line 83: &&
+Line 83: !
+Line 83: ID = in_quote
+Line 83: )
+Line 84: ID = break
+Line 84: ;
+Line 85: if
+Line 85: (
+Line 85: ID = equals
+Line 85: ==
+Line 85: INTCON = 0
+Line 85: )
+Line 85: {
+Line 86: if
+Line 86: (
+Line 86: ID = args
+Line 86: [
+Line 86: ID = i
+Line 86: ]
+Line 86: ==
+Line 86: CHARCON = '='
+Line 86: )
+Line 87: ID = equals
+Line 87: =
+Line 87: ID = i
+Line 87: ;
+Line 88: }
+Line 89: if
+Line 89: (
+Line 89: ID = args
+Line 89: [
+Line 89: ID = i
+Line 89: ]
+Line 89: ==
+Line 89: CHARCON = '"'
+Line 89: )
+Line 90: ID = in_quote
+Line 90: =
+Line 90: !
+Line 90: ID = in_quote
+Line 90: ;
+Line 91: }
+Line 93: *
+Line 93: ID = param
+Line 93: =
+Line 93: ID = args
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: !
+Line 94: ID = equals
+Line 94: )
+Line 95: *
+Line 95: ID = val
+Line 95: =
+Line 95: ID = NULL
+Line 95: ;
+Line 96: else
+Line 96: {
+Line 97: ID = args
+Line 97: [
+Line 97: ID = equals
+Line 97: ]
+Line 97: =
+Line 97: CHARCON = '\0'
+Line 97: ;
+Line 98: *
+Line 98: ID = val
+Line 98: =
+Line 98: ID = args
+Line 98: +
+Line 98: ID = equals
+Line 98: +
+Line 98: INTCON = 1
+Line 98: ;
+Line 101: if
+Line 101: (
+Line 101: *
+Line 101: *
+Line 101: ID = val
+Line 101: ==
+Line 101: CHARCON = '"'
+Line 101: )
+Line 101: {
+Line 102: (
+Line 102: *
+Line 102: ID = val
+Line 102: )
+Line 102: +
+Line 102: +
+Line 102: ;
+Line 103: if
+Line 103: (
+Line 103: ID = args
+Line 103: [
+Line 103: ID = i
+Line 103: -
+Line 103: INTCON = 1
+Line 103: ]
+Line 103: ==
+Line 103: CHARCON = '"'
+Line 103: )
+Line 104: ID = args
+Line 104: [
+Line 104: ID = i
+Line 104: -
+Line 104: INTCON = 1
+Line 104: ]
+Line 104: =
+Line 104: CHARCON = '\0'
+Line 104: ;
+Line 105: }
+Line 106: }
+Line 108: if
+Line 108: (
+Line 108: ID = args
+Line 108: [
+Line 108: ID = i
+Line 108: ]
+Line 108: )
+Line 108: {
+Line 109: ID = args
+Line 109: [
+Line 109: ID = i
+Line 109: ]
+Line 109: =
+Line 109: CHARCON = '\0'
+Line 109: ;
+Line 110: return
+Line 110: ID = args
+Line 110: +
+Line 110: ID = i
+Line 110: +
+Line 110: INTCON = 1
+Line 110: ;
+Line 111: }
+Line 111: else
+Line 112: return
+Line 112: ID = args
+Line 112: +
+Line 112: ID = i
+Line 112: ;
+Line 113: }
+Line 116: int
+Line 116: ID = parse_args
+Line 116: (
+Line 116: ID = const
+Line 116: char
+Line 116: *
+Line 116: ID = name
+Line 116: ,
+Line 117: char
+Line 117: *
+Line 117: ID = args
+Line 117: ,
+Line 118: ID = struct
+Line 118: ID = kernel_param
+Line 118: *
+Line 118: ID = params
+Line 118: ,
+Line 119: ID = unsigned
+Line 119: ID = num
+Line 119: ,
+Line 120: int
+Line 120: (
+Line 120: *
+Line 120: ID = unknown
+Line 120: )
+Line 120: (
+Line 120: char
+Line 120: *
+Line 120: ID = param
+Line 120: ,
+Line 120: char
+Line 120: *
+Line 120: ID = val
+Line 120: )
+Line 120: )
+Line 121: {
+Line 122: char
+Line 122: *
+Line 122: ID = param
+Line 122: ,
+Line 122: *
+Line 122: ID = val
+Line 122: ;
+Line 124: ID = DEBUGP
+Line 124: (
+Line 124: STRINGCON = "Parsing ARGS: %s\n"
+Line 124: ,
+Line 124: ID = args
+Line 124: )
+Line 124: ;
+Line 126: while
+Line 126: (
+Line 126: *
+Line 126: ID = args
+Line 126: )
+Line 126: {
+Line 127: int
+Line 127: ID = ret
+Line 127: ;
+Line 129: ID = args
+Line 129: =
+Line 129: ID = next_arg
+Line 129: (
+Line 129: ID = args
+Line 129: ,
+Line 129: Unrecognized token: 38
+Line 129: ID = param
+Line 129: ,
+Line 129: Unrecognized token: 38
+Line 129: ID = val
+Line 129: )
+Line 129: ;
+Line 130: ID = ret
+Line 130: =
+Line 130: ID = parse_one
+Line 130: (
+Line 130: ID = param
+Line 130: ,
+Line 130: ID = val
+Line 130: ,
+Line 130: ID = params
+Line 130: ,
+Line 130: ID = num
+Line 130: ,
+Line 130: ID = unknown
+Line 130: )
+Line 130: ;
+Line 131: ID = switch
+Line 131: (
+Line 131: ID = ret
+Line 131: )
+Line 131: {
+Line 132: ID = case
+Line 132: -
+Line 132: ID = ENOENT
+Line 132: Unrecognized token: 58
+Line 133: ID = printk
+Line 133: (
+Line 133: ID = KERN_ERR
+Line 133: STRINGCON = "%s: Unknown parameter `%s'\n"
+Line 133: ,
+Line 134: ID = name
+Line 134: ,
+Line 134: ID = param
+Line 134: )
+Line 134: ;
+Line 135: return
+Line 135: ID = ret
+Line 135: ;
+Line 136: ID = case
+Line 136: -
+Line 136: ID = ENOSPC
+Line 136: Unrecognized token: 58
+Line 137: ID = printk
+Line 137: (
+Line 137: ID = KERN_ERR
+Line 138: STRINGCON = "%s: `%s' too large for parameter `%s'\n"
+Line 138: ,
+Line 139: ID = name
+Line 139: ,
+Line 139: ID = val
+Line 139: Unrecognized token: 63
+Line 139: Unrecognized token: 58
+Line 139: STRINGCON = ""
+Line 139: ,
+Line 139: ID = param
+Line 139: )
+Line 139: ;
+Line 140: return
+Line 140: ID = ret
+Line 140: ;
+Line 141: ID = case
+Line 141: INTCON = 0
+Line 141: Unrecognized token: 58
+Line 142: ID = break
+Line 142: ;
+Line 143: ID = default
+Line 143: Unrecognized token: 58
+Line 144: ID = printk
+Line 144: (
+Line 144: ID = KERN_ERR
+Line 145: STRINGCON = "%s: `%s' invalid for parameter `%s'\n"
+Line 145: ,
+Line 146: ID = name
+Line 146: ,
+Line 146: ID = val
+Line 146: Unrecognized token: 63
+Line 146: Unrecognized token: 58
+Line 146: STRINGCON = ""
+Line 146: ,
+Line 146: ID = param
+Line 146: )
+Line 146: ;
+Line 147: return
+Line 147: ID = ret
+Line 147: ;
+Line 148: }
+Line 149: }
+Line 152: return
+Line 152: INTCON = 0
+Line 152: ;
+Line 153: }
+Line 156: Unrecognized token: 35
+Line 156: ID = define
+Line 156: ID = STANDARD_PARAM_DEF
+Line 156: (
+Line 156: ID = name
+Line 156: ,
+Line 156: ID = type
+Line 156: ,
+Line 156: ID = format
+Line 156: ,
+Line 156: ID = tmptype
+Line 156: ,
+Line 156: ID = strtolfn
+Line 156: )
+Line 156: Unrecognized token: 92
+Line 157: int
+Line 157: ID = param_set_
+Line 157: Unrecognized token: 35
+Line 157: Unrecognized token: 35
+Line 157: ID = name
+Line 157: (
+Line 157: ID = const
+Line 157: char
+Line 157: *
+Line 157: ID = val
+Line 157: ,
+Line 157: ID = struct
+Line 157: ID = kernel_param
+Line 157: *
+Line 157: ID = kp
+Line 157: )
+Line 157: Unrecognized token: 92
+Line 158: {
+Line 158: Unrecognized token: 92
+Line 159: char
+Line 159: *
+Line 159: ID = endp
+Line 159: ;
+Line 159: Unrecognized token: 92
+Line 160: ID = tmptype
+Line 160: ID = l
+Line 160: ;
+Line 160: Unrecognized token: 92
+Line 161: Unrecognized token: 92
+Line 162: if
+Line 162: (
+Line 162: !
+Line 162: ID = val
+Line 162: )
+Line 162: return
+Line 162: -
+Line 162: ID = EINVAL
+Line 162: ;
+Line 162: Unrecognized token: 92
+Line 163: ID = l
+Line 163: =
+Line 163: ID = strtolfn
+Line 163: (
+Line 163: ID = val
+Line 163: ,
+Line 163: Unrecognized token: 38
+Line 163: ID = endp
+Line 163: ,
+Line 163: INTCON = 0
+Line 163: )
+Line 163: ;
+Line 163: Unrecognized token: 92
+Line 164: if
+Line 164: (
+Line 164: ID = endp
+Line 164: ==
+Line 164: ID = val
+Line 164: ||
+Line 164: (
+Line 164: (
+Line 164: ID = type
+Line 164: )
+Line 164: ID = l
+Line 164: !=
+Line 164: ID = l
+Line 164: )
+Line 164: )
+Line 164: Unrecognized token: 92
+Line 165: return
+Line 165: -
+Line 165: ID = EINVAL
+Line 165: ;
+Line 165: Unrecognized token: 92
+Line 166: *
+Line 166: (
+Line 166: (
+Line 166: ID = type
+Line 166: *
+Line 166: )
+Line 166: ID = kp
+Line 166: -
+Line 166: >
+Line 166: ID = arg
+Line 166: )
+Line 166: =
+Line 166: ID = l
+Line 166: ;
+Line 166: Unrecognized token: 92
+Line 167: return
+Line 167: INTCON = 0
+Line 167: ;
+Line 167: Unrecognized token: 92
+Line 168: }
+Line 168: Unrecognized token: 92
+Line 169: int
+Line 169: ID = param_get_
+Line 169: Unrecognized token: 35
+Line 169: Unrecognized token: 35
+Line 169: ID = name
+Line 169: (
+Line 169: char
+Line 169: *
+Line 169: ID = buffer
+Line 169: ,
+Line 169: ID = struct
+Line 169: ID = kernel_param
+Line 169: *
+Line 169: ID = kp
+Line 169: )
+Line 169: Unrecognized token: 92
+Line 170: {
+Line 170: Unrecognized token: 92
+Line 171: return
+Line 171: ID = sprintf
+Line 171: (
+Line 171: ID = buffer
+Line 171: ,
+Line 171: ID = format
+Line 171: ,
+Line 171: *
+Line 171: (
+Line 171: (
+Line 171: ID = type
+Line 171: *
+Line 171: )
+Line 171: ID = kp
+Line 171: -
+Line 171: >
+Line 171: ID = arg
+Line 171: )
+Line 171: )
+Line 171: ;
+Line 171: Unrecognized token: 92
+Line 172: }
+Line 174: ID = STANDARD_PARAM_DEF
+Line 174: (
+Line 174: ID = short
+Line 174: ,
+Line 174: ID = short
+Line 174: ,
+Line 174: STRINGCON = "%hi"
+Line 174: ,
+Line 174: ID = long
+Line 174: ,
+Line 174: ID = simple_strtol
+Line 174: )
+Line 174: ;
+Line 175: ID = STANDARD_PARAM_DEF
+Line 175: (
+Line 175: ID = ushort
+Line 175: ,
+Line 175: ID = unsigned
+Line 175: ID = short
+Line 175: ,
+Line 175: STRINGCON = "%hu"
+Line 175: ,
+Line 175: ID = unsigned
+Line 175: ID = long
+Line 175: ,
+Line 175: ID = simple_strtoul
+Line 175: )
+Line 175: ;
+Line 176: ID = STANDARD_PARAM_DEF
+Line 176: (
+Line 176: int
+Line 176: ,
+Line 176: int
+Line 176: ,
+Line 176: STRINGCON = "%i"
+Line 176: ,
+Line 176: ID = long
+Line 176: ,
+Line 176: ID = simple_strtol
+Line 176: )
+Line 176: ;
+Line 177: ID = STANDARD_PARAM_DEF
+Line 177: (
+Line 177: ID = uint
+Line 177: ,
+Line 177: ID = unsigned
+Line 177: int
+Line 177: ,
+Line 177: STRINGCON = "%u"
+Line 177: ,
+Line 177: ID = unsigned
+Line 177: ID = long
+Line 177: ,
+Line 177: ID = simple_strtoul
+Line 177: )
+Line 177: ;
+Line 178: ID = STANDARD_PARAM_DEF
+Line 178: (
+Line 178: ID = long
+Line 178: ,
+Line 178: ID = long
+Line 178: ,
+Line 178: STRINGCON = "%li"
+Line 178: ,
+Line 178: ID = long
+Line 178: ,
+Line 178: ID = simple_strtol
+Line 178: )
+Line 178: ;
+Line 179: ID = STANDARD_PARAM_DEF
+Line 179: (
+Line 179: ID = ulong
+Line 179: ,
+Line 179: ID = unsigned
+Line 179: ID = long
+Line 179: ,
+Line 179: STRINGCON = "%lu"
+Line 179: ,
+Line 179: ID = unsigned
+Line 179: ID = long
+Line 179: ,
+Line 179: ID = simple_strtoul
+Line 179: )
+Line 179: ;
+Line 181: int
+Line 181: ID = param_set_charp
+Line 181: (
+Line 181: ID = const
+Line 181: char
+Line 181: *
+Line 181: ID = val
+Line 181: ,
+Line 181: ID = struct
+Line 181: ID = kernel_param
+Line 181: *
+Line 181: ID = kp
+Line 181: )
+Line 182: {
+Line 183: if
+Line 183: (
+Line 183: !
+Line 183: ID = val
+Line 183: )
+Line 183: {
+Line 184: ID = printk
+Line 184: (
+Line 184: ID = KERN_ERR
+Line 184: STRINGCON = "%s: string parameter expected\n"
+Line 184: ,
+Line 185: ID = kp
+Line 185: -
+Line 185: >
+Line 185: ID = name
+Line 185: )
+Line 185: ;
+Line 186: return
+Line 186: -
+Line 186: ID = EINVAL
+Line 186: ;
+Line 187: }
+Line 189: if
+Line 189: (
+Line 189: ID = strlen
+Line 189: (
+Line 189: ID = val
+Line 189: )
+Line 189: >
+Line 189: INTCON = 1024
+Line 189: )
+Line 189: {
+Line 190: ID = printk
+Line 190: (
+Line 190: ID = KERN_ERR
+Line 190: STRINGCON = "%s: string parameter too long\n"
+Line 190: ,
+Line 191: ID = kp
+Line 191: -
+Line 191: >
+Line 191: ID = name
+Line 191: )
+Line 191: ;
+Line 192: return
+Line 192: -
+Line 192: ID = ENOSPC
+Line 192: ;
+Line 193: }
+Line 195: *
+Line 195: (
+Line 195: char
+Line 195: *
+Line 195: *
+Line 195: )
+Line 195: ID = kp
+Line 195: -
+Line 195: >
+Line 195: ID = arg
+Line 195: =
+Line 195: (
+Line 195: char
+Line 195: *
+Line 195: )
+Line 195: ID = val
+Line 195: ;
+Line 196: return
+Line 196: INTCON = 0
+Line 196: ;
+Line 197: }
+Line 199: int
+Line 199: ID = param_get_charp
+Line 199: (
+Line 199: char
+Line 199: *
+Line 199: ID = buffer
+Line 199: ,
+Line 199: ID = struct
+Line 199: ID = kernel_param
+Line 199: *
+Line 199: ID = kp
+Line 199: )
+Line 200: {
+Line 201: return
+Line 201: ID = sprintf
+Line 201: (
+Line 201: ID = buffer
+Line 201: ,
+Line 201: STRINGCON = "%s"
+Line 201: ,
+Line 201: *
+Line 201: (
+Line 201: (
+Line 201: char
+Line 201: *
+Line 201: *
+Line 201: )
+Line 201: ID = kp
+Line 201: -
+Line 201: >
+Line 201: ID = arg
+Line 201: )
+Line 201: )
+Line 201: ;
+Line 202: }
+Line 204: int
+Line 204: ID = param_set_bool
+Line 204: (
+Line 204: ID = const
+Line 204: char
+Line 204: *
+Line 204: ID = val
+Line 204: ,
+Line 204: ID = struct
+Line 204: ID = kernel_param
+Line 204: *
+Line 204: ID = kp
+Line 204: )
+Line 205: {
+Line 207: if
+Line 207: (
+Line 207: !
+Line 207: ID = val
+Line 207: )
+Line 207: ID = val
+Line 207: =
+Line 207: STRINGCON = "1"
+Line 207: ;
+Line 210: ID = switch
+Line 210: (
+Line 210: ID = val
+Line 210: [
+Line 210: INTCON = 0
+Line 210: ]
+Line 210: )
+Line 210: {
+Line 211: ID = case
+Line 211: CHARCON = 'y'
+Line 211: Unrecognized token: 58
+Line 211: ID = case
+Line 211: CHARCON = 'Y'
+Line 211: Unrecognized token: 58
+Line 211: ID = case
+Line 211: CHARCON = '1'
+Line 211: Unrecognized token: 58
+Line 212: *
+Line 212: (
+Line 212: int
+Line 212: *
+Line 212: )
+Line 212: ID = kp
+Line 212: -
+Line 212: >
+Line 212: ID = arg
+Line 212: =
+Line 212: INTCON = 1
+Line 212: ;
+Line 213: return
+Line 213: INTCON = 0
+Line 213: ;
+Line 214: ID = case
+Line 214: CHARCON = 'n'
+Line 214: Unrecognized token: 58
+Line 214: ID = case
+Line 214: CHARCON = 'N'
+Line 214: Unrecognized token: 58
+Line 214: ID = case
+Line 214: CHARCON = '0'
+Line 214: Unrecognized token: 58
+Line 215: *
+Line 215: (
+Line 215: int
+Line 215: *
+Line 215: )
+Line 215: ID = kp
+Line 215: -
+Line 215: >
+Line 215: ID = arg
+Line 215: =
+Line 215: INTCON = 0
+Line 215: ;
+Line 216: return
+Line 216: INTCON = 0
+Line 216: ;
+Line 217: }
+Line 218: return
+Line 218: -
+Line 218: ID = EINVAL
+Line 218: ;
+Line 219: }
+Line 221: int
+Line 221: ID = param_get_bool
+Line 221: (
+Line 221: char
+Line 221: *
+Line 221: ID = buffer
+Line 221: ,
+Line 221: ID = struct
+Line 221: ID = kernel_param
+Line 221: *
+Line 221: ID = kp
+Line 221: )
+Line 222: {
+Line 224: return
+Line 224: ID = sprintf
+Line 224: (
+Line 224: ID = buffer
+Line 224: ,
+Line 224: STRINGCON = "%c"
+Line 224: ,
+Line 224: (
+Line 224: *
+Line 224: (
+Line 224: int
+Line 224: *
+Line 224: )
+Line 224: ID = kp
+Line 224: -
+Line 224: >
+Line 224: ID = arg
+Line 224: )
+Line 224: Unrecognized token: 63
+Line 224: CHARCON = 'Y'
+Line 224: Unrecognized token: 58
+Line 224: CHARCON = 'N'
+Line 224: )
+Line 224: ;
+Line 225: }
+Line 227: int
+Line 227: ID = param_set_invbool
+Line 227: (
+Line 227: ID = const
+Line 227: char
+Line 227: *
+Line 227: ID = val
+Line 227: ,
+Line 227: ID = struct
+Line 227: ID = kernel_param
+Line 227: *
+Line 227: ID = kp
+Line 227: )
+Line 228: {
+Line 229: int
+Line 229: ID = boolval
+Line 229: ,
+Line 229: ID = ret
+Line 229: ;
+Line 230: ID = struct
+Line 230: ID = kernel_param
+Line 230: ID = dummy
+Line 230: =
+Line 230: {
+Line 230: Unrecognized token: 46
+Line 230: ID = arg
+Line 230: =
+Line 230: Unrecognized token: 38
+Line 230: ID = boolval
+Line 230: }
+Line 230: ;
+Line 232: ID = ret
+Line 232: =
+Line 232: ID = param_set_bool
+Line 232: (
+Line 232: ID = val
+Line 232: ,
+Line 232: Unrecognized token: 38
+Line 232: ID = dummy
+Line 232: )
+Line 232: ;
+Line 233: if
+Line 233: (
+Line 233: ID = ret
+Line 233: ==
+Line 233: INTCON = 0
+Line 233: )
+Line 234: *
+Line 234: (
+Line 234: int
+Line 234: *
+Line 234: )
+Line 234: ID = kp
+Line 234: -
+Line 234: >
+Line 234: ID = arg
+Line 234: =
+Line 234: !
+Line 234: ID = boolval
+Line 234: ;
+Line 235: return
+Line 235: ID = ret
+Line 235: ;
+Line 236: }
+Line 238: int
+Line 238: ID = param_get_invbool
+Line 238: (
+Line 238: char
+Line 238: *
+Line 238: ID = buffer
+Line 238: ,
+Line 238: ID = struct
+Line 238: ID = kernel_param
+Line 238: *
+Line 238: ID = kp
+Line 238: )
+Line 239: {
+Line 240: int
+Line 240: ID = val
+Line 240: ;
+Line 241: ID = struct
+Line 241: ID = kernel_param
+Line 241: ID = dummy
+Line 241: =
+Line 241: {
+Line 241: Unrecognized token: 46
+Line 241: ID = arg
+Line 241: =
+Line 241: Unrecognized token: 38
+Line 241: ID = val
+Line 241: }
+Line 241: ;
+Line 243: ID = val
+Line 243: =
+Line 243: !
+Line 243: *
+Line 243: (
+Line 243: int
+Line 243: *
+Line 243: )
+Line 243: ID = kp
+Line 243: -
+Line 243: >
+Line 243: ID = arg
+Line 243: ;
+Line 244: return
+Line 244: ID = param_get_bool
+Line 244: (
+Line 244: ID = buffer
+Line 244: ,
+Line 244: Unrecognized token: 38
+Line 244: ID = dummy
+Line 244: )
+Line 244: ;
+Line 245: }
+Line 248: int
+Line 248: ID = param_array
+Line 248: (
+Line 248: ID = const
+Line 248: char
+Line 248: *
+Line 248: ID = name
+Line 248: ,
+Line 249: ID = const
+Line 249: char
+Line 249: *
+Line 249: ID = val
+Line 249: ,
+Line 250: ID = unsigned
+Line 250: int
+Line 250: ID = min
+Line 250: ,
+Line 250: ID = unsigned
+Line 250: int
+Line 250: ID = max
+Line 250: ,
+Line 251: void
+Line 251: *
+Line 251: ID = elem
+Line 251: ,
+Line 251: int
+Line 251: ID = elemsize
+Line 251: ,
+Line 252: int
+Line 252: (
+Line 252: *
+Line 252: ID = set
+Line 252: )
+Line 252: (
+Line 252: ID = const
+Line 252: char
+Line 252: *
+Line 252: ,
+Line 252: ID = struct
+Line 252: ID = kernel_param
+Line 252: *
+Line 252: ID = kp
+Line 252: )
+Line 252: ,
+Line 253: int
+Line 253: *
+Line 253: ID = num
+Line 253: )
+Line 254: {
+Line 255: int
+Line 255: ID = ret
+Line 255: ;
+Line 256: ID = struct
+Line 256: ID = kernel_param
+Line 256: ID = kp
+Line 256: ;
+Line 257: char
+Line 257: ID = save
+Line 257: ;
+Line 260: ID = kp
+Line 260: Unrecognized token: 46
+Line 260: ID = name
+Line 260: =
+Line 260: ID = name
+Line 260: ;
+Line 261: ID = kp
+Line 261: Unrecognized token: 46
+Line 261: ID = arg
+Line 261: =
+Line 261: ID = elem
+Line 261: ;
+Line 264: if
+Line 264: (
+Line 264: !
+Line 264: ID = val
+Line 264: )
+Line 264: {
+Line 265: ID = printk
+Line 265: (
+Line 265: ID = KERN_ERR
+Line 265: STRINGCON = "%s: expects arguments\n"
+Line 265: ,
+Line 265: ID = name
+Line 265: )
+Line 265: ;
+Line 266: return
+Line 266: -
+Line 266: ID = EINVAL
+Line 266: ;
+Line 267: }
+Line 269: *
+Line 269: ID = num
+Line 269: =
+Line 269: INTCON = 0
+Line 269: ;
+Line 271: ID = do
+Line 271: {
+Line 272: int
+Line 272: ID = len
+Line 272: ;
+Line 274: if
+Line 274: (
+Line 274: *
+Line 274: ID = num
+Line 274: ==
+Line 274: ID = max
+Line 274: )
+Line 274: {
+Line 275: ID = printk
+Line 275: (
+Line 275: ID = KERN_ERR
+Line 275: STRINGCON = "%s: can only take %i arguments\n"
+Line 275: ,
+Line 276: ID = name
+Line 276: ,
+Line 276: ID = max
+Line 276: )
+Line 276: ;
+Line 277: return
+Line 277: -
+Line 277: ID = EINVAL
+Line 277: ;
+Line 278: }
+Line 279: ID = len
+Line 279: =
+Line 279: ID = strcspn
+Line 279: (
+Line 279: ID = val
+Line 279: ,
+Line 279: STRINGCON = ","
+Line 279: )
+Line 279: ;
+Line 282: ID = save
+Line 282: =
+Line 282: ID = val
+Line 282: [
+Line 282: ID = len
+Line 282: ]
+Line 282: ;
+Line 283: (
+Line 283: (
+Line 283: char
+Line 283: *
+Line 283: )
+Line 283: ID = val
+Line 283: )
+Line 283: [
+Line 283: ID = len
+Line 283: ]
+Line 283: =
+Line 283: CHARCON = '\0'
+Line 283: ;
+Line 284: ID = ret
+Line 284: =
+Line 284: ID = set
+Line 284: (
+Line 284: ID = val
+Line 284: ,
+Line 284: Unrecognized token: 38
+Line 284: ID = kp
+Line 284: )
+Line 284: ;
+Line 286: if
+Line 286: (
+Line 286: ID = ret
+Line 286: !=
+Line 286: INTCON = 0
+Line 286: )
+Line 287: return
+Line 287: ID = ret
+Line 287: ;
+Line 288: ID = kp
+Line 288: Unrecognized token: 46
+Line 288: ID = arg
+Line 288: +
+Line 288: =
+Line 288: ID = elemsize
+Line 288: ;
+Line 289: ID = val
+Line 289: +
+Line 289: =
+Line 289: ID = len
+Line 289: +
+Line 289: INTCON = 1
+Line 289: ;
+Line 290: (
+Line 290: *
+Line 290: ID = num
+Line 290: )
+Line 290: +
+Line 290: +
+Line 290: ;
+Line 291: }
+Line 291: while
+Line 291: (
+Line 291: ID = save
+Line 291: ==
+Line 291: CHARCON = ','
+Line 291: )
+Line 291: ;
+Line 293: if
+Line 293: (
+Line 293: *
+Line 293: ID = num
+Line 293: <
+Line 293: ID = min
+Line 293: )
+Line 293: {
+Line 294: ID = printk
+Line 294: (
+Line 294: ID = KERN_ERR
+Line 294: STRINGCON = "%s: needs at least %i arguments\n"
+Line 294: ,
+Line 295: ID = name
+Line 295: ,
+Line 295: ID = min
+Line 295: )
+Line 295: ;
+Line 296: return
+Line 296: -
+Line 296: ID = EINVAL
+Line 296: ;
+Line 297: }
+Line 298: return
+Line 298: INTCON = 0
+Line 298: ;
+Line 299: }
+Line 301: int
+Line 301: ID = param_array_set
+Line 301: (
+Line 301: ID = const
+Line 301: char
+Line 301: *
+Line 301: ID = val
+Line 301: ,
+Line 301: ID = struct
+Line 301: ID = kernel_param
+Line 301: *
+Line 301: ID = kp
+Line 301: )
+Line 302: {
+Line 303: ID = struct
+Line 303: ID = kparam_array
+Line 303: *
+Line 303: ID = arr
+Line 303: =
+Line 303: ID = kp
+Line 303: -
+Line 303: >
+Line 303: ID = arg
+Line 303: ;
+Line 305: return
+Line 305: ID = param_array
+Line 305: (
+Line 305: ID = kp
+Line 305: -
+Line 305: >
+Line 305: ID = name
+Line 305: ,
+Line 305: ID = val
+Line 305: ,
+Line 305: INTCON = 1
+Line 305: ,
+Line 305: ID = arr
+Line 305: -
+Line 305: >
+Line 305: ID = max
+Line 305: ,
+Line 305: ID = arr
+Line 305: -
+Line 305: >
+Line 305: ID = elem
+Line 305: ,
+Line 306: ID = arr
+Line 306: -
+Line 306: >
+Line 306: ID = elemsize
+Line 306: ,
+Line 306: ID = arr
+Line 306: -
+Line 306: >
+Line 306: ID = set
+Line 306: ,
+Line 306: ID = arr
+Line 306: -
+Line 306: >
+Line 306: ID = num
+Line 306: )
+Line 306: ;
+Line 307: }
+Line 309: int
+Line 309: ID = param_array_get
+Line 309: (
+Line 309: char
+Line 309: *
+Line 309: ID = buffer
+Line 309: ,
+Line 309: ID = struct
+Line 309: ID = kernel_param
+Line 309: *
+Line 309: ID = kp
+Line 309: )
+Line 310: {
+Line 311: int
+Line 311: ID = i
+Line 311: ,
+Line 311: ID = off
+Line 311: ,
+Line 311: ID = ret
+Line 311: ;
+Line 312: ID = struct
+Line 312: ID = kparam_array
+Line 312: *
+Line 312: ID = arr
+Line 312: =
+Line 312: ID = kp
+Line 312: -
+Line 312: >
+Line 312: ID = arg
+Line 312: ;
+Line 313: ID = struct
+Line 313: ID = kernel_param
+Line 313: ID = p
+Line 313: ;
+Line 315: ID = p
+Line 315: =
+Line 315: *
+Line 315: ID = kp
+Line 315: ;
+Line 316: for
+Line 316: (
+Line 316: ID = i
+Line 316: =
+Line 316: ID = off
+Line 316: =
+Line 316: INTCON = 0
+Line 316: ;
+Line 316: ID = i
+Line 316: <
+Line 316: *
+Line 316: ID = arr
+Line 316: -
+Line 316: >
+Line 316: ID = num
+Line 316: ;
+Line 316: ID = i
+Line 316: +
+Line 316: +
+Line 316: )
+Line 316: {
+Line 317: if
+Line 317: (
+Line 317: ID = i
+Line 317: )
+Line 318: ID = buffer
+Line 318: [
+Line 318: ID = off
+Line 318: +
+Line 318: +
+Line 318: ]
+Line 318: =
+Line 318: CHARCON = ','
+Line 318: ;
+Line 319: ID = p
+Line 319: Unrecognized token: 46
+Line 319: ID = arg
+Line 319: =
+Line 319: ID = arr
+Line 319: -
+Line 319: >
+Line 319: ID = elem
+Line 319: +
+Line 319: ID = arr
+Line 319: -
+Line 319: >
+Line 319: ID = elemsize
+Line 319: *
+Line 319: ID = i
+Line 319: ;
+Line 320: ID = ret
+Line 320: =
+Line 320: ID = arr
+Line 320: -
+Line 320: >
+Line 320: ID = get
+Line 320: (
+Line 320: ID = buffer
+Line 320: +
+Line 320: ID = off
+Line 320: ,
+Line 320: Unrecognized token: 38
+Line 320: ID = p
+Line 320: )
+Line 320: ;
+Line 321: if
+Line 321: (
+Line 321: ID = ret
+Line 321: <
+Line 321: INTCON = 0
+Line 321: )
+Line 322: return
+Line 322: ID = ret
+Line 322: ;
+Line 323: ID = off
+Line 323: +
+Line 323: =
+Line 323: ID = ret
+Line 323: ;
+Line 324: }
+Line 325: ID = buffer
+Line 325: [
+Line 325: ID = off
+Line 325: ]
+Line 325: =
+Line 325: CHARCON = '\0'
+Line 325: ;
+Line 326: return
+Line 326: ID = off
+Line 326: ;
+Line 327: }
+Line 329: int
+Line 329: ID = param_set_copystring
+Line 329: (
+Line 329: ID = const
+Line 329: char
+Line 329: *
+Line 329: ID = val
+Line 329: ,
+Line 329: ID = struct
+Line 329: ID = kernel_param
+Line 329: *
+Line 329: ID = kp
+Line 329: )
+Line 330: {
+Line 331: ID = struct
+Line 331: ID = kparam_string
+Line 331: *
+Line 331: ID = kps
+Line 331: =
+Line 331: ID = kp
+Line 331: -
+Line 331: >
+Line 331: ID = arg
+Line 331: ;
+Line 333: if
+Line 333: (
+Line 333: ID = strlen
+Line 333: (
+Line 333: ID = val
+Line 333: )
+Line 333: +
+Line 333: INTCON = 1
+Line 333: >
+Line 333: ID = kps
+Line 333: -
+Line 333: >
+Line 333: ID = maxlen
+Line 333: )
+Line 333: {
+Line 334: ID = printk
+Line 334: (
+Line 334: ID = KERN_ERR
+Line 334: STRINGCON = "%s: string doesn't fit in %u chars.\n"
+Line 334: ,
+Line 335: ID = kp
+Line 335: -
+Line 335: >
+Line 335: ID = name
+Line 335: ,
+Line 335: ID = kps
+Line 335: -
+Line 335: >
+Line 335: ID = maxlen
+Line 335: -
+Line 335: INTCON = 1
+Line 335: )
+Line 335: ;
+Line 336: return
+Line 336: -
+Line 336: ID = ENOSPC
+Line 336: ;
+Line 337: }
+Line 338: ID = strcpy
+Line 338: (
+Line 338: ID = kps
+Line 338: -
+Line 338: >
+Line 338: ID = string
+Line 338: ,
+Line 338: ID = val
+Line 338: )
+Line 338: ;
+Line 339: return
+Line 339: INTCON = 0
+Line 339: ;
+Line 340: }
+Line 342: ID = EXPORT_SYMBOL
+Line 342: (
+Line 342: ID = param_set_short
+Line 342: )
+Line 342: ;
+Line 343: ID = EXPORT_SYMBOL
+Line 343: (
+Line 343: ID = param_get_short
+Line 343: )
+Line 343: ;
+Line 344: ID = EXPORT_SYMBOL
+Line 344: (
+Line 344: ID = param_set_ushort
+Line 344: )
+Line 344: ;
+Line 345: ID = EXPORT_SYMBOL
+Line 345: (
+Line 345: ID = param_get_ushort
+Line 345: )
+Line 345: ;
+Line 346: ID = EXPORT_SYMBOL
+Line 346: (
+Line 346: ID = param_set_int
+Line 346: )
+Line 346: ;
+Line 347: ID = EXPORT_SYMBOL
+Line 347: (
+Line 347: ID = param_get_int
+Line 347: )
+Line 347: ;
+Line 348: ID = EXPORT_SYMBOL
+Line 348: (
+Line 348: ID = param_set_uint
+Line 348: )
+Line 348: ;
+Line 349: ID = EXPORT_SYMBOL
+Line 349: (
+Line 349: ID = param_get_uint
+Line 349: )
+Line 349: ;
+Line 350: ID = EXPORT_SYMBOL
+Line 350: (
+Line 350: ID = param_set_long
+Line 350: )
+Line 350: ;
+Line 351: ID = EXPORT_SYMBOL
+Line 351: (
+Line 351: ID = param_get_long
+Line 351: )
+Line 351: ;
+Line 352: ID = EXPORT_SYMBOL
+Line 352: (
+Line 352: ID = param_set_ulong
+Line 352: )
+Line 352: ;
+Line 353: ID = EXPORT_SYMBOL
+Line 353: (
+Line 353: ID = param_get_ulong
+Line 353: )
+Line 353: ;
+Line 354: ID = EXPORT_SYMBOL
+Line 354: (
+Line 354: ID = param_set_charp
+Line 354: )
+Line 354: ;
+Line 355: ID = EXPORT_SYMBOL
+Line 355: (
+Line 355: ID = param_get_charp
+Line 355: )
+Line 355: ;
+Line 356: ID = EXPORT_SYMBOL
+Line 356: (
+Line 356: ID = param_set_bool
+Line 356: )
+Line 356: ;
+Line 357: ID = EXPORT_SYMBOL
+Line 357: (
+Line 357: ID = param_get_bool
+Line 357: )
+Line 357: ;
+Line 358: ID = EXPORT_SYMBOL
+Line 358: (
+Line 358: ID = param_set_invbool
+Line 358: )
+Line 358: ;
+Line 359: ID = EXPORT_SYMBOL
+Line 359: (
+Line 359: ID = param_get_invbool
+Line 359: )
+Line 359: ;
+Line 360: ID = EXPORT_SYMBOL
+Line 360: (
+Line 360: ID = param_array_set
+Line 360: )
+Line 360: ;
+Line 361: ID = EXPORT_SYMBOL
+Line 361: (
+Line 361: ID = param_array_get
+Line 361: )
+Line 361: ;
+Line 362: ID = EXPORT_SYMBOL
+Line 362: (
+Line 362: ID = param_set_copystring
+Line 362: )
+Line 362: ;
+Line 363: -EOF-

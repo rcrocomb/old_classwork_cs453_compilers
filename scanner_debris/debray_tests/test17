@@ -1,0 +1,17 @@
+/* a mix of identifiers and integer constants, but with comments and
+   whitespace thrown in */
+id1  id2      /* comment1 */	012345
+/*
+ * comment2
+ */
+314159265
+/*
+ **** comment3 ****/
+
+
+
+
+id3
+
+
+	id4

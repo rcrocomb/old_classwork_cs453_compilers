@@ -1,0 +1,3014 @@
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = module
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = slab
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = smp_lock
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = poll
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = personality
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = file
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = fs
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = asm
+Line 25: /
+Line 25: ID = uaccess
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 27: Unrecognized token: 35
+Line 27: ID = define
+Line 27: ID = ROUND_UP
+Line 27: (
+Line 27: ID = x
+Line 27: ,
+Line 27: ID = y
+Line 27: )
+Line 27: (
+Line 27: (
+Line 27: (
+Line 27: ID = x
+Line 27: )
+Line 27: +
+Line 27: (
+Line 27: ID = y
+Line 27: )
+Line 27: -
+Line 27: INTCON = 1
+Line 27: )
+Line 27: /
+Line 27: (
+Line 27: ID = y
+Line 27: )
+Line 27: )
+Line 28: Unrecognized token: 35
+Line 28: ID = define
+Line 28: ID = DEFAULT_POLLMASK
+Line 28: (
+Line 28: ID = POLLIN
+Line 28: Unrecognized token: 124
+Line 28: ID = POLLOUT
+Line 28: Unrecognized token: 124
+Line 28: ID = POLLRDNORM
+Line 28: Unrecognized token: 124
+Line 28: ID = POLLWRNORM
+Line 28: )
+Line 30: ID = struct
+Line 30: ID = poll_table_entry
+Line 30: {
+Line 31: ID = struct
+Line 31: ID = file
+Line 31: *
+Line 31: ID = filp
+Line 31: ;
+Line 32: ID = wait_queue_t
+Line 32: ID = wait
+Line 32: ;
+Line 33: ID = wait_queue_head_t
+Line 33: *
+Line 33: ID = wait_address
+Line 33: ;
+Line 34: }
+Line 34: ;
+Line 36: ID = struct
+Line 36: ID = poll_table_page
+Line 36: {
+Line 37: ID = struct
+Line 37: ID = poll_table_page
+Line 37: *
+Line 37: ID = next
+Line 37: ;
+Line 38: ID = struct
+Line 38: ID = poll_table_entry
+Line 38: *
+Line 38: ID = entry
+Line 38: ;
+Line 39: ID = struct
+Line 39: ID = poll_table_entry
+Line 39: ID = entries
+Line 39: [
+Line 39: INTCON = 0
+Line 39: ]
+Line 39: ;
+Line 40: }
+Line 40: ;
+Line 42: Unrecognized token: 35
+Line 42: ID = define
+Line 42: ID = POLL_TABLE_FULL
+Line 42: (
+Line 42: ID = table
+Line 42: )
+Line 42: Unrecognized token: 92
+Line 43: (
+Line 43: (
+Line 43: ID = unsigned
+Line 43: ID = long
+Line 43: )
+Line 43: (
+Line 43: (
+Line 43: ID = table
+Line 43: )
+Line 43: -
+Line 43: >
+Line 43: ID = entry
+Line 43: +
+Line 43: INTCON = 1
+Line 43: )
+Line 43: >
+Line 43: ID = PAGE_SIZE
+Line 43: +
+Line 43: (
+Line 43: ID = unsigned
+Line 43: ID = long
+Line 43: )
+Line 43: (
+Line 43: ID = table
+Line 43: )
+Line 43: )
+Line 57: void
+Line 57: Unrecognized token: 95
+Line 57: Unrecognized token: 95
+Line 57: ID = pollwait
+Line 57: (
+Line 57: ID = struct
+Line 57: ID = file
+Line 57: *
+Line 57: ID = filp
+Line 57: ,
+Line 57: ID = wait_queue_head_t
+Line 57: *
+Line 57: ID = wait_address
+Line 57: ,
+Line 57: ID = poll_table
+Line 57: *
+Line 57: ID = p
+Line 57: )
+Line 57: ;
+Line 59: void
+Line 59: ID = poll_initwait
+Line 59: (
+Line 59: ID = struct
+Line 59: ID = poll_wqueues
+Line 59: *
+Line 59: ID = pwq
+Line 59: )
+Line 60: {
+Line 61: ID = init_poll_funcptr
+Line 61: (
+Line 61: Unrecognized token: 38
+Line 61: ID = pwq
+Line 61: -
+Line 61: >
+Line 61: ID = pt
+Line 61: ,
+Line 61: Unrecognized token: 95
+Line 61: Unrecognized token: 95
+Line 61: ID = pollwait
+Line 61: )
+Line 61: ;
+Line 62: ID = pwq
+Line 62: -
+Line 62: >
+Line 62: ID = error
+Line 62: =
+Line 62: INTCON = 0
+Line 62: ;
+Line 63: ID = pwq
+Line 63: -
+Line 63: >
+Line 63: ID = table
+Line 63: =
+Line 63: ID = NULL
+Line 63: ;
+Line 64: }
+Line 66: ID = EXPORT_SYMBOL
+Line 66: (
+Line 66: ID = poll_initwait
+Line 66: )
+Line 66: ;
+Line 68: void
+Line 68: ID = poll_freewait
+Line 68: (
+Line 68: ID = struct
+Line 68: ID = poll_wqueues
+Line 68: *
+Line 68: ID = pwq
+Line 68: )
+Line 69: {
+Line 70: ID = struct
+Line 70: ID = poll_table_page
+Line 70: *
+Line 70: ID = p
+Line 70: =
+Line 70: ID = pwq
+Line 70: -
+Line 70: >
+Line 70: ID = table
+Line 70: ;
+Line 71: while
+Line 71: (
+Line 71: ID = p
+Line 71: )
+Line 71: {
+Line 72: ID = struct
+Line 72: ID = poll_table_entry
+Line 72: *
+Line 72: ID = entry
+Line 72: ;
+Line 73: ID = struct
+Line 73: ID = poll_table_page
+Line 73: *
+Line 73: ID = old
+Line 73: ;
+Line 75: ID = entry
+Line 75: =
+Line 75: ID = p
+Line 75: -
+Line 75: >
+Line 75: ID = entry
+Line 75: ;
+Line 76: ID = do
+Line 76: {
+Line 77: ID = entry
+Line 77: -
+Line 77: -
+Line 77: ;
+Line 78: ID = remove_wait_queue
+Line 78: (
+Line 78: ID = entry
+Line 78: -
+Line 78: >
+Line 78: ID = wait_address
+Line 78: ,
+Line 78: Unrecognized token: 38
+Line 78: ID = entry
+Line 78: -
+Line 78: >
+Line 78: ID = wait
+Line 78: )
+Line 78: ;
+Line 79: ID = fput
+Line 79: (
+Line 79: ID = entry
+Line 79: -
+Line 79: >
+Line 79: ID = filp
+Line 79: )
+Line 79: ;
+Line 80: }
+Line 80: while
+Line 80: (
+Line 80: ID = entry
+Line 80: >
+Line 80: ID = p
+Line 80: -
+Line 80: >
+Line 80: ID = entries
+Line 80: )
+Line 80: ;
+Line 81: ID = old
+Line 81: =
+Line 81: ID = p
+Line 81: ;
+Line 82: ID = p
+Line 82: =
+Line 82: ID = p
+Line 82: -
+Line 82: >
+Line 82: ID = next
+Line 82: ;
+Line 83: ID = free_page
+Line 83: (
+Line 83: (
+Line 83: ID = unsigned
+Line 83: ID = long
+Line 83: )
+Line 83: ID = old
+Line 83: )
+Line 83: ;
+Line 84: }
+Line 85: }
+Line 87: ID = EXPORT_SYMBOL
+Line 87: (
+Line 87: ID = poll_freewait
+Line 87: )
+Line 87: ;
+Line 89: void
+Line 89: Unrecognized token: 95
+Line 89: Unrecognized token: 95
+Line 89: ID = pollwait
+Line 89: (
+Line 89: ID = struct
+Line 89: ID = file
+Line 89: *
+Line 89: ID = filp
+Line 89: ,
+Line 89: ID = wait_queue_head_t
+Line 89: *
+Line 89: ID = wait_address
+Line 89: ,
+Line 89: ID = poll_table
+Line 89: *
+Line 89: Unrecognized token: 95
+Line 89: ID = p
+Line 89: )
+Line 90: {
+Line 91: ID = struct
+Line 91: ID = poll_wqueues
+Line 91: *
+Line 91: ID = p
+Line 91: =
+Line 91: ID = container_of
+Line 91: (
+Line 91: Unrecognized token: 95
+Line 91: ID = p
+Line 91: ,
+Line 91: ID = struct
+Line 91: ID = poll_wqueues
+Line 91: ,
+Line 91: ID = pt
+Line 91: )
+Line 91: ;
+Line 92: ID = struct
+Line 92: ID = poll_table_page
+Line 92: *
+Line 92: ID = table
+Line 92: =
+Line 92: ID = p
+Line 92: -
+Line 92: >
+Line 92: ID = table
+Line 92: ;
+Line 94: if
+Line 94: (
+Line 94: !
+Line 94: ID = table
+Line 94: ||
+Line 94: ID = POLL_TABLE_FULL
+Line 94: (
+Line 94: ID = table
+Line 94: )
+Line 94: )
+Line 94: {
+Line 95: ID = struct
+Line 95: ID = poll_table_page
+Line 95: *
+Line 95: ID = new_table
+Line 95: ;
+Line 97: ID = new_table
+Line 97: =
+Line 97: (
+Line 97: ID = struct
+Line 97: ID = poll_table_page
+Line 97: *
+Line 97: )
+Line 97: Unrecognized token: 95
+Line 97: Unrecognized token: 95
+Line 97: ID = get_free_page
+Line 97: (
+Line 97: ID = GFP_KERNEL
+Line 97: )
+Line 97: ;
+Line 98: if
+Line 98: (
+Line 98: !
+Line 98: ID = new_table
+Line 98: )
+Line 98: {
+Line 99: ID = p
+Line 99: -
+Line 99: >
+Line 99: ID = error
+Line 99: =
+Line 99: -
+Line 99: ID = ENOMEM
+Line 99: ;
+Line 100: Unrecognized token: 95
+Line 100: Unrecognized token: 95
+Line 100: ID = set_current_state
+Line 100: (
+Line 100: ID = TASK_RUNNING
+Line 100: )
+Line 100: ;
+Line 101: return
+Line 101: ;
+Line 102: }
+Line 103: ID = new_table
+Line 103: -
+Line 103: >
+Line 103: ID = entry
+Line 103: =
+Line 103: ID = new_table
+Line 103: -
+Line 103: >
+Line 103: ID = entries
+Line 103: ;
+Line 104: ID = new_table
+Line 104: -
+Line 104: >
+Line 104: ID = next
+Line 104: =
+Line 104: ID = table
+Line 104: ;
+Line 105: ID = p
+Line 105: -
+Line 105: >
+Line 105: ID = table
+Line 105: =
+Line 105: ID = new_table
+Line 105: ;
+Line 106: ID = table
+Line 106: =
+Line 106: ID = new_table
+Line 106: ;
+Line 107: }
+Line 110: {
+Line 111: ID = struct
+Line 111: ID = poll_table_entry
+Line 111: *
+Line 111: ID = entry
+Line 111: =
+Line 111: ID = table
+Line 111: -
+Line 111: >
+Line 111: ID = entry
+Line 111: ;
+Line 112: ID = table
+Line 112: -
+Line 112: >
+Line 112: ID = entry
+Line 112: =
+Line 112: ID = entry
+Line 112: +
+Line 112: INTCON = 1
+Line 112: ;
+Line 113: ID = get_file
+Line 113: (
+Line 113: ID = filp
+Line 113: )
+Line 113: ;
+Line 114: ID = entry
+Line 114: -
+Line 114: >
+Line 114: ID = filp
+Line 114: =
+Line 114: ID = filp
+Line 114: ;
+Line 115: ID = entry
+Line 115: -
+Line 115: >
+Line 115: ID = wait_address
+Line 115: =
+Line 115: ID = wait_address
+Line 115: ;
+Line 116: ID = init_waitqueue_entry
+Line 116: (
+Line 116: Unrecognized token: 38
+Line 116: ID = entry
+Line 116: -
+Line 116: >
+Line 116: ID = wait
+Line 116: ,
+Line 116: ID = current
+Line 116: )
+Line 116: ;
+Line 117: ID = add_wait_queue
+Line 117: (
+Line 117: ID = wait_address
+Line 117: ,
+Line 117: Unrecognized token: 38
+Line 117: ID = entry
+Line 117: -
+Line 117: >
+Line 117: ID = wait
+Line 117: )
+Line 117: ;
+Line 118: }
+Line 119: }
+Line 122: Unrecognized token: 35
+Line 122: ID = define
+Line 122: Unrecognized token: 95
+Line 122: Unrecognized token: 95
+Line 122: ID = IN
+Line 122: (
+Line 122: ID = fds
+Line 122: ,
+Line 122: ID = n
+Line 122: )
+Line 122: (
+Line 122: ID = fds
+Line 122: -
+Line 122: >
+Line 122: ID = in
+Line 122: +
+Line 122: ID = n
+Line 122: )
+Line 123: Unrecognized token: 35
+Line 123: ID = define
+Line 123: Unrecognized token: 95
+Line 123: Unrecognized token: 95
+Line 123: ID = OUT
+Line 123: (
+Line 123: ID = fds
+Line 123: ,
+Line 123: ID = n
+Line 123: )
+Line 123: (
+Line 123: ID = fds
+Line 123: -
+Line 123: >
+Line 123: ID = out
+Line 123: +
+Line 123: ID = n
+Line 123: )
+Line 124: Unrecognized token: 35
+Line 124: ID = define
+Line 124: Unrecognized token: 95
+Line 124: Unrecognized token: 95
+Line 124: ID = EX
+Line 124: (
+Line 124: ID = fds
+Line 124: ,
+Line 124: ID = n
+Line 124: )
+Line 124: (
+Line 124: ID = fds
+Line 124: -
+Line 124: >
+Line 124: ID = ex
+Line 124: +
+Line 124: ID = n
+Line 124: )
+Line 125: Unrecognized token: 35
+Line 125: ID = define
+Line 125: Unrecognized token: 95
+Line 125: Unrecognized token: 95
+Line 125: ID = RES_IN
+Line 125: (
+Line 125: ID = fds
+Line 125: ,
+Line 125: ID = n
+Line 125: )
+Line 125: (
+Line 125: ID = fds
+Line 125: -
+Line 125: >
+Line 125: ID = res_in
+Line 125: +
+Line 125: ID = n
+Line 125: )
+Line 126: Unrecognized token: 35
+Line 126: ID = define
+Line 126: Unrecognized token: 95
+Line 126: Unrecognized token: 95
+Line 126: ID = RES_OUT
+Line 126: (
+Line 126: ID = fds
+Line 126: ,
+Line 126: ID = n
+Line 126: )
+Line 126: (
+Line 126: ID = fds
+Line 126: -
+Line 126: >
+Line 126: ID = res_out
+Line 126: +
+Line 126: ID = n
+Line 126: )
+Line 127: Unrecognized token: 35
+Line 127: ID = define
+Line 127: Unrecognized token: 95
+Line 127: Unrecognized token: 95
+Line 127: ID = RES_EX
+Line 127: (
+Line 127: ID = fds
+Line 127: ,
+Line 127: ID = n
+Line 127: )
+Line 127: (
+Line 127: ID = fds
+Line 127: -
+Line 127: >
+Line 127: ID = res_ex
+Line 127: +
+Line 127: ID = n
+Line 127: )
+Line 129: Unrecognized token: 35
+Line 129: ID = define
+Line 129: ID = BITS
+Line 129: (
+Line 129: ID = fds
+Line 129: ,
+Line 129: ID = n
+Line 129: )
+Line 129: (
+Line 129: *
+Line 129: Unrecognized token: 95
+Line 129: Unrecognized token: 95
+Line 129: ID = IN
+Line 129: (
+Line 129: ID = fds
+Line 129: ,
+Line 129: ID = n
+Line 129: )
+Line 129: Unrecognized token: 124
+Line 129: *
+Line 129: Unrecognized token: 95
+Line 129: Unrecognized token: 95
+Line 129: ID = OUT
+Line 129: (
+Line 129: ID = fds
+Line 129: ,
+Line 129: ID = n
+Line 129: )
+Line 129: Unrecognized token: 124
+Line 129: *
+Line 129: Unrecognized token: 95
+Line 129: Unrecognized token: 95
+Line 129: ID = EX
+Line 129: (
+Line 129: ID = fds
+Line 129: ,
+Line 129: ID = n
+Line 129: )
+Line 129: )
+Line 131: ID = static
+Line 131: int
+Line 131: ID = max_select_fd
+Line 131: (
+Line 131: ID = unsigned
+Line 131: ID = long
+Line 131: ID = n
+Line 131: ,
+Line 131: ID = fd_set_bits
+Line 131: *
+Line 131: ID = fds
+Line 131: )
+Line 132: {
+Line 133: ID = unsigned
+Line 133: ID = long
+Line 133: *
+Line 133: ID = open_fds
+Line 133: ;
+Line 134: ID = unsigned
+Line 134: ID = long
+Line 134: ID = set
+Line 134: ;
+Line 135: int
+Line 135: ID = max
+Line 135: ;
+Line 138: ID = set
+Line 138: =
+Line 138: Unrecognized token: 126
+Line 138: (
+Line 138: Unrecognized token: 126
+Line 138: INTCON = 0
+Line 138: ID = UL
+Line 138: <
+Line 138: <
+Line 138: (
+Line 138: ID = n
+Line 138: Unrecognized token: 38
+Line 138: (
+Line 138: Unrecognized token: 95
+Line 138: Unrecognized token: 95
+Line 138: ID = NFDBITS
+Line 138: -
+Line 138: INTCON = 1
+Line 138: )
+Line 138: )
+Line 138: )
+Line 138: ;
+Line 139: ID = n
+Line 139: /
+Line 139: =
+Line 139: Unrecognized token: 95
+Line 139: Unrecognized token: 95
+Line 139: ID = NFDBITS
+Line 139: ;
+Line 140: ID = open_fds
+Line 140: =
+Line 140: ID = current
+Line 140: -
+Line 140: >
+Line 140: ID = files
+Line 140: -
+Line 140: >
+Line 140: ID = open_fds
+Line 140: -
+Line 140: >
+Line 140: ID = fds_bits
+Line 140: +
+Line 140: ID = n
+Line 140: ;
+Line 141: ID = max
+Line 141: =
+Line 141: INTCON = 0
+Line 141: ;
+Line 142: if
+Line 142: (
+Line 142: ID = set
+Line 142: )
+Line 142: {
+Line 143: ID = set
+Line 143: Unrecognized token: 38
+Line 143: =
+Line 143: ID = BITS
+Line 143: (
+Line 143: ID = fds
+Line 143: ,
+Line 143: ID = n
+Line 143: )
+Line 143: ;
+Line 144: if
+Line 144: (
+Line 144: ID = set
+Line 144: )
+Line 144: {
+Line 145: if
+Line 145: (
+Line 145: !
+Line 145: (
+Line 145: ID = set
+Line 145: Unrecognized token: 38
+Line 145: Unrecognized token: 126
+Line 145: *
+Line 145: ID = open_fds
+Line 145: )
+Line 145: )
+Line 146: ID = goto
+Line 146: ID = get_max
+Line 146: ;
+Line 147: return
+Line 147: -
+Line 147: ID = EBADF
+Line 147: ;
+Line 148: }
+Line 149: }
+Line 150: while
+Line 150: (
+Line 150: ID = n
+Line 150: )
+Line 150: {
+Line 151: ID = open_fds
+Line 151: -
+Line 151: -
+Line 151: ;
+Line 152: ID = n
+Line 152: -
+Line 152: -
+Line 152: ;
+Line 153: ID = set
+Line 153: =
+Line 153: ID = BITS
+Line 153: (
+Line 153: ID = fds
+Line 153: ,
+Line 153: ID = n
+Line 153: )
+Line 153: ;
+Line 154: if
+Line 154: (
+Line 154: !
+Line 154: ID = set
+Line 154: )
+Line 155: ID = continue
+Line 155: ;
+Line 156: if
+Line 156: (
+Line 156: ID = set
+Line 156: Unrecognized token: 38
+Line 156: Unrecognized token: 126
+Line 156: *
+Line 156: ID = open_fds
+Line 156: )
+Line 157: return
+Line 157: -
+Line 157: ID = EBADF
+Line 157: ;
+Line 158: if
+Line 158: (
+Line 158: ID = max
+Line 158: )
+Line 159: ID = continue
+Line 159: ;
+Line 160: ID = get_max
+Line 160: Unrecognized token: 58
+Line 161: ID = do
+Line 161: {
+Line 162: ID = max
+Line 162: +
+Line 162: +
+Line 162: ;
+Line 163: ID = set
+Line 163: >
+Line 163: >=
+Line 163: INTCON = 1
+Line 163: ;
+Line 164: }
+Line 164: while
+Line 164: (
+Line 164: ID = set
+Line 164: )
+Line 164: ;
+Line 165: ID = max
+Line 165: +
+Line 165: =
+Line 165: ID = n
+Line 165: *
+Line 165: Unrecognized token: 95
+Line 165: Unrecognized token: 95
+Line 165: ID = NFDBITS
+Line 165: ;
+Line 166: }
+Line 168: return
+Line 168: ID = max
+Line 168: ;
+Line 169: }
+Line 171: Unrecognized token: 35
+Line 171: ID = define
+Line 171: ID = BIT
+Line 171: (
+Line 171: ID = i
+Line 171: )
+Line 171: (
+Line 171: INTCON = 1
+Line 171: ID = UL
+Line 171: <
+Line 171: <
+Line 171: (
+Line 171: (
+Line 171: ID = i
+Line 171: )
+Line 171: Unrecognized token: 38
+Line 171: (
+Line 171: Unrecognized token: 95
+Line 171: Unrecognized token: 95
+Line 171: ID = NFDBITS
+Line 171: -
+Line 171: INTCON = 1
+Line 171: )
+Line 171: )
+Line 171: )
+Line 172: Unrecognized token: 35
+Line 172: ID = define
+Line 172: ID = MEM
+Line 172: (
+Line 172: ID = i
+Line 172: ,
+Line 172: ID = m
+Line 172: )
+Line 172: (
+Line 172: (
+Line 172: ID = m
+Line 172: )
+Line 172: +
+Line 172: (
+Line 172: ID = unsigned
+Line 172: )
+Line 172: (
+Line 172: ID = i
+Line 172: )
+Line 172: /
+Line 172: Unrecognized token: 95
+Line 172: Unrecognized token: 95
+Line 172: ID = NFDBITS
+Line 172: )
+Line 173: Unrecognized token: 35
+Line 173: ID = define
+Line 173: ID = ISSET
+Line 173: (
+Line 173: ID = i
+Line 173: ,
+Line 173: ID = m
+Line 173: )
+Line 173: (
+Line 173: (
+Line 173: (
+Line 173: ID = i
+Line 173: )
+Line 173: Unrecognized token: 38
+Line 173: *
+Line 173: (
+Line 173: ID = m
+Line 173: )
+Line 173: )
+Line 173: !=
+Line 173: INTCON = 0
+Line 173: )
+Line 174: Unrecognized token: 35
+Line 174: ID = define
+Line 174: ID = SET
+Line 174: (
+Line 174: ID = i
+Line 174: ,
+Line 174: ID = m
+Line 174: )
+Line 174: (
+Line 174: *
+Line 174: (
+Line 174: ID = m
+Line 174: )
+Line 174: Unrecognized token: 124
+Line 174: =
+Line 174: (
+Line 174: ID = i
+Line 174: )
+Line 174: )
+Line 176: Unrecognized token: 35
+Line 176: ID = define
+Line 176: ID = POLLIN_SET
+Line 176: (
+Line 176: ID = POLLRDNORM
+Line 176: Unrecognized token: 124
+Line 176: ID = POLLRDBAND
+Line 176: Unrecognized token: 124
+Line 176: ID = POLLIN
+Line 176: Unrecognized token: 124
+Line 176: ID = POLLHUP
+Line 176: Unrecognized token: 124
+Line 176: ID = POLLERR
+Line 176: )
+Line 177: Unrecognized token: 35
+Line 177: ID = define
+Line 177: ID = POLLOUT_SET
+Line 177: (
+Line 177: ID = POLLWRBAND
+Line 177: Unrecognized token: 124
+Line 177: ID = POLLWRNORM
+Line 177: Unrecognized token: 124
+Line 177: ID = POLLOUT
+Line 177: Unrecognized token: 124
+Line 177: ID = POLLERR
+Line 177: )
+Line 178: Unrecognized token: 35
+Line 178: ID = define
+Line 178: ID = POLLEX_SET
+Line 178: (
+Line 178: ID = POLLPRI
+Line 178: )
+Line 180: int
+Line 180: ID = do_select
+Line 180: (
+Line 180: int
+Line 180: ID = n
+Line 180: ,
+Line 180: ID = fd_set_bits
+Line 180: *
+Line 180: ID = fds
+Line 180: ,
+Line 180: ID = long
+Line 180: *
+Line 180: ID = timeout
+Line 180: )
+Line 181: {
+Line 182: ID = struct
+Line 182: ID = poll_wqueues
+Line 182: ID = table
+Line 182: ;
+Line 183: ID = poll_table
+Line 183: *
+Line 183: ID = wait
+Line 183: ;
+Line 184: int
+Line 184: ID = retval
+Line 184: ,
+Line 184: ID = i
+Line 184: ;
+Line 185: ID = long
+Line 185: Unrecognized token: 95
+Line 185: Unrecognized token: 95
+Line 185: ID = timeout
+Line 185: =
+Line 185: *
+Line 185: ID = timeout
+Line 185: ;
+Line 187: ID = spin_lock
+Line 187: (
+Line 187: Unrecognized token: 38
+Line 187: ID = current
+Line 187: -
+Line 187: >
+Line 187: ID = files
+Line 187: -
+Line 187: >
+Line 187: ID = file_lock
+Line 187: )
+Line 187: ;
+Line 188: ID = retval
+Line 188: =
+Line 188: ID = max_select_fd
+Line 188: (
+Line 188: ID = n
+Line 188: ,
+Line 188: ID = fds
+Line 188: )
+Line 188: ;
+Line 189: ID = spin_unlock
+Line 189: (
+Line 189: Unrecognized token: 38
+Line 189: ID = current
+Line 189: -
+Line 189: >
+Line 189: ID = files
+Line 189: -
+Line 189: >
+Line 189: ID = file_lock
+Line 189: )
+Line 189: ;
+Line 191: if
+Line 191: (
+Line 191: ID = retval
+Line 191: <
+Line 191: INTCON = 0
+Line 191: )
+Line 192: return
+Line 192: ID = retval
+Line 192: ;
+Line 193: ID = n
+Line 193: =
+Line 193: ID = retval
+Line 193: ;
+Line 195: ID = poll_initwait
+Line 195: (
+Line 195: Unrecognized token: 38
+Line 195: ID = table
+Line 195: )
+Line 195: ;
+Line 196: ID = wait
+Line 196: =
+Line 196: Unrecognized token: 38
+Line 196: ID = table
+Line 196: Unrecognized token: 46
+Line 196: ID = pt
+Line 196: ;
+Line 197: if
+Line 197: (
+Line 197: !
+Line 197: Unrecognized token: 95
+Line 197: Unrecognized token: 95
+Line 197: ID = timeout
+Line 197: )
+Line 198: ID = wait
+Line 198: =
+Line 198: ID = NULL
+Line 198: ;
+Line 199: ID = retval
+Line 199: =
+Line 199: INTCON = 0
+Line 199: ;
+Line 200: for
+Line 200: (
+Line 200: ;
+Line 200: ;
+Line 200: )
+Line 200: {
+Line 201: ID = unsigned
+Line 201: ID = long
+Line 201: *
+Line 201: ID = rinp
+Line 201: ,
+Line 201: *
+Line 201: ID = routp
+Line 201: ,
+Line 201: *
+Line 201: ID = rexp
+Line 201: ,
+Line 201: *
+Line 201: ID = inp
+Line 201: ,
+Line 201: *
+Line 201: ID = outp
+Line 201: ,
+Line 201: *
+Line 201: ID = exp
+Line 201: ;
+Line 203: ID = set_current_state
+Line 203: (
+Line 203: ID = TASK_INTERRUPTIBLE
+Line 203: )
+Line 203: ;
+Line 205: ID = inp
+Line 205: =
+Line 205: ID = fds
+Line 205: -
+Line 205: >
+Line 205: ID = in
+Line 205: ;
+Line 205: ID = outp
+Line 205: =
+Line 205: ID = fds
+Line 205: -
+Line 205: >
+Line 205: ID = out
+Line 205: ;
+Line 205: ID = exp
+Line 205: =
+Line 205: ID = fds
+Line 205: -
+Line 205: >
+Line 205: ID = ex
+Line 205: ;
+Line 206: ID = rinp
+Line 206: =
+Line 206: ID = fds
+Line 206: -
+Line 206: >
+Line 206: ID = res_in
+Line 206: ;
+Line 206: ID = routp
+Line 206: =
+Line 206: ID = fds
+Line 206: -
+Line 206: >
+Line 206: ID = res_out
+Line 206: ;
+Line 206: ID = rexp
+Line 206: =
+Line 206: ID = fds
+Line 206: -
+Line 206: >
+Line 206: ID = res_ex
+Line 206: ;
+Line 208: for
+Line 208: (
+Line 208: ID = i
+Line 208: =
+Line 208: INTCON = 0
+Line 208: ;
+Line 208: ID = i
+Line 208: <
+Line 208: ID = n
+Line 208: ;
+Line 208: +
+Line 208: +
+Line 208: ID = rinp
+Line 208: ,
+Line 208: +
+Line 208: +
+Line 208: ID = routp
+Line 208: ,
+Line 208: +
+Line 208: +
+Line 208: ID = rexp
+Line 208: )
+Line 208: {
+Line 209: ID = unsigned
+Line 209: ID = long
+Line 209: ID = in
+Line 209: ,
+Line 209: ID = out
+Line 209: ,
+Line 209: ID = ex
+Line 209: ,
+Line 209: ID = all_bits
+Line 209: ,
+Line 209: ID = bit
+Line 209: =
+Line 209: INTCON = 1
+Line 209: ,
+Line 209: ID = mask
+Line 209: ,
+Line 209: ID = j
+Line 209: ;
+Line 210: ID = unsigned
+Line 210: ID = long
+Line 210: ID = res_in
+Line 210: =
+Line 210: INTCON = 0
+Line 210: ,
+Line 210: ID = res_out
+Line 210: =
+Line 210: INTCON = 0
+Line 210: ,
+Line 210: ID = res_ex
+Line 210: =
+Line 210: INTCON = 0
+Line 210: ;
+Line 211: ID = struct
+Line 211: ID = file_operations
+Line 211: *
+Line 211: ID = f_op
+Line 211: =
+Line 211: ID = NULL
+Line 211: ;
+Line 212: ID = struct
+Line 212: ID = file
+Line 212: *
+Line 212: ID = file
+Line 212: =
+Line 212: ID = NULL
+Line 212: ;
+Line 214: ID = in
+Line 214: =
+Line 214: *
+Line 214: ID = inp
+Line 214: +
+Line 214: +
+Line 214: ;
+Line 214: ID = out
+Line 214: =
+Line 214: *
+Line 214: ID = outp
+Line 214: +
+Line 214: +
+Line 214: ;
+Line 214: ID = ex
+Line 214: =
+Line 214: *
+Line 214: ID = exp
+Line 214: +
+Line 214: +
+Line 214: ;
+Line 215: ID = all_bits
+Line 215: =
+Line 215: ID = in
+Line 215: Unrecognized token: 124
+Line 215: ID = out
+Line 215: Unrecognized token: 124
+Line 215: ID = ex
+Line 215: ;
+Line 216: if
+Line 216: (
+Line 216: ID = all_bits
+Line 216: ==
+Line 216: INTCON = 0
+Line 216: )
+Line 216: {
+Line 217: ID = i
+Line 217: +
+Line 217: =
+Line 217: Unrecognized token: 95
+Line 217: Unrecognized token: 95
+Line 217: ID = NFDBITS
+Line 217: ;
+Line 218: ID = continue
+Line 218: ;
+Line 219: }
+Line 221: for
+Line 221: (
+Line 221: ID = j
+Line 221: =
+Line 221: INTCON = 0
+Line 221: ;
+Line 221: ID = j
+Line 221: <
+Line 221: Unrecognized token: 95
+Line 221: Unrecognized token: 95
+Line 221: ID = NFDBITS
+Line 221: ;
+Line 221: +
+Line 221: +
+Line 221: ID = j
+Line 221: ,
+Line 221: +
+Line 221: +
+Line 221: ID = i
+Line 221: ,
+Line 221: ID = bit
+Line 221: <
+Line 221: <=
+Line 221: INTCON = 1
+Line 221: )
+Line 221: {
+Line 222: if
+Line 222: (
+Line 222: ID = i
+Line 222: >=
+Line 222: ID = n
+Line 222: )
+Line 223: ID = break
+Line 223: ;
+Line 224: if
+Line 224: (
+Line 224: !
+Line 224: (
+Line 224: ID = bit
+Line 224: Unrecognized token: 38
+Line 224: ID = all_bits
+Line 224: )
+Line 224: )
+Line 225: ID = continue
+Line 225: ;
+Line 226: ID = file
+Line 226: =
+Line 226: ID = fget
+Line 226: (
+Line 226: ID = i
+Line 226: )
+Line 226: ;
+Line 227: if
+Line 227: (
+Line 227: ID = file
+Line 227: )
+Line 227: {
+Line 228: ID = f_op
+Line 228: =
+Line 228: ID = file
+Line 228: -
+Line 228: >
+Line 228: ID = f_op
+Line 228: ;
+Line 229: ID = mask
+Line 229: =
+Line 229: ID = DEFAULT_POLLMASK
+Line 229: ;
+Line 230: if
+Line 230: (
+Line 230: ID = f_op
+Line 230: &&
+Line 230: ID = f_op
+Line 230: -
+Line 230: >
+Line 230: ID = poll
+Line 230: )
+Line 231: ID = mask
+Line 231: =
+Line 231: (
+Line 231: *
+Line 231: ID = f_op
+Line 231: -
+Line 231: >
+Line 231: ID = poll
+Line 231: )
+Line 231: (
+Line 231: ID = file
+Line 231: ,
+Line 231: ID = retval
+Line 231: Unrecognized token: 63
+Line 231: ID = NULL
+Line 231: Unrecognized token: 58
+Line 231: ID = wait
+Line 231: )
+Line 231: ;
+Line 232: ID = fput
+Line 232: (
+Line 232: ID = file
+Line 232: )
+Line 232: ;
+Line 233: if
+Line 233: (
+Line 233: (
+Line 233: ID = mask
+Line 233: Unrecognized token: 38
+Line 233: ID = POLLIN_SET
+Line 233: )
+Line 233: &&
+Line 233: (
+Line 233: ID = in
+Line 233: Unrecognized token: 38
+Line 233: ID = bit
+Line 233: )
+Line 233: )
+Line 233: {
+Line 234: ID = res_in
+Line 234: Unrecognized token: 124
+Line 234: =
+Line 234: ID = bit
+Line 234: ;
+Line 235: ID = retval
+Line 235: +
+Line 235: +
+Line 235: ;
+Line 236: }
+Line 237: if
+Line 237: (
+Line 237: (
+Line 237: ID = mask
+Line 237: Unrecognized token: 38
+Line 237: ID = POLLOUT_SET
+Line 237: )
+Line 237: &&
+Line 237: (
+Line 237: ID = out
+Line 237: Unrecognized token: 38
+Line 237: ID = bit
+Line 237: )
+Line 237: )
+Line 237: {
+Line 238: ID = res_out
+Line 238: Unrecognized token: 124
+Line 238: =
+Line 238: ID = bit
+Line 238: ;
+Line 239: ID = retval
+Line 239: +
+Line 239: +
+Line 239: ;
+Line 240: }
+Line 241: if
+Line 241: (
+Line 241: (
+Line 241: ID = mask
+Line 241: Unrecognized token: 38
+Line 241: ID = POLLEX_SET
+Line 241: )
+Line 241: &&
+Line 241: (
+Line 241: ID = ex
+Line 241: Unrecognized token: 38
+Line 241: ID = bit
+Line 241: )
+Line 241: )
+Line 241: {
+Line 242: ID = res_ex
+Line 242: Unrecognized token: 124
+Line 242: =
+Line 242: ID = bit
+Line 242: ;
+Line 243: ID = retval
+Line 243: +
+Line 243: +
+Line 243: ;
+Line 244: }
+Line 245: }
+Line 246: }
+Line 247: if
+Line 247: (
+Line 247: ID = res_in
+Line 247: )
+Line 248: *
+Line 248: ID = rinp
+Line 248: =
+Line 248: ID = res_in
+Line 248: ;
+Line 249: if
+Line 249: (
+Line 249: ID = res_out
+Line 249: )
+Line 250: *
+Line 250: ID = routp
+Line 250: =
+Line 250: ID = res_out
+Line 250: ;
+Line 251: if
+Line 251: (
+Line 251: ID = res_ex
+Line 251: )
+Line 252: *
+Line 252: ID = rexp
+Line 252: =
+Line 252: ID = res_ex
+Line 252: ;
+Line 253: }
+Line 254: ID = wait
+Line 254: =
+Line 254: ID = NULL
+Line 254: ;
+Line 255: if
+Line 255: (
+Line 255: ID = retval
+Line 255: ||
+Line 255: !
+Line 255: Unrecognized token: 95
+Line 255: Unrecognized token: 95
+Line 255: ID = timeout
+Line 255: ||
+Line 255: ID = signal_pending
+Line 255: (
+Line 255: ID = current
+Line 255: )
+Line 255: )
+Line 256: ID = break
+Line 256: ;
+Line 257: if
+Line 257: (
+Line 257: ID = table
+Line 257: Unrecognized token: 46
+Line 257: ID = error
+Line 257: )
+Line 257: {
+Line 258: ID = retval
+Line 258: =
+Line 258: ID = table
+Line 258: Unrecognized token: 46
+Line 258: ID = error
+Line 258: ;
+Line 259: ID = break
+Line 259: ;
+Line 260: }
+Line 261: Unrecognized token: 95
+Line 261: Unrecognized token: 95
+Line 261: ID = timeout
+Line 261: =
+Line 261: ID = schedule_timeout
+Line 261: (
+Line 261: Unrecognized token: 95
+Line 261: Unrecognized token: 95
+Line 261: ID = timeout
+Line 261: )
+Line 261: ;
+Line 262: }
+Line 263: Unrecognized token: 95
+Line 263: Unrecognized token: 95
+Line 263: ID = set_current_state
+Line 263: (
+Line 263: ID = TASK_RUNNING
+Line 263: )
+Line 263: ;
+Line 265: ID = poll_freewait
+Line 265: (
+Line 265: Unrecognized token: 38
+Line 265: ID = table
+Line 265: )
+Line 265: ;
+Line 270: *
+Line 270: ID = timeout
+Line 270: =
+Line 270: Unrecognized token: 95
+Line 270: Unrecognized token: 95
+Line 270: ID = timeout
+Line 270: ;
+Line 271: return
+Line 271: ID = retval
+Line 271: ;
+Line 272: }
+Line 274: ID = EXPORT_SYMBOL
+Line 274: (
+Line 274: ID = do_select
+Line 274: )
+Line 274: ;
+Line 276: ID = static
+Line 276: void
+Line 276: *
+Line 276: ID = select_bits_alloc
+Line 276: (
+Line 276: int
+Line 276: ID = size
+Line 276: )
+Line 277: {
+Line 278: return
+Line 278: ID = kmalloc
+Line 278: (
+Line 278: INTCON = 6
+Line 278: *
+Line 278: ID = size
+Line 278: ,
+Line 278: ID = GFP_KERNEL
+Line 278: )
+Line 278: ;
+Line 279: }
+Line 281: ID = static
+Line 281: void
+Line 281: ID = select_bits_free
+Line 281: (
+Line 281: void
+Line 281: *
+Line 281: ID = bits
+Line 281: ,
+Line 281: int
+Line 281: ID = size
+Line 281: )
+Line 282: {
+Line 283: ID = kfree
+Line 283: (
+Line 283: ID = bits
+Line 283: )
+Line 283: ;
+Line 284: }
+Line 294: Unrecognized token: 35
+Line 294: ID = define
+Line 294: ID = MAX_SELECT_SECONDS
+Line 294: Unrecognized token: 92
+Line 295: (
+Line 295: (
+Line 295: ID = unsigned
+Line 295: ID = long
+Line 295: )
+Line 295: (
+Line 295: ID = MAX_SCHEDULE_TIMEOUT
+Line 295: /
+Line 295: ID = HZ
+Line 295: )
+Line 295: -
+Line 295: INTCON = 1
+Line 295: )
+Line 297: ID = asmlinkage
+Line 297: ID = long
+Line 298: ID = sys_select
+Line 298: (
+Line 298: int
+Line 298: ID = n
+Line 298: ,
+Line 298: ID = fd_set
+Line 298: Unrecognized token: 95
+Line 298: Unrecognized token: 95
+Line 298: ID = user
+Line 298: *
+Line 298: ID = inp
+Line 298: ,
+Line 298: ID = fd_set
+Line 298: Unrecognized token: 95
+Line 298: Unrecognized token: 95
+Line 298: ID = user
+Line 298: *
+Line 298: ID = outp
+Line 298: ,
+Line 298: ID = fd_set
+Line 298: Unrecognized token: 95
+Line 298: Unrecognized token: 95
+Line 298: ID = user
+Line 298: *
+Line 298: ID = exp
+Line 298: ,
+Line 298: ID = struct
+Line 298: ID = timeval
+Line 298: Unrecognized token: 95
+Line 298: Unrecognized token: 95
+Line 298: ID = user
+Line 298: *
+Line 298: ID = tvp
+Line 298: )
+Line 299: {
+Line 300: ID = fd_set_bits
+Line 300: ID = fds
+Line 300: ;
+Line 301: char
+Line 301: *
+Line 301: ID = bits
+Line 301: ;
+Line 302: ID = long
+Line 302: ID = timeout
+Line 302: ;
+Line 303: int
+Line 303: ID = ret
+Line 303: ,
+Line 303: ID = size
+Line 303: ,
+Line 303: ID = max_fdset
+Line 303: ;
+Line 305: ID = timeout
+Line 305: =
+Line 305: ID = MAX_SCHEDULE_TIMEOUT
+Line 305: ;
+Line 306: if
+Line 306: (
+Line 306: ID = tvp
+Line 306: )
+Line 306: {
+Line 307: ID = time_t
+Line 307: ID = sec
+Line 307: ,
+Line 307: ID = usec
+Line 307: ;
+Line 309: if
+Line 309: (
+Line 309: (
+Line 309: ID = ret
+Line 309: =
+Line 309: ID = verify_area
+Line 309: (
+Line 309: ID = VERIFY_READ
+Line 309: ,
+Line 309: ID = tvp
+Line 309: ,
+Line 309: ID = sizeof
+Line 309: (
+Line 309: *
+Line 309: ID = tvp
+Line 309: )
+Line 309: )
+Line 309: )
+Line 310: ||
+Line 310: (
+Line 310: ID = ret
+Line 310: =
+Line 310: Unrecognized token: 95
+Line 310: Unrecognized token: 95
+Line 310: ID = get_user
+Line 310: (
+Line 310: ID = sec
+Line 310: ,
+Line 310: Unrecognized token: 38
+Line 310: ID = tvp
+Line 310: -
+Line 310: >
+Line 310: ID = tv_sec
+Line 310: )
+Line 310: )
+Line 311: ||
+Line 311: (
+Line 311: ID = ret
+Line 311: =
+Line 311: Unrecognized token: 95
+Line 311: Unrecognized token: 95
+Line 311: ID = get_user
+Line 311: (
+Line 311: ID = usec
+Line 311: ,
+Line 311: Unrecognized token: 38
+Line 311: ID = tvp
+Line 311: -
+Line 311: >
+Line 311: ID = tv_usec
+Line 311: )
+Line 311: )
+Line 311: )
+Line 312: ID = goto
+Line 312: ID = out_nofds
+Line 312: ;
+Line 314: ID = ret
+Line 314: =
+Line 314: -
+Line 314: ID = EINVAL
+Line 314: ;
+Line 315: if
+Line 315: (
+Line 315: ID = sec
+Line 315: <
+Line 315: INTCON = 0
+Line 315: ||
+Line 315: ID = usec
+Line 315: <
+Line 315: INTCON = 0
+Line 315: )
+Line 316: ID = goto
+Line 316: ID = out_nofds
+Line 316: ;
+Line 318: if
+Line 318: (
+Line 318: (
+Line 318: ID = unsigned
+Line 318: ID = long
+Line 318: )
+Line 318: ID = sec
+Line 318: <
+Line 318: ID = MAX_SELECT_SECONDS
+Line 318: )
+Line 318: {
+Line 319: ID = timeout
+Line 319: =
+Line 319: ID = ROUND_UP
+Line 319: (
+Line 319: ID = usec
+Line 319: ,
+Line 319: INTCON = 1000000
+Line 319: /
+Line 319: ID = HZ
+Line 319: )
+Line 319: ;
+Line 320: ID = timeout
+Line 320: +
+Line 320: =
+Line 320: ID = sec
+Line 320: *
+Line 320: (
+Line 320: ID = unsigned
+Line 320: ID = long
+Line 320: )
+Line 320: ID = HZ
+Line 320: ;
+Line 321: }
+Line 322: }
+Line 324: ID = ret
+Line 324: =
+Line 324: -
+Line 324: ID = EINVAL
+Line 324: ;
+Line 325: if
+Line 325: (
+Line 325: ID = n
+Line 325: <
+Line 325: INTCON = 0
+Line 325: )
+Line 326: ID = goto
+Line 326: ID = out_nofds
+Line 326: ;
+Line 329: ID = max_fdset
+Line 329: =
+Line 329: ID = current
+Line 329: -
+Line 329: >
+Line 329: ID = files
+Line 329: -
+Line 329: >
+Line 329: ID = max_fdset
+Line 329: ;
+Line 330: if
+Line 330: (
+Line 330: ID = n
+Line 330: >
+Line 330: ID = max_fdset
+Line 330: )
+Line 331: ID = n
+Line 331: =
+Line 331: ID = max_fdset
+Line 331: ;
+Line 338: ID = ret
+Line 338: =
+Line 338: -
+Line 338: ID = ENOMEM
+Line 338: ;
+Line 339: ID = size
+Line 339: =
+Line 339: ID = FDS_BYTES
+Line 339: (
+Line 339: ID = n
+Line 339: )
+Line 339: ;
+Line 340: ID = bits
+Line 340: =
+Line 340: ID = select_bits_alloc
+Line 340: (
+Line 340: ID = size
+Line 340: )
+Line 340: ;
+Line 341: if
+Line 341: (
+Line 341: !
+Line 341: ID = bits
+Line 341: )
+Line 342: ID = goto
+Line 342: ID = out_nofds
+Line 342: ;
+Line 343: ID = fds
+Line 343: Unrecognized token: 46
+Line 343: ID = in
+Line 343: =
+Line 343: (
+Line 343: ID = unsigned
+Line 343: ID = long
+Line 343: *
+Line 343: )
+Line 343: ID = bits
+Line 343: ;
+Line 344: ID = fds
+Line 344: Unrecognized token: 46
+Line 344: ID = out
+Line 344: =
+Line 344: (
+Line 344: ID = unsigned
+Line 344: ID = long
+Line 344: *
+Line 344: )
+Line 344: (
+Line 344: ID = bits
+Line 344: +
+Line 344: ID = size
+Line 344: )
+Line 344: ;
+Line 345: ID = fds
+Line 345: Unrecognized token: 46
+Line 345: ID = ex
+Line 345: =
+Line 345: (
+Line 345: ID = unsigned
+Line 345: ID = long
+Line 345: *
+Line 345: )
+Line 345: (
+Line 345: ID = bits
+Line 345: +
+Line 345: INTCON = 2
+Line 345: *
+Line 345: ID = size
+Line 345: )
+Line 345: ;
+Line 346: ID = fds
+Line 346: Unrecognized token: 46
+Line 346: ID = res_in
+Line 346: =
+Line 346: (
+Line 346: ID = unsigned
+Line 346: ID = long
+Line 346: *
+Line 346: )
+Line 346: (
+Line 346: ID = bits
+Line 346: +
+Line 346: INTCON = 3
+Line 346: *
+Line 346: ID = size
+Line 346: )
+Line 346: ;
+Line 347: ID = fds
+Line 347: Unrecognized token: 46
+Line 347: ID = res_out
+Line 347: =
+Line 347: (
+Line 347: ID = unsigned
+Line 347: ID = long
+Line 347: *
+Line 347: )
+Line 347: (
+Line 347: ID = bits
+Line 347: +
+Line 347: INTCON = 4
+Line 347: *
+Line 347: ID = size
+Line 347: )
+Line 347: ;
+Line 348: ID = fds
+Line 348: Unrecognized token: 46
+Line 348: ID = res_ex
+Line 348: =
+Line 348: (
+Line 348: ID = unsigned
+Line 348: ID = long
+Line 348: *
+Line 348: )
+Line 348: (
+Line 348: ID = bits
+Line 348: +
+Line 348: INTCON = 5
+Line 348: *
+Line 348: ID = size
+Line 348: )
+Line 348: ;
+Line 350: if
+Line 350: (
+Line 350: (
+Line 350: ID = ret
+Line 350: =
+Line 350: ID = get_fd_set
+Line 350: (
+Line 350: ID = n
+Line 350: ,
+Line 350: ID = inp
+Line 350: ,
+Line 350: ID = fds
+Line 350: Unrecognized token: 46
+Line 350: ID = in
+Line 350: )
+Line 350: )
+Line 350: ||
+Line 351: (
+Line 351: ID = ret
+Line 351: =
+Line 351: ID = get_fd_set
+Line 351: (
+Line 351: ID = n
+Line 351: ,
+Line 351: ID = outp
+Line 351: ,
+Line 351: ID = fds
+Line 351: Unrecognized token: 46
+Line 351: ID = out
+Line 351: )
+Line 351: )
+Line 351: ||
+Line 352: (
+Line 352: ID = ret
+Line 352: =
+Line 352: ID = get_fd_set
+Line 352: (
+Line 352: ID = n
+Line 352: ,
+Line 352: ID = exp
+Line 352: ,
+Line 352: ID = fds
+Line 352: Unrecognized token: 46
+Line 352: ID = ex
+Line 352: )
+Line 352: )
+Line 352: )
+Line 353: ID = goto
+Line 353: ID = out
+Line 353: ;
+Line 354: ID = zero_fd_set
+Line 354: (
+Line 354: ID = n
+Line 354: ,
+Line 354: ID = fds
+Line 354: Unrecognized token: 46
+Line 354: ID = res_in
+Line 354: )
+Line 354: ;
+Line 355: ID = zero_fd_set
+Line 355: (
+Line 355: ID = n
+Line 355: ,
+Line 355: ID = fds
+Line 355: Unrecognized token: 46
+Line 355: ID = res_out
+Line 355: )
+Line 355: ;
+Line 356: ID = zero_fd_set
+Line 356: (
+Line 356: ID = n
+Line 356: ,
+Line 356: ID = fds
+Line 356: Unrecognized token: 46
+Line 356: ID = res_ex
+Line 356: )
+Line 356: ;
+Line 358: ID = ret
+Line 358: =
+Line 358: ID = do_select
+Line 358: (
+Line 358: ID = n
+Line 358: ,
+Line 358: Unrecognized token: 38
+Line 358: ID = fds
+Line 358: ,
+Line 358: Unrecognized token: 38
+Line 358: ID = timeout
+Line 358: )
+Line 358: ;
+Line 360: if
+Line 360: (
+Line 360: ID = tvp
+Line 360: &&
+Line 360: !
+Line 360: (
+Line 360: ID = current
+Line 360: -
+Line 360: >
+Line 360: ID = personality
+Line 360: Unrecognized token: 38
+Line 360: ID = STICKY_TIMEOUTS
+Line 360: )
+Line 360: )
+Line 360: {
+Line 361: ID = time_t
+Line 361: ID = sec
+Line 361: =
+Line 361: INTCON = 0
+Line 361: ,
+Line 361: ID = usec
+Line 361: =
+Line 361: INTCON = 0
+Line 361: ;
+Line 362: if
+Line 362: (
+Line 362: ID = timeout
+Line 362: )
+Line 362: {
+Line 363: ID = sec
+Line 363: =
+Line 363: ID = timeout
+Line 363: /
+Line 363: ID = HZ
+Line 363: ;
+Line 364: ID = usec
+Line 364: =
+Line 364: ID = timeout
+Line 364: Unrecognized token: 37
+Line 364: ID = HZ
+Line 364: ;
+Line 365: ID = usec
+Line 365: *
+Line 365: =
+Line 365: (
+Line 365: INTCON = 1000000
+Line 365: /
+Line 365: ID = HZ
+Line 365: )
+Line 365: ;
+Line 366: }
+Line 367: ID = put_user
+Line 367: (
+Line 367: ID = sec
+Line 367: ,
+Line 367: Unrecognized token: 38
+Line 367: ID = tvp
+Line 367: -
+Line 367: >
+Line 367: ID = tv_sec
+Line 367: )
+Line 367: ;
+Line 368: ID = put_user
+Line 368: (
+Line 368: ID = usec
+Line 368: ,
+Line 368: Unrecognized token: 38
+Line 368: ID = tvp
+Line 368: -
+Line 368: >
+Line 368: ID = tv_usec
+Line 368: )
+Line 368: ;
+Line 369: }
+Line 371: if
+Line 371: (
+Line 371: ID = ret
+Line 371: <
+Line 371: INTCON = 0
+Line 371: )
+Line 372: ID = goto
+Line 372: ID = out
+Line 372: ;
+Line 373: if
+Line 373: (
+Line 373: !
+Line 373: ID = ret
+Line 373: )
+Line 373: {
+Line 374: ID = ret
+Line 374: =
+Line 374: -
+Line 374: ID = ERESTARTNOHAND
+Line 374: ;
+Line 375: if
+Line 375: (
+Line 375: ID = signal_pending
+Line 375: (
+Line 375: ID = current
+Line 375: )
+Line 375: )
+Line 376: ID = goto
+Line 376: ID = out
+Line 376: ;
+Line 377: ID = ret
+Line 377: =
+Line 377: INTCON = 0
+Line 377: ;
+Line 378: }
+Line 380: ID = set_fd_set
+Line 380: (
+Line 380: ID = n
+Line 380: ,
+Line 380: ID = inp
+Line 380: ,
+Line 380: ID = fds
+Line 380: Unrecognized token: 46
+Line 380: ID = res_in
+Line 380: )
+Line 380: ;
+Line 381: ID = set_fd_set
+Line 381: (
+Line 381: ID = n
+Line 381: ,
+Line 381: ID = outp
+Line 381: ,
+Line 381: ID = fds
+Line 381: Unrecognized token: 46
+Line 381: ID = res_out
+Line 381: )
+Line 381: ;
+Line 382: ID = set_fd_set
+Line 382: (
+Line 382: ID = n
+Line 382: ,
+Line 382: ID = exp
+Line 382: ,
+Line 382: ID = fds
+Line 382: Unrecognized token: 46
+Line 382: ID = res_ex
+Line 382: )
+Line 382: ;
+Line 384: ID = out
+Line 384: Unrecognized token: 58
+Line 385: ID = select_bits_free
+Line 385: (
+Line 385: ID = bits
+Line 385: ,
+Line 385: ID = size
+Line 385: )
+Line 385: ;
+Line 386: ID = out_nofds
+Line 386: Unrecognized token: 58
+Line 387: return
+Line 387: ID = ret
+Line 387: ;
+Line 388: }
+Line 390: ID = struct
+Line 390: ID = poll_list
+Line 390: {
+Line 391: ID = struct
+Line 391: ID = poll_list
+Line 391: *
+Line 391: ID = next
+Line 391: ;
+Line 392: int
+Line 392: ID = len
+Line 392: ;
+Line 393: ID = struct
+Line 393: ID = pollfd
+Line 393: ID = entries
+Line 393: [
+Line 393: INTCON = 0
+Line 393: ]
+Line 393: ;
+Line 394: }
+Line 394: ;
+Line 396: Unrecognized token: 35
+Line 396: ID = define
+Line 396: ID = POLLFD_PER_PAGE
+Line 396: (
+Line 396: (
+Line 396: ID = PAGE_SIZE
+Line 396: -
+Line 396: ID = sizeof
+Line 396: (
+Line 396: ID = struct
+Line 396: ID = poll_list
+Line 396: )
+Line 396: )
+Line 396: /
+Line 396: ID = sizeof
+Line 396: (
+Line 396: ID = struct
+Line 396: ID = pollfd
+Line 396: )
+Line 396: )
+Line 398: ID = static
+Line 398: void
+Line 398: ID = do_pollfd
+Line 398: (
+Line 398: ID = unsigned
+Line 398: int
+Line 398: ID = num
+Line 398: ,
+Line 398: ID = struct
+Line 398: ID = pollfd
+Line 398: *
+Line 398: ID = fdpage
+Line 398: ,
+Line 399: ID = poll_table
+Line 399: *
+Line 399: *
+Line 399: ID = pwait
+Line 399: ,
+Line 399: int
+Line 399: *
+Line 399: ID = count
+Line 399: )
+Line 400: {
+Line 401: int
+Line 401: ID = i
+Line 401: ;
+Line 403: for
+Line 403: (
+Line 403: ID = i
+Line 403: =
+Line 403: INTCON = 0
+Line 403: ;
+Line 403: ID = i
+Line 403: <
+Line 403: ID = num
+Line 403: ;
+Line 403: ID = i
+Line 403: +
+Line 403: +
+Line 403: )
+Line 403: {
+Line 404: int
+Line 404: ID = fd
+Line 404: ;
+Line 405: ID = unsigned
+Line 405: int
+Line 405: ID = mask
+Line 405: ;
+Line 406: ID = struct
+Line 406: ID = pollfd
+Line 406: *
+Line 406: ID = fdp
+Line 406: ;
+Line 408: ID = mask
+Line 408: =
+Line 408: INTCON = 0
+Line 408: ;
+Line 409: ID = fdp
+Line 409: =
+Line 409: ID = fdpage
+Line 409: +
+Line 409: ID = i
+Line 409: ;
+Line 410: ID = fd
+Line 410: =
+Line 410: ID = fdp
+Line 410: -
+Line 410: >
+Line 410: ID = fd
+Line 410: ;
+Line 411: if
+Line 411: (
+Line 411: ID = fd
+Line 411: >=
+Line 411: INTCON = 0
+Line 411: )
+Line 411: {
+Line 412: ID = struct
+Line 412: ID = file
+Line 412: *
+Line 412: ID = file
+Line 412: =
+Line 412: ID = fget
+Line 412: (
+Line 412: ID = fd
+Line 412: )
+Line 412: ;
+Line 413: ID = mask
+Line 413: =
+Line 413: ID = POLLNVAL
+Line 413: ;
+Line 414: if
+Line 414: (
+Line 414: ID = file
+Line 414: !=
+Line 414: ID = NULL
+Line 414: )
+Line 414: {
+Line 415: ID = mask
+Line 415: =
+Line 415: ID = DEFAULT_POLLMASK
+Line 415: ;
+Line 416: if
+Line 416: (
+Line 416: ID = file
+Line 416: -
+Line 416: >
+Line 416: ID = f_op
+Line 416: &&
+Line 416: ID = file
+Line 416: -
+Line 416: >
+Line 416: ID = f_op
+Line 416: -
+Line 416: >
+Line 416: ID = poll
+Line 416: )
+Line 417: ID = mask
+Line 417: =
+Line 417: ID = file
+Line 417: -
+Line 417: >
+Line 417: ID = f_op
+Line 417: -
+Line 417: >
+Line 417: ID = poll
+Line 417: (
+Line 417: ID = file
+Line 417: ,
+Line 417: *
+Line 417: ID = pwait
+Line 417: )
+Line 417: ;
+Line 418: ID = mask
+Line 418: Unrecognized token: 38
+Line 418: =
+Line 418: ID = fdp
+Line 418: -
+Line 418: >
+Line 418: ID = events
+Line 418: Unrecognized token: 124
+Line 418: ID = POLLERR
+Line 418: Unrecognized token: 124
+Line 418: ID = POLLHUP
+Line 418: ;
+Line 419: ID = fput
+Line 419: (
+Line 419: ID = file
+Line 419: )
+Line 419: ;
+Line 420: }
+Line 421: if
+Line 421: (
+Line 421: ID = mask
+Line 421: )
+Line 421: {
+Line 422: *
+Line 422: ID = pwait
+Line 422: =
+Line 422: ID = NULL
+Line 422: ;
+Line 423: (
+Line 423: *
+Line 423: ID = count
+Line 423: )
+Line 423: +
+Line 423: +
+Line 423: ;
+Line 424: }
+Line 425: }
+Line 426: ID = fdp
+Line 426: -
+Line 426: >
+Line 426: ID = revents
+Line 426: =
+Line 426: ID = mask
+Line 426: ;
+Line 427: }
+Line 428: }
+Line 430: ID = static
+Line 430: int
+Line 430: ID = do_poll
+Line 430: (
+Line 430: ID = unsigned
+Line 430: int
+Line 430: ID = nfds
+Line 430: ,
+Line 430: ID = struct
+Line 430: ID = poll_list
+Line 430: *
+Line 430: ID = list
+Line 430: ,
+Line 431: ID = struct
+Line 431: ID = poll_wqueues
+Line 431: *
+Line 431: ID = wait
+Line 431: ,
+Line 431: ID = long
+Line 431: ID = timeout
+Line 431: )
+Line 432: {
+Line 433: int
+Line 433: ID = count
+Line 433: =
+Line 433: INTCON = 0
+Line 433: ;
+Line 434: ID = poll_table
+Line 434: *
+Line 434: ID = pt
+Line 434: =
+Line 434: Unrecognized token: 38
+Line 434: ID = wait
+Line 434: -
+Line 434: >
+Line 434: ID = pt
+Line 434: ;
+Line 436: if
+Line 436: (
+Line 436: !
+Line 436: ID = timeout
+Line 436: )
+Line 437: ID = pt
+Line 437: =
+Line 437: ID = NULL
+Line 437: ;
+Line 439: for
+Line 439: (
+Line 439: ;
+Line 439: ;
+Line 439: )
+Line 439: {
+Line 440: ID = struct
+Line 440: ID = poll_list
+Line 440: *
+Line 440: ID = walk
+Line 440: ;
+Line 441: ID = set_current_state
+Line 441: (
+Line 441: ID = TASK_INTERRUPTIBLE
+Line 441: )
+Line 441: ;
+Line 442: ID = walk
+Line 442: =
+Line 442: ID = list
+Line 442: ;
+Line 443: while
+Line 443: (
+Line 443: ID = walk
+Line 443: !=
+Line 443: ID = NULL
+Line 443: )
+Line 443: {
+Line 444: ID = do_pollfd
+Line 444: (
+Line 444: ID = walk
+Line 444: -
+Line 444: >
+Line 444: ID = len
+Line 444: ,
+Line 444: ID = walk
+Line 444: -
+Line 444: >
+Line 444: ID = entries
+Line 444: ,
+Line 444: Unrecognized token: 38
+Line 444: ID = pt
+Line 444: ,
+Line 444: Unrecognized token: 38
+Line 444: ID = count
+Line 444: )
+Line 444: ;
+Line 445: ID = walk
+Line 445: =
+Line 445: ID = walk
+Line 445: -
+Line 445: >
+Line 445: ID = next
+Line 445: ;
+Line 446: }
+Line 447: ID = pt
+Line 447: =
+Line 447: ID = NULL
+Line 447: ;
+Line 448: if
+Line 448: (
+Line 448: ID = count
+Line 448: ||
+Line 448: !
+Line 448: ID = timeout
+Line 448: ||
+Line 448: ID = signal_pending
+Line 448: (
+Line 448: ID = current
+Line 448: )
+Line 448: )
+Line 449: ID = break
+Line 449: ;
+Line 450: ID = count
+Line 450: =
+Line 450: ID = wait
+Line 450: -
+Line 450: >
+Line 450: ID = error
+Line 450: ;
+Line 451: if
+Line 451: (
+Line 451: ID = count
+Line 451: )
+Line 452: ID = break
+Line 452: ;
+Line 453: ID = timeout
+Line 453: =
+Line 453: ID = schedule_timeout
+Line 453: (
+Line 453: ID = timeout
+Line 453: )
+Line 453: ;
+Line 454: }
+Line 455: Unrecognized token: 95
+Line 455: Unrecognized token: 95
+Line 455: ID = set_current_state
+Line 455: (
+Line 455: ID = TASK_RUNNING
+Line 455: )
+Line 455: ;
+Line 456: return
+Line 456: ID = count
+Line 456: ;
+Line 457: }
+Line 459: ID = asmlinkage
+Line 459: ID = long
+Line 459: ID = sys_poll
+Line 459: (
+Line 459: ID = struct
+Line 459: ID = pollfd
+Line 459: Unrecognized token: 95
+Line 459: Unrecognized token: 95
+Line 459: ID = user
+Line 459: *
+Line 459: ID = ufds
+Line 459: ,
+Line 459: ID = unsigned
+Line 459: int
+Line 459: ID = nfds
+Line 459: ,
+Line 459: ID = long
+Line 459: ID = timeout
+Line 459: )
+Line 460: {
+Line 461: ID = struct
+Line 461: ID = poll_wqueues
+Line 461: ID = table
+Line 461: ;
+Line 462: int
+Line 462: ID = fdcount
+Line 462: ,
+Line 462: ID = err
+Line 462: ;
+Line 463: ID = unsigned
+Line 463: int
+Line 463: ID = i
+Line 463: ;
+Line 464: ID = struct
+Line 464: ID = poll_list
+Line 464: *
+Line 464: ID = head
+Line 464: ;
+Line 465: ID = struct
+Line 465: ID = poll_list
+Line 465: *
+Line 465: ID = walk
+Line 465: ;
+Line 468: if
+Line 468: (
+Line 468: ID = nfds
+Line 468: >
+Line 468: ID = current
+Line 468: -
+Line 468: >
+Line 468: ID = files
+Line 468: -
+Line 468: >
+Line 468: ID = max_fdset
+Line 468: &&
+Line 468: ID = nfds
+Line 468: >
+Line 468: ID = OPEN_MAX
+Line 468: )
+Line 469: return
+Line 469: -
+Line 469: ID = EINVAL
+Line 469: ;
+Line 471: if
+Line 471: (
+Line 471: ID = timeout
+Line 471: )
+Line 471: {
+Line 473: if
+Line 473: (
+Line 473: (
+Line 473: ID = unsigned
+Line 473: ID = long
+Line 473: )
+Line 473: ID = timeout
+Line 473: <
+Line 473: ID = MAX_SCHEDULE_TIMEOUT
+Line 473: /
+Line 473: ID = HZ
+Line 473: )
+Line 474: ID = timeout
+Line 474: =
+Line 474: (
+Line 474: ID = unsigned
+Line 474: ID = long
+Line 474: )
+Line 474: (
+Line 474: ID = timeout
+Line 474: *
+Line 474: ID = HZ
+Line 474: +
+Line 474: INTCON = 999
+Line 474: )
+Line 474: /
+Line 474: INTCON = 1000
+Line 474: +
+Line 474: INTCON = 1
+Line 474: ;
+Line 475: else
+Line 476: ID = timeout
+Line 476: =
+Line 476: ID = MAX_SCHEDULE_TIMEOUT
+Line 476: ;
+Line 477: }
+Line 479: ID = poll_initwait
+Line 479: (
+Line 479: Unrecognized token: 38
+Line 479: ID = table
+Line 479: )
+Line 479: ;
+Line 481: ID = head
+Line 481: =
+Line 481: ID = NULL
+Line 481: ;
+Line 482: ID = walk
+Line 482: =
+Line 482: ID = NULL
+Line 482: ;
+Line 483: ID = i
+Line 483: =
+Line 483: ID = nfds
+Line 483: ;
+Line 484: ID = err
+Line 484: =
+Line 484: -
+Line 484: ID = ENOMEM
+Line 484: ;
+Line 485: while
+Line 485: (
+Line 485: ID = i
+Line 485: !=
+Line 485: INTCON = 0
+Line 485: )
+Line 485: {
+Line 486: ID = struct
+Line 486: ID = poll_list
+Line 486: *
+Line 486: ID = pp
+Line 486: ;
+Line 487: ID = pp
+Line 487: =
+Line 487: ID = kmalloc
+Line 487: (
+Line 487: ID = sizeof
+Line 487: (
+Line 487: ID = struct
+Line 487: ID = poll_list
+Line 487: )
+Line 487: +
+Line 488: ID = sizeof
+Line 488: (
+Line 488: ID = struct
+Line 488: ID = pollfd
+Line 488: )
+Line 488: *
+Line 489: (
+Line 489: ID = i
+Line 489: >
+Line 489: ID = POLLFD_PER_PAGE
+Line 489: Unrecognized token: 63
+Line 489: ID = POLLFD_PER_PAGE
+Line 489: Unrecognized token: 58
+Line 489: ID = i
+Line 489: )
+Line 489: ,
+Line 490: ID = GFP_KERNEL
+Line 490: )
+Line 490: ;
+Line 491: if
+Line 491: (
+Line 491: ID = pp
+Line 491: ==
+Line 491: ID = NULL
+Line 491: )
+Line 492: ID = goto
+Line 492: ID = out_fds
+Line 492: ;
+Line 493: ID = pp
+Line 493: -
+Line 493: >
+Line 493: ID = next
+Line 493: =
+Line 493: ID = NULL
+Line 493: ;
+Line 494: ID = pp
+Line 494: -
+Line 494: >
+Line 494: ID = len
+Line 494: =
+Line 494: (
+Line 494: ID = i
+Line 494: >
+Line 494: ID = POLLFD_PER_PAGE
+Line 494: Unrecognized token: 63
+Line 494: ID = POLLFD_PER_PAGE
+Line 494: Unrecognized token: 58
+Line 494: ID = i
+Line 494: )
+Line 494: ;
+Line 495: if
+Line 495: (
+Line 495: ID = head
+Line 495: ==
+Line 495: ID = NULL
+Line 495: )
+Line 496: ID = head
+Line 496: =
+Line 496: ID = pp
+Line 496: ;
+Line 497: else
+Line 498: ID = walk
+Line 498: -
+Line 498: >
+Line 498: ID = next
+Line 498: =
+Line 498: ID = pp
+Line 498: ;
+Line 500: ID = walk
+Line 500: =
+Line 500: ID = pp
+Line 500: ;
+Line 501: if
+Line 501: (
+Line 501: ID = copy_from_user
+Line 501: (
+Line 501: ID = pp
+Line 501: -
+Line 501: >
+Line 501: ID = entries
+Line 501: ,
+Line 501: ID = ufds
+Line 501: +
+Line 501: ID = nfds
+Line 501: -
+Line 501: ID = i
+Line 501: ,
+Line 502: ID = sizeof
+Line 502: (
+Line 502: ID = struct
+Line 502: ID = pollfd
+Line 502: )
+Line 502: *
+Line 502: ID = pp
+Line 502: -
+Line 502: >
+Line 502: ID = len
+Line 502: )
+Line 502: )
+Line 502: {
+Line 503: ID = err
+Line 503: =
+Line 503: -
+Line 503: ID = EFAULT
+Line 503: ;
+Line 504: ID = goto
+Line 504: ID = out_fds
+Line 504: ;
+Line 505: }
+Line 506: ID = i
+Line 506: -
+Line 506: =
+Line 506: ID = pp
+Line 506: -
+Line 506: >
+Line 506: ID = len
+Line 506: ;
+Line 507: }
+Line 508: ID = fdcount
+Line 508: =
+Line 508: ID = do_poll
+Line 508: (
+Line 508: ID = nfds
+Line 508: ,
+Line 508: ID = head
+Line 508: ,
+Line 508: Unrecognized token: 38
+Line 508: ID = table
+Line 508: ,
+Line 508: ID = timeout
+Line 508: )
+Line 508: ;
+Line 511: ID = walk
+Line 511: =
+Line 511: ID = head
+Line 511: ;
+Line 512: ID = err
+Line 512: =
+Line 512: -
+Line 512: ID = EFAULT
+Line 512: ;
+Line 513: while
+Line 513: (
+Line 513: ID = walk
+Line 513: !=
+Line 513: ID = NULL
+Line 513: )
+Line 513: {
+Line 514: ID = struct
+Line 514: ID = pollfd
+Line 514: *
+Line 514: ID = fds
+Line 514: =
+Line 514: ID = walk
+Line 514: -
+Line 514: >
+Line 514: ID = entries
+Line 514: ;
+Line 515: int
+Line 515: ID = j
+Line 515: ;
+Line 517: for
+Line 517: (
+Line 517: ID = j
+Line 517: =
+Line 517: INTCON = 0
+Line 517: ;
+Line 517: ID = j
+Line 517: <
+Line 517: ID = walk
+Line 517: -
+Line 517: >
+Line 517: ID = len
+Line 517: ;
+Line 517: ID = j
+Line 517: +
+Line 517: +
+Line 517: ,
+Line 517: ID = ufds
+Line 517: +
+Line 517: +
+Line 517: )
+Line 517: {
+Line 518: if
+Line 518: (
+Line 518: Unrecognized token: 95
+Line 518: Unrecognized token: 95
+Line 518: ID = put_user
+Line 518: (
+Line 518: ID = fds
+Line 518: [
+Line 518: ID = j
+Line 518: ]
+Line 518: Unrecognized token: 46
+Line 518: ID = revents
+Line 518: ,
+Line 518: Unrecognized token: 38
+Line 518: ID = ufds
+Line 518: -
+Line 518: >
+Line 518: ID = revents
+Line 518: )
+Line 518: )
+Line 519: ID = goto
+Line 519: ID = out_fds
+Line 519: ;
+Line 520: }
+Line 521: ID = walk
+Line 521: =
+Line 521: ID = walk
+Line 521: -
+Line 521: >
+Line 521: ID = next
+Line 521: ;
+Line 522: }
+Line 523: ID = err
+Line 523: =
+Line 523: ID = fdcount
+Line 523: ;
+Line 524: if
+Line 524: (
+Line 524: !
+Line 524: ID = fdcount
+Line 524: &&
+Line 524: ID = signal_pending
+Line 524: (
+Line 524: ID = current
+Line 524: )
+Line 524: )
+Line 525: ID = err
+Line 525: =
+Line 525: -
+Line 525: ID = EINTR
+Line 525: ;
+Line 526: ID = out_fds
+Line 526: Unrecognized token: 58
+Line 527: ID = walk
+Line 527: =
+Line 527: ID = head
+Line 527: ;
+Line 528: while
+Line 528: (
+Line 528: ID = walk
+Line 528: !=
+Line 528: ID = NULL
+Line 528: )
+Line 528: {
+Line 529: ID = struct
+Line 529: ID = poll_list
+Line 529: *
+Line 529: ID = pp
+Line 529: =
+Line 529: ID = walk
+Line 529: -
+Line 529: >
+Line 529: ID = next
+Line 529: ;
+Line 530: ID = kfree
+Line 530: (
+Line 530: ID = walk
+Line 530: )
+Line 530: ;
+Line 531: ID = walk
+Line 531: =
+Line 531: ID = pp
+Line 531: ;
+Line 532: }
+Line 533: ID = poll_freewait
+Line 533: (
+Line 533: Unrecognized token: 38
+Line 533: ID = table
+Line 533: )
+Line 533: ;
+Line 534: return
+Line 534: ID = err
+Line 534: ;
+Line 535: }
+Line 536: -EOF-

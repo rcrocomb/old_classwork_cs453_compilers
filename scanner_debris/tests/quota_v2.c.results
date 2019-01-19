@@ -1,0 +1,4918 @@
+Line 5: Unrecognized token: 35
+Line 5: ID = include
+Line 5: <
+Line 5: ID = linux
+Line 5: /
+Line 5: ID = errno
+Line 5: Unrecognized token: 46
+Line 5: ID = h
+Line 5: >
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = fs
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = mount
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = dqblk_v2
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = quotaio_v2
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = kernel
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = init
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = slab
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = asm
+Line 15: /
+Line 15: ID = byteorder
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = asm
+Line 16: /
+Line 16: ID = uaccess
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: ID = MODULE_AUTHOR
+Line 18: (
+Line 18: STRINGCON = "Jan Kara"
+Line 18: )
+Line 18: ;
+Line 19: ID = MODULE_DESCRIPTION
+Line 19: (
+Line 19: STRINGCON = "Quota format v2 support"
+Line 19: )
+Line 19: ;
+Line 20: ID = MODULE_LICENSE
+Line 20: (
+Line 20: STRINGCON = "GPL"
+Line 20: )
+Line 20: ;
+Line 22: Unrecognized token: 35
+Line 22: ID = define
+Line 22: Unrecognized token: 95
+Line 22: Unrecognized token: 95
+Line 22: ID = QUOTA_V2_PARANOIA
+Line 24: ID = typedef
+Line 24: char
+Line 24: *
+Line 24: ID = dqbuf_t
+Line 24: ;
+Line 26: Unrecognized token: 35
+Line 26: ID = define
+Line 26: ID = GETIDINDEX
+Line 26: (
+Line 26: ID = id
+Line 26: ,
+Line 26: ID = depth
+Line 26: )
+Line 26: (
+Line 26: (
+Line 26: (
+Line 26: ID = id
+Line 26: )
+Line 26: >
+Line 26: >
+Line 26: (
+Line 26: (
+Line 26: ID = V2_DQTREEDEPTH
+Line 26: -
+Line 26: (
+Line 26: ID = depth
+Line 26: )
+Line 26: -
+Line 26: INTCON = 1
+Line 26: )
+Line 26: *
+Line 26: INTCON = 8
+Line 26: )
+Line 26: )
+Line 26: Unrecognized token: 38
+Line 26: INTCON = 0
+Line 26: ID = xff
+Line 26: )
+Line 27: Unrecognized token: 35
+Line 27: ID = define
+Line 27: ID = GETENTRIES
+Line 27: (
+Line 27: ID = buf
+Line 27: )
+Line 27: (
+Line 27: (
+Line 27: ID = struct
+Line 27: ID = v2_disk_dqblk
+Line 27: *
+Line 27: )
+Line 27: (
+Line 27: (
+Line 27: (
+Line 27: char
+Line 27: *
+Line 27: )
+Line 27: ID = buf
+Line 27: )
+Line 27: +
+Line 27: ID = sizeof
+Line 27: (
+Line 27: ID = struct
+Line 27: ID = v2_disk_dqdbheader
+Line 27: )
+Line 27: )
+Line 27: )
+Line 30: ID = static
+Line 30: int
+Line 30: ID = v2_check_quota_file
+Line 30: (
+Line 30: ID = struct
+Line 30: ID = super_block
+Line 30: *
+Line 30: ID = sb
+Line 30: ,
+Line 30: int
+Line 30: ID = type
+Line 30: )
+Line 31: {
+Line 32: ID = struct
+Line 32: ID = v2_disk_dqheader
+Line 32: ID = dqhead
+Line 32: ;
+Line 33: ID = struct
+Line 33: ID = file
+Line 33: *
+Line 33: ID = f
+Line 33: =
+Line 33: ID = sb_dqopt
+Line 33: (
+Line 33: ID = sb
+Line 33: )
+Line 33: -
+Line 33: >
+Line 33: ID = files
+Line 33: [
+Line 33: ID = type
+Line 33: ]
+Line 33: ;
+Line 34: ID = mm_segment_t
+Line 34: ID = fs
+Line 34: ;
+Line 35: ID = ssize_t
+Line 35: ID = size
+Line 35: ;
+Line 36: ID = loff_t
+Line 36: ID = offset
+Line 36: =
+Line 36: INTCON = 0
+Line 36: ;
+Line 37: ID = static
+Line 37: ID = const
+Line 37: ID = uint
+Line 37: ID = quota_magics
+Line 37: [
+Line 37: ]
+Line 37: =
+Line 37: ID = V2_INITQMAGICS
+Line 37: ;
+Line 38: ID = static
+Line 38: ID = const
+Line 38: ID = uint
+Line 38: ID = quota_versions
+Line 38: [
+Line 38: ]
+Line 38: =
+Line 38: ID = V2_INITQVERSIONS
+Line 38: ;
+Line 40: ID = fs
+Line 40: =
+Line 40: ID = get_fs
+Line 40: (
+Line 40: )
+Line 40: ;
+Line 41: ID = set_fs
+Line 41: (
+Line 41: ID = KERNEL_DS
+Line 41: )
+Line 41: ;
+Line 42: ID = size
+Line 42: =
+Line 42: ID = f
+Line 42: -
+Line 42: >
+Line 42: ID = f_op
+Line 42: -
+Line 42: >
+Line 42: ID = read
+Line 42: (
+Line 42: ID = f
+Line 42: ,
+Line 42: (
+Line 42: char
+Line 42: *
+Line 42: )
+Line 42: Unrecognized token: 38
+Line 42: ID = dqhead
+Line 42: ,
+Line 42: ID = sizeof
+Line 42: (
+Line 42: ID = struct
+Line 42: ID = v2_disk_dqheader
+Line 42: )
+Line 42: ,
+Line 42: Unrecognized token: 38
+Line 42: ID = offset
+Line 42: )
+Line 42: ;
+Line 43: ID = set_fs
+Line 43: (
+Line 43: ID = fs
+Line 43: )
+Line 43: ;
+Line 44: if
+Line 44: (
+Line 44: ID = size
+Line 44: !=
+Line 44: ID = sizeof
+Line 44: (
+Line 44: ID = struct
+Line 44: ID = v2_disk_dqheader
+Line 44: )
+Line 44: )
+Line 45: return
+Line 45: INTCON = 0
+Line 45: ;
+Line 46: if
+Line 46: (
+Line 46: ID = le32_to_cpu
+Line 46: (
+Line 46: ID = dqhead
+Line 46: Unrecognized token: 46
+Line 46: ID = dqh_magic
+Line 46: )
+Line 46: !=
+Line 46: ID = quota_magics
+Line 46: [
+Line 46: ID = type
+Line 46: ]
+Line 46: ||
+Line 47: ID = le32_to_cpu
+Line 47: (
+Line 47: ID = dqhead
+Line 47: Unrecognized token: 46
+Line 47: ID = dqh_version
+Line 47: )
+Line 47: !=
+Line 47: ID = quota_versions
+Line 47: [
+Line 47: ID = type
+Line 47: ]
+Line 47: )
+Line 48: return
+Line 48: INTCON = 0
+Line 48: ;
+Line 49: return
+Line 49: INTCON = 1
+Line 49: ;
+Line 50: }
+Line 53: ID = static
+Line 53: int
+Line 53: ID = v2_read_file_info
+Line 53: (
+Line 53: ID = struct
+Line 53: ID = super_block
+Line 53: *
+Line 53: ID = sb
+Line 53: ,
+Line 53: int
+Line 53: ID = type
+Line 53: )
+Line 54: {
+Line 55: ID = mm_segment_t
+Line 55: ID = fs
+Line 55: ;
+Line 56: ID = struct
+Line 56: ID = v2_disk_dqinfo
+Line 56: ID = dinfo
+Line 56: ;
+Line 57: ID = struct
+Line 57: ID = mem_dqinfo
+Line 57: *
+Line 57: ID = info
+Line 57: =
+Line 57: ID = sb_dqopt
+Line 57: (
+Line 57: ID = sb
+Line 57: )
+Line 57: -
+Line 57: >
+Line 57: ID = info
+Line 57: +
+Line 57: ID = type
+Line 57: ;
+Line 58: ID = struct
+Line 58: ID = file
+Line 58: *
+Line 58: ID = f
+Line 58: =
+Line 58: ID = sb_dqopt
+Line 58: (
+Line 58: ID = sb
+Line 58: )
+Line 58: -
+Line 58: >
+Line 58: ID = files
+Line 58: [
+Line 58: ID = type
+Line 58: ]
+Line 58: ;
+Line 59: ID = ssize_t
+Line 59: ID = size
+Line 59: ;
+Line 60: ID = loff_t
+Line 60: ID = offset
+Line 60: =
+Line 60: ID = V2_DQINFOOFF
+Line 60: ;
+Line 62: ID = fs
+Line 62: =
+Line 62: ID = get_fs
+Line 62: (
+Line 62: )
+Line 62: ;
+Line 63: ID = set_fs
+Line 63: (
+Line 63: ID = KERNEL_DS
+Line 63: )
+Line 63: ;
+Line 64: ID = size
+Line 64: =
+Line 64: ID = f
+Line 64: -
+Line 64: >
+Line 64: ID = f_op
+Line 64: -
+Line 64: >
+Line 64: ID = read
+Line 64: (
+Line 64: ID = f
+Line 64: ,
+Line 64: (
+Line 64: char
+Line 64: *
+Line 64: )
+Line 64: Unrecognized token: 38
+Line 64: ID = dinfo
+Line 64: ,
+Line 64: ID = sizeof
+Line 64: (
+Line 64: ID = struct
+Line 64: ID = v2_disk_dqinfo
+Line 64: )
+Line 64: ,
+Line 64: Unrecognized token: 38
+Line 64: ID = offset
+Line 64: )
+Line 64: ;
+Line 65: ID = set_fs
+Line 65: (
+Line 65: ID = fs
+Line 65: )
+Line 65: ;
+Line 66: if
+Line 66: (
+Line 66: ID = size
+Line 66: !=
+Line 66: ID = sizeof
+Line 66: (
+Line 66: ID = struct
+Line 66: ID = v2_disk_dqinfo
+Line 66: )
+Line 66: )
+Line 66: {
+Line 67: ID = printk
+Line 67: (
+Line 67: ID = KERN_WARNING
+Line 67: STRINGCON = "Can't read info structure on device %s.\n"
+Line 67: ,
+Line 68: ID = f
+Line 68: -
+Line 68: >
+Line 68: ID = f_dentry
+Line 68: -
+Line 68: >
+Line 68: ID = d_sb
+Line 68: -
+Line 68: >
+Line 68: ID = s_id
+Line 68: )
+Line 68: ;
+Line 69: return
+Line 69: -
+Line 69: INTCON = 1
+Line 69: ;
+Line 70: }
+Line 71: ID = info
+Line 71: -
+Line 71: >
+Line 71: ID = dqi_bgrace
+Line 71: =
+Line 71: ID = le32_to_cpu
+Line 71: (
+Line 71: ID = dinfo
+Line 71: Unrecognized token: 46
+Line 71: ID = dqi_bgrace
+Line 71: )
+Line 71: ;
+Line 72: ID = info
+Line 72: -
+Line 72: >
+Line 72: ID = dqi_igrace
+Line 72: =
+Line 72: ID = le32_to_cpu
+Line 72: (
+Line 72: ID = dinfo
+Line 72: Unrecognized token: 46
+Line 72: ID = dqi_igrace
+Line 72: )
+Line 72: ;
+Line 73: ID = info
+Line 73: -
+Line 73: >
+Line 73: ID = dqi_flags
+Line 73: =
+Line 73: ID = le32_to_cpu
+Line 73: (
+Line 73: ID = dinfo
+Line 73: Unrecognized token: 46
+Line 73: ID = dqi_flags
+Line 73: )
+Line 73: ;
+Line 74: ID = info
+Line 74: -
+Line 74: >
+Line 74: ID = u
+Line 74: Unrecognized token: 46
+Line 74: ID = v2_i
+Line 74: Unrecognized token: 46
+Line 74: ID = dqi_blocks
+Line 74: =
+Line 74: ID = le32_to_cpu
+Line 74: (
+Line 74: ID = dinfo
+Line 74: Unrecognized token: 46
+Line 74: ID = dqi_blocks
+Line 74: )
+Line 74: ;
+Line 75: ID = info
+Line 75: -
+Line 75: >
+Line 75: ID = u
+Line 75: Unrecognized token: 46
+Line 75: ID = v2_i
+Line 75: Unrecognized token: 46
+Line 75: ID = dqi_free_blk
+Line 75: =
+Line 75: ID = le32_to_cpu
+Line 75: (
+Line 75: ID = dinfo
+Line 75: Unrecognized token: 46
+Line 75: ID = dqi_free_blk
+Line 75: )
+Line 75: ;
+Line 76: ID = info
+Line 76: -
+Line 76: >
+Line 76: ID = u
+Line 76: Unrecognized token: 46
+Line 76: ID = v2_i
+Line 76: Unrecognized token: 46
+Line 76: ID = dqi_free_entry
+Line 76: =
+Line 76: ID = le32_to_cpu
+Line 76: (
+Line 76: ID = dinfo
+Line 76: Unrecognized token: 46
+Line 76: ID = dqi_free_entry
+Line 76: )
+Line 76: ;
+Line 77: return
+Line 77: INTCON = 0
+Line 77: ;
+Line 78: }
+Line 81: ID = static
+Line 81: int
+Line 81: ID = v2_write_file_info
+Line 81: (
+Line 81: ID = struct
+Line 81: ID = super_block
+Line 81: *
+Line 81: ID = sb
+Line 81: ,
+Line 81: int
+Line 81: ID = type
+Line 81: )
+Line 82: {
+Line 83: ID = mm_segment_t
+Line 83: ID = fs
+Line 83: ;
+Line 84: ID = struct
+Line 84: ID = v2_disk_dqinfo
+Line 84: ID = dinfo
+Line 84: ;
+Line 85: ID = struct
+Line 85: ID = mem_dqinfo
+Line 85: *
+Line 85: ID = info
+Line 85: =
+Line 85: ID = sb_dqopt
+Line 85: (
+Line 85: ID = sb
+Line 85: )
+Line 85: -
+Line 85: >
+Line 85: ID = info
+Line 85: +
+Line 85: ID = type
+Line 85: ;
+Line 86: ID = struct
+Line 86: ID = file
+Line 86: *
+Line 86: ID = f
+Line 86: =
+Line 86: ID = sb_dqopt
+Line 86: (
+Line 86: ID = sb
+Line 86: )
+Line 86: -
+Line 86: >
+Line 86: ID = files
+Line 86: [
+Line 86: ID = type
+Line 86: ]
+Line 86: ;
+Line 87: ID = ssize_t
+Line 87: ID = size
+Line 87: ;
+Line 88: ID = loff_t
+Line 88: ID = offset
+Line 88: =
+Line 88: ID = V2_DQINFOOFF
+Line 88: ;
+Line 90: ID = spin_lock
+Line 90: (
+Line 90: Unrecognized token: 38
+Line 90: ID = dq_data_lock
+Line 90: )
+Line 90: ;
+Line 91: ID = info
+Line 91: -
+Line 91: >
+Line 91: ID = dqi_flags
+Line 91: Unrecognized token: 38
+Line 91: =
+Line 91: Unrecognized token: 126
+Line 91: ID = DQF_INFO_DIRTY
+Line 91: ;
+Line 92: ID = dinfo
+Line 92: Unrecognized token: 46
+Line 92: ID = dqi_bgrace
+Line 92: =
+Line 92: ID = cpu_to_le32
+Line 92: (
+Line 92: ID = info
+Line 92: -
+Line 92: >
+Line 92: ID = dqi_bgrace
+Line 92: )
+Line 92: ;
+Line 93: ID = dinfo
+Line 93: Unrecognized token: 46
+Line 93: ID = dqi_igrace
+Line 93: =
+Line 93: ID = cpu_to_le32
+Line 93: (
+Line 93: ID = info
+Line 93: -
+Line 93: >
+Line 93: ID = dqi_igrace
+Line 93: )
+Line 93: ;
+Line 94: ID = dinfo
+Line 94: Unrecognized token: 46
+Line 94: ID = dqi_flags
+Line 94: =
+Line 94: ID = cpu_to_le32
+Line 94: (
+Line 94: ID = info
+Line 94: -
+Line 94: >
+Line 94: ID = dqi_flags
+Line 94: Unrecognized token: 38
+Line 94: ID = DQF_MASK
+Line 94: )
+Line 94: ;
+Line 95: ID = spin_unlock
+Line 95: (
+Line 95: Unrecognized token: 38
+Line 95: ID = dq_data_lock
+Line 95: )
+Line 95: ;
+Line 96: ID = dinfo
+Line 96: Unrecognized token: 46
+Line 96: ID = dqi_blocks
+Line 96: =
+Line 96: ID = cpu_to_le32
+Line 96: (
+Line 96: ID = info
+Line 96: -
+Line 96: >
+Line 96: ID = u
+Line 96: Unrecognized token: 46
+Line 96: ID = v2_i
+Line 96: Unrecognized token: 46
+Line 96: ID = dqi_blocks
+Line 96: )
+Line 96: ;
+Line 97: ID = dinfo
+Line 97: Unrecognized token: 46
+Line 97: ID = dqi_free_blk
+Line 97: =
+Line 97: ID = cpu_to_le32
+Line 97: (
+Line 97: ID = info
+Line 97: -
+Line 97: >
+Line 97: ID = u
+Line 97: Unrecognized token: 46
+Line 97: ID = v2_i
+Line 97: Unrecognized token: 46
+Line 97: ID = dqi_free_blk
+Line 97: )
+Line 97: ;
+Line 98: ID = dinfo
+Line 98: Unrecognized token: 46
+Line 98: ID = dqi_free_entry
+Line 98: =
+Line 98: ID = cpu_to_le32
+Line 98: (
+Line 98: ID = info
+Line 98: -
+Line 98: >
+Line 98: ID = u
+Line 98: Unrecognized token: 46
+Line 98: ID = v2_i
+Line 98: Unrecognized token: 46
+Line 98: ID = dqi_free_entry
+Line 98: )
+Line 98: ;
+Line 99: ID = fs
+Line 99: =
+Line 99: ID = get_fs
+Line 99: (
+Line 99: )
+Line 99: ;
+Line 100: ID = set_fs
+Line 100: (
+Line 100: ID = KERNEL_DS
+Line 100: )
+Line 100: ;
+Line 101: ID = size
+Line 101: =
+Line 101: ID = f
+Line 101: -
+Line 101: >
+Line 101: ID = f_op
+Line 101: -
+Line 101: >
+Line 101: ID = write
+Line 101: (
+Line 101: ID = f
+Line 101: ,
+Line 101: (
+Line 101: char
+Line 101: *
+Line 101: )
+Line 101: Unrecognized token: 38
+Line 101: ID = dinfo
+Line 101: ,
+Line 101: ID = sizeof
+Line 101: (
+Line 101: ID = struct
+Line 101: ID = v2_disk_dqinfo
+Line 101: )
+Line 101: ,
+Line 101: Unrecognized token: 38
+Line 101: ID = offset
+Line 101: )
+Line 101: ;
+Line 102: ID = set_fs
+Line 102: (
+Line 102: ID = fs
+Line 102: )
+Line 102: ;
+Line 103: if
+Line 103: (
+Line 103: ID = size
+Line 103: !=
+Line 103: ID = sizeof
+Line 103: (
+Line 103: ID = struct
+Line 103: ID = v2_disk_dqinfo
+Line 103: )
+Line 103: )
+Line 103: {
+Line 104: ID = printk
+Line 104: (
+Line 104: ID = KERN_WARNING
+Line 104: STRINGCON = "Can't write info structure on device %s.\n"
+Line 104: ,
+Line 105: ID = f
+Line 105: -
+Line 105: >
+Line 105: ID = f_dentry
+Line 105: -
+Line 105: >
+Line 105: ID = d_sb
+Line 105: -
+Line 105: >
+Line 105: ID = s_id
+Line 105: )
+Line 105: ;
+Line 106: return
+Line 106: -
+Line 106: INTCON = 1
+Line 106: ;
+Line 107: }
+Line 108: return
+Line 108: INTCON = 0
+Line 108: ;
+Line 109: }
+Line 111: ID = static
+Line 111: void
+Line 111: ID = disk2memdqb
+Line 111: (
+Line 111: ID = struct
+Line 111: ID = mem_dqblk
+Line 111: *
+Line 111: ID = m
+Line 111: ,
+Line 111: ID = struct
+Line 111: ID = v2_disk_dqblk
+Line 111: *
+Line 111: ID = d
+Line 111: )
+Line 112: {
+Line 113: ID = m
+Line 113: -
+Line 113: >
+Line 113: ID = dqb_ihardlimit
+Line 113: =
+Line 113: ID = le32_to_cpu
+Line 113: (
+Line 113: ID = d
+Line 113: -
+Line 113: >
+Line 113: ID = dqb_ihardlimit
+Line 113: )
+Line 113: ;
+Line 114: ID = m
+Line 114: -
+Line 114: >
+Line 114: ID = dqb_isoftlimit
+Line 114: =
+Line 114: ID = le32_to_cpu
+Line 114: (
+Line 114: ID = d
+Line 114: -
+Line 114: >
+Line 114: ID = dqb_isoftlimit
+Line 114: )
+Line 114: ;
+Line 115: ID = m
+Line 115: -
+Line 115: >
+Line 115: ID = dqb_curinodes
+Line 115: =
+Line 115: ID = le32_to_cpu
+Line 115: (
+Line 115: ID = d
+Line 115: -
+Line 115: >
+Line 115: ID = dqb_curinodes
+Line 115: )
+Line 115: ;
+Line 116: ID = m
+Line 116: -
+Line 116: >
+Line 116: ID = dqb_itime
+Line 116: =
+Line 116: ID = le64_to_cpu
+Line 116: (
+Line 116: ID = d
+Line 116: -
+Line 116: >
+Line 116: ID = dqb_itime
+Line 116: )
+Line 116: ;
+Line 117: ID = m
+Line 117: -
+Line 117: >
+Line 117: ID = dqb_bhardlimit
+Line 117: =
+Line 117: ID = le32_to_cpu
+Line 117: (
+Line 117: ID = d
+Line 117: -
+Line 117: >
+Line 117: ID = dqb_bhardlimit
+Line 117: )
+Line 117: ;
+Line 118: ID = m
+Line 118: -
+Line 118: >
+Line 118: ID = dqb_bsoftlimit
+Line 118: =
+Line 118: ID = le32_to_cpu
+Line 118: (
+Line 118: ID = d
+Line 118: -
+Line 118: >
+Line 118: ID = dqb_bsoftlimit
+Line 118: )
+Line 118: ;
+Line 119: ID = m
+Line 119: -
+Line 119: >
+Line 119: ID = dqb_curspace
+Line 119: =
+Line 119: ID = le64_to_cpu
+Line 119: (
+Line 119: ID = d
+Line 119: -
+Line 119: >
+Line 119: ID = dqb_curspace
+Line 119: )
+Line 119: ;
+Line 120: ID = m
+Line 120: -
+Line 120: >
+Line 120: ID = dqb_btime
+Line 120: =
+Line 120: ID = le64_to_cpu
+Line 120: (
+Line 120: ID = d
+Line 120: -
+Line 120: >
+Line 120: ID = dqb_btime
+Line 120: )
+Line 120: ;
+Line 121: }
+Line 123: ID = static
+Line 123: void
+Line 123: ID = mem2diskdqb
+Line 123: (
+Line 123: ID = struct
+Line 123: ID = v2_disk_dqblk
+Line 123: *
+Line 123: ID = d
+Line 123: ,
+Line 123: ID = struct
+Line 123: ID = mem_dqblk
+Line 123: *
+Line 123: ID = m
+Line 123: ,
+Line 123: ID = qid_t
+Line 123: ID = id
+Line 123: )
+Line 124: {
+Line 125: ID = d
+Line 125: -
+Line 125: >
+Line 125: ID = dqb_ihardlimit
+Line 125: =
+Line 125: ID = cpu_to_le32
+Line 125: (
+Line 125: ID = m
+Line 125: -
+Line 125: >
+Line 125: ID = dqb_ihardlimit
+Line 125: )
+Line 125: ;
+Line 126: ID = d
+Line 126: -
+Line 126: >
+Line 126: ID = dqb_isoftlimit
+Line 126: =
+Line 126: ID = cpu_to_le32
+Line 126: (
+Line 126: ID = m
+Line 126: -
+Line 126: >
+Line 126: ID = dqb_isoftlimit
+Line 126: )
+Line 126: ;
+Line 127: ID = d
+Line 127: -
+Line 127: >
+Line 127: ID = dqb_curinodes
+Line 127: =
+Line 127: ID = cpu_to_le32
+Line 127: (
+Line 127: ID = m
+Line 127: -
+Line 127: >
+Line 127: ID = dqb_curinodes
+Line 127: )
+Line 127: ;
+Line 128: ID = d
+Line 128: -
+Line 128: >
+Line 128: ID = dqb_itime
+Line 128: =
+Line 128: ID = cpu_to_le64
+Line 128: (
+Line 128: ID = m
+Line 128: -
+Line 128: >
+Line 128: ID = dqb_itime
+Line 128: )
+Line 128: ;
+Line 129: ID = d
+Line 129: -
+Line 129: >
+Line 129: ID = dqb_bhardlimit
+Line 129: =
+Line 129: ID = cpu_to_le32
+Line 129: (
+Line 129: ID = m
+Line 129: -
+Line 129: >
+Line 129: ID = dqb_bhardlimit
+Line 129: )
+Line 129: ;
+Line 130: ID = d
+Line 130: -
+Line 130: >
+Line 130: ID = dqb_bsoftlimit
+Line 130: =
+Line 130: ID = cpu_to_le32
+Line 130: (
+Line 130: ID = m
+Line 130: -
+Line 130: >
+Line 130: ID = dqb_bsoftlimit
+Line 130: )
+Line 130: ;
+Line 131: ID = d
+Line 131: -
+Line 131: >
+Line 131: ID = dqb_curspace
+Line 131: =
+Line 131: ID = cpu_to_le64
+Line 131: (
+Line 131: ID = m
+Line 131: -
+Line 131: >
+Line 131: ID = dqb_curspace
+Line 131: )
+Line 131: ;
+Line 132: ID = d
+Line 132: -
+Line 132: >
+Line 132: ID = dqb_btime
+Line 132: =
+Line 132: ID = cpu_to_le64
+Line 132: (
+Line 132: ID = m
+Line 132: -
+Line 132: >
+Line 132: ID = dqb_btime
+Line 132: )
+Line 132: ;
+Line 133: ID = d
+Line 133: -
+Line 133: >
+Line 133: ID = dqb_id
+Line 133: =
+Line 133: ID = cpu_to_le32
+Line 133: (
+Line 133: ID = id
+Line 133: )
+Line 133: ;
+Line 134: }
+Line 136: ID = static
+Line 136: ID = dqbuf_t
+Line 136: ID = getdqbuf
+Line 136: (
+Line 136: void
+Line 136: )
+Line 137: {
+Line 138: ID = dqbuf_t
+Line 138: ID = buf
+Line 138: =
+Line 138: ID = kmalloc
+Line 138: (
+Line 138: ID = V2_DQBLKSIZE
+Line 138: ,
+Line 138: ID = GFP_NOFS
+Line 138: )
+Line 138: ;
+Line 139: if
+Line 139: (
+Line 139: !
+Line 139: ID = buf
+Line 139: )
+Line 140: ID = printk
+Line 140: (
+Line 140: ID = KERN_WARNING
+Line 140: STRINGCON = "VFS: Not enough memory for quota buffers.\n"
+Line 140: )
+Line 140: ;
+Line 141: return
+Line 141: ID = buf
+Line 141: ;
+Line 142: }
+Line 144: ID = static
+Line 144: ID = inline
+Line 144: void
+Line 144: ID = freedqbuf
+Line 144: (
+Line 144: ID = dqbuf_t
+Line 144: ID = buf
+Line 144: )
+Line 145: {
+Line 146: ID = kfree
+Line 146: (
+Line 146: ID = buf
+Line 146: )
+Line 146: ;
+Line 147: }
+Line 149: ID = static
+Line 149: ID = ssize_t
+Line 149: ID = read_blk
+Line 149: (
+Line 149: ID = struct
+Line 149: ID = file
+Line 149: *
+Line 149: ID = filp
+Line 149: ,
+Line 149: ID = uint
+Line 149: ID = blk
+Line 149: ,
+Line 149: ID = dqbuf_t
+Line 149: ID = buf
+Line 149: )
+Line 150: {
+Line 151: ID = mm_segment_t
+Line 151: ID = fs
+Line 151: ;
+Line 152: ID = ssize_t
+Line 152: ID = ret
+Line 152: ;
+Line 153: ID = loff_t
+Line 153: ID = offset
+Line 153: =
+Line 153: ID = blk
+Line 153: <
+Line 153: <
+Line 153: ID = V2_DQBLKSIZE_BITS
+Line 153: ;
+Line 155: ID = memset
+Line 155: (
+Line 155: ID = buf
+Line 155: ,
+Line 155: INTCON = 0
+Line 155: ,
+Line 155: ID = V2_DQBLKSIZE
+Line 155: )
+Line 155: ;
+Line 156: ID = fs
+Line 156: =
+Line 156: ID = get_fs
+Line 156: (
+Line 156: )
+Line 156: ;
+Line 157: ID = set_fs
+Line 157: (
+Line 157: ID = KERNEL_DS
+Line 157: )
+Line 157: ;
+Line 158: ID = ret
+Line 158: =
+Line 158: ID = filp
+Line 158: -
+Line 158: >
+Line 158: ID = f_op
+Line 158: -
+Line 158: >
+Line 158: ID = read
+Line 158: (
+Line 158: ID = filp
+Line 158: ,
+Line 158: (
+Line 158: char
+Line 158: *
+Line 158: )
+Line 158: ID = buf
+Line 158: ,
+Line 158: ID = V2_DQBLKSIZE
+Line 158: ,
+Line 158: Unrecognized token: 38
+Line 158: ID = offset
+Line 158: )
+Line 158: ;
+Line 159: ID = set_fs
+Line 159: (
+Line 159: ID = fs
+Line 159: )
+Line 159: ;
+Line 160: return
+Line 160: ID = ret
+Line 160: ;
+Line 161: }
+Line 163: ID = static
+Line 163: ID = ssize_t
+Line 163: ID = write_blk
+Line 163: (
+Line 163: ID = struct
+Line 163: ID = file
+Line 163: *
+Line 163: ID = filp
+Line 163: ,
+Line 163: ID = uint
+Line 163: ID = blk
+Line 163: ,
+Line 163: ID = dqbuf_t
+Line 163: ID = buf
+Line 163: )
+Line 164: {
+Line 165: ID = mm_segment_t
+Line 165: ID = fs
+Line 165: ;
+Line 166: ID = ssize_t
+Line 166: ID = ret
+Line 166: ;
+Line 167: ID = loff_t
+Line 167: ID = offset
+Line 167: =
+Line 167: ID = blk
+Line 167: <
+Line 167: <
+Line 167: ID = V2_DQBLKSIZE_BITS
+Line 167: ;
+Line 169: ID = fs
+Line 169: =
+Line 169: ID = get_fs
+Line 169: (
+Line 169: )
+Line 169: ;
+Line 170: ID = set_fs
+Line 170: (
+Line 170: ID = KERNEL_DS
+Line 170: )
+Line 170: ;
+Line 171: ID = ret
+Line 171: =
+Line 171: ID = filp
+Line 171: -
+Line 171: >
+Line 171: ID = f_op
+Line 171: -
+Line 171: >
+Line 171: ID = write
+Line 171: (
+Line 171: ID = filp
+Line 171: ,
+Line 171: (
+Line 171: char
+Line 171: *
+Line 171: )
+Line 171: ID = buf
+Line 171: ,
+Line 171: ID = V2_DQBLKSIZE
+Line 171: ,
+Line 171: Unrecognized token: 38
+Line 171: ID = offset
+Line 171: )
+Line 171: ;
+Line 172: ID = set_fs
+Line 172: (
+Line 172: ID = fs
+Line 172: )
+Line 172: ;
+Line 173: return
+Line 173: ID = ret
+Line 173: ;
+Line 175: }
+Line 178: ID = static
+Line 178: int
+Line 178: ID = get_free_dqblk
+Line 178: (
+Line 178: ID = struct
+Line 178: ID = file
+Line 178: *
+Line 178: ID = filp
+Line 178: ,
+Line 178: int
+Line 178: ID = type
+Line 178: )
+Line 179: {
+Line 180: ID = dqbuf_t
+Line 180: ID = buf
+Line 180: =
+Line 180: ID = getdqbuf
+Line 180: (
+Line 180: )
+Line 180: ;
+Line 181: ID = struct
+Line 181: ID = mem_dqinfo
+Line 181: *
+Line 181: ID = info
+Line 181: =
+Line 181: ID = sb_dqinfo
+Line 181: (
+Line 181: ID = filp
+Line 181: -
+Line 181: >
+Line 181: ID = f_dentry
+Line 181: -
+Line 181: >
+Line 181: ID = d_sb
+Line 181: ,
+Line 181: ID = type
+Line 181: )
+Line 181: ;
+Line 182: ID = struct
+Line 182: ID = v2_disk_dqdbheader
+Line 182: *
+Line 182: ID = dh
+Line 182: =
+Line 182: (
+Line 182: ID = struct
+Line 182: ID = v2_disk_dqdbheader
+Line 182: *
+Line 182: )
+Line 182: ID = buf
+Line 182: ;
+Line 183: int
+Line 183: ID = ret
+Line 183: ,
+Line 183: ID = blk
+Line 183: ;
+Line 185: if
+Line 185: (
+Line 185: !
+Line 185: ID = buf
+Line 185: )
+Line 186: return
+Line 186: -
+Line 186: ID = ENOMEM
+Line 186: ;
+Line 187: if
+Line 187: (
+Line 187: ID = info
+Line 187: -
+Line 187: >
+Line 187: ID = u
+Line 187: Unrecognized token: 46
+Line 187: ID = v2_i
+Line 187: Unrecognized token: 46
+Line 187: ID = dqi_free_blk
+Line 187: )
+Line 187: {
+Line 188: ID = blk
+Line 188: =
+Line 188: ID = info
+Line 188: -
+Line 188: >
+Line 188: ID = u
+Line 188: Unrecognized token: 46
+Line 188: ID = v2_i
+Line 188: Unrecognized token: 46
+Line 188: ID = dqi_free_blk
+Line 188: ;
+Line 189: if
+Line 189: (
+Line 189: (
+Line 189: ID = ret
+Line 189: =
+Line 189: ID = read_blk
+Line 189: (
+Line 189: ID = filp
+Line 189: ,
+Line 189: ID = blk
+Line 189: ,
+Line 189: ID = buf
+Line 189: )
+Line 189: )
+Line 189: <
+Line 189: INTCON = 0
+Line 189: )
+Line 190: ID = goto
+Line 190: ID = out_buf
+Line 190: ;
+Line 191: ID = info
+Line 191: -
+Line 191: >
+Line 191: ID = u
+Line 191: Unrecognized token: 46
+Line 191: ID = v2_i
+Line 191: Unrecognized token: 46
+Line 191: ID = dqi_free_blk
+Line 191: =
+Line 191: ID = le32_to_cpu
+Line 191: (
+Line 191: ID = dh
+Line 191: -
+Line 191: >
+Line 191: ID = dqdh_next_free
+Line 191: )
+Line 191: ;
+Line 192: }
+Line 193: else
+Line 193: {
+Line 194: ID = memset
+Line 194: (
+Line 194: ID = buf
+Line 194: ,
+Line 194: INTCON = 0
+Line 194: ,
+Line 194: ID = V2_DQBLKSIZE
+Line 194: )
+Line 194: ;
+Line 195: if
+Line 195: (
+Line 195: (
+Line 195: ID = ret
+Line 195: =
+Line 195: ID = write_blk
+Line 195: (
+Line 195: ID = filp
+Line 195: ,
+Line 195: ID = info
+Line 195: -
+Line 195: >
+Line 195: ID = u
+Line 195: Unrecognized token: 46
+Line 195: ID = v2_i
+Line 195: Unrecognized token: 46
+Line 195: ID = dqi_blocks
+Line 195: ,
+Line 195: ID = buf
+Line 195: )
+Line 195: )
+Line 195: <
+Line 195: INTCON = 0
+Line 195: )
+Line 196: ID = goto
+Line 196: ID = out_buf
+Line 196: ;
+Line 197: ID = blk
+Line 197: =
+Line 197: ID = info
+Line 197: -
+Line 197: >
+Line 197: ID = u
+Line 197: Unrecognized token: 46
+Line 197: ID = v2_i
+Line 197: Unrecognized token: 46
+Line 197: ID = dqi_blocks
+Line 197: +
+Line 197: +
+Line 197: ;
+Line 198: }
+Line 199: ID = mark_info_dirty
+Line 199: (
+Line 199: ID = filp
+Line 199: -
+Line 199: >
+Line 199: ID = f_dentry
+Line 199: -
+Line 199: >
+Line 199: ID = d_sb
+Line 199: ,
+Line 199: ID = type
+Line 199: )
+Line 199: ;
+Line 200: ID = ret
+Line 200: =
+Line 200: ID = blk
+Line 200: ;
+Line 201: ID = out_buf
+Line 201: Unrecognized token: 58
+Line 202: ID = freedqbuf
+Line 202: (
+Line 202: ID = buf
+Line 202: )
+Line 202: ;
+Line 203: return
+Line 203: ID = ret
+Line 203: ;
+Line 204: }
+Line 207: ID = static
+Line 207: int
+Line 207: ID = put_free_dqblk
+Line 207: (
+Line 207: ID = struct
+Line 207: ID = file
+Line 207: *
+Line 207: ID = filp
+Line 207: ,
+Line 207: int
+Line 207: ID = type
+Line 207: ,
+Line 207: ID = dqbuf_t
+Line 207: ID = buf
+Line 207: ,
+Line 207: ID = uint
+Line 207: ID = blk
+Line 207: )
+Line 208: {
+Line 209: ID = struct
+Line 209: ID = mem_dqinfo
+Line 209: *
+Line 209: ID = info
+Line 209: =
+Line 209: ID = sb_dqinfo
+Line 209: (
+Line 209: ID = filp
+Line 209: -
+Line 209: >
+Line 209: ID = f_dentry
+Line 209: -
+Line 209: >
+Line 209: ID = d_sb
+Line 209: ,
+Line 209: ID = type
+Line 209: )
+Line 209: ;
+Line 210: ID = struct
+Line 210: ID = v2_disk_dqdbheader
+Line 210: *
+Line 210: ID = dh
+Line 210: =
+Line 210: (
+Line 210: ID = struct
+Line 210: ID = v2_disk_dqdbheader
+Line 210: *
+Line 210: )
+Line 210: ID = buf
+Line 210: ;
+Line 211: int
+Line 211: ID = err
+Line 211: ;
+Line 213: ID = dh
+Line 213: -
+Line 213: >
+Line 213: ID = dqdh_next_free
+Line 213: =
+Line 213: ID = cpu_to_le32
+Line 213: (
+Line 213: ID = info
+Line 213: -
+Line 213: >
+Line 213: ID = u
+Line 213: Unrecognized token: 46
+Line 213: ID = v2_i
+Line 213: Unrecognized token: 46
+Line 213: ID = dqi_free_blk
+Line 213: )
+Line 213: ;
+Line 214: ID = dh
+Line 214: -
+Line 214: >
+Line 214: ID = dqdh_prev_free
+Line 214: =
+Line 214: ID = cpu_to_le32
+Line 214: (
+Line 214: INTCON = 0
+Line 214: )
+Line 214: ;
+Line 215: ID = dh
+Line 215: -
+Line 215: >
+Line 215: ID = dqdh_entries
+Line 215: =
+Line 215: ID = cpu_to_le16
+Line 215: (
+Line 215: INTCON = 0
+Line 215: )
+Line 215: ;
+Line 216: ID = info
+Line 216: -
+Line 216: >
+Line 216: ID = u
+Line 216: Unrecognized token: 46
+Line 216: ID = v2_i
+Line 216: Unrecognized token: 46
+Line 216: ID = dqi_free_blk
+Line 216: =
+Line 216: ID = blk
+Line 216: ;
+Line 217: ID = mark_info_dirty
+Line 217: (
+Line 217: ID = filp
+Line 217: -
+Line 217: >
+Line 217: ID = f_dentry
+Line 217: -
+Line 217: >
+Line 217: ID = d_sb
+Line 217: ,
+Line 217: ID = type
+Line 217: )
+Line 217: ;
+Line 218: if
+Line 218: (
+Line 218: (
+Line 218: ID = err
+Line 218: =
+Line 218: ID = write_blk
+Line 218: (
+Line 218: ID = filp
+Line 218: ,
+Line 218: ID = blk
+Line 218: ,
+Line 218: ID = buf
+Line 218: )
+Line 218: )
+Line 218: <
+Line 218: INTCON = 0
+Line 218: )
+Line 219: return
+Line 219: ID = err
+Line 219: ;
+Line 220: return
+Line 220: INTCON = 0
+Line 220: ;
+Line 221: }
+Line 224: ID = static
+Line 224: int
+Line 224: ID = remove_free_dqentry
+Line 224: (
+Line 224: ID = struct
+Line 224: ID = file
+Line 224: *
+Line 224: ID = filp
+Line 224: ,
+Line 224: int
+Line 224: ID = type
+Line 224: ,
+Line 224: ID = dqbuf_t
+Line 224: ID = buf
+Line 224: ,
+Line 224: ID = uint
+Line 224: ID = blk
+Line 224: )
+Line 225: {
+Line 226: ID = dqbuf_t
+Line 226: ID = tmpbuf
+Line 226: =
+Line 226: ID = getdqbuf
+Line 226: (
+Line 226: )
+Line 226: ;
+Line 227: ID = struct
+Line 227: ID = mem_dqinfo
+Line 227: *
+Line 227: ID = info
+Line 227: =
+Line 227: ID = sb_dqinfo
+Line 227: (
+Line 227: ID = filp
+Line 227: -
+Line 227: >
+Line 227: ID = f_dentry
+Line 227: -
+Line 227: >
+Line 227: ID = d_sb
+Line 227: ,
+Line 227: ID = type
+Line 227: )
+Line 227: ;
+Line 228: ID = struct
+Line 228: ID = v2_disk_dqdbheader
+Line 228: *
+Line 228: ID = dh
+Line 228: =
+Line 228: (
+Line 228: ID = struct
+Line 228: ID = v2_disk_dqdbheader
+Line 228: *
+Line 228: )
+Line 228: ID = buf
+Line 228: ;
+Line 229: ID = uint
+Line 229: ID = nextblk
+Line 229: =
+Line 229: ID = le32_to_cpu
+Line 229: (
+Line 229: ID = dh
+Line 229: -
+Line 229: >
+Line 229: ID = dqdh_next_free
+Line 229: )
+Line 229: ,
+Line 229: ID = prevblk
+Line 229: =
+Line 229: ID = le32_to_cpu
+Line 229: (
+Line 229: ID = dh
+Line 229: -
+Line 229: >
+Line 229: ID = dqdh_prev_free
+Line 229: )
+Line 229: ;
+Line 230: int
+Line 230: ID = err
+Line 230: ;
+Line 232: if
+Line 232: (
+Line 232: !
+Line 232: ID = tmpbuf
+Line 232: )
+Line 233: return
+Line 233: -
+Line 233: ID = ENOMEM
+Line 233: ;
+Line 234: if
+Line 234: (
+Line 234: ID = nextblk
+Line 234: )
+Line 234: {
+Line 235: if
+Line 235: (
+Line 235: (
+Line 235: ID = err
+Line 235: =
+Line 235: ID = read_blk
+Line 235: (
+Line 235: ID = filp
+Line 235: ,
+Line 235: ID = nextblk
+Line 235: ,
+Line 235: ID = tmpbuf
+Line 235: )
+Line 235: )
+Line 235: <
+Line 235: INTCON = 0
+Line 235: )
+Line 236: ID = goto
+Line 236: ID = out_buf
+Line 236: ;
+Line 237: (
+Line 237: (
+Line 237: ID = struct
+Line 237: ID = v2_disk_dqdbheader
+Line 237: *
+Line 237: )
+Line 237: ID = tmpbuf
+Line 237: )
+Line 237: -
+Line 237: >
+Line 237: ID = dqdh_prev_free
+Line 237: =
+Line 237: ID = dh
+Line 237: -
+Line 237: >
+Line 237: ID = dqdh_prev_free
+Line 237: ;
+Line 238: if
+Line 238: (
+Line 238: (
+Line 238: ID = err
+Line 238: =
+Line 238: ID = write_blk
+Line 238: (
+Line 238: ID = filp
+Line 238: ,
+Line 238: ID = nextblk
+Line 238: ,
+Line 238: ID = tmpbuf
+Line 238: )
+Line 238: )
+Line 238: <
+Line 238: INTCON = 0
+Line 238: )
+Line 239: ID = goto
+Line 239: ID = out_buf
+Line 239: ;
+Line 240: }
+Line 241: if
+Line 241: (
+Line 241: ID = prevblk
+Line 241: )
+Line 241: {
+Line 242: if
+Line 242: (
+Line 242: (
+Line 242: ID = err
+Line 242: =
+Line 242: ID = read_blk
+Line 242: (
+Line 242: ID = filp
+Line 242: ,
+Line 242: ID = prevblk
+Line 242: ,
+Line 242: ID = tmpbuf
+Line 242: )
+Line 242: )
+Line 242: <
+Line 242: INTCON = 0
+Line 242: )
+Line 243: ID = goto
+Line 243: ID = out_buf
+Line 243: ;
+Line 244: (
+Line 244: (
+Line 244: ID = struct
+Line 244: ID = v2_disk_dqdbheader
+Line 244: *
+Line 244: )
+Line 244: ID = tmpbuf
+Line 244: )
+Line 244: -
+Line 244: >
+Line 244: ID = dqdh_next_free
+Line 244: =
+Line 244: ID = dh
+Line 244: -
+Line 244: >
+Line 244: ID = dqdh_next_free
+Line 244: ;
+Line 245: if
+Line 245: (
+Line 245: (
+Line 245: ID = err
+Line 245: =
+Line 245: ID = write_blk
+Line 245: (
+Line 245: ID = filp
+Line 245: ,
+Line 245: ID = prevblk
+Line 245: ,
+Line 245: ID = tmpbuf
+Line 245: )
+Line 245: )
+Line 245: <
+Line 245: INTCON = 0
+Line 245: )
+Line 246: ID = goto
+Line 246: ID = out_buf
+Line 246: ;
+Line 247: }
+Line 248: else
+Line 248: {
+Line 249: ID = info
+Line 249: -
+Line 249: >
+Line 249: ID = u
+Line 249: Unrecognized token: 46
+Line 249: ID = v2_i
+Line 249: Unrecognized token: 46
+Line 249: ID = dqi_free_entry
+Line 249: =
+Line 249: ID = nextblk
+Line 249: ;
+Line 250: ID = mark_info_dirty
+Line 250: (
+Line 250: ID = filp
+Line 250: -
+Line 250: >
+Line 250: ID = f_dentry
+Line 250: -
+Line 250: >
+Line 250: ID = d_sb
+Line 250: ,
+Line 250: ID = type
+Line 250: )
+Line 250: ;
+Line 251: }
+Line 252: ID = freedqbuf
+Line 252: (
+Line 252: ID = tmpbuf
+Line 252: )
+Line 252: ;
+Line 253: ID = dh
+Line 253: -
+Line 253: >
+Line 253: ID = dqdh_next_free
+Line 253: =
+Line 253: ID = dh
+Line 253: -
+Line 253: >
+Line 253: ID = dqdh_prev_free
+Line 253: =
+Line 253: ID = cpu_to_le32
+Line 253: (
+Line 253: INTCON = 0
+Line 253: )
+Line 253: ;
+Line 254: if
+Line 254: (
+Line 254: ID = write_blk
+Line 254: (
+Line 254: ID = filp
+Line 254: ,
+Line 254: ID = blk
+Line 254: ,
+Line 254: ID = buf
+Line 254: )
+Line 254: <
+Line 254: INTCON = 0
+Line 254: )
+Line 255: ID = printk
+Line 255: (
+Line 255: ID = KERN_ERR
+Line 255: STRINGCON = "VFS: Can't write block (%u) with free entries.\n"
+Line 255: ,
+Line 255: ID = blk
+Line 255: )
+Line 255: ;
+Line 256: return
+Line 256: INTCON = 0
+Line 256: ;
+Line 257: ID = out_buf
+Line 257: Unrecognized token: 58
+Line 258: ID = freedqbuf
+Line 258: (
+Line 258: ID = tmpbuf
+Line 258: )
+Line 258: ;
+Line 259: return
+Line 259: ID = err
+Line 259: ;
+Line 260: }
+Line 263: ID = static
+Line 263: int
+Line 263: ID = insert_free_dqentry
+Line 263: (
+Line 263: ID = struct
+Line 263: ID = file
+Line 263: *
+Line 263: ID = filp
+Line 263: ,
+Line 263: int
+Line 263: ID = type
+Line 263: ,
+Line 263: ID = dqbuf_t
+Line 263: ID = buf
+Line 263: ,
+Line 263: ID = uint
+Line 263: ID = blk
+Line 263: )
+Line 264: {
+Line 265: ID = dqbuf_t
+Line 265: ID = tmpbuf
+Line 265: =
+Line 265: ID = getdqbuf
+Line 265: (
+Line 265: )
+Line 265: ;
+Line 266: ID = struct
+Line 266: ID = mem_dqinfo
+Line 266: *
+Line 266: ID = info
+Line 266: =
+Line 266: ID = sb_dqinfo
+Line 266: (
+Line 266: ID = filp
+Line 266: -
+Line 266: >
+Line 266: ID = f_dentry
+Line 266: -
+Line 266: >
+Line 266: ID = d_sb
+Line 266: ,
+Line 266: ID = type
+Line 266: )
+Line 266: ;
+Line 267: ID = struct
+Line 267: ID = v2_disk_dqdbheader
+Line 267: *
+Line 267: ID = dh
+Line 267: =
+Line 267: (
+Line 267: ID = struct
+Line 267: ID = v2_disk_dqdbheader
+Line 267: *
+Line 267: )
+Line 267: ID = buf
+Line 267: ;
+Line 268: int
+Line 268: ID = err
+Line 268: ;
+Line 270: if
+Line 270: (
+Line 270: !
+Line 270: ID = tmpbuf
+Line 270: )
+Line 271: return
+Line 271: -
+Line 271: ID = ENOMEM
+Line 271: ;
+Line 272: ID = dh
+Line 272: -
+Line 272: >
+Line 272: ID = dqdh_next_free
+Line 272: =
+Line 272: ID = cpu_to_le32
+Line 272: (
+Line 272: ID = info
+Line 272: -
+Line 272: >
+Line 272: ID = u
+Line 272: Unrecognized token: 46
+Line 272: ID = v2_i
+Line 272: Unrecognized token: 46
+Line 272: ID = dqi_free_entry
+Line 272: )
+Line 272: ;
+Line 273: ID = dh
+Line 273: -
+Line 273: >
+Line 273: ID = dqdh_prev_free
+Line 273: =
+Line 273: ID = cpu_to_le32
+Line 273: (
+Line 273: INTCON = 0
+Line 273: )
+Line 273: ;
+Line 274: if
+Line 274: (
+Line 274: (
+Line 274: ID = err
+Line 274: =
+Line 274: ID = write_blk
+Line 274: (
+Line 274: ID = filp
+Line 274: ,
+Line 274: ID = blk
+Line 274: ,
+Line 274: ID = buf
+Line 274: )
+Line 274: )
+Line 274: <
+Line 274: INTCON = 0
+Line 274: )
+Line 275: ID = goto
+Line 275: ID = out_buf
+Line 275: ;
+Line 276: if
+Line 276: (
+Line 276: ID = info
+Line 276: -
+Line 276: >
+Line 276: ID = u
+Line 276: Unrecognized token: 46
+Line 276: ID = v2_i
+Line 276: Unrecognized token: 46
+Line 276: ID = dqi_free_entry
+Line 276: )
+Line 276: {
+Line 277: if
+Line 277: (
+Line 277: (
+Line 277: ID = err
+Line 277: =
+Line 277: ID = read_blk
+Line 277: (
+Line 277: ID = filp
+Line 277: ,
+Line 277: ID = info
+Line 277: -
+Line 277: >
+Line 277: ID = u
+Line 277: Unrecognized token: 46
+Line 277: ID = v2_i
+Line 277: Unrecognized token: 46
+Line 277: ID = dqi_free_entry
+Line 277: ,
+Line 277: ID = tmpbuf
+Line 277: )
+Line 277: )
+Line 277: <
+Line 277: INTCON = 0
+Line 277: )
+Line 278: ID = goto
+Line 278: ID = out_buf
+Line 278: ;
+Line 279: (
+Line 279: (
+Line 279: ID = struct
+Line 279: ID = v2_disk_dqdbheader
+Line 279: *
+Line 279: )
+Line 279: ID = tmpbuf
+Line 279: )
+Line 279: -
+Line 279: >
+Line 279: ID = dqdh_prev_free
+Line 279: =
+Line 279: ID = cpu_to_le32
+Line 279: (
+Line 279: ID = blk
+Line 279: )
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: (
+Line 280: ID = err
+Line 280: =
+Line 280: ID = write_blk
+Line 280: (
+Line 280: ID = filp
+Line 280: ,
+Line 280: ID = info
+Line 280: -
+Line 280: >
+Line 280: ID = u
+Line 280: Unrecognized token: 46
+Line 280: ID = v2_i
+Line 280: Unrecognized token: 46
+Line 280: ID = dqi_free_entry
+Line 280: ,
+Line 280: ID = tmpbuf
+Line 280: )
+Line 280: )
+Line 280: <
+Line 280: INTCON = 0
+Line 280: )
+Line 281: ID = goto
+Line 281: ID = out_buf
+Line 281: ;
+Line 282: }
+Line 283: ID = freedqbuf
+Line 283: (
+Line 283: ID = tmpbuf
+Line 283: )
+Line 283: ;
+Line 284: ID = info
+Line 284: -
+Line 284: >
+Line 284: ID = u
+Line 284: Unrecognized token: 46
+Line 284: ID = v2_i
+Line 284: Unrecognized token: 46
+Line 284: ID = dqi_free_entry
+Line 284: =
+Line 284: ID = blk
+Line 284: ;
+Line 285: ID = mark_info_dirty
+Line 285: (
+Line 285: ID = filp
+Line 285: -
+Line 285: >
+Line 285: ID = f_dentry
+Line 285: -
+Line 285: >
+Line 285: ID = d_sb
+Line 285: ,
+Line 285: ID = type
+Line 285: )
+Line 285: ;
+Line 286: return
+Line 286: INTCON = 0
+Line 286: ;
+Line 287: ID = out_buf
+Line 287: Unrecognized token: 58
+Line 288: ID = freedqbuf
+Line 288: (
+Line 288: ID = tmpbuf
+Line 288: )
+Line 288: ;
+Line 289: return
+Line 289: ID = err
+Line 289: ;
+Line 290: }
+Line 293: ID = static
+Line 293: ID = uint
+Line 293: ID = find_free_dqentry
+Line 293: (
+Line 293: ID = struct
+Line 293: ID = dquot
+Line 293: *
+Line 293: ID = dquot
+Line 293: ,
+Line 293: int
+Line 293: *
+Line 293: ID = err
+Line 293: )
+Line 294: {
+Line 295: ID = struct
+Line 295: ID = file
+Line 295: *
+Line 295: ID = filp
+Line 295: =
+Line 295: ID = sb_dqopt
+Line 295: (
+Line 295: ID = dquot
+Line 295: -
+Line 295: >
+Line 295: ID = dq_sb
+Line 295: )
+Line 295: -
+Line 295: >
+Line 295: ID = files
+Line 295: [
+Line 295: ID = dquot
+Line 295: -
+Line 295: >
+Line 295: ID = dq_type
+Line 295: ]
+Line 295: ;
+Line 296: ID = struct
+Line 296: ID = mem_dqinfo
+Line 296: *
+Line 296: ID = info
+Line 296: =
+Line 296: ID = sb_dqopt
+Line 296: (
+Line 296: ID = dquot
+Line 296: -
+Line 296: >
+Line 296: ID = dq_sb
+Line 296: )
+Line 296: -
+Line 296: >
+Line 296: ID = info
+Line 296: +
+Line 296: ID = dquot
+Line 296: -
+Line 296: >
+Line 296: ID = dq_type
+Line 296: ;
+Line 297: ID = uint
+Line 297: ID = blk
+Line 297: ,
+Line 297: ID = i
+Line 297: ;
+Line 298: ID = struct
+Line 298: ID = v2_disk_dqdbheader
+Line 298: *
+Line 298: ID = dh
+Line 298: ;
+Line 299: ID = struct
+Line 299: ID = v2_disk_dqblk
+Line 299: *
+Line 299: ID = ddquot
+Line 299: ;
+Line 300: ID = struct
+Line 300: ID = v2_disk_dqblk
+Line 300: ID = fakedquot
+Line 300: ;
+Line 301: ID = dqbuf_t
+Line 301: ID = buf
+Line 301: ;
+Line 303: *
+Line 303: ID = err
+Line 303: =
+Line 303: INTCON = 0
+Line 303: ;
+Line 304: if
+Line 304: (
+Line 304: !
+Line 304: (
+Line 304: ID = buf
+Line 304: =
+Line 304: ID = getdqbuf
+Line 304: (
+Line 304: )
+Line 304: )
+Line 304: )
+Line 304: {
+Line 305: *
+Line 305: ID = err
+Line 305: =
+Line 305: -
+Line 305: ID = ENOMEM
+Line 305: ;
+Line 306: return
+Line 306: INTCON = 0
+Line 306: ;
+Line 307: }
+Line 308: ID = dh
+Line 308: =
+Line 308: (
+Line 308: ID = struct
+Line 308: ID = v2_disk_dqdbheader
+Line 308: *
+Line 308: )
+Line 308: ID = buf
+Line 308: ;
+Line 309: ID = ddquot
+Line 309: =
+Line 309: ID = GETENTRIES
+Line 309: (
+Line 309: ID = buf
+Line 309: )
+Line 309: ;
+Line 310: if
+Line 310: (
+Line 310: ID = info
+Line 310: -
+Line 310: >
+Line 310: ID = u
+Line 310: Unrecognized token: 46
+Line 310: ID = v2_i
+Line 310: Unrecognized token: 46
+Line 310: ID = dqi_free_entry
+Line 310: )
+Line 310: {
+Line 311: ID = blk
+Line 311: =
+Line 311: ID = info
+Line 311: -
+Line 311: >
+Line 311: ID = u
+Line 311: Unrecognized token: 46
+Line 311: ID = v2_i
+Line 311: Unrecognized token: 46
+Line 311: ID = dqi_free_entry
+Line 311: ;
+Line 312: if
+Line 312: (
+Line 312: (
+Line 312: *
+Line 312: ID = err
+Line 312: =
+Line 312: ID = read_blk
+Line 312: (
+Line 312: ID = filp
+Line 312: ,
+Line 312: ID = blk
+Line 312: ,
+Line 312: ID = buf
+Line 312: )
+Line 312: )
+Line 312: <
+Line 312: INTCON = 0
+Line 312: )
+Line 313: ID = goto
+Line 313: ID = out_buf
+Line 313: ;
+Line 314: }
+Line 315: else
+Line 315: {
+Line 316: ID = blk
+Line 316: =
+Line 316: ID = get_free_dqblk
+Line 316: (
+Line 316: ID = filp
+Line 316: ,
+Line 316: ID = dquot
+Line 316: -
+Line 316: >
+Line 316: ID = dq_type
+Line 316: )
+Line 316: ;
+Line 317: if
+Line 317: (
+Line 317: (
+Line 317: int
+Line 317: )
+Line 317: ID = blk
+Line 317: <
+Line 317: INTCON = 0
+Line 317: )
+Line 317: {
+Line 318: *
+Line 318: ID = err
+Line 318: =
+Line 318: ID = blk
+Line 318: ;
+Line 319: ID = freedqbuf
+Line 319: (
+Line 319: ID = buf
+Line 319: )
+Line 319: ;
+Line 320: return
+Line 320: INTCON = 0
+Line 320: ;
+Line 321: }
+Line 322: ID = memset
+Line 322: (
+Line 322: ID = buf
+Line 322: ,
+Line 322: INTCON = 0
+Line 322: ,
+Line 322: ID = V2_DQBLKSIZE
+Line 322: )
+Line 322: ;
+Line 323: ID = info
+Line 323: -
+Line 323: >
+Line 323: ID = u
+Line 323: Unrecognized token: 46
+Line 323: ID = v2_i
+Line 323: Unrecognized token: 46
+Line 323: ID = dqi_free_entry
+Line 323: =
+Line 323: ID = blk
+Line 323: ;
+Line 324: ID = mark_info_dirty
+Line 324: (
+Line 324: ID = dquot
+Line 324: -
+Line 324: >
+Line 324: ID = dq_sb
+Line 324: ,
+Line 324: ID = dquot
+Line 324: -
+Line 324: >
+Line 324: ID = dq_type
+Line 324: )
+Line 324: ;
+Line 325: }
+Line 326: if
+Line 326: (
+Line 326: ID = le16_to_cpu
+Line 326: (
+Line 326: ID = dh
+Line 326: -
+Line 326: >
+Line 326: ID = dqdh_entries
+Line 326: )
+Line 326: +
+Line 326: INTCON = 1
+Line 326: >=
+Line 326: ID = V2_DQSTRINBLK
+Line 326: )
+Line 327: if
+Line 327: (
+Line 327: (
+Line 327: *
+Line 327: ID = err
+Line 327: =
+Line 327: ID = remove_free_dqentry
+Line 327: (
+Line 327: ID = filp
+Line 327: ,
+Line 327: ID = dquot
+Line 327: -
+Line 327: >
+Line 327: ID = dq_type
+Line 327: ,
+Line 327: ID = buf
+Line 327: ,
+Line 327: ID = blk
+Line 327: )
+Line 327: )
+Line 327: <
+Line 327: INTCON = 0
+Line 327: )
+Line 327: {
+Line 328: ID = printk
+Line 328: (
+Line 328: ID = KERN_ERR
+Line 328: STRINGCON = "VFS: find_free_dqentry(): Can't remove block (%u) from entry free list.\n"
+Line 328: ,
+Line 328: ID = blk
+Line 328: )
+Line 328: ;
+Line 329: ID = goto
+Line 329: ID = out_buf
+Line 329: ;
+Line 330: }
+Line 331: ID = dh
+Line 331: -
+Line 331: >
+Line 331: ID = dqdh_entries
+Line 331: =
+Line 331: ID = cpu_to_le16
+Line 331: (
+Line 331: ID = le16_to_cpu
+Line 331: (
+Line 331: ID = dh
+Line 331: -
+Line 331: >
+Line 331: ID = dqdh_entries
+Line 331: )
+Line 331: +
+Line 331: INTCON = 1
+Line 331: )
+Line 331: ;
+Line 332: ID = memset
+Line 332: (
+Line 332: Unrecognized token: 38
+Line 332: ID = fakedquot
+Line 332: ,
+Line 332: INTCON = 0
+Line 332: ,
+Line 332: ID = sizeof
+Line 332: (
+Line 332: ID = struct
+Line 332: ID = v2_disk_dqblk
+Line 332: )
+Line 332: )
+Line 332: ;
+Line 334: for
+Line 334: (
+Line 334: ID = i
+Line 334: =
+Line 334: INTCON = 0
+Line 334: ;
+Line 334: ID = i
+Line 334: <
+Line 334: ID = V2_DQSTRINBLK
+Line 334: &&
+Line 334: ID = memcmp
+Line 334: (
+Line 334: Unrecognized token: 38
+Line 334: ID = fakedquot
+Line 334: ,
+Line 334: ID = ddquot
+Line 334: +
+Line 334: ID = i
+Line 334: ,
+Line 334: ID = sizeof
+Line 334: (
+Line 334: ID = struct
+Line 334: ID = v2_disk_dqblk
+Line 334: )
+Line 334: )
+Line 334: ;
+Line 334: ID = i
+Line 334: +
+Line 334: +
+Line 334: )
+Line 334: ;
+Line 335: Unrecognized token: 35
+Line 335: ID = ifdef
+Line 335: Unrecognized token: 95
+Line 335: Unrecognized token: 95
+Line 335: ID = QUOTA_V2_PARANOIA
+Line 336: if
+Line 336: (
+Line 336: ID = i
+Line 336: ==
+Line 336: ID = V2_DQSTRINBLK
+Line 336: )
+Line 336: {
+Line 337: ID = printk
+Line 337: (
+Line 337: ID = KERN_ERR
+Line 337: STRINGCON = "VFS: find_free_dqentry(): Data block full but it shouldn't.\n"
+Line 337: )
+Line 337: ;
+Line 338: *
+Line 338: ID = err
+Line 338: =
+Line 338: -
+Line 338: ID = EIO
+Line 338: ;
+Line 339: ID = goto
+Line 339: ID = out_buf
+Line 339: ;
+Line 340: }
+Line 341: Unrecognized token: 35
+Line 341: ID = endif
+Line 342: if
+Line 342: (
+Line 342: (
+Line 342: *
+Line 342: ID = err
+Line 342: =
+Line 342: ID = write_blk
+Line 342: (
+Line 342: ID = filp
+Line 342: ,
+Line 342: ID = blk
+Line 342: ,
+Line 342: ID = buf
+Line 342: )
+Line 342: )
+Line 342: <
+Line 342: INTCON = 0
+Line 342: )
+Line 342: {
+Line 343: ID = printk
+Line 343: (
+Line 343: ID = KERN_ERR
+Line 343: STRINGCON = "VFS: find_free_dqentry(): Can't write quota data block %u.\n"
+Line 343: ,
+Line 343: ID = blk
+Line 343: )
+Line 343: ;
+Line 344: ID = goto
+Line 344: ID = out_buf
+Line 344: ;
+Line 345: }
+Line 346: ID = dquot
+Line 346: -
+Line 346: >
+Line 346: ID = dq_off
+Line 346: =
+Line 346: (
+Line 346: ID = blk
+Line 346: <
+Line 346: <
+Line 346: ID = V2_DQBLKSIZE_BITS
+Line 346: )
+Line 346: +
+Line 346: ID = sizeof
+Line 346: (
+Line 346: ID = struct
+Line 346: ID = v2_disk_dqdbheader
+Line 346: )
+Line 346: +
+Line 346: ID = i
+Line 346: *
+Line 346: ID = sizeof
+Line 346: (
+Line 346: ID = struct
+Line 346: ID = v2_disk_dqblk
+Line 346: )
+Line 346: ;
+Line 347: ID = freedqbuf
+Line 347: (
+Line 347: ID = buf
+Line 347: )
+Line 347: ;
+Line 348: return
+Line 348: ID = blk
+Line 348: ;
+Line 349: ID = out_buf
+Line 349: Unrecognized token: 58
+Line 350: ID = freedqbuf
+Line 350: (
+Line 350: ID = buf
+Line 350: )
+Line 350: ;
+Line 351: return
+Line 351: INTCON = 0
+Line 351: ;
+Line 352: }
+Line 355: ID = static
+Line 355: int
+Line 355: ID = do_insert_tree
+Line 355: (
+Line 355: ID = struct
+Line 355: ID = dquot
+Line 355: *
+Line 355: ID = dquot
+Line 355: ,
+Line 355: ID = uint
+Line 355: *
+Line 355: ID = treeblk
+Line 355: ,
+Line 355: int
+Line 355: ID = depth
+Line 355: )
+Line 356: {
+Line 357: ID = struct
+Line 357: ID = file
+Line 357: *
+Line 357: ID = filp
+Line 357: =
+Line 357: ID = sb_dqopt
+Line 357: (
+Line 357: ID = dquot
+Line 357: -
+Line 357: >
+Line 357: ID = dq_sb
+Line 357: )
+Line 357: -
+Line 357: >
+Line 357: ID = files
+Line 357: [
+Line 357: ID = dquot
+Line 357: -
+Line 357: >
+Line 357: ID = dq_type
+Line 357: ]
+Line 357: ;
+Line 358: ID = dqbuf_t
+Line 358: ID = buf
+Line 358: ;
+Line 359: int
+Line 359: ID = ret
+Line 359: =
+Line 359: INTCON = 0
+Line 359: ,
+Line 359: ID = newson
+Line 359: =
+Line 359: INTCON = 0
+Line 359: ,
+Line 359: ID = newact
+Line 359: =
+Line 359: INTCON = 0
+Line 359: ;
+Line 360: ID = u32
+Line 360: *
+Line 360: ID = ref
+Line 360: ;
+Line 361: ID = uint
+Line 361: ID = newblk
+Line 361: ;
+Line 363: if
+Line 363: (
+Line 363: !
+Line 363: (
+Line 363: ID = buf
+Line 363: =
+Line 363: ID = getdqbuf
+Line 363: (
+Line 363: )
+Line 363: )
+Line 363: )
+Line 364: return
+Line 364: -
+Line 364: ID = ENOMEM
+Line 364: ;
+Line 365: if
+Line 365: (
+Line 365: !
+Line 365: *
+Line 365: ID = treeblk
+Line 365: )
+Line 365: {
+Line 366: ID = ret
+Line 366: =
+Line 366: ID = get_free_dqblk
+Line 366: (
+Line 366: ID = filp
+Line 366: ,
+Line 366: ID = dquot
+Line 366: -
+Line 366: >
+Line 366: ID = dq_type
+Line 366: )
+Line 366: ;
+Line 367: if
+Line 367: (
+Line 367: ID = ret
+Line 367: <
+Line 367: INTCON = 0
+Line 367: )
+Line 368: ID = goto
+Line 368: ID = out_buf
+Line 368: ;
+Line 369: *
+Line 369: ID = treeblk
+Line 369: =
+Line 369: ID = ret
+Line 369: ;
+Line 370: ID = memset
+Line 370: (
+Line 370: ID = buf
+Line 370: ,
+Line 370: INTCON = 0
+Line 370: ,
+Line 370: ID = V2_DQBLKSIZE
+Line 370: )
+Line 370: ;
+Line 371: ID = newact
+Line 371: =
+Line 371: INTCON = 1
+Line 371: ;
+Line 372: }
+Line 373: else
+Line 373: {
+Line 374: if
+Line 374: (
+Line 374: (
+Line 374: ID = ret
+Line 374: =
+Line 374: ID = read_blk
+Line 374: (
+Line 374: ID = filp
+Line 374: ,
+Line 374: *
+Line 374: ID = treeblk
+Line 374: ,
+Line 374: ID = buf
+Line 374: )
+Line 374: )
+Line 374: <
+Line 374: INTCON = 0
+Line 374: )
+Line 374: {
+Line 375: ID = printk
+Line 375: (
+Line 375: ID = KERN_ERR
+Line 375: STRINGCON = "VFS: Can't read tree quota block %u.\n"
+Line 375: ,
+Line 375: *
+Line 375: ID = treeblk
+Line 375: )
+Line 375: ;
+Line 376: ID = goto
+Line 376: ID = out_buf
+Line 376: ;
+Line 377: }
+Line 378: }
+Line 379: ID = ref
+Line 379: =
+Line 379: (
+Line 379: ID = u32
+Line 379: *
+Line 379: )
+Line 379: ID = buf
+Line 379: ;
+Line 380: ID = newblk
+Line 380: =
+Line 380: ID = le32_to_cpu
+Line 380: (
+Line 380: ID = ref
+Line 380: [
+Line 380: ID = GETIDINDEX
+Line 380: (
+Line 380: ID = dquot
+Line 380: -
+Line 380: >
+Line 380: ID = dq_id
+Line 380: ,
+Line 380: ID = depth
+Line 380: )
+Line 380: ]
+Line 380: )
+Line 380: ;
+Line 381: if
+Line 381: (
+Line 381: !
+Line 381: ID = newblk
+Line 381: )
+Line 382: ID = newson
+Line 382: =
+Line 382: INTCON = 1
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: ID = depth
+Line 383: ==
+Line 383: ID = V2_DQTREEDEPTH
+Line 383: -
+Line 383: INTCON = 1
+Line 383: )
+Line 383: {
+Line 384: Unrecognized token: 35
+Line 384: ID = ifdef
+Line 384: Unrecognized token: 95
+Line 384: Unrecognized token: 95
+Line 384: ID = QUOTA_V2_PARANOIA
+Line 385: if
+Line 385: (
+Line 385: ID = newblk
+Line 385: )
+Line 385: {
+Line 386: ID = printk
+Line 386: (
+Line 386: ID = KERN_ERR
+Line 386: STRINGCON = "VFS: Inserting already present quota entry (block %u).\n"
+Line 386: ,
+Line 386: ID = ref
+Line 386: [
+Line 386: ID = GETIDINDEX
+Line 386: (
+Line 386: ID = dquot
+Line 386: -
+Line 386: >
+Line 386: ID = dq_id
+Line 386: ,
+Line 386: ID = depth
+Line 386: )
+Line 386: ]
+Line 386: )
+Line 386: ;
+Line 387: ID = ret
+Line 387: =
+Line 387: -
+Line 387: ID = EIO
+Line 387: ;
+Line 388: ID = goto
+Line 388: ID = out_buf
+Line 388: ;
+Line 389: }
+Line 390: Unrecognized token: 35
+Line 390: ID = endif
+Line 391: ID = newblk
+Line 391: =
+Line 391: ID = find_free_dqentry
+Line 391: (
+Line 391: ID = dquot
+Line 391: ,
+Line 391: Unrecognized token: 38
+Line 391: ID = ret
+Line 391: )
+Line 391: ;
+Line 392: }
+Line 393: else
+Line 394: ID = ret
+Line 394: =
+Line 394: ID = do_insert_tree
+Line 394: (
+Line 394: ID = dquot
+Line 394: ,
+Line 394: Unrecognized token: 38
+Line 394: ID = newblk
+Line 394: ,
+Line 394: ID = depth
+Line 394: +
+Line 394: INTCON = 1
+Line 394: )
+Line 394: ;
+Line 395: if
+Line 395: (
+Line 395: ID = newson
+Line 395: &&
+Line 395: ID = ret
+Line 395: >=
+Line 395: INTCON = 0
+Line 395: )
+Line 395: {
+Line 396: ID = ref
+Line 396: [
+Line 396: ID = GETIDINDEX
+Line 396: (
+Line 396: ID = dquot
+Line 396: -
+Line 396: >
+Line 396: ID = dq_id
+Line 396: ,
+Line 396: ID = depth
+Line 396: )
+Line 396: ]
+Line 396: =
+Line 396: ID = cpu_to_le32
+Line 396: (
+Line 396: ID = newblk
+Line 396: )
+Line 396: ;
+Line 397: ID = ret
+Line 397: =
+Line 397: ID = write_blk
+Line 397: (
+Line 397: ID = filp
+Line 397: ,
+Line 397: *
+Line 397: ID = treeblk
+Line 397: ,
+Line 397: ID = buf
+Line 397: )
+Line 397: ;
+Line 398: }
+Line 399: else
+Line 399: if
+Line 399: (
+Line 399: ID = newact
+Line 399: &&
+Line 399: ID = ret
+Line 399: <
+Line 399: INTCON = 0
+Line 399: )
+Line 400: ID = put_free_dqblk
+Line 400: (
+Line 400: ID = filp
+Line 400: ,
+Line 400: ID = dquot
+Line 400: -
+Line 400: >
+Line 400: ID = dq_type
+Line 400: ,
+Line 400: ID = buf
+Line 400: ,
+Line 400: *
+Line 400: ID = treeblk
+Line 400: )
+Line 400: ;
+Line 401: ID = out_buf
+Line 401: Unrecognized token: 58
+Line 402: ID = freedqbuf
+Line 402: (
+Line 402: ID = buf
+Line 402: )
+Line 402: ;
+Line 403: return
+Line 403: ID = ret
+Line 403: ;
+Line 404: }
+Line 407: ID = static
+Line 407: ID = inline
+Line 407: int
+Line 407: ID = dq_insert_tree
+Line 407: (
+Line 407: ID = struct
+Line 407: ID = dquot
+Line 407: *
+Line 407: ID = dquot
+Line 407: )
+Line 408: {
+Line 409: int
+Line 409: ID = tmp
+Line 409: =
+Line 409: ID = V2_DQTREEOFF
+Line 409: ;
+Line 410: return
+Line 410: ID = do_insert_tree
+Line 410: (
+Line 410: ID = dquot
+Line 410: ,
+Line 410: Unrecognized token: 38
+Line 410: ID = tmp
+Line 410: ,
+Line 410: INTCON = 0
+Line 410: )
+Line 410: ;
+Line 411: }
+Line 416: ID = static
+Line 416: int
+Line 416: ID = v2_write_dquot
+Line 416: (
+Line 416: ID = struct
+Line 416: ID = dquot
+Line 416: *
+Line 416: ID = dquot
+Line 416: )
+Line 417: {
+Line 418: int
+Line 418: ID = type
+Line 418: =
+Line 418: ID = dquot
+Line 418: -
+Line 418: >
+Line 418: ID = dq_type
+Line 418: ;
+Line 419: ID = struct
+Line 419: ID = file
+Line 419: *
+Line 419: ID = filp
+Line 419: ;
+Line 420: ID = mm_segment_t
+Line 420: ID = fs
+Line 420: ;
+Line 421: ID = loff_t
+Line 421: ID = offset
+Line 421: ;
+Line 422: ID = ssize_t
+Line 422: ID = ret
+Line 422: ;
+Line 423: ID = struct
+Line 423: ID = v2_disk_dqblk
+Line 423: ID = ddquot
+Line 423: ,
+Line 423: ID = empty
+Line 423: ;
+Line 426: if
+Line 426: (
+Line 426: !
+Line 426: ID = dquot
+Line 426: -
+Line 426: >
+Line 426: ID = dq_off
+Line 426: )
+Line 427: if
+Line 427: (
+Line 427: (
+Line 427: ID = ret
+Line 427: =
+Line 427: ID = dq_insert_tree
+Line 427: (
+Line 427: ID = dquot
+Line 427: )
+Line 427: )
+Line 427: <
+Line 427: INTCON = 0
+Line 427: )
+Line 427: {
+Line 428: ID = printk
+Line 428: (
+Line 428: ID = KERN_ERR
+Line 428: STRINGCON = "VFS: Error %Zd occurred while creating quota.\n"
+Line 428: ,
+Line 428: ID = ret
+Line 428: )
+Line 428: ;
+Line 429: return
+Line 429: ID = ret
+Line 429: ;
+Line 430: }
+Line 431: ID = filp
+Line 431: =
+Line 431: ID = sb_dqopt
+Line 431: (
+Line 431: ID = dquot
+Line 431: -
+Line 431: >
+Line 431: ID = dq_sb
+Line 431: )
+Line 431: -
+Line 431: >
+Line 431: ID = files
+Line 431: [
+Line 431: ID = type
+Line 431: ]
+Line 431: ;
+Line 432: ID = offset
+Line 432: =
+Line 432: ID = dquot
+Line 432: -
+Line 432: >
+Line 432: ID = dq_off
+Line 432: ;
+Line 433: ID = spin_lock
+Line 433: (
+Line 433: Unrecognized token: 38
+Line 433: ID = dq_data_lock
+Line 433: )
+Line 433: ;
+Line 434: ID = mem2diskdqb
+Line 434: (
+Line 434: Unrecognized token: 38
+Line 434: ID = ddquot
+Line 434: ,
+Line 434: Unrecognized token: 38
+Line 434: ID = dquot
+Line 434: -
+Line 434: >
+Line 434: ID = dq_dqb
+Line 434: ,
+Line 434: ID = dquot
+Line 434: -
+Line 434: >
+Line 434: ID = dq_id
+Line 434: )
+Line 434: ;
+Line 438: ID = memset
+Line 438: (
+Line 438: Unrecognized token: 38
+Line 438: ID = empty
+Line 438: ,
+Line 438: INTCON = 0
+Line 438: ,
+Line 438: ID = sizeof
+Line 438: (
+Line 438: ID = struct
+Line 438: ID = v2_disk_dqblk
+Line 438: )
+Line 438: )
+Line 438: ;
+Line 439: if
+Line 439: (
+Line 439: !
+Line 439: ID = memcmp
+Line 439: (
+Line 439: Unrecognized token: 38
+Line 439: ID = empty
+Line 439: ,
+Line 439: Unrecognized token: 38
+Line 439: ID = ddquot
+Line 439: ,
+Line 439: ID = sizeof
+Line 439: (
+Line 439: ID = struct
+Line 439: ID = v2_disk_dqblk
+Line 439: )
+Line 439: )
+Line 439: )
+Line 440: ID = ddquot
+Line 440: Unrecognized token: 46
+Line 440: ID = dqb_itime
+Line 440: =
+Line 440: ID = cpu_to_le64
+Line 440: (
+Line 440: INTCON = 1
+Line 440: )
+Line 440: ;
+Line 441: ID = spin_unlock
+Line 441: (
+Line 441: Unrecognized token: 38
+Line 441: ID = dq_data_lock
+Line 441: )
+Line 441: ;
+Line 442: ID = fs
+Line 442: =
+Line 442: ID = get_fs
+Line 442: (
+Line 442: )
+Line 442: ;
+Line 443: ID = set_fs
+Line 443: (
+Line 443: ID = KERNEL_DS
+Line 443: )
+Line 443: ;
+Line 444: ID = ret
+Line 444: =
+Line 444: ID = filp
+Line 444: -
+Line 444: >
+Line 444: ID = f_op
+Line 444: -
+Line 444: >
+Line 444: ID = write
+Line 444: (
+Line 444: ID = filp
+Line 444: ,
+Line 444: (
+Line 444: char
+Line 444: *
+Line 444: )
+Line 444: Unrecognized token: 38
+Line 444: ID = ddquot
+Line 444: ,
+Line 444: ID = sizeof
+Line 444: (
+Line 444: ID = struct
+Line 444: ID = v2_disk_dqblk
+Line 444: )
+Line 444: ,
+Line 444: Unrecognized token: 38
+Line 444: ID = offset
+Line 444: )
+Line 444: ;
+Line 445: ID = set_fs
+Line 445: (
+Line 445: ID = fs
+Line 445: )
+Line 445: ;
+Line 446: if
+Line 446: (
+Line 446: ID = ret
+Line 446: !=
+Line 446: ID = sizeof
+Line 446: (
+Line 446: ID = struct
+Line 446: ID = v2_disk_dqblk
+Line 446: )
+Line 446: )
+Line 446: {
+Line 447: ID = printk
+Line 447: (
+Line 447: ID = KERN_WARNING
+Line 447: STRINGCON = "VFS: dquota write failed on dev %s\n"
+Line 447: ,
+Line 447: ID = dquot
+Line 447: -
+Line 447: >
+Line 447: ID = dq_sb
+Line 447: -
+Line 447: >
+Line 447: ID = s_id
+Line 447: )
+Line 447: ;
+Line 448: if
+Line 448: (
+Line 448: ID = ret
+Line 448: >=
+Line 448: INTCON = 0
+Line 448: )
+Line 449: ID = ret
+Line 449: =
+Line 449: -
+Line 449: ID = ENOSPC
+Line 449: ;
+Line 450: }
+Line 451: else
+Line 452: ID = ret
+Line 452: =
+Line 452: INTCON = 0
+Line 452: ;
+Line 453: ID = dqstats
+Line 453: Unrecognized token: 46
+Line 453: ID = writes
+Line 453: +
+Line 453: +
+Line 453: ;
+Line 455: return
+Line 455: ID = ret
+Line 455: ;
+Line 456: }
+Line 459: ID = static
+Line 459: int
+Line 459: ID = free_dqentry
+Line 459: (
+Line 459: ID = struct
+Line 459: ID = dquot
+Line 459: *
+Line 459: ID = dquot
+Line 459: ,
+Line 459: ID = uint
+Line 459: ID = blk
+Line 459: )
+Line 460: {
+Line 461: ID = struct
+Line 461: ID = file
+Line 461: *
+Line 461: ID = filp
+Line 461: =
+Line 461: ID = sb_dqopt
+Line 461: (
+Line 461: ID = dquot
+Line 461: -
+Line 461: >
+Line 461: ID = dq_sb
+Line 461: )
+Line 461: -
+Line 461: >
+Line 461: ID = files
+Line 461: [
+Line 461: ID = dquot
+Line 461: -
+Line 461: >
+Line 461: ID = dq_type
+Line 461: ]
+Line 461: ;
+Line 462: ID = struct
+Line 462: ID = v2_disk_dqdbheader
+Line 462: *
+Line 462: ID = dh
+Line 462: ;
+Line 463: ID = dqbuf_t
+Line 463: ID = buf
+Line 463: =
+Line 463: ID = getdqbuf
+Line 463: (
+Line 463: )
+Line 463: ;
+Line 464: int
+Line 464: ID = ret
+Line 464: =
+Line 464: INTCON = 0
+Line 464: ;
+Line 466: if
+Line 466: (
+Line 466: !
+Line 466: ID = buf
+Line 466: )
+Line 467: return
+Line 467: -
+Line 467: ID = ENOMEM
+Line 467: ;
+Line 468: if
+Line 468: (
+Line 468: ID = dquot
+Line 468: -
+Line 468: >
+Line 468: ID = dq_off
+Line 468: >
+Line 468: >
+Line 468: ID = V2_DQBLKSIZE_BITS
+Line 468: !=
+Line 468: ID = blk
+Line 468: )
+Line 468: {
+Line 469: ID = printk
+Line 469: (
+Line 469: ID = KERN_ERR
+Line 469: STRINGCON = "VFS: Quota structure has offset to other block (%u) than it should (%u).\n"
+Line 469: ,
+Line 469: ID = blk
+Line 469: ,
+Line 469: (
+Line 469: ID = uint
+Line 469: )
+Line 469: (
+Line 469: ID = dquot
+Line 469: -
+Line 469: >
+Line 469: ID = dq_off
+Line 469: >
+Line 469: >
+Line 469: ID = V2_DQBLKSIZE_BITS
+Line 469: )
+Line 469: )
+Line 469: ;
+Line 470: ID = goto
+Line 470: ID = out_buf
+Line 470: ;
+Line 471: }
+Line 472: if
+Line 472: (
+Line 472: (
+Line 472: ID = ret
+Line 472: =
+Line 472: ID = read_blk
+Line 472: (
+Line 472: ID = filp
+Line 472: ,
+Line 472: ID = blk
+Line 472: ,
+Line 472: ID = buf
+Line 472: )
+Line 472: )
+Line 472: <
+Line 472: INTCON = 0
+Line 472: )
+Line 472: {
+Line 473: ID = printk
+Line 473: (
+Line 473: ID = KERN_ERR
+Line 473: STRINGCON = "VFS: Can't read quota data block %u\n"
+Line 473: ,
+Line 473: ID = blk
+Line 473: )
+Line 473: ;
+Line 474: ID = goto
+Line 474: ID = out_buf
+Line 474: ;
+Line 475: }
+Line 476: ID = dh
+Line 476: =
+Line 476: (
+Line 476: ID = struct
+Line 476: ID = v2_disk_dqdbheader
+Line 476: *
+Line 476: )
+Line 476: ID = buf
+Line 476: ;
+Line 477: ID = dh
+Line 477: -
+Line 477: >
+Line 477: ID = dqdh_entries
+Line 477: =
+Line 477: ID = cpu_to_le16
+Line 477: (
+Line 477: ID = le16_to_cpu
+Line 477: (
+Line 477: ID = dh
+Line 477: -
+Line 477: >
+Line 477: ID = dqdh_entries
+Line 477: )
+Line 477: -
+Line 477: INTCON = 1
+Line 477: )
+Line 477: ;
+Line 478: if
+Line 478: (
+Line 478: !
+Line 478: ID = le16_to_cpu
+Line 478: (
+Line 478: ID = dh
+Line 478: -
+Line 478: >
+Line 478: ID = dqdh_entries
+Line 478: )
+Line 478: )
+Line 478: {
+Line 479: if
+Line 479: (
+Line 479: (
+Line 479: ID = ret
+Line 479: =
+Line 479: ID = remove_free_dqentry
+Line 479: (
+Line 479: ID = filp
+Line 479: ,
+Line 479: ID = dquot
+Line 479: -
+Line 479: >
+Line 479: ID = dq_type
+Line 479: ,
+Line 479: ID = buf
+Line 479: ,
+Line 479: ID = blk
+Line 479: )
+Line 479: )
+Line 479: <
+Line 479: INTCON = 0
+Line 479: ||
+Line 480: (
+Line 480: ID = ret
+Line 480: =
+Line 480: ID = put_free_dqblk
+Line 480: (
+Line 480: ID = filp
+Line 480: ,
+Line 480: ID = dquot
+Line 480: -
+Line 480: >
+Line 480: ID = dq_type
+Line 480: ,
+Line 480: ID = buf
+Line 480: ,
+Line 480: ID = blk
+Line 480: )
+Line 480: )
+Line 480: <
+Line 480: INTCON = 0
+Line 480: )
+Line 480: {
+Line 481: ID = printk
+Line 481: (
+Line 481: ID = KERN_ERR
+Line 481: STRINGCON = "VFS: Can't move quota data block (%u) to free list.\n"
+Line 481: ,
+Line 481: ID = blk
+Line 481: )
+Line 481: ;
+Line 482: ID = goto
+Line 482: ID = out_buf
+Line 482: ;
+Line 483: }
+Line 484: }
+Line 485: else
+Line 485: {
+Line 486: ID = memset
+Line 486: (
+Line 486: ID = buf
+Line 486: +
+Line 486: (
+Line 486: ID = dquot
+Line 486: -
+Line 486: >
+Line 486: ID = dq_off
+Line 486: Unrecognized token: 38
+Line 486: (
+Line 486: (
+Line 486: INTCON = 1
+Line 486: <
+Line 486: <
+Line 486: ID = V2_DQBLKSIZE_BITS
+Line 486: )
+Line 486: -
+Line 486: INTCON = 1
+Line 486: )
+Line 486: )
+Line 486: ,
+Line 486: INTCON = 0
+Line 486: ,
+Line 486: ID = sizeof
+Line 486: (
+Line 486: ID = struct
+Line 486: ID = v2_disk_dqblk
+Line 486: )
+Line 486: )
+Line 486: ;
+Line 487: if
+Line 487: (
+Line 487: ID = le16_to_cpu
+Line 487: (
+Line 487: ID = dh
+Line 487: -
+Line 487: >
+Line 487: ID = dqdh_entries
+Line 487: )
+Line 487: ==
+Line 487: ID = V2_DQSTRINBLK
+Line 487: -
+Line 487: INTCON = 1
+Line 487: )
+Line 487: {
+Line 489: if
+Line 489: (
+Line 489: (
+Line 489: ID = ret
+Line 489: =
+Line 489: ID = insert_free_dqentry
+Line 489: (
+Line 489: ID = filp
+Line 489: ,
+Line 489: ID = dquot
+Line 489: -
+Line 489: >
+Line 489: ID = dq_type
+Line 489: ,
+Line 489: ID = buf
+Line 489: ,
+Line 489: ID = blk
+Line 489: )
+Line 489: )
+Line 489: <
+Line 489: INTCON = 0
+Line 489: )
+Line 489: {
+Line 490: ID = printk
+Line 490: (
+Line 490: ID = KERN_ERR
+Line 490: STRINGCON = "VFS: Can't insert quota data block (%u) to free entry list.\n"
+Line 490: ,
+Line 490: ID = blk
+Line 490: )
+Line 490: ;
+Line 491: ID = goto
+Line 491: ID = out_buf
+Line 491: ;
+Line 492: }
+Line 493: }
+Line 494: else
+Line 495: if
+Line 495: (
+Line 495: (
+Line 495: ID = ret
+Line 495: =
+Line 495: ID = write_blk
+Line 495: (
+Line 495: ID = filp
+Line 495: ,
+Line 495: ID = blk
+Line 495: ,
+Line 495: ID = buf
+Line 495: )
+Line 495: )
+Line 495: <
+Line 495: INTCON = 0
+Line 495: )
+Line 495: {
+Line 496: ID = printk
+Line 496: (
+Line 496: ID = KERN_ERR
+Line 496: STRINGCON = "VFS: Can't write quota data block %u\n"
+Line 496: ,
+Line 496: ID = blk
+Line 496: )
+Line 496: ;
+Line 497: ID = goto
+Line 497: ID = out_buf
+Line 497: ;
+Line 498: }
+Line 499: }
+Line 500: ID = dquot
+Line 500: -
+Line 500: >
+Line 500: ID = dq_off
+Line 500: =
+Line 500: INTCON = 0
+Line 500: ;
+Line 501: ID = out_buf
+Line 501: Unrecognized token: 58
+Line 502: ID = freedqbuf
+Line 502: (
+Line 502: ID = buf
+Line 502: )
+Line 502: ;
+Line 503: return
+Line 503: ID = ret
+Line 503: ;
+Line 504: }
+Line 507: ID = static
+Line 507: int
+Line 507: ID = remove_tree
+Line 507: (
+Line 507: ID = struct
+Line 507: ID = dquot
+Line 507: *
+Line 507: ID = dquot
+Line 507: ,
+Line 507: ID = uint
+Line 507: *
+Line 507: ID = blk
+Line 507: ,
+Line 507: int
+Line 507: ID = depth
+Line 507: )
+Line 508: {
+Line 509: ID = struct
+Line 509: ID = file
+Line 509: *
+Line 509: ID = filp
+Line 509: =
+Line 509: ID = sb_dqopt
+Line 509: (
+Line 509: ID = dquot
+Line 509: -
+Line 509: >
+Line 509: ID = dq_sb
+Line 509: )
+Line 509: -
+Line 509: >
+Line 509: ID = files
+Line 509: [
+Line 509: ID = dquot
+Line 509: -
+Line 509: >
+Line 509: ID = dq_type
+Line 509: ]
+Line 509: ;
+Line 510: ID = dqbuf_t
+Line 510: ID = buf
+Line 510: =
+Line 510: ID = getdqbuf
+Line 510: (
+Line 510: )
+Line 510: ;
+Line 511: int
+Line 511: ID = ret
+Line 511: =
+Line 511: INTCON = 0
+Line 511: ;
+Line 512: ID = uint
+Line 512: ID = newblk
+Line 512: ;
+Line 513: ID = u32
+Line 513: *
+Line 513: ID = ref
+Line 513: =
+Line 513: (
+Line 513: ID = u32
+Line 513: *
+Line 513: )
+Line 513: ID = buf
+Line 513: ;
+Line 515: if
+Line 515: (
+Line 515: !
+Line 515: ID = buf
+Line 515: )
+Line 516: return
+Line 516: -
+Line 516: ID = ENOMEM
+Line 516: ;
+Line 517: if
+Line 517: (
+Line 517: (
+Line 517: ID = ret
+Line 517: =
+Line 517: ID = read_blk
+Line 517: (
+Line 517: ID = filp
+Line 517: ,
+Line 517: *
+Line 517: ID = blk
+Line 517: ,
+Line 517: ID = buf
+Line 517: )
+Line 517: )
+Line 517: <
+Line 517: INTCON = 0
+Line 517: )
+Line 517: {
+Line 518: ID = printk
+Line 518: (
+Line 518: ID = KERN_ERR
+Line 518: STRINGCON = "VFS: Can't read quota data block %u\n"
+Line 518: ,
+Line 518: *
+Line 518: ID = blk
+Line 518: )
+Line 518: ;
+Line 519: ID = goto
+Line 519: ID = out_buf
+Line 519: ;
+Line 520: }
+Line 521: ID = newblk
+Line 521: =
+Line 521: ID = le32_to_cpu
+Line 521: (
+Line 521: ID = ref
+Line 521: [
+Line 521: ID = GETIDINDEX
+Line 521: (
+Line 521: ID = dquot
+Line 521: -
+Line 521: >
+Line 521: ID = dq_id
+Line 521: ,
+Line 521: ID = depth
+Line 521: )
+Line 521: ]
+Line 521: )
+Line 521: ;
+Line 522: if
+Line 522: (
+Line 522: ID = depth
+Line 522: ==
+Line 522: ID = V2_DQTREEDEPTH
+Line 522: -
+Line 522: INTCON = 1
+Line 522: )
+Line 522: {
+Line 523: ID = ret
+Line 523: =
+Line 523: ID = free_dqentry
+Line 523: (
+Line 523: ID = dquot
+Line 523: ,
+Line 523: ID = newblk
+Line 523: )
+Line 523: ;
+Line 524: ID = newblk
+Line 524: =
+Line 524: INTCON = 0
+Line 524: ;
+Line 525: }
+Line 526: else
+Line 527: ID = ret
+Line 527: =
+Line 527: ID = remove_tree
+Line 527: (
+Line 527: ID = dquot
+Line 527: ,
+Line 527: Unrecognized token: 38
+Line 527: ID = newblk
+Line 527: ,
+Line 527: ID = depth
+Line 527: +
+Line 527: INTCON = 1
+Line 527: )
+Line 527: ;
+Line 528: if
+Line 528: (
+Line 528: ID = ret
+Line 528: >=
+Line 528: INTCON = 0
+Line 528: &&
+Line 528: !
+Line 528: ID = newblk
+Line 528: )
+Line 528: {
+Line 529: int
+Line 529: ID = i
+Line 529: ;
+Line 530: ID = ref
+Line 530: [
+Line 530: ID = GETIDINDEX
+Line 530: (
+Line 530: ID = dquot
+Line 530: -
+Line 530: >
+Line 530: ID = dq_id
+Line 530: ,
+Line 530: ID = depth
+Line 530: )
+Line 530: ]
+Line 530: =
+Line 530: ID = cpu_to_le32
+Line 530: (
+Line 530: INTCON = 0
+Line 530: )
+Line 530: ;
+Line 531: for
+Line 531: (
+Line 531: ID = i
+Line 531: =
+Line 531: INTCON = 0
+Line 531: ;
+Line 531: ID = i
+Line 531: <
+Line 531: ID = V2_DQBLKSIZE
+Line 531: &&
+Line 531: !
+Line 531: ID = buf
+Line 531: [
+Line 531: ID = i
+Line 531: ]
+Line 531: ;
+Line 531: ID = i
+Line 531: +
+Line 531: +
+Line 531: )
+Line 531: ;
+Line 532: if
+Line 532: (
+Line 532: ID = i
+Line 532: ==
+Line 532: ID = V2_DQBLKSIZE
+Line 532: )
+Line 532: {
+Line 533: ID = put_free_dqblk
+Line 533: (
+Line 533: ID = filp
+Line 533: ,
+Line 533: ID = dquot
+Line 533: -
+Line 533: >
+Line 533: ID = dq_type
+Line 533: ,
+Line 533: ID = buf
+Line 533: ,
+Line 533: *
+Line 533: ID = blk
+Line 533: )
+Line 533: ;
+Line 534: *
+Line 534: ID = blk
+Line 534: =
+Line 534: INTCON = 0
+Line 534: ;
+Line 535: }
+Line 536: else
+Line 537: if
+Line 537: (
+Line 537: (
+Line 537: ID = ret
+Line 537: =
+Line 537: ID = write_blk
+Line 537: (
+Line 537: ID = filp
+Line 537: ,
+Line 537: *
+Line 537: ID = blk
+Line 537: ,
+Line 537: ID = buf
+Line 537: )
+Line 537: )
+Line 537: <
+Line 537: INTCON = 0
+Line 537: )
+Line 538: ID = printk
+Line 538: (
+Line 538: ID = KERN_ERR
+Line 538: STRINGCON = "VFS: Can't write quota tree block %u.\n"
+Line 538: ,
+Line 538: *
+Line 538: ID = blk
+Line 538: )
+Line 538: ;
+Line 539: }
+Line 540: ID = out_buf
+Line 540: Unrecognized token: 58
+Line 541: ID = freedqbuf
+Line 541: (
+Line 541: ID = buf
+Line 541: )
+Line 541: ;
+Line 542: return
+Line 542: ID = ret
+Line 542: ;
+Line 543: }
+Line 546: ID = static
+Line 546: int
+Line 546: ID = v2_delete_dquot
+Line 546: (
+Line 546: ID = struct
+Line 546: ID = dquot
+Line 546: *
+Line 546: ID = dquot
+Line 546: )
+Line 547: {
+Line 548: ID = uint
+Line 548: ID = tmp
+Line 548: =
+Line 548: ID = V2_DQTREEOFF
+Line 548: ;
+Line 550: if
+Line 550: (
+Line 550: !
+Line 550: ID = dquot
+Line 550: -
+Line 550: >
+Line 550: ID = dq_off
+Line 550: )
+Line 551: return
+Line 551: INTCON = 0
+Line 551: ;
+Line 552: return
+Line 552: ID = remove_tree
+Line 552: (
+Line 552: ID = dquot
+Line 552: ,
+Line 552: Unrecognized token: 38
+Line 552: ID = tmp
+Line 552: ,
+Line 552: INTCON = 0
+Line 552: )
+Line 552: ;
+Line 553: }
+Line 556: ID = static
+Line 556: ID = loff_t
+Line 556: ID = find_block_dqentry
+Line 556: (
+Line 556: ID = struct
+Line 556: ID = dquot
+Line 556: *
+Line 556: ID = dquot
+Line 556: ,
+Line 556: ID = uint
+Line 556: ID = blk
+Line 556: )
+Line 557: {
+Line 558: ID = struct
+Line 558: ID = file
+Line 558: *
+Line 558: ID = filp
+Line 558: =
+Line 558: ID = sb_dqopt
+Line 558: (
+Line 558: ID = dquot
+Line 558: -
+Line 558: >
+Line 558: ID = dq_sb
+Line 558: )
+Line 558: -
+Line 558: >
+Line 558: ID = files
+Line 558: [
+Line 558: ID = dquot
+Line 558: -
+Line 558: >
+Line 558: ID = dq_type
+Line 558: ]
+Line 558: ;
+Line 559: ID = dqbuf_t
+Line 559: ID = buf
+Line 559: =
+Line 559: ID = getdqbuf
+Line 559: (
+Line 559: )
+Line 559: ;
+Line 560: ID = loff_t
+Line 560: ID = ret
+Line 560: =
+Line 560: INTCON = 0
+Line 560: ;
+Line 561: int
+Line 561: ID = i
+Line 561: ;
+Line 562: ID = struct
+Line 562: ID = v2_disk_dqblk
+Line 562: *
+Line 562: ID = ddquot
+Line 562: =
+Line 562: ID = GETENTRIES
+Line 562: (
+Line 562: ID = buf
+Line 562: )
+Line 562: ;
+Line 564: if
+Line 564: (
+Line 564: !
+Line 564: ID = buf
+Line 564: )
+Line 565: return
+Line 565: -
+Line 565: ID = ENOMEM
+Line 565: ;
+Line 566: if
+Line 566: (
+Line 566: (
+Line 566: ID = ret
+Line 566: =
+Line 566: ID = read_blk
+Line 566: (
+Line 566: ID = filp
+Line 566: ,
+Line 566: ID = blk
+Line 566: ,
+Line 566: ID = buf
+Line 566: )
+Line 566: )
+Line 566: <
+Line 566: INTCON = 0
+Line 566: )
+Line 566: {
+Line 567: ID = printk
+Line 567: (
+Line 567: ID = KERN_ERR
+Line 567: STRINGCON = "VFS: Can't read quota tree block %u.\n"
+Line 567: ,
+Line 567: ID = blk
+Line 567: )
+Line 567: ;
+Line 568: ID = goto
+Line 568: ID = out_buf
+Line 568: ;
+Line 569: }
+Line 570: if
+Line 570: (
+Line 570: ID = dquot
+Line 570: -
+Line 570: >
+Line 570: ID = dq_id
+Line 570: )
+Line 571: for
+Line 571: (
+Line 571: ID = i
+Line 571: =
+Line 571: INTCON = 0
+Line 571: ;
+Line 571: ID = i
+Line 571: <
+Line 571: ID = V2_DQSTRINBLK
+Line 571: &&
+Line 571: ID = le32_to_cpu
+Line 571: (
+Line 571: ID = ddquot
+Line 571: [
+Line 571: ID = i
+Line 571: ]
+Line 571: Unrecognized token: 46
+Line 571: ID = dqb_id
+Line 571: )
+Line 571: !=
+Line 571: ID = dquot
+Line 571: -
+Line 571: >
+Line 571: ID = dq_id
+Line 571: ;
+Line 571: ID = i
+Line 571: +
+Line 571: +
+Line 571: )
+Line 571: ;
+Line 572: else
+Line 572: {
+Line 573: ID = struct
+Line 573: ID = v2_disk_dqblk
+Line 573: ID = fakedquot
+Line 573: ;
+Line 575: ID = memset
+Line 575: (
+Line 575: Unrecognized token: 38
+Line 575: ID = fakedquot
+Line 575: ,
+Line 575: INTCON = 0
+Line 575: ,
+Line 575: ID = sizeof
+Line 575: (
+Line 575: ID = struct
+Line 575: ID = v2_disk_dqblk
+Line 575: )
+Line 575: )
+Line 575: ;
+Line 576: for
+Line 576: (
+Line 576: ID = i
+Line 576: =
+Line 576: INTCON = 0
+Line 576: ;
+Line 576: ID = i
+Line 576: <
+Line 576: ID = V2_DQSTRINBLK
+Line 576: ;
+Line 576: ID = i
+Line 576: +
+Line 576: +
+Line 576: )
+Line 577: if
+Line 577: (
+Line 577: !
+Line 577: ID = le32_to_cpu
+Line 577: (
+Line 577: ID = ddquot
+Line 577: [
+Line 577: ID = i
+Line 577: ]
+Line 577: Unrecognized token: 46
+Line 577: ID = dqb_id
+Line 577: )
+Line 577: &&
+Line 577: ID = memcmp
+Line 577: (
+Line 577: Unrecognized token: 38
+Line 577: ID = fakedquot
+Line 577: ,
+Line 577: ID = ddquot
+Line 577: +
+Line 577: ID = i
+Line 577: ,
+Line 577: ID = sizeof
+Line 577: (
+Line 577: ID = struct
+Line 577: ID = v2_disk_dqblk
+Line 577: )
+Line 577: )
+Line 577: )
+Line 578: ID = break
+Line 578: ;
+Line 579: }
+Line 580: if
+Line 580: (
+Line 580: ID = i
+Line 580: ==
+Line 580: ID = V2_DQSTRINBLK
+Line 580: )
+Line 580: {
+Line 581: ID = printk
+Line 581: (
+Line 581: ID = KERN_ERR
+Line 581: STRINGCON = "VFS: Quota for id %u referenced but not present.\n"
+Line 581: ,
+Line 581: ID = dquot
+Line 581: -
+Line 581: >
+Line 581: ID = dq_id
+Line 581: )
+Line 581: ;
+Line 582: ID = ret
+Line 582: =
+Line 582: -
+Line 582: ID = EIO
+Line 582: ;
+Line 583: ID = goto
+Line 583: ID = out_buf
+Line 583: ;
+Line 584: }
+Line 585: else
+Line 586: ID = ret
+Line 586: =
+Line 586: (
+Line 586: ID = blk
+Line 586: <
+Line 586: <
+Line 586: ID = V2_DQBLKSIZE_BITS
+Line 586: )
+Line 586: +
+Line 586: ID = sizeof
+Line 586: (
+Line 586: ID = struct
+Line 586: ID = v2_disk_dqdbheader
+Line 586: )
+Line 586: +
+Line 586: ID = i
+Line 586: *
+Line 586: ID = sizeof
+Line 586: (
+Line 586: ID = struct
+Line 586: ID = v2_disk_dqblk
+Line 586: )
+Line 586: ;
+Line 587: ID = out_buf
+Line 587: Unrecognized token: 58
+Line 588: ID = freedqbuf
+Line 588: (
+Line 588: ID = buf
+Line 588: )
+Line 588: ;
+Line 589: return
+Line 589: ID = ret
+Line 589: ;
+Line 590: }
+Line 593: ID = static
+Line 593: ID = loff_t
+Line 593: ID = find_tree_dqentry
+Line 593: (
+Line 593: ID = struct
+Line 593: ID = dquot
+Line 593: *
+Line 593: ID = dquot
+Line 593: ,
+Line 593: ID = uint
+Line 593: ID = blk
+Line 593: ,
+Line 593: int
+Line 593: ID = depth
+Line 593: )
+Line 594: {
+Line 595: ID = struct
+Line 595: ID = file
+Line 595: *
+Line 595: ID = filp
+Line 595: =
+Line 595: ID = sb_dqopt
+Line 595: (
+Line 595: ID = dquot
+Line 595: -
+Line 595: >
+Line 595: ID = dq_sb
+Line 595: )
+Line 595: -
+Line 595: >
+Line 595: ID = files
+Line 595: [
+Line 595: ID = dquot
+Line 595: -
+Line 595: >
+Line 595: ID = dq_type
+Line 595: ]
+Line 595: ;
+Line 596: ID = dqbuf_t
+Line 596: ID = buf
+Line 596: =
+Line 596: ID = getdqbuf
+Line 596: (
+Line 596: )
+Line 596: ;
+Line 597: ID = loff_t
+Line 597: ID = ret
+Line 597: =
+Line 597: INTCON = 0
+Line 597: ;
+Line 598: ID = u32
+Line 598: *
+Line 598: ID = ref
+Line 598: =
+Line 598: (
+Line 598: ID = u32
+Line 598: *
+Line 598: )
+Line 598: ID = buf
+Line 598: ;
+Line 600: if
+Line 600: (
+Line 600: !
+Line 600: ID = buf
+Line 600: )
+Line 601: return
+Line 601: -
+Line 601: ID = ENOMEM
+Line 601: ;
+Line 602: if
+Line 602: (
+Line 602: (
+Line 602: ID = ret
+Line 602: =
+Line 602: ID = read_blk
+Line 602: (
+Line 602: ID = filp
+Line 602: ,
+Line 602: ID = blk
+Line 602: ,
+Line 602: ID = buf
+Line 602: )
+Line 602: )
+Line 602: <
+Line 602: INTCON = 0
+Line 602: )
+Line 602: {
+Line 603: ID = printk
+Line 603: (
+Line 603: ID = KERN_ERR
+Line 603: STRINGCON = "VFS: Can't read quota tree block %u.\n"
+Line 603: ,
+Line 603: ID = blk
+Line 603: )
+Line 603: ;
+Line 604: ID = goto
+Line 604: ID = out_buf
+Line 604: ;
+Line 605: }
+Line 606: ID = ret
+Line 606: =
+Line 606: INTCON = 0
+Line 606: ;
+Line 607: ID = blk
+Line 607: =
+Line 607: ID = le32_to_cpu
+Line 607: (
+Line 607: ID = ref
+Line 607: [
+Line 607: ID = GETIDINDEX
+Line 607: (
+Line 607: ID = dquot
+Line 607: -
+Line 607: >
+Line 607: ID = dq_id
+Line 607: ,
+Line 607: ID = depth
+Line 607: )
+Line 607: ]
+Line 607: )
+Line 607: ;
+Line 608: if
+Line 608: (
+Line 608: !
+Line 608: ID = blk
+Line 608: )
+Line 609: ID = goto
+Line 609: ID = out_buf
+Line 609: ;
+Line 610: if
+Line 610: (
+Line 610: ID = depth
+Line 610: <
+Line 610: ID = V2_DQTREEDEPTH
+Line 610: -
+Line 610: INTCON = 1
+Line 610: )
+Line 611: ID = ret
+Line 611: =
+Line 611: ID = find_tree_dqentry
+Line 611: (
+Line 611: ID = dquot
+Line 611: ,
+Line 611: ID = blk
+Line 611: ,
+Line 611: ID = depth
+Line 611: +
+Line 611: INTCON = 1
+Line 611: )
+Line 611: ;
+Line 612: else
+Line 613: ID = ret
+Line 613: =
+Line 613: ID = find_block_dqentry
+Line 613: (
+Line 613: ID = dquot
+Line 613: ,
+Line 613: ID = blk
+Line 613: )
+Line 613: ;
+Line 614: ID = out_buf
+Line 614: Unrecognized token: 58
+Line 615: ID = freedqbuf
+Line 615: (
+Line 615: ID = buf
+Line 615: )
+Line 615: ;
+Line 616: return
+Line 616: ID = ret
+Line 616: ;
+Line 617: }
+Line 620: ID = static
+Line 620: ID = inline
+Line 620: ID = loff_t
+Line 620: ID = find_dqentry
+Line 620: (
+Line 620: ID = struct
+Line 620: ID = dquot
+Line 620: *
+Line 620: ID = dquot
+Line 620: )
+Line 621: {
+Line 622: return
+Line 622: ID = find_tree_dqentry
+Line 622: (
+Line 622: ID = dquot
+Line 622: ,
+Line 622: ID = V2_DQTREEOFF
+Line 622: ,
+Line 622: INTCON = 0
+Line 622: )
+Line 622: ;
+Line 623: }
+Line 625: ID = static
+Line 625: int
+Line 625: ID = v2_read_dquot
+Line 625: (
+Line 625: ID = struct
+Line 625: ID = dquot
+Line 625: *
+Line 625: ID = dquot
+Line 625: )
+Line 626: {
+Line 627: int
+Line 627: ID = type
+Line 627: =
+Line 627: ID = dquot
+Line 627: -
+Line 627: >
+Line 627: ID = dq_type
+Line 627: ;
+Line 628: ID = struct
+Line 628: ID = file
+Line 628: *
+Line 628: ID = filp
+Line 628: ;
+Line 629: ID = mm_segment_t
+Line 629: ID = fs
+Line 629: ;
+Line 630: ID = loff_t
+Line 630: ID = offset
+Line 630: ;
+Line 631: ID = struct
+Line 631: ID = v2_disk_dqblk
+Line 631: ID = ddquot
+Line 631: ,
+Line 631: ID = empty
+Line 631: ;
+Line 632: int
+Line 632: ID = ret
+Line 632: =
+Line 632: INTCON = 0
+Line 632: ;
+Line 634: ID = filp
+Line 634: =
+Line 634: ID = sb_dqopt
+Line 634: (
+Line 634: ID = dquot
+Line 634: -
+Line 634: >
+Line 634: ID = dq_sb
+Line 634: )
+Line 634: -
+Line 634: >
+Line 634: ID = files
+Line 634: [
+Line 634: ID = type
+Line 634: ]
+Line 634: ;
+Line 636: Unrecognized token: 35
+Line 636: ID = ifdef
+Line 636: Unrecognized token: 95
+Line 636: Unrecognized token: 95
+Line 636: ID = QUOTA_V2_PARANOIA
+Line 637: if
+Line 637: (
+Line 637: !
+Line 637: ID = filp
+Line 637: ||
+Line 637: !
+Line 637: ID = dquot
+Line 637: -
+Line 637: >
+Line 637: ID = dq_sb
+Line 637: )
+Line 637: {
+Line 638: ID = printk
+Line 638: (
+Line 638: ID = KERN_ERR
+Line 638: STRINGCON = "VFS: Quota invalidated while reading!\n"
+Line 638: )
+Line 638: ;
+Line 639: return
+Line 639: -
+Line 639: ID = EIO
+Line 639: ;
+Line 640: }
+Line 641: Unrecognized token: 35
+Line 641: ID = endif
+Line 642: ID = offset
+Line 642: =
+Line 642: ID = find_dqentry
+Line 642: (
+Line 642: ID = dquot
+Line 642: )
+Line 642: ;
+Line 643: if
+Line 643: (
+Line 643: ID = offset
+Line 643: <=
+Line 643: INTCON = 0
+Line 643: )
+Line 643: {
+Line 644: if
+Line 644: (
+Line 644: ID = offset
+Line 644: <
+Line 644: INTCON = 0
+Line 644: )
+Line 645: ID = printk
+Line 645: (
+Line 645: ID = KERN_ERR
+Line 645: STRINGCON = "VFS: Can't read quota structure for id %u.\n"
+Line 645: ,
+Line 645: ID = dquot
+Line 645: -
+Line 645: >
+Line 645: ID = dq_id
+Line 645: )
+Line 645: ;
+Line 646: ID = dquot
+Line 646: -
+Line 646: >
+Line 646: ID = dq_off
+Line 646: =
+Line 646: INTCON = 0
+Line 646: ;
+Line 647: ID = set_bit
+Line 647: (
+Line 647: ID = DQ_FAKE_B
+Line 647: ,
+Line 647: Unrecognized token: 38
+Line 647: ID = dquot
+Line 647: -
+Line 647: >
+Line 647: ID = dq_flags
+Line 647: )
+Line 647: ;
+Line 648: ID = memset
+Line 648: (
+Line 648: Unrecognized token: 38
+Line 648: ID = dquot
+Line 648: -
+Line 648: >
+Line 648: ID = dq_dqb
+Line 648: ,
+Line 648: INTCON = 0
+Line 648: ,
+Line 648: ID = sizeof
+Line 648: (
+Line 648: ID = struct
+Line 648: ID = mem_dqblk
+Line 648: )
+Line 648: )
+Line 648: ;
+Line 649: ID = ret
+Line 649: =
+Line 649: ID = offset
+Line 649: ;
+Line 650: }
+Line 651: else
+Line 651: {
+Line 652: ID = dquot
+Line 652: -
+Line 652: >
+Line 652: ID = dq_off
+Line 652: =
+Line 652: ID = offset
+Line 652: ;
+Line 653: ID = fs
+Line 653: =
+Line 653: ID = get_fs
+Line 653: (
+Line 653: )
+Line 653: ;
+Line 654: ID = set_fs
+Line 654: (
+Line 654: ID = KERNEL_DS
+Line 654: )
+Line 654: ;
+Line 655: if
+Line 655: (
+Line 655: (
+Line 655: ID = ret
+Line 655: =
+Line 655: ID = filp
+Line 655: -
+Line 655: >
+Line 655: ID = f_op
+Line 655: -
+Line 655: >
+Line 655: ID = read
+Line 655: (
+Line 655: ID = filp
+Line 655: ,
+Line 655: (
+Line 655: char
+Line 655: *
+Line 655: )
+Line 655: Unrecognized token: 38
+Line 655: ID = ddquot
+Line 655: ,
+Line 655: ID = sizeof
+Line 655: (
+Line 655: ID = struct
+Line 655: ID = v2_disk_dqblk
+Line 655: )
+Line 655: ,
+Line 655: Unrecognized token: 38
+Line 655: ID = offset
+Line 655: )
+Line 655: )
+Line 655: !=
+Line 655: ID = sizeof
+Line 655: (
+Line 655: ID = struct
+Line 655: ID = v2_disk_dqblk
+Line 655: )
+Line 655: )
+Line 655: {
+Line 656: if
+Line 656: (
+Line 656: ID = ret
+Line 656: >=
+Line 656: INTCON = 0
+Line 656: )
+Line 657: ID = ret
+Line 657: =
+Line 657: -
+Line 657: ID = EIO
+Line 657: ;
+Line 658: ID = printk
+Line 658: (
+Line 658: ID = KERN_ERR
+Line 658: STRINGCON = "VFS: Error while reading quota structure for id %u.\n"
+Line 658: ,
+Line 658: ID = dquot
+Line 658: -
+Line 658: >
+Line 658: ID = dq_id
+Line 658: )
+Line 658: ;
+Line 659: ID = memset
+Line 659: (
+Line 659: Unrecognized token: 38
+Line 659: ID = ddquot
+Line 659: ,
+Line 659: INTCON = 0
+Line 659: ,
+Line 659: ID = sizeof
+Line 659: (
+Line 659: ID = struct
+Line 659: ID = v2_disk_dqblk
+Line 659: )
+Line 659: )
+Line 659: ;
+Line 660: }
+Line 661: else
+Line 661: {
+Line 662: ID = ret
+Line 662: =
+Line 662: INTCON = 0
+Line 662: ;
+Line 664: ID = memset
+Line 664: (
+Line 664: Unrecognized token: 38
+Line 664: ID = empty
+Line 664: ,
+Line 664: INTCON = 0
+Line 664: ,
+Line 664: ID = sizeof
+Line 664: (
+Line 664: ID = struct
+Line 664: ID = v2_disk_dqblk
+Line 664: )
+Line 664: )
+Line 664: ;
+Line 665: ID = empty
+Line 665: Unrecognized token: 46
+Line 665: ID = dqb_itime
+Line 665: =
+Line 665: ID = cpu_to_le64
+Line 665: (
+Line 665: INTCON = 1
+Line 665: )
+Line 665: ;
+Line 666: if
+Line 666: (
+Line 666: !
+Line 666: ID = memcmp
+Line 666: (
+Line 666: Unrecognized token: 38
+Line 666: ID = empty
+Line 666: ,
+Line 666: Unrecognized token: 38
+Line 666: ID = ddquot
+Line 666: ,
+Line 666: ID = sizeof
+Line 666: (
+Line 666: ID = struct
+Line 666: ID = v2_disk_dqblk
+Line 666: )
+Line 666: )
+Line 666: )
+Line 667: ID = ddquot
+Line 667: Unrecognized token: 46
+Line 667: ID = dqb_itime
+Line 667: =
+Line 667: INTCON = 0
+Line 667: ;
+Line 668: }
+Line 669: ID = set_fs
+Line 669: (
+Line 669: ID = fs
+Line 669: )
+Line 669: ;
+Line 670: ID = disk2memdqb
+Line 670: (
+Line 670: Unrecognized token: 38
+Line 670: ID = dquot
+Line 670: -
+Line 670: >
+Line 670: ID = dq_dqb
+Line 670: ,
+Line 670: Unrecognized token: 38
+Line 670: ID = ddquot
+Line 670: )
+Line 670: ;
+Line 671: if
+Line 671: (
+Line 671: !
+Line 671: ID = dquot
+Line 671: -
+Line 671: >
+Line 671: ID = dq_dqb
+Line 671: Unrecognized token: 46
+Line 671: ID = dqb_bhardlimit
+Line 671: &&
+Line 672: !
+Line 672: ID = dquot
+Line 672: -
+Line 672: >
+Line 672: ID = dq_dqb
+Line 672: Unrecognized token: 46
+Line 672: ID = dqb_bsoftlimit
+Line 672: &&
+Line 673: !
+Line 673: ID = dquot
+Line 673: -
+Line 673: >
+Line 673: ID = dq_dqb
+Line 673: Unrecognized token: 46
+Line 673: ID = dqb_ihardlimit
+Line 673: &&
+Line 674: !
+Line 674: ID = dquot
+Line 674: -
+Line 674: >
+Line 674: ID = dq_dqb
+Line 674: Unrecognized token: 46
+Line 674: ID = dqb_isoftlimit
+Line 674: )
+Line 675: ID = set_bit
+Line 675: (
+Line 675: ID = DQ_FAKE_B
+Line 675: ,
+Line 675: Unrecognized token: 38
+Line 675: ID = dquot
+Line 675: -
+Line 675: >
+Line 675: ID = dq_flags
+Line 675: )
+Line 675: ;
+Line 676: }
+Line 677: ID = dqstats
+Line 677: Unrecognized token: 46
+Line 677: ID = reads
+Line 677: +
+Line 677: +
+Line 677: ;
+Line 679: return
+Line 679: ID = ret
+Line 679: ;
+Line 680: }
+Line 684: ID = static
+Line 684: int
+Line 684: ID = v2_release_dquot
+Line 684: (
+Line 684: ID = struct
+Line 684: ID = dquot
+Line 684: *
+Line 684: ID = dquot
+Line 684: )
+Line 685: {
+Line 686: if
+Line 686: (
+Line 686: ID = test_bit
+Line 686: (
+Line 686: ID = DQ_FAKE_B
+Line 686: ,
+Line 686: Unrecognized token: 38
+Line 686: ID = dquot
+Line 686: -
+Line 686: >
+Line 686: ID = dq_flags
+Line 686: )
+Line 686: &&
+Line 686: !
+Line 686: (
+Line 686: ID = dquot
+Line 686: -
+Line 686: >
+Line 686: ID = dq_dqb
+Line 686: Unrecognized token: 46
+Line 686: ID = dqb_curinodes
+Line 686: Unrecognized token: 124
+Line 686: ID = dquot
+Line 686: -
+Line 686: >
+Line 686: ID = dq_dqb
+Line 686: Unrecognized token: 46
+Line 686: ID = dqb_curspace
+Line 686: )
+Line 686: )
+Line 687: return
+Line 687: ID = v2_delete_dquot
+Line 687: (
+Line 687: ID = dquot
+Line 687: )
+Line 687: ;
+Line 688: return
+Line 688: INTCON = 0
+Line 688: ;
+Line 689: }
+Line 691: ID = static
+Line 691: ID = struct
+Line 691: ID = quota_format_ops
+Line 691: ID = v2_format_ops
+Line 691: =
+Line 691: {
+Line 692: Unrecognized token: 46
+Line 692: ID = check_quota_file
+Line 692: =
+Line 692: ID = v2_check_quota_file
+Line 692: ,
+Line 693: Unrecognized token: 46
+Line 693: ID = read_file_info
+Line 693: =
+Line 693: ID = v2_read_file_info
+Line 693: ,
+Line 694: Unrecognized token: 46
+Line 694: ID = write_file_info
+Line 694: =
+Line 694: ID = v2_write_file_info
+Line 694: ,
+Line 695: Unrecognized token: 46
+Line 695: ID = free_file_info
+Line 695: =
+Line 695: ID = NULL
+Line 695: ,
+Line 696: Unrecognized token: 46
+Line 696: ID = read_dqblk
+Line 696: =
+Line 696: ID = v2_read_dquot
+Line 696: ,
+Line 697: Unrecognized token: 46
+Line 697: ID = commit_dqblk
+Line 697: =
+Line 697: ID = v2_write_dquot
+Line 697: ,
+Line 698: Unrecognized token: 46
+Line 698: ID = release_dqblk
+Line 698: =
+Line 698: ID = v2_release_dquot
+Line 698: ,
+Line 699: }
+Line 699: ;
+Line 701: ID = static
+Line 701: ID = struct
+Line 701: ID = quota_format_type
+Line 701: ID = v2_quota_format
+Line 701: =
+Line 701: {
+Line 702: Unrecognized token: 46
+Line 702: ID = qf_fmt_id
+Line 702: =
+Line 702: ID = QFMT_VFS_V0
+Line 702: ,
+Line 703: Unrecognized token: 46
+Line 703: ID = qf_ops
+Line 703: =
+Line 703: Unrecognized token: 38
+Line 703: ID = v2_format_ops
+Line 703: ,
+Line 704: Unrecognized token: 46
+Line 704: ID = qf_owner
+Line 704: =
+Line 704: ID = THIS_MODULE
+Line 705: }
+Line 705: ;
+Line 707: ID = static
+Line 707: int
+Line 707: Unrecognized token: 95
+Line 707: Unrecognized token: 95
+Line 707: ID = init
+Line 707: ID = init_v2_quota_format
+Line 707: (
+Line 707: void
+Line 707: )
+Line 708: {
+Line 709: return
+Line 709: ID = register_quota_format
+Line 709: (
+Line 709: Unrecognized token: 38
+Line 709: ID = v2_quota_format
+Line 709: )
+Line 709: ;
+Line 710: }
+Line 712: ID = static
+Line 712: void
+Line 712: Unrecognized token: 95
+Line 712: Unrecognized token: 95
+Line 712: ID = exit
+Line 712: ID = exit_v2_quota_format
+Line 712: (
+Line 712: void
+Line 712: )
+Line 713: {
+Line 714: ID = unregister_quota_format
+Line 714: (
+Line 714: Unrecognized token: 38
+Line 714: ID = v2_quota_format
+Line 714: )
+Line 714: ;
+Line 715: }
+Line 717: ID = module_init
+Line 717: (
+Line 717: ID = init_v2_quota_format
+Line 717: )
+Line 717: ;
+Line 718: ID = module_exit
+Line 718: (
+Line 718: ID = exit_v2_quota_format
+Line 718: )
+Line 718: ;
+Line 719: -EOF-

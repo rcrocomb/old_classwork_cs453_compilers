@@ -1,0 +1,7277 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = config
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = compat
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = module
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = utsname
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = mman
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = smp_lock
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = notifier
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = reboot
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = prctl
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = init
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = highuid
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = fs
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = workqueue
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = device
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = times
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = security
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = dcookies
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = suspend
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = asm
+Line 27: /
+Line 27: ID = uaccess
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = asm
+Line 28: /
+Line 28: ID = io
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = asm
+Line 29: /
+Line 29: ID = unistd
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 31: Unrecognized token: 35
+Line 31: ID = ifndef
+Line 31: ID = SET_UNALIGN_CTL
+Line 32: Unrecognized token: 35
+Line 32: ID = define
+Line 32: ID = SET_UNALIGN_CTL
+Line 32: (
+Line 32: ID = a
+Line 32: ,
+Line 32: ID = b
+Line 32: )
+Line 32: (
+Line 32: -
+Line 32: ID = EINVAL
+Line 32: )
+Line 33: Unrecognized token: 35
+Line 33: ID = endif
+Line 34: Unrecognized token: 35
+Line 34: ID = ifndef
+Line 34: ID = GET_UNALIGN_CTL
+Line 35: Unrecognized token: 35
+Line 35: ID = define
+Line 35: ID = GET_UNALIGN_CTL
+Line 35: (
+Line 35: ID = a
+Line 35: ,
+Line 35: ID = b
+Line 35: )
+Line 35: (
+Line 35: -
+Line 35: ID = EINVAL
+Line 35: )
+Line 36: Unrecognized token: 35
+Line 36: ID = endif
+Line 37: Unrecognized token: 35
+Line 37: ID = ifndef
+Line 37: ID = SET_FPEMU_CTL
+Line 38: Unrecognized token: 35
+Line 38: ID = define
+Line 38: ID = SET_FPEMU_CTL
+Line 38: (
+Line 38: ID = a
+Line 38: ,
+Line 38: ID = b
+Line 38: )
+Line 38: (
+Line 38: -
+Line 38: ID = EINVAL
+Line 38: )
+Line 39: Unrecognized token: 35
+Line 39: ID = endif
+Line 40: Unrecognized token: 35
+Line 40: ID = ifndef
+Line 40: ID = GET_FPEMU_CTL
+Line 41: Unrecognized token: 35
+Line 41: ID = define
+Line 41: ID = GET_FPEMU_CTL
+Line 41: (
+Line 41: ID = a
+Line 41: ,
+Line 41: ID = b
+Line 41: )
+Line 41: (
+Line 41: -
+Line 41: ID = EINVAL
+Line 41: )
+Line 42: Unrecognized token: 35
+Line 42: ID = endif
+Line 43: Unrecognized token: 35
+Line 43: ID = ifndef
+Line 43: ID = SET_FPEXC_CTL
+Line 44: Unrecognized token: 35
+Line 44: ID = define
+Line 44: ID = SET_FPEXC_CTL
+Line 44: (
+Line 44: ID = a
+Line 44: ,
+Line 44: ID = b
+Line 44: )
+Line 44: (
+Line 44: -
+Line 44: ID = EINVAL
+Line 44: )
+Line 45: Unrecognized token: 35
+Line 45: ID = endif
+Line 46: Unrecognized token: 35
+Line 46: ID = ifndef
+Line 46: ID = GET_FPEXC_CTL
+Line 47: Unrecognized token: 35
+Line 47: ID = define
+Line 47: ID = GET_FPEXC_CTL
+Line 47: (
+Line 47: ID = a
+Line 47: ,
+Line 47: ID = b
+Line 47: )
+Line 47: (
+Line 47: -
+Line 47: ID = EINVAL
+Line 47: )
+Line 48: Unrecognized token: 35
+Line 48: ID = endif
+Line 55: int
+Line 55: ID = overflowuid
+Line 55: =
+Line 55: ID = DEFAULT_OVERFLOWUID
+Line 55: ;
+Line 56: int
+Line 56: ID = overflowgid
+Line 56: =
+Line 56: ID = DEFAULT_OVERFLOWGID
+Line 56: ;
+Line 58: Unrecognized token: 35
+Line 58: ID = ifdef
+Line 58: ID = CONFIG_UID16
+Line 59: ID = EXPORT_SYMBOL
+Line 59: (
+Line 59: ID = overflowuid
+Line 59: )
+Line 59: ;
+Line 60: ID = EXPORT_SYMBOL
+Line 60: (
+Line 60: ID = overflowgid
+Line 60: )
+Line 60: ;
+Line 61: Unrecognized token: 35
+Line 61: ID = endif
+Line 68: int
+Line 68: ID = fs_overflowuid
+Line 68: =
+Line 68: ID = DEFAULT_FS_OVERFLOWUID
+Line 68: ;
+Line 69: int
+Line 69: ID = fs_overflowgid
+Line 69: =
+Line 69: ID = DEFAULT_FS_OVERFLOWUID
+Line 69: ;
+Line 71: ID = EXPORT_SYMBOL
+Line 71: (
+Line 71: ID = fs_overflowuid
+Line 71: )
+Line 71: ;
+Line 72: ID = EXPORT_SYMBOL
+Line 72: (
+Line 72: ID = fs_overflowgid
+Line 72: )
+Line 72: ;
+Line 78: int
+Line 78: ID = C_A_D
+Line 78: =
+Line 78: INTCON = 1
+Line 78: ;
+Line 79: int
+Line 79: ID = cad_pid
+Line 79: =
+Line 79: INTCON = 1
+Line 79: ;
+Line 87: ID = static
+Line 87: ID = struct
+Line 87: ID = notifier_block
+Line 87: *
+Line 87: ID = reboot_notifier_list
+Line 87: ;
+Line 88: ID = rwlock_t
+Line 88: ID = notifier_lock
+Line 88: =
+Line 88: ID = RW_LOCK_UNLOCKED
+Line 88: ;
+Line 100: int
+Line 100: ID = notifier_chain_register
+Line 100: (
+Line 100: ID = struct
+Line 100: ID = notifier_block
+Line 100: *
+Line 100: *
+Line 100: ID = list
+Line 100: ,
+Line 100: ID = struct
+Line 100: ID = notifier_block
+Line 100: *
+Line 100: ID = n
+Line 100: )
+Line 101: {
+Line 102: ID = write_lock
+Line 102: (
+Line 102: Unrecognized token: 38
+Line 102: ID = notifier_lock
+Line 102: )
+Line 102: ;
+Line 103: while
+Line 103: (
+Line 103: *
+Line 103: ID = list
+Line 103: )
+Line 104: {
+Line 105: if
+Line 105: (
+Line 105: ID = n
+Line 105: -
+Line 105: >
+Line 105: ID = priority
+Line 105: >
+Line 105: (
+Line 105: *
+Line 105: ID = list
+Line 105: )
+Line 105: -
+Line 105: >
+Line 105: ID = priority
+Line 105: )
+Line 106: ID = break
+Line 106: ;
+Line 107: ID = list
+Line 107: =
+Line 107: Unrecognized token: 38
+Line 107: (
+Line 107: (
+Line 107: *
+Line 107: ID = list
+Line 107: )
+Line 107: -
+Line 107: >
+Line 107: ID = next
+Line 107: )
+Line 107: ;
+Line 108: }
+Line 109: ID = n
+Line 109: -
+Line 109: >
+Line 109: ID = next
+Line 109: =
+Line 109: *
+Line 109: ID = list
+Line 109: ;
+Line 110: *
+Line 110: ID = list
+Line 110: =
+Line 110: ID = n
+Line 110: ;
+Line 111: ID = write_unlock
+Line 111: (
+Line 111: Unrecognized token: 38
+Line 111: ID = notifier_lock
+Line 111: )
+Line 111: ;
+Line 112: return
+Line 112: INTCON = 0
+Line 112: ;
+Line 113: }
+Line 115: ID = EXPORT_SYMBOL
+Line 115: (
+Line 115: ID = notifier_chain_register
+Line 115: )
+Line 115: ;
+Line 127: int
+Line 127: ID = notifier_chain_unregister
+Line 127: (
+Line 127: ID = struct
+Line 127: ID = notifier_block
+Line 127: *
+Line 127: *
+Line 127: ID = nl
+Line 127: ,
+Line 127: ID = struct
+Line 127: ID = notifier_block
+Line 127: *
+Line 127: ID = n
+Line 127: )
+Line 128: {
+Line 129: ID = write_lock
+Line 129: (
+Line 129: Unrecognized token: 38
+Line 129: ID = notifier_lock
+Line 129: )
+Line 129: ;
+Line 130: while
+Line 130: (
+Line 130: (
+Line 130: *
+Line 130: ID = nl
+Line 130: )
+Line 130: !=
+Line 130: ID = NULL
+Line 130: )
+Line 131: {
+Line 132: if
+Line 132: (
+Line 132: (
+Line 132: *
+Line 132: ID = nl
+Line 132: )
+Line 132: ==
+Line 132: ID = n
+Line 132: )
+Line 133: {
+Line 134: *
+Line 134: ID = nl
+Line 134: =
+Line 134: ID = n
+Line 134: -
+Line 134: >
+Line 134: ID = next
+Line 134: ;
+Line 135: ID = write_unlock
+Line 135: (
+Line 135: Unrecognized token: 38
+Line 135: ID = notifier_lock
+Line 135: )
+Line 135: ;
+Line 136: return
+Line 136: INTCON = 0
+Line 136: ;
+Line 137: }
+Line 138: ID = nl
+Line 138: =
+Line 138: Unrecognized token: 38
+Line 138: (
+Line 138: (
+Line 138: *
+Line 138: ID = nl
+Line 138: )
+Line 138: -
+Line 138: >
+Line 138: ID = next
+Line 138: )
+Line 138: ;
+Line 139: }
+Line 140: ID = write_unlock
+Line 140: (
+Line 140: Unrecognized token: 38
+Line 140: ID = notifier_lock
+Line 140: )
+Line 140: ;
+Line 141: return
+Line 141: -
+Line 141: ID = ENOENT
+Line 141: ;
+Line 142: }
+Line 144: ID = EXPORT_SYMBOL
+Line 144: (
+Line 144: ID = notifier_chain_unregister
+Line 144: )
+Line 144: ;
+Line 162: int
+Line 162: ID = notifier_call_chain
+Line 162: (
+Line 162: ID = struct
+Line 162: ID = notifier_block
+Line 162: *
+Line 162: *
+Line 162: ID = n
+Line 162: ,
+Line 162: ID = unsigned
+Line 162: ID = long
+Line 162: ID = val
+Line 162: ,
+Line 162: void
+Line 162: *
+Line 162: ID = v
+Line 162: )
+Line 163: {
+Line 164: int
+Line 164: ID = ret
+Line 164: =
+Line 164: ID = NOTIFY_DONE
+Line 164: ;
+Line 165: ID = struct
+Line 165: ID = notifier_block
+Line 165: *
+Line 165: ID = nb
+Line 165: =
+Line 165: *
+Line 165: ID = n
+Line 165: ;
+Line 167: while
+Line 167: (
+Line 167: ID = nb
+Line 167: )
+Line 168: {
+Line 169: ID = ret
+Line 169: =
+Line 169: ID = nb
+Line 169: -
+Line 169: >
+Line 169: ID = notifier_call
+Line 169: (
+Line 169: ID = nb
+Line 169: ,
+Line 169: ID = val
+Line 169: ,
+Line 169: ID = v
+Line 169: )
+Line 169: ;
+Line 170: if
+Line 170: (
+Line 170: ID = ret
+Line 170: Unrecognized token: 38
+Line 170: ID = NOTIFY_STOP_MASK
+Line 170: )
+Line 171: {
+Line 172: return
+Line 172: ID = ret
+Line 172: ;
+Line 173: }
+Line 174: ID = nb
+Line 174: =
+Line 174: ID = nb
+Line 174: -
+Line 174: >
+Line 174: ID = next
+Line 174: ;
+Line 175: }
+Line 176: return
+Line 176: ID = ret
+Line 176: ;
+Line 177: }
+Line 179: ID = EXPORT_SYMBOL
+Line 179: (
+Line 179: ID = notifier_call_chain
+Line 179: )
+Line 179: ;
+Line 192: int
+Line 192: ID = register_reboot_notifier
+Line 192: (
+Line 192: ID = struct
+Line 192: ID = notifier_block
+Line 192: *
+Line 192: ID = nb
+Line 192: )
+Line 193: {
+Line 194: return
+Line 194: ID = notifier_chain_register
+Line 194: (
+Line 194: Unrecognized token: 38
+Line 194: ID = reboot_notifier_list
+Line 194: ,
+Line 194: ID = nb
+Line 194: )
+Line 194: ;
+Line 195: }
+Line 197: ID = EXPORT_SYMBOL
+Line 197: (
+Line 197: ID = register_reboot_notifier
+Line 197: )
+Line 197: ;
+Line 209: int
+Line 209: ID = unregister_reboot_notifier
+Line 209: (
+Line 209: ID = struct
+Line 209: ID = notifier_block
+Line 209: *
+Line 209: ID = nb
+Line 209: )
+Line 210: {
+Line 211: return
+Line 211: ID = notifier_chain_unregister
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = reboot_notifier_list
+Line 211: ,
+Line 211: ID = nb
+Line 211: )
+Line 211: ;
+Line 212: }
+Line 214: ID = EXPORT_SYMBOL
+Line 214: (
+Line 214: ID = unregister_reboot_notifier
+Line 214: )
+Line 214: ;
+Line 216: ID = asmlinkage
+Line 216: ID = long
+Line 216: ID = sys_ni_syscall
+Line 216: (
+Line 216: void
+Line 216: )
+Line 217: {
+Line 218: return
+Line 218: -
+Line 218: ID = ENOSYS
+Line 218: ;
+Line 219: }
+Line 221: ID = cond_syscall
+Line 221: (
+Line 221: ID = sys_nfsservctl
+Line 221: )
+Line 222: ID = cond_syscall
+Line 222: (
+Line 222: ID = sys_quotactl
+Line 222: )
+Line 223: ID = cond_syscall
+Line 223: (
+Line 223: ID = sys_acct
+Line 223: )
+Line 224: ID = cond_syscall
+Line 224: (
+Line 224: ID = sys_lookup_dcookie
+Line 224: )
+Line 225: ID = cond_syscall
+Line 225: (
+Line 225: ID = sys_swapon
+Line 225: )
+Line 226: ID = cond_syscall
+Line 226: (
+Line 226: ID = sys_swapoff
+Line 226: )
+Line 227: ID = cond_syscall
+Line 227: (
+Line 227: ID = sys_init_module
+Line 227: )
+Line 228: ID = cond_syscall
+Line 228: (
+Line 228: ID = sys_delete_module
+Line 228: )
+Line 229: ID = cond_syscall
+Line 229: (
+Line 229: ID = sys_socketpair
+Line 229: )
+Line 230: ID = cond_syscall
+Line 230: (
+Line 230: ID = sys_bind
+Line 230: )
+Line 231: ID = cond_syscall
+Line 231: (
+Line 231: ID = sys_listen
+Line 231: )
+Line 232: ID = cond_syscall
+Line 232: (
+Line 232: ID = sys_accept
+Line 232: )
+Line 233: ID = cond_syscall
+Line 233: (
+Line 233: ID = sys_connect
+Line 233: )
+Line 234: ID = cond_syscall
+Line 234: (
+Line 234: ID = sys_getsockname
+Line 234: )
+Line 235: ID = cond_syscall
+Line 235: (
+Line 235: ID = sys_getpeername
+Line 235: )
+Line 236: ID = cond_syscall
+Line 236: (
+Line 236: ID = sys_sendto
+Line 236: )
+Line 237: ID = cond_syscall
+Line 237: (
+Line 237: ID = sys_send
+Line 237: )
+Line 238: ID = cond_syscall
+Line 238: (
+Line 238: ID = sys_recvfrom
+Line 238: )
+Line 239: ID = cond_syscall
+Line 239: (
+Line 239: ID = sys_recv
+Line 239: )
+Line 240: ID = cond_syscall
+Line 240: (
+Line 240: ID = sys_socket
+Line 240: )
+Line 241: ID = cond_syscall
+Line 241: (
+Line 241: ID = sys_setsockopt
+Line 241: )
+Line 242: ID = cond_syscall
+Line 242: (
+Line 242: ID = sys_getsockopt
+Line 242: )
+Line 243: ID = cond_syscall
+Line 243: (
+Line 243: ID = sys_shutdown
+Line 243: )
+Line 244: ID = cond_syscall
+Line 244: (
+Line 244: ID = sys_sendmsg
+Line 244: )
+Line 245: ID = cond_syscall
+Line 245: (
+Line 245: ID = sys_recvmsg
+Line 245: )
+Line 246: ID = cond_syscall
+Line 246: (
+Line 246: ID = sys_socketcall
+Line 246: )
+Line 247: ID = cond_syscall
+Line 247: (
+Line 247: ID = sys_futex
+Line 247: )
+Line 248: ID = cond_syscall
+Line 248: (
+Line 248: ID = compat_sys_futex
+Line 248: )
+Line 249: ID = cond_syscall
+Line 249: (
+Line 249: ID = sys_epoll_create
+Line 249: )
+Line 250: ID = cond_syscall
+Line 250: (
+Line 250: ID = sys_epoll_ctl
+Line 250: )
+Line 251: ID = cond_syscall
+Line 251: (
+Line 251: ID = sys_epoll_wait
+Line 251: )
+Line 252: ID = cond_syscall
+Line 252: (
+Line 252: ID = sys_semget
+Line 252: )
+Line 253: ID = cond_syscall
+Line 253: (
+Line 253: ID = sys_semop
+Line 253: )
+Line 254: ID = cond_syscall
+Line 254: (
+Line 254: ID = sys_semtimedop
+Line 254: )
+Line 255: ID = cond_syscall
+Line 255: (
+Line 255: ID = sys_semctl
+Line 255: )
+Line 256: ID = cond_syscall
+Line 256: (
+Line 256: ID = sys_msgget
+Line 256: )
+Line 257: ID = cond_syscall
+Line 257: (
+Line 257: ID = sys_msgsnd
+Line 257: )
+Line 258: ID = cond_syscall
+Line 258: (
+Line 258: ID = sys_msgrcv
+Line 258: )
+Line 259: ID = cond_syscall
+Line 259: (
+Line 259: ID = sys_msgctl
+Line 259: )
+Line 260: ID = cond_syscall
+Line 260: (
+Line 260: ID = sys_shmget
+Line 260: )
+Line 261: ID = cond_syscall
+Line 261: (
+Line 261: ID = sys_shmdt
+Line 261: )
+Line 262: ID = cond_syscall
+Line 262: (
+Line 262: ID = sys_shmctl
+Line 262: )
+Line 263: ID = cond_syscall
+Line 263: (
+Line 263: ID = sys_mq_open
+Line 263: )
+Line 264: ID = cond_syscall
+Line 264: (
+Line 264: ID = sys_mq_unlink
+Line 264: )
+Line 265: ID = cond_syscall
+Line 265: (
+Line 265: ID = sys_mq_timedsend
+Line 265: )
+Line 266: ID = cond_syscall
+Line 266: (
+Line 266: ID = sys_mq_timedreceive
+Line 266: )
+Line 267: ID = cond_syscall
+Line 267: (
+Line 267: ID = sys_mq_notify
+Line 267: )
+Line 268: ID = cond_syscall
+Line 268: (
+Line 268: ID = sys_mq_getsetattr
+Line 268: )
+Line 269: ID = cond_syscall
+Line 269: (
+Line 269: ID = compat_sys_mq_open
+Line 269: )
+Line 270: ID = cond_syscall
+Line 270: (
+Line 270: ID = compat_sys_mq_timedsend
+Line 270: )
+Line 271: ID = cond_syscall
+Line 271: (
+Line 271: ID = compat_sys_mq_timedreceive
+Line 271: )
+Line 272: ID = cond_syscall
+Line 272: (
+Line 272: ID = compat_sys_mq_notify
+Line 272: )
+Line 273: ID = cond_syscall
+Line 273: (
+Line 273: ID = compat_sys_mq_getsetattr
+Line 273: )
+Line 274: ID = cond_syscall
+Line 274: (
+Line 274: ID = sys_mbind
+Line 274: )
+Line 275: ID = cond_syscall
+Line 275: (
+Line 275: ID = sys_get_mempolicy
+Line 275: )
+Line 276: ID = cond_syscall
+Line 276: (
+Line 276: ID = sys_set_mempolicy
+Line 276: )
+Line 277: ID = cond_syscall
+Line 277: (
+Line 277: ID = compat_get_mempolicy
+Line 277: )
+Line 280: ID = cond_syscall
+Line 280: (
+Line 280: ID = sys_pciconfig_read
+Line 280: )
+Line 281: ID = cond_syscall
+Line 281: (
+Line 281: ID = sys_pciconfig_write
+Line 281: )
+Line 282: ID = cond_syscall
+Line 282: (
+Line 282: ID = sys_pciconfig_iobase
+Line 282: )
+Line 284: ID = static
+Line 284: int
+Line 284: ID = set_one_prio
+Line 284: (
+Line 284: ID = struct
+Line 284: ID = task_struct
+Line 284: *
+Line 284: ID = p
+Line 284: ,
+Line 284: int
+Line 284: ID = niceval
+Line 284: ,
+Line 284: int
+Line 284: ID = error
+Line 284: )
+Line 285: {
+Line 286: int
+Line 286: ID = no_nice
+Line 286: ;
+Line 288: if
+Line 288: (
+Line 288: ID = p
+Line 288: -
+Line 288: >
+Line 288: ID = uid
+Line 288: !=
+Line 288: ID = current
+Line 288: -
+Line 288: >
+Line 288: ID = euid
+Line 288: &&
+Line 289: ID = p
+Line 289: -
+Line 289: >
+Line 289: ID = uid
+Line 289: !=
+Line 289: ID = current
+Line 289: -
+Line 289: >
+Line 289: ID = uid
+Line 289: &&
+Line 289: !
+Line 289: ID = capable
+Line 289: (
+Line 289: ID = CAP_SYS_NICE
+Line 289: )
+Line 289: )
+Line 289: {
+Line 290: ID = error
+Line 290: =
+Line 290: -
+Line 290: ID = EPERM
+Line 290: ;
+Line 291: ID = goto
+Line 291: ID = out
+Line 291: ;
+Line 292: }
+Line 293: if
+Line 293: (
+Line 293: ID = niceval
+Line 293: <
+Line 293: ID = task_nice
+Line 293: (
+Line 293: ID = p
+Line 293: )
+Line 293: &&
+Line 293: !
+Line 293: ID = capable
+Line 293: (
+Line 293: ID = CAP_SYS_NICE
+Line 293: )
+Line 293: )
+Line 293: {
+Line 294: ID = error
+Line 294: =
+Line 294: -
+Line 294: ID = EACCES
+Line 294: ;
+Line 295: ID = goto
+Line 295: ID = out
+Line 295: ;
+Line 296: }
+Line 297: ID = no_nice
+Line 297: =
+Line 297: ID = security_task_setnice
+Line 297: (
+Line 297: ID = p
+Line 297: ,
+Line 297: ID = niceval
+Line 297: )
+Line 297: ;
+Line 298: if
+Line 298: (
+Line 298: ID = no_nice
+Line 298: )
+Line 298: {
+Line 299: ID = error
+Line 299: =
+Line 299: ID = no_nice
+Line 299: ;
+Line 300: ID = goto
+Line 300: ID = out
+Line 300: ;
+Line 301: }
+Line 302: if
+Line 302: (
+Line 302: ID = error
+Line 302: ==
+Line 302: -
+Line 302: ID = ESRCH
+Line 302: )
+Line 303: ID = error
+Line 303: =
+Line 303: INTCON = 0
+Line 303: ;
+Line 304: ID = set_user_nice
+Line 304: (
+Line 304: ID = p
+Line 304: ,
+Line 304: ID = niceval
+Line 304: )
+Line 304: ;
+Line 305: ID = out
+Line 305: Unrecognized token: 58
+Line 306: return
+Line 306: ID = error
+Line 306: ;
+Line 307: }
+Line 309: ID = asmlinkage
+Line 309: ID = long
+Line 309: ID = sys_setpriority
+Line 309: (
+Line 309: int
+Line 309: ID = which
+Line 309: ,
+Line 309: int
+Line 309: ID = who
+Line 309: ,
+Line 309: int
+Line 309: ID = niceval
+Line 309: )
+Line 310: {
+Line 311: ID = struct
+Line 311: ID = task_struct
+Line 311: *
+Line 311: ID = g
+Line 311: ,
+Line 311: *
+Line 311: ID = p
+Line 311: ;
+Line 312: ID = struct
+Line 312: ID = user_struct
+Line 312: *
+Line 312: ID = user
+Line 312: ;
+Line 313: ID = struct
+Line 313: ID = pid
+Line 313: *
+Line 313: ID = pid
+Line 313: ;
+Line 314: ID = struct
+Line 314: ID = list_head
+Line 314: *
+Line 314: ID = l
+Line 314: ;
+Line 315: int
+Line 315: ID = error
+Line 315: =
+Line 315: -
+Line 315: ID = EINVAL
+Line 315: ;
+Line 317: if
+Line 317: (
+Line 317: ID = which
+Line 317: >
+Line 317: INTCON = 2
+Line 317: ||
+Line 317: ID = which
+Line 317: <
+Line 317: INTCON = 0
+Line 317: )
+Line 318: ID = goto
+Line 318: ID = out
+Line 318: ;
+Line 321: ID = error
+Line 321: =
+Line 321: -
+Line 321: ID = ESRCH
+Line 321: ;
+Line 322: if
+Line 322: (
+Line 322: ID = niceval
+Line 322: <
+Line 322: -
+Line 322: INTCON = 20
+Line 322: )
+Line 323: ID = niceval
+Line 323: =
+Line 323: -
+Line 323: INTCON = 20
+Line 323: ;
+Line 324: if
+Line 324: (
+Line 324: ID = niceval
+Line 324: >
+Line 324: INTCON = 19
+Line 324: )
+Line 325: ID = niceval
+Line 325: =
+Line 325: INTCON = 19
+Line 325: ;
+Line 327: ID = read_lock
+Line 327: (
+Line 327: Unrecognized token: 38
+Line 327: ID = tasklist_lock
+Line 327: )
+Line 327: ;
+Line 328: ID = switch
+Line 328: (
+Line 328: ID = which
+Line 328: )
+Line 328: {
+Line 329: ID = case
+Line 329: ID = PRIO_PROCESS
+Line 329: Unrecognized token: 58
+Line 330: if
+Line 330: (
+Line 330: !
+Line 330: ID = who
+Line 330: )
+Line 331: ID = who
+Line 331: =
+Line 331: ID = current
+Line 331: -
+Line 331: >
+Line 331: ID = pid
+Line 331: ;
+Line 332: ID = p
+Line 332: =
+Line 332: ID = find_task_by_pid
+Line 332: (
+Line 332: ID = who
+Line 332: )
+Line 332: ;
+Line 333: if
+Line 333: (
+Line 333: ID = p
+Line 333: )
+Line 334: ID = error
+Line 334: =
+Line 334: ID = set_one_prio
+Line 334: (
+Line 334: ID = p
+Line 334: ,
+Line 334: ID = niceval
+Line 334: ,
+Line 334: ID = error
+Line 334: )
+Line 334: ;
+Line 335: ID = break
+Line 335: ;
+Line 336: ID = case
+Line 336: ID = PRIO_PGRP
+Line 336: Unrecognized token: 58
+Line 337: if
+Line 337: (
+Line 337: !
+Line 337: ID = who
+Line 337: )
+Line 338: ID = who
+Line 338: =
+Line 338: ID = process_group
+Line 338: (
+Line 338: ID = current
+Line 338: )
+Line 338: ;
+Line 339: ID = for_each_task_pid
+Line 339: (
+Line 339: ID = who
+Line 339: ,
+Line 339: ID = PIDTYPE_PGID
+Line 339: ,
+Line 339: ID = p
+Line 339: ,
+Line 339: ID = l
+Line 339: ,
+Line 339: ID = pid
+Line 339: )
+Line 340: ID = error
+Line 340: =
+Line 340: ID = set_one_prio
+Line 340: (
+Line 340: ID = p
+Line 340: ,
+Line 340: ID = niceval
+Line 340: ,
+Line 340: ID = error
+Line 340: )
+Line 340: ;
+Line 341: ID = break
+Line 341: ;
+Line 342: ID = case
+Line 342: ID = PRIO_USER
+Line 342: Unrecognized token: 58
+Line 343: if
+Line 343: (
+Line 343: !
+Line 343: ID = who
+Line 343: )
+Line 344: ID = user
+Line 344: =
+Line 344: ID = current
+Line 344: -
+Line 344: >
+Line 344: ID = user
+Line 344: ;
+Line 345: else
+Line 346: ID = user
+Line 346: =
+Line 346: ID = find_user
+Line 346: (
+Line 346: ID = who
+Line 346: )
+Line 346: ;
+Line 348: if
+Line 348: (
+Line 348: !
+Line 348: ID = user
+Line 348: )
+Line 349: ID = goto
+Line 349: ID = out_unlock
+Line 349: ;
+Line 351: ID = do_each_thread
+Line 351: (
+Line 351: ID = g
+Line 351: ,
+Line 351: ID = p
+Line 351: )
+Line 352: if
+Line 352: (
+Line 352: ID = p
+Line 352: -
+Line 352: >
+Line 352: ID = uid
+Line 352: ==
+Line 352: ID = who
+Line 352: )
+Line 353: ID = error
+Line 353: =
+Line 353: ID = set_one_prio
+Line 353: (
+Line 353: ID = p
+Line 353: ,
+Line 353: ID = niceval
+Line 353: ,
+Line 353: ID = error
+Line 353: )
+Line 353: ;
+Line 354: ID = while_each_thread
+Line 354: (
+Line 354: ID = g
+Line 354: ,
+Line 354: ID = p
+Line 354: )
+Line 354: ;
+Line 355: if
+Line 355: (
+Line 355: ID = who
+Line 355: )
+Line 356: ID = free_uid
+Line 356: (
+Line 356: ID = user
+Line 356: )
+Line 356: ;
+Line 357: ID = break
+Line 357: ;
+Line 358: }
+Line 359: ID = out_unlock
+Line 359: Unrecognized token: 58
+Line 360: ID = read_unlock
+Line 360: (
+Line 360: Unrecognized token: 38
+Line 360: ID = tasklist_lock
+Line 360: )
+Line 360: ;
+Line 361: ID = out
+Line 361: Unrecognized token: 58
+Line 362: return
+Line 362: ID = error
+Line 362: ;
+Line 363: }
+Line 371: ID = asmlinkage
+Line 371: ID = long
+Line 371: ID = sys_getpriority
+Line 371: (
+Line 371: int
+Line 371: ID = which
+Line 371: ,
+Line 371: int
+Line 371: ID = who
+Line 371: )
+Line 372: {
+Line 373: ID = struct
+Line 373: ID = task_struct
+Line 373: *
+Line 373: ID = g
+Line 373: ,
+Line 373: *
+Line 373: ID = p
+Line 373: ;
+Line 374: ID = struct
+Line 374: ID = list_head
+Line 374: *
+Line 374: ID = l
+Line 374: ;
+Line 375: ID = struct
+Line 375: ID = pid
+Line 375: *
+Line 375: ID = pid
+Line 375: ;
+Line 376: ID = struct
+Line 376: ID = user_struct
+Line 376: *
+Line 376: ID = user
+Line 376: ;
+Line 377: ID = long
+Line 377: ID = niceval
+Line 377: ,
+Line 377: ID = retval
+Line 377: =
+Line 377: -
+Line 377: ID = ESRCH
+Line 377: ;
+Line 379: if
+Line 379: (
+Line 379: ID = which
+Line 379: >
+Line 379: INTCON = 2
+Line 379: ||
+Line 379: ID = which
+Line 379: <
+Line 379: INTCON = 0
+Line 379: )
+Line 380: return
+Line 380: -
+Line 380: ID = EINVAL
+Line 380: ;
+Line 382: ID = read_lock
+Line 382: (
+Line 382: Unrecognized token: 38
+Line 382: ID = tasklist_lock
+Line 382: )
+Line 382: ;
+Line 383: ID = switch
+Line 383: (
+Line 383: ID = which
+Line 383: )
+Line 383: {
+Line 384: ID = case
+Line 384: ID = PRIO_PROCESS
+Line 384: Unrecognized token: 58
+Line 385: if
+Line 385: (
+Line 385: !
+Line 385: ID = who
+Line 385: )
+Line 386: ID = who
+Line 386: =
+Line 386: ID = current
+Line 386: -
+Line 386: >
+Line 386: ID = pid
+Line 386: ;
+Line 387: ID = p
+Line 387: =
+Line 387: ID = find_task_by_pid
+Line 387: (
+Line 387: ID = who
+Line 387: )
+Line 387: ;
+Line 388: if
+Line 388: (
+Line 388: ID = p
+Line 388: )
+Line 388: {
+Line 389: ID = niceval
+Line 389: =
+Line 389: INTCON = 20
+Line 389: -
+Line 389: ID = task_nice
+Line 389: (
+Line 389: ID = p
+Line 389: )
+Line 389: ;
+Line 390: if
+Line 390: (
+Line 390: ID = niceval
+Line 390: >
+Line 390: ID = retval
+Line 390: )
+Line 391: ID = retval
+Line 391: =
+Line 391: ID = niceval
+Line 391: ;
+Line 392: }
+Line 393: ID = break
+Line 393: ;
+Line 394: ID = case
+Line 394: ID = PRIO_PGRP
+Line 394: Unrecognized token: 58
+Line 395: if
+Line 395: (
+Line 395: !
+Line 395: ID = who
+Line 395: )
+Line 396: ID = who
+Line 396: =
+Line 396: ID = process_group
+Line 396: (
+Line 396: ID = current
+Line 396: )
+Line 396: ;
+Line 397: ID = for_each_task_pid
+Line 397: (
+Line 397: ID = who
+Line 397: ,
+Line 397: ID = PIDTYPE_PGID
+Line 397: ,
+Line 397: ID = p
+Line 397: ,
+Line 397: ID = l
+Line 397: ,
+Line 397: ID = pid
+Line 397: )
+Line 397: {
+Line 398: ID = niceval
+Line 398: =
+Line 398: INTCON = 20
+Line 398: -
+Line 398: ID = task_nice
+Line 398: (
+Line 398: ID = p
+Line 398: )
+Line 398: ;
+Line 399: if
+Line 399: (
+Line 399: ID = niceval
+Line 399: >
+Line 399: ID = retval
+Line 399: )
+Line 400: ID = retval
+Line 400: =
+Line 400: ID = niceval
+Line 400: ;
+Line 401: }
+Line 402: ID = break
+Line 402: ;
+Line 403: ID = case
+Line 403: ID = PRIO_USER
+Line 403: Unrecognized token: 58
+Line 404: if
+Line 404: (
+Line 404: !
+Line 404: ID = who
+Line 404: )
+Line 405: ID = user
+Line 405: =
+Line 405: ID = current
+Line 405: -
+Line 405: >
+Line 405: ID = user
+Line 405: ;
+Line 406: else
+Line 407: ID = user
+Line 407: =
+Line 407: ID = find_user
+Line 407: (
+Line 407: ID = who
+Line 407: )
+Line 407: ;
+Line 409: if
+Line 409: (
+Line 409: !
+Line 409: ID = user
+Line 409: )
+Line 410: ID = goto
+Line 410: ID = out_unlock
+Line 410: ;
+Line 412: ID = do_each_thread
+Line 412: (
+Line 412: ID = g
+Line 412: ,
+Line 412: ID = p
+Line 412: )
+Line 413: if
+Line 413: (
+Line 413: ID = p
+Line 413: -
+Line 413: >
+Line 413: ID = uid
+Line 413: ==
+Line 413: ID = who
+Line 413: )
+Line 413: {
+Line 414: ID = niceval
+Line 414: =
+Line 414: INTCON = 20
+Line 414: -
+Line 414: ID = task_nice
+Line 414: (
+Line 414: ID = p
+Line 414: )
+Line 414: ;
+Line 415: if
+Line 415: (
+Line 415: ID = niceval
+Line 415: >
+Line 415: ID = retval
+Line 415: )
+Line 416: ID = retval
+Line 416: =
+Line 416: ID = niceval
+Line 416: ;
+Line 417: }
+Line 418: ID = while_each_thread
+Line 418: (
+Line 418: ID = g
+Line 418: ,
+Line 418: ID = p
+Line 418: )
+Line 418: ;
+Line 419: if
+Line 419: (
+Line 419: ID = who
+Line 419: )
+Line 420: ID = free_uid
+Line 420: (
+Line 420: ID = user
+Line 420: )
+Line 420: ;
+Line 421: ID = break
+Line 421: ;
+Line 422: }
+Line 423: ID = out_unlock
+Line 423: Unrecognized token: 58
+Line 424: ID = read_unlock
+Line 424: (
+Line 424: Unrecognized token: 38
+Line 424: ID = tasklist_lock
+Line 424: )
+Line 424: ;
+Line 426: return
+Line 426: ID = retval
+Line 426: ;
+Line 427: }
+Line 438: ID = asmlinkage
+Line 438: ID = long
+Line 438: ID = sys_reboot
+Line 438: (
+Line 438: int
+Line 438: ID = magic1
+Line 438: ,
+Line 438: int
+Line 438: ID = magic2
+Line 438: ,
+Line 438: ID = unsigned
+Line 438: int
+Line 438: ID = cmd
+Line 438: ,
+Line 438: void
+Line 438: Unrecognized token: 95
+Line 438: Unrecognized token: 95
+Line 438: ID = user
+Line 438: *
+Line 438: ID = arg
+Line 438: )
+Line 439: {
+Line 440: char
+Line 440: ID = buffer
+Line 440: [
+Line 440: INTCON = 256
+Line 440: ]
+Line 440: ;
+Line 443: if
+Line 443: (
+Line 443: !
+Line 443: ID = capable
+Line 443: (
+Line 443: ID = CAP_SYS_BOOT
+Line 443: )
+Line 443: )
+Line 444: return
+Line 444: -
+Line 444: ID = EPERM
+Line 444: ;
+Line 447: if
+Line 447: (
+Line 447: ID = magic1
+Line 447: !=
+Line 447: ID = LINUX_REBOOT_MAGIC1
+Line 447: ||
+Line 448: (
+Line 448: ID = magic2
+Line 448: !=
+Line 448: ID = LINUX_REBOOT_MAGIC2
+Line 448: &&
+Line 449: ID = magic2
+Line 449: !=
+Line 449: ID = LINUX_REBOOT_MAGIC2A
+Line 449: &&
+Line 450: ID = magic2
+Line 450: !=
+Line 450: ID = LINUX_REBOOT_MAGIC2B
+Line 450: &&
+Line 451: ID = magic2
+Line 451: !=
+Line 451: ID = LINUX_REBOOT_MAGIC2C
+Line 451: )
+Line 451: )
+Line 452: return
+Line 452: -
+Line 452: ID = EINVAL
+Line 452: ;
+Line 454: ID = lock_kernel
+Line 454: (
+Line 454: )
+Line 454: ;
+Line 455: ID = switch
+Line 455: (
+Line 455: ID = cmd
+Line 455: )
+Line 455: {
+Line 456: ID = case
+Line 456: ID = LINUX_REBOOT_CMD_RESTART
+Line 456: Unrecognized token: 58
+Line 457: ID = notifier_call_chain
+Line 457: (
+Line 457: Unrecognized token: 38
+Line 457: ID = reboot_notifier_list
+Line 457: ,
+Line 457: ID = SYS_RESTART
+Line 457: ,
+Line 457: ID = NULL
+Line 457: )
+Line 457: ;
+Line 458: ID = system_state
+Line 458: =
+Line 458: ID = SYSTEM_RESTART
+Line 458: ;
+Line 459: ID = device_shutdown
+Line 459: (
+Line 459: )
+Line 459: ;
+Line 460: ID = printk
+Line 460: (
+Line 460: ID = KERN_EMERG
+Line 460: STRINGCON = "Restarting system.\n"
+Line 460: )
+Line 460: ;
+Line 461: ID = machine_restart
+Line 461: (
+Line 461: ID = NULL
+Line 461: )
+Line 461: ;
+Line 462: ID = break
+Line 462: ;
+Line 464: ID = case
+Line 464: ID = LINUX_REBOOT_CMD_CAD_ON
+Line 464: Unrecognized token: 58
+Line 465: ID = C_A_D
+Line 465: =
+Line 465: INTCON = 1
+Line 465: ;
+Line 466: ID = break
+Line 466: ;
+Line 468: ID = case
+Line 468: ID = LINUX_REBOOT_CMD_CAD_OFF
+Line 468: Unrecognized token: 58
+Line 469: ID = C_A_D
+Line 469: =
+Line 469: INTCON = 0
+Line 469: ;
+Line 470: ID = break
+Line 470: ;
+Line 472: ID = case
+Line 472: ID = LINUX_REBOOT_CMD_HALT
+Line 472: Unrecognized token: 58
+Line 473: ID = notifier_call_chain
+Line 473: (
+Line 473: Unrecognized token: 38
+Line 473: ID = reboot_notifier_list
+Line 473: ,
+Line 473: ID = SYS_HALT
+Line 473: ,
+Line 473: ID = NULL
+Line 473: )
+Line 473: ;
+Line 474: ID = system_state
+Line 474: =
+Line 474: ID = SYSTEM_HALT
+Line 474: ;
+Line 475: ID = device_shutdown
+Line 475: (
+Line 475: )
+Line 475: ;
+Line 476: ID = printk
+Line 476: (
+Line 476: ID = KERN_EMERG
+Line 476: STRINGCON = "System halted.\n"
+Line 476: )
+Line 476: ;
+Line 477: ID = machine_halt
+Line 477: (
+Line 477: )
+Line 477: ;
+Line 478: ID = unlock_kernel
+Line 478: (
+Line 478: )
+Line 478: ;
+Line 479: ID = do_exit
+Line 479: (
+Line 479: INTCON = 0
+Line 479: )
+Line 479: ;
+Line 480: ID = break
+Line 480: ;
+Line 482: ID = case
+Line 482: ID = LINUX_REBOOT_CMD_POWER_OFF
+Line 482: Unrecognized token: 58
+Line 483: ID = notifier_call_chain
+Line 483: (
+Line 483: Unrecognized token: 38
+Line 483: ID = reboot_notifier_list
+Line 483: ,
+Line 483: ID = SYS_POWER_OFF
+Line 483: ,
+Line 483: ID = NULL
+Line 483: )
+Line 483: ;
+Line 484: ID = system_state
+Line 484: =
+Line 484: ID = SYSTEM_POWER_OFF
+Line 484: ;
+Line 485: ID = device_shutdown
+Line 485: (
+Line 485: )
+Line 485: ;
+Line 486: ID = printk
+Line 486: (
+Line 486: ID = KERN_EMERG
+Line 486: STRINGCON = "Power down.\n"
+Line 486: )
+Line 486: ;
+Line 487: ID = machine_power_off
+Line 487: (
+Line 487: )
+Line 487: ;
+Line 488: ID = unlock_kernel
+Line 488: (
+Line 488: )
+Line 488: ;
+Line 489: ID = do_exit
+Line 489: (
+Line 489: INTCON = 0
+Line 489: )
+Line 489: ;
+Line 490: ID = break
+Line 490: ;
+Line 492: ID = case
+Line 492: ID = LINUX_REBOOT_CMD_RESTART2
+Line 492: Unrecognized token: 58
+Line 493: if
+Line 493: (
+Line 493: ID = strncpy_from_user
+Line 493: (
+Line 493: Unrecognized token: 38
+Line 493: ID = buffer
+Line 493: [
+Line 493: INTCON = 0
+Line 493: ]
+Line 493: ,
+Line 493: ID = arg
+Line 493: ,
+Line 493: ID = sizeof
+Line 493: (
+Line 493: ID = buffer
+Line 493: )
+Line 493: -
+Line 493: INTCON = 1
+Line 493: )
+Line 493: <
+Line 493: INTCON = 0
+Line 493: )
+Line 493: {
+Line 494: ID = unlock_kernel
+Line 494: (
+Line 494: )
+Line 494: ;
+Line 495: return
+Line 495: -
+Line 495: ID = EFAULT
+Line 495: ;
+Line 496: }
+Line 497: ID = buffer
+Line 497: [
+Line 497: ID = sizeof
+Line 497: (
+Line 497: ID = buffer
+Line 497: )
+Line 497: -
+Line 497: INTCON = 1
+Line 497: ]
+Line 497: =
+Line 497: CHARCON = '\0'
+Line 497: ;
+Line 499: ID = notifier_call_chain
+Line 499: (
+Line 499: Unrecognized token: 38
+Line 499: ID = reboot_notifier_list
+Line 499: ,
+Line 499: ID = SYS_RESTART
+Line 499: ,
+Line 499: ID = buffer
+Line 499: )
+Line 499: ;
+Line 500: ID = system_state
+Line 500: =
+Line 500: ID = SYSTEM_RESTART
+Line 500: ;
+Line 501: ID = device_shutdown
+Line 501: (
+Line 501: )
+Line 501: ;
+Line 502: ID = printk
+Line 502: (
+Line 502: ID = KERN_EMERG
+Line 502: STRINGCON = "Restarting system with command '%s'.\n"
+Line 502: ,
+Line 502: ID = buffer
+Line 502: )
+Line 502: ;
+Line 503: ID = machine_restart
+Line 503: (
+Line 503: ID = buffer
+Line 503: )
+Line 503: ;
+Line 504: ID = break
+Line 504: ;
+Line 506: Unrecognized token: 35
+Line 506: ID = ifdef
+Line 506: ID = CONFIG_SOFTWARE_SUSPEND
+Line 507: ID = case
+Line 507: ID = LINUX_REBOOT_CMD_SW_SUSPEND
+Line 507: Unrecognized token: 58
+Line 508: {
+Line 509: int
+Line 509: ID = ret
+Line 509: =
+Line 509: ID = software_suspend
+Line 509: (
+Line 509: )
+Line 509: ;
+Line 510: ID = unlock_kernel
+Line 510: (
+Line 510: )
+Line 510: ;
+Line 511: return
+Line 511: ID = ret
+Line 511: ;
+Line 512: }
+Line 513: Unrecognized token: 35
+Line 513: ID = endif
+Line 515: ID = default
+Line 515: Unrecognized token: 58
+Line 516: ID = unlock_kernel
+Line 516: (
+Line 516: )
+Line 516: ;
+Line 517: return
+Line 517: -
+Line 517: ID = EINVAL
+Line 517: ;
+Line 518: }
+Line 519: ID = unlock_kernel
+Line 519: (
+Line 519: )
+Line 519: ;
+Line 520: return
+Line 520: INTCON = 0
+Line 520: ;
+Line 521: }
+Line 523: ID = static
+Line 523: void
+Line 523: ID = deferred_cad
+Line 523: (
+Line 523: void
+Line 523: *
+Line 523: ID = dummy
+Line 523: )
+Line 524: {
+Line 525: ID = notifier_call_chain
+Line 525: (
+Line 525: Unrecognized token: 38
+Line 525: ID = reboot_notifier_list
+Line 525: ,
+Line 525: ID = SYS_RESTART
+Line 525: ,
+Line 525: ID = NULL
+Line 525: )
+Line 525: ;
+Line 526: ID = machine_restart
+Line 526: (
+Line 526: ID = NULL
+Line 526: )
+Line 526: ;
+Line 527: }
+Line 534: void
+Line 534: ID = ctrl_alt_del
+Line 534: (
+Line 534: void
+Line 534: )
+Line 535: {
+Line 536: ID = static
+Line 536: ID = DECLARE_WORK
+Line 536: (
+Line 536: ID = cad_work
+Line 536: ,
+Line 536: ID = deferred_cad
+Line 536: ,
+Line 536: ID = NULL
+Line 536: )
+Line 536: ;
+Line 538: if
+Line 538: (
+Line 538: ID = C_A_D
+Line 538: )
+Line 539: ID = schedule_work
+Line 539: (
+Line 539: Unrecognized token: 38
+Line 539: ID = cad_work
+Line 539: )
+Line 539: ;
+Line 540: else
+Line 541: ID = kill_proc
+Line 541: (
+Line 541: ID = cad_pid
+Line 541: ,
+Line 541: ID = SIGINT
+Line 541: ,
+Line 541: INTCON = 1
+Line 541: )
+Line 541: ;
+Line 542: }
+Line 563: ID = asmlinkage
+Line 563: ID = long
+Line 563: ID = sys_setregid
+Line 563: (
+Line 563: ID = gid_t
+Line 563: ID = rgid
+Line 563: ,
+Line 563: ID = gid_t
+Line 563: ID = egid
+Line 563: )
+Line 564: {
+Line 565: int
+Line 565: ID = old_rgid
+Line 565: =
+Line 565: ID = current
+Line 565: -
+Line 565: >
+Line 565: ID = gid
+Line 565: ;
+Line 566: int
+Line 566: ID = old_egid
+Line 566: =
+Line 566: ID = current
+Line 566: -
+Line 566: >
+Line 566: ID = egid
+Line 566: ;
+Line 567: int
+Line 567: ID = new_rgid
+Line 567: =
+Line 567: ID = old_rgid
+Line 567: ;
+Line 568: int
+Line 568: ID = new_egid
+Line 568: =
+Line 568: ID = old_egid
+Line 568: ;
+Line 569: int
+Line 569: ID = retval
+Line 569: ;
+Line 571: ID = retval
+Line 571: =
+Line 571: ID = security_task_setgid
+Line 571: (
+Line 571: ID = rgid
+Line 571: ,
+Line 571: ID = egid
+Line 571: ,
+Line 571: (
+Line 571: ID = gid_t
+Line 571: )
+Line 571: -
+Line 571: INTCON = 1
+Line 571: ,
+Line 571: ID = LSM_SETID_RE
+Line 571: )
+Line 571: ;
+Line 572: if
+Line 572: (
+Line 572: ID = retval
+Line 572: )
+Line 573: return
+Line 573: ID = retval
+Line 573: ;
+Line 575: if
+Line 575: (
+Line 575: ID = rgid
+Line 575: !=
+Line 575: (
+Line 575: ID = gid_t
+Line 575: )
+Line 575: -
+Line 575: INTCON = 1
+Line 575: )
+Line 575: {
+Line 576: if
+Line 576: (
+Line 576: (
+Line 576: ID = old_rgid
+Line 576: ==
+Line 576: ID = rgid
+Line 576: )
+Line 576: ||
+Line 577: (
+Line 577: ID = current
+Line 577: -
+Line 577: >
+Line 577: ID = egid
+Line 577: ==
+Line 577: ID = rgid
+Line 577: )
+Line 577: ||
+Line 578: ID = capable
+Line 578: (
+Line 578: ID = CAP_SETGID
+Line 578: )
+Line 578: )
+Line 579: ID = new_rgid
+Line 579: =
+Line 579: ID = rgid
+Line 579: ;
+Line 580: else
+Line 581: return
+Line 581: -
+Line 581: ID = EPERM
+Line 581: ;
+Line 582: }
+Line 583: if
+Line 583: (
+Line 583: ID = egid
+Line 583: !=
+Line 583: (
+Line 583: ID = gid_t
+Line 583: )
+Line 583: -
+Line 583: INTCON = 1
+Line 583: )
+Line 583: {
+Line 584: if
+Line 584: (
+Line 584: (
+Line 584: ID = old_rgid
+Line 584: ==
+Line 584: ID = egid
+Line 584: )
+Line 584: ||
+Line 585: (
+Line 585: ID = current
+Line 585: -
+Line 585: >
+Line 585: ID = egid
+Line 585: ==
+Line 585: ID = egid
+Line 585: )
+Line 585: ||
+Line 586: (
+Line 586: ID = current
+Line 586: -
+Line 586: >
+Line 586: ID = sgid
+Line 586: ==
+Line 586: ID = egid
+Line 586: )
+Line 586: ||
+Line 587: ID = capable
+Line 587: (
+Line 587: ID = CAP_SETGID
+Line 587: )
+Line 587: )
+Line 588: ID = new_egid
+Line 588: =
+Line 588: ID = egid
+Line 588: ;
+Line 589: else
+Line 589: {
+Line 590: return
+Line 590: -
+Line 590: ID = EPERM
+Line 590: ;
+Line 591: }
+Line 592: }
+Line 593: if
+Line 593: (
+Line 593: ID = new_egid
+Line 593: !=
+Line 593: ID = old_egid
+Line 593: )
+Line 594: {
+Line 595: ID = current
+Line 595: -
+Line 595: >
+Line 595: ID = mm
+Line 595: -
+Line 595: >
+Line 595: ID = dumpable
+Line 595: =
+Line 595: INTCON = 0
+Line 595: ;
+Line 596: ID = wmb
+Line 596: (
+Line 596: )
+Line 596: ;
+Line 597: }
+Line 598: if
+Line 598: (
+Line 598: ID = rgid
+Line 598: !=
+Line 598: (
+Line 598: ID = gid_t
+Line 598: )
+Line 598: -
+Line 598: INTCON = 1
+Line 598: ||
+Line 599: (
+Line 599: ID = egid
+Line 599: !=
+Line 599: (
+Line 599: ID = gid_t
+Line 599: )
+Line 599: -
+Line 599: INTCON = 1
+Line 599: &&
+Line 599: ID = egid
+Line 599: !=
+Line 599: ID = old_rgid
+Line 599: )
+Line 599: )
+Line 600: ID = current
+Line 600: -
+Line 600: >
+Line 600: ID = sgid
+Line 600: =
+Line 600: ID = new_egid
+Line 600: ;
+Line 601: ID = current
+Line 601: -
+Line 601: >
+Line 601: ID = fsgid
+Line 601: =
+Line 601: ID = new_egid
+Line 601: ;
+Line 602: ID = current
+Line 602: -
+Line 602: >
+Line 602: ID = egid
+Line 602: =
+Line 602: ID = new_egid
+Line 602: ;
+Line 603: ID = current
+Line 603: -
+Line 603: >
+Line 603: ID = gid
+Line 603: =
+Line 603: ID = new_rgid
+Line 603: ;
+Line 604: return
+Line 604: INTCON = 0
+Line 604: ;
+Line 605: }
+Line 612: ID = asmlinkage
+Line 612: ID = long
+Line 612: ID = sys_setgid
+Line 612: (
+Line 612: ID = gid_t
+Line 612: ID = gid
+Line 612: )
+Line 613: {
+Line 614: int
+Line 614: ID = old_egid
+Line 614: =
+Line 614: ID = current
+Line 614: -
+Line 614: >
+Line 614: ID = egid
+Line 614: ;
+Line 615: int
+Line 615: ID = retval
+Line 615: ;
+Line 617: ID = retval
+Line 617: =
+Line 617: ID = security_task_setgid
+Line 617: (
+Line 617: ID = gid
+Line 617: ,
+Line 617: (
+Line 617: ID = gid_t
+Line 617: )
+Line 617: -
+Line 617: INTCON = 1
+Line 617: ,
+Line 617: (
+Line 617: ID = gid_t
+Line 617: )
+Line 617: -
+Line 617: INTCON = 1
+Line 617: ,
+Line 617: ID = LSM_SETID_ID
+Line 617: )
+Line 617: ;
+Line 618: if
+Line 618: (
+Line 618: ID = retval
+Line 618: )
+Line 619: return
+Line 619: ID = retval
+Line 619: ;
+Line 621: if
+Line 621: (
+Line 621: ID = capable
+Line 621: (
+Line 621: ID = CAP_SETGID
+Line 621: )
+Line 621: )
+Line 622: {
+Line 623: if
+Line 623: (
+Line 623: ID = old_egid
+Line 623: !=
+Line 623: ID = gid
+Line 623: )
+Line 624: {
+Line 625: ID = current
+Line 625: -
+Line 625: >
+Line 625: ID = mm
+Line 625: -
+Line 625: >
+Line 625: ID = dumpable
+Line 625: =
+Line 625: INTCON = 0
+Line 625: ;
+Line 626: ID = wmb
+Line 626: (
+Line 626: )
+Line 626: ;
+Line 627: }
+Line 628: ID = current
+Line 628: -
+Line 628: >
+Line 628: ID = gid
+Line 628: =
+Line 628: ID = current
+Line 628: -
+Line 628: >
+Line 628: ID = egid
+Line 628: =
+Line 628: ID = current
+Line 628: -
+Line 628: >
+Line 628: ID = sgid
+Line 628: =
+Line 628: ID = current
+Line 628: -
+Line 628: >
+Line 628: ID = fsgid
+Line 628: =
+Line 628: ID = gid
+Line 628: ;
+Line 629: }
+Line 630: else
+Line 630: if
+Line 630: (
+Line 630: (
+Line 630: ID = gid
+Line 630: ==
+Line 630: ID = current
+Line 630: -
+Line 630: >
+Line 630: ID = gid
+Line 630: )
+Line 630: ||
+Line 630: (
+Line 630: ID = gid
+Line 630: ==
+Line 630: ID = current
+Line 630: -
+Line 630: >
+Line 630: ID = sgid
+Line 630: )
+Line 630: )
+Line 631: {
+Line 632: if
+Line 632: (
+Line 632: ID = old_egid
+Line 632: !=
+Line 632: ID = gid
+Line 632: )
+Line 633: {
+Line 634: ID = current
+Line 634: -
+Line 634: >
+Line 634: ID = mm
+Line 634: -
+Line 634: >
+Line 634: ID = dumpable
+Line 634: =
+Line 634: INTCON = 0
+Line 634: ;
+Line 635: ID = wmb
+Line 635: (
+Line 635: )
+Line 635: ;
+Line 636: }
+Line 637: ID = current
+Line 637: -
+Line 637: >
+Line 637: ID = egid
+Line 637: =
+Line 637: ID = current
+Line 637: -
+Line 637: >
+Line 637: ID = fsgid
+Line 637: =
+Line 637: ID = gid
+Line 637: ;
+Line 638: }
+Line 639: else
+Line 640: return
+Line 640: -
+Line 640: ID = EPERM
+Line 640: ;
+Line 641: return
+Line 641: INTCON = 0
+Line 641: ;
+Line 642: }
+Line 644: ID = static
+Line 644: int
+Line 644: ID = set_user
+Line 644: (
+Line 644: ID = uid_t
+Line 644: ID = new_ruid
+Line 644: ,
+Line 644: int
+Line 644: ID = dumpclear
+Line 644: )
+Line 645: {
+Line 646: ID = struct
+Line 646: ID = user_struct
+Line 646: *
+Line 646: ID = new_user
+Line 646: ;
+Line 648: ID = new_user
+Line 648: =
+Line 648: ID = alloc_uid
+Line 648: (
+Line 648: ID = new_ruid
+Line 648: )
+Line 648: ;
+Line 649: if
+Line 649: (
+Line 649: !
+Line 649: ID = new_user
+Line 649: )
+Line 650: return
+Line 650: -
+Line 650: ID = EAGAIN
+Line 650: ;
+Line 652: if
+Line 652: (
+Line 652: ID = atomic_read
+Line 652: (
+Line 652: Unrecognized token: 38
+Line 652: ID = new_user
+Line 652: -
+Line 652: >
+Line 652: ID = processes
+Line 652: )
+Line 652: >=
+Line 653: ID = current
+Line 653: -
+Line 653: >
+Line 653: ID = rlim
+Line 653: [
+Line 653: ID = RLIMIT_NPROC
+Line 653: ]
+Line 653: Unrecognized token: 46
+Line 653: ID = rlim_cur
+Line 653: &&
+Line 654: ID = new_user
+Line 654: !=
+Line 654: Unrecognized token: 38
+Line 654: ID = root_user
+Line 654: )
+Line 654: {
+Line 655: ID = free_uid
+Line 655: (
+Line 655: ID = new_user
+Line 655: )
+Line 655: ;
+Line 656: return
+Line 656: -
+Line 656: ID = EAGAIN
+Line 656: ;
+Line 657: }
+Line 659: ID = switch_uid
+Line 659: (
+Line 659: ID = new_user
+Line 659: )
+Line 659: ;
+Line 661: if
+Line 661: (
+Line 661: ID = dumpclear
+Line 661: )
+Line 662: {
+Line 663: ID = current
+Line 663: -
+Line 663: >
+Line 663: ID = mm
+Line 663: -
+Line 663: >
+Line 663: ID = dumpable
+Line 663: =
+Line 663: INTCON = 0
+Line 663: ;
+Line 664: ID = wmb
+Line 664: (
+Line 664: )
+Line 664: ;
+Line 665: }
+Line 666: ID = current
+Line 666: -
+Line 666: >
+Line 666: ID = uid
+Line 666: =
+Line 666: ID = new_ruid
+Line 666: ;
+Line 667: return
+Line 667: INTCON = 0
+Line 667: ;
+Line 668: }
+Line 685: ID = asmlinkage
+Line 685: ID = long
+Line 685: ID = sys_setreuid
+Line 685: (
+Line 685: ID = uid_t
+Line 685: ID = ruid
+Line 685: ,
+Line 685: ID = uid_t
+Line 685: ID = euid
+Line 685: )
+Line 686: {
+Line 687: int
+Line 687: ID = old_ruid
+Line 687: ,
+Line 687: ID = old_euid
+Line 687: ,
+Line 687: ID = old_suid
+Line 687: ,
+Line 687: ID = new_ruid
+Line 687: ,
+Line 687: ID = new_euid
+Line 687: ;
+Line 688: int
+Line 688: ID = retval
+Line 688: ;
+Line 690: ID = retval
+Line 690: =
+Line 690: ID = security_task_setuid
+Line 690: (
+Line 690: ID = ruid
+Line 690: ,
+Line 690: ID = euid
+Line 690: ,
+Line 690: (
+Line 690: ID = uid_t
+Line 690: )
+Line 690: -
+Line 690: INTCON = 1
+Line 690: ,
+Line 690: ID = LSM_SETID_RE
+Line 690: )
+Line 690: ;
+Line 691: if
+Line 691: (
+Line 691: ID = retval
+Line 691: )
+Line 692: return
+Line 692: ID = retval
+Line 692: ;
+Line 694: ID = new_ruid
+Line 694: =
+Line 694: ID = old_ruid
+Line 694: =
+Line 694: ID = current
+Line 694: -
+Line 694: >
+Line 694: ID = uid
+Line 694: ;
+Line 695: ID = new_euid
+Line 695: =
+Line 695: ID = old_euid
+Line 695: =
+Line 695: ID = current
+Line 695: -
+Line 695: >
+Line 695: ID = euid
+Line 695: ;
+Line 696: ID = old_suid
+Line 696: =
+Line 696: ID = current
+Line 696: -
+Line 696: >
+Line 696: ID = suid
+Line 696: ;
+Line 698: if
+Line 698: (
+Line 698: ID = ruid
+Line 698: !=
+Line 698: (
+Line 698: ID = uid_t
+Line 698: )
+Line 698: -
+Line 698: INTCON = 1
+Line 698: )
+Line 698: {
+Line 699: ID = new_ruid
+Line 699: =
+Line 699: ID = ruid
+Line 699: ;
+Line 700: if
+Line 700: (
+Line 700: (
+Line 700: ID = old_ruid
+Line 700: !=
+Line 700: ID = ruid
+Line 700: )
+Line 700: &&
+Line 701: (
+Line 701: ID = current
+Line 701: -
+Line 701: >
+Line 701: ID = euid
+Line 701: !=
+Line 701: ID = ruid
+Line 701: )
+Line 701: &&
+Line 702: !
+Line 702: ID = capable
+Line 702: (
+Line 702: ID = CAP_SETUID
+Line 702: )
+Line 702: )
+Line 703: return
+Line 703: -
+Line 703: ID = EPERM
+Line 703: ;
+Line 704: }
+Line 706: if
+Line 706: (
+Line 706: ID = euid
+Line 706: !=
+Line 706: (
+Line 706: ID = uid_t
+Line 706: )
+Line 706: -
+Line 706: INTCON = 1
+Line 706: )
+Line 706: {
+Line 707: ID = new_euid
+Line 707: =
+Line 707: ID = euid
+Line 707: ;
+Line 708: if
+Line 708: (
+Line 708: (
+Line 708: ID = old_ruid
+Line 708: !=
+Line 708: ID = euid
+Line 708: )
+Line 708: &&
+Line 709: (
+Line 709: ID = current
+Line 709: -
+Line 709: >
+Line 709: ID = euid
+Line 709: !=
+Line 709: ID = euid
+Line 709: )
+Line 709: &&
+Line 710: (
+Line 710: ID = current
+Line 710: -
+Line 710: >
+Line 710: ID = suid
+Line 710: !=
+Line 710: ID = euid
+Line 710: )
+Line 710: &&
+Line 711: !
+Line 711: ID = capable
+Line 711: (
+Line 711: ID = CAP_SETUID
+Line 711: )
+Line 711: )
+Line 712: return
+Line 712: -
+Line 712: ID = EPERM
+Line 712: ;
+Line 713: }
+Line 715: if
+Line 715: (
+Line 715: ID = new_ruid
+Line 715: !=
+Line 715: ID = old_ruid
+Line 715: &&
+Line 715: ID = set_user
+Line 715: (
+Line 715: ID = new_ruid
+Line 715: ,
+Line 715: ID = new_euid
+Line 715: !=
+Line 715: ID = old_euid
+Line 715: )
+Line 715: <
+Line 715: INTCON = 0
+Line 715: )
+Line 716: return
+Line 716: -
+Line 716: ID = EAGAIN
+Line 716: ;
+Line 718: if
+Line 718: (
+Line 718: ID = new_euid
+Line 718: !=
+Line 718: ID = old_euid
+Line 718: )
+Line 719: {
+Line 720: ID = current
+Line 720: -
+Line 720: >
+Line 720: ID = mm
+Line 720: -
+Line 720: >
+Line 720: ID = dumpable
+Line 720: =
+Line 720: INTCON = 0
+Line 720: ;
+Line 721: ID = wmb
+Line 721: (
+Line 721: )
+Line 721: ;
+Line 722: }
+Line 723: ID = current
+Line 723: -
+Line 723: >
+Line 723: ID = fsuid
+Line 723: =
+Line 723: ID = current
+Line 723: -
+Line 723: >
+Line 723: ID = euid
+Line 723: =
+Line 723: ID = new_euid
+Line 723: ;
+Line 724: if
+Line 724: (
+Line 724: ID = ruid
+Line 724: !=
+Line 724: (
+Line 724: ID = uid_t
+Line 724: )
+Line 724: -
+Line 724: INTCON = 1
+Line 724: ||
+Line 725: (
+Line 725: ID = euid
+Line 725: !=
+Line 725: (
+Line 725: ID = uid_t
+Line 725: )
+Line 725: -
+Line 725: INTCON = 1
+Line 725: &&
+Line 725: ID = euid
+Line 725: !=
+Line 725: ID = old_ruid
+Line 725: )
+Line 725: )
+Line 726: ID = current
+Line 726: -
+Line 726: >
+Line 726: ID = suid
+Line 726: =
+Line 726: ID = current
+Line 726: -
+Line 726: >
+Line 726: ID = euid
+Line 726: ;
+Line 727: ID = current
+Line 727: -
+Line 727: >
+Line 727: ID = fsuid
+Line 727: =
+Line 727: ID = current
+Line 727: -
+Line 727: >
+Line 727: ID = euid
+Line 727: ;
+Line 729: return
+Line 729: ID = security_task_post_setuid
+Line 729: (
+Line 729: ID = old_ruid
+Line 729: ,
+Line 729: ID = old_euid
+Line 729: ,
+Line 729: ID = old_suid
+Line 729: ,
+Line 729: ID = LSM_SETID_RE
+Line 729: )
+Line 729: ;
+Line 730: }
+Line 745: ID = asmlinkage
+Line 745: ID = long
+Line 745: ID = sys_setuid
+Line 745: (
+Line 745: ID = uid_t
+Line 745: ID = uid
+Line 745: )
+Line 746: {
+Line 747: int
+Line 747: ID = old_euid
+Line 747: =
+Line 747: ID = current
+Line 747: -
+Line 747: >
+Line 747: ID = euid
+Line 747: ;
+Line 748: int
+Line 748: ID = old_ruid
+Line 748: ,
+Line 748: ID = old_suid
+Line 748: ,
+Line 748: ID = new_ruid
+Line 748: ,
+Line 748: ID = new_suid
+Line 748: ;
+Line 749: int
+Line 749: ID = retval
+Line 749: ;
+Line 751: ID = retval
+Line 751: =
+Line 751: ID = security_task_setuid
+Line 751: (
+Line 751: ID = uid
+Line 751: ,
+Line 751: (
+Line 751: ID = uid_t
+Line 751: )
+Line 751: -
+Line 751: INTCON = 1
+Line 751: ,
+Line 751: (
+Line 751: ID = uid_t
+Line 751: )
+Line 751: -
+Line 751: INTCON = 1
+Line 751: ,
+Line 751: ID = LSM_SETID_ID
+Line 751: )
+Line 751: ;
+Line 752: if
+Line 752: (
+Line 752: ID = retval
+Line 752: )
+Line 753: return
+Line 753: ID = retval
+Line 753: ;
+Line 755: ID = old_ruid
+Line 755: =
+Line 755: ID = new_ruid
+Line 755: =
+Line 755: ID = current
+Line 755: -
+Line 755: >
+Line 755: ID = uid
+Line 755: ;
+Line 756: ID = old_suid
+Line 756: =
+Line 756: ID = current
+Line 756: -
+Line 756: >
+Line 756: ID = suid
+Line 756: ;
+Line 757: ID = new_suid
+Line 757: =
+Line 757: ID = old_suid
+Line 757: ;
+Line 759: if
+Line 759: (
+Line 759: ID = capable
+Line 759: (
+Line 759: ID = CAP_SETUID
+Line 759: )
+Line 759: )
+Line 759: {
+Line 760: if
+Line 760: (
+Line 760: ID = uid
+Line 760: !=
+Line 760: ID = old_ruid
+Line 760: &&
+Line 760: ID = set_user
+Line 760: (
+Line 760: ID = uid
+Line 760: ,
+Line 760: ID = old_euid
+Line 760: !=
+Line 760: ID = uid
+Line 760: )
+Line 760: <
+Line 760: INTCON = 0
+Line 760: )
+Line 761: return
+Line 761: -
+Line 761: ID = EAGAIN
+Line 761: ;
+Line 762: ID = new_suid
+Line 762: =
+Line 762: ID = uid
+Line 762: ;
+Line 763: }
+Line 763: else
+Line 763: if
+Line 763: (
+Line 763: (
+Line 763: ID = uid
+Line 763: !=
+Line 763: ID = current
+Line 763: -
+Line 763: >
+Line 763: ID = uid
+Line 763: )
+Line 763: &&
+Line 763: (
+Line 763: ID = uid
+Line 763: !=
+Line 763: ID = new_suid
+Line 763: )
+Line 763: )
+Line 764: return
+Line 764: -
+Line 764: ID = EPERM
+Line 764: ;
+Line 766: if
+Line 766: (
+Line 766: ID = old_euid
+Line 766: !=
+Line 766: ID = uid
+Line 766: )
+Line 767: {
+Line 768: ID = current
+Line 768: -
+Line 768: >
+Line 768: ID = mm
+Line 768: -
+Line 768: >
+Line 768: ID = dumpable
+Line 768: =
+Line 768: INTCON = 0
+Line 768: ;
+Line 769: ID = wmb
+Line 769: (
+Line 769: )
+Line 769: ;
+Line 770: }
+Line 771: ID = current
+Line 771: -
+Line 771: >
+Line 771: ID = fsuid
+Line 771: =
+Line 771: ID = current
+Line 771: -
+Line 771: >
+Line 771: ID = euid
+Line 771: =
+Line 771: ID = uid
+Line 771: ;
+Line 772: ID = current
+Line 772: -
+Line 772: >
+Line 772: ID = suid
+Line 772: =
+Line 772: ID = new_suid
+Line 772: ;
+Line 774: return
+Line 774: ID = security_task_post_setuid
+Line 774: (
+Line 774: ID = old_ruid
+Line 774: ,
+Line 774: ID = old_euid
+Line 774: ,
+Line 774: ID = old_suid
+Line 774: ,
+Line 774: ID = LSM_SETID_ID
+Line 774: )
+Line 774: ;
+Line 775: }
+Line 782: ID = asmlinkage
+Line 782: ID = long
+Line 782: ID = sys_setresuid
+Line 782: (
+Line 782: ID = uid_t
+Line 782: ID = ruid
+Line 782: ,
+Line 782: ID = uid_t
+Line 782: ID = euid
+Line 782: ,
+Line 782: ID = uid_t
+Line 782: ID = suid
+Line 782: )
+Line 783: {
+Line 784: int
+Line 784: ID = old_ruid
+Line 784: =
+Line 784: ID = current
+Line 784: -
+Line 784: >
+Line 784: ID = uid
+Line 784: ;
+Line 785: int
+Line 785: ID = old_euid
+Line 785: =
+Line 785: ID = current
+Line 785: -
+Line 785: >
+Line 785: ID = euid
+Line 785: ;
+Line 786: int
+Line 786: ID = old_suid
+Line 786: =
+Line 786: ID = current
+Line 786: -
+Line 786: >
+Line 786: ID = suid
+Line 786: ;
+Line 787: int
+Line 787: ID = retval
+Line 787: ;
+Line 789: ID = retval
+Line 789: =
+Line 789: ID = security_task_setuid
+Line 789: (
+Line 789: ID = ruid
+Line 789: ,
+Line 789: ID = euid
+Line 789: ,
+Line 789: ID = suid
+Line 789: ,
+Line 789: ID = LSM_SETID_RES
+Line 789: )
+Line 789: ;
+Line 790: if
+Line 790: (
+Line 790: ID = retval
+Line 790: )
+Line 791: return
+Line 791: ID = retval
+Line 791: ;
+Line 793: if
+Line 793: (
+Line 793: !
+Line 793: ID = capable
+Line 793: (
+Line 793: ID = CAP_SETUID
+Line 793: )
+Line 793: )
+Line 793: {
+Line 794: if
+Line 794: (
+Line 794: (
+Line 794: ID = ruid
+Line 794: !=
+Line 794: (
+Line 794: ID = uid_t
+Line 794: )
+Line 794: -
+Line 794: INTCON = 1
+Line 794: )
+Line 794: &&
+Line 794: (
+Line 794: ID = ruid
+Line 794: !=
+Line 794: ID = current
+Line 794: -
+Line 794: >
+Line 794: ID = uid
+Line 794: )
+Line 794: &&
+Line 795: (
+Line 795: ID = ruid
+Line 795: !=
+Line 795: ID = current
+Line 795: -
+Line 795: >
+Line 795: ID = euid
+Line 795: )
+Line 795: &&
+Line 795: (
+Line 795: ID = ruid
+Line 795: !=
+Line 795: ID = current
+Line 795: -
+Line 795: >
+Line 795: ID = suid
+Line 795: )
+Line 795: )
+Line 796: return
+Line 796: -
+Line 796: ID = EPERM
+Line 796: ;
+Line 797: if
+Line 797: (
+Line 797: (
+Line 797: ID = euid
+Line 797: !=
+Line 797: (
+Line 797: ID = uid_t
+Line 797: )
+Line 797: -
+Line 797: INTCON = 1
+Line 797: )
+Line 797: &&
+Line 797: (
+Line 797: ID = euid
+Line 797: !=
+Line 797: ID = current
+Line 797: -
+Line 797: >
+Line 797: ID = uid
+Line 797: )
+Line 797: &&
+Line 798: (
+Line 798: ID = euid
+Line 798: !=
+Line 798: ID = current
+Line 798: -
+Line 798: >
+Line 798: ID = euid
+Line 798: )
+Line 798: &&
+Line 798: (
+Line 798: ID = euid
+Line 798: !=
+Line 798: ID = current
+Line 798: -
+Line 798: >
+Line 798: ID = suid
+Line 798: )
+Line 798: )
+Line 799: return
+Line 799: -
+Line 799: ID = EPERM
+Line 799: ;
+Line 800: if
+Line 800: (
+Line 800: (
+Line 800: ID = suid
+Line 800: !=
+Line 800: (
+Line 800: ID = uid_t
+Line 800: )
+Line 800: -
+Line 800: INTCON = 1
+Line 800: )
+Line 800: &&
+Line 800: (
+Line 800: ID = suid
+Line 800: !=
+Line 800: ID = current
+Line 800: -
+Line 800: >
+Line 800: ID = uid
+Line 800: )
+Line 800: &&
+Line 801: (
+Line 801: ID = suid
+Line 801: !=
+Line 801: ID = current
+Line 801: -
+Line 801: >
+Line 801: ID = euid
+Line 801: )
+Line 801: &&
+Line 801: (
+Line 801: ID = suid
+Line 801: !=
+Line 801: ID = current
+Line 801: -
+Line 801: >
+Line 801: ID = suid
+Line 801: )
+Line 801: )
+Line 802: return
+Line 802: -
+Line 802: ID = EPERM
+Line 802: ;
+Line 803: }
+Line 804: if
+Line 804: (
+Line 804: ID = ruid
+Line 804: !=
+Line 804: (
+Line 804: ID = uid_t
+Line 804: )
+Line 804: -
+Line 804: INTCON = 1
+Line 804: )
+Line 804: {
+Line 805: if
+Line 805: (
+Line 805: ID = ruid
+Line 805: !=
+Line 805: ID = current
+Line 805: -
+Line 805: >
+Line 805: ID = uid
+Line 805: &&
+Line 805: ID = set_user
+Line 805: (
+Line 805: ID = ruid
+Line 805: ,
+Line 805: ID = euid
+Line 805: !=
+Line 805: ID = current
+Line 805: -
+Line 805: >
+Line 805: ID = euid
+Line 805: )
+Line 805: <
+Line 805: INTCON = 0
+Line 805: )
+Line 806: return
+Line 806: -
+Line 806: ID = EAGAIN
+Line 806: ;
+Line 807: }
+Line 808: if
+Line 808: (
+Line 808: ID = euid
+Line 808: !=
+Line 808: (
+Line 808: ID = uid_t
+Line 808: )
+Line 808: -
+Line 808: INTCON = 1
+Line 808: )
+Line 808: {
+Line 809: if
+Line 809: (
+Line 809: ID = euid
+Line 809: !=
+Line 809: ID = current
+Line 809: -
+Line 809: >
+Line 809: ID = euid
+Line 809: )
+Line 810: {
+Line 811: ID = current
+Line 811: -
+Line 811: >
+Line 811: ID = mm
+Line 811: -
+Line 811: >
+Line 811: ID = dumpable
+Line 811: =
+Line 811: INTCON = 0
+Line 811: ;
+Line 812: ID = wmb
+Line 812: (
+Line 812: )
+Line 812: ;
+Line 813: }
+Line 814: ID = current
+Line 814: -
+Line 814: >
+Line 814: ID = euid
+Line 814: =
+Line 814: ID = euid
+Line 814: ;
+Line 815: }
+Line 816: ID = current
+Line 816: -
+Line 816: >
+Line 816: ID = fsuid
+Line 816: =
+Line 816: ID = current
+Line 816: -
+Line 816: >
+Line 816: ID = euid
+Line 816: ;
+Line 817: if
+Line 817: (
+Line 817: ID = suid
+Line 817: !=
+Line 817: (
+Line 817: ID = uid_t
+Line 817: )
+Line 817: -
+Line 817: INTCON = 1
+Line 817: )
+Line 818: ID = current
+Line 818: -
+Line 818: >
+Line 818: ID = suid
+Line 818: =
+Line 818: ID = suid
+Line 818: ;
+Line 820: return
+Line 820: ID = security_task_post_setuid
+Line 820: (
+Line 820: ID = old_ruid
+Line 820: ,
+Line 820: ID = old_euid
+Line 820: ,
+Line 820: ID = old_suid
+Line 820: ,
+Line 820: ID = LSM_SETID_RES
+Line 820: )
+Line 820: ;
+Line 821: }
+Line 823: ID = asmlinkage
+Line 823: ID = long
+Line 823: ID = sys_getresuid
+Line 823: (
+Line 823: ID = uid_t
+Line 823: Unrecognized token: 95
+Line 823: Unrecognized token: 95
+Line 823: ID = user
+Line 823: *
+Line 823: ID = ruid
+Line 823: ,
+Line 823: ID = uid_t
+Line 823: Unrecognized token: 95
+Line 823: Unrecognized token: 95
+Line 823: ID = user
+Line 823: *
+Line 823: ID = euid
+Line 823: ,
+Line 823: ID = uid_t
+Line 823: Unrecognized token: 95
+Line 823: Unrecognized token: 95
+Line 823: ID = user
+Line 823: *
+Line 823: ID = suid
+Line 823: )
+Line 824: {
+Line 825: int
+Line 825: ID = retval
+Line 825: ;
+Line 827: if
+Line 827: (
+Line 827: !
+Line 827: (
+Line 827: ID = retval
+Line 827: =
+Line 827: ID = put_user
+Line 827: (
+Line 827: ID = current
+Line 827: -
+Line 827: >
+Line 827: ID = uid
+Line 827: ,
+Line 827: ID = ruid
+Line 827: )
+Line 827: )
+Line 827: &&
+Line 828: !
+Line 828: (
+Line 828: ID = retval
+Line 828: =
+Line 828: ID = put_user
+Line 828: (
+Line 828: ID = current
+Line 828: -
+Line 828: >
+Line 828: ID = euid
+Line 828: ,
+Line 828: ID = euid
+Line 828: )
+Line 828: )
+Line 828: )
+Line 829: ID = retval
+Line 829: =
+Line 829: ID = put_user
+Line 829: (
+Line 829: ID = current
+Line 829: -
+Line 829: >
+Line 829: ID = suid
+Line 829: ,
+Line 829: ID = suid
+Line 829: )
+Line 829: ;
+Line 831: return
+Line 831: ID = retval
+Line 831: ;
+Line 832: }
+Line 837: ID = asmlinkage
+Line 837: ID = long
+Line 837: ID = sys_setresgid
+Line 837: (
+Line 837: ID = gid_t
+Line 837: ID = rgid
+Line 837: ,
+Line 837: ID = gid_t
+Line 837: ID = egid
+Line 837: ,
+Line 837: ID = gid_t
+Line 837: ID = sgid
+Line 837: )
+Line 838: {
+Line 839: int
+Line 839: ID = retval
+Line 839: ;
+Line 841: ID = retval
+Line 841: =
+Line 841: ID = security_task_setgid
+Line 841: (
+Line 841: ID = rgid
+Line 841: ,
+Line 841: ID = egid
+Line 841: ,
+Line 841: ID = sgid
+Line 841: ,
+Line 841: ID = LSM_SETID_RES
+Line 841: )
+Line 841: ;
+Line 842: if
+Line 842: (
+Line 842: ID = retval
+Line 842: )
+Line 843: return
+Line 843: ID = retval
+Line 843: ;
+Line 845: if
+Line 845: (
+Line 845: !
+Line 845: ID = capable
+Line 845: (
+Line 845: ID = CAP_SETGID
+Line 845: )
+Line 845: )
+Line 845: {
+Line 846: if
+Line 846: (
+Line 846: (
+Line 846: ID = rgid
+Line 846: !=
+Line 846: (
+Line 846: ID = gid_t
+Line 846: )
+Line 846: -
+Line 846: INTCON = 1
+Line 846: )
+Line 846: &&
+Line 846: (
+Line 846: ID = rgid
+Line 846: !=
+Line 846: ID = current
+Line 846: -
+Line 846: >
+Line 846: ID = gid
+Line 846: )
+Line 846: &&
+Line 847: (
+Line 847: ID = rgid
+Line 847: !=
+Line 847: ID = current
+Line 847: -
+Line 847: >
+Line 847: ID = egid
+Line 847: )
+Line 847: &&
+Line 847: (
+Line 847: ID = rgid
+Line 847: !=
+Line 847: ID = current
+Line 847: -
+Line 847: >
+Line 847: ID = sgid
+Line 847: )
+Line 847: )
+Line 848: return
+Line 848: -
+Line 848: ID = EPERM
+Line 848: ;
+Line 849: if
+Line 849: (
+Line 849: (
+Line 849: ID = egid
+Line 849: !=
+Line 849: (
+Line 849: ID = gid_t
+Line 849: )
+Line 849: -
+Line 849: INTCON = 1
+Line 849: )
+Line 849: &&
+Line 849: (
+Line 849: ID = egid
+Line 849: !=
+Line 849: ID = current
+Line 849: -
+Line 849: >
+Line 849: ID = gid
+Line 849: )
+Line 849: &&
+Line 850: (
+Line 850: ID = egid
+Line 850: !=
+Line 850: ID = current
+Line 850: -
+Line 850: >
+Line 850: ID = egid
+Line 850: )
+Line 850: &&
+Line 850: (
+Line 850: ID = egid
+Line 850: !=
+Line 850: ID = current
+Line 850: -
+Line 850: >
+Line 850: ID = sgid
+Line 850: )
+Line 850: )
+Line 851: return
+Line 851: -
+Line 851: ID = EPERM
+Line 851: ;
+Line 852: if
+Line 852: (
+Line 852: (
+Line 852: ID = sgid
+Line 852: !=
+Line 852: (
+Line 852: ID = gid_t
+Line 852: )
+Line 852: -
+Line 852: INTCON = 1
+Line 852: )
+Line 852: &&
+Line 852: (
+Line 852: ID = sgid
+Line 852: !=
+Line 852: ID = current
+Line 852: -
+Line 852: >
+Line 852: ID = gid
+Line 852: )
+Line 852: &&
+Line 853: (
+Line 853: ID = sgid
+Line 853: !=
+Line 853: ID = current
+Line 853: -
+Line 853: >
+Line 853: ID = egid
+Line 853: )
+Line 853: &&
+Line 853: (
+Line 853: ID = sgid
+Line 853: !=
+Line 853: ID = current
+Line 853: -
+Line 853: >
+Line 853: ID = sgid
+Line 853: )
+Line 853: )
+Line 854: return
+Line 854: -
+Line 854: ID = EPERM
+Line 854: ;
+Line 855: }
+Line 856: if
+Line 856: (
+Line 856: ID = egid
+Line 856: !=
+Line 856: (
+Line 856: ID = gid_t
+Line 856: )
+Line 856: -
+Line 856: INTCON = 1
+Line 856: )
+Line 856: {
+Line 857: if
+Line 857: (
+Line 857: ID = egid
+Line 857: !=
+Line 857: ID = current
+Line 857: -
+Line 857: >
+Line 857: ID = egid
+Line 857: )
+Line 858: {
+Line 859: ID = current
+Line 859: -
+Line 859: >
+Line 859: ID = mm
+Line 859: -
+Line 859: >
+Line 859: ID = dumpable
+Line 859: =
+Line 859: INTCON = 0
+Line 859: ;
+Line 860: ID = wmb
+Line 860: (
+Line 860: )
+Line 860: ;
+Line 861: }
+Line 862: ID = current
+Line 862: -
+Line 862: >
+Line 862: ID = egid
+Line 862: =
+Line 862: ID = egid
+Line 862: ;
+Line 863: }
+Line 864: ID = current
+Line 864: -
+Line 864: >
+Line 864: ID = fsgid
+Line 864: =
+Line 864: ID = current
+Line 864: -
+Line 864: >
+Line 864: ID = egid
+Line 864: ;
+Line 865: if
+Line 865: (
+Line 865: ID = rgid
+Line 865: !=
+Line 865: (
+Line 865: ID = gid_t
+Line 865: )
+Line 865: -
+Line 865: INTCON = 1
+Line 865: )
+Line 866: ID = current
+Line 866: -
+Line 866: >
+Line 866: ID = gid
+Line 866: =
+Line 866: ID = rgid
+Line 866: ;
+Line 867: if
+Line 867: (
+Line 867: ID = sgid
+Line 867: !=
+Line 867: (
+Line 867: ID = gid_t
+Line 867: )
+Line 867: -
+Line 867: INTCON = 1
+Line 867: )
+Line 868: ID = current
+Line 868: -
+Line 868: >
+Line 868: ID = sgid
+Line 868: =
+Line 868: ID = sgid
+Line 868: ;
+Line 869: return
+Line 869: INTCON = 0
+Line 869: ;
+Line 870: }
+Line 872: ID = asmlinkage
+Line 872: ID = long
+Line 872: ID = sys_getresgid
+Line 872: (
+Line 872: ID = gid_t
+Line 872: Unrecognized token: 95
+Line 872: Unrecognized token: 95
+Line 872: ID = user
+Line 872: *
+Line 872: ID = rgid
+Line 872: ,
+Line 872: ID = gid_t
+Line 872: Unrecognized token: 95
+Line 872: Unrecognized token: 95
+Line 872: ID = user
+Line 872: *
+Line 872: ID = egid
+Line 872: ,
+Line 872: ID = gid_t
+Line 872: Unrecognized token: 95
+Line 872: Unrecognized token: 95
+Line 872: ID = user
+Line 872: *
+Line 872: ID = sgid
+Line 872: )
+Line 873: {
+Line 874: int
+Line 874: ID = retval
+Line 874: ;
+Line 876: if
+Line 876: (
+Line 876: !
+Line 876: (
+Line 876: ID = retval
+Line 876: =
+Line 876: ID = put_user
+Line 876: (
+Line 876: ID = current
+Line 876: -
+Line 876: >
+Line 876: ID = gid
+Line 876: ,
+Line 876: ID = rgid
+Line 876: )
+Line 876: )
+Line 876: &&
+Line 877: !
+Line 877: (
+Line 877: ID = retval
+Line 877: =
+Line 877: ID = put_user
+Line 877: (
+Line 877: ID = current
+Line 877: -
+Line 877: >
+Line 877: ID = egid
+Line 877: ,
+Line 877: ID = egid
+Line 877: )
+Line 877: )
+Line 877: )
+Line 878: ID = retval
+Line 878: =
+Line 878: ID = put_user
+Line 878: (
+Line 878: ID = current
+Line 878: -
+Line 878: >
+Line 878: ID = sgid
+Line 878: ,
+Line 878: ID = sgid
+Line 878: )
+Line 878: ;
+Line 880: return
+Line 880: ID = retval
+Line 880: ;
+Line 881: }
+Line 890: ID = asmlinkage
+Line 890: ID = long
+Line 890: ID = sys_setfsuid
+Line 890: (
+Line 890: ID = uid_t
+Line 890: ID = uid
+Line 890: )
+Line 891: {
+Line 892: int
+Line 892: ID = old_fsuid
+Line 892: ;
+Line 894: ID = old_fsuid
+Line 894: =
+Line 894: ID = current
+Line 894: -
+Line 894: >
+Line 894: ID = fsuid
+Line 894: ;
+Line 895: if
+Line 895: (
+Line 895: ID = security_task_setuid
+Line 895: (
+Line 895: ID = uid
+Line 895: ,
+Line 895: (
+Line 895: ID = uid_t
+Line 895: )
+Line 895: -
+Line 895: INTCON = 1
+Line 895: ,
+Line 895: (
+Line 895: ID = uid_t
+Line 895: )
+Line 895: -
+Line 895: INTCON = 1
+Line 895: ,
+Line 895: ID = LSM_SETID_FS
+Line 895: )
+Line 895: )
+Line 896: return
+Line 896: ID = old_fsuid
+Line 896: ;
+Line 898: if
+Line 898: (
+Line 898: ID = uid
+Line 898: ==
+Line 898: ID = current
+Line 898: -
+Line 898: >
+Line 898: ID = uid
+Line 898: ||
+Line 898: ID = uid
+Line 898: ==
+Line 898: ID = current
+Line 898: -
+Line 898: >
+Line 898: ID = euid
+Line 898: ||
+Line 899: ID = uid
+Line 899: ==
+Line 899: ID = current
+Line 899: -
+Line 899: >
+Line 899: ID = suid
+Line 899: ||
+Line 899: ID = uid
+Line 899: ==
+Line 899: ID = current
+Line 899: -
+Line 899: >
+Line 899: ID = fsuid
+Line 899: ||
+Line 900: ID = capable
+Line 900: (
+Line 900: ID = CAP_SETUID
+Line 900: )
+Line 900: )
+Line 901: {
+Line 902: if
+Line 902: (
+Line 902: ID = uid
+Line 902: !=
+Line 902: ID = old_fsuid
+Line 902: )
+Line 903: {
+Line 904: ID = current
+Line 904: -
+Line 904: >
+Line 904: ID = mm
+Line 904: -
+Line 904: >
+Line 904: ID = dumpable
+Line 904: =
+Line 904: INTCON = 0
+Line 904: ;
+Line 905: ID = wmb
+Line 905: (
+Line 905: )
+Line 905: ;
+Line 906: }
+Line 907: ID = current
+Line 907: -
+Line 907: >
+Line 907: ID = fsuid
+Line 907: =
+Line 907: ID = uid
+Line 907: ;
+Line 908: }
+Line 910: ID = security_task_post_setuid
+Line 910: (
+Line 910: ID = old_fsuid
+Line 910: ,
+Line 910: (
+Line 910: ID = uid_t
+Line 910: )
+Line 910: -
+Line 910: INTCON = 1
+Line 910: ,
+Line 910: (
+Line 910: ID = uid_t
+Line 910: )
+Line 910: -
+Line 910: INTCON = 1
+Line 910: ,
+Line 910: ID = LSM_SETID_FS
+Line 910: )
+Line 910: ;
+Line 912: return
+Line 912: ID = old_fsuid
+Line 912: ;
+Line 913: }
+Line 918: ID = asmlinkage
+Line 918: ID = long
+Line 918: ID = sys_setfsgid
+Line 918: (
+Line 918: ID = gid_t
+Line 918: ID = gid
+Line 918: )
+Line 919: {
+Line 920: int
+Line 920: ID = old_fsgid
+Line 920: ;
+Line 922: ID = old_fsgid
+Line 922: =
+Line 922: ID = current
+Line 922: -
+Line 922: >
+Line 922: ID = fsgid
+Line 922: ;
+Line 923: if
+Line 923: (
+Line 923: ID = security_task_setgid
+Line 923: (
+Line 923: ID = gid
+Line 923: ,
+Line 923: (
+Line 923: ID = gid_t
+Line 923: )
+Line 923: -
+Line 923: INTCON = 1
+Line 923: ,
+Line 923: (
+Line 923: ID = gid_t
+Line 923: )
+Line 923: -
+Line 923: INTCON = 1
+Line 923: ,
+Line 923: ID = LSM_SETID_FS
+Line 923: )
+Line 923: )
+Line 924: return
+Line 924: ID = old_fsgid
+Line 924: ;
+Line 926: if
+Line 926: (
+Line 926: ID = gid
+Line 926: ==
+Line 926: ID = current
+Line 926: -
+Line 926: >
+Line 926: ID = gid
+Line 926: ||
+Line 926: ID = gid
+Line 926: ==
+Line 926: ID = current
+Line 926: -
+Line 926: >
+Line 926: ID = egid
+Line 926: ||
+Line 927: ID = gid
+Line 927: ==
+Line 927: ID = current
+Line 927: -
+Line 927: >
+Line 927: ID = sgid
+Line 927: ||
+Line 927: ID = gid
+Line 927: ==
+Line 927: ID = current
+Line 927: -
+Line 927: >
+Line 927: ID = fsgid
+Line 927: ||
+Line 928: ID = capable
+Line 928: (
+Line 928: ID = CAP_SETGID
+Line 928: )
+Line 928: )
+Line 929: {
+Line 930: if
+Line 930: (
+Line 930: ID = gid
+Line 930: !=
+Line 930: ID = old_fsgid
+Line 930: )
+Line 931: {
+Line 932: ID = current
+Line 932: -
+Line 932: >
+Line 932: ID = mm
+Line 932: -
+Line 932: >
+Line 932: ID = dumpable
+Line 932: =
+Line 932: INTCON = 0
+Line 932: ;
+Line 933: ID = wmb
+Line 933: (
+Line 933: )
+Line 933: ;
+Line 934: }
+Line 935: ID = current
+Line 935: -
+Line 935: >
+Line 935: ID = fsgid
+Line 935: =
+Line 935: ID = gid
+Line 935: ;
+Line 936: }
+Line 937: return
+Line 937: ID = old_fsgid
+Line 937: ;
+Line 938: }
+Line 940: ID = asmlinkage
+Line 940: ID = long
+Line 940: ID = sys_times
+Line 940: (
+Line 940: ID = struct
+Line 940: ID = tms
+Line 940: Unrecognized token: 95
+Line 940: Unrecognized token: 95
+Line 940: ID = user
+Line 940: *
+Line 940: ID = tbuf
+Line 940: )
+Line 941: {
+Line 948: if
+Line 948: (
+Line 948: ID = tbuf
+Line 948: )
+Line 948: {
+Line 949: ID = struct
+Line 949: ID = tms
+Line 949: ID = tmp
+Line 949: ;
+Line 950: ID = tmp
+Line 950: Unrecognized token: 46
+Line 950: ID = tms_utime
+Line 950: =
+Line 950: ID = jiffies_to_clock_t
+Line 950: (
+Line 950: ID = current
+Line 950: -
+Line 950: >
+Line 950: ID = utime
+Line 950: )
+Line 950: ;
+Line 951: ID = tmp
+Line 951: Unrecognized token: 46
+Line 951: ID = tms_stime
+Line 951: =
+Line 951: ID = jiffies_to_clock_t
+Line 951: (
+Line 951: ID = current
+Line 951: -
+Line 951: >
+Line 951: ID = stime
+Line 951: )
+Line 951: ;
+Line 952: ID = tmp
+Line 952: Unrecognized token: 46
+Line 952: ID = tms_cutime
+Line 952: =
+Line 952: ID = jiffies_to_clock_t
+Line 952: (
+Line 952: ID = current
+Line 952: -
+Line 952: >
+Line 952: ID = cutime
+Line 952: )
+Line 952: ;
+Line 953: ID = tmp
+Line 953: Unrecognized token: 46
+Line 953: ID = tms_cstime
+Line 953: =
+Line 953: ID = jiffies_to_clock_t
+Line 953: (
+Line 953: ID = current
+Line 953: -
+Line 953: >
+Line 953: ID = cstime
+Line 953: )
+Line 953: ;
+Line 954: if
+Line 954: (
+Line 954: ID = copy_to_user
+Line 954: (
+Line 954: ID = tbuf
+Line 954: ,
+Line 954: Unrecognized token: 38
+Line 954: ID = tmp
+Line 954: ,
+Line 954: ID = sizeof
+Line 954: (
+Line 954: ID = struct
+Line 954: ID = tms
+Line 954: )
+Line 954: )
+Line 954: )
+Line 955: return
+Line 955: -
+Line 955: ID = EFAULT
+Line 955: ;
+Line 956: }
+Line 957: return
+Line 957: (
+Line 957: ID = long
+Line 957: )
+Line 957: ID = jiffies_64_to_clock_t
+Line 957: (
+Line 957: ID = get_jiffies_64
+Line 957: (
+Line 957: )
+Line 957: )
+Line 957: ;
+Line 958: }
+Line 973: ID = asmlinkage
+Line 973: ID = long
+Line 973: ID = sys_setpgid
+Line 973: (
+Line 973: ID = pid_t
+Line 973: ID = pid
+Line 973: ,
+Line 973: ID = pid_t
+Line 973: ID = pgid
+Line 973: )
+Line 974: {
+Line 975: ID = struct
+Line 975: ID = task_struct
+Line 975: *
+Line 975: ID = p
+Line 975: ;
+Line 976: int
+Line 976: ID = err
+Line 976: =
+Line 976: -
+Line 976: ID = EINVAL
+Line 976: ;
+Line 978: if
+Line 978: (
+Line 978: !
+Line 978: ID = pid
+Line 978: )
+Line 979: ID = pid
+Line 979: =
+Line 979: ID = current
+Line 979: -
+Line 979: >
+Line 979: ID = pid
+Line 979: ;
+Line 980: if
+Line 980: (
+Line 980: !
+Line 980: ID = pgid
+Line 980: )
+Line 981: ID = pgid
+Line 981: =
+Line 981: ID = pid
+Line 981: ;
+Line 982: if
+Line 982: (
+Line 982: ID = pgid
+Line 982: <
+Line 982: INTCON = 0
+Line 982: )
+Line 983: return
+Line 983: -
+Line 983: ID = EINVAL
+Line 983: ;
+Line 988: ID = write_lock_irq
+Line 988: (
+Line 988: Unrecognized token: 38
+Line 988: ID = tasklist_lock
+Line 988: )
+Line 988: ;
+Line 990: ID = err
+Line 990: =
+Line 990: -
+Line 990: ID = ESRCH
+Line 990: ;
+Line 991: ID = p
+Line 991: =
+Line 991: ID = find_task_by_pid
+Line 991: (
+Line 991: ID = pid
+Line 991: )
+Line 991: ;
+Line 992: if
+Line 992: (
+Line 992: !
+Line 992: ID = p
+Line 992: )
+Line 993: ID = goto
+Line 993: ID = out
+Line 993: ;
+Line 995: ID = err
+Line 995: =
+Line 995: -
+Line 995: ID = EINVAL
+Line 995: ;
+Line 996: if
+Line 996: (
+Line 996: !
+Line 996: ID = thread_group_leader
+Line 996: (
+Line 996: ID = p
+Line 996: )
+Line 996: )
+Line 997: ID = goto
+Line 997: ID = out
+Line 997: ;
+Line 999: if
+Line 999: (
+Line 999: ID = p
+Line 999: -
+Line 999: >
+Line 999: ID = parent
+Line 999: ==
+Line 999: ID = current
+Line 999: ||
+Line 999: ID = p
+Line 999: -
+Line 999: >
+Line 999: ID = real_parent
+Line 999: ==
+Line 999: ID = current
+Line 999: )
+Line 999: {
+Line 1000: ID = err
+Line 1000: =
+Line 1000: -
+Line 1000: ID = EPERM
+Line 1000: ;
+Line 1001: if
+Line 1001: (
+Line 1001: ID = p
+Line 1001: -
+Line 1001: >
+Line 1001: ID = signal
+Line 1001: -
+Line 1001: >
+Line 1001: ID = session
+Line 1001: !=
+Line 1001: ID = current
+Line 1001: -
+Line 1001: >
+Line 1001: ID = signal
+Line 1001: -
+Line 1001: >
+Line 1001: ID = session
+Line 1001: )
+Line 1002: ID = goto
+Line 1002: ID = out
+Line 1002: ;
+Line 1003: ID = err
+Line 1003: =
+Line 1003: -
+Line 1003: ID = EACCES
+Line 1003: ;
+Line 1004: if
+Line 1004: (
+Line 1004: ID = p
+Line 1004: -
+Line 1004: >
+Line 1004: ID = did_exec
+Line 1004: )
+Line 1005: ID = goto
+Line 1005: ID = out
+Line 1005: ;
+Line 1006: }
+Line 1006: else
+Line 1006: {
+Line 1007: ID = err
+Line 1007: =
+Line 1007: -
+Line 1007: ID = ESRCH
+Line 1007: ;
+Line 1008: if
+Line 1008: (
+Line 1008: ID = p
+Line 1008: !=
+Line 1008: ID = current
+Line 1008: )
+Line 1009: ID = goto
+Line 1009: ID = out
+Line 1009: ;
+Line 1010: }
+Line 1012: ID = err
+Line 1012: =
+Line 1012: -
+Line 1012: ID = EPERM
+Line 1012: ;
+Line 1013: if
+Line 1013: (
+Line 1013: ID = p
+Line 1013: -
+Line 1013: >
+Line 1013: ID = signal
+Line 1013: -
+Line 1013: >
+Line 1013: ID = leader
+Line 1013: )
+Line 1014: ID = goto
+Line 1014: ID = out
+Line 1014: ;
+Line 1016: if
+Line 1016: (
+Line 1016: ID = pgid
+Line 1016: !=
+Line 1016: ID = pid
+Line 1016: )
+Line 1016: {
+Line 1017: ID = struct
+Line 1017: ID = task_struct
+Line 1017: *
+Line 1017: ID = p
+Line 1017: ;
+Line 1018: ID = struct
+Line 1018: ID = pid
+Line 1018: *
+Line 1018: ID = pid
+Line 1018: ;
+Line 1019: ID = struct
+Line 1019: ID = list_head
+Line 1019: *
+Line 1019: ID = l
+Line 1019: ;
+Line 1021: ID = for_each_task_pid
+Line 1021: (
+Line 1021: ID = pgid
+Line 1021: ,
+Line 1021: ID = PIDTYPE_PGID
+Line 1021: ,
+Line 1021: ID = p
+Line 1021: ,
+Line 1021: ID = l
+Line 1021: ,
+Line 1021: ID = pid
+Line 1021: )
+Line 1022: if
+Line 1022: (
+Line 1022: ID = p
+Line 1022: -
+Line 1022: >
+Line 1022: ID = signal
+Line 1022: -
+Line 1022: >
+Line 1022: ID = session
+Line 1022: ==
+Line 1022: ID = current
+Line 1022: -
+Line 1022: >
+Line 1022: ID = signal
+Line 1022: -
+Line 1022: >
+Line 1022: ID = session
+Line 1022: )
+Line 1023: ID = goto
+Line 1023: ID = ok_pgid
+Line 1023: ;
+Line 1024: ID = goto
+Line 1024: ID = out
+Line 1024: ;
+Line 1025: }
+Line 1027: ID = ok_pgid
+Line 1027: Unrecognized token: 58
+Line 1028: ID = err
+Line 1028: =
+Line 1028: ID = security_task_setpgid
+Line 1028: (
+Line 1028: ID = p
+Line 1028: ,
+Line 1028: ID = pgid
+Line 1028: )
+Line 1028: ;
+Line 1029: if
+Line 1029: (
+Line 1029: ID = err
+Line 1029: )
+Line 1030: ID = goto
+Line 1030: ID = out
+Line 1030: ;
+Line 1032: if
+Line 1032: (
+Line 1032: ID = process_group
+Line 1032: (
+Line 1032: ID = p
+Line 1032: )
+Line 1032: !=
+Line 1032: ID = pgid
+Line 1032: )
+Line 1032: {
+Line 1033: ID = detach_pid
+Line 1033: (
+Line 1033: ID = p
+Line 1033: ,
+Line 1033: ID = PIDTYPE_PGID
+Line 1033: )
+Line 1033: ;
+Line 1034: ID = p
+Line 1034: -
+Line 1034: >
+Line 1034: ID = signal
+Line 1034: -
+Line 1034: >
+Line 1034: ID = pgrp
+Line 1034: =
+Line 1034: ID = pgid
+Line 1034: ;
+Line 1035: ID = attach_pid
+Line 1035: (
+Line 1035: ID = p
+Line 1035: ,
+Line 1035: ID = PIDTYPE_PGID
+Line 1035: ,
+Line 1035: ID = pgid
+Line 1035: )
+Line 1035: ;
+Line 1036: }
+Line 1038: ID = err
+Line 1038: =
+Line 1038: INTCON = 0
+Line 1038: ;
+Line 1039: ID = out
+Line 1039: Unrecognized token: 58
+Line 1041: ID = write_unlock_irq
+Line 1041: (
+Line 1041: Unrecognized token: 38
+Line 1041: ID = tasklist_lock
+Line 1041: )
+Line 1041: ;
+Line 1042: return
+Line 1042: ID = err
+Line 1042: ;
+Line 1043: }
+Line 1045: ID = asmlinkage
+Line 1045: ID = long
+Line 1045: ID = sys_getpgid
+Line 1045: (
+Line 1045: ID = pid_t
+Line 1045: ID = pid
+Line 1045: )
+Line 1046: {
+Line 1047: if
+Line 1047: (
+Line 1047: !
+Line 1047: ID = pid
+Line 1047: )
+Line 1047: {
+Line 1048: return
+Line 1048: ID = process_group
+Line 1048: (
+Line 1048: ID = current
+Line 1048: )
+Line 1048: ;
+Line 1049: }
+Line 1049: else
+Line 1049: {
+Line 1050: int
+Line 1050: ID = retval
+Line 1050: ;
+Line 1051: ID = struct
+Line 1051: ID = task_struct
+Line 1051: *
+Line 1051: ID = p
+Line 1051: ;
+Line 1053: ID = read_lock
+Line 1053: (
+Line 1053: Unrecognized token: 38
+Line 1053: ID = tasklist_lock
+Line 1053: )
+Line 1053: ;
+Line 1054: ID = p
+Line 1054: =
+Line 1054: ID = find_task_by_pid
+Line 1054: (
+Line 1054: ID = pid
+Line 1054: )
+Line 1054: ;
+Line 1056: ID = retval
+Line 1056: =
+Line 1056: -
+Line 1056: ID = ESRCH
+Line 1056: ;
+Line 1057: if
+Line 1057: (
+Line 1057: ID = p
+Line 1057: )
+Line 1057: {
+Line 1058: ID = retval
+Line 1058: =
+Line 1058: ID = security_task_getpgid
+Line 1058: (
+Line 1058: ID = p
+Line 1058: )
+Line 1058: ;
+Line 1059: if
+Line 1059: (
+Line 1059: !
+Line 1059: ID = retval
+Line 1059: )
+Line 1060: ID = retval
+Line 1060: =
+Line 1060: ID = process_group
+Line 1060: (
+Line 1060: ID = p
+Line 1060: )
+Line 1060: ;
+Line 1061: }
+Line 1062: ID = read_unlock
+Line 1062: (
+Line 1062: Unrecognized token: 38
+Line 1062: ID = tasklist_lock
+Line 1062: )
+Line 1062: ;
+Line 1063: return
+Line 1063: ID = retval
+Line 1063: ;
+Line 1064: }
+Line 1065: }
+Line 1067: Unrecognized token: 35
+Line 1067: ID = ifdef
+Line 1067: Unrecognized token: 95
+Line 1067: Unrecognized token: 95
+Line 1067: ID = ARCH_WANT_SYS_GETPGRP
+Line 1069: ID = asmlinkage
+Line 1069: ID = long
+Line 1069: ID = sys_getpgrp
+Line 1069: (
+Line 1069: void
+Line 1069: )
+Line 1070: {
+Line 1072: return
+Line 1072: ID = process_group
+Line 1072: (
+Line 1072: ID = current
+Line 1072: )
+Line 1072: ;
+Line 1073: }
+Line 1075: Unrecognized token: 35
+Line 1075: ID = endif
+Line 1077: ID = asmlinkage
+Line 1077: ID = long
+Line 1077: ID = sys_getsid
+Line 1077: (
+Line 1077: ID = pid_t
+Line 1077: ID = pid
+Line 1077: )
+Line 1078: {
+Line 1079: if
+Line 1079: (
+Line 1079: !
+Line 1079: ID = pid
+Line 1079: )
+Line 1079: {
+Line 1080: return
+Line 1080: ID = current
+Line 1080: -
+Line 1080: >
+Line 1080: ID = signal
+Line 1080: -
+Line 1080: >
+Line 1080: ID = session
+Line 1080: ;
+Line 1081: }
+Line 1081: else
+Line 1081: {
+Line 1082: int
+Line 1082: ID = retval
+Line 1082: ;
+Line 1083: ID = struct
+Line 1083: ID = task_struct
+Line 1083: *
+Line 1083: ID = p
+Line 1083: ;
+Line 1085: ID = read_lock
+Line 1085: (
+Line 1085: Unrecognized token: 38
+Line 1085: ID = tasklist_lock
+Line 1085: )
+Line 1085: ;
+Line 1086: ID = p
+Line 1086: =
+Line 1086: ID = find_task_by_pid
+Line 1086: (
+Line 1086: ID = pid
+Line 1086: )
+Line 1086: ;
+Line 1088: ID = retval
+Line 1088: =
+Line 1088: -
+Line 1088: ID = ESRCH
+Line 1088: ;
+Line 1089: if
+Line 1089: (
+Line 1089: ID = p
+Line 1089: )
+Line 1089: {
+Line 1090: ID = retval
+Line 1090: =
+Line 1090: ID = security_task_getsid
+Line 1090: (
+Line 1090: ID = p
+Line 1090: )
+Line 1090: ;
+Line 1091: if
+Line 1091: (
+Line 1091: !
+Line 1091: ID = retval
+Line 1091: )
+Line 1092: ID = retval
+Line 1092: =
+Line 1092: ID = p
+Line 1092: -
+Line 1092: >
+Line 1092: ID = signal
+Line 1092: -
+Line 1092: >
+Line 1092: ID = session
+Line 1092: ;
+Line 1093: }
+Line 1094: ID = read_unlock
+Line 1094: (
+Line 1094: Unrecognized token: 38
+Line 1094: ID = tasklist_lock
+Line 1094: )
+Line 1094: ;
+Line 1095: return
+Line 1095: ID = retval
+Line 1095: ;
+Line 1096: }
+Line 1097: }
+Line 1099: ID = asmlinkage
+Line 1099: ID = long
+Line 1099: ID = sys_setsid
+Line 1099: (
+Line 1099: void
+Line 1099: )
+Line 1100: {
+Line 1101: ID = struct
+Line 1101: ID = pid
+Line 1101: *
+Line 1101: ID = pid
+Line 1101: ;
+Line 1102: int
+Line 1102: ID = err
+Line 1102: =
+Line 1102: -
+Line 1102: ID = EPERM
+Line 1102: ;
+Line 1104: if
+Line 1104: (
+Line 1104: !
+Line 1104: ID = thread_group_leader
+Line 1104: (
+Line 1104: ID = current
+Line 1104: )
+Line 1104: )
+Line 1105: return
+Line 1105: -
+Line 1105: ID = EINVAL
+Line 1105: ;
+Line 1107: ID = write_lock_irq
+Line 1107: (
+Line 1107: Unrecognized token: 38
+Line 1107: ID = tasklist_lock
+Line 1107: )
+Line 1107: ;
+Line 1109: ID = pid
+Line 1109: =
+Line 1109: ID = find_pid
+Line 1109: (
+Line 1109: ID = PIDTYPE_PGID
+Line 1109: ,
+Line 1109: ID = current
+Line 1109: -
+Line 1109: >
+Line 1109: ID = pid
+Line 1109: )
+Line 1109: ;
+Line 1110: if
+Line 1110: (
+Line 1110: ID = pid
+Line 1110: )
+Line 1111: ID = goto
+Line 1111: ID = out
+Line 1111: ;
+Line 1113: ID = current
+Line 1113: -
+Line 1113: >
+Line 1113: ID = signal
+Line 1113: -
+Line 1113: >
+Line 1113: ID = leader
+Line 1113: =
+Line 1113: INTCON = 1
+Line 1113: ;
+Line 1114: Unrecognized token: 95
+Line 1114: Unrecognized token: 95
+Line 1114: ID = set_special_pids
+Line 1114: (
+Line 1114: ID = current
+Line 1114: -
+Line 1114: >
+Line 1114: ID = pid
+Line 1114: ,
+Line 1114: ID = current
+Line 1114: -
+Line 1114: >
+Line 1114: ID = pid
+Line 1114: )
+Line 1114: ;
+Line 1115: ID = current
+Line 1115: -
+Line 1115: >
+Line 1115: ID = signal
+Line 1115: -
+Line 1115: >
+Line 1115: ID = tty
+Line 1115: =
+Line 1115: ID = NULL
+Line 1115: ;
+Line 1116: ID = current
+Line 1116: -
+Line 1116: >
+Line 1116: ID = signal
+Line 1116: -
+Line 1116: >
+Line 1116: ID = tty_old_pgrp
+Line 1116: =
+Line 1116: INTCON = 0
+Line 1116: ;
+Line 1117: ID = err
+Line 1117: =
+Line 1117: ID = process_group
+Line 1117: (
+Line 1117: ID = current
+Line 1117: )
+Line 1117: ;
+Line 1118: ID = out
+Line 1118: Unrecognized token: 58
+Line 1119: ID = write_unlock_irq
+Line 1119: (
+Line 1119: Unrecognized token: 38
+Line 1119: ID = tasklist_lock
+Line 1119: )
+Line 1119: ;
+Line 1120: return
+Line 1120: ID = err
+Line 1120: ;
+Line 1121: }
+Line 1128: ID = struct
+Line 1128: ID = group_info
+Line 1128: ID = init_groups
+Line 1128: =
+Line 1128: {
+Line 1128: Unrecognized token: 46
+Line 1128: ID = usage
+Line 1128: =
+Line 1128: ID = ATOMIC_INIT
+Line 1128: (
+Line 1128: INTCON = 2
+Line 1128: )
+Line 1128: }
+Line 1128: ;
+Line 1130: ID = struct
+Line 1130: ID = group_info
+Line 1130: *
+Line 1130: ID = groups_alloc
+Line 1130: (
+Line 1130: int
+Line 1130: ID = gidsetsize
+Line 1130: )
+Line 1131: {
+Line 1132: ID = struct
+Line 1132: ID = group_info
+Line 1132: *
+Line 1132: ID = group_info
+Line 1132: ;
+Line 1133: int
+Line 1133: ID = nblocks
+Line 1133: ;
+Line 1134: int
+Line 1134: ID = i
+Line 1134: ;
+Line 1136: ID = nblocks
+Line 1136: =
+Line 1136: (
+Line 1136: ID = gidsetsize
+Line 1136: +
+Line 1136: ID = NGROUPS_PER_BLOCK
+Line 1136: -
+Line 1136: INTCON = 1
+Line 1136: )
+Line 1136: /
+Line 1136: ID = NGROUPS_PER_BLOCK
+Line 1136: ;
+Line 1138: ID = nblocks
+Line 1138: =
+Line 1138: ID = nblocks
+Line 1138: Unrecognized token: 63
+Line 1138: Unrecognized token: 58
+Line 1138: INTCON = 1
+Line 1138: ;
+Line 1139: ID = group_info
+Line 1139: =
+Line 1139: ID = kmalloc
+Line 1139: (
+Line 1139: ID = sizeof
+Line 1139: (
+Line 1139: *
+Line 1139: ID = group_info
+Line 1139: )
+Line 1139: +
+Line 1139: ID = nblocks
+Line 1139: *
+Line 1139: ID = sizeof
+Line 1139: (
+Line 1139: ID = gid_t
+Line 1139: *
+Line 1139: )
+Line 1139: ,
+Line 1139: ID = GFP_USER
+Line 1139: )
+Line 1139: ;
+Line 1140: if
+Line 1140: (
+Line 1140: !
+Line 1140: ID = group_info
+Line 1140: )
+Line 1141: return
+Line 1141: ID = NULL
+Line 1141: ;
+Line 1142: ID = group_info
+Line 1142: -
+Line 1142: >
+Line 1142: ID = ngroups
+Line 1142: =
+Line 1142: ID = gidsetsize
+Line 1142: ;
+Line 1143: ID = group_info
+Line 1143: -
+Line 1143: >
+Line 1143: ID = nblocks
+Line 1143: =
+Line 1143: ID = nblocks
+Line 1143: ;
+Line 1144: ID = atomic_set
+Line 1144: (
+Line 1144: Unrecognized token: 38
+Line 1144: ID = group_info
+Line 1144: -
+Line 1144: >
+Line 1144: ID = usage
+Line 1144: ,
+Line 1144: INTCON = 1
+Line 1144: )
+Line 1144: ;
+Line 1146: if
+Line 1146: (
+Line 1146: ID = gidsetsize
+Line 1146: <=
+Line 1146: ID = NGROUPS_SMALL
+Line 1146: )
+Line 1146: {
+Line 1147: ID = group_info
+Line 1147: -
+Line 1147: >
+Line 1147: ID = blocks
+Line 1147: [
+Line 1147: INTCON = 0
+Line 1147: ]
+Line 1147: =
+Line 1147: ID = group_info
+Line 1147: -
+Line 1147: >
+Line 1147: ID = small_block
+Line 1147: ;
+Line 1148: }
+Line 1148: else
+Line 1148: {
+Line 1149: for
+Line 1149: (
+Line 1149: ID = i
+Line 1149: =
+Line 1149: INTCON = 0
+Line 1149: ;
+Line 1149: ID = i
+Line 1149: <
+Line 1149: ID = nblocks
+Line 1149: ;
+Line 1149: ID = i
+Line 1149: +
+Line 1149: +
+Line 1149: )
+Line 1149: {
+Line 1150: ID = gid_t
+Line 1150: *
+Line 1150: ID = b
+Line 1150: ;
+Line 1151: ID = b
+Line 1151: =
+Line 1151: (
+Line 1151: void
+Line 1151: *
+Line 1151: )
+Line 1151: Unrecognized token: 95
+Line 1151: Unrecognized token: 95
+Line 1151: ID = get_free_page
+Line 1151: (
+Line 1151: ID = GFP_USER
+Line 1151: )
+Line 1151: ;
+Line 1152: if
+Line 1152: (
+Line 1152: !
+Line 1152: ID = b
+Line 1152: )
+Line 1153: ID = goto
+Line 1153: ID = out_undo_partial_alloc
+Line 1153: ;
+Line 1154: ID = group_info
+Line 1154: -
+Line 1154: >
+Line 1154: ID = blocks
+Line 1154: [
+Line 1154: ID = i
+Line 1154: ]
+Line 1154: =
+Line 1154: ID = b
+Line 1154: ;
+Line 1155: }
+Line 1156: }
+Line 1157: return
+Line 1157: ID = group_info
+Line 1157: ;
+Line 1159: ID = out_undo_partial_alloc
+Line 1159: Unrecognized token: 58
+Line 1160: while
+Line 1160: (
+Line 1160: -
+Line 1160: -
+Line 1160: ID = i
+Line 1160: >=
+Line 1160: INTCON = 0
+Line 1160: )
+Line 1160: {
+Line 1161: ID = free_page
+Line 1161: (
+Line 1161: (
+Line 1161: ID = unsigned
+Line 1161: ID = long
+Line 1161: )
+Line 1161: ID = group_info
+Line 1161: -
+Line 1161: >
+Line 1161: ID = blocks
+Line 1161: [
+Line 1161: ID = i
+Line 1161: ]
+Line 1161: )
+Line 1161: ;
+Line 1162: }
+Line 1163: ID = kfree
+Line 1163: (
+Line 1163: ID = group_info
+Line 1163: )
+Line 1163: ;
+Line 1164: return
+Line 1164: ID = NULL
+Line 1164: ;
+Line 1165: }
+Line 1167: ID = EXPORT_SYMBOL
+Line 1167: (
+Line 1167: ID = groups_alloc
+Line 1167: )
+Line 1167: ;
+Line 1169: void
+Line 1169: ID = groups_free
+Line 1169: (
+Line 1169: ID = struct
+Line 1169: ID = group_info
+Line 1169: *
+Line 1169: ID = group_info
+Line 1169: )
+Line 1170: {
+Line 1171: if
+Line 1171: (
+Line 1171: ID = group_info
+Line 1171: -
+Line 1171: >
+Line 1171: ID = blocks
+Line 1171: [
+Line 1171: INTCON = 0
+Line 1171: ]
+Line 1171: !=
+Line 1171: ID = group_info
+Line 1171: -
+Line 1171: >
+Line 1171: ID = small_block
+Line 1171: )
+Line 1171: {
+Line 1172: int
+Line 1172: ID = i
+Line 1172: ;
+Line 1173: for
+Line 1173: (
+Line 1173: ID = i
+Line 1173: =
+Line 1173: INTCON = 0
+Line 1173: ;
+Line 1173: ID = i
+Line 1173: <
+Line 1173: ID = group_info
+Line 1173: -
+Line 1173: >
+Line 1173: ID = nblocks
+Line 1173: ;
+Line 1173: ID = i
+Line 1173: +
+Line 1173: +
+Line 1173: )
+Line 1174: ID = free_page
+Line 1174: (
+Line 1174: (
+Line 1174: ID = unsigned
+Line 1174: ID = long
+Line 1174: )
+Line 1174: ID = group_info
+Line 1174: -
+Line 1174: >
+Line 1174: ID = blocks
+Line 1174: [
+Line 1174: ID = i
+Line 1174: ]
+Line 1174: )
+Line 1174: ;
+Line 1175: }
+Line 1176: ID = kfree
+Line 1176: (
+Line 1176: ID = group_info
+Line 1176: )
+Line 1176: ;
+Line 1177: }
+Line 1179: ID = EXPORT_SYMBOL
+Line 1179: (
+Line 1179: ID = groups_free
+Line 1179: )
+Line 1179: ;
+Line 1182: ID = static
+Line 1182: int
+Line 1182: ID = groups_to_user
+Line 1182: (
+Line 1182: ID = gid_t
+Line 1182: Unrecognized token: 95
+Line 1182: Unrecognized token: 95
+Line 1182: ID = user
+Line 1182: *
+Line 1182: ID = grouplist
+Line 1182: ,
+Line 1183: ID = struct
+Line 1183: ID = group_info
+Line 1183: *
+Line 1183: ID = group_info
+Line 1183: )
+Line 1184: {
+Line 1185: int
+Line 1185: ID = i
+Line 1185: ;
+Line 1186: int
+Line 1186: ID = count
+Line 1186: =
+Line 1186: ID = group_info
+Line 1186: -
+Line 1186: >
+Line 1186: ID = ngroups
+Line 1186: ;
+Line 1188: for
+Line 1188: (
+Line 1188: ID = i
+Line 1188: =
+Line 1188: INTCON = 0
+Line 1188: ;
+Line 1188: ID = i
+Line 1188: <
+Line 1188: ID = group_info
+Line 1188: -
+Line 1188: >
+Line 1188: ID = nblocks
+Line 1188: ;
+Line 1188: ID = i
+Line 1188: +
+Line 1188: +
+Line 1188: )
+Line 1188: {
+Line 1189: int
+Line 1189: ID = cp_count
+Line 1189: =
+Line 1189: ID = min
+Line 1189: (
+Line 1189: ID = NGROUPS_PER_BLOCK
+Line 1189: ,
+Line 1189: ID = count
+Line 1189: )
+Line 1189: ;
+Line 1190: int
+Line 1190: ID = off
+Line 1190: =
+Line 1190: ID = i
+Line 1190: *
+Line 1190: ID = NGROUPS_PER_BLOCK
+Line 1190: ;
+Line 1191: int
+Line 1191: ID = len
+Line 1191: =
+Line 1191: ID = cp_count
+Line 1191: *
+Line 1191: ID = sizeof
+Line 1191: (
+Line 1191: *
+Line 1191: ID = grouplist
+Line 1191: )
+Line 1191: ;
+Line 1193: if
+Line 1193: (
+Line 1193: ID = copy_to_user
+Line 1193: (
+Line 1193: ID = grouplist
+Line 1193: +
+Line 1193: ID = off
+Line 1193: ,
+Line 1193: ID = group_info
+Line 1193: -
+Line 1193: >
+Line 1193: ID = blocks
+Line 1193: [
+Line 1193: ID = i
+Line 1193: ]
+Line 1193: ,
+Line 1193: ID = len
+Line 1193: )
+Line 1193: )
+Line 1194: return
+Line 1194: -
+Line 1194: ID = EFAULT
+Line 1194: ;
+Line 1196: ID = count
+Line 1196: -
+Line 1196: =
+Line 1196: ID = cp_count
+Line 1196: ;
+Line 1197: }
+Line 1198: return
+Line 1198: INTCON = 0
+Line 1198: ;
+Line 1199: }
+Line 1202: ID = static
+Line 1202: int
+Line 1202: ID = groups_from_user
+Line 1202: (
+Line 1202: ID = struct
+Line 1202: ID = group_info
+Line 1202: *
+Line 1202: ID = group_info
+Line 1202: ,
+Line 1203: ID = gid_t
+Line 1203: Unrecognized token: 95
+Line 1203: Unrecognized token: 95
+Line 1203: ID = user
+Line 1203: *
+Line 1203: ID = grouplist
+Line 1203: )
+Line 1204: {
+Line 1205: int
+Line 1205: ID = i
+Line 1205: ;
+Line 1206: int
+Line 1206: ID = count
+Line 1206: =
+Line 1206: ID = group_info
+Line 1206: -
+Line 1206: >
+Line 1206: ID = ngroups
+Line 1206: ;
+Line 1208: for
+Line 1208: (
+Line 1208: ID = i
+Line 1208: =
+Line 1208: INTCON = 0
+Line 1208: ;
+Line 1208: ID = i
+Line 1208: <
+Line 1208: ID = group_info
+Line 1208: -
+Line 1208: >
+Line 1208: ID = nblocks
+Line 1208: ;
+Line 1208: ID = i
+Line 1208: +
+Line 1208: +
+Line 1208: )
+Line 1208: {
+Line 1209: int
+Line 1209: ID = cp_count
+Line 1209: =
+Line 1209: ID = min
+Line 1209: (
+Line 1209: ID = NGROUPS_PER_BLOCK
+Line 1209: ,
+Line 1209: ID = count
+Line 1209: )
+Line 1209: ;
+Line 1210: int
+Line 1210: ID = off
+Line 1210: =
+Line 1210: ID = i
+Line 1210: *
+Line 1210: ID = NGROUPS_PER_BLOCK
+Line 1210: ;
+Line 1211: int
+Line 1211: ID = len
+Line 1211: =
+Line 1211: ID = cp_count
+Line 1211: *
+Line 1211: ID = sizeof
+Line 1211: (
+Line 1211: *
+Line 1211: ID = grouplist
+Line 1211: )
+Line 1211: ;
+Line 1213: if
+Line 1213: (
+Line 1213: ID = copy_from_user
+Line 1213: (
+Line 1213: ID = group_info
+Line 1213: -
+Line 1213: >
+Line 1213: ID = blocks
+Line 1213: [
+Line 1213: ID = i
+Line 1213: ]
+Line 1213: ,
+Line 1213: ID = grouplist
+Line 1213: +
+Line 1213: ID = off
+Line 1213: ,
+Line 1213: ID = len
+Line 1213: )
+Line 1213: )
+Line 1214: return
+Line 1214: -
+Line 1214: ID = EFAULT
+Line 1214: ;
+Line 1216: ID = count
+Line 1216: -
+Line 1216: =
+Line 1216: ID = cp_count
+Line 1216: ;
+Line 1217: }
+Line 1218: return
+Line 1218: INTCON = 0
+Line 1218: ;
+Line 1219: }
+Line 1222: ID = static
+Line 1222: void
+Line 1222: ID = groups_sort
+Line 1222: (
+Line 1222: ID = struct
+Line 1222: ID = group_info
+Line 1222: *
+Line 1222: ID = group_info
+Line 1222: )
+Line 1223: {
+Line 1224: int
+Line 1224: ID = base
+Line 1224: ,
+Line 1224: ID = max
+Line 1224: ,
+Line 1224: ID = stride
+Line 1224: ;
+Line 1225: int
+Line 1225: ID = gidsetsize
+Line 1225: =
+Line 1225: ID = group_info
+Line 1225: -
+Line 1225: >
+Line 1225: ID = ngroups
+Line 1225: ;
+Line 1227: for
+Line 1227: (
+Line 1227: ID = stride
+Line 1227: =
+Line 1227: INTCON = 1
+Line 1227: ;
+Line 1227: ID = stride
+Line 1227: <
+Line 1227: ID = gidsetsize
+Line 1227: ;
+Line 1227: ID = stride
+Line 1227: =
+Line 1227: INTCON = 3
+Line 1227: *
+Line 1227: ID = stride
+Line 1227: +
+Line 1227: INTCON = 1
+Line 1227: )
+Line 1228: ;
+Line 1229: ID = stride
+Line 1229: /
+Line 1229: =
+Line 1229: INTCON = 3
+Line 1229: ;
+Line 1231: while
+Line 1231: (
+Line 1231: ID = stride
+Line 1231: )
+Line 1231: {
+Line 1232: ID = max
+Line 1232: =
+Line 1232: ID = gidsetsize
+Line 1232: -
+Line 1232: ID = stride
+Line 1232: ;
+Line 1233: for
+Line 1233: (
+Line 1233: ID = base
+Line 1233: =
+Line 1233: INTCON = 0
+Line 1233: ;
+Line 1233: ID = base
+Line 1233: <
+Line 1233: ID = max
+Line 1233: ;
+Line 1233: ID = base
+Line 1233: +
+Line 1233: +
+Line 1233: )
+Line 1233: {
+Line 1234: int
+Line 1234: ID = left
+Line 1234: =
+Line 1234: ID = base
+Line 1234: ;
+Line 1235: int
+Line 1235: ID = right
+Line 1235: =
+Line 1235: ID = left
+Line 1235: +
+Line 1235: ID = stride
+Line 1235: ;
+Line 1236: ID = gid_t
+Line 1236: ID = tmp
+Line 1236: =
+Line 1236: ID = GROUP_AT
+Line 1236: (
+Line 1236: ID = group_info
+Line 1236: ,
+Line 1236: ID = right
+Line 1236: )
+Line 1236: ;
+Line 1238: while
+Line 1238: (
+Line 1238: ID = left
+Line 1238: >=
+Line 1238: INTCON = 0
+Line 1238: &&
+Line 1238: ID = GROUP_AT
+Line 1238: (
+Line 1238: ID = group_info
+Line 1238: ,
+Line 1238: ID = left
+Line 1238: )
+Line 1238: >
+Line 1238: ID = tmp
+Line 1238: )
+Line 1238: {
+Line 1239: ID = GROUP_AT
+Line 1239: (
+Line 1239: ID = group_info
+Line 1239: ,
+Line 1239: ID = right
+Line 1239: )
+Line 1239: =
+Line 1240: ID = GROUP_AT
+Line 1240: (
+Line 1240: ID = group_info
+Line 1240: ,
+Line 1240: ID = left
+Line 1240: )
+Line 1240: ;
+Line 1241: ID = right
+Line 1241: =
+Line 1241: ID = left
+Line 1241: ;
+Line 1242: ID = left
+Line 1242: -
+Line 1242: =
+Line 1242: ID = stride
+Line 1242: ;
+Line 1243: }
+Line 1244: ID = GROUP_AT
+Line 1244: (
+Line 1244: ID = group_info
+Line 1244: ,
+Line 1244: ID = right
+Line 1244: )
+Line 1244: =
+Line 1244: ID = tmp
+Line 1244: ;
+Line 1245: }
+Line 1246: ID = stride
+Line 1246: /
+Line 1246: =
+Line 1246: INTCON = 3
+Line 1246: ;
+Line 1247: }
+Line 1248: }
+Line 1251: ID = static
+Line 1251: int
+Line 1251: ID = groups_search
+Line 1251: (
+Line 1251: ID = struct
+Line 1251: ID = group_info
+Line 1251: *
+Line 1251: ID = group_info
+Line 1251: ,
+Line 1251: ID = gid_t
+Line 1251: ID = grp
+Line 1251: )
+Line 1252: {
+Line 1253: int
+Line 1253: ID = left
+Line 1253: ,
+Line 1253: ID = right
+Line 1253: ;
+Line 1255: if
+Line 1255: (
+Line 1255: !
+Line 1255: ID = group_info
+Line 1255: )
+Line 1256: return
+Line 1256: INTCON = 0
+Line 1256: ;
+Line 1258: ID = left
+Line 1258: =
+Line 1258: INTCON = 0
+Line 1258: ;
+Line 1259: ID = right
+Line 1259: =
+Line 1259: ID = group_info
+Line 1259: -
+Line 1259: >
+Line 1259: ID = ngroups
+Line 1259: ;
+Line 1260: while
+Line 1260: (
+Line 1260: ID = left
+Line 1260: <
+Line 1260: ID = right
+Line 1260: )
+Line 1260: {
+Line 1261: int
+Line 1261: ID = mid
+Line 1261: =
+Line 1261: (
+Line 1261: ID = left
+Line 1261: +
+Line 1261: ID = right
+Line 1261: )
+Line 1261: /
+Line 1261: INTCON = 2
+Line 1261: ;
+Line 1262: int
+Line 1262: ID = cmp
+Line 1262: =
+Line 1262: ID = grp
+Line 1262: -
+Line 1262: ID = GROUP_AT
+Line 1262: (
+Line 1262: ID = group_info
+Line 1262: ,
+Line 1262: ID = mid
+Line 1262: )
+Line 1262: ;
+Line 1263: if
+Line 1263: (
+Line 1263: ID = cmp
+Line 1263: >
+Line 1263: INTCON = 0
+Line 1263: )
+Line 1264: ID = left
+Line 1264: =
+Line 1264: ID = mid
+Line 1264: +
+Line 1264: INTCON = 1
+Line 1264: ;
+Line 1265: else
+Line 1265: if
+Line 1265: (
+Line 1265: ID = cmp
+Line 1265: <
+Line 1265: INTCON = 0
+Line 1265: )
+Line 1266: ID = right
+Line 1266: =
+Line 1266: ID = mid
+Line 1266: ;
+Line 1267: else
+Line 1268: return
+Line 1268: INTCON = 1
+Line 1268: ;
+Line 1269: }
+Line 1270: return
+Line 1270: INTCON = 0
+Line 1270: ;
+Line 1271: }
+Line 1274: int
+Line 1274: ID = set_current_groups
+Line 1274: (
+Line 1274: ID = struct
+Line 1274: ID = group_info
+Line 1274: *
+Line 1274: ID = group_info
+Line 1274: )
+Line 1275: {
+Line 1276: int
+Line 1276: ID = retval
+Line 1276: ;
+Line 1277: ID = struct
+Line 1277: ID = group_info
+Line 1277: *
+Line 1277: ID = old_info
+Line 1277: ;
+Line 1279: ID = retval
+Line 1279: =
+Line 1279: ID = security_task_setgroups
+Line 1279: (
+Line 1279: ID = group_info
+Line 1279: )
+Line 1279: ;
+Line 1280: if
+Line 1280: (
+Line 1280: ID = retval
+Line 1280: )
+Line 1281: return
+Line 1281: ID = retval
+Line 1281: ;
+Line 1283: ID = groups_sort
+Line 1283: (
+Line 1283: ID = group_info
+Line 1283: )
+Line 1283: ;
+Line 1284: ID = get_group_info
+Line 1284: (
+Line 1284: ID = group_info
+Line 1284: )
+Line 1284: ;
+Line 1286: ID = task_lock
+Line 1286: (
+Line 1286: ID = current
+Line 1286: )
+Line 1286: ;
+Line 1287: ID = old_info
+Line 1287: =
+Line 1287: ID = current
+Line 1287: -
+Line 1287: >
+Line 1287: ID = group_info
+Line 1287: ;
+Line 1288: ID = current
+Line 1288: -
+Line 1288: >
+Line 1288: ID = group_info
+Line 1288: =
+Line 1288: ID = group_info
+Line 1288: ;
+Line 1289: ID = task_unlock
+Line 1289: (
+Line 1289: ID = current
+Line 1289: )
+Line 1289: ;
+Line 1291: ID = put_group_info
+Line 1291: (
+Line 1291: ID = old_info
+Line 1291: )
+Line 1291: ;
+Line 1293: return
+Line 1293: INTCON = 0
+Line 1293: ;
+Line 1294: }
+Line 1296: ID = EXPORT_SYMBOL
+Line 1296: (
+Line 1296: ID = set_current_groups
+Line 1296: )
+Line 1296: ;
+Line 1298: ID = asmlinkage
+Line 1298: ID = long
+Line 1298: ID = sys_getgroups
+Line 1298: (
+Line 1298: int
+Line 1298: ID = gidsetsize
+Line 1298: ,
+Line 1298: ID = gid_t
+Line 1298: Unrecognized token: 95
+Line 1298: Unrecognized token: 95
+Line 1298: ID = user
+Line 1298: *
+Line 1298: ID = grouplist
+Line 1298: )
+Line 1299: {
+Line 1300: int
+Line 1300: ID = i
+Line 1300: =
+Line 1300: INTCON = 0
+Line 1300: ;
+Line 1307: if
+Line 1307: (
+Line 1307: ID = gidsetsize
+Line 1307: <
+Line 1307: INTCON = 0
+Line 1307: )
+Line 1308: return
+Line 1308: -
+Line 1308: ID = EINVAL
+Line 1308: ;
+Line 1311: ID = get_group_info
+Line 1311: (
+Line 1311: ID = current
+Line 1311: -
+Line 1311: >
+Line 1311: ID = group_info
+Line 1311: )
+Line 1311: ;
+Line 1312: ID = i
+Line 1312: =
+Line 1312: ID = current
+Line 1312: -
+Line 1312: >
+Line 1312: ID = group_info
+Line 1312: -
+Line 1312: >
+Line 1312: ID = ngroups
+Line 1312: ;
+Line 1313: if
+Line 1313: (
+Line 1313: ID = gidsetsize
+Line 1313: )
+Line 1313: {
+Line 1314: if
+Line 1314: (
+Line 1314: ID = i
+Line 1314: >
+Line 1314: ID = gidsetsize
+Line 1314: )
+Line 1314: {
+Line 1315: ID = i
+Line 1315: =
+Line 1315: -
+Line 1315: ID = EINVAL
+Line 1315: ;
+Line 1316: ID = goto
+Line 1316: ID = out
+Line 1316: ;
+Line 1317: }
+Line 1318: if
+Line 1318: (
+Line 1318: ID = groups_to_user
+Line 1318: (
+Line 1318: ID = grouplist
+Line 1318: ,
+Line 1318: ID = current
+Line 1318: -
+Line 1318: >
+Line 1318: ID = group_info
+Line 1318: )
+Line 1318: )
+Line 1318: {
+Line 1319: ID = i
+Line 1319: =
+Line 1319: -
+Line 1319: ID = EFAULT
+Line 1319: ;
+Line 1320: ID = goto
+Line 1320: ID = out
+Line 1320: ;
+Line 1321: }
+Line 1322: }
+Line 1323: ID = out
+Line 1323: Unrecognized token: 58
+Line 1324: ID = put_group_info
+Line 1324: (
+Line 1324: ID = current
+Line 1324: -
+Line 1324: >
+Line 1324: ID = group_info
+Line 1324: )
+Line 1324: ;
+Line 1325: return
+Line 1325: ID = i
+Line 1325: ;
+Line 1326: }
+Line 1333: ID = asmlinkage
+Line 1333: ID = long
+Line 1333: ID = sys_setgroups
+Line 1333: (
+Line 1333: int
+Line 1333: ID = gidsetsize
+Line 1333: ,
+Line 1333: ID = gid_t
+Line 1333: Unrecognized token: 95
+Line 1333: Unrecognized token: 95
+Line 1333: ID = user
+Line 1333: *
+Line 1333: ID = grouplist
+Line 1333: )
+Line 1334: {
+Line 1335: ID = struct
+Line 1335: ID = group_info
+Line 1335: *
+Line 1335: ID = group_info
+Line 1335: ;
+Line 1336: int
+Line 1336: ID = retval
+Line 1336: ;
+Line 1338: if
+Line 1338: (
+Line 1338: !
+Line 1338: ID = capable
+Line 1338: (
+Line 1338: ID = CAP_SETGID
+Line 1338: )
+Line 1338: )
+Line 1339: return
+Line 1339: -
+Line 1339: ID = EPERM
+Line 1339: ;
+Line 1340: if
+Line 1340: (
+Line 1340: (
+Line 1340: ID = unsigned
+Line 1340: )
+Line 1340: ID = gidsetsize
+Line 1340: >
+Line 1340: ID = NGROUPS_MAX
+Line 1340: )
+Line 1341: return
+Line 1341: -
+Line 1341: ID = EINVAL
+Line 1341: ;
+Line 1343: ID = group_info
+Line 1343: =
+Line 1343: ID = groups_alloc
+Line 1343: (
+Line 1343: ID = gidsetsize
+Line 1343: )
+Line 1343: ;
+Line 1344: if
+Line 1344: (
+Line 1344: !
+Line 1344: ID = group_info
+Line 1344: )
+Line 1345: return
+Line 1345: -
+Line 1345: ID = ENOMEM
+Line 1345: ;
+Line 1346: ID = retval
+Line 1346: =
+Line 1346: ID = groups_from_user
+Line 1346: (
+Line 1346: ID = group_info
+Line 1346: ,
+Line 1346: ID = grouplist
+Line 1346: )
+Line 1346: ;
+Line 1347: if
+Line 1347: (
+Line 1347: ID = retval
+Line 1347: )
+Line 1347: {
+Line 1348: ID = put_group_info
+Line 1348: (
+Line 1348: ID = group_info
+Line 1348: )
+Line 1348: ;
+Line 1349: return
+Line 1349: ID = retval
+Line 1349: ;
+Line 1350: }
+Line 1352: ID = retval
+Line 1352: =
+Line 1352: ID = set_current_groups
+Line 1352: (
+Line 1352: ID = group_info
+Line 1352: )
+Line 1352: ;
+Line 1353: ID = put_group_info
+Line 1353: (
+Line 1353: ID = group_info
+Line 1353: )
+Line 1353: ;
+Line 1355: return
+Line 1355: ID = retval
+Line 1355: ;
+Line 1356: }
+Line 1361: int
+Line 1361: ID = in_group_p
+Line 1361: (
+Line 1361: ID = gid_t
+Line 1361: ID = grp
+Line 1361: )
+Line 1362: {
+Line 1363: int
+Line 1363: ID = retval
+Line 1363: =
+Line 1363: INTCON = 1
+Line 1363: ;
+Line 1364: if
+Line 1364: (
+Line 1364: ID = grp
+Line 1364: !=
+Line 1364: ID = current
+Line 1364: -
+Line 1364: >
+Line 1364: ID = fsgid
+Line 1364: )
+Line 1364: {
+Line 1365: ID = get_group_info
+Line 1365: (
+Line 1365: ID = current
+Line 1365: -
+Line 1365: >
+Line 1365: ID = group_info
+Line 1365: )
+Line 1365: ;
+Line 1366: ID = retval
+Line 1366: =
+Line 1366: ID = groups_search
+Line 1366: (
+Line 1366: ID = current
+Line 1366: -
+Line 1366: >
+Line 1366: ID = group_info
+Line 1366: ,
+Line 1366: ID = grp
+Line 1366: )
+Line 1366: ;
+Line 1367: ID = put_group_info
+Line 1367: (
+Line 1367: ID = current
+Line 1367: -
+Line 1367: >
+Line 1367: ID = group_info
+Line 1367: )
+Line 1367: ;
+Line 1368: }
+Line 1369: return
+Line 1369: ID = retval
+Line 1369: ;
+Line 1370: }
+Line 1372: ID = EXPORT_SYMBOL
+Line 1372: (
+Line 1372: ID = in_group_p
+Line 1372: )
+Line 1372: ;
+Line 1374: int
+Line 1374: ID = in_egroup_p
+Line 1374: (
+Line 1374: ID = gid_t
+Line 1374: ID = grp
+Line 1374: )
+Line 1375: {
+Line 1376: int
+Line 1376: ID = retval
+Line 1376: =
+Line 1376: INTCON = 1
+Line 1376: ;
+Line 1377: if
+Line 1377: (
+Line 1377: ID = grp
+Line 1377: !=
+Line 1377: ID = current
+Line 1377: -
+Line 1377: >
+Line 1377: ID = egid
+Line 1377: )
+Line 1377: {
+Line 1378: ID = get_group_info
+Line 1378: (
+Line 1378: ID = current
+Line 1378: -
+Line 1378: >
+Line 1378: ID = group_info
+Line 1378: )
+Line 1378: ;
+Line 1379: ID = retval
+Line 1379: =
+Line 1379: ID = groups_search
+Line 1379: (
+Line 1379: ID = current
+Line 1379: -
+Line 1379: >
+Line 1379: ID = group_info
+Line 1379: ,
+Line 1379: ID = grp
+Line 1379: )
+Line 1379: ;
+Line 1380: ID = put_group_info
+Line 1380: (
+Line 1380: ID = current
+Line 1380: -
+Line 1380: >
+Line 1380: ID = group_info
+Line 1380: )
+Line 1380: ;
+Line 1381: }
+Line 1382: return
+Line 1382: ID = retval
+Line 1382: ;
+Line 1383: }
+Line 1385: ID = EXPORT_SYMBOL
+Line 1385: (
+Line 1385: ID = in_egroup_p
+Line 1385: )
+Line 1385: ;
+Line 1387: ID = DECLARE_RWSEM
+Line 1387: (
+Line 1387: ID = uts_sem
+Line 1387: )
+Line 1387: ;
+Line 1389: ID = EXPORT_SYMBOL
+Line 1389: (
+Line 1389: ID = uts_sem
+Line 1389: )
+Line 1389: ;
+Line 1391: ID = asmlinkage
+Line 1391: ID = long
+Line 1391: ID = sys_newuname
+Line 1391: (
+Line 1391: ID = struct
+Line 1391: ID = new_utsname
+Line 1391: Unrecognized token: 95
+Line 1391: Unrecognized token: 95
+Line 1391: ID = user
+Line 1391: *
+Line 1391: ID = name
+Line 1391: )
+Line 1392: {
+Line 1393: int
+Line 1393: ID = errno
+Line 1393: =
+Line 1393: INTCON = 0
+Line 1393: ;
+Line 1395: ID = down_read
+Line 1395: (
+Line 1395: Unrecognized token: 38
+Line 1395: ID = uts_sem
+Line 1395: )
+Line 1395: ;
+Line 1396: if
+Line 1396: (
+Line 1396: ID = copy_to_user
+Line 1396: (
+Line 1396: ID = name
+Line 1396: ,
+Line 1396: Unrecognized token: 38
+Line 1396: ID = system_utsname
+Line 1396: ,
+Line 1396: ID = sizeof
+Line 1396: *
+Line 1396: ID = name
+Line 1396: )
+Line 1396: )
+Line 1397: ID = errno
+Line 1397: =
+Line 1397: -
+Line 1397: ID = EFAULT
+Line 1397: ;
+Line 1398: ID = up_read
+Line 1398: (
+Line 1398: Unrecognized token: 38
+Line 1398: ID = uts_sem
+Line 1398: )
+Line 1398: ;
+Line 1399: return
+Line 1399: ID = errno
+Line 1399: ;
+Line 1400: }
+Line 1402: ID = asmlinkage
+Line 1402: ID = long
+Line 1402: ID = sys_sethostname
+Line 1402: (
+Line 1402: char
+Line 1402: Unrecognized token: 95
+Line 1402: Unrecognized token: 95
+Line 1402: ID = user
+Line 1402: *
+Line 1402: ID = name
+Line 1402: ,
+Line 1402: int
+Line 1402: ID = len
+Line 1402: )
+Line 1403: {
+Line 1404: int
+Line 1404: ID = errno
+Line 1404: ;
+Line 1405: char
+Line 1405: ID = tmp
+Line 1405: [
+Line 1405: Unrecognized token: 95
+Line 1405: Unrecognized token: 95
+Line 1405: ID = NEW_UTS_LEN
+Line 1405: ]
+Line 1405: ;
+Line 1407: if
+Line 1407: (
+Line 1407: !
+Line 1407: ID = capable
+Line 1407: (
+Line 1407: ID = CAP_SYS_ADMIN
+Line 1407: )
+Line 1407: )
+Line 1408: return
+Line 1408: -
+Line 1408: ID = EPERM
+Line 1408: ;
+Line 1409: if
+Line 1409: (
+Line 1409: ID = len
+Line 1409: <
+Line 1409: INTCON = 0
+Line 1409: ||
+Line 1409: ID = len
+Line 1409: >
+Line 1409: Unrecognized token: 95
+Line 1409: Unrecognized token: 95
+Line 1409: ID = NEW_UTS_LEN
+Line 1409: )
+Line 1410: return
+Line 1410: -
+Line 1410: ID = EINVAL
+Line 1410: ;
+Line 1411: ID = down_write
+Line 1411: (
+Line 1411: Unrecognized token: 38
+Line 1411: ID = uts_sem
+Line 1411: )
+Line 1411: ;
+Line 1412: ID = errno
+Line 1412: =
+Line 1412: -
+Line 1412: ID = EFAULT
+Line 1412: ;
+Line 1413: if
+Line 1413: (
+Line 1413: !
+Line 1413: ID = copy_from_user
+Line 1413: (
+Line 1413: ID = tmp
+Line 1413: ,
+Line 1413: ID = name
+Line 1413: ,
+Line 1413: ID = len
+Line 1413: )
+Line 1413: )
+Line 1413: {
+Line 1414: ID = memcpy
+Line 1414: (
+Line 1414: ID = system_utsname
+Line 1414: Unrecognized token: 46
+Line 1414: ID = nodename
+Line 1414: ,
+Line 1414: ID = tmp
+Line 1414: ,
+Line 1414: ID = len
+Line 1414: )
+Line 1414: ;
+Line 1415: ID = system_utsname
+Line 1415: Unrecognized token: 46
+Line 1415: ID = nodename
+Line 1415: [
+Line 1415: ID = len
+Line 1415: ]
+Line 1415: =
+Line 1415: INTCON = 0
+Line 1415: ;
+Line 1416: ID = errno
+Line 1416: =
+Line 1416: INTCON = 0
+Line 1416: ;
+Line 1417: }
+Line 1418: ID = up_write
+Line 1418: (
+Line 1418: Unrecognized token: 38
+Line 1418: ID = uts_sem
+Line 1418: )
+Line 1418: ;
+Line 1419: return
+Line 1419: ID = errno
+Line 1419: ;
+Line 1420: }
+Line 1422: Unrecognized token: 35
+Line 1422: ID = ifdef
+Line 1422: Unrecognized token: 95
+Line 1422: Unrecognized token: 95
+Line 1422: ID = ARCH_WANT_SYS_GETHOSTNAME
+Line 1424: ID = asmlinkage
+Line 1424: ID = long
+Line 1424: ID = sys_gethostname
+Line 1424: (
+Line 1424: char
+Line 1424: Unrecognized token: 95
+Line 1424: Unrecognized token: 95
+Line 1424: ID = user
+Line 1424: *
+Line 1424: ID = name
+Line 1424: ,
+Line 1424: int
+Line 1424: ID = len
+Line 1424: )
+Line 1425: {
+Line 1426: int
+Line 1426: ID = i
+Line 1426: ,
+Line 1426: ID = errno
+Line 1426: ;
+Line 1428: if
+Line 1428: (
+Line 1428: ID = len
+Line 1428: <
+Line 1428: INTCON = 0
+Line 1428: )
+Line 1429: return
+Line 1429: -
+Line 1429: ID = EINVAL
+Line 1429: ;
+Line 1430: ID = down_read
+Line 1430: (
+Line 1430: Unrecognized token: 38
+Line 1430: ID = uts_sem
+Line 1430: )
+Line 1430: ;
+Line 1431: ID = i
+Line 1431: =
+Line 1431: INTCON = 1
+Line 1431: +
+Line 1431: ID = strlen
+Line 1431: (
+Line 1431: ID = system_utsname
+Line 1431: Unrecognized token: 46
+Line 1431: ID = nodename
+Line 1431: )
+Line 1431: ;
+Line 1432: if
+Line 1432: (
+Line 1432: ID = i
+Line 1432: >
+Line 1432: ID = len
+Line 1432: )
+Line 1433: ID = i
+Line 1433: =
+Line 1433: ID = len
+Line 1433: ;
+Line 1434: ID = errno
+Line 1434: =
+Line 1434: INTCON = 0
+Line 1434: ;
+Line 1435: if
+Line 1435: (
+Line 1435: ID = copy_to_user
+Line 1435: (
+Line 1435: ID = name
+Line 1435: ,
+Line 1435: ID = system_utsname
+Line 1435: Unrecognized token: 46
+Line 1435: ID = nodename
+Line 1435: ,
+Line 1435: ID = i
+Line 1435: )
+Line 1435: )
+Line 1436: ID = errno
+Line 1436: =
+Line 1436: -
+Line 1436: ID = EFAULT
+Line 1436: ;
+Line 1437: ID = up_read
+Line 1437: (
+Line 1437: Unrecognized token: 38
+Line 1437: ID = uts_sem
+Line 1437: )
+Line 1437: ;
+Line 1438: return
+Line 1438: ID = errno
+Line 1438: ;
+Line 1439: }
+Line 1441: Unrecognized token: 35
+Line 1441: ID = endif
+Line 1447: ID = asmlinkage
+Line 1447: ID = long
+Line 1447: ID = sys_setdomainname
+Line 1447: (
+Line 1447: char
+Line 1447: Unrecognized token: 95
+Line 1447: Unrecognized token: 95
+Line 1447: ID = user
+Line 1447: *
+Line 1447: ID = name
+Line 1447: ,
+Line 1447: int
+Line 1447: ID = len
+Line 1447: )
+Line 1448: {
+Line 1449: int
+Line 1449: ID = errno
+Line 1449: ;
+Line 1450: char
+Line 1450: ID = tmp
+Line 1450: [
+Line 1450: Unrecognized token: 95
+Line 1450: Unrecognized token: 95
+Line 1450: ID = NEW_UTS_LEN
+Line 1450: ]
+Line 1450: ;
+Line 1452: if
+Line 1452: (
+Line 1452: !
+Line 1452: ID = capable
+Line 1452: (
+Line 1452: ID = CAP_SYS_ADMIN
+Line 1452: )
+Line 1452: )
+Line 1453: return
+Line 1453: -
+Line 1453: ID = EPERM
+Line 1453: ;
+Line 1454: if
+Line 1454: (
+Line 1454: ID = len
+Line 1454: <
+Line 1454: INTCON = 0
+Line 1454: ||
+Line 1454: ID = len
+Line 1454: >
+Line 1454: Unrecognized token: 95
+Line 1454: Unrecognized token: 95
+Line 1454: ID = NEW_UTS_LEN
+Line 1454: )
+Line 1455: return
+Line 1455: -
+Line 1455: ID = EINVAL
+Line 1455: ;
+Line 1457: ID = down_write
+Line 1457: (
+Line 1457: Unrecognized token: 38
+Line 1457: ID = uts_sem
+Line 1457: )
+Line 1457: ;
+Line 1458: ID = errno
+Line 1458: =
+Line 1458: -
+Line 1458: ID = EFAULT
+Line 1458: ;
+Line 1459: if
+Line 1459: (
+Line 1459: !
+Line 1459: ID = copy_from_user
+Line 1459: (
+Line 1459: ID = tmp
+Line 1459: ,
+Line 1459: ID = name
+Line 1459: ,
+Line 1459: ID = len
+Line 1459: )
+Line 1459: )
+Line 1459: {
+Line 1460: ID = memcpy
+Line 1460: (
+Line 1460: ID = system_utsname
+Line 1460: Unrecognized token: 46
+Line 1460: ID = domainname
+Line 1460: ,
+Line 1460: ID = tmp
+Line 1460: ,
+Line 1460: ID = len
+Line 1460: )
+Line 1460: ;
+Line 1461: ID = system_utsname
+Line 1461: Unrecognized token: 46
+Line 1461: ID = domainname
+Line 1461: [
+Line 1461: ID = len
+Line 1461: ]
+Line 1461: =
+Line 1461: INTCON = 0
+Line 1461: ;
+Line 1462: ID = errno
+Line 1462: =
+Line 1462: INTCON = 0
+Line 1462: ;
+Line 1463: }
+Line 1464: ID = up_write
+Line 1464: (
+Line 1464: Unrecognized token: 38
+Line 1464: ID = uts_sem
+Line 1464: )
+Line 1464: ;
+Line 1465: return
+Line 1465: ID = errno
+Line 1465: ;
+Line 1466: }
+Line 1468: ID = asmlinkage
+Line 1468: ID = long
+Line 1468: ID = sys_getrlimit
+Line 1468: (
+Line 1468: ID = unsigned
+Line 1468: int
+Line 1468: ID = resource
+Line 1468: ,
+Line 1468: ID = struct
+Line 1468: ID = rlimit
+Line 1468: Unrecognized token: 95
+Line 1468: Unrecognized token: 95
+Line 1468: ID = user
+Line 1468: *
+Line 1468: ID = rlim
+Line 1468: )
+Line 1469: {
+Line 1470: if
+Line 1470: (
+Line 1470: ID = resource
+Line 1470: >=
+Line 1470: ID = RLIM_NLIMITS
+Line 1470: )
+Line 1471: return
+Line 1471: -
+Line 1471: ID = EINVAL
+Line 1471: ;
+Line 1472: else
+Line 1473: return
+Line 1473: ID = copy_to_user
+Line 1473: (
+Line 1473: ID = rlim
+Line 1473: ,
+Line 1473: ID = current
+Line 1473: -
+Line 1473: >
+Line 1473: ID = rlim
+Line 1473: +
+Line 1473: ID = resource
+Line 1473: ,
+Line 1473: ID = sizeof
+Line 1473: (
+Line 1473: *
+Line 1473: ID = rlim
+Line 1473: )
+Line 1473: )
+Line 1474: Unrecognized token: 63
+Line 1474: -
+Line 1474: ID = EFAULT
+Line 1474: Unrecognized token: 58
+Line 1474: INTCON = 0
+Line 1474: ;
+Line 1475: }
+Line 1477: Unrecognized token: 35
+Line 1477: ID = ifdef
+Line 1477: Unrecognized token: 95
+Line 1477: Unrecognized token: 95
+Line 1477: ID = ARCH_WANT_SYS_OLD_GETRLIMIT
+Line 1483: ID = asmlinkage
+Line 1483: ID = long
+Line 1483: ID = sys_old_getrlimit
+Line 1483: (
+Line 1483: ID = unsigned
+Line 1483: int
+Line 1483: ID = resource
+Line 1483: ,
+Line 1483: ID = struct
+Line 1483: ID = rlimit
+Line 1483: Unrecognized token: 95
+Line 1483: Unrecognized token: 95
+Line 1483: ID = user
+Line 1483: *
+Line 1483: ID = rlim
+Line 1483: )
+Line 1484: {
+Line 1485: ID = struct
+Line 1485: ID = rlimit
+Line 1485: ID = x
+Line 1485: ;
+Line 1486: if
+Line 1486: (
+Line 1486: ID = resource
+Line 1486: >=
+Line 1486: ID = RLIM_NLIMITS
+Line 1486: )
+Line 1487: return
+Line 1487: -
+Line 1487: ID = EINVAL
+Line 1487: ;
+Line 1489: ID = memcpy
+Line 1489: (
+Line 1489: Unrecognized token: 38
+Line 1489: ID = x
+Line 1489: ,
+Line 1489: ID = current
+Line 1489: -
+Line 1489: >
+Line 1489: ID = rlim
+Line 1489: +
+Line 1489: ID = resource
+Line 1489: ,
+Line 1489: ID = sizeof
+Line 1489: (
+Line 1489: *
+Line 1489: ID = rlim
+Line 1489: )
+Line 1489: )
+Line 1489: ;
+Line 1490: if
+Line 1490: (
+Line 1490: ID = x
+Line 1490: Unrecognized token: 46
+Line 1490: ID = rlim_cur
+Line 1490: >
+Line 1490: INTCON = 0
+Line 1490: ID = x7FFFFFFF
+Line 1490: )
+Line 1491: ID = x
+Line 1491: Unrecognized token: 46
+Line 1491: ID = rlim_cur
+Line 1491: =
+Line 1491: INTCON = 0
+Line 1491: ID = x7FFFFFFF
+Line 1491: ;
+Line 1492: if
+Line 1492: (
+Line 1492: ID = x
+Line 1492: Unrecognized token: 46
+Line 1492: ID = rlim_max
+Line 1492: >
+Line 1492: INTCON = 0
+Line 1492: ID = x7FFFFFFF
+Line 1492: )
+Line 1493: ID = x
+Line 1493: Unrecognized token: 46
+Line 1493: ID = rlim_max
+Line 1493: =
+Line 1493: INTCON = 0
+Line 1493: ID = x7FFFFFFF
+Line 1493: ;
+Line 1494: return
+Line 1494: ID = copy_to_user
+Line 1494: (
+Line 1494: ID = rlim
+Line 1494: ,
+Line 1494: Unrecognized token: 38
+Line 1494: ID = x
+Line 1494: ,
+Line 1494: ID = sizeof
+Line 1494: (
+Line 1494: ID = x
+Line 1494: )
+Line 1494: )
+Line 1494: Unrecognized token: 63
+Line 1494: -
+Line 1494: ID = EFAULT
+Line 1494: Unrecognized token: 58
+Line 1494: INTCON = 0
+Line 1494: ;
+Line 1495: }
+Line 1497: Unrecognized token: 35
+Line 1497: ID = endif
+Line 1499: ID = asmlinkage
+Line 1499: ID = long
+Line 1499: ID = sys_setrlimit
+Line 1499: (
+Line 1499: ID = unsigned
+Line 1499: int
+Line 1499: ID = resource
+Line 1499: ,
+Line 1499: ID = struct
+Line 1499: ID = rlimit
+Line 1499: Unrecognized token: 95
+Line 1499: Unrecognized token: 95
+Line 1499: ID = user
+Line 1499: *
+Line 1499: ID = rlim
+Line 1499: )
+Line 1500: {
+Line 1501: ID = struct
+Line 1501: ID = rlimit
+Line 1501: ID = new_rlim
+Line 1501: ,
+Line 1501: *
+Line 1501: ID = old_rlim
+Line 1501: ;
+Line 1502: int
+Line 1502: ID = retval
+Line 1502: ;
+Line 1504: if
+Line 1504: (
+Line 1504: ID = resource
+Line 1504: >=
+Line 1504: ID = RLIM_NLIMITS
+Line 1504: )
+Line 1505: return
+Line 1505: -
+Line 1505: ID = EINVAL
+Line 1505: ;
+Line 1506: if
+Line 1506: (
+Line 1506: ID = copy_from_user
+Line 1506: (
+Line 1506: Unrecognized token: 38
+Line 1506: ID = new_rlim
+Line 1506: ,
+Line 1506: ID = rlim
+Line 1506: ,
+Line 1506: ID = sizeof
+Line 1506: (
+Line 1506: *
+Line 1506: ID = rlim
+Line 1506: )
+Line 1506: )
+Line 1506: )
+Line 1507: return
+Line 1507: -
+Line 1507: ID = EFAULT
+Line 1507: ;
+Line 1508: if
+Line 1508: (
+Line 1508: ID = new_rlim
+Line 1508: Unrecognized token: 46
+Line 1508: ID = rlim_cur
+Line 1508: >
+Line 1508: ID = new_rlim
+Line 1508: Unrecognized token: 46
+Line 1508: ID = rlim_max
+Line 1508: )
+Line 1509: return
+Line 1509: -
+Line 1509: ID = EINVAL
+Line 1509: ;
+Line 1510: ID = old_rlim
+Line 1510: =
+Line 1510: ID = current
+Line 1510: -
+Line 1510: >
+Line 1510: ID = rlim
+Line 1510: +
+Line 1510: ID = resource
+Line 1510: ;
+Line 1511: if
+Line 1511: (
+Line 1511: (
+Line 1511: (
+Line 1511: ID = new_rlim
+Line 1511: Unrecognized token: 46
+Line 1511: ID = rlim_cur
+Line 1511: >
+Line 1511: ID = old_rlim
+Line 1511: -
+Line 1511: >
+Line 1511: ID = rlim_max
+Line 1511: )
+Line 1511: ||
+Line 1512: (
+Line 1512: ID = new_rlim
+Line 1512: Unrecognized token: 46
+Line 1512: ID = rlim_max
+Line 1512: >
+Line 1512: ID = old_rlim
+Line 1512: -
+Line 1512: >
+Line 1512: ID = rlim_max
+Line 1512: )
+Line 1512: )
+Line 1512: &&
+Line 1513: !
+Line 1513: ID = capable
+Line 1513: (
+Line 1513: ID = CAP_SYS_RESOURCE
+Line 1513: )
+Line 1513: )
+Line 1514: return
+Line 1514: -
+Line 1514: ID = EPERM
+Line 1514: ;
+Line 1515: if
+Line 1515: (
+Line 1515: ID = resource
+Line 1515: ==
+Line 1515: ID = RLIMIT_NOFILE
+Line 1515: )
+Line 1515: {
+Line 1516: if
+Line 1516: (
+Line 1516: ID = new_rlim
+Line 1516: Unrecognized token: 46
+Line 1516: ID = rlim_cur
+Line 1516: >
+Line 1516: ID = NR_OPEN
+Line 1516: ||
+Line 1516: ID = new_rlim
+Line 1516: Unrecognized token: 46
+Line 1516: ID = rlim_max
+Line 1516: >
+Line 1516: ID = NR_OPEN
+Line 1516: )
+Line 1517: return
+Line 1517: -
+Line 1517: ID = EPERM
+Line 1517: ;
+Line 1518: }
+Line 1520: ID = retval
+Line 1520: =
+Line 1520: ID = security_task_setrlimit
+Line 1520: (
+Line 1520: ID = resource
+Line 1520: ,
+Line 1520: Unrecognized token: 38
+Line 1520: ID = new_rlim
+Line 1520: )
+Line 1520: ;
+Line 1521: if
+Line 1521: (
+Line 1521: ID = retval
+Line 1521: )
+Line 1522: return
+Line 1522: ID = retval
+Line 1522: ;
+Line 1524: *
+Line 1524: ID = old_rlim
+Line 1524: =
+Line 1524: ID = new_rlim
+Line 1524: ;
+Line 1525: return
+Line 1525: INTCON = 0
+Line 1525: ;
+Line 1526: }
+Line 1543: int
+Line 1543: ID = getrusage
+Line 1543: (
+Line 1543: ID = struct
+Line 1543: ID = task_struct
+Line 1543: *
+Line 1543: ID = p
+Line 1543: ,
+Line 1543: int
+Line 1543: ID = who
+Line 1543: ,
+Line 1543: ID = struct
+Line 1543: ID = rusage
+Line 1543: Unrecognized token: 95
+Line 1543: Unrecognized token: 95
+Line 1543: ID = user
+Line 1543: *
+Line 1543: ID = ru
+Line 1543: )
+Line 1544: {
+Line 1545: ID = struct
+Line 1545: ID = rusage
+Line 1545: ID = r
+Line 1545: ;
+Line 1547: ID = memset
+Line 1547: (
+Line 1547: (
+Line 1547: char
+Line 1547: *
+Line 1547: )
+Line 1547: Unrecognized token: 38
+Line 1547: ID = r
+Line 1547: ,
+Line 1547: INTCON = 0
+Line 1547: ,
+Line 1547: ID = sizeof
+Line 1547: (
+Line 1547: ID = r
+Line 1547: )
+Line 1547: )
+Line 1547: ;
+Line 1548: ID = switch
+Line 1548: (
+Line 1548: ID = who
+Line 1548: )
+Line 1548: {
+Line 1549: ID = case
+Line 1549: ID = RUSAGE_SELF
+Line 1549: Unrecognized token: 58
+Line 1550: ID = jiffies_to_timeval
+Line 1550: (
+Line 1550: ID = p
+Line 1550: -
+Line 1550: >
+Line 1550: ID = utime
+Line 1550: ,
+Line 1550: Unrecognized token: 38
+Line 1550: ID = r
+Line 1550: Unrecognized token: 46
+Line 1550: ID = ru_utime
+Line 1550: )
+Line 1550: ;
+Line 1551: ID = jiffies_to_timeval
+Line 1551: (
+Line 1551: ID = p
+Line 1551: -
+Line 1551: >
+Line 1551: ID = stime
+Line 1551: ,
+Line 1551: Unrecognized token: 38
+Line 1551: ID = r
+Line 1551: Unrecognized token: 46
+Line 1551: ID = ru_stime
+Line 1551: )
+Line 1551: ;
+Line 1552: ID = r
+Line 1552: Unrecognized token: 46
+Line 1552: ID = ru_nvcsw
+Line 1552: =
+Line 1552: ID = p
+Line 1552: -
+Line 1552: >
+Line 1552: ID = nvcsw
+Line 1552: ;
+Line 1553: ID = r
+Line 1553: Unrecognized token: 46
+Line 1553: ID = ru_nivcsw
+Line 1553: =
+Line 1553: ID = p
+Line 1553: -
+Line 1553: >
+Line 1553: ID = nivcsw
+Line 1553: ;
+Line 1554: ID = r
+Line 1554: Unrecognized token: 46
+Line 1554: ID = ru_minflt
+Line 1554: =
+Line 1554: ID = p
+Line 1554: -
+Line 1554: >
+Line 1554: ID = min_flt
+Line 1554: ;
+Line 1555: ID = r
+Line 1555: Unrecognized token: 46
+Line 1555: ID = ru_majflt
+Line 1555: =
+Line 1555: ID = p
+Line 1555: -
+Line 1555: >
+Line 1555: ID = maj_flt
+Line 1555: ;
+Line 1556: ID = break
+Line 1556: ;
+Line 1557: ID = case
+Line 1557: ID = RUSAGE_CHILDREN
+Line 1557: Unrecognized token: 58
+Line 1558: ID = jiffies_to_timeval
+Line 1558: (
+Line 1558: ID = p
+Line 1558: -
+Line 1558: >
+Line 1558: ID = cutime
+Line 1558: ,
+Line 1558: Unrecognized token: 38
+Line 1558: ID = r
+Line 1558: Unrecognized token: 46
+Line 1558: ID = ru_utime
+Line 1558: )
+Line 1558: ;
+Line 1559: ID = jiffies_to_timeval
+Line 1559: (
+Line 1559: ID = p
+Line 1559: -
+Line 1559: >
+Line 1559: ID = cstime
+Line 1559: ,
+Line 1559: Unrecognized token: 38
+Line 1559: ID = r
+Line 1559: Unrecognized token: 46
+Line 1559: ID = ru_stime
+Line 1559: )
+Line 1559: ;
+Line 1560: ID = r
+Line 1560: Unrecognized token: 46
+Line 1560: ID = ru_nvcsw
+Line 1560: =
+Line 1560: ID = p
+Line 1560: -
+Line 1560: >
+Line 1560: ID = cnvcsw
+Line 1560: ;
+Line 1561: ID = r
+Line 1561: Unrecognized token: 46
+Line 1561: ID = ru_nivcsw
+Line 1561: =
+Line 1561: ID = p
+Line 1561: -
+Line 1561: >
+Line 1561: ID = cnivcsw
+Line 1561: ;
+Line 1562: ID = r
+Line 1562: Unrecognized token: 46
+Line 1562: ID = ru_minflt
+Line 1562: =
+Line 1562: ID = p
+Line 1562: -
+Line 1562: >
+Line 1562: ID = cmin_flt
+Line 1562: ;
+Line 1563: ID = r
+Line 1563: Unrecognized token: 46
+Line 1563: ID = ru_majflt
+Line 1563: =
+Line 1563: ID = p
+Line 1563: -
+Line 1563: >
+Line 1563: ID = cmaj_flt
+Line 1563: ;
+Line 1564: ID = break
+Line 1564: ;
+Line 1565: ID = default
+Line 1565: Unrecognized token: 58
+Line 1566: ID = jiffies_to_timeval
+Line 1566: (
+Line 1566: ID = p
+Line 1566: -
+Line 1566: >
+Line 1566: ID = utime
+Line 1566: +
+Line 1566: ID = p
+Line 1566: -
+Line 1566: >
+Line 1566: ID = cutime
+Line 1566: ,
+Line 1566: Unrecognized token: 38
+Line 1566: ID = r
+Line 1566: Unrecognized token: 46
+Line 1566: ID = ru_utime
+Line 1566: )
+Line 1566: ;
+Line 1567: ID = jiffies_to_timeval
+Line 1567: (
+Line 1567: ID = p
+Line 1567: -
+Line 1567: >
+Line 1567: ID = stime
+Line 1567: +
+Line 1567: ID = p
+Line 1567: -
+Line 1567: >
+Line 1567: ID = cstime
+Line 1567: ,
+Line 1567: Unrecognized token: 38
+Line 1567: ID = r
+Line 1567: Unrecognized token: 46
+Line 1567: ID = ru_stime
+Line 1567: )
+Line 1567: ;
+Line 1568: ID = r
+Line 1568: Unrecognized token: 46
+Line 1568: ID = ru_nvcsw
+Line 1568: =
+Line 1568: ID = p
+Line 1568: -
+Line 1568: >
+Line 1568: ID = nvcsw
+Line 1568: +
+Line 1568: ID = p
+Line 1568: -
+Line 1568: >
+Line 1568: ID = cnvcsw
+Line 1568: ;
+Line 1569: ID = r
+Line 1569: Unrecognized token: 46
+Line 1569: ID = ru_nivcsw
+Line 1569: =
+Line 1569: ID = p
+Line 1569: -
+Line 1569: >
+Line 1569: ID = nivcsw
+Line 1569: +
+Line 1569: ID = p
+Line 1569: -
+Line 1569: >
+Line 1569: ID = cnivcsw
+Line 1569: ;
+Line 1570: ID = r
+Line 1570: Unrecognized token: 46
+Line 1570: ID = ru_minflt
+Line 1570: =
+Line 1570: ID = p
+Line 1570: -
+Line 1570: >
+Line 1570: ID = min_flt
+Line 1570: +
+Line 1570: ID = p
+Line 1570: -
+Line 1570: >
+Line 1570: ID = cmin_flt
+Line 1570: ;
+Line 1571: ID = r
+Line 1571: Unrecognized token: 46
+Line 1571: ID = ru_majflt
+Line 1571: =
+Line 1571: ID = p
+Line 1571: -
+Line 1571: >
+Line 1571: ID = maj_flt
+Line 1571: +
+Line 1571: ID = p
+Line 1571: -
+Line 1571: >
+Line 1571: ID = cmaj_flt
+Line 1571: ;
+Line 1572: ID = break
+Line 1572: ;
+Line 1573: }
+Line 1574: return
+Line 1574: ID = copy_to_user
+Line 1574: (
+Line 1574: ID = ru
+Line 1574: ,
+Line 1574: Unrecognized token: 38
+Line 1574: ID = r
+Line 1574: ,
+Line 1574: ID = sizeof
+Line 1574: (
+Line 1574: ID = r
+Line 1574: )
+Line 1574: )
+Line 1574: Unrecognized token: 63
+Line 1574: -
+Line 1574: ID = EFAULT
+Line 1574: Unrecognized token: 58
+Line 1574: INTCON = 0
+Line 1574: ;
+Line 1575: }
+Line 1577: ID = asmlinkage
+Line 1577: ID = long
+Line 1577: ID = sys_getrusage
+Line 1577: (
+Line 1577: int
+Line 1577: ID = who
+Line 1577: ,
+Line 1577: ID = struct
+Line 1577: ID = rusage
+Line 1577: Unrecognized token: 95
+Line 1577: Unrecognized token: 95
+Line 1577: ID = user
+Line 1577: *
+Line 1577: ID = ru
+Line 1577: )
+Line 1578: {
+Line 1579: if
+Line 1579: (
+Line 1579: ID = who
+Line 1579: !=
+Line 1579: ID = RUSAGE_SELF
+Line 1579: &&
+Line 1579: ID = who
+Line 1579: !=
+Line 1579: ID = RUSAGE_CHILDREN
+Line 1579: )
+Line 1580: return
+Line 1580: -
+Line 1580: ID = EINVAL
+Line 1580: ;
+Line 1581: return
+Line 1581: ID = getrusage
+Line 1581: (
+Line 1581: ID = current
+Line 1581: ,
+Line 1581: ID = who
+Line 1581: ,
+Line 1581: ID = ru
+Line 1581: )
+Line 1581: ;
+Line 1582: }
+Line 1584: ID = asmlinkage
+Line 1584: ID = long
+Line 1584: ID = sys_umask
+Line 1584: (
+Line 1584: int
+Line 1584: ID = mask
+Line 1584: )
+Line 1585: {
+Line 1586: ID = mask
+Line 1586: =
+Line 1586: ID = xchg
+Line 1586: (
+Line 1586: Unrecognized token: 38
+Line 1586: ID = current
+Line 1586: -
+Line 1586: >
+Line 1586: ID = fs
+Line 1586: -
+Line 1586: >
+Line 1586: ID = umask
+Line 1586: ,
+Line 1586: ID = mask
+Line 1586: Unrecognized token: 38
+Line 1586: ID = S_IRWXUGO
+Line 1586: )
+Line 1586: ;
+Line 1587: return
+Line 1587: ID = mask
+Line 1587: ;
+Line 1588: }
+Line 1590: ID = asmlinkage
+Line 1590: ID = long
+Line 1590: ID = sys_prctl
+Line 1590: (
+Line 1590: int
+Line 1590: ID = option
+Line 1590: ,
+Line 1590: ID = unsigned
+Line 1590: ID = long
+Line 1590: ID = arg2
+Line 1590: ,
+Line 1590: ID = unsigned
+Line 1590: ID = long
+Line 1590: ID = arg3
+Line 1590: ,
+Line 1591: ID = unsigned
+Line 1591: ID = long
+Line 1591: ID = arg4
+Line 1591: ,
+Line 1591: ID = unsigned
+Line 1591: ID = long
+Line 1591: ID = arg5
+Line 1591: )
+Line 1592: {
+Line 1593: int
+Line 1593: ID = error
+Line 1593: ;
+Line 1594: int
+Line 1594: ID = sig
+Line 1594: ;
+Line 1596: ID = error
+Line 1596: =
+Line 1596: ID = security_task_prctl
+Line 1596: (
+Line 1596: ID = option
+Line 1596: ,
+Line 1596: ID = arg2
+Line 1596: ,
+Line 1596: ID = arg3
+Line 1596: ,
+Line 1596: ID = arg4
+Line 1596: ,
+Line 1596: ID = arg5
+Line 1596: )
+Line 1596: ;
+Line 1597: if
+Line 1597: (
+Line 1597: ID = error
+Line 1597: )
+Line 1598: return
+Line 1598: ID = error
+Line 1598: ;
+Line 1600: ID = switch
+Line 1600: (
+Line 1600: ID = option
+Line 1600: )
+Line 1600: {
+Line 1601: ID = case
+Line 1601: ID = PR_SET_PDEATHSIG
+Line 1601: Unrecognized token: 58
+Line 1602: ID = sig
+Line 1602: =
+Line 1602: ID = arg2
+Line 1602: ;
+Line 1603: if
+Line 1603: (
+Line 1603: ID = sig
+Line 1603: <
+Line 1603: INTCON = 0
+Line 1603: ||
+Line 1603: ID = sig
+Line 1603: >
+Line 1603: Unrecognized token: 95
+Line 1603: ID = NSIG
+Line 1603: )
+Line 1603: {
+Line 1604: ID = error
+Line 1604: =
+Line 1604: -
+Line 1604: ID = EINVAL
+Line 1604: ;
+Line 1605: ID = break
+Line 1605: ;
+Line 1606: }
+Line 1607: ID = current
+Line 1607: -
+Line 1607: >
+Line 1607: ID = pdeath_signal
+Line 1607: =
+Line 1607: ID = sig
+Line 1607: ;
+Line 1608: ID = break
+Line 1608: ;
+Line 1609: ID = case
+Line 1609: ID = PR_GET_PDEATHSIG
+Line 1609: Unrecognized token: 58
+Line 1610: ID = error
+Line 1610: =
+Line 1610: ID = put_user
+Line 1610: (
+Line 1610: ID = current
+Line 1610: -
+Line 1610: >
+Line 1610: ID = pdeath_signal
+Line 1610: ,
+Line 1610: (
+Line 1610: int
+Line 1610: Unrecognized token: 95
+Line 1610: Unrecognized token: 95
+Line 1610: ID = user
+Line 1610: *
+Line 1610: )
+Line 1610: ID = arg2
+Line 1610: )
+Line 1610: ;
+Line 1611: ID = break
+Line 1611: ;
+Line 1612: ID = case
+Line 1612: ID = PR_GET_DUMPABLE
+Line 1612: Unrecognized token: 58
+Line 1613: if
+Line 1613: (
+Line 1613: ID = current
+Line 1613: -
+Line 1613: >
+Line 1613: ID = mm
+Line 1613: -
+Line 1613: >
+Line 1613: ID = dumpable
+Line 1613: )
+Line 1614: ID = error
+Line 1614: =
+Line 1614: INTCON = 1
+Line 1614: ;
+Line 1615: ID = break
+Line 1615: ;
+Line 1616: ID = case
+Line 1616: ID = PR_SET_DUMPABLE
+Line 1616: Unrecognized token: 58
+Line 1617: if
+Line 1617: (
+Line 1617: ID = arg2
+Line 1617: !=
+Line 1617: INTCON = 0
+Line 1617: &&
+Line 1617: ID = arg2
+Line 1617: !=
+Line 1617: INTCON = 1
+Line 1617: )
+Line 1617: {
+Line 1618: ID = error
+Line 1618: =
+Line 1618: -
+Line 1618: ID = EINVAL
+Line 1618: ;
+Line 1619: ID = break
+Line 1619: ;
+Line 1620: }
+Line 1621: ID = current
+Line 1621: -
+Line 1621: >
+Line 1621: ID = mm
+Line 1621: -
+Line 1621: >
+Line 1621: ID = dumpable
+Line 1621: =
+Line 1621: ID = arg2
+Line 1621: ;
+Line 1622: ID = break
+Line 1622: ;
+Line 1624: ID = case
+Line 1624: ID = PR_SET_UNALIGN
+Line 1624: Unrecognized token: 58
+Line 1625: ID = error
+Line 1625: =
+Line 1625: ID = SET_UNALIGN_CTL
+Line 1625: (
+Line 1625: ID = current
+Line 1625: ,
+Line 1625: ID = arg2
+Line 1625: )
+Line 1625: ;
+Line 1626: ID = break
+Line 1626: ;
+Line 1627: ID = case
+Line 1627: ID = PR_GET_UNALIGN
+Line 1627: Unrecognized token: 58
+Line 1628: ID = error
+Line 1628: =
+Line 1628: ID = GET_UNALIGN_CTL
+Line 1628: (
+Line 1628: ID = current
+Line 1628: ,
+Line 1628: ID = arg2
+Line 1628: )
+Line 1628: ;
+Line 1629: ID = break
+Line 1629: ;
+Line 1630: ID = case
+Line 1630: ID = PR_SET_FPEMU
+Line 1630: Unrecognized token: 58
+Line 1631: ID = error
+Line 1631: =
+Line 1631: ID = SET_FPEMU_CTL
+Line 1631: (
+Line 1631: ID = current
+Line 1631: ,
+Line 1631: ID = arg2
+Line 1631: )
+Line 1631: ;
+Line 1632: ID = break
+Line 1632: ;
+Line 1633: ID = case
+Line 1633: ID = PR_GET_FPEMU
+Line 1633: Unrecognized token: 58
+Line 1634: ID = error
+Line 1634: =
+Line 1634: ID = GET_FPEMU_CTL
+Line 1634: (
+Line 1634: ID = current
+Line 1634: ,
+Line 1634: ID = arg2
+Line 1634: )
+Line 1634: ;
+Line 1635: ID = break
+Line 1635: ;
+Line 1636: ID = case
+Line 1636: ID = PR_SET_FPEXC
+Line 1636: Unrecognized token: 58
+Line 1637: ID = error
+Line 1637: =
+Line 1637: ID = SET_FPEXC_CTL
+Line 1637: (
+Line 1637: ID = current
+Line 1637: ,
+Line 1637: ID = arg2
+Line 1637: )
+Line 1637: ;
+Line 1638: ID = break
+Line 1638: ;
+Line 1639: ID = case
+Line 1639: ID = PR_GET_FPEXC
+Line 1639: Unrecognized token: 58
+Line 1640: ID = error
+Line 1640: =
+Line 1640: ID = GET_FPEXC_CTL
+Line 1640: (
+Line 1640: ID = current
+Line 1640: ,
+Line 1640: ID = arg2
+Line 1640: )
+Line 1640: ;
+Line 1641: ID = break
+Line 1641: ;
+Line 1642: ID = case
+Line 1642: ID = PR_GET_TIMING
+Line 1642: Unrecognized token: 58
+Line 1643: ID = error
+Line 1643: =
+Line 1643: ID = PR_TIMING_STATISTICAL
+Line 1643: ;
+Line 1644: ID = break
+Line 1644: ;
+Line 1645: ID = case
+Line 1645: ID = PR_SET_TIMING
+Line 1645: Unrecognized token: 58
+Line 1646: if
+Line 1646: (
+Line 1646: ID = arg2
+Line 1646: ==
+Line 1646: ID = PR_TIMING_STATISTICAL
+Line 1646: )
+Line 1647: ID = error
+Line 1647: =
+Line 1647: INTCON = 0
+Line 1647: ;
+Line 1648: else
+Line 1649: ID = error
+Line 1649: =
+Line 1649: -
+Line 1649: ID = EINVAL
+Line 1649: ;
+Line 1650: ID = break
+Line 1650: ;
+Line 1652: ID = case
+Line 1652: ID = PR_GET_KEEPCAPS
+Line 1652: Unrecognized token: 58
+Line 1653: if
+Line 1653: (
+Line 1653: ID = current
+Line 1653: -
+Line 1653: >
+Line 1653: ID = keep_capabilities
+Line 1653: )
+Line 1654: ID = error
+Line 1654: =
+Line 1654: INTCON = 1
+Line 1654: ;
+Line 1655: ID = break
+Line 1655: ;
+Line 1656: ID = case
+Line 1656: ID = PR_SET_KEEPCAPS
+Line 1656: Unrecognized token: 58
+Line 1657: if
+Line 1657: (
+Line 1657: ID = arg2
+Line 1657: !=
+Line 1657: INTCON = 0
+Line 1657: &&
+Line 1657: ID = arg2
+Line 1657: !=
+Line 1657: INTCON = 1
+Line 1657: )
+Line 1657: {
+Line 1658: ID = error
+Line 1658: =
+Line 1658: -
+Line 1658: ID = EINVAL
+Line 1658: ;
+Line 1659: ID = break
+Line 1659: ;
+Line 1660: }
+Line 1661: ID = current
+Line 1661: -
+Line 1661: >
+Line 1661: ID = keep_capabilities
+Line 1661: =
+Line 1661: ID = arg2
+Line 1661: ;
+Line 1662: ID = break
+Line 1662: ;
+Line 1663: ID = default
+Line 1663: Unrecognized token: 58
+Line 1664: ID = error
+Line 1664: =
+Line 1664: -
+Line 1664: ID = EINVAL
+Line 1664: ;
+Line 1665: ID = break
+Line 1665: ;
+Line 1666: }
+Line 1667: return
+Line 1667: ID = error
+Line 1667: ;
+Line 1668: }
+Line 1669: -EOF-

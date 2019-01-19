@@ -1,0 +1,28 @@
+int x, y, z[32];
+char a, y, z;
+
+int
+bob(void)
+{
+    bob = bob + bob;
+    for (bob = bob; bob < bob; bob = bob + bob)
+    {
+        while (bob)
+        {
+            bob = 42 * bob / bob - bob != bob;
+        }
+    }
+}
+
+int x, y, z;
+char p, d, q;
+
+void
+bob(int a, char b, int x[])
+{
+    return;
+}
+
+extern void bob(int x);
+
+

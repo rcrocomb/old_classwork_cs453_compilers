@@ -1,0 +1,38 @@
+
+int a(void)
+{
+    int d;
+    return d;
+}
+
+int e(void)
+{
+    return d;
+}
+
+
+void bravo(int a, int b, char c, int d[], char e[], int x);
+
+
+void charlie(void)
+{
+
+    int a[4];
+    bravo( 1, 'a', 2, 11, "string", a[3]);
+
+}
+
+void delta(void)
+{
+    charlie(2);
+}
+
+extern echo(void);
+extern echo(void);
+
+extern void foxtrot(void);
+void foxtrot(void) { }
+void foxtrot(void);
+
+extern void golf(void);
+void golf(int a);

@@ -1,0 +1,13 @@
+int []bob(void);
+char []bob(void);
+void []bob(void);
+int []bob(int a);
+int []bob(char a);
+int []bob(void a);
+char []bob(int a);
+char []bob(char a);
+char []bob(void a);
+void []bob(int a);
+void []bob(char a);
+void []bob(void a);
+

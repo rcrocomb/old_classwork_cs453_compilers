@@ -1,0 +1,8481 @@
+Line 117: Unrecognized token: 35
+Line 117: ID = include
+Line 117: <
+Line 117: ID = linux
+Line 117: /
+Line 117: ID = capability
+Line 117: Unrecognized token: 46
+Line 117: ID = h
+Line 117: >
+Line 118: Unrecognized token: 35
+Line 118: ID = include
+Line 118: <
+Line 118: ID = linux
+Line 118: /
+Line 118: ID = file
+Line 118: Unrecognized token: 46
+Line 118: ID = h
+Line 118: >
+Line 119: Unrecognized token: 35
+Line 119: ID = include
+Line 119: <
+Line 119: ID = linux
+Line 119: /
+Line 119: ID = fs
+Line 119: Unrecognized token: 46
+Line 119: ID = h
+Line 119: >
+Line 120: Unrecognized token: 35
+Line 120: ID = include
+Line 120: <
+Line 120: ID = linux
+Line 120: /
+Line 120: ID = init
+Line 120: Unrecognized token: 46
+Line 120: ID = h
+Line 120: >
+Line 121: Unrecognized token: 35
+Line 121: ID = include
+Line 121: <
+Line 121: ID = linux
+Line 121: /
+Line 121: ID = module
+Line 121: Unrecognized token: 46
+Line 121: ID = h
+Line 121: >
+Line 122: Unrecognized token: 35
+Line 122: ID = include
+Line 122: <
+Line 122: ID = linux
+Line 122: /
+Line 122: ID = security
+Line 122: Unrecognized token: 46
+Line 122: ID = h
+Line 122: >
+Line 123: Unrecognized token: 35
+Line 123: ID = include
+Line 123: <
+Line 123: ID = linux
+Line 123: /
+Line 123: ID = slab
+Line 123: Unrecognized token: 46
+Line 123: ID = h
+Line 123: >
+Line 124: Unrecognized token: 35
+Line 124: ID = include
+Line 124: <
+Line 124: ID = linux
+Line 124: /
+Line 124: ID = smp_lock
+Line 124: Unrecognized token: 46
+Line 124: ID = h
+Line 124: >
+Line 125: Unrecognized token: 35
+Line 125: ID = include
+Line 125: <
+Line 125: ID = linux
+Line 125: /
+Line 125: ID = time
+Line 125: Unrecognized token: 46
+Line 125: ID = h
+Line 125: >
+Line 127: Unrecognized token: 35
+Line 127: ID = include
+Line 127: <
+Line 127: ID = asm
+Line 127: /
+Line 127: ID = semaphore
+Line 127: Unrecognized token: 46
+Line 127: ID = h
+Line 127: >
+Line 128: Unrecognized token: 35
+Line 128: ID = include
+Line 128: <
+Line 128: ID = asm
+Line 128: /
+Line 128: ID = uaccess
+Line 128: Unrecognized token: 46
+Line 128: ID = h
+Line 128: >
+Line 130: Unrecognized token: 35
+Line 130: ID = define
+Line 130: ID = IS_POSIX
+Line 130: (
+Line 130: ID = fl
+Line 130: )
+Line 130: (
+Line 130: ID = fl
+Line 130: -
+Line 130: >
+Line 130: ID = fl_flags
+Line 130: Unrecognized token: 38
+Line 130: ID = FL_POSIX
+Line 130: )
+Line 131: Unrecognized token: 35
+Line 131: ID = define
+Line 131: ID = IS_FLOCK
+Line 131: (
+Line 131: ID = fl
+Line 131: )
+Line 131: (
+Line 131: ID = fl
+Line 131: -
+Line 131: >
+Line 131: ID = fl_flags
+Line 131: Unrecognized token: 38
+Line 131: ID = FL_FLOCK
+Line 131: )
+Line 132: Unrecognized token: 35
+Line 132: ID = define
+Line 132: ID = IS_LEASE
+Line 132: (
+Line 132: ID = fl
+Line 132: )
+Line 132: (
+Line 132: ID = fl
+Line 132: -
+Line 132: >
+Line 132: ID = fl_flags
+Line 132: Unrecognized token: 38
+Line 132: ID = FL_LEASE
+Line 132: )
+Line 134: int
+Line 134: ID = leases_enable
+Line 134: =
+Line 134: INTCON = 1
+Line 134: ;
+Line 135: int
+Line 135: ID = lease_break_time
+Line 135: =
+Line 135: INTCON = 45
+Line 135: ;
+Line 137: Unrecognized token: 35
+Line 137: ID = define
+Line 137: ID = for_each_lock
+Line 137: (
+Line 137: ID = inode
+Line 137: ,
+Line 137: ID = lockp
+Line 137: )
+Line 137: Unrecognized token: 92
+Line 138: for
+Line 138: (
+Line 138: ID = lockp
+Line 138: =
+Line 138: Unrecognized token: 38
+Line 138: ID = inode
+Line 138: -
+Line 138: >
+Line 138: ID = i_flock
+Line 138: ;
+Line 138: *
+Line 138: ID = lockp
+Line 138: !=
+Line 138: ID = NULL
+Line 138: ;
+Line 138: ID = lockp
+Line 138: =
+Line 138: Unrecognized token: 38
+Line 138: (
+Line 138: *
+Line 138: ID = lockp
+Line 138: )
+Line 138: -
+Line 138: >
+Line 138: ID = fl_next
+Line 138: )
+Line 140: ID = LIST_HEAD
+Line 140: (
+Line 140: ID = file_lock_list
+Line 140: )
+Line 140: ;
+Line 142: ID = EXPORT_SYMBOL
+Line 142: (
+Line 142: ID = file_lock_list
+Line 142: )
+Line 142: ;
+Line 144: ID = static
+Line 144: ID = LIST_HEAD
+Line 144: (
+Line 144: ID = blocked_list
+Line 144: )
+Line 144: ;
+Line 146: ID = static
+Line 146: ID = kmem_cache_t
+Line 146: *
+Line 146: ID = filelock_cache
+Line 146: ;
+Line 149: ID = static
+Line 149: ID = struct
+Line 149: ID = file_lock
+Line 149: *
+Line 149: ID = locks_alloc_lock
+Line 149: (
+Line 149: void
+Line 149: )
+Line 150: {
+Line 151: return
+Line 151: ID = kmem_cache_alloc
+Line 151: (
+Line 151: ID = filelock_cache
+Line 151: ,
+Line 151: ID = SLAB_KERNEL
+Line 151: )
+Line 151: ;
+Line 152: }
+Line 155: ID = static
+Line 155: ID = inline
+Line 155: void
+Line 155: ID = locks_free_lock
+Line 155: (
+Line 155: ID = struct
+Line 155: ID = file_lock
+Line 155: *
+Line 155: ID = fl
+Line 155: )
+Line 156: {
+Line 157: if
+Line 157: (
+Line 157: ID = fl
+Line 157: ==
+Line 157: ID = NULL
+Line 157: )
+Line 157: {
+Line 158: ID = BUG
+Line 158: (
+Line 158: )
+Line 158: ;
+Line 159: return
+Line 159: ;
+Line 160: }
+Line 161: if
+Line 161: (
+Line 161: ID = waitqueue_active
+Line 161: (
+Line 161: Unrecognized token: 38
+Line 161: ID = fl
+Line 161: -
+Line 161: >
+Line 161: ID = fl_wait
+Line 161: )
+Line 161: )
+Line 162: ID = panic
+Line 162: (
+Line 162: STRINGCON = "Attempting to free lock with active wait queue"
+Line 162: )
+Line 162: ;
+Line 164: if
+Line 164: (
+Line 164: !
+Line 164: ID = list_empty
+Line 164: (
+Line 164: Unrecognized token: 38
+Line 164: ID = fl
+Line 164: -
+Line 164: >
+Line 164: ID = fl_block
+Line 164: )
+Line 164: )
+Line 165: ID = panic
+Line 165: (
+Line 165: STRINGCON = "Attempting to free lock with active block list"
+Line 165: )
+Line 165: ;
+Line 167: if
+Line 167: (
+Line 167: !
+Line 167: ID = list_empty
+Line 167: (
+Line 167: Unrecognized token: 38
+Line 167: ID = fl
+Line 167: -
+Line 167: >
+Line 167: ID = fl_link
+Line 167: )
+Line 167: )
+Line 168: ID = panic
+Line 168: (
+Line 168: STRINGCON = "Attempting to free lock on active lock list"
+Line 168: )
+Line 168: ;
+Line 170: ID = kmem_cache_free
+Line 170: (
+Line 170: ID = filelock_cache
+Line 170: ,
+Line 170: ID = fl
+Line 170: )
+Line 170: ;
+Line 171: }
+Line 173: void
+Line 173: ID = locks_init_lock
+Line 173: (
+Line 173: ID = struct
+Line 173: ID = file_lock
+Line 173: *
+Line 173: ID = fl
+Line 173: )
+Line 174: {
+Line 175: ID = INIT_LIST_HEAD
+Line 175: (
+Line 175: Unrecognized token: 38
+Line 175: ID = fl
+Line 175: -
+Line 175: >
+Line 175: ID = fl_link
+Line 175: )
+Line 175: ;
+Line 176: ID = INIT_LIST_HEAD
+Line 176: (
+Line 176: Unrecognized token: 38
+Line 176: ID = fl
+Line 176: -
+Line 176: >
+Line 176: ID = fl_block
+Line 176: )
+Line 176: ;
+Line 177: ID = init_waitqueue_head
+Line 177: (
+Line 177: Unrecognized token: 38
+Line 177: ID = fl
+Line 177: -
+Line 177: >
+Line 177: ID = fl_wait
+Line 177: )
+Line 177: ;
+Line 178: ID = fl
+Line 178: -
+Line 178: >
+Line 178: ID = fl_next
+Line 178: =
+Line 178: ID = NULL
+Line 178: ;
+Line 179: ID = fl
+Line 179: -
+Line 179: >
+Line 179: ID = fl_fasync
+Line 179: =
+Line 179: ID = NULL
+Line 179: ;
+Line 180: ID = fl
+Line 180: -
+Line 180: >
+Line 180: ID = fl_owner
+Line 180: =
+Line 180: ID = NULL
+Line 180: ;
+Line 181: ID = fl
+Line 181: -
+Line 181: >
+Line 181: ID = fl_pid
+Line 181: =
+Line 181: INTCON = 0
+Line 181: ;
+Line 182: ID = fl
+Line 182: -
+Line 182: >
+Line 182: ID = fl_file
+Line 182: =
+Line 182: ID = NULL
+Line 182: ;
+Line 183: ID = fl
+Line 183: -
+Line 183: >
+Line 183: ID = fl_flags
+Line 183: =
+Line 183: INTCON = 0
+Line 183: ;
+Line 184: ID = fl
+Line 184: -
+Line 184: >
+Line 184: ID = fl_type
+Line 184: =
+Line 184: INTCON = 0
+Line 184: ;
+Line 185: ID = fl
+Line 185: -
+Line 185: >
+Line 185: ID = fl_start
+Line 185: =
+Line 185: ID = fl
+Line 185: -
+Line 185: >
+Line 185: ID = fl_end
+Line 185: =
+Line 185: INTCON = 0
+Line 185: ;
+Line 186: ID = fl
+Line 186: -
+Line 186: >
+Line 186: ID = fl_notify
+Line 186: =
+Line 186: ID = NULL
+Line 186: ;
+Line 187: ID = fl
+Line 187: -
+Line 187: >
+Line 187: ID = fl_insert
+Line 187: =
+Line 187: ID = NULL
+Line 187: ;
+Line 188: ID = fl
+Line 188: -
+Line 188: >
+Line 188: ID = fl_remove
+Line 188: =
+Line 188: ID = NULL
+Line 188: ;
+Line 189: }
+Line 191: ID = EXPORT_SYMBOL
+Line 191: (
+Line 191: ID = locks_init_lock
+Line 191: )
+Line 191: ;
+Line 197: ID = static
+Line 197: void
+Line 197: ID = init_once
+Line 197: (
+Line 197: void
+Line 197: *
+Line 197: ID = foo
+Line 197: ,
+Line 197: ID = kmem_cache_t
+Line 197: *
+Line 197: ID = cache
+Line 197: ,
+Line 197: ID = unsigned
+Line 197: ID = long
+Line 197: ID = flags
+Line 197: )
+Line 198: {
+Line 199: ID = struct
+Line 199: ID = file_lock
+Line 199: *
+Line 199: ID = lock
+Line 199: =
+Line 199: (
+Line 199: ID = struct
+Line 199: ID = file_lock
+Line 199: *
+Line 199: )
+Line 199: ID = foo
+Line 199: ;
+Line 201: if
+Line 201: (
+Line 201: (
+Line 201: ID = flags
+Line 201: Unrecognized token: 38
+Line 201: (
+Line 201: ID = SLAB_CTOR_VERIFY
+Line 201: Unrecognized token: 124
+Line 201: ID = SLAB_CTOR_CONSTRUCTOR
+Line 201: )
+Line 201: )
+Line 201: !=
+Line 202: ID = SLAB_CTOR_CONSTRUCTOR
+Line 202: )
+Line 203: return
+Line 203: ;
+Line 205: ID = locks_init_lock
+Line 205: (
+Line 205: ID = lock
+Line 205: )
+Line 205: ;
+Line 206: }
+Line 211: void
+Line 211: ID = locks_copy_lock
+Line 211: (
+Line 211: ID = struct
+Line 211: ID = file_lock
+Line 211: *
+Line 211: ID = new
+Line 211: ,
+Line 211: ID = struct
+Line 211: ID = file_lock
+Line 211: *
+Line 211: ID = fl
+Line 211: )
+Line 212: {
+Line 213: ID = new
+Line 213: -
+Line 213: >
+Line 213: ID = fl_owner
+Line 213: =
+Line 213: ID = fl
+Line 213: -
+Line 213: >
+Line 213: ID = fl_owner
+Line 213: ;
+Line 214: ID = new
+Line 214: -
+Line 214: >
+Line 214: ID = fl_pid
+Line 214: =
+Line 214: ID = fl
+Line 214: -
+Line 214: >
+Line 214: ID = fl_pid
+Line 214: ;
+Line 215: ID = new
+Line 215: -
+Line 215: >
+Line 215: ID = fl_file
+Line 215: =
+Line 215: ID = fl
+Line 215: -
+Line 215: >
+Line 215: ID = fl_file
+Line 215: ;
+Line 216: ID = new
+Line 216: -
+Line 216: >
+Line 216: ID = fl_flags
+Line 216: =
+Line 216: ID = fl
+Line 216: -
+Line 216: >
+Line 216: ID = fl_flags
+Line 216: ;
+Line 217: ID = new
+Line 217: -
+Line 217: >
+Line 217: ID = fl_type
+Line 217: =
+Line 217: ID = fl
+Line 217: -
+Line 217: >
+Line 217: ID = fl_type
+Line 217: ;
+Line 218: ID = new
+Line 218: -
+Line 218: >
+Line 218: ID = fl_start
+Line 218: =
+Line 218: ID = fl
+Line 218: -
+Line 218: >
+Line 218: ID = fl_start
+Line 218: ;
+Line 219: ID = new
+Line 219: -
+Line 219: >
+Line 219: ID = fl_end
+Line 219: =
+Line 219: ID = fl
+Line 219: -
+Line 219: >
+Line 219: ID = fl_end
+Line 219: ;
+Line 220: ID = new
+Line 220: -
+Line 220: >
+Line 220: ID = fl_notify
+Line 220: =
+Line 220: ID = fl
+Line 220: -
+Line 220: >
+Line 220: ID = fl_notify
+Line 220: ;
+Line 221: ID = new
+Line 221: -
+Line 221: >
+Line 221: ID = fl_insert
+Line 221: =
+Line 221: ID = fl
+Line 221: -
+Line 221: >
+Line 221: ID = fl_insert
+Line 221: ;
+Line 222: ID = new
+Line 222: -
+Line 222: >
+Line 222: ID = fl_remove
+Line 222: =
+Line 222: ID = fl
+Line 222: -
+Line 222: >
+Line 222: ID = fl_remove
+Line 222: ;
+Line 223: ID = new
+Line 223: -
+Line 223: >
+Line 223: ID = fl_u
+Line 223: =
+Line 223: ID = fl
+Line 223: -
+Line 223: >
+Line 223: ID = fl_u
+Line 223: ;
+Line 224: }
+Line 226: ID = EXPORT_SYMBOL
+Line 226: (
+Line 226: ID = locks_copy_lock
+Line 226: )
+Line 226: ;
+Line 228: ID = static
+Line 228: ID = inline
+Line 228: int
+Line 228: ID = flock_translate_cmd
+Line 228: (
+Line 228: int
+Line 228: ID = cmd
+Line 228: )
+Line 228: {
+Line 229: if
+Line 229: (
+Line 229: ID = cmd
+Line 229: Unrecognized token: 38
+Line 229: ID = LOCK_MAND
+Line 229: )
+Line 230: return
+Line 230: ID = cmd
+Line 230: Unrecognized token: 38
+Line 230: (
+Line 230: ID = LOCK_MAND
+Line 230: Unrecognized token: 124
+Line 230: ID = LOCK_RW
+Line 230: )
+Line 230: ;
+Line 231: ID = switch
+Line 231: (
+Line 231: ID = cmd
+Line 231: )
+Line 231: {
+Line 232: ID = case
+Line 232: ID = LOCK_SH
+Line 232: Unrecognized token: 58
+Line 233: return
+Line 233: ID = F_RDLCK
+Line 233: ;
+Line 234: ID = case
+Line 234: ID = LOCK_EX
+Line 234: Unrecognized token: 58
+Line 235: return
+Line 235: ID = F_WRLCK
+Line 235: ;
+Line 236: ID = case
+Line 236: ID = LOCK_UN
+Line 236: Unrecognized token: 58
+Line 237: return
+Line 237: ID = F_UNLCK
+Line 237: ;
+Line 238: }
+Line 239: return
+Line 239: -
+Line 239: ID = EINVAL
+Line 239: ;
+Line 240: }
+Line 243: ID = static
+Line 243: int
+Line 243: ID = flock_make_lock
+Line 243: (
+Line 243: ID = struct
+Line 243: ID = file
+Line 243: *
+Line 243: ID = filp
+Line 243: ,
+Line 243: ID = struct
+Line 243: ID = file_lock
+Line 243: *
+Line 243: *
+Line 243: ID = lock
+Line 243: ,
+Line 244: ID = unsigned
+Line 244: int
+Line 244: ID = cmd
+Line 244: )
+Line 245: {
+Line 246: ID = struct
+Line 246: ID = file_lock
+Line 246: *
+Line 246: ID = fl
+Line 246: ;
+Line 247: int
+Line 247: ID = type
+Line 247: =
+Line 247: ID = flock_translate_cmd
+Line 247: (
+Line 247: ID = cmd
+Line 247: )
+Line 247: ;
+Line 248: if
+Line 248: (
+Line 248: ID = type
+Line 248: <
+Line 248: INTCON = 0
+Line 248: )
+Line 249: return
+Line 249: ID = type
+Line 249: ;
+Line 251: ID = fl
+Line 251: =
+Line 251: ID = locks_alloc_lock
+Line 251: (
+Line 251: )
+Line 251: ;
+Line 252: if
+Line 252: (
+Line 252: ID = fl
+Line 252: ==
+Line 252: ID = NULL
+Line 252: )
+Line 253: return
+Line 253: -
+Line 253: ID = ENOMEM
+Line 253: ;
+Line 255: ID = fl
+Line 255: -
+Line 255: >
+Line 255: ID = fl_file
+Line 255: =
+Line 255: ID = filp
+Line 255: ;
+Line 256: ID = fl
+Line 256: -
+Line 256: >
+Line 256: ID = fl_pid
+Line 256: =
+Line 256: ID = current
+Line 256: -
+Line 256: >
+Line 256: ID = tgid
+Line 256: ;
+Line 257: ID = fl
+Line 257: -
+Line 257: >
+Line 257: ID = fl_flags
+Line 257: =
+Line 257: ID = FL_FLOCK
+Line 257: ;
+Line 258: ID = fl
+Line 258: -
+Line 258: >
+Line 258: ID = fl_type
+Line 258: =
+Line 258: ID = type
+Line 258: ;
+Line 259: ID = fl
+Line 259: -
+Line 259: >
+Line 259: ID = fl_end
+Line 259: =
+Line 259: ID = OFFSET_MAX
+Line 259: ;
+Line 261: *
+Line 261: ID = lock
+Line 261: =
+Line 261: ID = fl
+Line 261: ;
+Line 262: return
+Line 262: INTCON = 0
+Line 262: ;
+Line 263: }
+Line 265: ID = static
+Line 265: int
+Line 265: ID = assign_type
+Line 265: (
+Line 265: ID = struct
+Line 265: ID = file_lock
+Line 265: *
+Line 265: ID = fl
+Line 265: ,
+Line 265: int
+Line 265: ID = type
+Line 265: )
+Line 266: {
+Line 267: ID = switch
+Line 267: (
+Line 267: ID = type
+Line 267: )
+Line 267: {
+Line 268: ID = case
+Line 268: ID = F_RDLCK
+Line 268: Unrecognized token: 58
+Line 269: ID = case
+Line 269: ID = F_WRLCK
+Line 269: Unrecognized token: 58
+Line 270: ID = case
+Line 270: ID = F_UNLCK
+Line 270: Unrecognized token: 58
+Line 271: ID = fl
+Line 271: -
+Line 271: >
+Line 271: ID = fl_type
+Line 271: =
+Line 271: ID = type
+Line 271: ;
+Line 272: ID = break
+Line 272: ;
+Line 273: ID = default
+Line 273: Unrecognized token: 58
+Line 274: return
+Line 274: -
+Line 274: ID = EINVAL
+Line 274: ;
+Line 275: }
+Line 276: return
+Line 276: INTCON = 0
+Line 276: ;
+Line 277: }
+Line 282: ID = static
+Line 282: int
+Line 282: ID = flock_to_posix_lock
+Line 282: (
+Line 282: ID = struct
+Line 282: ID = file
+Line 282: *
+Line 282: ID = filp
+Line 282: ,
+Line 282: ID = struct
+Line 282: ID = file_lock
+Line 282: *
+Line 282: ID = fl
+Line 282: ,
+Line 283: ID = struct
+Line 283: ID = flock
+Line 283: *
+Line 283: ID = l
+Line 283: )
+Line 284: {
+Line 285: ID = off_t
+Line 285: ID = start
+Line 285: ,
+Line 285: ID = end
+Line 285: ;
+Line 287: ID = switch
+Line 287: (
+Line 287: ID = l
+Line 287: -
+Line 287: >
+Line 287: ID = l_whence
+Line 287: )
+Line 287: {
+Line 288: ID = case
+Line 288: INTCON = 0
+Line 288: Unrecognized token: 58
+Line 289: ID = start
+Line 289: =
+Line 289: INTCON = 0
+Line 289: ;
+Line 290: ID = break
+Line 290: ;
+Line 291: ID = case
+Line 291: INTCON = 1
+Line 291: Unrecognized token: 58
+Line 292: ID = start
+Line 292: =
+Line 292: ID = filp
+Line 292: -
+Line 292: >
+Line 292: ID = f_pos
+Line 292: ;
+Line 293: ID = break
+Line 293: ;
+Line 294: ID = case
+Line 294: INTCON = 2
+Line 294: Unrecognized token: 58
+Line 295: ID = start
+Line 295: =
+Line 295: ID = i_size_read
+Line 295: (
+Line 295: ID = filp
+Line 295: -
+Line 295: >
+Line 295: ID = f_dentry
+Line 295: -
+Line 295: >
+Line 295: ID = d_inode
+Line 295: )
+Line 295: ;
+Line 296: ID = break
+Line 296: ;
+Line 297: ID = default
+Line 297: Unrecognized token: 58
+Line 298: return
+Line 298: -
+Line 298: ID = EINVAL
+Line 298: ;
+Line 299: }
+Line 303: ID = start
+Line 303: +
+Line 303: =
+Line 303: ID = l
+Line 303: -
+Line 303: >
+Line 303: ID = l_start
+Line 303: ;
+Line 304: ID = end
+Line 304: =
+Line 304: ID = start
+Line 304: +
+Line 304: ID = l
+Line 304: -
+Line 304: >
+Line 304: ID = l_len
+Line 304: -
+Line 304: INTCON = 1
+Line 304: ;
+Line 305: if
+Line 305: (
+Line 305: ID = l
+Line 305: -
+Line 305: >
+Line 305: ID = l_len
+Line 305: <
+Line 305: INTCON = 0
+Line 305: )
+Line 305: {
+Line 306: ID = end
+Line 306: =
+Line 306: ID = start
+Line 306: -
+Line 306: INTCON = 1
+Line 306: ;
+Line 307: ID = start
+Line 307: +
+Line 307: =
+Line 307: ID = l
+Line 307: -
+Line 307: >
+Line 307: ID = l_len
+Line 307: ;
+Line 308: }
+Line 310: if
+Line 310: (
+Line 310: ID = start
+Line 310: <
+Line 310: INTCON = 0
+Line 310: )
+Line 311: return
+Line 311: -
+Line 311: ID = EINVAL
+Line 311: ;
+Line 312: if
+Line 312: (
+Line 312: ID = l
+Line 312: -
+Line 312: >
+Line 312: ID = l_len
+Line 312: >
+Line 312: INTCON = 0
+Line 312: &&
+Line 312: ID = end
+Line 312: <
+Line 312: INTCON = 0
+Line 312: )
+Line 313: return
+Line 313: -
+Line 313: ID = EOVERFLOW
+Line 313: ;
+Line 315: ID = fl
+Line 315: -
+Line 315: >
+Line 315: ID = fl_start
+Line 315: =
+Line 315: ID = start
+Line 315: ;
+Line 316: ID = fl
+Line 316: -
+Line 316: >
+Line 316: ID = fl_end
+Line 316: =
+Line 316: ID = end
+Line 316: ;
+Line 317: if
+Line 317: (
+Line 317: ID = l
+Line 317: -
+Line 317: >
+Line 317: ID = l_len
+Line 317: ==
+Line 317: INTCON = 0
+Line 317: )
+Line 318: ID = fl
+Line 318: -
+Line 318: >
+Line 318: ID = fl_end
+Line 318: =
+Line 318: ID = OFFSET_MAX
+Line 318: ;
+Line 320: ID = fl
+Line 320: -
+Line 320: >
+Line 320: ID = fl_owner
+Line 320: =
+Line 320: ID = current
+Line 320: -
+Line 320: >
+Line 320: ID = files
+Line 320: ;
+Line 321: ID = fl
+Line 321: -
+Line 321: >
+Line 321: ID = fl_pid
+Line 321: =
+Line 321: ID = current
+Line 321: -
+Line 321: >
+Line 321: ID = tgid
+Line 321: ;
+Line 322: ID = fl
+Line 322: -
+Line 322: >
+Line 322: ID = fl_file
+Line 322: =
+Line 322: ID = filp
+Line 322: ;
+Line 323: ID = fl
+Line 323: -
+Line 323: >
+Line 323: ID = fl_flags
+Line 323: =
+Line 323: ID = FL_POSIX
+Line 323: ;
+Line 324: ID = fl
+Line 324: -
+Line 324: >
+Line 324: ID = fl_notify
+Line 324: =
+Line 324: ID = NULL
+Line 324: ;
+Line 325: ID = fl
+Line 325: -
+Line 325: >
+Line 325: ID = fl_insert
+Line 325: =
+Line 325: ID = NULL
+Line 325: ;
+Line 326: ID = fl
+Line 326: -
+Line 326: >
+Line 326: ID = fl_remove
+Line 326: =
+Line 326: ID = NULL
+Line 326: ;
+Line 328: return
+Line 328: ID = assign_type
+Line 328: (
+Line 328: ID = fl
+Line 328: ,
+Line 328: ID = l
+Line 328: -
+Line 328: >
+Line 328: ID = l_type
+Line 328: )
+Line 328: ;
+Line 329: }
+Line 331: Unrecognized token: 35
+Line 331: if
+Line 331: ID = BITS_PER_LONG
+Line 331: ==
+Line 331: INTCON = 32
+Line 332: ID = static
+Line 332: int
+Line 332: ID = flock64_to_posix_lock
+Line 332: (
+Line 332: ID = struct
+Line 332: ID = file
+Line 332: *
+Line 332: ID = filp
+Line 332: ,
+Line 332: ID = struct
+Line 332: ID = file_lock
+Line 332: *
+Line 332: ID = fl
+Line 332: ,
+Line 333: ID = struct
+Line 333: ID = flock64
+Line 333: *
+Line 333: ID = l
+Line 333: )
+Line 334: {
+Line 335: ID = loff_t
+Line 335: ID = start
+Line 335: ;
+Line 337: ID = switch
+Line 337: (
+Line 337: ID = l
+Line 337: -
+Line 337: >
+Line 337: ID = l_whence
+Line 337: )
+Line 337: {
+Line 338: ID = case
+Line 338: INTCON = 0
+Line 338: Unrecognized token: 58
+Line 339: ID = start
+Line 339: =
+Line 339: INTCON = 0
+Line 339: ;
+Line 340: ID = break
+Line 340: ;
+Line 341: ID = case
+Line 341: INTCON = 1
+Line 341: Unrecognized token: 58
+Line 342: ID = start
+Line 342: =
+Line 342: ID = filp
+Line 342: -
+Line 342: >
+Line 342: ID = f_pos
+Line 342: ;
+Line 343: ID = break
+Line 343: ;
+Line 344: ID = case
+Line 344: INTCON = 2
+Line 344: Unrecognized token: 58
+Line 345: ID = start
+Line 345: =
+Line 345: ID = i_size_read
+Line 345: (
+Line 345: ID = filp
+Line 345: -
+Line 345: >
+Line 345: ID = f_dentry
+Line 345: -
+Line 345: >
+Line 345: ID = d_inode
+Line 345: )
+Line 345: ;
+Line 346: ID = break
+Line 346: ;
+Line 347: ID = default
+Line 347: Unrecognized token: 58
+Line 348: return
+Line 348: -
+Line 348: ID = EINVAL
+Line 348: ;
+Line 349: }
+Line 351: if
+Line 351: (
+Line 351: (
+Line 351: (
+Line 351: ID = start
+Line 351: +
+Line 351: =
+Line 351: ID = l
+Line 351: -
+Line 351: >
+Line 351: ID = l_start
+Line 351: )
+Line 351: <
+Line 351: INTCON = 0
+Line 351: )
+Line 351: ||
+Line 351: (
+Line 351: ID = l
+Line 351: -
+Line 351: >
+Line 351: ID = l_len
+Line 351: <
+Line 351: INTCON = 0
+Line 351: )
+Line 351: )
+Line 352: return
+Line 352: -
+Line 352: ID = EINVAL
+Line 352: ;
+Line 353: ID = fl
+Line 353: -
+Line 353: >
+Line 353: ID = fl_end
+Line 353: =
+Line 353: ID = start
+Line 353: +
+Line 353: ID = l
+Line 353: -
+Line 353: >
+Line 353: ID = l_len
+Line 353: -
+Line 353: INTCON = 1
+Line 353: ;
+Line 354: if
+Line 354: (
+Line 354: ID = l
+Line 354: -
+Line 354: >
+Line 354: ID = l_len
+Line 354: >
+Line 354: INTCON = 0
+Line 354: &&
+Line 354: ID = fl
+Line 354: -
+Line 354: >
+Line 354: ID = fl_end
+Line 354: <
+Line 354: INTCON = 0
+Line 354: )
+Line 355: return
+Line 355: -
+Line 355: ID = EOVERFLOW
+Line 355: ;
+Line 356: ID = fl
+Line 356: -
+Line 356: >
+Line 356: ID = fl_start
+Line 356: =
+Line 356: ID = start
+Line 356: ;
+Line 357: if
+Line 357: (
+Line 357: ID = l
+Line 357: -
+Line 357: >
+Line 357: ID = l_len
+Line 357: ==
+Line 357: INTCON = 0
+Line 357: )
+Line 358: ID = fl
+Line 358: -
+Line 358: >
+Line 358: ID = fl_end
+Line 358: =
+Line 358: ID = OFFSET_MAX
+Line 358: ;
+Line 360: ID = fl
+Line 360: -
+Line 360: >
+Line 360: ID = fl_owner
+Line 360: =
+Line 360: ID = current
+Line 360: -
+Line 360: >
+Line 360: ID = files
+Line 360: ;
+Line 361: ID = fl
+Line 361: -
+Line 361: >
+Line 361: ID = fl_pid
+Line 361: =
+Line 361: ID = current
+Line 361: -
+Line 361: >
+Line 361: ID = tgid
+Line 361: ;
+Line 362: ID = fl
+Line 362: -
+Line 362: >
+Line 362: ID = fl_file
+Line 362: =
+Line 362: ID = filp
+Line 362: ;
+Line 363: ID = fl
+Line 363: -
+Line 363: >
+Line 363: ID = fl_flags
+Line 363: =
+Line 363: ID = FL_POSIX
+Line 363: ;
+Line 364: ID = fl
+Line 364: -
+Line 364: >
+Line 364: ID = fl_notify
+Line 364: =
+Line 364: ID = NULL
+Line 364: ;
+Line 365: ID = fl
+Line 365: -
+Line 365: >
+Line 365: ID = fl_insert
+Line 365: =
+Line 365: ID = NULL
+Line 365: ;
+Line 366: ID = fl
+Line 366: -
+Line 366: >
+Line 366: ID = fl_remove
+Line 366: =
+Line 366: ID = NULL
+Line 366: ;
+Line 368: ID = switch
+Line 368: (
+Line 368: ID = l
+Line 368: -
+Line 368: >
+Line 368: ID = l_type
+Line 368: )
+Line 368: {
+Line 369: ID = case
+Line 369: ID = F_RDLCK
+Line 369: Unrecognized token: 58
+Line 370: ID = case
+Line 370: ID = F_WRLCK
+Line 370: Unrecognized token: 58
+Line 371: ID = case
+Line 371: ID = F_UNLCK
+Line 371: Unrecognized token: 58
+Line 372: ID = fl
+Line 372: -
+Line 372: >
+Line 372: ID = fl_type
+Line 372: =
+Line 372: ID = l
+Line 372: -
+Line 372: >
+Line 372: ID = l_type
+Line 372: ;
+Line 373: ID = break
+Line 373: ;
+Line 374: ID = default
+Line 374: Unrecognized token: 58
+Line 375: return
+Line 375: -
+Line 375: ID = EINVAL
+Line 375: ;
+Line 376: }
+Line 378: return
+Line 378: (
+Line 378: INTCON = 0
+Line 378: )
+Line 378: ;
+Line 379: }
+Line 380: Unrecognized token: 35
+Line 380: ID = endif
+Line 383: ID = static
+Line 383: int
+Line 383: ID = lease_alloc
+Line 383: (
+Line 383: ID = struct
+Line 383: ID = file
+Line 383: *
+Line 383: ID = filp
+Line 383: ,
+Line 383: int
+Line 383: ID = type
+Line 383: ,
+Line 383: ID = struct
+Line 383: ID = file_lock
+Line 383: *
+Line 383: *
+Line 383: ID = flp
+Line 383: )
+Line 384: {
+Line 385: ID = struct
+Line 385: ID = file_lock
+Line 385: *
+Line 385: ID = fl
+Line 385: =
+Line 385: ID = locks_alloc_lock
+Line 385: (
+Line 385: )
+Line 385: ;
+Line 386: if
+Line 386: (
+Line 386: ID = fl
+Line 386: ==
+Line 386: ID = NULL
+Line 386: )
+Line 387: return
+Line 387: -
+Line 387: ID = ENOMEM
+Line 387: ;
+Line 389: ID = fl
+Line 389: -
+Line 389: >
+Line 389: ID = fl_owner
+Line 389: =
+Line 389: ID = current
+Line 389: -
+Line 389: >
+Line 389: ID = files
+Line 389: ;
+Line 390: ID = fl
+Line 390: -
+Line 390: >
+Line 390: ID = fl_pid
+Line 390: =
+Line 390: ID = current
+Line 390: -
+Line 390: >
+Line 390: ID = tgid
+Line 390: ;
+Line 392: ID = fl
+Line 392: -
+Line 392: >
+Line 392: ID = fl_file
+Line 392: =
+Line 392: ID = filp
+Line 392: ;
+Line 393: ID = fl
+Line 393: -
+Line 393: >
+Line 393: ID = fl_flags
+Line 393: =
+Line 393: ID = FL_LEASE
+Line 393: ;
+Line 394: if
+Line 394: (
+Line 394: ID = assign_type
+Line 394: (
+Line 394: ID = fl
+Line 394: ,
+Line 394: ID = type
+Line 394: )
+Line 394: !=
+Line 394: INTCON = 0
+Line 394: )
+Line 394: {
+Line 395: ID = locks_free_lock
+Line 395: (
+Line 395: ID = fl
+Line 395: )
+Line 395: ;
+Line 396: return
+Line 396: -
+Line 396: ID = EINVAL
+Line 396: ;
+Line 397: }
+Line 398: ID = fl
+Line 398: -
+Line 398: >
+Line 398: ID = fl_start
+Line 398: =
+Line 398: INTCON = 0
+Line 398: ;
+Line 399: ID = fl
+Line 399: -
+Line 399: >
+Line 399: ID = fl_end
+Line 399: =
+Line 399: ID = OFFSET_MAX
+Line 399: ;
+Line 400: ID = fl
+Line 400: -
+Line 400: >
+Line 400: ID = fl_notify
+Line 400: =
+Line 400: ID = NULL
+Line 400: ;
+Line 401: ID = fl
+Line 401: -
+Line 401: >
+Line 401: ID = fl_insert
+Line 401: =
+Line 401: ID = NULL
+Line 401: ;
+Line 402: ID = fl
+Line 402: -
+Line 402: >
+Line 402: ID = fl_remove
+Line 402: =
+Line 402: ID = NULL
+Line 402: ;
+Line 404: *
+Line 404: ID = flp
+Line 404: =
+Line 404: ID = fl
+Line 404: ;
+Line 405: return
+Line 405: INTCON = 0
+Line 405: ;
+Line 406: }
+Line 410: ID = static
+Line 410: ID = inline
+Line 410: int
+Line 410: ID = locks_overlap
+Line 410: (
+Line 410: ID = struct
+Line 410: ID = file_lock
+Line 410: *
+Line 410: ID = fl1
+Line 410: ,
+Line 410: ID = struct
+Line 410: ID = file_lock
+Line 410: *
+Line 410: ID = fl2
+Line 410: )
+Line 411: {
+Line 412: return
+Line 412: (
+Line 412: (
+Line 412: ID = fl1
+Line 412: -
+Line 412: >
+Line 412: ID = fl_end
+Line 412: >=
+Line 412: ID = fl2
+Line 412: -
+Line 412: >
+Line 412: ID = fl_start
+Line 412: )
+Line 412: &&
+Line 413: (
+Line 413: ID = fl2
+Line 413: -
+Line 413: >
+Line 413: ID = fl_end
+Line 413: >=
+Line 413: ID = fl1
+Line 413: -
+Line 413: >
+Line 413: ID = fl_start
+Line 413: )
+Line 413: )
+Line 413: ;
+Line 414: }
+Line 420: ID = static
+Line 420: ID = inline
+Line 420: int
+Line 421: ID = posix_same_owner
+Line 421: (
+Line 421: ID = struct
+Line 421: ID = file_lock
+Line 421: *
+Line 421: ID = fl1
+Line 421: ,
+Line 421: ID = struct
+Line 421: ID = file_lock
+Line 421: *
+Line 421: ID = fl2
+Line 421: )
+Line 422: {
+Line 423: return
+Line 423: (
+Line 423: ID = fl1
+Line 423: -
+Line 423: >
+Line 423: ID = fl_owner
+Line 423: ==
+Line 423: ID = fl2
+Line 423: -
+Line 423: >
+Line 423: ID = fl_owner
+Line 423: )
+Line 423: &&
+Line 424: (
+Line 424: ID = fl1
+Line 424: -
+Line 424: >
+Line 424: ID = fl_pid
+Line 424: ==
+Line 424: ID = fl2
+Line 424: -
+Line 424: >
+Line 424: ID = fl_pid
+Line 424: )
+Line 424: ;
+Line 425: }
+Line 430: ID = static
+Line 430: ID = inline
+Line 430: void
+Line 430: Unrecognized token: 95
+Line 430: Unrecognized token: 95
+Line 430: ID = locks_delete_block
+Line 430: (
+Line 430: ID = struct
+Line 430: ID = file_lock
+Line 430: *
+Line 430: ID = waiter
+Line 430: )
+Line 431: {
+Line 432: ID = list_del_init
+Line 432: (
+Line 432: Unrecognized token: 38
+Line 432: ID = waiter
+Line 432: -
+Line 432: >
+Line 432: ID = fl_block
+Line 432: )
+Line 432: ;
+Line 433: ID = list_del_init
+Line 433: (
+Line 433: Unrecognized token: 38
+Line 433: ID = waiter
+Line 433: -
+Line 433: >
+Line 433: ID = fl_link
+Line 433: )
+Line 433: ;
+Line 434: ID = waiter
+Line 434: -
+Line 434: >
+Line 434: ID = fl_next
+Line 434: =
+Line 434: ID = NULL
+Line 434: ;
+Line 435: }
+Line 439: ID = static
+Line 439: void
+Line 439: ID = locks_delete_block
+Line 439: (
+Line 439: ID = struct
+Line 439: ID = file_lock
+Line 439: *
+Line 439: ID = waiter
+Line 439: )
+Line 440: {
+Line 441: ID = lock_kernel
+Line 441: (
+Line 441: )
+Line 441: ;
+Line 442: Unrecognized token: 95
+Line 442: Unrecognized token: 95
+Line 442: ID = locks_delete_block
+Line 442: (
+Line 442: ID = waiter
+Line 442: )
+Line 442: ;
+Line 443: ID = unlock_kernel
+Line 443: (
+Line 443: )
+Line 443: ;
+Line 444: }
+Line 451: ID = static
+Line 451: void
+Line 451: ID = locks_insert_block
+Line 451: (
+Line 451: ID = struct
+Line 451: ID = file_lock
+Line 451: *
+Line 451: ID = blocker
+Line 451: ,
+Line 452: ID = struct
+Line 452: ID = file_lock
+Line 452: *
+Line 452: ID = waiter
+Line 452: )
+Line 453: {
+Line 454: if
+Line 454: (
+Line 454: !
+Line 454: ID = list_empty
+Line 454: (
+Line 454: Unrecognized token: 38
+Line 454: ID = waiter
+Line 454: -
+Line 454: >
+Line 454: ID = fl_block
+Line 454: )
+Line 454: )
+Line 454: {
+Line 455: ID = printk
+Line 455: (
+Line 455: ID = KERN_ERR
+Line 455: STRINGCON = "locks_insert_block: removing duplicated lock "
+Line 456: STRINGCON = "(pid=%d %Ld-%Ld type=%d)\n"
+Line 456: ,
+Line 456: ID = waiter
+Line 456: -
+Line 456: >
+Line 456: ID = fl_pid
+Line 456: ,
+Line 457: ID = waiter
+Line 457: -
+Line 457: >
+Line 457: ID = fl_start
+Line 457: ,
+Line 457: ID = waiter
+Line 457: -
+Line 457: >
+Line 457: ID = fl_end
+Line 457: ,
+Line 457: ID = waiter
+Line 457: -
+Line 457: >
+Line 457: ID = fl_type
+Line 457: )
+Line 457: ;
+Line 458: Unrecognized token: 95
+Line 458: Unrecognized token: 95
+Line 458: ID = locks_delete_block
+Line 458: (
+Line 458: ID = waiter
+Line 458: )
+Line 458: ;
+Line 459: }
+Line 460: ID = list_add_tail
+Line 460: (
+Line 460: Unrecognized token: 38
+Line 460: ID = waiter
+Line 460: -
+Line 460: >
+Line 460: ID = fl_block
+Line 460: ,
+Line 460: Unrecognized token: 38
+Line 460: ID = blocker
+Line 460: -
+Line 460: >
+Line 460: ID = fl_block
+Line 460: )
+Line 460: ;
+Line 461: ID = waiter
+Line 461: -
+Line 461: >
+Line 461: ID = fl_next
+Line 461: =
+Line 461: ID = blocker
+Line 461: ;
+Line 462: ID = list_add
+Line 462: (
+Line 462: Unrecognized token: 38
+Line 462: ID = waiter
+Line 462: -
+Line 462: >
+Line 462: ID = fl_link
+Line 462: ,
+Line 462: Unrecognized token: 38
+Line 462: ID = blocked_list
+Line 462: )
+Line 462: ;
+Line 463: }
+Line 469: ID = static
+Line 469: void
+Line 469: ID = locks_wake_up_blocks
+Line 469: (
+Line 469: ID = struct
+Line 469: ID = file_lock
+Line 469: *
+Line 469: ID = blocker
+Line 469: )
+Line 470: {
+Line 471: while
+Line 471: (
+Line 471: !
+Line 471: ID = list_empty
+Line 471: (
+Line 471: Unrecognized token: 38
+Line 471: ID = blocker
+Line 471: -
+Line 471: >
+Line 471: ID = fl_block
+Line 471: )
+Line 471: )
+Line 471: {
+Line 472: ID = struct
+Line 472: ID = file_lock
+Line 472: *
+Line 472: ID = waiter
+Line 472: =
+Line 472: ID = list_entry
+Line 472: (
+Line 472: ID = blocker
+Line 472: -
+Line 472: >
+Line 472: ID = fl_block
+Line 472: Unrecognized token: 46
+Line 472: ID = next
+Line 472: ,
+Line 473: ID = struct
+Line 473: ID = file_lock
+Line 473: ,
+Line 473: ID = fl_block
+Line 473: )
+Line 473: ;
+Line 474: Unrecognized token: 95
+Line 474: Unrecognized token: 95
+Line 474: ID = locks_delete_block
+Line 474: (
+Line 474: ID = waiter
+Line 474: )
+Line 474: ;
+Line 475: if
+Line 475: (
+Line 475: ID = waiter
+Line 475: -
+Line 475: >
+Line 475: ID = fl_notify
+Line 475: )
+Line 476: ID = waiter
+Line 476: -
+Line 476: >
+Line 476: ID = fl_notify
+Line 476: (
+Line 476: ID = waiter
+Line 476: )
+Line 476: ;
+Line 477: else
+Line 478: ID = wake_up
+Line 478: (
+Line 478: Unrecognized token: 38
+Line 478: ID = waiter
+Line 478: -
+Line 478: >
+Line 478: ID = fl_wait
+Line 478: )
+Line 478: ;
+Line 479: }
+Line 480: }
+Line 485: ID = static
+Line 485: void
+Line 485: ID = locks_insert_lock
+Line 485: (
+Line 485: ID = struct
+Line 485: ID = file_lock
+Line 485: *
+Line 485: *
+Line 485: ID = pos
+Line 485: ,
+Line 485: ID = struct
+Line 485: ID = file_lock
+Line 485: *
+Line 485: ID = fl
+Line 485: )
+Line 486: {
+Line 487: ID = list_add
+Line 487: (
+Line 487: Unrecognized token: 38
+Line 487: ID = fl
+Line 487: -
+Line 487: >
+Line 487: ID = fl_link
+Line 487: ,
+Line 487: Unrecognized token: 38
+Line 487: ID = file_lock_list
+Line 487: )
+Line 487: ;
+Line 490: ID = fl
+Line 490: -
+Line 490: >
+Line 490: ID = fl_next
+Line 490: =
+Line 490: *
+Line 490: ID = pos
+Line 490: ;
+Line 491: *
+Line 491: ID = pos
+Line 491: =
+Line 491: ID = fl
+Line 491: ;
+Line 493: if
+Line 493: (
+Line 493: ID = fl
+Line 493: -
+Line 493: >
+Line 493: ID = fl_insert
+Line 493: )
+Line 494: ID = fl
+Line 494: -
+Line 494: >
+Line 494: ID = fl_insert
+Line 494: (
+Line 494: ID = fl
+Line 494: )
+Line 494: ;
+Line 495: }
+Line 503: ID = static
+Line 503: void
+Line 503: ID = locks_delete_lock
+Line 503: (
+Line 503: ID = struct
+Line 503: ID = file_lock
+Line 503: *
+Line 503: *
+Line 503: ID = thisfl_p
+Line 503: )
+Line 504: {
+Line 505: ID = struct
+Line 505: ID = file_lock
+Line 505: *
+Line 505: ID = fl
+Line 505: =
+Line 505: *
+Line 505: ID = thisfl_p
+Line 505: ;
+Line 507: *
+Line 507: ID = thisfl_p
+Line 507: =
+Line 507: ID = fl
+Line 507: -
+Line 507: >
+Line 507: ID = fl_next
+Line 507: ;
+Line 508: ID = fl
+Line 508: -
+Line 508: >
+Line 508: ID = fl_next
+Line 508: =
+Line 508: ID = NULL
+Line 508: ;
+Line 509: ID = list_del_init
+Line 509: (
+Line 509: Unrecognized token: 38
+Line 509: ID = fl
+Line 509: -
+Line 509: >
+Line 509: ID = fl_link
+Line 509: )
+Line 509: ;
+Line 511: ID = fasync_helper
+Line 511: (
+Line 511: INTCON = 0
+Line 511: ,
+Line 511: ID = fl
+Line 511: -
+Line 511: >
+Line 511: ID = fl_file
+Line 511: ,
+Line 511: INTCON = 0
+Line 511: ,
+Line 511: Unrecognized token: 38
+Line 511: ID = fl
+Line 511: -
+Line 511: >
+Line 511: ID = fl_fasync
+Line 511: )
+Line 511: ;
+Line 512: if
+Line 512: (
+Line 512: ID = fl
+Line 512: -
+Line 512: >
+Line 512: ID = fl_fasync
+Line 512: !=
+Line 512: ID = NULL
+Line 512: )
+Line 512: {
+Line 513: ID = printk
+Line 513: (
+Line 513: ID = KERN_ERR
+Line 513: STRINGCON = "locks_delete_lock: fasync == %p\n"
+Line 513: ,
+Line 513: ID = fl
+Line 513: -
+Line 513: >
+Line 513: ID = fl_fasync
+Line 513: )
+Line 513: ;
+Line 514: ID = fl
+Line 514: -
+Line 514: >
+Line 514: ID = fl_fasync
+Line 514: =
+Line 514: ID = NULL
+Line 514: ;
+Line 515: }
+Line 517: if
+Line 517: (
+Line 517: ID = fl
+Line 517: -
+Line 517: >
+Line 517: ID = fl_remove
+Line 517: )
+Line 518: ID = fl
+Line 518: -
+Line 518: >
+Line 518: ID = fl_remove
+Line 518: (
+Line 518: ID = fl
+Line 518: )
+Line 518: ;
+Line 520: ID = locks_wake_up_blocks
+Line 520: (
+Line 520: ID = fl
+Line 520: )
+Line 520: ;
+Line 521: ID = locks_free_lock
+Line 521: (
+Line 521: ID = fl
+Line 521: )
+Line 521: ;
+Line 522: }
+Line 527: ID = static
+Line 527: int
+Line 527: ID = locks_conflict
+Line 527: (
+Line 527: ID = struct
+Line 527: ID = file_lock
+Line 527: *
+Line 527: ID = caller_fl
+Line 527: ,
+Line 527: ID = struct
+Line 527: ID = file_lock
+Line 527: *
+Line 527: ID = sys_fl
+Line 527: )
+Line 528: {
+Line 529: if
+Line 529: (
+Line 529: ID = sys_fl
+Line 529: -
+Line 529: >
+Line 529: ID = fl_type
+Line 529: ==
+Line 529: ID = F_WRLCK
+Line 529: )
+Line 530: return
+Line 530: INTCON = 1
+Line 530: ;
+Line 531: if
+Line 531: (
+Line 531: ID = caller_fl
+Line 531: -
+Line 531: >
+Line 531: ID = fl_type
+Line 531: ==
+Line 531: ID = F_WRLCK
+Line 531: )
+Line 532: return
+Line 532: INTCON = 1
+Line 532: ;
+Line 533: return
+Line 533: INTCON = 0
+Line 533: ;
+Line 534: }
+Line 539: ID = static
+Line 539: int
+Line 539: ID = posix_locks_conflict
+Line 539: (
+Line 539: ID = struct
+Line 539: ID = file_lock
+Line 539: *
+Line 539: ID = caller_fl
+Line 539: ,
+Line 539: ID = struct
+Line 539: ID = file_lock
+Line 539: *
+Line 539: ID = sys_fl
+Line 539: )
+Line 540: {
+Line 544: if
+Line 544: (
+Line 544: !
+Line 544: ID = IS_POSIX
+Line 544: (
+Line 544: ID = sys_fl
+Line 544: )
+Line 544: ||
+Line 544: ID = posix_same_owner
+Line 544: (
+Line 544: ID = caller_fl
+Line 544: ,
+Line 544: ID = sys_fl
+Line 544: )
+Line 544: )
+Line 545: return
+Line 545: (
+Line 545: INTCON = 0
+Line 545: )
+Line 545: ;
+Line 548: if
+Line 548: (
+Line 548: !
+Line 548: ID = locks_overlap
+Line 548: (
+Line 548: ID = caller_fl
+Line 548: ,
+Line 548: ID = sys_fl
+Line 548: )
+Line 548: )
+Line 549: return
+Line 549: INTCON = 0
+Line 549: ;
+Line 551: return
+Line 551: (
+Line 551: ID = locks_conflict
+Line 551: (
+Line 551: ID = caller_fl
+Line 551: ,
+Line 551: ID = sys_fl
+Line 551: )
+Line 551: )
+Line 551: ;
+Line 552: }
+Line 557: ID = static
+Line 557: int
+Line 557: ID = flock_locks_conflict
+Line 557: (
+Line 557: ID = struct
+Line 557: ID = file_lock
+Line 557: *
+Line 557: ID = caller_fl
+Line 557: ,
+Line 557: ID = struct
+Line 557: ID = file_lock
+Line 557: *
+Line 557: ID = sys_fl
+Line 557: )
+Line 558: {
+Line 562: if
+Line 562: (
+Line 562: !
+Line 562: ID = IS_FLOCK
+Line 562: (
+Line 562: ID = sys_fl
+Line 562: )
+Line 562: ||
+Line 562: (
+Line 562: ID = caller_fl
+Line 562: -
+Line 562: >
+Line 562: ID = fl_file
+Line 562: ==
+Line 562: ID = sys_fl
+Line 562: -
+Line 562: >
+Line 562: ID = fl_file
+Line 562: )
+Line 562: )
+Line 563: return
+Line 563: (
+Line 563: INTCON = 0
+Line 563: )
+Line 563: ;
+Line 564: if
+Line 564: (
+Line 564: (
+Line 564: ID = caller_fl
+Line 564: -
+Line 564: >
+Line 564: ID = fl_type
+Line 564: Unrecognized token: 38
+Line 564: ID = LOCK_MAND
+Line 564: )
+Line 564: ||
+Line 564: (
+Line 564: ID = sys_fl
+Line 564: -
+Line 564: >
+Line 564: ID = fl_type
+Line 564: Unrecognized token: 38
+Line 564: ID = LOCK_MAND
+Line 564: )
+Line 564: )
+Line 565: return
+Line 565: INTCON = 0
+Line 565: ;
+Line 567: return
+Line 567: (
+Line 567: ID = locks_conflict
+Line 567: (
+Line 567: ID = caller_fl
+Line 567: ,
+Line 567: ID = sys_fl
+Line 567: )
+Line 567: )
+Line 567: ;
+Line 568: }
+Line 570: ID = static
+Line 570: int
+Line 570: ID = interruptible_sleep_on_locked
+Line 570: (
+Line 570: ID = wait_queue_head_t
+Line 570: *
+Line 570: ID = fl_wait
+Line 570: ,
+Line 570: int
+Line 570: ID = timeout
+Line 570: )
+Line 571: {
+Line 572: int
+Line 572: ID = result
+Line 572: =
+Line 572: INTCON = 0
+Line 572: ;
+Line 573: ID = DECLARE_WAITQUEUE
+Line 573: (
+Line 573: ID = wait
+Line 573: ,
+Line 573: ID = current
+Line 573: )
+Line 573: ;
+Line 575: Unrecognized token: 95
+Line 575: Unrecognized token: 95
+Line 575: ID = set_current_state
+Line 575: (
+Line 575: ID = TASK_INTERRUPTIBLE
+Line 575: )
+Line 575: ;
+Line 576: ID = add_wait_queue
+Line 576: (
+Line 576: ID = fl_wait
+Line 576: ,
+Line 576: Unrecognized token: 38
+Line 576: ID = wait
+Line 576: )
+Line 576: ;
+Line 577: if
+Line 577: (
+Line 577: ID = timeout
+Line 577: ==
+Line 577: INTCON = 0
+Line 577: )
+Line 578: ID = schedule
+Line 578: (
+Line 578: )
+Line 578: ;
+Line 579: else
+Line 580: ID = result
+Line 580: =
+Line 580: ID = schedule_timeout
+Line 580: (
+Line 580: ID = timeout
+Line 580: )
+Line 580: ;
+Line 581: if
+Line 581: (
+Line 581: ID = signal_pending
+Line 581: (
+Line 581: ID = current
+Line 581: )
+Line 581: )
+Line 582: ID = result
+Line 582: =
+Line 582: -
+Line 582: ID = ERESTARTSYS
+Line 582: ;
+Line 583: ID = remove_wait_queue
+Line 583: (
+Line 583: ID = fl_wait
+Line 583: ,
+Line 583: Unrecognized token: 38
+Line 583: ID = wait
+Line 583: )
+Line 583: ;
+Line 584: Unrecognized token: 95
+Line 584: Unrecognized token: 95
+Line 584: ID = set_current_state
+Line 584: (
+Line 584: ID = TASK_RUNNING
+Line 584: )
+Line 584: ;
+Line 585: return
+Line 585: ID = result
+Line 585: ;
+Line 586: }
+Line 588: ID = static
+Line 588: int
+Line 588: ID = locks_block_on_timeout
+Line 588: (
+Line 588: ID = struct
+Line 588: ID = file_lock
+Line 588: *
+Line 588: ID = blocker
+Line 588: ,
+Line 588: ID = struct
+Line 588: ID = file_lock
+Line 588: *
+Line 588: ID = waiter
+Line 588: ,
+Line 588: int
+Line 588: ID = time
+Line 588: )
+Line 589: {
+Line 590: int
+Line 590: ID = result
+Line 590: ;
+Line 591: ID = locks_insert_block
+Line 591: (
+Line 591: ID = blocker
+Line 591: ,
+Line 591: ID = waiter
+Line 591: )
+Line 591: ;
+Line 592: ID = result
+Line 592: =
+Line 592: ID = interruptible_sleep_on_locked
+Line 592: (
+Line 592: Unrecognized token: 38
+Line 592: ID = waiter
+Line 592: -
+Line 592: >
+Line 592: ID = fl_wait
+Line 592: ,
+Line 592: ID = time
+Line 592: )
+Line 592: ;
+Line 593: Unrecognized token: 95
+Line 593: Unrecognized token: 95
+Line 593: ID = locks_delete_block
+Line 593: (
+Line 593: ID = waiter
+Line 593: )
+Line 593: ;
+Line 594: return
+Line 594: ID = result
+Line 594: ;
+Line 595: }
+Line 597: ID = struct
+Line 597: ID = file_lock
+Line 597: *
+Line 598: ID = posix_test_lock
+Line 598: (
+Line 598: ID = struct
+Line 598: ID = file
+Line 598: *
+Line 598: ID = filp
+Line 598: ,
+Line 598: ID = struct
+Line 598: ID = file_lock
+Line 598: *
+Line 598: ID = fl
+Line 598: )
+Line 599: {
+Line 600: ID = struct
+Line 600: ID = file_lock
+Line 600: *
+Line 600: ID = cfl
+Line 600: ;
+Line 602: ID = lock_kernel
+Line 602: (
+Line 602: )
+Line 602: ;
+Line 603: for
+Line 603: (
+Line 603: ID = cfl
+Line 603: =
+Line 603: ID = filp
+Line 603: -
+Line 603: >
+Line 603: ID = f_dentry
+Line 603: -
+Line 603: >
+Line 603: ID = d_inode
+Line 603: -
+Line 603: >
+Line 603: ID = i_flock
+Line 603: ;
+Line 603: ID = cfl
+Line 603: ;
+Line 603: ID = cfl
+Line 603: =
+Line 603: ID = cfl
+Line 603: -
+Line 603: >
+Line 603: ID = fl_next
+Line 603: )
+Line 603: {
+Line 604: if
+Line 604: (
+Line 604: !
+Line 604: ID = IS_POSIX
+Line 604: (
+Line 604: ID = cfl
+Line 604: )
+Line 604: )
+Line 605: ID = continue
+Line 605: ;
+Line 606: if
+Line 606: (
+Line 606: ID = posix_locks_conflict
+Line 606: (
+Line 606: ID = cfl
+Line 606: ,
+Line 606: ID = fl
+Line 606: )
+Line 606: )
+Line 607: ID = break
+Line 607: ;
+Line 608: }
+Line 609: ID = unlock_kernel
+Line 609: (
+Line 609: )
+Line 609: ;
+Line 611: return
+Line 611: (
+Line 611: ID = cfl
+Line 611: )
+Line 611: ;
+Line 612: }
+Line 614: ID = EXPORT_SYMBOL
+Line 614: (
+Line 614: ID = posix_test_lock
+Line 614: )
+Line 614: ;
+Line 630: int
+Line 630: ID = posix_locks_deadlock
+Line 630: (
+Line 630: ID = struct
+Line 630: ID = file_lock
+Line 630: *
+Line 630: ID = caller_fl
+Line 630: ,
+Line 631: ID = struct
+Line 631: ID = file_lock
+Line 631: *
+Line 631: ID = block_fl
+Line 631: )
+Line 632: {
+Line 633: ID = struct
+Line 633: ID = list_head
+Line 633: *
+Line 633: ID = tmp
+Line 633: ;
+Line 634: ID = fl_owner_t
+Line 634: ID = caller_owner
+Line 634: ,
+Line 634: ID = blocked_owner
+Line 634: ;
+Line 635: ID = unsigned
+Line 635: int
+Line 635: ID = caller_pid
+Line 635: ,
+Line 635: ID = blocked_pid
+Line 635: ;
+Line 637: ID = caller_owner
+Line 637: =
+Line 637: ID = caller_fl
+Line 637: -
+Line 637: >
+Line 637: ID = fl_owner
+Line 637: ;
+Line 638: ID = caller_pid
+Line 638: =
+Line 638: ID = caller_fl
+Line 638: -
+Line 638: >
+Line 638: ID = fl_pid
+Line 638: ;
+Line 639: ID = blocked_owner
+Line 639: =
+Line 639: ID = block_fl
+Line 639: -
+Line 639: >
+Line 639: ID = fl_owner
+Line 639: ;
+Line 640: ID = blocked_pid
+Line 640: =
+Line 640: ID = block_fl
+Line 640: -
+Line 640: >
+Line 640: ID = fl_pid
+Line 640: ;
+Line 642: ID = next_task
+Line 642: Unrecognized token: 58
+Line 643: if
+Line 643: (
+Line 643: ID = caller_owner
+Line 643: ==
+Line 643: ID = blocked_owner
+Line 643: &&
+Line 643: ID = caller_pid
+Line 643: ==
+Line 643: ID = blocked_pid
+Line 643: )
+Line 644: return
+Line 644: INTCON = 1
+Line 644: ;
+Line 645: ID = list_for_each
+Line 645: (
+Line 645: ID = tmp
+Line 645: ,
+Line 645: Unrecognized token: 38
+Line 645: ID = blocked_list
+Line 645: )
+Line 645: {
+Line 646: ID = struct
+Line 646: ID = file_lock
+Line 646: *
+Line 646: ID = fl
+Line 646: =
+Line 646: ID = list_entry
+Line 646: (
+Line 646: ID = tmp
+Line 646: ,
+Line 646: ID = struct
+Line 646: ID = file_lock
+Line 646: ,
+Line 646: ID = fl_link
+Line 646: )
+Line 646: ;
+Line 647: if
+Line 647: (
+Line 647: (
+Line 647: ID = fl
+Line 647: -
+Line 647: >
+Line 647: ID = fl_owner
+Line 647: ==
+Line 647: ID = blocked_owner
+Line 647: )
+Line 648: &&
+Line 648: (
+Line 648: ID = fl
+Line 648: -
+Line 648: >
+Line 648: ID = fl_pid
+Line 648: ==
+Line 648: ID = blocked_pid
+Line 648: )
+Line 648: )
+Line 648: {
+Line 649: ID = fl
+Line 649: =
+Line 649: ID = fl
+Line 649: -
+Line 649: >
+Line 649: ID = fl_next
+Line 649: ;
+Line 650: ID = blocked_owner
+Line 650: =
+Line 650: ID = fl
+Line 650: -
+Line 650: >
+Line 650: ID = fl_owner
+Line 650: ;
+Line 651: ID = blocked_pid
+Line 651: =
+Line 651: ID = fl
+Line 651: -
+Line 651: >
+Line 651: ID = fl_pid
+Line 651: ;
+Line 652: ID = goto
+Line 652: ID = next_task
+Line 652: ;
+Line 653: }
+Line 654: }
+Line 655: return
+Line 655: INTCON = 0
+Line 655: ;
+Line 656: }
+Line 658: ID = EXPORT_SYMBOL
+Line 658: (
+Line 658: ID = posix_locks_deadlock
+Line 658: )
+Line 658: ;
+Line 664: ID = static
+Line 664: int
+Line 664: ID = flock_lock_file
+Line 664: (
+Line 664: ID = struct
+Line 664: ID = file
+Line 664: *
+Line 664: ID = filp
+Line 664: ,
+Line 664: ID = struct
+Line 664: ID = file_lock
+Line 664: *
+Line 664: ID = new_fl
+Line 664: )
+Line 665: {
+Line 666: ID = struct
+Line 666: ID = file_lock
+Line 666: *
+Line 666: *
+Line 666: ID = before
+Line 666: ;
+Line 667: ID = struct
+Line 667: ID = inode
+Line 667: *
+Line 667: ID = inode
+Line 667: =
+Line 667: ID = filp
+Line 667: -
+Line 667: >
+Line 667: ID = f_dentry
+Line 667: -
+Line 667: >
+Line 667: ID = d_inode
+Line 667: ;
+Line 668: int
+Line 668: ID = error
+Line 668: =
+Line 668: INTCON = 0
+Line 668: ;
+Line 669: int
+Line 669: ID = found
+Line 669: =
+Line 669: INTCON = 0
+Line 669: ;
+Line 671: ID = lock_kernel
+Line 671: (
+Line 671: )
+Line 671: ;
+Line 672: ID = for_each_lock
+Line 672: (
+Line 672: ID = inode
+Line 672: ,
+Line 672: ID = before
+Line 672: )
+Line 672: {
+Line 673: ID = struct
+Line 673: ID = file_lock
+Line 673: *
+Line 673: ID = fl
+Line 673: =
+Line 673: *
+Line 673: ID = before
+Line 673: ;
+Line 674: if
+Line 674: (
+Line 674: ID = IS_POSIX
+Line 674: (
+Line 674: ID = fl
+Line 674: )
+Line 674: )
+Line 675: ID = break
+Line 675: ;
+Line 676: if
+Line 676: (
+Line 676: ID = IS_LEASE
+Line 676: (
+Line 676: ID = fl
+Line 676: )
+Line 676: )
+Line 677: ID = continue
+Line 677: ;
+Line 678: if
+Line 678: (
+Line 678: ID = filp
+Line 678: !=
+Line 678: ID = fl
+Line 678: -
+Line 678: >
+Line 678: ID = fl_file
+Line 678: )
+Line 679: ID = continue
+Line 679: ;
+Line 680: if
+Line 680: (
+Line 680: ID = new_fl
+Line 680: -
+Line 680: >
+Line 680: ID = fl_type
+Line 680: ==
+Line 680: ID = fl
+Line 680: -
+Line 680: >
+Line 680: ID = fl_type
+Line 680: )
+Line 681: ID = goto
+Line 681: ID = out
+Line 681: ;
+Line 682: ID = found
+Line 682: =
+Line 682: INTCON = 1
+Line 682: ;
+Line 683: ID = locks_delete_lock
+Line 683: (
+Line 683: ID = before
+Line 683: )
+Line 683: ;
+Line 684: ID = break
+Line 684: ;
+Line 685: }
+Line 686: ID = unlock_kernel
+Line 686: (
+Line 686: )
+Line 686: ;
+Line 688: if
+Line 688: (
+Line 688: ID = new_fl
+Line 688: -
+Line 688: >
+Line 688: ID = fl_type
+Line 688: ==
+Line 688: ID = F_UNLCK
+Line 688: )
+Line 689: return
+Line 689: INTCON = 0
+Line 689: ;
+Line 695: if
+Line 695: (
+Line 695: ID = found
+Line 695: )
+Line 696: ID = cond_resched
+Line 696: (
+Line 696: )
+Line 696: ;
+Line 698: ID = lock_kernel
+Line 698: (
+Line 698: )
+Line 698: ;
+Line 699: ID = for_each_lock
+Line 699: (
+Line 699: ID = inode
+Line 699: ,
+Line 699: ID = before
+Line 699: )
+Line 699: {
+Line 700: ID = struct
+Line 700: ID = file_lock
+Line 700: *
+Line 700: ID = fl
+Line 700: =
+Line 700: *
+Line 700: ID = before
+Line 700: ;
+Line 701: if
+Line 701: (
+Line 701: ID = IS_POSIX
+Line 701: (
+Line 701: ID = fl
+Line 701: )
+Line 701: )
+Line 702: ID = break
+Line 702: ;
+Line 703: if
+Line 703: (
+Line 703: ID = IS_LEASE
+Line 703: (
+Line 703: ID = fl
+Line 703: )
+Line 703: )
+Line 704: ID = continue
+Line 704: ;
+Line 705: if
+Line 705: (
+Line 705: !
+Line 705: ID = flock_locks_conflict
+Line 705: (
+Line 705: ID = new_fl
+Line 705: ,
+Line 705: ID = fl
+Line 705: )
+Line 705: )
+Line 706: ID = continue
+Line 706: ;
+Line 707: ID = error
+Line 707: =
+Line 707: -
+Line 707: ID = EAGAIN
+Line 707: ;
+Line 708: if
+Line 708: (
+Line 708: ID = new_fl
+Line 708: -
+Line 708: >
+Line 708: ID = fl_flags
+Line 708: Unrecognized token: 38
+Line 708: ID = FL_SLEEP
+Line 708: )
+Line 708: {
+Line 709: ID = locks_insert_block
+Line 709: (
+Line 709: ID = fl
+Line 709: ,
+Line 709: ID = new_fl
+Line 709: )
+Line 709: ;
+Line 710: }
+Line 711: ID = goto
+Line 711: ID = out
+Line 711: ;
+Line 712: }
+Line 713: ID = locks_insert_lock
+Line 713: (
+Line 713: Unrecognized token: 38
+Line 713: ID = inode
+Line 713: -
+Line 713: >
+Line 713: ID = i_flock
+Line 713: ,
+Line 713: ID = new_fl
+Line 713: )
+Line 713: ;
+Line 714: ID = error
+Line 714: =
+Line 714: INTCON = 0
+Line 714: ;
+Line 716: ID = out
+Line 716: Unrecognized token: 58
+Line 717: ID = unlock_kernel
+Line 717: (
+Line 717: )
+Line 717: ;
+Line 718: return
+Line 718: ID = error
+Line 718: ;
+Line 719: }
+Line 721: ID = EXPORT_SYMBOL
+Line 721: (
+Line 721: ID = posix_lock_file
+Line 721: )
+Line 721: ;
+Line 723: ID = static
+Line 723: int
+Line 723: Unrecognized token: 95
+Line 723: Unrecognized token: 95
+Line 723: ID = posix_lock_file
+Line 723: (
+Line 723: ID = struct
+Line 723: ID = inode
+Line 723: *
+Line 723: ID = inode
+Line 723: ,
+Line 723: ID = struct
+Line 723: ID = file_lock
+Line 723: *
+Line 723: ID = request
+Line 723: )
+Line 724: {
+Line 725: ID = struct
+Line 725: ID = file_lock
+Line 725: *
+Line 725: ID = fl
+Line 725: ;
+Line 726: ID = struct
+Line 726: ID = file_lock
+Line 726: *
+Line 726: ID = new_fl
+Line 726: ,
+Line 726: *
+Line 726: ID = new_fl2
+Line 726: ;
+Line 727: ID = struct
+Line 727: ID = file_lock
+Line 727: *
+Line 727: ID = left
+Line 727: =
+Line 727: ID = NULL
+Line 727: ;
+Line 728: ID = struct
+Line 728: ID = file_lock
+Line 728: *
+Line 728: ID = right
+Line 728: =
+Line 728: ID = NULL
+Line 728: ;
+Line 729: ID = struct
+Line 729: ID = file_lock
+Line 729: *
+Line 729: *
+Line 729: ID = before
+Line 729: ;
+Line 730: int
+Line 730: ID = error
+Line 730: ,
+Line 730: ID = added
+Line 730: =
+Line 730: INTCON = 0
+Line 730: ;
+Line 736: ID = new_fl
+Line 736: =
+Line 736: ID = locks_alloc_lock
+Line 736: (
+Line 736: )
+Line 736: ;
+Line 737: ID = new_fl2
+Line 737: =
+Line 737: ID = locks_alloc_lock
+Line 737: (
+Line 737: )
+Line 737: ;
+Line 739: ID = lock_kernel
+Line 739: (
+Line 739: )
+Line 739: ;
+Line 740: if
+Line 740: (
+Line 740: ID = request
+Line 740: -
+Line 740: >
+Line 740: ID = fl_type
+Line 740: !=
+Line 740: ID = F_UNLCK
+Line 740: )
+Line 740: {
+Line 741: ID = for_each_lock
+Line 741: (
+Line 741: ID = inode
+Line 741: ,
+Line 741: ID = before
+Line 741: )
+Line 741: {
+Line 742: ID = struct
+Line 742: ID = file_lock
+Line 742: *
+Line 742: ID = fl
+Line 742: =
+Line 742: *
+Line 742: ID = before
+Line 742: ;
+Line 743: if
+Line 743: (
+Line 743: !
+Line 743: ID = IS_POSIX
+Line 743: (
+Line 743: ID = fl
+Line 743: )
+Line 743: )
+Line 744: ID = continue
+Line 744: ;
+Line 745: if
+Line 745: (
+Line 745: !
+Line 745: ID = posix_locks_conflict
+Line 745: (
+Line 745: ID = request
+Line 745: ,
+Line 745: ID = fl
+Line 745: )
+Line 745: )
+Line 746: ID = continue
+Line 746: ;
+Line 747: ID = error
+Line 747: =
+Line 747: -
+Line 747: ID = EAGAIN
+Line 747: ;
+Line 748: if
+Line 748: (
+Line 748: !
+Line 748: (
+Line 748: ID = request
+Line 748: -
+Line 748: >
+Line 748: ID = fl_flags
+Line 748: Unrecognized token: 38
+Line 748: ID = FL_SLEEP
+Line 748: )
+Line 748: )
+Line 749: ID = goto
+Line 749: ID = out
+Line 749: ;
+Line 750: ID = error
+Line 750: =
+Line 750: -
+Line 750: ID = EDEADLK
+Line 750: ;
+Line 751: if
+Line 751: (
+Line 751: ID = posix_locks_deadlock
+Line 751: (
+Line 751: ID = request
+Line 751: ,
+Line 751: ID = fl
+Line 751: )
+Line 751: )
+Line 752: ID = goto
+Line 752: ID = out
+Line 752: ;
+Line 753: ID = error
+Line 753: =
+Line 753: -
+Line 753: ID = EAGAIN
+Line 753: ;
+Line 754: ID = locks_insert_block
+Line 754: (
+Line 754: ID = fl
+Line 754: ,
+Line 754: ID = request
+Line 754: )
+Line 754: ;
+Line 755: ID = goto
+Line 755: ID = out
+Line 755: ;
+Line 756: }
+Line 757: }
+Line 760: ID = error
+Line 760: =
+Line 760: INTCON = 0
+Line 760: ;
+Line 761: if
+Line 761: (
+Line 761: ID = request
+Line 761: -
+Line 761: >
+Line 761: ID = fl_flags
+Line 761: Unrecognized token: 38
+Line 761: ID = FL_ACCESS
+Line 761: )
+Line 762: ID = goto
+Line 762: ID = out
+Line 762: ;
+Line 764: ID = error
+Line 764: =
+Line 764: -
+Line 764: ID = ENOLCK
+Line 764: ;
+Line 765: if
+Line 765: (
+Line 765: !
+Line 765: (
+Line 765: ID = new_fl
+Line 765: &&
+Line 765: ID = new_fl2
+Line 765: )
+Line 765: )
+Line 766: ID = goto
+Line 766: ID = out
+Line 766: ;
+Line 775: ID = before
+Line 775: =
+Line 775: Unrecognized token: 38
+Line 775: ID = inode
+Line 775: -
+Line 775: >
+Line 775: ID = i_flock
+Line 775: ;
+Line 778: while
+Line 778: (
+Line 778: (
+Line 778: ID = fl
+Line 778: =
+Line 778: *
+Line 778: ID = before
+Line 778: )
+Line 778: &&
+Line 778: (
+Line 778: !
+Line 778: ID = IS_POSIX
+Line 778: (
+Line 778: ID = fl
+Line 778: )
+Line 778: ||
+Line 779: !
+Line 779: ID = posix_same_owner
+Line 779: (
+Line 779: ID = request
+Line 779: ,
+Line 779: ID = fl
+Line 779: )
+Line 779: )
+Line 779: )
+Line 779: {
+Line 780: ID = before
+Line 780: =
+Line 780: Unrecognized token: 38
+Line 780: ID = fl
+Line 780: -
+Line 780: >
+Line 780: ID = fl_next
+Line 780: ;
+Line 781: }
+Line 784: while
+Line 784: (
+Line 784: (
+Line 784: ID = fl
+Line 784: =
+Line 784: *
+Line 784: ID = before
+Line 784: )
+Line 784: &&
+Line 784: ID = posix_same_owner
+Line 784: (
+Line 784: ID = request
+Line 784: ,
+Line 784: ID = fl
+Line 784: )
+Line 784: )
+Line 784: {
+Line 787: if
+Line 787: (
+Line 787: ID = request
+Line 787: -
+Line 787: >
+Line 787: ID = fl_type
+Line 787: ==
+Line 787: ID = fl
+Line 787: -
+Line 787: >
+Line 787: ID = fl_type
+Line 787: )
+Line 787: {
+Line 788: if
+Line 788: (
+Line 788: ID = fl
+Line 788: -
+Line 788: >
+Line 788: ID = fl_end
+Line 788: <
+Line 788: ID = request
+Line 788: -
+Line 788: >
+Line 788: ID = fl_start
+Line 788: -
+Line 788: INTCON = 1
+Line 788: )
+Line 789: ID = goto
+Line 789: ID = next_lock
+Line 789: ;
+Line 793: if
+Line 793: (
+Line 793: ID = fl
+Line 793: -
+Line 793: >
+Line 793: ID = fl_start
+Line 793: >
+Line 793: ID = request
+Line 793: -
+Line 793: >
+Line 793: ID = fl_end
+Line 793: +
+Line 793: INTCON = 1
+Line 793: )
+Line 794: ID = break
+Line 794: ;
+Line 801: if
+Line 801: (
+Line 801: ID = fl
+Line 801: -
+Line 801: >
+Line 801: ID = fl_start
+Line 801: >
+Line 801: ID = request
+Line 801: -
+Line 801: >
+Line 801: ID = fl_start
+Line 801: )
+Line 802: ID = fl
+Line 802: -
+Line 802: >
+Line 802: ID = fl_start
+Line 802: =
+Line 802: ID = request
+Line 802: -
+Line 802: >
+Line 802: ID = fl_start
+Line 802: ;
+Line 803: else
+Line 804: ID = request
+Line 804: -
+Line 804: >
+Line 804: ID = fl_start
+Line 804: =
+Line 804: ID = fl
+Line 804: -
+Line 804: >
+Line 804: ID = fl_start
+Line 804: ;
+Line 805: if
+Line 805: (
+Line 805: ID = fl
+Line 805: -
+Line 805: >
+Line 805: ID = fl_end
+Line 805: <
+Line 805: ID = request
+Line 805: -
+Line 805: >
+Line 805: ID = fl_end
+Line 805: )
+Line 806: ID = fl
+Line 806: -
+Line 806: >
+Line 806: ID = fl_end
+Line 806: =
+Line 806: ID = request
+Line 806: -
+Line 806: >
+Line 806: ID = fl_end
+Line 806: ;
+Line 807: else
+Line 808: ID = request
+Line 808: -
+Line 808: >
+Line 808: ID = fl_end
+Line 808: =
+Line 808: ID = fl
+Line 808: -
+Line 808: >
+Line 808: ID = fl_end
+Line 808: ;
+Line 809: if
+Line 809: (
+Line 809: ID = added
+Line 809: )
+Line 809: {
+Line 810: ID = locks_delete_lock
+Line 810: (
+Line 810: ID = before
+Line 810: )
+Line 810: ;
+Line 811: ID = continue
+Line 811: ;
+Line 812: }
+Line 813: ID = request
+Line 813: =
+Line 813: ID = fl
+Line 813: ;
+Line 814: ID = added
+Line 814: =
+Line 814: INTCON = 1
+Line 814: ;
+Line 815: }
+Line 816: else
+Line 816: {
+Line 820: if
+Line 820: (
+Line 820: ID = fl
+Line 820: -
+Line 820: >
+Line 820: ID = fl_end
+Line 820: <
+Line 820: ID = request
+Line 820: -
+Line 820: >
+Line 820: ID = fl_start
+Line 820: )
+Line 821: ID = goto
+Line 821: ID = next_lock
+Line 821: ;
+Line 822: if
+Line 822: (
+Line 822: ID = fl
+Line 822: -
+Line 822: >
+Line 822: ID = fl_start
+Line 822: >
+Line 822: ID = request
+Line 822: -
+Line 822: >
+Line 822: ID = fl_end
+Line 822: )
+Line 823: ID = break
+Line 823: ;
+Line 824: if
+Line 824: (
+Line 824: ID = request
+Line 824: -
+Line 824: >
+Line 824: ID = fl_type
+Line 824: ==
+Line 824: ID = F_UNLCK
+Line 824: )
+Line 825: ID = added
+Line 825: =
+Line 825: INTCON = 1
+Line 825: ;
+Line 826: if
+Line 826: (
+Line 826: ID = fl
+Line 826: -
+Line 826: >
+Line 826: ID = fl_start
+Line 826: <
+Line 826: ID = request
+Line 826: -
+Line 826: >
+Line 826: ID = fl_start
+Line 826: )
+Line 827: ID = left
+Line 827: =
+Line 827: ID = fl
+Line 827: ;
+Line 831: if
+Line 831: (
+Line 831: ID = fl
+Line 831: -
+Line 831: >
+Line 831: ID = fl_end
+Line 831: >
+Line 831: ID = request
+Line 831: -
+Line 831: >
+Line 831: ID = fl_end
+Line 831: )
+Line 831: {
+Line 832: ID = right
+Line 832: =
+Line 832: ID = fl
+Line 832: ;
+Line 833: ID = break
+Line 833: ;
+Line 834: }
+Line 835: if
+Line 835: (
+Line 835: ID = fl
+Line 835: -
+Line 835: >
+Line 835: ID = fl_start
+Line 835: >=
+Line 835: ID = request
+Line 835: -
+Line 835: >
+Line 835: ID = fl_start
+Line 835: )
+Line 835: {
+Line 839: if
+Line 839: (
+Line 839: ID = added
+Line 839: )
+Line 839: {
+Line 840: ID = locks_delete_lock
+Line 840: (
+Line 840: ID = before
+Line 840: )
+Line 840: ;
+Line 841: ID = continue
+Line 841: ;
+Line 842: }
+Line 848: ID = locks_wake_up_blocks
+Line 848: (
+Line 848: ID = fl
+Line 848: )
+Line 848: ;
+Line 849: ID = fl
+Line 849: -
+Line 849: >
+Line 849: ID = fl_start
+Line 849: =
+Line 849: ID = request
+Line 849: -
+Line 849: >
+Line 849: ID = fl_start
+Line 849: ;
+Line 850: ID = fl
+Line 850: -
+Line 850: >
+Line 850: ID = fl_end
+Line 850: =
+Line 850: ID = request
+Line 850: -
+Line 850: >
+Line 850: ID = fl_end
+Line 850: ;
+Line 851: ID = fl
+Line 851: -
+Line 851: >
+Line 851: ID = fl_type
+Line 851: =
+Line 851: ID = request
+Line 851: -
+Line 851: >
+Line 851: ID = fl_type
+Line 851: ;
+Line 852: ID = fl
+Line 852: -
+Line 852: >
+Line 852: ID = fl_u
+Line 852: =
+Line 852: ID = request
+Line 852: -
+Line 852: >
+Line 852: ID = fl_u
+Line 852: ;
+Line 853: ID = request
+Line 853: =
+Line 853: ID = fl
+Line 853: ;
+Line 854: ID = added
+Line 854: =
+Line 854: INTCON = 1
+Line 854: ;
+Line 855: }
+Line 856: }
+Line 859: ID = next_lock
+Line 859: Unrecognized token: 58
+Line 860: ID = before
+Line 860: =
+Line 860: Unrecognized token: 38
+Line 860: ID = fl
+Line 860: -
+Line 860: >
+Line 860: ID = fl_next
+Line 860: ;
+Line 861: }
+Line 863: ID = error
+Line 863: =
+Line 863: INTCON = 0
+Line 863: ;
+Line 864: if
+Line 864: (
+Line 864: !
+Line 864: ID = added
+Line 864: )
+Line 864: {
+Line 865: if
+Line 865: (
+Line 865: ID = request
+Line 865: -
+Line 865: >
+Line 865: ID = fl_type
+Line 865: ==
+Line 865: ID = F_UNLCK
+Line 865: )
+Line 866: ID = goto
+Line 866: ID = out
+Line 866: ;
+Line 867: ID = locks_copy_lock
+Line 867: (
+Line 867: ID = new_fl
+Line 867: ,
+Line 867: ID = request
+Line 867: )
+Line 867: ;
+Line 868: ID = locks_insert_lock
+Line 868: (
+Line 868: ID = before
+Line 868: ,
+Line 868: ID = new_fl
+Line 868: )
+Line 868: ;
+Line 869: ID = new_fl
+Line 869: =
+Line 869: ID = NULL
+Line 869: ;
+Line 870: }
+Line 871: if
+Line 871: (
+Line 871: ID = right
+Line 871: )
+Line 871: {
+Line 872: if
+Line 872: (
+Line 872: ID = left
+Line 872: ==
+Line 872: ID = right
+Line 872: )
+Line 872: {
+Line 876: ID = left
+Line 876: =
+Line 876: ID = new_fl2
+Line 876: ;
+Line 877: ID = new_fl2
+Line 877: =
+Line 877: ID = NULL
+Line 877: ;
+Line 878: ID = locks_copy_lock
+Line 878: (
+Line 878: ID = left
+Line 878: ,
+Line 878: ID = right
+Line 878: )
+Line 878: ;
+Line 879: ID = locks_insert_lock
+Line 879: (
+Line 879: ID = before
+Line 879: ,
+Line 879: ID = left
+Line 879: )
+Line 879: ;
+Line 880: }
+Line 881: ID = right
+Line 881: -
+Line 881: >
+Line 881: ID = fl_start
+Line 881: =
+Line 881: ID = request
+Line 881: -
+Line 881: >
+Line 881: ID = fl_end
+Line 881: +
+Line 881: INTCON = 1
+Line 881: ;
+Line 882: ID = locks_wake_up_blocks
+Line 882: (
+Line 882: ID = right
+Line 882: )
+Line 882: ;
+Line 883: }
+Line 884: if
+Line 884: (
+Line 884: ID = left
+Line 884: )
+Line 884: {
+Line 885: ID = left
+Line 885: -
+Line 885: >
+Line 885: ID = fl_end
+Line 885: =
+Line 885: ID = request
+Line 885: -
+Line 885: >
+Line 885: ID = fl_start
+Line 885: -
+Line 885: INTCON = 1
+Line 885: ;
+Line 886: ID = locks_wake_up_blocks
+Line 886: (
+Line 886: ID = left
+Line 886: )
+Line 886: ;
+Line 887: }
+Line 888: ID = out
+Line 888: Unrecognized token: 58
+Line 889: ID = unlock_kernel
+Line 889: (
+Line 889: )
+Line 889: ;
+Line 893: if
+Line 893: (
+Line 893: ID = new_fl
+Line 893: )
+Line 894: ID = locks_free_lock
+Line 894: (
+Line 894: ID = new_fl
+Line 894: )
+Line 894: ;
+Line 895: if
+Line 895: (
+Line 895: ID = new_fl2
+Line 895: )
+Line 896: ID = locks_free_lock
+Line 896: (
+Line 896: ID = new_fl2
+Line 896: )
+Line 896: ;
+Line 897: return
+Line 897: ID = error
+Line 897: ;
+Line 898: }
+Line 909: int
+Line 909: ID = posix_lock_file
+Line 909: (
+Line 909: ID = struct
+Line 909: ID = file
+Line 909: *
+Line 909: ID = filp
+Line 909: ,
+Line 909: ID = struct
+Line 909: ID = file_lock
+Line 909: *
+Line 909: ID = fl
+Line 909: )
+Line 910: {
+Line 911: return
+Line 911: Unrecognized token: 95
+Line 911: Unrecognized token: 95
+Line 911: ID = posix_lock_file
+Line 911: (
+Line 911: ID = filp
+Line 911: -
+Line 911: >
+Line 911: ID = f_dentry
+Line 911: -
+Line 911: >
+Line 911: ID = d_inode
+Line 911: ,
+Line 911: ID = fl
+Line 911: )
+Line 911: ;
+Line 912: }
+Line 921: int
+Line 921: ID = locks_mandatory_locked
+Line 921: (
+Line 921: ID = struct
+Line 921: ID = inode
+Line 921: *
+Line 921: ID = inode
+Line 921: )
+Line 922: {
+Line 923: ID = fl_owner_t
+Line 923: ID = owner
+Line 923: =
+Line 923: ID = current
+Line 923: -
+Line 923: >
+Line 923: ID = files
+Line 923: ;
+Line 924: ID = struct
+Line 924: ID = file_lock
+Line 924: *
+Line 924: ID = fl
+Line 924: ;
+Line 929: ID = lock_kernel
+Line 929: (
+Line 929: )
+Line 929: ;
+Line 930: for
+Line 930: (
+Line 930: ID = fl
+Line 930: =
+Line 930: ID = inode
+Line 930: -
+Line 930: >
+Line 930: ID = i_flock
+Line 930: ;
+Line 930: ID = fl
+Line 930: !=
+Line 930: ID = NULL
+Line 930: ;
+Line 930: ID = fl
+Line 930: =
+Line 930: ID = fl
+Line 930: -
+Line 930: >
+Line 930: ID = fl_next
+Line 930: )
+Line 930: {
+Line 931: if
+Line 931: (
+Line 931: !
+Line 931: ID = IS_POSIX
+Line 931: (
+Line 931: ID = fl
+Line 931: )
+Line 931: )
+Line 932: ID = continue
+Line 932: ;
+Line 933: if
+Line 933: (
+Line 933: ID = fl
+Line 933: -
+Line 933: >
+Line 933: ID = fl_owner
+Line 933: !=
+Line 933: ID = owner
+Line 933: )
+Line 934: ID = break
+Line 934: ;
+Line 935: }
+Line 936: ID = unlock_kernel
+Line 936: (
+Line 936: )
+Line 936: ;
+Line 937: return
+Line 937: ID = fl
+Line 937: Unrecognized token: 63
+Line 937: -
+Line 937: ID = EAGAIN
+Line 937: Unrecognized token: 58
+Line 937: INTCON = 0
+Line 937: ;
+Line 938: }
+Line 953: int
+Line 953: ID = locks_mandatory_area
+Line 953: (
+Line 953: int
+Line 953: ID = read_write
+Line 953: ,
+Line 953: ID = struct
+Line 953: ID = inode
+Line 953: *
+Line 953: ID = inode
+Line 953: ,
+Line 954: ID = struct
+Line 954: ID = file
+Line 954: *
+Line 954: ID = filp
+Line 954: ,
+Line 954: ID = loff_t
+Line 954: ID = offset
+Line 954: ,
+Line 955: ID = size_t
+Line 955: ID = count
+Line 955: )
+Line 956: {
+Line 957: ID = struct
+Line 957: ID = file_lock
+Line 957: ID = fl
+Line 957: ;
+Line 958: int
+Line 958: ID = error
+Line 958: ;
+Line 960: ID = locks_init_lock
+Line 960: (
+Line 960: Unrecognized token: 38
+Line 960: ID = fl
+Line 960: )
+Line 960: ;
+Line 961: ID = fl
+Line 961: Unrecognized token: 46
+Line 961: ID = fl_owner
+Line 961: =
+Line 961: ID = current
+Line 961: -
+Line 961: >
+Line 961: ID = files
+Line 961: ;
+Line 962: ID = fl
+Line 962: Unrecognized token: 46
+Line 962: ID = fl_pid
+Line 962: =
+Line 962: ID = current
+Line 962: -
+Line 962: >
+Line 962: ID = tgid
+Line 962: ;
+Line 963: ID = fl
+Line 963: Unrecognized token: 46
+Line 963: ID = fl_file
+Line 963: =
+Line 963: ID = filp
+Line 963: ;
+Line 964: ID = fl
+Line 964: Unrecognized token: 46
+Line 964: ID = fl_flags
+Line 964: =
+Line 964: ID = FL_POSIX
+Line 964: Unrecognized token: 124
+Line 964: ID = FL_ACCESS
+Line 964: ;
+Line 965: if
+Line 965: (
+Line 965: ID = filp
+Line 965: &&
+Line 965: !
+Line 965: (
+Line 965: ID = filp
+Line 965: -
+Line 965: >
+Line 965: ID = f_flags
+Line 965: Unrecognized token: 38
+Line 965: ID = O_NONBLOCK
+Line 965: )
+Line 965: )
+Line 966: ID = fl
+Line 966: Unrecognized token: 46
+Line 966: ID = fl_flags
+Line 966: Unrecognized token: 124
+Line 966: =
+Line 966: ID = FL_SLEEP
+Line 966: ;
+Line 967: ID = fl
+Line 967: Unrecognized token: 46
+Line 967: ID = fl_type
+Line 967: =
+Line 967: (
+Line 967: ID = read_write
+Line 967: ==
+Line 967: ID = FLOCK_VERIFY_WRITE
+Line 967: )
+Line 967: Unrecognized token: 63
+Line 967: ID = F_WRLCK
+Line 967: Unrecognized token: 58
+Line 967: ID = F_RDLCK
+Line 967: ;
+Line 968: ID = fl
+Line 968: Unrecognized token: 46
+Line 968: ID = fl_start
+Line 968: =
+Line 968: ID = offset
+Line 968: ;
+Line 969: ID = fl
+Line 969: Unrecognized token: 46
+Line 969: ID = fl_end
+Line 969: =
+Line 969: ID = offset
+Line 969: +
+Line 969: ID = count
+Line 969: -
+Line 969: INTCON = 1
+Line 969: ;
+Line 971: for
+Line 971: (
+Line 971: ;
+Line 971: ;
+Line 971: )
+Line 971: {
+Line 972: ID = error
+Line 972: =
+Line 972: Unrecognized token: 95
+Line 972: Unrecognized token: 95
+Line 972: ID = posix_lock_file
+Line 972: (
+Line 972: ID = inode
+Line 972: ,
+Line 972: Unrecognized token: 38
+Line 972: ID = fl
+Line 972: )
+Line 972: ;
+Line 973: if
+Line 973: (
+Line 973: ID = error
+Line 973: !=
+Line 973: -
+Line 973: ID = EAGAIN
+Line 973: )
+Line 974: ID = break
+Line 974: ;
+Line 975: if
+Line 975: (
+Line 975: !
+Line 975: (
+Line 975: ID = fl
+Line 975: Unrecognized token: 46
+Line 975: ID = fl_flags
+Line 975: Unrecognized token: 38
+Line 975: ID = FL_SLEEP
+Line 975: )
+Line 975: )
+Line 976: ID = break
+Line 976: ;
+Line 977: ID = error
+Line 977: =
+Line 977: ID = wait_event_interruptible
+Line 977: (
+Line 977: ID = fl
+Line 977: Unrecognized token: 46
+Line 977: ID = fl_wait
+Line 977: ,
+Line 977: !
+Line 977: ID = fl
+Line 977: Unrecognized token: 46
+Line 977: ID = fl_next
+Line 977: )
+Line 977: ;
+Line 978: if
+Line 978: (
+Line 978: !
+Line 978: ID = error
+Line 978: )
+Line 978: {
+Line 983: if
+Line 983: (
+Line 983: (
+Line 983: ID = inode
+Line 983: -
+Line 983: >
+Line 983: ID = i_mode
+Line 983: Unrecognized token: 38
+Line 983: (
+Line 983: ID = S_ISGID
+Line 983: Unrecognized token: 124
+Line 983: ID = S_IXGRP
+Line 983: )
+Line 983: )
+Line 983: ==
+Line 983: ID = S_ISGID
+Line 983: )
+Line 984: ID = continue
+Line 984: ;
+Line 985: }
+Line 987: ID = locks_delete_block
+Line 987: (
+Line 987: Unrecognized token: 38
+Line 987: ID = fl
+Line 987: )
+Line 987: ;
+Line 988: ID = break
+Line 988: ;
+Line 989: }
+Line 991: return
+Line 991: ID = error
+Line 991: ;
+Line 992: }
+Line 994: ID = EXPORT_SYMBOL
+Line 994: (
+Line 994: ID = locks_mandatory_area
+Line 994: )
+Line 994: ;
+Line 997: ID = static
+Line 997: int
+Line 997: ID = lease_modify
+Line 997: (
+Line 997: ID = struct
+Line 997: ID = file_lock
+Line 997: *
+Line 997: *
+Line 997: ID = before
+Line 997: ,
+Line 997: int
+Line 997: ID = arg
+Line 997: )
+Line 998: {
+Line 999: ID = struct
+Line 999: ID = file_lock
+Line 999: *
+Line 999: ID = fl
+Line 999: =
+Line 999: *
+Line 999: ID = before
+Line 999: ;
+Line 1000: int
+Line 1000: ID = error
+Line 1000: =
+Line 1000: ID = assign_type
+Line 1000: (
+Line 1000: ID = fl
+Line 1000: ,
+Line 1000: ID = arg
+Line 1000: )
+Line 1000: ;
+Line 1002: if
+Line 1002: (
+Line 1002: ID = error
+Line 1002: )
+Line 1003: return
+Line 1003: ID = error
+Line 1003: ;
+Line 1004: ID = locks_wake_up_blocks
+Line 1004: (
+Line 1004: ID = fl
+Line 1004: )
+Line 1004: ;
+Line 1005: if
+Line 1005: (
+Line 1005: ID = arg
+Line 1005: ==
+Line 1005: ID = F_UNLCK
+Line 1005: )
+Line 1005: {
+Line 1006: ID = struct
+Line 1006: ID = file
+Line 1006: *
+Line 1006: ID = filp
+Line 1006: =
+Line 1006: ID = fl
+Line 1006: -
+Line 1006: >
+Line 1006: ID = fl_file
+Line 1006: ;
+Line 1008: ID = f_delown
+Line 1008: (
+Line 1008: ID = filp
+Line 1008: )
+Line 1008: ;
+Line 1009: ID = filp
+Line 1009: -
+Line 1009: >
+Line 1009: ID = f_owner
+Line 1009: Unrecognized token: 46
+Line 1009: ID = signum
+Line 1009: =
+Line 1009: INTCON = 0
+Line 1009: ;
+Line 1010: ID = locks_delete_lock
+Line 1010: (
+Line 1010: ID = before
+Line 1010: )
+Line 1010: ;
+Line 1011: }
+Line 1012: return
+Line 1012: INTCON = 0
+Line 1012: ;
+Line 1013: }
+Line 1015: ID = static
+Line 1015: void
+Line 1015: ID = time_out_leases
+Line 1015: (
+Line 1015: ID = struct
+Line 1015: ID = inode
+Line 1015: *
+Line 1015: ID = inode
+Line 1015: )
+Line 1016: {
+Line 1017: ID = struct
+Line 1017: ID = file_lock
+Line 1017: *
+Line 1017: *
+Line 1017: ID = before
+Line 1017: ;
+Line 1018: ID = struct
+Line 1018: ID = file_lock
+Line 1018: *
+Line 1018: ID = fl
+Line 1018: ;
+Line 1020: ID = before
+Line 1020: =
+Line 1020: Unrecognized token: 38
+Line 1020: ID = inode
+Line 1020: -
+Line 1020: >
+Line 1020: ID = i_flock
+Line 1020: ;
+Line 1021: while
+Line 1021: (
+Line 1021: (
+Line 1021: ID = fl
+Line 1021: =
+Line 1021: *
+Line 1021: ID = before
+Line 1021: )
+Line 1021: &&
+Line 1021: ID = IS_LEASE
+Line 1021: (
+Line 1021: ID = fl
+Line 1021: )
+Line 1021: &&
+Line 1021: (
+Line 1021: ID = fl
+Line 1021: -
+Line 1021: >
+Line 1021: ID = fl_type
+Line 1021: Unrecognized token: 38
+Line 1021: ID = F_INPROGRESS
+Line 1021: )
+Line 1021: )
+Line 1021: {
+Line 1022: if
+Line 1022: (
+Line 1022: (
+Line 1022: ID = fl
+Line 1022: -
+Line 1022: >
+Line 1022: ID = fl_break_time
+Line 1022: ==
+Line 1022: INTCON = 0
+Line 1022: )
+Line 1023: ||
+Line 1023: ID = time_before
+Line 1023: (
+Line 1023: ID = jiffies
+Line 1023: ,
+Line 1023: ID = fl
+Line 1023: -
+Line 1023: >
+Line 1023: ID = fl_break_time
+Line 1023: )
+Line 1023: )
+Line 1023: {
+Line 1024: ID = before
+Line 1024: =
+Line 1024: Unrecognized token: 38
+Line 1024: ID = fl
+Line 1024: -
+Line 1024: >
+Line 1024: ID = fl_next
+Line 1024: ;
+Line 1025: ID = continue
+Line 1025: ;
+Line 1026: }
+Line 1027: ID = printk
+Line 1027: (
+Line 1027: ID = KERN_INFO
+Line 1027: STRINGCON = "lease broken - owner pid = %d\n"
+Line 1027: ,
+Line 1027: ID = fl
+Line 1027: -
+Line 1027: >
+Line 1027: ID = fl_pid
+Line 1027: )
+Line 1027: ;
+Line 1028: ID = lease_modify
+Line 1028: (
+Line 1028: ID = before
+Line 1028: ,
+Line 1028: ID = fl
+Line 1028: -
+Line 1028: >
+Line 1028: ID = fl_type
+Line 1028: Unrecognized token: 38
+Line 1028: Unrecognized token: 126
+Line 1028: ID = F_INPROGRESS
+Line 1028: )
+Line 1028: ;
+Line 1029: if
+Line 1029: (
+Line 1029: ID = fl
+Line 1029: ==
+Line 1029: *
+Line 1029: ID = before
+Line 1029: )
+Line 1030: ID = before
+Line 1030: =
+Line 1030: Unrecognized token: 38
+Line 1030: ID = fl
+Line 1030: -
+Line 1030: >
+Line 1030: ID = fl_next
+Line 1030: ;
+Line 1031: }
+Line 1032: }
+Line 1044: int
+Line 1044: Unrecognized token: 95
+Line 1044: Unrecognized token: 95
+Line 1044: ID = break_lease
+Line 1044: (
+Line 1044: ID = struct
+Line 1044: ID = inode
+Line 1044: *
+Line 1044: ID = inode
+Line 1044: ,
+Line 1044: ID = unsigned
+Line 1044: int
+Line 1044: ID = mode
+Line 1044: )
+Line 1045: {
+Line 1046: int
+Line 1046: ID = error
+Line 1046: =
+Line 1046: INTCON = 0
+Line 1046: ,
+Line 1046: ID = future
+Line 1046: ;
+Line 1047: ID = struct
+Line 1047: ID = file_lock
+Line 1047: *
+Line 1047: ID = new_fl
+Line 1047: ,
+Line 1047: *
+Line 1047: ID = flock
+Line 1047: ;
+Line 1048: ID = struct
+Line 1048: ID = file_lock
+Line 1048: *
+Line 1048: ID = fl
+Line 1048: ;
+Line 1049: int
+Line 1049: ID = alloc_err
+Line 1049: ;
+Line 1050: ID = unsigned
+Line 1050: ID = long
+Line 1050: ID = break_time
+Line 1050: ;
+Line 1051: int
+Line 1051: ID = i_have_this_lease
+Line 1051: =
+Line 1051: INTCON = 0
+Line 1051: ;
+Line 1053: ID = alloc_err
+Line 1053: =
+Line 1053: ID = lease_alloc
+Line 1053: (
+Line 1053: ID = NULL
+Line 1053: ,
+Line 1053: ID = mode
+Line 1053: Unrecognized token: 38
+Line 1053: ID = FMODE_WRITE
+Line 1053: Unrecognized token: 63
+Line 1053: ID = F_WRLCK
+Line 1053: Unrecognized token: 58
+Line 1053: ID = F_RDLCK
+Line 1053: ,
+Line 1054: Unrecognized token: 38
+Line 1054: ID = new_fl
+Line 1054: )
+Line 1054: ;
+Line 1056: ID = lock_kernel
+Line 1056: (
+Line 1056: )
+Line 1056: ;
+Line 1058: ID = time_out_leases
+Line 1058: (
+Line 1058: ID = inode
+Line 1058: )
+Line 1058: ;
+Line 1060: ID = flock
+Line 1060: =
+Line 1060: ID = inode
+Line 1060: -
+Line 1060: >
+Line 1060: ID = i_flock
+Line 1060: ;
+Line 1061: if
+Line 1061: (
+Line 1061: (
+Line 1061: ID = flock
+Line 1061: ==
+Line 1061: ID = NULL
+Line 1061: )
+Line 1061: ||
+Line 1061: !
+Line 1061: ID = IS_LEASE
+Line 1061: (
+Line 1061: ID = flock
+Line 1061: )
+Line 1061: )
+Line 1062: ID = goto
+Line 1062: ID = out
+Line 1062: ;
+Line 1064: for
+Line 1064: (
+Line 1064: ID = fl
+Line 1064: =
+Line 1064: ID = flock
+Line 1064: ;
+Line 1064: ID = fl
+Line 1064: &&
+Line 1064: ID = IS_LEASE
+Line 1064: (
+Line 1064: ID = fl
+Line 1064: )
+Line 1064: ;
+Line 1064: ID = fl
+Line 1064: =
+Line 1064: ID = fl
+Line 1064: -
+Line 1064: >
+Line 1064: ID = fl_next
+Line 1064: )
+Line 1065: if
+Line 1065: (
+Line 1065: ID = fl
+Line 1065: -
+Line 1065: >
+Line 1065: ID = fl_owner
+Line 1065: ==
+Line 1065: ID = current
+Line 1065: -
+Line 1065: >
+Line 1065: ID = files
+Line 1065: )
+Line 1066: ID = i_have_this_lease
+Line 1066: =
+Line 1066: INTCON = 1
+Line 1066: ;
+Line 1068: if
+Line 1068: (
+Line 1068: ID = mode
+Line 1068: Unrecognized token: 38
+Line 1068: ID = FMODE_WRITE
+Line 1068: )
+Line 1068: {
+Line 1070: ID = future
+Line 1070: =
+Line 1070: ID = F_UNLCK
+Line 1070: Unrecognized token: 124
+Line 1070: ID = F_INPROGRESS
+Line 1070: ;
+Line 1071: }
+Line 1071: else
+Line 1071: if
+Line 1071: (
+Line 1071: ID = flock
+Line 1071: -
+Line 1071: >
+Line 1071: ID = fl_type
+Line 1071: Unrecognized token: 38
+Line 1071: ID = F_INPROGRESS
+Line 1071: )
+Line 1071: {
+Line 1073: ID = future
+Line 1073: =
+Line 1073: ID = flock
+Line 1073: -
+Line 1073: >
+Line 1073: ID = fl_type
+Line 1073: ;
+Line 1074: }
+Line 1074: else
+Line 1074: if
+Line 1074: (
+Line 1074: ID = flock
+Line 1074: -
+Line 1074: >
+Line 1074: ID = fl_type
+Line 1074: Unrecognized token: 38
+Line 1074: ID = F_WRLCK
+Line 1074: )
+Line 1074: {
+Line 1076: ID = future
+Line 1076: =
+Line 1076: ID = F_RDLCK
+Line 1076: Unrecognized token: 124
+Line 1076: ID = F_INPROGRESS
+Line 1076: ;
+Line 1077: }
+Line 1077: else
+Line 1077: {
+Line 1079: ID = goto
+Line 1079: ID = out
+Line 1079: ;
+Line 1080: }
+Line 1082: if
+Line 1082: (
+Line 1082: ID = alloc_err
+Line 1082: &&
+Line 1082: !
+Line 1082: ID = i_have_this_lease
+Line 1082: &&
+Line 1082: (
+Line 1082: (
+Line 1082: ID = mode
+Line 1082: Unrecognized token: 38
+Line 1082: ID = O_NONBLOCK
+Line 1082: )
+Line 1082: ==
+Line 1082: INTCON = 0
+Line 1082: )
+Line 1082: )
+Line 1082: {
+Line 1083: ID = error
+Line 1083: =
+Line 1083: ID = alloc_err
+Line 1083: ;
+Line 1084: ID = goto
+Line 1084: ID = out
+Line 1084: ;
+Line 1085: }
+Line 1087: ID = break_time
+Line 1087: =
+Line 1087: INTCON = 0
+Line 1087: ;
+Line 1088: if
+Line 1088: (
+Line 1088: ID = lease_break_time
+Line 1088: >
+Line 1088: INTCON = 0
+Line 1088: )
+Line 1088: {
+Line 1089: ID = break_time
+Line 1089: =
+Line 1089: ID = jiffies
+Line 1089: +
+Line 1089: ID = lease_break_time
+Line 1089: *
+Line 1089: ID = HZ
+Line 1089: ;
+Line 1090: if
+Line 1090: (
+Line 1090: ID = break_time
+Line 1090: ==
+Line 1090: INTCON = 0
+Line 1090: )
+Line 1091: ID = break_time
+Line 1091: +
+Line 1091: +
+Line 1091: ;
+Line 1092: }
+Line 1094: for
+Line 1094: (
+Line 1094: ID = fl
+Line 1094: =
+Line 1094: ID = flock
+Line 1094: ;
+Line 1094: ID = fl
+Line 1094: &&
+Line 1094: ID = IS_LEASE
+Line 1094: (
+Line 1094: ID = fl
+Line 1094: )
+Line 1094: ;
+Line 1094: ID = fl
+Line 1094: =
+Line 1094: ID = fl
+Line 1094: -
+Line 1094: >
+Line 1094: ID = fl_next
+Line 1094: )
+Line 1094: {
+Line 1095: if
+Line 1095: (
+Line 1095: ID = fl
+Line 1095: -
+Line 1095: >
+Line 1095: ID = fl_type
+Line 1095: !=
+Line 1095: ID = future
+Line 1095: )
+Line 1095: {
+Line 1096: ID = fl
+Line 1096: -
+Line 1096: >
+Line 1096: ID = fl_type
+Line 1096: =
+Line 1096: ID = future
+Line 1096: ;
+Line 1097: ID = fl
+Line 1097: -
+Line 1097: >
+Line 1097: ID = fl_break_time
+Line 1097: =
+Line 1097: ID = break_time
+Line 1097: ;
+Line 1098: ID = kill_fasync
+Line 1098: (
+Line 1098: Unrecognized token: 38
+Line 1098: ID = fl
+Line 1098: -
+Line 1098: >
+Line 1098: ID = fl_fasync
+Line 1098: ,
+Line 1098: ID = SIGIO
+Line 1098: ,
+Line 1098: ID = POLL_MSG
+Line 1098: )
+Line 1098: ;
+Line 1099: }
+Line 1100: }
+Line 1102: if
+Line 1102: (
+Line 1102: ID = i_have_this_lease
+Line 1102: ||
+Line 1102: (
+Line 1102: ID = mode
+Line 1102: Unrecognized token: 38
+Line 1102: ID = O_NONBLOCK
+Line 1102: )
+Line 1102: )
+Line 1102: {
+Line 1103: ID = error
+Line 1103: =
+Line 1103: -
+Line 1103: ID = EWOULDBLOCK
+Line 1103: ;
+Line 1104: ID = goto
+Line 1104: ID = out
+Line 1104: ;
+Line 1105: }
+Line 1107: ID = restart
+Line 1107: Unrecognized token: 58
+Line 1108: ID = break_time
+Line 1108: =
+Line 1108: ID = flock
+Line 1108: -
+Line 1108: >
+Line 1108: ID = fl_break_time
+Line 1108: ;
+Line 1109: if
+Line 1109: (
+Line 1109: ID = break_time
+Line 1109: !=
+Line 1109: INTCON = 0
+Line 1109: )
+Line 1109: {
+Line 1110: ID = break_time
+Line 1110: -
+Line 1110: =
+Line 1110: ID = jiffies
+Line 1110: ;
+Line 1111: if
+Line 1111: (
+Line 1111: ID = break_time
+Line 1111: ==
+Line 1111: INTCON = 0
+Line 1111: )
+Line 1112: ID = break_time
+Line 1112: +
+Line 1112: +
+Line 1112: ;
+Line 1113: }
+Line 1114: ID = error
+Line 1114: =
+Line 1114: ID = locks_block_on_timeout
+Line 1114: (
+Line 1114: ID = flock
+Line 1114: ,
+Line 1114: ID = new_fl
+Line 1114: ,
+Line 1114: ID = break_time
+Line 1114: )
+Line 1114: ;
+Line 1115: if
+Line 1115: (
+Line 1115: ID = error
+Line 1115: >=
+Line 1115: INTCON = 0
+Line 1115: )
+Line 1115: {
+Line 1116: if
+Line 1116: (
+Line 1116: ID = error
+Line 1116: ==
+Line 1116: INTCON = 0
+Line 1116: )
+Line 1117: ID = time_out_leases
+Line 1117: (
+Line 1117: ID = inode
+Line 1117: )
+Line 1117: ;
+Line 1119: for
+Line 1119: (
+Line 1119: ID = flock
+Line 1119: =
+Line 1119: ID = inode
+Line 1119: -
+Line 1119: >
+Line 1119: ID = i_flock
+Line 1119: ;
+Line 1119: ID = flock
+Line 1119: &&
+Line 1119: ID = IS_LEASE
+Line 1119: (
+Line 1119: ID = flock
+Line 1119: )
+Line 1119: ;
+Line 1120: ID = flock
+Line 1120: =
+Line 1120: ID = flock
+Line 1120: -
+Line 1120: >
+Line 1120: ID = fl_next
+Line 1120: )
+Line 1120: {
+Line 1121: if
+Line 1121: (
+Line 1121: ID = flock
+Line 1121: -
+Line 1121: >
+Line 1121: ID = fl_type
+Line 1121: Unrecognized token: 38
+Line 1121: ID = F_INPROGRESS
+Line 1121: )
+Line 1122: ID = goto
+Line 1122: ID = restart
+Line 1122: ;
+Line 1123: }
+Line 1124: ID = error
+Line 1124: =
+Line 1124: INTCON = 0
+Line 1124: ;
+Line 1125: }
+Line 1127: ID = out
+Line 1127: Unrecognized token: 58
+Line 1128: ID = unlock_kernel
+Line 1128: (
+Line 1128: )
+Line 1128: ;
+Line 1129: if
+Line 1129: (
+Line 1129: !
+Line 1129: ID = alloc_err
+Line 1129: )
+Line 1130: ID = locks_free_lock
+Line 1130: (
+Line 1130: ID = new_fl
+Line 1130: )
+Line 1130: ;
+Line 1131: return
+Line 1131: ID = error
+Line 1131: ;
+Line 1132: }
+Line 1134: ID = EXPORT_SYMBOL
+Line 1134: (
+Line 1134: Unrecognized token: 95
+Line 1134: Unrecognized token: 95
+Line 1134: ID = break_lease
+Line 1134: )
+Line 1134: ;
+Line 1145: void
+Line 1145: ID = lease_get_mtime
+Line 1145: (
+Line 1145: ID = struct
+Line 1145: ID = inode
+Line 1145: *
+Line 1145: ID = inode
+Line 1145: ,
+Line 1145: ID = struct
+Line 1145: ID = timespec
+Line 1145: *
+Line 1145: ID = time
+Line 1145: )
+Line 1146: {
+Line 1147: ID = struct
+Line 1147: ID = file_lock
+Line 1147: *
+Line 1147: ID = flock
+Line 1147: =
+Line 1147: ID = inode
+Line 1147: -
+Line 1147: >
+Line 1147: ID = i_flock
+Line 1147: ;
+Line 1148: if
+Line 1148: (
+Line 1148: ID = flock
+Line 1148: &&
+Line 1148: ID = IS_LEASE
+Line 1148: (
+Line 1148: ID = flock
+Line 1148: )
+Line 1148: &&
+Line 1148: (
+Line 1148: ID = flock
+Line 1148: -
+Line 1148: >
+Line 1148: ID = fl_type
+Line 1148: Unrecognized token: 38
+Line 1148: ID = F_WRLCK
+Line 1148: )
+Line 1148: )
+Line 1149: *
+Line 1149: ID = time
+Line 1149: =
+Line 1149: ID = CURRENT_TIME
+Line 1149: ;
+Line 1150: else
+Line 1151: *
+Line 1151: ID = time
+Line 1151: =
+Line 1151: ID = inode
+Line 1151: -
+Line 1151: >
+Line 1151: ID = i_mtime
+Line 1151: ;
+Line 1152: }
+Line 1154: ID = EXPORT_SYMBOL
+Line 1154: (
+Line 1154: ID = lease_get_mtime
+Line 1154: )
+Line 1154: ;
+Line 1179: int
+Line 1179: ID = fcntl_getlease
+Line 1179: (
+Line 1179: ID = struct
+Line 1179: ID = file
+Line 1179: *
+Line 1179: ID = filp
+Line 1179: )
+Line 1180: {
+Line 1181: ID = struct
+Line 1181: ID = file_lock
+Line 1181: *
+Line 1181: ID = fl
+Line 1181: ;
+Line 1182: int
+Line 1182: ID = type
+Line 1182: =
+Line 1182: ID = F_UNLCK
+Line 1182: ;
+Line 1184: ID = lock_kernel
+Line 1184: (
+Line 1184: )
+Line 1184: ;
+Line 1185: ID = time_out_leases
+Line 1185: (
+Line 1185: ID = filp
+Line 1185: -
+Line 1185: >
+Line 1185: ID = f_dentry
+Line 1185: -
+Line 1185: >
+Line 1185: ID = d_inode
+Line 1185: )
+Line 1185: ;
+Line 1186: for
+Line 1186: (
+Line 1186: ID = fl
+Line 1186: =
+Line 1186: ID = filp
+Line 1186: -
+Line 1186: >
+Line 1186: ID = f_dentry
+Line 1186: -
+Line 1186: >
+Line 1186: ID = d_inode
+Line 1186: -
+Line 1186: >
+Line 1186: ID = i_flock
+Line 1186: ;
+Line 1186: ID = fl
+Line 1186: &&
+Line 1186: ID = IS_LEASE
+Line 1186: (
+Line 1186: ID = fl
+Line 1186: )
+Line 1186: ;
+Line 1187: ID = fl
+Line 1187: =
+Line 1187: ID = fl
+Line 1187: -
+Line 1187: >
+Line 1187: ID = fl_next
+Line 1187: )
+Line 1187: {
+Line 1188: if
+Line 1188: (
+Line 1188: ID = fl
+Line 1188: -
+Line 1188: >
+Line 1188: ID = fl_file
+Line 1188: ==
+Line 1188: ID = filp
+Line 1188: )
+Line 1188: {
+Line 1189: ID = type
+Line 1189: =
+Line 1189: ID = fl
+Line 1189: -
+Line 1189: >
+Line 1189: ID = fl_type
+Line 1189: Unrecognized token: 38
+Line 1189: Unrecognized token: 126
+Line 1189: ID = F_INPROGRESS
+Line 1189: ;
+Line 1190: ID = break
+Line 1190: ;
+Line 1191: }
+Line 1192: }
+Line 1193: ID = unlock_kernel
+Line 1193: (
+Line 1193: )
+Line 1193: ;
+Line 1194: return
+Line 1194: ID = type
+Line 1194: ;
+Line 1195: }
+Line 1207: int
+Line 1207: ID = fcntl_setlease
+Line 1207: (
+Line 1207: ID = unsigned
+Line 1207: int
+Line 1207: ID = fd
+Line 1207: ,
+Line 1207: ID = struct
+Line 1207: ID = file
+Line 1207: *
+Line 1207: ID = filp
+Line 1207: ,
+Line 1207: ID = long
+Line 1207: ID = arg
+Line 1207: )
+Line 1208: {
+Line 1209: ID = struct
+Line 1209: ID = file_lock
+Line 1209: *
+Line 1209: ID = fl
+Line 1209: ,
+Line 1209: *
+Line 1209: *
+Line 1209: ID = before
+Line 1209: ,
+Line 1209: *
+Line 1209: *
+Line 1209: ID = my_before
+Line 1209: =
+Line 1209: ID = NULL
+Line 1209: ;
+Line 1210: ID = struct
+Line 1210: ID = dentry
+Line 1210: *
+Line 1210: ID = dentry
+Line 1210: ;
+Line 1211: ID = struct
+Line 1211: ID = inode
+Line 1211: *
+Line 1211: ID = inode
+Line 1211: ;
+Line 1212: int
+Line 1212: ID = error
+Line 1212: ,
+Line 1212: ID = rdlease_count
+Line 1212: =
+Line 1212: INTCON = 0
+Line 1212: ,
+Line 1212: ID = wrlease_count
+Line 1212: =
+Line 1212: INTCON = 0
+Line 1212: ;
+Line 1214: ID = dentry
+Line 1214: =
+Line 1214: ID = filp
+Line 1214: -
+Line 1214: >
+Line 1214: ID = f_dentry
+Line 1214: ;
+Line 1215: ID = inode
+Line 1215: =
+Line 1215: ID = dentry
+Line 1215: -
+Line 1215: >
+Line 1215: ID = d_inode
+Line 1215: ;
+Line 1217: if
+Line 1217: (
+Line 1217: (
+Line 1217: ID = current
+Line 1217: -
+Line 1217: >
+Line 1217: ID = fsuid
+Line 1217: !=
+Line 1217: ID = inode
+Line 1217: -
+Line 1217: >
+Line 1217: ID = i_uid
+Line 1217: )
+Line 1217: &&
+Line 1217: !
+Line 1217: ID = capable
+Line 1217: (
+Line 1217: ID = CAP_LEASE
+Line 1217: )
+Line 1217: )
+Line 1218: return
+Line 1218: -
+Line 1218: ID = EACCES
+Line 1218: ;
+Line 1219: if
+Line 1219: (
+Line 1219: !
+Line 1219: ID = S_ISREG
+Line 1219: (
+Line 1219: ID = inode
+Line 1219: -
+Line 1219: >
+Line 1219: ID = i_mode
+Line 1219: )
+Line 1219: )
+Line 1220: return
+Line 1220: -
+Line 1220: ID = EINVAL
+Line 1220: ;
+Line 1221: ID = error
+Line 1221: =
+Line 1221: ID = security_file_lock
+Line 1221: (
+Line 1221: ID = filp
+Line 1221: ,
+Line 1221: ID = arg
+Line 1221: )
+Line 1221: ;
+Line 1222: if
+Line 1222: (
+Line 1222: ID = error
+Line 1222: )
+Line 1223: return
+Line 1223: ID = error
+Line 1223: ;
+Line 1225: ID = lock_kernel
+Line 1225: (
+Line 1225: )
+Line 1225: ;
+Line 1227: ID = time_out_leases
+Line 1227: (
+Line 1227: ID = inode
+Line 1227: )
+Line 1227: ;
+Line 1232: ID = error
+Line 1232: =
+Line 1232: -
+Line 1232: ID = EAGAIN
+Line 1232: ;
+Line 1233: if
+Line 1233: (
+Line 1233: (
+Line 1233: ID = arg
+Line 1233: ==
+Line 1233: ID = F_WRLCK
+Line 1233: )
+Line 1234: &&
+Line 1234: (
+Line 1234: (
+Line 1234: ID = atomic_read
+Line 1234: (
+Line 1234: Unrecognized token: 38
+Line 1234: ID = dentry
+Line 1234: -
+Line 1234: >
+Line 1234: ID = d_count
+Line 1234: )
+Line 1234: >
+Line 1234: INTCON = 1
+Line 1234: )
+Line 1235: ||
+Line 1235: (
+Line 1235: ID = atomic_read
+Line 1235: (
+Line 1235: Unrecognized token: 38
+Line 1235: ID = inode
+Line 1235: -
+Line 1235: >
+Line 1235: ID = i_count
+Line 1235: )
+Line 1235: >
+Line 1235: INTCON = 1
+Line 1235: )
+Line 1235: )
+Line 1235: )
+Line 1236: ID = goto
+Line 1236: ID = out_unlock
+Line 1236: ;
+Line 1246: for
+Line 1246: (
+Line 1246: ID = before
+Line 1246: =
+Line 1246: Unrecognized token: 38
+Line 1246: ID = inode
+Line 1246: -
+Line 1246: >
+Line 1246: ID = i_flock
+Line 1246: ;
+Line 1247: (
+Line 1247: (
+Line 1247: ID = fl
+Line 1247: =
+Line 1247: *
+Line 1247: ID = before
+Line 1247: )
+Line 1247: !=
+Line 1247: ID = NULL
+Line 1247: )
+Line 1247: &&
+Line 1247: ID = IS_LEASE
+Line 1247: (
+Line 1247: ID = fl
+Line 1247: )
+Line 1247: ;
+Line 1248: ID = before
+Line 1248: =
+Line 1248: Unrecognized token: 38
+Line 1248: ID = fl
+Line 1248: -
+Line 1248: >
+Line 1248: ID = fl_next
+Line 1248: )
+Line 1248: {
+Line 1249: if
+Line 1249: (
+Line 1249: ID = fl
+Line 1249: -
+Line 1249: >
+Line 1249: ID = fl_file
+Line 1249: ==
+Line 1249: ID = filp
+Line 1249: )
+Line 1250: ID = my_before
+Line 1250: =
+Line 1250: ID = before
+Line 1250: ;
+Line 1251: else
+Line 1251: if
+Line 1251: (
+Line 1251: ID = fl
+Line 1251: -
+Line 1251: >
+Line 1251: ID = fl_type
+Line 1251: ==
+Line 1251: (
+Line 1251: ID = F_INPROGRESS
+Line 1251: Unrecognized token: 124
+Line 1251: ID = F_UNLCK
+Line 1251: )
+Line 1251: )
+Line 1257: ID = wrlease_count
+Line 1257: +
+Line 1257: +
+Line 1257: ;
+Line 1258: else
+Line 1259: ID = rdlease_count
+Line 1259: +
+Line 1259: +
+Line 1259: ;
+Line 1260: }
+Line 1262: if
+Line 1262: (
+Line 1262: (
+Line 1262: ID = arg
+Line 1262: ==
+Line 1262: ID = F_RDLCK
+Line 1262: &&
+Line 1262: (
+Line 1262: ID = wrlease_count
+Line 1262: >
+Line 1262: INTCON = 0
+Line 1262: )
+Line 1262: )
+Line 1262: ||
+Line 1263: (
+Line 1263: ID = arg
+Line 1263: ==
+Line 1263: ID = F_WRLCK
+Line 1263: &&
+Line 1263: (
+Line 1263: (
+Line 1263: ID = rdlease_count
+Line 1263: +
+Line 1263: ID = wrlease_count
+Line 1263: )
+Line 1263: >
+Line 1263: INTCON = 0
+Line 1263: )
+Line 1263: )
+Line 1263: )
+Line 1264: ID = goto
+Line 1264: ID = out_unlock
+Line 1264: ;
+Line 1266: if
+Line 1266: (
+Line 1266: ID = my_before
+Line 1266: !=
+Line 1266: ID = NULL
+Line 1266: )
+Line 1266: {
+Line 1267: ID = error
+Line 1267: =
+Line 1267: ID = lease_modify
+Line 1267: (
+Line 1267: ID = my_before
+Line 1267: ,
+Line 1267: ID = arg
+Line 1267: )
+Line 1267: ;
+Line 1268: ID = goto
+Line 1268: ID = out_unlock
+Line 1268: ;
+Line 1269: }
+Line 1271: ID = error
+Line 1271: =
+Line 1271: INTCON = 0
+Line 1271: ;
+Line 1272: if
+Line 1272: (
+Line 1272: ID = arg
+Line 1272: ==
+Line 1272: ID = F_UNLCK
+Line 1272: )
+Line 1273: ID = goto
+Line 1273: ID = out_unlock
+Line 1273: ;
+Line 1275: ID = error
+Line 1275: =
+Line 1275: -
+Line 1275: ID = EINVAL
+Line 1275: ;
+Line 1276: if
+Line 1276: (
+Line 1276: !
+Line 1276: ID = leases_enable
+Line 1276: )
+Line 1277: ID = goto
+Line 1277: ID = out_unlock
+Line 1277: ;
+Line 1279: ID = error
+Line 1279: =
+Line 1279: ID = lease_alloc
+Line 1279: (
+Line 1279: ID = filp
+Line 1279: ,
+Line 1279: ID = arg
+Line 1279: ,
+Line 1279: Unrecognized token: 38
+Line 1279: ID = fl
+Line 1279: )
+Line 1279: ;
+Line 1280: if
+Line 1280: (
+Line 1280: ID = error
+Line 1280: )
+Line 1281: ID = goto
+Line 1281: ID = out_unlock
+Line 1281: ;
+Line 1283: ID = error
+Line 1283: =
+Line 1283: ID = fasync_helper
+Line 1283: (
+Line 1283: ID = fd
+Line 1283: ,
+Line 1283: ID = filp
+Line 1283: ,
+Line 1283: INTCON = 1
+Line 1283: ,
+Line 1283: Unrecognized token: 38
+Line 1283: ID = fl
+Line 1283: -
+Line 1283: >
+Line 1283: ID = fl_fasync
+Line 1283: )
+Line 1283: ;
+Line 1284: if
+Line 1284: (
+Line 1284: ID = error
+Line 1284: <
+Line 1284: INTCON = 0
+Line 1284: )
+Line 1284: {
+Line 1285: ID = locks_free_lock
+Line 1285: (
+Line 1285: ID = fl
+Line 1285: )
+Line 1285: ;
+Line 1286: ID = goto
+Line 1286: ID = out_unlock
+Line 1286: ;
+Line 1287: }
+Line 1289: ID = locks_insert_lock
+Line 1289: (
+Line 1289: ID = before
+Line 1289: ,
+Line 1289: ID = fl
+Line 1289: )
+Line 1289: ;
+Line 1291: ID = error
+Line 1291: =
+Line 1291: ID = f_setown
+Line 1291: (
+Line 1291: ID = filp
+Line 1291: ,
+Line 1291: ID = current
+Line 1291: -
+Line 1291: >
+Line 1291: ID = pid
+Line 1291: ,
+Line 1291: INTCON = 0
+Line 1291: )
+Line 1291: ;
+Line 1292: ID = out_unlock
+Line 1292: Unrecognized token: 58
+Line 1293: ID = unlock_kernel
+Line 1293: (
+Line 1293: )
+Line 1293: ;
+Line 1294: return
+Line 1294: ID = error
+Line 1294: ;
+Line 1295: }
+Line 1316: ID = asmlinkage
+Line 1316: ID = long
+Line 1316: ID = sys_flock
+Line 1316: (
+Line 1316: ID = unsigned
+Line 1316: int
+Line 1316: ID = fd
+Line 1316: ,
+Line 1316: ID = unsigned
+Line 1316: int
+Line 1316: ID = cmd
+Line 1316: )
+Line 1317: {
+Line 1318: ID = struct
+Line 1318: ID = file
+Line 1318: *
+Line 1318: ID = filp
+Line 1318: ;
+Line 1319: ID = struct
+Line 1319: ID = file_lock
+Line 1319: *
+Line 1319: ID = lock
+Line 1319: ;
+Line 1320: int
+Line 1320: ID = can_sleep
+Line 1320: ,
+Line 1320: ID = unlock
+Line 1320: ;
+Line 1321: int
+Line 1321: ID = error
+Line 1321: ;
+Line 1323: ID = error
+Line 1323: =
+Line 1323: -
+Line 1323: ID = EBADF
+Line 1323: ;
+Line 1324: ID = filp
+Line 1324: =
+Line 1324: ID = fget
+Line 1324: (
+Line 1324: ID = fd
+Line 1324: )
+Line 1324: ;
+Line 1325: if
+Line 1325: (
+Line 1325: !
+Line 1325: ID = filp
+Line 1325: )
+Line 1326: ID = goto
+Line 1326: ID = out
+Line 1326: ;
+Line 1328: ID = can_sleep
+Line 1328: =
+Line 1328: !
+Line 1328: (
+Line 1328: ID = cmd
+Line 1328: Unrecognized token: 38
+Line 1328: ID = LOCK_NB
+Line 1328: )
+Line 1328: ;
+Line 1329: ID = cmd
+Line 1329: Unrecognized token: 38
+Line 1329: =
+Line 1329: Unrecognized token: 126
+Line 1329: ID = LOCK_NB
+Line 1329: ;
+Line 1330: ID = unlock
+Line 1330: =
+Line 1330: (
+Line 1330: ID = cmd
+Line 1330: ==
+Line 1330: ID = LOCK_UN
+Line 1330: )
+Line 1330: ;
+Line 1332: if
+Line 1332: (
+Line 1332: !
+Line 1332: ID = unlock
+Line 1332: &&
+Line 1332: !
+Line 1332: (
+Line 1332: ID = cmd
+Line 1332: Unrecognized token: 38
+Line 1332: ID = LOCK_MAND
+Line 1332: )
+Line 1332: &&
+Line 1332: !
+Line 1332: (
+Line 1332: ID = filp
+Line 1332: -
+Line 1332: >
+Line 1332: ID = f_mode
+Line 1332: Unrecognized token: 38
+Line 1332: INTCON = 3
+Line 1332: )
+Line 1332: )
+Line 1333: ID = goto
+Line 1333: ID = out_putf
+Line 1333: ;
+Line 1335: ID = error
+Line 1335: =
+Line 1335: ID = flock_make_lock
+Line 1335: (
+Line 1335: ID = filp
+Line 1335: ,
+Line 1335: Unrecognized token: 38
+Line 1335: ID = lock
+Line 1335: ,
+Line 1335: ID = cmd
+Line 1335: )
+Line 1335: ;
+Line 1336: if
+Line 1336: (
+Line 1336: ID = error
+Line 1336: )
+Line 1337: ID = goto
+Line 1337: ID = out_putf
+Line 1337: ;
+Line 1338: if
+Line 1338: (
+Line 1338: ID = can_sleep
+Line 1338: )
+Line 1339: ID = lock
+Line 1339: -
+Line 1339: >
+Line 1339: ID = fl_flags
+Line 1339: Unrecognized token: 124
+Line 1339: =
+Line 1339: ID = FL_SLEEP
+Line 1339: ;
+Line 1341: ID = error
+Line 1341: =
+Line 1341: ID = security_file_lock
+Line 1341: (
+Line 1341: ID = filp
+Line 1341: ,
+Line 1341: ID = cmd
+Line 1341: )
+Line 1341: ;
+Line 1342: if
+Line 1342: (
+Line 1342: ID = error
+Line 1342: )
+Line 1343: ID = goto
+Line 1343: ID = out_free
+Line 1343: ;
+Line 1345: for
+Line 1345: (
+Line 1345: ;
+Line 1345: ;
+Line 1345: )
+Line 1345: {
+Line 1346: ID = error
+Line 1346: =
+Line 1346: ID = flock_lock_file
+Line 1346: (
+Line 1346: ID = filp
+Line 1346: ,
+Line 1346: ID = lock
+Line 1346: )
+Line 1346: ;
+Line 1347: if
+Line 1347: (
+Line 1347: (
+Line 1347: ID = error
+Line 1347: !=
+Line 1347: -
+Line 1347: ID = EAGAIN
+Line 1347: )
+Line 1347: ||
+Line 1347: !
+Line 1347: ID = can_sleep
+Line 1347: )
+Line 1348: ID = break
+Line 1348: ;
+Line 1349: ID = error
+Line 1349: =
+Line 1349: ID = wait_event_interruptible
+Line 1349: (
+Line 1349: ID = lock
+Line 1349: -
+Line 1349: >
+Line 1349: ID = fl_wait
+Line 1349: ,
+Line 1349: !
+Line 1349: ID = lock
+Line 1349: -
+Line 1349: >
+Line 1349: ID = fl_next
+Line 1349: )
+Line 1349: ;
+Line 1350: if
+Line 1350: (
+Line 1350: !
+Line 1350: ID = error
+Line 1350: )
+Line 1351: ID = continue
+Line 1351: ;
+Line 1353: ID = locks_delete_block
+Line 1353: (
+Line 1353: ID = lock
+Line 1353: )
+Line 1353: ;
+Line 1354: ID = break
+Line 1354: ;
+Line 1355: }
+Line 1357: ID = out_free
+Line 1357: Unrecognized token: 58
+Line 1358: if
+Line 1358: (
+Line 1358: ID = list_empty
+Line 1358: (
+Line 1358: Unrecognized token: 38
+Line 1358: ID = lock
+Line 1358: -
+Line 1358: >
+Line 1358: ID = fl_link
+Line 1358: )
+Line 1358: )
+Line 1358: {
+Line 1359: ID = locks_free_lock
+Line 1359: (
+Line 1359: ID = lock
+Line 1359: )
+Line 1359: ;
+Line 1360: }
+Line 1362: ID = out_putf
+Line 1362: Unrecognized token: 58
+Line 1363: ID = fput
+Line 1363: (
+Line 1363: ID = filp
+Line 1363: )
+Line 1363: ;
+Line 1364: ID = out
+Line 1364: Unrecognized token: 58
+Line 1365: return
+Line 1365: ID = error
+Line 1365: ;
+Line 1366: }
+Line 1371: int
+Line 1371: ID = fcntl_getlk
+Line 1371: (
+Line 1371: ID = struct
+Line 1371: ID = file
+Line 1371: *
+Line 1371: ID = filp
+Line 1371: ,
+Line 1371: ID = struct
+Line 1371: ID = flock
+Line 1371: Unrecognized token: 95
+Line 1371: Unrecognized token: 95
+Line 1371: ID = user
+Line 1371: *
+Line 1371: ID = l
+Line 1371: )
+Line 1372: {
+Line 1373: ID = struct
+Line 1373: ID = file_lock
+Line 1373: *
+Line 1373: ID = fl
+Line 1373: ,
+Line 1373: ID = file_lock
+Line 1373: ;
+Line 1374: ID = struct
+Line 1374: ID = flock
+Line 1374: ID = flock
+Line 1374: ;
+Line 1375: int
+Line 1375: ID = error
+Line 1375: ;
+Line 1377: ID = error
+Line 1377: =
+Line 1377: -
+Line 1377: ID = EFAULT
+Line 1377: ;
+Line 1378: if
+Line 1378: (
+Line 1378: ID = copy_from_user
+Line 1378: (
+Line 1378: Unrecognized token: 38
+Line 1378: ID = flock
+Line 1378: ,
+Line 1378: ID = l
+Line 1378: ,
+Line 1378: ID = sizeof
+Line 1378: (
+Line 1378: ID = flock
+Line 1378: )
+Line 1378: )
+Line 1378: )
+Line 1379: ID = goto
+Line 1379: ID = out
+Line 1379: ;
+Line 1380: ID = error
+Line 1380: =
+Line 1380: -
+Line 1380: ID = EINVAL
+Line 1380: ;
+Line 1381: if
+Line 1381: (
+Line 1381: (
+Line 1381: ID = flock
+Line 1381: Unrecognized token: 46
+Line 1381: ID = l_type
+Line 1381: !=
+Line 1381: ID = F_RDLCK
+Line 1381: )
+Line 1381: &&
+Line 1381: (
+Line 1381: ID = flock
+Line 1381: Unrecognized token: 46
+Line 1381: ID = l_type
+Line 1381: !=
+Line 1381: ID = F_WRLCK
+Line 1381: )
+Line 1381: )
+Line 1382: ID = goto
+Line 1382: ID = out
+Line 1382: ;
+Line 1384: ID = error
+Line 1384: =
+Line 1384: ID = flock_to_posix_lock
+Line 1384: (
+Line 1384: ID = filp
+Line 1384: ,
+Line 1384: Unrecognized token: 38
+Line 1384: ID = file_lock
+Line 1384: ,
+Line 1384: Unrecognized token: 38
+Line 1384: ID = flock
+Line 1384: )
+Line 1384: ;
+Line 1385: if
+Line 1385: (
+Line 1385: ID = error
+Line 1385: )
+Line 1386: ID = goto
+Line 1386: ID = out
+Line 1386: ;
+Line 1388: if
+Line 1388: (
+Line 1388: ID = filp
+Line 1388: -
+Line 1388: >
+Line 1388: ID = f_op
+Line 1388: &&
+Line 1388: ID = filp
+Line 1388: -
+Line 1388: >
+Line 1388: ID = f_op
+Line 1388: -
+Line 1388: >
+Line 1388: ID = lock
+Line 1388: )
+Line 1388: {
+Line 1389: ID = error
+Line 1389: =
+Line 1389: ID = filp
+Line 1389: -
+Line 1389: >
+Line 1389: ID = f_op
+Line 1389: -
+Line 1389: >
+Line 1389: ID = lock
+Line 1389: (
+Line 1389: ID = filp
+Line 1389: ,
+Line 1389: ID = F_GETLK
+Line 1389: ,
+Line 1389: Unrecognized token: 38
+Line 1389: ID = file_lock
+Line 1389: )
+Line 1389: ;
+Line 1390: if
+Line 1390: (
+Line 1390: ID = error
+Line 1390: <
+Line 1390: INTCON = 0
+Line 1390: )
+Line 1391: ID = goto
+Line 1391: ID = out
+Line 1391: ;
+Line 1392: else
+Line 1392: if
+Line 1392: (
+Line 1392: ID = error
+Line 1392: ==
+Line 1392: ID = LOCK_USE_CLNT
+Line 1392: )
+Line 1394: ID = fl
+Line 1394: =
+Line 1394: ID = posix_test_lock
+Line 1394: (
+Line 1394: ID = filp
+Line 1394: ,
+Line 1394: Unrecognized token: 38
+Line 1394: ID = file_lock
+Line 1394: )
+Line 1394: ;
+Line 1395: else
+Line 1396: ID = fl
+Line 1396: =
+Line 1396: (
+Line 1396: ID = file_lock
+Line 1396: Unrecognized token: 46
+Line 1396: ID = fl_type
+Line 1396: ==
+Line 1396: ID = F_UNLCK
+Line 1396: Unrecognized token: 63
+Line 1396: ID = NULL
+Line 1396: Unrecognized token: 58
+Line 1396: Unrecognized token: 38
+Line 1396: ID = file_lock
+Line 1396: )
+Line 1396: ;
+Line 1397: }
+Line 1397: else
+Line 1397: {
+Line 1398: ID = fl
+Line 1398: =
+Line 1398: ID = posix_test_lock
+Line 1398: (
+Line 1398: ID = filp
+Line 1398: ,
+Line 1398: Unrecognized token: 38
+Line 1398: ID = file_lock
+Line 1398: )
+Line 1398: ;
+Line 1399: }
+Line 1401: ID = flock
+Line 1401: Unrecognized token: 46
+Line 1401: ID = l_type
+Line 1401: =
+Line 1401: ID = F_UNLCK
+Line 1401: ;
+Line 1402: if
+Line 1402: (
+Line 1402: ID = fl
+Line 1402: !=
+Line 1402: ID = NULL
+Line 1402: )
+Line 1402: {
+Line 1403: ID = flock
+Line 1403: Unrecognized token: 46
+Line 1403: ID = l_pid
+Line 1403: =
+Line 1403: ID = fl
+Line 1403: -
+Line 1403: >
+Line 1403: ID = fl_pid
+Line 1403: ;
+Line 1404: Unrecognized token: 35
+Line 1404: if
+Line 1404: ID = BITS_PER_LONG
+Line 1404: ==
+Line 1404: INTCON = 32
+Line 1409: ID = error
+Line 1409: =
+Line 1409: -
+Line 1409: ID = EOVERFLOW
+Line 1409: ;
+Line 1410: if
+Line 1410: (
+Line 1410: ID = fl
+Line 1410: -
+Line 1410: >
+Line 1410: ID = fl_start
+Line 1410: >
+Line 1410: ID = OFFT_OFFSET_MAX
+Line 1410: )
+Line 1411: ID = goto
+Line 1411: ID = out
+Line 1411: ;
+Line 1412: if
+Line 1412: (
+Line 1412: (
+Line 1412: ID = fl
+Line 1412: -
+Line 1412: >
+Line 1412: ID = fl_end
+Line 1412: !=
+Line 1412: ID = OFFSET_MAX
+Line 1412: )
+Line 1413: &&
+Line 1413: (
+Line 1413: ID = fl
+Line 1413: -
+Line 1413: >
+Line 1413: ID = fl_end
+Line 1413: >
+Line 1413: ID = OFFT_OFFSET_MAX
+Line 1413: )
+Line 1413: )
+Line 1414: ID = goto
+Line 1414: ID = out
+Line 1414: ;
+Line 1415: Unrecognized token: 35
+Line 1415: ID = endif
+Line 1416: ID = flock
+Line 1416: Unrecognized token: 46
+Line 1416: ID = l_start
+Line 1416: =
+Line 1416: ID = fl
+Line 1416: -
+Line 1416: >
+Line 1416: ID = fl_start
+Line 1416: ;
+Line 1417: ID = flock
+Line 1417: Unrecognized token: 46
+Line 1417: ID = l_len
+Line 1417: =
+Line 1417: ID = fl
+Line 1417: -
+Line 1417: >
+Line 1417: ID = fl_end
+Line 1417: ==
+Line 1417: ID = OFFSET_MAX
+Line 1417: Unrecognized token: 63
+Line 1417: INTCON = 0
+Line 1417: Unrecognized token: 58
+Line 1418: ID = fl
+Line 1418: -
+Line 1418: >
+Line 1418: ID = fl_end
+Line 1418: -
+Line 1418: ID = fl
+Line 1418: -
+Line 1418: >
+Line 1418: ID = fl_start
+Line 1418: +
+Line 1418: INTCON = 1
+Line 1418: ;
+Line 1419: ID = flock
+Line 1419: Unrecognized token: 46
+Line 1419: ID = l_whence
+Line 1419: =
+Line 1419: INTCON = 0
+Line 1419: ;
+Line 1420: ID = flock
+Line 1420: Unrecognized token: 46
+Line 1420: ID = l_type
+Line 1420: =
+Line 1420: ID = fl
+Line 1420: -
+Line 1420: >
+Line 1420: ID = fl_type
+Line 1420: ;
+Line 1421: }
+Line 1422: ID = error
+Line 1422: =
+Line 1422: -
+Line 1422: ID = EFAULT
+Line 1422: ;
+Line 1423: if
+Line 1423: (
+Line 1423: !
+Line 1423: ID = copy_to_user
+Line 1423: (
+Line 1423: ID = l
+Line 1423: ,
+Line 1423: Unrecognized token: 38
+Line 1423: ID = flock
+Line 1423: ,
+Line 1423: ID = sizeof
+Line 1423: (
+Line 1423: ID = flock
+Line 1423: )
+Line 1423: )
+Line 1423: )
+Line 1424: ID = error
+Line 1424: =
+Line 1424: INTCON = 0
+Line 1424: ;
+Line 1426: ID = out
+Line 1426: Unrecognized token: 58
+Line 1427: return
+Line 1427: ID = error
+Line 1427: ;
+Line 1428: }
+Line 1433: int
+Line 1433: ID = fcntl_setlk
+Line 1433: (
+Line 1433: ID = struct
+Line 1433: ID = file
+Line 1433: *
+Line 1433: ID = filp
+Line 1433: ,
+Line 1433: ID = unsigned
+Line 1433: int
+Line 1433: ID = cmd
+Line 1433: ,
+Line 1433: ID = struct
+Line 1433: ID = flock
+Line 1433: Unrecognized token: 95
+Line 1433: Unrecognized token: 95
+Line 1433: ID = user
+Line 1433: *
+Line 1433: ID = l
+Line 1433: )
+Line 1434: {
+Line 1435: ID = struct
+Line 1435: ID = file_lock
+Line 1435: *
+Line 1435: ID = file_lock
+Line 1435: =
+Line 1435: ID = locks_alloc_lock
+Line 1435: (
+Line 1435: )
+Line 1435: ;
+Line 1436: ID = struct
+Line 1436: ID = flock
+Line 1436: ID = flock
+Line 1436: ;
+Line 1437: ID = struct
+Line 1437: ID = inode
+Line 1437: *
+Line 1437: ID = inode
+Line 1437: ;
+Line 1438: int
+Line 1438: ID = error
+Line 1438: ;
+Line 1440: if
+Line 1440: (
+Line 1440: ID = file_lock
+Line 1440: ==
+Line 1440: ID = NULL
+Line 1440: )
+Line 1441: return
+Line 1441: -
+Line 1441: ID = ENOLCK
+Line 1441: ;
+Line 1446: ID = error
+Line 1446: =
+Line 1446: -
+Line 1446: ID = EFAULT
+Line 1446: ;
+Line 1447: if
+Line 1447: (
+Line 1447: ID = copy_from_user
+Line 1447: (
+Line 1447: Unrecognized token: 38
+Line 1447: ID = flock
+Line 1447: ,
+Line 1447: ID = l
+Line 1447: ,
+Line 1447: ID = sizeof
+Line 1447: (
+Line 1447: ID = flock
+Line 1447: )
+Line 1447: )
+Line 1447: )
+Line 1448: ID = goto
+Line 1448: ID = out
+Line 1448: ;
+Line 1450: ID = inode
+Line 1450: =
+Line 1450: ID = filp
+Line 1450: -
+Line 1450: >
+Line 1450: ID = f_dentry
+Line 1450: -
+Line 1450: >
+Line 1450: ID = d_inode
+Line 1450: ;
+Line 1455: if
+Line 1455: (
+Line 1455: ID = IS_MANDLOCK
+Line 1455: (
+Line 1455: ID = inode
+Line 1455: )
+Line 1455: &&
+Line 1456: (
+Line 1456: ID = inode
+Line 1456: -
+Line 1456: >
+Line 1456: ID = i_mode
+Line 1456: Unrecognized token: 38
+Line 1456: (
+Line 1456: ID = S_ISGID
+Line 1456: Unrecognized token: 124
+Line 1456: ID = S_IXGRP
+Line 1456: )
+Line 1456: )
+Line 1456: ==
+Line 1456: ID = S_ISGID
+Line 1456: &&
+Line 1457: ID = mapping_writably_mapped
+Line 1457: (
+Line 1457: ID = filp
+Line 1457: -
+Line 1457: >
+Line 1457: ID = f_mapping
+Line 1457: )
+Line 1457: )
+Line 1457: {
+Line 1458: ID = error
+Line 1458: =
+Line 1458: -
+Line 1458: ID = EAGAIN
+Line 1458: ;
+Line 1459: ID = goto
+Line 1459: ID = out
+Line 1459: ;
+Line 1460: }
+Line 1462: ID = error
+Line 1462: =
+Line 1462: ID = flock_to_posix_lock
+Line 1462: (
+Line 1462: ID = filp
+Line 1462: ,
+Line 1462: ID = file_lock
+Line 1462: ,
+Line 1462: Unrecognized token: 38
+Line 1462: ID = flock
+Line 1462: )
+Line 1462: ;
+Line 1463: if
+Line 1463: (
+Line 1463: ID = error
+Line 1463: )
+Line 1464: ID = goto
+Line 1464: ID = out
+Line 1464: ;
+Line 1465: if
+Line 1465: (
+Line 1465: ID = cmd
+Line 1465: ==
+Line 1465: ID = F_SETLKW
+Line 1465: )
+Line 1465: {
+Line 1466: ID = file_lock
+Line 1466: -
+Line 1466: >
+Line 1466: ID = fl_flags
+Line 1466: Unrecognized token: 124
+Line 1466: =
+Line 1466: ID = FL_SLEEP
+Line 1466: ;
+Line 1467: }
+Line 1469: ID = error
+Line 1469: =
+Line 1469: -
+Line 1469: ID = EBADF
+Line 1469: ;
+Line 1470: ID = switch
+Line 1470: (
+Line 1470: ID = flock
+Line 1470: Unrecognized token: 46
+Line 1470: ID = l_type
+Line 1470: )
+Line 1470: {
+Line 1471: ID = case
+Line 1471: ID = F_RDLCK
+Line 1471: Unrecognized token: 58
+Line 1472: if
+Line 1472: (
+Line 1472: !
+Line 1472: (
+Line 1472: ID = filp
+Line 1472: -
+Line 1472: >
+Line 1472: ID = f_mode
+Line 1472: Unrecognized token: 38
+Line 1472: ID = FMODE_READ
+Line 1472: )
+Line 1472: )
+Line 1473: ID = goto
+Line 1473: ID = out
+Line 1473: ;
+Line 1474: ID = break
+Line 1474: ;
+Line 1475: ID = case
+Line 1475: ID = F_WRLCK
+Line 1475: Unrecognized token: 58
+Line 1476: if
+Line 1476: (
+Line 1476: !
+Line 1476: (
+Line 1476: ID = filp
+Line 1476: -
+Line 1476: >
+Line 1476: ID = f_mode
+Line 1476: Unrecognized token: 38
+Line 1476: ID = FMODE_WRITE
+Line 1476: )
+Line 1476: )
+Line 1477: ID = goto
+Line 1477: ID = out
+Line 1477: ;
+Line 1478: ID = break
+Line 1478: ;
+Line 1479: ID = case
+Line 1479: ID = F_UNLCK
+Line 1479: Unrecognized token: 58
+Line 1480: ID = break
+Line 1480: ;
+Line 1481: ID = default
+Line 1481: Unrecognized token: 58
+Line 1482: ID = error
+Line 1482: =
+Line 1482: -
+Line 1482: ID = EINVAL
+Line 1482: ;
+Line 1483: ID = goto
+Line 1483: ID = out
+Line 1483: ;
+Line 1484: }
+Line 1486: ID = error
+Line 1486: =
+Line 1486: ID = security_file_lock
+Line 1486: (
+Line 1486: ID = filp
+Line 1486: ,
+Line 1486: ID = file_lock
+Line 1486: -
+Line 1486: >
+Line 1486: ID = fl_type
+Line 1486: )
+Line 1486: ;
+Line 1487: if
+Line 1487: (
+Line 1487: ID = error
+Line 1487: )
+Line 1488: ID = goto
+Line 1488: ID = out
+Line 1488: ;
+Line 1490: if
+Line 1490: (
+Line 1490: ID = filp
+Line 1490: -
+Line 1490: >
+Line 1490: ID = f_op
+Line 1490: &&
+Line 1490: ID = filp
+Line 1490: -
+Line 1490: >
+Line 1490: ID = f_op
+Line 1490: -
+Line 1490: >
+Line 1490: ID = lock
+Line 1490: !=
+Line 1490: ID = NULL
+Line 1490: )
+Line 1490: {
+Line 1491: ID = error
+Line 1491: =
+Line 1491: ID = filp
+Line 1491: -
+Line 1491: >
+Line 1491: ID = f_op
+Line 1491: -
+Line 1491: >
+Line 1491: ID = lock
+Line 1491: (
+Line 1491: ID = filp
+Line 1491: ,
+Line 1491: ID = cmd
+Line 1491: ,
+Line 1491: ID = file_lock
+Line 1491: )
+Line 1491: ;
+Line 1492: if
+Line 1492: (
+Line 1492: ID = error
+Line 1492: <
+Line 1492: INTCON = 0
+Line 1492: )
+Line 1493: ID = goto
+Line 1493: ID = out
+Line 1493: ;
+Line 1494: }
+Line 1496: for
+Line 1496: (
+Line 1496: ;
+Line 1496: ;
+Line 1496: )
+Line 1496: {
+Line 1497: ID = error
+Line 1497: =
+Line 1497: Unrecognized token: 95
+Line 1497: Unrecognized token: 95
+Line 1497: ID = posix_lock_file
+Line 1497: (
+Line 1497: ID = inode
+Line 1497: ,
+Line 1497: ID = file_lock
+Line 1497: )
+Line 1497: ;
+Line 1498: if
+Line 1498: (
+Line 1498: (
+Line 1498: ID = error
+Line 1498: !=
+Line 1498: -
+Line 1498: ID = EAGAIN
+Line 1498: )
+Line 1498: ||
+Line 1498: (
+Line 1498: ID = cmd
+Line 1498: ==
+Line 1498: ID = F_SETLK
+Line 1498: )
+Line 1498: )
+Line 1499: ID = break
+Line 1499: ;
+Line 1500: ID = error
+Line 1500: =
+Line 1500: ID = wait_event_interruptible
+Line 1500: (
+Line 1500: ID = file_lock
+Line 1500: -
+Line 1500: >
+Line 1500: ID = fl_wait
+Line 1500: ,
+Line 1501: !
+Line 1501: ID = file_lock
+Line 1501: -
+Line 1501: >
+Line 1501: ID = fl_next
+Line 1501: )
+Line 1501: ;
+Line 1502: if
+Line 1502: (
+Line 1502: !
+Line 1502: ID = error
+Line 1502: )
+Line 1503: ID = continue
+Line 1503: ;
+Line 1505: ID = locks_delete_block
+Line 1505: (
+Line 1505: ID = file_lock
+Line 1505: )
+Line 1505: ;
+Line 1506: ID = break
+Line 1506: ;
+Line 1507: }
+Line 1509: ID = out
+Line 1509: Unrecognized token: 58
+Line 1510: ID = locks_free_lock
+Line 1510: (
+Line 1510: ID = file_lock
+Line 1510: )
+Line 1510: ;
+Line 1511: return
+Line 1511: ID = error
+Line 1511: ;
+Line 1512: }
+Line 1514: Unrecognized token: 35
+Line 1514: if
+Line 1514: ID = BITS_PER_LONG
+Line 1514: ==
+Line 1514: INTCON = 32
+Line 1518: int
+Line 1518: ID = fcntl_getlk64
+Line 1518: (
+Line 1518: ID = struct
+Line 1518: ID = file
+Line 1518: *
+Line 1518: ID = filp
+Line 1518: ,
+Line 1518: ID = struct
+Line 1518: ID = flock64
+Line 1518: Unrecognized token: 95
+Line 1518: Unrecognized token: 95
+Line 1518: ID = user
+Line 1518: *
+Line 1518: ID = l
+Line 1518: )
+Line 1519: {
+Line 1520: ID = struct
+Line 1520: ID = file_lock
+Line 1520: *
+Line 1520: ID = fl
+Line 1520: ,
+Line 1520: ID = file_lock
+Line 1520: ;
+Line 1521: ID = struct
+Line 1521: ID = flock64
+Line 1521: ID = flock
+Line 1521: ;
+Line 1522: int
+Line 1522: ID = error
+Line 1522: ;
+Line 1524: ID = error
+Line 1524: =
+Line 1524: -
+Line 1524: ID = EFAULT
+Line 1524: ;
+Line 1525: if
+Line 1525: (
+Line 1525: ID = copy_from_user
+Line 1525: (
+Line 1525: Unrecognized token: 38
+Line 1525: ID = flock
+Line 1525: ,
+Line 1525: ID = l
+Line 1525: ,
+Line 1525: ID = sizeof
+Line 1525: (
+Line 1525: ID = flock
+Line 1525: )
+Line 1525: )
+Line 1525: )
+Line 1526: ID = goto
+Line 1526: ID = out
+Line 1526: ;
+Line 1527: ID = error
+Line 1527: =
+Line 1527: -
+Line 1527: ID = EINVAL
+Line 1527: ;
+Line 1528: if
+Line 1528: (
+Line 1528: (
+Line 1528: ID = flock
+Line 1528: Unrecognized token: 46
+Line 1528: ID = l_type
+Line 1528: !=
+Line 1528: ID = F_RDLCK
+Line 1528: )
+Line 1528: &&
+Line 1528: (
+Line 1528: ID = flock
+Line 1528: Unrecognized token: 46
+Line 1528: ID = l_type
+Line 1528: !=
+Line 1528: ID = F_WRLCK
+Line 1528: )
+Line 1528: )
+Line 1529: ID = goto
+Line 1529: ID = out
+Line 1529: ;
+Line 1531: ID = error
+Line 1531: =
+Line 1531: ID = flock64_to_posix_lock
+Line 1531: (
+Line 1531: ID = filp
+Line 1531: ,
+Line 1531: Unrecognized token: 38
+Line 1531: ID = file_lock
+Line 1531: ,
+Line 1531: Unrecognized token: 38
+Line 1531: ID = flock
+Line 1531: )
+Line 1531: ;
+Line 1532: if
+Line 1532: (
+Line 1532: ID = error
+Line 1532: )
+Line 1533: ID = goto
+Line 1533: ID = out
+Line 1533: ;
+Line 1535: if
+Line 1535: (
+Line 1535: ID = filp
+Line 1535: -
+Line 1535: >
+Line 1535: ID = f_op
+Line 1535: &&
+Line 1535: ID = filp
+Line 1535: -
+Line 1535: >
+Line 1535: ID = f_op
+Line 1535: -
+Line 1535: >
+Line 1535: ID = lock
+Line 1535: )
+Line 1535: {
+Line 1536: ID = error
+Line 1536: =
+Line 1536: ID = filp
+Line 1536: -
+Line 1536: >
+Line 1536: ID = f_op
+Line 1536: -
+Line 1536: >
+Line 1536: ID = lock
+Line 1536: (
+Line 1536: ID = filp
+Line 1536: ,
+Line 1536: ID = F_GETLK
+Line 1536: ,
+Line 1536: Unrecognized token: 38
+Line 1536: ID = file_lock
+Line 1536: )
+Line 1536: ;
+Line 1537: if
+Line 1537: (
+Line 1537: ID = error
+Line 1537: <
+Line 1537: INTCON = 0
+Line 1537: )
+Line 1538: ID = goto
+Line 1538: ID = out
+Line 1538: ;
+Line 1539: else
+Line 1539: if
+Line 1539: (
+Line 1539: ID = error
+Line 1539: ==
+Line 1539: ID = LOCK_USE_CLNT
+Line 1539: )
+Line 1541: ID = fl
+Line 1541: =
+Line 1541: ID = posix_test_lock
+Line 1541: (
+Line 1541: ID = filp
+Line 1541: ,
+Line 1541: Unrecognized token: 38
+Line 1541: ID = file_lock
+Line 1541: )
+Line 1541: ;
+Line 1542: else
+Line 1543: ID = fl
+Line 1543: =
+Line 1543: (
+Line 1543: ID = file_lock
+Line 1543: Unrecognized token: 46
+Line 1543: ID = fl_type
+Line 1543: ==
+Line 1543: ID = F_UNLCK
+Line 1543: Unrecognized token: 63
+Line 1543: ID = NULL
+Line 1543: Unrecognized token: 58
+Line 1543: Unrecognized token: 38
+Line 1543: ID = file_lock
+Line 1543: )
+Line 1543: ;
+Line 1544: }
+Line 1544: else
+Line 1544: {
+Line 1545: ID = fl
+Line 1545: =
+Line 1545: ID = posix_test_lock
+Line 1545: (
+Line 1545: ID = filp
+Line 1545: ,
+Line 1545: Unrecognized token: 38
+Line 1545: ID = file_lock
+Line 1545: )
+Line 1545: ;
+Line 1546: }
+Line 1548: ID = flock
+Line 1548: Unrecognized token: 46
+Line 1548: ID = l_type
+Line 1548: =
+Line 1548: ID = F_UNLCK
+Line 1548: ;
+Line 1549: if
+Line 1549: (
+Line 1549: ID = fl
+Line 1549: !=
+Line 1549: ID = NULL
+Line 1549: )
+Line 1549: {
+Line 1550: ID = flock
+Line 1550: Unrecognized token: 46
+Line 1550: ID = l_pid
+Line 1550: =
+Line 1550: ID = fl
+Line 1550: -
+Line 1550: >
+Line 1550: ID = fl_pid
+Line 1550: ;
+Line 1551: ID = flock
+Line 1551: Unrecognized token: 46
+Line 1551: ID = l_start
+Line 1551: =
+Line 1551: ID = fl
+Line 1551: -
+Line 1551: >
+Line 1551: ID = fl_start
+Line 1551: ;
+Line 1552: ID = flock
+Line 1552: Unrecognized token: 46
+Line 1552: ID = l_len
+Line 1552: =
+Line 1552: ID = fl
+Line 1552: -
+Line 1552: >
+Line 1552: ID = fl_end
+Line 1552: ==
+Line 1552: ID = OFFSET_MAX
+Line 1552: Unrecognized token: 63
+Line 1552: INTCON = 0
+Line 1552: Unrecognized token: 58
+Line 1553: ID = fl
+Line 1553: -
+Line 1553: >
+Line 1553: ID = fl_end
+Line 1553: -
+Line 1553: ID = fl
+Line 1553: -
+Line 1553: >
+Line 1553: ID = fl_start
+Line 1553: +
+Line 1553: INTCON = 1
+Line 1553: ;
+Line 1554: ID = flock
+Line 1554: Unrecognized token: 46
+Line 1554: ID = l_whence
+Line 1554: =
+Line 1554: INTCON = 0
+Line 1554: ;
+Line 1555: ID = flock
+Line 1555: Unrecognized token: 46
+Line 1555: ID = l_type
+Line 1555: =
+Line 1555: ID = fl
+Line 1555: -
+Line 1555: >
+Line 1555: ID = fl_type
+Line 1555: ;
+Line 1556: }
+Line 1557: ID = error
+Line 1557: =
+Line 1557: -
+Line 1557: ID = EFAULT
+Line 1557: ;
+Line 1558: if
+Line 1558: (
+Line 1558: !
+Line 1558: ID = copy_to_user
+Line 1558: (
+Line 1558: ID = l
+Line 1558: ,
+Line 1558: Unrecognized token: 38
+Line 1558: ID = flock
+Line 1558: ,
+Line 1558: ID = sizeof
+Line 1558: (
+Line 1558: ID = flock
+Line 1558: )
+Line 1558: )
+Line 1558: )
+Line 1559: ID = error
+Line 1559: =
+Line 1559: INTCON = 0
+Line 1559: ;
+Line 1561: ID = out
+Line 1561: Unrecognized token: 58
+Line 1562: return
+Line 1562: ID = error
+Line 1562: ;
+Line 1563: }
+Line 1568: int
+Line 1568: ID = fcntl_setlk64
+Line 1568: (
+Line 1568: ID = struct
+Line 1568: ID = file
+Line 1568: *
+Line 1568: ID = filp
+Line 1568: ,
+Line 1568: ID = unsigned
+Line 1568: int
+Line 1568: ID = cmd
+Line 1568: ,
+Line 1568: ID = struct
+Line 1568: ID = flock64
+Line 1568: Unrecognized token: 95
+Line 1568: Unrecognized token: 95
+Line 1568: ID = user
+Line 1568: *
+Line 1568: ID = l
+Line 1568: )
+Line 1569: {
+Line 1570: ID = struct
+Line 1570: ID = file_lock
+Line 1570: *
+Line 1570: ID = file_lock
+Line 1570: =
+Line 1570: ID = locks_alloc_lock
+Line 1570: (
+Line 1570: )
+Line 1570: ;
+Line 1571: ID = struct
+Line 1571: ID = flock64
+Line 1571: ID = flock
+Line 1571: ;
+Line 1572: ID = struct
+Line 1572: ID = inode
+Line 1572: *
+Line 1572: ID = inode
+Line 1572: ;
+Line 1573: int
+Line 1573: ID = error
+Line 1573: ;
+Line 1575: if
+Line 1575: (
+Line 1575: ID = file_lock
+Line 1575: ==
+Line 1575: ID = NULL
+Line 1575: )
+Line 1576: return
+Line 1576: -
+Line 1576: ID = ENOLCK
+Line 1576: ;
+Line 1581: ID = error
+Line 1581: =
+Line 1581: -
+Line 1581: ID = EFAULT
+Line 1581: ;
+Line 1582: if
+Line 1582: (
+Line 1582: ID = copy_from_user
+Line 1582: (
+Line 1582: Unrecognized token: 38
+Line 1582: ID = flock
+Line 1582: ,
+Line 1582: ID = l
+Line 1582: ,
+Line 1582: ID = sizeof
+Line 1582: (
+Line 1582: ID = flock
+Line 1582: )
+Line 1582: )
+Line 1582: )
+Line 1583: ID = goto
+Line 1583: ID = out
+Line 1583: ;
+Line 1585: ID = inode
+Line 1585: =
+Line 1585: ID = filp
+Line 1585: -
+Line 1585: >
+Line 1585: ID = f_dentry
+Line 1585: -
+Line 1585: >
+Line 1585: ID = d_inode
+Line 1585: ;
+Line 1590: if
+Line 1590: (
+Line 1590: ID = IS_MANDLOCK
+Line 1590: (
+Line 1590: ID = inode
+Line 1590: )
+Line 1590: &&
+Line 1591: (
+Line 1591: ID = inode
+Line 1591: -
+Line 1591: >
+Line 1591: ID = i_mode
+Line 1591: Unrecognized token: 38
+Line 1591: (
+Line 1591: ID = S_ISGID
+Line 1591: Unrecognized token: 124
+Line 1591: ID = S_IXGRP
+Line 1591: )
+Line 1591: )
+Line 1591: ==
+Line 1591: ID = S_ISGID
+Line 1591: &&
+Line 1592: ID = mapping_writably_mapped
+Line 1592: (
+Line 1592: ID = filp
+Line 1592: -
+Line 1592: >
+Line 1592: ID = f_mapping
+Line 1592: )
+Line 1592: )
+Line 1592: {
+Line 1593: ID = error
+Line 1593: =
+Line 1593: -
+Line 1593: ID = EAGAIN
+Line 1593: ;
+Line 1594: ID = goto
+Line 1594: ID = out
+Line 1594: ;
+Line 1595: }
+Line 1597: ID = error
+Line 1597: =
+Line 1597: ID = flock64_to_posix_lock
+Line 1597: (
+Line 1597: ID = filp
+Line 1597: ,
+Line 1597: ID = file_lock
+Line 1597: ,
+Line 1597: Unrecognized token: 38
+Line 1597: ID = flock
+Line 1597: )
+Line 1597: ;
+Line 1598: if
+Line 1598: (
+Line 1598: ID = error
+Line 1598: )
+Line 1599: ID = goto
+Line 1599: ID = out
+Line 1599: ;
+Line 1600: if
+Line 1600: (
+Line 1600: ID = cmd
+Line 1600: ==
+Line 1600: ID = F_SETLKW64
+Line 1600: )
+Line 1600: {
+Line 1601: ID = file_lock
+Line 1601: -
+Line 1601: >
+Line 1601: ID = fl_flags
+Line 1601: Unrecognized token: 124
+Line 1601: =
+Line 1601: ID = FL_SLEEP
+Line 1601: ;
+Line 1602: }
+Line 1604: ID = error
+Line 1604: =
+Line 1604: -
+Line 1604: ID = EBADF
+Line 1604: ;
+Line 1605: ID = switch
+Line 1605: (
+Line 1605: ID = flock
+Line 1605: Unrecognized token: 46
+Line 1605: ID = l_type
+Line 1605: )
+Line 1605: {
+Line 1606: ID = case
+Line 1606: ID = F_RDLCK
+Line 1606: Unrecognized token: 58
+Line 1607: if
+Line 1607: (
+Line 1607: !
+Line 1607: (
+Line 1607: ID = filp
+Line 1607: -
+Line 1607: >
+Line 1607: ID = f_mode
+Line 1607: Unrecognized token: 38
+Line 1607: ID = FMODE_READ
+Line 1607: )
+Line 1607: )
+Line 1608: ID = goto
+Line 1608: ID = out
+Line 1608: ;
+Line 1609: ID = break
+Line 1609: ;
+Line 1610: ID = case
+Line 1610: ID = F_WRLCK
+Line 1610: Unrecognized token: 58
+Line 1611: if
+Line 1611: (
+Line 1611: !
+Line 1611: (
+Line 1611: ID = filp
+Line 1611: -
+Line 1611: >
+Line 1611: ID = f_mode
+Line 1611: Unrecognized token: 38
+Line 1611: ID = FMODE_WRITE
+Line 1611: )
+Line 1611: )
+Line 1612: ID = goto
+Line 1612: ID = out
+Line 1612: ;
+Line 1613: ID = break
+Line 1613: ;
+Line 1614: ID = case
+Line 1614: ID = F_UNLCK
+Line 1614: Unrecognized token: 58
+Line 1615: ID = break
+Line 1615: ;
+Line 1616: ID = default
+Line 1616: Unrecognized token: 58
+Line 1617: ID = error
+Line 1617: =
+Line 1617: -
+Line 1617: ID = EINVAL
+Line 1617: ;
+Line 1618: ID = goto
+Line 1618: ID = out
+Line 1618: ;
+Line 1619: }
+Line 1621: ID = error
+Line 1621: =
+Line 1621: ID = security_file_lock
+Line 1621: (
+Line 1621: ID = filp
+Line 1621: ,
+Line 1621: ID = file_lock
+Line 1621: -
+Line 1621: >
+Line 1621: ID = fl_type
+Line 1621: )
+Line 1621: ;
+Line 1622: if
+Line 1622: (
+Line 1622: ID = error
+Line 1622: )
+Line 1623: ID = goto
+Line 1623: ID = out
+Line 1623: ;
+Line 1625: if
+Line 1625: (
+Line 1625: ID = filp
+Line 1625: -
+Line 1625: >
+Line 1625: ID = f_op
+Line 1625: &&
+Line 1625: ID = filp
+Line 1625: -
+Line 1625: >
+Line 1625: ID = f_op
+Line 1625: -
+Line 1625: >
+Line 1625: ID = lock
+Line 1625: !=
+Line 1625: ID = NULL
+Line 1625: )
+Line 1625: {
+Line 1626: ID = error
+Line 1626: =
+Line 1626: ID = filp
+Line 1626: -
+Line 1626: >
+Line 1626: ID = f_op
+Line 1626: -
+Line 1626: >
+Line 1626: ID = lock
+Line 1626: (
+Line 1626: ID = filp
+Line 1626: ,
+Line 1626: ID = cmd
+Line 1626: ,
+Line 1626: ID = file_lock
+Line 1626: )
+Line 1626: ;
+Line 1627: if
+Line 1627: (
+Line 1627: ID = error
+Line 1627: <
+Line 1627: INTCON = 0
+Line 1627: )
+Line 1628: ID = goto
+Line 1628: ID = out
+Line 1628: ;
+Line 1629: }
+Line 1631: for
+Line 1631: (
+Line 1631: ;
+Line 1631: ;
+Line 1631: )
+Line 1631: {
+Line 1632: ID = error
+Line 1632: =
+Line 1632: Unrecognized token: 95
+Line 1632: Unrecognized token: 95
+Line 1632: ID = posix_lock_file
+Line 1632: (
+Line 1632: ID = inode
+Line 1632: ,
+Line 1632: ID = file_lock
+Line 1632: )
+Line 1632: ;
+Line 1633: if
+Line 1633: (
+Line 1633: (
+Line 1633: ID = error
+Line 1633: !=
+Line 1633: -
+Line 1633: ID = EAGAIN
+Line 1633: )
+Line 1633: ||
+Line 1633: (
+Line 1633: ID = cmd
+Line 1633: ==
+Line 1633: ID = F_SETLK64
+Line 1633: )
+Line 1633: )
+Line 1634: ID = break
+Line 1634: ;
+Line 1635: ID = error
+Line 1635: =
+Line 1635: ID = wait_event_interruptible
+Line 1635: (
+Line 1635: ID = file_lock
+Line 1635: -
+Line 1635: >
+Line 1635: ID = fl_wait
+Line 1635: ,
+Line 1636: !
+Line 1636: ID = file_lock
+Line 1636: -
+Line 1636: >
+Line 1636: ID = fl_next
+Line 1636: )
+Line 1636: ;
+Line 1637: if
+Line 1637: (
+Line 1637: !
+Line 1637: ID = error
+Line 1637: )
+Line 1638: ID = continue
+Line 1638: ;
+Line 1640: ID = locks_delete_block
+Line 1640: (
+Line 1640: ID = file_lock
+Line 1640: )
+Line 1640: ;
+Line 1641: ID = break
+Line 1641: ;
+Line 1642: }
+Line 1644: ID = out
+Line 1644: Unrecognized token: 58
+Line 1645: ID = locks_free_lock
+Line 1645: (
+Line 1645: ID = file_lock
+Line 1645: )
+Line 1645: ;
+Line 1646: return
+Line 1646: ID = error
+Line 1646: ;
+Line 1647: }
+Line 1648: Unrecognized token: 35
+Line 1648: ID = endif
+Line 1655: void
+Line 1655: ID = locks_remove_posix
+Line 1655: (
+Line 1655: ID = struct
+Line 1655: ID = file
+Line 1655: *
+Line 1655: ID = filp
+Line 1655: ,
+Line 1655: ID = fl_owner_t
+Line 1655: ID = owner
+Line 1655: )
+Line 1656: {
+Line 1657: ID = struct
+Line 1657: ID = file_lock
+Line 1657: ID = lock
+Line 1657: ,
+Line 1657: *
+Line 1657: *
+Line 1657: ID = before
+Line 1657: ;
+Line 1664: ID = before
+Line 1664: =
+Line 1664: Unrecognized token: 38
+Line 1664: ID = filp
+Line 1664: -
+Line 1664: >
+Line 1664: ID = f_dentry
+Line 1664: -
+Line 1664: >
+Line 1664: ID = d_inode
+Line 1664: -
+Line 1664: >
+Line 1664: ID = i_flock
+Line 1664: ;
+Line 1665: if
+Line 1665: (
+Line 1665: *
+Line 1665: ID = before
+Line 1665: ==
+Line 1665: ID = NULL
+Line 1665: )
+Line 1666: return
+Line 1666: ;
+Line 1668: ID = lock
+Line 1668: Unrecognized token: 46
+Line 1668: ID = fl_type
+Line 1668: =
+Line 1668: ID = F_UNLCK
+Line 1668: ;
+Line 1669: ID = lock
+Line 1669: Unrecognized token: 46
+Line 1669: ID = fl_flags
+Line 1669: =
+Line 1669: ID = FL_POSIX
+Line 1669: ;
+Line 1670: ID = lock
+Line 1670: Unrecognized token: 46
+Line 1670: ID = fl_start
+Line 1670: =
+Line 1670: INTCON = 0
+Line 1670: ;
+Line 1671: ID = lock
+Line 1671: Unrecognized token: 46
+Line 1671: ID = fl_end
+Line 1671: =
+Line 1671: ID = OFFSET_MAX
+Line 1671: ;
+Line 1672: ID = lock
+Line 1672: Unrecognized token: 46
+Line 1672: ID = fl_owner
+Line 1672: =
+Line 1672: ID = owner
+Line 1672: ;
+Line 1673: ID = lock
+Line 1673: Unrecognized token: 46
+Line 1673: ID = fl_pid
+Line 1673: =
+Line 1673: ID = current
+Line 1673: -
+Line 1673: >
+Line 1673: ID = tgid
+Line 1673: ;
+Line 1674: ID = lock
+Line 1674: Unrecognized token: 46
+Line 1674: ID = fl_file
+Line 1674: =
+Line 1674: ID = filp
+Line 1674: ;
+Line 1676: if
+Line 1676: (
+Line 1676: ID = filp
+Line 1676: -
+Line 1676: >
+Line 1676: ID = f_op
+Line 1676: &&
+Line 1676: ID = filp
+Line 1676: -
+Line 1676: >
+Line 1676: ID = f_op
+Line 1676: -
+Line 1676: >
+Line 1676: ID = lock
+Line 1676: !=
+Line 1676: ID = NULL
+Line 1676: )
+Line 1676: {
+Line 1677: ID = filp
+Line 1677: -
+Line 1677: >
+Line 1677: ID = f_op
+Line 1677: -
+Line 1677: >
+Line 1677: ID = lock
+Line 1677: (
+Line 1677: ID = filp
+Line 1677: ,
+Line 1677: ID = F_SETLK
+Line 1677: ,
+Line 1677: Unrecognized token: 38
+Line 1677: ID = lock
+Line 1677: )
+Line 1677: ;
+Line 1679: }
+Line 1684: ID = lock_kernel
+Line 1684: (
+Line 1684: )
+Line 1684: ;
+Line 1685: while
+Line 1685: (
+Line 1685: *
+Line 1685: ID = before
+Line 1685: !=
+Line 1685: ID = NULL
+Line 1685: )
+Line 1685: {
+Line 1686: ID = struct
+Line 1686: ID = file_lock
+Line 1686: *
+Line 1686: ID = fl
+Line 1686: =
+Line 1686: *
+Line 1686: ID = before
+Line 1686: ;
+Line 1687: if
+Line 1687: (
+Line 1687: ID = IS_POSIX
+Line 1687: (
+Line 1687: ID = fl
+Line 1687: )
+Line 1687: &&
+Line 1687: (
+Line 1687: ID = fl
+Line 1687: -
+Line 1687: >
+Line 1687: ID = fl_owner
+Line 1687: ==
+Line 1687: ID = owner
+Line 1687: )
+Line 1687: )
+Line 1687: {
+Line 1688: ID = locks_delete_lock
+Line 1688: (
+Line 1688: ID = before
+Line 1688: )
+Line 1688: ;
+Line 1689: ID = continue
+Line 1689: ;
+Line 1690: }
+Line 1691: ID = before
+Line 1691: =
+Line 1691: Unrecognized token: 38
+Line 1691: ID = fl
+Line 1691: -
+Line 1691: >
+Line 1691: ID = fl_next
+Line 1691: ;
+Line 1692: }
+Line 1693: ID = unlock_kernel
+Line 1693: (
+Line 1693: )
+Line 1693: ;
+Line 1694: }
+Line 1696: ID = EXPORT_SYMBOL
+Line 1696: (
+Line 1696: ID = locks_remove_posix
+Line 1696: )
+Line 1696: ;
+Line 1701: void
+Line 1701: ID = locks_remove_flock
+Line 1701: (
+Line 1701: ID = struct
+Line 1701: ID = file
+Line 1701: *
+Line 1701: ID = filp
+Line 1701: )
+Line 1702: {
+Line 1703: ID = struct
+Line 1703: ID = inode
+Line 1703: *
+Line 1703: ID = inode
+Line 1703: =
+Line 1703: ID = filp
+Line 1703: -
+Line 1703: >
+Line 1703: ID = f_dentry
+Line 1703: -
+Line 1703: >
+Line 1703: ID = d_inode
+Line 1703: ;
+Line 1704: ID = struct
+Line 1704: ID = file_lock
+Line 1704: *
+Line 1704: ID = fl
+Line 1704: ;
+Line 1705: ID = struct
+Line 1705: ID = file_lock
+Line 1705: *
+Line 1705: *
+Line 1705: ID = before
+Line 1705: ;
+Line 1707: if
+Line 1707: (
+Line 1707: !
+Line 1707: ID = inode
+Line 1707: -
+Line 1707: >
+Line 1707: ID = i_flock
+Line 1707: )
+Line 1708: return
+Line 1708: ;
+Line 1710: ID = lock_kernel
+Line 1710: (
+Line 1710: )
+Line 1710: ;
+Line 1711: ID = before
+Line 1711: =
+Line 1711: Unrecognized token: 38
+Line 1711: ID = inode
+Line 1711: -
+Line 1711: >
+Line 1711: ID = i_flock
+Line 1711: ;
+Line 1713: while
+Line 1713: (
+Line 1713: (
+Line 1713: ID = fl
+Line 1713: =
+Line 1713: *
+Line 1713: ID = before
+Line 1713: )
+Line 1713: !=
+Line 1713: ID = NULL
+Line 1713: )
+Line 1713: {
+Line 1714: if
+Line 1714: (
+Line 1714: ID = fl
+Line 1714: -
+Line 1714: >
+Line 1714: ID = fl_file
+Line 1714: ==
+Line 1714: ID = filp
+Line 1714: )
+Line 1714: {
+Line 1715: if
+Line 1715: (
+Line 1715: ID = IS_FLOCK
+Line 1715: (
+Line 1715: ID = fl
+Line 1715: )
+Line 1715: )
+Line 1715: {
+Line 1716: ID = locks_delete_lock
+Line 1716: (
+Line 1716: ID = before
+Line 1716: )
+Line 1716: ;
+Line 1717: ID = continue
+Line 1717: ;
+Line 1718: }
+Line 1719: if
+Line 1719: (
+Line 1719: ID = IS_LEASE
+Line 1719: (
+Line 1719: ID = fl
+Line 1719: )
+Line 1719: )
+Line 1719: {
+Line 1720: ID = lease_modify
+Line 1720: (
+Line 1720: ID = before
+Line 1720: ,
+Line 1720: ID = F_UNLCK
+Line 1720: )
+Line 1720: ;
+Line 1721: ID = continue
+Line 1721: ;
+Line 1722: }
+Line 1726: ID = BUG
+Line 1726: (
+Line 1726: )
+Line 1726: ;
+Line 1727: }
+Line 1728: ID = before
+Line 1728: =
+Line 1728: Unrecognized token: 38
+Line 1728: ID = fl
+Line 1728: -
+Line 1728: >
+Line 1728: ID = fl_next
+Line 1728: ;
+Line 1729: }
+Line 1730: ID = unlock_kernel
+Line 1730: (
+Line 1730: )
+Line 1730: ;
+Line 1731: }
+Line 1740: void
+Line 1741: ID = posix_block_lock
+Line 1741: (
+Line 1741: ID = struct
+Line 1741: ID = file_lock
+Line 1741: *
+Line 1741: ID = blocker
+Line 1741: ,
+Line 1741: ID = struct
+Line 1741: ID = file_lock
+Line 1741: *
+Line 1741: ID = waiter
+Line 1741: )
+Line 1742: {
+Line 1743: ID = locks_insert_block
+Line 1743: (
+Line 1743: ID = blocker
+Line 1743: ,
+Line 1743: ID = waiter
+Line 1743: )
+Line 1743: ;
+Line 1744: }
+Line 1746: ID = EXPORT_SYMBOL
+Line 1746: (
+Line 1746: ID = posix_block_lock
+Line 1746: )
+Line 1746: ;
+Line 1755: void
+Line 1756: ID = posix_unblock_lock
+Line 1756: (
+Line 1756: ID = struct
+Line 1756: ID = file
+Line 1756: *
+Line 1756: ID = filp
+Line 1756: ,
+Line 1756: ID = struct
+Line 1756: ID = file_lock
+Line 1756: *
+Line 1756: ID = waiter
+Line 1756: )
+Line 1757: {
+Line 1762: ID = lock_kernel
+Line 1762: (
+Line 1762: )
+Line 1762: ;
+Line 1763: if
+Line 1763: (
+Line 1763: ID = waiter
+Line 1763: -
+Line 1763: >
+Line 1763: ID = fl_next
+Line 1763: )
+Line 1763: {
+Line 1764: Unrecognized token: 95
+Line 1764: Unrecognized token: 95
+Line 1764: ID = locks_delete_block
+Line 1764: (
+Line 1764: ID = waiter
+Line 1764: )
+Line 1764: ;
+Line 1765: ID = unlock_kernel
+Line 1765: (
+Line 1765: )
+Line 1765: ;
+Line 1766: }
+Line 1766: else
+Line 1766: {
+Line 1767: ID = unlock_kernel
+Line 1767: (
+Line 1767: )
+Line 1767: ;
+Line 1768: ID = waiter
+Line 1768: -
+Line 1768: >
+Line 1768: ID = fl_type
+Line 1768: =
+Line 1768: ID = F_UNLCK
+Line 1768: ;
+Line 1769: ID = posix_lock_file
+Line 1769: (
+Line 1769: ID = filp
+Line 1769: ,
+Line 1769: ID = waiter
+Line 1769: )
+Line 1769: ;
+Line 1770: }
+Line 1771: }
+Line 1773: ID = EXPORT_SYMBOL
+Line 1773: (
+Line 1773: ID = posix_unblock_lock
+Line 1773: )
+Line 1773: ;
+Line 1775: ID = static
+Line 1775: void
+Line 1775: ID = lock_get_status
+Line 1775: (
+Line 1775: char
+Line 1775: *
+Line 1775: ID = out
+Line 1775: ,
+Line 1775: ID = struct
+Line 1775: ID = file_lock
+Line 1775: *
+Line 1775: ID = fl
+Line 1775: ,
+Line 1775: int
+Line 1775: ID = id
+Line 1775: ,
+Line 1775: char
+Line 1775: *
+Line 1775: ID = pfx
+Line 1775: )
+Line 1776: {
+Line 1777: ID = struct
+Line 1777: ID = inode
+Line 1777: *
+Line 1777: ID = inode
+Line 1777: =
+Line 1777: ID = NULL
+Line 1777: ;
+Line 1779: if
+Line 1779: (
+Line 1779: ID = fl
+Line 1779: -
+Line 1779: >
+Line 1779: ID = fl_file
+Line 1779: !=
+Line 1779: ID = NULL
+Line 1779: )
+Line 1780: ID = inode
+Line 1780: =
+Line 1780: ID = fl
+Line 1780: -
+Line 1780: >
+Line 1780: ID = fl_file
+Line 1780: -
+Line 1780: >
+Line 1780: ID = f_dentry
+Line 1780: -
+Line 1780: >
+Line 1780: ID = d_inode
+Line 1780: ;
+Line 1782: ID = out
+Line 1782: +
+Line 1782: =
+Line 1782: ID = sprintf
+Line 1782: (
+Line 1782: ID = out
+Line 1782: ,
+Line 1782: STRINGCON = "%d:%s "
+Line 1782: ,
+Line 1782: ID = id
+Line 1782: ,
+Line 1782: ID = pfx
+Line 1782: )
+Line 1782: ;
+Line 1783: if
+Line 1783: (
+Line 1783: ID = IS_POSIX
+Line 1783: (
+Line 1783: ID = fl
+Line 1783: )
+Line 1783: )
+Line 1783: {
+Line 1784: ID = out
+Line 1784: +
+Line 1784: =
+Line 1784: ID = sprintf
+Line 1784: (
+Line 1784: ID = out
+Line 1784: ,
+Line 1784: STRINGCON = "%6s %s "
+Line 1784: ,
+Line 1785: (
+Line 1785: ID = fl
+Line 1785: -
+Line 1785: >
+Line 1785: ID = fl_flags
+Line 1785: Unrecognized token: 38
+Line 1785: ID = FL_ACCESS
+Line 1785: )
+Line 1785: Unrecognized token: 63
+Line 1785: STRINGCON = "ACCESS"
+Line 1785: Unrecognized token: 58
+Line 1785: STRINGCON = "POSIX "
+Line 1785: ,
+Line 1786: (
+Line 1786: ID = inode
+Line 1786: ==
+Line 1786: ID = NULL
+Line 1786: )
+Line 1786: Unrecognized token: 63
+Line 1786: STRINGCON = "*NOINODE*"
+Line 1786: Unrecognized token: 58
+Line 1787: (
+Line 1787: ID = IS_MANDLOCK
+Line 1787: (
+Line 1787: ID = inode
+Line 1787: )
+Line 1787: &&
+Line 1788: (
+Line 1788: ID = inode
+Line 1788: -
+Line 1788: >
+Line 1788: ID = i_mode
+Line 1788: Unrecognized token: 38
+Line 1788: (
+Line 1788: ID = S_IXGRP
+Line 1788: Unrecognized token: 124
+Line 1788: ID = S_ISGID
+Line 1788: )
+Line 1788: )
+Line 1788: ==
+Line 1788: ID = S_ISGID
+Line 1788: )
+Line 1788: Unrecognized token: 63
+Line 1789: STRINGCON = "MANDATORY"
+Line 1789: Unrecognized token: 58
+Line 1789: STRINGCON = "ADVISORY "
+Line 1789: )
+Line 1789: ;
+Line 1790: }
+Line 1790: else
+Line 1790: if
+Line 1790: (
+Line 1790: ID = IS_FLOCK
+Line 1790: (
+Line 1790: ID = fl
+Line 1790: )
+Line 1790: )
+Line 1790: {
+Line 1791: if
+Line 1791: (
+Line 1791: ID = fl
+Line 1791: -
+Line 1791: >
+Line 1791: ID = fl_type
+Line 1791: Unrecognized token: 38
+Line 1791: ID = LOCK_MAND
+Line 1791: )
+Line 1791: {
+Line 1792: ID = out
+Line 1792: +
+Line 1792: =
+Line 1792: ID = sprintf
+Line 1792: (
+Line 1792: ID = out
+Line 1792: ,
+Line 1792: STRINGCON = "FLOCK  MSNFS     "
+Line 1792: )
+Line 1792: ;
+Line 1793: }
+Line 1793: else
+Line 1793: {
+Line 1794: ID = out
+Line 1794: +
+Line 1794: =
+Line 1794: ID = sprintf
+Line 1794: (
+Line 1794: ID = out
+Line 1794: ,
+Line 1794: STRINGCON = "FLOCK  ADVISORY  "
+Line 1794: )
+Line 1794: ;
+Line 1795: }
+Line 1796: }
+Line 1796: else
+Line 1796: if
+Line 1796: (
+Line 1796: ID = IS_LEASE
+Line 1796: (
+Line 1796: ID = fl
+Line 1796: )
+Line 1796: )
+Line 1796: {
+Line 1797: ID = out
+Line 1797: +
+Line 1797: =
+Line 1797: ID = sprintf
+Line 1797: (
+Line 1797: ID = out
+Line 1797: ,
+Line 1797: STRINGCON = "LEASE  "
+Line 1797: )
+Line 1797: ;
+Line 1798: if
+Line 1798: (
+Line 1798: ID = fl
+Line 1798: -
+Line 1798: >
+Line 1798: ID = fl_type
+Line 1798: Unrecognized token: 38
+Line 1798: ID = F_INPROGRESS
+Line 1798: )
+Line 1799: ID = out
+Line 1799: +
+Line 1799: =
+Line 1799: ID = sprintf
+Line 1799: (
+Line 1799: ID = out
+Line 1799: ,
+Line 1799: STRINGCON = "BREAKING  "
+Line 1799: )
+Line 1799: ;
+Line 1800: else
+Line 1800: if
+Line 1800: (
+Line 1800: ID = fl
+Line 1800: -
+Line 1800: >
+Line 1800: ID = fl_file
+Line 1800: )
+Line 1801: ID = out
+Line 1801: +
+Line 1801: =
+Line 1801: ID = sprintf
+Line 1801: (
+Line 1801: ID = out
+Line 1801: ,
+Line 1801: STRINGCON = "ACTIVE    "
+Line 1801: )
+Line 1801: ;
+Line 1802: else
+Line 1803: ID = out
+Line 1803: +
+Line 1803: =
+Line 1803: ID = sprintf
+Line 1803: (
+Line 1803: ID = out
+Line 1803: ,
+Line 1803: STRINGCON = "BREAKER   "
+Line 1803: )
+Line 1803: ;
+Line 1804: }
+Line 1804: else
+Line 1804: {
+Line 1805: ID = out
+Line 1805: +
+Line 1805: =
+Line 1805: ID = sprintf
+Line 1805: (
+Line 1805: ID = out
+Line 1805: ,
+Line 1805: STRINGCON = "UNKNOWN UNKNOWN  "
+Line 1805: )
+Line 1805: ;
+Line 1806: }
+Line 1807: if
+Line 1807: (
+Line 1807: ID = fl
+Line 1807: -
+Line 1807: >
+Line 1807: ID = fl_type
+Line 1807: Unrecognized token: 38
+Line 1807: ID = LOCK_MAND
+Line 1807: )
+Line 1807: {
+Line 1808: ID = out
+Line 1808: +
+Line 1808: =
+Line 1808: ID = sprintf
+Line 1808: (
+Line 1808: ID = out
+Line 1808: ,
+Line 1808: STRINGCON = "%s "
+Line 1808: ,
+Line 1809: (
+Line 1809: ID = fl
+Line 1809: -
+Line 1809: >
+Line 1809: ID = fl_type
+Line 1809: Unrecognized token: 38
+Line 1809: ID = LOCK_READ
+Line 1809: )
+Line 1810: Unrecognized token: 63
+Line 1810: (
+Line 1810: ID = fl
+Line 1810: -
+Line 1810: >
+Line 1810: ID = fl_type
+Line 1810: Unrecognized token: 38
+Line 1810: ID = LOCK_WRITE
+Line 1810: )
+Line 1810: Unrecognized token: 63
+Line 1810: STRINGCON = "RW   "
+Line 1810: Unrecognized token: 58
+Line 1810: STRINGCON = "READ "
+Line 1811: Unrecognized token: 58
+Line 1811: (
+Line 1811: ID = fl
+Line 1811: -
+Line 1811: >
+Line 1811: ID = fl_type
+Line 1811: Unrecognized token: 38
+Line 1811: ID = LOCK_WRITE
+Line 1811: )
+Line 1811: Unrecognized token: 63
+Line 1811: STRINGCON = "WRITE"
+Line 1811: Unrecognized token: 58
+Line 1811: STRINGCON = "NONE "
+Line 1811: )
+Line 1811: ;
+Line 1812: }
+Line 1812: else
+Line 1812: {
+Line 1813: ID = out
+Line 1813: +
+Line 1813: =
+Line 1813: ID = sprintf
+Line 1813: (
+Line 1813: ID = out
+Line 1813: ,
+Line 1813: STRINGCON = "%s "
+Line 1813: ,
+Line 1814: (
+Line 1814: ID = fl
+Line 1814: -
+Line 1814: >
+Line 1814: ID = fl_type
+Line 1814: Unrecognized token: 38
+Line 1814: ID = F_INPROGRESS
+Line 1814: )
+Line 1815: Unrecognized token: 63
+Line 1815: (
+Line 1815: ID = fl
+Line 1815: -
+Line 1815: >
+Line 1815: ID = fl_type
+Line 1815: Unrecognized token: 38
+Line 1815: ID = F_UNLCK
+Line 1815: )
+Line 1815: Unrecognized token: 63
+Line 1815: STRINGCON = "UNLCK"
+Line 1815: Unrecognized token: 58
+Line 1815: STRINGCON = "READ "
+Line 1816: Unrecognized token: 58
+Line 1816: (
+Line 1816: ID = fl
+Line 1816: -
+Line 1816: >
+Line 1816: ID = fl_type
+Line 1816: Unrecognized token: 38
+Line 1816: ID = F_WRLCK
+Line 1816: )
+Line 1816: Unrecognized token: 63
+Line 1816: STRINGCON = "WRITE"
+Line 1816: Unrecognized token: 58
+Line 1816: STRINGCON = "READ "
+Line 1816: )
+Line 1816: ;
+Line 1817: }
+Line 1818: if
+Line 1818: (
+Line 1818: ID = inode
+Line 1818: )
+Line 1818: {
+Line 1819: Unrecognized token: 35
+Line 1819: ID = ifdef
+Line 1819: ID = WE_CAN_BREAK_LSLK_NOW
+Line 1820: ID = out
+Line 1820: +
+Line 1820: =
+Line 1820: ID = sprintf
+Line 1820: (
+Line 1820: ID = out
+Line 1820: ,
+Line 1820: STRINGCON = "%d %s:%ld "
+Line 1820: ,
+Line 1820: ID = fl
+Line 1820: -
+Line 1820: >
+Line 1820: ID = fl_pid
+Line 1820: ,
+Line 1821: ID = inode
+Line 1821: -
+Line 1821: >
+Line 1821: ID = i_sb
+Line 1821: -
+Line 1821: >
+Line 1821: ID = s_id
+Line 1821: ,
+Line 1821: ID = inode
+Line 1821: -
+Line 1821: >
+Line 1821: ID = i_ino
+Line 1821: )
+Line 1821: ;
+Line 1822: Unrecognized token: 35
+Line 1822: else
+Line 1824: ID = out
+Line 1824: +
+Line 1824: =
+Line 1824: ID = sprintf
+Line 1824: (
+Line 1824: ID = out
+Line 1824: ,
+Line 1824: STRINGCON = "%d %02x:%02x:%ld "
+Line 1824: ,
+Line 1824: ID = fl
+Line 1824: -
+Line 1824: >
+Line 1824: ID = fl_pid
+Line 1824: ,
+Line 1825: ID = MAJOR
+Line 1825: (
+Line 1825: ID = inode
+Line 1825: -
+Line 1825: >
+Line 1825: ID = i_sb
+Line 1825: -
+Line 1825: >
+Line 1825: ID = s_dev
+Line 1825: )
+Line 1825: ,
+Line 1826: ID = MINOR
+Line 1826: (
+Line 1826: ID = inode
+Line 1826: -
+Line 1826: >
+Line 1826: ID = i_sb
+Line 1826: -
+Line 1826: >
+Line 1826: ID = s_dev
+Line 1826: )
+Line 1826: ,
+Line 1826: ID = inode
+Line 1826: -
+Line 1826: >
+Line 1826: ID = i_ino
+Line 1826: )
+Line 1826: ;
+Line 1827: Unrecognized token: 35
+Line 1827: ID = endif
+Line 1828: }
+Line 1828: else
+Line 1828: {
+Line 1829: ID = out
+Line 1829: +
+Line 1829: =
+Line 1829: ID = sprintf
+Line 1829: (
+Line 1829: ID = out
+Line 1829: ,
+Line 1829: STRINGCON = "%d <none>:0 "
+Line 1829: ,
+Line 1829: ID = fl
+Line 1829: -
+Line 1829: >
+Line 1829: ID = fl_pid
+Line 1829: )
+Line 1829: ;
+Line 1830: }
+Line 1831: if
+Line 1831: (
+Line 1831: ID = IS_POSIX
+Line 1831: (
+Line 1831: ID = fl
+Line 1831: )
+Line 1831: )
+Line 1831: {
+Line 1832: if
+Line 1832: (
+Line 1832: ID = fl
+Line 1832: -
+Line 1832: >
+Line 1832: ID = fl_end
+Line 1832: ==
+Line 1832: ID = OFFSET_MAX
+Line 1832: )
+Line 1833: ID = out
+Line 1833: +
+Line 1833: =
+Line 1833: ID = sprintf
+Line 1833: (
+Line 1833: ID = out
+Line 1833: ,
+Line 1833: STRINGCON = "%Ld EOF\n"
+Line 1833: ,
+Line 1833: ID = fl
+Line 1833: -
+Line 1833: >
+Line 1833: ID = fl_start
+Line 1833: )
+Line 1833: ;
+Line 1834: else
+Line 1835: ID = out
+Line 1835: +
+Line 1835: =
+Line 1835: ID = sprintf
+Line 1835: (
+Line 1835: ID = out
+Line 1835: ,
+Line 1835: STRINGCON = "%Ld %Ld\n"
+Line 1835: ,
+Line 1835: ID = fl
+Line 1835: -
+Line 1835: >
+Line 1835: ID = fl_start
+Line 1835: ,
+Line 1836: ID = fl
+Line 1836: -
+Line 1836: >
+Line 1836: ID = fl_end
+Line 1836: )
+Line 1836: ;
+Line 1837: }
+Line 1837: else
+Line 1837: {
+Line 1838: ID = out
+Line 1838: +
+Line 1838: =
+Line 1838: ID = sprintf
+Line 1838: (
+Line 1838: ID = out
+Line 1838: ,
+Line 1838: STRINGCON = "0 EOF\n"
+Line 1838: )
+Line 1838: ;
+Line 1839: }
+Line 1840: }
+Line 1842: ID = static
+Line 1842: void
+Line 1842: ID = move_lock_status
+Line 1842: (
+Line 1842: char
+Line 1842: *
+Line 1842: *
+Line 1842: ID = p
+Line 1842: ,
+Line 1842: ID = off_t
+Line 1842: *
+Line 1842: ID = pos
+Line 1842: ,
+Line 1842: ID = off_t
+Line 1842: ID = offset
+Line 1842: )
+Line 1843: {
+Line 1844: int
+Line 1844: ID = len
+Line 1844: ;
+Line 1845: ID = len
+Line 1845: =
+Line 1845: ID = strlen
+Line 1845: (
+Line 1845: *
+Line 1845: ID = p
+Line 1845: )
+Line 1845: ;
+Line 1846: if
+Line 1846: (
+Line 1846: *
+Line 1846: ID = pos
+Line 1846: >=
+Line 1846: ID = offset
+Line 1846: )
+Line 1846: {
+Line 1848: *
+Line 1848: ID = p
+Line 1848: +
+Line 1848: =
+Line 1848: ID = len
+Line 1848: ;
+Line 1849: *
+Line 1849: ID = pos
+Line 1849: +
+Line 1849: =
+Line 1849: ID = len
+Line 1849: ;
+Line 1850: return
+Line 1850: ;
+Line 1851: }
+Line 1852: if
+Line 1852: (
+Line 1852: *
+Line 1852: ID = pos
+Line 1852: +
+Line 1852: ID = len
+Line 1852: >
+Line 1852: ID = offset
+Line 1852: )
+Line 1852: {
+Line 1854: int
+Line 1854: ID = i
+Line 1854: =
+Line 1854: ID = offset
+Line 1854: -
+Line 1854: *
+Line 1854: ID = pos
+Line 1854: ;
+Line 1855: ID = memmove
+Line 1855: (
+Line 1855: *
+Line 1855: ID = p
+Line 1855: ,
+Line 1855: *
+Line 1855: ID = p
+Line 1855: +
+Line 1855: ID = i
+Line 1855: ,
+Line 1855: ID = len
+Line 1855: -
+Line 1855: ID = i
+Line 1855: )
+Line 1855: ;
+Line 1856: *
+Line 1856: ID = p
+Line 1856: +
+Line 1856: =
+Line 1856: ID = len
+Line 1856: -
+Line 1856: ID = i
+Line 1856: ;
+Line 1857: *
+Line 1857: ID = pos
+Line 1857: +
+Line 1857: =
+Line 1857: ID = len
+Line 1857: ;
+Line 1858: return
+Line 1858: ;
+Line 1859: }
+Line 1861: *
+Line 1861: ID = pos
+Line 1861: +
+Line 1861: =
+Line 1861: ID = len
+Line 1861: ;
+Line 1862: }
+Line 1872: int
+Line 1872: ID = get_locks_status
+Line 1872: (
+Line 1872: char
+Line 1872: *
+Line 1872: ID = buffer
+Line 1872: ,
+Line 1872: char
+Line 1872: *
+Line 1872: *
+Line 1872: ID = start
+Line 1872: ,
+Line 1872: ID = off_t
+Line 1872: ID = offset
+Line 1872: ,
+Line 1872: int
+Line 1872: ID = length
+Line 1872: )
+Line 1873: {
+Line 1874: ID = struct
+Line 1874: ID = list_head
+Line 1874: *
+Line 1874: ID = tmp
+Line 1874: ;
+Line 1875: char
+Line 1875: *
+Line 1875: ID = q
+Line 1875: =
+Line 1875: ID = buffer
+Line 1875: ;
+Line 1876: ID = off_t
+Line 1876: ID = pos
+Line 1876: =
+Line 1876: INTCON = 0
+Line 1876: ;
+Line 1877: int
+Line 1877: ID = i
+Line 1877: =
+Line 1877: INTCON = 0
+Line 1877: ;
+Line 1879: ID = lock_kernel
+Line 1879: (
+Line 1879: )
+Line 1879: ;
+Line 1880: ID = list_for_each
+Line 1880: (
+Line 1880: ID = tmp
+Line 1880: ,
+Line 1880: Unrecognized token: 38
+Line 1880: ID = file_lock_list
+Line 1880: )
+Line 1880: {
+Line 1881: ID = struct
+Line 1881: ID = list_head
+Line 1881: *
+Line 1881: ID = btmp
+Line 1881: ;
+Line 1882: ID = struct
+Line 1882: ID = file_lock
+Line 1882: *
+Line 1882: ID = fl
+Line 1882: =
+Line 1882: ID = list_entry
+Line 1882: (
+Line 1882: ID = tmp
+Line 1882: ,
+Line 1882: ID = struct
+Line 1882: ID = file_lock
+Line 1882: ,
+Line 1882: ID = fl_link
+Line 1882: )
+Line 1882: ;
+Line 1883: ID = lock_get_status
+Line 1883: (
+Line 1883: ID = q
+Line 1883: ,
+Line 1883: ID = fl
+Line 1883: ,
+Line 1883: +
+Line 1883: +
+Line 1883: ID = i
+Line 1883: ,
+Line 1883: STRINGCON = ""
+Line 1883: )
+Line 1883: ;
+Line 1884: ID = move_lock_status
+Line 1884: (
+Line 1884: Unrecognized token: 38
+Line 1884: ID = q
+Line 1884: ,
+Line 1884: Unrecognized token: 38
+Line 1884: ID = pos
+Line 1884: ,
+Line 1884: ID = offset
+Line 1884: )
+Line 1884: ;
+Line 1886: if
+Line 1886: (
+Line 1886: ID = pos
+Line 1886: >=
+Line 1886: ID = offset
+Line 1886: +
+Line 1886: ID = length
+Line 1886: )
+Line 1887: ID = goto
+Line 1887: ID = done
+Line 1887: ;
+Line 1889: ID = list_for_each
+Line 1889: (
+Line 1889: ID = btmp
+Line 1889: ,
+Line 1889: Unrecognized token: 38
+Line 1889: ID = fl
+Line 1889: -
+Line 1889: >
+Line 1889: ID = fl_block
+Line 1889: )
+Line 1889: {
+Line 1890: ID = struct
+Line 1890: ID = file_lock
+Line 1890: *
+Line 1890: ID = bfl
+Line 1890: =
+Line 1890: ID = list_entry
+Line 1890: (
+Line 1890: ID = btmp
+Line 1890: ,
+Line 1891: ID = struct
+Line 1891: ID = file_lock
+Line 1891: ,
+Line 1891: ID = fl_block
+Line 1891: )
+Line 1891: ;
+Line 1892: ID = lock_get_status
+Line 1892: (
+Line 1892: ID = q
+Line 1892: ,
+Line 1892: ID = bfl
+Line 1892: ,
+Line 1892: ID = i
+Line 1892: ,
+Line 1892: STRINGCON = " ->"
+Line 1892: )
+Line 1892: ;
+Line 1893: ID = move_lock_status
+Line 1893: (
+Line 1893: Unrecognized token: 38
+Line 1893: ID = q
+Line 1893: ,
+Line 1893: Unrecognized token: 38
+Line 1893: ID = pos
+Line 1893: ,
+Line 1893: ID = offset
+Line 1893: )
+Line 1893: ;
+Line 1895: if
+Line 1895: (
+Line 1895: ID = pos
+Line 1895: >=
+Line 1895: ID = offset
+Line 1895: +
+Line 1895: ID = length
+Line 1895: )
+Line 1896: ID = goto
+Line 1896: ID = done
+Line 1896: ;
+Line 1897: }
+Line 1898: }
+Line 1899: ID = done
+Line 1899: Unrecognized token: 58
+Line 1900: ID = unlock_kernel
+Line 1900: (
+Line 1900: )
+Line 1900: ;
+Line 1901: *
+Line 1901: ID = start
+Line 1901: =
+Line 1901: ID = buffer
+Line 1901: ;
+Line 1902: if
+Line 1902: (
+Line 1902: ID = q
+Line 1902: -
+Line 1902: ID = buffer
+Line 1902: <
+Line 1902: ID = length
+Line 1902: )
+Line 1903: return
+Line 1903: (
+Line 1903: ID = q
+Line 1903: -
+Line 1903: ID = buffer
+Line 1903: )
+Line 1903: ;
+Line 1904: return
+Line 1904: ID = length
+Line 1904: ;
+Line 1905: }
+Line 1920: int
+Line 1920: ID = lock_may_read
+Line 1920: (
+Line 1920: ID = struct
+Line 1920: ID = inode
+Line 1920: *
+Line 1920: ID = inode
+Line 1920: ,
+Line 1920: ID = loff_t
+Line 1920: ID = start
+Line 1920: ,
+Line 1920: ID = unsigned
+Line 1920: ID = long
+Line 1920: ID = len
+Line 1920: )
+Line 1921: {
+Line 1922: ID = struct
+Line 1922: ID = file_lock
+Line 1922: *
+Line 1922: ID = fl
+Line 1922: ;
+Line 1923: int
+Line 1923: ID = result
+Line 1923: =
+Line 1923: INTCON = 1
+Line 1923: ;
+Line 1924: ID = lock_kernel
+Line 1924: (
+Line 1924: )
+Line 1924: ;
+Line 1925: for
+Line 1925: (
+Line 1925: ID = fl
+Line 1925: =
+Line 1925: ID = inode
+Line 1925: -
+Line 1925: >
+Line 1925: ID = i_flock
+Line 1925: ;
+Line 1925: ID = fl
+Line 1925: !=
+Line 1925: ID = NULL
+Line 1925: ;
+Line 1925: ID = fl
+Line 1925: =
+Line 1925: ID = fl
+Line 1925: -
+Line 1925: >
+Line 1925: ID = fl_next
+Line 1925: )
+Line 1925: {
+Line 1926: if
+Line 1926: (
+Line 1926: ID = IS_POSIX
+Line 1926: (
+Line 1926: ID = fl
+Line 1926: )
+Line 1926: )
+Line 1926: {
+Line 1927: if
+Line 1927: (
+Line 1927: ID = fl
+Line 1927: -
+Line 1927: >
+Line 1927: ID = fl_type
+Line 1927: ==
+Line 1927: ID = F_RDLCK
+Line 1927: )
+Line 1928: ID = continue
+Line 1928: ;
+Line 1929: if
+Line 1929: (
+Line 1929: (
+Line 1929: ID = fl
+Line 1929: -
+Line 1929: >
+Line 1929: ID = fl_end
+Line 1929: <
+Line 1929: ID = start
+Line 1929: )
+Line 1929: ||
+Line 1929: (
+Line 1929: ID = fl
+Line 1929: -
+Line 1929: >
+Line 1929: ID = fl_start
+Line 1929: >
+Line 1929: (
+Line 1929: ID = start
+Line 1929: +
+Line 1929: ID = len
+Line 1929: )
+Line 1929: )
+Line 1929: )
+Line 1930: ID = continue
+Line 1930: ;
+Line 1931: }
+Line 1931: else
+Line 1931: if
+Line 1931: (
+Line 1931: ID = IS_FLOCK
+Line 1931: (
+Line 1931: ID = fl
+Line 1931: )
+Line 1931: )
+Line 1931: {
+Line 1932: if
+Line 1932: (
+Line 1932: !
+Line 1932: (
+Line 1932: ID = fl
+Line 1932: -
+Line 1932: >
+Line 1932: ID = fl_type
+Line 1932: Unrecognized token: 38
+Line 1932: ID = LOCK_MAND
+Line 1932: )
+Line 1932: )
+Line 1933: ID = continue
+Line 1933: ;
+Line 1934: if
+Line 1934: (
+Line 1934: ID = fl
+Line 1934: -
+Line 1934: >
+Line 1934: ID = fl_type
+Line 1934: Unrecognized token: 38
+Line 1934: ID = LOCK_READ
+Line 1934: )
+Line 1935: ID = continue
+Line 1935: ;
+Line 1936: }
+Line 1936: else
+Line 1937: ID = continue
+Line 1937: ;
+Line 1938: ID = result
+Line 1938: =
+Line 1938: INTCON = 0
+Line 1938: ;
+Line 1939: ID = break
+Line 1939: ;
+Line 1940: }
+Line 1941: ID = unlock_kernel
+Line 1941: (
+Line 1941: )
+Line 1941: ;
+Line 1942: return
+Line 1942: ID = result
+Line 1942: ;
+Line 1943: }
+Line 1945: ID = EXPORT_SYMBOL
+Line 1945: (
+Line 1945: ID = lock_may_read
+Line 1945: )
+Line 1945: ;
+Line 1960: int
+Line 1960: ID = lock_may_write
+Line 1960: (
+Line 1960: ID = struct
+Line 1960: ID = inode
+Line 1960: *
+Line 1960: ID = inode
+Line 1960: ,
+Line 1960: ID = loff_t
+Line 1960: ID = start
+Line 1960: ,
+Line 1960: ID = unsigned
+Line 1960: ID = long
+Line 1960: ID = len
+Line 1960: )
+Line 1961: {
+Line 1962: ID = struct
+Line 1962: ID = file_lock
+Line 1962: *
+Line 1962: ID = fl
+Line 1962: ;
+Line 1963: int
+Line 1963: ID = result
+Line 1963: =
+Line 1963: INTCON = 1
+Line 1963: ;
+Line 1964: ID = lock_kernel
+Line 1964: (
+Line 1964: )
+Line 1964: ;
+Line 1965: for
+Line 1965: (
+Line 1965: ID = fl
+Line 1965: =
+Line 1965: ID = inode
+Line 1965: -
+Line 1965: >
+Line 1965: ID = i_flock
+Line 1965: ;
+Line 1965: ID = fl
+Line 1965: !=
+Line 1965: ID = NULL
+Line 1965: ;
+Line 1965: ID = fl
+Line 1965: =
+Line 1965: ID = fl
+Line 1965: -
+Line 1965: >
+Line 1965: ID = fl_next
+Line 1965: )
+Line 1965: {
+Line 1966: if
+Line 1966: (
+Line 1966: ID = IS_POSIX
+Line 1966: (
+Line 1966: ID = fl
+Line 1966: )
+Line 1966: )
+Line 1966: {
+Line 1967: if
+Line 1967: (
+Line 1967: (
+Line 1967: ID = fl
+Line 1967: -
+Line 1967: >
+Line 1967: ID = fl_end
+Line 1967: <
+Line 1967: ID = start
+Line 1967: )
+Line 1967: ||
+Line 1967: (
+Line 1967: ID = fl
+Line 1967: -
+Line 1967: >
+Line 1967: ID = fl_start
+Line 1967: >
+Line 1967: (
+Line 1967: ID = start
+Line 1967: +
+Line 1967: ID = len
+Line 1967: )
+Line 1967: )
+Line 1967: )
+Line 1968: ID = continue
+Line 1968: ;
+Line 1969: }
+Line 1969: else
+Line 1969: if
+Line 1969: (
+Line 1969: ID = IS_FLOCK
+Line 1969: (
+Line 1969: ID = fl
+Line 1969: )
+Line 1969: )
+Line 1969: {
+Line 1970: if
+Line 1970: (
+Line 1970: !
+Line 1970: (
+Line 1970: ID = fl
+Line 1970: -
+Line 1970: >
+Line 1970: ID = fl_type
+Line 1970: Unrecognized token: 38
+Line 1970: ID = LOCK_MAND
+Line 1970: )
+Line 1970: )
+Line 1971: ID = continue
+Line 1971: ;
+Line 1972: if
+Line 1972: (
+Line 1972: ID = fl
+Line 1972: -
+Line 1972: >
+Line 1972: ID = fl_type
+Line 1972: Unrecognized token: 38
+Line 1972: ID = LOCK_WRITE
+Line 1972: )
+Line 1973: ID = continue
+Line 1973: ;
+Line 1974: }
+Line 1974: else
+Line 1975: ID = continue
+Line 1975: ;
+Line 1976: ID = result
+Line 1976: =
+Line 1976: INTCON = 0
+Line 1976: ;
+Line 1977: ID = break
+Line 1977: ;
+Line 1978: }
+Line 1979: ID = unlock_kernel
+Line 1979: (
+Line 1979: )
+Line 1979: ;
+Line 1980: return
+Line 1980: ID = result
+Line 1980: ;
+Line 1981: }
+Line 1983: ID = EXPORT_SYMBOL
+Line 1983: (
+Line 1983: ID = lock_may_write
+Line 1983: )
+Line 1983: ;
+Line 1985: ID = static
+Line 1985: ID = inline
+Line 1985: void
+Line 1985: Unrecognized token: 95
+Line 1985: Unrecognized token: 95
+Line 1985: ID = steal_locks
+Line 1985: (
+Line 1985: ID = struct
+Line 1985: ID = file
+Line 1985: *
+Line 1985: ID = file
+Line 1985: ,
+Line 1985: ID = fl_owner_t
+Line 1985: ID = from
+Line 1985: )
+Line 1986: {
+Line 1987: ID = struct
+Line 1987: ID = inode
+Line 1987: *
+Line 1987: ID = inode
+Line 1987: =
+Line 1987: ID = file
+Line 1987: -
+Line 1987: >
+Line 1987: ID = f_dentry
+Line 1987: -
+Line 1987: >
+Line 1987: ID = d_inode
+Line 1987: ;
+Line 1988: ID = struct
+Line 1988: ID = file_lock
+Line 1988: *
+Line 1988: ID = fl
+Line 1988: =
+Line 1988: ID = inode
+Line 1988: -
+Line 1988: >
+Line 1988: ID = i_flock
+Line 1988: ;
+Line 1990: while
+Line 1990: (
+Line 1990: ID = fl
+Line 1990: )
+Line 1990: {
+Line 1991: if
+Line 1991: (
+Line 1991: ID = fl
+Line 1991: -
+Line 1991: >
+Line 1991: ID = fl_file
+Line 1991: ==
+Line 1991: ID = file
+Line 1991: &&
+Line 1991: ID = fl
+Line 1991: -
+Line 1991: >
+Line 1991: ID = fl_owner
+Line 1991: ==
+Line 1991: ID = from
+Line 1991: )
+Line 1992: ID = fl
+Line 1992: -
+Line 1992: >
+Line 1992: ID = fl_owner
+Line 1992: =
+Line 1992: ID = current
+Line 1992: -
+Line 1992: >
+Line 1992: ID = files
+Line 1992: ;
+Line 1993: ID = fl
+Line 1993: =
+Line 1993: ID = fl
+Line 1993: -
+Line 1993: >
+Line 1993: ID = fl_next
+Line 1993: ;
+Line 1994: }
+Line 1995: }
+Line 2003: void
+Line 2003: ID = steal_locks
+Line 2003: (
+Line 2003: ID = fl_owner_t
+Line 2003: ID = from
+Line 2003: )
+Line 2004: {
+Line 2005: ID = struct
+Line 2005: ID = files_struct
+Line 2005: *
+Line 2005: ID = files
+Line 2005: =
+Line 2005: ID = current
+Line 2005: -
+Line 2005: >
+Line 2005: ID = files
+Line 2005: ;
+Line 2006: int
+Line 2006: ID = i
+Line 2006: ,
+Line 2006: ID = j
+Line 2006: ;
+Line 2008: if
+Line 2008: (
+Line 2008: ID = from
+Line 2008: ==
+Line 2008: ID = files
+Line 2008: )
+Line 2009: return
+Line 2009: ;
+Line 2011: ID = lock_kernel
+Line 2011: (
+Line 2011: )
+Line 2011: ;
+Line 2012: ID = j
+Line 2012: =
+Line 2012: INTCON = 0
+Line 2012: ;
+Line 2013: for
+Line 2013: (
+Line 2013: ;
+Line 2013: ;
+Line 2013: )
+Line 2013: {
+Line 2014: ID = unsigned
+Line 2014: ID = long
+Line 2014: ID = set
+Line 2014: ;
+Line 2015: ID = i
+Line 2015: =
+Line 2015: ID = j
+Line 2015: *
+Line 2015: Unrecognized token: 95
+Line 2015: Unrecognized token: 95
+Line 2015: ID = NFDBITS
+Line 2015: ;
+Line 2016: if
+Line 2016: (
+Line 2016: ID = i
+Line 2016: >=
+Line 2016: ID = files
+Line 2016: -
+Line 2016: >
+Line 2016: ID = max_fdset
+Line 2016: ||
+Line 2016: ID = i
+Line 2016: >=
+Line 2016: ID = files
+Line 2016: -
+Line 2016: >
+Line 2016: ID = max_fds
+Line 2016: )
+Line 2017: ID = break
+Line 2017: ;
+Line 2018: ID = set
+Line 2018: =
+Line 2018: ID = files
+Line 2018: -
+Line 2018: >
+Line 2018: ID = open_fds
+Line 2018: -
+Line 2018: >
+Line 2018: ID = fds_bits
+Line 2018: [
+Line 2018: ID = j
+Line 2018: +
+Line 2018: +
+Line 2018: ]
+Line 2018: ;
+Line 2019: while
+Line 2019: (
+Line 2019: ID = set
+Line 2019: )
+Line 2019: {
+Line 2020: if
+Line 2020: (
+Line 2020: ID = set
+Line 2020: Unrecognized token: 38
+Line 2020: INTCON = 1
+Line 2020: )
+Line 2020: {
+Line 2021: ID = struct
+Line 2021: ID = file
+Line 2021: *
+Line 2021: ID = file
+Line 2021: =
+Line 2021: ID = files
+Line 2021: -
+Line 2021: >
+Line 2021: ID = fd
+Line 2021: [
+Line 2021: ID = i
+Line 2021: ]
+Line 2021: ;
+Line 2022: if
+Line 2022: (
+Line 2022: ID = file
+Line 2022: )
+Line 2023: Unrecognized token: 95
+Line 2023: Unrecognized token: 95
+Line 2023: ID = steal_locks
+Line 2023: (
+Line 2023: ID = file
+Line 2023: ,
+Line 2023: ID = from
+Line 2023: )
+Line 2023: ;
+Line 2024: }
+Line 2025: ID = i
+Line 2025: +
+Line 2025: +
+Line 2025: ;
+Line 2026: ID = set
+Line 2026: >
+Line 2026: >=
+Line 2026: INTCON = 1
+Line 2026: ;
+Line 2027: }
+Line 2028: }
+Line 2029: ID = unlock_kernel
+Line 2029: (
+Line 2029: )
+Line 2029: ;
+Line 2030: }
+Line 2031: ID = EXPORT_SYMBOL
+Line 2031: (
+Line 2031: ID = steal_locks
+Line 2031: )
+Line 2031: ;
+Line 2033: ID = static
+Line 2033: int
+Line 2033: Unrecognized token: 95
+Line 2033: Unrecognized token: 95
+Line 2033: ID = init
+Line 2033: ID = filelock_init
+Line 2033: (
+Line 2033: void
+Line 2033: )
+Line 2034: {
+Line 2035: ID = filelock_cache
+Line 2035: =
+Line 2035: ID = kmem_cache_create
+Line 2035: (
+Line 2035: STRINGCON = "file_lock_cache"
+Line 2035: ,
+Line 2036: ID = sizeof
+Line 2036: (
+Line 2036: ID = struct
+Line 2036: ID = file_lock
+Line 2036: )
+Line 2036: ,
+Line 2036: INTCON = 0
+Line 2036: ,
+Line 2036: ID = SLAB_PANIC
+Line 2036: ,
+Line 2037: ID = init_once
+Line 2037: ,
+Line 2037: ID = NULL
+Line 2037: )
+Line 2037: ;
+Line 2038: return
+Line 2038: INTCON = 0
+Line 2038: ;
+Line 2039: }
+Line 2041: ID = module_init
+Line 2041: (
+Line 2041: ID = filelock_init
+Line 2041: )
+Line 2042: -EOF-

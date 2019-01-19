@@ -1,0 +1,786 @@
+Line 1: Unrecognized token: 35
+Line 1: ID = include
+Line 1: <
+Line 1: ID = linux
+Line 1: /
+Line 1: ID = stop_machine
+Line 1: Unrecognized token: 46
+Line 1: ID = h
+Line 1: >
+Line 2: Unrecognized token: 35
+Line 2: ID = include
+Line 2: <
+Line 2: ID = linux
+Line 2: /
+Line 2: ID = kthread
+Line 2: Unrecognized token: 46
+Line 2: ID = h
+Line 2: >
+Line 3: Unrecognized token: 35
+Line 3: ID = include
+Line 3: <
+Line 3: ID = linux
+Line 3: /
+Line 3: ID = sched
+Line 3: Unrecognized token: 46
+Line 3: ID = h
+Line 3: >
+Line 4: Unrecognized token: 35
+Line 4: ID = include
+Line 4: <
+Line 4: ID = linux
+Line 4: /
+Line 4: ID = cpu
+Line 4: Unrecognized token: 46
+Line 4: ID = h
+Line 4: >
+Line 5: Unrecognized token: 35
+Line 5: ID = include
+Line 5: <
+Line 5: ID = linux
+Line 5: /
+Line 5: ID = err
+Line 5: Unrecognized token: 46
+Line 5: ID = h
+Line 5: >
+Line 6: Unrecognized token: 35
+Line 6: ID = include
+Line 6: <
+Line 6: ID = linux
+Line 6: /
+Line 6: ID = syscalls
+Line 6: Unrecognized token: 46
+Line 6: ID = h
+Line 6: >
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = asm
+Line 7: /
+Line 7: ID = atomic
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = asm
+Line 8: /
+Line 8: ID = semaphore
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 15: ID = enum
+Line 15: ID = stopmachine_state
+Line 15: {
+Line 16: ID = STOPMACHINE_WAIT
+Line 16: ,
+Line 17: ID = STOPMACHINE_PREPARE
+Line 17: ,
+Line 18: ID = STOPMACHINE_DISABLE_IRQ
+Line 18: ,
+Line 19: ID = STOPMACHINE_EXIT
+Line 19: ,
+Line 20: }
+Line 20: ;
+Line 22: ID = static
+Line 22: ID = enum
+Line 22: ID = stopmachine_state
+Line 22: ID = stopmachine_state
+Line 22: ;
+Line 23: ID = static
+Line 23: ID = unsigned
+Line 23: int
+Line 23: ID = stopmachine_num_threads
+Line 23: ;
+Line 24: ID = static
+Line 24: ID = atomic_t
+Line 24: ID = stopmachine_thread_ack
+Line 24: ;
+Line 25: ID = static
+Line 25: ID = DECLARE_MUTEX
+Line 25: (
+Line 25: ID = stopmachine_mutex
+Line 25: )
+Line 25: ;
+Line 27: ID = static
+Line 27: int
+Line 27: ID = stopmachine
+Line 27: (
+Line 27: void
+Line 27: *
+Line 27: ID = cpu
+Line 27: )
+Line 28: {
+Line 29: int
+Line 29: ID = irqs_disabled
+Line 29: =
+Line 29: INTCON = 0
+Line 29: ;
+Line 30: int
+Line 30: ID = prepared
+Line 30: =
+Line 30: INTCON = 0
+Line 30: ;
+Line 32: ID = set_cpus_allowed
+Line 32: (
+Line 32: ID = current
+Line 32: ,
+Line 32: ID = cpumask_of_cpu
+Line 32: (
+Line 32: (
+Line 32: int
+Line 32: )
+Line 32: (
+Line 32: ID = long
+Line 32: )
+Line 32: ID = cpu
+Line 32: )
+Line 32: )
+Line 32: ;
+Line 35: ID = mb
+Line 35: (
+Line 35: )
+Line 35: ;
+Line 36: ID = atomic_inc
+Line 36: (
+Line 36: Unrecognized token: 38
+Line 36: ID = stopmachine_thread_ack
+Line 36: )
+Line 36: ;
+Line 39: while
+Line 39: (
+Line 39: ID = stopmachine_state
+Line 39: !=
+Line 39: ID = STOPMACHINE_EXIT
+Line 39: )
+Line 39: {
+Line 40: if
+Line 40: (
+Line 40: ID = stopmachine_state
+Line 40: ==
+Line 40: ID = STOPMACHINE_DISABLE_IRQ
+Line 41: &&
+Line 41: !
+Line 41: ID = irqs_disabled
+Line 41: )
+Line 41: {
+Line 42: ID = local_irq_disable
+Line 42: (
+Line 42: )
+Line 42: ;
+Line 43: ID = irqs_disabled
+Line 43: =
+Line 43: INTCON = 1
+Line 43: ;
+Line 45: ID = mb
+Line 45: (
+Line 45: )
+Line 45: ;
+Line 46: ID = atomic_inc
+Line 46: (
+Line 46: Unrecognized token: 38
+Line 46: ID = stopmachine_thread_ack
+Line 46: )
+Line 46: ;
+Line 47: }
+Line 47: else
+Line 47: if
+Line 47: (
+Line 47: ID = stopmachine_state
+Line 47: ==
+Line 47: ID = STOPMACHINE_PREPARE
+Line 48: &&
+Line 48: !
+Line 48: ID = prepared
+Line 48: )
+Line 48: {
+Line 50: ID = preempt_disable
+Line 50: (
+Line 50: )
+Line 50: ;
+Line 51: ID = prepared
+Line 51: =
+Line 51: INTCON = 1
+Line 51: ;
+Line 52: ID = mb
+Line 52: (
+Line 52: )
+Line 52: ;
+Line 53: ID = atomic_inc
+Line 53: (
+Line 53: Unrecognized token: 38
+Line 53: ID = stopmachine_thread_ack
+Line 53: )
+Line 53: ;
+Line 54: }
+Line 55: ID = cpu_relax
+Line 55: (
+Line 55: )
+Line 55: ;
+Line 56: }
+Line 59: ID = mb
+Line 59: (
+Line 59: )
+Line 59: ;
+Line 60: ID = atomic_inc
+Line 60: (
+Line 60: Unrecognized token: 38
+Line 60: ID = stopmachine_thread_ack
+Line 60: )
+Line 60: ;
+Line 62: if
+Line 62: (
+Line 62: ID = irqs_disabled
+Line 62: )
+Line 63: ID = local_irq_enable
+Line 63: (
+Line 63: )
+Line 63: ;
+Line 64: if
+Line 64: (
+Line 64: ID = prepared
+Line 64: )
+Line 65: ID = preempt_enable
+Line 65: (
+Line 65: )
+Line 65: ;
+Line 67: return
+Line 67: INTCON = 0
+Line 67: ;
+Line 68: }
+Line 71: ID = static
+Line 71: void
+Line 71: ID = stopmachine_set_state
+Line 71: (
+Line 71: ID = enum
+Line 71: ID = stopmachine_state
+Line 71: ID = state
+Line 71: )
+Line 72: {
+Line 73: ID = atomic_set
+Line 73: (
+Line 73: Unrecognized token: 38
+Line 73: ID = stopmachine_thread_ack
+Line 73: ,
+Line 73: INTCON = 0
+Line 73: )
+Line 73: ;
+Line 74: ID = wmb
+Line 74: (
+Line 74: )
+Line 74: ;
+Line 75: ID = stopmachine_state
+Line 75: =
+Line 75: ID = state
+Line 75: ;
+Line 76: while
+Line 76: (
+Line 76: ID = atomic_read
+Line 76: (
+Line 76: Unrecognized token: 38
+Line 76: ID = stopmachine_thread_ack
+Line 76: )
+Line 76: !=
+Line 76: ID = stopmachine_num_threads
+Line 76: )
+Line 77: ID = cpu_relax
+Line 77: (
+Line 77: )
+Line 77: ;
+Line 78: }
+Line 80: ID = static
+Line 80: int
+Line 80: ID = stop_machine
+Line 80: (
+Line 80: void
+Line 80: )
+Line 81: {
+Line 82: int
+Line 82: ID = i
+Line 82: ,
+Line 82: ID = ret
+Line 82: =
+Line 82: INTCON = 0
+Line 82: ;
+Line 83: ID = struct
+Line 83: ID = sched_param
+Line 83: ID = param
+Line 83: =
+Line 83: {
+Line 83: Unrecognized token: 46
+Line 83: ID = sched_priority
+Line 83: =
+Line 83: ID = MAX_RT_PRIO
+Line 83: -
+Line 83: INTCON = 1
+Line 83: }
+Line 83: ;
+Line 86: ID = sys_sched_setscheduler
+Line 86: (
+Line 86: ID = current
+Line 86: -
+Line 86: >
+Line 86: ID = pid
+Line 86: ,
+Line 86: ID = SCHED_FIFO
+Line 86: ,
+Line 86: Unrecognized token: 38
+Line 86: ID = param
+Line 86: )
+Line 86: ;
+Line 88: ID = atomic_set
+Line 88: (
+Line 88: Unrecognized token: 38
+Line 88: ID = stopmachine_thread_ack
+Line 88: ,
+Line 88: INTCON = 0
+Line 88: )
+Line 88: ;
+Line 89: ID = stopmachine_num_threads
+Line 89: =
+Line 89: INTCON = 0
+Line 89: ;
+Line 90: ID = stopmachine_state
+Line 90: =
+Line 90: ID = STOPMACHINE_WAIT
+Line 90: ;
+Line 92: ID = for_each_online_cpu
+Line 92: (
+Line 92: ID = i
+Line 92: )
+Line 92: {
+Line 93: if
+Line 93: (
+Line 93: ID = i
+Line 93: ==
+Line 93: ID = smp_processor_id
+Line 93: (
+Line 93: )
+Line 93: )
+Line 94: ID = continue
+Line 94: ;
+Line 95: ID = ret
+Line 95: =
+Line 95: ID = kernel_thread
+Line 95: (
+Line 95: ID = stopmachine
+Line 95: ,
+Line 95: (
+Line 95: void
+Line 95: *
+Line 95: )
+Line 95: (
+Line 95: ID = long
+Line 95: )
+Line 95: ID = i
+Line 95: ,
+Line 95: ID = CLONE_KERNEL
+Line 95: )
+Line 95: ;
+Line 96: if
+Line 96: (
+Line 96: ID = ret
+Line 96: <
+Line 96: INTCON = 0
+Line 96: )
+Line 97: ID = break
+Line 97: ;
+Line 98: ID = stopmachine_num_threads
+Line 98: +
+Line 98: +
+Line 98: ;
+Line 99: }
+Line 102: while
+Line 102: (
+Line 102: ID = atomic_read
+Line 102: (
+Line 102: Unrecognized token: 38
+Line 102: ID = stopmachine_thread_ack
+Line 102: )
+Line 102: !=
+Line 102: ID = stopmachine_num_threads
+Line 102: )
+Line 103: ID = yield
+Line 103: (
+Line 103: )
+Line 103: ;
+Line 106: if
+Line 106: (
+Line 106: ID = ret
+Line 106: <
+Line 106: INTCON = 0
+Line 106: )
+Line 106: {
+Line 107: ID = stopmachine_set_state
+Line 107: (
+Line 107: ID = STOPMACHINE_EXIT
+Line 107: )
+Line 107: ;
+Line 108: ID = up
+Line 108: (
+Line 108: Unrecognized token: 38
+Line 108: ID = stopmachine_mutex
+Line 108: )
+Line 108: ;
+Line 109: return
+Line 109: ID = ret
+Line 109: ;
+Line 110: }
+Line 113: ID = local_irq_disable
+Line 113: (
+Line 113: )
+Line 113: ;
+Line 116: ID = stopmachine_set_state
+Line 116: (
+Line 116: ID = STOPMACHINE_PREPARE
+Line 116: )
+Line 116: ;
+Line 119: ID = stopmachine_set_state
+Line 119: (
+Line 119: ID = STOPMACHINE_DISABLE_IRQ
+Line 119: )
+Line 119: ;
+Line 121: return
+Line 121: INTCON = 0
+Line 121: ;
+Line 122: }
+Line 124: ID = static
+Line 124: void
+Line 124: ID = restart_machine
+Line 124: (
+Line 124: void
+Line 124: )
+Line 125: {
+Line 126: ID = stopmachine_set_state
+Line 126: (
+Line 126: ID = STOPMACHINE_EXIT
+Line 126: )
+Line 126: ;
+Line 127: ID = local_irq_enable
+Line 127: (
+Line 127: )
+Line 127: ;
+Line 128: }
+Line 130: ID = struct
+Line 130: ID = stop_machine_data
+Line 131: {
+Line 132: int
+Line 132: (
+Line 132: *
+Line 132: ID = fn
+Line 132: )
+Line 132: (
+Line 132: void
+Line 132: *
+Line 132: )
+Line 132: ;
+Line 133: void
+Line 133: *
+Line 133: ID = data
+Line 133: ;
+Line 134: ID = struct
+Line 134: ID = completion
+Line 134: ID = done
+Line 134: ;
+Line 135: }
+Line 135: ;
+Line 137: ID = static
+Line 137: int
+Line 137: ID = do_stop
+Line 137: (
+Line 137: void
+Line 137: *
+Line 137: Unrecognized token: 95
+Line 137: ID = smdata
+Line 137: )
+Line 138: {
+Line 139: ID = struct
+Line 139: ID = stop_machine_data
+Line 139: *
+Line 139: ID = smdata
+Line 139: =
+Line 139: Unrecognized token: 95
+Line 139: ID = smdata
+Line 139: ;
+Line 140: int
+Line 140: ID = ret
+Line 140: ;
+Line 142: ID = ret
+Line 142: =
+Line 142: ID = stop_machine
+Line 142: (
+Line 142: )
+Line 142: ;
+Line 143: if
+Line 143: (
+Line 143: ID = ret
+Line 143: ==
+Line 143: INTCON = 0
+Line 143: )
+Line 143: {
+Line 144: ID = ret
+Line 144: =
+Line 144: ID = smdata
+Line 144: -
+Line 144: >
+Line 144: ID = fn
+Line 144: (
+Line 144: ID = smdata
+Line 144: -
+Line 144: >
+Line 144: ID = data
+Line 144: )
+Line 144: ;
+Line 145: ID = restart_machine
+Line 145: (
+Line 145: )
+Line 145: ;
+Line 146: }
+Line 149: ID = complete
+Line 149: (
+Line 149: Unrecognized token: 38
+Line 149: ID = smdata
+Line 149: -
+Line 149: >
+Line 149: ID = done
+Line 149: )
+Line 149: ;
+Line 152: ID = set_current_state
+Line 152: (
+Line 152: ID = TASK_INTERRUPTIBLE
+Line 152: )
+Line 152: ;
+Line 153: while
+Line 153: (
+Line 153: !
+Line 153: ID = kthread_should_stop
+Line 153: (
+Line 153: )
+Line 153: )
+Line 153: {
+Line 154: ID = schedule
+Line 154: (
+Line 154: )
+Line 154: ;
+Line 155: ID = set_current_state
+Line 155: (
+Line 155: ID = TASK_INTERRUPTIBLE
+Line 155: )
+Line 155: ;
+Line 156: }
+Line 157: Unrecognized token: 95
+Line 157: Unrecognized token: 95
+Line 157: ID = set_current_state
+Line 157: (
+Line 157: ID = TASK_RUNNING
+Line 157: )
+Line 157: ;
+Line 158: return
+Line 158: ID = ret
+Line 158: ;
+Line 159: }
+Line 161: ID = struct
+Line 161: ID = task_struct
+Line 161: *
+Line 161: Unrecognized token: 95
+Line 161: Unrecognized token: 95
+Line 161: ID = stop_machine_run
+Line 161: (
+Line 161: int
+Line 161: (
+Line 161: *
+Line 161: ID = fn
+Line 161: )
+Line 161: (
+Line 161: void
+Line 161: *
+Line 161: )
+Line 161: ,
+Line 161: void
+Line 161: *
+Line 161: ID = data
+Line 161: ,
+Line 162: ID = unsigned
+Line 162: int
+Line 162: ID = cpu
+Line 162: )
+Line 163: {
+Line 164: ID = struct
+Line 164: ID = stop_machine_data
+Line 164: ID = smdata
+Line 164: ;
+Line 165: ID = struct
+Line 165: ID = task_struct
+Line 165: *
+Line 165: ID = p
+Line 165: ;
+Line 167: ID = smdata
+Line 167: Unrecognized token: 46
+Line 167: ID = fn
+Line 167: =
+Line 167: ID = fn
+Line 167: ;
+Line 168: ID = smdata
+Line 168: Unrecognized token: 46
+Line 168: ID = data
+Line 168: =
+Line 168: ID = data
+Line 168: ;
+Line 169: ID = init_completion
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = smdata
+Line 169: Unrecognized token: 46
+Line 169: ID = done
+Line 169: )
+Line 169: ;
+Line 171: ID = down
+Line 171: (
+Line 171: Unrecognized token: 38
+Line 171: ID = stopmachine_mutex
+Line 171: )
+Line 171: ;
+Line 174: if
+Line 174: (
+Line 174: ID = cpu
+Line 174: ==
+Line 174: ID = NR_CPUS
+Line 174: )
+Line 175: ID = cpu
+Line 175: =
+Line 175: ID = smp_processor_id
+Line 175: (
+Line 175: )
+Line 175: ;
+Line 177: ID = p
+Line 177: =
+Line 177: ID = kthread_create
+Line 177: (
+Line 177: ID = do_stop
+Line 177: ,
+Line 177: Unrecognized token: 38
+Line 177: ID = smdata
+Line 177: ,
+Line 177: STRINGCON = "kstopmachine"
+Line 177: )
+Line 177: ;
+Line 178: if
+Line 178: (
+Line 178: !
+Line 178: ID = IS_ERR
+Line 178: (
+Line 178: ID = p
+Line 178: )
+Line 178: )
+Line 178: {
+Line 179: ID = kthread_bind
+Line 179: (
+Line 179: ID = p
+Line 179: ,
+Line 179: ID = cpu
+Line 179: )
+Line 179: ;
+Line 180: ID = wake_up_process
+Line 180: (
+Line 180: ID = p
+Line 180: )
+Line 180: ;
+Line 181: ID = wait_for_completion
+Line 181: (
+Line 181: Unrecognized token: 38
+Line 181: ID = smdata
+Line 181: Unrecognized token: 46
+Line 181: ID = done
+Line 181: )
+Line 181: ;
+Line 182: }
+Line 183: ID = up
+Line 183: (
+Line 183: Unrecognized token: 38
+Line 183: ID = stopmachine_mutex
+Line 183: )
+Line 183: ;
+Line 184: return
+Line 184: ID = p
+Line 184: ;
+Line 185: }
+Line 187: int
+Line 187: ID = stop_machine_run
+Line 187: (
+Line 187: int
+Line 187: (
+Line 187: *
+Line 187: ID = fn
+Line 187: )
+Line 187: (
+Line 187: void
+Line 187: *
+Line 187: )
+Line 187: ,
+Line 187: void
+Line 187: *
+Line 187: ID = data
+Line 187: ,
+Line 187: ID = unsigned
+Line 187: int
+Line 187: ID = cpu
+Line 187: )
+Line 188: {
+Line 189: ID = struct
+Line 189: ID = task_struct
+Line 189: *
+Line 189: ID = p
+Line 189: ;
+Line 190: int
+Line 190: ID = ret
+Line 190: ;
+Line 193: ID = lock_cpu_hotplug
+Line 193: (
+Line 193: )
+Line 193: ;
+Line 194: ID = p
+Line 194: =
+Line 194: Unrecognized token: 95
+Line 194: Unrecognized token: 95
+Line 194: ID = stop_machine_run
+Line 194: (
+Line 194: ID = fn
+Line 194: ,
+Line 194: ID = data
+Line 194: ,
+Line 194: ID = cpu
+Line 194: )
+Line 194: ;
+Line 195: if
+Line 195: (
+Line 195: !
+Line 195: ID = IS_ERR
+Line 195: (
+Line 195: ID = p
+Line 195: )
+Line 195: )
+Line 196: ID = ret
+Line 196: =
+Line 196: ID = kthread_stop
+Line 196: (
+Line 196: ID = p
+Line 196: )
+Line 196: ;
+Line 197: else
+Line 198: ID = ret
+Line 198: =
+Line 198: ID = PTR_ERR
+Line 198: (
+Line 198: ID = p
+Line 198: )
+Line 198: ;
+Line 199: ID = unlock_cpu_hotplug
+Line 199: (
+Line 199: )
+Line 199: ;
+Line 201: return
+Line 201: ID = ret
+Line 201: ;
+Line 202: }
+Line 203: -EOF-

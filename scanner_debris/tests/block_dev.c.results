@@ -1,0 +1,4522 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = config
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = init
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = fcntl
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = slab
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = kmod
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = major
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = devfs_fs_kernel
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = smp_lock
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = highmem
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = blkdev
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = module
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = blkpg
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = buffer_head
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = mpage
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = mount
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = uio
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = namei
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = asm
+Line 26: /
+Line 26: ID = uaccess
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 28: ID = struct
+Line 28: ID = bdev_inode
+Line 28: {
+Line 29: ID = struct
+Line 29: ID = block_device
+Line 29: ID = bdev
+Line 29: ;
+Line 30: ID = struct
+Line 30: ID = inode
+Line 30: ID = vfs_inode
+Line 30: ;
+Line 31: }
+Line 31: ;
+Line 33: ID = static
+Line 33: ID = inline
+Line 33: ID = struct
+Line 33: ID = bdev_inode
+Line 33: *
+Line 33: ID = BDEV_I
+Line 33: (
+Line 33: ID = struct
+Line 33: ID = inode
+Line 33: *
+Line 33: ID = inode
+Line 33: )
+Line 34: {
+Line 35: return
+Line 35: ID = container_of
+Line 35: (
+Line 35: ID = inode
+Line 35: ,
+Line 35: ID = struct
+Line 35: ID = bdev_inode
+Line 35: ,
+Line 35: ID = vfs_inode
+Line 35: )
+Line 35: ;
+Line 36: }
+Line 38: ID = inline
+Line 38: ID = struct
+Line 38: ID = block_device
+Line 38: *
+Line 38: ID = I_BDEV
+Line 38: (
+Line 38: ID = struct
+Line 38: ID = inode
+Line 38: *
+Line 38: ID = inode
+Line 38: )
+Line 39: {
+Line 40: return
+Line 40: Unrecognized token: 38
+Line 40: ID = BDEV_I
+Line 40: (
+Line 40: ID = inode
+Line 40: )
+Line 40: -
+Line 40: >
+Line 40: ID = bdev
+Line 40: ;
+Line 41: }
+Line 43: ID = EXPORT_SYMBOL
+Line 43: (
+Line 43: ID = I_BDEV
+Line 43: )
+Line 43: ;
+Line 45: ID = static
+Line 45: ID = sector_t
+Line 45: ID = max_block
+Line 45: (
+Line 45: ID = struct
+Line 45: ID = block_device
+Line 45: *
+Line 45: ID = bdev
+Line 45: )
+Line 46: {
+Line 47: ID = sector_t
+Line 47: ID = retval
+Line 47: =
+Line 47: Unrecognized token: 126
+Line 47: (
+Line 47: (
+Line 47: ID = sector_t
+Line 47: )
+Line 47: INTCON = 0
+Line 47: )
+Line 47: ;
+Line 48: ID = loff_t
+Line 48: ID = sz
+Line 48: =
+Line 48: ID = i_size_read
+Line 48: (
+Line 48: ID = bdev
+Line 48: -
+Line 48: >
+Line 48: ID = bd_inode
+Line 48: )
+Line 48: ;
+Line 50: if
+Line 50: (
+Line 50: ID = sz
+Line 50: )
+Line 50: {
+Line 51: ID = unsigned
+Line 51: int
+Line 51: ID = size
+Line 51: =
+Line 51: ID = block_size
+Line 51: (
+Line 51: ID = bdev
+Line 51: )
+Line 51: ;
+Line 52: ID = unsigned
+Line 52: int
+Line 52: ID = sizebits
+Line 52: =
+Line 52: ID = blksize_bits
+Line 52: (
+Line 52: ID = size
+Line 52: )
+Line 52: ;
+Line 53: ID = retval
+Line 53: =
+Line 53: (
+Line 53: ID = sz
+Line 53: >
+Line 53: >
+Line 53: ID = sizebits
+Line 53: )
+Line 53: ;
+Line 54: }
+Line 55: return
+Line 55: ID = retval
+Line 55: ;
+Line 56: }
+Line 59: ID = static
+Line 59: void
+Line 59: ID = kill_bdev
+Line 59: (
+Line 59: ID = struct
+Line 59: ID = block_device
+Line 59: *
+Line 59: ID = bdev
+Line 59: )
+Line 60: {
+Line 61: ID = invalidate_bdev
+Line 61: (
+Line 61: ID = bdev
+Line 61: ,
+Line 61: INTCON = 1
+Line 61: )
+Line 61: ;
+Line 62: ID = truncate_inode_pages
+Line 62: (
+Line 62: ID = bdev
+Line 62: -
+Line 62: >
+Line 62: ID = bd_inode
+Line 62: -
+Line 62: >
+Line 62: ID = i_mapping
+Line 62: ,
+Line 62: INTCON = 0
+Line 62: )
+Line 62: ;
+Line 63: }
+Line 65: int
+Line 65: ID = set_blocksize
+Line 65: (
+Line 65: ID = struct
+Line 65: ID = block_device
+Line 65: *
+Line 65: ID = bdev
+Line 65: ,
+Line 65: int
+Line 65: ID = size
+Line 65: )
+Line 66: {
+Line 68: if
+Line 68: (
+Line 68: ID = size
+Line 68: >
+Line 68: ID = PAGE_SIZE
+Line 68: ||
+Line 68: ID = size
+Line 68: <
+Line 68: INTCON = 512
+Line 68: ||
+Line 68: (
+Line 68: ID = size
+Line 68: Unrecognized token: 38
+Line 68: (
+Line 68: ID = size
+Line 68: -
+Line 68: INTCON = 1
+Line 68: )
+Line 68: )
+Line 68: )
+Line 69: return
+Line 69: -
+Line 69: ID = EINVAL
+Line 69: ;
+Line 72: if
+Line 72: (
+Line 72: ID = size
+Line 72: <
+Line 72: ID = bdev_hardsect_size
+Line 72: (
+Line 72: ID = bdev
+Line 72: )
+Line 72: )
+Line 73: return
+Line 73: -
+Line 73: ID = EINVAL
+Line 73: ;
+Line 76: if
+Line 76: (
+Line 76: ID = bdev
+Line 76: -
+Line 76: >
+Line 76: ID = bd_block_size
+Line 76: !=
+Line 76: ID = size
+Line 76: )
+Line 76: {
+Line 77: ID = sync_blockdev
+Line 77: (
+Line 77: ID = bdev
+Line 77: )
+Line 77: ;
+Line 78: ID = bdev
+Line 78: -
+Line 78: >
+Line 78: ID = bd_block_size
+Line 78: =
+Line 78: ID = size
+Line 78: ;
+Line 79: ID = bdev
+Line 79: -
+Line 79: >
+Line 79: ID = bd_inode
+Line 79: -
+Line 79: >
+Line 79: ID = i_blkbits
+Line 79: =
+Line 79: ID = blksize_bits
+Line 79: (
+Line 79: ID = size
+Line 79: )
+Line 79: ;
+Line 80: ID = kill_bdev
+Line 80: (
+Line 80: ID = bdev
+Line 80: )
+Line 80: ;
+Line 81: }
+Line 82: return
+Line 82: INTCON = 0
+Line 82: ;
+Line 83: }
+Line 85: ID = EXPORT_SYMBOL
+Line 85: (
+Line 85: ID = set_blocksize
+Line 85: )
+Line 85: ;
+Line 87: int
+Line 87: ID = sb_set_blocksize
+Line 87: (
+Line 87: ID = struct
+Line 87: ID = super_block
+Line 87: *
+Line 87: ID = sb
+Line 87: ,
+Line 87: int
+Line 87: ID = size
+Line 87: )
+Line 88: {
+Line 89: int
+Line 89: ID = bits
+Line 89: =
+Line 89: INTCON = 9
+Line 89: ;
+Line 91: if
+Line 91: (
+Line 91: ID = set_blocksize
+Line 91: (
+Line 91: ID = sb
+Line 91: -
+Line 91: >
+Line 91: ID = s_bdev
+Line 91: ,
+Line 91: ID = size
+Line 91: )
+Line 91: )
+Line 92: return
+Line 92: INTCON = 0
+Line 92: ;
+Line 95: ID = sb
+Line 95: -
+Line 95: >
+Line 95: ID = s_blocksize
+Line 95: =
+Line 95: ID = size
+Line 95: ;
+Line 96: for
+Line 96: (
+Line 96: ID = size
+Line 96: >
+Line 96: >=
+Line 96: INTCON = 10
+Line 96: ;
+Line 96: ID = size
+Line 96: ;
+Line 96: ID = size
+Line 96: >
+Line 96: >=
+Line 96: INTCON = 1
+Line 96: )
+Line 97: +
+Line 97: +
+Line 97: ID = bits
+Line 97: ;
+Line 98: ID = sb
+Line 98: -
+Line 98: >
+Line 98: ID = s_blocksize_bits
+Line 98: =
+Line 98: ID = bits
+Line 98: ;
+Line 99: return
+Line 99: ID = sb
+Line 99: -
+Line 99: >
+Line 99: ID = s_blocksize
+Line 99: ;
+Line 100: }
+Line 102: ID = EXPORT_SYMBOL
+Line 102: (
+Line 102: ID = sb_set_blocksize
+Line 102: )
+Line 102: ;
+Line 104: int
+Line 104: ID = sb_min_blocksize
+Line 104: (
+Line 104: ID = struct
+Line 104: ID = super_block
+Line 104: *
+Line 104: ID = sb
+Line 104: ,
+Line 104: int
+Line 104: ID = size
+Line 104: )
+Line 105: {
+Line 106: int
+Line 106: ID = minsize
+Line 106: =
+Line 106: ID = bdev_hardsect_size
+Line 106: (
+Line 106: ID = sb
+Line 106: -
+Line 106: >
+Line 106: ID = s_bdev
+Line 106: )
+Line 106: ;
+Line 107: if
+Line 107: (
+Line 107: ID = size
+Line 107: <
+Line 107: ID = minsize
+Line 107: )
+Line 108: ID = size
+Line 108: =
+Line 108: ID = minsize
+Line 108: ;
+Line 109: return
+Line 109: ID = sb_set_blocksize
+Line 109: (
+Line 109: ID = sb
+Line 109: ,
+Line 109: ID = size
+Line 109: )
+Line 109: ;
+Line 110: }
+Line 112: ID = EXPORT_SYMBOL
+Line 112: (
+Line 112: ID = sb_min_blocksize
+Line 112: )
+Line 112: ;
+Line 114: ID = static
+Line 114: int
+Line 115: ID = blkdev_get_block
+Line 115: (
+Line 115: ID = struct
+Line 115: ID = inode
+Line 115: *
+Line 115: ID = inode
+Line 115: ,
+Line 115: ID = sector_t
+Line 115: ID = iblock
+Line 115: ,
+Line 116: ID = struct
+Line 116: ID = buffer_head
+Line 116: *
+Line 116: ID = bh
+Line 116: ,
+Line 116: int
+Line 116: ID = create
+Line 116: )
+Line 117: {
+Line 118: if
+Line 118: (
+Line 118: ID = iblock
+Line 118: >=
+Line 118: ID = max_block
+Line 118: (
+Line 118: ID = I_BDEV
+Line 118: (
+Line 118: ID = inode
+Line 118: )
+Line 118: )
+Line 118: )
+Line 118: {
+Line 119: if
+Line 119: (
+Line 119: ID = create
+Line 119: )
+Line 120: return
+Line 120: -
+Line 120: ID = EIO
+Line 120: ;
+Line 128: return
+Line 128: INTCON = 0
+Line 128: ;
+Line 129: }
+Line 130: ID = bh
+Line 130: -
+Line 130: >
+Line 130: ID = b_bdev
+Line 130: =
+Line 130: ID = I_BDEV
+Line 130: (
+Line 130: ID = inode
+Line 130: )
+Line 130: ;
+Line 131: ID = bh
+Line 131: -
+Line 131: >
+Line 131: ID = b_blocknr
+Line 131: =
+Line 131: ID = iblock
+Line 131: ;
+Line 132: ID = set_buffer_mapped
+Line 132: (
+Line 132: ID = bh
+Line 132: )
+Line 132: ;
+Line 133: return
+Line 133: INTCON = 0
+Line 133: ;
+Line 134: }
+Line 136: ID = static
+Line 136: int
+Line 137: ID = blkdev_get_blocks
+Line 137: (
+Line 137: ID = struct
+Line 137: ID = inode
+Line 137: *
+Line 137: ID = inode
+Line 137: ,
+Line 137: ID = sector_t
+Line 137: ID = iblock
+Line 137: ,
+Line 138: ID = unsigned
+Line 138: ID = long
+Line 138: ID = max_blocks
+Line 138: ,
+Line 138: ID = struct
+Line 138: ID = buffer_head
+Line 138: *
+Line 138: ID = bh
+Line 138: ,
+Line 138: int
+Line 138: ID = create
+Line 138: )
+Line 139: {
+Line 140: if
+Line 140: (
+Line 140: (
+Line 140: ID = iblock
+Line 140: +
+Line 140: ID = max_blocks
+Line 140: )
+Line 140: >
+Line 140: ID = max_block
+Line 140: (
+Line 140: ID = I_BDEV
+Line 140: (
+Line 140: ID = inode
+Line 140: )
+Line 140: )
+Line 140: )
+Line 141: return
+Line 141: -
+Line 141: ID = EIO
+Line 141: ;
+Line 143: ID = bh
+Line 143: -
+Line 143: >
+Line 143: ID = b_bdev
+Line 143: =
+Line 143: ID = I_BDEV
+Line 143: (
+Line 143: ID = inode
+Line 143: )
+Line 143: ;
+Line 144: ID = bh
+Line 144: -
+Line 144: >
+Line 144: ID = b_blocknr
+Line 144: =
+Line 144: ID = iblock
+Line 144: ;
+Line 145: ID = bh
+Line 145: -
+Line 145: >
+Line 145: ID = b_size
+Line 145: =
+Line 145: ID = max_blocks
+Line 145: <
+Line 145: <
+Line 145: ID = inode
+Line 145: -
+Line 145: >
+Line 145: ID = i_blkbits
+Line 145: ;
+Line 146: ID = set_buffer_mapped
+Line 146: (
+Line 146: ID = bh
+Line 146: )
+Line 146: ;
+Line 147: return
+Line 147: INTCON = 0
+Line 147: ;
+Line 148: }
+Line 150: ID = static
+Line 150: ID = ssize_t
+Line 151: ID = blkdev_direct_IO
+Line 151: (
+Line 151: int
+Line 151: ID = rw
+Line 151: ,
+Line 151: ID = struct
+Line 151: ID = kiocb
+Line 151: *
+Line 151: ID = iocb
+Line 151: ,
+Line 151: ID = const
+Line 151: ID = struct
+Line 151: ID = iovec
+Line 151: *
+Line 151: ID = iov
+Line 151: ,
+Line 152: ID = loff_t
+Line 152: ID = offset
+Line 152: ,
+Line 152: ID = unsigned
+Line 152: ID = long
+Line 152: ID = nr_segs
+Line 152: )
+Line 153: {
+Line 154: ID = struct
+Line 154: ID = file
+Line 154: *
+Line 154: ID = file
+Line 154: =
+Line 154: ID = iocb
+Line 154: -
+Line 154: >
+Line 154: ID = ki_filp
+Line 154: ;
+Line 155: ID = struct
+Line 155: ID = inode
+Line 155: *
+Line 155: ID = inode
+Line 155: =
+Line 155: ID = file
+Line 155: -
+Line 155: >
+Line 155: ID = f_mapping
+Line 155: -
+Line 155: >
+Line 155: ID = host
+Line 155: ;
+Line 157: return
+Line 157: ID = blockdev_direct_IO_no_locking
+Line 157: (
+Line 157: ID = rw
+Line 157: ,
+Line 157: ID = iocb
+Line 157: ,
+Line 157: ID = inode
+Line 157: ,
+Line 157: ID = I_BDEV
+Line 157: (
+Line 157: ID = inode
+Line 157: )
+Line 157: ,
+Line 158: ID = iov
+Line 158: ,
+Line 158: ID = offset
+Line 158: ,
+Line 158: ID = nr_segs
+Line 158: ,
+Line 158: ID = blkdev_get_blocks
+Line 158: ,
+Line 158: ID = NULL
+Line 158: )
+Line 158: ;
+Line 159: }
+Line 161: ID = static
+Line 161: int
+Line 161: ID = blkdev_writepage
+Line 161: (
+Line 161: ID = struct
+Line 161: ID = page
+Line 161: *
+Line 161: ID = page
+Line 161: ,
+Line 161: ID = struct
+Line 161: ID = writeback_control
+Line 161: *
+Line 161: ID = wbc
+Line 161: )
+Line 162: {
+Line 163: return
+Line 163: ID = block_write_full_page
+Line 163: (
+Line 163: ID = page
+Line 163: ,
+Line 163: ID = blkdev_get_block
+Line 163: ,
+Line 163: ID = wbc
+Line 163: )
+Line 163: ;
+Line 164: }
+Line 166: ID = static
+Line 166: int
+Line 166: ID = blkdev_readpage
+Line 166: (
+Line 166: ID = struct
+Line 166: ID = file
+Line 166: *
+Line 166: ID = file
+Line 166: ,
+Line 166: ID = struct
+Line 166: ID = page
+Line 166: *
+Line 166: ID = page
+Line 166: )
+Line 167: {
+Line 168: return
+Line 168: ID = block_read_full_page
+Line 168: (
+Line 168: ID = page
+Line 168: ,
+Line 168: ID = blkdev_get_block
+Line 168: )
+Line 168: ;
+Line 169: }
+Line 171: ID = static
+Line 171: int
+Line 171: ID = blkdev_prepare_write
+Line 171: (
+Line 171: ID = struct
+Line 171: ID = file
+Line 171: *
+Line 171: ID = file
+Line 171: ,
+Line 171: ID = struct
+Line 171: ID = page
+Line 171: *
+Line 171: ID = page
+Line 171: ,
+Line 171: ID = unsigned
+Line 171: ID = from
+Line 171: ,
+Line 171: ID = unsigned
+Line 171: ID = to
+Line 171: )
+Line 172: {
+Line 173: return
+Line 173: ID = block_prepare_write
+Line 173: (
+Line 173: ID = page
+Line 173: ,
+Line 173: ID = from
+Line 173: ,
+Line 173: ID = to
+Line 173: ,
+Line 173: ID = blkdev_get_block
+Line 173: )
+Line 173: ;
+Line 174: }
+Line 176: ID = static
+Line 176: int
+Line 176: ID = blkdev_commit_write
+Line 176: (
+Line 176: ID = struct
+Line 176: ID = file
+Line 176: *
+Line 176: ID = file
+Line 176: ,
+Line 176: ID = struct
+Line 176: ID = page
+Line 176: *
+Line 176: ID = page
+Line 176: ,
+Line 176: ID = unsigned
+Line 176: ID = from
+Line 176: ,
+Line 176: ID = unsigned
+Line 176: ID = to
+Line 176: )
+Line 177: {
+Line 178: return
+Line 178: ID = block_commit_write
+Line 178: (
+Line 178: ID = page
+Line 178: ,
+Line 178: ID = from
+Line 178: ,
+Line 178: ID = to
+Line 178: )
+Line 178: ;
+Line 179: }
+Line 186: ID = static
+Line 186: ID = loff_t
+Line 186: ID = block_llseek
+Line 186: (
+Line 186: ID = struct
+Line 186: ID = file
+Line 186: *
+Line 186: ID = file
+Line 186: ,
+Line 186: ID = loff_t
+Line 186: ID = offset
+Line 186: ,
+Line 186: int
+Line 186: ID = origin
+Line 186: )
+Line 187: {
+Line 188: ID = struct
+Line 188: ID = inode
+Line 188: *
+Line 188: ID = bd_inode
+Line 188: =
+Line 188: ID = file
+Line 188: -
+Line 188: >
+Line 188: ID = f_mapping
+Line 188: -
+Line 188: >
+Line 188: ID = host
+Line 188: ;
+Line 189: ID = loff_t
+Line 189: ID = size
+Line 189: ;
+Line 190: ID = loff_t
+Line 190: ID = retval
+Line 190: ;
+Line 192: ID = down
+Line 192: (
+Line 192: Unrecognized token: 38
+Line 192: ID = bd_inode
+Line 192: -
+Line 192: >
+Line 192: ID = i_sem
+Line 192: )
+Line 192: ;
+Line 193: ID = size
+Line 193: =
+Line 193: ID = i_size_read
+Line 193: (
+Line 193: ID = bd_inode
+Line 193: )
+Line 193: ;
+Line 195: ID = switch
+Line 195: (
+Line 195: ID = origin
+Line 195: )
+Line 195: {
+Line 196: ID = case
+Line 196: INTCON = 2
+Line 196: Unrecognized token: 58
+Line 197: ID = offset
+Line 197: +
+Line 197: =
+Line 197: ID = size
+Line 197: ;
+Line 198: ID = break
+Line 198: ;
+Line 199: ID = case
+Line 199: INTCON = 1
+Line 199: Unrecognized token: 58
+Line 200: ID = offset
+Line 200: +
+Line 200: =
+Line 200: ID = file
+Line 200: -
+Line 200: >
+Line 200: ID = f_pos
+Line 200: ;
+Line 201: }
+Line 202: ID = retval
+Line 202: =
+Line 202: -
+Line 202: ID = EINVAL
+Line 202: ;
+Line 203: if
+Line 203: (
+Line 203: ID = offset
+Line 203: >=
+Line 203: INTCON = 0
+Line 203: &&
+Line 203: ID = offset
+Line 203: <=
+Line 203: ID = size
+Line 203: )
+Line 203: {
+Line 204: if
+Line 204: (
+Line 204: ID = offset
+Line 204: !=
+Line 204: ID = file
+Line 204: -
+Line 204: >
+Line 204: ID = f_pos
+Line 204: )
+Line 204: {
+Line 205: ID = file
+Line 205: -
+Line 205: >
+Line 205: ID = f_pos
+Line 205: =
+Line 205: ID = offset
+Line 205: ;
+Line 206: }
+Line 207: ID = retval
+Line 207: =
+Line 207: ID = offset
+Line 207: ;
+Line 208: }
+Line 209: ID = up
+Line 209: (
+Line 209: Unrecognized token: 38
+Line 209: ID = bd_inode
+Line 209: -
+Line 209: >
+Line 209: ID = i_sem
+Line 209: )
+Line 209: ;
+Line 210: return
+Line 210: ID = retval
+Line 210: ;
+Line 211: }
+Line 218: ID = static
+Line 218: int
+Line 218: ID = block_fsync
+Line 218: (
+Line 218: ID = struct
+Line 218: ID = file
+Line 218: *
+Line 218: ID = filp
+Line 218: ,
+Line 218: ID = struct
+Line 218: ID = dentry
+Line 218: *
+Line 218: ID = dentry
+Line 218: ,
+Line 218: int
+Line 218: ID = datasync
+Line 218: )
+Line 219: {
+Line 220: return
+Line 220: ID = sync_blockdev
+Line 220: (
+Line 220: ID = I_BDEV
+Line 220: (
+Line 220: ID = filp
+Line 220: -
+Line 220: >
+Line 220: ID = f_mapping
+Line 220: -
+Line 220: >
+Line 220: ID = host
+Line 220: )
+Line 220: )
+Line 220: ;
+Line 221: }
+Line 227: ID = static
+Line 227: ID = spinlock_t
+Line 227: ID = bdev_lock
+Line 227: Unrecognized token: 95
+Line 227: Unrecognized token: 95
+Line 227: ID = cacheline_aligned_in_smp
+Line 227: =
+Line 227: ID = SPIN_LOCK_UNLOCKED
+Line 227: ;
+Line 228: ID = static
+Line 228: ID = kmem_cache_t
+Line 228: *
+Line 228: ID = bdev_cachep
+Line 228: ;
+Line 230: ID = static
+Line 230: ID = struct
+Line 230: ID = inode
+Line 230: *
+Line 230: ID = bdev_alloc_inode
+Line 230: (
+Line 230: ID = struct
+Line 230: ID = super_block
+Line 230: *
+Line 230: ID = sb
+Line 230: )
+Line 231: {
+Line 232: ID = struct
+Line 232: ID = bdev_inode
+Line 232: *
+Line 232: ID = ei
+Line 232: =
+Line 232: ID = kmem_cache_alloc
+Line 232: (
+Line 232: ID = bdev_cachep
+Line 232: ,
+Line 232: ID = SLAB_KERNEL
+Line 232: )
+Line 232: ;
+Line 233: if
+Line 233: (
+Line 233: !
+Line 233: ID = ei
+Line 233: )
+Line 234: return
+Line 234: ID = NULL
+Line 234: ;
+Line 235: return
+Line 235: Unrecognized token: 38
+Line 235: ID = ei
+Line 235: -
+Line 235: >
+Line 235: ID = vfs_inode
+Line 235: ;
+Line 236: }
+Line 238: ID = static
+Line 238: void
+Line 238: ID = bdev_destroy_inode
+Line 238: (
+Line 238: ID = struct
+Line 238: ID = inode
+Line 238: *
+Line 238: ID = inode
+Line 238: )
+Line 239: {
+Line 240: ID = struct
+Line 240: ID = bdev_inode
+Line 240: *
+Line 240: ID = bdi
+Line 240: =
+Line 240: ID = BDEV_I
+Line 240: (
+Line 240: ID = inode
+Line 240: )
+Line 240: ;
+Line 242: ID = bdi
+Line 242: -
+Line 242: >
+Line 242: ID = bdev
+Line 242: Unrecognized token: 46
+Line 242: ID = bd_inode_backing_dev_info
+Line 242: =
+Line 242: ID = NULL
+Line 242: ;
+Line 243: ID = kmem_cache_free
+Line 243: (
+Line 243: ID = bdev_cachep
+Line 243: ,
+Line 243: ID = bdi
+Line 243: )
+Line 243: ;
+Line 244: }
+Line 246: ID = static
+Line 246: void
+Line 246: ID = init_once
+Line 246: (
+Line 246: void
+Line 246: *
+Line 246: ID = foo
+Line 246: ,
+Line 246: ID = kmem_cache_t
+Line 246: *
+Line 246: ID = cachep
+Line 246: ,
+Line 246: ID = unsigned
+Line 246: ID = long
+Line 246: ID = flags
+Line 246: )
+Line 247: {
+Line 248: ID = struct
+Line 248: ID = bdev_inode
+Line 248: *
+Line 248: ID = ei
+Line 248: =
+Line 248: (
+Line 248: ID = struct
+Line 248: ID = bdev_inode
+Line 248: *
+Line 248: )
+Line 248: ID = foo
+Line 248: ;
+Line 249: ID = struct
+Line 249: ID = block_device
+Line 249: *
+Line 249: ID = bdev
+Line 249: =
+Line 249: Unrecognized token: 38
+Line 249: ID = ei
+Line 249: -
+Line 249: >
+Line 249: ID = bdev
+Line 249: ;
+Line 251: if
+Line 251: (
+Line 251: (
+Line 251: ID = flags
+Line 251: Unrecognized token: 38
+Line 251: (
+Line 251: ID = SLAB_CTOR_VERIFY
+Line 251: Unrecognized token: 124
+Line 251: ID = SLAB_CTOR_CONSTRUCTOR
+Line 251: )
+Line 251: )
+Line 251: ==
+Line 252: ID = SLAB_CTOR_CONSTRUCTOR
+Line 252: )
+Line 253: {
+Line 254: ID = memset
+Line 254: (
+Line 254: ID = bdev
+Line 254: ,
+Line 254: INTCON = 0
+Line 254: ,
+Line 254: ID = sizeof
+Line 254: (
+Line 254: *
+Line 254: ID = bdev
+Line 254: )
+Line 254: )
+Line 254: ;
+Line 255: ID = sema_init
+Line 255: (
+Line 255: Unrecognized token: 38
+Line 255: ID = bdev
+Line 255: -
+Line 255: >
+Line 255: ID = bd_sem
+Line 255: ,
+Line 255: INTCON = 1
+Line 255: )
+Line 255: ;
+Line 256: ID = sema_init
+Line 256: (
+Line 256: Unrecognized token: 38
+Line 256: ID = bdev
+Line 256: -
+Line 256: >
+Line 256: ID = bd_mount_sem
+Line 256: ,
+Line 256: INTCON = 1
+Line 256: )
+Line 256: ;
+Line 257: ID = INIT_LIST_HEAD
+Line 257: (
+Line 257: Unrecognized token: 38
+Line 257: ID = bdev
+Line 257: -
+Line 257: >
+Line 257: ID = bd_inodes
+Line 257: )
+Line 257: ;
+Line 258: ID = INIT_LIST_HEAD
+Line 258: (
+Line 258: Unrecognized token: 38
+Line 258: ID = bdev
+Line 258: -
+Line 258: >
+Line 258: ID = bd_list
+Line 258: )
+Line 258: ;
+Line 259: ID = inode_init_once
+Line 259: (
+Line 259: Unrecognized token: 38
+Line 259: ID = ei
+Line 259: -
+Line 259: >
+Line 259: ID = vfs_inode
+Line 259: )
+Line 259: ;
+Line 260: }
+Line 261: }
+Line 263: ID = static
+Line 263: ID = inline
+Line 263: void
+Line 263: Unrecognized token: 95
+Line 263: Unrecognized token: 95
+Line 263: ID = bd_forget
+Line 263: (
+Line 263: ID = struct
+Line 263: ID = inode
+Line 263: *
+Line 263: ID = inode
+Line 263: )
+Line 264: {
+Line 265: ID = list_del_init
+Line 265: (
+Line 265: Unrecognized token: 38
+Line 265: ID = inode
+Line 265: -
+Line 265: >
+Line 265: ID = i_devices
+Line 265: )
+Line 265: ;
+Line 266: ID = inode
+Line 266: -
+Line 266: >
+Line 266: ID = i_bdev
+Line 266: =
+Line 266: ID = NULL
+Line 266: ;
+Line 267: ID = inode
+Line 267: -
+Line 267: >
+Line 267: ID = i_mapping
+Line 267: =
+Line 267: Unrecognized token: 38
+Line 267: ID = inode
+Line 267: -
+Line 267: >
+Line 267: ID = i_data
+Line 267: ;
+Line 268: }
+Line 270: ID = static
+Line 270: void
+Line 270: ID = bdev_clear_inode
+Line 270: (
+Line 270: ID = struct
+Line 270: ID = inode
+Line 270: *
+Line 270: ID = inode
+Line 270: )
+Line 271: {
+Line 272: ID = struct
+Line 272: ID = block_device
+Line 272: *
+Line 272: ID = bdev
+Line 272: =
+Line 272: Unrecognized token: 38
+Line 272: ID = BDEV_I
+Line 272: (
+Line 272: ID = inode
+Line 272: )
+Line 272: -
+Line 272: >
+Line 272: ID = bdev
+Line 272: ;
+Line 273: ID = struct
+Line 273: ID = list_head
+Line 273: *
+Line 273: ID = p
+Line 273: ;
+Line 274: ID = spin_lock
+Line 274: (
+Line 274: Unrecognized token: 38
+Line 274: ID = bdev_lock
+Line 274: )
+Line 274: ;
+Line 275: while
+Line 275: (
+Line 275: (
+Line 275: ID = p
+Line 275: =
+Line 275: ID = bdev
+Line 275: -
+Line 275: >
+Line 275: ID = bd_inodes
+Line 275: Unrecognized token: 46
+Line 275: ID = next
+Line 275: )
+Line 275: !=
+Line 275: Unrecognized token: 38
+Line 275: ID = bdev
+Line 275: -
+Line 275: >
+Line 275: ID = bd_inodes
+Line 275: )
+Line 275: {
+Line 276: Unrecognized token: 95
+Line 276: Unrecognized token: 95
+Line 276: ID = bd_forget
+Line 276: (
+Line 276: ID = list_entry
+Line 276: (
+Line 276: ID = p
+Line 276: ,
+Line 276: ID = struct
+Line 276: ID = inode
+Line 276: ,
+Line 276: ID = i_devices
+Line 276: )
+Line 276: )
+Line 276: ;
+Line 277: }
+Line 278: ID = list_del_init
+Line 278: (
+Line 278: Unrecognized token: 38
+Line 278: ID = bdev
+Line 278: -
+Line 278: >
+Line 278: ID = bd_list
+Line 278: )
+Line 278: ;
+Line 279: ID = spin_unlock
+Line 279: (
+Line 279: Unrecognized token: 38
+Line 279: ID = bdev_lock
+Line 279: )
+Line 279: ;
+Line 280: }
+Line 282: ID = static
+Line 282: ID = struct
+Line 282: ID = super_operations
+Line 282: ID = bdev_sops
+Line 282: =
+Line 282: {
+Line 283: Unrecognized token: 46
+Line 283: ID = statfs
+Line 283: =
+Line 283: ID = simple_statfs
+Line 283: ,
+Line 284: Unrecognized token: 46
+Line 284: ID = alloc_inode
+Line 284: =
+Line 284: ID = bdev_alloc_inode
+Line 284: ,
+Line 285: Unrecognized token: 46
+Line 285: ID = destroy_inode
+Line 285: =
+Line 285: ID = bdev_destroy_inode
+Line 285: ,
+Line 286: Unrecognized token: 46
+Line 286: ID = drop_inode
+Line 286: =
+Line 286: ID = generic_delete_inode
+Line 286: ,
+Line 287: Unrecognized token: 46
+Line 287: ID = clear_inode
+Line 287: =
+Line 287: ID = bdev_clear_inode
+Line 287: ,
+Line 288: }
+Line 288: ;
+Line 290: ID = static
+Line 290: ID = struct
+Line 290: ID = super_block
+Line 290: *
+Line 290: ID = bd_get_sb
+Line 290: (
+Line 290: ID = struct
+Line 290: ID = file_system_type
+Line 290: *
+Line 290: ID = fs_type
+Line 290: ,
+Line 291: int
+Line 291: ID = flags
+Line 291: ,
+Line 291: ID = const
+Line 291: char
+Line 291: *
+Line 291: ID = dev_name
+Line 291: ,
+Line 291: void
+Line 291: *
+Line 291: ID = data
+Line 291: )
+Line 292: {
+Line 293: return
+Line 293: ID = get_sb_pseudo
+Line 293: (
+Line 293: ID = fs_type
+Line 293: ,
+Line 293: STRINGCON = "bdev:"
+Line 293: ,
+Line 293: Unrecognized token: 38
+Line 293: ID = bdev_sops
+Line 293: ,
+Line 293: INTCON = 0
+Line 293: ID = x62646576
+Line 293: )
+Line 293: ;
+Line 294: }
+Line 296: ID = static
+Line 296: ID = struct
+Line 296: ID = file_system_type
+Line 296: ID = bd_type
+Line 296: =
+Line 296: {
+Line 297: Unrecognized token: 46
+Line 297: ID = name
+Line 297: =
+Line 297: STRINGCON = "bdev"
+Line 297: ,
+Line 298: Unrecognized token: 46
+Line 298: ID = get_sb
+Line 298: =
+Line 298: ID = bd_get_sb
+Line 298: ,
+Line 299: Unrecognized token: 46
+Line 299: ID = kill_sb
+Line 299: =
+Line 299: ID = kill_anon_super
+Line 299: ,
+Line 300: }
+Line 300: ;
+Line 302: ID = static
+Line 302: ID = struct
+Line 302: ID = vfsmount
+Line 302: *
+Line 302: ID = bd_mnt
+Line 302: ;
+Line 303: ID = struct
+Line 303: ID = super_block
+Line 303: *
+Line 303: ID = blockdev_superblock
+Line 303: ;
+Line 305: void
+Line 305: Unrecognized token: 95
+Line 305: Unrecognized token: 95
+Line 305: ID = init
+Line 305: ID = bdev_cache_init
+Line 305: (
+Line 305: void
+Line 305: )
+Line 306: {
+Line 307: int
+Line 307: ID = err
+Line 307: ;
+Line 308: ID = bdev_cachep
+Line 308: =
+Line 308: ID = kmem_cache_create
+Line 308: (
+Line 308: STRINGCON = "bdev_cache"
+Line 308: ,
+Line 308: ID = sizeof
+Line 308: (
+Line 308: ID = struct
+Line 308: ID = bdev_inode
+Line 308: )
+Line 308: ,
+Line 309: INTCON = 0
+Line 309: ,
+Line 309: ID = SLAB_HWCACHE_ALIGN
+Line 309: Unrecognized token: 124
+Line 309: ID = SLAB_RECLAIM_ACCOUNT
+Line 309: Unrecognized token: 124
+Line 309: ID = SLAB_PANIC
+Line 309: ,
+Line 310: ID = init_once
+Line 310: ,
+Line 310: ID = NULL
+Line 310: )
+Line 310: ;
+Line 311: ID = err
+Line 311: =
+Line 311: ID = register_filesystem
+Line 311: (
+Line 311: Unrecognized token: 38
+Line 311: ID = bd_type
+Line 311: )
+Line 311: ;
+Line 312: if
+Line 312: (
+Line 312: ID = err
+Line 312: )
+Line 313: ID = panic
+Line 313: (
+Line 313: STRINGCON = "Cannot register bdev pseudo-fs"
+Line 313: )
+Line 313: ;
+Line 314: ID = bd_mnt
+Line 314: =
+Line 314: ID = kern_mount
+Line 314: (
+Line 314: Unrecognized token: 38
+Line 314: ID = bd_type
+Line 314: )
+Line 314: ;
+Line 315: ID = err
+Line 315: =
+Line 315: ID = PTR_ERR
+Line 315: (
+Line 315: ID = bd_mnt
+Line 315: )
+Line 315: ;
+Line 316: if
+Line 316: (
+Line 316: ID = IS_ERR
+Line 316: (
+Line 316: ID = bd_mnt
+Line 316: )
+Line 316: )
+Line 317: ID = panic
+Line 317: (
+Line 317: STRINGCON = "Cannot create bdev pseudo-fs"
+Line 317: )
+Line 317: ;
+Line 318: ID = blockdev_superblock
+Line 318: =
+Line 318: ID = bd_mnt
+Line 318: -
+Line 318: >
+Line 318: ID = mnt_sb
+Line 318: ;
+Line 319: }
+Line 326: ID = static
+Line 326: ID = inline
+Line 326: ID = unsigned
+Line 326: ID = long
+Line 326: ID = hash
+Line 326: (
+Line 326: ID = dev_t
+Line 326: ID = dev
+Line 326: )
+Line 327: {
+Line 328: return
+Line 328: ID = MAJOR
+Line 328: (
+Line 328: ID = dev
+Line 328: )
+Line 328: +
+Line 328: ID = MINOR
+Line 328: (
+Line 328: ID = dev
+Line 328: )
+Line 328: ;
+Line 329: }
+Line 331: ID = static
+Line 331: int
+Line 331: ID = bdev_test
+Line 331: (
+Line 331: ID = struct
+Line 331: ID = inode
+Line 331: *
+Line 331: ID = inode
+Line 331: ,
+Line 331: void
+Line 331: *
+Line 331: ID = data
+Line 331: )
+Line 332: {
+Line 333: return
+Line 333: ID = BDEV_I
+Line 333: (
+Line 333: ID = inode
+Line 333: )
+Line 333: -
+Line 333: >
+Line 333: ID = bdev
+Line 333: Unrecognized token: 46
+Line 333: ID = bd_dev
+Line 333: ==
+Line 333: *
+Line 333: (
+Line 333: ID = dev_t
+Line 333: *
+Line 333: )
+Line 333: ID = data
+Line 333: ;
+Line 334: }
+Line 336: ID = static
+Line 336: int
+Line 336: ID = bdev_set
+Line 336: (
+Line 336: ID = struct
+Line 336: ID = inode
+Line 336: *
+Line 336: ID = inode
+Line 336: ,
+Line 336: void
+Line 336: *
+Line 336: ID = data
+Line 336: )
+Line 337: {
+Line 338: ID = BDEV_I
+Line 338: (
+Line 338: ID = inode
+Line 338: )
+Line 338: -
+Line 338: >
+Line 338: ID = bdev
+Line 338: Unrecognized token: 46
+Line 338: ID = bd_dev
+Line 338: =
+Line 338: *
+Line 338: (
+Line 338: ID = dev_t
+Line 338: *
+Line 338: )
+Line 338: ID = data
+Line 338: ;
+Line 339: return
+Line 339: INTCON = 0
+Line 339: ;
+Line 340: }
+Line 342: ID = static
+Line 342: ID = LIST_HEAD
+Line 342: (
+Line 342: ID = all_bdevs
+Line 342: )
+Line 342: ;
+Line 344: ID = struct
+Line 344: ID = block_device
+Line 344: *
+Line 344: ID = bdget
+Line 344: (
+Line 344: ID = dev_t
+Line 344: ID = dev
+Line 344: )
+Line 345: {
+Line 346: ID = struct
+Line 346: ID = block_device
+Line 346: *
+Line 346: ID = bdev
+Line 346: ;
+Line 347: ID = struct
+Line 347: ID = inode
+Line 347: *
+Line 347: ID = inode
+Line 347: ;
+Line 349: ID = inode
+Line 349: =
+Line 349: ID = iget5_locked
+Line 349: (
+Line 349: ID = bd_mnt
+Line 349: -
+Line 349: >
+Line 349: ID = mnt_sb
+Line 349: ,
+Line 349: ID = hash
+Line 349: (
+Line 349: ID = dev
+Line 349: )
+Line 349: ,
+Line 350: ID = bdev_test
+Line 350: ,
+Line 350: ID = bdev_set
+Line 350: ,
+Line 350: Unrecognized token: 38
+Line 350: ID = dev
+Line 350: )
+Line 350: ;
+Line 352: if
+Line 352: (
+Line 352: !
+Line 352: ID = inode
+Line 352: )
+Line 353: return
+Line 353: ID = NULL
+Line 353: ;
+Line 355: ID = bdev
+Line 355: =
+Line 355: Unrecognized token: 38
+Line 355: ID = BDEV_I
+Line 355: (
+Line 355: ID = inode
+Line 355: )
+Line 355: -
+Line 355: >
+Line 355: ID = bdev
+Line 355: ;
+Line 357: if
+Line 357: (
+Line 357: ID = inode
+Line 357: -
+Line 357: >
+Line 357: ID = i_state
+Line 357: Unrecognized token: 38
+Line 357: ID = I_NEW
+Line 357: )
+Line 357: {
+Line 358: ID = bdev
+Line 358: -
+Line 358: >
+Line 358: ID = bd_contains
+Line 358: =
+Line 358: ID = NULL
+Line 358: ;
+Line 359: ID = bdev
+Line 359: -
+Line 359: >
+Line 359: ID = bd_inode
+Line 359: =
+Line 359: ID = inode
+Line 359: ;
+Line 360: ID = bdev
+Line 360: -
+Line 360: >
+Line 360: ID = bd_block_size
+Line 360: =
+Line 360: (
+Line 360: INTCON = 1
+Line 360: <
+Line 360: <
+Line 360: ID = inode
+Line 360: -
+Line 360: >
+Line 360: ID = i_blkbits
+Line 360: )
+Line 360: ;
+Line 361: ID = bdev
+Line 361: -
+Line 361: >
+Line 361: ID = bd_part_count
+Line 361: =
+Line 361: INTCON = 0
+Line 361: ;
+Line 362: ID = bdev
+Line 362: -
+Line 362: >
+Line 362: ID = bd_invalidated
+Line 362: =
+Line 362: INTCON = 0
+Line 362: ;
+Line 363: ID = inode
+Line 363: -
+Line 363: >
+Line 363: ID = i_mode
+Line 363: =
+Line 363: ID = S_IFBLK
+Line 363: ;
+Line 364: ID = inode
+Line 364: -
+Line 364: >
+Line 364: ID = i_rdev
+Line 364: =
+Line 364: ID = dev
+Line 364: ;
+Line 365: ID = inode
+Line 365: -
+Line 365: >
+Line 365: ID = i_bdev
+Line 365: =
+Line 365: ID = bdev
+Line 365: ;
+Line 366: ID = inode
+Line 366: -
+Line 366: >
+Line 366: ID = i_data
+Line 366: Unrecognized token: 46
+Line 366: ID = a_ops
+Line 366: =
+Line 366: Unrecognized token: 38
+Line 366: ID = def_blk_aops
+Line 366: ;
+Line 367: ID = mapping_set_gfp_mask
+Line 367: (
+Line 367: Unrecognized token: 38
+Line 367: ID = inode
+Line 367: -
+Line 367: >
+Line 367: ID = i_data
+Line 367: ,
+Line 367: ID = GFP_USER
+Line 367: )
+Line 367: ;
+Line 368: ID = inode
+Line 368: -
+Line 368: >
+Line 368: ID = i_data
+Line 368: Unrecognized token: 46
+Line 368: ID = backing_dev_info
+Line 368: =
+Line 368: Unrecognized token: 38
+Line 368: ID = default_backing_dev_info
+Line 368: ;
+Line 369: ID = spin_lock
+Line 369: (
+Line 369: Unrecognized token: 38
+Line 369: ID = bdev_lock
+Line 369: )
+Line 369: ;
+Line 370: ID = list_add
+Line 370: (
+Line 370: Unrecognized token: 38
+Line 370: ID = bdev
+Line 370: -
+Line 370: >
+Line 370: ID = bd_list
+Line 370: ,
+Line 370: Unrecognized token: 38
+Line 370: ID = all_bdevs
+Line 370: )
+Line 370: ;
+Line 371: ID = spin_unlock
+Line 371: (
+Line 371: Unrecognized token: 38
+Line 371: ID = bdev_lock
+Line 371: )
+Line 371: ;
+Line 372: ID = unlock_new_inode
+Line 372: (
+Line 372: ID = inode
+Line 372: )
+Line 372: ;
+Line 373: }
+Line 374: return
+Line 374: ID = bdev
+Line 374: ;
+Line 375: }
+Line 377: ID = EXPORT_SYMBOL
+Line 377: (
+Line 377: ID = bdget
+Line 377: )
+Line 377: ;
+Line 379: ID = long
+Line 379: ID = nr_blockdev_pages
+Line 379: (
+Line 379: void
+Line 379: )
+Line 380: {
+Line 381: ID = struct
+Line 381: ID = list_head
+Line 381: *
+Line 381: ID = p
+Line 381: ;
+Line 382: ID = long
+Line 382: ID = ret
+Line 382: =
+Line 382: INTCON = 0
+Line 382: ;
+Line 383: ID = spin_lock
+Line 383: (
+Line 383: Unrecognized token: 38
+Line 383: ID = bdev_lock
+Line 383: )
+Line 383: ;
+Line 384: ID = list_for_each
+Line 384: (
+Line 384: ID = p
+Line 384: ,
+Line 384: Unrecognized token: 38
+Line 384: ID = all_bdevs
+Line 384: )
+Line 384: {
+Line 385: ID = struct
+Line 385: ID = block_device
+Line 385: *
+Line 385: ID = bdev
+Line 385: ;
+Line 386: ID = bdev
+Line 386: =
+Line 386: ID = list_entry
+Line 386: (
+Line 386: ID = p
+Line 386: ,
+Line 386: ID = struct
+Line 386: ID = block_device
+Line 386: ,
+Line 386: ID = bd_list
+Line 386: )
+Line 386: ;
+Line 387: ID = ret
+Line 387: +
+Line 387: =
+Line 387: ID = bdev
+Line 387: -
+Line 387: >
+Line 387: ID = bd_inode
+Line 387: -
+Line 387: >
+Line 387: ID = i_mapping
+Line 387: -
+Line 387: >
+Line 387: ID = nrpages
+Line 387: ;
+Line 388: }
+Line 389: ID = spin_unlock
+Line 389: (
+Line 389: Unrecognized token: 38
+Line 389: ID = bdev_lock
+Line 389: )
+Line 389: ;
+Line 390: return
+Line 390: ID = ret
+Line 390: ;
+Line 391: }
+Line 393: void
+Line 393: ID = bdput
+Line 393: (
+Line 393: ID = struct
+Line 393: ID = block_device
+Line 393: *
+Line 393: ID = bdev
+Line 393: )
+Line 394: {
+Line 395: ID = iput
+Line 395: (
+Line 395: ID = bdev
+Line 395: -
+Line 395: >
+Line 395: ID = bd_inode
+Line 395: )
+Line 395: ;
+Line 396: }
+Line 398: ID = EXPORT_SYMBOL
+Line 398: (
+Line 398: ID = bdput
+Line 398: )
+Line 398: ;
+Line 400: ID = static
+Line 400: ID = struct
+Line 400: ID = block_device
+Line 400: *
+Line 400: ID = bd_acquire
+Line 400: (
+Line 400: ID = struct
+Line 400: ID = inode
+Line 400: *
+Line 400: ID = inode
+Line 400: )
+Line 401: {
+Line 402: ID = struct
+Line 402: ID = block_device
+Line 402: *
+Line 402: ID = bdev
+Line 402: ;
+Line 403: ID = spin_lock
+Line 403: (
+Line 403: Unrecognized token: 38
+Line 403: ID = bdev_lock
+Line 403: )
+Line 403: ;
+Line 404: ID = bdev
+Line 404: =
+Line 404: ID = inode
+Line 404: -
+Line 404: >
+Line 404: ID = i_bdev
+Line 404: ;
+Line 405: if
+Line 405: (
+Line 405: ID = bdev
+Line 405: &&
+Line 405: ID = igrab
+Line 405: (
+Line 405: ID = bdev
+Line 405: -
+Line 405: >
+Line 405: ID = bd_inode
+Line 405: )
+Line 405: )
+Line 405: {
+Line 406: ID = spin_unlock
+Line 406: (
+Line 406: Unrecognized token: 38
+Line 406: ID = bdev_lock
+Line 406: )
+Line 406: ;
+Line 407: return
+Line 407: ID = bdev
+Line 407: ;
+Line 408: }
+Line 409: ID = spin_unlock
+Line 409: (
+Line 409: Unrecognized token: 38
+Line 409: ID = bdev_lock
+Line 409: )
+Line 409: ;
+Line 410: ID = bdev
+Line 410: =
+Line 410: ID = bdget
+Line 410: (
+Line 410: ID = inode
+Line 410: -
+Line 410: >
+Line 410: ID = i_rdev
+Line 410: )
+Line 410: ;
+Line 411: if
+Line 411: (
+Line 411: ID = bdev
+Line 411: )
+Line 411: {
+Line 412: ID = spin_lock
+Line 412: (
+Line 412: Unrecognized token: 38
+Line 412: ID = bdev_lock
+Line 412: )
+Line 412: ;
+Line 413: if
+Line 413: (
+Line 413: ID = inode
+Line 413: -
+Line 413: >
+Line 413: ID = i_bdev
+Line 413: )
+Line 414: Unrecognized token: 95
+Line 414: Unrecognized token: 95
+Line 414: ID = bd_forget
+Line 414: (
+Line 414: ID = inode
+Line 414: )
+Line 414: ;
+Line 415: ID = inode
+Line 415: -
+Line 415: >
+Line 415: ID = i_bdev
+Line 415: =
+Line 415: ID = bdev
+Line 415: ;
+Line 416: ID = inode
+Line 416: -
+Line 416: >
+Line 416: ID = i_mapping
+Line 416: =
+Line 416: ID = bdev
+Line 416: -
+Line 416: >
+Line 416: ID = bd_inode
+Line 416: -
+Line 416: >
+Line 416: ID = i_mapping
+Line 416: ;
+Line 417: ID = list_add
+Line 417: (
+Line 417: Unrecognized token: 38
+Line 417: ID = inode
+Line 417: -
+Line 417: >
+Line 417: ID = i_devices
+Line 417: ,
+Line 417: Unrecognized token: 38
+Line 417: ID = bdev
+Line 417: -
+Line 417: >
+Line 417: ID = bd_inodes
+Line 417: )
+Line 417: ;
+Line 418: ID = spin_unlock
+Line 418: (
+Line 418: Unrecognized token: 38
+Line 418: ID = bdev_lock
+Line 418: )
+Line 418: ;
+Line 419: }
+Line 420: return
+Line 420: ID = bdev
+Line 420: ;
+Line 421: }
+Line 425: void
+Line 425: ID = bd_forget
+Line 425: (
+Line 425: ID = struct
+Line 425: ID = inode
+Line 425: *
+Line 425: ID = inode
+Line 425: )
+Line 426: {
+Line 427: ID = spin_lock
+Line 427: (
+Line 427: Unrecognized token: 38
+Line 427: ID = bdev_lock
+Line 427: )
+Line 427: ;
+Line 428: if
+Line 428: (
+Line 428: ID = inode
+Line 428: -
+Line 428: >
+Line 428: ID = i_bdev
+Line 428: )
+Line 429: Unrecognized token: 95
+Line 429: Unrecognized token: 95
+Line 429: ID = bd_forget
+Line 429: (
+Line 429: ID = inode
+Line 429: )
+Line 429: ;
+Line 430: ID = spin_unlock
+Line 430: (
+Line 430: Unrecognized token: 38
+Line 430: ID = bdev_lock
+Line 430: )
+Line 430: ;
+Line 431: }
+Line 433: int
+Line 433: ID = bd_claim
+Line 433: (
+Line 433: ID = struct
+Line 433: ID = block_device
+Line 433: *
+Line 433: ID = bdev
+Line 433: ,
+Line 433: void
+Line 433: *
+Line 433: ID = holder
+Line 433: )
+Line 434: {
+Line 435: int
+Line 435: ID = res
+Line 435: ;
+Line 436: ID = spin_lock
+Line 436: (
+Line 436: Unrecognized token: 38
+Line 436: ID = bdev_lock
+Line 436: )
+Line 436: ;
+Line 439: if
+Line 439: (
+Line 439: ID = bdev
+Line 439: -
+Line 439: >
+Line 439: ID = bd_holder
+Line 439: ==
+Line 439: ID = holder
+Line 439: )
+Line 440: ID = res
+Line 440: =
+Line 440: INTCON = 0
+Line 440: ;
+Line 441: else
+Line 441: if
+Line 441: (
+Line 441: ID = bdev
+Line 441: -
+Line 441: >
+Line 441: ID = bd_holder
+Line 441: !=
+Line 441: ID = NULL
+Line 441: )
+Line 442: ID = res
+Line 442: =
+Line 442: -
+Line 442: ID = EBUSY
+Line 442: ;
+Line 443: else
+Line 443: if
+Line 443: (
+Line 443: ID = bdev
+Line 443: -
+Line 443: >
+Line 443: ID = bd_contains
+Line 443: ==
+Line 443: ID = bdev
+Line 443: )
+Line 444: ID = res
+Line 444: =
+Line 444: INTCON = 0
+Line 444: ;
+Line 446: else
+Line 446: if
+Line 446: (
+Line 446: ID = bdev
+Line 446: -
+Line 446: >
+Line 446: ID = bd_contains
+Line 446: -
+Line 446: >
+Line 446: ID = bd_holder
+Line 446: ==
+Line 446: ID = bd_claim
+Line 446: )
+Line 447: ID = res
+Line 447: =
+Line 447: INTCON = 0
+Line 447: ;
+Line 448: else
+Line 448: if
+Line 448: (
+Line 448: ID = bdev
+Line 448: -
+Line 448: >
+Line 448: ID = bd_contains
+Line 448: -
+Line 448: >
+Line 448: ID = bd_holder
+Line 448: !=
+Line 448: ID = NULL
+Line 448: )
+Line 449: ID = res
+Line 449: =
+Line 449: -
+Line 449: ID = EBUSY
+Line 449: ;
+Line 450: else
+Line 451: ID = res
+Line 451: =
+Line 451: INTCON = 0
+Line 451: ;
+Line 454: if
+Line 454: (
+Line 454: ID = res
+Line 454: ==
+Line 454: INTCON = 0
+Line 454: )
+Line 454: {
+Line 459: ID = bdev
+Line 459: -
+Line 459: >
+Line 459: ID = bd_contains
+Line 459: -
+Line 459: >
+Line 459: ID = bd_holders
+Line 459: +
+Line 459: +
+Line 459: ;
+Line 460: ID = bdev
+Line 460: -
+Line 460: >
+Line 460: ID = bd_contains
+Line 460: -
+Line 460: >
+Line 460: ID = bd_holder
+Line 460: =
+Line 460: ID = bd_claim
+Line 460: ;
+Line 461: ID = bdev
+Line 461: -
+Line 461: >
+Line 461: ID = bd_holders
+Line 461: +
+Line 461: +
+Line 461: ;
+Line 462: ID = bdev
+Line 462: -
+Line 462: >
+Line 462: ID = bd_holder
+Line 462: =
+Line 462: ID = holder
+Line 462: ;
+Line 463: }
+Line 464: ID = spin_unlock
+Line 464: (
+Line 464: Unrecognized token: 38
+Line 464: ID = bdev_lock
+Line 464: )
+Line 464: ;
+Line 465: return
+Line 465: ID = res
+Line 465: ;
+Line 466: }
+Line 468: ID = EXPORT_SYMBOL
+Line 468: (
+Line 468: ID = bd_claim
+Line 468: )
+Line 468: ;
+Line 470: void
+Line 470: ID = bd_release
+Line 470: (
+Line 470: ID = struct
+Line 470: ID = block_device
+Line 470: *
+Line 470: ID = bdev
+Line 470: )
+Line 471: {
+Line 472: ID = spin_lock
+Line 472: (
+Line 472: Unrecognized token: 38
+Line 472: ID = bdev_lock
+Line 472: )
+Line 472: ;
+Line 473: if
+Line 473: (
+Line 473: !
+Line 473: -
+Line 473: -
+Line 473: ID = bdev
+Line 473: -
+Line 473: >
+Line 473: ID = bd_contains
+Line 473: -
+Line 473: >
+Line 473: ID = bd_holders
+Line 473: )
+Line 474: ID = bdev
+Line 474: -
+Line 474: >
+Line 474: ID = bd_contains
+Line 474: -
+Line 474: >
+Line 474: ID = bd_holder
+Line 474: =
+Line 474: ID = NULL
+Line 474: ;
+Line 475: if
+Line 475: (
+Line 475: !
+Line 475: -
+Line 475: -
+Line 475: ID = bdev
+Line 475: -
+Line 475: >
+Line 475: ID = bd_holders
+Line 475: )
+Line 476: ID = bdev
+Line 476: -
+Line 476: >
+Line 476: ID = bd_holder
+Line 476: =
+Line 476: ID = NULL
+Line 476: ;
+Line 477: ID = spin_unlock
+Line 477: (
+Line 477: Unrecognized token: 38
+Line 477: ID = bdev_lock
+Line 477: )
+Line 477: ;
+Line 478: }
+Line 480: ID = EXPORT_SYMBOL
+Line 480: (
+Line 480: ID = bd_release
+Line 480: )
+Line 480: ;
+Line 489: ID = struct
+Line 489: ID = block_device
+Line 489: *
+Line 489: ID = open_by_devnum
+Line 489: (
+Line 489: ID = dev_t
+Line 489: ID = dev
+Line 489: ,
+Line 489: ID = unsigned
+Line 489: ID = mode
+Line 489: )
+Line 490: {
+Line 491: ID = struct
+Line 491: ID = block_device
+Line 491: *
+Line 491: ID = bdev
+Line 491: =
+Line 491: ID = bdget
+Line 491: (
+Line 491: ID = dev
+Line 491: )
+Line 491: ;
+Line 492: int
+Line 492: ID = err
+Line 492: =
+Line 492: -
+Line 492: ID = ENOMEM
+Line 492: ;
+Line 493: int
+Line 493: ID = flags
+Line 493: =
+Line 493: ID = mode
+Line 493: Unrecognized token: 38
+Line 493: ID = FMODE_WRITE
+Line 493: Unrecognized token: 63
+Line 493: ID = O_RDWR
+Line 493: Unrecognized token: 58
+Line 493: ID = O_RDONLY
+Line 493: ;
+Line 494: if
+Line 494: (
+Line 494: ID = bdev
+Line 494: )
+Line 495: ID = err
+Line 495: =
+Line 495: ID = blkdev_get
+Line 495: (
+Line 495: ID = bdev
+Line 495: ,
+Line 495: ID = mode
+Line 495: ,
+Line 495: ID = flags
+Line 495: )
+Line 495: ;
+Line 496: return
+Line 496: ID = err
+Line 496: Unrecognized token: 63
+Line 496: ID = ERR_PTR
+Line 496: (
+Line 496: ID = err
+Line 496: )
+Line 496: Unrecognized token: 58
+Line 496: ID = bdev
+Line 496: ;
+Line 497: }
+Line 499: ID = EXPORT_SYMBOL
+Line 499: (
+Line 499: ID = open_by_devnum
+Line 499: )
+Line 499: ;
+Line 510: int
+Line 510: ID = check_disk_change
+Line 510: (
+Line 510: ID = struct
+Line 510: ID = block_device
+Line 510: *
+Line 510: ID = bdev
+Line 510: )
+Line 511: {
+Line 512: ID = struct
+Line 512: ID = gendisk
+Line 512: *
+Line 512: ID = disk
+Line 512: =
+Line 512: ID = bdev
+Line 512: -
+Line 512: >
+Line 512: ID = bd_disk
+Line 512: ;
+Line 513: ID = struct
+Line 513: ID = block_device_operations
+Line 513: *
+Line 513: ID = bdops
+Line 513: =
+Line 513: ID = disk
+Line 513: -
+Line 513: >
+Line 513: ID = fops
+Line 513: ;
+Line 515: if
+Line 515: (
+Line 515: !
+Line 515: ID = bdops
+Line 515: -
+Line 515: >
+Line 515: ID = media_changed
+Line 515: )
+Line 516: return
+Line 516: INTCON = 0
+Line 516: ;
+Line 517: if
+Line 517: (
+Line 517: !
+Line 517: ID = bdops
+Line 517: -
+Line 517: >
+Line 517: ID = media_changed
+Line 517: (
+Line 517: ID = bdev
+Line 517: -
+Line 517: >
+Line 517: ID = bd_disk
+Line 517: )
+Line 517: )
+Line 518: return
+Line 518: INTCON = 0
+Line 518: ;
+Line 520: if
+Line 520: (
+Line 520: Unrecognized token: 95
+Line 520: Unrecognized token: 95
+Line 520: ID = invalidate_device
+Line 520: (
+Line 520: ID = bdev
+Line 520: ,
+Line 520: INTCON = 0
+Line 520: )
+Line 520: )
+Line 521: ID = printk
+Line 521: (
+Line 521: STRINGCON = "VFS: busy inodes on changed media.\n"
+Line 521: )
+Line 521: ;
+Line 523: if
+Line 523: (
+Line 523: ID = bdops
+Line 523: -
+Line 523: >
+Line 523: ID = revalidate_disk
+Line 523: )
+Line 524: ID = bdops
+Line 524: -
+Line 524: >
+Line 524: ID = revalidate_disk
+Line 524: (
+Line 524: ID = bdev
+Line 524: -
+Line 524: >
+Line 524: ID = bd_disk
+Line 524: )
+Line 524: ;
+Line 525: if
+Line 525: (
+Line 525: ID = bdev
+Line 525: -
+Line 525: >
+Line 525: ID = bd_disk
+Line 525: -
+Line 525: >
+Line 525: ID = minors
+Line 525: >
+Line 525: INTCON = 1
+Line 525: )
+Line 526: ID = bdev
+Line 526: -
+Line 526: >
+Line 526: ID = bd_invalidated
+Line 526: =
+Line 526: INTCON = 1
+Line 526: ;
+Line 527: return
+Line 527: INTCON = 1
+Line 527: ;
+Line 528: }
+Line 530: ID = EXPORT_SYMBOL
+Line 530: (
+Line 530: ID = check_disk_change
+Line 530: )
+Line 530: ;
+Line 532: void
+Line 532: ID = bd_set_size
+Line 532: (
+Line 532: ID = struct
+Line 532: ID = block_device
+Line 532: *
+Line 532: ID = bdev
+Line 532: ,
+Line 532: ID = loff_t
+Line 532: ID = size
+Line 532: )
+Line 533: {
+Line 534: ID = unsigned
+Line 534: ID = bsize
+Line 534: =
+Line 534: ID = bdev_hardsect_size
+Line 534: (
+Line 534: ID = bdev
+Line 534: )
+Line 534: ;
+Line 536: ID = bdev
+Line 536: -
+Line 536: >
+Line 536: ID = bd_inode
+Line 536: -
+Line 536: >
+Line 536: ID = i_size
+Line 536: =
+Line 536: ID = size
+Line 536: ;
+Line 537: while
+Line 537: (
+Line 537: ID = bsize
+Line 537: <
+Line 537: ID = PAGE_CACHE_SIZE
+Line 537: )
+Line 537: {
+Line 538: if
+Line 538: (
+Line 538: ID = size
+Line 538: Unrecognized token: 38
+Line 538: ID = bsize
+Line 538: )
+Line 539: ID = break
+Line 539: ;
+Line 540: ID = bsize
+Line 540: <
+Line 540: <=
+Line 540: INTCON = 1
+Line 540: ;
+Line 541: }
+Line 542: ID = bdev
+Line 542: -
+Line 542: >
+Line 542: ID = bd_block_size
+Line 542: =
+Line 542: ID = bsize
+Line 542: ;
+Line 543: ID = bdev
+Line 543: -
+Line 543: >
+Line 543: ID = bd_inode
+Line 543: -
+Line 543: >
+Line 543: ID = i_blkbits
+Line 543: =
+Line 543: ID = blksize_bits
+Line 543: (
+Line 543: ID = bsize
+Line 543: )
+Line 543: ;
+Line 544: }
+Line 545: ID = EXPORT_SYMBOL
+Line 545: (
+Line 545: ID = bd_set_size
+Line 545: )
+Line 545: ;
+Line 547: ID = static
+Line 547: int
+Line 547: ID = do_open
+Line 547: (
+Line 547: ID = struct
+Line 547: ID = block_device
+Line 547: *
+Line 547: ID = bdev
+Line 547: ,
+Line 547: ID = struct
+Line 547: ID = file
+Line 547: *
+Line 547: ID = file
+Line 547: )
+Line 548: {
+Line 549: ID = struct
+Line 549: ID = module
+Line 549: *
+Line 549: ID = owner
+Line 549: =
+Line 549: ID = NULL
+Line 549: ;
+Line 550: ID = struct
+Line 550: ID = gendisk
+Line 550: *
+Line 550: ID = disk
+Line 550: ;
+Line 551: int
+Line 551: ID = ret
+Line 551: =
+Line 551: -
+Line 551: ID = ENXIO
+Line 551: ;
+Line 552: int
+Line 552: ID = part
+Line 552: ;
+Line 554: ID = file
+Line 554: -
+Line 554: >
+Line 554: ID = f_mapping
+Line 554: =
+Line 554: ID = bdev
+Line 554: -
+Line 554: >
+Line 554: ID = bd_inode
+Line 554: -
+Line 554: >
+Line 554: ID = i_mapping
+Line 554: ;
+Line 555: ID = lock_kernel
+Line 555: (
+Line 555: )
+Line 555: ;
+Line 556: ID = disk
+Line 556: =
+Line 556: ID = get_gendisk
+Line 556: (
+Line 556: ID = bdev
+Line 556: -
+Line 556: >
+Line 556: ID = bd_dev
+Line 556: ,
+Line 556: Unrecognized token: 38
+Line 556: ID = part
+Line 556: )
+Line 556: ;
+Line 557: if
+Line 557: (
+Line 557: !
+Line 557: ID = disk
+Line 557: )
+Line 557: {
+Line 558: ID = unlock_kernel
+Line 558: (
+Line 558: )
+Line 558: ;
+Line 559: ID = bdput
+Line 559: (
+Line 559: ID = bdev
+Line 559: )
+Line 559: ;
+Line 560: return
+Line 560: ID = ret
+Line 560: ;
+Line 561: }
+Line 562: ID = owner
+Line 562: =
+Line 562: ID = disk
+Line 562: -
+Line 562: >
+Line 562: ID = fops
+Line 562: -
+Line 562: >
+Line 562: ID = owner
+Line 562: ;
+Line 564: ID = down
+Line 564: (
+Line 564: Unrecognized token: 38
+Line 564: ID = bdev
+Line 564: -
+Line 564: >
+Line 564: ID = bd_sem
+Line 564: )
+Line 564: ;
+Line 565: if
+Line 565: (
+Line 565: !
+Line 565: ID = bdev
+Line 565: -
+Line 565: >
+Line 565: ID = bd_openers
+Line 565: )
+Line 565: {
+Line 566: ID = bdev
+Line 566: -
+Line 566: >
+Line 566: ID = bd_disk
+Line 566: =
+Line 566: ID = disk
+Line 566: ;
+Line 567: ID = bdev
+Line 567: -
+Line 567: >
+Line 567: ID = bd_contains
+Line 567: =
+Line 567: ID = bdev
+Line 567: ;
+Line 568: if
+Line 568: (
+Line 568: !
+Line 568: ID = part
+Line 568: )
+Line 568: {
+Line 569: ID = struct
+Line 569: ID = backing_dev_info
+Line 569: *
+Line 569: ID = bdi
+Line 569: ;
+Line 570: if
+Line 570: (
+Line 570: ID = disk
+Line 570: -
+Line 570: >
+Line 570: ID = fops
+Line 570: -
+Line 570: >
+Line 570: ID = open
+Line 570: )
+Line 570: {
+Line 571: ID = ret
+Line 571: =
+Line 571: ID = disk
+Line 571: -
+Line 571: >
+Line 571: ID = fops
+Line 571: -
+Line 571: >
+Line 571: ID = open
+Line 571: (
+Line 571: ID = bdev
+Line 571: -
+Line 571: >
+Line 571: ID = bd_inode
+Line 571: ,
+Line 571: ID = file
+Line 571: )
+Line 571: ;
+Line 572: if
+Line 572: (
+Line 572: ID = ret
+Line 572: )
+Line 573: ID = goto
+Line 573: ID = out_first
+Line 573: ;
+Line 574: }
+Line 575: if
+Line 575: (
+Line 575: !
+Line 575: ID = bdev
+Line 575: -
+Line 575: >
+Line 575: ID = bd_openers
+Line 575: )
+Line 575: {
+Line 576: ID = bd_set_size
+Line 576: (
+Line 576: ID = bdev
+Line 576: ,
+Line 576: (
+Line 576: ID = loff_t
+Line 576: )
+Line 576: ID = get_capacity
+Line 576: (
+Line 576: ID = disk
+Line 576: )
+Line 576: <
+Line 576: <
+Line 576: INTCON = 9
+Line 576: )
+Line 576: ;
+Line 577: ID = bdi
+Line 577: =
+Line 577: ID = blk_get_backing_dev_info
+Line 577: (
+Line 577: ID = bdev
+Line 577: )
+Line 577: ;
+Line 578: if
+Line 578: (
+Line 578: ID = bdi
+Line 578: ==
+Line 578: ID = NULL
+Line 578: )
+Line 579: ID = bdi
+Line 579: =
+Line 579: Unrecognized token: 38
+Line 579: ID = default_backing_dev_info
+Line 579: ;
+Line 580: ID = bdev
+Line 580: -
+Line 580: >
+Line 580: ID = bd_inode
+Line 580: -
+Line 580: >
+Line 580: ID = i_data
+Line 580: Unrecognized token: 46
+Line 580: ID = backing_dev_info
+Line 580: =
+Line 580: ID = bdi
+Line 580: ;
+Line 581: }
+Line 582: if
+Line 582: (
+Line 582: ID = bdev
+Line 582: -
+Line 582: >
+Line 582: ID = bd_invalidated
+Line 582: )
+Line 583: ID = rescan_partitions
+Line 583: (
+Line 583: ID = disk
+Line 583: ,
+Line 583: ID = bdev
+Line 583: )
+Line 583: ;
+Line 584: }
+Line 584: else
+Line 584: {
+Line 585: ID = struct
+Line 585: ID = hd_struct
+Line 585: *
+Line 585: ID = p
+Line 585: ;
+Line 586: ID = struct
+Line 586: ID = block_device
+Line 586: *
+Line 586: ID = whole
+Line 586: ;
+Line 587: ID = whole
+Line 587: =
+Line 587: ID = bdget_disk
+Line 587: (
+Line 587: ID = disk
+Line 587: ,
+Line 587: INTCON = 0
+Line 587: )
+Line 587: ;
+Line 588: ID = ret
+Line 588: =
+Line 588: -
+Line 588: ID = ENOMEM
+Line 588: ;
+Line 589: if
+Line 589: (
+Line 589: !
+Line 589: ID = whole
+Line 589: )
+Line 590: ID = goto
+Line 590: ID = out_first
+Line 590: ;
+Line 591: ID = ret
+Line 591: =
+Line 591: ID = blkdev_get
+Line 591: (
+Line 591: ID = whole
+Line 591: ,
+Line 591: ID = file
+Line 591: -
+Line 591: >
+Line 591: ID = f_mode
+Line 591: ,
+Line 591: ID = file
+Line 591: -
+Line 591: >
+Line 591: ID = f_flags
+Line 591: )
+Line 591: ;
+Line 592: if
+Line 592: (
+Line 592: ID = ret
+Line 592: )
+Line 593: ID = goto
+Line 593: ID = out_first
+Line 593: ;
+Line 594: ID = bdev
+Line 594: -
+Line 594: >
+Line 594: ID = bd_contains
+Line 594: =
+Line 594: ID = whole
+Line 594: ;
+Line 595: ID = down
+Line 595: (
+Line 595: Unrecognized token: 38
+Line 595: ID = whole
+Line 595: -
+Line 595: >
+Line 595: ID = bd_sem
+Line 595: )
+Line 595: ;
+Line 596: ID = whole
+Line 596: -
+Line 596: >
+Line 596: ID = bd_part_count
+Line 596: +
+Line 596: +
+Line 596: ;
+Line 597: ID = p
+Line 597: =
+Line 597: ID = disk
+Line 597: -
+Line 597: >
+Line 597: ID = part
+Line 597: [
+Line 597: ID = part
+Line 597: -
+Line 597: INTCON = 1
+Line 597: ]
+Line 597: ;
+Line 598: ID = bdev
+Line 598: -
+Line 598: >
+Line 598: ID = bd_inode
+Line 598: -
+Line 598: >
+Line 598: ID = i_data
+Line 598: Unrecognized token: 46
+Line 598: ID = backing_dev_info
+Line 598: =
+Line 599: ID = whole
+Line 599: -
+Line 599: >
+Line 599: ID = bd_inode
+Line 599: -
+Line 599: >
+Line 599: ID = i_data
+Line 599: Unrecognized token: 46
+Line 599: ID = backing_dev_info
+Line 599: ;
+Line 600: if
+Line 600: (
+Line 600: !
+Line 600: (
+Line 600: ID = disk
+Line 600: -
+Line 600: >
+Line 600: ID = flags
+Line 600: Unrecognized token: 38
+Line 600: ID = GENHD_FL_UP
+Line 600: )
+Line 600: ||
+Line 600: !
+Line 600: ID = p
+Line 600: ||
+Line 600: !
+Line 600: ID = p
+Line 600: -
+Line 600: >
+Line 600: ID = nr_sects
+Line 600: )
+Line 600: {
+Line 601: ID = whole
+Line 601: -
+Line 601: >
+Line 601: ID = bd_part_count
+Line 601: -
+Line 601: -
+Line 601: ;
+Line 602: ID = up
+Line 602: (
+Line 602: Unrecognized token: 38
+Line 602: ID = whole
+Line 602: -
+Line 602: >
+Line 602: ID = bd_sem
+Line 602: )
+Line 602: ;
+Line 603: ID = ret
+Line 603: =
+Line 603: -
+Line 603: ID = ENXIO
+Line 603: ;
+Line 604: ID = goto
+Line 604: ID = out_first
+Line 604: ;
+Line 605: }
+Line 606: ID = kobject_get
+Line 606: (
+Line 606: Unrecognized token: 38
+Line 606: ID = p
+Line 606: -
+Line 606: >
+Line 606: ID = kobj
+Line 606: )
+Line 606: ;
+Line 607: ID = bdev
+Line 607: -
+Line 607: >
+Line 607: ID = bd_part
+Line 607: =
+Line 607: ID = p
+Line 607: ;
+Line 608: ID = bd_set_size
+Line 608: (
+Line 608: ID = bdev
+Line 608: ,
+Line 608: (
+Line 608: ID = loff_t
+Line 608: )
+Line 608: ID = p
+Line 608: -
+Line 608: >
+Line 608: ID = nr_sects
+Line 608: <
+Line 608: <
+Line 608: INTCON = 9
+Line 608: )
+Line 608: ;
+Line 609: ID = up
+Line 609: (
+Line 609: Unrecognized token: 38
+Line 609: ID = whole
+Line 609: -
+Line 609: >
+Line 609: ID = bd_sem
+Line 609: )
+Line 609: ;
+Line 610: }
+Line 611: }
+Line 611: else
+Line 611: {
+Line 612: ID = put_disk
+Line 612: (
+Line 612: ID = disk
+Line 612: )
+Line 612: ;
+Line 613: ID = module_put
+Line 613: (
+Line 613: ID = owner
+Line 613: )
+Line 613: ;
+Line 614: if
+Line 614: (
+Line 614: ID = bdev
+Line 614: -
+Line 614: >
+Line 614: ID = bd_contains
+Line 614: ==
+Line 614: ID = bdev
+Line 614: )
+Line 614: {
+Line 615: if
+Line 615: (
+Line 615: ID = bdev
+Line 615: -
+Line 615: >
+Line 615: ID = bd_disk
+Line 615: -
+Line 615: >
+Line 615: ID = fops
+Line 615: -
+Line 615: >
+Line 615: ID = open
+Line 615: )
+Line 615: {
+Line 616: ID = ret
+Line 616: =
+Line 616: ID = bdev
+Line 616: -
+Line 616: >
+Line 616: ID = bd_disk
+Line 616: -
+Line 616: >
+Line 616: ID = fops
+Line 616: -
+Line 616: >
+Line 616: ID = open
+Line 616: (
+Line 616: ID = bdev
+Line 616: -
+Line 616: >
+Line 616: ID = bd_inode
+Line 616: ,
+Line 616: ID = file
+Line 616: )
+Line 616: ;
+Line 617: if
+Line 617: (
+Line 617: ID = ret
+Line 617: )
+Line 618: ID = goto
+Line 618: ID = out
+Line 618: ;
+Line 619: }
+Line 620: if
+Line 620: (
+Line 620: ID = bdev
+Line 620: -
+Line 620: >
+Line 620: ID = bd_invalidated
+Line 620: )
+Line 621: ID = rescan_partitions
+Line 621: (
+Line 621: ID = bdev
+Line 621: -
+Line 621: >
+Line 621: ID = bd_disk
+Line 621: ,
+Line 621: ID = bdev
+Line 621: )
+Line 621: ;
+Line 622: }
+Line 622: else
+Line 622: {
+Line 623: ID = down
+Line 623: (
+Line 623: Unrecognized token: 38
+Line 623: ID = bdev
+Line 623: -
+Line 623: >
+Line 623: ID = bd_contains
+Line 623: -
+Line 623: >
+Line 623: ID = bd_sem
+Line 623: )
+Line 623: ;
+Line 624: ID = bdev
+Line 624: -
+Line 624: >
+Line 624: ID = bd_contains
+Line 624: -
+Line 624: >
+Line 624: ID = bd_part_count
+Line 624: +
+Line 624: +
+Line 624: ;
+Line 625: ID = up
+Line 625: (
+Line 625: Unrecognized token: 38
+Line 625: ID = bdev
+Line 625: -
+Line 625: >
+Line 625: ID = bd_contains
+Line 625: -
+Line 625: >
+Line 625: ID = bd_sem
+Line 625: )
+Line 625: ;
+Line 626: }
+Line 627: }
+Line 628: ID = bdev
+Line 628: -
+Line 628: >
+Line 628: ID = bd_openers
+Line 628: +
+Line 628: +
+Line 628: ;
+Line 629: ID = up
+Line 629: (
+Line 629: Unrecognized token: 38
+Line 629: ID = bdev
+Line 629: -
+Line 629: >
+Line 629: ID = bd_sem
+Line 629: )
+Line 629: ;
+Line 630: ID = unlock_kernel
+Line 630: (
+Line 630: )
+Line 630: ;
+Line 631: return
+Line 631: INTCON = 0
+Line 631: ;
+Line 633: ID = out_first
+Line 633: Unrecognized token: 58
+Line 634: ID = bdev
+Line 634: -
+Line 634: >
+Line 634: ID = bd_disk
+Line 634: =
+Line 634: ID = NULL
+Line 634: ;
+Line 635: ID = bdev
+Line 635: -
+Line 635: >
+Line 635: ID = bd_inode
+Line 635: -
+Line 635: >
+Line 635: ID = i_data
+Line 635: Unrecognized token: 46
+Line 635: ID = backing_dev_info
+Line 635: =
+Line 635: Unrecognized token: 38
+Line 635: ID = default_backing_dev_info
+Line 635: ;
+Line 636: if
+Line 636: (
+Line 636: ID = bdev
+Line 636: !=
+Line 636: ID = bdev
+Line 636: -
+Line 636: >
+Line 636: ID = bd_contains
+Line 636: )
+Line 637: ID = blkdev_put
+Line 637: (
+Line 637: ID = bdev
+Line 637: -
+Line 637: >
+Line 637: ID = bd_contains
+Line 637: )
+Line 637: ;
+Line 638: ID = bdev
+Line 638: -
+Line 638: >
+Line 638: ID = bd_contains
+Line 638: =
+Line 638: ID = NULL
+Line 638: ;
+Line 639: ID = put_disk
+Line 639: (
+Line 639: ID = disk
+Line 639: )
+Line 639: ;
+Line 640: ID = module_put
+Line 640: (
+Line 640: ID = owner
+Line 640: )
+Line 640: ;
+Line 641: ID = out
+Line 641: Unrecognized token: 58
+Line 642: ID = up
+Line 642: (
+Line 642: Unrecognized token: 38
+Line 642: ID = bdev
+Line 642: -
+Line 642: >
+Line 642: ID = bd_sem
+Line 642: )
+Line 642: ;
+Line 643: ID = unlock_kernel
+Line 643: (
+Line 643: )
+Line 643: ;
+Line 644: if
+Line 644: (
+Line 644: ID = ret
+Line 644: )
+Line 645: ID = bdput
+Line 645: (
+Line 645: ID = bdev
+Line 645: )
+Line 645: ;
+Line 646: return
+Line 646: ID = ret
+Line 646: ;
+Line 647: }
+Line 649: int
+Line 649: ID = blkdev_get
+Line 649: (
+Line 649: ID = struct
+Line 649: ID = block_device
+Line 649: *
+Line 649: ID = bdev
+Line 649: ,
+Line 649: ID = mode_t
+Line 649: ID = mode
+Line 649: ,
+Line 649: ID = unsigned
+Line 649: ID = flags
+Line 649: )
+Line 650: {
+Line 657: ID = struct
+Line 657: ID = file
+Line 657: ID = fake_file
+Line 657: =
+Line 657: {
+Line 657: }
+Line 657: ;
+Line 658: ID = struct
+Line 658: ID = dentry
+Line 658: ID = fake_dentry
+Line 658: =
+Line 658: {
+Line 658: }
+Line 658: ;
+Line 659: ID = fake_file
+Line 659: Unrecognized token: 46
+Line 659: ID = f_mode
+Line 659: =
+Line 659: ID = mode
+Line 659: ;
+Line 660: ID = fake_file
+Line 660: Unrecognized token: 46
+Line 660: ID = f_flags
+Line 660: =
+Line 660: ID = flags
+Line 660: ;
+Line 661: ID = fake_file
+Line 661: Unrecognized token: 46
+Line 661: ID = f_dentry
+Line 661: =
+Line 661: Unrecognized token: 38
+Line 661: ID = fake_dentry
+Line 661: ;
+Line 662: ID = fake_dentry
+Line 662: Unrecognized token: 46
+Line 662: ID = d_inode
+Line 662: =
+Line 662: ID = bdev
+Line 662: -
+Line 662: >
+Line 662: ID = bd_inode
+Line 662: ;
+Line 664: return
+Line 664: ID = do_open
+Line 664: (
+Line 664: ID = bdev
+Line 664: ,
+Line 664: Unrecognized token: 38
+Line 664: ID = fake_file
+Line 664: )
+Line 664: ;
+Line 665: }
+Line 667: ID = EXPORT_SYMBOL
+Line 667: (
+Line 667: ID = blkdev_get
+Line 667: )
+Line 667: ;
+Line 669: int
+Line 669: ID = blkdev_open
+Line 669: (
+Line 669: ID = struct
+Line 669: ID = inode
+Line 669: *
+Line 669: ID = inode
+Line 669: ,
+Line 669: ID = struct
+Line 669: ID = file
+Line 669: *
+Line 669: ID = filp
+Line 669: )
+Line 670: {
+Line 671: ID = struct
+Line 671: ID = block_device
+Line 671: *
+Line 671: ID = bdev
+Line 671: ;
+Line 672: int
+Line 672: ID = res
+Line 672: ;
+Line 680: ID = filp
+Line 680: -
+Line 680: >
+Line 680: ID = f_flags
+Line 680: Unrecognized token: 124
+Line 680: =
+Line 680: ID = O_LARGEFILE
+Line 680: ;
+Line 682: ID = bdev
+Line 682: =
+Line 682: ID = bd_acquire
+Line 682: (
+Line 682: ID = inode
+Line 682: )
+Line 682: ;
+Line 684: ID = res
+Line 684: =
+Line 684: ID = do_open
+Line 684: (
+Line 684: ID = bdev
+Line 684: ,
+Line 684: ID = filp
+Line 684: )
+Line 684: ;
+Line 685: if
+Line 685: (
+Line 685: ID = res
+Line 685: )
+Line 686: return
+Line 686: ID = res
+Line 686: ;
+Line 688: if
+Line 688: (
+Line 688: !
+Line 688: (
+Line 688: ID = filp
+Line 688: -
+Line 688: >
+Line 688: ID = f_flags
+Line 688: Unrecognized token: 38
+Line 688: ID = O_EXCL
+Line 688: )
+Line 688: )
+Line 689: return
+Line 689: INTCON = 0
+Line 689: ;
+Line 691: if
+Line 691: (
+Line 691: !
+Line 691: (
+Line 691: ID = res
+Line 691: =
+Line 691: ID = bd_claim
+Line 691: (
+Line 691: ID = bdev
+Line 691: ,
+Line 691: ID = filp
+Line 691: )
+Line 691: )
+Line 691: )
+Line 692: return
+Line 692: INTCON = 0
+Line 692: ;
+Line 694: ID = blkdev_put
+Line 694: (
+Line 694: ID = bdev
+Line 694: )
+Line 694: ;
+Line 695: return
+Line 695: ID = res
+Line 695: ;
+Line 696: }
+Line 698: ID = EXPORT_SYMBOL
+Line 698: (
+Line 698: ID = blkdev_open
+Line 698: )
+Line 698: ;
+Line 700: int
+Line 700: ID = blkdev_put
+Line 700: (
+Line 700: ID = struct
+Line 700: ID = block_device
+Line 700: *
+Line 700: ID = bdev
+Line 700: )
+Line 701: {
+Line 702: int
+Line 702: ID = ret
+Line 702: =
+Line 702: INTCON = 0
+Line 702: ;
+Line 703: ID = struct
+Line 703: ID = inode
+Line 703: *
+Line 703: ID = bd_inode
+Line 703: =
+Line 703: ID = bdev
+Line 703: -
+Line 703: >
+Line 703: ID = bd_inode
+Line 703: ;
+Line 704: ID = struct
+Line 704: ID = gendisk
+Line 704: *
+Line 704: ID = disk
+Line 704: =
+Line 704: ID = bdev
+Line 704: -
+Line 704: >
+Line 704: ID = bd_disk
+Line 704: ;
+Line 706: ID = down
+Line 706: (
+Line 706: Unrecognized token: 38
+Line 706: ID = bdev
+Line 706: -
+Line 706: >
+Line 706: ID = bd_sem
+Line 706: )
+Line 706: ;
+Line 707: ID = lock_kernel
+Line 707: (
+Line 707: )
+Line 707: ;
+Line 708: if
+Line 708: (
+Line 708: !
+Line 708: -
+Line 708: -
+Line 708: ID = bdev
+Line 708: -
+Line 708: >
+Line 708: ID = bd_openers
+Line 708: )
+Line 708: {
+Line 709: ID = sync_blockdev
+Line 709: (
+Line 709: ID = bdev
+Line 709: )
+Line 709: ;
+Line 710: ID = kill_bdev
+Line 710: (
+Line 710: ID = bdev
+Line 710: )
+Line 710: ;
+Line 711: }
+Line 712: if
+Line 712: (
+Line 712: ID = bdev
+Line 712: -
+Line 712: >
+Line 712: ID = bd_contains
+Line 712: ==
+Line 712: ID = bdev
+Line 712: )
+Line 712: {
+Line 713: if
+Line 713: (
+Line 713: ID = disk
+Line 713: -
+Line 713: >
+Line 713: ID = fops
+Line 713: -
+Line 713: >
+Line 713: ID = release
+Line 713: )
+Line 714: ID = ret
+Line 714: =
+Line 714: ID = disk
+Line 714: -
+Line 714: >
+Line 714: ID = fops
+Line 714: -
+Line 714: >
+Line 714: ID = release
+Line 714: (
+Line 714: ID = bd_inode
+Line 714: ,
+Line 714: ID = NULL
+Line 714: )
+Line 714: ;
+Line 715: }
+Line 715: else
+Line 715: {
+Line 716: ID = down
+Line 716: (
+Line 716: Unrecognized token: 38
+Line 716: ID = bdev
+Line 716: -
+Line 716: >
+Line 716: ID = bd_contains
+Line 716: -
+Line 716: >
+Line 716: ID = bd_sem
+Line 716: )
+Line 716: ;
+Line 717: ID = bdev
+Line 717: -
+Line 717: >
+Line 717: ID = bd_contains
+Line 717: -
+Line 717: >
+Line 717: ID = bd_part_count
+Line 717: -
+Line 717: -
+Line 717: ;
+Line 718: ID = up
+Line 718: (
+Line 718: Unrecognized token: 38
+Line 718: ID = bdev
+Line 718: -
+Line 718: >
+Line 718: ID = bd_contains
+Line 718: -
+Line 718: >
+Line 718: ID = bd_sem
+Line 718: )
+Line 718: ;
+Line 719: }
+Line 720: if
+Line 720: (
+Line 720: !
+Line 720: ID = bdev
+Line 720: -
+Line 720: >
+Line 720: ID = bd_openers
+Line 720: )
+Line 720: {
+Line 721: ID = struct
+Line 721: ID = module
+Line 721: *
+Line 721: ID = owner
+Line 721: =
+Line 721: ID = disk
+Line 721: -
+Line 721: >
+Line 721: ID = fops
+Line 721: -
+Line 721: >
+Line 721: ID = owner
+Line 721: ;
+Line 723: ID = put_disk
+Line 723: (
+Line 723: ID = disk
+Line 723: )
+Line 723: ;
+Line 724: ID = module_put
+Line 724: (
+Line 724: ID = owner
+Line 724: )
+Line 724: ;
+Line 726: if
+Line 726: (
+Line 726: ID = bdev
+Line 726: -
+Line 726: >
+Line 726: ID = bd_contains
+Line 726: !=
+Line 726: ID = bdev
+Line 726: )
+Line 726: {
+Line 727: ID = kobject_put
+Line 727: (
+Line 727: Unrecognized token: 38
+Line 727: ID = bdev
+Line 727: -
+Line 727: >
+Line 727: ID = bd_part
+Line 727: -
+Line 727: >
+Line 727: ID = kobj
+Line 727: )
+Line 727: ;
+Line 728: ID = bdev
+Line 728: -
+Line 728: >
+Line 728: ID = bd_part
+Line 728: =
+Line 728: ID = NULL
+Line 728: ;
+Line 729: }
+Line 730: ID = bdev
+Line 730: -
+Line 730: >
+Line 730: ID = bd_disk
+Line 730: =
+Line 730: ID = NULL
+Line 730: ;
+Line 731: ID = bdev
+Line 731: -
+Line 731: >
+Line 731: ID = bd_inode
+Line 731: -
+Line 731: >
+Line 731: ID = i_data
+Line 731: Unrecognized token: 46
+Line 731: ID = backing_dev_info
+Line 731: =
+Line 731: Unrecognized token: 38
+Line 731: ID = default_backing_dev_info
+Line 731: ;
+Line 732: if
+Line 732: (
+Line 732: ID = bdev
+Line 732: !=
+Line 732: ID = bdev
+Line 732: -
+Line 732: >
+Line 732: ID = bd_contains
+Line 732: )
+Line 732: {
+Line 733: ID = blkdev_put
+Line 733: (
+Line 733: ID = bdev
+Line 733: -
+Line 733: >
+Line 733: ID = bd_contains
+Line 733: )
+Line 733: ;
+Line 734: }
+Line 735: ID = bdev
+Line 735: -
+Line 735: >
+Line 735: ID = bd_contains
+Line 735: =
+Line 735: ID = NULL
+Line 735: ;
+Line 736: }
+Line 737: ID = unlock_kernel
+Line 737: (
+Line 737: )
+Line 737: ;
+Line 738: ID = up
+Line 738: (
+Line 738: Unrecognized token: 38
+Line 738: ID = bdev
+Line 738: -
+Line 738: >
+Line 738: ID = bd_sem
+Line 738: )
+Line 738: ;
+Line 739: ID = bdput
+Line 739: (
+Line 739: ID = bdev
+Line 739: )
+Line 739: ;
+Line 740: return
+Line 740: ID = ret
+Line 740: ;
+Line 741: }
+Line 743: ID = EXPORT_SYMBOL
+Line 743: (
+Line 743: ID = blkdev_put
+Line 743: )
+Line 743: ;
+Line 745: ID = static
+Line 745: int
+Line 745: ID = blkdev_close
+Line 745: (
+Line 745: ID = struct
+Line 745: ID = inode
+Line 745: *
+Line 745: ID = inode
+Line 745: ,
+Line 745: ID = struct
+Line 745: ID = file
+Line 745: *
+Line 745: ID = filp
+Line 745: )
+Line 746: {
+Line 747: ID = struct
+Line 747: ID = block_device
+Line 747: *
+Line 747: ID = bdev
+Line 747: =
+Line 747: ID = I_BDEV
+Line 747: (
+Line 747: ID = filp
+Line 747: -
+Line 747: >
+Line 747: ID = f_mapping
+Line 747: -
+Line 747: >
+Line 747: ID = host
+Line 747: )
+Line 747: ;
+Line 748: if
+Line 748: (
+Line 748: ID = bdev
+Line 748: -
+Line 748: >
+Line 748: ID = bd_holder
+Line 748: ==
+Line 748: ID = filp
+Line 748: )
+Line 749: ID = bd_release
+Line 749: (
+Line 749: ID = bdev
+Line 749: )
+Line 749: ;
+Line 750: return
+Line 750: ID = blkdev_put
+Line 750: (
+Line 750: ID = bdev
+Line 750: )
+Line 750: ;
+Line 751: }
+Line 753: ID = static
+Line 753: ID = ssize_t
+Line 753: ID = blkdev_file_write
+Line 753: (
+Line 753: ID = struct
+Line 753: ID = file
+Line 753: *
+Line 753: ID = file
+Line 753: ,
+Line 753: ID = const
+Line 753: char
+Line 753: Unrecognized token: 95
+Line 753: Unrecognized token: 95
+Line 753: ID = user
+Line 753: *
+Line 753: ID = buf
+Line 753: ,
+Line 754: ID = size_t
+Line 754: ID = count
+Line 754: ,
+Line 754: ID = loff_t
+Line 754: *
+Line 754: ID = ppos
+Line 754: )
+Line 755: {
+Line 756: ID = struct
+Line 756: ID = iovec
+Line 756: ID = local_iov
+Line 756: =
+Line 756: {
+Line 756: Unrecognized token: 46
+Line 756: ID = iov_base
+Line 756: =
+Line 756: (
+Line 756: void
+Line 756: Unrecognized token: 95
+Line 756: Unrecognized token: 95
+Line 756: ID = user
+Line 756: *
+Line 756: )
+Line 756: ID = buf
+Line 756: ,
+Line 756: Unrecognized token: 46
+Line 756: ID = iov_len
+Line 756: =
+Line 756: ID = count
+Line 756: }
+Line 756: ;
+Line 758: return
+Line 758: ID = generic_file_write_nolock
+Line 758: (
+Line 758: ID = file
+Line 758: ,
+Line 758: Unrecognized token: 38
+Line 758: ID = local_iov
+Line 758: ,
+Line 758: INTCON = 1
+Line 758: ,
+Line 758: ID = ppos
+Line 758: )
+Line 758: ;
+Line 759: }
+Line 761: ID = static
+Line 761: ID = ssize_t
+Line 761: ID = blkdev_file_aio_write
+Line 761: (
+Line 761: ID = struct
+Line 761: ID = kiocb
+Line 761: *
+Line 761: ID = iocb
+Line 761: ,
+Line 761: ID = const
+Line 761: char
+Line 761: Unrecognized token: 95
+Line 761: Unrecognized token: 95
+Line 761: ID = user
+Line 761: *
+Line 761: ID = buf
+Line 761: ,
+Line 762: ID = size_t
+Line 762: ID = count
+Line 762: ,
+Line 762: ID = loff_t
+Line 762: ID = pos
+Line 762: )
+Line 763: {
+Line 764: ID = struct
+Line 764: ID = iovec
+Line 764: ID = local_iov
+Line 764: =
+Line 764: {
+Line 764: Unrecognized token: 46
+Line 764: ID = iov_base
+Line 764: =
+Line 764: (
+Line 764: void
+Line 764: Unrecognized token: 95
+Line 764: Unrecognized token: 95
+Line 764: ID = user
+Line 764: *
+Line 764: )
+Line 764: ID = buf
+Line 764: ,
+Line 764: Unrecognized token: 46
+Line 764: ID = iov_len
+Line 764: =
+Line 764: ID = count
+Line 764: }
+Line 764: ;
+Line 766: return
+Line 766: ID = generic_file_aio_write_nolock
+Line 766: (
+Line 766: ID = iocb
+Line 766: ,
+Line 766: Unrecognized token: 38
+Line 766: ID = local_iov
+Line 766: ,
+Line 766: INTCON = 1
+Line 766: ,
+Line 766: Unrecognized token: 38
+Line 766: ID = iocb
+Line 766: -
+Line 766: >
+Line 766: ID = ki_pos
+Line 766: )
+Line 766: ;
+Line 767: }
+Line 769: ID = static
+Line 769: int
+Line 769: ID = block_ioctl
+Line 769: (
+Line 769: ID = struct
+Line 769: ID = inode
+Line 769: *
+Line 769: ID = inode
+Line 769: ,
+Line 769: ID = struct
+Line 769: ID = file
+Line 769: *
+Line 769: ID = file
+Line 769: ,
+Line 769: ID = unsigned
+Line 769: ID = cmd
+Line 769: ,
+Line 770: ID = unsigned
+Line 770: ID = long
+Line 770: ID = arg
+Line 770: )
+Line 771: {
+Line 772: return
+Line 772: ID = blkdev_ioctl
+Line 772: (
+Line 772: ID = file
+Line 772: -
+Line 772: >
+Line 772: ID = f_mapping
+Line 772: -
+Line 772: >
+Line 772: ID = host
+Line 772: ,
+Line 772: ID = file
+Line 772: ,
+Line 772: ID = cmd
+Line 772: ,
+Line 772: ID = arg
+Line 772: )
+Line 772: ;
+Line 773: }
+Line 775: ID = struct
+Line 775: ID = address_space_operations
+Line 775: ID = def_blk_aops
+Line 775: =
+Line 775: {
+Line 776: Unrecognized token: 46
+Line 776: ID = readpage
+Line 776: =
+Line 776: ID = blkdev_readpage
+Line 776: ,
+Line 777: Unrecognized token: 46
+Line 777: ID = writepage
+Line 777: =
+Line 777: ID = blkdev_writepage
+Line 777: ,
+Line 778: Unrecognized token: 46
+Line 778: ID = sync_page
+Line 778: =
+Line 778: ID = block_sync_page
+Line 778: ,
+Line 779: Unrecognized token: 46
+Line 779: ID = prepare_write
+Line 779: =
+Line 779: ID = blkdev_prepare_write
+Line 779: ,
+Line 780: Unrecognized token: 46
+Line 780: ID = commit_write
+Line 780: =
+Line 780: ID = blkdev_commit_write
+Line 780: ,
+Line 781: Unrecognized token: 46
+Line 781: ID = writepages
+Line 781: =
+Line 781: ID = generic_writepages
+Line 781: ,
+Line 782: Unrecognized token: 46
+Line 782: ID = direct_IO
+Line 782: =
+Line 782: ID = blkdev_direct_IO
+Line 782: ,
+Line 783: }
+Line 783: ;
+Line 785: ID = struct
+Line 785: ID = file_operations
+Line 785: ID = def_blk_fops
+Line 785: =
+Line 785: {
+Line 786: Unrecognized token: 46
+Line 786: ID = open
+Line 786: =
+Line 786: ID = blkdev_open
+Line 786: ,
+Line 787: Unrecognized token: 46
+Line 787: ID = release
+Line 787: =
+Line 787: ID = blkdev_close
+Line 787: ,
+Line 788: Unrecognized token: 46
+Line 788: ID = llseek
+Line 788: =
+Line 788: ID = block_llseek
+Line 788: ,
+Line 789: Unrecognized token: 46
+Line 789: ID = read
+Line 789: =
+Line 789: ID = generic_file_read
+Line 789: ,
+Line 790: Unrecognized token: 46
+Line 790: ID = write
+Line 790: =
+Line 790: ID = blkdev_file_write
+Line 790: ,
+Line 791: Unrecognized token: 46
+Line 791: ID = aio_read
+Line 791: =
+Line 791: ID = generic_file_aio_read
+Line 791: ,
+Line 792: Unrecognized token: 46
+Line 792: ID = aio_write
+Line 792: =
+Line 792: ID = blkdev_file_aio_write
+Line 792: ,
+Line 793: Unrecognized token: 46
+Line 793: ID = mmap
+Line 793: =
+Line 793: ID = generic_file_mmap
+Line 793: ,
+Line 794: Unrecognized token: 46
+Line 794: ID = fsync
+Line 794: =
+Line 794: ID = block_fsync
+Line 794: ,
+Line 795: Unrecognized token: 46
+Line 795: ID = ioctl
+Line 795: =
+Line 795: ID = block_ioctl
+Line 795: ,
+Line 796: Unrecognized token: 46
+Line 796: ID = readv
+Line 796: =
+Line 796: ID = generic_file_readv
+Line 796: ,
+Line 797: Unrecognized token: 46
+Line 797: ID = writev
+Line 797: =
+Line 797: ID = generic_file_write_nolock
+Line 797: ,
+Line 798: Unrecognized token: 46
+Line 798: ID = sendfile
+Line 798: =
+Line 798: ID = generic_file_sendfile
+Line 798: ,
+Line 799: }
+Line 799: ;
+Line 801: ID = EXPORT_SYMBOL
+Line 801: (
+Line 801: ID = def_blk_fops
+Line 801: )
+Line 801: ;
+Line 803: int
+Line 803: ID = ioctl_by_bdev
+Line 803: (
+Line 803: ID = struct
+Line 803: ID = block_device
+Line 803: *
+Line 803: ID = bdev
+Line 803: ,
+Line 803: ID = unsigned
+Line 803: ID = cmd
+Line 803: ,
+Line 803: ID = unsigned
+Line 803: ID = long
+Line 803: ID = arg
+Line 803: )
+Line 804: {
+Line 805: int
+Line 805: ID = res
+Line 805: ;
+Line 806: ID = mm_segment_t
+Line 806: ID = old_fs
+Line 806: =
+Line 806: ID = get_fs
+Line 806: (
+Line 806: )
+Line 806: ;
+Line 807: ID = set_fs
+Line 807: (
+Line 807: ID = KERNEL_DS
+Line 807: )
+Line 807: ;
+Line 808: ID = res
+Line 808: =
+Line 808: ID = blkdev_ioctl
+Line 808: (
+Line 808: ID = bdev
+Line 808: -
+Line 808: >
+Line 808: ID = bd_inode
+Line 808: ,
+Line 808: ID = NULL
+Line 808: ,
+Line 808: ID = cmd
+Line 808: ,
+Line 808: ID = arg
+Line 808: )
+Line 808: ;
+Line 809: ID = set_fs
+Line 809: (
+Line 809: ID = old_fs
+Line 809: )
+Line 809: ;
+Line 810: return
+Line 810: ID = res
+Line 810: ;
+Line 811: }
+Line 813: ID = EXPORT_SYMBOL
+Line 813: (
+Line 813: ID = ioctl_by_bdev
+Line 813: )
+Line 813: ;
+Line 824: ID = struct
+Line 824: ID = block_device
+Line 824: *
+Line 824: ID = lookup_bdev
+Line 824: (
+Line 824: ID = const
+Line 824: char
+Line 824: *
+Line 824: ID = path
+Line 824: )
+Line 825: {
+Line 826: ID = struct
+Line 826: ID = block_device
+Line 826: *
+Line 826: ID = bdev
+Line 826: ;
+Line 827: ID = struct
+Line 827: ID = inode
+Line 827: *
+Line 827: ID = inode
+Line 827: ;
+Line 828: ID = struct
+Line 828: ID = nameidata
+Line 828: ID = nd
+Line 828: ;
+Line 829: int
+Line 829: ID = error
+Line 829: ;
+Line 831: if
+Line 831: (
+Line 831: !
+Line 831: ID = path
+Line 831: ||
+Line 831: !
+Line 831: *
+Line 831: ID = path
+Line 831: )
+Line 832: return
+Line 832: ID = ERR_PTR
+Line 832: (
+Line 832: -
+Line 832: ID = EINVAL
+Line 832: )
+Line 832: ;
+Line 834: ID = error
+Line 834: =
+Line 834: ID = path_lookup
+Line 834: (
+Line 834: ID = path
+Line 834: ,
+Line 834: ID = LOOKUP_FOLLOW
+Line 834: ,
+Line 834: Unrecognized token: 38
+Line 834: ID = nd
+Line 834: )
+Line 834: ;
+Line 835: if
+Line 835: (
+Line 835: ID = error
+Line 835: )
+Line 836: return
+Line 836: ID = ERR_PTR
+Line 836: (
+Line 836: ID = error
+Line 836: )
+Line 836: ;
+Line 838: ID = inode
+Line 838: =
+Line 838: ID = nd
+Line 838: Unrecognized token: 46
+Line 838: ID = dentry
+Line 838: -
+Line 838: >
+Line 838: ID = d_inode
+Line 838: ;
+Line 839: ID = error
+Line 839: =
+Line 839: -
+Line 839: ID = ENOTBLK
+Line 839: ;
+Line 840: if
+Line 840: (
+Line 840: !
+Line 840: ID = S_ISBLK
+Line 840: (
+Line 840: ID = inode
+Line 840: -
+Line 840: >
+Line 840: ID = i_mode
+Line 840: )
+Line 840: )
+Line 841: ID = goto
+Line 841: ID = fail
+Line 841: ;
+Line 842: ID = error
+Line 842: =
+Line 842: -
+Line 842: ID = EACCES
+Line 842: ;
+Line 843: if
+Line 843: (
+Line 843: ID = nd
+Line 843: Unrecognized token: 46
+Line 843: ID = mnt
+Line 843: -
+Line 843: >
+Line 843: ID = mnt_flags
+Line 843: Unrecognized token: 38
+Line 843: ID = MNT_NODEV
+Line 843: )
+Line 844: ID = goto
+Line 844: ID = fail
+Line 844: ;
+Line 845: ID = error
+Line 845: =
+Line 845: -
+Line 845: ID = ENOMEM
+Line 845: ;
+Line 846: ID = bdev
+Line 846: =
+Line 846: ID = bd_acquire
+Line 846: (
+Line 846: ID = inode
+Line 846: )
+Line 846: ;
+Line 847: if
+Line 847: (
+Line 847: !
+Line 847: ID = bdev
+Line 847: )
+Line 848: ID = goto
+Line 848: ID = fail
+Line 848: ;
+Line 849: ID = out
+Line 849: Unrecognized token: 58
+Line 850: ID = path_release
+Line 850: (
+Line 850: Unrecognized token: 38
+Line 850: ID = nd
+Line 850: )
+Line 850: ;
+Line 851: return
+Line 851: ID = bdev
+Line 851: ;
+Line 852: ID = fail
+Line 852: Unrecognized token: 58
+Line 853: ID = bdev
+Line 853: =
+Line 853: ID = ERR_PTR
+Line 853: (
+Line 853: ID = error
+Line 853: )
+Line 853: ;
+Line 854: ID = goto
+Line 854: ID = out
+Line 854: ;
+Line 855: }
+Line 867: ID = struct
+Line 867: ID = block_device
+Line 867: *
+Line 867: ID = open_bdev_excl
+Line 867: (
+Line 867: ID = const
+Line 867: char
+Line 867: *
+Line 867: ID = path
+Line 867: ,
+Line 867: int
+Line 867: ID = flags
+Line 867: ,
+Line 867: void
+Line 867: *
+Line 867: ID = holder
+Line 867: )
+Line 868: {
+Line 869: ID = struct
+Line 869: ID = block_device
+Line 869: *
+Line 869: ID = bdev
+Line 869: ;
+Line 870: ID = mode_t
+Line 870: ID = mode
+Line 870: =
+Line 870: ID = FMODE_READ
+Line 870: ;
+Line 871: int
+Line 871: ID = error
+Line 871: =
+Line 871: INTCON = 0
+Line 871: ;
+Line 873: ID = bdev
+Line 873: =
+Line 873: ID = lookup_bdev
+Line 873: (
+Line 873: ID = path
+Line 873: )
+Line 873: ;
+Line 874: if
+Line 874: (
+Line 874: ID = IS_ERR
+Line 874: (
+Line 874: ID = bdev
+Line 874: )
+Line 874: )
+Line 875: return
+Line 875: ID = bdev
+Line 875: ;
+Line 877: if
+Line 877: (
+Line 877: !
+Line 877: (
+Line 877: ID = flags
+Line 877: Unrecognized token: 38
+Line 877: ID = MS_RDONLY
+Line 877: )
+Line 877: )
+Line 878: ID = mode
+Line 878: Unrecognized token: 124
+Line 878: =
+Line 878: ID = FMODE_WRITE
+Line 878: ;
+Line 879: ID = error
+Line 879: =
+Line 879: ID = blkdev_get
+Line 879: (
+Line 879: ID = bdev
+Line 879: ,
+Line 879: ID = mode
+Line 879: ,
+Line 879: INTCON = 0
+Line 879: )
+Line 879: ;
+Line 880: if
+Line 880: (
+Line 880: ID = error
+Line 880: )
+Line 881: return
+Line 881: ID = ERR_PTR
+Line 881: (
+Line 881: ID = error
+Line 881: )
+Line 881: ;
+Line 882: ID = error
+Line 882: =
+Line 882: -
+Line 882: ID = EACCES
+Line 882: ;
+Line 883: if
+Line 883: (
+Line 883: !
+Line 883: (
+Line 883: ID = flags
+Line 883: Unrecognized token: 38
+Line 883: ID = MS_RDONLY
+Line 883: )
+Line 883: &&
+Line 883: ID = bdev_read_only
+Line 883: (
+Line 883: ID = bdev
+Line 883: )
+Line 883: )
+Line 884: ID = goto
+Line 884: ID = blkdev_put
+Line 884: ;
+Line 885: ID = error
+Line 885: =
+Line 885: ID = bd_claim
+Line 885: (
+Line 885: ID = bdev
+Line 885: ,
+Line 885: ID = holder
+Line 885: )
+Line 885: ;
+Line 886: if
+Line 886: (
+Line 886: ID = error
+Line 886: )
+Line 887: ID = goto
+Line 887: ID = blkdev_put
+Line 887: ;
+Line 889: return
+Line 889: ID = bdev
+Line 889: ;
+Line 891: ID = blkdev_put
+Line 891: Unrecognized token: 58
+Line 892: ID = blkdev_put
+Line 892: (
+Line 892: ID = bdev
+Line 892: )
+Line 892: ;
+Line 893: return
+Line 893: ID = ERR_PTR
+Line 893: (
+Line 893: ID = error
+Line 893: )
+Line 893: ;
+Line 894: }
+Line 896: ID = EXPORT_SYMBOL
+Line 896: (
+Line 896: ID = open_bdev_excl
+Line 896: )
+Line 896: ;
+Line 905: void
+Line 905: ID = close_bdev_excl
+Line 905: (
+Line 905: ID = struct
+Line 905: ID = block_device
+Line 905: *
+Line 905: ID = bdev
+Line 905: )
+Line 906: {
+Line 907: ID = bd_release
+Line 907: (
+Line 907: ID = bdev
+Line 907: )
+Line 907: ;
+Line 908: ID = blkdev_put
+Line 908: (
+Line 908: ID = bdev
+Line 908: )
+Line 908: ;
+Line 909: }
+Line 911: ID = EXPORT_SYMBOL
+Line 911: (
+Line 911: ID = close_bdev_excl
+Line 911: )
+Line 911: ;
+Line 912: -EOF-

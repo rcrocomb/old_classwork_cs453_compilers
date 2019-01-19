@@ -1,0 +1,313 @@
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = config
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = kernel
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = module
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = proc_fs
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = seq_file
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = init
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = asm
+Line 32: /
+Line 32: ID = uaccess
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 47: Unrecognized token: 35
+Line 47: ID = define
+Line 47: ID = MAGIC_START
+Line 47: STRINGCON = "IKCFG_ST"
+Line 48: Unrecognized token: 35
+Line 48: ID = define
+Line 48: ID = MAGIC_END
+Line 48: STRINGCON = "IKCFG_ED"
+Line 49: Unrecognized token: 35
+Line 49: ID = include
+Line 49: STRINGCON = "config_data.h"
+Line 52: Unrecognized token: 35
+Line 52: ID = define
+Line 52: ID = MAGIC_SIZE
+Line 52: (
+Line 52: ID = sizeof
+Line 52: (
+Line 52: ID = MAGIC_START
+Line 52: )
+Line 52: -
+Line 52: INTCON = 1
+Line 52: )
+Line 53: Unrecognized token: 35
+Line 53: ID = define
+Line 53: ID = kernel_config_data_size
+Line 53: Unrecognized token: 92
+Line 54: (
+Line 54: ID = sizeof
+Line 54: (
+Line 54: ID = kernel_config_data
+Line 54: )
+Line 54: -
+Line 54: INTCON = 1
+Line 54: -
+Line 54: ID = MAGIC_SIZE
+Line 54: *
+Line 54: INTCON = 2
+Line 54: )
+Line 56: Unrecognized token: 35
+Line 56: ID = ifdef
+Line 56: ID = CONFIG_IKCONFIG_PROC
+Line 61: ID = static
+Line 61: ID = ssize_t
+Line 62: ID = ikconfig_read_current
+Line 62: (
+Line 62: ID = struct
+Line 62: ID = file
+Line 62: *
+Line 62: ID = file
+Line 62: ,
+Line 62: char
+Line 62: Unrecognized token: 95
+Line 62: Unrecognized token: 95
+Line 62: ID = user
+Line 62: *
+Line 62: ID = buf
+Line 62: ,
+Line 63: ID = size_t
+Line 63: ID = len
+Line 63: ,
+Line 63: ID = loff_t
+Line 63: *
+Line 63: ID = offset
+Line 63: )
+Line 64: {
+Line 65: ID = loff_t
+Line 65: ID = pos
+Line 65: =
+Line 65: *
+Line 65: ID = offset
+Line 65: ;
+Line 66: ID = ssize_t
+Line 66: ID = count
+Line 66: ;
+Line 68: if
+Line 68: (
+Line 68: ID = pos
+Line 68: >=
+Line 68: ID = kernel_config_data_size
+Line 68: )
+Line 69: return
+Line 69: INTCON = 0
+Line 69: ;
+Line 71: ID = count
+Line 71: =
+Line 71: ID = min
+Line 71: (
+Line 71: ID = len
+Line 71: ,
+Line 71: (
+Line 71: ID = size_t
+Line 71: )
+Line 71: (
+Line 71: ID = kernel_config_data_size
+Line 71: -
+Line 71: ID = pos
+Line 71: )
+Line 71: )
+Line 71: ;
+Line 72: if
+Line 72: (
+Line 72: ID = copy_to_user
+Line 72: (
+Line 72: ID = buf
+Line 72: ,
+Line 72: ID = kernel_config_data
+Line 72: +
+Line 72: ID = MAGIC_SIZE
+Line 72: +
+Line 72: ID = pos
+Line 72: ,
+Line 72: ID = count
+Line 72: )
+Line 72: )
+Line 73: return
+Line 73: -
+Line 73: ID = EFAULT
+Line 73: ;
+Line 75: *
+Line 75: ID = offset
+Line 75: +
+Line 75: =
+Line 75: ID = count
+Line 75: ;
+Line 76: return
+Line 76: ID = count
+Line 76: ;
+Line 77: }
+Line 79: ID = static
+Line 79: ID = struct
+Line 79: ID = file_operations
+Line 79: ID = ikconfig_file_ops
+Line 79: =
+Line 79: {
+Line 80: Unrecognized token: 46
+Line 80: ID = owner
+Line 80: =
+Line 80: ID = THIS_MODULE
+Line 80: ,
+Line 81: Unrecognized token: 46
+Line 81: ID = read
+Line 81: =
+Line 81: ID = ikconfig_read_current
+Line 81: ,
+Line 82: }
+Line 82: ;
+Line 87: ID = static
+Line 87: int
+Line 87: Unrecognized token: 95
+Line 87: Unrecognized token: 95
+Line 87: ID = init
+Line 87: ID = ikconfig_init
+Line 87: (
+Line 87: void
+Line 87: )
+Line 88: {
+Line 89: ID = struct
+Line 89: ID = proc_dir_entry
+Line 89: *
+Line 89: ID = entry
+Line 89: ;
+Line 92: ID = entry
+Line 92: =
+Line 92: ID = create_proc_entry
+Line 92: (
+Line 92: STRINGCON = "config.gz"
+Line 92: ,
+Line 92: ID = S_IFREG
+Line 92: Unrecognized token: 124
+Line 92: ID = S_IRUGO
+Line 92: ,
+Line 93: Unrecognized token: 38
+Line 93: ID = proc_root
+Line 93: )
+Line 93: ;
+Line 94: if
+Line 94: (
+Line 94: !
+Line 94: ID = entry
+Line 94: )
+Line 95: return
+Line 95: -
+Line 95: ID = ENOMEM
+Line 95: ;
+Line 97: ID = entry
+Line 97: -
+Line 97: >
+Line 97: ID = proc_fops
+Line 97: =
+Line 97: Unrecognized token: 38
+Line 97: ID = ikconfig_file_ops
+Line 97: ;
+Line 98: ID = entry
+Line 98: -
+Line 98: >
+Line 98: ID = size
+Line 98: =
+Line 98: ID = kernel_config_data_size
+Line 98: ;
+Line 100: return
+Line 100: INTCON = 0
+Line 100: ;
+Line 101: }
+Line 106: ID = static
+Line 106: void
+Line 106: Unrecognized token: 95
+Line 106: Unrecognized token: 95
+Line 106: ID = exit
+Line 106: ID = ikconfig_cleanup
+Line 106: (
+Line 106: void
+Line 106: )
+Line 107: {
+Line 108: ID = remove_proc_entry
+Line 108: (
+Line 108: STRINGCON = "config.gz"
+Line 108: ,
+Line 108: Unrecognized token: 38
+Line 108: ID = proc_root
+Line 108: )
+Line 108: ;
+Line 109: }
+Line 111: ID = module_init
+Line 111: (
+Line 111: ID = ikconfig_init
+Line 111: )
+Line 111: ;
+Line 112: ID = module_exit
+Line 112: (
+Line 112: ID = ikconfig_cleanup
+Line 112: )
+Line 112: ;
+Line 114: ID = MODULE_LICENSE
+Line 114: (
+Line 114: STRINGCON = "GPL"
+Line 114: )
+Line 114: ;
+Line 115: ID = MODULE_AUTHOR
+Line 115: (
+Line 115: STRINGCON = "Randy Dunlap"
+Line 115: )
+Line 115: ;
+Line 116: ID = MODULE_DESCRIPTION
+Line 116: (
+Line 116: STRINGCON = "Echo the kernel .config file used to build the kernel"
+Line 116: )
+Line 116: ;
+Line 118: Unrecognized token: 35
+Line 118: ID = endif
+Line 119: -EOF-

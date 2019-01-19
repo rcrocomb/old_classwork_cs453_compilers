@@ -1,0 +1,62 @@
+/*
+    3.3.3 Statements #2
+
+    The type of the expresssion in a return statement must be
+    compatible with the return type of that function.
+*/
+
+/* More complex return statements that should be okay. */
+
+int alpha(void)
+{
+    return 2 + 2;
+}
+
+int bravo(void)
+{
+    return 2 - 2;
+}
+
+int charlie(void)
+{
+    return 2 * 2;
+}
+
+int delta(void)
+{
+    return 2 / 2;
+}
+
+int echo(void)
+{
+    return -2;
+}
+
+/* Moving from int to char */
+
+
+char foxtrot(void)
+{
+    return 2 + 2;
+}
+
+char golf(void)
+{
+    return 2 - 2;
+}
+
+char hotel(void)
+{
+    return 2 * 2;
+}
+
+char juliet(void)
+{
+    return 2 / 2;
+}
+
+char kilo(void)
+{
+    return -2;
+}
+

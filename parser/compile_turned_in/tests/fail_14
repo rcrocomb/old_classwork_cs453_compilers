@@ -1,0 +1,2 @@
+/* not in C-- */
+extern bob(int x[42]);

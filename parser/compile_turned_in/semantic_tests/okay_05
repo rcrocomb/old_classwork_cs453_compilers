@@ -1,0 +1,14 @@
+void a(void);
+
+void b(void)
+{
+    int a;
+}
+
+int d;
+
+void e(void)
+{
+    char d;
+}
+

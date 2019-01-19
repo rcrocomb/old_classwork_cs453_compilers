@@ -1,0 +1,72 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+
+void
+main(void)
+{
+    int a, b ,c;
+    a = 1;
+    b = 1;
+
+    if (a != b)
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+
+    if (a == b)
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+    if (a < b)
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+
+    if (a <= b)
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+    if (a > b)
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+
+    if (a >= b)
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+
+    if ( !(a != b))
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+    if ( !(a == b))
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+
+    if ( !(a < b))
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+    if ( !(a <= b))
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+
+    if ( !(a > b))
+        print_string("PASS\n");
+    else
+        print_string("FAIL\n");
+
+    if ( !(a >= b))
+        print_string("FAIL\n");
+    else
+        print_string("PASS\n");
+}

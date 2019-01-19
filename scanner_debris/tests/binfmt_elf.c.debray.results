@@ -1,0 +1,8266 @@
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = module
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = kernel
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = fs
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = stat
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = time
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = mm
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = mman
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = a
+Line 19: Unrecognized token: 46
+Line 19: ID = out
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = errno
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = signal
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = binfmts
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = string
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = file
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = fcntl
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = ptrace
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = slab
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = shm
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = personality
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = elfcore
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = init
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = highuid
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = smp
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = smp_lock
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = compiler
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = highmem
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = pagemap
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 38: Unrecognized token: 35
+Line 38: ID = include
+Line 38: <
+Line 38: ID = linux
+Line 38: /
+Line 38: ID = security
+Line 38: Unrecognized token: 46
+Line 38: ID = h
+Line 38: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = linux
+Line 39: /
+Line 39: ID = syscalls
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = asm
+Line 41: /
+Line 41: ID = uaccess
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = asm
+Line 42: /
+Line 42: ID = param
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 44: Unrecognized token: 35
+Line 44: ID = include
+Line 44: <
+Line 44: ID = linux
+Line 44: /
+Line 44: ID = elf
+Line 44: Unrecognized token: 46
+Line 44: ID = h
+Line 44: >
+Line 46: ID = static
+Line 46: int
+Line 46: ID = load_elf_binary
+Line 46: (
+Line 46: ID = struct
+Line 46: ID = linux_binprm
+Line 46: *
+Line 46: ID = bprm
+Line 46: ,
+Line 46: ID = struct
+Line 46: ID = pt_regs
+Line 46: *
+Line 46: ID = regs
+Line 46: )
+Line 46: ;
+Line 47: ID = static
+Line 47: int
+Line 47: ID = load_elf_library
+Line 47: (
+Line 47: ID = struct
+Line 47: ID = file
+Line 47: *
+Line 47: )
+Line 47: ;
+Line 48: ID = static
+Line 48: ID = unsigned
+Line 48: ID = long
+Line 48: ID = elf_map
+Line 48: (
+Line 48: ID = struct
+Line 48: ID = file
+Line 48: *
+Line 48: ,
+Line 48: ID = unsigned
+Line 48: ID = long
+Line 48: ,
+Line 48: ID = struct
+Line 48: ID = elf_phdr
+Line 48: *
+Line 48: ,
+Line 48: int
+Line 48: ,
+Line 48: int
+Line 48: )
+Line 48: ;
+Line 49: extern
+Line 49: int
+Line 49: ID = dump_fpu
+Line 49: (
+Line 49: ID = struct
+Line 49: ID = pt_regs
+Line 49: *
+Line 49: ,
+Line 49: ID = elf_fpregset_t
+Line 49: *
+Line 49: )
+Line 49: ;
+Line 51: Unrecognized token: 35
+Line 51: ID = ifndef
+Line 51: ID = elf_addr_t
+Line 52: Unrecognized token: 35
+Line 52: ID = define
+Line 52: ID = elf_addr_t
+Line 52: ID = unsigned
+Line 52: ID = long
+Line 53: Unrecognized token: 35
+Line 53: ID = endif
+Line 59: Unrecognized token: 35
+Line 59: ID = ifdef
+Line 59: ID = USE_ELF_CORE_DUMP
+Line 60: ID = static
+Line 60: int
+Line 60: ID = elf_core_dump
+Line 60: (
+Line 60: ID = long
+Line 60: ID = signr
+Line 60: ,
+Line 60: ID = struct
+Line 60: ID = pt_regs
+Line 60: *
+Line 60: ID = regs
+Line 60: ,
+Line 60: ID = struct
+Line 60: ID = file
+Line 60: *
+Line 60: ID = file
+Line 60: )
+Line 60: ;
+Line 61: Unrecognized token: 35
+Line 61: else
+Line 62: Unrecognized token: 35
+Line 62: ID = define
+Line 62: ID = elf_core_dump
+Line 62: ID = NULL
+Line 63: Unrecognized token: 35
+Line 63: ID = endif
+Line 65: Unrecognized token: 35
+Line 65: if
+Line 65: ID = ELF_EXEC_PAGESIZE
+Line 65: >
+Line 65: ID = PAGE_SIZE
+Line 66: Unrecognized token: 35
+Line 66: ID = define
+Line 66: ID = ELF_MIN_ALIGN
+Line 66: ID = ELF_EXEC_PAGESIZE
+Line 67: Unrecognized token: 35
+Line 67: else
+Line 68: Unrecognized token: 35
+Line 68: ID = define
+Line 68: ID = ELF_MIN_ALIGN
+Line 68: ID = PAGE_SIZE
+Line 69: Unrecognized token: 35
+Line 69: ID = endif
+Line 71: Unrecognized token: 35
+Line 71: ID = define
+Line 71: ID = ELF_PAGESTART
+Line 71: (
+Line 71: Unrecognized token: 95
+Line 71: ID = v
+Line 71: )
+Line 71: (
+Line 71: (
+Line 71: Unrecognized token: 95
+Line 71: ID = v
+Line 71: )
+Line 71: Unrecognized token: 38
+Line 71: Unrecognized token: 126
+Line 71: (
+Line 71: ID = unsigned
+Line 71: ID = long
+Line 71: )
+Line 71: (
+Line 71: ID = ELF_MIN_ALIGN
+Line 71: -
+Line 71: INTCON = 1
+Line 71: )
+Line 71: )
+Line 72: Unrecognized token: 35
+Line 72: ID = define
+Line 72: ID = ELF_PAGEOFFSET
+Line 72: (
+Line 72: Unrecognized token: 95
+Line 72: ID = v
+Line 72: )
+Line 72: (
+Line 72: (
+Line 72: Unrecognized token: 95
+Line 72: ID = v
+Line 72: )
+Line 72: Unrecognized token: 38
+Line 72: (
+Line 72: ID = ELF_MIN_ALIGN
+Line 72: -
+Line 72: INTCON = 1
+Line 72: )
+Line 72: )
+Line 73: Unrecognized token: 35
+Line 73: ID = define
+Line 73: ID = ELF_PAGEALIGN
+Line 73: (
+Line 73: Unrecognized token: 95
+Line 73: ID = v
+Line 73: )
+Line 73: (
+Line 73: (
+Line 73: (
+Line 73: Unrecognized token: 95
+Line 73: ID = v
+Line 73: )
+Line 73: +
+Line 73: ID = ELF_MIN_ALIGN
+Line 73: -
+Line 73: INTCON = 1
+Line 73: )
+Line 73: Unrecognized token: 38
+Line 73: Unrecognized token: 126
+Line 73: (
+Line 73: ID = ELF_MIN_ALIGN
+Line 73: -
+Line 73: INTCON = 1
+Line 73: )
+Line 73: )
+Line 75: ID = static
+Line 75: ID = struct
+Line 75: ID = linux_binfmt
+Line 75: ID = elf_format
+Line 75: =
+Line 75: {
+Line 76: Unrecognized token: 46
+Line 76: ID = module
+Line 76: =
+Line 76: ID = THIS_MODULE
+Line 76: ,
+Line 77: Unrecognized token: 46
+Line 77: ID = load_binary
+Line 77: =
+Line 77: ID = load_elf_binary
+Line 77: ,
+Line 78: Unrecognized token: 46
+Line 78: ID = load_shlib
+Line 78: =
+Line 78: ID = load_elf_library
+Line 78: ,
+Line 79: Unrecognized token: 46
+Line 79: ID = core_dump
+Line 79: =
+Line 79: ID = elf_core_dump
+Line 79: ,
+Line 80: Unrecognized token: 46
+Line 80: ID = min_coredump
+Line 80: =
+Line 80: ID = ELF_EXEC_PAGESIZE
+Line 81: }
+Line 81: ;
+Line 83: Unrecognized token: 35
+Line 83: ID = define
+Line 83: ID = BAD_ADDR
+Line 83: (
+Line 83: ID = x
+Line 83: )
+Line 83: (
+Line 83: (
+Line 83: ID = unsigned
+Line 83: ID = long
+Line 83: )
+Line 83: (
+Line 83: ID = x
+Line 83: )
+Line 83: >
+Line 83: ID = TASK_SIZE
+Line 83: )
+Line 85: ID = static
+Line 85: int
+Line 85: ID = set_brk
+Line 85: (
+Line 85: ID = unsigned
+Line 85: ID = long
+Line 85: ID = start
+Line 85: ,
+Line 85: ID = unsigned
+Line 85: ID = long
+Line 85: ID = end
+Line 85: )
+Line 86: {
+Line 87: ID = start
+Line 87: =
+Line 87: ID = ELF_PAGEALIGN
+Line 87: (
+Line 87: ID = start
+Line 87: )
+Line 87: ;
+Line 88: ID = end
+Line 88: =
+Line 88: ID = ELF_PAGEALIGN
+Line 88: (
+Line 88: ID = end
+Line 88: )
+Line 88: ;
+Line 89: if
+Line 89: (
+Line 89: ID = end
+Line 89: >
+Line 89: ID = start
+Line 89: )
+Line 89: {
+Line 90: ID = unsigned
+Line 90: ID = long
+Line 90: ID = addr
+Line 90: =
+Line 90: ID = do_brk
+Line 90: (
+Line 90: ID = start
+Line 90: ,
+Line 90: ID = end
+Line 90: -
+Line 90: ID = start
+Line 90: )
+Line 90: ;
+Line 91: if
+Line 91: (
+Line 91: ID = BAD_ADDR
+Line 91: (
+Line 91: ID = addr
+Line 91: )
+Line 91: )
+Line 92: return
+Line 92: ID = addr
+Line 92: ;
+Line 93: }
+Line 94: ID = current
+Line 94: -
+Line 94: >
+Line 94: ID = mm
+Line 94: -
+Line 94: >
+Line 94: ID = start_brk
+Line 94: =
+Line 94: ID = current
+Line 94: -
+Line 94: >
+Line 94: ID = mm
+Line 94: -
+Line 94: >
+Line 94: ID = brk
+Line 94: =
+Line 94: ID = end
+Line 94: ;
+Line 95: return
+Line 95: INTCON = 0
+Line 95: ;
+Line 96: }
+Line 105: ID = static
+Line 105: void
+Line 105: ID = padzero
+Line 105: (
+Line 105: ID = unsigned
+Line 105: ID = long
+Line 105: ID = elf_bss
+Line 105: )
+Line 106: {
+Line 107: ID = unsigned
+Line 107: ID = long
+Line 107: ID = nbyte
+Line 107: ;
+Line 109: ID = nbyte
+Line 109: =
+Line 109: ID = ELF_PAGEOFFSET
+Line 109: (
+Line 109: ID = elf_bss
+Line 109: )
+Line 109: ;
+Line 110: if
+Line 110: (
+Line 110: ID = nbyte
+Line 110: )
+Line 110: {
+Line 111: ID = nbyte
+Line 111: =
+Line 111: ID = ELF_MIN_ALIGN
+Line 111: -
+Line 111: ID = nbyte
+Line 111: ;
+Line 112: ID = clear_user
+Line 112: (
+Line 112: (
+Line 112: void
+Line 112: Unrecognized token: 95
+Line 112: Unrecognized token: 95
+Line 112: ID = user
+Line 112: *
+Line 112: )
+Line 112: ID = elf_bss
+Line 112: ,
+Line 112: ID = nbyte
+Line 112: )
+Line 112: ;
+Line 113: }
+Line 114: }
+Line 117: Unrecognized token: 35
+Line 117: ID = ifdef
+Line 117: ID = CONFIG_STACK_GROWSUP
+Line 118: Unrecognized token: 35
+Line 118: ID = define
+Line 118: ID = STACK_ADD
+Line 118: (
+Line 118: ID = sp
+Line 118: ,
+Line 118: ID = items
+Line 118: )
+Line 118: (
+Line 118: (
+Line 118: ID = elf_addr_t
+Line 118: Unrecognized token: 95
+Line 118: Unrecognized token: 95
+Line 118: ID = user
+Line 118: *
+Line 118: )
+Line 118: (
+Line 118: ID = sp
+Line 118: )
+Line 118: +
+Line 118: (
+Line 118: ID = items
+Line 118: )
+Line 118: )
+Line 119: Unrecognized token: 35
+Line 119: ID = define
+Line 119: ID = STACK_ROUND
+Line 119: (
+Line 119: ID = sp
+Line 119: ,
+Line 119: ID = items
+Line 119: )
+Line 119: Unrecognized token: 92
+Line 120: (
+Line 120: (
+Line 120: INTCON = 15
+Line 120: +
+Line 120: (
+Line 120: ID = unsigned
+Line 120: ID = long
+Line 120: )
+Line 120: (
+Line 120: (
+Line 120: ID = sp
+Line 120: )
+Line 120: +
+Line 120: (
+Line 120: ID = items
+Line 120: )
+Line 120: )
+Line 120: )
+Line 120: Unrecognized token: 38
+Line 120: Unrecognized token: 126
+Line 120: INTCON = 15
+Line 120: ID = UL
+Line 120: )
+Line 121: Unrecognized token: 35
+Line 121: ID = define
+Line 121: ID = STACK_ALLOC
+Line 121: (
+Line 121: ID = sp
+Line 121: ,
+Line 121: ID = len
+Line 121: )
+Line 121: (
+Line 121: {
+Line 121: ID = elf_addr_t
+Line 121: Unrecognized token: 95
+Line 121: Unrecognized token: 95
+Line 121: ID = user
+Line 121: *
+Line 121: ID = old_sp
+Line 121: =
+Line 121: (
+Line 121: ID = elf_addr_t
+Line 121: Unrecognized token: 95
+Line 121: Unrecognized token: 95
+Line 121: ID = user
+Line 121: *
+Line 121: )
+Line 121: ID = sp
+Line 121: ;
+Line 121: ID = sp
+Line 121: +
+Line 121: =
+Line 121: ID = len
+Line 121: ;
+Line 121: ID = old_sp
+Line 121: ;
+Line 121: }
+Line 121: )
+Line 122: Unrecognized token: 35
+Line 122: else
+Line 123: Unrecognized token: 35
+Line 123: ID = define
+Line 123: ID = STACK_ADD
+Line 123: (
+Line 123: ID = sp
+Line 123: ,
+Line 123: ID = items
+Line 123: )
+Line 123: (
+Line 123: (
+Line 123: ID = elf_addr_t
+Line 123: Unrecognized token: 95
+Line 123: Unrecognized token: 95
+Line 123: ID = user
+Line 123: *
+Line 123: )
+Line 123: (
+Line 123: ID = sp
+Line 123: )
+Line 123: -
+Line 123: (
+Line 123: ID = items
+Line 123: )
+Line 123: )
+Line 124: Unrecognized token: 35
+Line 124: ID = define
+Line 124: ID = STACK_ROUND
+Line 124: (
+Line 124: ID = sp
+Line 124: ,
+Line 124: ID = items
+Line 124: )
+Line 124: Unrecognized token: 92
+Line 125: (
+Line 125: (
+Line 125: (
+Line 125: ID = unsigned
+Line 125: ID = long
+Line 125: )
+Line 125: (
+Line 125: ID = sp
+Line 125: -
+Line 125: ID = items
+Line 125: )
+Line 125: )
+Line 125: Unrecognized token: 38
+Line 125: Unrecognized token: 126
+Line 125: INTCON = 15
+Line 125: ID = UL
+Line 125: )
+Line 126: Unrecognized token: 35
+Line 126: ID = define
+Line 126: ID = STACK_ALLOC
+Line 126: (
+Line 126: ID = sp
+Line 126: ,
+Line 126: ID = len
+Line 126: )
+Line 126: (
+Line 126: {
+Line 126: ID = sp
+Line 126: -
+Line 126: =
+Line 126: ID = len
+Line 126: ;
+Line 126: ID = sp
+Line 126: ;
+Line 126: }
+Line 126: )
+Line 127: Unrecognized token: 35
+Line 127: ID = endif
+Line 129: ID = static
+Line 129: void
+Line 130: ID = create_elf_tables
+Line 130: (
+Line 130: ID = struct
+Line 130: ID = linux_binprm
+Line 130: *
+Line 130: ID = bprm
+Line 130: ,
+Line 130: ID = struct
+Line 130: ID = elfhdr
+Line 130: *
+Line 130: ID = exec
+Line 130: ,
+Line 131: int
+Line 131: ID = interp_aout
+Line 131: ,
+Line 131: ID = unsigned
+Line 131: ID = long
+Line 131: ID = load_addr
+Line 131: ,
+Line 132: ID = unsigned
+Line 132: ID = long
+Line 132: ID = interp_load_addr
+Line 132: )
+Line 133: {
+Line 134: ID = unsigned
+Line 134: ID = long
+Line 134: ID = p
+Line 134: =
+Line 134: ID = bprm
+Line 134: -
+Line 134: >
+Line 134: ID = p
+Line 134: ;
+Line 135: int
+Line 135: ID = argc
+Line 135: =
+Line 135: ID = bprm
+Line 135: -
+Line 135: >
+Line 135: ID = argc
+Line 135: ;
+Line 136: int
+Line 136: ID = envc
+Line 136: =
+Line 136: ID = bprm
+Line 136: -
+Line 136: >
+Line 136: ID = envc
+Line 136: ;
+Line 137: ID = elf_addr_t
+Line 137: Unrecognized token: 95
+Line 137: Unrecognized token: 95
+Line 137: ID = user
+Line 137: *
+Line 137: ID = argv
+Line 137: ;
+Line 138: ID = elf_addr_t
+Line 138: Unrecognized token: 95
+Line 138: Unrecognized token: 95
+Line 138: ID = user
+Line 138: *
+Line 138: ID = envp
+Line 138: ;
+Line 139: ID = elf_addr_t
+Line 139: Unrecognized token: 95
+Line 139: Unrecognized token: 95
+Line 139: ID = user
+Line 139: *
+Line 139: ID = sp
+Line 139: ;
+Line 140: ID = elf_addr_t
+Line 140: Unrecognized token: 95
+Line 140: Unrecognized token: 95
+Line 140: ID = user
+Line 140: *
+Line 140: ID = u_platform
+Line 140: ;
+Line 141: ID = const
+Line 141: char
+Line 141: *
+Line 141: ID = k_platform
+Line 141: =
+Line 141: ID = ELF_PLATFORM
+Line 141: ;
+Line 142: int
+Line 142: ID = items
+Line 142: ;
+Line 143: ID = elf_addr_t
+Line 143: *
+Line 143: ID = elf_info
+Line 143: ;
+Line 144: int
+Line 144: ID = ei_index
+Line 144: =
+Line 144: INTCON = 0
+Line 144: ;
+Line 145: ID = struct
+Line 145: ID = task_struct
+Line 145: *
+Line 145: ID = tsk
+Line 145: =
+Line 145: ID = current
+Line 145: ;
+Line 154: ID = u_platform
+Line 154: =
+Line 154: ID = NULL
+Line 154: ;
+Line 155: if
+Line 155: (
+Line 155: ID = k_platform
+Line 155: )
+Line 155: {
+Line 156: ID = size_t
+Line 156: ID = len
+Line 156: =
+Line 156: ID = strlen
+Line 156: (
+Line 156: ID = k_platform
+Line 156: )
+Line 156: +
+Line 156: INTCON = 1
+Line 156: ;
+Line 158: Unrecognized token: 35
+Line 158: ID = ifdef
+Line 158: ID = CONFIG_X86_HT
+Line 170: if
+Line 170: (
+Line 170: ID = smp_num_siblings
+Line 170: >
+Line 170: INTCON = 1
+Line 170: )
+Line 171: ID = STACK_ALLOC
+Line 171: (
+Line 171: ID = p
+Line 171: ,
+Line 171: (
+Line 171: (
+Line 171: ID = current
+Line 171: -
+Line 171: >
+Line 171: ID = pid
+Line 171: Unrecognized token: 37
+Line 171: INTCON = 64
+Line 171: )
+Line 171: <
+Line 171: <
+Line 171: INTCON = 7
+Line 171: )
+Line 171: )
+Line 171: ;
+Line 172: Unrecognized token: 35
+Line 172: ID = endif
+Line 173: ID = u_platform
+Line 173: =
+Line 173: (
+Line 173: ID = elf_addr_t
+Line 173: Unrecognized token: 95
+Line 173: Unrecognized token: 95
+Line 173: ID = user
+Line 173: *
+Line 173: )
+Line 173: ID = STACK_ALLOC
+Line 173: (
+Line 173: ID = p
+Line 173: ,
+Line 173: ID = len
+Line 173: )
+Line 173: ;
+Line 174: Unrecognized token: 95
+Line 174: Unrecognized token: 95
+Line 174: ID = copy_to_user
+Line 174: (
+Line 174: ID = u_platform
+Line 174: ,
+Line 174: ID = k_platform
+Line 174: ,
+Line 174: ID = len
+Line 174: )
+Line 174: ;
+Line 175: }
+Line 178: ID = elf_info
+Line 178: =
+Line 178: (
+Line 178: ID = elf_addr_t
+Line 178: *
+Line 178: )
+Line 178: ID = current
+Line 178: -
+Line 178: >
+Line 178: ID = mm
+Line 178: -
+Line 178: >
+Line 178: ID = saved_auxv
+Line 178: ;
+Line 179: Unrecognized token: 35
+Line 179: ID = define
+Line 179: ID = NEW_AUX_ENT
+Line 179: (
+Line 179: ID = id
+Line 179: ,
+Line 179: ID = val
+Line 179: )
+Line 179: Unrecognized token: 92
+Line 180: ID = do
+Line 180: {
+Line 180: ID = elf_info
+Line 180: [
+Line 180: ID = ei_index
+Line 180: +
+Line 180: +
+Line 180: ]
+Line 180: =
+Line 180: ID = id
+Line 180: ;
+Line 180: ID = elf_info
+Line 180: [
+Line 180: ID = ei_index
+Line 180: +
+Line 180: +
+Line 180: ]
+Line 180: =
+Line 180: ID = val
+Line 180: ;
+Line 180: }
+Line 180: while
+Line 180: (
+Line 180: INTCON = 0
+Line 180: )
+Line 182: Unrecognized token: 35
+Line 182: ID = ifdef
+Line 182: ID = ARCH_DLINFO
+Line 187: ID = ARCH_DLINFO
+Line 187: ;
+Line 188: Unrecognized token: 35
+Line 188: ID = endif
+Line 189: ID = NEW_AUX_ENT
+Line 189: (
+Line 189: ID = AT_HWCAP
+Line 189: ,
+Line 189: ID = ELF_HWCAP
+Line 189: )
+Line 189: ;
+Line 190: ID = NEW_AUX_ENT
+Line 190: (
+Line 190: ID = AT_PAGESZ
+Line 190: ,
+Line 190: ID = ELF_EXEC_PAGESIZE
+Line 190: )
+Line 190: ;
+Line 191: ID = NEW_AUX_ENT
+Line 191: (
+Line 191: ID = AT_CLKTCK
+Line 191: ,
+Line 191: ID = CLOCKS_PER_SEC
+Line 191: )
+Line 191: ;
+Line 192: ID = NEW_AUX_ENT
+Line 192: (
+Line 192: ID = AT_PHDR
+Line 192: ,
+Line 192: ID = load_addr
+Line 192: +
+Line 192: ID = exec
+Line 192: -
+Line 192: >
+Line 192: ID = e_phoff
+Line 192: )
+Line 192: ;
+Line 193: ID = NEW_AUX_ENT
+Line 193: (
+Line 193: ID = AT_PHENT
+Line 193: ,
+Line 193: ID = sizeof
+Line 193: (
+Line 193: ID = struct
+Line 193: ID = elf_phdr
+Line 193: )
+Line 193: )
+Line 193: ;
+Line 194: ID = NEW_AUX_ENT
+Line 194: (
+Line 194: ID = AT_PHNUM
+Line 194: ,
+Line 194: ID = exec
+Line 194: -
+Line 194: >
+Line 194: ID = e_phnum
+Line 194: )
+Line 194: ;
+Line 195: ID = NEW_AUX_ENT
+Line 195: (
+Line 195: ID = AT_BASE
+Line 195: ,
+Line 195: ID = interp_load_addr
+Line 195: )
+Line 195: ;
+Line 196: ID = NEW_AUX_ENT
+Line 196: (
+Line 196: ID = AT_FLAGS
+Line 196: ,
+Line 196: INTCON = 0
+Line 196: )
+Line 196: ;
+Line 197: ID = NEW_AUX_ENT
+Line 197: (
+Line 197: ID = AT_ENTRY
+Line 197: ,
+Line 197: ID = exec
+Line 197: -
+Line 197: >
+Line 197: ID = e_entry
+Line 197: )
+Line 197: ;
+Line 198: ID = NEW_AUX_ENT
+Line 198: (
+Line 198: ID = AT_UID
+Line 198: ,
+Line 198: (
+Line 198: ID = elf_addr_t
+Line 198: )
+Line 198: ID = tsk
+Line 198: -
+Line 198: >
+Line 198: ID = uid
+Line 198: )
+Line 198: ;
+Line 199: ID = NEW_AUX_ENT
+Line 199: (
+Line 199: ID = AT_EUID
+Line 199: ,
+Line 199: (
+Line 199: ID = elf_addr_t
+Line 199: )
+Line 199: ID = tsk
+Line 199: -
+Line 199: >
+Line 199: ID = euid
+Line 199: )
+Line 199: ;
+Line 200: ID = NEW_AUX_ENT
+Line 200: (
+Line 200: ID = AT_GID
+Line 200: ,
+Line 200: (
+Line 200: ID = elf_addr_t
+Line 200: )
+Line 200: ID = tsk
+Line 200: -
+Line 200: >
+Line 200: ID = gid
+Line 200: )
+Line 200: ;
+Line 201: ID = NEW_AUX_ENT
+Line 201: (
+Line 201: ID = AT_EGID
+Line 201: ,
+Line 201: (
+Line 201: ID = elf_addr_t
+Line 201: )
+Line 201: ID = tsk
+Line 201: -
+Line 201: >
+Line 201: ID = egid
+Line 201: )
+Line 201: ;
+Line 202: ID = NEW_AUX_ENT
+Line 202: (
+Line 202: ID = AT_SECURE
+Line 202: ,
+Line 202: (
+Line 202: ID = elf_addr_t
+Line 202: )
+Line 202: ID = security_bprm_secureexec
+Line 202: (
+Line 202: ID = bprm
+Line 202: )
+Line 202: )
+Line 202: ;
+Line 203: if
+Line 203: (
+Line 203: ID = k_platform
+Line 203: )
+Line 203: {
+Line 204: ID = NEW_AUX_ENT
+Line 204: (
+Line 204: ID = AT_PLATFORM
+Line 204: ,
+Line 204: (
+Line 204: ID = elf_addr_t
+Line 204: )
+Line 204: (
+Line 204: ID = unsigned
+Line 204: ID = long
+Line 204: )
+Line 204: ID = u_platform
+Line 204: )
+Line 204: ;
+Line 205: }
+Line 206: if
+Line 206: (
+Line 206: ID = bprm
+Line 206: -
+Line 206: >
+Line 206: ID = interp_flags
+Line 206: Unrecognized token: 38
+Line 206: ID = BINPRM_FLAGS_EXECFD
+Line 206: )
+Line 206: {
+Line 207: ID = NEW_AUX_ENT
+Line 207: (
+Line 207: ID = AT_EXECFD
+Line 207: ,
+Line 207: (
+Line 207: ID = elf_addr_t
+Line 207: )
+Line 207: ID = bprm
+Line 207: -
+Line 207: >
+Line 207: ID = interp_data
+Line 207: )
+Line 207: ;
+Line 208: }
+Line 209: Unrecognized token: 35
+Line 209: ID = undef
+Line 209: ID = NEW_AUX_ENT
+Line 211: ID = memset
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = elf_info
+Line 211: [
+Line 211: ID = ei_index
+Line 211: ]
+Line 211: ,
+Line 211: INTCON = 0
+Line 211: ,
+Line 212: ID = sizeof
+Line 212: ID = current
+Line 212: -
+Line 212: >
+Line 212: ID = mm
+Line 212: -
+Line 212: >
+Line 212: ID = saved_auxv
+Line 212: -
+Line 212: ID = ei_index
+Line 212: *
+Line 212: ID = sizeof
+Line 212: ID = elf_info
+Line 212: [
+Line 212: INTCON = 0
+Line 212: ]
+Line 212: )
+Line 212: ;
+Line 215: ID = ei_index
+Line 215: +
+Line 215: =
+Line 215: INTCON = 2
+Line 215: ;
+Line 217: ID = sp
+Line 217: =
+Line 217: ID = STACK_ADD
+Line 217: (
+Line 217: ID = p
+Line 217: ,
+Line 217: ID = ei_index
+Line 217: )
+Line 217: ;
+Line 219: ID = items
+Line 219: =
+Line 219: (
+Line 219: ID = argc
+Line 219: +
+Line 219: INTCON = 1
+Line 219: )
+Line 219: +
+Line 219: (
+Line 219: ID = envc
+Line 219: +
+Line 219: INTCON = 1
+Line 219: )
+Line 219: ;
+Line 220: if
+Line 220: (
+Line 220: ID = interp_aout
+Line 220: )
+Line 220: {
+Line 221: ID = items
+Line 221: +
+Line 221: =
+Line 221: INTCON = 3
+Line 221: ;
+Line 222: }
+Line 222: else
+Line 222: {
+Line 223: ID = items
+Line 223: +
+Line 223: =
+Line 223: INTCON = 1
+Line 223: ;
+Line 224: }
+Line 225: ID = bprm
+Line 225: -
+Line 225: >
+Line 225: ID = p
+Line 225: =
+Line 225: ID = STACK_ROUND
+Line 225: (
+Line 225: ID = sp
+Line 225: ,
+Line 225: ID = items
+Line 225: )
+Line 225: ;
+Line 228: Unrecognized token: 35
+Line 228: ID = ifdef
+Line 228: ID = CONFIG_STACK_GROWSUP
+Line 229: ID = sp
+Line 229: =
+Line 229: (
+Line 229: ID = elf_addr_t
+Line 229: Unrecognized token: 95
+Line 229: Unrecognized token: 95
+Line 229: ID = user
+Line 229: *
+Line 229: )
+Line 229: ID = bprm
+Line 229: -
+Line 229: >
+Line 229: ID = p
+Line 229: -
+Line 229: ID = items
+Line 229: -
+Line 229: ID = ei_index
+Line 229: ;
+Line 230: ID = bprm
+Line 230: -
+Line 230: >
+Line 230: ID = exec
+Line 230: =
+Line 230: (
+Line 230: ID = unsigned
+Line 230: ID = long
+Line 230: )
+Line 230: ID = sp
+Line 230: ;
+Line 231: Unrecognized token: 35
+Line 231: else
+Line 232: ID = sp
+Line 232: =
+Line 232: (
+Line 232: ID = elf_addr_t
+Line 232: Unrecognized token: 95
+Line 232: Unrecognized token: 95
+Line 232: ID = user
+Line 232: *
+Line 232: )
+Line 232: ID = bprm
+Line 232: -
+Line 232: >
+Line 232: ID = p
+Line 232: ;
+Line 233: Unrecognized token: 35
+Line 233: ID = endif
+Line 236: Unrecognized token: 95
+Line 236: Unrecognized token: 95
+Line 236: ID = put_user
+Line 236: (
+Line 236: ID = argc
+Line 236: ,
+Line 236: ID = sp
+Line 236: +
+Line 236: +
+Line 236: )
+Line 236: ;
+Line 237: if
+Line 237: (
+Line 237: ID = interp_aout
+Line 237: )
+Line 237: {
+Line 238: ID = argv
+Line 238: =
+Line 238: ID = sp
+Line 238: +
+Line 238: INTCON = 2
+Line 238: ;
+Line 239: ID = envp
+Line 239: =
+Line 239: ID = argv
+Line 239: +
+Line 239: ID = argc
+Line 239: +
+Line 239: INTCON = 1
+Line 239: ;
+Line 240: Unrecognized token: 95
+Line 240: Unrecognized token: 95
+Line 240: ID = put_user
+Line 240: (
+Line 240: (
+Line 240: ID = elf_addr_t
+Line 240: )
+Line 240: (
+Line 240: ID = unsigned
+Line 240: ID = long
+Line 240: )
+Line 240: ID = argv
+Line 240: ,
+Line 240: ID = sp
+Line 240: +
+Line 240: +
+Line 240: )
+Line 240: ;
+Line 241: Unrecognized token: 95
+Line 241: Unrecognized token: 95
+Line 241: ID = put_user
+Line 241: (
+Line 241: (
+Line 241: ID = elf_addr_t
+Line 241: )
+Line 241: (
+Line 241: ID = unsigned
+Line 241: ID = long
+Line 241: )
+Line 241: ID = envp
+Line 241: ,
+Line 241: ID = sp
+Line 241: +
+Line 241: +
+Line 241: )
+Line 241: ;
+Line 242: }
+Line 242: else
+Line 242: {
+Line 243: ID = argv
+Line 243: =
+Line 243: ID = sp
+Line 243: ;
+Line 244: ID = envp
+Line 244: =
+Line 244: ID = argv
+Line 244: +
+Line 244: ID = argc
+Line 244: +
+Line 244: INTCON = 1
+Line 244: ;
+Line 245: }
+Line 248: ID = p
+Line 248: =
+Line 248: ID = current
+Line 248: -
+Line 248: >
+Line 248: ID = mm
+Line 248: -
+Line 248: >
+Line 248: ID = arg_start
+Line 248: ;
+Line 249: while
+Line 249: (
+Line 249: ID = argc
+Line 249: -
+Line 249: -
+Line 249: >
+Line 249: INTCON = 0
+Line 249: )
+Line 249: {
+Line 250: ID = size_t
+Line 250: ID = len
+Line 250: ;
+Line 251: Unrecognized token: 95
+Line 251: Unrecognized token: 95
+Line 251: ID = put_user
+Line 251: (
+Line 251: (
+Line 251: ID = elf_addr_t
+Line 251: )
+Line 251: ID = p
+Line 251: ,
+Line 251: ID = argv
+Line 251: +
+Line 251: +
+Line 251: )
+Line 251: ;
+Line 252: ID = len
+Line 252: =
+Line 252: ID = strnlen_user
+Line 252: (
+Line 252: (
+Line 252: void
+Line 252: Unrecognized token: 95
+Line 252: Unrecognized token: 95
+Line 252: ID = user
+Line 252: *
+Line 252: )
+Line 252: ID = p
+Line 252: ,
+Line 252: ID = PAGE_SIZE
+Line 252: *
+Line 252: ID = MAX_ARG_PAGES
+Line 252: )
+Line 252: ;
+Line 253: if
+Line 253: (
+Line 253: !
+Line 253: ID = len
+Line 253: ||
+Line 253: ID = len
+Line 253: >
+Line 253: ID = PAGE_SIZE
+Line 253: *
+Line 253: ID = MAX_ARG_PAGES
+Line 253: )
+Line 254: return
+Line 254: ;
+Line 255: ID = p
+Line 255: +
+Line 255: =
+Line 255: ID = len
+Line 255: ;
+Line 256: }
+Line 257: Unrecognized token: 95
+Line 257: Unrecognized token: 95
+Line 257: ID = put_user
+Line 257: (
+Line 257: INTCON = 0
+Line 257: ,
+Line 257: ID = argv
+Line 257: )
+Line 257: ;
+Line 258: ID = current
+Line 258: -
+Line 258: >
+Line 258: ID = mm
+Line 258: -
+Line 258: >
+Line 258: ID = arg_end
+Line 258: =
+Line 258: ID = current
+Line 258: -
+Line 258: >
+Line 258: ID = mm
+Line 258: -
+Line 258: >
+Line 258: ID = env_start
+Line 258: =
+Line 258: ID = p
+Line 258: ;
+Line 259: while
+Line 259: (
+Line 259: ID = envc
+Line 259: -
+Line 259: -
+Line 259: >
+Line 259: INTCON = 0
+Line 259: )
+Line 259: {
+Line 260: ID = size_t
+Line 260: ID = len
+Line 260: ;
+Line 261: Unrecognized token: 95
+Line 261: Unrecognized token: 95
+Line 261: ID = put_user
+Line 261: (
+Line 261: (
+Line 261: ID = elf_addr_t
+Line 261: )
+Line 261: ID = p
+Line 261: ,
+Line 261: ID = envp
+Line 261: +
+Line 261: +
+Line 261: )
+Line 261: ;
+Line 262: ID = len
+Line 262: =
+Line 262: ID = strnlen_user
+Line 262: (
+Line 262: (
+Line 262: void
+Line 262: Unrecognized token: 95
+Line 262: Unrecognized token: 95
+Line 262: ID = user
+Line 262: *
+Line 262: )
+Line 262: ID = p
+Line 262: ,
+Line 262: ID = PAGE_SIZE
+Line 262: *
+Line 262: ID = MAX_ARG_PAGES
+Line 262: )
+Line 262: ;
+Line 263: if
+Line 263: (
+Line 263: !
+Line 263: ID = len
+Line 263: ||
+Line 263: ID = len
+Line 263: >
+Line 263: ID = PAGE_SIZE
+Line 263: *
+Line 263: ID = MAX_ARG_PAGES
+Line 263: )
+Line 264: return
+Line 264: ;
+Line 265: ID = p
+Line 265: +
+Line 265: =
+Line 265: ID = len
+Line 265: ;
+Line 266: }
+Line 267: Unrecognized token: 95
+Line 267: Unrecognized token: 95
+Line 267: ID = put_user
+Line 267: (
+Line 267: INTCON = 0
+Line 267: ,
+Line 267: ID = envp
+Line 267: )
+Line 267: ;
+Line 268: ID = current
+Line 268: -
+Line 268: >
+Line 268: ID = mm
+Line 268: -
+Line 268: >
+Line 268: ID = env_end
+Line 268: =
+Line 268: ID = p
+Line 268: ;
+Line 271: ID = sp
+Line 271: =
+Line 271: (
+Line 271: ID = elf_addr_t
+Line 271: Unrecognized token: 95
+Line 271: Unrecognized token: 95
+Line 271: ID = user
+Line 271: *
+Line 271: )
+Line 271: ID = envp
+Line 271: +
+Line 271: INTCON = 1
+Line 271: ;
+Line 272: ID = copy_to_user
+Line 272: (
+Line 272: ID = sp
+Line 272: ,
+Line 272: ID = elf_info
+Line 272: ,
+Line 272: ID = ei_index
+Line 272: *
+Line 272: ID = sizeof
+Line 272: (
+Line 272: ID = elf_addr_t
+Line 272: )
+Line 272: )
+Line 272: ;
+Line 273: }
+Line 275: Unrecognized token: 35
+Line 275: ID = ifndef
+Line 275: ID = elf_map
+Line 277: ID = static
+Line 277: ID = unsigned
+Line 277: ID = long
+Line 277: ID = elf_map
+Line 277: (
+Line 277: ID = struct
+Line 277: ID = file
+Line 277: *
+Line 277: ID = filep
+Line 277: ,
+Line 277: ID = unsigned
+Line 277: ID = long
+Line 277: ID = addr
+Line 277: ,
+Line 278: ID = struct
+Line 278: ID = elf_phdr
+Line 278: *
+Line 278: ID = eppnt
+Line 278: ,
+Line 278: int
+Line 278: ID = prot
+Line 278: ,
+Line 278: int
+Line 278: ID = type
+Line 278: )
+Line 279: {
+Line 280: ID = unsigned
+Line 280: ID = long
+Line 280: ID = map_addr
+Line 280: ;
+Line 282: ID = down_write
+Line 282: (
+Line 282: Unrecognized token: 38
+Line 282: ID = current
+Line 282: -
+Line 282: >
+Line 282: ID = mm
+Line 282: -
+Line 282: >
+Line 282: ID = mmap_sem
+Line 282: )
+Line 282: ;
+Line 283: ID = map_addr
+Line 283: =
+Line 283: ID = do_mmap
+Line 283: (
+Line 283: ID = filep
+Line 283: ,
+Line 283: ID = ELF_PAGESTART
+Line 283: (
+Line 283: ID = addr
+Line 283: )
+Line 283: ,
+Line 284: ID = eppnt
+Line 284: -
+Line 284: >
+Line 284: ID = p_filesz
+Line 284: +
+Line 284: ID = ELF_PAGEOFFSET
+Line 284: (
+Line 284: ID = eppnt
+Line 284: -
+Line 284: >
+Line 284: ID = p_vaddr
+Line 284: )
+Line 284: ,
+Line 284: ID = prot
+Line 284: ,
+Line 284: ID = type
+Line 284: ,
+Line 285: ID = eppnt
+Line 285: -
+Line 285: >
+Line 285: ID = p_offset
+Line 285: -
+Line 285: ID = ELF_PAGEOFFSET
+Line 285: (
+Line 285: ID = eppnt
+Line 285: -
+Line 285: >
+Line 285: ID = p_vaddr
+Line 285: )
+Line 285: )
+Line 285: ;
+Line 286: ID = up_write
+Line 286: (
+Line 286: Unrecognized token: 38
+Line 286: ID = current
+Line 286: -
+Line 286: >
+Line 286: ID = mm
+Line 286: -
+Line 286: >
+Line 286: ID = mmap_sem
+Line 286: )
+Line 286: ;
+Line 287: return
+Line 287: (
+Line 287: ID = map_addr
+Line 287: )
+Line 287: ;
+Line 288: }
+Line 290: Unrecognized token: 35
+Line 290: ID = endif
+Line 297: ID = static
+Line 297: ID = unsigned
+Line 297: ID = long
+Line 297: ID = load_elf_interp
+Line 297: (
+Line 297: ID = struct
+Line 297: ID = elfhdr
+Line 297: *
+Line 297: ID = interp_elf_ex
+Line 297: ,
+Line 298: ID = struct
+Line 298: ID = file
+Line 298: *
+Line 298: ID = interpreter
+Line 298: ,
+Line 299: ID = unsigned
+Line 299: ID = long
+Line 299: *
+Line 299: ID = interp_load_addr
+Line 299: )
+Line 300: {
+Line 301: ID = struct
+Line 301: ID = elf_phdr
+Line 301: *
+Line 301: ID = elf_phdata
+Line 301: ;
+Line 302: ID = struct
+Line 302: ID = elf_phdr
+Line 302: *
+Line 302: ID = eppnt
+Line 302: ;
+Line 303: ID = unsigned
+Line 303: ID = long
+Line 303: ID = load_addr
+Line 303: =
+Line 303: INTCON = 0
+Line 303: ;
+Line 304: int
+Line 304: ID = load_addr_set
+Line 304: =
+Line 304: INTCON = 0
+Line 304: ;
+Line 305: ID = unsigned
+Line 305: ID = long
+Line 305: ID = last_bss
+Line 305: =
+Line 305: INTCON = 0
+Line 305: ,
+Line 305: ID = elf_bss
+Line 305: =
+Line 305: INTCON = 0
+Line 305: ;
+Line 306: ID = unsigned
+Line 306: ID = long
+Line 306: ID = error
+Line 306: =
+Line 306: Unrecognized token: 126
+Line 306: INTCON = 0
+Line 306: ID = UL
+Line 306: ;
+Line 307: int
+Line 307: ID = retval
+Line 307: ,
+Line 307: ID = i
+Line 307: ,
+Line 307: ID = size
+Line 307: ;
+Line 310: if
+Line 310: (
+Line 310: ID = interp_elf_ex
+Line 310: -
+Line 310: >
+Line 310: ID = e_type
+Line 310: !=
+Line 310: ID = ET_EXEC
+Line 310: &&
+Line 311: ID = interp_elf_ex
+Line 311: -
+Line 311: >
+Line 311: ID = e_type
+Line 311: !=
+Line 311: ID = ET_DYN
+Line 311: )
+Line 312: ID = goto
+Line 312: ID = out
+Line 312: ;
+Line 313: if
+Line 313: (
+Line 313: !
+Line 313: ID = elf_check_arch
+Line 313: (
+Line 313: ID = interp_elf_ex
+Line 313: )
+Line 313: )
+Line 314: ID = goto
+Line 314: ID = out
+Line 314: ;
+Line 315: if
+Line 315: (
+Line 315: !
+Line 315: ID = interpreter
+Line 315: -
+Line 315: >
+Line 315: ID = f_op
+Line 315: ||
+Line 315: !
+Line 315: ID = interpreter
+Line 315: -
+Line 315: >
+Line 315: ID = f_op
+Line 315: -
+Line 315: >
+Line 315: ID = mmap
+Line 315: )
+Line 316: ID = goto
+Line 316: ID = out
+Line 316: ;
+Line 322: if
+Line 322: (
+Line 322: ID = interp_elf_ex
+Line 322: -
+Line 322: >
+Line 322: ID = e_phentsize
+Line 322: !=
+Line 322: ID = sizeof
+Line 322: (
+Line 322: ID = struct
+Line 322: ID = elf_phdr
+Line 322: )
+Line 322: )
+Line 323: ID = goto
+Line 323: ID = out
+Line 323: ;
+Line 324: if
+Line 324: (
+Line 324: ID = interp_elf_ex
+Line 324: -
+Line 324: >
+Line 324: ID = e_phnum
+Line 324: >
+Line 324: INTCON = 65536
+Line 324: ID = U
+Line 324: /
+Line 324: ID = sizeof
+Line 324: (
+Line 324: ID = struct
+Line 324: ID = elf_phdr
+Line 324: )
+Line 324: )
+Line 325: ID = goto
+Line 325: ID = out
+Line 325: ;
+Line 329: ID = size
+Line 329: =
+Line 329: ID = sizeof
+Line 329: (
+Line 329: ID = struct
+Line 329: ID = elf_phdr
+Line 329: )
+Line 329: *
+Line 329: ID = interp_elf_ex
+Line 329: -
+Line 329: >
+Line 329: ID = e_phnum
+Line 329: ;
+Line 330: if
+Line 330: (
+Line 330: ID = size
+Line 330: >
+Line 330: ID = ELF_MIN_ALIGN
+Line 330: )
+Line 331: ID = goto
+Line 331: ID = out
+Line 331: ;
+Line 332: ID = elf_phdata
+Line 332: =
+Line 332: (
+Line 332: ID = struct
+Line 332: ID = elf_phdr
+Line 332: *
+Line 332: )
+Line 332: ID = kmalloc
+Line 332: (
+Line 332: ID = size
+Line 332: ,
+Line 332: ID = GFP_KERNEL
+Line 332: )
+Line 332: ;
+Line 333: if
+Line 333: (
+Line 333: !
+Line 333: ID = elf_phdata
+Line 333: )
+Line 334: ID = goto
+Line 334: ID = out
+Line 334: ;
+Line 336: ID = retval
+Line 336: =
+Line 336: ID = kernel_read
+Line 336: (
+Line 336: ID = interpreter
+Line 336: ,
+Line 336: ID = interp_elf_ex
+Line 336: -
+Line 336: >
+Line 336: ID = e_phoff
+Line 336: ,
+Line 336: (
+Line 336: char
+Line 336: *
+Line 336: )
+Line 336: ID = elf_phdata
+Line 336: ,
+Line 336: ID = size
+Line 336: )
+Line 336: ;
+Line 337: ID = error
+Line 337: =
+Line 337: ID = retval
+Line 337: ;
+Line 338: if
+Line 338: (
+Line 338: ID = retval
+Line 338: <
+Line 338: INTCON = 0
+Line 338: )
+Line 339: ID = goto
+Line 339: ID = out_close
+Line 339: ;
+Line 341: ID = eppnt
+Line 341: =
+Line 341: ID = elf_phdata
+Line 341: ;
+Line 342: for
+Line 342: (
+Line 342: ID = i
+Line 342: =
+Line 342: INTCON = 0
+Line 342: ;
+Line 342: ID = i
+Line 342: <
+Line 342: ID = interp_elf_ex
+Line 342: -
+Line 342: >
+Line 342: ID = e_phnum
+Line 342: ;
+Line 342: ID = i
+Line 342: +
+Line 342: +
+Line 342: ,
+Line 342: ID = eppnt
+Line 342: +
+Line 342: +
+Line 342: )
+Line 342: {
+Line 343: if
+Line 343: (
+Line 343: ID = eppnt
+Line 343: -
+Line 343: >
+Line 343: ID = p_type
+Line 343: ==
+Line 343: ID = PT_LOAD
+Line 343: )
+Line 343: {
+Line 344: int
+Line 344: ID = elf_type
+Line 344: =
+Line 344: ID = MAP_PRIVATE
+Line 344: Unrecognized token: 124
+Line 344: ID = MAP_DENYWRITE
+Line 344: ;
+Line 345: int
+Line 345: ID = elf_prot
+Line 345: =
+Line 345: INTCON = 0
+Line 345: ;
+Line 346: ID = unsigned
+Line 346: ID = long
+Line 346: ID = vaddr
+Line 346: =
+Line 346: INTCON = 0
+Line 346: ;
+Line 347: ID = unsigned
+Line 347: ID = long
+Line 347: ID = k
+Line 347: ,
+Line 347: ID = map_addr
+Line 347: ;
+Line 349: if
+Line 349: (
+Line 349: ID = eppnt
+Line 349: -
+Line 349: >
+Line 349: ID = p_flags
+Line 349: Unrecognized token: 38
+Line 349: ID = PF_R
+Line 349: )
+Line 349: ID = elf_prot
+Line 349: =
+Line 349: ID = PROT_READ
+Line 349: ;
+Line 350: if
+Line 350: (
+Line 350: ID = eppnt
+Line 350: -
+Line 350: >
+Line 350: ID = p_flags
+Line 350: Unrecognized token: 38
+Line 350: ID = PF_W
+Line 350: )
+Line 350: ID = elf_prot
+Line 350: Unrecognized token: 124
+Line 350: =
+Line 350: ID = PROT_WRITE
+Line 350: ;
+Line 351: if
+Line 351: (
+Line 351: ID = eppnt
+Line 351: -
+Line 351: >
+Line 351: ID = p_flags
+Line 351: Unrecognized token: 38
+Line 351: ID = PF_X
+Line 351: )
+Line 351: ID = elf_prot
+Line 351: Unrecognized token: 124
+Line 351: =
+Line 351: ID = PROT_EXEC
+Line 351: ;
+Line 352: ID = vaddr
+Line 352: =
+Line 352: ID = eppnt
+Line 352: -
+Line 352: >
+Line 352: ID = p_vaddr
+Line 352: ;
+Line 353: if
+Line 353: (
+Line 353: ID = interp_elf_ex
+Line 353: -
+Line 353: >
+Line 353: ID = e_type
+Line 353: ==
+Line 353: ID = ET_EXEC
+Line 353: ||
+Line 353: ID = load_addr_set
+Line 353: )
+Line 354: ID = elf_type
+Line 354: Unrecognized token: 124
+Line 354: =
+Line 354: ID = MAP_FIXED
+Line 354: ;
+Line 356: ID = map_addr
+Line 356: =
+Line 356: ID = elf_map
+Line 356: (
+Line 356: ID = interpreter
+Line 356: ,
+Line 356: ID = load_addr
+Line 356: +
+Line 356: ID = vaddr
+Line 356: ,
+Line 356: ID = eppnt
+Line 356: ,
+Line 356: ID = elf_prot
+Line 356: ,
+Line 356: ID = elf_type
+Line 356: )
+Line 356: ;
+Line 357: ID = error
+Line 357: =
+Line 357: ID = map_addr
+Line 357: ;
+Line 358: if
+Line 358: (
+Line 358: ID = BAD_ADDR
+Line 358: (
+Line 358: ID = map_addr
+Line 358: )
+Line 358: )
+Line 359: ID = goto
+Line 359: ID = out_close
+Line 359: ;
+Line 361: if
+Line 361: (
+Line 361: !
+Line 361: ID = load_addr_set
+Line 361: &&
+Line 361: ID = interp_elf_ex
+Line 361: -
+Line 361: >
+Line 361: ID = e_type
+Line 361: ==
+Line 361: ID = ET_DYN
+Line 361: )
+Line 361: {
+Line 362: ID = load_addr
+Line 362: =
+Line 362: ID = map_addr
+Line 362: -
+Line 362: ID = ELF_PAGESTART
+Line 362: (
+Line 362: ID = vaddr
+Line 362: )
+Line 362: ;
+Line 363: ID = load_addr_set
+Line 363: =
+Line 363: INTCON = 1
+Line 363: ;
+Line 364: }
+Line 371: ID = k
+Line 371: =
+Line 371: ID = load_addr
+Line 371: +
+Line 371: ID = eppnt
+Line 371: -
+Line 371: >
+Line 371: ID = p_vaddr
+Line 371: ;
+Line 372: if
+Line 372: (
+Line 372: ID = k
+Line 372: >
+Line 372: ID = TASK_SIZE
+Line 372: ||
+Line 372: ID = eppnt
+Line 372: -
+Line 372: >
+Line 372: ID = p_filesz
+Line 372: >
+Line 372: ID = eppnt
+Line 372: -
+Line 372: >
+Line 372: ID = p_memsz
+Line 372: ||
+Line 373: ID = eppnt
+Line 373: -
+Line 373: >
+Line 373: ID = p_memsz
+Line 373: >
+Line 373: ID = TASK_SIZE
+Line 373: ||
+Line 373: ID = TASK_SIZE
+Line 373: -
+Line 373: ID = eppnt
+Line 373: -
+Line 373: >
+Line 373: ID = p_memsz
+Line 373: <
+Line 373: ID = k
+Line 373: )
+Line 373: {
+Line 374: ID = error
+Line 374: =
+Line 374: -
+Line 374: ID = ENOMEM
+Line 374: ;
+Line 375: ID = goto
+Line 375: ID = out_close
+Line 375: ;
+Line 376: }
+Line 382: ID = k
+Line 382: =
+Line 382: ID = load_addr
+Line 382: +
+Line 382: ID = eppnt
+Line 382: -
+Line 382: >
+Line 382: ID = p_vaddr
+Line 382: +
+Line 382: ID = eppnt
+Line 382: -
+Line 382: >
+Line 382: ID = p_filesz
+Line 382: ;
+Line 383: if
+Line 383: (
+Line 383: ID = k
+Line 383: >
+Line 383: ID = elf_bss
+Line 383: )
+Line 384: ID = elf_bss
+Line 384: =
+Line 384: ID = k
+Line 384: ;
+Line 390: ID = k
+Line 390: =
+Line 390: ID = load_addr
+Line 390: +
+Line 390: ID = eppnt
+Line 390: -
+Line 390: >
+Line 390: ID = p_memsz
+Line 390: +
+Line 390: ID = eppnt
+Line 390: -
+Line 390: >
+Line 390: ID = p_vaddr
+Line 390: ;
+Line 391: if
+Line 391: (
+Line 391: ID = k
+Line 391: >
+Line 391: ID = last_bss
+Line 391: )
+Line 392: ID = last_bss
+Line 392: =
+Line 392: ID = k
+Line 392: ;
+Line 393: }
+Line 394: }
+Line 402: ID = padzero
+Line 402: (
+Line 402: ID = elf_bss
+Line 402: )
+Line 402: ;
+Line 403: ID = elf_bss
+Line 403: =
+Line 403: ID = ELF_PAGESTART
+Line 403: (
+Line 403: ID = elf_bss
+Line 403: +
+Line 403: ID = ELF_MIN_ALIGN
+Line 403: -
+Line 403: INTCON = 1
+Line 403: )
+Line 403: ;
+Line 406: if
+Line 406: (
+Line 406: ID = last_bss
+Line 406: >
+Line 406: ID = elf_bss
+Line 406: )
+Line 406: {
+Line 407: ID = error
+Line 407: =
+Line 407: ID = do_brk
+Line 407: (
+Line 407: ID = elf_bss
+Line 407: ,
+Line 407: ID = last_bss
+Line 407: -
+Line 407: ID = elf_bss
+Line 407: )
+Line 407: ;
+Line 408: if
+Line 408: (
+Line 408: ID = BAD_ADDR
+Line 408: (
+Line 408: ID = error
+Line 408: )
+Line 408: )
+Line 409: ID = goto
+Line 409: ID = out_close
+Line 409: ;
+Line 410: }
+Line 412: *
+Line 412: ID = interp_load_addr
+Line 412: =
+Line 412: ID = load_addr
+Line 412: ;
+Line 413: ID = error
+Line 413: =
+Line 413: (
+Line 413: (
+Line 413: ID = unsigned
+Line 413: ID = long
+Line 413: )
+Line 413: ID = interp_elf_ex
+Line 413: -
+Line 413: >
+Line 413: ID = e_entry
+Line 413: )
+Line 413: +
+Line 413: ID = load_addr
+Line 413: ;
+Line 415: ID = out_close
+Line 415: Unrecognized token: 58
+Line 416: ID = kfree
+Line 416: (
+Line 416: ID = elf_phdata
+Line 416: )
+Line 416: ;
+Line 417: ID = out
+Line 417: Unrecognized token: 58
+Line 418: return
+Line 418: ID = error
+Line 418: ;
+Line 419: }
+Line 421: ID = static
+Line 421: ID = unsigned
+Line 421: ID = long
+Line 421: ID = load_aout_interp
+Line 421: (
+Line 421: ID = struct
+Line 421: ID = exec
+Line 421: *
+Line 421: ID = interp_ex
+Line 421: ,
+Line 422: ID = struct
+Line 422: ID = file
+Line 422: *
+Line 422: ID = interpreter
+Line 422: )
+Line 423: {
+Line 424: ID = unsigned
+Line 424: ID = long
+Line 424: ID = text_data
+Line 424: ,
+Line 424: ID = elf_entry
+Line 424: =
+Line 424: Unrecognized token: 126
+Line 424: INTCON = 0
+Line 424: ID = UL
+Line 424: ;
+Line 425: char
+Line 425: Unrecognized token: 95
+Line 425: Unrecognized token: 95
+Line 425: ID = user
+Line 425: *
+Line 425: ID = addr
+Line 425: ;
+Line 426: ID = loff_t
+Line 426: ID = offset
+Line 426: ;
+Line 428: ID = current
+Line 428: -
+Line 428: >
+Line 428: ID = mm
+Line 428: -
+Line 428: >
+Line 428: ID = end_code
+Line 428: =
+Line 428: ID = interp_ex
+Line 428: -
+Line 428: >
+Line 428: ID = a_text
+Line 428: ;
+Line 429: ID = text_data
+Line 429: =
+Line 429: ID = interp_ex
+Line 429: -
+Line 429: >
+Line 429: ID = a_text
+Line 429: +
+Line 429: ID = interp_ex
+Line 429: -
+Line 429: >
+Line 429: ID = a_data
+Line 429: ;
+Line 430: ID = current
+Line 430: -
+Line 430: >
+Line 430: ID = mm
+Line 430: -
+Line 430: >
+Line 430: ID = end_data
+Line 430: =
+Line 430: ID = text_data
+Line 430: ;
+Line 431: ID = current
+Line 431: -
+Line 431: >
+Line 431: ID = mm
+Line 431: -
+Line 431: >
+Line 431: ID = brk
+Line 431: =
+Line 431: ID = interp_ex
+Line 431: -
+Line 431: >
+Line 431: ID = a_bss
+Line 431: +
+Line 431: ID = text_data
+Line 431: ;
+Line 433: ID = switch
+Line 433: (
+Line 433: ID = N_MAGIC
+Line 433: (
+Line 433: *
+Line 433: ID = interp_ex
+Line 433: )
+Line 433: )
+Line 433: {
+Line 434: ID = case
+Line 434: ID = OMAGIC
+Line 434: Unrecognized token: 58
+Line 435: ID = offset
+Line 435: =
+Line 435: INTCON = 32
+Line 435: ;
+Line 436: ID = addr
+Line 436: =
+Line 436: (
+Line 436: char
+Line 436: Unrecognized token: 95
+Line 436: Unrecognized token: 95
+Line 436: ID = user
+Line 436: *
+Line 436: )
+Line 436: INTCON = 0
+Line 436: ;
+Line 437: ID = break
+Line 437: ;
+Line 438: ID = case
+Line 438: ID = ZMAGIC
+Line 438: Unrecognized token: 58
+Line 439: ID = case
+Line 439: ID = QMAGIC
+Line 439: Unrecognized token: 58
+Line 440: ID = offset
+Line 440: =
+Line 440: ID = N_TXTOFF
+Line 440: (
+Line 440: *
+Line 440: ID = interp_ex
+Line 440: )
+Line 440: ;
+Line 441: ID = addr
+Line 441: =
+Line 441: (
+Line 441: char
+Line 441: Unrecognized token: 95
+Line 441: Unrecognized token: 95
+Line 441: ID = user
+Line 441: *
+Line 441: )
+Line 441: ID = N_TXTADDR
+Line 441: (
+Line 441: *
+Line 441: ID = interp_ex
+Line 441: )
+Line 441: ;
+Line 442: ID = break
+Line 442: ;
+Line 443: ID = default
+Line 443: Unrecognized token: 58
+Line 444: ID = goto
+Line 444: ID = out
+Line 444: ;
+Line 445: }
+Line 447: ID = do_brk
+Line 447: (
+Line 447: INTCON = 0
+Line 447: ,
+Line 447: ID = text_data
+Line 447: )
+Line 447: ;
+Line 448: if
+Line 448: (
+Line 448: !
+Line 448: ID = interpreter
+Line 448: -
+Line 448: >
+Line 448: ID = f_op
+Line 448: ||
+Line 448: !
+Line 448: ID = interpreter
+Line 448: -
+Line 448: >
+Line 448: ID = f_op
+Line 448: -
+Line 448: >
+Line 448: ID = read
+Line 448: )
+Line 449: ID = goto
+Line 449: ID = out
+Line 449: ;
+Line 450: if
+Line 450: (
+Line 450: ID = interpreter
+Line 450: -
+Line 450: >
+Line 450: ID = f_op
+Line 450: -
+Line 450: >
+Line 450: ID = read
+Line 450: (
+Line 450: ID = interpreter
+Line 450: ,
+Line 450: ID = addr
+Line 450: ,
+Line 450: ID = text_data
+Line 450: ,
+Line 450: Unrecognized token: 38
+Line 450: ID = offset
+Line 450: )
+Line 450: <
+Line 450: INTCON = 0
+Line 450: )
+Line 451: ID = goto
+Line 451: ID = out
+Line 451: ;
+Line 452: ID = flush_icache_range
+Line 452: (
+Line 452: (
+Line 452: ID = unsigned
+Line 452: ID = long
+Line 452: )
+Line 452: ID = addr
+Line 452: ,
+Line 453: (
+Line 453: ID = unsigned
+Line 453: ID = long
+Line 453: )
+Line 453: ID = addr
+Line 453: +
+Line 453: ID = text_data
+Line 453: )
+Line 453: ;
+Line 455: ID = do_brk
+Line 455: (
+Line 455: ID = ELF_PAGESTART
+Line 455: (
+Line 455: ID = text_data
+Line 455: +
+Line 455: ID = ELF_MIN_ALIGN
+Line 455: -
+Line 455: INTCON = 1
+Line 455: )
+Line 455: ,
+Line 456: ID = interp_ex
+Line 456: -
+Line 456: >
+Line 456: ID = a_bss
+Line 456: )
+Line 456: ;
+Line 457: ID = elf_entry
+Line 457: =
+Line 457: ID = interp_ex
+Line 457: -
+Line 457: >
+Line 457: ID = a_entry
+Line 457: ;
+Line 459: ID = out
+Line 459: Unrecognized token: 58
+Line 460: return
+Line 460: ID = elf_entry
+Line 460: ;
+Line 461: }
+Line 468: Unrecognized token: 35
+Line 468: ID = define
+Line 468: ID = INTERPRETER_NONE
+Line 468: INTCON = 0
+Line 469: Unrecognized token: 35
+Line 469: ID = define
+Line 469: ID = INTERPRETER_AOUT
+Line 469: INTCON = 1
+Line 470: Unrecognized token: 35
+Line 470: ID = define
+Line 470: ID = INTERPRETER_ELF
+Line 470: INTCON = 2
+Line 473: ID = static
+Line 473: int
+Line 473: ID = load_elf_binary
+Line 473: (
+Line 473: ID = struct
+Line 473: ID = linux_binprm
+Line 473: *
+Line 473: ID = bprm
+Line 473: ,
+Line 473: ID = struct
+Line 473: ID = pt_regs
+Line 473: *
+Line 473: ID = regs
+Line 473: )
+Line 474: {
+Line 475: ID = struct
+Line 475: ID = file
+Line 475: *
+Line 475: ID = interpreter
+Line 475: =
+Line 475: ID = NULL
+Line 475: ;
+Line 476: ID = unsigned
+Line 476: ID = long
+Line 476: ID = load_addr
+Line 476: =
+Line 476: INTCON = 0
+Line 476: ,
+Line 476: ID = load_bias
+Line 476: =
+Line 476: INTCON = 0
+Line 476: ;
+Line 477: int
+Line 477: ID = load_addr_set
+Line 477: =
+Line 477: INTCON = 0
+Line 477: ;
+Line 478: char
+Line 478: *
+Line 478: ID = elf_interpreter
+Line 478: =
+Line 478: ID = NULL
+Line 478: ;
+Line 479: ID = unsigned
+Line 479: int
+Line 479: ID = interpreter_type
+Line 479: =
+Line 479: ID = INTERPRETER_NONE
+Line 479: ;
+Line 480: ID = unsigned
+Line 480: char
+Line 480: ID = ibcs2_interpreter
+Line 480: =
+Line 480: INTCON = 0
+Line 480: ;
+Line 481: ID = unsigned
+Line 481: ID = long
+Line 481: ID = error
+Line 481: ;
+Line 482: ID = struct
+Line 482: ID = elf_phdr
+Line 482: *
+Line 482: ID = elf_ppnt
+Line 482: ,
+Line 482: *
+Line 482: ID = elf_phdata
+Line 482: ;
+Line 483: ID = unsigned
+Line 483: ID = long
+Line 483: ID = elf_bss
+Line 483: ,
+Line 483: ID = elf_brk
+Line 483: ;
+Line 484: int
+Line 484: ID = elf_exec_fileno
+Line 484: ;
+Line 485: int
+Line 485: ID = retval
+Line 485: ,
+Line 485: ID = i
+Line 485: ;
+Line 486: ID = unsigned
+Line 486: int
+Line 486: ID = size
+Line 486: ;
+Line 487: ID = unsigned
+Line 487: ID = long
+Line 487: ID = elf_entry
+Line 487: ,
+Line 487: ID = interp_load_addr
+Line 487: =
+Line 487: INTCON = 0
+Line 487: ;
+Line 488: ID = unsigned
+Line 488: ID = long
+Line 488: ID = start_code
+Line 488: ,
+Line 488: ID = end_code
+Line 488: ,
+Line 488: ID = start_data
+Line 488: ,
+Line 488: ID = end_data
+Line 488: ;
+Line 489: ID = unsigned
+Line 489: ID = long
+Line 489: ID = reloc_func_desc
+Line 489: =
+Line 489: INTCON = 0
+Line 489: ;
+Line 490: ID = struct
+Line 490: ID = elfhdr
+Line 490: ID = elf_ex
+Line 490: ;
+Line 491: ID = struct
+Line 491: ID = elfhdr
+Line 491: ID = interp_elf_ex
+Line 491: ;
+Line 492: ID = struct
+Line 492: ID = exec
+Line 492: ID = interp_ex
+Line 492: ;
+Line 493: char
+Line 493: ID = passed_fileno
+Line 493: [
+Line 493: INTCON = 6
+Line 493: ]
+Line 493: ;
+Line 494: ID = struct
+Line 494: ID = files_struct
+Line 494: *
+Line 494: ID = files
+Line 494: ;
+Line 495: int
+Line 495: ID = have_pt_gnu_stack
+Line 495: ,
+Line 495: ID = executable_stack
+Line 495: =
+Line 495: ID = EXSTACK_DEFAULT
+Line 495: ;
+Line 496: ID = unsigned
+Line 496: ID = long
+Line 496: ID = def_flags
+Line 496: =
+Line 496: INTCON = 0
+Line 496: ;
+Line 499: ID = elf_ex
+Line 499: =
+Line 499: *
+Line 499: (
+Line 499: (
+Line 499: ID = struct
+Line 499: ID = elfhdr
+Line 499: *
+Line 499: )
+Line 499: ID = bprm
+Line 499: -
+Line 499: >
+Line 499: ID = buf
+Line 499: )
+Line 499: ;
+Line 501: ID = retval
+Line 501: =
+Line 501: -
+Line 501: ID = ENOEXEC
+Line 501: ;
+Line 503: if
+Line 503: (
+Line 503: ID = memcmp
+Line 503: (
+Line 503: ID = elf_ex
+Line 503: Unrecognized token: 46
+Line 503: ID = e_ident
+Line 503: ,
+Line 503: ID = ELFMAG
+Line 503: ,
+Line 503: ID = SELFMAG
+Line 503: )
+Line 503: !=
+Line 503: INTCON = 0
+Line 503: )
+Line 504: ID = goto
+Line 504: ID = out
+Line 504: ;
+Line 506: if
+Line 506: (
+Line 506: ID = elf_ex
+Line 506: Unrecognized token: 46
+Line 506: ID = e_type
+Line 506: !=
+Line 506: ID = ET_EXEC
+Line 506: &&
+Line 506: ID = elf_ex
+Line 506: Unrecognized token: 46
+Line 506: ID = e_type
+Line 506: !=
+Line 506: ID = ET_DYN
+Line 506: )
+Line 507: ID = goto
+Line 507: ID = out
+Line 507: ;
+Line 508: if
+Line 508: (
+Line 508: !
+Line 508: ID = elf_check_arch
+Line 508: (
+Line 508: Unrecognized token: 38
+Line 508: ID = elf_ex
+Line 508: )
+Line 508: )
+Line 509: ID = goto
+Line 509: ID = out
+Line 509: ;
+Line 510: if
+Line 510: (
+Line 510: !
+Line 510: ID = bprm
+Line 510: -
+Line 510: >
+Line 510: ID = file
+Line 510: -
+Line 510: >
+Line 510: ID = f_op
+Line 510: ||
+Line 510: !
+Line 510: ID = bprm
+Line 510: -
+Line 510: >
+Line 510: ID = file
+Line 510: -
+Line 510: >
+Line 510: ID = f_op
+Line 510: -
+Line 510: >
+Line 510: ID = mmap
+Line 510: )
+Line 511: ID = goto
+Line 511: ID = out
+Line 511: ;
+Line 515: ID = retval
+Line 515: =
+Line 515: -
+Line 515: ID = ENOMEM
+Line 515: ;
+Line 516: if
+Line 516: (
+Line 516: ID = elf_ex
+Line 516: Unrecognized token: 46
+Line 516: ID = e_phentsize
+Line 516: !=
+Line 516: ID = sizeof
+Line 516: (
+Line 516: ID = struct
+Line 516: ID = elf_phdr
+Line 516: )
+Line 516: )
+Line 517: ID = goto
+Line 517: ID = out
+Line 517: ;
+Line 518: if
+Line 518: (
+Line 518: ID = elf_ex
+Line 518: Unrecognized token: 46
+Line 518: ID = e_phnum
+Line 518: >
+Line 518: INTCON = 65536
+Line 518: ID = U
+Line 518: /
+Line 518: ID = sizeof
+Line 518: (
+Line 518: ID = struct
+Line 518: ID = elf_phdr
+Line 518: )
+Line 518: )
+Line 519: ID = goto
+Line 519: ID = out
+Line 519: ;
+Line 520: ID = size
+Line 520: =
+Line 520: ID = elf_ex
+Line 520: Unrecognized token: 46
+Line 520: ID = e_phnum
+Line 520: *
+Line 520: ID = sizeof
+Line 520: (
+Line 520: ID = struct
+Line 520: ID = elf_phdr
+Line 520: )
+Line 520: ;
+Line 521: ID = elf_phdata
+Line 521: =
+Line 521: (
+Line 521: ID = struct
+Line 521: ID = elf_phdr
+Line 521: *
+Line 521: )
+Line 521: ID = kmalloc
+Line 521: (
+Line 521: ID = size
+Line 521: ,
+Line 521: ID = GFP_KERNEL
+Line 521: )
+Line 521: ;
+Line 522: if
+Line 522: (
+Line 522: !
+Line 522: ID = elf_phdata
+Line 522: )
+Line 523: ID = goto
+Line 523: ID = out
+Line 523: ;
+Line 525: ID = retval
+Line 525: =
+Line 525: ID = kernel_read
+Line 525: (
+Line 525: ID = bprm
+Line 525: -
+Line 525: >
+Line 525: ID = file
+Line 525: ,
+Line 525: ID = elf_ex
+Line 525: Unrecognized token: 46
+Line 525: ID = e_phoff
+Line 525: ,
+Line 525: (
+Line 525: char
+Line 525: *
+Line 525: )
+Line 525: ID = elf_phdata
+Line 525: ,
+Line 525: ID = size
+Line 525: )
+Line 525: ;
+Line 526: if
+Line 526: (
+Line 526: ID = retval
+Line 526: <
+Line 526: INTCON = 0
+Line 526: )
+Line 527: ID = goto
+Line 527: ID = out_free_ph
+Line 527: ;
+Line 529: ID = files
+Line 529: =
+Line 529: ID = current
+Line 529: -
+Line 529: >
+Line 529: ID = files
+Line 529: ;
+Line 530: ID = retval
+Line 530: =
+Line 530: ID = unshare_files
+Line 530: (
+Line 530: )
+Line 530: ;
+Line 531: if
+Line 531: (
+Line 531: ID = retval
+Line 531: <
+Line 531: INTCON = 0
+Line 531: )
+Line 532: ID = goto
+Line 532: ID = out_free_ph
+Line 532: ;
+Line 533: if
+Line 533: (
+Line 533: ID = files
+Line 533: ==
+Line 533: ID = current
+Line 533: -
+Line 533: >
+Line 533: ID = files
+Line 533: )
+Line 533: {
+Line 534: ID = put_files_struct
+Line 534: (
+Line 534: ID = files
+Line 534: )
+Line 534: ;
+Line 535: ID = files
+Line 535: =
+Line 535: ID = NULL
+Line 535: ;
+Line 536: }
+Line 541: ID = retval
+Line 541: =
+Line 541: ID = get_unused_fd
+Line 541: (
+Line 541: )
+Line 541: ;
+Line 542: if
+Line 542: (
+Line 542: ID = retval
+Line 542: <
+Line 542: INTCON = 0
+Line 542: )
+Line 543: ID = goto
+Line 543: ID = out_free_fh
+Line 543: ;
+Line 544: ID = get_file
+Line 544: (
+Line 544: ID = bprm
+Line 544: -
+Line 544: >
+Line 544: ID = file
+Line 544: )
+Line 544: ;
+Line 545: ID = fd_install
+Line 545: (
+Line 545: ID = elf_exec_fileno
+Line 545: =
+Line 545: ID = retval
+Line 545: ,
+Line 545: ID = bprm
+Line 545: -
+Line 545: >
+Line 545: ID = file
+Line 545: )
+Line 545: ;
+Line 547: ID = elf_ppnt
+Line 547: =
+Line 547: ID = elf_phdata
+Line 547: ;
+Line 548: ID = elf_bss
+Line 548: =
+Line 548: INTCON = 0
+Line 548: ;
+Line 549: ID = elf_brk
+Line 549: =
+Line 549: INTCON = 0
+Line 549: ;
+Line 551: ID = start_code
+Line 551: =
+Line 551: Unrecognized token: 126
+Line 551: INTCON = 0
+Line 551: ID = UL
+Line 551: ;
+Line 552: ID = end_code
+Line 552: =
+Line 552: INTCON = 0
+Line 552: ;
+Line 553: ID = start_data
+Line 553: =
+Line 553: INTCON = 0
+Line 553: ;
+Line 554: ID = end_data
+Line 554: =
+Line 554: INTCON = 0
+Line 554: ;
+Line 556: for
+Line 556: (
+Line 556: ID = i
+Line 556: =
+Line 556: INTCON = 0
+Line 556: ;
+Line 556: ID = i
+Line 556: <
+Line 556: ID = elf_ex
+Line 556: Unrecognized token: 46
+Line 556: ID = e_phnum
+Line 556: ;
+Line 556: ID = i
+Line 556: +
+Line 556: +
+Line 556: )
+Line 556: {
+Line 557: if
+Line 557: (
+Line 557: ID = elf_ppnt
+Line 557: -
+Line 557: >
+Line 557: ID = p_type
+Line 557: ==
+Line 557: ID = PT_INTERP
+Line 557: )
+Line 557: {
+Line 563: ID = retval
+Line 563: =
+Line 563: -
+Line 563: ID = ENOMEM
+Line 563: ;
+Line 564: if
+Line 564: (
+Line 564: ID = elf_ppnt
+Line 564: -
+Line 564: >
+Line 564: ID = p_filesz
+Line 564: >
+Line 564: ID = PATH_MAX
+Line 564: )
+Line 565: ID = goto
+Line 565: ID = out_free_file
+Line 565: ;
+Line 566: ID = elf_interpreter
+Line 566: =
+Line 566: (
+Line 566: char
+Line 566: *
+Line 566: )
+Line 566: ID = kmalloc
+Line 566: (
+Line 566: ID = elf_ppnt
+Line 566: -
+Line 566: >
+Line 566: ID = p_filesz
+Line 566: ,
+Line 567: ID = GFP_KERNEL
+Line 567: )
+Line 567: ;
+Line 568: if
+Line 568: (
+Line 568: !
+Line 568: ID = elf_interpreter
+Line 568: )
+Line 569: ID = goto
+Line 569: ID = out_free_file
+Line 569: ;
+Line 571: ID = retval
+Line 571: =
+Line 571: ID = kernel_read
+Line 571: (
+Line 571: ID = bprm
+Line 571: -
+Line 571: >
+Line 571: ID = file
+Line 571: ,
+Line 571: ID = elf_ppnt
+Line 571: -
+Line 571: >
+Line 571: ID = p_offset
+Line 571: ,
+Line 572: ID = elf_interpreter
+Line 572: ,
+Line 573: ID = elf_ppnt
+Line 573: -
+Line 573: >
+Line 573: ID = p_filesz
+Line 573: )
+Line 573: ;
+Line 574: if
+Line 574: (
+Line 574: ID = retval
+Line 574: <
+Line 574: INTCON = 0
+Line 574: )
+Line 575: ID = goto
+Line 575: ID = out_free_interp
+Line 575: ;
+Line 580: if
+Line 580: (
+Line 580: ID = strcmp
+Line 580: (
+Line 580: ID = elf_interpreter
+Line 580: ,
+Line 580: STRINGCON = "/usr/lib/libc.so.1"
+Line 580: )
+Line 580: ==
+Line 580: INTCON = 0
+Line 580: ||
+Line 581: ID = strcmp
+Line 581: (
+Line 581: ID = elf_interpreter
+Line 581: ,
+Line 581: STRINGCON = "/usr/lib/ld.so.1"
+Line 581: )
+Line 581: ==
+Line 581: INTCON = 0
+Line 581: )
+Line 582: ID = ibcs2_interpreter
+Line 582: =
+Line 582: INTCON = 1
+Line 582: ;
+Line 603: ID = SET_PERSONALITY
+Line 603: (
+Line 603: ID = elf_ex
+Line 603: ,
+Line 603: ID = ibcs2_interpreter
+Line 603: )
+Line 603: ;
+Line 605: ID = interpreter
+Line 605: =
+Line 605: ID = open_exec
+Line 605: (
+Line 605: ID = elf_interpreter
+Line 605: )
+Line 605: ;
+Line 606: ID = retval
+Line 606: =
+Line 606: ID = PTR_ERR
+Line 606: (
+Line 606: ID = interpreter
+Line 606: )
+Line 606: ;
+Line 607: if
+Line 607: (
+Line 607: ID = IS_ERR
+Line 607: (
+Line 607: ID = interpreter
+Line 607: )
+Line 607: )
+Line 608: ID = goto
+Line 608: ID = out_free_interp
+Line 608: ;
+Line 609: ID = retval
+Line 609: =
+Line 609: ID = kernel_read
+Line 609: (
+Line 609: ID = interpreter
+Line 609: ,
+Line 609: INTCON = 0
+Line 609: ,
+Line 609: ID = bprm
+Line 609: -
+Line 609: >
+Line 609: ID = buf
+Line 609: ,
+Line 609: ID = BINPRM_BUF_SIZE
+Line 609: )
+Line 609: ;
+Line 610: if
+Line 610: (
+Line 610: ID = retval
+Line 610: <
+Line 610: INTCON = 0
+Line 610: )
+Line 611: ID = goto
+Line 611: ID = out_free_dentry
+Line 611: ;
+Line 614: ID = interp_ex
+Line 614: =
+Line 614: *
+Line 614: (
+Line 614: (
+Line 614: ID = struct
+Line 614: ID = exec
+Line 614: *
+Line 614: )
+Line 614: ID = bprm
+Line 614: -
+Line 614: >
+Line 614: ID = buf
+Line 614: )
+Line 614: ;
+Line 615: ID = interp_elf_ex
+Line 615: =
+Line 615: *
+Line 615: (
+Line 615: (
+Line 615: ID = struct
+Line 615: ID = elfhdr
+Line 615: *
+Line 615: )
+Line 615: ID = bprm
+Line 615: -
+Line 615: >
+Line 615: ID = buf
+Line 615: )
+Line 615: ;
+Line 616: ID = break
+Line 616: ;
+Line 617: }
+Line 618: ID = elf_ppnt
+Line 618: +
+Line 618: +
+Line 618: ;
+Line 619: }
+Line 621: ID = elf_ppnt
+Line 621: =
+Line 621: ID = elf_phdata
+Line 621: ;
+Line 622: for
+Line 622: (
+Line 622: ID = i
+Line 622: =
+Line 622: INTCON = 0
+Line 622: ;
+Line 622: ID = i
+Line 622: <
+Line 622: ID = elf_ex
+Line 622: Unrecognized token: 46
+Line 622: ID = e_phnum
+Line 622: ;
+Line 622: ID = i
+Line 622: +
+Line 622: +
+Line 622: ,
+Line 622: ID = elf_ppnt
+Line 622: +
+Line 622: +
+Line 622: )
+Line 623: if
+Line 623: (
+Line 623: ID = elf_ppnt
+Line 623: -
+Line 623: >
+Line 623: ID = p_type
+Line 623: ==
+Line 623: ID = PT_GNU_STACK
+Line 623: )
+Line 623: {
+Line 624: if
+Line 624: (
+Line 624: ID = elf_ppnt
+Line 624: -
+Line 624: >
+Line 624: ID = p_flags
+Line 624: Unrecognized token: 38
+Line 624: ID = PF_X
+Line 624: )
+Line 625: ID = executable_stack
+Line 625: =
+Line 625: ID = EXSTACK_ENABLE_X
+Line 625: ;
+Line 626: else
+Line 627: ID = executable_stack
+Line 627: =
+Line 627: ID = EXSTACK_DISABLE_X
+Line 627: ;
+Line 628: ID = break
+Line 628: ;
+Line 629: }
+Line 630: ID = have_pt_gnu_stack
+Line 630: =
+Line 630: (
+Line 630: ID = i
+Line 630: <
+Line 630: ID = elf_ex
+Line 630: Unrecognized token: 46
+Line 630: ID = e_phnum
+Line 630: )
+Line 630: ;
+Line 633: if
+Line 633: (
+Line 633: ID = elf_interpreter
+Line 633: )
+Line 633: {
+Line 634: ID = interpreter_type
+Line 634: =
+Line 634: ID = INTERPRETER_ELF
+Line 634: Unrecognized token: 124
+Line 634: ID = INTERPRETER_AOUT
+Line 634: ;
+Line 637: if
+Line 637: (
+Line 637: (
+Line 637: ID = N_MAGIC
+Line 637: (
+Line 637: ID = interp_ex
+Line 637: )
+Line 637: !=
+Line 637: ID = OMAGIC
+Line 637: )
+Line 637: &&
+Line 638: (
+Line 638: ID = N_MAGIC
+Line 638: (
+Line 638: ID = interp_ex
+Line 638: )
+Line 638: !=
+Line 638: ID = ZMAGIC
+Line 638: )
+Line 638: &&
+Line 639: (
+Line 639: ID = N_MAGIC
+Line 639: (
+Line 639: ID = interp_ex
+Line 639: )
+Line 639: !=
+Line 639: ID = QMAGIC
+Line 639: )
+Line 639: )
+Line 640: ID = interpreter_type
+Line 640: =
+Line 640: ID = INTERPRETER_ELF
+Line 640: ;
+Line 642: if
+Line 642: (
+Line 642: ID = memcmp
+Line 642: (
+Line 642: ID = interp_elf_ex
+Line 642: Unrecognized token: 46
+Line 642: ID = e_ident
+Line 642: ,
+Line 642: ID = ELFMAG
+Line 642: ,
+Line 642: ID = SELFMAG
+Line 642: )
+Line 642: !=
+Line 642: INTCON = 0
+Line 642: )
+Line 643: ID = interpreter_type
+Line 643: Unrecognized token: 38
+Line 643: =
+Line 643: Unrecognized token: 126
+Line 643: ID = INTERPRETER_ELF
+Line 643: ;
+Line 645: ID = retval
+Line 645: =
+Line 645: -
+Line 645: ID = ELIBBAD
+Line 645: ;
+Line 646: if
+Line 646: (
+Line 646: !
+Line 646: ID = interpreter_type
+Line 646: )
+Line 647: ID = goto
+Line 647: ID = out_free_dentry
+Line 647: ;
+Line 650: if
+Line 650: (
+Line 650: (
+Line 650: ID = interpreter_type
+Line 650: Unrecognized token: 38
+Line 650: ID = INTERPRETER_ELF
+Line 650: )
+Line 650: &&
+Line 651: ID = interpreter_type
+Line 651: !=
+Line 651: ID = INTERPRETER_ELF
+Line 651: )
+Line 651: {
+Line 652: /
+Line 652: /
+Line 652: ID = FIXME
+Line 652: -
+Line 652: ID = ratelimit
+Line 652: ID = this
+Line 652: ID = before
+Line 652: ID = re
+Line 652: -
+Line 652: ID = enabling
+Line 653: /
+Line 653: /
+Line 653: ID = printk
+Line 653: (
+Line 653: ID = KERN_WARNING
+Line 653: STRINGCON = "ELF: Ambiguous type, using ELF\n"
+Line 653: )
+Line 653: ;
+Line 654: ID = interpreter_type
+Line 654: =
+Line 654: ID = INTERPRETER_ELF
+Line 654: ;
+Line 655: }
+Line 657: if
+Line 657: (
+Line 657: (
+Line 657: ID = interpreter_type
+Line 657: ==
+Line 657: ID = INTERPRETER_ELF
+Line 657: )
+Line 657: &&
+Line 658: !
+Line 658: ID = elf_check_arch
+Line 658: (
+Line 658: Unrecognized token: 38
+Line 658: ID = interp_elf_ex
+Line 658: )
+Line 658: )
+Line 659: ID = goto
+Line 659: ID = out_free_dentry
+Line 659: ;
+Line 660: }
+Line 660: else
+Line 660: {
+Line 662: ID = SET_PERSONALITY
+Line 662: (
+Line 662: ID = elf_ex
+Line 662: ,
+Line 662: ID = ibcs2_interpreter
+Line 662: )
+Line 662: ;
+Line 663: }
+Line 668: if
+Line 668: (
+Line 668: (
+Line 668: !
+Line 668: ID = bprm
+Line 668: -
+Line 668: >
+Line 668: ID = sh_bang
+Line 668: )
+Line 668: &&
+Line 668: (
+Line 668: ID = interpreter_type
+Line 668: ==
+Line 668: ID = INTERPRETER_AOUT
+Line 668: )
+Line 668: )
+Line 668: {
+Line 669: char
+Line 669: *
+Line 669: ID = passed_p
+Line 669: =
+Line 669: ID = passed_fileno
+Line 669: ;
+Line 670: ID = sprintf
+Line 670: (
+Line 670: ID = passed_fileno
+Line 670: ,
+Line 670: STRINGCON = "%d"
+Line 670: ,
+Line 670: ID = elf_exec_fileno
+Line 670: )
+Line 670: ;
+Line 672: if
+Line 672: (
+Line 672: ID = elf_interpreter
+Line 672: )
+Line 672: {
+Line 673: ID = retval
+Line 673: =
+Line 673: ID = copy_strings_kernel
+Line 673: (
+Line 673: INTCON = 1
+Line 673: ,
+Line 673: Unrecognized token: 38
+Line 673: ID = passed_p
+Line 673: ,
+Line 673: ID = bprm
+Line 673: )
+Line 673: ;
+Line 674: if
+Line 674: (
+Line 674: ID = retval
+Line 674: )
+Line 675: ID = goto
+Line 675: ID = out_free_dentry
+Line 675: ;
+Line 676: ID = bprm
+Line 676: -
+Line 676: >
+Line 676: ID = argc
+Line 676: +
+Line 676: +
+Line 676: ;
+Line 677: }
+Line 678: }
+Line 681: ID = retval
+Line 681: =
+Line 681: ID = flush_old_exec
+Line 681: (
+Line 681: ID = bprm
+Line 681: )
+Line 681: ;
+Line 682: if
+Line 682: (
+Line 682: ID = retval
+Line 682: )
+Line 683: ID = goto
+Line 683: ID = out_free_dentry
+Line 683: ;
+Line 686: if
+Line 686: (
+Line 686: ID = files
+Line 686: )
+Line 686: {
+Line 687: ID = steal_locks
+Line 687: (
+Line 687: ID = files
+Line 687: )
+Line 687: ;
+Line 688: ID = put_files_struct
+Line 688: (
+Line 688: ID = files
+Line 688: )
+Line 688: ;
+Line 689: ID = files
+Line 689: =
+Line 689: ID = NULL
+Line 689: ;
+Line 690: }
+Line 693: ID = current
+Line 693: -
+Line 693: >
+Line 693: ID = mm
+Line 693: -
+Line 693: >
+Line 693: ID = start_data
+Line 693: =
+Line 693: INTCON = 0
+Line 693: ;
+Line 694: ID = current
+Line 694: -
+Line 694: >
+Line 694: ID = mm
+Line 694: -
+Line 694: >
+Line 694: ID = end_data
+Line 694: =
+Line 694: INTCON = 0
+Line 694: ;
+Line 695: ID = current
+Line 695: -
+Line 695: >
+Line 695: ID = mm
+Line 695: -
+Line 695: >
+Line 695: ID = end_code
+Line 695: =
+Line 695: INTCON = 0
+Line 695: ;
+Line 696: ID = current
+Line 696: -
+Line 696: >
+Line 696: ID = mm
+Line 696: -
+Line 696: >
+Line 696: ID = mmap
+Line 696: =
+Line 696: ID = NULL
+Line 696: ;
+Line 697: ID = current
+Line 697: -
+Line 697: >
+Line 697: ID = flags
+Line 697: Unrecognized token: 38
+Line 697: =
+Line 697: Unrecognized token: 126
+Line 697: ID = PF_FORKNOEXEC
+Line 697: ;
+Line 698: ID = current
+Line 698: -
+Line 698: >
+Line 698: ID = mm
+Line 698: -
+Line 698: >
+Line 698: ID = def_flags
+Line 698: =
+Line 698: ID = def_flags
+Line 698: ;
+Line 702: ID = SET_PERSONALITY
+Line 702: (
+Line 702: ID = elf_ex
+Line 702: ,
+Line 702: ID = ibcs2_interpreter
+Line 702: )
+Line 702: ;
+Line 703: if
+Line 703: (
+Line 703: ID = elf_read_implies_exec
+Line 703: (
+Line 703: ID = elf_ex
+Line 703: ,
+Line 703: ID = have_pt_gnu_stack
+Line 703: )
+Line 703: )
+Line 704: ID = current
+Line 704: -
+Line 704: >
+Line 704: ID = personality
+Line 704: Unrecognized token: 124
+Line 704: =
+Line 704: ID = READ_IMPLIES_EXEC
+Line 704: ;
+Line 708: ID = current
+Line 708: -
+Line 708: >
+Line 708: ID = mm
+Line 708: -
+Line 708: >
+Line 708: ID = rss
+Line 708: =
+Line 708: INTCON = 0
+Line 708: ;
+Line 709: ID = current
+Line 709: -
+Line 709: >
+Line 709: ID = mm
+Line 709: -
+Line 709: >
+Line 709: ID = free_area_cache
+Line 709: =
+Line 709: ID = TASK_UNMAPPED_BASE
+Line 709: ;
+Line 710: ID = retval
+Line 710: =
+Line 710: ID = setup_arg_pages
+Line 710: (
+Line 710: ID = bprm
+Line 710: ,
+Line 710: ID = executable_stack
+Line 710: )
+Line 710: ;
+Line 711: if
+Line 711: (
+Line 711: ID = retval
+Line 711: <
+Line 711: INTCON = 0
+Line 711: )
+Line 711: {
+Line 712: ID = send_sig
+Line 712: (
+Line 712: ID = SIGKILL
+Line 712: ,
+Line 712: ID = current
+Line 712: ,
+Line 712: INTCON = 0
+Line 712: )
+Line 712: ;
+Line 713: ID = goto
+Line 713: ID = out_free_dentry
+Line 713: ;
+Line 714: }
+Line 716: ID = current
+Line 716: -
+Line 716: >
+Line 716: ID = mm
+Line 716: -
+Line 716: >
+Line 716: ID = start_stack
+Line 716: =
+Line 716: ID = bprm
+Line 716: -
+Line 716: >
+Line 716: ID = p
+Line 716: ;
+Line 723: for
+Line 723: (
+Line 723: ID = i
+Line 723: =
+Line 723: INTCON = 0
+Line 723: ,
+Line 723: ID = elf_ppnt
+Line 723: =
+Line 723: ID = elf_phdata
+Line 723: ;
+Line 723: ID = i
+Line 723: <
+Line 723: ID = elf_ex
+Line 723: Unrecognized token: 46
+Line 723: ID = e_phnum
+Line 723: ;
+Line 723: ID = i
+Line 723: +
+Line 723: +
+Line 723: ,
+Line 723: ID = elf_ppnt
+Line 723: +
+Line 723: +
+Line 723: )
+Line 723: {
+Line 724: int
+Line 724: ID = elf_prot
+Line 724: =
+Line 724: INTCON = 0
+Line 724: ,
+Line 724: ID = elf_flags
+Line 724: ;
+Line 725: ID = unsigned
+Line 725: ID = long
+Line 725: ID = k
+Line 725: ,
+Line 725: ID = vaddr
+Line 725: ;
+Line 727: if
+Line 727: (
+Line 727: ID = elf_ppnt
+Line 727: -
+Line 727: >
+Line 727: ID = p_type
+Line 727: !=
+Line 727: ID = PT_LOAD
+Line 727: )
+Line 728: ID = continue
+Line 728: ;
+Line 730: if
+Line 730: (
+Line 730: ID = unlikely
+Line 730: (
+Line 730: ID = elf_brk
+Line 730: >
+Line 730: ID = elf_bss
+Line 730: )
+Line 730: )
+Line 730: {
+Line 731: ID = unsigned
+Line 731: ID = long
+Line 731: ID = nbyte
+Line 731: ;
+Line 736: ID = retval
+Line 736: =
+Line 736: ID = set_brk
+Line 736: (
+Line 736: ID = elf_bss
+Line 736: +
+Line 736: ID = load_bias
+Line 736: ,
+Line 737: ID = elf_brk
+Line 737: +
+Line 737: ID = load_bias
+Line 737: )
+Line 737: ;
+Line 738: if
+Line 738: (
+Line 738: ID = retval
+Line 738: )
+Line 738: {
+Line 739: ID = send_sig
+Line 739: (
+Line 739: ID = SIGKILL
+Line 739: ,
+Line 739: ID = current
+Line 739: ,
+Line 739: INTCON = 0
+Line 739: )
+Line 739: ;
+Line 740: ID = goto
+Line 740: ID = out_free_dentry
+Line 740: ;
+Line 741: }
+Line 742: ID = nbyte
+Line 742: =
+Line 742: ID = ELF_PAGEOFFSET
+Line 742: (
+Line 742: ID = elf_bss
+Line 742: )
+Line 742: ;
+Line 743: if
+Line 743: (
+Line 743: ID = nbyte
+Line 743: )
+Line 743: {
+Line 744: ID = nbyte
+Line 744: =
+Line 744: ID = ELF_MIN_ALIGN
+Line 744: -
+Line 744: ID = nbyte
+Line 744: ;
+Line 745: if
+Line 745: (
+Line 745: ID = nbyte
+Line 745: >
+Line 745: ID = elf_brk
+Line 745: -
+Line 745: ID = elf_bss
+Line 745: )
+Line 746: ID = nbyte
+Line 746: =
+Line 746: ID = elf_brk
+Line 746: -
+Line 746: ID = elf_bss
+Line 746: ;
+Line 747: ID = clear_user
+Line 747: (
+Line 747: (
+Line 747: void
+Line 747: Unrecognized token: 95
+Line 747: Unrecognized token: 95
+Line 747: ID = user
+Line 747: *
+Line 747: )
+Line 747: ID = elf_bss
+Line 747: +
+Line 747: ID = load_bias
+Line 747: ,
+Line 747: ID = nbyte
+Line 747: )
+Line 747: ;
+Line 748: }
+Line 749: }
+Line 751: if
+Line 751: (
+Line 751: ID = elf_ppnt
+Line 751: -
+Line 751: >
+Line 751: ID = p_flags
+Line 751: Unrecognized token: 38
+Line 751: ID = PF_R
+Line 751: )
+Line 751: ID = elf_prot
+Line 751: Unrecognized token: 124
+Line 751: =
+Line 751: ID = PROT_READ
+Line 751: ;
+Line 752: if
+Line 752: (
+Line 752: ID = elf_ppnt
+Line 752: -
+Line 752: >
+Line 752: ID = p_flags
+Line 752: Unrecognized token: 38
+Line 752: ID = PF_W
+Line 752: )
+Line 752: ID = elf_prot
+Line 752: Unrecognized token: 124
+Line 752: =
+Line 752: ID = PROT_WRITE
+Line 752: ;
+Line 753: if
+Line 753: (
+Line 753: ID = elf_ppnt
+Line 753: -
+Line 753: >
+Line 753: ID = p_flags
+Line 753: Unrecognized token: 38
+Line 753: ID = PF_X
+Line 753: )
+Line 753: ID = elf_prot
+Line 753: Unrecognized token: 124
+Line 753: =
+Line 753: ID = PROT_EXEC
+Line 753: ;
+Line 755: ID = elf_flags
+Line 755: =
+Line 755: ID = MAP_PRIVATE
+Line 755: Unrecognized token: 124
+Line 755: ID = MAP_DENYWRITE
+Line 755: Unrecognized token: 124
+Line 755: ID = MAP_EXECUTABLE
+Line 755: ;
+Line 757: ID = vaddr
+Line 757: =
+Line 757: ID = elf_ppnt
+Line 757: -
+Line 757: >
+Line 757: ID = p_vaddr
+Line 757: ;
+Line 758: if
+Line 758: (
+Line 758: ID = elf_ex
+Line 758: Unrecognized token: 46
+Line 758: ID = e_type
+Line 758: ==
+Line 758: ID = ET_EXEC
+Line 758: ||
+Line 758: ID = load_addr_set
+Line 758: )
+Line 758: {
+Line 759: ID = elf_flags
+Line 759: Unrecognized token: 124
+Line 759: =
+Line 759: ID = MAP_FIXED
+Line 759: ;
+Line 760: }
+Line 760: else
+Line 760: if
+Line 760: (
+Line 760: ID = elf_ex
+Line 760: Unrecognized token: 46
+Line 760: ID = e_type
+Line 760: ==
+Line 760: ID = ET_DYN
+Line 760: )
+Line 760: {
+Line 764: ID = load_bias
+Line 764: =
+Line 764: ID = ELF_PAGESTART
+Line 764: (
+Line 764: ID = ELF_ET_DYN_BASE
+Line 764: -
+Line 764: ID = vaddr
+Line 764: )
+Line 764: ;
+Line 765: }
+Line 767: ID = error
+Line 767: =
+Line 767: ID = elf_map
+Line 767: (
+Line 767: ID = bprm
+Line 767: -
+Line 767: >
+Line 767: ID = file
+Line 767: ,
+Line 767: ID = load_bias
+Line 767: +
+Line 767: ID = vaddr
+Line 767: ,
+Line 767: ID = elf_ppnt
+Line 767: ,
+Line 767: ID = elf_prot
+Line 767: ,
+Line 767: ID = elf_flags
+Line 767: )
+Line 767: ;
+Line 768: if
+Line 768: (
+Line 768: ID = BAD_ADDR
+Line 768: (
+Line 768: ID = error
+Line 768: )
+Line 768: )
+Line 769: ID = continue
+Line 769: ;
+Line 771: if
+Line 771: (
+Line 771: !
+Line 771: ID = load_addr_set
+Line 771: )
+Line 771: {
+Line 772: ID = load_addr_set
+Line 772: =
+Line 772: INTCON = 1
+Line 772: ;
+Line 773: ID = load_addr
+Line 773: =
+Line 773: (
+Line 773: ID = elf_ppnt
+Line 773: -
+Line 773: >
+Line 773: ID = p_vaddr
+Line 773: -
+Line 773: ID = elf_ppnt
+Line 773: -
+Line 773: >
+Line 773: ID = p_offset
+Line 773: )
+Line 773: ;
+Line 774: if
+Line 774: (
+Line 774: ID = elf_ex
+Line 774: Unrecognized token: 46
+Line 774: ID = e_type
+Line 774: ==
+Line 774: ID = ET_DYN
+Line 774: )
+Line 774: {
+Line 775: ID = load_bias
+Line 775: +
+Line 775: =
+Line 775: ID = error
+Line 775: -
+Line 776: ID = ELF_PAGESTART
+Line 776: (
+Line 776: ID = load_bias
+Line 776: +
+Line 776: ID = vaddr
+Line 776: )
+Line 776: ;
+Line 777: ID = load_addr
+Line 777: +
+Line 777: =
+Line 777: ID = load_bias
+Line 777: ;
+Line 778: ID = reloc_func_desc
+Line 778: =
+Line 778: ID = load_bias
+Line 778: ;
+Line 779: }
+Line 780: }
+Line 781: ID = k
+Line 781: =
+Line 781: ID = elf_ppnt
+Line 781: -
+Line 781: >
+Line 781: ID = p_vaddr
+Line 781: ;
+Line 782: if
+Line 782: (
+Line 782: ID = k
+Line 782: <
+Line 782: ID = start_code
+Line 782: )
+Line 782: ID = start_code
+Line 782: =
+Line 782: ID = k
+Line 782: ;
+Line 783: if
+Line 783: (
+Line 783: ID = start_data
+Line 783: <
+Line 783: ID = k
+Line 783: )
+Line 783: ID = start_data
+Line 783: =
+Line 783: ID = k
+Line 783: ;
+Line 790: if
+Line 790: (
+Line 790: ID = k
+Line 790: >
+Line 790: ID = TASK_SIZE
+Line 790: ||
+Line 790: ID = elf_ppnt
+Line 790: -
+Line 790: >
+Line 790: ID = p_filesz
+Line 790: >
+Line 790: ID = elf_ppnt
+Line 790: -
+Line 790: >
+Line 790: ID = p_memsz
+Line 790: ||
+Line 791: ID = elf_ppnt
+Line 791: -
+Line 791: >
+Line 791: ID = p_memsz
+Line 791: >
+Line 791: ID = TASK_SIZE
+Line 791: ||
+Line 792: ID = TASK_SIZE
+Line 792: -
+Line 792: ID = elf_ppnt
+Line 792: -
+Line 792: >
+Line 792: ID = p_memsz
+Line 792: <
+Line 792: ID = k
+Line 792: )
+Line 792: {
+Line 794: ID = send_sig
+Line 794: (
+Line 794: ID = SIGKILL
+Line 794: ,
+Line 794: ID = current
+Line 794: ,
+Line 794: INTCON = 0
+Line 794: )
+Line 794: ;
+Line 795: ID = goto
+Line 795: ID = out_free_dentry
+Line 795: ;
+Line 796: }
+Line 798: ID = k
+Line 798: =
+Line 798: ID = elf_ppnt
+Line 798: -
+Line 798: >
+Line 798: ID = p_vaddr
+Line 798: +
+Line 798: ID = elf_ppnt
+Line 798: -
+Line 798: >
+Line 798: ID = p_filesz
+Line 798: ;
+Line 800: if
+Line 800: (
+Line 800: ID = k
+Line 800: >
+Line 800: ID = elf_bss
+Line 800: )
+Line 801: ID = elf_bss
+Line 801: =
+Line 801: ID = k
+Line 801: ;
+Line 802: if
+Line 802: (
+Line 802: (
+Line 802: ID = elf_ppnt
+Line 802: -
+Line 802: >
+Line 802: ID = p_flags
+Line 802: Unrecognized token: 38
+Line 802: ID = PF_X
+Line 802: )
+Line 802: &&
+Line 802: ID = end_code
+Line 802: <
+Line 802: ID = k
+Line 802: )
+Line 803: ID = end_code
+Line 803: =
+Line 803: ID = k
+Line 803: ;
+Line 804: if
+Line 804: (
+Line 804: ID = end_data
+Line 804: <
+Line 804: ID = k
+Line 804: )
+Line 805: ID = end_data
+Line 805: =
+Line 805: ID = k
+Line 805: ;
+Line 806: ID = k
+Line 806: =
+Line 806: ID = elf_ppnt
+Line 806: -
+Line 806: >
+Line 806: ID = p_vaddr
+Line 806: +
+Line 806: ID = elf_ppnt
+Line 806: -
+Line 806: >
+Line 806: ID = p_memsz
+Line 806: ;
+Line 807: if
+Line 807: (
+Line 807: ID = k
+Line 807: >
+Line 807: ID = elf_brk
+Line 807: )
+Line 808: ID = elf_brk
+Line 808: =
+Line 808: ID = k
+Line 808: ;
+Line 809: }
+Line 811: ID = elf_ex
+Line 811: Unrecognized token: 46
+Line 811: ID = e_entry
+Line 811: +
+Line 811: =
+Line 811: ID = load_bias
+Line 811: ;
+Line 812: ID = elf_bss
+Line 812: +
+Line 812: =
+Line 812: ID = load_bias
+Line 812: ;
+Line 813: ID = elf_brk
+Line 813: +
+Line 813: =
+Line 813: ID = load_bias
+Line 813: ;
+Line 814: ID = start_code
+Line 814: +
+Line 814: =
+Line 814: ID = load_bias
+Line 814: ;
+Line 815: ID = end_code
+Line 815: +
+Line 815: =
+Line 815: ID = load_bias
+Line 815: ;
+Line 816: ID = start_data
+Line 816: +
+Line 816: =
+Line 816: ID = load_bias
+Line 816: ;
+Line 817: ID = end_data
+Line 817: +
+Line 817: =
+Line 817: ID = load_bias
+Line 817: ;
+Line 824: ID = retval
+Line 824: =
+Line 824: ID = set_brk
+Line 824: (
+Line 824: ID = elf_bss
+Line 824: ,
+Line 824: ID = elf_brk
+Line 824: )
+Line 824: ;
+Line 825: if
+Line 825: (
+Line 825: ID = retval
+Line 825: )
+Line 825: {
+Line 826: ID = send_sig
+Line 826: (
+Line 826: ID = SIGKILL
+Line 826: ,
+Line 826: ID = current
+Line 826: ,
+Line 826: INTCON = 0
+Line 826: )
+Line 826: ;
+Line 827: ID = goto
+Line 827: ID = out_free_dentry
+Line 827: ;
+Line 828: }
+Line 829: ID = padzero
+Line 829: (
+Line 829: ID = elf_bss
+Line 829: )
+Line 829: ;
+Line 831: if
+Line 831: (
+Line 831: ID = elf_interpreter
+Line 831: )
+Line 831: {
+Line 832: if
+Line 832: (
+Line 832: ID = interpreter_type
+Line 832: ==
+Line 832: ID = INTERPRETER_AOUT
+Line 832: )
+Line 833: ID = elf_entry
+Line 833: =
+Line 833: ID = load_aout_interp
+Line 833: (
+Line 833: Unrecognized token: 38
+Line 833: ID = interp_ex
+Line 833: ,
+Line 834: ID = interpreter
+Line 834: )
+Line 834: ;
+Line 835: else
+Line 836: ID = elf_entry
+Line 836: =
+Line 836: ID = load_elf_interp
+Line 836: (
+Line 836: Unrecognized token: 38
+Line 836: ID = interp_elf_ex
+Line 836: ,
+Line 837: ID = interpreter
+Line 837: ,
+Line 838: Unrecognized token: 38
+Line 838: ID = interp_load_addr
+Line 838: )
+Line 838: ;
+Line 839: if
+Line 839: (
+Line 839: ID = BAD_ADDR
+Line 839: (
+Line 839: ID = elf_entry
+Line 839: )
+Line 839: )
+Line 839: {
+Line 840: ID = printk
+Line 840: (
+Line 840: ID = KERN_ERR
+Line 840: STRINGCON = "Unable to load interpreter\n"
+Line 840: )
+Line 840: ;
+Line 841: ID = send_sig
+Line 841: (
+Line 841: ID = SIGSEGV
+Line 841: ,
+Line 841: ID = current
+Line 841: ,
+Line 841: INTCON = 0
+Line 841: )
+Line 841: ;
+Line 842: ID = retval
+Line 842: =
+Line 842: -
+Line 842: ID = ENOEXEC
+Line 842: ;
+Line 843: ID = goto
+Line 843: ID = out_free_dentry
+Line 843: ;
+Line 844: }
+Line 845: ID = reloc_func_desc
+Line 845: =
+Line 845: ID = interp_load_addr
+Line 845: ;
+Line 847: ID = allow_write_access
+Line 847: (
+Line 847: ID = interpreter
+Line 847: )
+Line 847: ;
+Line 848: ID = fput
+Line 848: (
+Line 848: ID = interpreter
+Line 848: )
+Line 848: ;
+Line 849: ID = kfree
+Line 849: (
+Line 849: ID = elf_interpreter
+Line 849: )
+Line 849: ;
+Line 850: }
+Line 850: else
+Line 850: {
+Line 851: ID = elf_entry
+Line 851: =
+Line 851: ID = elf_ex
+Line 851: Unrecognized token: 46
+Line 851: ID = e_entry
+Line 851: ;
+Line 852: }
+Line 854: ID = kfree
+Line 854: (
+Line 854: ID = elf_phdata
+Line 854: )
+Line 854: ;
+Line 856: if
+Line 856: (
+Line 856: ID = interpreter_type
+Line 856: !=
+Line 856: ID = INTERPRETER_AOUT
+Line 856: )
+Line 857: ID = sys_close
+Line 857: (
+Line 857: ID = elf_exec_fileno
+Line 857: )
+Line 857: ;
+Line 859: ID = set_binfmt
+Line 859: (
+Line 859: Unrecognized token: 38
+Line 859: ID = elf_format
+Line 859: )
+Line 859: ;
+Line 861: ID = compute_creds
+Line 861: (
+Line 861: ID = bprm
+Line 861: )
+Line 861: ;
+Line 862: ID = current
+Line 862: -
+Line 862: >
+Line 862: ID = flags
+Line 862: Unrecognized token: 38
+Line 862: =
+Line 862: Unrecognized token: 126
+Line 862: ID = PF_FORKNOEXEC
+Line 862: ;
+Line 863: ID = create_elf_tables
+Line 863: (
+Line 863: ID = bprm
+Line 863: ,
+Line 863: Unrecognized token: 38
+Line 863: ID = elf_ex
+Line 863: ,
+Line 863: (
+Line 863: ID = interpreter_type
+Line 863: ==
+Line 863: ID = INTERPRETER_AOUT
+Line 863: )
+Line 863: ,
+Line 864: ID = load_addr
+Line 864: ,
+Line 864: ID = interp_load_addr
+Line 864: )
+Line 864: ;
+Line 866: if
+Line 866: (
+Line 866: ID = interpreter_type
+Line 866: ==
+Line 866: ID = INTERPRETER_AOUT
+Line 866: )
+Line 867: ID = current
+Line 867: -
+Line 867: >
+Line 867: ID = mm
+Line 867: -
+Line 867: >
+Line 867: ID = arg_start
+Line 867: +
+Line 867: =
+Line 867: ID = strlen
+Line 867: (
+Line 867: ID = passed_fileno
+Line 867: )
+Line 867: +
+Line 867: INTCON = 1
+Line 867: ;
+Line 868: ID = current
+Line 868: -
+Line 868: >
+Line 868: ID = mm
+Line 868: -
+Line 868: >
+Line 868: ID = end_code
+Line 868: =
+Line 868: ID = end_code
+Line 868: ;
+Line 869: ID = current
+Line 869: -
+Line 869: >
+Line 869: ID = mm
+Line 869: -
+Line 869: >
+Line 869: ID = start_code
+Line 869: =
+Line 869: ID = start_code
+Line 869: ;
+Line 870: ID = current
+Line 870: -
+Line 870: >
+Line 870: ID = mm
+Line 870: -
+Line 870: >
+Line 870: ID = start_data
+Line 870: =
+Line 870: ID = start_data
+Line 870: ;
+Line 871: ID = current
+Line 871: -
+Line 871: >
+Line 871: ID = mm
+Line 871: -
+Line 871: >
+Line 871: ID = end_data
+Line 871: =
+Line 871: ID = end_data
+Line 871: ;
+Line 872: ID = current
+Line 872: -
+Line 872: >
+Line 872: ID = mm
+Line 872: -
+Line 872: >
+Line 872: ID = start_stack
+Line 872: =
+Line 872: ID = bprm
+Line 872: -
+Line 872: >
+Line 872: ID = p
+Line 872: ;
+Line 874: if
+Line 874: (
+Line 874: ID = current
+Line 874: -
+Line 874: >
+Line 874: ID = personality
+Line 874: Unrecognized token: 38
+Line 874: ID = MMAP_PAGE_ZERO
+Line 874: )
+Line 874: {
+Line 879: ID = down_write
+Line 879: (
+Line 879: Unrecognized token: 38
+Line 879: ID = current
+Line 879: -
+Line 879: >
+Line 879: ID = mm
+Line 879: -
+Line 879: >
+Line 879: ID = mmap_sem
+Line 879: )
+Line 879: ;
+Line 880: ID = error
+Line 880: =
+Line 880: ID = do_mmap
+Line 880: (
+Line 880: ID = NULL
+Line 880: ,
+Line 880: INTCON = 0
+Line 880: ,
+Line 880: ID = PAGE_SIZE
+Line 880: ,
+Line 880: ID = PROT_READ
+Line 880: Unrecognized token: 124
+Line 880: ID = PROT_EXEC
+Line 880: ,
+Line 881: ID = MAP_FIXED
+Line 881: Unrecognized token: 124
+Line 881: ID = MAP_PRIVATE
+Line 881: ,
+Line 881: INTCON = 0
+Line 881: )
+Line 881: ;
+Line 882: ID = up_write
+Line 882: (
+Line 882: Unrecognized token: 38
+Line 882: ID = current
+Line 882: -
+Line 882: >
+Line 882: ID = mm
+Line 882: -
+Line 882: >
+Line 882: ID = mmap_sem
+Line 882: )
+Line 882: ;
+Line 883: }
+Line 885: Unrecognized token: 35
+Line 885: ID = ifdef
+Line 885: ID = ELF_PLAT_INIT
+Line 896: ID = ELF_PLAT_INIT
+Line 896: (
+Line 896: ID = regs
+Line 896: ,
+Line 896: ID = reloc_func_desc
+Line 896: )
+Line 896: ;
+Line 897: Unrecognized token: 35
+Line 897: ID = endif
+Line 899: ID = start_thread
+Line 899: (
+Line 899: ID = regs
+Line 899: ,
+Line 899: ID = elf_entry
+Line 899: ,
+Line 899: ID = bprm
+Line 899: -
+Line 899: >
+Line 899: ID = p
+Line 899: )
+Line 899: ;
+Line 900: if
+Line 900: (
+Line 900: ID = unlikely
+Line 900: (
+Line 900: ID = current
+Line 900: -
+Line 900: >
+Line 900: ID = ptrace
+Line 900: Unrecognized token: 38
+Line 900: ID = PT_PTRACED
+Line 900: )
+Line 900: )
+Line 900: {
+Line 901: if
+Line 901: (
+Line 901: ID = current
+Line 901: -
+Line 901: >
+Line 901: ID = ptrace
+Line 901: Unrecognized token: 38
+Line 901: ID = PT_TRACE_EXEC
+Line 901: )
+Line 902: ID = ptrace_notify
+Line 902: (
+Line 902: (
+Line 902: ID = PTRACE_EVENT_EXEC
+Line 902: <
+Line 902: <
+Line 902: INTCON = 8
+Line 902: )
+Line 902: Unrecognized token: 124
+Line 902: ID = SIGTRAP
+Line 902: )
+Line 902: ;
+Line 903: else
+Line 904: ID = send_sig
+Line 904: (
+Line 904: ID = SIGTRAP
+Line 904: ,
+Line 904: ID = current
+Line 904: ,
+Line 904: INTCON = 0
+Line 904: )
+Line 904: ;
+Line 905: }
+Line 906: ID = retval
+Line 906: =
+Line 906: INTCON = 0
+Line 906: ;
+Line 907: ID = out
+Line 907: Unrecognized token: 58
+Line 908: return
+Line 908: ID = retval
+Line 908: ;
+Line 911: ID = out_free_dentry
+Line 911: Unrecognized token: 58
+Line 912: ID = allow_write_access
+Line 912: (
+Line 912: ID = interpreter
+Line 912: )
+Line 912: ;
+Line 913: if
+Line 913: (
+Line 913: ID = interpreter
+Line 913: )
+Line 914: ID = fput
+Line 914: (
+Line 914: ID = interpreter
+Line 914: )
+Line 914: ;
+Line 915: ID = out_free_interp
+Line 915: Unrecognized token: 58
+Line 916: if
+Line 916: (
+Line 916: ID = elf_interpreter
+Line 916: )
+Line 917: ID = kfree
+Line 917: (
+Line 917: ID = elf_interpreter
+Line 917: )
+Line 917: ;
+Line 918: ID = out_free_file
+Line 918: Unrecognized token: 58
+Line 919: ID = sys_close
+Line 919: (
+Line 919: ID = elf_exec_fileno
+Line 919: )
+Line 919: ;
+Line 920: ID = out_free_fh
+Line 920: Unrecognized token: 58
+Line 921: if
+Line 921: (
+Line 921: ID = files
+Line 921: )
+Line 921: {
+Line 922: ID = put_files_struct
+Line 922: (
+Line 922: ID = current
+Line 922: -
+Line 922: >
+Line 922: ID = files
+Line 922: )
+Line 922: ;
+Line 923: ID = current
+Line 923: -
+Line 923: >
+Line 923: ID = files
+Line 923: =
+Line 923: ID = files
+Line 923: ;
+Line 924: }
+Line 925: ID = out_free_ph
+Line 925: Unrecognized token: 58
+Line 926: ID = kfree
+Line 926: (
+Line 926: ID = elf_phdata
+Line 926: )
+Line 926: ;
+Line 927: ID = goto
+Line 927: ID = out
+Line 927: ;
+Line 928: }
+Line 933: ID = static
+Line 933: int
+Line 933: ID = load_elf_library
+Line 933: (
+Line 933: ID = struct
+Line 933: ID = file
+Line 933: *
+Line 933: ID = file
+Line 933: )
+Line 934: {
+Line 935: ID = struct
+Line 935: ID = elf_phdr
+Line 935: *
+Line 935: ID = elf_phdata
+Line 935: ;
+Line 936: ID = unsigned
+Line 936: ID = long
+Line 936: ID = elf_bss
+Line 936: ,
+Line 936: ID = bss
+Line 936: ,
+Line 936: ID = len
+Line 936: ;
+Line 937: int
+Line 937: ID = retval
+Line 937: ,
+Line 937: ID = error
+Line 937: ,
+Line 937: ID = i
+Line 937: ,
+Line 937: ID = j
+Line 937: ;
+Line 938: ID = struct
+Line 938: ID = elfhdr
+Line 938: ID = elf_ex
+Line 938: ;
+Line 940: ID = error
+Line 940: =
+Line 940: -
+Line 940: ID = ENOEXEC
+Line 940: ;
+Line 941: ID = retval
+Line 941: =
+Line 941: ID = kernel_read
+Line 941: (
+Line 941: ID = file
+Line 941: ,
+Line 941: INTCON = 0
+Line 941: ,
+Line 941: (
+Line 941: char
+Line 941: *
+Line 941: )
+Line 941: Unrecognized token: 38
+Line 941: ID = elf_ex
+Line 941: ,
+Line 941: ID = sizeof
+Line 941: (
+Line 941: ID = elf_ex
+Line 941: )
+Line 941: )
+Line 941: ;
+Line 942: if
+Line 942: (
+Line 942: ID = retval
+Line 942: !=
+Line 942: ID = sizeof
+Line 942: (
+Line 942: ID = elf_ex
+Line 942: )
+Line 942: )
+Line 943: ID = goto
+Line 943: ID = out
+Line 943: ;
+Line 945: if
+Line 945: (
+Line 945: ID = memcmp
+Line 945: (
+Line 945: ID = elf_ex
+Line 945: Unrecognized token: 46
+Line 945: ID = e_ident
+Line 945: ,
+Line 945: ID = ELFMAG
+Line 945: ,
+Line 945: ID = SELFMAG
+Line 945: )
+Line 945: !=
+Line 945: INTCON = 0
+Line 945: )
+Line 946: ID = goto
+Line 946: ID = out
+Line 946: ;
+Line 949: if
+Line 949: (
+Line 949: ID = elf_ex
+Line 949: Unrecognized token: 46
+Line 949: ID = e_type
+Line 949: !=
+Line 949: ID = ET_EXEC
+Line 949: ||
+Line 949: ID = elf_ex
+Line 949: Unrecognized token: 46
+Line 949: ID = e_phnum
+Line 949: >
+Line 949: INTCON = 2
+Line 949: ||
+Line 950: !
+Line 950: ID = elf_check_arch
+Line 950: (
+Line 950: Unrecognized token: 38
+Line 950: ID = elf_ex
+Line 950: )
+Line 950: ||
+Line 950: !
+Line 950: ID = file
+Line 950: -
+Line 950: >
+Line 950: ID = f_op
+Line 950: ||
+Line 950: !
+Line 950: ID = file
+Line 950: -
+Line 950: >
+Line 950: ID = f_op
+Line 950: -
+Line 950: >
+Line 950: ID = mmap
+Line 950: )
+Line 951: ID = goto
+Line 951: ID = out
+Line 951: ;
+Line 955: ID = j
+Line 955: =
+Line 955: ID = sizeof
+Line 955: (
+Line 955: ID = struct
+Line 955: ID = elf_phdr
+Line 955: )
+Line 955: *
+Line 955: ID = elf_ex
+Line 955: Unrecognized token: 46
+Line 955: ID = e_phnum
+Line 955: ;
+Line 958: ID = error
+Line 958: =
+Line 958: -
+Line 958: ID = ENOMEM
+Line 958: ;
+Line 959: ID = elf_phdata
+Line 959: =
+Line 959: (
+Line 959: ID = struct
+Line 959: ID = elf_phdr
+Line 959: *
+Line 959: )
+Line 959: ID = kmalloc
+Line 959: (
+Line 959: ID = j
+Line 959: ,
+Line 959: ID = GFP_KERNEL
+Line 959: )
+Line 959: ;
+Line 960: if
+Line 960: (
+Line 960: !
+Line 960: ID = elf_phdata
+Line 960: )
+Line 961: ID = goto
+Line 961: ID = out
+Line 961: ;
+Line 963: ID = error
+Line 963: =
+Line 963: -
+Line 963: ID = ENOEXEC
+Line 963: ;
+Line 964: ID = retval
+Line 964: =
+Line 964: ID = kernel_read
+Line 964: (
+Line 964: ID = file
+Line 964: ,
+Line 964: ID = elf_ex
+Line 964: Unrecognized token: 46
+Line 964: ID = e_phoff
+Line 964: ,
+Line 964: (
+Line 964: char
+Line 964: *
+Line 964: )
+Line 964: ID = elf_phdata
+Line 964: ,
+Line 964: ID = j
+Line 964: )
+Line 964: ;
+Line 965: if
+Line 965: (
+Line 965: ID = retval
+Line 965: !=
+Line 965: ID = j
+Line 965: )
+Line 966: ID = goto
+Line 966: ID = out_free_ph
+Line 966: ;
+Line 968: for
+Line 968: (
+Line 968: ID = j
+Line 968: =
+Line 968: INTCON = 0
+Line 968: ,
+Line 968: ID = i
+Line 968: =
+Line 968: INTCON = 0
+Line 968: ;
+Line 968: ID = i
+Line 968: <
+Line 968: ID = elf_ex
+Line 968: Unrecognized token: 46
+Line 968: ID = e_phnum
+Line 968: ;
+Line 968: ID = i
+Line 968: +
+Line 968: +
+Line 968: )
+Line 969: if
+Line 969: (
+Line 969: (
+Line 969: ID = elf_phdata
+Line 969: +
+Line 969: ID = i
+Line 969: )
+Line 969: -
+Line 969: >
+Line 969: ID = p_type
+Line 969: ==
+Line 969: ID = PT_LOAD
+Line 969: )
+Line 969: ID = j
+Line 969: +
+Line 969: +
+Line 969: ;
+Line 970: if
+Line 970: (
+Line 970: ID = j
+Line 970: !=
+Line 970: INTCON = 1
+Line 970: )
+Line 971: ID = goto
+Line 971: ID = out_free_ph
+Line 971: ;
+Line 973: while
+Line 973: (
+Line 973: ID = elf_phdata
+Line 973: -
+Line 973: >
+Line 973: ID = p_type
+Line 973: !=
+Line 973: ID = PT_LOAD
+Line 973: )
+Line 973: ID = elf_phdata
+Line 973: +
+Line 973: +
+Line 973: ;
+Line 976: ID = down_write
+Line 976: (
+Line 976: Unrecognized token: 38
+Line 976: ID = current
+Line 976: -
+Line 976: >
+Line 976: ID = mm
+Line 976: -
+Line 976: >
+Line 976: ID = mmap_sem
+Line 976: )
+Line 976: ;
+Line 977: ID = error
+Line 977: =
+Line 977: ID = do_mmap
+Line 977: (
+Line 977: ID = file
+Line 977: ,
+Line 978: ID = ELF_PAGESTART
+Line 978: (
+Line 978: ID = elf_phdata
+Line 978: -
+Line 978: >
+Line 978: ID = p_vaddr
+Line 978: )
+Line 978: ,
+Line 979: (
+Line 979: ID = elf_phdata
+Line 979: -
+Line 979: >
+Line 979: ID = p_filesz
+Line 979: +
+Line 980: ID = ELF_PAGEOFFSET
+Line 980: (
+Line 980: ID = elf_phdata
+Line 980: -
+Line 980: >
+Line 980: ID = p_vaddr
+Line 980: )
+Line 980: )
+Line 980: ,
+Line 981: ID = PROT_READ
+Line 981: Unrecognized token: 124
+Line 981: ID = PROT_WRITE
+Line 981: Unrecognized token: 124
+Line 981: ID = PROT_EXEC
+Line 981: ,
+Line 982: ID = MAP_FIXED
+Line 982: Unrecognized token: 124
+Line 982: ID = MAP_PRIVATE
+Line 982: Unrecognized token: 124
+Line 982: ID = MAP_DENYWRITE
+Line 982: ,
+Line 983: (
+Line 983: ID = elf_phdata
+Line 983: -
+Line 983: >
+Line 983: ID = p_offset
+Line 983: -
+Line 984: ID = ELF_PAGEOFFSET
+Line 984: (
+Line 984: ID = elf_phdata
+Line 984: -
+Line 984: >
+Line 984: ID = p_vaddr
+Line 984: )
+Line 984: )
+Line 984: )
+Line 984: ;
+Line 985: ID = up_write
+Line 985: (
+Line 985: Unrecognized token: 38
+Line 985: ID = current
+Line 985: -
+Line 985: >
+Line 985: ID = mm
+Line 985: -
+Line 985: >
+Line 985: ID = mmap_sem
+Line 985: )
+Line 985: ;
+Line 986: if
+Line 986: (
+Line 986: ID = error
+Line 986: !=
+Line 986: ID = ELF_PAGESTART
+Line 986: (
+Line 986: ID = elf_phdata
+Line 986: -
+Line 986: >
+Line 986: ID = p_vaddr
+Line 986: )
+Line 986: )
+Line 987: ID = goto
+Line 987: ID = out_free_ph
+Line 987: ;
+Line 989: ID = elf_bss
+Line 989: =
+Line 989: ID = elf_phdata
+Line 989: -
+Line 989: >
+Line 989: ID = p_vaddr
+Line 989: +
+Line 989: ID = elf_phdata
+Line 989: -
+Line 989: >
+Line 989: ID = p_filesz
+Line 989: ;
+Line 990: ID = padzero
+Line 990: (
+Line 990: ID = elf_bss
+Line 990: )
+Line 990: ;
+Line 992: ID = len
+Line 992: =
+Line 992: ID = ELF_PAGESTART
+Line 992: (
+Line 992: ID = elf_phdata
+Line 992: -
+Line 992: >
+Line 992: ID = p_filesz
+Line 992: +
+Line 992: ID = elf_phdata
+Line 992: -
+Line 992: >
+Line 992: ID = p_vaddr
+Line 992: +
+Line 992: ID = ELF_MIN_ALIGN
+Line 992: -
+Line 992: INTCON = 1
+Line 992: )
+Line 992: ;
+Line 993: ID = bss
+Line 993: =
+Line 993: ID = elf_phdata
+Line 993: -
+Line 993: >
+Line 993: ID = p_memsz
+Line 993: +
+Line 993: ID = elf_phdata
+Line 993: -
+Line 993: >
+Line 993: ID = p_vaddr
+Line 993: ;
+Line 994: if
+Line 994: (
+Line 994: ID = bss
+Line 994: >
+Line 994: ID = len
+Line 994: )
+Line 995: ID = do_brk
+Line 995: (
+Line 995: ID = len
+Line 995: ,
+Line 995: ID = bss
+Line 995: -
+Line 995: ID = len
+Line 995: )
+Line 995: ;
+Line 996: ID = error
+Line 996: =
+Line 996: INTCON = 0
+Line 996: ;
+Line 998: ID = out_free_ph
+Line 998: Unrecognized token: 58
+Line 999: ID = kfree
+Line 999: (
+Line 999: ID = elf_phdata
+Line 999: )
+Line 999: ;
+Line 1000: ID = out
+Line 1000: Unrecognized token: 58
+Line 1001: return
+Line 1001: ID = error
+Line 1001: ;
+Line 1002: }
+Line 1008: Unrecognized token: 35
+Line 1008: ID = ifdef
+Line 1008: ID = USE_ELF_CORE_DUMP
+Line 1020: ID = static
+Line 1020: int
+Line 1020: ID = dump_write
+Line 1020: (
+Line 1020: ID = struct
+Line 1020: ID = file
+Line 1020: *
+Line 1020: ID = file
+Line 1020: ,
+Line 1020: ID = const
+Line 1020: void
+Line 1020: *
+Line 1020: ID = addr
+Line 1020: ,
+Line 1020: int
+Line 1020: ID = nr
+Line 1020: )
+Line 1021: {
+Line 1022: return
+Line 1022: ID = file
+Line 1022: -
+Line 1022: >
+Line 1022: ID = f_op
+Line 1022: -
+Line 1022: >
+Line 1022: ID = write
+Line 1022: (
+Line 1022: ID = file
+Line 1022: ,
+Line 1022: ID = addr
+Line 1022: ,
+Line 1022: ID = nr
+Line 1022: ,
+Line 1022: Unrecognized token: 38
+Line 1022: ID = file
+Line 1022: -
+Line 1022: >
+Line 1022: ID = f_pos
+Line 1022: )
+Line 1022: ==
+Line 1022: ID = nr
+Line 1022: ;
+Line 1023: }
+Line 1025: ID = static
+Line 1025: int
+Line 1025: ID = dump_seek
+Line 1025: (
+Line 1025: ID = struct
+Line 1025: ID = file
+Line 1025: *
+Line 1025: ID = file
+Line 1025: ,
+Line 1025: ID = off_t
+Line 1025: ID = off
+Line 1025: )
+Line 1026: {
+Line 1027: if
+Line 1027: (
+Line 1027: ID = file
+Line 1027: -
+Line 1027: >
+Line 1027: ID = f_op
+Line 1027: -
+Line 1027: >
+Line 1027: ID = llseek
+Line 1027: )
+Line 1027: {
+Line 1028: if
+Line 1028: (
+Line 1028: ID = file
+Line 1028: -
+Line 1028: >
+Line 1028: ID = f_op
+Line 1028: -
+Line 1028: >
+Line 1028: ID = llseek
+Line 1028: (
+Line 1028: ID = file
+Line 1028: ,
+Line 1028: ID = off
+Line 1028: ,
+Line 1028: INTCON = 0
+Line 1028: )
+Line 1028: !=
+Line 1028: ID = off
+Line 1028: )
+Line 1029: return
+Line 1029: INTCON = 0
+Line 1029: ;
+Line 1030: }
+Line 1030: else
+Line 1031: ID = file
+Line 1031: -
+Line 1031: >
+Line 1031: ID = f_pos
+Line 1031: =
+Line 1031: ID = off
+Line 1031: ;
+Line 1032: return
+Line 1032: INTCON = 1
+Line 1032: ;
+Line 1033: }
+Line 1042: ID = static
+Line 1042: int
+Line 1042: ID = maydump
+Line 1042: (
+Line 1042: ID = struct
+Line 1042: ID = vm_area_struct
+Line 1042: *
+Line 1042: ID = vma
+Line 1042: )
+Line 1043: {
+Line 1048: if
+Line 1048: (
+Line 1048: !
+Line 1048: (
+Line 1048: ID = vma
+Line 1048: -
+Line 1048: >
+Line 1048: ID = vm_flags
+Line 1048: Unrecognized token: 38
+Line 1048: ID = VM_READ
+Line 1048: )
+Line 1048: )
+Line 1049: return
+Line 1049: INTCON = 0
+Line 1049: ;
+Line 1052: if
+Line 1052: (
+Line 1052: ID = vma
+Line 1052: -
+Line 1052: >
+Line 1052: ID = vm_flags
+Line 1052: Unrecognized token: 38
+Line 1052: ID = VM_IO
+Line 1052: )
+Line 1053: return
+Line 1053: INTCON = 0
+Line 1053: ;
+Line 1054: Unrecognized token: 35
+Line 1054: if
+Line 1054: INTCON = 1
+Line 1055: if
+Line 1055: (
+Line 1055: ID = vma
+Line 1055: -
+Line 1055: >
+Line 1055: ID = vm_flags
+Line 1055: Unrecognized token: 38
+Line 1055: (
+Line 1055: ID = VM_WRITE
+Line 1055: Unrecognized token: 124
+Line 1055: ID = VM_GROWSUP
+Line 1055: Unrecognized token: 124
+Line 1055: ID = VM_GROWSDOWN
+Line 1055: )
+Line 1055: )
+Line 1056: return
+Line 1056: INTCON = 1
+Line 1056: ;
+Line 1057: if
+Line 1057: (
+Line 1057: ID = vma
+Line 1057: -
+Line 1057: >
+Line 1057: ID = vm_flags
+Line 1057: Unrecognized token: 38
+Line 1057: (
+Line 1057: ID = VM_READ
+Line 1057: Unrecognized token: 124
+Line 1057: ID = VM_EXEC
+Line 1057: Unrecognized token: 124
+Line 1057: ID = VM_EXECUTABLE
+Line 1057: Unrecognized token: 124
+Line 1057: ID = VM_SHARED
+Line 1057: )
+Line 1057: )
+Line 1058: return
+Line 1058: INTCON = 0
+Line 1058: ;
+Line 1059: Unrecognized token: 35
+Line 1059: ID = endif
+Line 1060: return
+Line 1060: INTCON = 1
+Line 1060: ;
+Line 1061: }
+Line 1063: Unrecognized token: 35
+Line 1063: ID = define
+Line 1063: ID = roundup
+Line 1063: (
+Line 1063: ID = x
+Line 1063: ,
+Line 1063: ID = y
+Line 1063: )
+Line 1063: (
+Line 1063: (
+Line 1063: (
+Line 1063: (
+Line 1063: ID = x
+Line 1063: )
+Line 1063: +
+Line 1063: (
+Line 1063: (
+Line 1063: ID = y
+Line 1063: )
+Line 1063: -
+Line 1063: INTCON = 1
+Line 1063: )
+Line 1063: )
+Line 1063: /
+Line 1063: (
+Line 1063: ID = y
+Line 1063: )
+Line 1063: )
+Line 1063: *
+Line 1063: (
+Line 1063: ID = y
+Line 1063: )
+Line 1063: )
+Line 1066: ID = struct
+Line 1066: ID = memelfnote
+Line 1067: {
+Line 1068: ID = const
+Line 1068: char
+Line 1068: *
+Line 1068: ID = name
+Line 1068: ;
+Line 1069: int
+Line 1069: ID = type
+Line 1069: ;
+Line 1070: ID = unsigned
+Line 1070: int
+Line 1070: ID = datasz
+Line 1070: ;
+Line 1071: void
+Line 1071: *
+Line 1071: ID = data
+Line 1071: ;
+Line 1072: }
+Line 1072: ;
+Line 1074: ID = static
+Line 1074: int
+Line 1074: ID = notesize
+Line 1074: (
+Line 1074: ID = struct
+Line 1074: ID = memelfnote
+Line 1074: *
+Line 1074: ID = en
+Line 1074: )
+Line 1075: {
+Line 1076: int
+Line 1076: ID = sz
+Line 1076: ;
+Line 1078: ID = sz
+Line 1078: =
+Line 1078: ID = sizeof
+Line 1078: (
+Line 1078: ID = struct
+Line 1078: ID = elf_note
+Line 1078: )
+Line 1078: ;
+Line 1079: ID = sz
+Line 1079: +
+Line 1079: =
+Line 1079: ID = roundup
+Line 1079: (
+Line 1079: ID = strlen
+Line 1079: (
+Line 1079: ID = en
+Line 1079: -
+Line 1079: >
+Line 1079: ID = name
+Line 1079: )
+Line 1079: +
+Line 1079: INTCON = 1
+Line 1079: ,
+Line 1079: INTCON = 4
+Line 1079: )
+Line 1079: ;
+Line 1080: ID = sz
+Line 1080: +
+Line 1080: =
+Line 1080: ID = roundup
+Line 1080: (
+Line 1080: ID = en
+Line 1080: -
+Line 1080: >
+Line 1080: ID = datasz
+Line 1080: ,
+Line 1080: INTCON = 4
+Line 1080: )
+Line 1080: ;
+Line 1082: return
+Line 1082: ID = sz
+Line 1082: ;
+Line 1083: }
+Line 1085: Unrecognized token: 35
+Line 1085: ID = define
+Line 1085: ID = DUMP_WRITE
+Line 1085: (
+Line 1085: ID = addr
+Line 1085: ,
+Line 1085: ID = nr
+Line 1085: )
+Line 1085: Unrecognized token: 92
+Line 1086: ID = do
+Line 1086: {
+Line 1086: if
+Line 1086: (
+Line 1086: !
+Line 1086: ID = dump_write
+Line 1086: (
+Line 1086: ID = file
+Line 1086: ,
+Line 1086: (
+Line 1086: ID = addr
+Line 1086: )
+Line 1086: ,
+Line 1086: (
+Line 1086: ID = nr
+Line 1086: )
+Line 1086: )
+Line 1086: )
+Line 1086: return
+Line 1086: INTCON = 0
+Line 1086: ;
+Line 1086: }
+Line 1086: while
+Line 1086: (
+Line 1086: INTCON = 0
+Line 1086: )
+Line 1087: Unrecognized token: 35
+Line 1087: ID = define
+Line 1087: ID = DUMP_SEEK
+Line 1087: (
+Line 1087: ID = off
+Line 1087: )
+Line 1087: Unrecognized token: 92
+Line 1088: ID = do
+Line 1088: {
+Line 1088: if
+Line 1088: (
+Line 1088: !
+Line 1088: ID = dump_seek
+Line 1088: (
+Line 1088: ID = file
+Line 1088: ,
+Line 1088: (
+Line 1088: ID = off
+Line 1088: )
+Line 1088: )
+Line 1088: )
+Line 1088: return
+Line 1088: INTCON = 0
+Line 1088: ;
+Line 1088: }
+Line 1088: while
+Line 1088: (
+Line 1088: INTCON = 0
+Line 1088: )
+Line 1090: ID = static
+Line 1090: int
+Line 1090: ID = writenote
+Line 1090: (
+Line 1090: ID = struct
+Line 1090: ID = memelfnote
+Line 1090: *
+Line 1090: ID = men
+Line 1090: ,
+Line 1090: ID = struct
+Line 1090: ID = file
+Line 1090: *
+Line 1090: ID = file
+Line 1090: )
+Line 1091: {
+Line 1092: ID = struct
+Line 1092: ID = elf_note
+Line 1092: ID = en
+Line 1092: ;
+Line 1094: ID = en
+Line 1094: Unrecognized token: 46
+Line 1094: ID = n_namesz
+Line 1094: =
+Line 1094: ID = strlen
+Line 1094: (
+Line 1094: ID = men
+Line 1094: -
+Line 1094: >
+Line 1094: ID = name
+Line 1094: )
+Line 1094: +
+Line 1094: INTCON = 1
+Line 1094: ;
+Line 1095: ID = en
+Line 1095: Unrecognized token: 46
+Line 1095: ID = n_descsz
+Line 1095: =
+Line 1095: ID = men
+Line 1095: -
+Line 1095: >
+Line 1095: ID = datasz
+Line 1095: ;
+Line 1096: ID = en
+Line 1096: Unrecognized token: 46
+Line 1096: ID = n_type
+Line 1096: =
+Line 1096: ID = men
+Line 1096: -
+Line 1096: >
+Line 1096: ID = type
+Line 1096: ;
+Line 1098: ID = DUMP_WRITE
+Line 1098: (
+Line 1098: Unrecognized token: 38
+Line 1098: ID = en
+Line 1098: ,
+Line 1098: ID = sizeof
+Line 1098: (
+Line 1098: ID = en
+Line 1098: )
+Line 1098: )
+Line 1098: ;
+Line 1099: ID = DUMP_WRITE
+Line 1099: (
+Line 1099: ID = men
+Line 1099: -
+Line 1099: >
+Line 1099: ID = name
+Line 1099: ,
+Line 1099: ID = en
+Line 1099: Unrecognized token: 46
+Line 1099: ID = n_namesz
+Line 1099: )
+Line 1099: ;
+Line 1101: ID = DUMP_SEEK
+Line 1101: (
+Line 1101: ID = roundup
+Line 1101: (
+Line 1101: (
+Line 1101: ID = unsigned
+Line 1101: ID = long
+Line 1101: )
+Line 1101: ID = file
+Line 1101: -
+Line 1101: >
+Line 1101: ID = f_pos
+Line 1101: ,
+Line 1101: INTCON = 4
+Line 1101: )
+Line 1101: )
+Line 1101: ;
+Line 1102: ID = DUMP_WRITE
+Line 1102: (
+Line 1102: ID = men
+Line 1102: -
+Line 1102: >
+Line 1102: ID = data
+Line 1102: ,
+Line 1102: ID = men
+Line 1102: -
+Line 1102: >
+Line 1102: ID = datasz
+Line 1102: )
+Line 1102: ;
+Line 1103: ID = DUMP_SEEK
+Line 1103: (
+Line 1103: ID = roundup
+Line 1103: (
+Line 1103: (
+Line 1103: ID = unsigned
+Line 1103: ID = long
+Line 1103: )
+Line 1103: ID = file
+Line 1103: -
+Line 1103: >
+Line 1103: ID = f_pos
+Line 1103: ,
+Line 1103: INTCON = 4
+Line 1103: )
+Line 1103: )
+Line 1103: ;
+Line 1105: return
+Line 1105: INTCON = 1
+Line 1105: ;
+Line 1106: }
+Line 1107: Unrecognized token: 35
+Line 1107: ID = undef
+Line 1107: ID = DUMP_WRITE
+Line 1108: Unrecognized token: 35
+Line 1108: ID = undef
+Line 1108: ID = DUMP_SEEK
+Line 1110: Unrecognized token: 35
+Line 1110: ID = define
+Line 1110: ID = DUMP_WRITE
+Line 1110: (
+Line 1110: ID = addr
+Line 1110: ,
+Line 1110: ID = nr
+Line 1110: )
+Line 1110: Unrecognized token: 92
+Line 1111: if
+Line 1111: (
+Line 1111: (
+Line 1111: ID = size
+Line 1111: +
+Line 1111: =
+Line 1111: (
+Line 1111: ID = nr
+Line 1111: )
+Line 1111: )
+Line 1111: >
+Line 1111: ID = limit
+Line 1111: ||
+Line 1111: !
+Line 1111: ID = dump_write
+Line 1111: (
+Line 1111: ID = file
+Line 1111: ,
+Line 1111: (
+Line 1111: ID = addr
+Line 1111: )
+Line 1111: ,
+Line 1111: (
+Line 1111: ID = nr
+Line 1111: )
+Line 1111: )
+Line 1111: )
+Line 1111: Unrecognized token: 92
+Line 1112: ID = goto
+Line 1112: ID = end_coredump
+Line 1112: ;
+Line 1113: Unrecognized token: 35
+Line 1113: ID = define
+Line 1113: ID = DUMP_SEEK
+Line 1113: (
+Line 1113: ID = off
+Line 1113: )
+Line 1113: Unrecognized token: 92
+Line 1114: if
+Line 1114: (
+Line 1114: !
+Line 1114: ID = dump_seek
+Line 1114: (
+Line 1114: ID = file
+Line 1114: ,
+Line 1114: (
+Line 1114: ID = off
+Line 1114: )
+Line 1114: )
+Line 1114: )
+Line 1114: Unrecognized token: 92
+Line 1115: ID = goto
+Line 1115: ID = end_coredump
+Line 1115: ;
+Line 1117: ID = static
+Line 1117: ID = inline
+Line 1117: void
+Line 1117: ID = fill_elf_header
+Line 1117: (
+Line 1117: ID = struct
+Line 1117: ID = elfhdr
+Line 1117: *
+Line 1117: ID = elf
+Line 1117: ,
+Line 1117: int
+Line 1117: ID = segs
+Line 1117: )
+Line 1118: {
+Line 1119: ID = memcpy
+Line 1119: (
+Line 1119: ID = elf
+Line 1119: -
+Line 1119: >
+Line 1119: ID = e_ident
+Line 1119: ,
+Line 1119: ID = ELFMAG
+Line 1119: ,
+Line 1119: ID = SELFMAG
+Line 1119: )
+Line 1119: ;
+Line 1120: ID = elf
+Line 1120: -
+Line 1120: >
+Line 1120: ID = e_ident
+Line 1120: [
+Line 1120: ID = EI_CLASS
+Line 1120: ]
+Line 1120: =
+Line 1120: ID = ELF_CLASS
+Line 1120: ;
+Line 1121: ID = elf
+Line 1121: -
+Line 1121: >
+Line 1121: ID = e_ident
+Line 1121: [
+Line 1121: ID = EI_DATA
+Line 1121: ]
+Line 1121: =
+Line 1121: ID = ELF_DATA
+Line 1121: ;
+Line 1122: ID = elf
+Line 1122: -
+Line 1122: >
+Line 1122: ID = e_ident
+Line 1122: [
+Line 1122: ID = EI_VERSION
+Line 1122: ]
+Line 1122: =
+Line 1122: ID = EV_CURRENT
+Line 1122: ;
+Line 1123: ID = elf
+Line 1123: -
+Line 1123: >
+Line 1123: ID = e_ident
+Line 1123: [
+Line 1123: ID = EI_OSABI
+Line 1123: ]
+Line 1123: =
+Line 1123: ID = ELF_OSABI
+Line 1123: ;
+Line 1124: ID = memset
+Line 1124: (
+Line 1124: ID = elf
+Line 1124: -
+Line 1124: >
+Line 1124: ID = e_ident
+Line 1124: +
+Line 1124: ID = EI_PAD
+Line 1124: ,
+Line 1124: INTCON = 0
+Line 1124: ,
+Line 1124: ID = EI_NIDENT
+Line 1124: -
+Line 1124: ID = EI_PAD
+Line 1124: )
+Line 1124: ;
+Line 1126: ID = elf
+Line 1126: -
+Line 1126: >
+Line 1126: ID = e_type
+Line 1126: =
+Line 1126: ID = ET_CORE
+Line 1126: ;
+Line 1127: ID = elf
+Line 1127: -
+Line 1127: >
+Line 1127: ID = e_machine
+Line 1127: =
+Line 1127: ID = ELF_ARCH
+Line 1127: ;
+Line 1128: ID = elf
+Line 1128: -
+Line 1128: >
+Line 1128: ID = e_version
+Line 1128: =
+Line 1128: ID = EV_CURRENT
+Line 1128: ;
+Line 1129: ID = elf
+Line 1129: -
+Line 1129: >
+Line 1129: ID = e_entry
+Line 1129: =
+Line 1129: INTCON = 0
+Line 1129: ;
+Line 1130: ID = elf
+Line 1130: -
+Line 1130: >
+Line 1130: ID = e_phoff
+Line 1130: =
+Line 1130: ID = sizeof
+Line 1130: (
+Line 1130: ID = struct
+Line 1130: ID = elfhdr
+Line 1130: )
+Line 1130: ;
+Line 1131: ID = elf
+Line 1131: -
+Line 1131: >
+Line 1131: ID = e_shoff
+Line 1131: =
+Line 1131: INTCON = 0
+Line 1131: ;
+Line 1132: ID = elf
+Line 1132: -
+Line 1132: >
+Line 1132: ID = e_flags
+Line 1132: =
+Line 1132: INTCON = 0
+Line 1132: ;
+Line 1133: ID = elf
+Line 1133: -
+Line 1133: >
+Line 1133: ID = e_ehsize
+Line 1133: =
+Line 1133: ID = sizeof
+Line 1133: (
+Line 1133: ID = struct
+Line 1133: ID = elfhdr
+Line 1133: )
+Line 1133: ;
+Line 1134: ID = elf
+Line 1134: -
+Line 1134: >
+Line 1134: ID = e_phentsize
+Line 1134: =
+Line 1134: ID = sizeof
+Line 1134: (
+Line 1134: ID = struct
+Line 1134: ID = elf_phdr
+Line 1134: )
+Line 1134: ;
+Line 1135: ID = elf
+Line 1135: -
+Line 1135: >
+Line 1135: ID = e_phnum
+Line 1135: =
+Line 1135: ID = segs
+Line 1135: ;
+Line 1136: ID = elf
+Line 1136: -
+Line 1136: >
+Line 1136: ID = e_shentsize
+Line 1136: =
+Line 1136: INTCON = 0
+Line 1136: ;
+Line 1137: ID = elf
+Line 1137: -
+Line 1137: >
+Line 1137: ID = e_shnum
+Line 1137: =
+Line 1137: INTCON = 0
+Line 1137: ;
+Line 1138: ID = elf
+Line 1138: -
+Line 1138: >
+Line 1138: ID = e_shstrndx
+Line 1138: =
+Line 1138: INTCON = 0
+Line 1138: ;
+Line 1139: return
+Line 1139: ;
+Line 1140: }
+Line 1142: ID = static
+Line 1142: ID = inline
+Line 1142: void
+Line 1142: ID = fill_elf_note_phdr
+Line 1142: (
+Line 1142: ID = struct
+Line 1142: ID = elf_phdr
+Line 1142: *
+Line 1142: ID = phdr
+Line 1142: ,
+Line 1142: int
+Line 1142: ID = sz
+Line 1142: ,
+Line 1142: ID = off_t
+Line 1142: ID = offset
+Line 1142: )
+Line 1143: {
+Line 1144: ID = phdr
+Line 1144: -
+Line 1144: >
+Line 1144: ID = p_type
+Line 1144: =
+Line 1144: ID = PT_NOTE
+Line 1144: ;
+Line 1145: ID = phdr
+Line 1145: -
+Line 1145: >
+Line 1145: ID = p_offset
+Line 1145: =
+Line 1145: ID = offset
+Line 1145: ;
+Line 1146: ID = phdr
+Line 1146: -
+Line 1146: >
+Line 1146: ID = p_vaddr
+Line 1146: =
+Line 1146: INTCON = 0
+Line 1146: ;
+Line 1147: ID = phdr
+Line 1147: -
+Line 1147: >
+Line 1147: ID = p_paddr
+Line 1147: =
+Line 1147: INTCON = 0
+Line 1147: ;
+Line 1148: ID = phdr
+Line 1148: -
+Line 1148: >
+Line 1148: ID = p_filesz
+Line 1148: =
+Line 1148: ID = sz
+Line 1148: ;
+Line 1149: ID = phdr
+Line 1149: -
+Line 1149: >
+Line 1149: ID = p_memsz
+Line 1149: =
+Line 1149: INTCON = 0
+Line 1149: ;
+Line 1150: ID = phdr
+Line 1150: -
+Line 1150: >
+Line 1150: ID = p_flags
+Line 1150: =
+Line 1150: INTCON = 0
+Line 1150: ;
+Line 1151: ID = phdr
+Line 1151: -
+Line 1151: >
+Line 1151: ID = p_align
+Line 1151: =
+Line 1151: INTCON = 0
+Line 1151: ;
+Line 1152: return
+Line 1152: ;
+Line 1153: }
+Line 1155: ID = static
+Line 1155: void
+Line 1155: ID = fill_note
+Line 1155: (
+Line 1155: ID = struct
+Line 1155: ID = memelfnote
+Line 1155: *
+Line 1155: ID = note
+Line 1155: ,
+Line 1155: ID = const
+Line 1155: char
+Line 1155: *
+Line 1155: ID = name
+Line 1155: ,
+Line 1155: int
+Line 1155: ID = type
+Line 1155: ,
+Line 1156: ID = unsigned
+Line 1156: int
+Line 1156: ID = sz
+Line 1156: ,
+Line 1156: void
+Line 1156: *
+Line 1156: ID = data
+Line 1156: )
+Line 1157: {
+Line 1158: ID = note
+Line 1158: -
+Line 1158: >
+Line 1158: ID = name
+Line 1158: =
+Line 1158: ID = name
+Line 1158: ;
+Line 1159: ID = note
+Line 1159: -
+Line 1159: >
+Line 1159: ID = type
+Line 1159: =
+Line 1159: ID = type
+Line 1159: ;
+Line 1160: ID = note
+Line 1160: -
+Line 1160: >
+Line 1160: ID = datasz
+Line 1160: =
+Line 1160: ID = sz
+Line 1160: ;
+Line 1161: ID = note
+Line 1161: -
+Line 1161: >
+Line 1161: ID = data
+Line 1161: =
+Line 1161: ID = data
+Line 1161: ;
+Line 1162: return
+Line 1162: ;
+Line 1163: }
+Line 1169: ID = static
+Line 1169: void
+Line 1169: ID = fill_prstatus
+Line 1169: (
+Line 1169: ID = struct
+Line 1169: ID = elf_prstatus
+Line 1169: *
+Line 1169: ID = prstatus
+Line 1169: ,
+Line 1170: ID = struct
+Line 1170: ID = task_struct
+Line 1170: *
+Line 1170: ID = p
+Line 1170: ,
+Line 1170: ID = long
+Line 1170: ID = signr
+Line 1170: )
+Line 1171: {
+Line 1172: ID = prstatus
+Line 1172: -
+Line 1172: >
+Line 1172: ID = pr_info
+Line 1172: Unrecognized token: 46
+Line 1172: ID = si_signo
+Line 1172: =
+Line 1172: ID = prstatus
+Line 1172: -
+Line 1172: >
+Line 1172: ID = pr_cursig
+Line 1172: =
+Line 1172: ID = signr
+Line 1172: ;
+Line 1173: ID = prstatus
+Line 1173: -
+Line 1173: >
+Line 1173: ID = pr_sigpend
+Line 1173: =
+Line 1173: ID = p
+Line 1173: -
+Line 1173: >
+Line 1173: ID = pending
+Line 1173: Unrecognized token: 46
+Line 1173: ID = signal
+Line 1173: Unrecognized token: 46
+Line 1173: ID = sig
+Line 1173: [
+Line 1173: INTCON = 0
+Line 1173: ]
+Line 1173: ;
+Line 1174: ID = prstatus
+Line 1174: -
+Line 1174: >
+Line 1174: ID = pr_sighold
+Line 1174: =
+Line 1174: ID = p
+Line 1174: -
+Line 1174: >
+Line 1174: ID = blocked
+Line 1174: Unrecognized token: 46
+Line 1174: ID = sig
+Line 1174: [
+Line 1174: INTCON = 0
+Line 1174: ]
+Line 1174: ;
+Line 1175: ID = prstatus
+Line 1175: -
+Line 1175: >
+Line 1175: ID = pr_pid
+Line 1175: =
+Line 1175: ID = p
+Line 1175: -
+Line 1175: >
+Line 1175: ID = pid
+Line 1175: ;
+Line 1176: ID = prstatus
+Line 1176: -
+Line 1176: >
+Line 1176: ID = pr_ppid
+Line 1176: =
+Line 1176: ID = p
+Line 1176: -
+Line 1176: >
+Line 1176: ID = parent
+Line 1176: -
+Line 1176: >
+Line 1176: ID = pid
+Line 1176: ;
+Line 1177: ID = prstatus
+Line 1177: -
+Line 1177: >
+Line 1177: ID = pr_pgrp
+Line 1177: =
+Line 1177: ID = process_group
+Line 1177: (
+Line 1177: ID = p
+Line 1177: )
+Line 1177: ;
+Line 1178: ID = prstatus
+Line 1178: -
+Line 1178: >
+Line 1178: ID = pr_sid
+Line 1178: =
+Line 1178: ID = p
+Line 1178: -
+Line 1178: >
+Line 1178: ID = signal
+Line 1178: -
+Line 1178: >
+Line 1178: ID = session
+Line 1178: ;
+Line 1179: ID = jiffies_to_timeval
+Line 1179: (
+Line 1179: ID = p
+Line 1179: -
+Line 1179: >
+Line 1179: ID = utime
+Line 1179: ,
+Line 1179: Unrecognized token: 38
+Line 1179: ID = prstatus
+Line 1179: -
+Line 1179: >
+Line 1179: ID = pr_utime
+Line 1179: )
+Line 1179: ;
+Line 1180: ID = jiffies_to_timeval
+Line 1180: (
+Line 1180: ID = p
+Line 1180: -
+Line 1180: >
+Line 1180: ID = stime
+Line 1180: ,
+Line 1180: Unrecognized token: 38
+Line 1180: ID = prstatus
+Line 1180: -
+Line 1180: >
+Line 1180: ID = pr_stime
+Line 1180: )
+Line 1180: ;
+Line 1181: ID = jiffies_to_timeval
+Line 1181: (
+Line 1181: ID = p
+Line 1181: -
+Line 1181: >
+Line 1181: ID = cutime
+Line 1181: ,
+Line 1181: Unrecognized token: 38
+Line 1181: ID = prstatus
+Line 1181: -
+Line 1181: >
+Line 1181: ID = pr_cutime
+Line 1181: )
+Line 1181: ;
+Line 1182: ID = jiffies_to_timeval
+Line 1182: (
+Line 1182: ID = p
+Line 1182: -
+Line 1182: >
+Line 1182: ID = cstime
+Line 1182: ,
+Line 1182: Unrecognized token: 38
+Line 1182: ID = prstatus
+Line 1182: -
+Line 1182: >
+Line 1182: ID = pr_cstime
+Line 1182: )
+Line 1182: ;
+Line 1183: }
+Line 1185: ID = static
+Line 1185: void
+Line 1185: ID = fill_psinfo
+Line 1185: (
+Line 1185: ID = struct
+Line 1185: ID = elf_prpsinfo
+Line 1185: *
+Line 1185: ID = psinfo
+Line 1185: ,
+Line 1185: ID = struct
+Line 1185: ID = task_struct
+Line 1185: *
+Line 1185: ID = p
+Line 1185: ,
+Line 1186: ID = struct
+Line 1186: ID = mm_struct
+Line 1186: *
+Line 1186: ID = mm
+Line 1186: )
+Line 1187: {
+Line 1188: int
+Line 1188: ID = i
+Line 1188: ,
+Line 1188: ID = len
+Line 1188: ;
+Line 1191: ID = memset
+Line 1191: (
+Line 1191: ID = psinfo
+Line 1191: ,
+Line 1191: INTCON = 0
+Line 1191: ,
+Line 1191: ID = sizeof
+Line 1191: (
+Line 1191: ID = struct
+Line 1191: ID = elf_prpsinfo
+Line 1191: )
+Line 1191: )
+Line 1191: ;
+Line 1193: ID = len
+Line 1193: =
+Line 1193: ID = mm
+Line 1193: -
+Line 1193: >
+Line 1193: ID = arg_end
+Line 1193: -
+Line 1193: ID = mm
+Line 1193: -
+Line 1193: >
+Line 1193: ID = arg_start
+Line 1193: ;
+Line 1194: if
+Line 1194: (
+Line 1194: ID = len
+Line 1194: >=
+Line 1194: ID = ELF_PRARGSZ
+Line 1194: )
+Line 1195: ID = len
+Line 1195: =
+Line 1195: ID = ELF_PRARGSZ
+Line 1195: -
+Line 1195: INTCON = 1
+Line 1195: ;
+Line 1196: ID = copy_from_user
+Line 1196: (
+Line 1196: Unrecognized token: 38
+Line 1196: ID = psinfo
+Line 1196: -
+Line 1196: >
+Line 1196: ID = pr_psargs
+Line 1196: ,
+Line 1197: (
+Line 1197: ID = const
+Line 1197: char
+Line 1197: Unrecognized token: 95
+Line 1197: Unrecognized token: 95
+Line 1197: ID = user
+Line 1197: *
+Line 1197: )
+Line 1197: ID = mm
+Line 1197: -
+Line 1197: >
+Line 1197: ID = arg_start
+Line 1197: ,
+Line 1197: ID = len
+Line 1197: )
+Line 1197: ;
+Line 1198: for
+Line 1198: (
+Line 1198: ID = i
+Line 1198: =
+Line 1198: INTCON = 0
+Line 1198: ;
+Line 1198: ID = i
+Line 1198: <
+Line 1198: ID = len
+Line 1198: ;
+Line 1198: ID = i
+Line 1198: +
+Line 1198: +
+Line 1198: )
+Line 1199: if
+Line 1199: (
+Line 1199: ID = psinfo
+Line 1199: -
+Line 1199: >
+Line 1199: ID = pr_psargs
+Line 1199: [
+Line 1199: ID = i
+Line 1199: ]
+Line 1199: ==
+Line 1199: INTCON = 0
+Line 1199: )
+Line 1200: ID = psinfo
+Line 1200: -
+Line 1200: >
+Line 1200: ID = pr_psargs
+Line 1200: [
+Line 1200: ID = i
+Line 1200: ]
+Line 1200: =
+Line 1200: CHARCON = ' '
+Line 1200: ;
+Line 1201: ID = psinfo
+Line 1201: -
+Line 1201: >
+Line 1201: ID = pr_psargs
+Line 1201: [
+Line 1201: ID = len
+Line 1201: ]
+Line 1201: =
+Line 1201: INTCON = 0
+Line 1201: ;
+Line 1203: ID = psinfo
+Line 1203: -
+Line 1203: >
+Line 1203: ID = pr_pid
+Line 1203: =
+Line 1203: ID = p
+Line 1203: -
+Line 1203: >
+Line 1203: ID = pid
+Line 1203: ;
+Line 1204: ID = psinfo
+Line 1204: -
+Line 1204: >
+Line 1204: ID = pr_ppid
+Line 1204: =
+Line 1204: ID = p
+Line 1204: -
+Line 1204: >
+Line 1204: ID = parent
+Line 1204: -
+Line 1204: >
+Line 1204: ID = pid
+Line 1204: ;
+Line 1205: ID = psinfo
+Line 1205: -
+Line 1205: >
+Line 1205: ID = pr_pgrp
+Line 1205: =
+Line 1205: ID = process_group
+Line 1205: (
+Line 1205: ID = p
+Line 1205: )
+Line 1205: ;
+Line 1206: ID = psinfo
+Line 1206: -
+Line 1206: >
+Line 1206: ID = pr_sid
+Line 1206: =
+Line 1206: ID = p
+Line 1206: -
+Line 1206: >
+Line 1206: ID = signal
+Line 1206: -
+Line 1206: >
+Line 1206: ID = session
+Line 1206: ;
+Line 1208: ID = i
+Line 1208: =
+Line 1208: ID = p
+Line 1208: -
+Line 1208: >
+Line 1208: ID = state
+Line 1208: Unrecognized token: 63
+Line 1208: ID = ffz
+Line 1208: (
+Line 1208: Unrecognized token: 126
+Line 1208: ID = p
+Line 1208: -
+Line 1208: >
+Line 1208: ID = state
+Line 1208: )
+Line 1208: +
+Line 1208: INTCON = 1
+Line 1208: Unrecognized token: 58
+Line 1208: INTCON = 0
+Line 1208: ;
+Line 1209: ID = psinfo
+Line 1209: -
+Line 1209: >
+Line 1209: ID = pr_state
+Line 1209: =
+Line 1209: ID = i
+Line 1209: ;
+Line 1210: ID = psinfo
+Line 1210: -
+Line 1210: >
+Line 1210: ID = pr_sname
+Line 1210: =
+Line 1210: (
+Line 1210: ID = i
+Line 1210: <
+Line 1210: INTCON = 0
+Line 1210: ||
+Line 1210: ID = i
+Line 1210: >
+Line 1210: INTCON = 5
+Line 1210: )
+Line 1210: Unrecognized token: 63
+Line 1210: CHARCON = '.'
+Line 1210: Unrecognized token: 58
+Line 1210: STRINGCON = "RSDTZW"
+Line 1210: [
+Line 1210: ID = i
+Line 1210: ]
+Line 1210: ;
+Line 1211: ID = psinfo
+Line 1211: -
+Line 1211: >
+Line 1211: ID = pr_zomb
+Line 1211: =
+Line 1211: ID = psinfo
+Line 1211: -
+Line 1211: >
+Line 1211: ID = pr_sname
+Line 1211: ==
+Line 1211: CHARCON = 'Z'
+Line 1211: ;
+Line 1212: ID = psinfo
+Line 1212: -
+Line 1212: >
+Line 1212: ID = pr_nice
+Line 1212: =
+Line 1212: ID = task_nice
+Line 1212: (
+Line 1212: ID = p
+Line 1212: )
+Line 1212: ;
+Line 1213: ID = psinfo
+Line 1213: -
+Line 1213: >
+Line 1213: ID = pr_flag
+Line 1213: =
+Line 1213: ID = p
+Line 1213: -
+Line 1213: >
+Line 1213: ID = flags
+Line 1213: ;
+Line 1214: ID = SET_UID
+Line 1214: (
+Line 1214: ID = psinfo
+Line 1214: -
+Line 1214: >
+Line 1214: ID = pr_uid
+Line 1214: ,
+Line 1214: ID = p
+Line 1214: -
+Line 1214: >
+Line 1214: ID = uid
+Line 1214: )
+Line 1214: ;
+Line 1215: ID = SET_GID
+Line 1215: (
+Line 1215: ID = psinfo
+Line 1215: -
+Line 1215: >
+Line 1215: ID = pr_gid
+Line 1215: ,
+Line 1215: ID = p
+Line 1215: -
+Line 1215: >
+Line 1215: ID = gid
+Line 1215: )
+Line 1215: ;
+Line 1216: ID = strncpy
+Line 1216: (
+Line 1216: ID = psinfo
+Line 1216: -
+Line 1216: >
+Line 1216: ID = pr_fname
+Line 1216: ,
+Line 1216: ID = p
+Line 1216: -
+Line 1216: >
+Line 1216: ID = comm
+Line 1216: ,
+Line 1216: ID = sizeof
+Line 1216: (
+Line 1216: ID = psinfo
+Line 1216: -
+Line 1216: >
+Line 1216: ID = pr_fname
+Line 1216: )
+Line 1216: )
+Line 1216: ;
+Line 1218: return
+Line 1218: ;
+Line 1219: }
+Line 1222: ID = struct
+Line 1222: ID = elf_thread_status
+Line 1223: {
+Line 1224: ID = struct
+Line 1224: ID = list_head
+Line 1224: ID = list
+Line 1224: ;
+Line 1225: ID = struct
+Line 1225: ID = elf_prstatus
+Line 1225: ID = prstatus
+Line 1225: ;
+Line 1226: ID = elf_fpregset_t
+Line 1226: ID = fpu
+Line 1226: ;
+Line 1227: Unrecognized token: 35
+Line 1227: ID = ifdef
+Line 1227: ID = ELF_CORE_COPY_XFPREGS
+Line 1228: ID = elf_fpxregset_t
+Line 1228: ID = xfpu
+Line 1228: ;
+Line 1229: Unrecognized token: 35
+Line 1229: ID = endif
+Line 1230: ID = struct
+Line 1230: ID = memelfnote
+Line 1230: ID = notes
+Line 1230: [
+Line 1230: INTCON = 3
+Line 1230: ]
+Line 1230: ;
+Line 1231: int
+Line 1231: ID = num_notes
+Line 1231: ;
+Line 1232: }
+Line 1232: ;
+Line 1239: ID = static
+Line 1239: int
+Line 1239: ID = elf_dump_thread_status
+Line 1239: (
+Line 1239: ID = long
+Line 1239: ID = signr
+Line 1239: ,
+Line 1239: ID = struct
+Line 1239: ID = task_struct
+Line 1239: *
+Line 1239: ID = p
+Line 1239: ,
+Line 1239: ID = struct
+Line 1239: ID = list_head
+Line 1239: *
+Line 1239: ID = thread_list
+Line 1239: )
+Line 1240: {
+Line 1242: ID = struct
+Line 1242: ID = elf_thread_status
+Line 1242: *
+Line 1242: ID = t
+Line 1242: ;
+Line 1243: int
+Line 1243: ID = sz
+Line 1243: =
+Line 1243: INTCON = 0
+Line 1243: ;
+Line 1245: ID = t
+Line 1245: =
+Line 1245: ID = kmalloc
+Line 1245: (
+Line 1245: ID = sizeof
+Line 1245: (
+Line 1245: *
+Line 1245: ID = t
+Line 1245: )
+Line 1245: ,
+Line 1245: ID = GFP_ATOMIC
+Line 1245: )
+Line 1245: ;
+Line 1246: if
+Line 1246: (
+Line 1246: !
+Line 1246: ID = t
+Line 1246: )
+Line 1247: return
+Line 1247: INTCON = 0
+Line 1247: ;
+Line 1248: ID = memset
+Line 1248: (
+Line 1248: ID = t
+Line 1248: ,
+Line 1248: INTCON = 0
+Line 1248: ,
+Line 1248: ID = sizeof
+Line 1248: (
+Line 1248: *
+Line 1248: ID = t
+Line 1248: )
+Line 1248: )
+Line 1248: ;
+Line 1250: ID = INIT_LIST_HEAD
+Line 1250: (
+Line 1250: Unrecognized token: 38
+Line 1250: ID = t
+Line 1250: -
+Line 1250: >
+Line 1250: ID = list
+Line 1250: )
+Line 1250: ;
+Line 1251: ID = t
+Line 1251: -
+Line 1251: >
+Line 1251: ID = num_notes
+Line 1251: =
+Line 1251: INTCON = 0
+Line 1251: ;
+Line 1253: ID = fill_prstatus
+Line 1253: (
+Line 1253: Unrecognized token: 38
+Line 1253: ID = t
+Line 1253: -
+Line 1253: >
+Line 1253: ID = prstatus
+Line 1253: ,
+Line 1253: ID = p
+Line 1253: ,
+Line 1253: ID = signr
+Line 1253: )
+Line 1253: ;
+Line 1254: ID = elf_core_copy_task_regs
+Line 1254: (
+Line 1254: ID = p
+Line 1254: ,
+Line 1254: Unrecognized token: 38
+Line 1254: ID = t
+Line 1254: -
+Line 1254: >
+Line 1254: ID = prstatus
+Line 1254: Unrecognized token: 46
+Line 1254: ID = pr_reg
+Line 1254: )
+Line 1254: ;
+Line 1256: ID = fill_note
+Line 1256: (
+Line 1256: Unrecognized token: 38
+Line 1256: ID = t
+Line 1256: -
+Line 1256: >
+Line 1256: ID = notes
+Line 1256: [
+Line 1256: INTCON = 0
+Line 1256: ]
+Line 1256: ,
+Line 1256: STRINGCON = "CORE"
+Line 1256: ,
+Line 1256: ID = NT_PRSTATUS
+Line 1256: ,
+Line 1256: ID = sizeof
+Line 1256: (
+Line 1256: ID = t
+Line 1256: -
+Line 1256: >
+Line 1256: ID = prstatus
+Line 1256: )
+Line 1256: ,
+Line 1256: Unrecognized token: 38
+Line 1256: (
+Line 1256: ID = t
+Line 1256: -
+Line 1256: >
+Line 1256: ID = prstatus
+Line 1256: )
+Line 1256: )
+Line 1256: ;
+Line 1257: ID = t
+Line 1257: -
+Line 1257: >
+Line 1257: ID = num_notes
+Line 1257: +
+Line 1257: +
+Line 1257: ;
+Line 1258: ID = sz
+Line 1258: +
+Line 1258: =
+Line 1258: ID = notesize
+Line 1258: (
+Line 1258: Unrecognized token: 38
+Line 1258: ID = t
+Line 1258: -
+Line 1258: >
+Line 1258: ID = notes
+Line 1258: [
+Line 1258: INTCON = 0
+Line 1258: ]
+Line 1258: )
+Line 1258: ;
+Line 1260: if
+Line 1260: (
+Line 1260: (
+Line 1260: ID = t
+Line 1260: -
+Line 1260: >
+Line 1260: ID = prstatus
+Line 1260: Unrecognized token: 46
+Line 1260: ID = pr_fpvalid
+Line 1260: =
+Line 1260: ID = elf_core_copy_task_fpregs
+Line 1260: (
+Line 1260: ID = p
+Line 1260: ,
+Line 1260: ID = NULL
+Line 1260: ,
+Line 1260: Unrecognized token: 38
+Line 1260: ID = t
+Line 1260: -
+Line 1260: >
+Line 1260: ID = fpu
+Line 1260: )
+Line 1260: )
+Line 1260: )
+Line 1260: {
+Line 1261: ID = fill_note
+Line 1261: (
+Line 1261: Unrecognized token: 38
+Line 1261: ID = t
+Line 1261: -
+Line 1261: >
+Line 1261: ID = notes
+Line 1261: [
+Line 1261: INTCON = 1
+Line 1261: ]
+Line 1261: ,
+Line 1261: STRINGCON = "CORE"
+Line 1261: ,
+Line 1261: ID = NT_PRFPREG
+Line 1261: ,
+Line 1261: ID = sizeof
+Line 1261: (
+Line 1261: ID = t
+Line 1261: -
+Line 1261: >
+Line 1261: ID = fpu
+Line 1261: )
+Line 1261: ,
+Line 1261: Unrecognized token: 38
+Line 1261: (
+Line 1261: ID = t
+Line 1261: -
+Line 1261: >
+Line 1261: ID = fpu
+Line 1261: )
+Line 1261: )
+Line 1261: ;
+Line 1262: ID = t
+Line 1262: -
+Line 1262: >
+Line 1262: ID = num_notes
+Line 1262: +
+Line 1262: +
+Line 1262: ;
+Line 1263: ID = sz
+Line 1263: +
+Line 1263: =
+Line 1263: ID = notesize
+Line 1263: (
+Line 1263: Unrecognized token: 38
+Line 1263: ID = t
+Line 1263: -
+Line 1263: >
+Line 1263: ID = notes
+Line 1263: [
+Line 1263: INTCON = 1
+Line 1263: ]
+Line 1263: )
+Line 1263: ;
+Line 1264: }
+Line 1266: Unrecognized token: 35
+Line 1266: ID = ifdef
+Line 1266: ID = ELF_CORE_COPY_XFPREGS
+Line 1267: if
+Line 1267: (
+Line 1267: ID = elf_core_copy_task_xfpregs
+Line 1267: (
+Line 1267: ID = p
+Line 1267: ,
+Line 1267: Unrecognized token: 38
+Line 1267: ID = t
+Line 1267: -
+Line 1267: >
+Line 1267: ID = xfpu
+Line 1267: )
+Line 1267: )
+Line 1267: {
+Line 1268: ID = fill_note
+Line 1268: (
+Line 1268: Unrecognized token: 38
+Line 1268: ID = t
+Line 1268: -
+Line 1268: >
+Line 1268: ID = notes
+Line 1268: [
+Line 1268: INTCON = 2
+Line 1268: ]
+Line 1268: ,
+Line 1268: STRINGCON = "LINUX"
+Line 1268: ,
+Line 1268: ID = NT_PRXFPREG
+Line 1268: ,
+Line 1268: ID = sizeof
+Line 1268: (
+Line 1268: ID = t
+Line 1268: -
+Line 1268: >
+Line 1268: ID = xfpu
+Line 1268: )
+Line 1268: ,
+Line 1268: Unrecognized token: 38
+Line 1268: ID = t
+Line 1268: -
+Line 1268: >
+Line 1268: ID = xfpu
+Line 1268: )
+Line 1268: ;
+Line 1269: ID = t
+Line 1269: -
+Line 1269: >
+Line 1269: ID = num_notes
+Line 1269: +
+Line 1269: +
+Line 1269: ;
+Line 1270: ID = sz
+Line 1270: +
+Line 1270: =
+Line 1270: ID = notesize
+Line 1270: (
+Line 1270: Unrecognized token: 38
+Line 1270: ID = t
+Line 1270: -
+Line 1270: >
+Line 1270: ID = notes
+Line 1270: [
+Line 1270: INTCON = 2
+Line 1270: ]
+Line 1270: )
+Line 1270: ;
+Line 1271: }
+Line 1272: Unrecognized token: 35
+Line 1272: ID = endif
+Line 1273: ID = list_add
+Line 1273: (
+Line 1273: Unrecognized token: 38
+Line 1273: ID = t
+Line 1273: -
+Line 1273: >
+Line 1273: ID = list
+Line 1273: ,
+Line 1273: ID = thread_list
+Line 1273: )
+Line 1273: ;
+Line 1274: return
+Line 1274: ID = sz
+Line 1274: ;
+Line 1275: }
+Line 1284: ID = static
+Line 1284: int
+Line 1284: ID = elf_core_dump
+Line 1284: (
+Line 1284: ID = long
+Line 1284: ID = signr
+Line 1284: ,
+Line 1284: ID = struct
+Line 1284: ID = pt_regs
+Line 1284: *
+Line 1284: ID = regs
+Line 1284: ,
+Line 1284: ID = struct
+Line 1284: ID = file
+Line 1284: *
+Line 1284: ID = file
+Line 1284: )
+Line 1285: {
+Line 1286: Unrecognized token: 35
+Line 1286: ID = define
+Line 1286: ID = NUM_NOTES
+Line 1286: INTCON = 6
+Line 1287: int
+Line 1287: ID = has_dumped
+Line 1287: =
+Line 1287: INTCON = 0
+Line 1287: ;
+Line 1288: ID = mm_segment_t
+Line 1288: ID = fs
+Line 1288: ;
+Line 1289: int
+Line 1289: ID = segs
+Line 1289: ;
+Line 1290: ID = size_t
+Line 1290: ID = size
+Line 1290: =
+Line 1290: INTCON = 0
+Line 1290: ;
+Line 1291: int
+Line 1291: ID = i
+Line 1291: ;
+Line 1292: ID = struct
+Line 1292: ID = vm_area_struct
+Line 1292: *
+Line 1292: ID = vma
+Line 1292: ;
+Line 1293: ID = struct
+Line 1293: ID = elfhdr
+Line 1293: *
+Line 1293: ID = elf
+Line 1293: =
+Line 1293: ID = NULL
+Line 1293: ;
+Line 1294: ID = off_t
+Line 1294: ID = offset
+Line 1294: =
+Line 1294: INTCON = 0
+Line 1294: ,
+Line 1294: ID = dataoff
+Line 1294: ;
+Line 1295: ID = unsigned
+Line 1295: ID = long
+Line 1295: ID = limit
+Line 1295: =
+Line 1295: ID = current
+Line 1295: -
+Line 1295: >
+Line 1295: ID = rlim
+Line 1295: [
+Line 1295: ID = RLIMIT_CORE
+Line 1295: ]
+Line 1295: Unrecognized token: 46
+Line 1295: ID = rlim_cur
+Line 1295: ;
+Line 1296: int
+Line 1296: ID = numnote
+Line 1296: ;
+Line 1297: ID = struct
+Line 1297: ID = memelfnote
+Line 1297: *
+Line 1297: ID = notes
+Line 1297: =
+Line 1297: ID = NULL
+Line 1297: ;
+Line 1298: ID = struct
+Line 1298: ID = elf_prstatus
+Line 1298: *
+Line 1298: ID = prstatus
+Line 1298: =
+Line 1298: ID = NULL
+Line 1298: ;
+Line 1299: ID = struct
+Line 1299: ID = elf_prpsinfo
+Line 1299: *
+Line 1299: ID = psinfo
+Line 1299: =
+Line 1299: ID = NULL
+Line 1299: ;
+Line 1300: ID = struct
+Line 1300: ID = task_struct
+Line 1300: *
+Line 1300: ID = g
+Line 1300: ,
+Line 1300: *
+Line 1300: ID = p
+Line 1300: ;
+Line 1301: ID = LIST_HEAD
+Line 1301: (
+Line 1301: ID = thread_list
+Line 1301: )
+Line 1301: ;
+Line 1302: ID = struct
+Line 1302: ID = list_head
+Line 1302: *
+Line 1302: ID = t
+Line 1302: ;
+Line 1303: ID = elf_fpregset_t
+Line 1303: *
+Line 1303: ID = fpu
+Line 1303: =
+Line 1303: ID = NULL
+Line 1303: ;
+Line 1304: Unrecognized token: 35
+Line 1304: ID = ifdef
+Line 1304: ID = ELF_CORE_COPY_XFPREGS
+Line 1305: ID = elf_fpxregset_t
+Line 1305: *
+Line 1305: ID = xfpu
+Line 1305: =
+Line 1305: ID = NULL
+Line 1305: ;
+Line 1306: Unrecognized token: 35
+Line 1306: ID = endif
+Line 1307: int
+Line 1307: ID = thread_status_size
+Line 1307: =
+Line 1307: INTCON = 0
+Line 1307: ;
+Line 1308: ID = elf_addr_t
+Line 1308: *
+Line 1308: ID = auxv
+Line 1308: ;
+Line 1323: ID = elf
+Line 1323: =
+Line 1323: ID = kmalloc
+Line 1323: (
+Line 1323: ID = sizeof
+Line 1323: (
+Line 1323: *
+Line 1323: ID = elf
+Line 1323: )
+Line 1323: ,
+Line 1323: ID = GFP_KERNEL
+Line 1323: )
+Line 1323: ;
+Line 1324: if
+Line 1324: (
+Line 1324: !
+Line 1324: ID = elf
+Line 1324: )
+Line 1325: ID = goto
+Line 1325: ID = cleanup
+Line 1325: ;
+Line 1326: ID = prstatus
+Line 1326: =
+Line 1326: ID = kmalloc
+Line 1326: (
+Line 1326: ID = sizeof
+Line 1326: (
+Line 1326: *
+Line 1326: ID = prstatus
+Line 1326: )
+Line 1326: ,
+Line 1326: ID = GFP_KERNEL
+Line 1326: )
+Line 1326: ;
+Line 1327: if
+Line 1327: (
+Line 1327: !
+Line 1327: ID = prstatus
+Line 1327: )
+Line 1328: ID = goto
+Line 1328: ID = cleanup
+Line 1328: ;
+Line 1329: ID = psinfo
+Line 1329: =
+Line 1329: ID = kmalloc
+Line 1329: (
+Line 1329: ID = sizeof
+Line 1329: (
+Line 1329: *
+Line 1329: ID = psinfo
+Line 1329: )
+Line 1329: ,
+Line 1329: ID = GFP_KERNEL
+Line 1329: )
+Line 1329: ;
+Line 1330: if
+Line 1330: (
+Line 1330: !
+Line 1330: ID = psinfo
+Line 1330: )
+Line 1331: ID = goto
+Line 1331: ID = cleanup
+Line 1331: ;
+Line 1332: ID = notes
+Line 1332: =
+Line 1332: ID = kmalloc
+Line 1332: (
+Line 1332: ID = NUM_NOTES
+Line 1332: *
+Line 1332: ID = sizeof
+Line 1332: (
+Line 1332: ID = struct
+Line 1332: ID = memelfnote
+Line 1332: )
+Line 1332: ,
+Line 1332: ID = GFP_KERNEL
+Line 1332: )
+Line 1332: ;
+Line 1333: if
+Line 1333: (
+Line 1333: !
+Line 1333: ID = notes
+Line 1333: )
+Line 1334: ID = goto
+Line 1334: ID = cleanup
+Line 1334: ;
+Line 1335: ID = fpu
+Line 1335: =
+Line 1335: ID = kmalloc
+Line 1335: (
+Line 1335: ID = sizeof
+Line 1335: (
+Line 1335: *
+Line 1335: ID = fpu
+Line 1335: )
+Line 1335: ,
+Line 1335: ID = GFP_KERNEL
+Line 1335: )
+Line 1335: ;
+Line 1336: if
+Line 1336: (
+Line 1336: !
+Line 1336: ID = fpu
+Line 1336: )
+Line 1337: ID = goto
+Line 1337: ID = cleanup
+Line 1337: ;
+Line 1338: Unrecognized token: 35
+Line 1338: ID = ifdef
+Line 1338: ID = ELF_CORE_COPY_XFPREGS
+Line 1339: ID = xfpu
+Line 1339: =
+Line 1339: ID = kmalloc
+Line 1339: (
+Line 1339: ID = sizeof
+Line 1339: (
+Line 1339: *
+Line 1339: ID = xfpu
+Line 1339: )
+Line 1339: ,
+Line 1339: ID = GFP_KERNEL
+Line 1339: )
+Line 1339: ;
+Line 1340: if
+Line 1340: (
+Line 1340: !
+Line 1340: ID = xfpu
+Line 1340: )
+Line 1341: ID = goto
+Line 1341: ID = cleanup
+Line 1341: ;
+Line 1342: Unrecognized token: 35
+Line 1342: ID = endif
+Line 1345: if
+Line 1345: (
+Line 1345: ID = signr
+Line 1345: )
+Line 1345: {
+Line 1346: ID = read_lock
+Line 1346: (
+Line 1346: Unrecognized token: 38
+Line 1346: ID = tasklist_lock
+Line 1346: )
+Line 1346: ;
+Line 1347: ID = do_each_thread
+Line 1347: (
+Line 1347: ID = g
+Line 1347: ,
+Line 1347: ID = p
+Line 1347: )
+Line 1348: if
+Line 1348: (
+Line 1348: ID = current
+Line 1348: -
+Line 1348: >
+Line 1348: ID = mm
+Line 1348: ==
+Line 1348: ID = p
+Line 1348: -
+Line 1348: >
+Line 1348: ID = mm
+Line 1348: &&
+Line 1348: ID = current
+Line 1348: !=
+Line 1348: ID = p
+Line 1348: )
+Line 1348: {
+Line 1349: int
+Line 1349: ID = sz
+Line 1349: =
+Line 1349: ID = elf_dump_thread_status
+Line 1349: (
+Line 1349: ID = signr
+Line 1349: ,
+Line 1349: ID = p
+Line 1349: ,
+Line 1349: Unrecognized token: 38
+Line 1349: ID = thread_list
+Line 1349: )
+Line 1349: ;
+Line 1350: if
+Line 1350: (
+Line 1350: !
+Line 1350: ID = sz
+Line 1350: )
+Line 1350: {
+Line 1351: ID = read_unlock
+Line 1351: (
+Line 1351: Unrecognized token: 38
+Line 1351: ID = tasklist_lock
+Line 1351: )
+Line 1351: ;
+Line 1352: ID = goto
+Line 1352: ID = cleanup
+Line 1352: ;
+Line 1353: }
+Line 1353: else
+Line 1354: ID = thread_status_size
+Line 1354: +
+Line 1354: =
+Line 1354: ID = sz
+Line 1354: ;
+Line 1355: }
+Line 1356: ID = while_each_thread
+Line 1356: (
+Line 1356: ID = g
+Line 1356: ,
+Line 1356: ID = p
+Line 1356: )
+Line 1356: ;
+Line 1357: ID = read_unlock
+Line 1357: (
+Line 1357: Unrecognized token: 38
+Line 1357: ID = tasklist_lock
+Line 1357: )
+Line 1357: ;
+Line 1358: }
+Line 1361: ID = memset
+Line 1361: (
+Line 1361: ID = prstatus
+Line 1361: ,
+Line 1361: INTCON = 0
+Line 1361: ,
+Line 1361: ID = sizeof
+Line 1361: (
+Line 1361: *
+Line 1361: ID = prstatus
+Line 1361: )
+Line 1361: )
+Line 1361: ;
+Line 1362: ID = fill_prstatus
+Line 1362: (
+Line 1362: ID = prstatus
+Line 1362: ,
+Line 1362: ID = current
+Line 1362: ,
+Line 1362: ID = signr
+Line 1362: )
+Line 1362: ;
+Line 1363: ID = elf_core_copy_regs
+Line 1363: (
+Line 1363: Unrecognized token: 38
+Line 1363: ID = prstatus
+Line 1363: -
+Line 1363: >
+Line 1363: ID = pr_reg
+Line 1363: ,
+Line 1363: ID = regs
+Line 1363: )
+Line 1363: ;
+Line 1365: ID = segs
+Line 1365: =
+Line 1365: ID = current
+Line 1365: -
+Line 1365: >
+Line 1365: ID = mm
+Line 1365: -
+Line 1365: >
+Line 1365: ID = map_count
+Line 1365: ;
+Line 1366: Unrecognized token: 35
+Line 1366: ID = ifdef
+Line 1366: ID = ELF_CORE_EXTRA_PHDRS
+Line 1367: ID = segs
+Line 1367: +
+Line 1367: =
+Line 1367: ID = ELF_CORE_EXTRA_PHDRS
+Line 1367: ;
+Line 1368: Unrecognized token: 35
+Line 1368: ID = endif
+Line 1371: ID = fill_elf_header
+Line 1371: (
+Line 1371: ID = elf
+Line 1371: ,
+Line 1371: ID = segs
+Line 1371: +
+Line 1371: INTCON = 1
+Line 1371: )
+Line 1371: ;
+Line 1373: ID = has_dumped
+Line 1373: =
+Line 1373: INTCON = 1
+Line 1373: ;
+Line 1374: ID = current
+Line 1374: -
+Line 1374: >
+Line 1374: ID = flags
+Line 1374: Unrecognized token: 124
+Line 1374: =
+Line 1374: ID = PF_DUMPCORE
+Line 1374: ;
+Line 1381: ID = fill_note
+Line 1381: (
+Line 1381: ID = notes
+Line 1381: +
+Line 1381: INTCON = 0
+Line 1381: ,
+Line 1381: STRINGCON = "CORE"
+Line 1381: ,
+Line 1381: ID = NT_PRSTATUS
+Line 1381: ,
+Line 1381: ID = sizeof
+Line 1381: (
+Line 1381: *
+Line 1381: ID = prstatus
+Line 1381: )
+Line 1381: ,
+Line 1381: ID = prstatus
+Line 1381: )
+Line 1381: ;
+Line 1383: ID = fill_psinfo
+Line 1383: (
+Line 1383: ID = psinfo
+Line 1383: ,
+Line 1383: ID = current
+Line 1383: -
+Line 1383: >
+Line 1383: ID = group_leader
+Line 1383: ,
+Line 1383: ID = current
+Line 1383: -
+Line 1383: >
+Line 1383: ID = mm
+Line 1383: )
+Line 1383: ;
+Line 1384: ID = fill_note
+Line 1384: (
+Line 1384: ID = notes
+Line 1384: +
+Line 1384: INTCON = 1
+Line 1384: ,
+Line 1384: STRINGCON = "CORE"
+Line 1384: ,
+Line 1384: ID = NT_PRPSINFO
+Line 1384: ,
+Line 1384: ID = sizeof
+Line 1384: (
+Line 1384: *
+Line 1384: ID = psinfo
+Line 1384: )
+Line 1384: ,
+Line 1384: ID = psinfo
+Line 1384: )
+Line 1384: ;
+Line 1386: ID = fill_note
+Line 1386: (
+Line 1386: ID = notes
+Line 1386: +
+Line 1386: INTCON = 2
+Line 1386: ,
+Line 1386: STRINGCON = "CORE"
+Line 1386: ,
+Line 1386: ID = NT_TASKSTRUCT
+Line 1386: ,
+Line 1386: ID = sizeof
+Line 1386: (
+Line 1386: *
+Line 1386: ID = current
+Line 1386: )
+Line 1386: ,
+Line 1386: ID = current
+Line 1386: )
+Line 1386: ;
+Line 1388: ID = numnote
+Line 1388: =
+Line 1388: INTCON = 3
+Line 1388: ;
+Line 1390: ID = auxv
+Line 1390: =
+Line 1390: (
+Line 1390: ID = elf_addr_t
+Line 1390: *
+Line 1390: )
+Line 1390: ID = current
+Line 1390: -
+Line 1390: >
+Line 1390: ID = mm
+Line 1390: -
+Line 1390: >
+Line 1390: ID = saved_auxv
+Line 1390: ;
+Line 1392: ID = i
+Line 1392: =
+Line 1392: INTCON = 0
+Line 1392: ;
+Line 1393: ID = do
+Line 1394: ID = i
+Line 1394: +
+Line 1394: =
+Line 1394: INTCON = 2
+Line 1394: ;
+Line 1395: while
+Line 1395: (
+Line 1395: ID = auxv
+Line 1395: [
+Line 1395: ID = i
+Line 1395: -
+Line 1395: INTCON = 2
+Line 1395: ]
+Line 1395: !=
+Line 1395: ID = AT_NULL
+Line 1395: )
+Line 1395: ;
+Line 1396: ID = fill_note
+Line 1396: (
+Line 1396: Unrecognized token: 38
+Line 1396: ID = notes
+Line 1396: [
+Line 1396: ID = numnote
+Line 1396: +
+Line 1396: +
+Line 1396: ]
+Line 1396: ,
+Line 1396: STRINGCON = "CORE"
+Line 1396: ,
+Line 1396: ID = NT_AUXV
+Line 1396: ,
+Line 1397: ID = i
+Line 1397: *
+Line 1397: ID = sizeof
+Line 1397: (
+Line 1397: ID = elf_addr_t
+Line 1397: )
+Line 1397: ,
+Line 1397: ID = auxv
+Line 1397: )
+Line 1397: ;
+Line 1400: if
+Line 1400: (
+Line 1400: (
+Line 1400: ID = prstatus
+Line 1400: -
+Line 1400: >
+Line 1400: ID = pr_fpvalid
+Line 1400: =
+Line 1400: ID = elf_core_copy_task_fpregs
+Line 1400: (
+Line 1400: ID = current
+Line 1400: ,
+Line 1400: ID = regs
+Line 1400: ,
+Line 1400: ID = fpu
+Line 1400: )
+Line 1400: )
+Line 1400: )
+Line 1401: ID = fill_note
+Line 1401: (
+Line 1401: ID = notes
+Line 1401: +
+Line 1401: ID = numnote
+Line 1401: +
+Line 1401: +
+Line 1401: ,
+Line 1402: STRINGCON = "CORE"
+Line 1402: ,
+Line 1402: ID = NT_PRFPREG
+Line 1402: ,
+Line 1402: ID = sizeof
+Line 1402: (
+Line 1402: *
+Line 1402: ID = fpu
+Line 1402: )
+Line 1402: ,
+Line 1402: ID = fpu
+Line 1402: )
+Line 1402: ;
+Line 1403: Unrecognized token: 35
+Line 1403: ID = ifdef
+Line 1403: ID = ELF_CORE_COPY_XFPREGS
+Line 1404: if
+Line 1404: (
+Line 1404: ID = elf_core_copy_task_xfpregs
+Line 1404: (
+Line 1404: ID = current
+Line 1404: ,
+Line 1404: ID = xfpu
+Line 1404: )
+Line 1404: )
+Line 1405: ID = fill_note
+Line 1405: (
+Line 1405: ID = notes
+Line 1405: +
+Line 1405: ID = numnote
+Line 1405: +
+Line 1405: +
+Line 1405: ,
+Line 1406: STRINGCON = "LINUX"
+Line 1406: ,
+Line 1406: ID = NT_PRXFPREG
+Line 1406: ,
+Line 1406: ID = sizeof
+Line 1406: (
+Line 1406: *
+Line 1406: ID = xfpu
+Line 1406: )
+Line 1406: ,
+Line 1406: ID = xfpu
+Line 1406: )
+Line 1406: ;
+Line 1407: Unrecognized token: 35
+Line 1407: ID = endif
+Line 1409: ID = fs
+Line 1409: =
+Line 1409: ID = get_fs
+Line 1409: (
+Line 1409: )
+Line 1409: ;
+Line 1410: ID = set_fs
+Line 1410: (
+Line 1410: ID = KERNEL_DS
+Line 1410: )
+Line 1410: ;
+Line 1412: ID = DUMP_WRITE
+Line 1412: (
+Line 1412: ID = elf
+Line 1412: ,
+Line 1412: ID = sizeof
+Line 1412: (
+Line 1412: *
+Line 1412: ID = elf
+Line 1412: )
+Line 1412: )
+Line 1412: ;
+Line 1413: ID = offset
+Line 1413: +
+Line 1413: =
+Line 1413: ID = sizeof
+Line 1413: (
+Line 1413: *
+Line 1413: ID = elf
+Line 1413: )
+Line 1413: ;
+Line 1414: ID = offset
+Line 1414: +
+Line 1414: =
+Line 1414: (
+Line 1414: ID = segs
+Line 1414: +
+Line 1414: INTCON = 1
+Line 1414: )
+Line 1414: *
+Line 1414: ID = sizeof
+Line 1414: (
+Line 1414: ID = struct
+Line 1414: ID = elf_phdr
+Line 1414: )
+Line 1414: ;
+Line 1417: {
+Line 1418: ID = struct
+Line 1418: ID = elf_phdr
+Line 1418: ID = phdr
+Line 1418: ;
+Line 1419: int
+Line 1419: ID = sz
+Line 1419: =
+Line 1419: INTCON = 0
+Line 1419: ;
+Line 1421: for
+Line 1421: (
+Line 1421: ID = i
+Line 1421: =
+Line 1421: INTCON = 0
+Line 1421: ;
+Line 1421: ID = i
+Line 1421: <
+Line 1421: ID = numnote
+Line 1421: ;
+Line 1421: ID = i
+Line 1421: +
+Line 1421: +
+Line 1421: )
+Line 1422: ID = sz
+Line 1422: +
+Line 1422: =
+Line 1422: ID = notesize
+Line 1422: (
+Line 1422: ID = notes
+Line 1422: +
+Line 1422: ID = i
+Line 1422: )
+Line 1422: ;
+Line 1424: ID = sz
+Line 1424: +
+Line 1424: =
+Line 1424: ID = thread_status_size
+Line 1424: ;
+Line 1426: ID = fill_elf_note_phdr
+Line 1426: (
+Line 1426: Unrecognized token: 38
+Line 1426: ID = phdr
+Line 1426: ,
+Line 1426: ID = sz
+Line 1426: ,
+Line 1426: ID = offset
+Line 1426: )
+Line 1426: ;
+Line 1427: ID = offset
+Line 1427: +
+Line 1427: =
+Line 1427: ID = sz
+Line 1427: ;
+Line 1428: ID = DUMP_WRITE
+Line 1428: (
+Line 1428: Unrecognized token: 38
+Line 1428: ID = phdr
+Line 1428: ,
+Line 1428: ID = sizeof
+Line 1428: (
+Line 1428: ID = phdr
+Line 1428: )
+Line 1428: )
+Line 1428: ;
+Line 1429: }
+Line 1432: ID = dataoff
+Line 1432: =
+Line 1432: ID = offset
+Line 1432: =
+Line 1432: ID = roundup
+Line 1432: (
+Line 1432: ID = offset
+Line 1432: ,
+Line 1432: ID = ELF_EXEC_PAGESIZE
+Line 1432: )
+Line 1432: ;
+Line 1435: for
+Line 1435: (
+Line 1435: ID = vma
+Line 1435: =
+Line 1435: ID = current
+Line 1435: -
+Line 1435: >
+Line 1435: ID = mm
+Line 1435: -
+Line 1435: >
+Line 1435: ID = mmap
+Line 1435: ;
+Line 1435: ID = vma
+Line 1435: !=
+Line 1435: ID = NULL
+Line 1435: ;
+Line 1435: ID = vma
+Line 1435: =
+Line 1435: ID = vma
+Line 1435: -
+Line 1435: >
+Line 1435: ID = vm_next
+Line 1435: )
+Line 1435: {
+Line 1436: ID = struct
+Line 1436: ID = elf_phdr
+Line 1436: ID = phdr
+Line 1436: ;
+Line 1437: ID = size_t
+Line 1437: ID = sz
+Line 1437: ;
+Line 1439: ID = sz
+Line 1439: =
+Line 1439: ID = vma
+Line 1439: -
+Line 1439: >
+Line 1439: ID = vm_end
+Line 1439: -
+Line 1439: ID = vma
+Line 1439: -
+Line 1439: >
+Line 1439: ID = vm_start
+Line 1439: ;
+Line 1441: ID = phdr
+Line 1441: Unrecognized token: 46
+Line 1441: ID = p_type
+Line 1441: =
+Line 1441: ID = PT_LOAD
+Line 1441: ;
+Line 1442: ID = phdr
+Line 1442: Unrecognized token: 46
+Line 1442: ID = p_offset
+Line 1442: =
+Line 1442: ID = offset
+Line 1442: ;
+Line 1443: ID = phdr
+Line 1443: Unrecognized token: 46
+Line 1443: ID = p_vaddr
+Line 1443: =
+Line 1443: ID = vma
+Line 1443: -
+Line 1443: >
+Line 1443: ID = vm_start
+Line 1443: ;
+Line 1444: ID = phdr
+Line 1444: Unrecognized token: 46
+Line 1444: ID = p_paddr
+Line 1444: =
+Line 1444: INTCON = 0
+Line 1444: ;
+Line 1445: ID = phdr
+Line 1445: Unrecognized token: 46
+Line 1445: ID = p_filesz
+Line 1445: =
+Line 1445: ID = maydump
+Line 1445: (
+Line 1445: ID = vma
+Line 1445: )
+Line 1445: Unrecognized token: 63
+Line 1445: ID = sz
+Line 1445: Unrecognized token: 58
+Line 1445: INTCON = 0
+Line 1445: ;
+Line 1446: ID = phdr
+Line 1446: Unrecognized token: 46
+Line 1446: ID = p_memsz
+Line 1446: =
+Line 1446: ID = sz
+Line 1446: ;
+Line 1447: ID = offset
+Line 1447: +
+Line 1447: =
+Line 1447: ID = phdr
+Line 1447: Unrecognized token: 46
+Line 1447: ID = p_filesz
+Line 1447: ;
+Line 1448: ID = phdr
+Line 1448: Unrecognized token: 46
+Line 1448: ID = p_flags
+Line 1448: =
+Line 1448: ID = vma
+Line 1448: -
+Line 1448: >
+Line 1448: ID = vm_flags
+Line 1448: Unrecognized token: 38
+Line 1448: ID = VM_READ
+Line 1448: Unrecognized token: 63
+Line 1448: ID = PF_R
+Line 1448: Unrecognized token: 58
+Line 1448: INTCON = 0
+Line 1448: ;
+Line 1449: if
+Line 1449: (
+Line 1449: ID = vma
+Line 1449: -
+Line 1449: >
+Line 1449: ID = vm_flags
+Line 1449: Unrecognized token: 38
+Line 1449: ID = VM_WRITE
+Line 1449: )
+Line 1449: ID = phdr
+Line 1449: Unrecognized token: 46
+Line 1449: ID = p_flags
+Line 1449: Unrecognized token: 124
+Line 1449: =
+Line 1449: ID = PF_W
+Line 1449: ;
+Line 1450: if
+Line 1450: (
+Line 1450: ID = vma
+Line 1450: -
+Line 1450: >
+Line 1450: ID = vm_flags
+Line 1450: Unrecognized token: 38
+Line 1450: ID = VM_EXEC
+Line 1450: )
+Line 1450: ID = phdr
+Line 1450: Unrecognized token: 46
+Line 1450: ID = p_flags
+Line 1450: Unrecognized token: 124
+Line 1450: =
+Line 1450: ID = PF_X
+Line 1450: ;
+Line 1451: ID = phdr
+Line 1451: Unrecognized token: 46
+Line 1451: ID = p_align
+Line 1451: =
+Line 1451: ID = ELF_EXEC_PAGESIZE
+Line 1451: ;
+Line 1453: ID = DUMP_WRITE
+Line 1453: (
+Line 1453: Unrecognized token: 38
+Line 1453: ID = phdr
+Line 1453: ,
+Line 1453: ID = sizeof
+Line 1453: (
+Line 1453: ID = phdr
+Line 1453: )
+Line 1453: )
+Line 1453: ;
+Line 1454: }
+Line 1456: Unrecognized token: 35
+Line 1456: ID = ifdef
+Line 1456: ID = ELF_CORE_WRITE_EXTRA_PHDRS
+Line 1457: ID = ELF_CORE_WRITE_EXTRA_PHDRS
+Line 1457: ;
+Line 1458: Unrecognized token: 35
+Line 1458: ID = endif
+Line 1461: for
+Line 1461: (
+Line 1461: ID = i
+Line 1461: =
+Line 1461: INTCON = 0
+Line 1461: ;
+Line 1461: ID = i
+Line 1461: <
+Line 1461: ID = numnote
+Line 1461: ;
+Line 1461: ID = i
+Line 1461: +
+Line 1461: +
+Line 1461: )
+Line 1462: if
+Line 1462: (
+Line 1462: !
+Line 1462: ID = writenote
+Line 1462: (
+Line 1462: ID = notes
+Line 1462: +
+Line 1462: ID = i
+Line 1462: ,
+Line 1462: ID = file
+Line 1462: )
+Line 1462: )
+Line 1463: ID = goto
+Line 1463: ID = end_coredump
+Line 1463: ;
+Line 1466: ID = list_for_each
+Line 1466: (
+Line 1466: ID = t
+Line 1466: ,
+Line 1466: Unrecognized token: 38
+Line 1466: ID = thread_list
+Line 1466: )
+Line 1466: {
+Line 1467: ID = struct
+Line 1467: ID = elf_thread_status
+Line 1467: *
+Line 1467: ID = tmp
+Line 1467: =
+Line 1467: ID = list_entry
+Line 1467: (
+Line 1467: ID = t
+Line 1467: ,
+Line 1467: ID = struct
+Line 1467: ID = elf_thread_status
+Line 1467: ,
+Line 1467: ID = list
+Line 1467: )
+Line 1467: ;
+Line 1468: for
+Line 1468: (
+Line 1468: ID = i
+Line 1468: =
+Line 1468: INTCON = 0
+Line 1468: ;
+Line 1468: ID = i
+Line 1468: <
+Line 1468: ID = tmp
+Line 1468: -
+Line 1468: >
+Line 1468: ID = num_notes
+Line 1468: ;
+Line 1468: ID = i
+Line 1468: +
+Line 1468: +
+Line 1468: )
+Line 1469: if
+Line 1469: (
+Line 1469: !
+Line 1469: ID = writenote
+Line 1469: (
+Line 1469: Unrecognized token: 38
+Line 1469: ID = tmp
+Line 1469: -
+Line 1469: >
+Line 1469: ID = notes
+Line 1469: [
+Line 1469: ID = i
+Line 1469: ]
+Line 1469: ,
+Line 1469: ID = file
+Line 1469: )
+Line 1469: )
+Line 1470: ID = goto
+Line 1470: ID = end_coredump
+Line 1470: ;
+Line 1471: }
+Line 1473: ID = DUMP_SEEK
+Line 1473: (
+Line 1473: ID = dataoff
+Line 1473: )
+Line 1473: ;
+Line 1475: for
+Line 1475: (
+Line 1475: ID = vma
+Line 1475: =
+Line 1475: ID = current
+Line 1475: -
+Line 1475: >
+Line 1475: ID = mm
+Line 1475: -
+Line 1475: >
+Line 1475: ID = mmap
+Line 1475: ;
+Line 1475: ID = vma
+Line 1475: !=
+Line 1475: ID = NULL
+Line 1475: ;
+Line 1475: ID = vma
+Line 1475: =
+Line 1475: ID = vma
+Line 1475: -
+Line 1475: >
+Line 1475: ID = vm_next
+Line 1475: )
+Line 1475: {
+Line 1476: ID = unsigned
+Line 1476: ID = long
+Line 1476: ID = addr
+Line 1476: ;
+Line 1478: if
+Line 1478: (
+Line 1478: !
+Line 1478: ID = maydump
+Line 1478: (
+Line 1478: ID = vma
+Line 1478: )
+Line 1478: )
+Line 1479: ID = continue
+Line 1479: ;
+Line 1481: for
+Line 1481: (
+Line 1481: ID = addr
+Line 1481: =
+Line 1481: ID = vma
+Line 1481: -
+Line 1481: >
+Line 1481: ID = vm_start
+Line 1481: ;
+Line 1482: ID = addr
+Line 1482: <
+Line 1482: ID = vma
+Line 1482: -
+Line 1482: >
+Line 1482: ID = vm_end
+Line 1482: ;
+Line 1483: ID = addr
+Line 1483: +
+Line 1483: =
+Line 1483: ID = PAGE_SIZE
+Line 1483: )
+Line 1483: {
+Line 1484: ID = struct
+Line 1484: ID = page
+Line 1484: *
+Line 1484: ID = page
+Line 1484: ;
+Line 1485: ID = struct
+Line 1485: ID = vm_area_struct
+Line 1485: *
+Line 1485: ID = vma
+Line 1485: ;
+Line 1487: if
+Line 1487: (
+Line 1487: ID = get_user_pages
+Line 1487: (
+Line 1487: ID = current
+Line 1487: ,
+Line 1487: ID = current
+Line 1487: -
+Line 1487: >
+Line 1487: ID = mm
+Line 1487: ,
+Line 1487: ID = addr
+Line 1487: ,
+Line 1487: INTCON = 1
+Line 1487: ,
+Line 1487: INTCON = 0
+Line 1487: ,
+Line 1487: INTCON = 1
+Line 1487: ,
+Line 1488: Unrecognized token: 38
+Line 1488: ID = page
+Line 1488: ,
+Line 1488: Unrecognized token: 38
+Line 1488: ID = vma
+Line 1488: )
+Line 1488: <=
+Line 1488: INTCON = 0
+Line 1488: )
+Line 1488: {
+Line 1489: ID = DUMP_SEEK
+Line 1489: (
+Line 1489: ID = file
+Line 1489: -
+Line 1489: >
+Line 1489: ID = f_pos
+Line 1489: +
+Line 1489: ID = PAGE_SIZE
+Line 1489: )
+Line 1489: ;
+Line 1490: }
+Line 1490: else
+Line 1490: {
+Line 1491: if
+Line 1491: (
+Line 1491: ID = page
+Line 1491: ==
+Line 1491: ID = ZERO_PAGE
+Line 1491: (
+Line 1491: ID = addr
+Line 1491: )
+Line 1491: )
+Line 1491: {
+Line 1492: ID = DUMP_SEEK
+Line 1492: (
+Line 1492: ID = file
+Line 1492: -
+Line 1492: >
+Line 1492: ID = f_pos
+Line 1492: +
+Line 1492: ID = PAGE_SIZE
+Line 1492: )
+Line 1492: ;
+Line 1493: }
+Line 1493: else
+Line 1493: {
+Line 1494: void
+Line 1494: *
+Line 1494: ID = kaddr
+Line 1494: ;
+Line 1495: ID = flush_cache_page
+Line 1495: (
+Line 1495: ID = vma
+Line 1495: ,
+Line 1495: ID = addr
+Line 1495: )
+Line 1495: ;
+Line 1496: ID = kaddr
+Line 1496: =
+Line 1496: ID = kmap
+Line 1496: (
+Line 1496: ID = page
+Line 1496: )
+Line 1496: ;
+Line 1497: if
+Line 1497: (
+Line 1497: (
+Line 1497: ID = size
+Line 1497: +
+Line 1497: =
+Line 1497: ID = PAGE_SIZE
+Line 1497: )
+Line 1497: >
+Line 1497: ID = limit
+Line 1497: ||
+Line 1498: !
+Line 1498: ID = dump_write
+Line 1498: (
+Line 1498: ID = file
+Line 1498: ,
+Line 1498: ID = kaddr
+Line 1498: ,
+Line 1499: ID = PAGE_SIZE
+Line 1499: )
+Line 1499: )
+Line 1499: {
+Line 1500: ID = kunmap
+Line 1500: (
+Line 1500: ID = page
+Line 1500: )
+Line 1500: ;
+Line 1501: ID = page_cache_release
+Line 1501: (
+Line 1501: ID = page
+Line 1501: )
+Line 1501: ;
+Line 1502: ID = goto
+Line 1502: ID = end_coredump
+Line 1502: ;
+Line 1503: }
+Line 1504: ID = kunmap
+Line 1504: (
+Line 1504: ID = page
+Line 1504: )
+Line 1504: ;
+Line 1505: }
+Line 1506: ID = page_cache_release
+Line 1506: (
+Line 1506: ID = page
+Line 1506: )
+Line 1506: ;
+Line 1507: }
+Line 1508: }
+Line 1509: }
+Line 1511: Unrecognized token: 35
+Line 1511: ID = ifdef
+Line 1511: ID = ELF_CORE_WRITE_EXTRA_DATA
+Line 1512: ID = ELF_CORE_WRITE_EXTRA_DATA
+Line 1512: ;
+Line 1513: Unrecognized token: 35
+Line 1513: ID = endif
+Line 1515: if
+Line 1515: (
+Line 1515: (
+Line 1515: ID = off_t
+Line 1515: )
+Line 1515: ID = file
+Line 1515: -
+Line 1515: >
+Line 1515: ID = f_pos
+Line 1515: !=
+Line 1515: ID = offset
+Line 1515: )
+Line 1515: {
+Line 1517: ID = printk
+Line 1517: (
+Line 1517: STRINGCON = "elf_core_dump: file->f_pos (%ld) != offset (%ld)\n"
+Line 1517: ,
+Line 1518: (
+Line 1518: ID = off_t
+Line 1518: )
+Line 1518: ID = file
+Line 1518: -
+Line 1518: >
+Line 1518: ID = f_pos
+Line 1518: ,
+Line 1518: ID = offset
+Line 1518: )
+Line 1518: ;
+Line 1519: }
+Line 1521: ID = end_coredump
+Line 1521: Unrecognized token: 58
+Line 1522: ID = set_fs
+Line 1522: (
+Line 1522: ID = fs
+Line 1522: )
+Line 1522: ;
+Line 1524: ID = cleanup
+Line 1524: Unrecognized token: 58
+Line 1525: while
+Line 1525: (
+Line 1525: !
+Line 1525: ID = list_empty
+Line 1525: (
+Line 1525: Unrecognized token: 38
+Line 1525: ID = thread_list
+Line 1525: )
+Line 1525: )
+Line 1525: {
+Line 1526: ID = struct
+Line 1526: ID = list_head
+Line 1526: *
+Line 1526: ID = tmp
+Line 1526: =
+Line 1526: ID = thread_list
+Line 1526: Unrecognized token: 46
+Line 1526: ID = next
+Line 1526: ;
+Line 1527: ID = list_del
+Line 1527: (
+Line 1527: ID = tmp
+Line 1527: )
+Line 1527: ;
+Line 1528: ID = kfree
+Line 1528: (
+Line 1528: ID = list_entry
+Line 1528: (
+Line 1528: ID = tmp
+Line 1528: ,
+Line 1528: ID = struct
+Line 1528: ID = elf_thread_status
+Line 1528: ,
+Line 1528: ID = list
+Line 1528: )
+Line 1528: )
+Line 1528: ;
+Line 1529: }
+Line 1531: ID = kfree
+Line 1531: (
+Line 1531: ID = elf
+Line 1531: )
+Line 1531: ;
+Line 1532: ID = kfree
+Line 1532: (
+Line 1532: ID = prstatus
+Line 1532: )
+Line 1532: ;
+Line 1533: ID = kfree
+Line 1533: (
+Line 1533: ID = psinfo
+Line 1533: )
+Line 1533: ;
+Line 1534: ID = kfree
+Line 1534: (
+Line 1534: ID = notes
+Line 1534: )
+Line 1534: ;
+Line 1535: ID = kfree
+Line 1535: (
+Line 1535: ID = fpu
+Line 1535: )
+Line 1535: ;
+Line 1536: Unrecognized token: 35
+Line 1536: ID = ifdef
+Line 1536: ID = ELF_CORE_COPY_XFPREGS
+Line 1537: ID = kfree
+Line 1537: (
+Line 1537: ID = xfpu
+Line 1537: )
+Line 1537: ;
+Line 1538: Unrecognized token: 35
+Line 1538: ID = endif
+Line 1539: return
+Line 1539: ID = has_dumped
+Line 1539: ;
+Line 1540: Unrecognized token: 35
+Line 1540: ID = undef
+Line 1540: ID = NUM_NOTES
+Line 1541: }
+Line 1543: Unrecognized token: 35
+Line 1543: ID = endif
+Line 1545: ID = static
+Line 1545: int
+Line 1545: Unrecognized token: 95
+Line 1545: Unrecognized token: 95
+Line 1545: ID = init
+Line 1545: ID = init_elf_binfmt
+Line 1545: (
+Line 1545: void
+Line 1545: )
+Line 1546: {
+Line 1547: return
+Line 1547: ID = register_binfmt
+Line 1547: (
+Line 1547: Unrecognized token: 38
+Line 1547: ID = elf_format
+Line 1547: )
+Line 1547: ;
+Line 1548: }
+Line 1550: ID = static
+Line 1550: void
+Line 1550: Unrecognized token: 95
+Line 1550: Unrecognized token: 95
+Line 1550: ID = exit
+Line 1550: ID = exit_elf_binfmt
+Line 1550: (
+Line 1550: void
+Line 1550: )
+Line 1551: {
+Line 1553: ID = unregister_binfmt
+Line 1553: (
+Line 1553: Unrecognized token: 38
+Line 1553: ID = elf_format
+Line 1553: )
+Line 1553: ;
+Line 1554: }
+Line 1556: ID = core_initcall
+Line 1556: (
+Line 1556: ID = init_elf_binfmt
+Line 1556: )
+Line 1556: ;
+Line 1557: ID = module_exit
+Line 1557: (
+Line 1557: ID = exit_elf_binfmt
+Line 1557: )
+Line 1557: ;
+Line 1558: ID = MODULE_LICENSE
+Line 1558: (
+Line 1558: STRINGCON = "GPL"
+Line 1558: )
+Line 1558: ;
+Line 1559: -EOF-

@@ -1,0 +1,1091 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = module
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = time
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = mm
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = string
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = smp_lock
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = dnotify
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = fcntl
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = quotaops
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = security
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 21: int
+Line 21: ID = inode_change_ok
+Line 21: (
+Line 21: ID = struct
+Line 21: ID = inode
+Line 21: *
+Line 21: ID = inode
+Line 21: ,
+Line 21: ID = struct
+Line 21: ID = iattr
+Line 21: *
+Line 21: ID = attr
+Line 21: )
+Line 22: {
+Line 23: int
+Line 23: ID = retval
+Line 23: =
+Line 23: -
+Line 23: ID = EPERM
+Line 23: ;
+Line 24: ID = unsigned
+Line 24: int
+Line 24: ID = ia_valid
+Line 24: =
+Line 24: ID = attr
+Line 24: -
+Line 24: >
+Line 24: ID = ia_valid
+Line 24: ;
+Line 27: if
+Line 27: (
+Line 27: ID = ia_valid
+Line 27: Unrecognized token: 38
+Line 27: ID = ATTR_FORCE
+Line 27: )
+Line 28: ID = goto
+Line 28: ID = fine
+Line 28: ;
+Line 31: if
+Line 31: (
+Line 31: (
+Line 31: ID = ia_valid
+Line 31: Unrecognized token: 38
+Line 31: ID = ATTR_UID
+Line 31: )
+Line 31: &&
+Line 32: (
+Line 32: ID = current
+Line 32: -
+Line 32: >
+Line 32: ID = fsuid
+Line 32: !=
+Line 32: ID = inode
+Line 32: -
+Line 32: >
+Line 32: ID = i_uid
+Line 32: ||
+Line 33: ID = attr
+Line 33: -
+Line 33: >
+Line 33: ID = ia_uid
+Line 33: !=
+Line 33: ID = inode
+Line 33: -
+Line 33: >
+Line 33: ID = i_uid
+Line 33: )
+Line 33: &&
+Line 33: !
+Line 33: ID = capable
+Line 33: (
+Line 33: ID = CAP_CHOWN
+Line 33: )
+Line 33: )
+Line 34: ID = goto
+Line 34: ID = error
+Line 34: ;
+Line 37: if
+Line 37: (
+Line 37: (
+Line 37: ID = ia_valid
+Line 37: Unrecognized token: 38
+Line 37: ID = ATTR_GID
+Line 37: )
+Line 37: &&
+Line 38: (
+Line 38: ID = current
+Line 38: -
+Line 38: >
+Line 38: ID = fsuid
+Line 38: !=
+Line 38: ID = inode
+Line 38: -
+Line 38: >
+Line 38: ID = i_uid
+Line 38: ||
+Line 39: (
+Line 39: !
+Line 39: ID = in_group_p
+Line 39: (
+Line 39: ID = attr
+Line 39: -
+Line 39: >
+Line 39: ID = ia_gid
+Line 39: )
+Line 39: &&
+Line 39: ID = attr
+Line 39: -
+Line 39: >
+Line 39: ID = ia_gid
+Line 39: !=
+Line 39: ID = inode
+Line 39: -
+Line 39: >
+Line 39: ID = i_gid
+Line 39: )
+Line 39: )
+Line 39: &&
+Line 40: !
+Line 40: ID = capable
+Line 40: (
+Line 40: ID = CAP_CHOWN
+Line 40: )
+Line 40: )
+Line 41: ID = goto
+Line 41: ID = error
+Line 41: ;
+Line 44: if
+Line 44: (
+Line 44: ID = ia_valid
+Line 44: Unrecognized token: 38
+Line 44: ID = ATTR_MODE
+Line 44: )
+Line 44: {
+Line 45: if
+Line 45: (
+Line 45: (
+Line 45: ID = current
+Line 45: -
+Line 45: >
+Line 45: ID = fsuid
+Line 45: !=
+Line 45: ID = inode
+Line 45: -
+Line 45: >
+Line 45: ID = i_uid
+Line 45: )
+Line 45: &&
+Line 45: !
+Line 45: ID = capable
+Line 45: (
+Line 45: ID = CAP_FOWNER
+Line 45: )
+Line 45: )
+Line 46: ID = goto
+Line 46: ID = error
+Line 46: ;
+Line 48: if
+Line 48: (
+Line 48: !
+Line 48: ID = in_group_p
+Line 48: (
+Line 48: (
+Line 48: ID = ia_valid
+Line 48: Unrecognized token: 38
+Line 48: ID = ATTR_GID
+Line 48: )
+Line 48: Unrecognized token: 63
+Line 48: ID = attr
+Line 48: -
+Line 48: >
+Line 48: ID = ia_gid
+Line 48: Unrecognized token: 58
+Line 49: ID = inode
+Line 49: -
+Line 49: >
+Line 49: ID = i_gid
+Line 49: )
+Line 49: &&
+Line 49: !
+Line 49: ID = capable
+Line 49: (
+Line 49: ID = CAP_FSETID
+Line 49: )
+Line 49: )
+Line 50: ID = attr
+Line 50: -
+Line 50: >
+Line 50: ID = ia_mode
+Line 50: Unrecognized token: 38
+Line 50: =
+Line 50: Unrecognized token: 126
+Line 50: ID = S_ISGID
+Line 50: ;
+Line 51: }
+Line 54: if
+Line 54: (
+Line 54: ID = ia_valid
+Line 54: Unrecognized token: 38
+Line 54: (
+Line 54: ID = ATTR_MTIME_SET
+Line 54: Unrecognized token: 124
+Line 54: ID = ATTR_ATIME_SET
+Line 54: )
+Line 54: )
+Line 54: {
+Line 55: if
+Line 55: (
+Line 55: ID = current
+Line 55: -
+Line 55: >
+Line 55: ID = fsuid
+Line 55: !=
+Line 55: ID = inode
+Line 55: -
+Line 55: >
+Line 55: ID = i_uid
+Line 55: &&
+Line 55: !
+Line 55: ID = capable
+Line 55: (
+Line 55: ID = CAP_FOWNER
+Line 55: )
+Line 55: )
+Line 56: ID = goto
+Line 56: ID = error
+Line 56: ;
+Line 57: }
+Line 58: ID = fine
+Line 58: Unrecognized token: 58
+Line 59: ID = retval
+Line 59: =
+Line 59: INTCON = 0
+Line 59: ;
+Line 60: ID = error
+Line 60: Unrecognized token: 58
+Line 61: return
+Line 61: ID = retval
+Line 61: ;
+Line 62: }
+Line 64: ID = EXPORT_SYMBOL
+Line 64: (
+Line 64: ID = inode_change_ok
+Line 64: )
+Line 64: ;
+Line 66: int
+Line 66: ID = inode_setattr
+Line 66: (
+Line 66: ID = struct
+Line 66: ID = inode
+Line 66: *
+Line 66: ID = inode
+Line 66: ,
+Line 66: ID = struct
+Line 66: ID = iattr
+Line 66: *
+Line 66: ID = attr
+Line 66: )
+Line 67: {
+Line 68: ID = unsigned
+Line 68: int
+Line 68: ID = ia_valid
+Line 68: =
+Line 68: ID = attr
+Line 68: -
+Line 68: >
+Line 68: ID = ia_valid
+Line 68: ;
+Line 69: int
+Line 69: ID = error
+Line 69: =
+Line 69: INTCON = 0
+Line 69: ;
+Line 71: if
+Line 71: (
+Line 71: ID = ia_valid
+Line 71: Unrecognized token: 38
+Line 71: ID = ATTR_SIZE
+Line 71: )
+Line 71: {
+Line 72: if
+Line 72: (
+Line 72: ID = attr
+Line 72: -
+Line 72: >
+Line 72: ID = ia_size
+Line 72: !=
+Line 72: ID = i_size_read
+Line 72: (
+Line 72: ID = inode
+Line 72: )
+Line 72: )
+Line 72: {
+Line 73: ID = error
+Line 73: =
+Line 73: ID = vmtruncate
+Line 73: (
+Line 73: ID = inode
+Line 73: ,
+Line 73: ID = attr
+Line 73: -
+Line 73: >
+Line 73: ID = ia_size
+Line 73: )
+Line 73: ;
+Line 74: if
+Line 74: (
+Line 74: ID = error
+Line 74: ||
+Line 74: (
+Line 74: ID = ia_valid
+Line 74: ==
+Line 74: ID = ATTR_SIZE
+Line 74: )
+Line 74: )
+Line 75: ID = goto
+Line 75: ID = out
+Line 75: ;
+Line 76: }
+Line 76: else
+Line 76: {
+Line 81: ID = ia_valid
+Line 81: Unrecognized token: 124
+Line 81: =
+Line 81: ID = ATTR_MTIME
+Line 81: Unrecognized token: 124
+Line 81: ID = ATTR_CTIME
+Line 81: ;
+Line 82: }
+Line 83: }
+Line 85: if
+Line 85: (
+Line 85: ID = ia_valid
+Line 85: Unrecognized token: 38
+Line 85: ID = ATTR_UID
+Line 85: )
+Line 86: ID = inode
+Line 86: -
+Line 86: >
+Line 86: ID = i_uid
+Line 86: =
+Line 86: ID = attr
+Line 86: -
+Line 86: >
+Line 86: ID = ia_uid
+Line 86: ;
+Line 87: if
+Line 87: (
+Line 87: ID = ia_valid
+Line 87: Unrecognized token: 38
+Line 87: ID = ATTR_GID
+Line 87: )
+Line 88: ID = inode
+Line 88: -
+Line 88: >
+Line 88: ID = i_gid
+Line 88: =
+Line 88: ID = attr
+Line 88: -
+Line 88: >
+Line 88: ID = ia_gid
+Line 88: ;
+Line 89: if
+Line 89: (
+Line 89: ID = ia_valid
+Line 89: Unrecognized token: 38
+Line 89: ID = ATTR_ATIME
+Line 89: )
+Line 90: ID = inode
+Line 90: -
+Line 90: >
+Line 90: ID = i_atime
+Line 90: =
+Line 90: ID = attr
+Line 90: -
+Line 90: >
+Line 90: ID = ia_atime
+Line 90: ;
+Line 91: if
+Line 91: (
+Line 91: ID = ia_valid
+Line 91: Unrecognized token: 38
+Line 91: ID = ATTR_MTIME
+Line 91: )
+Line 92: ID = inode
+Line 92: -
+Line 92: >
+Line 92: ID = i_mtime
+Line 92: =
+Line 92: ID = attr
+Line 92: -
+Line 92: >
+Line 92: ID = ia_mtime
+Line 92: ;
+Line 93: if
+Line 93: (
+Line 93: ID = ia_valid
+Line 93: Unrecognized token: 38
+Line 93: ID = ATTR_CTIME
+Line 93: )
+Line 94: ID = inode
+Line 94: -
+Line 94: >
+Line 94: ID = i_ctime
+Line 94: =
+Line 94: ID = attr
+Line 94: -
+Line 94: >
+Line 94: ID = ia_ctime
+Line 94: ;
+Line 95: if
+Line 95: (
+Line 95: ID = ia_valid
+Line 95: Unrecognized token: 38
+Line 95: ID = ATTR_MODE
+Line 95: )
+Line 95: {
+Line 96: ID = umode_t
+Line 96: ID = mode
+Line 96: =
+Line 96: ID = attr
+Line 96: -
+Line 96: >
+Line 96: ID = ia_mode
+Line 96: ;
+Line 98: if
+Line 98: (
+Line 98: !
+Line 98: ID = in_group_p
+Line 98: (
+Line 98: ID = inode
+Line 98: -
+Line 98: >
+Line 98: ID = i_gid
+Line 98: )
+Line 98: &&
+Line 98: !
+Line 98: ID = capable
+Line 98: (
+Line 98: ID = CAP_FSETID
+Line 98: )
+Line 98: )
+Line 99: ID = mode
+Line 99: Unrecognized token: 38
+Line 99: =
+Line 99: Unrecognized token: 126
+Line 99: ID = S_ISGID
+Line 99: ;
+Line 100: ID = inode
+Line 100: -
+Line 100: >
+Line 100: ID = i_mode
+Line 100: =
+Line 100: ID = mode
+Line 100: ;
+Line 101: }
+Line 102: ID = mark_inode_dirty
+Line 102: (
+Line 102: ID = inode
+Line 102: )
+Line 102: ;
+Line 103: ID = out
+Line 103: Unrecognized token: 58
+Line 104: return
+Line 104: ID = error
+Line 104: ;
+Line 105: }
+Line 107: ID = EXPORT_SYMBOL
+Line 107: (
+Line 107: ID = inode_setattr
+Line 107: )
+Line 107: ;
+Line 109: int
+Line 109: ID = setattr_mask
+Line 109: (
+Line 109: ID = unsigned
+Line 109: int
+Line 109: ID = ia_valid
+Line 109: )
+Line 110: {
+Line 111: ID = unsigned
+Line 111: ID = long
+Line 111: ID = dn_mask
+Line 111: =
+Line 111: INTCON = 0
+Line 111: ;
+Line 113: if
+Line 113: (
+Line 113: ID = ia_valid
+Line 113: Unrecognized token: 38
+Line 113: ID = ATTR_UID
+Line 113: )
+Line 114: ID = dn_mask
+Line 114: Unrecognized token: 124
+Line 114: =
+Line 114: ID = DN_ATTRIB
+Line 114: ;
+Line 115: if
+Line 115: (
+Line 115: ID = ia_valid
+Line 115: Unrecognized token: 38
+Line 115: ID = ATTR_GID
+Line 115: )
+Line 116: ID = dn_mask
+Line 116: Unrecognized token: 124
+Line 116: =
+Line 116: ID = DN_ATTRIB
+Line 116: ;
+Line 117: if
+Line 117: (
+Line 117: ID = ia_valid
+Line 117: Unrecognized token: 38
+Line 117: ID = ATTR_SIZE
+Line 117: )
+Line 118: ID = dn_mask
+Line 118: Unrecognized token: 124
+Line 118: =
+Line 118: ID = DN_MODIFY
+Line 118: ;
+Line 120: if
+Line 120: (
+Line 120: (
+Line 120: ID = ia_valid
+Line 120: Unrecognized token: 38
+Line 120: (
+Line 120: ID = ATTR_ATIME
+Line 120: Unrecognized token: 124
+Line 120: ID = ATTR_MTIME
+Line 120: )
+Line 120: )
+Line 120: ==
+Line 120: (
+Line 120: ID = ATTR_ATIME
+Line 120: Unrecognized token: 124
+Line 120: ID = ATTR_MTIME
+Line 120: )
+Line 120: )
+Line 121: ID = dn_mask
+Line 121: Unrecognized token: 124
+Line 121: =
+Line 121: ID = DN_ATTRIB
+Line 121: ;
+Line 122: else
+Line 122: if
+Line 122: (
+Line 122: ID = ia_valid
+Line 122: Unrecognized token: 38
+Line 122: ID = ATTR_ATIME
+Line 122: )
+Line 123: ID = dn_mask
+Line 123: Unrecognized token: 124
+Line 123: =
+Line 123: ID = DN_ACCESS
+Line 123: ;
+Line 124: else
+Line 124: if
+Line 124: (
+Line 124: ID = ia_valid
+Line 124: Unrecognized token: 38
+Line 124: ID = ATTR_MTIME
+Line 124: )
+Line 125: ID = dn_mask
+Line 125: Unrecognized token: 124
+Line 125: =
+Line 125: ID = DN_MODIFY
+Line 125: ;
+Line 126: if
+Line 126: (
+Line 126: ID = ia_valid
+Line 126: Unrecognized token: 38
+Line 126: ID = ATTR_MODE
+Line 126: )
+Line 127: ID = dn_mask
+Line 127: Unrecognized token: 124
+Line 127: =
+Line 127: ID = DN_ATTRIB
+Line 127: ;
+Line 128: return
+Line 128: ID = dn_mask
+Line 128: ;
+Line 129: }
+Line 131: int
+Line 131: ID = notify_change
+Line 131: (
+Line 131: ID = struct
+Line 131: ID = dentry
+Line 131: *
+Line 131: ID = dentry
+Line 131: ,
+Line 131: ID = struct
+Line 131: ID = iattr
+Line 131: *
+Line 131: ID = attr
+Line 131: )
+Line 132: {
+Line 133: ID = struct
+Line 133: ID = inode
+Line 133: *
+Line 133: ID = inode
+Line 133: =
+Line 133: ID = dentry
+Line 133: -
+Line 133: >
+Line 133: ID = d_inode
+Line 133: ;
+Line 134: ID = mode_t
+Line 134: ID = mode
+Line 134: =
+Line 134: ID = inode
+Line 134: -
+Line 134: >
+Line 134: ID = i_mode
+Line 134: ;
+Line 135: int
+Line 135: ID = error
+Line 135: ;
+Line 136: ID = struct
+Line 136: ID = timespec
+Line 136: ID = now
+Line 136: =
+Line 136: ID = CURRENT_TIME
+Line 136: ;
+Line 137: ID = unsigned
+Line 137: int
+Line 137: ID = ia_valid
+Line 137: =
+Line 137: ID = attr
+Line 137: -
+Line 137: >
+Line 137: ID = ia_valid
+Line 137: ;
+Line 139: if
+Line 139: (
+Line 139: !
+Line 139: ID = inode
+Line 139: )
+Line 140: ID = BUG
+Line 140: (
+Line 140: )
+Line 140: ;
+Line 142: ID = attr
+Line 142: -
+Line 142: >
+Line 142: ID = ia_ctime
+Line 142: =
+Line 142: ID = now
+Line 142: ;
+Line 143: if
+Line 143: (
+Line 143: !
+Line 143: (
+Line 143: ID = ia_valid
+Line 143: Unrecognized token: 38
+Line 143: ID = ATTR_ATIME_SET
+Line 143: )
+Line 143: )
+Line 144: ID = attr
+Line 144: -
+Line 144: >
+Line 144: ID = ia_atime
+Line 144: =
+Line 144: ID = now
+Line 144: ;
+Line 145: if
+Line 145: (
+Line 145: !
+Line 145: (
+Line 145: ID = ia_valid
+Line 145: Unrecognized token: 38
+Line 145: ID = ATTR_MTIME_SET
+Line 145: )
+Line 145: )
+Line 146: ID = attr
+Line 146: -
+Line 146: >
+Line 146: ID = ia_mtime
+Line 146: =
+Line 146: ID = now
+Line 146: ;
+Line 147: if
+Line 147: (
+Line 147: ID = ia_valid
+Line 147: Unrecognized token: 38
+Line 147: ID = ATTR_KILL_SUID
+Line 147: )
+Line 147: {
+Line 148: ID = attr
+Line 148: -
+Line 148: >
+Line 148: ID = ia_valid
+Line 148: Unrecognized token: 38
+Line 148: =
+Line 148: Unrecognized token: 126
+Line 148: ID = ATTR_KILL_SUID
+Line 148: ;
+Line 149: if
+Line 149: (
+Line 149: ID = mode
+Line 149: Unrecognized token: 38
+Line 149: ID = S_ISUID
+Line 149: )
+Line 149: {
+Line 150: if
+Line 150: (
+Line 150: !
+Line 150: (
+Line 150: ID = ia_valid
+Line 150: Unrecognized token: 38
+Line 150: ID = ATTR_MODE
+Line 150: )
+Line 150: )
+Line 150: {
+Line 151: ID = ia_valid
+Line 151: =
+Line 151: ID = attr
+Line 151: -
+Line 151: >
+Line 151: ID = ia_valid
+Line 151: Unrecognized token: 124
+Line 151: =
+Line 151: ID = ATTR_MODE
+Line 151: ;
+Line 152: ID = attr
+Line 152: -
+Line 152: >
+Line 152: ID = ia_mode
+Line 152: =
+Line 152: ID = inode
+Line 152: -
+Line 152: >
+Line 152: ID = i_mode
+Line 152: ;
+Line 153: }
+Line 154: ID = attr
+Line 154: -
+Line 154: >
+Line 154: ID = ia_mode
+Line 154: Unrecognized token: 38
+Line 154: =
+Line 154: Unrecognized token: 126
+Line 154: ID = S_ISUID
+Line 154: ;
+Line 155: }
+Line 156: }
+Line 157: if
+Line 157: (
+Line 157: ID = ia_valid
+Line 157: Unrecognized token: 38
+Line 157: ID = ATTR_KILL_SGID
+Line 157: )
+Line 157: {
+Line 158: ID = attr
+Line 158: -
+Line 158: >
+Line 158: ID = ia_valid
+Line 158: Unrecognized token: 38
+Line 158: =
+Line 158: Unrecognized token: 126
+Line 158: ID = ATTR_KILL_SGID
+Line 158: ;
+Line 159: if
+Line 159: (
+Line 159: (
+Line 159: ID = mode
+Line 159: Unrecognized token: 38
+Line 159: (
+Line 159: ID = S_ISGID
+Line 159: Unrecognized token: 124
+Line 159: ID = S_IXGRP
+Line 159: )
+Line 159: )
+Line 159: ==
+Line 159: (
+Line 159: ID = S_ISGID
+Line 159: Unrecognized token: 124
+Line 159: ID = S_IXGRP
+Line 159: )
+Line 159: )
+Line 159: {
+Line 160: if
+Line 160: (
+Line 160: !
+Line 160: (
+Line 160: ID = ia_valid
+Line 160: Unrecognized token: 38
+Line 160: ID = ATTR_MODE
+Line 160: )
+Line 160: )
+Line 160: {
+Line 161: ID = ia_valid
+Line 161: =
+Line 161: ID = attr
+Line 161: -
+Line 161: >
+Line 161: ID = ia_valid
+Line 161: Unrecognized token: 124
+Line 161: =
+Line 161: ID = ATTR_MODE
+Line 161: ;
+Line 162: ID = attr
+Line 162: -
+Line 162: >
+Line 162: ID = ia_mode
+Line 162: =
+Line 162: ID = inode
+Line 162: -
+Line 162: >
+Line 162: ID = i_mode
+Line 162: ;
+Line 163: }
+Line 164: ID = attr
+Line 164: -
+Line 164: >
+Line 164: ID = ia_mode
+Line 164: Unrecognized token: 38
+Line 164: =
+Line 164: Unrecognized token: 126
+Line 164: ID = S_ISGID
+Line 164: ;
+Line 165: }
+Line 166: }
+Line 167: if
+Line 167: (
+Line 167: !
+Line 167: ID = attr
+Line 167: -
+Line 167: >
+Line 167: ID = ia_valid
+Line 167: )
+Line 168: return
+Line 168: INTCON = 0
+Line 168: ;
+Line 170: if
+Line 170: (
+Line 170: ID = inode
+Line 170: -
+Line 170: >
+Line 170: ID = i_op
+Line 170: &&
+Line 170: ID = inode
+Line 170: -
+Line 170: >
+Line 170: ID = i_op
+Line 170: -
+Line 170: >
+Line 170: ID = setattr
+Line 170: )
+Line 170: {
+Line 171: ID = error
+Line 171: =
+Line 171: ID = security_inode_setattr
+Line 171: (
+Line 171: ID = dentry
+Line 171: ,
+Line 171: ID = attr
+Line 171: )
+Line 171: ;
+Line 172: if
+Line 172: (
+Line 172: !
+Line 172: ID = error
+Line 172: )
+Line 173: ID = error
+Line 173: =
+Line 173: ID = inode
+Line 173: -
+Line 173: >
+Line 173: ID = i_op
+Line 173: -
+Line 173: >
+Line 173: ID = setattr
+Line 173: (
+Line 173: ID = dentry
+Line 173: ,
+Line 173: ID = attr
+Line 173: )
+Line 173: ;
+Line 174: }
+Line 174: else
+Line 174: {
+Line 175: ID = error
+Line 175: =
+Line 175: ID = inode_change_ok
+Line 175: (
+Line 175: ID = inode
+Line 175: ,
+Line 175: ID = attr
+Line 175: )
+Line 175: ;
+Line 176: if
+Line 176: (
+Line 176: !
+Line 176: ID = error
+Line 176: )
+Line 177: ID = error
+Line 177: =
+Line 177: ID = security_inode_setattr
+Line 177: (
+Line 177: ID = dentry
+Line 177: ,
+Line 177: ID = attr
+Line 177: )
+Line 177: ;
+Line 178: if
+Line 178: (
+Line 178: !
+Line 178: ID = error
+Line 178: )
+Line 178: {
+Line 179: if
+Line 179: (
+Line 179: (
+Line 179: ID = ia_valid
+Line 179: Unrecognized token: 38
+Line 179: ID = ATTR_UID
+Line 179: &&
+Line 179: ID = attr
+Line 179: -
+Line 179: >
+Line 179: ID = ia_uid
+Line 179: !=
+Line 179: ID = inode
+Line 179: -
+Line 179: >
+Line 179: ID = i_uid
+Line 179: )
+Line 179: ||
+Line 180: (
+Line 180: ID = ia_valid
+Line 180: Unrecognized token: 38
+Line 180: ID = ATTR_GID
+Line 180: &&
+Line 180: ID = attr
+Line 180: -
+Line 180: >
+Line 180: ID = ia_gid
+Line 180: !=
+Line 180: ID = inode
+Line 180: -
+Line 180: >
+Line 180: ID = i_gid
+Line 180: )
+Line 180: )
+Line 181: ID = error
+Line 181: =
+Line 181: ID = DQUOT_TRANSFER
+Line 181: (
+Line 181: ID = inode
+Line 181: ,
+Line 181: ID = attr
+Line 181: )
+Line 181: Unrecognized token: 63
+Line 181: -
+Line 181: ID = EDQUOT
+Line 181: Unrecognized token: 58
+Line 181: INTCON = 0
+Line 181: ;
+Line 182: if
+Line 182: (
+Line 182: !
+Line 182: ID = error
+Line 182: )
+Line 183: ID = error
+Line 183: =
+Line 183: ID = inode_setattr
+Line 183: (
+Line 183: ID = inode
+Line 183: ,
+Line 183: ID = attr
+Line 183: )
+Line 183: ;
+Line 184: }
+Line 185: }
+Line 186: if
+Line 186: (
+Line 186: !
+Line 186: ID = error
+Line 186: )
+Line 186: {
+Line 187: ID = unsigned
+Line 187: ID = long
+Line 187: ID = dn_mask
+Line 187: =
+Line 187: ID = setattr_mask
+Line 187: (
+Line 187: ID = ia_valid
+Line 187: )
+Line 187: ;
+Line 188: if
+Line 188: (
+Line 188: ID = dn_mask
+Line 188: )
+Line 189: ID = dnotify_parent
+Line 189: (
+Line 189: ID = dentry
+Line 189: ,
+Line 189: ID = dn_mask
+Line 189: )
+Line 189: ;
+Line 190: }
+Line 191: return
+Line 191: ID = error
+Line 191: ;
+Line 192: }
+Line 194: ID = EXPORT_SYMBOL
+Line 194: (
+Line 194: ID = notify_change
+Line 194: )
+Line 194: ;
+Line 195: -EOF-

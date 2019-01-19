@@ -1,0 +1,54 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+void func(char x[], int i);
+void print_array(char x[], int i);
+void main(void);
+
+void
+func(char x[], int i)
+{
+    int index;
+    for(index = 0 ; index < i; index = index + 1)
+    {
+        x[index] = index;
+    }
+}
+
+void print_array(char x[], int i)
+{
+    int index;
+    print_string("\nArray has ");
+    print_int(i);
+    print_string(" elements\n");
+    for (index = 0; index < i; index = index + 1)
+    {
+        print_int(index);
+        print_string(" == ");
+        print_int(x[index]);
+        print_string("\n");
+    }
+    print_string("print_array complete\n");
+}
+
+void
+main(void)
+{
+    char p3[10];
+    int i;
+
+    print_string("\nSTART\n");
+
+    for (i = 0; i < 10; i = i + 1)
+    {
+        p3[i] = 0;
+        print_int(p3[i]);
+    }
+
+    print_array(p3, 10);
+    func(p3, 10);
+    print_array(p3, 10);
+
+    print_string("\nDONE\n");
+}
+

@@ -1,0 +1,18 @@
+
+int []
+illegal_function(void)              /* ERROR */
+{
+    int a;
+}
+
+/*  This really screws us up, because ')' is in the follow set.
+
+    I'm not sure that I can do anything about that.
+*/
+
+void
+okay_function_bad_args ( ()int x, inty[]())
+{
+    int k;
+    printf("Baaaa!\n");
+}

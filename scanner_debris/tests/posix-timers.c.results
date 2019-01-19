@@ -1,0 +1,6019 @@
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = mm
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = smp_lock
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = interrupt
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = slab
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = linux
+Line 37: /
+Line 37: ID = time
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 39: Unrecognized token: 35
+Line 39: ID = include
+Line 39: <
+Line 39: ID = asm
+Line 39: /
+Line 39: ID = uaccess
+Line 39: Unrecognized token: 46
+Line 39: ID = h
+Line 39: >
+Line 40: Unrecognized token: 35
+Line 40: ID = include
+Line 40: <
+Line 40: ID = asm
+Line 40: /
+Line 40: ID = semaphore
+Line 40: Unrecognized token: 46
+Line 40: ID = h
+Line 40: >
+Line 41: Unrecognized token: 35
+Line 41: ID = include
+Line 41: <
+Line 41: ID = linux
+Line 41: /
+Line 41: ID = list
+Line 41: Unrecognized token: 46
+Line 41: ID = h
+Line 41: >
+Line 42: Unrecognized token: 35
+Line 42: ID = include
+Line 42: <
+Line 42: ID = linux
+Line 42: /
+Line 42: ID = init
+Line 42: Unrecognized token: 46
+Line 42: ID = h
+Line 42: >
+Line 43: Unrecognized token: 35
+Line 43: ID = include
+Line 43: <
+Line 43: ID = linux
+Line 43: /
+Line 43: ID = compiler
+Line 43: Unrecognized token: 46
+Line 43: ID = h
+Line 43: >
+Line 44: Unrecognized token: 35
+Line 44: ID = include
+Line 44: <
+Line 44: ID = linux
+Line 44: /
+Line 44: ID = idr
+Line 44: Unrecognized token: 46
+Line 44: ID = h
+Line 44: >
+Line 45: Unrecognized token: 35
+Line 45: ID = include
+Line 45: <
+Line 45: ID = linux
+Line 45: /
+Line 45: ID = posix
+Line 45: -
+Line 45: ID = timers
+Line 45: Unrecognized token: 46
+Line 45: ID = h
+Line 45: >
+Line 46: Unrecognized token: 35
+Line 46: ID = include
+Line 46: <
+Line 46: ID = linux
+Line 46: /
+Line 46: ID = wait
+Line 46: Unrecognized token: 46
+Line 46: ID = h
+Line 46: >
+Line 47: Unrecognized token: 35
+Line 47: ID = include
+Line 47: <
+Line 47: ID = linux
+Line 47: /
+Line 47: ID = workqueue
+Line 47: Unrecognized token: 46
+Line 47: ID = h
+Line 47: >
+Line 49: Unrecognized token: 35
+Line 49: ID = ifndef
+Line 49: ID = div_long_long_rem
+Line 50: Unrecognized token: 35
+Line 50: ID = include
+Line 50: <
+Line 50: ID = asm
+Line 50: /
+Line 50: ID = div64
+Line 50: Unrecognized token: 46
+Line 50: ID = h
+Line 50: >
+Line 52: Unrecognized token: 35
+Line 52: ID = define
+Line 52: ID = div_long_long_rem
+Line 52: (
+Line 52: ID = dividend
+Line 52: ,
+Line 52: ID = divisor
+Line 52: ,
+Line 52: ID = remainder
+Line 52: )
+Line 52: (
+Line 52: {
+Line 52: Unrecognized token: 92
+Line 53: ID = u64
+Line 53: ID = result
+Line 53: =
+Line 53: ID = dividend
+Line 53: ;
+Line 53: Unrecognized token: 92
+Line 54: *
+Line 54: ID = remainder
+Line 54: =
+Line 54: ID = do_div
+Line 54: (
+Line 54: ID = result
+Line 54: ,
+Line 54: ID = divisor
+Line 54: )
+Line 54: ;
+Line 54: Unrecognized token: 92
+Line 55: ID = result
+Line 55: ;
+Line 55: }
+Line 55: )
+Line 57: Unrecognized token: 35
+Line 57: ID = endif
+Line 58: Unrecognized token: 35
+Line 58: ID = define
+Line 58: ID = CLOCK_REALTIME_RES
+Line 58: ID = TICK_NSEC
+Line 60: ID = static
+Line 60: ID = inline
+Line 60: ID = u64
+Line 60: ID = mpy_l_X_l_ll
+Line 60: (
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = mpy1
+Line 60: ,
+Line 60: ID = unsigned
+Line 60: ID = long
+Line 60: ID = mpy2
+Line 60: )
+Line 61: {
+Line 62: return
+Line 62: (
+Line 62: ID = u64
+Line 62: )
+Line 62: ID = mpy1
+Line 62: *
+Line 62: ID = mpy2
+Line 62: ;
+Line 63: }
+Line 85: ID = static
+Line 85: ID = kmem_cache_t
+Line 85: *
+Line 85: ID = posix_timers_cache
+Line 85: ;
+Line 86: ID = static
+Line 86: ID = struct
+Line 86: ID = idr
+Line 86: ID = posix_timers_id
+Line 86: ;
+Line 87: ID = static
+Line 87: ID = spinlock_t
+Line 87: ID = idr_lock
+Line 87: =
+Line 87: ID = SPIN_LOCK_UNLOCKED
+Line 87: ;
+Line 93: Unrecognized token: 35
+Line 93: ID = define
+Line 93: ID = TIMER_INACTIVE
+Line 93: INTCON = 1
+Line 94: Unrecognized token: 35
+Line 94: ID = define
+Line 94: ID = TIMER_RETRY
+Line 94: INTCON = 1
+Line 96: Unrecognized token: 35
+Line 96: ID = ifdef
+Line 96: ID = CONFIG_SMP
+Line 97: Unrecognized token: 35
+Line 97: ID = define
+Line 97: ID = timer_active
+Line 97: (
+Line 97: ID = tmr
+Line 97: )
+Line 97: Unrecognized token: 92
+Line 98: (
+Line 98: (
+Line 98: ID = tmr
+Line 98: )
+Line 98: -
+Line 98: >
+Line 98: ID = it_timer
+Line 98: Unrecognized token: 46
+Line 98: ID = entry
+Line 98: Unrecognized token: 46
+Line 98: ID = prev
+Line 98: !=
+Line 98: (
+Line 98: void
+Line 98: *
+Line 98: )
+Line 98: ID = TIMER_INACTIVE
+Line 98: )
+Line 99: Unrecognized token: 35
+Line 99: ID = define
+Line 99: ID = set_timer_inactive
+Line 99: (
+Line 99: ID = tmr
+Line 99: )
+Line 99: Unrecognized token: 92
+Line 100: ID = do
+Line 100: {
+Line 100: Unrecognized token: 92
+Line 101: (
+Line 101: ID = tmr
+Line 101: )
+Line 101: -
+Line 101: >
+Line 101: ID = it_timer
+Line 101: Unrecognized token: 46
+Line 101: ID = entry
+Line 101: Unrecognized token: 46
+Line 101: ID = prev
+Line 101: =
+Line 101: (
+Line 101: void
+Line 101: *
+Line 101: )
+Line 101: ID = TIMER_INACTIVE
+Line 101: ;
+Line 101: Unrecognized token: 92
+Line 102: }
+Line 102: while
+Line 102: (
+Line 102: INTCON = 0
+Line 102: )
+Line 103: Unrecognized token: 35
+Line 103: else
+Line 104: Unrecognized token: 35
+Line 104: ID = define
+Line 104: ID = timer_active
+Line 104: (
+Line 104: ID = tmr
+Line 104: )
+Line 104: ID = BARFY
+Line 104: /
+Line 104: /
+Line 104: ID = error
+Line 104: ID = to
+Line 104: ID = use
+Line 104: ID = outside
+Line 104: ID = of
+Line 104: ID = SMP
+Line 105: Unrecognized token: 35
+Line 105: ID = define
+Line 105: ID = set_timer_inactive
+Line 105: (
+Line 105: ID = tmr
+Line 105: )
+Line 105: ID = do
+Line 105: {
+Line 105: }
+Line 105: while
+Line 105: (
+Line 105: INTCON = 0
+Line 105: )
+Line 106: Unrecognized token: 35
+Line 106: ID = endif
+Line 111: Unrecognized token: 35
+Line 111: if
+Line 111: ID = SIGEV_THREAD_ID
+Line 111: !=
+Line 111: (
+Line 111: ID = SIGEV_THREAD_ID
+Line 111: Unrecognized token: 38
+Line 111: Unrecognized token: 92
+Line 112: Unrecognized token: 126
+Line 112: (
+Line 112: ID = SIGEV_SIGNAL
+Line 112: Unrecognized token: 124
+Line 112: ID = SIGEV_NONE
+Line 112: Unrecognized token: 124
+Line 112: ID = SIGEV_THREAD
+Line 112: )
+Line 112: )
+Line 113: Unrecognized token: 35
+Line 113: ID = error
+Line 113: STRINGCON = "SIGEV_THREAD_ID must not share bit with other SIGEV values!"
+Line 114: Unrecognized token: 35
+Line 114: ID = endif
+Line 117: Unrecognized token: 35
+Line 117: ID = define
+Line 117: ID = REQUEUE_PENDING
+Line 117: INTCON = 1
+Line 175: ID = static
+Line 175: ID = struct
+Line 175: ID = k_clock
+Line 175: ID = posix_clocks
+Line 175: [
+Line 175: ID = MAX_CLOCKS
+Line 175: ]
+Line 175: ;
+Line 180: ID = static
+Line 180: ID = struct
+Line 180: ID = k_clock_abs
+Line 180: ID = abs_list
+Line 180: =
+Line 180: {
+Line 180: Unrecognized token: 46
+Line 180: ID = list
+Line 180: =
+Line 180: ID = LIST_HEAD_INIT
+Line 180: (
+Line 180: ID = abs_list
+Line 180: Unrecognized token: 46
+Line 180: ID = list
+Line 180: )
+Line 180: ,
+Line 181: Unrecognized token: 46
+Line 181: ID = lock
+Line 181: =
+Line 181: ID = SPIN_LOCK_UNLOCKED
+Line 181: }
+Line 181: ;
+Line 183: Unrecognized token: 35
+Line 183: ID = define
+Line 183: ID = if_clock_do
+Line 183: (
+Line 183: ID = clock_fun
+Line 183: ,
+Line 183: ID = alt_fun
+Line 183: ,
+Line 183: ID = parms
+Line 183: )
+Line 183: Unrecognized token: 92
+Line 184: (
+Line 184: !
+Line 184: ID = clock_fun
+Line 184: )
+Line 184: Unrecognized token: 63
+Line 184: ID = alt_fun
+Line 184: ID = parms
+Line 184: Unrecognized token: 58
+Line 184: ID = clock_fun
+Line 184: ID = parms
+Line 186: Unrecognized token: 35
+Line 186: ID = define
+Line 186: ID = p_timer_get
+Line 186: (
+Line 186: ID = clock
+Line 186: ,
+Line 186: ID = a
+Line 186: ,
+Line 186: ID = b
+Line 186: )
+Line 186: Unrecognized token: 92
+Line 187: ID = if_clock_do
+Line 187: (
+Line 187: (
+Line 187: ID = clock
+Line 187: )
+Line 187: -
+Line 187: >
+Line 187: ID = timer_get
+Line 187: ,
+Line 187: ID = do_timer_gettime
+Line 187: ,
+Line 187: (
+Line 187: ID = a
+Line 187: ,
+Line 187: ID = b
+Line 187: )
+Line 187: )
+Line 189: Unrecognized token: 35
+Line 189: ID = define
+Line 189: ID = p_nsleep
+Line 189: (
+Line 189: ID = clock
+Line 189: ,
+Line 189: ID = a
+Line 189: ,
+Line 189: ID = b
+Line 189: ,
+Line 189: ID = c
+Line 189: )
+Line 189: Unrecognized token: 92
+Line 190: ID = if_clock_do
+Line 190: (
+Line 190: (
+Line 190: ID = clock
+Line 190: )
+Line 190: -
+Line 190: >
+Line 190: ID = nsleep
+Line 190: ,
+Line 190: ID = do_nsleep
+Line 190: ,
+Line 190: (
+Line 190: ID = a
+Line 190: ,
+Line 190: ID = b
+Line 190: ,
+Line 190: ID = c
+Line 190: )
+Line 190: )
+Line 192: Unrecognized token: 35
+Line 192: ID = define
+Line 192: ID = p_timer_del
+Line 192: (
+Line 192: ID = clock
+Line 192: ,
+Line 192: ID = a
+Line 192: )
+Line 192: Unrecognized token: 92
+Line 193: ID = if_clock_do
+Line 193: (
+Line 193: (
+Line 193: ID = clock
+Line 193: )
+Line 193: -
+Line 193: >
+Line 193: ID = timer_del
+Line 193: ,
+Line 193: ID = do_timer_delete
+Line 193: ,
+Line 193: (
+Line 193: ID = a
+Line 193: )
+Line 193: )
+Line 195: void
+Line 195: ID = register_posix_clock
+Line 195: (
+Line 195: int
+Line 195: ID = clock_id
+Line 195: ,
+Line 195: ID = struct
+Line 195: ID = k_clock
+Line 195: *
+Line 195: ID = new_clock
+Line 195: )
+Line 195: ;
+Line 196: ID = static
+Line 196: int
+Line 196: ID = do_posix_gettime
+Line 196: (
+Line 196: ID = struct
+Line 196: ID = k_clock
+Line 196: *
+Line 196: ID = clock
+Line 196: ,
+Line 196: ID = struct
+Line 196: ID = timespec
+Line 196: *
+Line 196: ID = tp
+Line 196: )
+Line 196: ;
+Line 197: ID = static
+Line 197: ID = u64
+Line 197: ID = do_posix_clock_monotonic_gettime_parts
+Line 197: (
+Line 198: ID = struct
+Line 198: ID = timespec
+Line 198: *
+Line 198: ID = tp
+Line 198: ,
+Line 198: ID = struct
+Line 198: ID = timespec
+Line 198: *
+Line 198: ID = mo
+Line 198: )
+Line 198: ;
+Line 199: int
+Line 199: ID = do_posix_clock_monotonic_gettime
+Line 199: (
+Line 199: ID = struct
+Line 199: ID = timespec
+Line 199: *
+Line 199: ID = tp
+Line 199: )
+Line 199: ;
+Line 200: int
+Line 200: ID = do_posix_clock_monotonic_settime
+Line 200: (
+Line 200: ID = struct
+Line 200: ID = timespec
+Line 200: *
+Line 200: ID = tp
+Line 200: )
+Line 200: ;
+Line 201: ID = static
+Line 201: ID = struct
+Line 201: ID = k_itimer
+Line 201: *
+Line 201: ID = lock_timer
+Line 201: (
+Line 201: ID = timer_t
+Line 201: ID = timer_id
+Line 201: ,
+Line 201: ID = unsigned
+Line 201: ID = long
+Line 201: *
+Line 201: ID = flags
+Line 201: )
+Line 201: ;
+Line 203: ID = static
+Line 203: ID = inline
+Line 203: void
+Line 203: ID = unlock_timer
+Line 203: (
+Line 203: ID = struct
+Line 203: ID = k_itimer
+Line 203: *
+Line 203: ID = timr
+Line 203: ,
+Line 203: ID = unsigned
+Line 203: ID = long
+Line 203: ID = flags
+Line 203: )
+Line 204: {
+Line 205: ID = spin_unlock_irqrestore
+Line 205: (
+Line 205: Unrecognized token: 38
+Line 205: ID = timr
+Line 205: -
+Line 205: >
+Line 205: ID = it_lock
+Line 205: ,
+Line 205: ID = flags
+Line 205: )
+Line 205: ;
+Line 206: }
+Line 211: ID = static
+Line 211: Unrecognized token: 95
+Line 211: Unrecognized token: 95
+Line 211: ID = init
+Line 211: int
+Line 211: ID = init_posix_timers
+Line 211: (
+Line 211: void
+Line 211: )
+Line 212: {
+Line 213: ID = struct
+Line 213: ID = k_clock
+Line 213: ID = clock_realtime
+Line 213: =
+Line 213: {
+Line 213: Unrecognized token: 46
+Line 213: ID = res
+Line 213: =
+Line 213: ID = CLOCK_REALTIME_RES
+Line 213: ,
+Line 214: Unrecognized token: 46
+Line 214: ID = abs_struct
+Line 214: =
+Line 214: Unrecognized token: 38
+Line 214: ID = abs_list
+Line 215: }
+Line 215: ;
+Line 216: ID = struct
+Line 216: ID = k_clock
+Line 216: ID = clock_monotonic
+Line 216: =
+Line 216: {
+Line 216: Unrecognized token: 46
+Line 216: ID = res
+Line 216: =
+Line 216: ID = CLOCK_REALTIME_RES
+Line 216: ,
+Line 217: Unrecognized token: 46
+Line 217: ID = abs_struct
+Line 217: =
+Line 217: ID = NULL
+Line 217: ,
+Line 218: Unrecognized token: 46
+Line 218: ID = clock_get
+Line 218: =
+Line 218: ID = do_posix_clock_monotonic_gettime
+Line 218: ,
+Line 219: Unrecognized token: 46
+Line 219: ID = clock_set
+Line 219: =
+Line 219: ID = do_posix_clock_monotonic_settime
+Line 220: }
+Line 220: ;
+Line 222: ID = register_posix_clock
+Line 222: (
+Line 222: ID = CLOCK_REALTIME
+Line 222: ,
+Line 222: Unrecognized token: 38
+Line 222: ID = clock_realtime
+Line 222: )
+Line 222: ;
+Line 223: ID = register_posix_clock
+Line 223: (
+Line 223: ID = CLOCK_MONOTONIC
+Line 223: ,
+Line 223: Unrecognized token: 38
+Line 223: ID = clock_monotonic
+Line 223: )
+Line 223: ;
+Line 225: ID = posix_timers_cache
+Line 225: =
+Line 225: ID = kmem_cache_create
+Line 225: (
+Line 225: STRINGCON = "posix_timers_cache"
+Line 225: ,
+Line 226: ID = sizeof
+Line 226: (
+Line 226: ID = struct
+Line 226: ID = k_itimer
+Line 226: )
+Line 226: ,
+Line 226: INTCON = 0
+Line 226: ,
+Line 226: INTCON = 0
+Line 226: ,
+Line 226: ID = NULL
+Line 226: ,
+Line 226: ID = NULL
+Line 226: )
+Line 226: ;
+Line 227: ID = idr_init
+Line 227: (
+Line 227: Unrecognized token: 38
+Line 227: ID = posix_timers_id
+Line 227: )
+Line 227: ;
+Line 228: return
+Line 228: INTCON = 0
+Line 228: ;
+Line 229: }
+Line 231: Unrecognized token: 95
+Line 231: Unrecognized token: 95
+Line 231: ID = initcall
+Line 231: (
+Line 231: ID = init_posix_timers
+Line 231: )
+Line 231: ;
+Line 233: ID = static
+Line 233: void
+Line 233: ID = tstojiffie
+Line 233: (
+Line 233: ID = struct
+Line 233: ID = timespec
+Line 233: *
+Line 233: ID = tp
+Line 233: ,
+Line 233: int
+Line 233: ID = res
+Line 233: ,
+Line 233: ID = u64
+Line 233: *
+Line 233: ID = jiff
+Line 233: )
+Line 234: {
+Line 235: ID = long
+Line 235: ID = sec
+Line 235: =
+Line 235: ID = tp
+Line 235: -
+Line 235: >
+Line 235: ID = tv_sec
+Line 235: ;
+Line 236: ID = long
+Line 236: ID = nsec
+Line 236: =
+Line 236: ID = tp
+Line 236: -
+Line 236: >
+Line 236: ID = tv_nsec
+Line 236: +
+Line 236: ID = res
+Line 236: -
+Line 236: INTCON = 1
+Line 236: ;
+Line 238: if
+Line 238: (
+Line 238: ID = nsec
+Line 238: >
+Line 238: ID = NSEC_PER_SEC
+Line 238: )
+Line 238: {
+Line 239: ID = sec
+Line 239: +
+Line 239: +
+Line 239: ;
+Line 240: ID = nsec
+Line 240: -
+Line 240: =
+Line 240: ID = NSEC_PER_SEC
+Line 240: ;
+Line 241: }
+Line 249: *
+Line 249: ID = jiff
+Line 249: =
+Line 249: (
+Line 249: ID = mpy_l_X_l_ll
+Line 249: (
+Line 249: ID = sec
+Line 249: ,
+Line 249: ID = SEC_CONVERSION
+Line 249: )
+Line 249: +
+Line 250: (
+Line 250: ID = mpy_l_X_l_ll
+Line 250: (
+Line 250: ID = nsec
+Line 250: ,
+Line 250: ID = NSEC_CONVERSION
+Line 250: )
+Line 250: >
+Line 250: >
+Line 251: (
+Line 251: ID = NSEC_JIFFIE_SC
+Line 251: -
+Line 251: ID = SEC_JIFFIE_SC
+Line 251: )
+Line 251: )
+Line 251: )
+Line 251: >
+Line 251: >
+Line 251: ID = SEC_JIFFIE_SC
+Line 251: ;
+Line 252: }
+Line 266: ID = static
+Line 266: ID = long
+Line 266: ID = add_clockset_delta
+Line 266: (
+Line 266: ID = struct
+Line 266: ID = k_itimer
+Line 266: *
+Line 266: ID = timr
+Line 266: ,
+Line 267: ID = struct
+Line 267: ID = timespec
+Line 267: *
+Line 267: ID = new_wall_to
+Line 267: )
+Line 268: {
+Line 269: ID = struct
+Line 269: ID = timespec
+Line 269: ID = delta
+Line 269: ;
+Line 270: int
+Line 270: ID = sign
+Line 270: =
+Line 270: INTCON = 0
+Line 270: ;
+Line 271: ID = u64
+Line 271: ID = exp
+Line 271: ;
+Line 273: ID = set_normalized_timespec
+Line 273: (
+Line 273: Unrecognized token: 38
+Line 273: ID = delta
+Line 273: ,
+Line 274: ID = new_wall_to
+Line 274: -
+Line 274: >
+Line 274: ID = tv_sec
+Line 274: -
+Line 275: ID = timr
+Line 275: -
+Line 275: >
+Line 275: ID = wall_to_prev
+Line 275: Unrecognized token: 46
+Line 275: ID = tv_sec
+Line 275: ,
+Line 276: ID = new_wall_to
+Line 276: -
+Line 276: >
+Line 276: ID = tv_nsec
+Line 276: -
+Line 277: ID = timr
+Line 277: -
+Line 277: >
+Line 277: ID = wall_to_prev
+Line 277: Unrecognized token: 46
+Line 277: ID = tv_nsec
+Line 277: )
+Line 277: ;
+Line 278: if
+Line 278: (
+Line 278: ID = likely
+Line 278: (
+Line 278: !
+Line 278: (
+Line 278: ID = delta
+Line 278: Unrecognized token: 46
+Line 278: ID = tv_sec
+Line 278: Unrecognized token: 124
+Line 278: ID = delta
+Line 278: Unrecognized token: 46
+Line 278: ID = tv_nsec
+Line 278: )
+Line 278: )
+Line 278: )
+Line 279: return
+Line 279: INTCON = 0
+Line 279: ;
+Line 280: if
+Line 280: (
+Line 280: ID = delta
+Line 280: Unrecognized token: 46
+Line 280: ID = tv_sec
+Line 280: <
+Line 280: INTCON = 0
+Line 280: )
+Line 280: {
+Line 281: ID = set_normalized_timespec
+Line 281: (
+Line 281: Unrecognized token: 38
+Line 281: ID = delta
+Line 281: ,
+Line 282: -
+Line 282: ID = delta
+Line 282: Unrecognized token: 46
+Line 282: ID = tv_sec
+Line 282: ,
+Line 283: INTCON = 1
+Line 283: -
+Line 283: ID = delta
+Line 283: Unrecognized token: 46
+Line 283: ID = tv_nsec
+Line 283: -
+Line 284: ID = posix_clocks
+Line 284: [
+Line 284: ID = timr
+Line 284: -
+Line 284: >
+Line 284: ID = it_clock
+Line 284: ]
+Line 284: Unrecognized token: 46
+Line 284: ID = res
+Line 284: )
+Line 284: ;
+Line 285: ID = sign
+Line 285: +
+Line 285: +
+Line 285: ;
+Line 286: }
+Line 287: ID = tstojiffie
+Line 287: (
+Line 287: Unrecognized token: 38
+Line 287: ID = delta
+Line 287: ,
+Line 287: ID = posix_clocks
+Line 287: [
+Line 287: ID = timr
+Line 287: -
+Line 287: >
+Line 287: ID = it_clock
+Line 287: ]
+Line 287: Unrecognized token: 46
+Line 287: ID = res
+Line 287: ,
+Line 287: Unrecognized token: 38
+Line 287: ID = exp
+Line 287: )
+Line 287: ;
+Line 288: ID = timr
+Line 288: -
+Line 288: >
+Line 288: ID = wall_to_prev
+Line 288: =
+Line 288: *
+Line 288: ID = new_wall_to
+Line 288: ;
+Line 289: ID = timr
+Line 289: -
+Line 289: >
+Line 289: ID = it_timer
+Line 289: Unrecognized token: 46
+Line 289: ID = expires
+Line 289: +
+Line 289: =
+Line 289: (
+Line 289: ID = sign
+Line 289: Unrecognized token: 63
+Line 289: -
+Line 289: ID = exp
+Line 289: Unrecognized token: 58
+Line 289: ID = exp
+Line 289: )
+Line 289: ;
+Line 290: return
+Line 290: INTCON = 1
+Line 290: ;
+Line 291: }
+Line 293: ID = static
+Line 293: void
+Line 293: ID = remove_from_abslist
+Line 293: (
+Line 293: ID = struct
+Line 293: ID = k_itimer
+Line 293: *
+Line 293: ID = timr
+Line 293: )
+Line 294: {
+Line 295: if
+Line 295: (
+Line 295: !
+Line 295: ID = list_empty
+Line 295: (
+Line 295: Unrecognized token: 38
+Line 295: ID = timr
+Line 295: -
+Line 295: >
+Line 295: ID = abs_timer_entry
+Line 295: )
+Line 295: )
+Line 295: {
+Line 296: ID = spin_lock
+Line 296: (
+Line 296: Unrecognized token: 38
+Line 296: ID = abs_list
+Line 296: Unrecognized token: 46
+Line 296: ID = lock
+Line 296: )
+Line 296: ;
+Line 297: ID = list_del_init
+Line 297: (
+Line 297: Unrecognized token: 38
+Line 297: ID = timr
+Line 297: -
+Line 297: >
+Line 297: ID = abs_timer_entry
+Line 297: )
+Line 297: ;
+Line 298: ID = spin_unlock
+Line 298: (
+Line 298: Unrecognized token: 38
+Line 298: ID = abs_list
+Line 298: Unrecognized token: 46
+Line 298: ID = lock
+Line 298: )
+Line 298: ;
+Line 299: }
+Line 300: }
+Line 302: ID = static
+Line 302: void
+Line 302: ID = schedule_next_timer
+Line 302: (
+Line 302: ID = struct
+Line 302: ID = k_itimer
+Line 302: *
+Line 302: ID = timr
+Line 302: )
+Line 303: {
+Line 304: ID = struct
+Line 304: ID = timespec
+Line 304: ID = new_wall_to
+Line 304: ;
+Line 305: ID = struct
+Line 305: ID = now_struct
+Line 305: ID = now
+Line 305: ;
+Line 306: ID = unsigned
+Line 306: ID = long
+Line 306: ID = seq
+Line 306: ;
+Line 321: if
+Line 321: (
+Line 321: !
+Line 321: ID = timr
+Line 321: -
+Line 321: >
+Line 321: ID = it_incr
+Line 321: )
+Line 322: return
+Line 322: ;
+Line 324: ID = do
+Line 324: {
+Line 325: ID = seq
+Line 325: =
+Line 325: ID = read_seqbegin
+Line 325: (
+Line 325: Unrecognized token: 38
+Line 325: ID = xtime_lock
+Line 325: )
+Line 325: ;
+Line 326: ID = new_wall_to
+Line 326: =
+Line 326: ID = wall_to_monotonic
+Line 326: ;
+Line 327: ID = posix_get_now
+Line 327: (
+Line 327: Unrecognized token: 38
+Line 327: ID = now
+Line 327: )
+Line 327: ;
+Line 328: }
+Line 328: while
+Line 328: (
+Line 328: ID = read_seqretry
+Line 328: (
+Line 328: Unrecognized token: 38
+Line 328: ID = xtime_lock
+Line 328: ,
+Line 328: ID = seq
+Line 328: )
+Line 328: )
+Line 328: ;
+Line 330: if
+Line 330: (
+Line 330: !
+Line 330: ID = list_empty
+Line 330: (
+Line 330: Unrecognized token: 38
+Line 330: ID = timr
+Line 330: -
+Line 330: >
+Line 330: ID = abs_timer_entry
+Line 330: )
+Line 330: )
+Line 330: {
+Line 331: ID = spin_lock
+Line 331: (
+Line 331: Unrecognized token: 38
+Line 331: ID = abs_list
+Line 331: Unrecognized token: 46
+Line 331: ID = lock
+Line 331: )
+Line 331: ;
+Line 332: ID = add_clockset_delta
+Line 332: (
+Line 332: ID = timr
+Line 332: ,
+Line 332: Unrecognized token: 38
+Line 332: ID = new_wall_to
+Line 332: )
+Line 332: ;
+Line 334: ID = posix_bump_timer
+Line 334: (
+Line 334: ID = timr
+Line 334: ,
+Line 334: ID = now
+Line 334: )
+Line 334: ;
+Line 336: ID = spin_unlock
+Line 336: (
+Line 336: Unrecognized token: 38
+Line 336: ID = abs_list
+Line 336: Unrecognized token: 46
+Line 336: ID = lock
+Line 336: )
+Line 336: ;
+Line 337: }
+Line 337: else
+Line 337: {
+Line 338: ID = posix_bump_timer
+Line 338: (
+Line 338: ID = timr
+Line 338: ,
+Line 338: ID = now
+Line 338: )
+Line 338: ;
+Line 339: }
+Line 340: ID = timr
+Line 340: -
+Line 340: >
+Line 340: ID = it_overrun_last
+Line 340: =
+Line 340: ID = timr
+Line 340: -
+Line 340: >
+Line 340: ID = it_overrun
+Line 340: ;
+Line 341: ID = timr
+Line 341: -
+Line 341: >
+Line 341: ID = it_overrun
+Line 341: =
+Line 341: -
+Line 341: INTCON = 1
+Line 341: ;
+Line 342: +
+Line 342: +
+Line 342: ID = timr
+Line 342: -
+Line 342: >
+Line 342: ID = it_requeue_pending
+Line 342: ;
+Line 343: ID = add_timer
+Line 343: (
+Line 343: Unrecognized token: 38
+Line 343: ID = timr
+Line 343: -
+Line 343: >
+Line 343: ID = it_timer
+Line 343: )
+Line 343: ;
+Line 344: }
+Line 357: void
+Line 357: ID = do_schedule_next_timer
+Line 357: (
+Line 357: ID = struct
+Line 357: ID = siginfo
+Line 357: *
+Line 357: ID = info
+Line 357: )
+Line 358: {
+Line 359: ID = struct
+Line 359: ID = k_itimer
+Line 359: *
+Line 359: ID = timr
+Line 359: ;
+Line 360: ID = unsigned
+Line 360: ID = long
+Line 360: ID = flags
+Line 360: ;
+Line 362: ID = timr
+Line 362: =
+Line 362: ID = lock_timer
+Line 362: (
+Line 362: ID = info
+Line 362: -
+Line 362: >
+Line 362: ID = si_tid
+Line 362: ,
+Line 362: Unrecognized token: 38
+Line 362: ID = flags
+Line 362: )
+Line 362: ;
+Line 364: if
+Line 364: (
+Line 364: !
+Line 364: ID = timr
+Line 364: ||
+Line 364: ID = timr
+Line 364: -
+Line 364: >
+Line 364: ID = it_requeue_pending
+Line 364: !=
+Line 364: ID = info
+Line 364: -
+Line 364: >
+Line 364: ID = si_sys_private
+Line 364: )
+Line 365: ID = goto
+Line 365: ID = exit
+Line 365: ;
+Line 367: ID = schedule_next_timer
+Line 367: (
+Line 367: ID = timr
+Line 367: )
+Line 367: ;
+Line 368: ID = info
+Line 368: -
+Line 368: >
+Line 368: ID = si_overrun
+Line 368: =
+Line 368: ID = timr
+Line 368: -
+Line 368: >
+Line 368: ID = it_overrun_last
+Line 368: ;
+Line 369: ID = exit
+Line 369: Unrecognized token: 58
+Line 370: if
+Line 370: (
+Line 370: ID = timr
+Line 370: )
+Line 371: ID = unlock_timer
+Line 371: (
+Line 371: ID = timr
+Line 371: ,
+Line 371: ID = flags
+Line 371: )
+Line 371: ;
+Line 372: }
+Line 394: ID = static
+Line 394: void
+Line 394: ID = timer_notify_task
+Line 394: (
+Line 394: ID = struct
+Line 394: ID = k_itimer
+Line 394: *
+Line 394: ID = timr
+Line 394: )
+Line 395: {
+Line 396: int
+Line 396: ID = ret
+Line 396: ;
+Line 398: ID = memset
+Line 398: (
+Line 398: Unrecognized token: 38
+Line 398: ID = timr
+Line 398: -
+Line 398: >
+Line 398: ID = sigq
+Line 398: -
+Line 398: >
+Line 398: ID = info
+Line 398: ,
+Line 398: INTCON = 0
+Line 398: ,
+Line 398: ID = sizeof
+Line 398: (
+Line 398: ID = siginfo_t
+Line 398: )
+Line 398: )
+Line 398: ;
+Line 409: ID = timr
+Line 409: -
+Line 409: >
+Line 409: ID = sigq
+Line 409: -
+Line 409: >
+Line 409: ID = info
+Line 409: Unrecognized token: 46
+Line 409: ID = si_signo
+Line 409: =
+Line 409: ID = timr
+Line 409: -
+Line 409: >
+Line 409: ID = it_sigev_signo
+Line 409: ;
+Line 410: ID = timr
+Line 410: -
+Line 410: >
+Line 410: ID = sigq
+Line 410: -
+Line 410: >
+Line 410: ID = info
+Line 410: Unrecognized token: 46
+Line 410: ID = si_errno
+Line 410: =
+Line 410: INTCON = 0
+Line 410: ;
+Line 411: ID = timr
+Line 411: -
+Line 411: >
+Line 411: ID = sigq
+Line 411: -
+Line 411: >
+Line 411: ID = info
+Line 411: Unrecognized token: 46
+Line 411: ID = si_code
+Line 411: =
+Line 411: ID = SI_TIMER
+Line 411: ;
+Line 412: ID = timr
+Line 412: -
+Line 412: >
+Line 412: ID = sigq
+Line 412: -
+Line 412: >
+Line 412: ID = info
+Line 412: Unrecognized token: 46
+Line 412: ID = si_tid
+Line 412: =
+Line 412: ID = timr
+Line 412: -
+Line 412: >
+Line 412: ID = it_id
+Line 412: ;
+Line 413: ID = timr
+Line 413: -
+Line 413: >
+Line 413: ID = sigq
+Line 413: -
+Line 413: >
+Line 413: ID = info
+Line 413: Unrecognized token: 46
+Line 413: ID = si_value
+Line 413: =
+Line 413: ID = timr
+Line 413: -
+Line 413: >
+Line 413: ID = it_sigev_value
+Line 413: ;
+Line 414: if
+Line 414: (
+Line 414: ID = timr
+Line 414: -
+Line 414: >
+Line 414: ID = it_incr
+Line 414: )
+Line 415: ID = timr
+Line 415: -
+Line 415: >
+Line 415: ID = sigq
+Line 415: -
+Line 415: >
+Line 415: ID = info
+Line 415: Unrecognized token: 46
+Line 415: ID = si_sys_private
+Line 415: =
+Line 415: +
+Line 415: +
+Line 415: ID = timr
+Line 415: -
+Line 415: >
+Line 415: ID = it_requeue_pending
+Line 415: ;
+Line 416: else
+Line 416: {
+Line 417: ID = remove_from_abslist
+Line 417: (
+Line 417: ID = timr
+Line 417: )
+Line 417: ;
+Line 418: }
+Line 420: if
+Line 420: (
+Line 420: ID = timr
+Line 420: -
+Line 420: >
+Line 420: ID = it_sigev_notify
+Line 420: Unrecognized token: 38
+Line 420: ID = SIGEV_THREAD_ID
+Line 420: )
+Line 420: {
+Line 421: if
+Line 421: (
+Line 421: ID = unlikely
+Line 421: (
+Line 421: ID = timr
+Line 421: -
+Line 421: >
+Line 421: ID = it_process
+Line 421: -
+Line 421: >
+Line 421: ID = flags
+Line 421: Unrecognized token: 38
+Line 421: ID = PF_EXITING
+Line 421: )
+Line 421: )
+Line 421: {
+Line 422: ID = timr
+Line 422: -
+Line 422: >
+Line 422: ID = it_sigev_notify
+Line 422: =
+Line 422: ID = SIGEV_SIGNAL
+Line 422: ;
+Line 423: ID = put_task_struct
+Line 423: (
+Line 423: ID = timr
+Line 423: -
+Line 423: >
+Line 423: ID = it_process
+Line 423: )
+Line 423: ;
+Line 424: ID = timr
+Line 424: -
+Line 424: >
+Line 424: ID = it_process
+Line 424: =
+Line 424: ID = timr
+Line 424: -
+Line 424: >
+Line 424: ID = it_process
+Line 424: -
+Line 424: >
+Line 424: ID = group_leader
+Line 424: ;
+Line 425: ID = goto
+Line 425: ID = group
+Line 425: ;
+Line 426: }
+Line 427: ID = ret
+Line 427: =
+Line 427: ID = send_sigqueue
+Line 427: (
+Line 427: ID = timr
+Line 427: -
+Line 427: >
+Line 427: ID = it_sigev_signo
+Line 427: ,
+Line 427: ID = timr
+Line 427: -
+Line 427: >
+Line 427: ID = sigq
+Line 427: ,
+Line 428: ID = timr
+Line 428: -
+Line 428: >
+Line 428: ID = it_process
+Line 428: )
+Line 428: ;
+Line 429: }
+Line 430: else
+Line 430: {
+Line 431: ID = group
+Line 431: Unrecognized token: 58
+Line 432: ID = ret
+Line 432: =
+Line 432: ID = send_group_sigqueue
+Line 432: (
+Line 432: ID = timr
+Line 432: -
+Line 432: >
+Line 432: ID = it_sigev_signo
+Line 432: ,
+Line 432: ID = timr
+Line 432: -
+Line 432: >
+Line 432: ID = sigq
+Line 432: ,
+Line 433: ID = timr
+Line 433: -
+Line 433: >
+Line 433: ID = it_process
+Line 433: )
+Line 433: ;
+Line 434: }
+Line 435: if
+Line 435: (
+Line 435: ID = ret
+Line 435: )
+Line 435: {
+Line 441: ID = schedule_next_timer
+Line 441: (
+Line 441: ID = timr
+Line 441: )
+Line 441: ;
+Line 442: }
+Line 443: }
+Line 452: ID = static
+Line 452: void
+Line 452: ID = posix_timer_fn
+Line 452: (
+Line 452: ID = unsigned
+Line 452: ID = long
+Line 452: Unrecognized token: 95
+Line 452: Unrecognized token: 95
+Line 452: ID = data
+Line 452: )
+Line 453: {
+Line 454: ID = struct
+Line 454: ID = k_itimer
+Line 454: *
+Line 454: ID = timr
+Line 454: =
+Line 454: (
+Line 454: ID = struct
+Line 454: ID = k_itimer
+Line 454: *
+Line 454: )
+Line 454: Unrecognized token: 95
+Line 454: Unrecognized token: 95
+Line 454: ID = data
+Line 454: ;
+Line 455: ID = unsigned
+Line 455: ID = long
+Line 455: ID = flags
+Line 455: ;
+Line 456: ID = unsigned
+Line 456: ID = long
+Line 456: ID = seq
+Line 456: ;
+Line 457: ID = struct
+Line 457: ID = timespec
+Line 457: ID = delta
+Line 457: ,
+Line 457: ID = new_wall_to
+Line 457: ;
+Line 458: ID = u64
+Line 458: ID = exp
+Line 458: =
+Line 458: INTCON = 0
+Line 458: ;
+Line 459: int
+Line 459: ID = do_notify
+Line 459: =
+Line 459: INTCON = 1
+Line 459: ;
+Line 461: ID = spin_lock_irqsave
+Line 461: (
+Line 461: Unrecognized token: 38
+Line 461: ID = timr
+Line 461: -
+Line 461: >
+Line 461: ID = it_lock
+Line 461: ,
+Line 461: ID = flags
+Line 461: )
+Line 461: ;
+Line 462: ID = set_timer_inactive
+Line 462: (
+Line 462: ID = timr
+Line 462: )
+Line 462: ;
+Line 463: if
+Line 463: (
+Line 463: !
+Line 463: ID = list_empty
+Line 463: (
+Line 463: Unrecognized token: 38
+Line 463: ID = timr
+Line 463: -
+Line 463: >
+Line 463: ID = abs_timer_entry
+Line 463: )
+Line 463: )
+Line 463: {
+Line 464: ID = spin_lock
+Line 464: (
+Line 464: Unrecognized token: 38
+Line 464: ID = abs_list
+Line 464: Unrecognized token: 46
+Line 464: ID = lock
+Line 464: )
+Line 464: ;
+Line 465: ID = do
+Line 465: {
+Line 466: ID = seq
+Line 466: =
+Line 466: ID = read_seqbegin
+Line 466: (
+Line 466: Unrecognized token: 38
+Line 466: ID = xtime_lock
+Line 466: )
+Line 466: ;
+Line 467: ID = new_wall_to
+Line 467: =
+Line 467: ID = wall_to_monotonic
+Line 467: ;
+Line 468: }
+Line 468: while
+Line 468: (
+Line 468: ID = read_seqretry
+Line 468: (
+Line 468: Unrecognized token: 38
+Line 468: ID = xtime_lock
+Line 468: ,
+Line 468: ID = seq
+Line 468: )
+Line 468: )
+Line 468: ;
+Line 469: ID = set_normalized_timespec
+Line 469: (
+Line 469: Unrecognized token: 38
+Line 469: ID = delta
+Line 469: ,
+Line 470: ID = new_wall_to
+Line 470: Unrecognized token: 46
+Line 470: ID = tv_sec
+Line 470: -
+Line 471: ID = timr
+Line 471: -
+Line 471: >
+Line 471: ID = wall_to_prev
+Line 471: Unrecognized token: 46
+Line 471: ID = tv_sec
+Line 471: ,
+Line 472: ID = new_wall_to
+Line 472: Unrecognized token: 46
+Line 472: ID = tv_nsec
+Line 472: -
+Line 473: ID = timr
+Line 473: -
+Line 473: >
+Line 473: ID = wall_to_prev
+Line 473: Unrecognized token: 46
+Line 473: ID = tv_nsec
+Line 473: )
+Line 473: ;
+Line 474: if
+Line 474: (
+Line 474: ID = likely
+Line 474: (
+Line 474: (
+Line 474: ID = delta
+Line 474: Unrecognized token: 46
+Line 474: ID = tv_sec
+Line 474: Unrecognized token: 124
+Line 474: ID = delta
+Line 474: Unrecognized token: 46
+Line 474: ID = tv_nsec
+Line 474: )
+Line 474: ==
+Line 474: INTCON = 0
+Line 474: )
+Line 474: )
+Line 474: {
+Line 476: }
+Line 476: else
+Line 476: if
+Line 476: (
+Line 476: ID = delta
+Line 476: Unrecognized token: 46
+Line 476: ID = tv_sec
+Line 476: <
+Line 476: INTCON = 0
+Line 476: )
+Line 476: {
+Line 478: }
+Line 478: else
+Line 478: {
+Line 480: ID = tstojiffie
+Line 480: (
+Line 480: Unrecognized token: 38
+Line 480: ID = delta
+Line 480: ,
+Line 481: ID = posix_clocks
+Line 481: [
+Line 481: ID = timr
+Line 481: -
+Line 481: >
+Line 481: ID = it_clock
+Line 481: ]
+Line 481: Unrecognized token: 46
+Line 481: ID = res
+Line 481: ,
+Line 482: Unrecognized token: 38
+Line 482: ID = exp
+Line 482: )
+Line 482: ;
+Line 483: ID = timr
+Line 483: -
+Line 483: >
+Line 483: ID = wall_to_prev
+Line 483: =
+Line 483: ID = new_wall_to
+Line 483: ;
+Line 484: ID = timr
+Line 484: -
+Line 484: >
+Line 484: ID = it_timer
+Line 484: Unrecognized token: 46
+Line 484: ID = expires
+Line 484: +
+Line 484: =
+Line 484: ID = exp
+Line 484: ;
+Line 485: ID = add_timer
+Line 485: (
+Line 485: Unrecognized token: 38
+Line 485: ID = timr
+Line 485: -
+Line 485: >
+Line 485: ID = it_timer
+Line 485: )
+Line 485: ;
+Line 486: ID = do_notify
+Line 486: =
+Line 486: INTCON = 0
+Line 486: ;
+Line 487: }
+Line 488: ID = spin_unlock
+Line 488: (
+Line 488: Unrecognized token: 38
+Line 488: ID = abs_list
+Line 488: Unrecognized token: 46
+Line 488: ID = lock
+Line 488: )
+Line 488: ;
+Line 490: }
+Line 491: if
+Line 491: (
+Line 491: ID = do_notify
+Line 491: )
+Line 492: ID = timer_notify_task
+Line 492: (
+Line 492: ID = timr
+Line 492: )
+Line 492: ;
+Line 493: ID = unlock_timer
+Line 493: (
+Line 493: ID = timr
+Line 493: ,
+Line 493: ID = flags
+Line 493: )
+Line 493: ;
+Line 494: }
+Line 497: ID = static
+Line 497: ID = inline
+Line 497: ID = struct
+Line 497: ID = task_struct
+Line 497: *
+Line 497: ID = good_sigevent
+Line 497: (
+Line 497: ID = sigevent_t
+Line 497: *
+Line 497: ID = event
+Line 497: )
+Line 498: {
+Line 499: ID = struct
+Line 499: ID = task_struct
+Line 499: *
+Line 499: ID = rtn
+Line 499: =
+Line 499: ID = current
+Line 499: -
+Line 499: >
+Line 499: ID = group_leader
+Line 499: ;
+Line 501: if
+Line 501: (
+Line 501: (
+Line 501: ID = event
+Line 501: -
+Line 501: >
+Line 501: ID = sigev_notify
+Line 501: Unrecognized token: 38
+Line 501: ID = SIGEV_THREAD_ID
+Line 501: )
+Line 501: &&
+Line 502: (
+Line 502: !
+Line 502: (
+Line 502: ID = rtn
+Line 502: =
+Line 502: ID = find_task_by_pid
+Line 502: (
+Line 502: ID = event
+Line 502: -
+Line 502: >
+Line 502: ID = sigev_notify_thread_id
+Line 502: )
+Line 502: )
+Line 502: ||
+Line 503: ID = rtn
+Line 503: -
+Line 503: >
+Line 503: ID = tgid
+Line 503: !=
+Line 503: ID = current
+Line 503: -
+Line 503: >
+Line 503: ID = tgid
+Line 503: ||
+Line 504: (
+Line 504: ID = event
+Line 504: -
+Line 504: >
+Line 504: ID = sigev_notify
+Line 504: Unrecognized token: 38
+Line 504: Unrecognized token: 126
+Line 504: ID = SIGEV_THREAD_ID
+Line 504: )
+Line 504: !=
+Line 504: ID = SIGEV_SIGNAL
+Line 504: )
+Line 504: )
+Line 505: return
+Line 505: ID = NULL
+Line 505: ;
+Line 507: if
+Line 507: (
+Line 507: (
+Line 507: (
+Line 507: ID = event
+Line 507: -
+Line 507: >
+Line 507: ID = sigev_notify
+Line 507: Unrecognized token: 38
+Line 507: Unrecognized token: 126
+Line 507: ID = SIGEV_THREAD_ID
+Line 507: )
+Line 507: !=
+Line 507: ID = SIGEV_NONE
+Line 507: )
+Line 507: &&
+Line 508: (
+Line 508: (
+Line 508: ID = event
+Line 508: -
+Line 508: >
+Line 508: ID = sigev_signo
+Line 508: <=
+Line 508: INTCON = 0
+Line 508: )
+Line 508: ||
+Line 508: (
+Line 508: ID = event
+Line 508: -
+Line 508: >
+Line 508: ID = sigev_signo
+Line 508: >
+Line 508: ID = SIGRTMAX
+Line 508: )
+Line 508: )
+Line 508: )
+Line 509: return
+Line 509: ID = NULL
+Line 509: ;
+Line 511: return
+Line 511: ID = rtn
+Line 511: ;
+Line 512: }
+Line 514: void
+Line 514: ID = register_posix_clock
+Line 514: (
+Line 514: int
+Line 514: ID = clock_id
+Line 514: ,
+Line 514: ID = struct
+Line 514: ID = k_clock
+Line 514: *
+Line 514: ID = new_clock
+Line 514: )
+Line 515: {
+Line 516: if
+Line 516: (
+Line 516: (
+Line 516: ID = unsigned
+Line 516: )
+Line 516: ID = clock_id
+Line 516: >=
+Line 516: ID = MAX_CLOCKS
+Line 516: )
+Line 516: {
+Line 517: ID = printk
+Line 517: (
+Line 517: STRINGCON = "POSIX clock register failed for clock_id %d\n"
+Line 517: ,
+Line 518: ID = clock_id
+Line 518: )
+Line 518: ;
+Line 519: return
+Line 519: ;
+Line 520: }
+Line 521: ID = posix_clocks
+Line 521: [
+Line 521: ID = clock_id
+Line 521: ]
+Line 521: =
+Line 521: *
+Line 521: ID = new_clock
+Line 521: ;
+Line 522: }
+Line 524: ID = static
+Line 524: ID = struct
+Line 524: ID = k_itimer
+Line 524: *
+Line 524: ID = alloc_posix_timer
+Line 524: (
+Line 524: void
+Line 524: )
+Line 525: {
+Line 526: ID = struct
+Line 526: ID = k_itimer
+Line 526: *
+Line 526: ID = tmr
+Line 526: ;
+Line 527: ID = tmr
+Line 527: =
+Line 527: ID = kmem_cache_alloc
+Line 527: (
+Line 527: ID = posix_timers_cache
+Line 527: ,
+Line 527: ID = GFP_KERNEL
+Line 527: )
+Line 527: ;
+Line 528: if
+Line 528: (
+Line 528: !
+Line 528: ID = tmr
+Line 528: )
+Line 529: return
+Line 529: ID = tmr
+Line 529: ;
+Line 530: ID = memset
+Line 530: (
+Line 530: ID = tmr
+Line 530: ,
+Line 530: INTCON = 0
+Line 530: ,
+Line 530: ID = sizeof
+Line 530: (
+Line 530: ID = struct
+Line 530: ID = k_itimer
+Line 530: )
+Line 530: )
+Line 530: ;
+Line 531: ID = INIT_LIST_HEAD
+Line 531: (
+Line 531: Unrecognized token: 38
+Line 531: ID = tmr
+Line 531: -
+Line 531: >
+Line 531: ID = abs_timer_entry
+Line 531: )
+Line 531: ;
+Line 532: if
+Line 532: (
+Line 532: ID = unlikely
+Line 532: (
+Line 532: !
+Line 532: (
+Line 532: ID = tmr
+Line 532: -
+Line 532: >
+Line 532: ID = sigq
+Line 532: =
+Line 532: ID = sigqueue_alloc
+Line 532: (
+Line 532: )
+Line 532: )
+Line 532: )
+Line 532: )
+Line 532: {
+Line 533: ID = kmem_cache_free
+Line 533: (
+Line 533: ID = posix_timers_cache
+Line 533: ,
+Line 533: ID = tmr
+Line 533: )
+Line 533: ;
+Line 534: ID = tmr
+Line 534: =
+Line 534: ID = NULL
+Line 534: ;
+Line 535: }
+Line 536: return
+Line 536: ID = tmr
+Line 536: ;
+Line 537: }
+Line 539: Unrecognized token: 35
+Line 539: ID = define
+Line 539: ID = IT_ID_SET
+Line 539: INTCON = 1
+Line 540: Unrecognized token: 35
+Line 540: ID = define
+Line 540: ID = IT_ID_NOT_SET
+Line 540: INTCON = 0
+Line 541: ID = static
+Line 541: void
+Line 541: ID = release_posix_timer
+Line 541: (
+Line 541: ID = struct
+Line 541: ID = k_itimer
+Line 541: *
+Line 541: ID = tmr
+Line 541: ,
+Line 541: int
+Line 541: ID = it_id_set
+Line 541: )
+Line 542: {
+Line 543: if
+Line 543: (
+Line 543: ID = it_id_set
+Line 543: )
+Line 543: {
+Line 544: ID = unsigned
+Line 544: ID = long
+Line 544: ID = flags
+Line 544: ;
+Line 545: ID = spin_lock_irqsave
+Line 545: (
+Line 545: Unrecognized token: 38
+Line 545: ID = idr_lock
+Line 545: ,
+Line 545: ID = flags
+Line 545: )
+Line 545: ;
+Line 546: ID = idr_remove
+Line 546: (
+Line 546: Unrecognized token: 38
+Line 546: ID = posix_timers_id
+Line 546: ,
+Line 546: ID = tmr
+Line 546: -
+Line 546: >
+Line 546: ID = it_id
+Line 546: )
+Line 546: ;
+Line 547: ID = spin_unlock_irqrestore
+Line 547: (
+Line 547: Unrecognized token: 38
+Line 547: ID = idr_lock
+Line 547: ,
+Line 547: ID = flags
+Line 547: )
+Line 547: ;
+Line 548: }
+Line 549: ID = sigqueue_free
+Line 549: (
+Line 549: ID = tmr
+Line 549: -
+Line 549: >
+Line 549: ID = sigq
+Line 549: )
+Line 549: ;
+Line 550: if
+Line 550: (
+Line 550: ID = unlikely
+Line 550: (
+Line 550: ID = tmr
+Line 550: -
+Line 550: >
+Line 550: ID = it_process
+Line 550: )
+Line 550: &&
+Line 551: ID = tmr
+Line 551: -
+Line 551: >
+Line 551: ID = it_sigev_notify
+Line 551: ==
+Line 551: (
+Line 551: ID = SIGEV_SIGNAL
+Line 551: Unrecognized token: 124
+Line 551: ID = SIGEV_THREAD_ID
+Line 551: )
+Line 551: )
+Line 552: ID = put_task_struct
+Line 552: (
+Line 552: ID = tmr
+Line 552: -
+Line 552: >
+Line 552: ID = it_process
+Line 552: )
+Line 552: ;
+Line 553: ID = kmem_cache_free
+Line 553: (
+Line 553: ID = posix_timers_cache
+Line 553: ,
+Line 553: ID = tmr
+Line 553: )
+Line 553: ;
+Line 554: }
+Line 558: ID = asmlinkage
+Line 558: ID = long
+Line 559: ID = sys_timer_create
+Line 559: (
+Line 559: ID = clockid_t
+Line 559: ID = which_clock
+Line 559: ,
+Line 560: ID = struct
+Line 560: ID = sigevent
+Line 560: Unrecognized token: 95
+Line 560: Unrecognized token: 95
+Line 560: ID = user
+Line 560: *
+Line 560: ID = timer_event_spec
+Line 560: ,
+Line 561: ID = timer_t
+Line 561: Unrecognized token: 95
+Line 561: Unrecognized token: 95
+Line 561: ID = user
+Line 561: *
+Line 561: ID = created_timer_id
+Line 561: )
+Line 562: {
+Line 563: int
+Line 563: ID = error
+Line 563: =
+Line 563: INTCON = 0
+Line 563: ;
+Line 564: ID = struct
+Line 564: ID = k_itimer
+Line 564: *
+Line 564: ID = new_timer
+Line 564: =
+Line 564: ID = NULL
+Line 564: ;
+Line 565: int
+Line 565: ID = new_timer_id
+Line 565: ;
+Line 566: ID = struct
+Line 566: ID = task_struct
+Line 566: *
+Line 566: ID = process
+Line 566: =
+Line 566: ID = NULL
+Line 566: ;
+Line 567: ID = unsigned
+Line 567: ID = long
+Line 567: ID = flags
+Line 567: ;
+Line 568: ID = sigevent_t
+Line 568: ID = event
+Line 568: ;
+Line 569: int
+Line 569: ID = it_id_set
+Line 569: =
+Line 569: ID = IT_ID_NOT_SET
+Line 569: ;
+Line 571: if
+Line 571: (
+Line 571: (
+Line 571: ID = unsigned
+Line 571: )
+Line 571: ID = which_clock
+Line 571: >=
+Line 571: ID = MAX_CLOCKS
+Line 571: ||
+Line 572: !
+Line 572: ID = posix_clocks
+Line 572: [
+Line 572: ID = which_clock
+Line 572: ]
+Line 572: Unrecognized token: 46
+Line 572: ID = res
+Line 572: )
+Line 573: return
+Line 573: -
+Line 573: ID = EINVAL
+Line 573: ;
+Line 575: ID = new_timer
+Line 575: =
+Line 575: ID = alloc_posix_timer
+Line 575: (
+Line 575: )
+Line 575: ;
+Line 576: if
+Line 576: (
+Line 576: ID = unlikely
+Line 576: (
+Line 576: !
+Line 576: ID = new_timer
+Line 576: )
+Line 576: )
+Line 577: return
+Line 577: -
+Line 577: ID = EAGAIN
+Line 577: ;
+Line 579: ID = spin_lock_init
+Line 579: (
+Line 579: Unrecognized token: 38
+Line 579: ID = new_timer
+Line 579: -
+Line 579: >
+Line 579: ID = it_lock
+Line 579: )
+Line 579: ;
+Line 580: ID = retry
+Line 580: Unrecognized token: 58
+Line 581: if
+Line 581: (
+Line 581: ID = unlikely
+Line 581: (
+Line 581: !
+Line 581: ID = idr_pre_get
+Line 581: (
+Line 581: Unrecognized token: 38
+Line 581: ID = posix_timers_id
+Line 581: ,
+Line 581: ID = GFP_KERNEL
+Line 581: )
+Line 581: )
+Line 581: )
+Line 581: {
+Line 582: ID = error
+Line 582: =
+Line 582: -
+Line 582: ID = EAGAIN
+Line 582: ;
+Line 583: ID = goto
+Line 583: ID = out
+Line 583: ;
+Line 584: }
+Line 585: ID = spin_lock_irq
+Line 585: (
+Line 585: Unrecognized token: 38
+Line 585: ID = idr_lock
+Line 585: )
+Line 585: ;
+Line 586: ID = error
+Line 586: =
+Line 586: ID = idr_get_new
+Line 586: (
+Line 586: Unrecognized token: 38
+Line 586: ID = posix_timers_id
+Line 586: ,
+Line 587: (
+Line 587: void
+Line 587: *
+Line 587: )
+Line 587: ID = new_timer
+Line 587: ,
+Line 588: Unrecognized token: 38
+Line 588: ID = new_timer_id
+Line 588: )
+Line 588: ;
+Line 589: ID = spin_unlock_irq
+Line 589: (
+Line 589: Unrecognized token: 38
+Line 589: ID = idr_lock
+Line 589: )
+Line 589: ;
+Line 590: if
+Line 590: (
+Line 590: ID = error
+Line 590: ==
+Line 590: -
+Line 590: ID = EAGAIN
+Line 590: )
+Line 591: ID = goto
+Line 591: ID = retry
+Line 591: ;
+Line 592: else
+Line 592: if
+Line 592: (
+Line 592: ID = error
+Line 592: )
+Line 592: {
+Line 597: ID = error
+Line 597: =
+Line 597: -
+Line 597: ID = EAGAIN
+Line 597: ;
+Line 598: ID = goto
+Line 598: ID = out
+Line 598: ;
+Line 599: }
+Line 601: ID = it_id_set
+Line 601: =
+Line 601: ID = IT_ID_SET
+Line 601: ;
+Line 602: ID = new_timer
+Line 602: -
+Line 602: >
+Line 602: ID = it_id
+Line 602: =
+Line 602: (
+Line 602: ID = timer_t
+Line 602: )
+Line 602: ID = new_timer_id
+Line 602: ;
+Line 603: ID = new_timer
+Line 603: -
+Line 603: >
+Line 603: ID = it_clock
+Line 603: =
+Line 603: ID = which_clock
+Line 603: ;
+Line 604: ID = new_timer
+Line 604: -
+Line 604: >
+Line 604: ID = it_incr
+Line 604: =
+Line 604: INTCON = 0
+Line 604: ;
+Line 605: ID = new_timer
+Line 605: -
+Line 605: >
+Line 605: ID = it_overrun
+Line 605: =
+Line 605: -
+Line 605: INTCON = 1
+Line 605: ;
+Line 606: ID = init_timer
+Line 606: (
+Line 606: Unrecognized token: 38
+Line 606: ID = new_timer
+Line 606: -
+Line 606: >
+Line 606: ID = it_timer
+Line 606: )
+Line 606: ;
+Line 607: ID = new_timer
+Line 607: -
+Line 607: >
+Line 607: ID = it_timer
+Line 607: Unrecognized token: 46
+Line 607: ID = expires
+Line 607: =
+Line 607: INTCON = 0
+Line 607: ;
+Line 608: ID = new_timer
+Line 608: -
+Line 608: >
+Line 608: ID = it_timer
+Line 608: Unrecognized token: 46
+Line 608: ID = data
+Line 608: =
+Line 608: (
+Line 608: ID = unsigned
+Line 608: ID = long
+Line 608: )
+Line 608: ID = new_timer
+Line 608: ;
+Line 609: ID = new_timer
+Line 609: -
+Line 609: >
+Line 609: ID = it_timer
+Line 609: Unrecognized token: 46
+Line 609: ID = function
+Line 609: =
+Line 609: ID = posix_timer_fn
+Line 609: ;
+Line 610: ID = set_timer_inactive
+Line 610: (
+Line 610: ID = new_timer
+Line 610: )
+Line 610: ;
+Line 616: if
+Line 616: (
+Line 616: ID = copy_to_user
+Line 616: (
+Line 616: ID = created_timer_id
+Line 616: ,
+Line 617: Unrecognized token: 38
+Line 617: ID = new_timer_id
+Line 617: ,
+Line 617: ID = sizeof
+Line 617: (
+Line 617: ID = new_timer_id
+Line 617: )
+Line 617: )
+Line 617: )
+Line 617: {
+Line 618: ID = error
+Line 618: =
+Line 618: -
+Line 618: ID = EFAULT
+Line 618: ;
+Line 619: ID = goto
+Line 619: ID = out
+Line 619: ;
+Line 620: }
+Line 621: if
+Line 621: (
+Line 621: ID = timer_event_spec
+Line 621: )
+Line 621: {
+Line 622: if
+Line 622: (
+Line 622: ID = copy_from_user
+Line 622: (
+Line 622: Unrecognized token: 38
+Line 622: ID = event
+Line 622: ,
+Line 622: ID = timer_event_spec
+Line 622: ,
+Line 622: ID = sizeof
+Line 622: (
+Line 622: ID = event
+Line 622: )
+Line 622: )
+Line 622: )
+Line 622: {
+Line 623: ID = error
+Line 623: =
+Line 623: -
+Line 623: ID = EFAULT
+Line 623: ;
+Line 624: ID = goto
+Line 624: ID = out
+Line 624: ;
+Line 625: }
+Line 626: ID = new_timer
+Line 626: -
+Line 626: >
+Line 626: ID = it_sigev_notify
+Line 626: =
+Line 626: ID = event
+Line 626: Unrecognized token: 46
+Line 626: ID = sigev_notify
+Line 626: ;
+Line 627: ID = new_timer
+Line 627: -
+Line 627: >
+Line 627: ID = it_sigev_signo
+Line 627: =
+Line 627: ID = event
+Line 627: Unrecognized token: 46
+Line 627: ID = sigev_signo
+Line 627: ;
+Line 628: ID = new_timer
+Line 628: -
+Line 628: >
+Line 628: ID = it_sigev_value
+Line 628: =
+Line 628: ID = event
+Line 628: Unrecognized token: 46
+Line 628: ID = sigev_value
+Line 628: ;
+Line 630: ID = read_lock
+Line 630: (
+Line 630: Unrecognized token: 38
+Line 630: ID = tasklist_lock
+Line 630: )
+Line 630: ;
+Line 631: if
+Line 631: (
+Line 631: (
+Line 631: ID = process
+Line 631: =
+Line 631: ID = good_sigevent
+Line 631: (
+Line 631: Unrecognized token: 38
+Line 631: ID = event
+Line 631: )
+Line 631: )
+Line 631: )
+Line 631: {
+Line 647: ID = spin_lock_irqsave
+Line 647: (
+Line 647: Unrecognized token: 38
+Line 647: ID = process
+Line 647: -
+Line 647: >
+Line 647: ID = sighand
+Line 647: -
+Line 647: >
+Line 647: ID = siglock
+Line 647: ,
+Line 647: ID = flags
+Line 647: )
+Line 647: ;
+Line 648: if
+Line 648: (
+Line 648: !
+Line 648: (
+Line 648: ID = process
+Line 648: -
+Line 648: >
+Line 648: ID = flags
+Line 648: Unrecognized token: 38
+Line 648: ID = PF_EXITING
+Line 648: )
+Line 648: )
+Line 648: {
+Line 649: ID = new_timer
+Line 649: -
+Line 649: >
+Line 649: ID = it_process
+Line 649: =
+Line 649: ID = process
+Line 649: ;
+Line 650: ID = list_add
+Line 650: (
+Line 650: Unrecognized token: 38
+Line 650: ID = new_timer
+Line 650: -
+Line 650: >
+Line 650: ID = list
+Line 650: ,
+Line 651: Unrecognized token: 38
+Line 651: ID = process
+Line 651: -
+Line 651: >
+Line 651: ID = signal
+Line 651: -
+Line 651: >
+Line 651: ID = posix_timers
+Line 651: )
+Line 651: ;
+Line 652: ID = spin_unlock_irqrestore
+Line 652: (
+Line 652: Unrecognized token: 38
+Line 652: ID = process
+Line 652: -
+Line 652: >
+Line 652: ID = sighand
+Line 652: -
+Line 652: >
+Line 652: ID = siglock
+Line 652: ,
+Line 652: ID = flags
+Line 652: )
+Line 652: ;
+Line 653: ID = get_task_struct
+Line 653: (
+Line 653: ID = process
+Line 653: )
+Line 653: ;
+Line 654: }
+Line 654: else
+Line 654: {
+Line 655: ID = spin_unlock_irqrestore
+Line 655: (
+Line 655: Unrecognized token: 38
+Line 655: ID = process
+Line 655: -
+Line 655: >
+Line 655: ID = sighand
+Line 655: -
+Line 655: >
+Line 655: ID = siglock
+Line 655: ,
+Line 655: ID = flags
+Line 655: )
+Line 655: ;
+Line 656: ID = process
+Line 656: =
+Line 656: ID = NULL
+Line 656: ;
+Line 657: }
+Line 658: }
+Line 659: ID = read_unlock
+Line 659: (
+Line 659: Unrecognized token: 38
+Line 659: ID = tasklist_lock
+Line 659: )
+Line 659: ;
+Line 660: if
+Line 660: (
+Line 660: !
+Line 660: ID = process
+Line 660: )
+Line 660: {
+Line 661: ID = error
+Line 661: =
+Line 661: -
+Line 661: ID = EINVAL
+Line 661: ;
+Line 662: ID = goto
+Line 662: ID = out
+Line 662: ;
+Line 663: }
+Line 664: }
+Line 664: else
+Line 664: {
+Line 665: ID = new_timer
+Line 665: -
+Line 665: >
+Line 665: ID = it_sigev_notify
+Line 665: =
+Line 665: ID = SIGEV_SIGNAL
+Line 665: ;
+Line 666: ID = new_timer
+Line 666: -
+Line 666: >
+Line 666: ID = it_sigev_signo
+Line 666: =
+Line 666: ID = SIGALRM
+Line 666: ;
+Line 667: ID = new_timer
+Line 667: -
+Line 667: >
+Line 667: ID = it_sigev_value
+Line 667: Unrecognized token: 46
+Line 667: ID = sival_int
+Line 667: =
+Line 667: ID = new_timer
+Line 667: -
+Line 667: >
+Line 667: ID = it_id
+Line 667: ;
+Line 668: ID = process
+Line 668: =
+Line 668: ID = current
+Line 668: -
+Line 668: >
+Line 668: ID = group_leader
+Line 668: ;
+Line 669: ID = spin_lock_irqsave
+Line 669: (
+Line 669: Unrecognized token: 38
+Line 669: ID = process
+Line 669: -
+Line 669: >
+Line 669: ID = sighand
+Line 669: -
+Line 669: >
+Line 669: ID = siglock
+Line 669: ,
+Line 669: ID = flags
+Line 669: )
+Line 669: ;
+Line 670: ID = new_timer
+Line 670: -
+Line 670: >
+Line 670: ID = it_process
+Line 670: =
+Line 670: ID = process
+Line 670: ;
+Line 671: ID = list_add
+Line 671: (
+Line 671: Unrecognized token: 38
+Line 671: ID = new_timer
+Line 671: -
+Line 671: >
+Line 671: ID = list
+Line 671: ,
+Line 671: Unrecognized token: 38
+Line 671: ID = process
+Line 671: -
+Line 671: >
+Line 671: ID = signal
+Line 671: -
+Line 671: >
+Line 671: ID = posix_timers
+Line 671: )
+Line 671: ;
+Line 672: ID = spin_unlock_irqrestore
+Line 672: (
+Line 672: Unrecognized token: 38
+Line 672: ID = process
+Line 672: -
+Line 672: >
+Line 672: ID = sighand
+Line 672: -
+Line 672: >
+Line 672: ID = siglock
+Line 672: ,
+Line 672: ID = flags
+Line 672: )
+Line 672: ;
+Line 673: }
+Line 682: ID = out
+Line 682: Unrecognized token: 58
+Line 683: if
+Line 683: (
+Line 683: ID = error
+Line 683: )
+Line 684: ID = release_posix_timer
+Line 684: (
+Line 684: ID = new_timer
+Line 684: ,
+Line 684: ID = it_id_set
+Line 684: )
+Line 684: ;
+Line 686: return
+Line 686: ID = error
+Line 686: ;
+Line 687: }
+Line 702: ID = static
+Line 702: int
+Line 702: ID = good_timespec
+Line 702: (
+Line 702: ID = const
+Line 702: ID = struct
+Line 702: ID = timespec
+Line 702: *
+Line 702: ID = ts
+Line 702: )
+Line 703: {
+Line 704: if
+Line 704: (
+Line 704: (
+Line 704: !
+Line 704: ID = ts
+Line 704: )
+Line 704: ||
+Line 704: (
+Line 704: ID = ts
+Line 704: -
+Line 704: >
+Line 704: ID = tv_sec
+Line 704: <
+Line 704: INTCON = 0
+Line 704: )
+Line 704: ||
+Line 705: (
+Line 705: (
+Line 705: ID = unsigned
+Line 705: )
+Line 705: ID = ts
+Line 705: -
+Line 705: >
+Line 705: ID = tv_nsec
+Line 705: >=
+Line 705: ID = NSEC_PER_SEC
+Line 705: )
+Line 705: )
+Line 706: return
+Line 706: INTCON = 0
+Line 706: ;
+Line 707: return
+Line 707: INTCON = 1
+Line 707: ;
+Line 708: }
+Line 717: ID = static
+Line 717: ID = struct
+Line 717: ID = k_itimer
+Line 717: *
+Line 717: ID = lock_timer
+Line 717: (
+Line 717: ID = timer_t
+Line 717: ID = timer_id
+Line 717: ,
+Line 717: ID = unsigned
+Line 717: ID = long
+Line 717: *
+Line 717: ID = flags
+Line 717: )
+Line 718: {
+Line 719: ID = struct
+Line 719: ID = k_itimer
+Line 719: *
+Line 719: ID = timr
+Line 719: ;
+Line 726: ID = spin_lock_irqsave
+Line 726: (
+Line 726: Unrecognized token: 38
+Line 726: ID = idr_lock
+Line 726: ,
+Line 726: *
+Line 726: ID = flags
+Line 726: )
+Line 726: ;
+Line 727: ID = timr
+Line 727: =
+Line 727: (
+Line 727: ID = struct
+Line 727: ID = k_itimer
+Line 727: *
+Line 727: )
+Line 727: ID = idr_find
+Line 727: (
+Line 727: Unrecognized token: 38
+Line 727: ID = posix_timers_id
+Line 727: ,
+Line 727: (
+Line 727: int
+Line 727: )
+Line 727: ID = timer_id
+Line 727: )
+Line 727: ;
+Line 728: if
+Line 728: (
+Line 728: ID = timr
+Line 728: )
+Line 728: {
+Line 729: ID = spin_lock
+Line 729: (
+Line 729: Unrecognized token: 38
+Line 729: ID = timr
+Line 729: -
+Line 729: >
+Line 729: ID = it_lock
+Line 729: )
+Line 729: ;
+Line 730: ID = spin_unlock
+Line 730: (
+Line 730: Unrecognized token: 38
+Line 730: ID = idr_lock
+Line 730: )
+Line 730: ;
+Line 732: if
+Line 732: (
+Line 732: (
+Line 732: ID = timr
+Line 732: -
+Line 732: >
+Line 732: ID = it_id
+Line 732: !=
+Line 732: ID = timer_id
+Line 732: )
+Line 732: ||
+Line 732: !
+Line 732: (
+Line 732: ID = timr
+Line 732: -
+Line 732: >
+Line 732: ID = it_process
+Line 732: )
+Line 732: ||
+Line 733: ID = timr
+Line 733: -
+Line 733: >
+Line 733: ID = it_process
+Line 733: -
+Line 733: >
+Line 733: ID = tgid
+Line 733: !=
+Line 733: ID = current
+Line 733: -
+Line 733: >
+Line 733: ID = tgid
+Line 733: )
+Line 733: {
+Line 734: ID = unlock_timer
+Line 734: (
+Line 734: ID = timr
+Line 734: ,
+Line 734: *
+Line 734: ID = flags
+Line 734: )
+Line 734: ;
+Line 735: ID = timr
+Line 735: =
+Line 735: ID = NULL
+Line 735: ;
+Line 736: }
+Line 737: }
+Line 737: else
+Line 738: ID = spin_unlock_irqrestore
+Line 738: (
+Line 738: Unrecognized token: 38
+Line 738: ID = idr_lock
+Line 738: ,
+Line 738: *
+Line 738: ID = flags
+Line 738: )
+Line 738: ;
+Line 740: return
+Line 740: ID = timr
+Line 740: ;
+Line 741: }
+Line 759: ID = static
+Line 759: void
+Line 760: ID = do_timer_gettime
+Line 760: (
+Line 760: ID = struct
+Line 760: ID = k_itimer
+Line 760: *
+Line 760: ID = timr
+Line 760: ,
+Line 760: ID = struct
+Line 760: ID = itimerspec
+Line 760: *
+Line 760: ID = cur_setting
+Line 760: )
+Line 761: {
+Line 762: ID = unsigned
+Line 762: ID = long
+Line 762: ID = expires
+Line 762: ;
+Line 763: ID = struct
+Line 763: ID = now_struct
+Line 763: ID = now
+Line 763: ;
+Line 765: ID = do
+Line 766: ID = expires
+Line 766: =
+Line 766: ID = timr
+Line 766: -
+Line 766: >
+Line 766: ID = it_timer
+Line 766: Unrecognized token: 46
+Line 766: ID = expires
+Line 766: ;
+Line 767: while
+Line 767: (
+Line 767: (
+Line 767: ID = volatile
+Line 767: ID = long
+Line 767: )
+Line 767: (
+Line 767: ID = timr
+Line 767: -
+Line 767: >
+Line 767: ID = it_timer
+Line 767: Unrecognized token: 46
+Line 767: ID = expires
+Line 767: )
+Line 767: !=
+Line 767: ID = expires
+Line 767: )
+Line 767: ;
+Line 769: ID = posix_get_now
+Line 769: (
+Line 769: Unrecognized token: 38
+Line 769: ID = now
+Line 769: )
+Line 769: ;
+Line 771: if
+Line 771: (
+Line 771: ID = expires
+Line 771: &&
+Line 772: (
+Line 772: (
+Line 772: ID = timr
+Line 772: -
+Line 772: >
+Line 772: ID = it_sigev_notify
+Line 772: Unrecognized token: 38
+Line 772: Unrecognized token: 126
+Line 772: ID = SIGEV_THREAD_ID
+Line 772: )
+Line 772: ==
+Line 772: ID = SIGEV_NONE
+Line 772: )
+Line 772: &&
+Line 773: !
+Line 773: ID = timr
+Line 773: -
+Line 773: >
+Line 773: ID = it_incr
+Line 773: &&
+Line 774: ID = posix_time_before
+Line 774: (
+Line 774: Unrecognized token: 38
+Line 774: ID = timr
+Line 774: -
+Line 774: >
+Line 774: ID = it_timer
+Line 774: ,
+Line 774: Unrecognized token: 38
+Line 774: ID = now
+Line 774: )
+Line 774: )
+Line 775: ID = timr
+Line 775: -
+Line 775: >
+Line 775: ID = it_timer
+Line 775: Unrecognized token: 46
+Line 775: ID = expires
+Line 775: =
+Line 775: ID = expires
+Line 775: =
+Line 775: INTCON = 0
+Line 775: ;
+Line 776: if
+Line 776: (
+Line 776: ID = expires
+Line 776: )
+Line 776: {
+Line 777: if
+Line 777: (
+Line 777: ID = timr
+Line 777: -
+Line 777: >
+Line 777: ID = it_requeue_pending
+Line 777: Unrecognized token: 38
+Line 777: ID = REQUEUE_PENDING
+Line 777: ||
+Line 778: (
+Line 778: ID = timr
+Line 778: -
+Line 778: >
+Line 778: ID = it_sigev_notify
+Line 778: Unrecognized token: 38
+Line 778: Unrecognized token: 126
+Line 778: ID = SIGEV_THREAD_ID
+Line 778: )
+Line 778: ==
+Line 778: ID = SIGEV_NONE
+Line 778: )
+Line 778: {
+Line 779: ID = posix_bump_timer
+Line 779: (
+Line 779: ID = timr
+Line 779: ,
+Line 779: ID = now
+Line 779: )
+Line 779: ;
+Line 780: ID = expires
+Line 780: =
+Line 780: ID = timr
+Line 780: -
+Line 780: >
+Line 780: ID = it_timer
+Line 780: Unrecognized token: 46
+Line 780: ID = expires
+Line 780: ;
+Line 781: }
+Line 782: else
+Line 783: if
+Line 783: (
+Line 783: !
+Line 783: ID = timer_pending
+Line 783: (
+Line 783: Unrecognized token: 38
+Line 783: ID = timr
+Line 783: -
+Line 783: >
+Line 783: ID = it_timer
+Line 783: )
+Line 783: )
+Line 784: ID = expires
+Line 784: =
+Line 784: INTCON = 0
+Line 784: ;
+Line 785: if
+Line 785: (
+Line 785: ID = expires
+Line 785: )
+Line 786: ID = expires
+Line 786: -
+Line 786: =
+Line 786: ID = now
+Line 786: Unrecognized token: 46
+Line 786: ID = jiffies
+Line 786: ;
+Line 787: }
+Line 788: ID = jiffies_to_timespec
+Line 788: (
+Line 788: ID = expires
+Line 788: ,
+Line 788: Unrecognized token: 38
+Line 788: ID = cur_setting
+Line 788: -
+Line 788: >
+Line 788: ID = it_value
+Line 788: )
+Line 788: ;
+Line 789: ID = jiffies_to_timespec
+Line 789: (
+Line 789: ID = timr
+Line 789: -
+Line 789: >
+Line 789: ID = it_incr
+Line 789: ,
+Line 789: Unrecognized token: 38
+Line 789: ID = cur_setting
+Line 789: -
+Line 789: >
+Line 789: ID = it_interval
+Line 789: )
+Line 789: ;
+Line 791: if
+Line 791: (
+Line 791: ID = cur_setting
+Line 791: -
+Line 791: >
+Line 791: ID = it_value
+Line 791: Unrecognized token: 46
+Line 791: ID = tv_sec
+Line 791: <
+Line 791: INTCON = 0
+Line 791: )
+Line 791: {
+Line 792: ID = cur_setting
+Line 792: -
+Line 792: >
+Line 792: ID = it_value
+Line 792: Unrecognized token: 46
+Line 792: ID = tv_nsec
+Line 792: =
+Line 792: INTCON = 1
+Line 792: ;
+Line 793: ID = cur_setting
+Line 793: -
+Line 793: >
+Line 793: ID = it_value
+Line 793: Unrecognized token: 46
+Line 793: ID = tv_sec
+Line 793: =
+Line 793: INTCON = 0
+Line 793: ;
+Line 794: }
+Line 795: }
+Line 798: ID = asmlinkage
+Line 798: ID = long
+Line 799: ID = sys_timer_gettime
+Line 799: (
+Line 799: ID = timer_t
+Line 799: ID = timer_id
+Line 799: ,
+Line 799: ID = struct
+Line 799: ID = itimerspec
+Line 799: Unrecognized token: 95
+Line 799: Unrecognized token: 95
+Line 799: ID = user
+Line 799: *
+Line 799: ID = setting
+Line 799: )
+Line 800: {
+Line 801: ID = struct
+Line 801: ID = k_itimer
+Line 801: *
+Line 801: ID = timr
+Line 801: ;
+Line 802: ID = struct
+Line 802: ID = itimerspec
+Line 802: ID = cur_setting
+Line 802: ;
+Line 803: ID = unsigned
+Line 803: ID = long
+Line 803: ID = flags
+Line 803: ;
+Line 805: ID = timr
+Line 805: =
+Line 805: ID = lock_timer
+Line 805: (
+Line 805: ID = timer_id
+Line 805: ,
+Line 805: Unrecognized token: 38
+Line 805: ID = flags
+Line 805: )
+Line 805: ;
+Line 806: if
+Line 806: (
+Line 806: !
+Line 806: ID = timr
+Line 806: )
+Line 807: return
+Line 807: -
+Line 807: ID = EINVAL
+Line 807: ;
+Line 809: ID = p_timer_get
+Line 809: (
+Line 809: Unrecognized token: 38
+Line 809: ID = posix_clocks
+Line 809: [
+Line 809: ID = timr
+Line 809: -
+Line 809: >
+Line 809: ID = it_clock
+Line 809: ]
+Line 809: ,
+Line 809: ID = timr
+Line 809: ,
+Line 809: Unrecognized token: 38
+Line 809: ID = cur_setting
+Line 809: )
+Line 809: ;
+Line 811: ID = unlock_timer
+Line 811: (
+Line 811: ID = timr
+Line 811: ,
+Line 811: ID = flags
+Line 811: )
+Line 811: ;
+Line 813: if
+Line 813: (
+Line 813: ID = copy_to_user
+Line 813: (
+Line 813: ID = setting
+Line 813: ,
+Line 813: Unrecognized token: 38
+Line 813: ID = cur_setting
+Line 813: ,
+Line 813: ID = sizeof
+Line 813: (
+Line 813: ID = cur_setting
+Line 813: )
+Line 813: )
+Line 813: )
+Line 814: return
+Line 814: -
+Line 814: ID = EFAULT
+Line 814: ;
+Line 816: return
+Line 816: INTCON = 0
+Line 816: ;
+Line 817: }
+Line 828: ID = asmlinkage
+Line 828: ID = long
+Line 829: ID = sys_timer_getoverrun
+Line 829: (
+Line 829: ID = timer_t
+Line 829: ID = timer_id
+Line 829: )
+Line 830: {
+Line 831: ID = struct
+Line 831: ID = k_itimer
+Line 831: *
+Line 831: ID = timr
+Line 831: ;
+Line 832: int
+Line 832: ID = overrun
+Line 832: ;
+Line 833: ID = long
+Line 833: ID = flags
+Line 833: ;
+Line 835: ID = timr
+Line 835: =
+Line 835: ID = lock_timer
+Line 835: (
+Line 835: ID = timer_id
+Line 835: ,
+Line 835: Unrecognized token: 38
+Line 835: ID = flags
+Line 835: )
+Line 835: ;
+Line 836: if
+Line 836: (
+Line 836: !
+Line 836: ID = timr
+Line 836: )
+Line 837: return
+Line 837: -
+Line 837: ID = EINVAL
+Line 837: ;
+Line 839: ID = overrun
+Line 839: =
+Line 839: ID = timr
+Line 839: -
+Line 839: >
+Line 839: ID = it_overrun_last
+Line 839: ;
+Line 840: ID = unlock_timer
+Line 840: (
+Line 840: ID = timr
+Line 840: ,
+Line 840: ID = flags
+Line 840: )
+Line 840: ;
+Line 842: return
+Line 842: ID = overrun
+Line 842: ;
+Line 843: }
+Line 854: ID = static
+Line 854: int
+Line 854: ID = adjust_abs_time
+Line 854: (
+Line 854: ID = struct
+Line 854: ID = k_clock
+Line 854: *
+Line 854: ID = clock
+Line 854: ,
+Line 854: ID = struct
+Line 854: ID = timespec
+Line 854: *
+Line 854: ID = tp
+Line 854: ,
+Line 855: int
+Line 855: ID = abs
+Line 855: ,
+Line 855: ID = u64
+Line 855: *
+Line 855: ID = exp
+Line 855: ,
+Line 855: ID = struct
+Line 855: ID = timespec
+Line 855: *
+Line 855: ID = wall_to
+Line 855: )
+Line 856: {
+Line 857: ID = struct
+Line 857: ID = timespec
+Line 857: ID = now
+Line 857: ;
+Line 858: ID = struct
+Line 858: ID = timespec
+Line 858: ID = oc
+Line 858: =
+Line 858: *
+Line 858: ID = tp
+Line 858: ;
+Line 859: ID = u64
+Line 859: ID = jiffies_64_f
+Line 859: ;
+Line 860: int
+Line 860: ID = rtn
+Line 860: =
+Line 860: INTCON = 0
+Line 860: ;
+Line 862: if
+Line 862: (
+Line 862: ID = abs
+Line 862: )
+Line 862: {
+Line 866: if
+Line 866: (
+Line 866: !
+Line 866: (
+Line 866: (
+Line 866: ID = clock
+Line 866: -
+Line 866: Unrecognized token: 38
+Line 866: ID = posix_clocks
+Line 866: [
+Line 866: INTCON = 0
+Line 866: ]
+Line 866: )
+Line 866: Unrecognized token: 38
+Line 866: Unrecognized token: 126
+Line 866: ID = CLOCKS_MASK
+Line 866: )
+Line 866: )
+Line 866: {
+Line 867: ID = jiffies_64_f
+Line 867: =
+Line 867: ID = do_posix_clock_monotonic_gettime_parts
+Line 867: (
+Line 868: Unrecognized token: 38
+Line 868: ID = now
+Line 868: ,
+Line 868: ID = wall_to
+Line 868: )
+Line 868: ;
+Line 872: if
+Line 872: (
+Line 872: (
+Line 872: ID = clock
+Line 872: -
+Line 872: Unrecognized token: 38
+Line 872: ID = posix_clocks
+Line 872: [
+Line 872: INTCON = 0
+Line 872: ]
+Line 872: )
+Line 872: Unrecognized token: 38
+Line 872: ID = CLOCKS_MONO
+Line 872: )
+Line 872: {
+Line 873: ID = now
+Line 873: Unrecognized token: 46
+Line 873: ID = tv_sec
+Line 873: +
+Line 873: =
+Line 873: ID = wall_to
+Line 873: -
+Line 873: >
+Line 873: ID = tv_sec
+Line 873: ;
+Line 874: ID = now
+Line 874: Unrecognized token: 46
+Line 874: ID = tv_nsec
+Line 874: +
+Line 874: =
+Line 874: ID = wall_to
+Line 874: -
+Line 874: >
+Line 874: ID = tv_nsec
+Line 874: ;
+Line 875: }
+Line 876: }
+Line 876: else
+Line 876: {
+Line 880: ID = do_posix_gettime
+Line 880: (
+Line 880: ID = clock
+Line 880: ,
+Line 880: Unrecognized token: 38
+Line 880: ID = now
+Line 880: )
+Line 880: ;
+Line 881: ID = jiffies_64_f
+Line 881: =
+Line 881: ID = get_jiffies_64
+Line 881: (
+Line 881: )
+Line 881: ;
+Line 882: }
+Line 886: ID = oc
+Line 886: Unrecognized token: 46
+Line 886: ID = tv_sec
+Line 886: -
+Line 886: =
+Line 886: ID = now
+Line 886: Unrecognized token: 46
+Line 886: ID = tv_sec
+Line 886: ;
+Line 887: ID = oc
+Line 887: Unrecognized token: 46
+Line 887: ID = tv_nsec
+Line 887: -
+Line 887: =
+Line 887: ID = now
+Line 887: Unrecognized token: 46
+Line 887: ID = tv_nsec
+Line 887: ;
+Line 891: while
+Line 891: (
+Line 891: (
+Line 891: ID = oc
+Line 891: Unrecognized token: 46
+Line 891: ID = tv_nsec
+Line 891: -
+Line 891: ID = NSEC_PER_SEC
+Line 891: )
+Line 891: >=
+Line 891: INTCON = 0
+Line 891: )
+Line 891: {
+Line 892: ID = oc
+Line 892: Unrecognized token: 46
+Line 892: ID = tv_nsec
+Line 892: -
+Line 892: =
+Line 892: ID = NSEC_PER_SEC
+Line 892: ;
+Line 893: ID = oc
+Line 893: Unrecognized token: 46
+Line 893: ID = tv_sec
+Line 893: +
+Line 893: +
+Line 893: ;
+Line 894: }
+Line 895: while
+Line 895: (
+Line 895: (
+Line 895: ID = oc
+Line 895: Unrecognized token: 46
+Line 895: ID = tv_nsec
+Line 895: )
+Line 895: <
+Line 895: INTCON = 0
+Line 895: )
+Line 895: {
+Line 896: ID = oc
+Line 896: Unrecognized token: 46
+Line 896: ID = tv_nsec
+Line 896: +
+Line 896: =
+Line 896: ID = NSEC_PER_SEC
+Line 896: ;
+Line 897: ID = oc
+Line 897: Unrecognized token: 46
+Line 897: ID = tv_sec
+Line 897: -
+Line 897: -
+Line 897: ;
+Line 898: }
+Line 899: }
+Line 899: else
+Line 899: {
+Line 900: ID = jiffies_64_f
+Line 900: =
+Line 900: ID = get_jiffies_64
+Line 900: (
+Line 900: )
+Line 900: ;
+Line 901: }
+Line 905: if
+Line 905: (
+Line 905: ID = oc
+Line 905: Unrecognized token: 46
+Line 905: ID = tv_sec
+Line 905: <
+Line 905: INTCON = 0
+Line 905: )
+Line 906: ID = oc
+Line 906: Unrecognized token: 46
+Line 906: ID = tv_sec
+Line 906: =
+Line 906: ID = oc
+Line 906: Unrecognized token: 46
+Line 906: ID = tv_nsec
+Line 906: =
+Line 906: INTCON = 0
+Line 906: ;
+Line 907: ID = tstojiffie
+Line 907: (
+Line 907: Unrecognized token: 38
+Line 907: ID = oc
+Line 907: ,
+Line 907: ID = clock
+Line 907: -
+Line 907: >
+Line 907: ID = res
+Line 907: ,
+Line 907: ID = exp
+Line 907: )
+Line 907: ;
+Line 913: if
+Line 913: (
+Line 913: *
+Line 913: ID = exp
+Line 913: >
+Line 913: (
+Line 913: (
+Line 913: ID = u64
+Line 913: )
+Line 913: ID = MAX_JIFFY_OFFSET
+Line 913: )
+Line 913: )
+Line 922: ID = rtn
+Line 922: =
+Line 922: -
+Line 922: ID = EINVAL
+Line 922: ;
+Line 926: *
+Line 926: ID = exp
+Line 926: +
+Line 926: =
+Line 926: ID = jiffies_64_f
+Line 926: ;
+Line 927: return
+Line 927: ID = rtn
+Line 927: ;
+Line 928: }
+Line 932: ID = static
+Line 932: ID = inline
+Line 932: int
+Line 933: ID = do_timer_settime
+Line 933: (
+Line 933: ID = struct
+Line 933: ID = k_itimer
+Line 933: *
+Line 933: ID = timr
+Line 933: ,
+Line 933: int
+Line 933: ID = flags
+Line 933: ,
+Line 934: ID = struct
+Line 934: ID = itimerspec
+Line 934: *
+Line 934: ID = new_setting
+Line 934: ,
+Line 934: ID = struct
+Line 934: ID = itimerspec
+Line 934: *
+Line 934: ID = old_setting
+Line 934: )
+Line 935: {
+Line 936: ID = struct
+Line 936: ID = k_clock
+Line 936: *
+Line 936: ID = clock
+Line 936: =
+Line 936: Unrecognized token: 38
+Line 936: ID = posix_clocks
+Line 936: [
+Line 936: ID = timr
+Line 936: -
+Line 936: >
+Line 936: ID = it_clock
+Line 936: ]
+Line 936: ;
+Line 937: ID = u64
+Line 937: ID = expire_64
+Line 937: ;
+Line 939: if
+Line 939: (
+Line 939: ID = old_setting
+Line 939: )
+Line 940: ID = do_timer_gettime
+Line 940: (
+Line 940: ID = timr
+Line 940: ,
+Line 940: ID = old_setting
+Line 940: )
+Line 940: ;
+Line 943: ID = timr
+Line 943: -
+Line 943: >
+Line 943: ID = it_incr
+Line 943: =
+Line 943: INTCON = 0
+Line 943: ;
+Line 948: Unrecognized token: 35
+Line 948: ID = ifdef
+Line 948: ID = CONFIG_SMP
+Line 949: if
+Line 949: (
+Line 949: ID = timer_active
+Line 949: (
+Line 949: ID = timr
+Line 949: )
+Line 949: &&
+Line 949: !
+Line 949: ID = del_timer
+Line 949: (
+Line 949: Unrecognized token: 38
+Line 949: ID = timr
+Line 949: -
+Line 949: >
+Line 949: ID = it_timer
+Line 949: )
+Line 949: )
+Line 958: return
+Line 958: ID = TIMER_RETRY
+Line 958: ;
+Line 960: ID = set_timer_inactive
+Line 960: (
+Line 960: ID = timr
+Line 960: )
+Line 960: ;
+Line 961: Unrecognized token: 35
+Line 961: else
+Line 962: ID = del_timer
+Line 962: (
+Line 962: Unrecognized token: 38
+Line 962: ID = timr
+Line 962: -
+Line 962: >
+Line 962: ID = it_timer
+Line 962: )
+Line 962: ;
+Line 963: Unrecognized token: 35
+Line 963: ID = endif
+Line 964: ID = remove_from_abslist
+Line 964: (
+Line 964: ID = timr
+Line 964: )
+Line 964: ;
+Line 966: ID = timr
+Line 966: -
+Line 966: >
+Line 966: ID = it_requeue_pending
+Line 966: =
+Line 966: (
+Line 966: ID = timr
+Line 966: -
+Line 966: >
+Line 966: ID = it_requeue_pending
+Line 966: +
+Line 966: INTCON = 2
+Line 966: )
+Line 966: Unrecognized token: 38
+Line 967: Unrecognized token: 126
+Line 967: ID = REQUEUE_PENDING
+Line 967: ;
+Line 968: ID = timr
+Line 968: -
+Line 968: >
+Line 968: ID = it_overrun_last
+Line 968: =
+Line 968: INTCON = 0
+Line 968: ;
+Line 969: ID = timr
+Line 969: -
+Line 969: >
+Line 969: ID = it_overrun
+Line 969: =
+Line 969: -
+Line 969: INTCON = 1
+Line 969: ;
+Line 973: if
+Line 973: (
+Line 973: !
+Line 973: ID = new_setting
+Line 973: -
+Line 973: >
+Line 973: ID = it_value
+Line 973: Unrecognized token: 46
+Line 973: ID = tv_sec
+Line 973: &&
+Line 973: !
+Line 973: ID = new_setting
+Line 973: -
+Line 973: >
+Line 973: ID = it_value
+Line 973: Unrecognized token: 46
+Line 973: ID = tv_nsec
+Line 973: )
+Line 973: {
+Line 974: ID = timr
+Line 974: -
+Line 974: >
+Line 974: ID = it_timer
+Line 974: Unrecognized token: 46
+Line 974: ID = expires
+Line 974: =
+Line 974: INTCON = 0
+Line 974: ;
+Line 975: return
+Line 975: INTCON = 0
+Line 975: ;
+Line 976: }
+Line 978: if
+Line 978: (
+Line 978: ID = adjust_abs_time
+Line 978: (
+Line 978: ID = clock
+Line 978: ,
+Line 979: Unrecognized token: 38
+Line 979: ID = new_setting
+Line 979: -
+Line 979: >
+Line 979: ID = it_value
+Line 979: ,
+Line 979: ID = flags
+Line 979: Unrecognized token: 38
+Line 979: ID = TIMER_ABSTIME
+Line 979: ,
+Line 980: Unrecognized token: 38
+Line 980: ID = expire_64
+Line 980: ,
+Line 980: Unrecognized token: 38
+Line 980: (
+Line 980: ID = timr
+Line 980: -
+Line 980: >
+Line 980: ID = wall_to_prev
+Line 980: )
+Line 980: )
+Line 980: )
+Line 980: {
+Line 981: return
+Line 981: -
+Line 981: ID = EINVAL
+Line 981: ;
+Line 982: }
+Line 983: ID = timr
+Line 983: -
+Line 983: >
+Line 983: ID = it_timer
+Line 983: Unrecognized token: 46
+Line 983: ID = expires
+Line 983: =
+Line 983: (
+Line 983: ID = unsigned
+Line 983: ID = long
+Line 983: )
+Line 983: ID = expire_64
+Line 983: ;
+Line 984: ID = tstojiffie
+Line 984: (
+Line 984: Unrecognized token: 38
+Line 984: ID = new_setting
+Line 984: -
+Line 984: >
+Line 984: ID = it_interval
+Line 984: ,
+Line 984: ID = clock
+Line 984: -
+Line 984: >
+Line 984: ID = res
+Line 984: ,
+Line 984: Unrecognized token: 38
+Line 984: ID = expire_64
+Line 984: )
+Line 984: ;
+Line 985: ID = timr
+Line 985: -
+Line 985: >
+Line 985: ID = it_incr
+Line 985: =
+Line 985: (
+Line 985: ID = unsigned
+Line 985: ID = long
+Line 985: )
+Line 985: ID = expire_64
+Line 985: ;
+Line 991: if
+Line 991: (
+Line 991: (
+Line 991: (
+Line 991: ID = timr
+Line 991: -
+Line 991: >
+Line 991: ID = it_sigev_notify
+Line 991: Unrecognized token: 38
+Line 991: Unrecognized token: 126
+Line 991: ID = SIGEV_THREAD_ID
+Line 991: )
+Line 991: !=
+Line 991: ID = SIGEV_NONE
+Line 991: )
+Line 991: )
+Line 992: ID = add_timer
+Line 992: (
+Line 992: Unrecognized token: 38
+Line 992: ID = timr
+Line 992: -
+Line 992: >
+Line 992: ID = it_timer
+Line 992: )
+Line 992: ;
+Line 994: if
+Line 994: (
+Line 994: ID = flags
+Line 994: Unrecognized token: 38
+Line 994: ID = TIMER_ABSTIME
+Line 994: &&
+Line 994: ID = clock
+Line 994: -
+Line 994: >
+Line 994: ID = abs_struct
+Line 994: )
+Line 994: {
+Line 995: ID = spin_lock
+Line 995: (
+Line 995: Unrecognized token: 38
+Line 995: ID = clock
+Line 995: -
+Line 995: >
+Line 995: ID = abs_struct
+Line 995: -
+Line 995: >
+Line 995: ID = lock
+Line 995: )
+Line 995: ;
+Line 996: ID = list_add_tail
+Line 996: (
+Line 996: Unrecognized token: 38
+Line 996: (
+Line 996: ID = timr
+Line 996: -
+Line 996: >
+Line 996: ID = abs_timer_entry
+Line 996: )
+Line 996: ,
+Line 997: Unrecognized token: 38
+Line 997: (
+Line 997: ID = clock
+Line 997: -
+Line 997: >
+Line 997: ID = abs_struct
+Line 997: -
+Line 997: >
+Line 997: ID = list
+Line 997: )
+Line 997: )
+Line 997: ;
+Line 998: ID = spin_unlock
+Line 998: (
+Line 998: Unrecognized token: 38
+Line 998: ID = clock
+Line 998: -
+Line 998: >
+Line 998: ID = abs_struct
+Line 998: -
+Line 998: >
+Line 998: ID = lock
+Line 998: )
+Line 998: ;
+Line 999: }
+Line 1000: return
+Line 1000: INTCON = 0
+Line 1000: ;
+Line 1001: }
+Line 1004: ID = asmlinkage
+Line 1004: ID = long
+Line 1005: ID = sys_timer_settime
+Line 1005: (
+Line 1005: ID = timer_t
+Line 1005: ID = timer_id
+Line 1005: ,
+Line 1005: int
+Line 1005: ID = flags
+Line 1005: ,
+Line 1006: ID = const
+Line 1006: ID = struct
+Line 1006: ID = itimerspec
+Line 1006: Unrecognized token: 95
+Line 1006: Unrecognized token: 95
+Line 1006: ID = user
+Line 1006: *
+Line 1006: ID = new_setting
+Line 1006: ,
+Line 1007: ID = struct
+Line 1007: ID = itimerspec
+Line 1007: Unrecognized token: 95
+Line 1007: Unrecognized token: 95
+Line 1007: ID = user
+Line 1007: *
+Line 1007: ID = old_setting
+Line 1007: )
+Line 1008: {
+Line 1009: ID = struct
+Line 1009: ID = k_itimer
+Line 1009: *
+Line 1009: ID = timr
+Line 1009: ;
+Line 1010: ID = struct
+Line 1010: ID = itimerspec
+Line 1010: ID = new_spec
+Line 1010: ,
+Line 1010: ID = old_spec
+Line 1010: ;
+Line 1011: int
+Line 1011: ID = error
+Line 1011: =
+Line 1011: INTCON = 0
+Line 1011: ;
+Line 1012: ID = long
+Line 1012: ID = flag
+Line 1012: ;
+Line 1013: ID = struct
+Line 1013: ID = itimerspec
+Line 1013: *
+Line 1013: ID = rtn
+Line 1013: =
+Line 1013: ID = old_setting
+Line 1013: Unrecognized token: 63
+Line 1013: Unrecognized token: 38
+Line 1013: ID = old_spec
+Line 1013: Unrecognized token: 58
+Line 1013: ID = NULL
+Line 1013: ;
+Line 1015: if
+Line 1015: (
+Line 1015: !
+Line 1015: ID = new_setting
+Line 1015: )
+Line 1016: return
+Line 1016: -
+Line 1016: ID = EINVAL
+Line 1016: ;
+Line 1018: if
+Line 1018: (
+Line 1018: ID = copy_from_user
+Line 1018: (
+Line 1018: Unrecognized token: 38
+Line 1018: ID = new_spec
+Line 1018: ,
+Line 1018: ID = new_setting
+Line 1018: ,
+Line 1018: ID = sizeof
+Line 1018: (
+Line 1018: ID = new_spec
+Line 1018: )
+Line 1018: )
+Line 1018: )
+Line 1019: return
+Line 1019: -
+Line 1019: ID = EFAULT
+Line 1019: ;
+Line 1021: if
+Line 1021: (
+Line 1021: (
+Line 1021: !
+Line 1021: ID = good_timespec
+Line 1021: (
+Line 1021: Unrecognized token: 38
+Line 1021: ID = new_spec
+Line 1021: Unrecognized token: 46
+Line 1021: ID = it_interval
+Line 1021: )
+Line 1021: )
+Line 1021: ||
+Line 1022: (
+Line 1022: !
+Line 1022: ID = good_timespec
+Line 1022: (
+Line 1022: Unrecognized token: 38
+Line 1022: ID = new_spec
+Line 1022: Unrecognized token: 46
+Line 1022: ID = it_value
+Line 1022: )
+Line 1022: )
+Line 1022: )
+Line 1023: return
+Line 1023: -
+Line 1023: ID = EINVAL
+Line 1023: ;
+Line 1024: ID = retry
+Line 1024: Unrecognized token: 58
+Line 1025: ID = timr
+Line 1025: =
+Line 1025: ID = lock_timer
+Line 1025: (
+Line 1025: ID = timer_id
+Line 1025: ,
+Line 1025: Unrecognized token: 38
+Line 1025: ID = flag
+Line 1025: )
+Line 1025: ;
+Line 1026: if
+Line 1026: (
+Line 1026: !
+Line 1026: ID = timr
+Line 1026: )
+Line 1027: return
+Line 1027: -
+Line 1027: ID = EINVAL
+Line 1027: ;
+Line 1029: if
+Line 1029: (
+Line 1029: !
+Line 1029: ID = posix_clocks
+Line 1029: [
+Line 1029: ID = timr
+Line 1029: -
+Line 1029: >
+Line 1029: ID = it_clock
+Line 1029: ]
+Line 1029: Unrecognized token: 46
+Line 1029: ID = timer_set
+Line 1029: )
+Line 1030: ID = error
+Line 1030: =
+Line 1030: ID = do_timer_settime
+Line 1030: (
+Line 1030: ID = timr
+Line 1030: ,
+Line 1030: ID = flags
+Line 1030: ,
+Line 1030: Unrecognized token: 38
+Line 1030: ID = new_spec
+Line 1030: ,
+Line 1030: ID = rtn
+Line 1030: )
+Line 1030: ;
+Line 1031: else
+Line 1032: ID = error
+Line 1032: =
+Line 1032: ID = posix_clocks
+Line 1032: [
+Line 1032: ID = timr
+Line 1032: -
+Line 1032: >
+Line 1032: ID = it_clock
+Line 1032: ]
+Line 1032: Unrecognized token: 46
+Line 1032: ID = timer_set
+Line 1032: (
+Line 1032: ID = timr
+Line 1032: ,
+Line 1033: ID = flags
+Line 1033: ,
+Line 1034: Unrecognized token: 38
+Line 1034: ID = new_spec
+Line 1034: ,
+Line 1034: ID = rtn
+Line 1034: )
+Line 1034: ;
+Line 1035: ID = unlock_timer
+Line 1035: (
+Line 1035: ID = timr
+Line 1035: ,
+Line 1035: ID = flag
+Line 1035: )
+Line 1035: ;
+Line 1036: if
+Line 1036: (
+Line 1036: ID = error
+Line 1036: ==
+Line 1036: ID = TIMER_RETRY
+Line 1036: )
+Line 1036: {
+Line 1037: ID = rtn
+Line 1037: =
+Line 1037: ID = NULL
+Line 1037: ;
+Line 1037: /
+Line 1037: /
+Line 1037: ID = We
+Line 1037: ID = already
+Line 1037: ID = got
+Line 1037: ID = the
+Line 1037: ID = old
+Line 1037: ID = time
+Line 1037: Unrecognized token: 46
+Line 1037: Unrecognized token: 46
+Line 1037: Unrecognized token: 46
+Line 1038: ID = goto
+Line 1038: ID = retry
+Line 1038: ;
+Line 1039: }
+Line 1041: if
+Line 1041: (
+Line 1041: ID = old_setting
+Line 1041: &&
+Line 1041: !
+Line 1041: ID = error
+Line 1041: &&
+Line 1041: ID = copy_to_user
+Line 1041: (
+Line 1041: ID = old_setting
+Line 1041: ,
+Line 1042: Unrecognized token: 38
+Line 1042: ID = old_spec
+Line 1042: ,
+Line 1042: ID = sizeof
+Line 1042: (
+Line 1042: ID = old_spec
+Line 1042: )
+Line 1042: )
+Line 1042: )
+Line 1043: ID = error
+Line 1043: =
+Line 1043: -
+Line 1043: ID = EFAULT
+Line 1043: ;
+Line 1045: return
+Line 1045: ID = error
+Line 1045: ;
+Line 1046: }
+Line 1048: ID = static
+Line 1048: ID = inline
+Line 1048: int
+Line 1048: ID = do_timer_delete
+Line 1048: (
+Line 1048: ID = struct
+Line 1048: ID = k_itimer
+Line 1048: *
+Line 1048: ID = timer
+Line 1048: )
+Line 1049: {
+Line 1050: ID = timer
+Line 1050: -
+Line 1050: >
+Line 1050: ID = it_incr
+Line 1050: =
+Line 1050: INTCON = 0
+Line 1050: ;
+Line 1051: Unrecognized token: 35
+Line 1051: ID = ifdef
+Line 1051: ID = CONFIG_SMP
+Line 1052: if
+Line 1052: (
+Line 1052: ID = timer_active
+Line 1052: (
+Line 1052: ID = timer
+Line 1052: )
+Line 1052: &&
+Line 1052: !
+Line 1052: ID = del_timer
+Line 1052: (
+Line 1052: Unrecognized token: 38
+Line 1052: ID = timer
+Line 1052: -
+Line 1052: >
+Line 1052: ID = it_timer
+Line 1052: )
+Line 1052: )
+Line 1061: return
+Line 1061: ID = TIMER_RETRY
+Line 1061: ;
+Line 1062: Unrecognized token: 35
+Line 1062: else
+Line 1063: ID = del_timer
+Line 1063: (
+Line 1063: Unrecognized token: 38
+Line 1063: ID = timer
+Line 1063: -
+Line 1063: >
+Line 1063: ID = it_timer
+Line 1063: )
+Line 1063: ;
+Line 1064: Unrecognized token: 35
+Line 1064: ID = endif
+Line 1065: ID = remove_from_abslist
+Line 1065: (
+Line 1065: ID = timer
+Line 1065: )
+Line 1065: ;
+Line 1067: return
+Line 1067: INTCON = 0
+Line 1067: ;
+Line 1068: }
+Line 1071: ID = asmlinkage
+Line 1071: ID = long
+Line 1072: ID = sys_timer_delete
+Line 1072: (
+Line 1072: ID = timer_t
+Line 1072: ID = timer_id
+Line 1072: )
+Line 1073: {
+Line 1074: ID = struct
+Line 1074: ID = k_itimer
+Line 1074: *
+Line 1074: ID = timer
+Line 1074: ;
+Line 1075: ID = long
+Line 1075: ID = flags
+Line 1075: ;
+Line 1077: Unrecognized token: 35
+Line 1077: ID = ifdef
+Line 1077: ID = CONFIG_SMP
+Line 1078: int
+Line 1078: ID = error
+Line 1078: ;
+Line 1079: ID = retry_delete
+Line 1079: Unrecognized token: 58
+Line 1080: Unrecognized token: 35
+Line 1080: ID = endif
+Line 1081: ID = timer
+Line 1081: =
+Line 1081: ID = lock_timer
+Line 1081: (
+Line 1081: ID = timer_id
+Line 1081: ,
+Line 1081: Unrecognized token: 38
+Line 1081: ID = flags
+Line 1081: )
+Line 1081: ;
+Line 1082: if
+Line 1082: (
+Line 1082: !
+Line 1082: ID = timer
+Line 1082: )
+Line 1083: return
+Line 1083: -
+Line 1083: ID = EINVAL
+Line 1083: ;
+Line 1085: Unrecognized token: 35
+Line 1085: ID = ifdef
+Line 1085: ID = CONFIG_SMP
+Line 1086: ID = error
+Line 1086: =
+Line 1086: ID = p_timer_del
+Line 1086: (
+Line 1086: Unrecognized token: 38
+Line 1086: ID = posix_clocks
+Line 1086: [
+Line 1086: ID = timer
+Line 1086: -
+Line 1086: >
+Line 1086: ID = it_clock
+Line 1086: ]
+Line 1086: ,
+Line 1086: ID = timer
+Line 1086: )
+Line 1086: ;
+Line 1088: if
+Line 1088: (
+Line 1088: ID = error
+Line 1088: ==
+Line 1088: ID = TIMER_RETRY
+Line 1088: )
+Line 1088: {
+Line 1089: ID = unlock_timer
+Line 1089: (
+Line 1089: ID = timer
+Line 1089: ,
+Line 1089: ID = flags
+Line 1089: )
+Line 1089: ;
+Line 1090: ID = goto
+Line 1090: ID = retry_delete
+Line 1090: ;
+Line 1091: }
+Line 1092: Unrecognized token: 35
+Line 1092: else
+Line 1093: ID = p_timer_del
+Line 1093: (
+Line 1093: Unrecognized token: 38
+Line 1093: ID = posix_clocks
+Line 1093: [
+Line 1093: ID = timer
+Line 1093: -
+Line 1093: >
+Line 1093: ID = it_clock
+Line 1093: ]
+Line 1093: ,
+Line 1093: ID = timer
+Line 1093: )
+Line 1093: ;
+Line 1094: Unrecognized token: 35
+Line 1094: ID = endif
+Line 1095: ID = spin_lock
+Line 1095: (
+Line 1095: Unrecognized token: 38
+Line 1095: ID = current
+Line 1095: -
+Line 1095: >
+Line 1095: ID = sighand
+Line 1095: -
+Line 1095: >
+Line 1095: ID = siglock
+Line 1095: )
+Line 1095: ;
+Line 1096: ID = list_del
+Line 1096: (
+Line 1096: Unrecognized token: 38
+Line 1096: ID = timer
+Line 1096: -
+Line 1096: >
+Line 1096: ID = list
+Line 1096: )
+Line 1096: ;
+Line 1097: ID = spin_unlock
+Line 1097: (
+Line 1097: Unrecognized token: 38
+Line 1097: ID = current
+Line 1097: -
+Line 1097: >
+Line 1097: ID = sighand
+Line 1097: -
+Line 1097: >
+Line 1097: ID = siglock
+Line 1097: )
+Line 1097: ;
+Line 1102: if
+Line 1102: (
+Line 1102: ID = timer
+Line 1102: -
+Line 1102: >
+Line 1102: ID = it_process
+Line 1102: )
+Line 1102: {
+Line 1103: if
+Line 1103: (
+Line 1103: ID = timer
+Line 1103: -
+Line 1103: >
+Line 1103: ID = it_sigev_notify
+Line 1103: ==
+Line 1103: (
+Line 1103: ID = SIGEV_SIGNAL
+Line 1103: Unrecognized token: 124
+Line 1103: ID = SIGEV_THREAD_ID
+Line 1103: )
+Line 1103: )
+Line 1104: ID = put_task_struct
+Line 1104: (
+Line 1104: ID = timer
+Line 1104: -
+Line 1104: >
+Line 1104: ID = it_process
+Line 1104: )
+Line 1104: ;
+Line 1105: ID = timer
+Line 1105: -
+Line 1105: >
+Line 1105: ID = it_process
+Line 1105: =
+Line 1105: ID = NULL
+Line 1105: ;
+Line 1106: }
+Line 1107: ID = unlock_timer
+Line 1107: (
+Line 1107: ID = timer
+Line 1107: ,
+Line 1107: ID = flags
+Line 1107: )
+Line 1107: ;
+Line 1108: ID = release_posix_timer
+Line 1108: (
+Line 1108: ID = timer
+Line 1108: ,
+Line 1108: ID = IT_ID_SET
+Line 1108: )
+Line 1108: ;
+Line 1109: return
+Line 1109: INTCON = 0
+Line 1109: ;
+Line 1110: }
+Line 1114: ID = static
+Line 1114: ID = inline
+Line 1114: void
+Line 1114: ID = itimer_delete
+Line 1114: (
+Line 1114: ID = struct
+Line 1114: ID = k_itimer
+Line 1114: *
+Line 1114: ID = timer
+Line 1114: )
+Line 1115: {
+Line 1116: ID = unsigned
+Line 1116: ID = long
+Line 1116: ID = flags
+Line 1116: ;
+Line 1118: Unrecognized token: 35
+Line 1118: ID = ifdef
+Line 1118: ID = CONFIG_SMP
+Line 1119: int
+Line 1119: ID = error
+Line 1119: ;
+Line 1120: ID = retry_delete
+Line 1120: Unrecognized token: 58
+Line 1121: Unrecognized token: 35
+Line 1121: ID = endif
+Line 1122: ID = spin_lock_irqsave
+Line 1122: (
+Line 1122: Unrecognized token: 38
+Line 1122: ID = timer
+Line 1122: -
+Line 1122: >
+Line 1122: ID = it_lock
+Line 1122: ,
+Line 1122: ID = flags
+Line 1122: )
+Line 1122: ;
+Line 1124: Unrecognized token: 35
+Line 1124: ID = ifdef
+Line 1124: ID = CONFIG_SMP
+Line 1125: ID = error
+Line 1125: =
+Line 1125: ID = p_timer_del
+Line 1125: (
+Line 1125: Unrecognized token: 38
+Line 1125: ID = posix_clocks
+Line 1125: [
+Line 1125: ID = timer
+Line 1125: -
+Line 1125: >
+Line 1125: ID = it_clock
+Line 1125: ]
+Line 1125: ,
+Line 1125: ID = timer
+Line 1125: )
+Line 1125: ;
+Line 1127: if
+Line 1127: (
+Line 1127: ID = error
+Line 1127: ==
+Line 1127: ID = TIMER_RETRY
+Line 1127: )
+Line 1127: {
+Line 1128: ID = unlock_timer
+Line 1128: (
+Line 1128: ID = timer
+Line 1128: ,
+Line 1128: ID = flags
+Line 1128: )
+Line 1128: ;
+Line 1129: ID = goto
+Line 1129: ID = retry_delete
+Line 1129: ;
+Line 1130: }
+Line 1131: Unrecognized token: 35
+Line 1131: else
+Line 1132: ID = p_timer_del
+Line 1132: (
+Line 1132: Unrecognized token: 38
+Line 1132: ID = posix_clocks
+Line 1132: [
+Line 1132: ID = timer
+Line 1132: -
+Line 1132: >
+Line 1132: ID = it_clock
+Line 1132: ]
+Line 1132: ,
+Line 1132: ID = timer
+Line 1132: )
+Line 1132: ;
+Line 1133: Unrecognized token: 35
+Line 1133: ID = endif
+Line 1134: ID = list_del
+Line 1134: (
+Line 1134: Unrecognized token: 38
+Line 1134: ID = timer
+Line 1134: -
+Line 1134: >
+Line 1134: ID = list
+Line 1134: )
+Line 1134: ;
+Line 1139: if
+Line 1139: (
+Line 1139: ID = timer
+Line 1139: -
+Line 1139: >
+Line 1139: ID = it_process
+Line 1139: )
+Line 1139: {
+Line 1140: if
+Line 1140: (
+Line 1140: ID = timer
+Line 1140: -
+Line 1140: >
+Line 1140: ID = it_sigev_notify
+Line 1140: ==
+Line 1140: (
+Line 1140: ID = SIGEV_SIGNAL
+Line 1140: Unrecognized token: 124
+Line 1140: ID = SIGEV_THREAD_ID
+Line 1140: )
+Line 1140: )
+Line 1141: ID = put_task_struct
+Line 1141: (
+Line 1141: ID = timer
+Line 1141: -
+Line 1141: >
+Line 1141: ID = it_process
+Line 1141: )
+Line 1141: ;
+Line 1142: ID = timer
+Line 1142: -
+Line 1142: >
+Line 1142: ID = it_process
+Line 1142: =
+Line 1142: ID = NULL
+Line 1142: ;
+Line 1143: }
+Line 1144: ID = unlock_timer
+Line 1144: (
+Line 1144: ID = timer
+Line 1144: ,
+Line 1144: ID = flags
+Line 1144: )
+Line 1144: ;
+Line 1145: ID = release_posix_timer
+Line 1145: (
+Line 1145: ID = timer
+Line 1145: ,
+Line 1145: ID = IT_ID_SET
+Line 1145: )
+Line 1145: ;
+Line 1146: }
+Line 1152: void
+Line 1152: ID = exit_itimers
+Line 1152: (
+Line 1152: ID = struct
+Line 1152: ID = signal_struct
+Line 1152: *
+Line 1152: ID = sig
+Line 1152: )
+Line 1153: {
+Line 1154: ID = struct
+Line 1154: ID = k_itimer
+Line 1154: *
+Line 1154: ID = tmr
+Line 1154: ;
+Line 1156: while
+Line 1156: (
+Line 1156: !
+Line 1156: ID = list_empty
+Line 1156: (
+Line 1156: Unrecognized token: 38
+Line 1156: ID = sig
+Line 1156: -
+Line 1156: >
+Line 1156: ID = posix_timers
+Line 1156: )
+Line 1156: )
+Line 1156: {
+Line 1157: ID = tmr
+Line 1157: =
+Line 1157: ID = list_entry
+Line 1157: (
+Line 1157: ID = sig
+Line 1157: -
+Line 1157: >
+Line 1157: ID = posix_timers
+Line 1157: Unrecognized token: 46
+Line 1157: ID = next
+Line 1157: ,
+Line 1157: ID = struct
+Line 1157: ID = k_itimer
+Line 1157: ,
+Line 1157: ID = list
+Line 1157: )
+Line 1157: ;
+Line 1158: ID = itimer_delete
+Line 1158: (
+Line 1158: ID = tmr
+Line 1158: )
+Line 1158: ;
+Line 1159: }
+Line 1160: }
+Line 1169: ID = static
+Line 1169: int
+Line 1169: ID = do_posix_gettime
+Line 1169: (
+Line 1169: ID = struct
+Line 1169: ID = k_clock
+Line 1169: *
+Line 1169: ID = clock
+Line 1169: ,
+Line 1169: ID = struct
+Line 1169: ID = timespec
+Line 1169: *
+Line 1169: ID = tp
+Line 1169: )
+Line 1170: {
+Line 1171: ID = struct
+Line 1171: ID = timeval
+Line 1171: ID = tv
+Line 1171: ;
+Line 1173: if
+Line 1173: (
+Line 1173: ID = clock
+Line 1173: -
+Line 1173: >
+Line 1173: ID = clock_get
+Line 1173: )
+Line 1174: return
+Line 1174: ID = clock
+Line 1174: -
+Line 1174: >
+Line 1174: ID = clock_get
+Line 1174: (
+Line 1174: ID = tp
+Line 1174: )
+Line 1174: ;
+Line 1176: ID = do_gettimeofday
+Line 1176: (
+Line 1176: Unrecognized token: 38
+Line 1176: ID = tv
+Line 1176: )
+Line 1176: ;
+Line 1177: ID = tp
+Line 1177: -
+Line 1177: >
+Line 1177: ID = tv_sec
+Line 1177: =
+Line 1177: ID = tv
+Line 1177: Unrecognized token: 46
+Line 1177: ID = tv_sec
+Line 1177: ;
+Line 1178: ID = tp
+Line 1178: -
+Line 1178: >
+Line 1178: ID = tv_nsec
+Line 1178: =
+Line 1178: ID = tv
+Line 1178: Unrecognized token: 46
+Line 1178: ID = tv_usec
+Line 1178: *
+Line 1178: ID = NSEC_PER_USEC
+Line 1178: ;
+Line 1180: return
+Line 1180: INTCON = 0
+Line 1180: ;
+Line 1181: }
+Line 1191: ID = static
+Line 1191: ID = u64
+Line 1191: ID = do_posix_clock_monotonic_gettime_parts
+Line 1191: (
+Line 1192: ID = struct
+Line 1192: ID = timespec
+Line 1192: *
+Line 1192: ID = tp
+Line 1192: ,
+Line 1192: ID = struct
+Line 1192: ID = timespec
+Line 1192: *
+Line 1192: ID = mo
+Line 1192: )
+Line 1193: {
+Line 1194: ID = u64
+Line 1194: ID = jiff
+Line 1194: ;
+Line 1195: ID = struct
+Line 1195: ID = timeval
+Line 1195: ID = tpv
+Line 1195: ;
+Line 1196: ID = unsigned
+Line 1196: int
+Line 1196: ID = seq
+Line 1196: ;
+Line 1198: ID = do
+Line 1198: {
+Line 1199: ID = seq
+Line 1199: =
+Line 1199: ID = read_seqbegin
+Line 1199: (
+Line 1199: Unrecognized token: 38
+Line 1199: ID = xtime_lock
+Line 1199: )
+Line 1199: ;
+Line 1200: ID = do_gettimeofday
+Line 1200: (
+Line 1200: Unrecognized token: 38
+Line 1200: ID = tpv
+Line 1200: )
+Line 1200: ;
+Line 1201: *
+Line 1201: ID = mo
+Line 1201: =
+Line 1201: ID = wall_to_monotonic
+Line 1201: ;
+Line 1202: ID = jiff
+Line 1202: =
+Line 1202: ID = jiffies_64
+Line 1202: ;
+Line 1204: }
+Line 1204: while
+Line 1204: (
+Line 1204: ID = read_seqretry
+Line 1204: (
+Line 1204: Unrecognized token: 38
+Line 1204: ID = xtime_lock
+Line 1204: ,
+Line 1204: ID = seq
+Line 1204: )
+Line 1204: )
+Line 1204: ;
+Line 1210: ID = tp
+Line 1210: -
+Line 1210: >
+Line 1210: ID = tv_sec
+Line 1210: =
+Line 1210: ID = tpv
+Line 1210: Unrecognized token: 46
+Line 1210: ID = tv_sec
+Line 1210: ;
+Line 1211: ID = tp
+Line 1211: -
+Line 1211: >
+Line 1211: ID = tv_nsec
+Line 1211: =
+Line 1211: ID = tpv
+Line 1211: Unrecognized token: 46
+Line 1211: ID = tv_usec
+Line 1211: *
+Line 1211: ID = NSEC_PER_USEC
+Line 1211: ;
+Line 1213: return
+Line 1213: ID = jiff
+Line 1213: ;
+Line 1214: }
+Line 1216: int
+Line 1216: ID = do_posix_clock_monotonic_gettime
+Line 1216: (
+Line 1216: ID = struct
+Line 1216: ID = timespec
+Line 1216: *
+Line 1216: ID = tp
+Line 1216: )
+Line 1217: {
+Line 1218: ID = struct
+Line 1218: ID = timespec
+Line 1218: ID = wall_to_mono
+Line 1218: ;
+Line 1220: ID = do_posix_clock_monotonic_gettime_parts
+Line 1220: (
+Line 1220: ID = tp
+Line 1220: ,
+Line 1220: Unrecognized token: 38
+Line 1220: ID = wall_to_mono
+Line 1220: )
+Line 1220: ;
+Line 1222: ID = tp
+Line 1222: -
+Line 1222: >
+Line 1222: ID = tv_sec
+Line 1222: +
+Line 1222: =
+Line 1222: ID = wall_to_mono
+Line 1222: Unrecognized token: 46
+Line 1222: ID = tv_sec
+Line 1222: ;
+Line 1223: ID = tp
+Line 1223: -
+Line 1223: >
+Line 1223: ID = tv_nsec
+Line 1223: +
+Line 1223: =
+Line 1223: ID = wall_to_mono
+Line 1223: Unrecognized token: 46
+Line 1223: ID = tv_nsec
+Line 1223: ;
+Line 1225: if
+Line 1225: (
+Line 1225: (
+Line 1225: ID = tp
+Line 1225: -
+Line 1225: >
+Line 1225: ID = tv_nsec
+Line 1225: -
+Line 1225: ID = NSEC_PER_SEC
+Line 1225: )
+Line 1225: >
+Line 1225: INTCON = 0
+Line 1225: )
+Line 1225: {
+Line 1226: ID = tp
+Line 1226: -
+Line 1226: >
+Line 1226: ID = tv_nsec
+Line 1226: -
+Line 1226: =
+Line 1226: ID = NSEC_PER_SEC
+Line 1226: ;
+Line 1227: ID = tp
+Line 1227: -
+Line 1227: >
+Line 1227: ID = tv_sec
+Line 1227: +
+Line 1227: +
+Line 1227: ;
+Line 1228: }
+Line 1229: return
+Line 1229: INTCON = 0
+Line 1229: ;
+Line 1230: }
+Line 1232: int
+Line 1232: ID = do_posix_clock_monotonic_settime
+Line 1232: (
+Line 1232: ID = struct
+Line 1232: ID = timespec
+Line 1232: *
+Line 1232: ID = tp
+Line 1232: )
+Line 1233: {
+Line 1234: return
+Line 1234: -
+Line 1234: ID = EINVAL
+Line 1234: ;
+Line 1235: }
+Line 1237: ID = asmlinkage
+Line 1237: ID = long
+Line 1238: ID = sys_clock_settime
+Line 1238: (
+Line 1238: ID = clockid_t
+Line 1238: ID = which_clock
+Line 1238: ,
+Line 1238: ID = const
+Line 1238: ID = struct
+Line 1238: ID = timespec
+Line 1238: Unrecognized token: 95
+Line 1238: Unrecognized token: 95
+Line 1238: ID = user
+Line 1238: *
+Line 1238: ID = tp
+Line 1238: )
+Line 1239: {
+Line 1240: ID = struct
+Line 1240: ID = timespec
+Line 1240: ID = new_tp
+Line 1240: ;
+Line 1242: if
+Line 1242: (
+Line 1242: (
+Line 1242: ID = unsigned
+Line 1242: )
+Line 1242: ID = which_clock
+Line 1242: >=
+Line 1242: ID = MAX_CLOCKS
+Line 1242: ||
+Line 1243: !
+Line 1243: ID = posix_clocks
+Line 1243: [
+Line 1243: ID = which_clock
+Line 1243: ]
+Line 1243: Unrecognized token: 46
+Line 1243: ID = res
+Line 1243: )
+Line 1244: return
+Line 1244: -
+Line 1244: ID = EINVAL
+Line 1244: ;
+Line 1245: if
+Line 1245: (
+Line 1245: ID = copy_from_user
+Line 1245: (
+Line 1245: Unrecognized token: 38
+Line 1245: ID = new_tp
+Line 1245: ,
+Line 1245: ID = tp
+Line 1245: ,
+Line 1245: ID = sizeof
+Line 1245: (
+Line 1245: *
+Line 1245: ID = tp
+Line 1245: )
+Line 1245: )
+Line 1245: )
+Line 1246: return
+Line 1246: -
+Line 1246: ID = EFAULT
+Line 1246: ;
+Line 1247: if
+Line 1247: (
+Line 1247: ID = posix_clocks
+Line 1247: [
+Line 1247: ID = which_clock
+Line 1247: ]
+Line 1247: Unrecognized token: 46
+Line 1247: ID = clock_set
+Line 1247: )
+Line 1248: return
+Line 1248: ID = posix_clocks
+Line 1248: [
+Line 1248: ID = which_clock
+Line 1248: ]
+Line 1248: Unrecognized token: 46
+Line 1248: ID = clock_set
+Line 1248: (
+Line 1248: Unrecognized token: 38
+Line 1248: ID = new_tp
+Line 1248: )
+Line 1248: ;
+Line 1250: return
+Line 1250: ID = do_sys_settimeofday
+Line 1250: (
+Line 1250: Unrecognized token: 38
+Line 1250: ID = new_tp
+Line 1250: ,
+Line 1250: ID = NULL
+Line 1250: )
+Line 1250: ;
+Line 1251: }
+Line 1253: ID = asmlinkage
+Line 1253: ID = long
+Line 1254: ID = sys_clock_gettime
+Line 1254: (
+Line 1254: ID = clockid_t
+Line 1254: ID = which_clock
+Line 1254: ,
+Line 1254: ID = struct
+Line 1254: ID = timespec
+Line 1254: Unrecognized token: 95
+Line 1254: Unrecognized token: 95
+Line 1254: ID = user
+Line 1254: *
+Line 1254: ID = tp
+Line 1254: )
+Line 1255: {
+Line 1256: ID = struct
+Line 1256: ID = timespec
+Line 1256: ID = rtn_tp
+Line 1256: ;
+Line 1257: int
+Line 1257: ID = error
+Line 1257: =
+Line 1257: INTCON = 0
+Line 1257: ;
+Line 1259: if
+Line 1259: (
+Line 1259: (
+Line 1259: ID = unsigned
+Line 1259: )
+Line 1259: ID = which_clock
+Line 1259: >=
+Line 1259: ID = MAX_CLOCKS
+Line 1259: ||
+Line 1260: !
+Line 1260: ID = posix_clocks
+Line 1260: [
+Line 1260: ID = which_clock
+Line 1260: ]
+Line 1260: Unrecognized token: 46
+Line 1260: ID = res
+Line 1260: )
+Line 1261: return
+Line 1261: -
+Line 1261: ID = EINVAL
+Line 1261: ;
+Line 1263: ID = error
+Line 1263: =
+Line 1263: ID = do_posix_gettime
+Line 1263: (
+Line 1263: Unrecognized token: 38
+Line 1263: ID = posix_clocks
+Line 1263: [
+Line 1263: ID = which_clock
+Line 1263: ]
+Line 1263: ,
+Line 1263: Unrecognized token: 38
+Line 1263: ID = rtn_tp
+Line 1263: )
+Line 1263: ;
+Line 1265: if
+Line 1265: (
+Line 1265: !
+Line 1265: ID = error
+Line 1265: &&
+Line 1265: ID = copy_to_user
+Line 1265: (
+Line 1265: ID = tp
+Line 1265: ,
+Line 1265: Unrecognized token: 38
+Line 1265: ID = rtn_tp
+Line 1265: ,
+Line 1265: ID = sizeof
+Line 1265: (
+Line 1265: ID = rtn_tp
+Line 1265: )
+Line 1265: )
+Line 1265: )
+Line 1266: ID = error
+Line 1266: =
+Line 1266: -
+Line 1266: ID = EFAULT
+Line 1266: ;
+Line 1268: return
+Line 1268: ID = error
+Line 1268: ;
+Line 1270: }
+Line 1272: ID = asmlinkage
+Line 1272: ID = long
+Line 1273: ID = sys_clock_getres
+Line 1273: (
+Line 1273: ID = clockid_t
+Line 1273: ID = which_clock
+Line 1273: ,
+Line 1273: ID = struct
+Line 1273: ID = timespec
+Line 1273: Unrecognized token: 95
+Line 1273: Unrecognized token: 95
+Line 1273: ID = user
+Line 1273: *
+Line 1273: ID = tp
+Line 1273: )
+Line 1274: {
+Line 1275: ID = struct
+Line 1275: ID = timespec
+Line 1275: ID = rtn_tp
+Line 1275: ;
+Line 1277: if
+Line 1277: (
+Line 1277: (
+Line 1277: ID = unsigned
+Line 1277: )
+Line 1277: ID = which_clock
+Line 1277: >=
+Line 1277: ID = MAX_CLOCKS
+Line 1277: ||
+Line 1278: !
+Line 1278: ID = posix_clocks
+Line 1278: [
+Line 1278: ID = which_clock
+Line 1278: ]
+Line 1278: Unrecognized token: 46
+Line 1278: ID = res
+Line 1278: )
+Line 1279: return
+Line 1279: -
+Line 1279: ID = EINVAL
+Line 1279: ;
+Line 1281: ID = rtn_tp
+Line 1281: Unrecognized token: 46
+Line 1281: ID = tv_sec
+Line 1281: =
+Line 1281: INTCON = 0
+Line 1281: ;
+Line 1282: ID = rtn_tp
+Line 1282: Unrecognized token: 46
+Line 1282: ID = tv_nsec
+Line 1282: =
+Line 1282: ID = posix_clocks
+Line 1282: [
+Line 1282: ID = which_clock
+Line 1282: ]
+Line 1282: Unrecognized token: 46
+Line 1282: ID = res
+Line 1282: ;
+Line 1283: if
+Line 1283: (
+Line 1283: ID = tp
+Line 1283: &&
+Line 1283: ID = copy_to_user
+Line 1283: (
+Line 1283: ID = tp
+Line 1283: ,
+Line 1283: Unrecognized token: 38
+Line 1283: ID = rtn_tp
+Line 1283: ,
+Line 1283: ID = sizeof
+Line 1283: (
+Line 1283: ID = rtn_tp
+Line 1283: )
+Line 1283: )
+Line 1283: )
+Line 1284: return
+Line 1284: -
+Line 1284: ID = EFAULT
+Line 1284: ;
+Line 1286: return
+Line 1286: INTCON = 0
+Line 1286: ;
+Line 1288: }
+Line 1290: ID = static
+Line 1290: void
+Line 1290: ID = nanosleep_wake_up
+Line 1290: (
+Line 1290: ID = unsigned
+Line 1290: ID = long
+Line 1290: Unrecognized token: 95
+Line 1290: Unrecognized token: 95
+Line 1290: ID = data
+Line 1290: )
+Line 1291: {
+Line 1292: ID = struct
+Line 1292: ID = task_struct
+Line 1292: *
+Line 1292: ID = p
+Line 1292: =
+Line 1292: (
+Line 1292: ID = struct
+Line 1292: ID = task_struct
+Line 1292: *
+Line 1292: )
+Line 1292: Unrecognized token: 95
+Line 1292: Unrecognized token: 95
+Line 1292: ID = data
+Line 1292: ;
+Line 1294: ID = wake_up_process
+Line 1294: (
+Line 1294: ID = p
+Line 1294: )
+Line 1294: ;
+Line 1295: }
+Line 1315: ID = static
+Line 1315: ID = DECLARE_WAIT_QUEUE_HEAD
+Line 1315: (
+Line 1315: ID = nanosleep_abs_wqueue
+Line 1315: )
+Line 1315: ;
+Line 1316: ID = static
+Line 1316: ID = DECLARE_WORK
+Line 1316: (
+Line 1316: ID = clock_was_set_work
+Line 1316: ,
+Line 1316: (
+Line 1316: void
+Line 1316: (
+Line 1316: *
+Line 1316: )
+Line 1316: (
+Line 1316: void
+Line 1316: *
+Line 1316: )
+Line 1316: )
+Line 1316: ID = clock_was_set
+Line 1316: ,
+Line 1316: ID = NULL
+Line 1316: )
+Line 1316: ;
+Line 1318: ID = static
+Line 1318: ID = DECLARE_MUTEX
+Line 1318: (
+Line 1318: ID = clock_was_set_lock
+Line 1318: )
+Line 1318: ;
+Line 1320: void
+Line 1320: ID = clock_was_set
+Line 1320: (
+Line 1320: void
+Line 1320: )
+Line 1321: {
+Line 1322: ID = struct
+Line 1322: ID = k_itimer
+Line 1322: *
+Line 1322: ID = timr
+Line 1322: ;
+Line 1323: ID = struct
+Line 1323: ID = timespec
+Line 1323: ID = new_wall_to
+Line 1323: ;
+Line 1324: ID = LIST_HEAD
+Line 1324: (
+Line 1324: ID = cws_list
+Line 1324: )
+Line 1324: ;
+Line 1325: ID = unsigned
+Line 1325: ID = long
+Line 1325: ID = seq
+Line 1325: ;
+Line 1328: if
+Line 1328: (
+Line 1328: ID = unlikely
+Line 1328: (
+Line 1328: ID = in_interrupt
+Line 1328: (
+Line 1328: )
+Line 1328: )
+Line 1328: )
+Line 1328: {
+Line 1329: ID = schedule_work
+Line 1329: (
+Line 1329: Unrecognized token: 38
+Line 1329: ID = clock_was_set_work
+Line 1329: )
+Line 1329: ;
+Line 1330: return
+Line 1330: ;
+Line 1331: }
+Line 1332: ID = wake_up_all
+Line 1332: (
+Line 1332: Unrecognized token: 38
+Line 1332: ID = nanosleep_abs_wqueue
+Line 1332: )
+Line 1332: ;
+Line 1369: ID = down
+Line 1369: (
+Line 1369: Unrecognized token: 38
+Line 1369: ID = clock_was_set_lock
+Line 1369: )
+Line 1369: ;
+Line 1370: ID = spin_lock_irq
+Line 1370: (
+Line 1370: Unrecognized token: 38
+Line 1370: ID = abs_list
+Line 1370: Unrecognized token: 46
+Line 1370: ID = lock
+Line 1370: )
+Line 1370: ;
+Line 1371: ID = list_splice_init
+Line 1371: (
+Line 1371: Unrecognized token: 38
+Line 1371: ID = abs_list
+Line 1371: Unrecognized token: 46
+Line 1371: ID = list
+Line 1371: ,
+Line 1371: Unrecognized token: 38
+Line 1371: ID = cws_list
+Line 1371: )
+Line 1371: ;
+Line 1372: ID = spin_unlock_irq
+Line 1372: (
+Line 1372: Unrecognized token: 38
+Line 1372: ID = abs_list
+Line 1372: Unrecognized token: 46
+Line 1372: ID = lock
+Line 1372: )
+Line 1372: ;
+Line 1373: ID = do
+Line 1373: {
+Line 1374: ID = do
+Line 1374: {
+Line 1375: ID = seq
+Line 1375: =
+Line 1375: ID = read_seqbegin
+Line 1375: (
+Line 1375: Unrecognized token: 38
+Line 1375: ID = xtime_lock
+Line 1375: )
+Line 1375: ;
+Line 1376: ID = new_wall_to
+Line 1376: =
+Line 1376: ID = wall_to_monotonic
+Line 1376: ;
+Line 1377: }
+Line 1377: while
+Line 1377: (
+Line 1377: ID = read_seqretry
+Line 1377: (
+Line 1377: Unrecognized token: 38
+Line 1377: ID = xtime_lock
+Line 1377: ,
+Line 1377: ID = seq
+Line 1377: )
+Line 1377: )
+Line 1377: ;
+Line 1379: ID = spin_lock_irq
+Line 1379: (
+Line 1379: Unrecognized token: 38
+Line 1379: ID = abs_list
+Line 1379: Unrecognized token: 46
+Line 1379: ID = lock
+Line 1379: )
+Line 1379: ;
+Line 1380: if
+Line 1380: (
+Line 1380: ID = list_empty
+Line 1380: (
+Line 1380: Unrecognized token: 38
+Line 1380: ID = cws_list
+Line 1380: )
+Line 1380: )
+Line 1380: {
+Line 1381: ID = spin_unlock_irq
+Line 1381: (
+Line 1381: Unrecognized token: 38
+Line 1381: ID = abs_list
+Line 1381: Unrecognized token: 46
+Line 1381: ID = lock
+Line 1381: )
+Line 1381: ;
+Line 1382: ID = break
+Line 1382: ;
+Line 1383: }
+Line 1384: ID = timr
+Line 1384: =
+Line 1384: ID = list_entry
+Line 1384: (
+Line 1384: ID = cws_list
+Line 1384: Unrecognized token: 46
+Line 1384: ID = next
+Line 1384: ,
+Line 1384: ID = struct
+Line 1384: ID = k_itimer
+Line 1384: ,
+Line 1385: ID = abs_timer_entry
+Line 1385: )
+Line 1385: ;
+Line 1387: ID = list_del_init
+Line 1387: (
+Line 1387: Unrecognized token: 38
+Line 1387: ID = timr
+Line 1387: -
+Line 1387: >
+Line 1387: ID = abs_timer_entry
+Line 1387: )
+Line 1387: ;
+Line 1388: if
+Line 1388: (
+Line 1388: ID = add_clockset_delta
+Line 1388: (
+Line 1388: ID = timr
+Line 1388: ,
+Line 1388: Unrecognized token: 38
+Line 1388: ID = new_wall_to
+Line 1388: )
+Line 1388: &&
+Line 1389: ID = del_timer
+Line 1389: (
+Line 1389: Unrecognized token: 38
+Line 1389: ID = timr
+Line 1389: -
+Line 1389: >
+Line 1389: ID = it_timer
+Line 1389: )
+Line 1389: )
+Line 1390: ID = add_timer
+Line 1390: (
+Line 1390: Unrecognized token: 38
+Line 1390: ID = timr
+Line 1390: -
+Line 1390: >
+Line 1390: ID = it_timer
+Line 1390: )
+Line 1390: ;
+Line 1391: ID = list_add
+Line 1391: (
+Line 1391: Unrecognized token: 38
+Line 1391: ID = timr
+Line 1391: -
+Line 1391: >
+Line 1391: ID = abs_timer_entry
+Line 1391: ,
+Line 1391: Unrecognized token: 38
+Line 1391: ID = abs_list
+Line 1391: Unrecognized token: 46
+Line 1391: ID = list
+Line 1391: )
+Line 1391: ;
+Line 1392: ID = spin_unlock_irq
+Line 1392: (
+Line 1392: Unrecognized token: 38
+Line 1392: ID = abs_list
+Line 1392: Unrecognized token: 46
+Line 1392: ID = lock
+Line 1392: )
+Line 1392: ;
+Line 1393: }
+Line 1393: while
+Line 1393: (
+Line 1393: INTCON = 1
+Line 1393: )
+Line 1393: ;
+Line 1395: ID = up
+Line 1395: (
+Line 1395: Unrecognized token: 38
+Line 1395: ID = clock_was_set_lock
+Line 1395: )
+Line 1395: ;
+Line 1396: }
+Line 1398: ID = long
+Line 1398: ID = clock_nanosleep_restart
+Line 1398: (
+Line 1398: ID = struct
+Line 1398: ID = restart_block
+Line 1398: *
+Line 1398: ID = restart_block
+Line 1398: )
+Line 1398: ;
+Line 1400: extern
+Line 1400: ID = long
+Line 1400: ID = do_clock_nanosleep
+Line 1400: (
+Line 1400: ID = clockid_t
+Line 1400: ID = which_clock
+Line 1400: ,
+Line 1400: int
+Line 1400: ID = flags
+Line 1400: ,
+Line 1401: ID = struct
+Line 1401: ID = timespec
+Line 1401: *
+Line 1401: ID = t
+Line 1401: )
+Line 1401: ;
+Line 1403: ID = asmlinkage
+Line 1403: ID = long
+Line 1404: ID = sys_clock_nanosleep
+Line 1404: (
+Line 1404: ID = clockid_t
+Line 1404: ID = which_clock
+Line 1404: ,
+Line 1404: int
+Line 1404: ID = flags
+Line 1404: ,
+Line 1405: ID = const
+Line 1405: ID = struct
+Line 1405: ID = timespec
+Line 1405: Unrecognized token: 95
+Line 1405: Unrecognized token: 95
+Line 1405: ID = user
+Line 1405: *
+Line 1405: ID = rqtp
+Line 1405: ,
+Line 1406: ID = struct
+Line 1406: ID = timespec
+Line 1406: Unrecognized token: 95
+Line 1406: Unrecognized token: 95
+Line 1406: ID = user
+Line 1406: *
+Line 1406: ID = rmtp
+Line 1406: )
+Line 1407: {
+Line 1408: ID = struct
+Line 1408: ID = timespec
+Line 1408: ID = t
+Line 1408: ;
+Line 1409: ID = struct
+Line 1409: ID = restart_block
+Line 1409: *
+Line 1409: ID = restart_block
+Line 1409: =
+Line 1410: Unrecognized token: 38
+Line 1410: (
+Line 1410: ID = current_thread_info
+Line 1410: (
+Line 1410: )
+Line 1410: -
+Line 1410: >
+Line 1410: ID = restart_block
+Line 1410: )
+Line 1410: ;
+Line 1411: int
+Line 1411: ID = ret
+Line 1411: ;
+Line 1413: if
+Line 1413: (
+Line 1413: (
+Line 1413: ID = unsigned
+Line 1413: )
+Line 1413: ID = which_clock
+Line 1413: >=
+Line 1413: ID = MAX_CLOCKS
+Line 1413: ||
+Line 1414: !
+Line 1414: ID = posix_clocks
+Line 1414: [
+Line 1414: ID = which_clock
+Line 1414: ]
+Line 1414: Unrecognized token: 46
+Line 1414: ID = res
+Line 1414: )
+Line 1415: return
+Line 1415: -
+Line 1415: ID = EINVAL
+Line 1415: ;
+Line 1417: if
+Line 1417: (
+Line 1417: ID = copy_from_user
+Line 1417: (
+Line 1417: Unrecognized token: 38
+Line 1417: ID = t
+Line 1417: ,
+Line 1417: ID = rqtp
+Line 1417: ,
+Line 1417: ID = sizeof
+Line 1417: (
+Line 1417: ID = struct
+Line 1417: ID = timespec
+Line 1417: )
+Line 1417: )
+Line 1417: )
+Line 1418: return
+Line 1418: -
+Line 1418: ID = EFAULT
+Line 1418: ;
+Line 1420: if
+Line 1420: (
+Line 1420: (
+Line 1420: ID = unsigned
+Line 1420: )
+Line 1420: ID = t
+Line 1420: Unrecognized token: 46
+Line 1420: ID = tv_nsec
+Line 1420: >=
+Line 1420: ID = NSEC_PER_SEC
+Line 1420: ||
+Line 1420: ID = t
+Line 1420: Unrecognized token: 46
+Line 1420: ID = tv_sec
+Line 1420: <
+Line 1420: INTCON = 0
+Line 1420: )
+Line 1421: return
+Line 1421: -
+Line 1421: ID = EINVAL
+Line 1421: ;
+Line 1423: ID = ret
+Line 1423: =
+Line 1423: ID = do_clock_nanosleep
+Line 1423: (
+Line 1423: ID = which_clock
+Line 1423: ,
+Line 1423: ID = flags
+Line 1423: ,
+Line 1423: Unrecognized token: 38
+Line 1423: ID = t
+Line 1423: )
+Line 1423: ;
+Line 1427: ID = restart_block
+Line 1427: -
+Line 1427: >
+Line 1427: ID = arg1
+Line 1427: =
+Line 1427: (
+Line 1427: ID = unsigned
+Line 1427: ID = long
+Line 1427: )
+Line 1427: ID = rmtp
+Line 1427: ;
+Line 1429: if
+Line 1429: (
+Line 1429: (
+Line 1429: ID = ret
+Line 1429: ==
+Line 1429: -
+Line 1429: ID = ERESTART_RESTARTBLOCK
+Line 1429: )
+Line 1429: &&
+Line 1429: ID = rmtp
+Line 1429: &&
+Line 1430: ID = copy_to_user
+Line 1430: (
+Line 1430: ID = rmtp
+Line 1430: ,
+Line 1430: Unrecognized token: 38
+Line 1430: ID = t
+Line 1430: ,
+Line 1430: ID = sizeof
+Line 1430: (
+Line 1430: ID = t
+Line 1430: )
+Line 1430: )
+Line 1430: )
+Line 1431: return
+Line 1431: -
+Line 1431: ID = EFAULT
+Line 1431: ;
+Line 1432: return
+Line 1432: ID = ret
+Line 1432: ;
+Line 1433: }
+Line 1435: ID = long
+Line 1436: ID = do_clock_nanosleep
+Line 1436: (
+Line 1436: ID = clockid_t
+Line 1436: ID = which_clock
+Line 1436: ,
+Line 1436: int
+Line 1436: ID = flags
+Line 1436: ,
+Line 1436: ID = struct
+Line 1436: ID = timespec
+Line 1436: *
+Line 1436: ID = tsave
+Line 1436: )
+Line 1437: {
+Line 1438: ID = struct
+Line 1438: ID = timespec
+Line 1438: ID = t
+Line 1438: ,
+Line 1438: ID = dum
+Line 1438: ;
+Line 1439: ID = struct
+Line 1439: ID = timer_list
+Line 1439: ID = new_timer
+Line 1439: ;
+Line 1440: ID = DECLARE_WAITQUEUE
+Line 1440: (
+Line 1440: ID = abs_wqueue
+Line 1440: ,
+Line 1440: ID = current
+Line 1440: )
+Line 1440: ;
+Line 1441: ID = u64
+Line 1441: ID = rq_time
+Line 1441: =
+Line 1441: (
+Line 1441: ID = u64
+Line 1441: )
+Line 1441: INTCON = 0
+Line 1441: ;
+Line 1442: ID = s64
+Line 1442: ID = left
+Line 1442: ;
+Line 1443: int
+Line 1443: ID = abs
+Line 1443: ;
+Line 1444: ID = struct
+Line 1444: ID = restart_block
+Line 1444: *
+Line 1444: ID = restart_block
+Line 1444: =
+Line 1445: Unrecognized token: 38
+Line 1445: ID = current_thread_info
+Line 1445: (
+Line 1445: )
+Line 1445: -
+Line 1445: >
+Line 1445: ID = restart_block
+Line 1445: ;
+Line 1447: ID = abs_wqueue
+Line 1447: Unrecognized token: 46
+Line 1447: ID = flags
+Line 1447: =
+Line 1447: INTCON = 0
+Line 1447: ;
+Line 1448: ID = init_timer
+Line 1448: (
+Line 1448: Unrecognized token: 38
+Line 1448: ID = new_timer
+Line 1448: )
+Line 1448: ;
+Line 1449: ID = new_timer
+Line 1449: Unrecognized token: 46
+Line 1449: ID = expires
+Line 1449: =
+Line 1449: INTCON = 0
+Line 1449: ;
+Line 1450: ID = new_timer
+Line 1450: Unrecognized token: 46
+Line 1450: ID = data
+Line 1450: =
+Line 1450: (
+Line 1450: ID = unsigned
+Line 1450: ID = long
+Line 1450: )
+Line 1450: ID = current
+Line 1450: ;
+Line 1451: ID = new_timer
+Line 1451: Unrecognized token: 46
+Line 1451: ID = function
+Line 1451: =
+Line 1451: ID = nanosleep_wake_up
+Line 1451: ;
+Line 1452: ID = abs
+Line 1452: =
+Line 1452: ID = flags
+Line 1452: Unrecognized token: 38
+Line 1452: ID = TIMER_ABSTIME
+Line 1452: ;
+Line 1454: if
+Line 1454: (
+Line 1454: ID = restart_block
+Line 1454: -
+Line 1454: >
+Line 1454: ID = fn
+Line 1454: ==
+Line 1454: ID = clock_nanosleep_restart
+Line 1454: )
+Line 1454: {
+Line 1459: ID = restart_block
+Line 1459: -
+Line 1459: >
+Line 1459: ID = fn
+Line 1459: =
+Line 1459: ID = do_no_restart_syscall
+Line 1459: ;
+Line 1461: ID = rq_time
+Line 1461: =
+Line 1461: ID = restart_block
+Line 1461: -
+Line 1461: >
+Line 1461: ID = arg3
+Line 1461: ;
+Line 1462: ID = rq_time
+Line 1462: =
+Line 1462: (
+Line 1462: ID = rq_time
+Line 1462: <
+Line 1462: <
+Line 1462: INTCON = 32
+Line 1462: )
+Line 1462: +
+Line 1462: ID = restart_block
+Line 1462: -
+Line 1462: >
+Line 1462: ID = arg2
+Line 1462: ;
+Line 1463: if
+Line 1463: (
+Line 1463: !
+Line 1463: ID = rq_time
+Line 1463: )
+Line 1464: return
+Line 1464: -
+Line 1464: ID = EINTR
+Line 1464: ;
+Line 1465: ID = left
+Line 1465: =
+Line 1465: ID = rq_time
+Line 1465: -
+Line 1465: ID = get_jiffies_64
+Line 1465: (
+Line 1465: )
+Line 1465: ;
+Line 1466: if
+Line 1466: (
+Line 1466: ID = left
+Line 1466: <=
+Line 1466: (
+Line 1466: ID = s64
+Line 1466: )
+Line 1466: INTCON = 0
+Line 1466: )
+Line 1467: return
+Line 1467: INTCON = 0
+Line 1467: ;
+Line 1468: }
+Line 1470: if
+Line 1470: (
+Line 1470: ID = abs
+Line 1470: &&
+Line 1470: (
+Line 1470: ID = posix_clocks
+Line 1470: [
+Line 1470: ID = which_clock
+Line 1470: ]
+Line 1470: Unrecognized token: 46
+Line 1470: ID = clock_get
+Line 1470: !=
+Line 1471: ID = posix_clocks
+Line 1471: [
+Line 1471: ID = CLOCK_MONOTONIC
+Line 1471: ]
+Line 1471: Unrecognized token: 46
+Line 1471: ID = clock_get
+Line 1471: )
+Line 1471: )
+Line 1472: ID = add_wait_queue
+Line 1472: (
+Line 1472: Unrecognized token: 38
+Line 1472: ID = nanosleep_abs_wqueue
+Line 1472: ,
+Line 1472: Unrecognized token: 38
+Line 1472: ID = abs_wqueue
+Line 1472: )
+Line 1472: ;
+Line 1474: ID = do
+Line 1474: {
+Line 1475: ID = t
+Line 1475: =
+Line 1475: *
+Line 1475: ID = tsave
+Line 1475: ;
+Line 1476: if
+Line 1476: (
+Line 1476: ID = abs
+Line 1476: ||
+Line 1476: !
+Line 1476: ID = rq_time
+Line 1476: )
+Line 1476: {
+Line 1477: ID = adjust_abs_time
+Line 1477: (
+Line 1477: Unrecognized token: 38
+Line 1477: ID = posix_clocks
+Line 1477: [
+Line 1477: ID = which_clock
+Line 1477: ]
+Line 1477: ,
+Line 1477: Unrecognized token: 38
+Line 1477: ID = t
+Line 1477: ,
+Line 1477: ID = abs
+Line 1477: ,
+Line 1478: Unrecognized token: 38
+Line 1478: ID = rq_time
+Line 1478: ,
+Line 1478: Unrecognized token: 38
+Line 1478: ID = dum
+Line 1478: )
+Line 1478: ;
+Line 1479: ID = rq_time
+Line 1479: +
+Line 1479: =
+Line 1479: (
+Line 1479: ID = t
+Line 1479: Unrecognized token: 46
+Line 1479: ID = tv_sec
+Line 1479: ||
+Line 1479: ID = t
+Line 1479: Unrecognized token: 46
+Line 1479: ID = tv_nsec
+Line 1479: )
+Line 1479: ;
+Line 1480: }
+Line 1482: ID = left
+Line 1482: =
+Line 1482: ID = rq_time
+Line 1482: -
+Line 1482: ID = get_jiffies_64
+Line 1482: (
+Line 1482: )
+Line 1482: ;
+Line 1483: if
+Line 1483: (
+Line 1483: ID = left
+Line 1483: >=
+Line 1483: (
+Line 1483: ID = s64
+Line 1483: )
+Line 1483: ID = MAX_JIFFY_OFFSET
+Line 1483: )
+Line 1484: ID = left
+Line 1484: =
+Line 1484: (
+Line 1484: ID = s64
+Line 1484: )
+Line 1484: ID = MAX_JIFFY_OFFSET
+Line 1484: ;
+Line 1485: if
+Line 1485: (
+Line 1485: ID = left
+Line 1485: <
+Line 1485: (
+Line 1485: ID = s64
+Line 1485: )
+Line 1485: INTCON = 0
+Line 1485: )
+Line 1486: ID = break
+Line 1486: ;
+Line 1488: ID = new_timer
+Line 1488: Unrecognized token: 46
+Line 1488: ID = expires
+Line 1488: =
+Line 1488: ID = jiffies
+Line 1488: +
+Line 1488: ID = left
+Line 1488: ;
+Line 1489: Unrecognized token: 95
+Line 1489: Unrecognized token: 95
+Line 1489: ID = set_current_state
+Line 1489: (
+Line 1489: ID = TASK_INTERRUPTIBLE
+Line 1489: )
+Line 1489: ;
+Line 1490: ID = add_timer
+Line 1490: (
+Line 1490: Unrecognized token: 38
+Line 1490: ID = new_timer
+Line 1490: )
+Line 1490: ;
+Line 1492: ID = schedule
+Line 1492: (
+Line 1492: )
+Line 1492: ;
+Line 1494: ID = del_timer_sync
+Line 1494: (
+Line 1494: Unrecognized token: 38
+Line 1494: ID = new_timer
+Line 1494: )
+Line 1494: ;
+Line 1495: ID = left
+Line 1495: =
+Line 1495: ID = rq_time
+Line 1495: -
+Line 1495: ID = get_jiffies_64
+Line 1495: (
+Line 1495: )
+Line 1495: ;
+Line 1496: }
+Line 1496: while
+Line 1496: (
+Line 1496: ID = left
+Line 1496: >
+Line 1496: (
+Line 1496: ID = s64
+Line 1496: )
+Line 1496: INTCON = 0
+Line 1496: &&
+Line 1496: !
+Line 1496: ID = test_thread_flag
+Line 1496: (
+Line 1496: ID = TIF_SIGPENDING
+Line 1496: )
+Line 1496: )
+Line 1496: ;
+Line 1498: if
+Line 1498: (
+Line 1498: ID = abs_wqueue
+Line 1498: Unrecognized token: 46
+Line 1498: ID = task_list
+Line 1498: Unrecognized token: 46
+Line 1498: ID = next
+Line 1498: )
+Line 1499: ID = finish_wait
+Line 1499: (
+Line 1499: Unrecognized token: 38
+Line 1499: ID = nanosleep_abs_wqueue
+Line 1499: ,
+Line 1499: Unrecognized token: 38
+Line 1499: ID = abs_wqueue
+Line 1499: )
+Line 1499: ;
+Line 1501: if
+Line 1501: (
+Line 1501: ID = left
+Line 1501: >
+Line 1501: (
+Line 1501: ID = s64
+Line 1501: )
+Line 1501: INTCON = 0
+Line 1501: )
+Line 1501: {
+Line 1507: if
+Line 1507: (
+Line 1507: ID = abs
+Line 1507: )
+Line 1508: return
+Line 1508: -
+Line 1508: ID = ERESTARTNOHAND
+Line 1508: ;
+Line 1510: ID = left
+Line 1510: *
+Line 1510: =
+Line 1510: ID = TICK_NSEC
+Line 1510: ;
+Line 1511: ID = tsave
+Line 1511: -
+Line 1511: >
+Line 1511: ID = tv_sec
+Line 1511: =
+Line 1511: ID = div_long_long_rem
+Line 1511: (
+Line 1511: ID = left
+Line 1511: ,
+Line 1512: ID = NSEC_PER_SEC
+Line 1512: ,
+Line 1513: Unrecognized token: 38
+Line 1513: ID = tsave
+Line 1513: -
+Line 1513: >
+Line 1513: ID = tv_nsec
+Line 1513: )
+Line 1513: ;
+Line 1523: ID = restart_block
+Line 1523: -
+Line 1523: >
+Line 1523: ID = fn
+Line 1523: =
+Line 1523: ID = clock_nanosleep_restart
+Line 1523: ;
+Line 1524: ID = restart_block
+Line 1524: -
+Line 1524: >
+Line 1524: ID = arg0
+Line 1524: =
+Line 1524: ID = which_clock
+Line 1524: ;
+Line 1528: ID = restart_block
+Line 1528: -
+Line 1528: >
+Line 1528: ID = arg2
+Line 1528: =
+Line 1528: ID = rq_time
+Line 1528: Unrecognized token: 38
+Line 1528: INTCON = 0
+Line 1528: ID = xffffffffLL
+Line 1528: ;
+Line 1529: ID = restart_block
+Line 1529: -
+Line 1529: >
+Line 1529: ID = arg3
+Line 1529: =
+Line 1529: ID = rq_time
+Line 1529: >
+Line 1529: >
+Line 1529: INTCON = 32
+Line 1529: ;
+Line 1531: return
+Line 1531: -
+Line 1531: ID = ERESTART_RESTARTBLOCK
+Line 1531: ;
+Line 1532: }
+Line 1534: return
+Line 1534: INTCON = 0
+Line 1534: ;
+Line 1535: }
+Line 1539: ID = long
+Line 1540: ID = clock_nanosleep_restart
+Line 1540: (
+Line 1540: ID = struct
+Line 1540: ID = restart_block
+Line 1540: *
+Line 1540: ID = restart_block
+Line 1540: )
+Line 1541: {
+Line 1542: ID = struct
+Line 1542: ID = timespec
+Line 1542: ID = t
+Line 1542: ;
+Line 1543: int
+Line 1543: ID = ret
+Line 1543: =
+Line 1543: ID = do_clock_nanosleep
+Line 1543: (
+Line 1543: ID = restart_block
+Line 1543: -
+Line 1543: >
+Line 1543: ID = arg0
+Line 1543: ,
+Line 1543: INTCON = 0
+Line 1543: ,
+Line 1543: Unrecognized token: 38
+Line 1543: ID = t
+Line 1543: )
+Line 1543: ;
+Line 1545: if
+Line 1545: (
+Line 1545: (
+Line 1545: ID = ret
+Line 1545: ==
+Line 1545: -
+Line 1545: ID = ERESTART_RESTARTBLOCK
+Line 1545: )
+Line 1545: &&
+Line 1545: ID = restart_block
+Line 1545: -
+Line 1545: >
+Line 1545: ID = arg1
+Line 1545: &&
+Line 1546: ID = copy_to_user
+Line 1546: (
+Line 1546: (
+Line 1546: ID = struct
+Line 1546: ID = timespec
+Line 1546: Unrecognized token: 95
+Line 1546: Unrecognized token: 95
+Line 1546: ID = user
+Line 1546: *
+Line 1546: )
+Line 1546: (
+Line 1546: ID = restart_block
+Line 1546: -
+Line 1546: >
+Line 1546: ID = arg1
+Line 1546: )
+Line 1546: ,
+Line 1546: Unrecognized token: 38
+Line 1546: ID = t
+Line 1546: ,
+Line 1547: ID = sizeof
+Line 1547: (
+Line 1547: ID = t
+Line 1547: )
+Line 1547: )
+Line 1547: )
+Line 1548: return
+Line 1548: -
+Line 1548: ID = EFAULT
+Line 1548: ;
+Line 1549: return
+Line 1549: ID = ret
+Line 1549: ;
+Line 1550: }
+Line 1551: -EOF-

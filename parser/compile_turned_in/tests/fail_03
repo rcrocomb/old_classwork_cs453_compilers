@@ -1,0 +1,7 @@
+char array[]; /* Must have intcon */
+
+char bob;
+
+int monkey;
+
+

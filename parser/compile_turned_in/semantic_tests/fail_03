@@ -1,0 +1,100 @@
+/* Testing type compatibility: int is not compatible with bool */
+
+void alpha(void)
+{
+    int a;
+    a = 1 < 2;
+}
+
+void bravo(void)
+{
+    int a;
+    a = 1 <= 2;
+}
+
+void charle(void)
+{
+    int a;
+    a = 1 > 2;
+}
+
+void delta(void)
+{
+    int a;
+    a = 1 >= 2;
+}
+
+void echo(void)
+{
+    int a;
+    a = 1 == 2;
+}
+
+void foxtrot(void)
+{
+    int a;
+    a = 1 != 2;
+}
+
+void golf(void)
+{
+    int a;
+    a = 1 && 2;
+}
+
+void hotel(void)
+{
+    int a;
+    a = 1 || 2;
+}
+
+/* Try with char instead */
+
+void india(void)
+{
+    char a;
+    a = 1 < 2;
+}
+
+void juliet(void)
+{
+    char a;
+    a = 1 <= 2;
+}
+
+void kilo(void)
+{
+    char a;
+    a = 1 > 2;
+}
+
+void lima(void)
+{
+    char a;
+    a = 1 >= 2;
+}
+
+void mike(void)
+{
+    char a;
+    a = 1 == 2;
+}
+
+void november(void)
+{
+    char a;
+    a = 1 != 2;
+}
+
+void oscar(void)
+{
+    char a;
+    a = 1 && 2;
+}
+
+void papa(void)
+{
+    char a;
+    a = 1 || 2;
+}
+

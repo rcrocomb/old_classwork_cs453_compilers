@@ -1,0 +1,32 @@
+void alpha(void)
+{
+    int a, b;
+    if ( a + b);
+    if ( a - b);
+    if ( a * b);
+    if ( a / b);
+    if ( !a );
+    if ( -a );
+}
+
+void bravo(void)
+{
+    int a, b;
+    while (a + b);
+    while (a - b);
+    while (a * b);
+    while (a / b);
+    while ( !a );
+    while ( -a );
+}
+
+void charlie(void)
+{
+    int a, b;
+    for (a = 1; a + b; a = a + 1);
+    for (a = 1; a - b; a = a + 1);
+    for (a = 1; a * b; a = a + 1);
+    for (a = 1; a / b; a = a + 1);
+    for (a = 1; !a ; a = a + 1);
+}
+

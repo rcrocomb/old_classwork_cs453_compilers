@@ -1,0 +1,504 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = module
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = string
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = stat
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = slab
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = smp_lock
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = binfmts
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = elf
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = init
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = fs
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = file
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = errno
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 24: Unrecognized token: 35
+Line 24: ID = define
+Line 24: ID = EM86_INTERP
+Line 24: STRINGCON = "/usr/bin/em86"
+Line 25: Unrecognized token: 35
+Line 25: ID = define
+Line 25: ID = EM86_I_NAME
+Line 25: STRINGCON = "em86"
+Line 27: ID = static
+Line 27: int
+Line 27: ID = load_em86
+Line 27: (
+Line 27: ID = struct
+Line 27: ID = linux_binprm
+Line 27: *
+Line 27: ID = bprm
+Line 27: ,
+Line 27: ID = struct
+Line 27: ID = pt_regs
+Line 27: *
+Line 27: ID = regs
+Line 27: )
+Line 28: {
+Line 29: char
+Line 29: *
+Line 29: ID = interp
+Line 29: ,
+Line 29: *
+Line 29: ID = i_name
+Line 29: ,
+Line 29: *
+Line 29: ID = i_arg
+Line 29: ;
+Line 30: ID = struct
+Line 30: ID = file
+Line 30: *
+Line 30: ID = file
+Line 30: ;
+Line 31: int
+Line 31: ID = retval
+Line 31: ;
+Line 32: ID = struct
+Line 32: ID = elfhdr
+Line 32: ID = elf_ex
+Line 32: ;
+Line 35: ID = elf_ex
+Line 35: =
+Line 35: *
+Line 35: (
+Line 35: (
+Line 35: ID = struct
+Line 35: ID = elfhdr
+Line 35: *
+Line 35: )
+Line 35: ID = bprm
+Line 35: -
+Line 35: >
+Line 35: ID = buf
+Line 35: )
+Line 35: ;
+Line 37: if
+Line 37: (
+Line 37: ID = memcmp
+Line 37: (
+Line 37: ID = elf_ex
+Line 37: Unrecognized token: 46
+Line 37: ID = e_ident
+Line 37: ,
+Line 37: ID = ELFMAG
+Line 37: ,
+Line 37: ID = SELFMAG
+Line 37: )
+Line 37: !=
+Line 37: INTCON = 0
+Line 37: )
+Line 38: return
+Line 38: -
+Line 38: ID = ENOEXEC
+Line 38: ;
+Line 41: if
+Line 41: (
+Line 41: (
+Line 41: ID = elf_ex
+Line 41: Unrecognized token: 46
+Line 41: ID = e_type
+Line 41: !=
+Line 41: ID = ET_EXEC
+Line 41: &&
+Line 41: ID = elf_ex
+Line 41: Unrecognized token: 46
+Line 41: ID = e_type
+Line 41: !=
+Line 41: ID = ET_DYN
+Line 41: )
+Line 41: ||
+Line 42: (
+Line 42: !
+Line 42: (
+Line 42: (
+Line 42: ID = elf_ex
+Line 42: Unrecognized token: 46
+Line 42: ID = e_machine
+Line 42: ==
+Line 42: ID = EM_386
+Line 42: )
+Line 42: ||
+Line 42: (
+Line 42: ID = elf_ex
+Line 42: Unrecognized token: 46
+Line 42: ID = e_machine
+Line 42: ==
+Line 42: ID = EM_486
+Line 42: )
+Line 42: )
+Line 42: )
+Line 42: ||
+Line 43: (
+Line 43: !
+Line 43: ID = bprm
+Line 43: -
+Line 43: >
+Line 43: ID = file
+Line 43: -
+Line 43: >
+Line 43: ID = f_op
+Line 43: ||
+Line 43: !
+Line 43: ID = bprm
+Line 43: -
+Line 43: >
+Line 43: ID = file
+Line 43: -
+Line 43: >
+Line 43: ID = f_op
+Line 43: -
+Line 43: >
+Line 43: ID = mmap
+Line 43: )
+Line 43: )
+Line 43: {
+Line 44: return
+Line 44: -
+Line 44: ID = ENOEXEC
+Line 44: ;
+Line 45: }
+Line 47: ID = bprm
+Line 47: -
+Line 47: >
+Line 47: ID = sh_bang
+Line 47: +
+Line 47: +
+Line 47: ;
+Line 48: ID = allow_write_access
+Line 48: (
+Line 48: ID = bprm
+Line 48: -
+Line 48: >
+Line 48: ID = file
+Line 48: )
+Line 48: ;
+Line 49: ID = fput
+Line 49: (
+Line 49: ID = bprm
+Line 49: -
+Line 49: >
+Line 49: ID = file
+Line 49: )
+Line 49: ;
+Line 50: ID = bprm
+Line 50: -
+Line 50: >
+Line 50: ID = file
+Line 50: =
+Line 50: ID = NULL
+Line 50: ;
+Line 55: ID = interp
+Line 55: =
+Line 55: ID = EM86_INTERP
+Line 55: ;
+Line 56: ID = i_name
+Line 56: =
+Line 56: ID = EM86_I_NAME
+Line 56: ;
+Line 57: ID = i_arg
+Line 57: =
+Line 57: ID = NULL
+Line 57: ;
+Line 67: ID = remove_arg_zero
+Line 67: (
+Line 67: ID = bprm
+Line 67: )
+Line 67: ;
+Line 68: ID = retval
+Line 68: =
+Line 68: ID = copy_strings_kernel
+Line 68: (
+Line 68: INTCON = 1
+Line 68: ,
+Line 68: Unrecognized token: 38
+Line 68: ID = bprm
+Line 68: -
+Line 68: >
+Line 68: ID = filename
+Line 68: ,
+Line 68: ID = bprm
+Line 68: )
+Line 68: ;
+Line 69: if
+Line 69: (
+Line 69: ID = retval
+Line 69: <
+Line 69: INTCON = 0
+Line 69: )
+Line 69: return
+Line 69: ID = retval
+Line 69: ;
+Line 70: ID = bprm
+Line 70: -
+Line 70: >
+Line 70: ID = argc
+Line 70: +
+Line 70: +
+Line 70: ;
+Line 71: if
+Line 71: (
+Line 71: ID = i_arg
+Line 71: )
+Line 71: {
+Line 72: ID = retval
+Line 72: =
+Line 72: ID = copy_strings_kernel
+Line 72: (
+Line 72: INTCON = 1
+Line 72: ,
+Line 72: Unrecognized token: 38
+Line 72: ID = i_arg
+Line 72: ,
+Line 72: ID = bprm
+Line 72: )
+Line 72: ;
+Line 73: if
+Line 73: (
+Line 73: ID = retval
+Line 73: <
+Line 73: INTCON = 0
+Line 73: )
+Line 73: return
+Line 73: ID = retval
+Line 73: ;
+Line 74: ID = bprm
+Line 74: -
+Line 74: >
+Line 74: ID = argc
+Line 74: +
+Line 74: +
+Line 74: ;
+Line 75: }
+Line 76: ID = retval
+Line 76: =
+Line 76: ID = copy_strings_kernel
+Line 76: (
+Line 76: INTCON = 1
+Line 76: ,
+Line 76: Unrecognized token: 38
+Line 76: ID = i_name
+Line 76: ,
+Line 76: ID = bprm
+Line 76: )
+Line 76: ;
+Line 77: if
+Line 77: (
+Line 77: ID = retval
+Line 77: <
+Line 77: INTCON = 0
+Line 77: )
+Line 77: return
+Line 77: ID = retval
+Line 77: ;
+Line 78: ID = bprm
+Line 78: -
+Line 78: >
+Line 78: ID = argc
+Line 78: +
+Line 78: +
+Line 78: ;
+Line 85: ID = file
+Line 85: =
+Line 85: ID = open_exec
+Line 85: (
+Line 85: ID = interp
+Line 85: )
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: ID = IS_ERR
+Line 86: (
+Line 86: ID = file
+Line 86: )
+Line 86: )
+Line 87: return
+Line 87: ID = PTR_ERR
+Line 87: (
+Line 87: ID = file
+Line 87: )
+Line 87: ;
+Line 89: ID = bprm
+Line 89: -
+Line 89: >
+Line 89: ID = file
+Line 89: =
+Line 89: ID = file
+Line 89: ;
+Line 91: ID = retval
+Line 91: =
+Line 91: ID = prepare_binprm
+Line 91: (
+Line 91: ID = bprm
+Line 91: )
+Line 91: ;
+Line 92: if
+Line 92: (
+Line 92: ID = retval
+Line 92: <
+Line 92: INTCON = 0
+Line 92: )
+Line 93: return
+Line 93: ID = retval
+Line 93: ;
+Line 95: return
+Line 95: ID = search_binary_handler
+Line 95: (
+Line 95: ID = bprm
+Line 95: ,
+Line 95: ID = regs
+Line 95: )
+Line 95: ;
+Line 96: }
+Line 98: ID = struct
+Line 98: ID = linux_binfmt
+Line 98: ID = em86_format
+Line 98: =
+Line 98: {
+Line 99: Unrecognized token: 46
+Line 99: ID = module
+Line 99: =
+Line 99: ID = THIS_MODULE
+Line 99: ,
+Line 100: Unrecognized token: 46
+Line 100: ID = load_binary
+Line 100: =
+Line 100: ID = load_em86
+Line 100: ,
+Line 101: }
+Line 101: ;
+Line 103: ID = static
+Line 103: int
+Line 103: Unrecognized token: 95
+Line 103: Unrecognized token: 95
+Line 103: ID = init
+Line 103: ID = init_em86_binfmt
+Line 103: (
+Line 103: void
+Line 103: )
+Line 104: {
+Line 105: return
+Line 105: ID = register_binfmt
+Line 105: (
+Line 105: Unrecognized token: 38
+Line 105: ID = em86_format
+Line 105: )
+Line 105: ;
+Line 106: }
+Line 108: ID = static
+Line 108: void
+Line 108: Unrecognized token: 95
+Line 108: Unrecognized token: 95
+Line 108: ID = exit
+Line 108: ID = exit_em86_binfmt
+Line 108: (
+Line 108: void
+Line 108: )
+Line 109: {
+Line 110: ID = unregister_binfmt
+Line 110: (
+Line 110: Unrecognized token: 38
+Line 110: ID = em86_format
+Line 110: )
+Line 110: ;
+Line 111: }
+Line 113: ID = core_initcall
+Line 113: (
+Line 113: ID = init_em86_binfmt
+Line 113: )
+Line 113: ;
+Line 114: ID = module_exit
+Line 114: (
+Line 114: ID = exit_em86_binfmt
+Line 114: )
+Line 114: ;
+Line 115: ID = MODULE_LICENSE
+Line 115: (
+Line 115: STRINGCON = "GPL"
+Line 115: )
+Line 115: ;
+Line 116: -EOF-

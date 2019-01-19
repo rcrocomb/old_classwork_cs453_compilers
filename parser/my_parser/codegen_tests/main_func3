@@ -1,0 +1,19 @@
+int a_func(int x);
+void main(void);
+
+int
+a_func(int y)
+{
+    int a;
+    a = y + 2;
+    return a;
+}
+
+void
+main(void)
+{
+    int b, c;
+    b = 4;
+    c = a_func(b); 
+}
+

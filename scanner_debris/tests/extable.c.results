@@ -1,0 +1,243 @@
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = module
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = init
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = asm
+Line 20: /
+Line 20: ID = uaccess
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = asm
+Line 21: /
+Line 21: ID = sections
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 23: extern
+Line 23: ID = struct
+Line 23: ID = exception_table_entry
+Line 23: Unrecognized token: 95
+Line 23: Unrecognized token: 95
+Line 23: ID = start___ex_table
+Line 23: [
+Line 23: ]
+Line 23: ;
+Line 24: extern
+Line 24: ID = struct
+Line 24: ID = exception_table_entry
+Line 24: Unrecognized token: 95
+Line 24: Unrecognized token: 95
+Line 24: ID = stop___ex_table
+Line 24: [
+Line 24: ]
+Line 24: ;
+Line 27: void
+Line 27: Unrecognized token: 95
+Line 27: Unrecognized token: 95
+Line 27: ID = init
+Line 27: ID = sort_main_extable
+Line 27: (
+Line 27: void
+Line 27: )
+Line 28: {
+Line 29: ID = sort_extable
+Line 29: (
+Line 29: Unrecognized token: 95
+Line 29: Unrecognized token: 95
+Line 29: ID = start___ex_table
+Line 29: ,
+Line 29: Unrecognized token: 95
+Line 29: Unrecognized token: 95
+Line 29: ID = stop___ex_table
+Line 29: )
+Line 29: ;
+Line 30: }
+Line 33: ID = const
+Line 33: ID = struct
+Line 33: ID = exception_table_entry
+Line 33: *
+Line 33: ID = search_exception_tables
+Line 33: (
+Line 33: ID = unsigned
+Line 33: ID = long
+Line 33: ID = addr
+Line 33: )
+Line 34: {
+Line 35: ID = const
+Line 35: ID = struct
+Line 35: ID = exception_table_entry
+Line 35: *
+Line 35: ID = e
+Line 35: ;
+Line 37: ID = e
+Line 37: =
+Line 37: ID = search_extable
+Line 37: (
+Line 37: Unrecognized token: 95
+Line 37: Unrecognized token: 95
+Line 37: ID = start___ex_table
+Line 37: ,
+Line 37: Unrecognized token: 95
+Line 37: Unrecognized token: 95
+Line 37: ID = stop___ex_table
+Line 37: -
+Line 37: INTCON = 1
+Line 37: ,
+Line 37: ID = addr
+Line 37: )
+Line 37: ;
+Line 38: if
+Line 38: (
+Line 38: !
+Line 38: ID = e
+Line 38: )
+Line 39: ID = e
+Line 39: =
+Line 39: ID = search_module_extables
+Line 39: (
+Line 39: ID = addr
+Line 39: )
+Line 39: ;
+Line 40: return
+Line 40: ID = e
+Line 40: ;
+Line 41: }
+Line 43: ID = static
+Line 43: int
+Line 43: ID = core_kernel_text
+Line 43: (
+Line 43: ID = unsigned
+Line 43: ID = long
+Line 43: ID = addr
+Line 43: )
+Line 44: {
+Line 45: if
+Line 45: (
+Line 45: ID = addr
+Line 45: >=
+Line 45: (
+Line 45: ID = unsigned
+Line 45: ID = long
+Line 45: )
+Line 45: Unrecognized token: 95
+Line 45: ID = stext
+Line 45: &&
+Line 46: ID = addr
+Line 46: <=
+Line 46: (
+Line 46: ID = unsigned
+Line 46: ID = long
+Line 46: )
+Line 46: Unrecognized token: 95
+Line 46: ID = etext
+Line 46: )
+Line 47: return
+Line 47: INTCON = 1
+Line 47: ;
+Line 49: if
+Line 49: (
+Line 49: ID = addr
+Line 49: >=
+Line 49: (
+Line 49: ID = unsigned
+Line 49: ID = long
+Line 49: )
+Line 49: Unrecognized token: 95
+Line 49: ID = sinittext
+Line 49: &&
+Line 50: ID = addr
+Line 50: <=
+Line 50: (
+Line 50: ID = unsigned
+Line 50: ID = long
+Line 50: )
+Line 50: Unrecognized token: 95
+Line 50: ID = einittext
+Line 50: )
+Line 51: return
+Line 51: INTCON = 1
+Line 51: ;
+Line 52: return
+Line 52: INTCON = 0
+Line 52: ;
+Line 53: }
+Line 55: int
+Line 55: Unrecognized token: 95
+Line 55: Unrecognized token: 95
+Line 55: ID = kernel_text_address
+Line 55: (
+Line 55: ID = unsigned
+Line 55: ID = long
+Line 55: ID = addr
+Line 55: )
+Line 56: {
+Line 57: if
+Line 57: (
+Line 57: ID = core_kernel_text
+Line 57: (
+Line 57: ID = addr
+Line 57: )
+Line 57: )
+Line 58: return
+Line 58: INTCON = 1
+Line 58: ;
+Line 59: return
+Line 59: Unrecognized token: 95
+Line 59: Unrecognized token: 95
+Line 59: ID = module_text_address
+Line 59: (
+Line 59: ID = addr
+Line 59: )
+Line 59: !=
+Line 59: ID = NULL
+Line 59: ;
+Line 60: }
+Line 62: int
+Line 62: ID = kernel_text_address
+Line 62: (
+Line 62: ID = unsigned
+Line 62: ID = long
+Line 62: ID = addr
+Line 62: )
+Line 63: {
+Line 64: if
+Line 64: (
+Line 64: ID = core_kernel_text
+Line 64: (
+Line 64: ID = addr
+Line 64: )
+Line 64: )
+Line 65: return
+Line 65: INTCON = 1
+Line 65: ;
+Line 66: return
+Line 66: ID = module_text_address
+Line 66: (
+Line 66: ID = addr
+Line 66: )
+Line 66: !=
+Line 66: ID = NULL
+Line 66: ;
+Line 67: }
+Line 68: -EOF-

@@ -1,0 +1,7295 @@
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = config
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = slab
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = sched
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = smp_lock
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = init
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = quotaops
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 17: Unrecognized token: 35
+Line 17: ID = include
+Line 17: <
+Line 17: ID = linux
+Line 17: /
+Line 17: ID = acct
+Line 17: Unrecognized token: 46
+Line 17: ID = h
+Line 17: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = linux
+Line 18: /
+Line 18: ID = module
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = seq_file
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = namespace
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 21: Unrecognized token: 35
+Line 21: ID = include
+Line 21: <
+Line 21: ID = linux
+Line 21: /
+Line 21: ID = namei
+Line 21: Unrecognized token: 46
+Line 21: ID = h
+Line 21: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = security
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = mount
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = asm
+Line 24: /
+Line 24: ID = uaccess
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = asm
+Line 25: /
+Line 25: ID = unistd
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 27: extern
+Line 27: int
+Line 27: Unrecognized token: 95
+Line 27: Unrecognized token: 95
+Line 27: ID = init
+Line 27: ID = init_rootfs
+Line 27: (
+Line 27: void
+Line 27: )
+Line 27: ;
+Line 29: Unrecognized token: 35
+Line 29: ID = ifdef
+Line 29: ID = CONFIG_SYSFS
+Line 30: extern
+Line 30: int
+Line 30: Unrecognized token: 95
+Line 30: Unrecognized token: 95
+Line 30: ID = init
+Line 30: ID = sysfs_init
+Line 30: (
+Line 30: void
+Line 30: )
+Line 30: ;
+Line 31: Unrecognized token: 35
+Line 31: else
+Line 32: ID = static
+Line 32: ID = inline
+Line 32: int
+Line 32: ID = sysfs_init
+Line 32: (
+Line 32: void
+Line 32: )
+Line 33: {
+Line 34: return
+Line 34: INTCON = 0
+Line 34: ;
+Line 35: }
+Line 36: Unrecognized token: 35
+Line 36: ID = endif
+Line 39: ID = spinlock_t
+Line 39: ID = vfsmount_lock
+Line 39: Unrecognized token: 95
+Line 39: Unrecognized token: 95
+Line 39: ID = cacheline_aligned_in_smp
+Line 39: =
+Line 39: ID = SPIN_LOCK_UNLOCKED
+Line 39: ;
+Line 41: ID = static
+Line 41: ID = struct
+Line 41: ID = list_head
+Line 41: *
+Line 41: ID = mount_hashtable
+Line 41: ;
+Line 42: ID = static
+Line 42: int
+Line 42: ID = hash_mask
+Line 42: ,
+Line 42: ID = hash_bits
+Line 42: ;
+Line 43: ID = static
+Line 43: ID = kmem_cache_t
+Line 43: *
+Line 43: ID = mnt_cache
+Line 43: ;
+Line 45: ID = static
+Line 45: ID = inline
+Line 45: ID = unsigned
+Line 45: ID = long
+Line 45: ID = hash
+Line 45: (
+Line 45: ID = struct
+Line 45: ID = vfsmount
+Line 45: *
+Line 45: ID = mnt
+Line 45: ,
+Line 45: ID = struct
+Line 45: ID = dentry
+Line 45: *
+Line 45: ID = dentry
+Line 45: )
+Line 46: {
+Line 47: ID = unsigned
+Line 47: ID = long
+Line 47: ID = tmp
+Line 47: =
+Line 47: (
+Line 47: (
+Line 47: ID = unsigned
+Line 47: ID = long
+Line 47: )
+Line 47: ID = mnt
+Line 47: /
+Line 47: ID = L1_CACHE_BYTES
+Line 47: )
+Line 47: ;
+Line 48: ID = tmp
+Line 48: +
+Line 48: =
+Line 48: (
+Line 48: (
+Line 48: ID = unsigned
+Line 48: ID = long
+Line 48: )
+Line 48: ID = dentry
+Line 48: /
+Line 48: ID = L1_CACHE_BYTES
+Line 48: )
+Line 48: ;
+Line 49: ID = tmp
+Line 49: =
+Line 49: ID = tmp
+Line 49: +
+Line 49: (
+Line 49: ID = tmp
+Line 49: >
+Line 49: >
+Line 49: ID = hash_bits
+Line 49: )
+Line 49: ;
+Line 50: return
+Line 50: ID = tmp
+Line 50: Unrecognized token: 38
+Line 50: ID = hash_mask
+Line 50: ;
+Line 51: }
+Line 53: ID = struct
+Line 53: ID = vfsmount
+Line 53: *
+Line 53: ID = alloc_vfsmnt
+Line 53: (
+Line 53: ID = const
+Line 53: char
+Line 53: *
+Line 53: ID = name
+Line 53: )
+Line 54: {
+Line 55: ID = struct
+Line 55: ID = vfsmount
+Line 55: *
+Line 55: ID = mnt
+Line 55: =
+Line 55: ID = kmem_cache_alloc
+Line 55: (
+Line 55: ID = mnt_cache
+Line 55: ,
+Line 55: ID = GFP_KERNEL
+Line 55: )
+Line 55: ;
+Line 56: if
+Line 56: (
+Line 56: ID = mnt
+Line 56: )
+Line 56: {
+Line 57: ID = memset
+Line 57: (
+Line 57: ID = mnt
+Line 57: ,
+Line 57: INTCON = 0
+Line 57: ,
+Line 57: ID = sizeof
+Line 57: (
+Line 57: ID = struct
+Line 57: ID = vfsmount
+Line 57: )
+Line 57: )
+Line 57: ;
+Line 58: ID = atomic_set
+Line 58: (
+Line 58: Unrecognized token: 38
+Line 58: ID = mnt
+Line 58: -
+Line 58: >
+Line 58: ID = mnt_count
+Line 58: ,
+Line 58: INTCON = 1
+Line 58: )
+Line 58: ;
+Line 59: ID = INIT_LIST_HEAD
+Line 59: (
+Line 59: Unrecognized token: 38
+Line 59: ID = mnt
+Line 59: -
+Line 59: >
+Line 59: ID = mnt_hash
+Line 59: )
+Line 59: ;
+Line 60: ID = INIT_LIST_HEAD
+Line 60: (
+Line 60: Unrecognized token: 38
+Line 60: ID = mnt
+Line 60: -
+Line 60: >
+Line 60: ID = mnt_child
+Line 60: )
+Line 60: ;
+Line 61: ID = INIT_LIST_HEAD
+Line 61: (
+Line 61: Unrecognized token: 38
+Line 61: ID = mnt
+Line 61: -
+Line 61: >
+Line 61: ID = mnt_mounts
+Line 61: )
+Line 61: ;
+Line 62: ID = INIT_LIST_HEAD
+Line 62: (
+Line 62: Unrecognized token: 38
+Line 62: ID = mnt
+Line 62: -
+Line 62: >
+Line 62: ID = mnt_list
+Line 62: )
+Line 62: ;
+Line 63: ID = INIT_LIST_HEAD
+Line 63: (
+Line 63: Unrecognized token: 38
+Line 63: ID = mnt
+Line 63: -
+Line 63: >
+Line 63: ID = mnt_fslink
+Line 63: )
+Line 63: ;
+Line 64: if
+Line 64: (
+Line 64: ID = name
+Line 64: )
+Line 64: {
+Line 65: int
+Line 65: ID = size
+Line 65: =
+Line 65: ID = strlen
+Line 65: (
+Line 65: ID = name
+Line 65: )
+Line 65: +
+Line 65: INTCON = 1
+Line 65: ;
+Line 66: char
+Line 66: *
+Line 66: ID = newname
+Line 66: =
+Line 66: ID = kmalloc
+Line 66: (
+Line 66: ID = size
+Line 66: ,
+Line 66: ID = GFP_KERNEL
+Line 66: )
+Line 66: ;
+Line 67: if
+Line 67: (
+Line 67: ID = newname
+Line 67: )
+Line 67: {
+Line 68: ID = memcpy
+Line 68: (
+Line 68: ID = newname
+Line 68: ,
+Line 68: ID = name
+Line 68: ,
+Line 68: ID = size
+Line 68: )
+Line 68: ;
+Line 69: ID = mnt
+Line 69: -
+Line 69: >
+Line 69: ID = mnt_devname
+Line 69: =
+Line 69: ID = newname
+Line 69: ;
+Line 70: }
+Line 71: }
+Line 72: }
+Line 73: return
+Line 73: ID = mnt
+Line 73: ;
+Line 74: }
+Line 76: void
+Line 76: ID = free_vfsmnt
+Line 76: (
+Line 76: ID = struct
+Line 76: ID = vfsmount
+Line 76: *
+Line 76: ID = mnt
+Line 76: )
+Line 77: {
+Line 78: ID = kfree
+Line 78: (
+Line 78: ID = mnt
+Line 78: -
+Line 78: >
+Line 78: ID = mnt_devname
+Line 78: )
+Line 78: ;
+Line 79: ID = kmem_cache_free
+Line 79: (
+Line 79: ID = mnt_cache
+Line 79: ,
+Line 79: ID = mnt
+Line 79: )
+Line 79: ;
+Line 80: }
+Line 86: ID = struct
+Line 86: ID = vfsmount
+Line 86: *
+Line 86: ID = lookup_mnt
+Line 86: (
+Line 86: ID = struct
+Line 86: ID = vfsmount
+Line 86: *
+Line 86: ID = mnt
+Line 86: ,
+Line 86: ID = struct
+Line 86: ID = dentry
+Line 86: *
+Line 86: ID = dentry
+Line 86: )
+Line 87: {
+Line 88: ID = struct
+Line 88: ID = list_head
+Line 88: *
+Line 88: ID = head
+Line 88: =
+Line 88: ID = mount_hashtable
+Line 88: +
+Line 88: ID = hash
+Line 88: (
+Line 88: ID = mnt
+Line 88: ,
+Line 88: ID = dentry
+Line 88: )
+Line 88: ;
+Line 89: ID = struct
+Line 89: ID = list_head
+Line 89: *
+Line 89: ID = tmp
+Line 89: =
+Line 89: ID = head
+Line 89: ;
+Line 90: ID = struct
+Line 90: ID = vfsmount
+Line 90: *
+Line 90: ID = p
+Line 90: ,
+Line 90: *
+Line 90: ID = found
+Line 90: =
+Line 90: ID = NULL
+Line 90: ;
+Line 92: ID = spin_lock
+Line 92: (
+Line 92: Unrecognized token: 38
+Line 92: ID = vfsmount_lock
+Line 92: )
+Line 92: ;
+Line 93: for
+Line 93: (
+Line 93: ;
+Line 93: ;
+Line 93: )
+Line 93: {
+Line 94: ID = tmp
+Line 94: =
+Line 94: ID = tmp
+Line 94: -
+Line 94: >
+Line 94: ID = next
+Line 94: ;
+Line 95: ID = p
+Line 95: =
+Line 95: ID = NULL
+Line 95: ;
+Line 96: if
+Line 96: (
+Line 96: ID = tmp
+Line 96: ==
+Line 96: ID = head
+Line 96: )
+Line 97: ID = break
+Line 97: ;
+Line 98: ID = p
+Line 98: =
+Line 98: ID = list_entry
+Line 98: (
+Line 98: ID = tmp
+Line 98: ,
+Line 98: ID = struct
+Line 98: ID = vfsmount
+Line 98: ,
+Line 98: ID = mnt_hash
+Line 98: )
+Line 98: ;
+Line 99: if
+Line 99: (
+Line 99: ID = p
+Line 99: -
+Line 99: >
+Line 99: ID = mnt_parent
+Line 99: ==
+Line 99: ID = mnt
+Line 99: &&
+Line 99: ID = p
+Line 99: -
+Line 99: >
+Line 99: ID = mnt_mountpoint
+Line 99: ==
+Line 99: ID = dentry
+Line 99: )
+Line 99: {
+Line 100: ID = found
+Line 100: =
+Line 100: ID = mntget
+Line 100: (
+Line 100: ID = p
+Line 100: )
+Line 100: ;
+Line 101: ID = break
+Line 101: ;
+Line 102: }
+Line 103: }
+Line 104: ID = spin_unlock
+Line 104: (
+Line 104: Unrecognized token: 38
+Line 104: ID = vfsmount_lock
+Line 104: )
+Line 104: ;
+Line 105: return
+Line 105: ID = found
+Line 105: ;
+Line 106: }
+Line 108: ID = EXPORT_SYMBOL
+Line 108: (
+Line 108: ID = lookup_mnt
+Line 108: )
+Line 108: ;
+Line 110: ID = static
+Line 110: ID = inline
+Line 110: int
+Line 110: ID = check_mnt
+Line 110: (
+Line 110: ID = struct
+Line 110: ID = vfsmount
+Line 110: *
+Line 110: ID = mnt
+Line 110: )
+Line 111: {
+Line 112: return
+Line 112: ID = mnt
+Line 112: -
+Line 112: >
+Line 112: ID = mnt_namespace
+Line 112: ==
+Line 112: ID = current
+Line 112: -
+Line 112: >
+Line 112: ID = namespace
+Line 112: ;
+Line 113: }
+Line 115: ID = static
+Line 115: void
+Line 115: ID = detach_mnt
+Line 115: (
+Line 115: ID = struct
+Line 115: ID = vfsmount
+Line 115: *
+Line 115: ID = mnt
+Line 115: ,
+Line 115: ID = struct
+Line 115: ID = nameidata
+Line 115: *
+Line 115: ID = old_nd
+Line 115: )
+Line 116: {
+Line 117: ID = old_nd
+Line 117: -
+Line 117: >
+Line 117: ID = dentry
+Line 117: =
+Line 117: ID = mnt
+Line 117: -
+Line 117: >
+Line 117: ID = mnt_mountpoint
+Line 117: ;
+Line 118: ID = old_nd
+Line 118: -
+Line 118: >
+Line 118: ID = mnt
+Line 118: =
+Line 118: ID = mnt
+Line 118: -
+Line 118: >
+Line 118: ID = mnt_parent
+Line 118: ;
+Line 119: ID = mnt
+Line 119: -
+Line 119: >
+Line 119: ID = mnt_parent
+Line 119: =
+Line 119: ID = mnt
+Line 119: ;
+Line 120: ID = mnt
+Line 120: -
+Line 120: >
+Line 120: ID = mnt_mountpoint
+Line 120: =
+Line 120: ID = mnt
+Line 120: -
+Line 120: >
+Line 120: ID = mnt_root
+Line 120: ;
+Line 121: ID = list_del_init
+Line 121: (
+Line 121: Unrecognized token: 38
+Line 121: ID = mnt
+Line 121: -
+Line 121: >
+Line 121: ID = mnt_child
+Line 121: )
+Line 121: ;
+Line 122: ID = list_del_init
+Line 122: (
+Line 122: Unrecognized token: 38
+Line 122: ID = mnt
+Line 122: -
+Line 122: >
+Line 122: ID = mnt_hash
+Line 122: )
+Line 122: ;
+Line 123: ID = old_nd
+Line 123: -
+Line 123: >
+Line 123: ID = dentry
+Line 123: -
+Line 123: >
+Line 123: ID = d_mounted
+Line 123: -
+Line 123: -
+Line 123: ;
+Line 124: }
+Line 126: ID = static
+Line 126: void
+Line 126: ID = attach_mnt
+Line 126: (
+Line 126: ID = struct
+Line 126: ID = vfsmount
+Line 126: *
+Line 126: ID = mnt
+Line 126: ,
+Line 126: ID = struct
+Line 126: ID = nameidata
+Line 126: *
+Line 126: ID = nd
+Line 126: )
+Line 127: {
+Line 128: ID = mnt
+Line 128: -
+Line 128: >
+Line 128: ID = mnt_parent
+Line 128: =
+Line 128: ID = mntget
+Line 128: (
+Line 128: ID = nd
+Line 128: -
+Line 128: >
+Line 128: ID = mnt
+Line 128: )
+Line 128: ;
+Line 129: ID = mnt
+Line 129: -
+Line 129: >
+Line 129: ID = mnt_mountpoint
+Line 129: =
+Line 129: ID = dget
+Line 129: (
+Line 129: ID = nd
+Line 129: -
+Line 129: >
+Line 129: ID = dentry
+Line 129: )
+Line 129: ;
+Line 130: ID = list_add
+Line 130: (
+Line 130: Unrecognized token: 38
+Line 130: ID = mnt
+Line 130: -
+Line 130: >
+Line 130: ID = mnt_hash
+Line 130: ,
+Line 130: ID = mount_hashtable
+Line 130: +
+Line 130: ID = hash
+Line 130: (
+Line 130: ID = nd
+Line 130: -
+Line 130: >
+Line 130: ID = mnt
+Line 130: ,
+Line 130: ID = nd
+Line 130: -
+Line 130: >
+Line 130: ID = dentry
+Line 130: )
+Line 130: )
+Line 130: ;
+Line 131: ID = list_add_tail
+Line 131: (
+Line 131: Unrecognized token: 38
+Line 131: ID = mnt
+Line 131: -
+Line 131: >
+Line 131: ID = mnt_child
+Line 131: ,
+Line 131: Unrecognized token: 38
+Line 131: ID = nd
+Line 131: -
+Line 131: >
+Line 131: ID = mnt
+Line 131: -
+Line 131: >
+Line 131: ID = mnt_mounts
+Line 131: )
+Line 131: ;
+Line 132: ID = nd
+Line 132: -
+Line 132: >
+Line 132: ID = dentry
+Line 132: -
+Line 132: >
+Line 132: ID = d_mounted
+Line 132: +
+Line 132: +
+Line 132: ;
+Line 133: }
+Line 135: ID = static
+Line 135: ID = struct
+Line 135: ID = vfsmount
+Line 135: *
+Line 135: ID = next_mnt
+Line 135: (
+Line 135: ID = struct
+Line 135: ID = vfsmount
+Line 135: *
+Line 135: ID = p
+Line 135: ,
+Line 135: ID = struct
+Line 135: ID = vfsmount
+Line 135: *
+Line 135: ID = root
+Line 135: )
+Line 136: {
+Line 137: ID = struct
+Line 137: ID = list_head
+Line 137: *
+Line 137: ID = next
+Line 137: =
+Line 137: ID = p
+Line 137: -
+Line 137: >
+Line 137: ID = mnt_mounts
+Line 137: Unrecognized token: 46
+Line 137: ID = next
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = next
+Line 138: ==
+Line 138: Unrecognized token: 38
+Line 138: ID = p
+Line 138: -
+Line 138: >
+Line 138: ID = mnt_mounts
+Line 138: )
+Line 138: {
+Line 139: while
+Line 139: (
+Line 139: INTCON = 1
+Line 139: )
+Line 139: {
+Line 140: if
+Line 140: (
+Line 140: ID = p
+Line 140: ==
+Line 140: ID = root
+Line 140: )
+Line 141: return
+Line 141: ID = NULL
+Line 141: ;
+Line 142: ID = next
+Line 142: =
+Line 142: ID = p
+Line 142: -
+Line 142: >
+Line 142: ID = mnt_child
+Line 142: Unrecognized token: 46
+Line 142: ID = next
+Line 142: ;
+Line 143: if
+Line 143: (
+Line 143: ID = next
+Line 143: !=
+Line 143: Unrecognized token: 38
+Line 143: ID = p
+Line 143: -
+Line 143: >
+Line 143: ID = mnt_parent
+Line 143: -
+Line 143: >
+Line 143: ID = mnt_mounts
+Line 143: )
+Line 144: ID = break
+Line 144: ;
+Line 145: ID = p
+Line 145: =
+Line 145: ID = p
+Line 145: -
+Line 145: >
+Line 145: ID = mnt_parent
+Line 145: ;
+Line 146: }
+Line 147: }
+Line 148: return
+Line 148: ID = list_entry
+Line 148: (
+Line 148: ID = next
+Line 148: ,
+Line 148: ID = struct
+Line 148: ID = vfsmount
+Line 148: ,
+Line 148: ID = mnt_child
+Line 148: )
+Line 148: ;
+Line 149: }
+Line 151: ID = static
+Line 151: ID = struct
+Line 151: ID = vfsmount
+Line 151: *
+Line 152: ID = clone_mnt
+Line 152: (
+Line 152: ID = struct
+Line 152: ID = vfsmount
+Line 152: *
+Line 152: ID = old
+Line 152: ,
+Line 152: ID = struct
+Line 152: ID = dentry
+Line 152: *
+Line 152: ID = root
+Line 152: )
+Line 153: {
+Line 154: ID = struct
+Line 154: ID = super_block
+Line 154: *
+Line 154: ID = sb
+Line 154: =
+Line 154: ID = old
+Line 154: -
+Line 154: >
+Line 154: ID = mnt_sb
+Line 154: ;
+Line 155: ID = struct
+Line 155: ID = vfsmount
+Line 155: *
+Line 155: ID = mnt
+Line 155: =
+Line 155: ID = alloc_vfsmnt
+Line 155: (
+Line 155: ID = old
+Line 155: -
+Line 155: >
+Line 155: ID = mnt_devname
+Line 155: )
+Line 155: ;
+Line 157: if
+Line 157: (
+Line 157: ID = mnt
+Line 157: )
+Line 157: {
+Line 158: ID = mnt
+Line 158: -
+Line 158: >
+Line 158: ID = mnt_flags
+Line 158: =
+Line 158: ID = old
+Line 158: -
+Line 158: >
+Line 158: ID = mnt_flags
+Line 158: ;
+Line 159: ID = atomic_inc
+Line 159: (
+Line 159: Unrecognized token: 38
+Line 159: ID = sb
+Line 159: -
+Line 159: >
+Line 159: ID = s_active
+Line 159: )
+Line 159: ;
+Line 160: ID = mnt
+Line 160: -
+Line 160: >
+Line 160: ID = mnt_sb
+Line 160: =
+Line 160: ID = sb
+Line 160: ;
+Line 161: ID = mnt
+Line 161: -
+Line 161: >
+Line 161: ID = mnt_root
+Line 161: =
+Line 161: ID = dget
+Line 161: (
+Line 161: ID = root
+Line 161: )
+Line 161: ;
+Line 162: ID = mnt
+Line 162: -
+Line 162: >
+Line 162: ID = mnt_mountpoint
+Line 162: =
+Line 162: ID = mnt
+Line 162: -
+Line 162: >
+Line 162: ID = mnt_root
+Line 162: ;
+Line 163: ID = mnt
+Line 163: -
+Line 163: >
+Line 163: ID = mnt_parent
+Line 163: =
+Line 163: ID = mnt
+Line 163: ;
+Line 164: ID = mnt
+Line 164: -
+Line 164: >
+Line 164: ID = mnt_namespace
+Line 164: =
+Line 164: ID = old
+Line 164: -
+Line 164: >
+Line 164: ID = mnt_namespace
+Line 164: ;
+Line 168: ID = spin_lock
+Line 168: (
+Line 168: Unrecognized token: 38
+Line 168: ID = vfsmount_lock
+Line 168: )
+Line 168: ;
+Line 169: if
+Line 169: (
+Line 169: !
+Line 169: ID = list_empty
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = old
+Line 169: -
+Line 169: >
+Line 169: ID = mnt_fslink
+Line 169: )
+Line 169: )
+Line 170: ID = list_add
+Line 170: (
+Line 170: Unrecognized token: 38
+Line 170: ID = mnt
+Line 170: -
+Line 170: >
+Line 170: ID = mnt_fslink
+Line 170: ,
+Line 170: Unrecognized token: 38
+Line 170: ID = old
+Line 170: -
+Line 170: >
+Line 170: ID = mnt_fslink
+Line 170: )
+Line 170: ;
+Line 171: ID = spin_unlock
+Line 171: (
+Line 171: Unrecognized token: 38
+Line 171: ID = vfsmount_lock
+Line 171: )
+Line 171: ;
+Line 172: }
+Line 173: return
+Line 173: ID = mnt
+Line 173: ;
+Line 174: }
+Line 176: void
+Line 176: Unrecognized token: 95
+Line 176: Unrecognized token: 95
+Line 176: ID = mntput
+Line 176: (
+Line 176: ID = struct
+Line 176: ID = vfsmount
+Line 176: *
+Line 176: ID = mnt
+Line 176: )
+Line 177: {
+Line 178: ID = struct
+Line 178: ID = super_block
+Line 178: *
+Line 178: ID = sb
+Line 178: =
+Line 178: ID = mnt
+Line 178: -
+Line 178: >
+Line 178: ID = mnt_sb
+Line 178: ;
+Line 179: ID = dput
+Line 179: (
+Line 179: ID = mnt
+Line 179: -
+Line 179: >
+Line 179: ID = mnt_root
+Line 179: )
+Line 179: ;
+Line 180: ID = free_vfsmnt
+Line 180: (
+Line 180: ID = mnt
+Line 180: )
+Line 180: ;
+Line 181: ID = deactivate_super
+Line 181: (
+Line 181: ID = sb
+Line 181: )
+Line 181: ;
+Line 182: }
+Line 184: ID = EXPORT_SYMBOL
+Line 184: (
+Line 184: Unrecognized token: 95
+Line 184: Unrecognized token: 95
+Line 184: ID = mntput
+Line 184: )
+Line 184: ;
+Line 187: ID = static
+Line 187: void
+Line 187: *
+Line 187: ID = m_start
+Line 187: (
+Line 187: ID = struct
+Line 187: ID = seq_file
+Line 187: *
+Line 187: ID = m
+Line 187: ,
+Line 187: ID = loff_t
+Line 187: *
+Line 187: ID = pos
+Line 187: )
+Line 188: {
+Line 189: ID = struct
+Line 189: ID = namespace
+Line 189: *
+Line 189: ID = n
+Line 189: =
+Line 189: ID = m
+Line 189: -
+Line 189: >
+Line 189: ID = private
+Line 189: ;
+Line 190: ID = struct
+Line 190: ID = list_head
+Line 190: *
+Line 190: ID = p
+Line 190: ;
+Line 191: ID = loff_t
+Line 191: ID = l
+Line 191: =
+Line 191: *
+Line 191: ID = pos
+Line 191: ;
+Line 193: ID = down_read
+Line 193: (
+Line 193: Unrecognized token: 38
+Line 193: ID = n
+Line 193: -
+Line 193: >
+Line 193: ID = sem
+Line 193: )
+Line 193: ;
+Line 194: ID = list_for_each
+Line 194: (
+Line 194: ID = p
+Line 194: ,
+Line 194: Unrecognized token: 38
+Line 194: ID = n
+Line 194: -
+Line 194: >
+Line 194: ID = list
+Line 194: )
+Line 195: if
+Line 195: (
+Line 195: !
+Line 195: ID = l
+Line 195: -
+Line 195: -
+Line 195: )
+Line 196: return
+Line 196: ID = list_entry
+Line 196: (
+Line 196: ID = p
+Line 196: ,
+Line 196: ID = struct
+Line 196: ID = vfsmount
+Line 196: ,
+Line 196: ID = mnt_list
+Line 196: )
+Line 196: ;
+Line 197: return
+Line 197: ID = NULL
+Line 197: ;
+Line 198: }
+Line 200: ID = static
+Line 200: void
+Line 200: *
+Line 200: ID = m_next
+Line 200: (
+Line 200: ID = struct
+Line 200: ID = seq_file
+Line 200: *
+Line 200: ID = m
+Line 200: ,
+Line 200: void
+Line 200: *
+Line 200: ID = v
+Line 200: ,
+Line 200: ID = loff_t
+Line 200: *
+Line 200: ID = pos
+Line 200: )
+Line 201: {
+Line 202: ID = struct
+Line 202: ID = namespace
+Line 202: *
+Line 202: ID = n
+Line 202: =
+Line 202: ID = m
+Line 202: -
+Line 202: >
+Line 202: ID = private
+Line 202: ;
+Line 203: ID = struct
+Line 203: ID = list_head
+Line 203: *
+Line 203: ID = p
+Line 203: =
+Line 203: (
+Line 203: (
+Line 203: ID = struct
+Line 203: ID = vfsmount
+Line 203: *
+Line 203: )
+Line 203: ID = v
+Line 203: )
+Line 203: -
+Line 203: >
+Line 203: ID = mnt_list
+Line 203: Unrecognized token: 46
+Line 203: ID = next
+Line 203: ;
+Line 204: (
+Line 204: *
+Line 204: ID = pos
+Line 204: )
+Line 204: +
+Line 204: +
+Line 204: ;
+Line 205: return
+Line 205: ID = p
+Line 205: ==
+Line 205: Unrecognized token: 38
+Line 205: ID = n
+Line 205: -
+Line 205: >
+Line 205: ID = list
+Line 205: Unrecognized token: 63
+Line 205: ID = NULL
+Line 205: Unrecognized token: 58
+Line 205: ID = list_entry
+Line 205: (
+Line 205: ID = p
+Line 205: ,
+Line 205: ID = struct
+Line 205: ID = vfsmount
+Line 205: ,
+Line 205: ID = mnt_list
+Line 205: )
+Line 205: ;
+Line 206: }
+Line 208: ID = static
+Line 208: void
+Line 208: ID = m_stop
+Line 208: (
+Line 208: ID = struct
+Line 208: ID = seq_file
+Line 208: *
+Line 208: ID = m
+Line 208: ,
+Line 208: void
+Line 208: *
+Line 208: ID = v
+Line 208: )
+Line 209: {
+Line 210: ID = struct
+Line 210: ID = namespace
+Line 210: *
+Line 210: ID = n
+Line 210: =
+Line 210: ID = m
+Line 210: -
+Line 210: >
+Line 210: ID = private
+Line 210: ;
+Line 211: ID = up_read
+Line 211: (
+Line 211: Unrecognized token: 38
+Line 211: ID = n
+Line 211: -
+Line 211: >
+Line 211: ID = sem
+Line 211: )
+Line 211: ;
+Line 212: }
+Line 214: ID = static
+Line 214: ID = inline
+Line 214: void
+Line 214: ID = mangle
+Line 214: (
+Line 214: ID = struct
+Line 214: ID = seq_file
+Line 214: *
+Line 214: ID = m
+Line 214: ,
+Line 214: ID = const
+Line 214: char
+Line 214: *
+Line 214: ID = s
+Line 214: )
+Line 215: {
+Line 216: ID = seq_escape
+Line 216: (
+Line 216: ID = m
+Line 216: ,
+Line 216: ID = s
+Line 216: ,
+Line 216: STRINGCON = " \t\n\\"
+Line 216: )
+Line 216: ;
+Line 217: }
+Line 219: ID = static
+Line 219: int
+Line 219: ID = show_vfsmnt
+Line 219: (
+Line 219: ID = struct
+Line 219: ID = seq_file
+Line 219: *
+Line 219: ID = m
+Line 219: ,
+Line 219: void
+Line 219: *
+Line 219: ID = v
+Line 219: )
+Line 220: {
+Line 221: ID = struct
+Line 221: ID = vfsmount
+Line 221: *
+Line 221: ID = mnt
+Line 221: =
+Line 221: ID = v
+Line 221: ;
+Line 222: int
+Line 222: ID = err
+Line 222: =
+Line 222: INTCON = 0
+Line 222: ;
+Line 223: ID = static
+Line 223: ID = struct
+Line 223: ID = proc_fs_info
+Line 223: {
+Line 224: int
+Line 224: ID = flag
+Line 224: ;
+Line 225: char
+Line 225: *
+Line 225: ID = str
+Line 225: ;
+Line 226: }
+Line 226: ID = fs_info
+Line 226: [
+Line 226: ]
+Line 226: =
+Line 226: {
+Line 227: {
+Line 227: ID = MS_SYNCHRONOUS
+Line 227: ,
+Line 227: STRINGCON = ",sync"
+Line 227: }
+Line 227: ,
+Line 228: {
+Line 228: ID = MS_DIRSYNC
+Line 228: ,
+Line 228: STRINGCON = ",dirsync"
+Line 228: }
+Line 228: ,
+Line 229: {
+Line 229: ID = MS_MANDLOCK
+Line 229: ,
+Line 229: STRINGCON = ",mand"
+Line 229: }
+Line 229: ,
+Line 230: {
+Line 230: ID = MS_NOATIME
+Line 230: ,
+Line 230: STRINGCON = ",noatime"
+Line 230: }
+Line 230: ,
+Line 231: {
+Line 231: ID = MS_NODIRATIME
+Line 231: ,
+Line 231: STRINGCON = ",nodiratime"
+Line 231: }
+Line 231: ,
+Line 232: {
+Line 232: INTCON = 0
+Line 232: ,
+Line 232: ID = NULL
+Line 232: }
+Line 233: }
+Line 233: ;
+Line 234: ID = static
+Line 234: ID = struct
+Line 234: ID = proc_fs_info
+Line 234: ID = mnt_info
+Line 234: [
+Line 234: ]
+Line 234: =
+Line 234: {
+Line 235: {
+Line 235: ID = MNT_NOSUID
+Line 235: ,
+Line 235: STRINGCON = ",nosuid"
+Line 235: }
+Line 235: ,
+Line 236: {
+Line 236: ID = MNT_NODEV
+Line 236: ,
+Line 236: STRINGCON = ",nodev"
+Line 236: }
+Line 236: ,
+Line 237: {
+Line 237: ID = MNT_NOEXEC
+Line 237: ,
+Line 237: STRINGCON = ",noexec"
+Line 237: }
+Line 237: ,
+Line 238: {
+Line 238: INTCON = 0
+Line 238: ,
+Line 238: ID = NULL
+Line 238: }
+Line 239: }
+Line 239: ;
+Line 240: ID = struct
+Line 240: ID = proc_fs_info
+Line 240: *
+Line 240: ID = fs_infop
+Line 240: ;
+Line 242: ID = mangle
+Line 242: (
+Line 242: ID = m
+Line 242: ,
+Line 242: ID = mnt
+Line 242: -
+Line 242: >
+Line 242: ID = mnt_devname
+Line 242: Unrecognized token: 63
+Line 242: ID = mnt
+Line 242: -
+Line 242: >
+Line 242: ID = mnt_devname
+Line 242: Unrecognized token: 58
+Line 242: STRINGCON = "none"
+Line 242: )
+Line 242: ;
+Line 243: ID = seq_putc
+Line 243: (
+Line 243: ID = m
+Line 243: ,
+Line 243: CHARCON = ' '
+Line 243: )
+Line 243: ;
+Line 244: ID = seq_path
+Line 244: (
+Line 244: ID = m
+Line 244: ,
+Line 244: ID = mnt
+Line 244: ,
+Line 244: ID = mnt
+Line 244: -
+Line 244: >
+Line 244: ID = mnt_root
+Line 244: ,
+Line 244: STRINGCON = " \t\n\\"
+Line 244: )
+Line 244: ;
+Line 245: ID = seq_putc
+Line 245: (
+Line 245: ID = m
+Line 245: ,
+Line 245: CHARCON = ' '
+Line 245: )
+Line 245: ;
+Line 246: ID = mangle
+Line 246: (
+Line 246: ID = m
+Line 246: ,
+Line 246: ID = mnt
+Line 246: -
+Line 246: >
+Line 246: ID = mnt_sb
+Line 246: -
+Line 246: >
+Line 246: ID = s_type
+Line 246: -
+Line 246: >
+Line 246: ID = name
+Line 246: )
+Line 246: ;
+Line 247: ID = seq_puts
+Line 247: (
+Line 247: ID = m
+Line 247: ,
+Line 247: ID = mnt
+Line 247: -
+Line 247: >
+Line 247: ID = mnt_sb
+Line 247: -
+Line 247: >
+Line 247: ID = s_flags
+Line 247: Unrecognized token: 38
+Line 247: ID = MS_RDONLY
+Line 247: Unrecognized token: 63
+Line 247: STRINGCON = " ro"
+Line 247: Unrecognized token: 58
+Line 247: STRINGCON = " rw"
+Line 247: )
+Line 247: ;
+Line 248: for
+Line 248: (
+Line 248: ID = fs_infop
+Line 248: =
+Line 248: ID = fs_info
+Line 248: ;
+Line 248: ID = fs_infop
+Line 248: -
+Line 248: >
+Line 248: ID = flag
+Line 248: ;
+Line 248: ID = fs_infop
+Line 248: +
+Line 248: +
+Line 248: )
+Line 248: {
+Line 249: if
+Line 249: (
+Line 249: ID = mnt
+Line 249: -
+Line 249: >
+Line 249: ID = mnt_sb
+Line 249: -
+Line 249: >
+Line 249: ID = s_flags
+Line 249: Unrecognized token: 38
+Line 249: ID = fs_infop
+Line 249: -
+Line 249: >
+Line 249: ID = flag
+Line 249: )
+Line 250: ID = seq_puts
+Line 250: (
+Line 250: ID = m
+Line 250: ,
+Line 250: ID = fs_infop
+Line 250: -
+Line 250: >
+Line 250: ID = str
+Line 250: )
+Line 250: ;
+Line 251: }
+Line 252: for
+Line 252: (
+Line 252: ID = fs_infop
+Line 252: =
+Line 252: ID = mnt_info
+Line 252: ;
+Line 252: ID = fs_infop
+Line 252: -
+Line 252: >
+Line 252: ID = flag
+Line 252: ;
+Line 252: ID = fs_infop
+Line 252: +
+Line 252: +
+Line 252: )
+Line 252: {
+Line 253: if
+Line 253: (
+Line 253: ID = mnt
+Line 253: -
+Line 253: >
+Line 253: ID = mnt_flags
+Line 253: Unrecognized token: 38
+Line 253: ID = fs_infop
+Line 253: -
+Line 253: >
+Line 253: ID = flag
+Line 253: )
+Line 254: ID = seq_puts
+Line 254: (
+Line 254: ID = m
+Line 254: ,
+Line 254: ID = fs_infop
+Line 254: -
+Line 254: >
+Line 254: ID = str
+Line 254: )
+Line 254: ;
+Line 255: }
+Line 256: if
+Line 256: (
+Line 256: ID = mnt
+Line 256: -
+Line 256: >
+Line 256: ID = mnt_sb
+Line 256: -
+Line 256: >
+Line 256: ID = s_op
+Line 256: -
+Line 256: >
+Line 256: ID = show_options
+Line 256: )
+Line 257: ID = err
+Line 257: =
+Line 257: ID = mnt
+Line 257: -
+Line 257: >
+Line 257: ID = mnt_sb
+Line 257: -
+Line 257: >
+Line 257: ID = s_op
+Line 257: -
+Line 257: >
+Line 257: ID = show_options
+Line 257: (
+Line 257: ID = m
+Line 257: ,
+Line 257: ID = mnt
+Line 257: )
+Line 257: ;
+Line 258: ID = seq_puts
+Line 258: (
+Line 258: ID = m
+Line 258: ,
+Line 258: STRINGCON = " 0 0\n"
+Line 258: )
+Line 258: ;
+Line 259: return
+Line 259: ID = err
+Line 259: ;
+Line 260: }
+Line 262: ID = struct
+Line 262: ID = seq_operations
+Line 262: ID = mounts_op
+Line 262: =
+Line 262: {
+Line 263: Unrecognized token: 46
+Line 263: ID = start
+Line 263: =
+Line 263: ID = m_start
+Line 263: ,
+Line 264: Unrecognized token: 46
+Line 264: ID = next
+Line 264: =
+Line 264: ID = m_next
+Line 264: ,
+Line 265: Unrecognized token: 46
+Line 265: ID = stop
+Line 265: =
+Line 265: ID = m_stop
+Line 265: ,
+Line 266: Unrecognized token: 46
+Line 266: ID = show
+Line 266: =
+Line 266: ID = show_vfsmnt
+Line 267: }
+Line 267: ;
+Line 277: int
+Line 277: ID = may_umount_tree
+Line 277: (
+Line 277: ID = struct
+Line 277: ID = vfsmount
+Line 277: *
+Line 277: ID = mnt
+Line 277: )
+Line 278: {
+Line 279: ID = struct
+Line 279: ID = list_head
+Line 279: *
+Line 279: ID = next
+Line 279: ;
+Line 280: ID = struct
+Line 280: ID = vfsmount
+Line 280: *
+Line 280: ID = this_parent
+Line 280: =
+Line 280: ID = mnt
+Line 280: ;
+Line 281: int
+Line 281: ID = actual_refs
+Line 281: ;
+Line 282: int
+Line 282: ID = minimum_refs
+Line 282: ;
+Line 284: ID = spin_lock
+Line 284: (
+Line 284: Unrecognized token: 38
+Line 284: ID = vfsmount_lock
+Line 284: )
+Line 284: ;
+Line 285: ID = actual_refs
+Line 285: =
+Line 285: ID = atomic_read
+Line 285: (
+Line 285: Unrecognized token: 38
+Line 285: ID = mnt
+Line 285: -
+Line 285: >
+Line 285: ID = mnt_count
+Line 285: )
+Line 285: ;
+Line 286: ID = minimum_refs
+Line 286: =
+Line 286: INTCON = 2
+Line 286: ;
+Line 287: ID = repeat
+Line 287: Unrecognized token: 58
+Line 288: ID = next
+Line 288: =
+Line 288: ID = this_parent
+Line 288: -
+Line 288: >
+Line 288: ID = mnt_mounts
+Line 288: Unrecognized token: 46
+Line 288: ID = next
+Line 288: ;
+Line 289: ID = resume
+Line 289: Unrecognized token: 58
+Line 290: while
+Line 290: (
+Line 290: ID = next
+Line 290: !=
+Line 290: Unrecognized token: 38
+Line 290: ID = this_parent
+Line 290: -
+Line 290: >
+Line 290: ID = mnt_mounts
+Line 290: )
+Line 290: {
+Line 291: ID = struct
+Line 291: ID = vfsmount
+Line 291: *
+Line 291: ID = p
+Line 291: =
+Line 291: ID = list_entry
+Line 291: (
+Line 291: ID = next
+Line 291: ,
+Line 291: ID = struct
+Line 291: ID = vfsmount
+Line 291: ,
+Line 291: ID = mnt_child
+Line 291: )
+Line 291: ;
+Line 293: ID = next
+Line 293: =
+Line 293: ID = next
+Line 293: -
+Line 293: >
+Line 293: ID = next
+Line 293: ;
+Line 295: ID = actual_refs
+Line 295: +
+Line 295: =
+Line 295: ID = atomic_read
+Line 295: (
+Line 295: Unrecognized token: 38
+Line 295: ID = p
+Line 295: -
+Line 295: >
+Line 295: ID = mnt_count
+Line 295: )
+Line 295: ;
+Line 296: ID = minimum_refs
+Line 296: +
+Line 296: =
+Line 296: INTCON = 2
+Line 296: ;
+Line 298: if
+Line 298: (
+Line 298: !
+Line 298: ID = list_empty
+Line 298: (
+Line 298: Unrecognized token: 38
+Line 298: ID = p
+Line 298: -
+Line 298: >
+Line 298: ID = mnt_mounts
+Line 298: )
+Line 298: )
+Line 298: {
+Line 299: ID = this_parent
+Line 299: =
+Line 299: ID = p
+Line 299: ;
+Line 300: ID = goto
+Line 300: ID = repeat
+Line 300: ;
+Line 301: }
+Line 302: }
+Line 304: if
+Line 304: (
+Line 304: ID = this_parent
+Line 304: !=
+Line 304: ID = mnt
+Line 304: )
+Line 304: {
+Line 305: ID = next
+Line 305: =
+Line 305: ID = this_parent
+Line 305: -
+Line 305: >
+Line 305: ID = mnt_child
+Line 305: Unrecognized token: 46
+Line 305: ID = next
+Line 305: ;
+Line 306: ID = this_parent
+Line 306: =
+Line 306: ID = this_parent
+Line 306: -
+Line 306: >
+Line 306: ID = mnt_parent
+Line 306: ;
+Line 307: ID = goto
+Line 307: ID = resume
+Line 307: ;
+Line 308: }
+Line 309: ID = spin_unlock
+Line 309: (
+Line 309: Unrecognized token: 38
+Line 309: ID = vfsmount_lock
+Line 309: )
+Line 309: ;
+Line 311: if
+Line 311: (
+Line 311: ID = actual_refs
+Line 311: >
+Line 311: ID = minimum_refs
+Line 311: )
+Line 312: return
+Line 312: -
+Line 312: ID = EBUSY
+Line 312: ;
+Line 314: return
+Line 314: INTCON = 0
+Line 314: ;
+Line 315: }
+Line 317: ID = EXPORT_SYMBOL
+Line 317: (
+Line 317: ID = may_umount_tree
+Line 317: )
+Line 317: ;
+Line 332: int
+Line 332: ID = may_umount
+Line 332: (
+Line 332: ID = struct
+Line 332: ID = vfsmount
+Line 332: *
+Line 332: ID = mnt
+Line 332: )
+Line 333: {
+Line 334: if
+Line 334: (
+Line 334: ID = atomic_read
+Line 334: (
+Line 334: Unrecognized token: 38
+Line 334: ID = mnt
+Line 334: -
+Line 334: >
+Line 334: ID = mnt_count
+Line 334: )
+Line 334: >
+Line 334: INTCON = 2
+Line 334: )
+Line 335: return
+Line 335: -
+Line 335: ID = EBUSY
+Line 335: ;
+Line 336: return
+Line 336: INTCON = 0
+Line 336: ;
+Line 337: }
+Line 339: ID = EXPORT_SYMBOL
+Line 339: (
+Line 339: ID = may_umount
+Line 339: )
+Line 339: ;
+Line 341: void
+Line 341: ID = umount_tree
+Line 341: (
+Line 341: ID = struct
+Line 341: ID = vfsmount
+Line 341: *
+Line 341: ID = mnt
+Line 341: )
+Line 342: {
+Line 343: ID = struct
+Line 343: ID = vfsmount
+Line 343: *
+Line 343: ID = p
+Line 343: ;
+Line 344: ID = LIST_HEAD
+Line 344: (
+Line 344: ID = kill
+Line 344: )
+Line 344: ;
+Line 346: for
+Line 346: (
+Line 346: ID = p
+Line 346: =
+Line 346: ID = mnt
+Line 346: ;
+Line 346: ID = p
+Line 346: ;
+Line 346: ID = p
+Line 346: =
+Line 346: ID = next_mnt
+Line 346: (
+Line 346: ID = p
+Line 346: ,
+Line 346: ID = mnt
+Line 346: )
+Line 346: )
+Line 346: {
+Line 347: ID = list_del
+Line 347: (
+Line 347: Unrecognized token: 38
+Line 347: ID = p
+Line 347: -
+Line 347: >
+Line 347: ID = mnt_list
+Line 347: )
+Line 347: ;
+Line 348: ID = list_add
+Line 348: (
+Line 348: Unrecognized token: 38
+Line 348: ID = p
+Line 348: -
+Line 348: >
+Line 348: ID = mnt_list
+Line 348: ,
+Line 348: Unrecognized token: 38
+Line 348: ID = kill
+Line 348: )
+Line 348: ;
+Line 349: }
+Line 351: while
+Line 351: (
+Line 351: !
+Line 351: ID = list_empty
+Line 351: (
+Line 351: Unrecognized token: 38
+Line 351: ID = kill
+Line 351: )
+Line 351: )
+Line 351: {
+Line 352: ID = mnt
+Line 352: =
+Line 352: ID = list_entry
+Line 352: (
+Line 352: ID = kill
+Line 352: Unrecognized token: 46
+Line 352: ID = next
+Line 352: ,
+Line 352: ID = struct
+Line 352: ID = vfsmount
+Line 352: ,
+Line 352: ID = mnt_list
+Line 352: )
+Line 352: ;
+Line 353: ID = list_del_init
+Line 353: (
+Line 353: Unrecognized token: 38
+Line 353: ID = mnt
+Line 353: -
+Line 353: >
+Line 353: ID = mnt_list
+Line 353: )
+Line 353: ;
+Line 354: ID = list_del_init
+Line 354: (
+Line 354: Unrecognized token: 38
+Line 354: ID = mnt
+Line 354: -
+Line 354: >
+Line 354: ID = mnt_fslink
+Line 354: )
+Line 354: ;
+Line 355: if
+Line 355: (
+Line 355: ID = mnt
+Line 355: -
+Line 355: >
+Line 355: ID = mnt_parent
+Line 355: ==
+Line 355: ID = mnt
+Line 355: )
+Line 355: {
+Line 356: ID = spin_unlock
+Line 356: (
+Line 356: Unrecognized token: 38
+Line 356: ID = vfsmount_lock
+Line 356: )
+Line 356: ;
+Line 357: }
+Line 357: else
+Line 357: {
+Line 358: ID = struct
+Line 358: ID = nameidata
+Line 358: ID = old_nd
+Line 358: ;
+Line 359: ID = detach_mnt
+Line 359: (
+Line 359: ID = mnt
+Line 359: ,
+Line 359: Unrecognized token: 38
+Line 359: ID = old_nd
+Line 359: )
+Line 359: ;
+Line 360: ID = spin_unlock
+Line 360: (
+Line 360: Unrecognized token: 38
+Line 360: ID = vfsmount_lock
+Line 360: )
+Line 360: ;
+Line 361: ID = path_release
+Line 361: (
+Line 361: Unrecognized token: 38
+Line 361: ID = old_nd
+Line 361: )
+Line 361: ;
+Line 362: }
+Line 363: ID = mntput
+Line 363: (
+Line 363: ID = mnt
+Line 363: )
+Line 363: ;
+Line 364: ID = spin_lock
+Line 364: (
+Line 364: Unrecognized token: 38
+Line 364: ID = vfsmount_lock
+Line 364: )
+Line 364: ;
+Line 365: }
+Line 366: }
+Line 368: ID = static
+Line 368: int
+Line 368: ID = do_umount
+Line 368: (
+Line 368: ID = struct
+Line 368: ID = vfsmount
+Line 368: *
+Line 368: ID = mnt
+Line 368: ,
+Line 368: int
+Line 368: ID = flags
+Line 368: )
+Line 369: {
+Line 370: ID = struct
+Line 370: ID = super_block
+Line 370: *
+Line 370: ID = sb
+Line 370: =
+Line 370: ID = mnt
+Line 370: -
+Line 370: >
+Line 370: ID = mnt_sb
+Line 370: ;
+Line 371: int
+Line 371: ID = retval
+Line 371: ;
+Line 373: ID = retval
+Line 373: =
+Line 373: ID = security_sb_umount
+Line 373: (
+Line 373: ID = mnt
+Line 373: ,
+Line 373: ID = flags
+Line 373: )
+Line 373: ;
+Line 374: if
+Line 374: (
+Line 374: ID = retval
+Line 374: )
+Line 375: return
+Line 375: ID = retval
+Line 375: ;
+Line 383: if
+Line 383: (
+Line 383: ID = flags
+Line 383: Unrecognized token: 38
+Line 383: ID = MNT_EXPIRE
+Line 383: )
+Line 383: {
+Line 384: if
+Line 384: (
+Line 384: ID = mnt
+Line 384: ==
+Line 384: ID = current
+Line 384: -
+Line 384: >
+Line 384: ID = fs
+Line 384: -
+Line 384: >
+Line 384: ID = rootmnt
+Line 384: ||
+Line 385: ID = flags
+Line 385: Unrecognized token: 38
+Line 385: (
+Line 385: ID = MNT_FORCE
+Line 385: Unrecognized token: 124
+Line 385: ID = MNT_DETACH
+Line 385: )
+Line 385: )
+Line 386: return
+Line 386: -
+Line 386: ID = EINVAL
+Line 386: ;
+Line 388: if
+Line 388: (
+Line 388: ID = atomic_read
+Line 388: (
+Line 388: Unrecognized token: 38
+Line 388: ID = mnt
+Line 388: -
+Line 388: >
+Line 388: ID = mnt_count
+Line 388: )
+Line 388: !=
+Line 388: INTCON = 2
+Line 388: )
+Line 389: return
+Line 389: -
+Line 389: ID = EBUSY
+Line 389: ;
+Line 391: if
+Line 391: (
+Line 391: !
+Line 391: ID = xchg
+Line 391: (
+Line 391: Unrecognized token: 38
+Line 391: ID = mnt
+Line 391: -
+Line 391: >
+Line 391: ID = mnt_expiry_mark
+Line 391: ,
+Line 391: INTCON = 1
+Line 391: )
+Line 391: )
+Line 392: return
+Line 392: -
+Line 392: ID = EAGAIN
+Line 392: ;
+Line 393: }
+Line 405: ID = lock_kernel
+Line 405: (
+Line 405: )
+Line 405: ;
+Line 406: if
+Line 406: (
+Line 406: (
+Line 406: ID = flags
+Line 406: Unrecognized token: 38
+Line 406: ID = MNT_FORCE
+Line 406: )
+Line 406: &&
+Line 406: ID = sb
+Line 406: -
+Line 406: >
+Line 406: ID = s_op
+Line 406: -
+Line 406: >
+Line 406: ID = umount_begin
+Line 406: )
+Line 407: ID = sb
+Line 407: -
+Line 407: >
+Line 407: ID = s_op
+Line 407: -
+Line 407: >
+Line 407: ID = umount_begin
+Line 407: (
+Line 407: ID = sb
+Line 407: )
+Line 407: ;
+Line 408: ID = unlock_kernel
+Line 408: (
+Line 408: )
+Line 408: ;
+Line 419: if
+Line 419: (
+Line 419: ID = mnt
+Line 419: ==
+Line 419: ID = current
+Line 419: -
+Line 419: >
+Line 419: ID = fs
+Line 419: -
+Line 419: >
+Line 419: ID = rootmnt
+Line 419: &&
+Line 419: !
+Line 419: (
+Line 419: ID = flags
+Line 419: Unrecognized token: 38
+Line 419: ID = MNT_DETACH
+Line 419: )
+Line 419: )
+Line 419: {
+Line 424: ID = down_write
+Line 424: (
+Line 424: Unrecognized token: 38
+Line 424: ID = sb
+Line 424: -
+Line 424: >
+Line 424: ID = s_umount
+Line 424: )
+Line 424: ;
+Line 425: if
+Line 425: (
+Line 425: !
+Line 425: (
+Line 425: ID = sb
+Line 425: -
+Line 425: >
+Line 425: ID = s_flags
+Line 425: Unrecognized token: 38
+Line 425: ID = MS_RDONLY
+Line 425: )
+Line 425: )
+Line 425: {
+Line 426: ID = lock_kernel
+Line 426: (
+Line 426: )
+Line 426: ;
+Line 427: ID = retval
+Line 427: =
+Line 427: ID = do_remount_sb
+Line 427: (
+Line 427: ID = sb
+Line 427: ,
+Line 427: ID = MS_RDONLY
+Line 427: ,
+Line 427: ID = NULL
+Line 427: ,
+Line 427: INTCON = 0
+Line 427: )
+Line 427: ;
+Line 428: ID = unlock_kernel
+Line 428: (
+Line 428: )
+Line 428: ;
+Line 429: }
+Line 430: ID = up_write
+Line 430: (
+Line 430: Unrecognized token: 38
+Line 430: ID = sb
+Line 430: -
+Line 430: >
+Line 430: ID = s_umount
+Line 430: )
+Line 430: ;
+Line 431: return
+Line 431: ID = retval
+Line 431: ;
+Line 432: }
+Line 434: ID = down_write
+Line 434: (
+Line 434: Unrecognized token: 38
+Line 434: ID = current
+Line 434: -
+Line 434: >
+Line 434: ID = namespace
+Line 434: -
+Line 434: >
+Line 434: ID = sem
+Line 434: )
+Line 434: ;
+Line 435: ID = spin_lock
+Line 435: (
+Line 435: Unrecognized token: 38
+Line 435: ID = vfsmount_lock
+Line 435: )
+Line 435: ;
+Line 437: if
+Line 437: (
+Line 437: ID = atomic_read
+Line 437: (
+Line 437: Unrecognized token: 38
+Line 437: ID = sb
+Line 437: -
+Line 437: >
+Line 437: ID = s_active
+Line 437: )
+Line 437: ==
+Line 437: INTCON = 1
+Line 437: )
+Line 437: {
+Line 439: ID = spin_unlock
+Line 439: (
+Line 439: Unrecognized token: 38
+Line 439: ID = vfsmount_lock
+Line 439: )
+Line 439: ;
+Line 440: ID = lock_kernel
+Line 440: (
+Line 440: )
+Line 440: ;
+Line 441: ID = DQUOT_OFF
+Line 441: (
+Line 441: ID = sb
+Line 441: )
+Line 441: ;
+Line 442: ID = acct_auto_close
+Line 442: (
+Line 442: ID = sb
+Line 442: )
+Line 442: ;
+Line 443: ID = unlock_kernel
+Line 443: (
+Line 443: )
+Line 443: ;
+Line 444: ID = security_sb_umount_close
+Line 444: (
+Line 444: ID = mnt
+Line 444: )
+Line 444: ;
+Line 445: ID = spin_lock
+Line 445: (
+Line 445: Unrecognized token: 38
+Line 445: ID = vfsmount_lock
+Line 445: )
+Line 445: ;
+Line 446: }
+Line 447: ID = retval
+Line 447: =
+Line 447: -
+Line 447: ID = EBUSY
+Line 447: ;
+Line 448: if
+Line 448: (
+Line 448: ID = atomic_read
+Line 448: (
+Line 448: Unrecognized token: 38
+Line 448: ID = mnt
+Line 448: -
+Line 448: >
+Line 448: ID = mnt_count
+Line 448: )
+Line 448: ==
+Line 448: INTCON = 2
+Line 448: ||
+Line 448: ID = flags
+Line 448: Unrecognized token: 38
+Line 448: ID = MNT_DETACH
+Line 448: )
+Line 448: {
+Line 449: if
+Line 449: (
+Line 449: !
+Line 449: ID = list_empty
+Line 449: (
+Line 449: Unrecognized token: 38
+Line 449: ID = mnt
+Line 449: -
+Line 449: >
+Line 449: ID = mnt_list
+Line 449: )
+Line 449: )
+Line 450: ID = umount_tree
+Line 450: (
+Line 450: ID = mnt
+Line 450: )
+Line 450: ;
+Line 451: ID = retval
+Line 451: =
+Line 451: INTCON = 0
+Line 451: ;
+Line 452: }
+Line 453: ID = spin_unlock
+Line 453: (
+Line 453: Unrecognized token: 38
+Line 453: ID = vfsmount_lock
+Line 453: )
+Line 453: ;
+Line 454: if
+Line 454: (
+Line 454: ID = retval
+Line 454: )
+Line 455: ID = security_sb_umount_busy
+Line 455: (
+Line 455: ID = mnt
+Line 455: )
+Line 455: ;
+Line 456: ID = up_write
+Line 456: (
+Line 456: Unrecognized token: 38
+Line 456: ID = current
+Line 456: -
+Line 456: >
+Line 456: ID = namespace
+Line 456: -
+Line 456: >
+Line 456: ID = sem
+Line 456: )
+Line 456: ;
+Line 457: return
+Line 457: ID = retval
+Line 457: ;
+Line 458: }
+Line 468: ID = asmlinkage
+Line 468: ID = long
+Line 468: ID = sys_umount
+Line 468: (
+Line 468: char
+Line 468: Unrecognized token: 95
+Line 468: Unrecognized token: 95
+Line 468: ID = user
+Line 468: *
+Line 468: ID = name
+Line 468: ,
+Line 468: int
+Line 468: ID = flags
+Line 468: )
+Line 469: {
+Line 470: ID = struct
+Line 470: ID = nameidata
+Line 470: ID = nd
+Line 470: ;
+Line 471: int
+Line 471: ID = retval
+Line 471: ;
+Line 473: ID = retval
+Line 473: =
+Line 473: Unrecognized token: 95
+Line 473: Unrecognized token: 95
+Line 473: ID = user_walk
+Line 473: (
+Line 473: ID = name
+Line 473: ,
+Line 473: ID = LOOKUP_FOLLOW
+Line 473: ,
+Line 473: Unrecognized token: 38
+Line 473: ID = nd
+Line 473: )
+Line 473: ;
+Line 474: if
+Line 474: (
+Line 474: ID = retval
+Line 474: )
+Line 475: ID = goto
+Line 475: ID = out
+Line 475: ;
+Line 476: ID = retval
+Line 476: =
+Line 476: -
+Line 476: ID = EINVAL
+Line 476: ;
+Line 477: if
+Line 477: (
+Line 477: ID = nd
+Line 477: Unrecognized token: 46
+Line 477: ID = dentry
+Line 477: !=
+Line 477: ID = nd
+Line 477: Unrecognized token: 46
+Line 477: ID = mnt
+Line 477: -
+Line 477: >
+Line 477: ID = mnt_root
+Line 477: )
+Line 478: ID = goto
+Line 478: ID = dput_and_out
+Line 478: ;
+Line 479: if
+Line 479: (
+Line 479: !
+Line 479: ID = check_mnt
+Line 479: (
+Line 479: ID = nd
+Line 479: Unrecognized token: 46
+Line 479: ID = mnt
+Line 479: )
+Line 479: )
+Line 480: ID = goto
+Line 480: ID = dput_and_out
+Line 480: ;
+Line 482: ID = retval
+Line 482: =
+Line 482: -
+Line 482: ID = EPERM
+Line 482: ;
+Line 483: if
+Line 483: (
+Line 483: !
+Line 483: ID = capable
+Line 483: (
+Line 483: ID = CAP_SYS_ADMIN
+Line 483: )
+Line 483: )
+Line 484: ID = goto
+Line 484: ID = dput_and_out
+Line 484: ;
+Line 486: ID = retval
+Line 486: =
+Line 486: ID = do_umount
+Line 486: (
+Line 486: ID = nd
+Line 486: Unrecognized token: 46
+Line 486: ID = mnt
+Line 486: ,
+Line 486: ID = flags
+Line 486: )
+Line 486: ;
+Line 487: ID = dput_and_out
+Line 487: Unrecognized token: 58
+Line 488: ID = path_release_on_umount
+Line 488: (
+Line 488: Unrecognized token: 38
+Line 488: ID = nd
+Line 488: )
+Line 488: ;
+Line 489: ID = out
+Line 489: Unrecognized token: 58
+Line 490: return
+Line 490: ID = retval
+Line 490: ;
+Line 491: }
+Line 493: Unrecognized token: 35
+Line 493: ID = ifdef
+Line 493: Unrecognized token: 95
+Line 493: Unrecognized token: 95
+Line 493: ID = ARCH_WANT_SYS_OLDUMOUNT
+Line 499: ID = asmlinkage
+Line 499: ID = long
+Line 499: ID = sys_oldumount
+Line 499: (
+Line 499: char
+Line 499: Unrecognized token: 95
+Line 499: Unrecognized token: 95
+Line 499: ID = user
+Line 499: *
+Line 499: ID = name
+Line 499: )
+Line 500: {
+Line 501: return
+Line 501: ID = sys_umount
+Line 501: (
+Line 501: ID = name
+Line 501: ,
+Line 501: INTCON = 0
+Line 501: )
+Line 501: ;
+Line 502: }
+Line 504: Unrecognized token: 35
+Line 504: ID = endif
+Line 506: ID = static
+Line 506: int
+Line 506: ID = mount_is_safe
+Line 506: (
+Line 506: ID = struct
+Line 506: ID = nameidata
+Line 506: *
+Line 506: ID = nd
+Line 506: )
+Line 507: {
+Line 508: if
+Line 508: (
+Line 508: ID = capable
+Line 508: (
+Line 508: ID = CAP_SYS_ADMIN
+Line 508: )
+Line 508: )
+Line 509: return
+Line 509: INTCON = 0
+Line 509: ;
+Line 510: return
+Line 510: -
+Line 510: ID = EPERM
+Line 510: ;
+Line 511: Unrecognized token: 35
+Line 511: ID = ifdef
+Line 511: ID = notyet
+Line 512: if
+Line 512: (
+Line 512: ID = S_ISLNK
+Line 512: (
+Line 512: ID = nd
+Line 512: -
+Line 512: >
+Line 512: ID = dentry
+Line 512: -
+Line 512: >
+Line 512: ID = d_inode
+Line 512: -
+Line 512: >
+Line 512: ID = i_mode
+Line 512: )
+Line 512: )
+Line 513: return
+Line 513: -
+Line 513: ID = EPERM
+Line 513: ;
+Line 514: if
+Line 514: (
+Line 514: ID = nd
+Line 514: -
+Line 514: >
+Line 514: ID = dentry
+Line 514: -
+Line 514: >
+Line 514: ID = d_inode
+Line 514: -
+Line 514: >
+Line 514: ID = i_mode
+Line 514: Unrecognized token: 38
+Line 514: ID = S_ISVTX
+Line 514: )
+Line 514: {
+Line 515: if
+Line 515: (
+Line 515: ID = current
+Line 515: -
+Line 515: >
+Line 515: ID = uid
+Line 515: !=
+Line 515: ID = nd
+Line 515: -
+Line 515: >
+Line 515: ID = dentry
+Line 515: -
+Line 515: >
+Line 515: ID = d_inode
+Line 515: -
+Line 515: >
+Line 515: ID = i_uid
+Line 515: )
+Line 516: return
+Line 516: -
+Line 516: ID = EPERM
+Line 516: ;
+Line 517: }
+Line 518: if
+Line 518: (
+Line 518: ID = permission
+Line 518: (
+Line 518: ID = nd
+Line 518: -
+Line 518: >
+Line 518: ID = dentry
+Line 518: -
+Line 518: >
+Line 518: ID = d_inode
+Line 518: ,
+Line 518: ID = MAY_WRITE
+Line 518: ,
+Line 518: ID = nd
+Line 518: )
+Line 518: )
+Line 519: return
+Line 519: -
+Line 519: ID = EPERM
+Line 519: ;
+Line 520: return
+Line 520: INTCON = 0
+Line 520: ;
+Line 521: Unrecognized token: 35
+Line 521: ID = endif
+Line 522: }
+Line 524: ID = static
+Line 524: int
+Line 525: ID = lives_below_in_same_fs
+Line 525: (
+Line 525: ID = struct
+Line 525: ID = dentry
+Line 525: *
+Line 525: ID = d
+Line 525: ,
+Line 525: ID = struct
+Line 525: ID = dentry
+Line 525: *
+Line 525: ID = dentry
+Line 525: )
+Line 526: {
+Line 527: while
+Line 527: (
+Line 527: INTCON = 1
+Line 527: )
+Line 527: {
+Line 528: if
+Line 528: (
+Line 528: ID = d
+Line 528: ==
+Line 528: ID = dentry
+Line 528: )
+Line 529: return
+Line 529: INTCON = 1
+Line 529: ;
+Line 530: if
+Line 530: (
+Line 530: ID = d
+Line 530: ==
+Line 530: ID = NULL
+Line 530: ||
+Line 530: ID = d
+Line 530: ==
+Line 530: ID = d
+Line 530: -
+Line 530: >
+Line 530: ID = d_parent
+Line 530: )
+Line 531: return
+Line 531: INTCON = 0
+Line 531: ;
+Line 532: ID = d
+Line 532: =
+Line 532: ID = d
+Line 532: -
+Line 532: >
+Line 532: ID = d_parent
+Line 532: ;
+Line 533: }
+Line 534: }
+Line 536: ID = static
+Line 536: ID = struct
+Line 536: ID = vfsmount
+Line 536: *
+Line 536: ID = copy_tree
+Line 536: (
+Line 536: ID = struct
+Line 536: ID = vfsmount
+Line 536: *
+Line 536: ID = mnt
+Line 536: ,
+Line 536: ID = struct
+Line 536: ID = dentry
+Line 536: *
+Line 536: ID = dentry
+Line 536: )
+Line 537: {
+Line 538: ID = struct
+Line 538: ID = vfsmount
+Line 538: *
+Line 538: ID = res
+Line 538: ,
+Line 538: *
+Line 538: ID = p
+Line 538: ,
+Line 538: *
+Line 538: ID = q
+Line 538: ,
+Line 538: *
+Line 538: ID = r
+Line 538: ,
+Line 538: *
+Line 538: ID = s
+Line 538: ;
+Line 539: ID = struct
+Line 539: ID = list_head
+Line 539: *
+Line 539: ID = h
+Line 539: ;
+Line 540: ID = struct
+Line 540: ID = nameidata
+Line 540: ID = nd
+Line 540: ;
+Line 542: ID = res
+Line 542: =
+Line 542: ID = q
+Line 542: =
+Line 542: ID = clone_mnt
+Line 542: (
+Line 542: ID = mnt
+Line 542: ,
+Line 542: ID = dentry
+Line 542: )
+Line 542: ;
+Line 543: if
+Line 543: (
+Line 543: !
+Line 543: ID = q
+Line 543: )
+Line 544: ID = goto
+Line 544: ID = Enomem
+Line 544: ;
+Line 545: ID = q
+Line 545: -
+Line 545: >
+Line 545: ID = mnt_mountpoint
+Line 545: =
+Line 545: ID = mnt
+Line 545: -
+Line 545: >
+Line 545: ID = mnt_mountpoint
+Line 545: ;
+Line 547: ID = p
+Line 547: =
+Line 547: ID = mnt
+Line 547: ;
+Line 548: for
+Line 548: (
+Line 548: ID = h
+Line 548: =
+Line 548: ID = mnt
+Line 548: -
+Line 548: >
+Line 548: ID = mnt_mounts
+Line 548: Unrecognized token: 46
+Line 548: ID = next
+Line 548: ;
+Line 548: ID = h
+Line 548: !=
+Line 548: Unrecognized token: 38
+Line 548: ID = mnt
+Line 548: -
+Line 548: >
+Line 548: ID = mnt_mounts
+Line 548: ;
+Line 548: ID = h
+Line 548: =
+Line 548: ID = h
+Line 548: -
+Line 548: >
+Line 548: ID = next
+Line 548: )
+Line 548: {
+Line 549: ID = r
+Line 549: =
+Line 549: ID = list_entry
+Line 549: (
+Line 549: ID = h
+Line 549: ,
+Line 549: ID = struct
+Line 549: ID = vfsmount
+Line 549: ,
+Line 549: ID = mnt_child
+Line 549: )
+Line 549: ;
+Line 550: if
+Line 550: (
+Line 550: !
+Line 550: ID = lives_below_in_same_fs
+Line 550: (
+Line 550: ID = r
+Line 550: -
+Line 550: >
+Line 550: ID = mnt_mountpoint
+Line 550: ,
+Line 550: ID = dentry
+Line 550: )
+Line 550: )
+Line 551: ID = continue
+Line 551: ;
+Line 553: for
+Line 553: (
+Line 553: ID = s
+Line 553: =
+Line 553: ID = r
+Line 553: ;
+Line 553: ID = s
+Line 553: ;
+Line 553: ID = s
+Line 553: =
+Line 553: ID = next_mnt
+Line 553: (
+Line 553: ID = s
+Line 553: ,
+Line 553: ID = r
+Line 553: )
+Line 553: )
+Line 553: {
+Line 554: while
+Line 554: (
+Line 554: ID = p
+Line 554: !=
+Line 554: ID = s
+Line 554: -
+Line 554: >
+Line 554: ID = mnt_parent
+Line 554: )
+Line 554: {
+Line 555: ID = p
+Line 555: =
+Line 555: ID = p
+Line 555: -
+Line 555: >
+Line 555: ID = mnt_parent
+Line 555: ;
+Line 556: ID = q
+Line 556: =
+Line 556: ID = q
+Line 556: -
+Line 556: >
+Line 556: ID = mnt_parent
+Line 556: ;
+Line 557: }
+Line 558: ID = p
+Line 558: =
+Line 558: ID = s
+Line 558: ;
+Line 559: ID = nd
+Line 559: Unrecognized token: 46
+Line 559: ID = mnt
+Line 559: =
+Line 559: ID = q
+Line 559: ;
+Line 560: ID = nd
+Line 560: Unrecognized token: 46
+Line 560: ID = dentry
+Line 560: =
+Line 560: ID = p
+Line 560: -
+Line 560: >
+Line 560: ID = mnt_mountpoint
+Line 560: ;
+Line 561: ID = q
+Line 561: =
+Line 561: ID = clone_mnt
+Line 561: (
+Line 561: ID = p
+Line 561: ,
+Line 561: ID = p
+Line 561: -
+Line 561: >
+Line 561: ID = mnt_root
+Line 561: )
+Line 561: ;
+Line 562: if
+Line 562: (
+Line 562: !
+Line 562: ID = q
+Line 562: )
+Line 563: ID = goto
+Line 563: ID = Enomem
+Line 563: ;
+Line 564: ID = spin_lock
+Line 564: (
+Line 564: Unrecognized token: 38
+Line 564: ID = vfsmount_lock
+Line 564: )
+Line 564: ;
+Line 565: ID = list_add_tail
+Line 565: (
+Line 565: Unrecognized token: 38
+Line 565: ID = q
+Line 565: -
+Line 565: >
+Line 565: ID = mnt_list
+Line 565: ,
+Line 565: Unrecognized token: 38
+Line 565: ID = res
+Line 565: -
+Line 565: >
+Line 565: ID = mnt_list
+Line 565: )
+Line 565: ;
+Line 566: ID = attach_mnt
+Line 566: (
+Line 566: ID = q
+Line 566: ,
+Line 566: Unrecognized token: 38
+Line 566: ID = nd
+Line 566: )
+Line 566: ;
+Line 567: ID = spin_unlock
+Line 567: (
+Line 567: Unrecognized token: 38
+Line 567: ID = vfsmount_lock
+Line 567: )
+Line 567: ;
+Line 568: }
+Line 569: }
+Line 570: return
+Line 570: ID = res
+Line 570: ;
+Line 571: ID = Enomem
+Line 571: Unrecognized token: 58
+Line 572: if
+Line 572: (
+Line 572: ID = res
+Line 572: )
+Line 572: {
+Line 573: ID = spin_lock
+Line 573: (
+Line 573: Unrecognized token: 38
+Line 573: ID = vfsmount_lock
+Line 573: )
+Line 573: ;
+Line 574: ID = umount_tree
+Line 574: (
+Line 574: ID = res
+Line 574: )
+Line 574: ;
+Line 575: ID = spin_unlock
+Line 575: (
+Line 575: Unrecognized token: 38
+Line 575: ID = vfsmount_lock
+Line 575: )
+Line 575: ;
+Line 576: }
+Line 577: return
+Line 577: ID = NULL
+Line 577: ;
+Line 578: }
+Line 580: ID = static
+Line 580: int
+Line 580: ID = graft_tree
+Line 580: (
+Line 580: ID = struct
+Line 580: ID = vfsmount
+Line 580: *
+Line 580: ID = mnt
+Line 580: ,
+Line 580: ID = struct
+Line 580: ID = nameidata
+Line 580: *
+Line 580: ID = nd
+Line 580: )
+Line 581: {
+Line 582: int
+Line 582: ID = err
+Line 582: ;
+Line 583: if
+Line 583: (
+Line 583: ID = mnt
+Line 583: -
+Line 583: >
+Line 583: ID = mnt_sb
+Line 583: -
+Line 583: >
+Line 583: ID = s_flags
+Line 583: Unrecognized token: 38
+Line 583: ID = MS_NOUSER
+Line 583: )
+Line 584: return
+Line 584: -
+Line 584: ID = EINVAL
+Line 584: ;
+Line 586: if
+Line 586: (
+Line 586: ID = S_ISDIR
+Line 586: (
+Line 586: ID = nd
+Line 586: -
+Line 586: >
+Line 586: ID = dentry
+Line 586: -
+Line 586: >
+Line 586: ID = d_inode
+Line 586: -
+Line 586: >
+Line 586: ID = i_mode
+Line 586: )
+Line 586: !=
+Line 587: ID = S_ISDIR
+Line 587: (
+Line 587: ID = mnt
+Line 587: -
+Line 587: >
+Line 587: ID = mnt_root
+Line 587: -
+Line 587: >
+Line 587: ID = d_inode
+Line 587: -
+Line 587: >
+Line 587: ID = i_mode
+Line 587: )
+Line 587: )
+Line 588: return
+Line 588: -
+Line 588: ID = ENOTDIR
+Line 588: ;
+Line 590: ID = err
+Line 590: =
+Line 590: -
+Line 590: ID = ENOENT
+Line 590: ;
+Line 591: ID = down
+Line 591: (
+Line 591: Unrecognized token: 38
+Line 591: ID = nd
+Line 591: -
+Line 591: >
+Line 591: ID = dentry
+Line 591: -
+Line 591: >
+Line 591: ID = d_inode
+Line 591: -
+Line 591: >
+Line 591: ID = i_sem
+Line 591: )
+Line 591: ;
+Line 592: if
+Line 592: (
+Line 592: ID = IS_DEADDIR
+Line 592: (
+Line 592: ID = nd
+Line 592: -
+Line 592: >
+Line 592: ID = dentry
+Line 592: -
+Line 592: >
+Line 592: ID = d_inode
+Line 592: )
+Line 592: )
+Line 593: ID = goto
+Line 593: ID = out_unlock
+Line 593: ;
+Line 595: ID = err
+Line 595: =
+Line 595: ID = security_sb_check_sb
+Line 595: (
+Line 595: ID = mnt
+Line 595: ,
+Line 595: ID = nd
+Line 595: )
+Line 595: ;
+Line 596: if
+Line 596: (
+Line 596: ID = err
+Line 596: )
+Line 597: ID = goto
+Line 597: ID = out_unlock
+Line 597: ;
+Line 599: ID = err
+Line 599: =
+Line 599: -
+Line 599: ID = ENOENT
+Line 599: ;
+Line 600: ID = spin_lock
+Line 600: (
+Line 600: Unrecognized token: 38
+Line 600: ID = vfsmount_lock
+Line 600: )
+Line 600: ;
+Line 601: if
+Line 601: (
+Line 601: ID = IS_ROOT
+Line 601: (
+Line 601: ID = nd
+Line 601: -
+Line 601: >
+Line 601: ID = dentry
+Line 601: )
+Line 601: ||
+Line 601: !
+Line 601: ID = d_unhashed
+Line 601: (
+Line 601: ID = nd
+Line 601: -
+Line 601: >
+Line 601: ID = dentry
+Line 601: )
+Line 601: )
+Line 601: {
+Line 602: ID = struct
+Line 602: ID = list_head
+Line 602: ID = head
+Line 602: ;
+Line 604: ID = attach_mnt
+Line 604: (
+Line 604: ID = mnt
+Line 604: ,
+Line 604: ID = nd
+Line 604: )
+Line 604: ;
+Line 605: ID = list_add_tail
+Line 605: (
+Line 605: Unrecognized token: 38
+Line 605: ID = head
+Line 605: ,
+Line 605: Unrecognized token: 38
+Line 605: ID = mnt
+Line 605: -
+Line 605: >
+Line 605: ID = mnt_list
+Line 605: )
+Line 605: ;
+Line 606: ID = list_splice
+Line 606: (
+Line 606: Unrecognized token: 38
+Line 606: ID = head
+Line 606: ,
+Line 606: ID = current
+Line 606: -
+Line 606: >
+Line 606: ID = namespace
+Line 606: -
+Line 606: >
+Line 606: ID = list
+Line 606: Unrecognized token: 46
+Line 606: ID = prev
+Line 606: )
+Line 606: ;
+Line 607: ID = mntget
+Line 607: (
+Line 607: ID = mnt
+Line 607: )
+Line 607: ;
+Line 608: ID = err
+Line 608: =
+Line 608: INTCON = 0
+Line 608: ;
+Line 609: }
+Line 610: ID = spin_unlock
+Line 610: (
+Line 610: Unrecognized token: 38
+Line 610: ID = vfsmount_lock
+Line 610: )
+Line 610: ;
+Line 611: ID = out_unlock
+Line 611: Unrecognized token: 58
+Line 612: ID = up
+Line 612: (
+Line 612: Unrecognized token: 38
+Line 612: ID = nd
+Line 612: -
+Line 612: >
+Line 612: ID = dentry
+Line 612: -
+Line 612: >
+Line 612: ID = d_inode
+Line 612: -
+Line 612: >
+Line 612: ID = i_sem
+Line 612: )
+Line 612: ;
+Line 613: if
+Line 613: (
+Line 613: !
+Line 613: ID = err
+Line 613: )
+Line 614: ID = security_sb_post_addmount
+Line 614: (
+Line 614: ID = mnt
+Line 614: ,
+Line 614: ID = nd
+Line 614: )
+Line 614: ;
+Line 615: return
+Line 615: ID = err
+Line 615: ;
+Line 616: }
+Line 621: ID = static
+Line 621: int
+Line 621: ID = do_loopback
+Line 621: (
+Line 621: ID = struct
+Line 621: ID = nameidata
+Line 621: *
+Line 621: ID = nd
+Line 621: ,
+Line 621: char
+Line 621: *
+Line 621: ID = old_name
+Line 621: ,
+Line 621: int
+Line 621: ID = recurse
+Line 621: )
+Line 622: {
+Line 623: ID = struct
+Line 623: ID = nameidata
+Line 623: ID = old_nd
+Line 623: ;
+Line 624: ID = struct
+Line 624: ID = vfsmount
+Line 624: *
+Line 624: ID = mnt
+Line 624: =
+Line 624: ID = NULL
+Line 624: ;
+Line 625: int
+Line 625: ID = err
+Line 625: =
+Line 625: ID = mount_is_safe
+Line 625: (
+Line 625: ID = nd
+Line 625: )
+Line 625: ;
+Line 626: if
+Line 626: (
+Line 626: ID = err
+Line 626: )
+Line 627: return
+Line 627: ID = err
+Line 627: ;
+Line 628: if
+Line 628: (
+Line 628: !
+Line 628: ID = old_name
+Line 628: ||
+Line 628: !
+Line 628: *
+Line 628: ID = old_name
+Line 628: )
+Line 629: return
+Line 629: -
+Line 629: ID = EINVAL
+Line 629: ;
+Line 630: ID = err
+Line 630: =
+Line 630: ID = path_lookup
+Line 630: (
+Line 630: ID = old_name
+Line 630: ,
+Line 630: ID = LOOKUP_FOLLOW
+Line 630: ,
+Line 630: Unrecognized token: 38
+Line 630: ID = old_nd
+Line 630: )
+Line 630: ;
+Line 631: if
+Line 631: (
+Line 631: ID = err
+Line 631: )
+Line 632: return
+Line 632: ID = err
+Line 632: ;
+Line 634: ID = down_write
+Line 634: (
+Line 634: Unrecognized token: 38
+Line 634: ID = current
+Line 634: -
+Line 634: >
+Line 634: ID = namespace
+Line 634: -
+Line 634: >
+Line 634: ID = sem
+Line 634: )
+Line 634: ;
+Line 635: ID = err
+Line 635: =
+Line 635: -
+Line 635: ID = EINVAL
+Line 635: ;
+Line 636: if
+Line 636: (
+Line 636: ID = check_mnt
+Line 636: (
+Line 636: ID = nd
+Line 636: -
+Line 636: >
+Line 636: ID = mnt
+Line 636: )
+Line 636: &&
+Line 636: (
+Line 636: !
+Line 636: ID = recurse
+Line 636: ||
+Line 636: ID = check_mnt
+Line 636: (
+Line 636: ID = old_nd
+Line 636: Unrecognized token: 46
+Line 636: ID = mnt
+Line 636: )
+Line 636: )
+Line 636: )
+Line 636: {
+Line 637: ID = err
+Line 637: =
+Line 637: -
+Line 637: ID = ENOMEM
+Line 637: ;
+Line 638: if
+Line 638: (
+Line 638: ID = recurse
+Line 638: )
+Line 639: ID = mnt
+Line 639: =
+Line 639: ID = copy_tree
+Line 639: (
+Line 639: ID = old_nd
+Line 639: Unrecognized token: 46
+Line 639: ID = mnt
+Line 639: ,
+Line 639: ID = old_nd
+Line 639: Unrecognized token: 46
+Line 639: ID = dentry
+Line 639: )
+Line 639: ;
+Line 640: else
+Line 641: ID = mnt
+Line 641: =
+Line 641: ID = clone_mnt
+Line 641: (
+Line 641: ID = old_nd
+Line 641: Unrecognized token: 46
+Line 641: ID = mnt
+Line 641: ,
+Line 641: ID = old_nd
+Line 641: Unrecognized token: 46
+Line 641: ID = dentry
+Line 641: )
+Line 641: ;
+Line 642: }
+Line 644: if
+Line 644: (
+Line 644: ID = mnt
+Line 644: )
+Line 644: {
+Line 646: ID = spin_lock
+Line 646: (
+Line 646: Unrecognized token: 38
+Line 646: ID = vfsmount_lock
+Line 646: )
+Line 646: ;
+Line 647: ID = list_del_init
+Line 647: (
+Line 647: Unrecognized token: 38
+Line 647: ID = mnt
+Line 647: -
+Line 647: >
+Line 647: ID = mnt_fslink
+Line 647: )
+Line 647: ;
+Line 648: ID = spin_unlock
+Line 648: (
+Line 648: Unrecognized token: 38
+Line 648: ID = vfsmount_lock
+Line 648: )
+Line 648: ;
+Line 650: ID = err
+Line 650: =
+Line 650: ID = graft_tree
+Line 650: (
+Line 650: ID = mnt
+Line 650: ,
+Line 650: ID = nd
+Line 650: )
+Line 650: ;
+Line 651: if
+Line 651: (
+Line 651: ID = err
+Line 651: )
+Line 651: {
+Line 652: ID = spin_lock
+Line 652: (
+Line 652: Unrecognized token: 38
+Line 652: ID = vfsmount_lock
+Line 652: )
+Line 652: ;
+Line 653: ID = umount_tree
+Line 653: (
+Line 653: ID = mnt
+Line 653: )
+Line 653: ;
+Line 654: ID = spin_unlock
+Line 654: (
+Line 654: Unrecognized token: 38
+Line 654: ID = vfsmount_lock
+Line 654: )
+Line 654: ;
+Line 655: }
+Line 655: else
+Line 656: ID = mntput
+Line 656: (
+Line 656: ID = mnt
+Line 656: )
+Line 656: ;
+Line 657: }
+Line 659: ID = up_write
+Line 659: (
+Line 659: Unrecognized token: 38
+Line 659: ID = current
+Line 659: -
+Line 659: >
+Line 659: ID = namespace
+Line 659: -
+Line 659: >
+Line 659: ID = sem
+Line 659: )
+Line 659: ;
+Line 660: ID = path_release
+Line 660: (
+Line 660: Unrecognized token: 38
+Line 660: ID = old_nd
+Line 660: )
+Line 660: ;
+Line 661: return
+Line 661: ID = err
+Line 661: ;
+Line 662: }
+Line 670: ID = static
+Line 670: int
+Line 670: ID = do_remount
+Line 670: (
+Line 670: ID = struct
+Line 670: ID = nameidata
+Line 670: *
+Line 670: ID = nd
+Line 670: ,
+Line 670: int
+Line 670: ID = flags
+Line 670: ,
+Line 670: int
+Line 670: ID = mnt_flags
+Line 670: ,
+Line 671: void
+Line 671: *
+Line 671: ID = data
+Line 671: )
+Line 672: {
+Line 673: int
+Line 673: ID = err
+Line 673: ;
+Line 674: ID = struct
+Line 674: ID = super_block
+Line 674: *
+Line 674: ID = sb
+Line 674: =
+Line 674: ID = nd
+Line 674: -
+Line 674: >
+Line 674: ID = mnt
+Line 674: -
+Line 674: >
+Line 674: ID = mnt_sb
+Line 674: ;
+Line 676: if
+Line 676: (
+Line 676: !
+Line 676: ID = capable
+Line 676: (
+Line 676: ID = CAP_SYS_ADMIN
+Line 676: )
+Line 676: )
+Line 677: return
+Line 677: -
+Line 677: ID = EPERM
+Line 677: ;
+Line 679: if
+Line 679: (
+Line 679: !
+Line 679: ID = check_mnt
+Line 679: (
+Line 679: ID = nd
+Line 679: -
+Line 679: >
+Line 679: ID = mnt
+Line 679: )
+Line 679: )
+Line 680: return
+Line 680: -
+Line 680: ID = EINVAL
+Line 680: ;
+Line 682: if
+Line 682: (
+Line 682: ID = nd
+Line 682: -
+Line 682: >
+Line 682: ID = dentry
+Line 682: !=
+Line 682: ID = nd
+Line 682: -
+Line 682: >
+Line 682: ID = mnt
+Line 682: -
+Line 682: >
+Line 682: ID = mnt_root
+Line 682: )
+Line 683: return
+Line 683: -
+Line 683: ID = EINVAL
+Line 683: ;
+Line 685: ID = down_write
+Line 685: (
+Line 685: Unrecognized token: 38
+Line 685: ID = sb
+Line 685: -
+Line 685: >
+Line 685: ID = s_umount
+Line 685: )
+Line 685: ;
+Line 686: ID = err
+Line 686: =
+Line 686: ID = do_remount_sb
+Line 686: (
+Line 686: ID = sb
+Line 686: ,
+Line 686: ID = flags
+Line 686: ,
+Line 686: ID = data
+Line 686: ,
+Line 686: INTCON = 0
+Line 686: )
+Line 686: ;
+Line 687: if
+Line 687: (
+Line 687: !
+Line 687: ID = err
+Line 687: )
+Line 688: ID = nd
+Line 688: -
+Line 688: >
+Line 688: ID = mnt
+Line 688: -
+Line 688: >
+Line 688: ID = mnt_flags
+Line 688: =
+Line 688: ID = mnt_flags
+Line 688: ;
+Line 689: ID = up_write
+Line 689: (
+Line 689: Unrecognized token: 38
+Line 689: ID = sb
+Line 689: -
+Line 689: >
+Line 689: ID = s_umount
+Line 689: )
+Line 689: ;
+Line 690: if
+Line 690: (
+Line 690: !
+Line 690: ID = err
+Line 690: )
+Line 691: ID = security_sb_post_remount
+Line 691: (
+Line 691: ID = nd
+Line 691: -
+Line 691: >
+Line 691: ID = mnt
+Line 691: ,
+Line 691: ID = flags
+Line 691: ,
+Line 691: ID = data
+Line 691: )
+Line 691: ;
+Line 692: return
+Line 692: ID = err
+Line 692: ;
+Line 693: }
+Line 695: ID = static
+Line 695: int
+Line 695: ID = do_move_mount
+Line 695: (
+Line 695: ID = struct
+Line 695: ID = nameidata
+Line 695: *
+Line 695: ID = nd
+Line 695: ,
+Line 695: char
+Line 695: *
+Line 695: ID = old_name
+Line 695: )
+Line 696: {
+Line 697: ID = struct
+Line 697: ID = nameidata
+Line 697: ID = old_nd
+Line 697: ,
+Line 697: ID = parent_nd
+Line 697: ;
+Line 698: ID = struct
+Line 698: ID = vfsmount
+Line 698: *
+Line 698: ID = p
+Line 698: ;
+Line 699: int
+Line 699: ID = err
+Line 699: =
+Line 699: INTCON = 0
+Line 699: ;
+Line 700: if
+Line 700: (
+Line 700: !
+Line 700: ID = capable
+Line 700: (
+Line 700: ID = CAP_SYS_ADMIN
+Line 700: )
+Line 700: )
+Line 701: return
+Line 701: -
+Line 701: ID = EPERM
+Line 701: ;
+Line 702: if
+Line 702: (
+Line 702: !
+Line 702: ID = old_name
+Line 702: ||
+Line 702: !
+Line 702: *
+Line 702: ID = old_name
+Line 702: )
+Line 703: return
+Line 703: -
+Line 703: ID = EINVAL
+Line 703: ;
+Line 704: ID = err
+Line 704: =
+Line 704: ID = path_lookup
+Line 704: (
+Line 704: ID = old_name
+Line 704: ,
+Line 704: ID = LOOKUP_FOLLOW
+Line 704: ,
+Line 704: Unrecognized token: 38
+Line 704: ID = old_nd
+Line 704: )
+Line 704: ;
+Line 705: if
+Line 705: (
+Line 705: ID = err
+Line 705: )
+Line 706: return
+Line 706: ID = err
+Line 706: ;
+Line 708: ID = down_write
+Line 708: (
+Line 708: Unrecognized token: 38
+Line 708: ID = current
+Line 708: -
+Line 708: >
+Line 708: ID = namespace
+Line 708: -
+Line 708: >
+Line 708: ID = sem
+Line 708: )
+Line 708: ;
+Line 709: while
+Line 709: (
+Line 709: ID = d_mountpoint
+Line 709: (
+Line 709: ID = nd
+Line 709: -
+Line 709: >
+Line 709: ID = dentry
+Line 709: )
+Line 709: &&
+Line 709: ID = follow_down
+Line 709: (
+Line 709: Unrecognized token: 38
+Line 709: ID = nd
+Line 709: -
+Line 709: >
+Line 709: ID = mnt
+Line 709: ,
+Line 709: Unrecognized token: 38
+Line 709: ID = nd
+Line 709: -
+Line 709: >
+Line 709: ID = dentry
+Line 709: )
+Line 709: )
+Line 710: ;
+Line 711: ID = err
+Line 711: =
+Line 711: -
+Line 711: ID = EINVAL
+Line 711: ;
+Line 712: if
+Line 712: (
+Line 712: !
+Line 712: ID = check_mnt
+Line 712: (
+Line 712: ID = nd
+Line 712: -
+Line 712: >
+Line 712: ID = mnt
+Line 712: )
+Line 712: ||
+Line 712: !
+Line 712: ID = check_mnt
+Line 712: (
+Line 712: ID = old_nd
+Line 712: Unrecognized token: 46
+Line 712: ID = mnt
+Line 712: )
+Line 712: )
+Line 713: ID = goto
+Line 713: ID = out
+Line 713: ;
+Line 715: ID = err
+Line 715: =
+Line 715: -
+Line 715: ID = ENOENT
+Line 715: ;
+Line 716: ID = down
+Line 716: (
+Line 716: Unrecognized token: 38
+Line 716: ID = nd
+Line 716: -
+Line 716: >
+Line 716: ID = dentry
+Line 716: -
+Line 716: >
+Line 716: ID = d_inode
+Line 716: -
+Line 716: >
+Line 716: ID = i_sem
+Line 716: )
+Line 716: ;
+Line 717: if
+Line 717: (
+Line 717: ID = IS_DEADDIR
+Line 717: (
+Line 717: ID = nd
+Line 717: -
+Line 717: >
+Line 717: ID = dentry
+Line 717: -
+Line 717: >
+Line 717: ID = d_inode
+Line 717: )
+Line 717: )
+Line 718: ID = goto
+Line 718: ID = out1
+Line 718: ;
+Line 720: ID = spin_lock
+Line 720: (
+Line 720: Unrecognized token: 38
+Line 720: ID = vfsmount_lock
+Line 720: )
+Line 720: ;
+Line 721: if
+Line 721: (
+Line 721: !
+Line 721: ID = IS_ROOT
+Line 721: (
+Line 721: ID = nd
+Line 721: -
+Line 721: >
+Line 721: ID = dentry
+Line 721: )
+Line 721: &&
+Line 721: ID = d_unhashed
+Line 721: (
+Line 721: ID = nd
+Line 721: -
+Line 721: >
+Line 721: ID = dentry
+Line 721: )
+Line 721: )
+Line 722: ID = goto
+Line 722: ID = out2
+Line 722: ;
+Line 724: ID = err
+Line 724: =
+Line 724: -
+Line 724: ID = EINVAL
+Line 724: ;
+Line 725: if
+Line 725: (
+Line 725: ID = old_nd
+Line 725: Unrecognized token: 46
+Line 725: ID = dentry
+Line 725: !=
+Line 725: ID = old_nd
+Line 725: Unrecognized token: 46
+Line 725: ID = mnt
+Line 725: -
+Line 725: >
+Line 725: ID = mnt_root
+Line 725: )
+Line 726: ID = goto
+Line 726: ID = out2
+Line 726: ;
+Line 728: if
+Line 728: (
+Line 728: ID = old_nd
+Line 728: Unrecognized token: 46
+Line 728: ID = mnt
+Line 728: ==
+Line 728: ID = old_nd
+Line 728: Unrecognized token: 46
+Line 728: ID = mnt
+Line 728: -
+Line 728: >
+Line 728: ID = mnt_parent
+Line 728: )
+Line 729: ID = goto
+Line 729: ID = out2
+Line 729: ;
+Line 731: if
+Line 731: (
+Line 731: ID = S_ISDIR
+Line 731: (
+Line 731: ID = nd
+Line 731: -
+Line 731: >
+Line 731: ID = dentry
+Line 731: -
+Line 731: >
+Line 731: ID = d_inode
+Line 731: -
+Line 731: >
+Line 731: ID = i_mode
+Line 731: )
+Line 731: !=
+Line 732: ID = S_ISDIR
+Line 732: (
+Line 732: ID = old_nd
+Line 732: Unrecognized token: 46
+Line 732: ID = dentry
+Line 732: -
+Line 732: >
+Line 732: ID = d_inode
+Line 732: -
+Line 732: >
+Line 732: ID = i_mode
+Line 732: )
+Line 732: )
+Line 733: ID = goto
+Line 733: ID = out2
+Line 733: ;
+Line 735: ID = err
+Line 735: =
+Line 735: -
+Line 735: ID = ELOOP
+Line 735: ;
+Line 736: for
+Line 736: (
+Line 736: ID = p
+Line 736: =
+Line 736: ID = nd
+Line 736: -
+Line 736: >
+Line 736: ID = mnt
+Line 736: ;
+Line 736: ID = p
+Line 736: -
+Line 736: >
+Line 736: ID = mnt_parent
+Line 736: !=
+Line 736: ID = p
+Line 736: ;
+Line 736: ID = p
+Line 736: =
+Line 736: ID = p
+Line 736: -
+Line 736: >
+Line 736: ID = mnt_parent
+Line 736: )
+Line 737: if
+Line 737: (
+Line 737: ID = p
+Line 737: ==
+Line 737: ID = old_nd
+Line 737: Unrecognized token: 46
+Line 737: ID = mnt
+Line 737: )
+Line 738: ID = goto
+Line 738: ID = out2
+Line 738: ;
+Line 739: ID = err
+Line 739: =
+Line 739: INTCON = 0
+Line 739: ;
+Line 741: ID = detach_mnt
+Line 741: (
+Line 741: ID = old_nd
+Line 741: Unrecognized token: 46
+Line 741: ID = mnt
+Line 741: ,
+Line 741: Unrecognized token: 38
+Line 741: ID = parent_nd
+Line 741: )
+Line 741: ;
+Line 742: ID = attach_mnt
+Line 742: (
+Line 742: ID = old_nd
+Line 742: Unrecognized token: 46
+Line 742: ID = mnt
+Line 742: ,
+Line 742: ID = nd
+Line 742: )
+Line 742: ;
+Line 746: ID = list_del_init
+Line 746: (
+Line 746: Unrecognized token: 38
+Line 746: ID = old_nd
+Line 746: Unrecognized token: 46
+Line 746: ID = mnt
+Line 746: -
+Line 746: >
+Line 746: ID = mnt_fslink
+Line 746: )
+Line 746: ;
+Line 747: ID = out2
+Line 747: Unrecognized token: 58
+Line 748: ID = spin_unlock
+Line 748: (
+Line 748: Unrecognized token: 38
+Line 748: ID = vfsmount_lock
+Line 748: )
+Line 748: ;
+Line 749: ID = out1
+Line 749: Unrecognized token: 58
+Line 750: ID = up
+Line 750: (
+Line 750: Unrecognized token: 38
+Line 750: ID = nd
+Line 750: -
+Line 750: >
+Line 750: ID = dentry
+Line 750: -
+Line 750: >
+Line 750: ID = d_inode
+Line 750: -
+Line 750: >
+Line 750: ID = i_sem
+Line 750: )
+Line 750: ;
+Line 751: ID = out
+Line 751: Unrecognized token: 58
+Line 752: ID = up_write
+Line 752: (
+Line 752: Unrecognized token: 38
+Line 752: ID = current
+Line 752: -
+Line 752: >
+Line 752: ID = namespace
+Line 752: -
+Line 752: >
+Line 752: ID = sem
+Line 752: )
+Line 752: ;
+Line 753: if
+Line 753: (
+Line 753: !
+Line 753: ID = err
+Line 753: )
+Line 754: ID = path_release
+Line 754: (
+Line 754: Unrecognized token: 38
+Line 754: ID = parent_nd
+Line 754: )
+Line 754: ;
+Line 755: ID = path_release
+Line 755: (
+Line 755: Unrecognized token: 38
+Line 755: ID = old_nd
+Line 755: )
+Line 755: ;
+Line 756: return
+Line 756: ID = err
+Line 756: ;
+Line 757: }
+Line 763: ID = static
+Line 763: int
+Line 763: ID = do_new_mount
+Line 763: (
+Line 763: ID = struct
+Line 763: ID = nameidata
+Line 763: *
+Line 763: ID = nd
+Line 763: ,
+Line 763: char
+Line 763: *
+Line 763: ID = type
+Line 763: ,
+Line 763: int
+Line 763: ID = flags
+Line 763: ,
+Line 764: int
+Line 764: ID = mnt_flags
+Line 764: ,
+Line 764: char
+Line 764: *
+Line 764: ID = name
+Line 764: ,
+Line 764: void
+Line 764: *
+Line 764: ID = data
+Line 764: )
+Line 765: {
+Line 766: ID = struct
+Line 766: ID = vfsmount
+Line 766: *
+Line 766: ID = mnt
+Line 766: ;
+Line 768: if
+Line 768: (
+Line 768: !
+Line 768: ID = type
+Line 768: ||
+Line 768: !
+Line 768: ID = memchr
+Line 768: (
+Line 768: ID = type
+Line 768: ,
+Line 768: INTCON = 0
+Line 768: ,
+Line 768: ID = PAGE_SIZE
+Line 768: )
+Line 768: )
+Line 769: return
+Line 769: -
+Line 769: ID = EINVAL
+Line 769: ;
+Line 772: if
+Line 772: (
+Line 772: !
+Line 772: ID = capable
+Line 772: (
+Line 772: ID = CAP_SYS_ADMIN
+Line 772: )
+Line 772: )
+Line 773: return
+Line 773: -
+Line 773: ID = EPERM
+Line 773: ;
+Line 775: ID = mnt
+Line 775: =
+Line 775: ID = do_kern_mount
+Line 775: (
+Line 775: ID = type
+Line 775: ,
+Line 775: ID = flags
+Line 775: ,
+Line 775: ID = name
+Line 775: ,
+Line 775: ID = data
+Line 775: )
+Line 775: ;
+Line 776: if
+Line 776: (
+Line 776: ID = IS_ERR
+Line 776: (
+Line 776: ID = mnt
+Line 776: )
+Line 776: )
+Line 777: return
+Line 777: ID = PTR_ERR
+Line 777: (
+Line 777: ID = mnt
+Line 777: )
+Line 777: ;
+Line 779: return
+Line 779: ID = do_add_mount
+Line 779: (
+Line 779: ID = mnt
+Line 779: ,
+Line 779: ID = nd
+Line 779: ,
+Line 779: ID = mnt_flags
+Line 779: ,
+Line 779: ID = NULL
+Line 779: )
+Line 779: ;
+Line 780: }
+Line 786: int
+Line 786: ID = do_add_mount
+Line 786: (
+Line 786: ID = struct
+Line 786: ID = vfsmount
+Line 786: *
+Line 786: ID = newmnt
+Line 786: ,
+Line 786: ID = struct
+Line 786: ID = nameidata
+Line 786: *
+Line 786: ID = nd
+Line 786: ,
+Line 787: int
+Line 787: ID = mnt_flags
+Line 787: ,
+Line 787: ID = struct
+Line 787: ID = list_head
+Line 787: *
+Line 787: ID = fslist
+Line 787: )
+Line 788: {
+Line 789: int
+Line 789: ID = err
+Line 789: ;
+Line 791: ID = down_write
+Line 791: (
+Line 791: Unrecognized token: 38
+Line 791: ID = current
+Line 791: -
+Line 791: >
+Line 791: ID = namespace
+Line 791: -
+Line 791: >
+Line 791: ID = sem
+Line 791: )
+Line 791: ;
+Line 793: while
+Line 793: (
+Line 793: ID = d_mountpoint
+Line 793: (
+Line 793: ID = nd
+Line 793: -
+Line 793: >
+Line 793: ID = dentry
+Line 793: )
+Line 793: &&
+Line 793: ID = follow_down
+Line 793: (
+Line 793: Unrecognized token: 38
+Line 793: ID = nd
+Line 793: -
+Line 793: >
+Line 793: ID = mnt
+Line 793: ,
+Line 793: Unrecognized token: 38
+Line 793: ID = nd
+Line 793: -
+Line 793: >
+Line 793: ID = dentry
+Line 793: )
+Line 793: )
+Line 794: ;
+Line 795: ID = err
+Line 795: =
+Line 795: -
+Line 795: ID = EINVAL
+Line 795: ;
+Line 796: if
+Line 796: (
+Line 796: !
+Line 796: ID = check_mnt
+Line 796: (
+Line 796: ID = nd
+Line 796: -
+Line 796: >
+Line 796: ID = mnt
+Line 796: )
+Line 796: )
+Line 797: ID = goto
+Line 797: ID = unlock
+Line 797: ;
+Line 800: ID = err
+Line 800: =
+Line 800: -
+Line 800: ID = EBUSY
+Line 800: ;
+Line 801: if
+Line 801: (
+Line 801: ID = nd
+Line 801: -
+Line 801: >
+Line 801: ID = mnt
+Line 801: -
+Line 801: >
+Line 801: ID = mnt_sb
+Line 801: ==
+Line 801: ID = newmnt
+Line 801: -
+Line 801: >
+Line 801: ID = mnt_sb
+Line 801: &&
+Line 802: ID = nd
+Line 802: -
+Line 802: >
+Line 802: ID = mnt
+Line 802: -
+Line 802: >
+Line 802: ID = mnt_root
+Line 802: ==
+Line 802: ID = nd
+Line 802: -
+Line 802: >
+Line 802: ID = dentry
+Line 802: )
+Line 803: ID = goto
+Line 803: ID = unlock
+Line 803: ;
+Line 805: ID = err
+Line 805: =
+Line 805: -
+Line 805: ID = EINVAL
+Line 805: ;
+Line 806: if
+Line 806: (
+Line 806: ID = S_ISLNK
+Line 806: (
+Line 806: ID = newmnt
+Line 806: -
+Line 806: >
+Line 806: ID = mnt_root
+Line 806: -
+Line 806: >
+Line 806: ID = d_inode
+Line 806: -
+Line 806: >
+Line 806: ID = i_mode
+Line 806: )
+Line 806: )
+Line 807: ID = goto
+Line 807: ID = unlock
+Line 807: ;
+Line 809: ID = newmnt
+Line 809: -
+Line 809: >
+Line 809: ID = mnt_flags
+Line 809: =
+Line 809: ID = mnt_flags
+Line 809: ;
+Line 810: ID = err
+Line 810: =
+Line 810: ID = graft_tree
+Line 810: (
+Line 810: ID = newmnt
+Line 810: ,
+Line 810: ID = nd
+Line 810: )
+Line 810: ;
+Line 812: if
+Line 812: (
+Line 812: ID = err
+Line 812: ==
+Line 812: INTCON = 0
+Line 812: &&
+Line 812: ID = fslist
+Line 812: )
+Line 812: {
+Line 814: ID = spin_lock
+Line 814: (
+Line 814: Unrecognized token: 38
+Line 814: ID = vfsmount_lock
+Line 814: )
+Line 814: ;
+Line 815: ID = list_add_tail
+Line 815: (
+Line 815: Unrecognized token: 38
+Line 815: ID = newmnt
+Line 815: -
+Line 815: >
+Line 815: ID = mnt_fslink
+Line 815: ,
+Line 815: ID = fslist
+Line 815: )
+Line 815: ;
+Line 816: ID = spin_unlock
+Line 816: (
+Line 816: Unrecognized token: 38
+Line 816: ID = vfsmount_lock
+Line 816: )
+Line 816: ;
+Line 817: }
+Line 819: ID = unlock
+Line 819: Unrecognized token: 58
+Line 820: ID = up_write
+Line 820: (
+Line 820: Unrecognized token: 38
+Line 820: ID = current
+Line 820: -
+Line 820: >
+Line 820: ID = namespace
+Line 820: -
+Line 820: >
+Line 820: ID = sem
+Line 820: )
+Line 820: ;
+Line 821: ID = mntput
+Line 821: (
+Line 821: ID = newmnt
+Line 821: )
+Line 821: ;
+Line 822: return
+Line 822: ID = err
+Line 822: ;
+Line 823: }
+Line 825: ID = EXPORT_SYMBOL_GPL
+Line 825: (
+Line 825: ID = do_add_mount
+Line 825: )
+Line 825: ;
+Line 832: void
+Line 832: ID = mark_mounts_for_expiry
+Line 832: (
+Line 832: ID = struct
+Line 832: ID = list_head
+Line 832: *
+Line 832: ID = mounts
+Line 832: )
+Line 833: {
+Line 834: ID = struct
+Line 834: ID = namespace
+Line 834: *
+Line 834: ID = namespace
+Line 834: ;
+Line 835: ID = struct
+Line 835: ID = vfsmount
+Line 835: *
+Line 835: ID = mnt
+Line 835: ,
+Line 835: *
+Line 835: ID = next
+Line 835: ;
+Line 836: ID = LIST_HEAD
+Line 836: (
+Line 836: ID = graveyard
+Line 836: )
+Line 836: ;
+Line 838: if
+Line 838: (
+Line 838: ID = list_empty
+Line 838: (
+Line 838: ID = mounts
+Line 838: )
+Line 838: )
+Line 839: return
+Line 839: ;
+Line 841: ID = spin_lock
+Line 841: (
+Line 841: Unrecognized token: 38
+Line 841: ID = vfsmount_lock
+Line 841: )
+Line 841: ;
+Line 849: ID = list_for_each_entry_safe
+Line 849: (
+Line 849: ID = mnt
+Line 849: ,
+Line 849: ID = next
+Line 849: ,
+Line 849: ID = mounts
+Line 849: ,
+Line 849: ID = mnt_fslink
+Line 849: )
+Line 849: {
+Line 850: if
+Line 850: (
+Line 850: !
+Line 850: ID = xchg
+Line 850: (
+Line 850: Unrecognized token: 38
+Line 850: ID = mnt
+Line 850: -
+Line 850: >
+Line 850: ID = mnt_expiry_mark
+Line 850: ,
+Line 850: INTCON = 1
+Line 850: )
+Line 850: ||
+Line 851: ID = atomic_read
+Line 851: (
+Line 851: Unrecognized token: 38
+Line 851: ID = mnt
+Line 851: -
+Line 851: >
+Line 851: ID = mnt_count
+Line 851: )
+Line 851: !=
+Line 851: INTCON = 1
+Line 851: )
+Line 852: ID = continue
+Line 852: ;
+Line 854: ID = mntget
+Line 854: (
+Line 854: ID = mnt
+Line 854: )
+Line 854: ;
+Line 855: ID = list_move
+Line 855: (
+Line 855: Unrecognized token: 38
+Line 855: ID = mnt
+Line 855: -
+Line 855: >
+Line 855: ID = mnt_fslink
+Line 855: ,
+Line 855: Unrecognized token: 38
+Line 855: ID = graveyard
+Line 855: )
+Line 855: ;
+Line 856: }
+Line 864: while
+Line 864: (
+Line 864: !
+Line 864: ID = list_empty
+Line 864: (
+Line 864: Unrecognized token: 38
+Line 864: ID = graveyard
+Line 864: )
+Line 864: )
+Line 864: {
+Line 865: ID = mnt
+Line 865: =
+Line 865: ID = list_entry
+Line 865: (
+Line 865: ID = graveyard
+Line 865: Unrecognized token: 46
+Line 865: ID = next
+Line 865: ,
+Line 865: ID = struct
+Line 865: ID = vfsmount
+Line 865: ,
+Line 865: ID = mnt_fslink
+Line 865: )
+Line 865: ;
+Line 866: ID = list_del_init
+Line 866: (
+Line 866: Unrecognized token: 38
+Line 866: ID = mnt
+Line 866: -
+Line 866: >
+Line 866: ID = mnt_fslink
+Line 866: )
+Line 866: ;
+Line 870: ID = namespace
+Line 870: =
+Line 870: ID = mnt
+Line 870: -
+Line 870: >
+Line 870: ID = mnt_namespace
+Line 870: ;
+Line 871: if
+Line 871: (
+Line 871: !
+Line 871: ID = namespace
+Line 871: ||
+Line 871: ID = atomic_read
+Line 871: (
+Line 871: Unrecognized token: 38
+Line 871: ID = namespace
+Line 871: -
+Line 871: >
+Line 871: ID = count
+Line 871: )
+Line 871: <=
+Line 871: INTCON = 0
+Line 871: )
+Line 872: ID = continue
+Line 872: ;
+Line 873: ID = get_namespace
+Line 873: (
+Line 873: ID = namespace
+Line 873: )
+Line 873: ;
+Line 875: ID = spin_unlock
+Line 875: (
+Line 875: Unrecognized token: 38
+Line 875: ID = vfsmount_lock
+Line 875: )
+Line 875: ;
+Line 876: ID = down_write
+Line 876: (
+Line 876: Unrecognized token: 38
+Line 876: ID = namespace
+Line 876: -
+Line 876: >
+Line 876: ID = sem
+Line 876: )
+Line 876: ;
+Line 877: ID = spin_lock
+Line 877: (
+Line 877: Unrecognized token: 38
+Line 877: ID = vfsmount_lock
+Line 877: )
+Line 877: ;
+Line 881: if
+Line 881: (
+Line 881: ID = atomic_read
+Line 881: (
+Line 881: Unrecognized token: 38
+Line 881: ID = mnt
+Line 881: -
+Line 881: >
+Line 881: ID = mnt_count
+Line 881: )
+Line 881: ==
+Line 881: INTCON = 2
+Line 881: )
+Line 881: {
+Line 882: ID = struct
+Line 882: ID = vfsmount
+Line 882: *
+Line 882: ID = xdmnt
+Line 882: ;
+Line 883: ID = struct
+Line 883: ID = dentry
+Line 883: *
+Line 883: ID = xdentry
+Line 883: ;
+Line 886: ID = list_del_init
+Line 886: (
+Line 886: Unrecognized token: 38
+Line 886: ID = mnt
+Line 886: -
+Line 886: >
+Line 886: ID = mnt_list
+Line 886: )
+Line 886: ;
+Line 887: ID = list_del_init
+Line 887: (
+Line 887: Unrecognized token: 38
+Line 887: ID = mnt
+Line 887: -
+Line 887: >
+Line 887: ID = mnt_child
+Line 887: )
+Line 887: ;
+Line 888: ID = list_del_init
+Line 888: (
+Line 888: Unrecognized token: 38
+Line 888: ID = mnt
+Line 888: -
+Line 888: >
+Line 888: ID = mnt_hash
+Line 888: )
+Line 888: ;
+Line 889: ID = mnt
+Line 889: -
+Line 889: >
+Line 889: ID = mnt_mountpoint
+Line 889: -
+Line 889: >
+Line 889: ID = d_mounted
+Line 889: -
+Line 889: -
+Line 889: ;
+Line 891: ID = xdentry
+Line 891: =
+Line 891: ID = mnt
+Line 891: -
+Line 891: >
+Line 891: ID = mnt_mountpoint
+Line 891: ;
+Line 892: ID = mnt
+Line 892: -
+Line 892: >
+Line 892: ID = mnt_mountpoint
+Line 892: =
+Line 892: ID = mnt
+Line 892: -
+Line 892: >
+Line 892: ID = mnt_root
+Line 892: ;
+Line 893: ID = xdmnt
+Line 893: =
+Line 893: ID = mnt
+Line 893: -
+Line 893: >
+Line 893: ID = mnt_parent
+Line 893: ;
+Line 894: ID = mnt
+Line 894: -
+Line 894: >
+Line 894: ID = mnt_parent
+Line 894: =
+Line 894: ID = mnt
+Line 894: ;
+Line 896: ID = spin_unlock
+Line 896: (
+Line 896: Unrecognized token: 38
+Line 896: ID = vfsmount_lock
+Line 896: )
+Line 896: ;
+Line 898: ID = mntput
+Line 898: (
+Line 898: ID = xdmnt
+Line 898: )
+Line 898: ;
+Line 899: ID = dput
+Line 899: (
+Line 899: ID = xdentry
+Line 899: )
+Line 899: ;
+Line 903: if
+Line 903: (
+Line 903: ID = atomic_read
+Line 903: (
+Line 903: Unrecognized token: 38
+Line 903: ID = mnt
+Line 903: -
+Line 903: >
+Line 903: ID = mnt_sb
+Line 903: -
+Line 903: >
+Line 903: ID = s_active
+Line 903: )
+Line 903: ==
+Line 903: INTCON = 1
+Line 903: )
+Line 903: {
+Line 905: ID = lock_kernel
+Line 905: (
+Line 905: )
+Line 905: ;
+Line 906: ID = DQUOT_OFF
+Line 906: (
+Line 906: ID = mnt
+Line 906: -
+Line 906: >
+Line 906: ID = mnt_sb
+Line 906: )
+Line 906: ;
+Line 907: ID = acct_auto_close
+Line 907: (
+Line 907: ID = mnt
+Line 907: -
+Line 907: >
+Line 907: ID = mnt_sb
+Line 907: )
+Line 907: ;
+Line 908: ID = unlock_kernel
+Line 908: (
+Line 908: )
+Line 908: ;
+Line 909: }
+Line 911: ID = mntput
+Line 911: (
+Line 911: ID = mnt
+Line 911: )
+Line 911: ;
+Line 912: }
+Line 912: else
+Line 912: {
+Line 916: ID = list_add_tail
+Line 916: (
+Line 916: Unrecognized token: 38
+Line 916: ID = mnt
+Line 916: -
+Line 916: >
+Line 916: ID = mnt_fslink
+Line 916: ,
+Line 916: ID = mounts
+Line 916: )
+Line 916: ;
+Line 917: ID = spin_unlock
+Line 917: (
+Line 917: Unrecognized token: 38
+Line 917: ID = vfsmount_lock
+Line 917: )
+Line 917: ;
+Line 918: }
+Line 920: ID = up_write
+Line 920: (
+Line 920: Unrecognized token: 38
+Line 920: ID = namespace
+Line 920: -
+Line 920: >
+Line 920: ID = sem
+Line 920: )
+Line 920: ;
+Line 922: ID = mntput
+Line 922: (
+Line 922: ID = mnt
+Line 922: )
+Line 922: ;
+Line 923: ID = put_namespace
+Line 923: (
+Line 923: ID = namespace
+Line 923: )
+Line 923: ;
+Line 925: ID = spin_lock
+Line 925: (
+Line 925: Unrecognized token: 38
+Line 925: ID = vfsmount_lock
+Line 925: )
+Line 925: ;
+Line 926: }
+Line 928: ID = spin_unlock
+Line 928: (
+Line 928: Unrecognized token: 38
+Line 928: ID = vfsmount_lock
+Line 928: )
+Line 928: ;
+Line 929: }
+Line 931: ID = EXPORT_SYMBOL_GPL
+Line 931: (
+Line 931: ID = mark_mounts_for_expiry
+Line 931: )
+Line 931: ;
+Line 933: int
+Line 933: ID = copy_mount_options
+Line 933: (
+Line 933: ID = const
+Line 933: void
+Line 933: Unrecognized token: 95
+Line 933: Unrecognized token: 95
+Line 933: ID = user
+Line 933: *
+Line 933: ID = data
+Line 933: ,
+Line 933: ID = unsigned
+Line 933: ID = long
+Line 933: *
+Line 933: ID = where
+Line 933: )
+Line 934: {
+Line 935: int
+Line 935: ID = i
+Line 935: ;
+Line 936: ID = unsigned
+Line 936: ID = long
+Line 936: ID = page
+Line 936: ;
+Line 937: ID = unsigned
+Line 937: ID = long
+Line 937: ID = size
+Line 937: ;
+Line 939: *
+Line 939: ID = where
+Line 939: =
+Line 939: INTCON = 0
+Line 939: ;
+Line 940: if
+Line 940: (
+Line 940: !
+Line 940: ID = data
+Line 940: )
+Line 941: return
+Line 941: INTCON = 0
+Line 941: ;
+Line 943: if
+Line 943: (
+Line 943: !
+Line 943: (
+Line 943: ID = page
+Line 943: =
+Line 943: Unrecognized token: 95
+Line 943: Unrecognized token: 95
+Line 943: ID = get_free_page
+Line 943: (
+Line 943: ID = GFP_KERNEL
+Line 943: )
+Line 943: )
+Line 943: )
+Line 944: return
+Line 944: -
+Line 944: ID = ENOMEM
+Line 944: ;
+Line 951: ID = size
+Line 951: =
+Line 951: ID = TASK_SIZE
+Line 951: -
+Line 951: (
+Line 951: ID = unsigned
+Line 951: ID = long
+Line 951: )
+Line 951: ID = data
+Line 951: ;
+Line 952: if
+Line 952: (
+Line 952: ID = size
+Line 952: >
+Line 952: ID = PAGE_SIZE
+Line 952: )
+Line 953: ID = size
+Line 953: =
+Line 953: ID = PAGE_SIZE
+Line 953: ;
+Line 955: ID = i
+Line 955: =
+Line 955: ID = size
+Line 955: -
+Line 955: ID = copy_from_user
+Line 955: (
+Line 955: (
+Line 955: void
+Line 955: *
+Line 955: )
+Line 955: ID = page
+Line 955: ,
+Line 955: ID = data
+Line 955: ,
+Line 955: ID = size
+Line 955: )
+Line 955: ;
+Line 956: if
+Line 956: (
+Line 956: !
+Line 956: ID = i
+Line 956: )
+Line 956: {
+Line 957: ID = free_page
+Line 957: (
+Line 957: ID = page
+Line 957: )
+Line 957: ;
+Line 958: return
+Line 958: -
+Line 958: ID = EFAULT
+Line 958: ;
+Line 959: }
+Line 960: if
+Line 960: (
+Line 960: ID = i
+Line 960: !=
+Line 960: ID = PAGE_SIZE
+Line 960: )
+Line 961: ID = memset
+Line 961: (
+Line 961: (
+Line 961: char
+Line 961: *
+Line 961: )
+Line 961: ID = page
+Line 961: +
+Line 961: ID = i
+Line 961: ,
+Line 961: INTCON = 0
+Line 961: ,
+Line 961: ID = PAGE_SIZE
+Line 961: -
+Line 961: ID = i
+Line 961: )
+Line 961: ;
+Line 962: *
+Line 962: ID = where
+Line 962: =
+Line 962: ID = page
+Line 962: ;
+Line 963: return
+Line 963: INTCON = 0
+Line 963: ;
+Line 964: }
+Line 980: ID = long
+Line 980: ID = do_mount
+Line 980: (
+Line 980: char
+Line 980: *
+Line 980: ID = dev_name
+Line 980: ,
+Line 980: char
+Line 980: *
+Line 980: ID = dir_name
+Line 980: ,
+Line 980: char
+Line 980: *
+Line 980: ID = type_page
+Line 980: ,
+Line 981: ID = unsigned
+Line 981: ID = long
+Line 981: ID = flags
+Line 981: ,
+Line 981: void
+Line 981: *
+Line 981: ID = data_page
+Line 981: )
+Line 982: {
+Line 983: ID = struct
+Line 983: ID = nameidata
+Line 983: ID = nd
+Line 983: ;
+Line 984: int
+Line 984: ID = retval
+Line 984: =
+Line 984: INTCON = 0
+Line 984: ;
+Line 985: int
+Line 985: ID = mnt_flags
+Line 985: =
+Line 985: INTCON = 0
+Line 985: ;
+Line 988: if
+Line 988: (
+Line 988: (
+Line 988: ID = flags
+Line 988: Unrecognized token: 38
+Line 988: ID = MS_MGC_MSK
+Line 988: )
+Line 988: ==
+Line 988: ID = MS_MGC_VAL
+Line 988: )
+Line 989: ID = flags
+Line 989: Unrecognized token: 38
+Line 989: =
+Line 989: Unrecognized token: 126
+Line 989: ID = MS_MGC_MSK
+Line 989: ;
+Line 993: if
+Line 993: (
+Line 993: !
+Line 993: ID = dir_name
+Line 993: ||
+Line 993: !
+Line 993: *
+Line 993: ID = dir_name
+Line 993: ||
+Line 993: !
+Line 993: ID = memchr
+Line 993: (
+Line 993: ID = dir_name
+Line 993: ,
+Line 993: INTCON = 0
+Line 993: ,
+Line 993: ID = PAGE_SIZE
+Line 993: )
+Line 993: )
+Line 994: return
+Line 994: -
+Line 994: ID = EINVAL
+Line 994: ;
+Line 995: if
+Line 995: (
+Line 995: ID = dev_name
+Line 995: &&
+Line 995: !
+Line 995: ID = memchr
+Line 995: (
+Line 995: ID = dev_name
+Line 995: ,
+Line 995: INTCON = 0
+Line 995: ,
+Line 995: ID = PAGE_SIZE
+Line 995: )
+Line 995: )
+Line 996: return
+Line 996: -
+Line 996: ID = EINVAL
+Line 996: ;
+Line 998: if
+Line 998: (
+Line 998: ID = data_page
+Line 998: )
+Line 999: (
+Line 999: (
+Line 999: char
+Line 999: *
+Line 999: )
+Line 999: ID = data_page
+Line 999: )
+Line 999: [
+Line 999: ID = PAGE_SIZE
+Line 999: -
+Line 999: INTCON = 1
+Line 999: ]
+Line 999: =
+Line 999: INTCON = 0
+Line 999: ;
+Line 1002: if
+Line 1002: (
+Line 1002: ID = flags
+Line 1002: Unrecognized token: 38
+Line 1002: ID = MS_NOSUID
+Line 1002: )
+Line 1003: ID = mnt_flags
+Line 1003: Unrecognized token: 124
+Line 1003: =
+Line 1003: ID = MNT_NOSUID
+Line 1003: ;
+Line 1004: if
+Line 1004: (
+Line 1004: ID = flags
+Line 1004: Unrecognized token: 38
+Line 1004: ID = MS_NODEV
+Line 1004: )
+Line 1005: ID = mnt_flags
+Line 1005: Unrecognized token: 124
+Line 1005: =
+Line 1005: ID = MNT_NODEV
+Line 1005: ;
+Line 1006: if
+Line 1006: (
+Line 1006: ID = flags
+Line 1006: Unrecognized token: 38
+Line 1006: ID = MS_NOEXEC
+Line 1006: )
+Line 1007: ID = mnt_flags
+Line 1007: Unrecognized token: 124
+Line 1007: =
+Line 1007: ID = MNT_NOEXEC
+Line 1007: ;
+Line 1008: ID = flags
+Line 1008: Unrecognized token: 38
+Line 1008: =
+Line 1008: Unrecognized token: 126
+Line 1008: (
+Line 1008: ID = MS_NOSUID
+Line 1008: Unrecognized token: 124
+Line 1008: ID = MS_NOEXEC
+Line 1008: Unrecognized token: 124
+Line 1008: ID = MS_NODEV
+Line 1008: Unrecognized token: 124
+Line 1008: ID = MS_ACTIVE
+Line 1008: )
+Line 1008: ;
+Line 1011: ID = retval
+Line 1011: =
+Line 1011: ID = path_lookup
+Line 1011: (
+Line 1011: ID = dir_name
+Line 1011: ,
+Line 1011: ID = LOOKUP_FOLLOW
+Line 1011: ,
+Line 1011: Unrecognized token: 38
+Line 1011: ID = nd
+Line 1011: )
+Line 1011: ;
+Line 1012: if
+Line 1012: (
+Line 1012: ID = retval
+Line 1012: )
+Line 1013: return
+Line 1013: ID = retval
+Line 1013: ;
+Line 1015: ID = retval
+Line 1015: =
+Line 1015: ID = security_sb_mount
+Line 1015: (
+Line 1015: ID = dev_name
+Line 1015: ,
+Line 1015: Unrecognized token: 38
+Line 1015: ID = nd
+Line 1015: ,
+Line 1015: ID = type_page
+Line 1015: ,
+Line 1015: ID = flags
+Line 1015: ,
+Line 1015: ID = data_page
+Line 1015: )
+Line 1015: ;
+Line 1016: if
+Line 1016: (
+Line 1016: ID = retval
+Line 1016: )
+Line 1017: ID = goto
+Line 1017: ID = dput_out
+Line 1017: ;
+Line 1019: if
+Line 1019: (
+Line 1019: ID = flags
+Line 1019: Unrecognized token: 38
+Line 1019: ID = MS_REMOUNT
+Line 1019: )
+Line 1020: ID = retval
+Line 1020: =
+Line 1020: ID = do_remount
+Line 1020: (
+Line 1020: Unrecognized token: 38
+Line 1020: ID = nd
+Line 1020: ,
+Line 1020: ID = flags
+Line 1020: Unrecognized token: 38
+Line 1020: Unrecognized token: 126
+Line 1020: ID = MS_REMOUNT
+Line 1020: ,
+Line 1020: ID = mnt_flags
+Line 1020: ,
+Line 1021: ID = data_page
+Line 1021: )
+Line 1021: ;
+Line 1022: else
+Line 1022: if
+Line 1022: (
+Line 1022: ID = flags
+Line 1022: Unrecognized token: 38
+Line 1022: ID = MS_BIND
+Line 1022: )
+Line 1023: ID = retval
+Line 1023: =
+Line 1023: ID = do_loopback
+Line 1023: (
+Line 1023: Unrecognized token: 38
+Line 1023: ID = nd
+Line 1023: ,
+Line 1023: ID = dev_name
+Line 1023: ,
+Line 1023: ID = flags
+Line 1023: Unrecognized token: 38
+Line 1023: ID = MS_REC
+Line 1023: )
+Line 1023: ;
+Line 1024: else
+Line 1024: if
+Line 1024: (
+Line 1024: ID = flags
+Line 1024: Unrecognized token: 38
+Line 1024: ID = MS_MOVE
+Line 1024: )
+Line 1025: ID = retval
+Line 1025: =
+Line 1025: ID = do_move_mount
+Line 1025: (
+Line 1025: Unrecognized token: 38
+Line 1025: ID = nd
+Line 1025: ,
+Line 1025: ID = dev_name
+Line 1025: )
+Line 1025: ;
+Line 1026: else
+Line 1027: ID = retval
+Line 1027: =
+Line 1027: ID = do_new_mount
+Line 1027: (
+Line 1027: Unrecognized token: 38
+Line 1027: ID = nd
+Line 1027: ,
+Line 1027: ID = type_page
+Line 1027: ,
+Line 1027: ID = flags
+Line 1027: ,
+Line 1027: ID = mnt_flags
+Line 1027: ,
+Line 1028: ID = dev_name
+Line 1028: ,
+Line 1028: ID = data_page
+Line 1028: )
+Line 1028: ;
+Line 1029: ID = dput_out
+Line 1029: Unrecognized token: 58
+Line 1030: ID = path_release
+Line 1030: (
+Line 1030: Unrecognized token: 38
+Line 1030: ID = nd
+Line 1030: )
+Line 1030: ;
+Line 1031: return
+Line 1031: ID = retval
+Line 1031: ;
+Line 1032: }
+Line 1034: int
+Line 1034: ID = copy_namespace
+Line 1034: (
+Line 1034: int
+Line 1034: ID = flags
+Line 1034: ,
+Line 1034: ID = struct
+Line 1034: ID = task_struct
+Line 1034: *
+Line 1034: ID = tsk
+Line 1034: )
+Line 1035: {
+Line 1036: ID = struct
+Line 1036: ID = namespace
+Line 1036: *
+Line 1036: ID = namespace
+Line 1036: =
+Line 1036: ID = tsk
+Line 1036: -
+Line 1036: >
+Line 1036: ID = namespace
+Line 1036: ;
+Line 1037: ID = struct
+Line 1037: ID = namespace
+Line 1037: *
+Line 1037: ID = new_ns
+Line 1037: ;
+Line 1038: ID = struct
+Line 1038: ID = vfsmount
+Line 1038: *
+Line 1038: ID = rootmnt
+Line 1038: =
+Line 1038: ID = NULL
+Line 1038: ,
+Line 1038: *
+Line 1038: ID = pwdmnt
+Line 1038: =
+Line 1038: ID = NULL
+Line 1038: ,
+Line 1038: *
+Line 1038: ID = altrootmnt
+Line 1038: =
+Line 1038: ID = NULL
+Line 1038: ;
+Line 1039: ID = struct
+Line 1039: ID = fs_struct
+Line 1039: *
+Line 1039: ID = fs
+Line 1039: =
+Line 1039: ID = tsk
+Line 1039: -
+Line 1039: >
+Line 1039: ID = fs
+Line 1039: ;
+Line 1040: ID = struct
+Line 1040: ID = vfsmount
+Line 1040: *
+Line 1040: ID = p
+Line 1040: ,
+Line 1040: *
+Line 1040: ID = q
+Line 1040: ;
+Line 1042: if
+Line 1042: (
+Line 1042: !
+Line 1042: ID = namespace
+Line 1042: )
+Line 1043: return
+Line 1043: INTCON = 0
+Line 1043: ;
+Line 1045: ID = get_namespace
+Line 1045: (
+Line 1045: ID = namespace
+Line 1045: )
+Line 1045: ;
+Line 1047: if
+Line 1047: (
+Line 1047: !
+Line 1047: (
+Line 1047: ID = flags
+Line 1047: Unrecognized token: 38
+Line 1047: ID = CLONE_NEWNS
+Line 1047: )
+Line 1047: )
+Line 1048: return
+Line 1048: INTCON = 0
+Line 1048: ;
+Line 1050: if
+Line 1050: (
+Line 1050: !
+Line 1050: ID = capable
+Line 1050: (
+Line 1050: ID = CAP_SYS_ADMIN
+Line 1050: )
+Line 1050: )
+Line 1050: {
+Line 1051: ID = put_namespace
+Line 1051: (
+Line 1051: ID = namespace
+Line 1051: )
+Line 1051: ;
+Line 1052: return
+Line 1052: -
+Line 1052: ID = EPERM
+Line 1052: ;
+Line 1053: }
+Line 1055: ID = new_ns
+Line 1055: =
+Line 1055: ID = kmalloc
+Line 1055: (
+Line 1055: ID = sizeof
+Line 1055: (
+Line 1055: ID = struct
+Line 1055: ID = namespace
+Line 1055: )
+Line 1055: ,
+Line 1055: ID = GFP_KERNEL
+Line 1055: )
+Line 1055: ;
+Line 1056: if
+Line 1056: (
+Line 1056: !
+Line 1056: ID = new_ns
+Line 1056: )
+Line 1057: ID = goto
+Line 1057: ID = out
+Line 1057: ;
+Line 1059: ID = atomic_set
+Line 1059: (
+Line 1059: Unrecognized token: 38
+Line 1059: ID = new_ns
+Line 1059: -
+Line 1059: >
+Line 1059: ID = count
+Line 1059: ,
+Line 1059: INTCON = 1
+Line 1059: )
+Line 1059: ;
+Line 1060: ID = init_rwsem
+Line 1060: (
+Line 1060: Unrecognized token: 38
+Line 1060: ID = new_ns
+Line 1060: -
+Line 1060: >
+Line 1060: ID = sem
+Line 1060: )
+Line 1060: ;
+Line 1061: ID = INIT_LIST_HEAD
+Line 1061: (
+Line 1061: Unrecognized token: 38
+Line 1061: ID = new_ns
+Line 1061: -
+Line 1061: >
+Line 1061: ID = list
+Line 1061: )
+Line 1061: ;
+Line 1063: ID = down_write
+Line 1063: (
+Line 1063: Unrecognized token: 38
+Line 1063: ID = tsk
+Line 1063: -
+Line 1063: >
+Line 1063: ID = namespace
+Line 1063: -
+Line 1063: >
+Line 1063: ID = sem
+Line 1063: )
+Line 1063: ;
+Line 1065: ID = new_ns
+Line 1065: -
+Line 1065: >
+Line 1065: ID = root
+Line 1065: =
+Line 1065: ID = copy_tree
+Line 1065: (
+Line 1065: ID = namespace
+Line 1065: -
+Line 1065: >
+Line 1065: ID = root
+Line 1065: ,
+Line 1065: ID = namespace
+Line 1065: -
+Line 1065: >
+Line 1065: ID = root
+Line 1065: -
+Line 1065: >
+Line 1065: ID = mnt_root
+Line 1065: )
+Line 1065: ;
+Line 1066: if
+Line 1066: (
+Line 1066: !
+Line 1066: ID = new_ns
+Line 1066: -
+Line 1066: >
+Line 1066: ID = root
+Line 1066: )
+Line 1066: {
+Line 1067: ID = up_write
+Line 1067: (
+Line 1067: Unrecognized token: 38
+Line 1067: ID = tsk
+Line 1067: -
+Line 1067: >
+Line 1067: ID = namespace
+Line 1067: -
+Line 1067: >
+Line 1067: ID = sem
+Line 1067: )
+Line 1067: ;
+Line 1068: ID = kfree
+Line 1068: (
+Line 1068: ID = new_ns
+Line 1068: )
+Line 1068: ;
+Line 1069: ID = goto
+Line 1069: ID = out
+Line 1069: ;
+Line 1070: }
+Line 1071: ID = spin_lock
+Line 1071: (
+Line 1071: Unrecognized token: 38
+Line 1071: ID = vfsmount_lock
+Line 1071: )
+Line 1071: ;
+Line 1072: ID = list_add_tail
+Line 1072: (
+Line 1072: Unrecognized token: 38
+Line 1072: ID = new_ns
+Line 1072: -
+Line 1072: >
+Line 1072: ID = list
+Line 1072: ,
+Line 1072: Unrecognized token: 38
+Line 1072: ID = new_ns
+Line 1072: -
+Line 1072: >
+Line 1072: ID = root
+Line 1072: -
+Line 1072: >
+Line 1072: ID = mnt_list
+Line 1072: )
+Line 1072: ;
+Line 1073: ID = spin_unlock
+Line 1073: (
+Line 1073: Unrecognized token: 38
+Line 1073: ID = vfsmount_lock
+Line 1073: )
+Line 1073: ;
+Line 1080: ID = p
+Line 1080: =
+Line 1080: ID = namespace
+Line 1080: -
+Line 1080: >
+Line 1080: ID = root
+Line 1080: ;
+Line 1081: ID = q
+Line 1081: =
+Line 1081: ID = new_ns
+Line 1081: -
+Line 1081: >
+Line 1081: ID = root
+Line 1081: ;
+Line 1082: while
+Line 1082: (
+Line 1082: ID = p
+Line 1082: )
+Line 1082: {
+Line 1083: ID = q
+Line 1083: -
+Line 1083: >
+Line 1083: ID = mnt_namespace
+Line 1083: =
+Line 1083: ID = new_ns
+Line 1083: ;
+Line 1084: if
+Line 1084: (
+Line 1084: ID = fs
+Line 1084: )
+Line 1084: {
+Line 1085: if
+Line 1085: (
+Line 1085: ID = p
+Line 1085: ==
+Line 1085: ID = fs
+Line 1085: -
+Line 1085: >
+Line 1085: ID = rootmnt
+Line 1085: )
+Line 1085: {
+Line 1086: ID = rootmnt
+Line 1086: =
+Line 1086: ID = p
+Line 1086: ;
+Line 1087: ID = fs
+Line 1087: -
+Line 1087: >
+Line 1087: ID = rootmnt
+Line 1087: =
+Line 1087: ID = mntget
+Line 1087: (
+Line 1087: ID = q
+Line 1087: )
+Line 1087: ;
+Line 1088: }
+Line 1089: if
+Line 1089: (
+Line 1089: ID = p
+Line 1089: ==
+Line 1089: ID = fs
+Line 1089: -
+Line 1089: >
+Line 1089: ID = pwdmnt
+Line 1089: )
+Line 1089: {
+Line 1090: ID = pwdmnt
+Line 1090: =
+Line 1090: ID = p
+Line 1090: ;
+Line 1091: ID = fs
+Line 1091: -
+Line 1091: >
+Line 1091: ID = pwdmnt
+Line 1091: =
+Line 1091: ID = mntget
+Line 1091: (
+Line 1091: ID = q
+Line 1091: )
+Line 1091: ;
+Line 1092: }
+Line 1093: if
+Line 1093: (
+Line 1093: ID = p
+Line 1093: ==
+Line 1093: ID = fs
+Line 1093: -
+Line 1093: >
+Line 1093: ID = altrootmnt
+Line 1093: )
+Line 1093: {
+Line 1094: ID = altrootmnt
+Line 1094: =
+Line 1094: ID = p
+Line 1094: ;
+Line 1095: ID = fs
+Line 1095: -
+Line 1095: >
+Line 1095: ID = altrootmnt
+Line 1095: =
+Line 1095: ID = mntget
+Line 1095: (
+Line 1095: ID = q
+Line 1095: )
+Line 1095: ;
+Line 1096: }
+Line 1097: }
+Line 1098: ID = p
+Line 1098: =
+Line 1098: ID = next_mnt
+Line 1098: (
+Line 1098: ID = p
+Line 1098: ,
+Line 1098: ID = namespace
+Line 1098: -
+Line 1098: >
+Line 1098: ID = root
+Line 1098: )
+Line 1098: ;
+Line 1099: ID = q
+Line 1099: =
+Line 1099: ID = next_mnt
+Line 1099: (
+Line 1099: ID = q
+Line 1099: ,
+Line 1099: ID = new_ns
+Line 1099: -
+Line 1099: >
+Line 1099: ID = root
+Line 1099: )
+Line 1099: ;
+Line 1100: }
+Line 1101: ID = up_write
+Line 1101: (
+Line 1101: Unrecognized token: 38
+Line 1101: ID = tsk
+Line 1101: -
+Line 1101: >
+Line 1101: ID = namespace
+Line 1101: -
+Line 1101: >
+Line 1101: ID = sem
+Line 1101: )
+Line 1101: ;
+Line 1103: ID = tsk
+Line 1103: -
+Line 1103: >
+Line 1103: ID = namespace
+Line 1103: =
+Line 1103: ID = new_ns
+Line 1103: ;
+Line 1105: if
+Line 1105: (
+Line 1105: ID = rootmnt
+Line 1105: )
+Line 1106: ID = mntput
+Line 1106: (
+Line 1106: ID = rootmnt
+Line 1106: )
+Line 1106: ;
+Line 1107: if
+Line 1107: (
+Line 1107: ID = pwdmnt
+Line 1107: )
+Line 1108: ID = mntput
+Line 1108: (
+Line 1108: ID = pwdmnt
+Line 1108: )
+Line 1108: ;
+Line 1109: if
+Line 1109: (
+Line 1109: ID = altrootmnt
+Line 1109: )
+Line 1110: ID = mntput
+Line 1110: (
+Line 1110: ID = altrootmnt
+Line 1110: )
+Line 1110: ;
+Line 1112: ID = put_namespace
+Line 1112: (
+Line 1112: ID = namespace
+Line 1112: )
+Line 1112: ;
+Line 1113: return
+Line 1113: INTCON = 0
+Line 1113: ;
+Line 1115: ID = out
+Line 1115: Unrecognized token: 58
+Line 1116: ID = put_namespace
+Line 1116: (
+Line 1116: ID = namespace
+Line 1116: )
+Line 1116: ;
+Line 1117: return
+Line 1117: -
+Line 1117: ID = ENOMEM
+Line 1117: ;
+Line 1118: }
+Line 1120: ID = asmlinkage
+Line 1120: ID = long
+Line 1120: ID = sys_mount
+Line 1120: (
+Line 1120: char
+Line 1120: Unrecognized token: 95
+Line 1120: Unrecognized token: 95
+Line 1120: ID = user
+Line 1120: *
+Line 1120: ID = dev_name
+Line 1120: ,
+Line 1120: char
+Line 1120: Unrecognized token: 95
+Line 1120: Unrecognized token: 95
+Line 1120: ID = user
+Line 1120: *
+Line 1120: ID = dir_name
+Line 1120: ,
+Line 1121: char
+Line 1121: Unrecognized token: 95
+Line 1121: Unrecognized token: 95
+Line 1121: ID = user
+Line 1121: *
+Line 1121: ID = type
+Line 1121: ,
+Line 1121: ID = unsigned
+Line 1121: ID = long
+Line 1121: ID = flags
+Line 1121: ,
+Line 1122: void
+Line 1122: Unrecognized token: 95
+Line 1122: Unrecognized token: 95
+Line 1122: ID = user
+Line 1122: *
+Line 1122: ID = data
+Line 1122: )
+Line 1123: {
+Line 1124: int
+Line 1124: ID = retval
+Line 1124: ;
+Line 1125: ID = unsigned
+Line 1125: ID = long
+Line 1125: ID = data_page
+Line 1125: ;
+Line 1126: ID = unsigned
+Line 1126: ID = long
+Line 1126: ID = type_page
+Line 1126: ;
+Line 1127: ID = unsigned
+Line 1127: ID = long
+Line 1127: ID = dev_page
+Line 1127: ;
+Line 1128: char
+Line 1128: *
+Line 1128: ID = dir_page
+Line 1128: ;
+Line 1130: ID = retval
+Line 1130: =
+Line 1130: ID = copy_mount_options
+Line 1130: (
+Line 1130: ID = type
+Line 1130: ,
+Line 1130: Unrecognized token: 38
+Line 1130: ID = type_page
+Line 1130: )
+Line 1130: ;
+Line 1131: if
+Line 1131: (
+Line 1131: ID = retval
+Line 1131: <
+Line 1131: INTCON = 0
+Line 1131: )
+Line 1132: return
+Line 1132: ID = retval
+Line 1132: ;
+Line 1134: ID = dir_page
+Line 1134: =
+Line 1134: ID = getname
+Line 1134: (
+Line 1134: ID = dir_name
+Line 1134: )
+Line 1134: ;
+Line 1135: ID = retval
+Line 1135: =
+Line 1135: ID = PTR_ERR
+Line 1135: (
+Line 1135: ID = dir_page
+Line 1135: )
+Line 1135: ;
+Line 1136: if
+Line 1136: (
+Line 1136: ID = IS_ERR
+Line 1136: (
+Line 1136: ID = dir_page
+Line 1136: )
+Line 1136: )
+Line 1137: ID = goto
+Line 1137: ID = out1
+Line 1137: ;
+Line 1139: ID = retval
+Line 1139: =
+Line 1139: ID = copy_mount_options
+Line 1139: (
+Line 1139: ID = dev_name
+Line 1139: ,
+Line 1139: Unrecognized token: 38
+Line 1139: ID = dev_page
+Line 1139: )
+Line 1139: ;
+Line 1140: if
+Line 1140: (
+Line 1140: ID = retval
+Line 1140: <
+Line 1140: INTCON = 0
+Line 1140: )
+Line 1141: ID = goto
+Line 1141: ID = out2
+Line 1141: ;
+Line 1143: ID = retval
+Line 1143: =
+Line 1143: ID = copy_mount_options
+Line 1143: (
+Line 1143: ID = data
+Line 1143: ,
+Line 1143: Unrecognized token: 38
+Line 1143: ID = data_page
+Line 1143: )
+Line 1143: ;
+Line 1144: if
+Line 1144: (
+Line 1144: ID = retval
+Line 1144: <
+Line 1144: INTCON = 0
+Line 1144: )
+Line 1145: ID = goto
+Line 1145: ID = out3
+Line 1145: ;
+Line 1147: ID = lock_kernel
+Line 1147: (
+Line 1147: )
+Line 1147: ;
+Line 1148: ID = retval
+Line 1148: =
+Line 1148: ID = do_mount
+Line 1148: (
+Line 1148: (
+Line 1148: char
+Line 1148: *
+Line 1148: )
+Line 1148: ID = dev_page
+Line 1148: ,
+Line 1148: ID = dir_page
+Line 1148: ,
+Line 1148: (
+Line 1148: char
+Line 1148: *
+Line 1148: )
+Line 1148: ID = type_page
+Line 1148: ,
+Line 1149: ID = flags
+Line 1149: ,
+Line 1149: (
+Line 1149: void
+Line 1149: *
+Line 1149: )
+Line 1149: ID = data_page
+Line 1149: )
+Line 1149: ;
+Line 1150: ID = unlock_kernel
+Line 1150: (
+Line 1150: )
+Line 1150: ;
+Line 1151: ID = free_page
+Line 1151: (
+Line 1151: ID = data_page
+Line 1151: )
+Line 1151: ;
+Line 1153: ID = out3
+Line 1153: Unrecognized token: 58
+Line 1154: ID = free_page
+Line 1154: (
+Line 1154: ID = dev_page
+Line 1154: )
+Line 1154: ;
+Line 1155: ID = out2
+Line 1155: Unrecognized token: 58
+Line 1156: ID = putname
+Line 1156: (
+Line 1156: ID = dir_page
+Line 1156: )
+Line 1156: ;
+Line 1157: ID = out1
+Line 1157: Unrecognized token: 58
+Line 1158: ID = free_page
+Line 1158: (
+Line 1158: ID = type_page
+Line 1158: )
+Line 1158: ;
+Line 1159: return
+Line 1159: ID = retval
+Line 1159: ;
+Line 1160: }
+Line 1166: void
+Line 1166: ID = set_fs_root
+Line 1166: (
+Line 1166: ID = struct
+Line 1166: ID = fs_struct
+Line 1166: *
+Line 1166: ID = fs
+Line 1166: ,
+Line 1166: ID = struct
+Line 1166: ID = vfsmount
+Line 1166: *
+Line 1166: ID = mnt
+Line 1166: ,
+Line 1167: ID = struct
+Line 1167: ID = dentry
+Line 1167: *
+Line 1167: ID = dentry
+Line 1167: )
+Line 1168: {
+Line 1169: ID = struct
+Line 1169: ID = dentry
+Line 1169: *
+Line 1169: ID = old_root
+Line 1169: ;
+Line 1170: ID = struct
+Line 1170: ID = vfsmount
+Line 1170: *
+Line 1170: ID = old_rootmnt
+Line 1170: ;
+Line 1171: ID = write_lock
+Line 1171: (
+Line 1171: Unrecognized token: 38
+Line 1171: ID = fs
+Line 1171: -
+Line 1171: >
+Line 1171: ID = lock
+Line 1171: )
+Line 1171: ;
+Line 1172: ID = old_root
+Line 1172: =
+Line 1172: ID = fs
+Line 1172: -
+Line 1172: >
+Line 1172: ID = root
+Line 1172: ;
+Line 1173: ID = old_rootmnt
+Line 1173: =
+Line 1173: ID = fs
+Line 1173: -
+Line 1173: >
+Line 1173: ID = rootmnt
+Line 1173: ;
+Line 1174: ID = fs
+Line 1174: -
+Line 1174: >
+Line 1174: ID = rootmnt
+Line 1174: =
+Line 1174: ID = mntget
+Line 1174: (
+Line 1174: ID = mnt
+Line 1174: )
+Line 1174: ;
+Line 1175: ID = fs
+Line 1175: -
+Line 1175: >
+Line 1175: ID = root
+Line 1175: =
+Line 1175: ID = dget
+Line 1175: (
+Line 1175: ID = dentry
+Line 1175: )
+Line 1175: ;
+Line 1176: ID = write_unlock
+Line 1176: (
+Line 1176: Unrecognized token: 38
+Line 1176: ID = fs
+Line 1176: -
+Line 1176: >
+Line 1176: ID = lock
+Line 1176: )
+Line 1176: ;
+Line 1177: if
+Line 1177: (
+Line 1177: ID = old_root
+Line 1177: )
+Line 1177: {
+Line 1178: ID = dput
+Line 1178: (
+Line 1178: ID = old_root
+Line 1178: )
+Line 1178: ;
+Line 1179: ID = mntput
+Line 1179: (
+Line 1179: ID = old_rootmnt
+Line 1179: )
+Line 1179: ;
+Line 1180: }
+Line 1181: }
+Line 1183: ID = EXPORT_SYMBOL
+Line 1183: (
+Line 1183: ID = set_fs_root
+Line 1183: )
+Line 1183: ;
+Line 1189: void
+Line 1189: ID = set_fs_pwd
+Line 1189: (
+Line 1189: ID = struct
+Line 1189: ID = fs_struct
+Line 1189: *
+Line 1189: ID = fs
+Line 1189: ,
+Line 1189: ID = struct
+Line 1189: ID = vfsmount
+Line 1189: *
+Line 1189: ID = mnt
+Line 1189: ,
+Line 1190: ID = struct
+Line 1190: ID = dentry
+Line 1190: *
+Line 1190: ID = dentry
+Line 1190: )
+Line 1191: {
+Line 1192: ID = struct
+Line 1192: ID = dentry
+Line 1192: *
+Line 1192: ID = old_pwd
+Line 1192: ;
+Line 1193: ID = struct
+Line 1193: ID = vfsmount
+Line 1193: *
+Line 1193: ID = old_pwdmnt
+Line 1193: ;
+Line 1195: ID = write_lock
+Line 1195: (
+Line 1195: Unrecognized token: 38
+Line 1195: ID = fs
+Line 1195: -
+Line 1195: >
+Line 1195: ID = lock
+Line 1195: )
+Line 1195: ;
+Line 1196: ID = old_pwd
+Line 1196: =
+Line 1196: ID = fs
+Line 1196: -
+Line 1196: >
+Line 1196: ID = pwd
+Line 1196: ;
+Line 1197: ID = old_pwdmnt
+Line 1197: =
+Line 1197: ID = fs
+Line 1197: -
+Line 1197: >
+Line 1197: ID = pwdmnt
+Line 1197: ;
+Line 1198: ID = fs
+Line 1198: -
+Line 1198: >
+Line 1198: ID = pwdmnt
+Line 1198: =
+Line 1198: ID = mntget
+Line 1198: (
+Line 1198: ID = mnt
+Line 1198: )
+Line 1198: ;
+Line 1199: ID = fs
+Line 1199: -
+Line 1199: >
+Line 1199: ID = pwd
+Line 1199: =
+Line 1199: ID = dget
+Line 1199: (
+Line 1199: ID = dentry
+Line 1199: )
+Line 1199: ;
+Line 1200: ID = write_unlock
+Line 1200: (
+Line 1200: Unrecognized token: 38
+Line 1200: ID = fs
+Line 1200: -
+Line 1200: >
+Line 1200: ID = lock
+Line 1200: )
+Line 1200: ;
+Line 1202: if
+Line 1202: (
+Line 1202: ID = old_pwd
+Line 1202: )
+Line 1202: {
+Line 1203: ID = dput
+Line 1203: (
+Line 1203: ID = old_pwd
+Line 1203: )
+Line 1203: ;
+Line 1204: ID = mntput
+Line 1204: (
+Line 1204: ID = old_pwdmnt
+Line 1204: )
+Line 1204: ;
+Line 1205: }
+Line 1206: }
+Line 1208: ID = EXPORT_SYMBOL
+Line 1208: (
+Line 1208: ID = set_fs_pwd
+Line 1208: )
+Line 1208: ;
+Line 1210: ID = static
+Line 1210: void
+Line 1210: ID = chroot_fs_refs
+Line 1210: (
+Line 1210: ID = struct
+Line 1210: ID = nameidata
+Line 1210: *
+Line 1210: ID = old_nd
+Line 1210: ,
+Line 1210: ID = struct
+Line 1210: ID = nameidata
+Line 1210: *
+Line 1210: ID = new_nd
+Line 1210: )
+Line 1211: {
+Line 1212: ID = struct
+Line 1212: ID = task_struct
+Line 1212: *
+Line 1212: ID = g
+Line 1212: ,
+Line 1212: *
+Line 1212: ID = p
+Line 1212: ;
+Line 1213: ID = struct
+Line 1213: ID = fs_struct
+Line 1213: *
+Line 1213: ID = fs
+Line 1213: ;
+Line 1215: ID = read_lock
+Line 1215: (
+Line 1215: Unrecognized token: 38
+Line 1215: ID = tasklist_lock
+Line 1215: )
+Line 1215: ;
+Line 1216: ID = do_each_thread
+Line 1216: (
+Line 1216: ID = g
+Line 1216: ,
+Line 1216: ID = p
+Line 1216: )
+Line 1216: {
+Line 1217: ID = task_lock
+Line 1217: (
+Line 1217: ID = p
+Line 1217: )
+Line 1217: ;
+Line 1218: ID = fs
+Line 1218: =
+Line 1218: ID = p
+Line 1218: -
+Line 1218: >
+Line 1218: ID = fs
+Line 1218: ;
+Line 1219: if
+Line 1219: (
+Line 1219: ID = fs
+Line 1219: )
+Line 1219: {
+Line 1220: ID = atomic_inc
+Line 1220: (
+Line 1220: Unrecognized token: 38
+Line 1220: ID = fs
+Line 1220: -
+Line 1220: >
+Line 1220: ID = count
+Line 1220: )
+Line 1220: ;
+Line 1221: ID = task_unlock
+Line 1221: (
+Line 1221: ID = p
+Line 1221: )
+Line 1221: ;
+Line 1222: if
+Line 1222: (
+Line 1222: ID = fs
+Line 1222: -
+Line 1222: >
+Line 1222: ID = root
+Line 1222: ==
+Line 1222: ID = old_nd
+Line 1222: -
+Line 1222: >
+Line 1222: ID = dentry
+Line 1222: &&
+Line 1222: ID = fs
+Line 1222: -
+Line 1222: >
+Line 1222: ID = rootmnt
+Line 1222: ==
+Line 1222: ID = old_nd
+Line 1222: -
+Line 1222: >
+Line 1222: ID = mnt
+Line 1222: )
+Line 1223: ID = set_fs_root
+Line 1223: (
+Line 1223: ID = fs
+Line 1223: ,
+Line 1223: ID = new_nd
+Line 1223: -
+Line 1223: >
+Line 1223: ID = mnt
+Line 1223: ,
+Line 1223: ID = new_nd
+Line 1223: -
+Line 1223: >
+Line 1223: ID = dentry
+Line 1223: )
+Line 1223: ;
+Line 1224: if
+Line 1224: (
+Line 1224: ID = fs
+Line 1224: -
+Line 1224: >
+Line 1224: ID = pwd
+Line 1224: ==
+Line 1224: ID = old_nd
+Line 1224: -
+Line 1224: >
+Line 1224: ID = dentry
+Line 1224: &&
+Line 1224: ID = fs
+Line 1224: -
+Line 1224: >
+Line 1224: ID = pwdmnt
+Line 1224: ==
+Line 1224: ID = old_nd
+Line 1224: -
+Line 1224: >
+Line 1224: ID = mnt
+Line 1224: )
+Line 1225: ID = set_fs_pwd
+Line 1225: (
+Line 1225: ID = fs
+Line 1225: ,
+Line 1225: ID = new_nd
+Line 1225: -
+Line 1225: >
+Line 1225: ID = mnt
+Line 1225: ,
+Line 1225: ID = new_nd
+Line 1225: -
+Line 1225: >
+Line 1225: ID = dentry
+Line 1225: )
+Line 1225: ;
+Line 1226: ID = put_fs_struct
+Line 1226: (
+Line 1226: ID = fs
+Line 1226: )
+Line 1226: ;
+Line 1227: }
+Line 1227: else
+Line 1228: ID = task_unlock
+Line 1228: (
+Line 1228: ID = p
+Line 1228: )
+Line 1228: ;
+Line 1229: }
+Line 1229: ID = while_each_thread
+Line 1229: (
+Line 1229: ID = g
+Line 1229: ,
+Line 1229: ID = p
+Line 1229: )
+Line 1229: ;
+Line 1230: ID = read_unlock
+Line 1230: (
+Line 1230: Unrecognized token: 38
+Line 1230: ID = tasklist_lock
+Line 1230: )
+Line 1230: ;
+Line 1231: }
+Line 1246: ID = asmlinkage
+Line 1246: ID = long
+Line 1246: ID = sys_pivot_root
+Line 1246: (
+Line 1246: ID = const
+Line 1246: char
+Line 1246: Unrecognized token: 95
+Line 1246: Unrecognized token: 95
+Line 1246: ID = user
+Line 1246: *
+Line 1246: ID = new_root
+Line 1246: ,
+Line 1246: ID = const
+Line 1246: char
+Line 1246: Unrecognized token: 95
+Line 1246: Unrecognized token: 95
+Line 1246: ID = user
+Line 1246: *
+Line 1246: ID = put_old
+Line 1246: )
+Line 1247: {
+Line 1248: ID = struct
+Line 1248: ID = vfsmount
+Line 1248: *
+Line 1248: ID = tmp
+Line 1248: ;
+Line 1249: ID = struct
+Line 1249: ID = nameidata
+Line 1249: ID = new_nd
+Line 1249: ,
+Line 1249: ID = old_nd
+Line 1249: ,
+Line 1249: ID = parent_nd
+Line 1249: ,
+Line 1249: ID = root_parent
+Line 1249: ,
+Line 1249: ID = user_nd
+Line 1249: ;
+Line 1250: int
+Line 1250: ID = error
+Line 1250: ;
+Line 1252: if
+Line 1252: (
+Line 1252: !
+Line 1252: ID = capable
+Line 1252: (
+Line 1252: ID = CAP_SYS_ADMIN
+Line 1252: )
+Line 1252: )
+Line 1253: return
+Line 1253: -
+Line 1253: ID = EPERM
+Line 1253: ;
+Line 1255: ID = lock_kernel
+Line 1255: (
+Line 1255: )
+Line 1255: ;
+Line 1257: ID = error
+Line 1257: =
+Line 1257: Unrecognized token: 95
+Line 1257: Unrecognized token: 95
+Line 1257: ID = user_walk
+Line 1257: (
+Line 1257: ID = new_root
+Line 1257: ,
+Line 1257: ID = LOOKUP_FOLLOW
+Line 1257: Unrecognized token: 124
+Line 1257: ID = LOOKUP_DIRECTORY
+Line 1257: ,
+Line 1257: Unrecognized token: 38
+Line 1257: ID = new_nd
+Line 1257: )
+Line 1257: ;
+Line 1258: if
+Line 1258: (
+Line 1258: ID = error
+Line 1258: )
+Line 1259: ID = goto
+Line 1259: ID = out0
+Line 1259: ;
+Line 1260: ID = error
+Line 1260: =
+Line 1260: -
+Line 1260: ID = EINVAL
+Line 1260: ;
+Line 1261: if
+Line 1261: (
+Line 1261: !
+Line 1261: ID = check_mnt
+Line 1261: (
+Line 1261: ID = new_nd
+Line 1261: Unrecognized token: 46
+Line 1261: ID = mnt
+Line 1261: )
+Line 1261: )
+Line 1262: ID = goto
+Line 1262: ID = out1
+Line 1262: ;
+Line 1264: ID = error
+Line 1264: =
+Line 1264: Unrecognized token: 95
+Line 1264: Unrecognized token: 95
+Line 1264: ID = user_walk
+Line 1264: (
+Line 1264: ID = put_old
+Line 1264: ,
+Line 1264: ID = LOOKUP_FOLLOW
+Line 1264: Unrecognized token: 124
+Line 1264: ID = LOOKUP_DIRECTORY
+Line 1264: ,
+Line 1264: Unrecognized token: 38
+Line 1264: ID = old_nd
+Line 1264: )
+Line 1264: ;
+Line 1265: if
+Line 1265: (
+Line 1265: ID = error
+Line 1265: )
+Line 1266: ID = goto
+Line 1266: ID = out1
+Line 1266: ;
+Line 1268: ID = error
+Line 1268: =
+Line 1268: ID = security_sb_pivotroot
+Line 1268: (
+Line 1268: Unrecognized token: 38
+Line 1268: ID = old_nd
+Line 1268: ,
+Line 1268: Unrecognized token: 38
+Line 1268: ID = new_nd
+Line 1268: )
+Line 1268: ;
+Line 1269: if
+Line 1269: (
+Line 1269: ID = error
+Line 1269: )
+Line 1269: {
+Line 1270: ID = path_release
+Line 1270: (
+Line 1270: Unrecognized token: 38
+Line 1270: ID = old_nd
+Line 1270: )
+Line 1270: ;
+Line 1271: ID = goto
+Line 1271: ID = out1
+Line 1271: ;
+Line 1272: }
+Line 1274: ID = read_lock
+Line 1274: (
+Line 1274: Unrecognized token: 38
+Line 1274: ID = current
+Line 1274: -
+Line 1274: >
+Line 1274: ID = fs
+Line 1274: -
+Line 1274: >
+Line 1274: ID = lock
+Line 1274: )
+Line 1274: ;
+Line 1275: ID = user_nd
+Line 1275: Unrecognized token: 46
+Line 1275: ID = mnt
+Line 1275: =
+Line 1275: ID = mntget
+Line 1275: (
+Line 1275: ID = current
+Line 1275: -
+Line 1275: >
+Line 1275: ID = fs
+Line 1275: -
+Line 1275: >
+Line 1275: ID = rootmnt
+Line 1275: )
+Line 1275: ;
+Line 1276: ID = user_nd
+Line 1276: Unrecognized token: 46
+Line 1276: ID = dentry
+Line 1276: =
+Line 1276: ID = dget
+Line 1276: (
+Line 1276: ID = current
+Line 1276: -
+Line 1276: >
+Line 1276: ID = fs
+Line 1276: -
+Line 1276: >
+Line 1276: ID = root
+Line 1276: )
+Line 1276: ;
+Line 1277: ID = read_unlock
+Line 1277: (
+Line 1277: Unrecognized token: 38
+Line 1277: ID = current
+Line 1277: -
+Line 1277: >
+Line 1277: ID = fs
+Line 1277: -
+Line 1277: >
+Line 1277: ID = lock
+Line 1277: )
+Line 1277: ;
+Line 1278: ID = down_write
+Line 1278: (
+Line 1278: Unrecognized token: 38
+Line 1278: ID = current
+Line 1278: -
+Line 1278: >
+Line 1278: ID = namespace
+Line 1278: -
+Line 1278: >
+Line 1278: ID = sem
+Line 1278: )
+Line 1278: ;
+Line 1279: ID = down
+Line 1279: (
+Line 1279: Unrecognized token: 38
+Line 1279: ID = old_nd
+Line 1279: Unrecognized token: 46
+Line 1279: ID = dentry
+Line 1279: -
+Line 1279: >
+Line 1279: ID = d_inode
+Line 1279: -
+Line 1279: >
+Line 1279: ID = i_sem
+Line 1279: )
+Line 1279: ;
+Line 1280: ID = error
+Line 1280: =
+Line 1280: -
+Line 1280: ID = EINVAL
+Line 1280: ;
+Line 1281: if
+Line 1281: (
+Line 1281: !
+Line 1281: ID = check_mnt
+Line 1281: (
+Line 1281: ID = user_nd
+Line 1281: Unrecognized token: 46
+Line 1281: ID = mnt
+Line 1281: )
+Line 1281: )
+Line 1282: ID = goto
+Line 1282: ID = out2
+Line 1282: ;
+Line 1283: ID = error
+Line 1283: =
+Line 1283: -
+Line 1283: ID = ENOENT
+Line 1283: ;
+Line 1284: if
+Line 1284: (
+Line 1284: ID = IS_DEADDIR
+Line 1284: (
+Line 1284: ID = new_nd
+Line 1284: Unrecognized token: 46
+Line 1284: ID = dentry
+Line 1284: -
+Line 1284: >
+Line 1284: ID = d_inode
+Line 1284: )
+Line 1284: )
+Line 1285: ID = goto
+Line 1285: ID = out2
+Line 1285: ;
+Line 1286: if
+Line 1286: (
+Line 1286: ID = d_unhashed
+Line 1286: (
+Line 1286: ID = new_nd
+Line 1286: Unrecognized token: 46
+Line 1286: ID = dentry
+Line 1286: )
+Line 1286: &&
+Line 1286: !
+Line 1286: ID = IS_ROOT
+Line 1286: (
+Line 1286: ID = new_nd
+Line 1286: Unrecognized token: 46
+Line 1286: ID = dentry
+Line 1286: )
+Line 1286: )
+Line 1287: ID = goto
+Line 1287: ID = out2
+Line 1287: ;
+Line 1288: if
+Line 1288: (
+Line 1288: ID = d_unhashed
+Line 1288: (
+Line 1288: ID = old_nd
+Line 1288: Unrecognized token: 46
+Line 1288: ID = dentry
+Line 1288: )
+Line 1288: &&
+Line 1288: !
+Line 1288: ID = IS_ROOT
+Line 1288: (
+Line 1288: ID = old_nd
+Line 1288: Unrecognized token: 46
+Line 1288: ID = dentry
+Line 1288: )
+Line 1288: )
+Line 1289: ID = goto
+Line 1289: ID = out2
+Line 1289: ;
+Line 1290: ID = error
+Line 1290: =
+Line 1290: -
+Line 1290: ID = EBUSY
+Line 1290: ;
+Line 1291: if
+Line 1291: (
+Line 1291: ID = new_nd
+Line 1291: Unrecognized token: 46
+Line 1291: ID = mnt
+Line 1291: ==
+Line 1291: ID = user_nd
+Line 1291: Unrecognized token: 46
+Line 1291: ID = mnt
+Line 1291: ||
+Line 1291: ID = old_nd
+Line 1291: Unrecognized token: 46
+Line 1291: ID = mnt
+Line 1291: ==
+Line 1291: ID = user_nd
+Line 1291: Unrecognized token: 46
+Line 1291: ID = mnt
+Line 1291: )
+Line 1292: ID = goto
+Line 1292: ID = out2
+Line 1292: ;
+Line 1293: ID = error
+Line 1293: =
+Line 1293: -
+Line 1293: ID = EINVAL
+Line 1293: ;
+Line 1294: if
+Line 1294: (
+Line 1294: ID = user_nd
+Line 1294: Unrecognized token: 46
+Line 1294: ID = mnt
+Line 1294: -
+Line 1294: >
+Line 1294: ID = mnt_root
+Line 1294: !=
+Line 1294: ID = user_nd
+Line 1294: Unrecognized token: 46
+Line 1294: ID = dentry
+Line 1294: )
+Line 1295: ID = goto
+Line 1295: ID = out2
+Line 1295: ;
+Line 1296: if
+Line 1296: (
+Line 1296: ID = new_nd
+Line 1296: Unrecognized token: 46
+Line 1296: ID = mnt
+Line 1296: -
+Line 1296: >
+Line 1296: ID = mnt_root
+Line 1296: !=
+Line 1296: ID = new_nd
+Line 1296: Unrecognized token: 46
+Line 1296: ID = dentry
+Line 1296: )
+Line 1297: ID = goto
+Line 1297: ID = out2
+Line 1297: ;
+Line 1298: ID = tmp
+Line 1298: =
+Line 1298: ID = old_nd
+Line 1298: Unrecognized token: 46
+Line 1298: ID = mnt
+Line 1298: ;
+Line 1299: ID = spin_lock
+Line 1299: (
+Line 1299: Unrecognized token: 38
+Line 1299: ID = vfsmount_lock
+Line 1299: )
+Line 1299: ;
+Line 1300: if
+Line 1300: (
+Line 1300: ID = tmp
+Line 1300: !=
+Line 1300: ID = new_nd
+Line 1300: Unrecognized token: 46
+Line 1300: ID = mnt
+Line 1300: )
+Line 1300: {
+Line 1301: for
+Line 1301: (
+Line 1301: ;
+Line 1301: ;
+Line 1301: )
+Line 1301: {
+Line 1302: if
+Line 1302: (
+Line 1302: ID = tmp
+Line 1302: -
+Line 1302: >
+Line 1302: ID = mnt_parent
+Line 1302: ==
+Line 1302: ID = tmp
+Line 1302: )
+Line 1303: ID = goto
+Line 1303: ID = out3
+Line 1303: ;
+Line 1304: if
+Line 1304: (
+Line 1304: ID = tmp
+Line 1304: -
+Line 1304: >
+Line 1304: ID = mnt_parent
+Line 1304: ==
+Line 1304: ID = new_nd
+Line 1304: Unrecognized token: 46
+Line 1304: ID = mnt
+Line 1304: )
+Line 1305: ID = break
+Line 1305: ;
+Line 1306: ID = tmp
+Line 1306: =
+Line 1306: ID = tmp
+Line 1306: -
+Line 1306: >
+Line 1306: ID = mnt_parent
+Line 1306: ;
+Line 1307: }
+Line 1308: if
+Line 1308: (
+Line 1308: !
+Line 1308: ID = is_subdir
+Line 1308: (
+Line 1308: ID = tmp
+Line 1308: -
+Line 1308: >
+Line 1308: ID = mnt_mountpoint
+Line 1308: ,
+Line 1308: ID = new_nd
+Line 1308: Unrecognized token: 46
+Line 1308: ID = dentry
+Line 1308: )
+Line 1308: )
+Line 1309: ID = goto
+Line 1309: ID = out3
+Line 1309: ;
+Line 1310: }
+Line 1310: else
+Line 1310: if
+Line 1310: (
+Line 1310: !
+Line 1310: ID = is_subdir
+Line 1310: (
+Line 1310: ID = old_nd
+Line 1310: Unrecognized token: 46
+Line 1310: ID = dentry
+Line 1310: ,
+Line 1310: ID = new_nd
+Line 1310: Unrecognized token: 46
+Line 1310: ID = dentry
+Line 1310: )
+Line 1310: )
+Line 1311: ID = goto
+Line 1311: ID = out3
+Line 1311: ;
+Line 1312: ID = detach_mnt
+Line 1312: (
+Line 1312: ID = new_nd
+Line 1312: Unrecognized token: 46
+Line 1312: ID = mnt
+Line 1312: ,
+Line 1312: Unrecognized token: 38
+Line 1312: ID = parent_nd
+Line 1312: )
+Line 1312: ;
+Line 1313: ID = detach_mnt
+Line 1313: (
+Line 1313: ID = user_nd
+Line 1313: Unrecognized token: 46
+Line 1313: ID = mnt
+Line 1313: ,
+Line 1313: Unrecognized token: 38
+Line 1313: ID = root_parent
+Line 1313: )
+Line 1313: ;
+Line 1314: ID = attach_mnt
+Line 1314: (
+Line 1314: ID = user_nd
+Line 1314: Unrecognized token: 46
+Line 1314: ID = mnt
+Line 1314: ,
+Line 1314: Unrecognized token: 38
+Line 1314: ID = old_nd
+Line 1314: )
+Line 1314: ;
+Line 1315: ID = attach_mnt
+Line 1315: (
+Line 1315: ID = new_nd
+Line 1315: Unrecognized token: 46
+Line 1315: ID = mnt
+Line 1315: ,
+Line 1315: Unrecognized token: 38
+Line 1315: ID = root_parent
+Line 1315: )
+Line 1315: ;
+Line 1316: ID = spin_unlock
+Line 1316: (
+Line 1316: Unrecognized token: 38
+Line 1316: ID = vfsmount_lock
+Line 1316: )
+Line 1316: ;
+Line 1317: ID = chroot_fs_refs
+Line 1317: (
+Line 1317: Unrecognized token: 38
+Line 1317: ID = user_nd
+Line 1317: ,
+Line 1317: Unrecognized token: 38
+Line 1317: ID = new_nd
+Line 1317: )
+Line 1317: ;
+Line 1318: ID = security_sb_post_pivotroot
+Line 1318: (
+Line 1318: Unrecognized token: 38
+Line 1318: ID = user_nd
+Line 1318: ,
+Line 1318: Unrecognized token: 38
+Line 1318: ID = new_nd
+Line 1318: )
+Line 1318: ;
+Line 1319: ID = error
+Line 1319: =
+Line 1319: INTCON = 0
+Line 1319: ;
+Line 1320: ID = path_release
+Line 1320: (
+Line 1320: Unrecognized token: 38
+Line 1320: ID = root_parent
+Line 1320: )
+Line 1320: ;
+Line 1321: ID = path_release
+Line 1321: (
+Line 1321: Unrecognized token: 38
+Line 1321: ID = parent_nd
+Line 1321: )
+Line 1321: ;
+Line 1322: ID = out2
+Line 1322: Unrecognized token: 58
+Line 1323: ID = up
+Line 1323: (
+Line 1323: Unrecognized token: 38
+Line 1323: ID = old_nd
+Line 1323: Unrecognized token: 46
+Line 1323: ID = dentry
+Line 1323: -
+Line 1323: >
+Line 1323: ID = d_inode
+Line 1323: -
+Line 1323: >
+Line 1323: ID = i_sem
+Line 1323: )
+Line 1323: ;
+Line 1324: ID = up_write
+Line 1324: (
+Line 1324: Unrecognized token: 38
+Line 1324: ID = current
+Line 1324: -
+Line 1324: >
+Line 1324: ID = namespace
+Line 1324: -
+Line 1324: >
+Line 1324: ID = sem
+Line 1324: )
+Line 1324: ;
+Line 1325: ID = path_release
+Line 1325: (
+Line 1325: Unrecognized token: 38
+Line 1325: ID = user_nd
+Line 1325: )
+Line 1325: ;
+Line 1326: ID = path_release
+Line 1326: (
+Line 1326: Unrecognized token: 38
+Line 1326: ID = old_nd
+Line 1326: )
+Line 1326: ;
+Line 1327: ID = out1
+Line 1327: Unrecognized token: 58
+Line 1328: ID = path_release
+Line 1328: (
+Line 1328: Unrecognized token: 38
+Line 1328: ID = new_nd
+Line 1328: )
+Line 1328: ;
+Line 1329: ID = out0
+Line 1329: Unrecognized token: 58
+Line 1330: ID = unlock_kernel
+Line 1330: (
+Line 1330: )
+Line 1330: ;
+Line 1331: return
+Line 1331: ID = error
+Line 1331: ;
+Line 1332: ID = out3
+Line 1332: Unrecognized token: 58
+Line 1333: ID = spin_unlock
+Line 1333: (
+Line 1333: Unrecognized token: 38
+Line 1333: ID = vfsmount_lock
+Line 1333: )
+Line 1333: ;
+Line 1334: ID = goto
+Line 1334: ID = out2
+Line 1334: ;
+Line 1335: }
+Line 1337: ID = static
+Line 1337: void
+Line 1337: Unrecognized token: 95
+Line 1337: Unrecognized token: 95
+Line 1337: ID = init
+Line 1337: ID = init_mount_tree
+Line 1337: (
+Line 1337: void
+Line 1337: )
+Line 1338: {
+Line 1339: ID = struct
+Line 1339: ID = vfsmount
+Line 1339: *
+Line 1339: ID = mnt
+Line 1339: ;
+Line 1340: ID = struct
+Line 1340: ID = namespace
+Line 1340: *
+Line 1340: ID = namespace
+Line 1340: ;
+Line 1341: ID = struct
+Line 1341: ID = task_struct
+Line 1341: *
+Line 1341: ID = g
+Line 1341: ,
+Line 1341: *
+Line 1341: ID = p
+Line 1341: ;
+Line 1343: ID = mnt
+Line 1343: =
+Line 1343: ID = do_kern_mount
+Line 1343: (
+Line 1343: STRINGCON = "rootfs"
+Line 1343: ,
+Line 1343: INTCON = 0
+Line 1343: ,
+Line 1343: STRINGCON = "rootfs"
+Line 1343: ,
+Line 1343: ID = NULL
+Line 1343: )
+Line 1343: ;
+Line 1344: if
+Line 1344: (
+Line 1344: ID = IS_ERR
+Line 1344: (
+Line 1344: ID = mnt
+Line 1344: )
+Line 1344: )
+Line 1345: ID = panic
+Line 1345: (
+Line 1345: STRINGCON = "Can't create rootfs"
+Line 1345: )
+Line 1345: ;
+Line 1346: ID = namespace
+Line 1346: =
+Line 1346: ID = kmalloc
+Line 1346: (
+Line 1346: ID = sizeof
+Line 1346: (
+Line 1346: *
+Line 1346: ID = namespace
+Line 1346: )
+Line 1346: ,
+Line 1346: ID = GFP_KERNEL
+Line 1346: )
+Line 1346: ;
+Line 1347: if
+Line 1347: (
+Line 1347: !
+Line 1347: ID = namespace
+Line 1347: )
+Line 1348: ID = panic
+Line 1348: (
+Line 1348: STRINGCON = "Can't allocate initial namespace"
+Line 1348: )
+Line 1348: ;
+Line 1349: ID = atomic_set
+Line 1349: (
+Line 1349: Unrecognized token: 38
+Line 1349: ID = namespace
+Line 1349: -
+Line 1349: >
+Line 1349: ID = count
+Line 1349: ,
+Line 1349: INTCON = 1
+Line 1349: )
+Line 1349: ;
+Line 1350: ID = INIT_LIST_HEAD
+Line 1350: (
+Line 1350: Unrecognized token: 38
+Line 1350: ID = namespace
+Line 1350: -
+Line 1350: >
+Line 1350: ID = list
+Line 1350: )
+Line 1350: ;
+Line 1351: ID = init_rwsem
+Line 1351: (
+Line 1351: Unrecognized token: 38
+Line 1351: ID = namespace
+Line 1351: -
+Line 1351: >
+Line 1351: ID = sem
+Line 1351: )
+Line 1351: ;
+Line 1352: ID = list_add
+Line 1352: (
+Line 1352: Unrecognized token: 38
+Line 1352: ID = mnt
+Line 1352: -
+Line 1352: >
+Line 1352: ID = mnt_list
+Line 1352: ,
+Line 1352: Unrecognized token: 38
+Line 1352: ID = namespace
+Line 1352: -
+Line 1352: >
+Line 1352: ID = list
+Line 1352: )
+Line 1352: ;
+Line 1353: ID = namespace
+Line 1353: -
+Line 1353: >
+Line 1353: ID = root
+Line 1353: =
+Line 1353: ID = mnt
+Line 1353: ;
+Line 1354: ID = mnt
+Line 1354: -
+Line 1354: >
+Line 1354: ID = mnt_namespace
+Line 1354: =
+Line 1354: ID = namespace
+Line 1354: ;
+Line 1356: ID = init_task
+Line 1356: Unrecognized token: 46
+Line 1356: ID = namespace
+Line 1356: =
+Line 1356: ID = namespace
+Line 1356: ;
+Line 1357: ID = read_lock
+Line 1357: (
+Line 1357: Unrecognized token: 38
+Line 1357: ID = tasklist_lock
+Line 1357: )
+Line 1357: ;
+Line 1358: ID = do_each_thread
+Line 1358: (
+Line 1358: ID = g
+Line 1358: ,
+Line 1358: ID = p
+Line 1358: )
+Line 1358: {
+Line 1359: ID = get_namespace
+Line 1359: (
+Line 1359: ID = namespace
+Line 1359: )
+Line 1359: ;
+Line 1360: ID = p
+Line 1360: -
+Line 1360: >
+Line 1360: ID = namespace
+Line 1360: =
+Line 1360: ID = namespace
+Line 1360: ;
+Line 1361: }
+Line 1361: ID = while_each_thread
+Line 1361: (
+Line 1361: ID = g
+Line 1361: ,
+Line 1361: ID = p
+Line 1361: )
+Line 1361: ;
+Line 1362: ID = read_unlock
+Line 1362: (
+Line 1362: Unrecognized token: 38
+Line 1362: ID = tasklist_lock
+Line 1362: )
+Line 1362: ;
+Line 1364: ID = set_fs_pwd
+Line 1364: (
+Line 1364: ID = current
+Line 1364: -
+Line 1364: >
+Line 1364: ID = fs
+Line 1364: ,
+Line 1364: ID = namespace
+Line 1364: -
+Line 1364: >
+Line 1364: ID = root
+Line 1364: ,
+Line 1364: ID = namespace
+Line 1364: -
+Line 1364: >
+Line 1364: ID = root
+Line 1364: -
+Line 1364: >
+Line 1364: ID = mnt_root
+Line 1364: )
+Line 1364: ;
+Line 1365: ID = set_fs_root
+Line 1365: (
+Line 1365: ID = current
+Line 1365: -
+Line 1365: >
+Line 1365: ID = fs
+Line 1365: ,
+Line 1365: ID = namespace
+Line 1365: -
+Line 1365: >
+Line 1365: ID = root
+Line 1365: ,
+Line 1365: ID = namespace
+Line 1365: -
+Line 1365: >
+Line 1365: ID = root
+Line 1365: -
+Line 1365: >
+Line 1365: ID = mnt_root
+Line 1365: )
+Line 1365: ;
+Line 1366: }
+Line 1368: void
+Line 1368: Unrecognized token: 95
+Line 1368: Unrecognized token: 95
+Line 1368: ID = init
+Line 1368: ID = mnt_init
+Line 1368: (
+Line 1368: ID = unsigned
+Line 1368: ID = long
+Line 1368: ID = mempages
+Line 1368: )
+Line 1369: {
+Line 1370: ID = struct
+Line 1370: ID = list_head
+Line 1370: *
+Line 1370: ID = d
+Line 1370: ;
+Line 1371: ID = unsigned
+Line 1371: ID = long
+Line 1371: ID = order
+Line 1371: ;
+Line 1372: ID = unsigned
+Line 1372: int
+Line 1372: ID = nr_hash
+Line 1372: ;
+Line 1373: int
+Line 1373: ID = i
+Line 1373: ;
+Line 1375: ID = mnt_cache
+Line 1375: =
+Line 1375: ID = kmem_cache_create
+Line 1375: (
+Line 1375: STRINGCON = "mnt_cache"
+Line 1375: ,
+Line 1375: ID = sizeof
+Line 1375: (
+Line 1375: ID = struct
+Line 1375: ID = vfsmount
+Line 1375: )
+Line 1375: ,
+Line 1376: INTCON = 0
+Line 1376: ,
+Line 1376: ID = SLAB_HWCACHE_ALIGN
+Line 1376: Unrecognized token: 124
+Line 1376: ID = SLAB_PANIC
+Line 1376: ,
+Line 1376: ID = NULL
+Line 1376: ,
+Line 1376: ID = NULL
+Line 1376: )
+Line 1376: ;
+Line 1378: ID = order
+Line 1378: =
+Line 1378: INTCON = 0
+Line 1378: ;
+Line 1379: ID = mount_hashtable
+Line 1379: =
+Line 1379: (
+Line 1379: ID = struct
+Line 1379: ID = list_head
+Line 1379: *
+Line 1379: )
+Line 1380: Unrecognized token: 95
+Line 1380: Unrecognized token: 95
+Line 1380: ID = get_free_pages
+Line 1380: (
+Line 1380: ID = GFP_ATOMIC
+Line 1380: ,
+Line 1380: ID = order
+Line 1380: )
+Line 1380: ;
+Line 1382: if
+Line 1382: (
+Line 1382: !
+Line 1382: ID = mount_hashtable
+Line 1382: )
+Line 1383: ID = panic
+Line 1383: (
+Line 1383: STRINGCON = "Failed to allocate mount hash table\n"
+Line 1383: )
+Line 1383: ;
+Line 1390: ID = nr_hash
+Line 1390: =
+Line 1390: (
+Line 1390: INTCON = 1
+Line 1390: ID = UL
+Line 1390: <
+Line 1390: <
+Line 1390: ID = order
+Line 1390: )
+Line 1390: *
+Line 1390: ID = PAGE_SIZE
+Line 1390: /
+Line 1390: ID = sizeof
+Line 1390: (
+Line 1390: ID = struct
+Line 1390: ID = list_head
+Line 1390: )
+Line 1390: ;
+Line 1391: ID = hash_bits
+Line 1391: =
+Line 1391: INTCON = 0
+Line 1391: ;
+Line 1392: ID = do
+Line 1392: {
+Line 1393: ID = hash_bits
+Line 1393: +
+Line 1393: +
+Line 1393: ;
+Line 1394: }
+Line 1394: while
+Line 1394: (
+Line 1394: (
+Line 1394: ID = nr_hash
+Line 1394: >
+Line 1394: >
+Line 1394: ID = hash_bits
+Line 1394: )
+Line 1394: !=
+Line 1394: INTCON = 0
+Line 1394: )
+Line 1394: ;
+Line 1395: ID = hash_bits
+Line 1395: -
+Line 1395: -
+Line 1395: ;
+Line 1401: ID = nr_hash
+Line 1401: =
+Line 1401: INTCON = 1
+Line 1401: ID = UL
+Line 1401: <
+Line 1401: <
+Line 1401: ID = hash_bits
+Line 1401: ;
+Line 1402: ID = hash_mask
+Line 1402: =
+Line 1402: ID = nr_hash
+Line 1402: -
+Line 1402: INTCON = 1
+Line 1402: ;
+Line 1404: ID = printk
+Line 1404: (
+Line 1404: STRINGCON = "Mount-cache hash table entries: %d (order: %ld, %ld bytes)\n"
+Line 1404: ,
+Line 1405: ID = nr_hash
+Line 1405: ,
+Line 1405: ID = order
+Line 1405: ,
+Line 1405: (
+Line 1405: ID = PAGE_SIZE
+Line 1405: <
+Line 1405: <
+Line 1405: ID = order
+Line 1405: )
+Line 1405: )
+Line 1405: ;
+Line 1408: ID = d
+Line 1408: =
+Line 1408: ID = mount_hashtable
+Line 1408: ;
+Line 1409: ID = i
+Line 1409: =
+Line 1409: ID = nr_hash
+Line 1409: ;
+Line 1410: ID = do
+Line 1410: {
+Line 1411: ID = INIT_LIST_HEAD
+Line 1411: (
+Line 1411: ID = d
+Line 1411: )
+Line 1411: ;
+Line 1412: ID = d
+Line 1412: +
+Line 1412: +
+Line 1412: ;
+Line 1413: ID = i
+Line 1413: -
+Line 1413: -
+Line 1413: ;
+Line 1414: }
+Line 1414: while
+Line 1414: (
+Line 1414: ID = i
+Line 1414: )
+Line 1414: ;
+Line 1415: ID = sysfs_init
+Line 1415: (
+Line 1415: )
+Line 1415: ;
+Line 1416: ID = init_rootfs
+Line 1416: (
+Line 1416: )
+Line 1416: ;
+Line 1417: ID = init_mount_tree
+Line 1417: (
+Line 1417: )
+Line 1417: ;
+Line 1418: }
+Line 1420: void
+Line 1420: Unrecognized token: 95
+Line 1420: Unrecognized token: 95
+Line 1420: ID = put_namespace
+Line 1420: (
+Line 1420: ID = struct
+Line 1420: ID = namespace
+Line 1420: *
+Line 1420: ID = namespace
+Line 1420: )
+Line 1421: {
+Line 1422: ID = struct
+Line 1422: ID = vfsmount
+Line 1422: *
+Line 1422: ID = mnt
+Line 1422: ;
+Line 1424: ID = down_write
+Line 1424: (
+Line 1424: Unrecognized token: 38
+Line 1424: ID = namespace
+Line 1424: -
+Line 1424: >
+Line 1424: ID = sem
+Line 1424: )
+Line 1424: ;
+Line 1425: ID = spin_lock
+Line 1425: (
+Line 1425: Unrecognized token: 38
+Line 1425: ID = vfsmount_lock
+Line 1425: )
+Line 1425: ;
+Line 1427: ID = list_for_each_entry
+Line 1427: (
+Line 1427: ID = mnt
+Line 1427: ,
+Line 1427: Unrecognized token: 38
+Line 1427: ID = namespace
+Line 1427: -
+Line 1427: >
+Line 1427: ID = list
+Line 1427: ,
+Line 1427: ID = mnt_list
+Line 1427: )
+Line 1427: {
+Line 1428: ID = mnt
+Line 1428: -
+Line 1428: >
+Line 1428: ID = mnt_namespace
+Line 1428: =
+Line 1428: ID = NULL
+Line 1428: ;
+Line 1429: }
+Line 1431: ID = umount_tree
+Line 1431: (
+Line 1431: ID = namespace
+Line 1431: -
+Line 1431: >
+Line 1431: ID = root
+Line 1431: )
+Line 1431: ;
+Line 1432: ID = spin_unlock
+Line 1432: (
+Line 1432: Unrecognized token: 38
+Line 1432: ID = vfsmount_lock
+Line 1432: )
+Line 1432: ;
+Line 1433: ID = up_write
+Line 1433: (
+Line 1433: Unrecognized token: 38
+Line 1433: ID = namespace
+Line 1433: -
+Line 1433: >
+Line 1433: ID = sem
+Line 1433: )
+Line 1433: ;
+Line 1434: ID = kfree
+Line 1434: (
+Line 1434: ID = namespace
+Line 1434: )
+Line 1434: ;
+Line 1435: }
+Line 1436: -EOF-

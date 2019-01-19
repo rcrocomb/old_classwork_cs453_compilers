@@ -1,0 +1,58 @@
+/*!
+ *  Author: Robert Crocombe
+ *  Class: CS453 Fall 04
+ *  Professor: Debray
+ *  Other People's Code Used: No
+ */
+
+#include "label_info.h"
+
+////////////////////////////////////////////////////////////////////////////////
+// Constructors and destructor
+////////////////////////////////////////////////////////////////////////////////
+
+label_info::label_info
+(
+    const std::string &name,
+    const int place
+):
+    field_info(name, ERROR_TYPE, place)
+{
+    // nada
+}
+
+label_info::label_info(const label_info &l):
+    field_info(l)
+{
+    // nada
+}
+
+label_info::~label_info(void)
+{
+    // nada
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Operators
+////////////////////////////////////////////////////////////////////////////////
+
+label_info &
+label_info::operator =(const label_info &l)
+{
+    if (this != &l)
+    {
+        field_info::operator =(l);
+    }
+    return *this;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Interface
+////////////////////////////////////////////////////////////////////////////////
+
+label_info *
+label_info::clone(void) const
+{
+    return new label_info(*this);
+}
+

@@ -1,0 +1,2450 @@
+Line 7: Unrecognized token: 35
+Line 7: ID = include
+Line 7: <
+Line 7: ID = linux
+Line 7: /
+Line 7: ID = config
+Line 7: Unrecognized token: 46
+Line 7: ID = h
+Line 7: >
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = module
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = mm
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = errno
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = file
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = smp_lock
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = highuid
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = fs
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = linux
+Line 15: /
+Line 15: ID = namei
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 16: Unrecognized token: 35
+Line 16: ID = include
+Line 16: <
+Line 16: ID = linux
+Line 16: /
+Line 16: ID = security
+Line 16: Unrecognized token: 46
+Line 16: ID = h
+Line 16: >
+Line 18: Unrecognized token: 35
+Line 18: ID = include
+Line 18: <
+Line 18: ID = asm
+Line 18: /
+Line 18: ID = uaccess
+Line 18: Unrecognized token: 46
+Line 18: ID = h
+Line 18: >
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = asm
+Line 19: /
+Line 19: ID = unistd
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 21: void
+Line 21: ID = generic_fillattr
+Line 21: (
+Line 21: ID = struct
+Line 21: ID = inode
+Line 21: *
+Line 21: ID = inode
+Line 21: ,
+Line 21: ID = struct
+Line 21: ID = kstat
+Line 21: *
+Line 21: ID = stat
+Line 21: )
+Line 22: {
+Line 23: ID = stat
+Line 23: -
+Line 23: >
+Line 23: ID = dev
+Line 23: =
+Line 23: ID = inode
+Line 23: -
+Line 23: >
+Line 23: ID = i_sb
+Line 23: -
+Line 23: >
+Line 23: ID = s_dev
+Line 23: ;
+Line 24: ID = stat
+Line 24: -
+Line 24: >
+Line 24: ID = ino
+Line 24: =
+Line 24: ID = inode
+Line 24: -
+Line 24: >
+Line 24: ID = i_ino
+Line 24: ;
+Line 25: ID = stat
+Line 25: -
+Line 25: >
+Line 25: ID = mode
+Line 25: =
+Line 25: ID = inode
+Line 25: -
+Line 25: >
+Line 25: ID = i_mode
+Line 25: ;
+Line 26: ID = stat
+Line 26: -
+Line 26: >
+Line 26: ID = nlink
+Line 26: =
+Line 26: ID = inode
+Line 26: -
+Line 26: >
+Line 26: ID = i_nlink
+Line 26: ;
+Line 27: ID = stat
+Line 27: -
+Line 27: >
+Line 27: ID = uid
+Line 27: =
+Line 27: ID = inode
+Line 27: -
+Line 27: >
+Line 27: ID = i_uid
+Line 27: ;
+Line 28: ID = stat
+Line 28: -
+Line 28: >
+Line 28: ID = gid
+Line 28: =
+Line 28: ID = inode
+Line 28: -
+Line 28: >
+Line 28: ID = i_gid
+Line 28: ;
+Line 29: ID = stat
+Line 29: -
+Line 29: >
+Line 29: ID = rdev
+Line 29: =
+Line 29: ID = inode
+Line 29: -
+Line 29: >
+Line 29: ID = i_rdev
+Line 29: ;
+Line 30: ID = stat
+Line 30: -
+Line 30: >
+Line 30: ID = atime
+Line 30: =
+Line 30: ID = inode
+Line 30: -
+Line 30: >
+Line 30: ID = i_atime
+Line 30: ;
+Line 31: ID = stat
+Line 31: -
+Line 31: >
+Line 31: ID = mtime
+Line 31: =
+Line 31: ID = inode
+Line 31: -
+Line 31: >
+Line 31: ID = i_mtime
+Line 31: ;
+Line 32: ID = stat
+Line 32: -
+Line 32: >
+Line 32: ID = ctime
+Line 32: =
+Line 32: ID = inode
+Line 32: -
+Line 32: >
+Line 32: ID = i_ctime
+Line 32: ;
+Line 33: ID = stat
+Line 33: -
+Line 33: >
+Line 33: ID = size
+Line 33: =
+Line 33: ID = i_size_read
+Line 33: (
+Line 33: ID = inode
+Line 33: )
+Line 33: ;
+Line 34: ID = stat
+Line 34: -
+Line 34: >
+Line 34: ID = blocks
+Line 34: =
+Line 34: ID = inode
+Line 34: -
+Line 34: >
+Line 34: ID = i_blocks
+Line 34: ;
+Line 35: ID = stat
+Line 35: -
+Line 35: >
+Line 35: ID = blksize
+Line 35: =
+Line 35: ID = inode
+Line 35: -
+Line 35: >
+Line 35: ID = i_blksize
+Line 35: ;
+Line 36: }
+Line 38: ID = EXPORT_SYMBOL
+Line 38: (
+Line 38: ID = generic_fillattr
+Line 38: )
+Line 38: ;
+Line 40: int
+Line 40: ID = vfs_getattr
+Line 40: (
+Line 40: ID = struct
+Line 40: ID = vfsmount
+Line 40: *
+Line 40: ID = mnt
+Line 40: ,
+Line 40: ID = struct
+Line 40: ID = dentry
+Line 40: *
+Line 40: ID = dentry
+Line 40: ,
+Line 40: ID = struct
+Line 40: ID = kstat
+Line 40: *
+Line 40: ID = stat
+Line 40: )
+Line 41: {
+Line 42: ID = struct
+Line 42: ID = inode
+Line 42: *
+Line 42: ID = inode
+Line 42: =
+Line 42: ID = dentry
+Line 42: -
+Line 42: >
+Line 42: ID = d_inode
+Line 42: ;
+Line 43: int
+Line 43: ID = retval
+Line 43: ;
+Line 45: ID = retval
+Line 45: =
+Line 45: ID = security_inode_getattr
+Line 45: (
+Line 45: ID = mnt
+Line 45: ,
+Line 45: ID = dentry
+Line 45: )
+Line 45: ;
+Line 46: if
+Line 46: (
+Line 46: ID = retval
+Line 46: )
+Line 47: return
+Line 47: ID = retval
+Line 47: ;
+Line 49: if
+Line 49: (
+Line 49: ID = inode
+Line 49: -
+Line 49: >
+Line 49: ID = i_op
+Line 49: -
+Line 49: >
+Line 49: ID = getattr
+Line 49: )
+Line 50: return
+Line 50: ID = inode
+Line 50: -
+Line 50: >
+Line 50: ID = i_op
+Line 50: -
+Line 50: >
+Line 50: ID = getattr
+Line 50: (
+Line 50: ID = mnt
+Line 50: ,
+Line 50: ID = dentry
+Line 50: ,
+Line 50: ID = stat
+Line 50: )
+Line 50: ;
+Line 52: ID = generic_fillattr
+Line 52: (
+Line 52: ID = inode
+Line 52: ,
+Line 52: ID = stat
+Line 52: )
+Line 52: ;
+Line 53: if
+Line 53: (
+Line 53: !
+Line 53: ID = stat
+Line 53: -
+Line 53: >
+Line 53: ID = blksize
+Line 53: )
+Line 53: {
+Line 54: ID = struct
+Line 54: ID = super_block
+Line 54: *
+Line 54: ID = s
+Line 54: =
+Line 54: ID = inode
+Line 54: -
+Line 54: >
+Line 54: ID = i_sb
+Line 54: ;
+Line 55: ID = unsigned
+Line 55: ID = blocks
+Line 55: ;
+Line 56: ID = blocks
+Line 56: =
+Line 56: (
+Line 56: ID = stat
+Line 56: -
+Line 56: >
+Line 56: ID = size
+Line 56: +
+Line 56: ID = s
+Line 56: -
+Line 56: >
+Line 56: ID = s_blocksize
+Line 56: -
+Line 56: INTCON = 1
+Line 56: )
+Line 56: >
+Line 56: >
+Line 56: ID = s
+Line 56: -
+Line 56: >
+Line 56: ID = s_blocksize_bits
+Line 56: ;
+Line 57: ID = stat
+Line 57: -
+Line 57: >
+Line 57: ID = blocks
+Line 57: =
+Line 57: (
+Line 57: ID = s
+Line 57: -
+Line 57: >
+Line 57: ID = s_blocksize
+Line 57: /
+Line 57: INTCON = 512
+Line 57: )
+Line 57: *
+Line 57: ID = blocks
+Line 57: ;
+Line 58: ID = stat
+Line 58: -
+Line 58: >
+Line 58: ID = blksize
+Line 58: =
+Line 58: ID = s
+Line 58: -
+Line 58: >
+Line 58: ID = s_blocksize
+Line 58: ;
+Line 59: }
+Line 60: return
+Line 60: INTCON = 0
+Line 60: ;
+Line 61: }
+Line 63: ID = EXPORT_SYMBOL
+Line 63: (
+Line 63: ID = vfs_getattr
+Line 63: )
+Line 63: ;
+Line 65: int
+Line 65: ID = vfs_stat
+Line 65: (
+Line 65: char
+Line 65: Unrecognized token: 95
+Line 65: Unrecognized token: 95
+Line 65: ID = user
+Line 65: *
+Line 65: ID = name
+Line 65: ,
+Line 65: ID = struct
+Line 65: ID = kstat
+Line 65: *
+Line 65: ID = stat
+Line 65: )
+Line 66: {
+Line 67: ID = struct
+Line 67: ID = nameidata
+Line 67: ID = nd
+Line 67: ;
+Line 68: int
+Line 68: ID = error
+Line 68: ;
+Line 70: ID = error
+Line 70: =
+Line 70: ID = user_path_walk
+Line 70: (
+Line 70: ID = name
+Line 70: ,
+Line 70: Unrecognized token: 38
+Line 70: ID = nd
+Line 70: )
+Line 70: ;
+Line 71: if
+Line 71: (
+Line 71: !
+Line 71: ID = error
+Line 71: )
+Line 71: {
+Line 72: ID = error
+Line 72: =
+Line 72: ID = vfs_getattr
+Line 72: (
+Line 72: ID = nd
+Line 72: Unrecognized token: 46
+Line 72: ID = mnt
+Line 72: ,
+Line 72: ID = nd
+Line 72: Unrecognized token: 46
+Line 72: ID = dentry
+Line 72: ,
+Line 72: ID = stat
+Line 72: )
+Line 72: ;
+Line 73: ID = path_release
+Line 73: (
+Line 73: Unrecognized token: 38
+Line 73: ID = nd
+Line 73: )
+Line 73: ;
+Line 74: }
+Line 75: return
+Line 75: ID = error
+Line 75: ;
+Line 76: }
+Line 78: ID = EXPORT_SYMBOL
+Line 78: (
+Line 78: ID = vfs_stat
+Line 78: )
+Line 78: ;
+Line 80: int
+Line 80: ID = vfs_lstat
+Line 80: (
+Line 80: char
+Line 80: Unrecognized token: 95
+Line 80: Unrecognized token: 95
+Line 80: ID = user
+Line 80: *
+Line 80: ID = name
+Line 80: ,
+Line 80: ID = struct
+Line 80: ID = kstat
+Line 80: *
+Line 80: ID = stat
+Line 80: )
+Line 81: {
+Line 82: ID = struct
+Line 82: ID = nameidata
+Line 82: ID = nd
+Line 82: ;
+Line 83: int
+Line 83: ID = error
+Line 83: ;
+Line 85: ID = error
+Line 85: =
+Line 85: ID = user_path_walk_link
+Line 85: (
+Line 85: ID = name
+Line 85: ,
+Line 85: Unrecognized token: 38
+Line 85: ID = nd
+Line 85: )
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: !
+Line 86: ID = error
+Line 86: )
+Line 86: {
+Line 87: ID = error
+Line 87: =
+Line 87: ID = vfs_getattr
+Line 87: (
+Line 87: ID = nd
+Line 87: Unrecognized token: 46
+Line 87: ID = mnt
+Line 87: ,
+Line 87: ID = nd
+Line 87: Unrecognized token: 46
+Line 87: ID = dentry
+Line 87: ,
+Line 87: ID = stat
+Line 87: )
+Line 87: ;
+Line 88: ID = path_release
+Line 88: (
+Line 88: Unrecognized token: 38
+Line 88: ID = nd
+Line 88: )
+Line 88: ;
+Line 89: }
+Line 90: return
+Line 90: ID = error
+Line 90: ;
+Line 91: }
+Line 93: ID = EXPORT_SYMBOL
+Line 93: (
+Line 93: ID = vfs_lstat
+Line 93: )
+Line 93: ;
+Line 95: int
+Line 95: ID = vfs_fstat
+Line 95: (
+Line 95: ID = unsigned
+Line 95: int
+Line 95: ID = fd
+Line 95: ,
+Line 95: ID = struct
+Line 95: ID = kstat
+Line 95: *
+Line 95: ID = stat
+Line 95: )
+Line 96: {
+Line 97: ID = struct
+Line 97: ID = file
+Line 97: *
+Line 97: ID = f
+Line 97: =
+Line 97: ID = fget
+Line 97: (
+Line 97: ID = fd
+Line 97: )
+Line 97: ;
+Line 98: int
+Line 98: ID = error
+Line 98: =
+Line 98: -
+Line 98: ID = EBADF
+Line 98: ;
+Line 100: if
+Line 100: (
+Line 100: ID = f
+Line 100: )
+Line 100: {
+Line 101: ID = error
+Line 101: =
+Line 101: ID = vfs_getattr
+Line 101: (
+Line 101: ID = f
+Line 101: -
+Line 101: >
+Line 101: ID = f_vfsmnt
+Line 101: ,
+Line 101: ID = f
+Line 101: -
+Line 101: >
+Line 101: ID = f_dentry
+Line 101: ,
+Line 101: ID = stat
+Line 101: )
+Line 101: ;
+Line 102: ID = fput
+Line 102: (
+Line 102: ID = f
+Line 102: )
+Line 102: ;
+Line 103: }
+Line 104: return
+Line 104: ID = error
+Line 104: ;
+Line 105: }
+Line 107: ID = EXPORT_SYMBOL
+Line 107: (
+Line 107: ID = vfs_fstat
+Line 107: )
+Line 107: ;
+Line 109: Unrecognized token: 35
+Line 109: ID = ifdef
+Line 109: Unrecognized token: 95
+Line 109: Unrecognized token: 95
+Line 109: ID = ARCH_WANT_OLD_STAT
+Line 115: ID = static
+Line 115: int
+Line 115: ID = cp_old_stat
+Line 115: (
+Line 115: ID = struct
+Line 115: ID = kstat
+Line 115: *
+Line 115: ID = stat
+Line 115: ,
+Line 115: ID = struct
+Line 115: Unrecognized token: 95
+Line 115: Unrecognized token: 95
+Line 115: ID = old_kernel_stat
+Line 115: Unrecognized token: 95
+Line 115: Unrecognized token: 95
+Line 115: ID = user
+Line 115: *
+Line 115: ID = statbuf
+Line 115: )
+Line 116: {
+Line 117: ID = static
+Line 117: int
+Line 117: ID = warncount
+Line 117: =
+Line 117: INTCON = 5
+Line 117: ;
+Line 118: ID = struct
+Line 118: Unrecognized token: 95
+Line 118: Unrecognized token: 95
+Line 118: ID = old_kernel_stat
+Line 118: ID = tmp
+Line 118: ;
+Line 120: if
+Line 120: (
+Line 120: ID = warncount
+Line 120: >
+Line 120: INTCON = 0
+Line 120: )
+Line 120: {
+Line 121: ID = warncount
+Line 121: -
+Line 121: -
+Line 121: ;
+Line 122: ID = printk
+Line 122: (
+Line 122: ID = KERN_WARNING
+Line 122: STRINGCON = "VFS: Warning: %s using old stat() call. Recompile your binary.\n"
+Line 122: ,
+Line 123: ID = current
+Line 123: -
+Line 123: >
+Line 123: ID = comm
+Line 123: )
+Line 123: ;
+Line 124: }
+Line 124: else
+Line 124: if
+Line 124: (
+Line 124: ID = warncount
+Line 124: <
+Line 124: INTCON = 0
+Line 124: )
+Line 124: {
+Line 126: ID = warncount
+Line 126: =
+Line 126: INTCON = 0
+Line 126: ;
+Line 127: }
+Line 129: ID = memset
+Line 129: (
+Line 129: Unrecognized token: 38
+Line 129: ID = tmp
+Line 129: ,
+Line 129: INTCON = 0
+Line 129: ,
+Line 129: ID = sizeof
+Line 129: (
+Line 129: ID = struct
+Line 129: Unrecognized token: 95
+Line 129: Unrecognized token: 95
+Line 129: ID = old_kernel_stat
+Line 129: )
+Line 129: )
+Line 129: ;
+Line 130: ID = tmp
+Line 130: Unrecognized token: 46
+Line 130: ID = st_dev
+Line 130: =
+Line 130: ID = old_encode_dev
+Line 130: (
+Line 130: ID = stat
+Line 130: -
+Line 130: >
+Line 130: ID = dev
+Line 130: )
+Line 130: ;
+Line 131: ID = tmp
+Line 131: Unrecognized token: 46
+Line 131: ID = st_ino
+Line 131: =
+Line 131: ID = stat
+Line 131: -
+Line 131: >
+Line 131: ID = ino
+Line 131: ;
+Line 132: ID = tmp
+Line 132: Unrecognized token: 46
+Line 132: ID = st_mode
+Line 132: =
+Line 132: ID = stat
+Line 132: -
+Line 132: >
+Line 132: ID = mode
+Line 132: ;
+Line 133: ID = tmp
+Line 133: Unrecognized token: 46
+Line 133: ID = st_nlink
+Line 133: =
+Line 133: ID = stat
+Line 133: -
+Line 133: >
+Line 133: ID = nlink
+Line 133: ;
+Line 134: if
+Line 134: (
+Line 134: ID = tmp
+Line 134: Unrecognized token: 46
+Line 134: ID = st_nlink
+Line 134: !=
+Line 134: ID = stat
+Line 134: -
+Line 134: >
+Line 134: ID = nlink
+Line 134: )
+Line 135: return
+Line 135: -
+Line 135: ID = EOVERFLOW
+Line 135: ;
+Line 136: ID = SET_UID
+Line 136: (
+Line 136: ID = tmp
+Line 136: Unrecognized token: 46
+Line 136: ID = st_uid
+Line 136: ,
+Line 136: ID = stat
+Line 136: -
+Line 136: >
+Line 136: ID = uid
+Line 136: )
+Line 136: ;
+Line 137: ID = SET_GID
+Line 137: (
+Line 137: ID = tmp
+Line 137: Unrecognized token: 46
+Line 137: ID = st_gid
+Line 137: ,
+Line 137: ID = stat
+Line 137: -
+Line 137: >
+Line 137: ID = gid
+Line 137: )
+Line 137: ;
+Line 138: ID = tmp
+Line 138: Unrecognized token: 46
+Line 138: ID = st_rdev
+Line 138: =
+Line 138: ID = old_encode_dev
+Line 138: (
+Line 138: ID = stat
+Line 138: -
+Line 138: >
+Line 138: ID = rdev
+Line 138: )
+Line 138: ;
+Line 139: Unrecognized token: 35
+Line 139: if
+Line 139: ID = BITS_PER_LONG
+Line 139: ==
+Line 139: INTCON = 32
+Line 140: if
+Line 140: (
+Line 140: ID = stat
+Line 140: -
+Line 140: >
+Line 140: ID = size
+Line 140: >
+Line 140: ID = MAX_NON_LFS
+Line 140: )
+Line 141: return
+Line 141: -
+Line 141: ID = EOVERFLOW
+Line 141: ;
+Line 142: Unrecognized token: 35
+Line 142: ID = endif
+Line 143: ID = tmp
+Line 143: Unrecognized token: 46
+Line 143: ID = st_size
+Line 143: =
+Line 143: ID = stat
+Line 143: -
+Line 143: >
+Line 143: ID = size
+Line 143: ;
+Line 144: ID = tmp
+Line 144: Unrecognized token: 46
+Line 144: ID = st_atime
+Line 144: =
+Line 144: ID = stat
+Line 144: -
+Line 144: >
+Line 144: ID = atime
+Line 144: Unrecognized token: 46
+Line 144: ID = tv_sec
+Line 144: ;
+Line 145: ID = tmp
+Line 145: Unrecognized token: 46
+Line 145: ID = st_mtime
+Line 145: =
+Line 145: ID = stat
+Line 145: -
+Line 145: >
+Line 145: ID = mtime
+Line 145: Unrecognized token: 46
+Line 145: ID = tv_sec
+Line 145: ;
+Line 146: ID = tmp
+Line 146: Unrecognized token: 46
+Line 146: ID = st_ctime
+Line 146: =
+Line 146: ID = stat
+Line 146: -
+Line 146: >
+Line 146: ID = ctime
+Line 146: Unrecognized token: 46
+Line 146: ID = tv_sec
+Line 146: ;
+Line 147: return
+Line 147: ID = copy_to_user
+Line 147: (
+Line 147: ID = statbuf
+Line 147: ,
+Line 147: Unrecognized token: 38
+Line 147: ID = tmp
+Line 147: ,
+Line 147: ID = sizeof
+Line 147: (
+Line 147: ID = tmp
+Line 147: )
+Line 147: )
+Line 147: Unrecognized token: 63
+Line 147: -
+Line 147: ID = EFAULT
+Line 147: Unrecognized token: 58
+Line 147: INTCON = 0
+Line 147: ;
+Line 148: }
+Line 150: ID = asmlinkage
+Line 150: ID = long
+Line 150: ID = sys_stat
+Line 150: (
+Line 150: char
+Line 150: Unrecognized token: 95
+Line 150: Unrecognized token: 95
+Line 150: ID = user
+Line 150: *
+Line 150: ID = filename
+Line 150: ,
+Line 150: ID = struct
+Line 150: Unrecognized token: 95
+Line 150: Unrecognized token: 95
+Line 150: ID = old_kernel_stat
+Line 150: Unrecognized token: 95
+Line 150: Unrecognized token: 95
+Line 150: ID = user
+Line 150: *
+Line 150: ID = statbuf
+Line 150: )
+Line 151: {
+Line 152: ID = struct
+Line 152: ID = kstat
+Line 152: ID = stat
+Line 152: ;
+Line 153: int
+Line 153: ID = error
+Line 153: =
+Line 153: ID = vfs_stat
+Line 153: (
+Line 153: ID = filename
+Line 153: ,
+Line 153: Unrecognized token: 38
+Line 153: ID = stat
+Line 153: )
+Line 153: ;
+Line 155: if
+Line 155: (
+Line 155: !
+Line 155: ID = error
+Line 155: )
+Line 156: ID = error
+Line 156: =
+Line 156: ID = cp_old_stat
+Line 156: (
+Line 156: Unrecognized token: 38
+Line 156: ID = stat
+Line 156: ,
+Line 156: ID = statbuf
+Line 156: )
+Line 156: ;
+Line 158: return
+Line 158: ID = error
+Line 158: ;
+Line 159: }
+Line 160: ID = asmlinkage
+Line 160: ID = long
+Line 160: ID = sys_lstat
+Line 160: (
+Line 160: char
+Line 160: Unrecognized token: 95
+Line 160: Unrecognized token: 95
+Line 160: ID = user
+Line 160: *
+Line 160: ID = filename
+Line 160: ,
+Line 160: ID = struct
+Line 160: Unrecognized token: 95
+Line 160: Unrecognized token: 95
+Line 160: ID = old_kernel_stat
+Line 160: Unrecognized token: 95
+Line 160: Unrecognized token: 95
+Line 160: ID = user
+Line 160: *
+Line 160: ID = statbuf
+Line 160: )
+Line 161: {
+Line 162: ID = struct
+Line 162: ID = kstat
+Line 162: ID = stat
+Line 162: ;
+Line 163: int
+Line 163: ID = error
+Line 163: =
+Line 163: ID = vfs_lstat
+Line 163: (
+Line 163: ID = filename
+Line 163: ,
+Line 163: Unrecognized token: 38
+Line 163: ID = stat
+Line 163: )
+Line 163: ;
+Line 165: if
+Line 165: (
+Line 165: !
+Line 165: ID = error
+Line 165: )
+Line 166: ID = error
+Line 166: =
+Line 166: ID = cp_old_stat
+Line 166: (
+Line 166: Unrecognized token: 38
+Line 166: ID = stat
+Line 166: ,
+Line 166: ID = statbuf
+Line 166: )
+Line 166: ;
+Line 168: return
+Line 168: ID = error
+Line 168: ;
+Line 169: }
+Line 170: ID = asmlinkage
+Line 170: ID = long
+Line 170: ID = sys_fstat
+Line 170: (
+Line 170: ID = unsigned
+Line 170: int
+Line 170: ID = fd
+Line 170: ,
+Line 170: ID = struct
+Line 170: Unrecognized token: 95
+Line 170: Unrecognized token: 95
+Line 170: ID = old_kernel_stat
+Line 170: Unrecognized token: 95
+Line 170: Unrecognized token: 95
+Line 170: ID = user
+Line 170: *
+Line 170: ID = statbuf
+Line 170: )
+Line 171: {
+Line 172: ID = struct
+Line 172: ID = kstat
+Line 172: ID = stat
+Line 172: ;
+Line 173: int
+Line 173: ID = error
+Line 173: =
+Line 173: ID = vfs_fstat
+Line 173: (
+Line 173: ID = fd
+Line 173: ,
+Line 173: Unrecognized token: 38
+Line 173: ID = stat
+Line 173: )
+Line 173: ;
+Line 175: if
+Line 175: (
+Line 175: !
+Line 175: ID = error
+Line 175: )
+Line 176: ID = error
+Line 176: =
+Line 176: ID = cp_old_stat
+Line 176: (
+Line 176: Unrecognized token: 38
+Line 176: ID = stat
+Line 176: ,
+Line 176: ID = statbuf
+Line 176: )
+Line 176: ;
+Line 178: return
+Line 178: ID = error
+Line 178: ;
+Line 179: }
+Line 181: Unrecognized token: 35
+Line 181: ID = endif
+Line 183: ID = static
+Line 183: int
+Line 183: ID = cp_new_stat
+Line 183: (
+Line 183: ID = struct
+Line 183: ID = kstat
+Line 183: *
+Line 183: ID = stat
+Line 183: ,
+Line 183: ID = struct
+Line 183: ID = stat
+Line 183: Unrecognized token: 95
+Line 183: Unrecognized token: 95
+Line 183: ID = user
+Line 183: *
+Line 183: ID = statbuf
+Line 183: )
+Line 184: {
+Line 185: ID = struct
+Line 185: ID = stat
+Line 185: ID = tmp
+Line 185: ;
+Line 187: Unrecognized token: 35
+Line 187: if
+Line 187: ID = BITS_PER_LONG
+Line 187: ==
+Line 187: INTCON = 32
+Line 188: if
+Line 188: (
+Line 188: !
+Line 188: ID = old_valid_dev
+Line 188: (
+Line 188: ID = stat
+Line 188: -
+Line 188: >
+Line 188: ID = dev
+Line 188: )
+Line 188: ||
+Line 188: !
+Line 188: ID = old_valid_dev
+Line 188: (
+Line 188: ID = stat
+Line 188: -
+Line 188: >
+Line 188: ID = rdev
+Line 188: )
+Line 188: )
+Line 189: return
+Line 189: -
+Line 189: ID = EOVERFLOW
+Line 189: ;
+Line 190: Unrecognized token: 35
+Line 190: else
+Line 191: if
+Line 191: (
+Line 191: !
+Line 191: ID = new_valid_dev
+Line 191: (
+Line 191: ID = stat
+Line 191: -
+Line 191: >
+Line 191: ID = dev
+Line 191: )
+Line 191: ||
+Line 191: !
+Line 191: ID = new_valid_dev
+Line 191: (
+Line 191: ID = stat
+Line 191: -
+Line 191: >
+Line 191: ID = rdev
+Line 191: )
+Line 191: )
+Line 192: return
+Line 192: -
+Line 192: ID = EOVERFLOW
+Line 192: ;
+Line 193: Unrecognized token: 35
+Line 193: ID = endif
+Line 195: ID = memset
+Line 195: (
+Line 195: Unrecognized token: 38
+Line 195: ID = tmp
+Line 195: ,
+Line 195: INTCON = 0
+Line 195: ,
+Line 195: ID = sizeof
+Line 195: (
+Line 195: ID = tmp
+Line 195: )
+Line 195: )
+Line 195: ;
+Line 196: Unrecognized token: 35
+Line 196: if
+Line 196: ID = BITS_PER_LONG
+Line 196: ==
+Line 196: INTCON = 32
+Line 197: ID = tmp
+Line 197: Unrecognized token: 46
+Line 197: ID = st_dev
+Line 197: =
+Line 197: ID = old_encode_dev
+Line 197: (
+Line 197: ID = stat
+Line 197: -
+Line 197: >
+Line 197: ID = dev
+Line 197: )
+Line 197: ;
+Line 198: Unrecognized token: 35
+Line 198: else
+Line 199: ID = tmp
+Line 199: Unrecognized token: 46
+Line 199: ID = st_dev
+Line 199: =
+Line 199: ID = new_encode_dev
+Line 199: (
+Line 199: ID = stat
+Line 199: -
+Line 199: >
+Line 199: ID = dev
+Line 199: )
+Line 199: ;
+Line 200: Unrecognized token: 35
+Line 200: ID = endif
+Line 201: ID = tmp
+Line 201: Unrecognized token: 46
+Line 201: ID = st_ino
+Line 201: =
+Line 201: ID = stat
+Line 201: -
+Line 201: >
+Line 201: ID = ino
+Line 201: ;
+Line 202: ID = tmp
+Line 202: Unrecognized token: 46
+Line 202: ID = st_mode
+Line 202: =
+Line 202: ID = stat
+Line 202: -
+Line 202: >
+Line 202: ID = mode
+Line 202: ;
+Line 203: ID = tmp
+Line 203: Unrecognized token: 46
+Line 203: ID = st_nlink
+Line 203: =
+Line 203: ID = stat
+Line 203: -
+Line 203: >
+Line 203: ID = nlink
+Line 203: ;
+Line 204: if
+Line 204: (
+Line 204: ID = tmp
+Line 204: Unrecognized token: 46
+Line 204: ID = st_nlink
+Line 204: !=
+Line 204: ID = stat
+Line 204: -
+Line 204: >
+Line 204: ID = nlink
+Line 204: )
+Line 205: return
+Line 205: -
+Line 205: ID = EOVERFLOW
+Line 205: ;
+Line 206: ID = SET_UID
+Line 206: (
+Line 206: ID = tmp
+Line 206: Unrecognized token: 46
+Line 206: ID = st_uid
+Line 206: ,
+Line 206: ID = stat
+Line 206: -
+Line 206: >
+Line 206: ID = uid
+Line 206: )
+Line 206: ;
+Line 207: ID = SET_GID
+Line 207: (
+Line 207: ID = tmp
+Line 207: Unrecognized token: 46
+Line 207: ID = st_gid
+Line 207: ,
+Line 207: ID = stat
+Line 207: -
+Line 207: >
+Line 207: ID = gid
+Line 207: )
+Line 207: ;
+Line 208: Unrecognized token: 35
+Line 208: if
+Line 208: ID = BITS_PER_LONG
+Line 208: ==
+Line 208: INTCON = 32
+Line 209: ID = tmp
+Line 209: Unrecognized token: 46
+Line 209: ID = st_rdev
+Line 209: =
+Line 209: ID = old_encode_dev
+Line 209: (
+Line 209: ID = stat
+Line 209: -
+Line 209: >
+Line 209: ID = rdev
+Line 209: )
+Line 209: ;
+Line 210: Unrecognized token: 35
+Line 210: else
+Line 211: ID = tmp
+Line 211: Unrecognized token: 46
+Line 211: ID = st_rdev
+Line 211: =
+Line 211: ID = new_encode_dev
+Line 211: (
+Line 211: ID = stat
+Line 211: -
+Line 211: >
+Line 211: ID = rdev
+Line 211: )
+Line 211: ;
+Line 212: Unrecognized token: 35
+Line 212: ID = endif
+Line 213: Unrecognized token: 35
+Line 213: if
+Line 213: ID = BITS_PER_LONG
+Line 213: ==
+Line 213: INTCON = 32
+Line 214: if
+Line 214: (
+Line 214: ID = stat
+Line 214: -
+Line 214: >
+Line 214: ID = size
+Line 214: >
+Line 214: ID = MAX_NON_LFS
+Line 214: )
+Line 215: return
+Line 215: -
+Line 215: ID = EOVERFLOW
+Line 215: ;
+Line 216: Unrecognized token: 35
+Line 216: ID = endif
+Line 217: ID = tmp
+Line 217: Unrecognized token: 46
+Line 217: ID = st_size
+Line 217: =
+Line 217: ID = stat
+Line 217: -
+Line 217: >
+Line 217: ID = size
+Line 217: ;
+Line 218: ID = tmp
+Line 218: Unrecognized token: 46
+Line 218: ID = st_atime
+Line 218: =
+Line 218: ID = stat
+Line 218: -
+Line 218: >
+Line 218: ID = atime
+Line 218: Unrecognized token: 46
+Line 218: ID = tv_sec
+Line 218: ;
+Line 219: ID = tmp
+Line 219: Unrecognized token: 46
+Line 219: ID = st_mtime
+Line 219: =
+Line 219: ID = stat
+Line 219: -
+Line 219: >
+Line 219: ID = mtime
+Line 219: Unrecognized token: 46
+Line 219: ID = tv_sec
+Line 219: ;
+Line 220: ID = tmp
+Line 220: Unrecognized token: 46
+Line 220: ID = st_ctime
+Line 220: =
+Line 220: ID = stat
+Line 220: -
+Line 220: >
+Line 220: ID = ctime
+Line 220: Unrecognized token: 46
+Line 220: ID = tv_sec
+Line 220: ;
+Line 221: Unrecognized token: 35
+Line 221: ID = ifdef
+Line 221: ID = STAT_HAVE_NSEC
+Line 222: ID = tmp
+Line 222: Unrecognized token: 46
+Line 222: ID = st_atime_nsec
+Line 222: =
+Line 222: ID = stat
+Line 222: -
+Line 222: >
+Line 222: ID = atime
+Line 222: Unrecognized token: 46
+Line 222: ID = tv_nsec
+Line 222: ;
+Line 223: ID = tmp
+Line 223: Unrecognized token: 46
+Line 223: ID = st_mtime_nsec
+Line 223: =
+Line 223: ID = stat
+Line 223: -
+Line 223: >
+Line 223: ID = mtime
+Line 223: Unrecognized token: 46
+Line 223: ID = tv_nsec
+Line 223: ;
+Line 224: ID = tmp
+Line 224: Unrecognized token: 46
+Line 224: ID = st_ctime_nsec
+Line 224: =
+Line 224: ID = stat
+Line 224: -
+Line 224: >
+Line 224: ID = ctime
+Line 224: Unrecognized token: 46
+Line 224: ID = tv_nsec
+Line 224: ;
+Line 225: Unrecognized token: 35
+Line 225: ID = endif
+Line 226: ID = tmp
+Line 226: Unrecognized token: 46
+Line 226: ID = st_blocks
+Line 226: =
+Line 226: ID = stat
+Line 226: -
+Line 226: >
+Line 226: ID = blocks
+Line 226: ;
+Line 227: ID = tmp
+Line 227: Unrecognized token: 46
+Line 227: ID = st_blksize
+Line 227: =
+Line 227: ID = stat
+Line 227: -
+Line 227: >
+Line 227: ID = blksize
+Line 227: ;
+Line 228: return
+Line 228: ID = copy_to_user
+Line 228: (
+Line 228: ID = statbuf
+Line 228: ,
+Line 228: Unrecognized token: 38
+Line 228: ID = tmp
+Line 228: ,
+Line 228: ID = sizeof
+Line 228: (
+Line 228: ID = tmp
+Line 228: )
+Line 228: )
+Line 228: Unrecognized token: 63
+Line 228: -
+Line 228: ID = EFAULT
+Line 228: Unrecognized token: 58
+Line 228: INTCON = 0
+Line 228: ;
+Line 229: }
+Line 231: ID = asmlinkage
+Line 231: ID = long
+Line 231: ID = sys_newstat
+Line 231: (
+Line 231: char
+Line 231: Unrecognized token: 95
+Line 231: Unrecognized token: 95
+Line 231: ID = user
+Line 231: *
+Line 231: ID = filename
+Line 231: ,
+Line 231: ID = struct
+Line 231: ID = stat
+Line 231: Unrecognized token: 95
+Line 231: Unrecognized token: 95
+Line 231: ID = user
+Line 231: *
+Line 231: ID = statbuf
+Line 231: )
+Line 232: {
+Line 233: ID = struct
+Line 233: ID = kstat
+Line 233: ID = stat
+Line 233: ;
+Line 234: int
+Line 234: ID = error
+Line 234: =
+Line 234: ID = vfs_stat
+Line 234: (
+Line 234: ID = filename
+Line 234: ,
+Line 234: Unrecognized token: 38
+Line 234: ID = stat
+Line 234: )
+Line 234: ;
+Line 236: if
+Line 236: (
+Line 236: !
+Line 236: ID = error
+Line 236: )
+Line 237: ID = error
+Line 237: =
+Line 237: ID = cp_new_stat
+Line 237: (
+Line 237: Unrecognized token: 38
+Line 237: ID = stat
+Line 237: ,
+Line 237: ID = statbuf
+Line 237: )
+Line 237: ;
+Line 239: return
+Line 239: ID = error
+Line 239: ;
+Line 240: }
+Line 241: ID = asmlinkage
+Line 241: ID = long
+Line 241: ID = sys_newlstat
+Line 241: (
+Line 241: char
+Line 241: Unrecognized token: 95
+Line 241: Unrecognized token: 95
+Line 241: ID = user
+Line 241: *
+Line 241: ID = filename
+Line 241: ,
+Line 241: ID = struct
+Line 241: ID = stat
+Line 241: Unrecognized token: 95
+Line 241: Unrecognized token: 95
+Line 241: ID = user
+Line 241: *
+Line 241: ID = statbuf
+Line 241: )
+Line 242: {
+Line 243: ID = struct
+Line 243: ID = kstat
+Line 243: ID = stat
+Line 243: ;
+Line 244: int
+Line 244: ID = error
+Line 244: =
+Line 244: ID = vfs_lstat
+Line 244: (
+Line 244: ID = filename
+Line 244: ,
+Line 244: Unrecognized token: 38
+Line 244: ID = stat
+Line 244: )
+Line 244: ;
+Line 246: if
+Line 246: (
+Line 246: !
+Line 246: ID = error
+Line 246: )
+Line 247: ID = error
+Line 247: =
+Line 247: ID = cp_new_stat
+Line 247: (
+Line 247: Unrecognized token: 38
+Line 247: ID = stat
+Line 247: ,
+Line 247: ID = statbuf
+Line 247: )
+Line 247: ;
+Line 249: return
+Line 249: ID = error
+Line 249: ;
+Line 250: }
+Line 251: ID = asmlinkage
+Line 251: ID = long
+Line 251: ID = sys_newfstat
+Line 251: (
+Line 251: ID = unsigned
+Line 251: int
+Line 251: ID = fd
+Line 251: ,
+Line 251: ID = struct
+Line 251: ID = stat
+Line 251: Unrecognized token: 95
+Line 251: Unrecognized token: 95
+Line 251: ID = user
+Line 251: *
+Line 251: ID = statbuf
+Line 251: )
+Line 252: {
+Line 253: ID = struct
+Line 253: ID = kstat
+Line 253: ID = stat
+Line 253: ;
+Line 254: int
+Line 254: ID = error
+Line 254: =
+Line 254: ID = vfs_fstat
+Line 254: (
+Line 254: ID = fd
+Line 254: ,
+Line 254: Unrecognized token: 38
+Line 254: ID = stat
+Line 254: )
+Line 254: ;
+Line 256: if
+Line 256: (
+Line 256: !
+Line 256: ID = error
+Line 256: )
+Line 257: ID = error
+Line 257: =
+Line 257: ID = cp_new_stat
+Line 257: (
+Line 257: Unrecognized token: 38
+Line 257: ID = stat
+Line 257: ,
+Line 257: ID = statbuf
+Line 257: )
+Line 257: ;
+Line 259: return
+Line 259: ID = error
+Line 259: ;
+Line 260: }
+Line 262: ID = asmlinkage
+Line 262: ID = long
+Line 262: ID = sys_readlink
+Line 262: (
+Line 262: ID = const
+Line 262: char
+Line 262: Unrecognized token: 95
+Line 262: Unrecognized token: 95
+Line 262: ID = user
+Line 262: *
+Line 262: ID = path
+Line 262: ,
+Line 262: char
+Line 262: Unrecognized token: 95
+Line 262: Unrecognized token: 95
+Line 262: ID = user
+Line 262: *
+Line 262: ID = buf
+Line 262: ,
+Line 262: int
+Line 262: ID = bufsiz
+Line 262: )
+Line 263: {
+Line 264: ID = struct
+Line 264: ID = nameidata
+Line 264: ID = nd
+Line 264: ;
+Line 265: int
+Line 265: ID = error
+Line 265: ;
+Line 267: if
+Line 267: (
+Line 267: ID = bufsiz
+Line 267: <=
+Line 267: INTCON = 0
+Line 267: )
+Line 268: return
+Line 268: -
+Line 268: ID = EINVAL
+Line 268: ;
+Line 270: ID = error
+Line 270: =
+Line 270: ID = user_path_walk_link
+Line 270: (
+Line 270: ID = path
+Line 270: ,
+Line 270: Unrecognized token: 38
+Line 270: ID = nd
+Line 270: )
+Line 270: ;
+Line 271: if
+Line 271: (
+Line 271: !
+Line 271: ID = error
+Line 271: )
+Line 271: {
+Line 272: ID = struct
+Line 272: ID = inode
+Line 272: *
+Line 272: ID = inode
+Line 272: =
+Line 272: ID = nd
+Line 272: Unrecognized token: 46
+Line 272: ID = dentry
+Line 272: -
+Line 272: >
+Line 272: ID = d_inode
+Line 272: ;
+Line 274: ID = error
+Line 274: =
+Line 274: -
+Line 274: ID = EINVAL
+Line 274: ;
+Line 275: if
+Line 275: (
+Line 275: ID = inode
+Line 275: -
+Line 275: >
+Line 275: ID = i_op
+Line 275: &&
+Line 275: ID = inode
+Line 275: -
+Line 275: >
+Line 275: ID = i_op
+Line 275: -
+Line 275: >
+Line 275: ID = readlink
+Line 275: )
+Line 275: {
+Line 276: ID = error
+Line 276: =
+Line 276: ID = security_inode_readlink
+Line 276: (
+Line 276: ID = nd
+Line 276: Unrecognized token: 46
+Line 276: ID = dentry
+Line 276: )
+Line 276: ;
+Line 277: if
+Line 277: (
+Line 277: !
+Line 277: ID = error
+Line 277: )
+Line 277: {
+Line 278: ID = touch_atime
+Line 278: (
+Line 278: ID = nd
+Line 278: Unrecognized token: 46
+Line 278: ID = mnt
+Line 278: ,
+Line 278: ID = nd
+Line 278: Unrecognized token: 46
+Line 278: ID = dentry
+Line 278: )
+Line 278: ;
+Line 279: ID = error
+Line 279: =
+Line 279: ID = inode
+Line 279: -
+Line 279: >
+Line 279: ID = i_op
+Line 279: -
+Line 279: >
+Line 279: ID = readlink
+Line 279: (
+Line 279: ID = nd
+Line 279: Unrecognized token: 46
+Line 279: ID = dentry
+Line 279: ,
+Line 279: ID = buf
+Line 279: ,
+Line 279: ID = bufsiz
+Line 279: )
+Line 279: ;
+Line 280: }
+Line 281: }
+Line 282: ID = path_release
+Line 282: (
+Line 282: Unrecognized token: 38
+Line 282: ID = nd
+Line 282: )
+Line 282: ;
+Line 283: }
+Line 284: return
+Line 284: ID = error
+Line 284: ;
+Line 285: }
+Line 289: Unrecognized token: 35
+Line 289: ID = ifdef
+Line 289: Unrecognized token: 95
+Line 289: Unrecognized token: 95
+Line 289: ID = ARCH_WANT_STAT64
+Line 291: ID = static
+Line 291: ID = long
+Line 291: ID = cp_new_stat64
+Line 291: (
+Line 291: ID = struct
+Line 291: ID = kstat
+Line 291: *
+Line 291: ID = stat
+Line 291: ,
+Line 291: ID = struct
+Line 291: ID = stat64
+Line 291: Unrecognized token: 95
+Line 291: Unrecognized token: 95
+Line 291: ID = user
+Line 291: *
+Line 291: ID = statbuf
+Line 291: )
+Line 292: {
+Line 293: ID = struct
+Line 293: ID = stat64
+Line 293: ID = tmp
+Line 293: ;
+Line 295: ID = memset
+Line 295: (
+Line 295: Unrecognized token: 38
+Line 295: ID = tmp
+Line 295: ,
+Line 295: INTCON = 0
+Line 295: ,
+Line 295: ID = sizeof
+Line 295: (
+Line 295: ID = struct
+Line 295: ID = stat64
+Line 295: )
+Line 295: )
+Line 295: ;
+Line 296: Unrecognized token: 35
+Line 296: ID = ifdef
+Line 296: ID = CONFIG_MIPS
+Line 298: if
+Line 298: (
+Line 298: !
+Line 298: ID = new_valid_dev
+Line 298: (
+Line 298: ID = stat
+Line 298: -
+Line 298: >
+Line 298: ID = dev
+Line 298: )
+Line 298: ||
+Line 298: !
+Line 298: ID = new_valid_dev
+Line 298: (
+Line 298: ID = stat
+Line 298: -
+Line 298: >
+Line 298: ID = rdev
+Line 298: )
+Line 298: )
+Line 299: return
+Line 299: -
+Line 299: ID = EOVERFLOW
+Line 299: ;
+Line 300: ID = tmp
+Line 300: Unrecognized token: 46
+Line 300: ID = st_dev
+Line 300: =
+Line 300: ID = new_encode_dev
+Line 300: (
+Line 300: ID = stat
+Line 300: -
+Line 300: >
+Line 300: ID = dev
+Line 300: )
+Line 300: ;
+Line 301: ID = tmp
+Line 301: Unrecognized token: 46
+Line 301: ID = st_rdev
+Line 301: =
+Line 301: ID = new_encode_dev
+Line 301: (
+Line 301: ID = stat
+Line 301: -
+Line 301: >
+Line 301: ID = rdev
+Line 301: )
+Line 301: ;
+Line 302: Unrecognized token: 35
+Line 302: else
+Line 303: ID = tmp
+Line 303: Unrecognized token: 46
+Line 303: ID = st_dev
+Line 303: =
+Line 303: ID = huge_encode_dev
+Line 303: (
+Line 303: ID = stat
+Line 303: -
+Line 303: >
+Line 303: ID = dev
+Line 303: )
+Line 303: ;
+Line 304: ID = tmp
+Line 304: Unrecognized token: 46
+Line 304: ID = st_rdev
+Line 304: =
+Line 304: ID = huge_encode_dev
+Line 304: (
+Line 304: ID = stat
+Line 304: -
+Line 304: >
+Line 304: ID = rdev
+Line 304: )
+Line 304: ;
+Line 305: Unrecognized token: 35
+Line 305: ID = endif
+Line 306: ID = tmp
+Line 306: Unrecognized token: 46
+Line 306: ID = st_ino
+Line 306: =
+Line 306: ID = stat
+Line 306: -
+Line 306: >
+Line 306: ID = ino
+Line 306: ;
+Line 307: Unrecognized token: 35
+Line 307: ID = ifdef
+Line 307: ID = STAT64_HAS_BROKEN_ST_INO
+Line 308: ID = tmp
+Line 308: Unrecognized token: 46
+Line 308: Unrecognized token: 95
+Line 308: Unrecognized token: 95
+Line 308: ID = st_ino
+Line 308: =
+Line 308: ID = stat
+Line 308: -
+Line 308: >
+Line 308: ID = ino
+Line 308: ;
+Line 309: Unrecognized token: 35
+Line 309: ID = endif
+Line 310: ID = tmp
+Line 310: Unrecognized token: 46
+Line 310: ID = st_mode
+Line 310: =
+Line 310: ID = stat
+Line 310: -
+Line 310: >
+Line 310: ID = mode
+Line 310: ;
+Line 311: ID = tmp
+Line 311: Unrecognized token: 46
+Line 311: ID = st_nlink
+Line 311: =
+Line 311: ID = stat
+Line 311: -
+Line 311: >
+Line 311: ID = nlink
+Line 311: ;
+Line 312: ID = tmp
+Line 312: Unrecognized token: 46
+Line 312: ID = st_uid
+Line 312: =
+Line 312: ID = stat
+Line 312: -
+Line 312: >
+Line 312: ID = uid
+Line 312: ;
+Line 313: ID = tmp
+Line 313: Unrecognized token: 46
+Line 313: ID = st_gid
+Line 313: =
+Line 313: ID = stat
+Line 313: -
+Line 313: >
+Line 313: ID = gid
+Line 313: ;
+Line 314: ID = tmp
+Line 314: Unrecognized token: 46
+Line 314: ID = st_atime
+Line 314: =
+Line 314: ID = stat
+Line 314: -
+Line 314: >
+Line 314: ID = atime
+Line 314: Unrecognized token: 46
+Line 314: ID = tv_sec
+Line 314: ;
+Line 315: ID = tmp
+Line 315: Unrecognized token: 46
+Line 315: ID = st_atime_nsec
+Line 315: =
+Line 315: ID = stat
+Line 315: -
+Line 315: >
+Line 315: ID = atime
+Line 315: Unrecognized token: 46
+Line 315: ID = tv_nsec
+Line 315: ;
+Line 316: ID = tmp
+Line 316: Unrecognized token: 46
+Line 316: ID = st_mtime
+Line 316: =
+Line 316: ID = stat
+Line 316: -
+Line 316: >
+Line 316: ID = mtime
+Line 316: Unrecognized token: 46
+Line 316: ID = tv_sec
+Line 316: ;
+Line 317: ID = tmp
+Line 317: Unrecognized token: 46
+Line 317: ID = st_mtime_nsec
+Line 317: =
+Line 317: ID = stat
+Line 317: -
+Line 317: >
+Line 317: ID = mtime
+Line 317: Unrecognized token: 46
+Line 317: ID = tv_nsec
+Line 317: ;
+Line 318: ID = tmp
+Line 318: Unrecognized token: 46
+Line 318: ID = st_ctime
+Line 318: =
+Line 318: ID = stat
+Line 318: -
+Line 318: >
+Line 318: ID = ctime
+Line 318: Unrecognized token: 46
+Line 318: ID = tv_sec
+Line 318: ;
+Line 319: ID = tmp
+Line 319: Unrecognized token: 46
+Line 319: ID = st_ctime_nsec
+Line 319: =
+Line 319: ID = stat
+Line 319: -
+Line 319: >
+Line 319: ID = ctime
+Line 319: Unrecognized token: 46
+Line 319: ID = tv_nsec
+Line 319: ;
+Line 320: ID = tmp
+Line 320: Unrecognized token: 46
+Line 320: ID = st_size
+Line 320: =
+Line 320: ID = stat
+Line 320: -
+Line 320: >
+Line 320: ID = size
+Line 320: ;
+Line 321: ID = tmp
+Line 321: Unrecognized token: 46
+Line 321: ID = st_blocks
+Line 321: =
+Line 321: ID = stat
+Line 321: -
+Line 321: >
+Line 321: ID = blocks
+Line 321: ;
+Line 322: ID = tmp
+Line 322: Unrecognized token: 46
+Line 322: ID = st_blksize
+Line 322: =
+Line 322: ID = stat
+Line 322: -
+Line 322: >
+Line 322: ID = blksize
+Line 322: ;
+Line 323: return
+Line 323: ID = copy_to_user
+Line 323: (
+Line 323: ID = statbuf
+Line 323: ,
+Line 323: Unrecognized token: 38
+Line 323: ID = tmp
+Line 323: ,
+Line 323: ID = sizeof
+Line 323: (
+Line 323: ID = tmp
+Line 323: )
+Line 323: )
+Line 323: Unrecognized token: 63
+Line 323: -
+Line 323: ID = EFAULT
+Line 323: Unrecognized token: 58
+Line 323: INTCON = 0
+Line 323: ;
+Line 324: }
+Line 326: ID = asmlinkage
+Line 326: ID = long
+Line 326: ID = sys_stat64
+Line 326: (
+Line 326: char
+Line 326: Unrecognized token: 95
+Line 326: Unrecognized token: 95
+Line 326: ID = user
+Line 326: *
+Line 326: ID = filename
+Line 326: ,
+Line 326: ID = struct
+Line 326: ID = stat64
+Line 326: Unrecognized token: 95
+Line 326: Unrecognized token: 95
+Line 326: ID = user
+Line 326: *
+Line 326: ID = statbuf
+Line 326: )
+Line 327: {
+Line 328: ID = struct
+Line 328: ID = kstat
+Line 328: ID = stat
+Line 328: ;
+Line 329: int
+Line 329: ID = error
+Line 329: =
+Line 329: ID = vfs_stat
+Line 329: (
+Line 329: ID = filename
+Line 329: ,
+Line 329: Unrecognized token: 38
+Line 329: ID = stat
+Line 329: )
+Line 329: ;
+Line 331: if
+Line 331: (
+Line 331: !
+Line 331: ID = error
+Line 331: )
+Line 332: ID = error
+Line 332: =
+Line 332: ID = cp_new_stat64
+Line 332: (
+Line 332: Unrecognized token: 38
+Line 332: ID = stat
+Line 332: ,
+Line 332: ID = statbuf
+Line 332: )
+Line 332: ;
+Line 334: return
+Line 334: ID = error
+Line 334: ;
+Line 335: }
+Line 336: ID = asmlinkage
+Line 336: ID = long
+Line 336: ID = sys_lstat64
+Line 336: (
+Line 336: char
+Line 336: Unrecognized token: 95
+Line 336: Unrecognized token: 95
+Line 336: ID = user
+Line 336: *
+Line 336: ID = filename
+Line 336: ,
+Line 336: ID = struct
+Line 336: ID = stat64
+Line 336: Unrecognized token: 95
+Line 336: Unrecognized token: 95
+Line 336: ID = user
+Line 336: *
+Line 336: ID = statbuf
+Line 336: )
+Line 337: {
+Line 338: ID = struct
+Line 338: ID = kstat
+Line 338: ID = stat
+Line 338: ;
+Line 339: int
+Line 339: ID = error
+Line 339: =
+Line 339: ID = vfs_lstat
+Line 339: (
+Line 339: ID = filename
+Line 339: ,
+Line 339: Unrecognized token: 38
+Line 339: ID = stat
+Line 339: )
+Line 339: ;
+Line 341: if
+Line 341: (
+Line 341: !
+Line 341: ID = error
+Line 341: )
+Line 342: ID = error
+Line 342: =
+Line 342: ID = cp_new_stat64
+Line 342: (
+Line 342: Unrecognized token: 38
+Line 342: ID = stat
+Line 342: ,
+Line 342: ID = statbuf
+Line 342: )
+Line 342: ;
+Line 344: return
+Line 344: ID = error
+Line 344: ;
+Line 345: }
+Line 346: ID = asmlinkage
+Line 346: ID = long
+Line 346: ID = sys_fstat64
+Line 346: (
+Line 346: ID = unsigned
+Line 346: ID = long
+Line 346: ID = fd
+Line 346: ,
+Line 346: ID = struct
+Line 346: ID = stat64
+Line 346: Unrecognized token: 95
+Line 346: Unrecognized token: 95
+Line 346: ID = user
+Line 346: *
+Line 346: ID = statbuf
+Line 346: )
+Line 347: {
+Line 348: ID = struct
+Line 348: ID = kstat
+Line 348: ID = stat
+Line 348: ;
+Line 349: int
+Line 349: ID = error
+Line 349: =
+Line 349: ID = vfs_fstat
+Line 349: (
+Line 349: ID = fd
+Line 349: ,
+Line 349: Unrecognized token: 38
+Line 349: ID = stat
+Line 349: )
+Line 349: ;
+Line 351: if
+Line 351: (
+Line 351: !
+Line 351: ID = error
+Line 351: )
+Line 352: ID = error
+Line 352: =
+Line 352: ID = cp_new_stat64
+Line 352: (
+Line 352: Unrecognized token: 38
+Line 352: ID = stat
+Line 352: ,
+Line 352: ID = statbuf
+Line 352: )
+Line 352: ;
+Line 354: return
+Line 354: ID = error
+Line 354: ;
+Line 355: }
+Line 357: Unrecognized token: 35
+Line 357: ID = endif
+Line 359: void
+Line 359: ID = inode_add_bytes
+Line 359: (
+Line 359: ID = struct
+Line 359: ID = inode
+Line 359: *
+Line 359: ID = inode
+Line 359: ,
+Line 359: ID = loff_t
+Line 359: ID = bytes
+Line 359: )
+Line 360: {
+Line 361: ID = spin_lock
+Line 361: (
+Line 361: Unrecognized token: 38
+Line 361: ID = inode
+Line 361: -
+Line 361: >
+Line 361: ID = i_lock
+Line 361: )
+Line 361: ;
+Line 362: ID = inode
+Line 362: -
+Line 362: >
+Line 362: ID = i_blocks
+Line 362: +
+Line 362: =
+Line 362: ID = bytes
+Line 362: >
+Line 362: >
+Line 362: INTCON = 9
+Line 362: ;
+Line 363: ID = bytes
+Line 363: Unrecognized token: 38
+Line 363: =
+Line 363: INTCON = 511
+Line 363: ;
+Line 364: ID = inode
+Line 364: -
+Line 364: >
+Line 364: ID = i_bytes
+Line 364: +
+Line 364: =
+Line 364: ID = bytes
+Line 364: ;
+Line 365: if
+Line 365: (
+Line 365: ID = inode
+Line 365: -
+Line 365: >
+Line 365: ID = i_bytes
+Line 365: >=
+Line 365: INTCON = 512
+Line 365: )
+Line 365: {
+Line 366: ID = inode
+Line 366: -
+Line 366: >
+Line 366: ID = i_blocks
+Line 366: +
+Line 366: +
+Line 366: ;
+Line 367: ID = inode
+Line 367: -
+Line 367: >
+Line 367: ID = i_bytes
+Line 367: -
+Line 367: =
+Line 367: INTCON = 512
+Line 367: ;
+Line 368: }
+Line 369: ID = spin_unlock
+Line 369: (
+Line 369: Unrecognized token: 38
+Line 369: ID = inode
+Line 369: -
+Line 369: >
+Line 369: ID = i_lock
+Line 369: )
+Line 369: ;
+Line 370: }
+Line 372: ID = EXPORT_SYMBOL
+Line 372: (
+Line 372: ID = inode_add_bytes
+Line 372: )
+Line 372: ;
+Line 374: void
+Line 374: ID = inode_sub_bytes
+Line 374: (
+Line 374: ID = struct
+Line 374: ID = inode
+Line 374: *
+Line 374: ID = inode
+Line 374: ,
+Line 374: ID = loff_t
+Line 374: ID = bytes
+Line 374: )
+Line 375: {
+Line 376: ID = spin_lock
+Line 376: (
+Line 376: Unrecognized token: 38
+Line 376: ID = inode
+Line 376: -
+Line 376: >
+Line 376: ID = i_lock
+Line 376: )
+Line 376: ;
+Line 377: ID = inode
+Line 377: -
+Line 377: >
+Line 377: ID = i_blocks
+Line 377: -
+Line 377: =
+Line 377: ID = bytes
+Line 377: >
+Line 377: >
+Line 377: INTCON = 9
+Line 377: ;
+Line 378: ID = bytes
+Line 378: Unrecognized token: 38
+Line 378: =
+Line 378: INTCON = 511
+Line 378: ;
+Line 379: if
+Line 379: (
+Line 379: ID = inode
+Line 379: -
+Line 379: >
+Line 379: ID = i_bytes
+Line 379: <
+Line 379: ID = bytes
+Line 379: )
+Line 379: {
+Line 380: ID = inode
+Line 380: -
+Line 380: >
+Line 380: ID = i_blocks
+Line 380: -
+Line 380: -
+Line 380: ;
+Line 381: ID = inode
+Line 381: -
+Line 381: >
+Line 381: ID = i_bytes
+Line 381: +
+Line 381: =
+Line 381: INTCON = 512
+Line 381: ;
+Line 382: }
+Line 383: ID = inode
+Line 383: -
+Line 383: >
+Line 383: ID = i_bytes
+Line 383: -
+Line 383: =
+Line 383: ID = bytes
+Line 383: ;
+Line 384: ID = spin_unlock
+Line 384: (
+Line 384: Unrecognized token: 38
+Line 384: ID = inode
+Line 384: -
+Line 384: >
+Line 384: ID = i_lock
+Line 384: )
+Line 384: ;
+Line 385: }
+Line 387: ID = EXPORT_SYMBOL
+Line 387: (
+Line 387: ID = inode_sub_bytes
+Line 387: )
+Line 387: ;
+Line 389: ID = loff_t
+Line 389: ID = inode_get_bytes
+Line 389: (
+Line 389: ID = struct
+Line 389: ID = inode
+Line 389: *
+Line 389: ID = inode
+Line 389: )
+Line 390: {
+Line 391: ID = loff_t
+Line 391: ID = ret
+Line 391: ;
+Line 393: ID = spin_lock
+Line 393: (
+Line 393: Unrecognized token: 38
+Line 393: ID = inode
+Line 393: -
+Line 393: >
+Line 393: ID = i_lock
+Line 393: )
+Line 393: ;
+Line 394: ID = ret
+Line 394: =
+Line 394: (
+Line 394: (
+Line 394: (
+Line 394: ID = loff_t
+Line 394: )
+Line 394: ID = inode
+Line 394: -
+Line 394: >
+Line 394: ID = i_blocks
+Line 394: )
+Line 394: <
+Line 394: <
+Line 394: INTCON = 9
+Line 394: )
+Line 394: +
+Line 394: ID = inode
+Line 394: -
+Line 394: >
+Line 394: ID = i_bytes
+Line 394: ;
+Line 395: ID = spin_unlock
+Line 395: (
+Line 395: Unrecognized token: 38
+Line 395: ID = inode
+Line 395: -
+Line 395: >
+Line 395: ID = i_lock
+Line 395: )
+Line 395: ;
+Line 396: return
+Line 396: ID = ret
+Line 396: ;
+Line 397: }
+Line 399: ID = EXPORT_SYMBOL
+Line 399: (
+Line 399: ID = inode_get_bytes
+Line 399: )
+Line 399: ;
+Line 401: void
+Line 401: ID = inode_set_bytes
+Line 401: (
+Line 401: ID = struct
+Line 401: ID = inode
+Line 401: *
+Line 401: ID = inode
+Line 401: ,
+Line 401: ID = loff_t
+Line 401: ID = bytes
+Line 401: )
+Line 402: {
+Line 405: ID = inode
+Line 405: -
+Line 405: >
+Line 405: ID = i_blocks
+Line 405: =
+Line 405: ID = bytes
+Line 405: >
+Line 405: >
+Line 405: INTCON = 9
+Line 405: ;
+Line 406: ID = inode
+Line 406: -
+Line 406: >
+Line 406: ID = i_bytes
+Line 406: =
+Line 406: ID = bytes
+Line 406: Unrecognized token: 38
+Line 406: INTCON = 511
+Line 406: ;
+Line 407: }
+Line 409: ID = EXPORT_SYMBOL
+Line 409: (
+Line 409: ID = inode_set_bytes
+Line 409: )
+Line 409: ;
+Line 410: -EOF-

@@ -1,0 +1,1 @@
+extern bob(int a, void, int c);

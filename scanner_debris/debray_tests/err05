@@ -1,0 +1,4 @@
+/* malformed string constants 2 */
+"x
+  yz"
+"""

@@ -1,0 +1,767 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = sched
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = kthread
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = completion
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = err
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = unistd
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = linux
+Line 13: /
+Line 13: ID = file
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = linux
+Line 14: /
+Line 14: ID = module
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 15: Unrecognized token: 35
+Line 15: ID = include
+Line 15: <
+Line 15: ID = asm
+Line 15: /
+Line 15: ID = semaphore
+Line 15: Unrecognized token: 46
+Line 15: ID = h
+Line 15: >
+Line 17: ID = struct
+Line 17: ID = kthread_create_info
+Line 18: {
+Line 20: int
+Line 20: (
+Line 20: *
+Line 20: ID = threadfn
+Line 20: )
+Line 20: (
+Line 20: void
+Line 20: *
+Line 20: ID = data
+Line 20: )
+Line 20: ;
+Line 21: void
+Line 21: *
+Line 21: ID = data
+Line 21: ;
+Line 22: ID = struct
+Line 22: ID = completion
+Line 22: ID = started
+Line 22: ;
+Line 25: ID = struct
+Line 25: ID = task_struct
+Line 25: *
+Line 25: ID = result
+Line 25: ;
+Line 26: ID = struct
+Line 26: ID = completion
+Line 26: ID = done
+Line 26: ;
+Line 27: }
+Line 27: ;
+Line 29: ID = struct
+Line 29: ID = kthread_stop_info
+Line 30: {
+Line 31: ID = struct
+Line 31: ID = task_struct
+Line 31: *
+Line 31: ID = k
+Line 31: ;
+Line 32: int
+Line 32: ID = err
+Line 32: ;
+Line 33: ID = struct
+Line 33: ID = completion
+Line 33: ID = done
+Line 33: ;
+Line 34: }
+Line 34: ;
+Line 38: ID = static
+Line 38: ID = DECLARE_MUTEX
+Line 38: (
+Line 38: ID = kthread_stop_lock
+Line 38: )
+Line 38: ;
+Line 39: ID = static
+Line 39: ID = struct
+Line 39: ID = kthread_stop_info
+Line 39: ID = kthread_stop_info
+Line 39: ;
+Line 41: int
+Line 41: ID = kthread_should_stop
+Line 41: (
+Line 41: void
+Line 41: )
+Line 42: {
+Line 43: return
+Line 43: (
+Line 43: ID = kthread_stop_info
+Line 43: Unrecognized token: 46
+Line 43: ID = k
+Line 43: ==
+Line 43: ID = current
+Line 43: )
+Line 43: ;
+Line 44: }
+Line 45: ID = EXPORT_SYMBOL
+Line 45: (
+Line 45: ID = kthread_should_stop
+Line 45: )
+Line 45: ;
+Line 47: ID = static
+Line 47: void
+Line 47: ID = kthread_exit_files
+Line 47: (
+Line 47: void
+Line 47: )
+Line 48: {
+Line 49: ID = struct
+Line 49: ID = fs_struct
+Line 49: *
+Line 49: ID = fs
+Line 49: ;
+Line 50: ID = struct
+Line 50: ID = task_struct
+Line 50: *
+Line 50: ID = tsk
+Line 50: =
+Line 50: ID = current
+Line 50: ;
+Line 52: ID = exit_fs
+Line 52: (
+Line 52: ID = tsk
+Line 52: )
+Line 52: ;
+Line 53: ID = fs
+Line 53: =
+Line 53: ID = init_task
+Line 53: Unrecognized token: 46
+Line 53: ID = fs
+Line 53: ;
+Line 54: ID = tsk
+Line 54: -
+Line 54: >
+Line 54: ID = fs
+Line 54: =
+Line 54: ID = fs
+Line 54: ;
+Line 55: ID = atomic_inc
+Line 55: (
+Line 55: Unrecognized token: 38
+Line 55: ID = fs
+Line 55: -
+Line 55: >
+Line 55: ID = count
+Line 55: )
+Line 55: ;
+Line 56: ID = exit_files
+Line 56: (
+Line 56: ID = tsk
+Line 56: )
+Line 56: ;
+Line 57: ID = current
+Line 57: -
+Line 57: >
+Line 57: ID = files
+Line 57: =
+Line 57: ID = init_task
+Line 57: Unrecognized token: 46
+Line 57: ID = files
+Line 57: ;
+Line 58: ID = atomic_inc
+Line 58: (
+Line 58: Unrecognized token: 38
+Line 58: ID = tsk
+Line 58: -
+Line 58: >
+Line 58: ID = files
+Line 58: -
+Line 58: >
+Line 58: ID = count
+Line 58: )
+Line 58: ;
+Line 59: }
+Line 61: ID = static
+Line 61: int
+Line 61: ID = kthread
+Line 61: (
+Line 61: void
+Line 61: *
+Line 61: Unrecognized token: 95
+Line 61: ID = create
+Line 61: )
+Line 62: {
+Line 63: ID = struct
+Line 63: ID = kthread_create_info
+Line 63: *
+Line 63: ID = create
+Line 63: =
+Line 63: Unrecognized token: 95
+Line 63: ID = create
+Line 63: ;
+Line 64: int
+Line 64: (
+Line 64: *
+Line 64: ID = threadfn
+Line 64: )
+Line 64: (
+Line 64: void
+Line 64: *
+Line 64: ID = data
+Line 64: )
+Line 64: ;
+Line 65: void
+Line 65: *
+Line 65: ID = data
+Line 65: ;
+Line 66: ID = sigset_t
+Line 66: ID = blocked
+Line 66: ;
+Line 67: int
+Line 67: ID = ret
+Line 67: =
+Line 67: -
+Line 67: ID = EINTR
+Line 67: ;
+Line 69: ID = kthread_exit_files
+Line 69: (
+Line 69: )
+Line 69: ;
+Line 72: ID = threadfn
+Line 72: =
+Line 72: ID = create
+Line 72: -
+Line 72: >
+Line 72: ID = threadfn
+Line 72: ;
+Line 73: ID = data
+Line 73: =
+Line 73: ID = create
+Line 73: -
+Line 73: >
+Line 73: ID = data
+Line 73: ;
+Line 76: ID = sigfillset
+Line 76: (
+Line 76: Unrecognized token: 38
+Line 76: ID = blocked
+Line 76: )
+Line 76: ;
+Line 77: ID = sigprocmask
+Line 77: (
+Line 77: ID = SIG_BLOCK
+Line 77: ,
+Line 77: Unrecognized token: 38
+Line 77: ID = blocked
+Line 77: ,
+Line 77: ID = NULL
+Line 77: )
+Line 77: ;
+Line 78: ID = flush_signals
+Line 78: (
+Line 78: ID = current
+Line 78: )
+Line 78: ;
+Line 81: ID = set_cpus_allowed
+Line 81: (
+Line 81: ID = current
+Line 81: ,
+Line 81: ID = CPU_MASK_ALL
+Line 81: )
+Line 81: ;
+Line 84: Unrecognized token: 95
+Line 84: Unrecognized token: 95
+Line 84: ID = set_current_state
+Line 84: (
+Line 84: ID = TASK_INTERRUPTIBLE
+Line 84: )
+Line 84: ;
+Line 85: ID = complete
+Line 85: (
+Line 85: Unrecognized token: 38
+Line 85: ID = create
+Line 85: -
+Line 85: >
+Line 85: ID = started
+Line 85: )
+Line 85: ;
+Line 86: ID = schedule
+Line 86: (
+Line 86: )
+Line 86: ;
+Line 88: if
+Line 88: (
+Line 88: !
+Line 88: ID = kthread_should_stop
+Line 88: (
+Line 88: )
+Line 88: )
+Line 89: ID = ret
+Line 89: =
+Line 89: ID = threadfn
+Line 89: (
+Line 89: ID = data
+Line 89: )
+Line 89: ;
+Line 92: if
+Line 92: (
+Line 92: ID = kthread_should_stop
+Line 92: (
+Line 92: )
+Line 92: )
+Line 92: {
+Line 93: ID = kthread_stop_info
+Line 93: Unrecognized token: 46
+Line 93: ID = err
+Line 93: =
+Line 93: ID = ret
+Line 93: ;
+Line 94: ID = complete
+Line 94: (
+Line 94: Unrecognized token: 38
+Line 94: ID = kthread_stop_info
+Line 94: Unrecognized token: 46
+Line 94: ID = done
+Line 94: )
+Line 94: ;
+Line 95: }
+Line 96: return
+Line 96: INTCON = 0
+Line 96: ;
+Line 97: }
+Line 100: ID = static
+Line 100: void
+Line 100: ID = keventd_create_kthread
+Line 100: (
+Line 100: void
+Line 100: *
+Line 100: Unrecognized token: 95
+Line 100: ID = create
+Line 100: )
+Line 101: {
+Line 102: ID = struct
+Line 102: ID = kthread_create_info
+Line 102: *
+Line 102: ID = create
+Line 102: =
+Line 102: Unrecognized token: 95
+Line 102: ID = create
+Line 102: ;
+Line 103: int
+Line 103: ID = pid
+Line 103: ;
+Line 106: ID = pid
+Line 106: =
+Line 106: ID = kernel_thread
+Line 106: (
+Line 106: ID = kthread
+Line 106: ,
+Line 106: ID = create
+Line 106: ,
+Line 106: ID = CLONE_FS
+Line 106: Unrecognized token: 124
+Line 106: ID = CLONE_FILES
+Line 106: Unrecognized token: 124
+Line 106: ID = SIGCHLD
+Line 106: )
+Line 106: ;
+Line 107: if
+Line 107: (
+Line 107: ID = pid
+Line 107: <
+Line 107: INTCON = 0
+Line 107: )
+Line 107: {
+Line 108: ID = create
+Line 108: -
+Line 108: >
+Line 108: ID = result
+Line 108: =
+Line 108: ID = ERR_PTR
+Line 108: (
+Line 108: ID = pid
+Line 108: )
+Line 108: ;
+Line 109: }
+Line 109: else
+Line 109: {
+Line 110: ID = wait_for_completion
+Line 110: (
+Line 110: Unrecognized token: 38
+Line 110: ID = create
+Line 110: -
+Line 110: >
+Line 110: ID = started
+Line 110: )
+Line 110: ;
+Line 111: ID = create
+Line 111: -
+Line 111: >
+Line 111: ID = result
+Line 111: =
+Line 111: ID = find_task_by_pid
+Line 111: (
+Line 111: ID = pid
+Line 111: )
+Line 111: ;
+Line 112: }
+Line 113: ID = complete
+Line 113: (
+Line 113: Unrecognized token: 38
+Line 113: ID = create
+Line 113: -
+Line 113: >
+Line 113: ID = done
+Line 113: )
+Line 113: ;
+Line 114: }
+Line 116: ID = struct
+Line 116: ID = task_struct
+Line 116: *
+Line 116: ID = kthread_create
+Line 116: (
+Line 116: int
+Line 116: (
+Line 116: *
+Line 116: ID = threadfn
+Line 116: )
+Line 116: (
+Line 116: void
+Line 116: *
+Line 116: ID = data
+Line 116: )
+Line 116: ,
+Line 117: void
+Line 117: *
+Line 117: ID = data
+Line 117: ,
+Line 118: ID = const
+Line 118: char
+Line 118: ID = namefmt
+Line 118: [
+Line 118: ]
+Line 118: ,
+Line 119: Unrecognized token: 46
+Line 119: Unrecognized token: 46
+Line 119: Unrecognized token: 46
+Line 119: )
+Line 120: {
+Line 121: ID = struct
+Line 121: ID = kthread_create_info
+Line 121: ID = create
+Line 121: ;
+Line 122: ID = DECLARE_WORK
+Line 122: (
+Line 122: ID = work
+Line 122: ,
+Line 122: ID = keventd_create_kthread
+Line 122: ,
+Line 122: Unrecognized token: 38
+Line 122: ID = create
+Line 122: )
+Line 122: ;
+Line 124: ID = create
+Line 124: Unrecognized token: 46
+Line 124: ID = threadfn
+Line 124: =
+Line 124: ID = threadfn
+Line 124: ;
+Line 125: ID = create
+Line 125: Unrecognized token: 46
+Line 125: ID = data
+Line 125: =
+Line 125: ID = data
+Line 125: ;
+Line 126: ID = init_completion
+Line 126: (
+Line 126: Unrecognized token: 38
+Line 126: ID = create
+Line 126: Unrecognized token: 46
+Line 126: ID = started
+Line 126: )
+Line 126: ;
+Line 127: ID = init_completion
+Line 127: (
+Line 127: Unrecognized token: 38
+Line 127: ID = create
+Line 127: Unrecognized token: 46
+Line 127: ID = done
+Line 127: )
+Line 127: ;
+Line 131: if
+Line 131: (
+Line 131: !
+Line 131: ID = keventd_up
+Line 131: (
+Line 131: )
+Line 131: )
+Line 132: ID = work
+Line 132: Unrecognized token: 46
+Line 132: ID = func
+Line 132: (
+Line 132: ID = work
+Line 132: Unrecognized token: 46
+Line 132: ID = data
+Line 132: )
+Line 132: ;
+Line 133: else
+Line 133: {
+Line 134: ID = schedule_work
+Line 134: (
+Line 134: Unrecognized token: 38
+Line 134: ID = work
+Line 134: )
+Line 134: ;
+Line 135: ID = wait_for_completion
+Line 135: (
+Line 135: Unrecognized token: 38
+Line 135: ID = create
+Line 135: Unrecognized token: 46
+Line 135: ID = done
+Line 135: )
+Line 135: ;
+Line 136: }
+Line 137: if
+Line 137: (
+Line 137: !
+Line 137: ID = IS_ERR
+Line 137: (
+Line 137: ID = create
+Line 137: Unrecognized token: 46
+Line 137: ID = result
+Line 137: )
+Line 137: )
+Line 137: {
+Line 138: ID = va_list
+Line 138: ID = args
+Line 138: ;
+Line 139: ID = va_start
+Line 139: (
+Line 139: ID = args
+Line 139: ,
+Line 139: ID = namefmt
+Line 139: )
+Line 139: ;
+Line 140: ID = vsnprintf
+Line 140: (
+Line 140: ID = create
+Line 140: Unrecognized token: 46
+Line 140: ID = result
+Line 140: -
+Line 140: >
+Line 140: ID = comm
+Line 140: ,
+Line 140: ID = sizeof
+Line 140: (
+Line 140: ID = create
+Line 140: Unrecognized token: 46
+Line 140: ID = result
+Line 140: -
+Line 140: >
+Line 140: ID = comm
+Line 140: )
+Line 140: ,
+Line 141: ID = namefmt
+Line 141: ,
+Line 141: ID = args
+Line 141: )
+Line 141: ;
+Line 142: ID = va_end
+Line 142: (
+Line 142: ID = args
+Line 142: )
+Line 142: ;
+Line 143: }
+Line 145: return
+Line 145: ID = create
+Line 145: Unrecognized token: 46
+Line 145: ID = result
+Line 145: ;
+Line 146: }
+Line 147: ID = EXPORT_SYMBOL
+Line 147: (
+Line 147: ID = kthread_create
+Line 147: )
+Line 147: ;
+Line 149: void
+Line 149: ID = kthread_bind
+Line 149: (
+Line 149: ID = struct
+Line 149: ID = task_struct
+Line 149: *
+Line 149: ID = k
+Line 149: ,
+Line 149: ID = unsigned
+Line 149: int
+Line 149: ID = cpu
+Line 149: )
+Line 150: {
+Line 151: ID = BUG_ON
+Line 151: (
+Line 151: ID = k
+Line 151: -
+Line 151: >
+Line 151: ID = state
+Line 151: !=
+Line 151: ID = TASK_INTERRUPTIBLE
+Line 151: )
+Line 151: ;
+Line 153: ID = wait_task_inactive
+Line 153: (
+Line 153: ID = k
+Line 153: )
+Line 153: ;
+Line 154: ID = set_task_cpu
+Line 154: (
+Line 154: ID = k
+Line 154: ,
+Line 154: ID = cpu
+Line 154: )
+Line 154: ;
+Line 155: ID = k
+Line 155: -
+Line 155: >
+Line 155: ID = cpus_allowed
+Line 155: =
+Line 155: ID = cpumask_of_cpu
+Line 155: (
+Line 155: ID = cpu
+Line 155: )
+Line 155: ;
+Line 156: }
+Line 157: ID = EXPORT_SYMBOL
+Line 157: (
+Line 157: ID = kthread_bind
+Line 157: )
+Line 157: ;
+Line 159: int
+Line 159: ID = kthread_stop
+Line 159: (
+Line 159: ID = struct
+Line 159: ID = task_struct
+Line 159: *
+Line 159: ID = k
+Line 159: )
+Line 160: {
+Line 161: int
+Line 161: ID = ret
+Line 161: ;
+Line 163: ID = down
+Line 163: (
+Line 163: Unrecognized token: 38
+Line 163: ID = kthread_stop_lock
+Line 163: )
+Line 163: ;
+Line 166: ID = get_task_struct
+Line 166: (
+Line 166: ID = k
+Line 166: )
+Line 166: ;
+Line 169: ID = init_completion
+Line 169: (
+Line 169: Unrecognized token: 38
+Line 169: ID = kthread_stop_info
+Line 169: Unrecognized token: 46
+Line 169: ID = done
+Line 169: )
+Line 169: ;
+Line 170: ID = wmb
+Line 170: (
+Line 170: )
+Line 170: ;
+Line 173: ID = kthread_stop_info
+Line 173: Unrecognized token: 46
+Line 173: ID = k
+Line 173: =
+Line 173: ID = k
+Line 173: ;
+Line 174: ID = wake_up_process
+Line 174: (
+Line 174: ID = k
+Line 174: )
+Line 174: ;
+Line 175: ID = put_task_struct
+Line 175: (
+Line 175: ID = k
+Line 175: )
+Line 175: ;
+Line 178: ID = wait_for_completion
+Line 178: (
+Line 178: Unrecognized token: 38
+Line 178: ID = kthread_stop_info
+Line 178: Unrecognized token: 46
+Line 178: ID = done
+Line 178: )
+Line 178: ;
+Line 179: ID = kthread_stop_info
+Line 179: Unrecognized token: 46
+Line 179: ID = k
+Line 179: =
+Line 179: ID = NULL
+Line 179: ;
+Line 180: ID = ret
+Line 180: =
+Line 180: ID = kthread_stop_info
+Line 180: Unrecognized token: 46
+Line 180: ID = err
+Line 180: ;
+Line 181: ID = up
+Line 181: (
+Line 181: Unrecognized token: 38
+Line 181: ID = kthread_stop_lock
+Line 181: )
+Line 181: ;
+Line 183: return
+Line 183: ID = ret
+Line 183: ;
+Line 184: }
+Line 185: ID = EXPORT_SYMBOL
+Line 185: (
+Line 185: ID = kthread_stop
+Line 185: )
+Line 185: ;
+Line 186: -EOF-

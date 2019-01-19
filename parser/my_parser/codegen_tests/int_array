@@ -1,0 +1,52 @@
+extern void print_int(int x);
+extern void print_string(char x[]);
+
+int a[10];
+
+void modifier(int x[], int i)
+{
+    int index;
+    int value;
+
+    index = 0;
+    value = 10;
+
+    while (index < i)
+    {
+        print_string("Setting ");
+        print_int(index);
+        print_string(" == ");
+        x[index] = value + index;
+        print_int(x[index]);
+        print_string("\n");
+
+        index = index + 1;
+    }
+}
+
+void main (void)
+{
+    int index, i;
+
+    print_string("BEGIN\n");
+
+    index = 0;
+    i = 10;
+
+
+    for ( ; index < i; index = index + 1)
+    {
+        a[index] = 0;
+    }
+
+    modifier(a, i);
+
+    for ( index = 0; index < i; index = index + 1)
+    {
+        print_int(index);
+        print_string(" == ");
+        print_int(a[index]);        
+        print_string("\n");
+    }
+    print_string("DONE\n");
+}

@@ -1,0 +1,4685 @@
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = kernel
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = module
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = types
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = fs
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = mm
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = slab
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = highmem
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = pagemap
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 30: Unrecognized token: 35
+Line 30: ID = include
+Line 30: <
+Line 30: ID = linux
+Line 30: /
+Line 30: ID = bio
+Line 30: Unrecognized token: 46
+Line 30: ID = h
+Line 30: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = linux
+Line 31: /
+Line 31: ID = wait
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 32: Unrecognized token: 35
+Line 32: ID = include
+Line 32: <
+Line 32: ID = linux
+Line 32: /
+Line 32: ID = err
+Line 32: Unrecognized token: 46
+Line 32: ID = h
+Line 32: >
+Line 33: Unrecognized token: 35
+Line 33: ID = include
+Line 33: <
+Line 33: ID = linux
+Line 33: /
+Line 33: ID = blkdev
+Line 33: Unrecognized token: 46
+Line 33: ID = h
+Line 33: >
+Line 34: Unrecognized token: 35
+Line 34: ID = include
+Line 34: <
+Line 34: ID = linux
+Line 34: /
+Line 34: ID = buffer_head
+Line 34: Unrecognized token: 46
+Line 34: ID = h
+Line 34: >
+Line 35: Unrecognized token: 35
+Line 35: ID = include
+Line 35: <
+Line 35: ID = linux
+Line 35: /
+Line 35: ID = rwsem
+Line 35: Unrecognized token: 46
+Line 35: ID = h
+Line 35: >
+Line 36: Unrecognized token: 35
+Line 36: ID = include
+Line 36: <
+Line 36: ID = linux
+Line 36: /
+Line 36: ID = uio
+Line 36: Unrecognized token: 46
+Line 36: ID = h
+Line 36: >
+Line 37: Unrecognized token: 35
+Line 37: ID = include
+Line 37: <
+Line 37: ID = asm
+Line 37: /
+Line 37: ID = atomic
+Line 37: Unrecognized token: 46
+Line 37: ID = h
+Line 37: >
+Line 43: Unrecognized token: 35
+Line 43: ID = define
+Line 43: ID = DIO_PAGES
+Line 43: INTCON = 64
+Line 61: ID = struct
+Line 61: ID = dio
+Line 61: {
+Line 63: ID = struct
+Line 63: ID = bio
+Line 63: *
+Line 63: ID = bio
+Line 63: ;
+Line 64: ID = struct
+Line 64: ID = inode
+Line 64: *
+Line 64: ID = inode
+Line 64: ;
+Line 65: int
+Line 65: ID = rw
+Line 65: ;
+Line 66: int
+Line 66: ID = needs_locking
+Line 66: ;
+Line 67: ID = unsigned
+Line 67: ID = blkbits
+Line 67: ;
+Line 68: ID = unsigned
+Line 68: ID = blkfactor
+Line 68: ;
+Line 73: ID = unsigned
+Line 73: ID = start_zero_done
+Line 73: ;
+Line 76: int
+Line 76: ID = pages_in_io
+Line 76: ;
+Line 77: ID = size_t
+Line 77: ID = size
+Line 77: ;
+Line 78: ID = sector_t
+Line 78: ID = block_in_file
+Line 78: ;
+Line 80: ID = unsigned
+Line 80: ID = blocks_available
+Line 80: ;
+Line 81: ID = sector_t
+Line 81: ID = final_block_in_request
+Line 81: ;
+Line 82: ID = unsigned
+Line 82: ID = first_block_in_page
+Line 82: ;
+Line 83: int
+Line 83: ID = boundary
+Line 83: ;
+Line 84: int
+Line 84: ID = reap_counter
+Line 84: ;
+Line 85: ID = get_blocks_t
+Line 85: *
+Line 85: ID = get_blocks
+Line 85: ;
+Line 86: ID = dio_iodone_t
+Line 86: *
+Line 86: ID = end_io
+Line 86: ;
+Line 87: ID = sector_t
+Line 87: ID = final_block_in_bio
+Line 87: ;
+Line 88: ID = sector_t
+Line 88: ID = next_block_for_io
+Line 88: ;
+Line 90: ID = struct
+Line 90: ID = buffer_head
+Line 90: ID = map_bh
+Line 90: ;
+Line 97: ID = struct
+Line 97: ID = page
+Line 97: *
+Line 97: ID = cur_page
+Line 97: ;
+Line 98: ID = unsigned
+Line 98: ID = cur_page_offset
+Line 98: ;
+Line 99: ID = unsigned
+Line 99: ID = cur_page_len
+Line 99: ;
+Line 100: ID = sector_t
+Line 100: ID = cur_page_block
+Line 100: ;
+Line 105: int
+Line 105: ID = curr_page
+Line 105: ;
+Line 106: int
+Line 106: ID = total_pages
+Line 106: ;
+Line 107: ID = unsigned
+Line 107: ID = long
+Line 107: ID = curr_user_address
+Line 107: ;
+Line 113: ID = struct
+Line 113: ID = page
+Line 113: *
+Line 113: ID = pages
+Line 113: [
+Line 113: ID = DIO_PAGES
+Line 113: ]
+Line 113: ;
+Line 114: ID = unsigned
+Line 114: ID = head
+Line 114: ;
+Line 115: ID = unsigned
+Line 115: ID = tail
+Line 115: ;
+Line 116: int
+Line 116: ID = page_errors
+Line 116: ;
+Line 119: ID = spinlock_t
+Line 119: ID = bio_lock
+Line 119: ;
+Line 120: int
+Line 120: ID = bio_count
+Line 120: ;
+Line 121: int
+Line 121: ID = bios_in_flight
+Line 121: ;
+Line 122: ID = struct
+Line 122: ID = bio
+Line 122: *
+Line 122: ID = bio_list
+Line 122: ;
+Line 123: ID = struct
+Line 123: ID = task_struct
+Line 123: *
+Line 123: ID = waiter
+Line 123: ;
+Line 126: ID = struct
+Line 126: ID = kiocb
+Line 126: *
+Line 126: ID = iocb
+Line 126: ;
+Line 127: int
+Line 127: ID = is_async
+Line 127: ;
+Line 128: ID = ssize_t
+Line 128: ID = result
+Line 128: ;
+Line 129: }
+Line 129: ;
+Line 134: ID = static
+Line 134: ID = inline
+Line 134: ID = unsigned
+Line 134: ID = dio_pages_present
+Line 134: (
+Line 134: ID = struct
+Line 134: ID = dio
+Line 134: *
+Line 134: ID = dio
+Line 134: )
+Line 135: {
+Line 136: return
+Line 136: ID = dio
+Line 136: -
+Line 136: >
+Line 136: ID = tail
+Line 136: -
+Line 136: ID = dio
+Line 136: -
+Line 136: >
+Line 136: ID = head
+Line 136: ;
+Line 137: }
+Line 142: ID = static
+Line 142: int
+Line 142: ID = dio_refill_pages
+Line 142: (
+Line 142: ID = struct
+Line 142: ID = dio
+Line 142: *
+Line 142: ID = dio
+Line 142: )
+Line 143: {
+Line 144: int
+Line 144: ID = ret
+Line 144: ;
+Line 145: int
+Line 145: ID = nr_pages
+Line 145: ;
+Line 147: ID = nr_pages
+Line 147: =
+Line 147: ID = min
+Line 147: (
+Line 147: ID = dio
+Line 147: -
+Line 147: >
+Line 147: ID = total_pages
+Line 147: -
+Line 147: ID = dio
+Line 147: -
+Line 147: >
+Line 147: ID = curr_page
+Line 147: ,
+Line 147: ID = DIO_PAGES
+Line 147: )
+Line 147: ;
+Line 148: ID = down_read
+Line 148: (
+Line 148: Unrecognized token: 38
+Line 148: ID = current
+Line 148: -
+Line 148: >
+Line 148: ID = mm
+Line 148: -
+Line 148: >
+Line 148: ID = mmap_sem
+Line 148: )
+Line 148: ;
+Line 149: ID = ret
+Line 149: =
+Line 149: ID = get_user_pages
+Line 149: (
+Line 150: ID = current
+Line 150: ,
+Line 151: ID = current
+Line 151: -
+Line 151: >
+Line 151: ID = mm
+Line 151: ,
+Line 152: ID = dio
+Line 152: -
+Line 152: >
+Line 152: ID = curr_user_address
+Line 152: ,
+Line 153: ID = nr_pages
+Line 153: ,
+Line 154: ID = dio
+Line 154: -
+Line 154: >
+Line 154: ID = rw
+Line 154: ==
+Line 154: ID = READ
+Line 154: ,
+Line 155: INTCON = 0
+Line 155: ,
+Line 156: Unrecognized token: 38
+Line 156: ID = dio
+Line 156: -
+Line 156: >
+Line 156: ID = pages
+Line 156: [
+Line 156: INTCON = 0
+Line 156: ]
+Line 156: ,
+Line 157: ID = NULL
+Line 157: )
+Line 157: ;
+Line 158: ID = up_read
+Line 158: (
+Line 158: Unrecognized token: 38
+Line 158: ID = current
+Line 158: -
+Line 158: >
+Line 158: ID = mm
+Line 158: -
+Line 158: >
+Line 158: ID = mmap_sem
+Line 158: )
+Line 158: ;
+Line 160: if
+Line 160: (
+Line 160: ID = ret
+Line 160: <
+Line 160: INTCON = 0
+Line 160: &&
+Line 160: ID = dio
+Line 160: -
+Line 160: >
+Line 160: ID = blocks_available
+Line 160: &&
+Line 160: (
+Line 160: ID = dio
+Line 160: -
+Line 160: >
+Line 160: ID = rw
+Line 160: ==
+Line 160: ID = WRITE
+Line 160: )
+Line 160: )
+Line 160: {
+Line 166: if
+Line 166: (
+Line 166: ID = dio
+Line 166: -
+Line 166: >
+Line 166: ID = page_errors
+Line 166: ==
+Line 166: INTCON = 0
+Line 166: )
+Line 167: ID = dio
+Line 167: -
+Line 167: >
+Line 167: ID = page_errors
+Line 167: =
+Line 167: ID = ret
+Line 167: ;
+Line 168: ID = dio
+Line 168: -
+Line 168: >
+Line 168: ID = pages
+Line 168: [
+Line 168: INTCON = 0
+Line 168: ]
+Line 168: =
+Line 168: ID = ZERO_PAGE
+Line 168: (
+Line 168: ID = dio
+Line 168: -
+Line 168: >
+Line 168: ID = curr_user_address
+Line 168: )
+Line 168: ;
+Line 169: ID = dio
+Line 169: -
+Line 169: >
+Line 169: ID = head
+Line 169: =
+Line 169: INTCON = 0
+Line 169: ;
+Line 170: ID = dio
+Line 170: -
+Line 170: >
+Line 170: ID = tail
+Line 170: =
+Line 170: INTCON = 1
+Line 170: ;
+Line 171: ID = ret
+Line 171: =
+Line 171: INTCON = 0
+Line 171: ;
+Line 172: ID = goto
+Line 172: ID = out
+Line 172: ;
+Line 173: }
+Line 175: if
+Line 175: (
+Line 175: ID = ret
+Line 175: >=
+Line 175: INTCON = 0
+Line 175: )
+Line 175: {
+Line 176: ID = dio
+Line 176: -
+Line 176: >
+Line 176: ID = curr_user_address
+Line 176: +
+Line 176: =
+Line 176: ID = ret
+Line 176: *
+Line 176: ID = PAGE_SIZE
+Line 176: ;
+Line 177: ID = dio
+Line 177: -
+Line 177: >
+Line 177: ID = curr_page
+Line 177: +
+Line 177: =
+Line 177: ID = ret
+Line 177: ;
+Line 178: ID = dio
+Line 178: -
+Line 178: >
+Line 178: ID = head
+Line 178: =
+Line 178: INTCON = 0
+Line 178: ;
+Line 179: ID = dio
+Line 179: -
+Line 179: >
+Line 179: ID = tail
+Line 179: =
+Line 179: ID = ret
+Line 179: ;
+Line 180: ID = ret
+Line 180: =
+Line 180: INTCON = 0
+Line 180: ;
+Line 181: }
+Line 182: ID = out
+Line 182: Unrecognized token: 58
+Line 183: return
+Line 183: ID = ret
+Line 183: ;
+Line 184: }
+Line 192: ID = static
+Line 192: ID = struct
+Line 192: ID = page
+Line 192: *
+Line 192: ID = dio_get_page
+Line 192: (
+Line 192: ID = struct
+Line 192: ID = dio
+Line 192: *
+Line 192: ID = dio
+Line 192: )
+Line 193: {
+Line 194: if
+Line 194: (
+Line 194: ID = dio_pages_present
+Line 194: (
+Line 194: ID = dio
+Line 194: )
+Line 194: ==
+Line 194: INTCON = 0
+Line 194: )
+Line 194: {
+Line 195: int
+Line 195: ID = ret
+Line 195: ;
+Line 197: ID = ret
+Line 197: =
+Line 197: ID = dio_refill_pages
+Line 197: (
+Line 197: ID = dio
+Line 197: )
+Line 197: ;
+Line 198: if
+Line 198: (
+Line 198: ID = ret
+Line 198: )
+Line 199: return
+Line 199: ID = ERR_PTR
+Line 199: (
+Line 199: ID = ret
+Line 199: )
+Line 199: ;
+Line 200: ID = BUG_ON
+Line 200: (
+Line 200: ID = dio_pages_present
+Line 200: (
+Line 200: ID = dio
+Line 200: )
+Line 200: ==
+Line 200: INTCON = 0
+Line 200: )
+Line 200: ;
+Line 201: }
+Line 202: return
+Line 202: ID = dio
+Line 202: -
+Line 202: >
+Line 202: ID = pages
+Line 202: [
+Line 202: ID = dio
+Line 202: -
+Line 202: >
+Line 202: ID = head
+Line 202: +
+Line 202: +
+Line 202: ]
+Line 202: ;
+Line 203: }
+Line 211: ID = static
+Line 211: void
+Line 211: ID = dio_complete
+Line 211: (
+Line 211: ID = struct
+Line 211: ID = dio
+Line 211: *
+Line 211: ID = dio
+Line 211: ,
+Line 211: ID = loff_t
+Line 211: ID = offset
+Line 211: ,
+Line 211: ID = ssize_t
+Line 211: ID = bytes
+Line 211: )
+Line 212: {
+Line 213: if
+Line 213: (
+Line 213: ID = dio
+Line 213: -
+Line 213: >
+Line 213: ID = end_io
+Line 213: &&
+Line 213: ID = dio
+Line 213: -
+Line 213: >
+Line 213: ID = result
+Line 213: )
+Line 214: ID = dio
+Line 214: -
+Line 214: >
+Line 214: ID = end_io
+Line 214: (
+Line 214: ID = dio
+Line 214: -
+Line 214: >
+Line 214: ID = inode
+Line 214: ,
+Line 214: ID = offset
+Line 214: ,
+Line 214: ID = bytes
+Line 214: ,
+Line 214: ID = dio
+Line 214: -
+Line 214: >
+Line 214: ID = map_bh
+Line 214: Unrecognized token: 46
+Line 214: ID = b_private
+Line 214: )
+Line 214: ;
+Line 215: if
+Line 215: (
+Line 215: ID = dio
+Line 215: -
+Line 215: >
+Line 215: ID = needs_locking
+Line 215: )
+Line 216: ID = up_read
+Line 216: (
+Line 216: Unrecognized token: 38
+Line 216: ID = dio
+Line 216: -
+Line 216: >
+Line 216: ID = inode
+Line 216: -
+Line 216: >
+Line 216: ID = i_alloc_sem
+Line 216: )
+Line 216: ;
+Line 217: }
+Line 223: ID = static
+Line 223: void
+Line 223: ID = finished_one_bio
+Line 223: (
+Line 223: ID = struct
+Line 223: ID = dio
+Line 223: *
+Line 223: ID = dio
+Line 223: )
+Line 224: {
+Line 225: ID = unsigned
+Line 225: ID = long
+Line 225: ID = flags
+Line 225: ;
+Line 227: ID = spin_lock_irqsave
+Line 227: (
+Line 227: Unrecognized token: 38
+Line 227: ID = dio
+Line 227: -
+Line 227: >
+Line 227: ID = bio_lock
+Line 227: ,
+Line 227: ID = flags
+Line 227: )
+Line 227: ;
+Line 228: if
+Line 228: (
+Line 228: ID = dio
+Line 228: -
+Line 228: >
+Line 228: ID = bio_count
+Line 228: ==
+Line 228: INTCON = 1
+Line 228: )
+Line 228: {
+Line 229: if
+Line 229: (
+Line 229: ID = dio
+Line 229: -
+Line 229: >
+Line 229: ID = is_async
+Line 229: )
+Line 229: {
+Line 234: ID = spin_unlock_irqrestore
+Line 234: (
+Line 234: Unrecognized token: 38
+Line 234: ID = dio
+Line 234: -
+Line 234: >
+Line 234: ID = bio_lock
+Line 234: ,
+Line 234: ID = flags
+Line 234: )
+Line 234: ;
+Line 235: ID = dio_complete
+Line 235: (
+Line 235: ID = dio
+Line 235: ,
+Line 235: ID = dio
+Line 235: -
+Line 235: >
+Line 235: ID = block_in_file
+Line 235: <
+Line 235: <
+Line 235: ID = dio
+Line 235: -
+Line 235: >
+Line 235: ID = blkbits
+Line 235: ,
+Line 236: ID = dio
+Line 236: -
+Line 236: >
+Line 236: ID = result
+Line 236: )
+Line 236: ;
+Line 238: if
+Line 238: (
+Line 238: ID = dio
+Line 238: -
+Line 238: >
+Line 238: ID = result
+Line 238: ==
+Line 238: ID = dio
+Line 238: -
+Line 238: >
+Line 238: ID = size
+Line 238: ||
+Line 238: ID = dio
+Line 238: -
+Line 238: >
+Line 238: ID = rw
+Line 238: ==
+Line 238: ID = READ
+Line 238: )
+Line 238: {
+Line 239: ID = aio_complete
+Line 239: (
+Line 239: ID = dio
+Line 239: -
+Line 239: >
+Line 239: ID = iocb
+Line 239: ,
+Line 239: ID = dio
+Line 239: -
+Line 239: >
+Line 239: ID = result
+Line 239: ,
+Line 239: INTCON = 0
+Line 239: )
+Line 239: ;
+Line 240: ID = kfree
+Line 240: (
+Line 240: ID = dio
+Line 240: )
+Line 240: ;
+Line 241: return
+Line 241: ;
+Line 242: }
+Line 242: else
+Line 242: {
+Line 246: ID = spin_lock_irqsave
+Line 246: (
+Line 246: Unrecognized token: 38
+Line 246: ID = dio
+Line 246: -
+Line 246: >
+Line 246: ID = bio_lock
+Line 246: ,
+Line 246: ID = flags
+Line 246: )
+Line 246: ;
+Line 247: ID = dio
+Line 247: -
+Line 247: >
+Line 247: ID = bio_count
+Line 247: -
+Line 247: -
+Line 247: ;
+Line 248: if
+Line 248: (
+Line 248: ID = dio
+Line 248: -
+Line 248: >
+Line 248: ID = waiter
+Line 248: )
+Line 249: ID = wake_up_process
+Line 249: (
+Line 249: ID = dio
+Line 249: -
+Line 249: >
+Line 249: ID = waiter
+Line 249: )
+Line 249: ;
+Line 250: ID = spin_unlock_irqrestore
+Line 250: (
+Line 250: Unrecognized token: 38
+Line 250: ID = dio
+Line 250: -
+Line 250: >
+Line 250: ID = bio_lock
+Line 250: ,
+Line 250: ID = flags
+Line 250: )
+Line 250: ;
+Line 251: return
+Line 251: ;
+Line 252: }
+Line 253: }
+Line 254: }
+Line 255: ID = dio
+Line 255: -
+Line 255: >
+Line 255: ID = bio_count
+Line 255: -
+Line 255: -
+Line 255: ;
+Line 256: ID = spin_unlock_irqrestore
+Line 256: (
+Line 256: Unrecognized token: 38
+Line 256: ID = dio
+Line 256: -
+Line 256: >
+Line 256: ID = bio_lock
+Line 256: ,
+Line 256: ID = flags
+Line 256: )
+Line 256: ;
+Line 257: }
+Line 259: ID = static
+Line 259: int
+Line 259: ID = dio_bio_complete
+Line 259: (
+Line 259: ID = struct
+Line 259: ID = dio
+Line 259: *
+Line 259: ID = dio
+Line 259: ,
+Line 259: ID = struct
+Line 259: ID = bio
+Line 259: *
+Line 259: ID = bio
+Line 259: )
+Line 259: ;
+Line 263: ID = static
+Line 263: int
+Line 263: ID = dio_bio_end_aio
+Line 263: (
+Line 263: ID = struct
+Line 263: ID = bio
+Line 263: *
+Line 263: ID = bio
+Line 263: ,
+Line 263: ID = unsigned
+Line 263: int
+Line 263: ID = bytes_done
+Line 263: ,
+Line 263: int
+Line 263: ID = error
+Line 263: )
+Line 264: {
+Line 265: ID = struct
+Line 265: ID = dio
+Line 265: *
+Line 265: ID = dio
+Line 265: =
+Line 265: ID = bio
+Line 265: -
+Line 265: >
+Line 265: ID = bi_private
+Line 265: ;
+Line 267: if
+Line 267: (
+Line 267: ID = bio
+Line 267: -
+Line 267: >
+Line 267: ID = bi_size
+Line 267: )
+Line 268: return
+Line 268: INTCON = 1
+Line 268: ;
+Line 271: ID = dio_bio_complete
+Line 271: (
+Line 271: ID = dio
+Line 271: ,
+Line 271: ID = bio
+Line 271: )
+Line 271: ;
+Line 272: return
+Line 272: INTCON = 0
+Line 272: ;
+Line 273: }
+Line 282: ID = static
+Line 282: int
+Line 282: ID = dio_bio_end_io
+Line 282: (
+Line 282: ID = struct
+Line 282: ID = bio
+Line 282: *
+Line 282: ID = bio
+Line 282: ,
+Line 282: ID = unsigned
+Line 282: int
+Line 282: ID = bytes_done
+Line 282: ,
+Line 282: int
+Line 282: ID = error
+Line 282: )
+Line 283: {
+Line 284: ID = struct
+Line 284: ID = dio
+Line 284: *
+Line 284: ID = dio
+Line 284: =
+Line 284: ID = bio
+Line 284: -
+Line 284: >
+Line 284: ID = bi_private
+Line 284: ;
+Line 285: ID = unsigned
+Line 285: ID = long
+Line 285: ID = flags
+Line 285: ;
+Line 287: if
+Line 287: (
+Line 287: ID = bio
+Line 287: -
+Line 287: >
+Line 287: ID = bi_size
+Line 287: )
+Line 288: return
+Line 288: INTCON = 1
+Line 288: ;
+Line 290: ID = spin_lock_irqsave
+Line 290: (
+Line 290: Unrecognized token: 38
+Line 290: ID = dio
+Line 290: -
+Line 290: >
+Line 290: ID = bio_lock
+Line 290: ,
+Line 290: ID = flags
+Line 290: )
+Line 290: ;
+Line 291: ID = bio
+Line 291: -
+Line 291: >
+Line 291: ID = bi_private
+Line 291: =
+Line 291: ID = dio
+Line 291: -
+Line 291: >
+Line 291: ID = bio_list
+Line 291: ;
+Line 292: ID = dio
+Line 292: -
+Line 292: >
+Line 292: ID = bio_list
+Line 292: =
+Line 292: ID = bio
+Line 292: ;
+Line 293: ID = dio
+Line 293: -
+Line 293: >
+Line 293: ID = bios_in_flight
+Line 293: -
+Line 293: -
+Line 293: ;
+Line 294: if
+Line 294: (
+Line 294: ID = dio
+Line 294: -
+Line 294: >
+Line 294: ID = waiter
+Line 294: &&
+Line 294: ID = dio
+Line 294: -
+Line 294: >
+Line 294: ID = bios_in_flight
+Line 294: ==
+Line 294: INTCON = 0
+Line 294: )
+Line 295: ID = wake_up_process
+Line 295: (
+Line 295: ID = dio
+Line 295: -
+Line 295: >
+Line 295: ID = waiter
+Line 295: )
+Line 295: ;
+Line 296: ID = spin_unlock_irqrestore
+Line 296: (
+Line 296: Unrecognized token: 38
+Line 296: ID = dio
+Line 296: -
+Line 296: >
+Line 296: ID = bio_lock
+Line 296: ,
+Line 296: ID = flags
+Line 296: )
+Line 296: ;
+Line 297: return
+Line 297: INTCON = 0
+Line 297: ;
+Line 298: }
+Line 300: ID = static
+Line 300: int
+Line 301: ID = dio_bio_alloc
+Line 301: (
+Line 301: ID = struct
+Line 301: ID = dio
+Line 301: *
+Line 301: ID = dio
+Line 301: ,
+Line 301: ID = struct
+Line 301: ID = block_device
+Line 301: *
+Line 301: ID = bdev
+Line 301: ,
+Line 302: ID = sector_t
+Line 302: ID = first_sector
+Line 302: ,
+Line 302: int
+Line 302: ID = nr_vecs
+Line 302: )
+Line 303: {
+Line 304: ID = struct
+Line 304: ID = bio
+Line 304: *
+Line 304: ID = bio
+Line 304: ;
+Line 306: ID = bio
+Line 306: =
+Line 306: ID = bio_alloc
+Line 306: (
+Line 306: ID = GFP_KERNEL
+Line 306: ,
+Line 306: ID = nr_vecs
+Line 306: )
+Line 306: ;
+Line 307: if
+Line 307: (
+Line 307: ID = bio
+Line 307: ==
+Line 307: ID = NULL
+Line 307: )
+Line 308: return
+Line 308: -
+Line 308: ID = ENOMEM
+Line 308: ;
+Line 310: ID = bio
+Line 310: -
+Line 310: >
+Line 310: ID = bi_bdev
+Line 310: =
+Line 310: ID = bdev
+Line 310: ;
+Line 311: ID = bio
+Line 311: -
+Line 311: >
+Line 311: ID = bi_sector
+Line 311: =
+Line 311: ID = first_sector
+Line 311: ;
+Line 312: if
+Line 312: (
+Line 312: ID = dio
+Line 312: -
+Line 312: >
+Line 312: ID = is_async
+Line 312: )
+Line 313: ID = bio
+Line 313: -
+Line 313: >
+Line 313: ID = bi_end_io
+Line 313: =
+Line 313: ID = dio_bio_end_aio
+Line 313: ;
+Line 314: else
+Line 315: ID = bio
+Line 315: -
+Line 315: >
+Line 315: ID = bi_end_io
+Line 315: =
+Line 315: ID = dio_bio_end_io
+Line 315: ;
+Line 317: ID = dio
+Line 317: -
+Line 317: >
+Line 317: ID = bio
+Line 317: =
+Line 317: ID = bio
+Line 317: ;
+Line 318: return
+Line 318: INTCON = 0
+Line 318: ;
+Line 319: }
+Line 326: ID = static
+Line 326: void
+Line 326: ID = dio_bio_submit
+Line 326: (
+Line 326: ID = struct
+Line 326: ID = dio
+Line 326: *
+Line 326: ID = dio
+Line 326: )
+Line 327: {
+Line 328: ID = struct
+Line 328: ID = bio
+Line 328: *
+Line 328: ID = bio
+Line 328: =
+Line 328: ID = dio
+Line 328: -
+Line 328: >
+Line 328: ID = bio
+Line 328: ;
+Line 329: ID = unsigned
+Line 329: ID = long
+Line 329: ID = flags
+Line 329: ;
+Line 331: ID = bio
+Line 331: -
+Line 331: >
+Line 331: ID = bi_private
+Line 331: =
+Line 331: ID = dio
+Line 331: ;
+Line 332: ID = spin_lock_irqsave
+Line 332: (
+Line 332: Unrecognized token: 38
+Line 332: ID = dio
+Line 332: -
+Line 332: >
+Line 332: ID = bio_lock
+Line 332: ,
+Line 332: ID = flags
+Line 332: )
+Line 332: ;
+Line 333: ID = dio
+Line 333: -
+Line 333: >
+Line 333: ID = bio_count
+Line 333: +
+Line 333: +
+Line 333: ;
+Line 334: ID = dio
+Line 334: -
+Line 334: >
+Line 334: ID = bios_in_flight
+Line 334: +
+Line 334: +
+Line 334: ;
+Line 335: ID = spin_unlock_irqrestore
+Line 335: (
+Line 335: Unrecognized token: 38
+Line 335: ID = dio
+Line 335: -
+Line 335: >
+Line 335: ID = bio_lock
+Line 335: ,
+Line 335: ID = flags
+Line 335: )
+Line 335: ;
+Line 336: if
+Line 336: (
+Line 336: ID = dio
+Line 336: -
+Line 336: >
+Line 336: ID = is_async
+Line 336: &&
+Line 336: ID = dio
+Line 336: -
+Line 336: >
+Line 336: ID = rw
+Line 336: ==
+Line 336: ID = READ
+Line 336: )
+Line 337: ID = bio_set_pages_dirty
+Line 337: (
+Line 337: ID = bio
+Line 337: )
+Line 337: ;
+Line 338: ID = submit_bio
+Line 338: (
+Line 338: ID = dio
+Line 338: -
+Line 338: >
+Line 338: ID = rw
+Line 338: ,
+Line 338: ID = bio
+Line 338: )
+Line 338: ;
+Line 340: ID = dio
+Line 340: -
+Line 340: >
+Line 340: ID = bio
+Line 340: =
+Line 340: ID = NULL
+Line 340: ;
+Line 341: ID = dio
+Line 341: -
+Line 341: >
+Line 341: ID = boundary
+Line 341: =
+Line 341: INTCON = 0
+Line 341: ;
+Line 342: }
+Line 347: ID = static
+Line 347: void
+Line 347: ID = dio_cleanup
+Line 347: (
+Line 347: ID = struct
+Line 347: ID = dio
+Line 347: *
+Line 347: ID = dio
+Line 347: )
+Line 348: {
+Line 349: while
+Line 349: (
+Line 349: ID = dio_pages_present
+Line 349: (
+Line 349: ID = dio
+Line 349: )
+Line 349: )
+Line 350: ID = page_cache_release
+Line 350: (
+Line 350: ID = dio_get_page
+Line 350: (
+Line 350: ID = dio
+Line 350: )
+Line 350: )
+Line 350: ;
+Line 351: }
+Line 356: ID = static
+Line 356: ID = struct
+Line 356: ID = bio
+Line 356: *
+Line 356: ID = dio_await_one
+Line 356: (
+Line 356: ID = struct
+Line 356: ID = dio
+Line 356: *
+Line 356: ID = dio
+Line 356: )
+Line 357: {
+Line 358: ID = unsigned
+Line 358: ID = long
+Line 358: ID = flags
+Line 358: ;
+Line 359: ID = struct
+Line 359: ID = bio
+Line 359: *
+Line 359: ID = bio
+Line 359: ;
+Line 361: ID = spin_lock_irqsave
+Line 361: (
+Line 361: Unrecognized token: 38
+Line 361: ID = dio
+Line 361: -
+Line 361: >
+Line 361: ID = bio_lock
+Line 361: ,
+Line 361: ID = flags
+Line 361: )
+Line 361: ;
+Line 362: while
+Line 362: (
+Line 362: ID = dio
+Line 362: -
+Line 362: >
+Line 362: ID = bio_list
+Line 362: ==
+Line 362: ID = NULL
+Line 362: )
+Line 362: {
+Line 363: ID = set_current_state
+Line 363: (
+Line 363: ID = TASK_UNINTERRUPTIBLE
+Line 363: )
+Line 363: ;
+Line 364: if
+Line 364: (
+Line 364: ID = dio
+Line 364: -
+Line 364: >
+Line 364: ID = bio_list
+Line 364: ==
+Line 364: ID = NULL
+Line 364: )
+Line 364: {
+Line 365: ID = dio
+Line 365: -
+Line 365: >
+Line 365: ID = waiter
+Line 365: =
+Line 365: ID = current
+Line 365: ;
+Line 366: ID = spin_unlock_irqrestore
+Line 366: (
+Line 366: Unrecognized token: 38
+Line 366: ID = dio
+Line 366: -
+Line 366: >
+Line 366: ID = bio_lock
+Line 366: ,
+Line 366: ID = flags
+Line 366: )
+Line 366: ;
+Line 367: ID = blk_run_address_space
+Line 367: (
+Line 367: ID = dio
+Line 367: -
+Line 367: >
+Line 367: ID = inode
+Line 367: -
+Line 367: >
+Line 367: ID = i_mapping
+Line 367: )
+Line 367: ;
+Line 368: ID = io_schedule
+Line 368: (
+Line 368: )
+Line 368: ;
+Line 369: ID = spin_lock_irqsave
+Line 369: (
+Line 369: Unrecognized token: 38
+Line 369: ID = dio
+Line 369: -
+Line 369: >
+Line 369: ID = bio_lock
+Line 369: ,
+Line 369: ID = flags
+Line 369: )
+Line 369: ;
+Line 370: ID = dio
+Line 370: -
+Line 370: >
+Line 370: ID = waiter
+Line 370: =
+Line 370: ID = NULL
+Line 370: ;
+Line 371: }
+Line 372: ID = set_current_state
+Line 372: (
+Line 372: ID = TASK_RUNNING
+Line 372: )
+Line 372: ;
+Line 373: }
+Line 374: ID = bio
+Line 374: =
+Line 374: ID = dio
+Line 374: -
+Line 374: >
+Line 374: ID = bio_list
+Line 374: ;
+Line 375: ID = dio
+Line 375: -
+Line 375: >
+Line 375: ID = bio_list
+Line 375: =
+Line 375: ID = bio
+Line 375: -
+Line 375: >
+Line 375: ID = bi_private
+Line 375: ;
+Line 376: ID = spin_unlock_irqrestore
+Line 376: (
+Line 376: Unrecognized token: 38
+Line 376: ID = dio
+Line 376: -
+Line 376: >
+Line 376: ID = bio_lock
+Line 376: ,
+Line 376: ID = flags
+Line 376: )
+Line 376: ;
+Line 377: return
+Line 377: ID = bio
+Line 377: ;
+Line 378: }
+Line 383: ID = static
+Line 383: int
+Line 383: ID = dio_bio_complete
+Line 383: (
+Line 383: ID = struct
+Line 383: ID = dio
+Line 383: *
+Line 383: ID = dio
+Line 383: ,
+Line 383: ID = struct
+Line 383: ID = bio
+Line 383: *
+Line 383: ID = bio
+Line 383: )
+Line 384: {
+Line 385: ID = const
+Line 385: int
+Line 385: ID = uptodate
+Line 385: =
+Line 385: ID = test_bit
+Line 385: (
+Line 385: ID = BIO_UPTODATE
+Line 385: ,
+Line 385: Unrecognized token: 38
+Line 385: ID = bio
+Line 385: -
+Line 385: >
+Line 385: ID = bi_flags
+Line 385: )
+Line 385: ;
+Line 386: ID = struct
+Line 386: ID = bio_vec
+Line 386: *
+Line 386: ID = bvec
+Line 386: =
+Line 386: ID = bio
+Line 386: -
+Line 386: >
+Line 386: ID = bi_io_vec
+Line 386: ;
+Line 387: int
+Line 387: ID = page_no
+Line 387: ;
+Line 389: if
+Line 389: (
+Line 389: !
+Line 389: ID = uptodate
+Line 389: )
+Line 390: ID = dio
+Line 390: -
+Line 390: >
+Line 390: ID = result
+Line 390: =
+Line 390: -
+Line 390: ID = EIO
+Line 390: ;
+Line 392: if
+Line 392: (
+Line 392: ID = dio
+Line 392: -
+Line 392: >
+Line 392: ID = is_async
+Line 392: &&
+Line 392: ID = dio
+Line 392: -
+Line 392: >
+Line 392: ID = rw
+Line 392: ==
+Line 392: ID = READ
+Line 392: )
+Line 392: {
+Line 393: ID = bio_check_pages_dirty
+Line 393: (
+Line 393: ID = bio
+Line 393: )
+Line 393: ;
+Line 394: }
+Line 394: else
+Line 394: {
+Line 395: for
+Line 395: (
+Line 395: ID = page_no
+Line 395: =
+Line 395: INTCON = 0
+Line 395: ;
+Line 395: ID = page_no
+Line 395: <
+Line 395: ID = bio
+Line 395: -
+Line 395: >
+Line 395: ID = bi_vcnt
+Line 395: ;
+Line 395: ID = page_no
+Line 395: +
+Line 395: +
+Line 395: )
+Line 395: {
+Line 396: ID = struct
+Line 396: ID = page
+Line 396: *
+Line 396: ID = page
+Line 396: =
+Line 396: ID = bvec
+Line 396: [
+Line 396: ID = page_no
+Line 396: ]
+Line 396: Unrecognized token: 46
+Line 396: ID = bv_page
+Line 396: ;
+Line 398: if
+Line 398: (
+Line 398: ID = dio
+Line 398: -
+Line 398: >
+Line 398: ID = rw
+Line 398: ==
+Line 398: ID = READ
+Line 398: &&
+Line 398: !
+Line 398: ID = PageCompound
+Line 398: (
+Line 398: ID = page
+Line 398: )
+Line 398: )
+Line 399: ID = set_page_dirty_lock
+Line 399: (
+Line 399: ID = page
+Line 399: )
+Line 399: ;
+Line 400: ID = page_cache_release
+Line 400: (
+Line 400: ID = page
+Line 400: )
+Line 400: ;
+Line 401: }
+Line 402: ID = bio_put
+Line 402: (
+Line 402: ID = bio
+Line 402: )
+Line 402: ;
+Line 403: }
+Line 404: ID = finished_one_bio
+Line 404: (
+Line 404: ID = dio
+Line 404: )
+Line 404: ;
+Line 405: return
+Line 405: ID = uptodate
+Line 405: Unrecognized token: 63
+Line 405: INTCON = 0
+Line 405: Unrecognized token: 58
+Line 405: -
+Line 405: ID = EIO
+Line 405: ;
+Line 406: }
+Line 411: ID = static
+Line 411: int
+Line 411: ID = dio_await_completion
+Line 411: (
+Line 411: ID = struct
+Line 411: ID = dio
+Line 411: *
+Line 411: ID = dio
+Line 411: )
+Line 412: {
+Line 413: int
+Line 413: ID = ret
+Line 413: =
+Line 413: INTCON = 0
+Line 413: ;
+Line 415: if
+Line 415: (
+Line 415: ID = dio
+Line 415: -
+Line 415: >
+Line 415: ID = bio
+Line 415: )
+Line 416: ID = dio_bio_submit
+Line 416: (
+Line 416: ID = dio
+Line 416: )
+Line 416: ;
+Line 423: while
+Line 423: (
+Line 423: ID = dio
+Line 423: -
+Line 423: >
+Line 423: ID = bio_count
+Line 423: )
+Line 423: {
+Line 424: ID = struct
+Line 424: ID = bio
+Line 424: *
+Line 424: ID = bio
+Line 424: =
+Line 424: ID = dio_await_one
+Line 424: (
+Line 424: ID = dio
+Line 424: )
+Line 424: ;
+Line 425: int
+Line 425: ID = ret2
+Line 425: ;
+Line 427: ID = ret2
+Line 427: =
+Line 427: ID = dio_bio_complete
+Line 427: (
+Line 427: ID = dio
+Line 427: ,
+Line 427: ID = bio
+Line 427: )
+Line 427: ;
+Line 428: if
+Line 428: (
+Line 428: ID = ret
+Line 428: ==
+Line 428: INTCON = 0
+Line 428: )
+Line 429: ID = ret
+Line 429: =
+Line 429: ID = ret2
+Line 429: ;
+Line 430: }
+Line 431: return
+Line 431: ID = ret
+Line 431: ;
+Line 432: }
+Line 441: ID = static
+Line 441: int
+Line 441: ID = dio_bio_reap
+Line 441: (
+Line 441: ID = struct
+Line 441: ID = dio
+Line 441: *
+Line 441: ID = dio
+Line 441: )
+Line 442: {
+Line 443: int
+Line 443: ID = ret
+Line 443: =
+Line 443: INTCON = 0
+Line 443: ;
+Line 445: if
+Line 445: (
+Line 445: ID = dio
+Line 445: -
+Line 445: >
+Line 445: ID = reap_counter
+Line 445: +
+Line 445: +
+Line 445: >=
+Line 445: INTCON = 64
+Line 445: )
+Line 445: {
+Line 446: while
+Line 446: (
+Line 446: ID = dio
+Line 446: -
+Line 446: >
+Line 446: ID = bio_list
+Line 446: )
+Line 446: {
+Line 447: ID = unsigned
+Line 447: ID = long
+Line 447: ID = flags
+Line 447: ;
+Line 448: ID = struct
+Line 448: ID = bio
+Line 448: *
+Line 448: ID = bio
+Line 448: ;
+Line 449: int
+Line 449: ID = ret2
+Line 449: ;
+Line 451: ID = spin_lock_irqsave
+Line 451: (
+Line 451: Unrecognized token: 38
+Line 451: ID = dio
+Line 451: -
+Line 451: >
+Line 451: ID = bio_lock
+Line 451: ,
+Line 451: ID = flags
+Line 451: )
+Line 451: ;
+Line 452: ID = bio
+Line 452: =
+Line 452: ID = dio
+Line 452: -
+Line 452: >
+Line 452: ID = bio_list
+Line 452: ;
+Line 453: ID = dio
+Line 453: -
+Line 453: >
+Line 453: ID = bio_list
+Line 453: =
+Line 453: ID = bio
+Line 453: -
+Line 453: >
+Line 453: ID = bi_private
+Line 453: ;
+Line 454: ID = spin_unlock_irqrestore
+Line 454: (
+Line 454: Unrecognized token: 38
+Line 454: ID = dio
+Line 454: -
+Line 454: >
+Line 454: ID = bio_lock
+Line 454: ,
+Line 454: ID = flags
+Line 454: )
+Line 454: ;
+Line 455: ID = ret2
+Line 455: =
+Line 455: ID = dio_bio_complete
+Line 455: (
+Line 455: ID = dio
+Line 455: ,
+Line 455: ID = bio
+Line 455: )
+Line 455: ;
+Line 456: if
+Line 456: (
+Line 456: ID = ret
+Line 456: ==
+Line 456: INTCON = 0
+Line 456: )
+Line 457: ID = ret
+Line 457: =
+Line 457: ID = ret2
+Line 457: ;
+Line 458: }
+Line 459: ID = dio
+Line 459: -
+Line 459: >
+Line 459: ID = reap_counter
+Line 459: =
+Line 459: INTCON = 0
+Line 459: ;
+Line 460: }
+Line 461: return
+Line 461: ID = ret
+Line 461: ;
+Line 462: }
+Line 487: ID = static
+Line 487: int
+Line 487: ID = get_more_blocks
+Line 487: (
+Line 487: ID = struct
+Line 487: ID = dio
+Line 487: *
+Line 487: ID = dio
+Line 487: )
+Line 488: {
+Line 489: int
+Line 489: ID = ret
+Line 489: ;
+Line 490: ID = struct
+Line 490: ID = buffer_head
+Line 490: *
+Line 490: ID = map_bh
+Line 490: =
+Line 490: Unrecognized token: 38
+Line 490: ID = dio
+Line 490: -
+Line 490: >
+Line 490: ID = map_bh
+Line 490: ;
+Line 491: ID = sector_t
+Line 491: ID = fs_startblk
+Line 491: ;
+Line 492: ID = unsigned
+Line 492: ID = long
+Line 492: ID = fs_count
+Line 492: ;
+Line 493: ID = unsigned
+Line 493: ID = long
+Line 493: ID = dio_count
+Line 493: ;
+Line 494: ID = unsigned
+Line 494: ID = long
+Line 494: ID = blkmask
+Line 494: ;
+Line 495: int
+Line 495: ID = beyond_eof
+Line 495: =
+Line 495: INTCON = 0
+Line 495: ;
+Line 501: ID = ret
+Line 501: =
+Line 501: ID = dio
+Line 501: -
+Line 501: >
+Line 501: ID = page_errors
+Line 501: ;
+Line 502: if
+Line 502: (
+Line 502: ID = ret
+Line 502: ==
+Line 502: INTCON = 0
+Line 502: )
+Line 502: {
+Line 503: ID = map_bh
+Line 503: -
+Line 503: >
+Line 503: ID = b_state
+Line 503: =
+Line 503: INTCON = 0
+Line 503: ;
+Line 504: ID = map_bh
+Line 504: -
+Line 504: >
+Line 504: ID = b_size
+Line 504: =
+Line 504: INTCON = 0
+Line 504: ;
+Line 505: ID = BUG_ON
+Line 505: (
+Line 505: ID = dio
+Line 505: -
+Line 505: >
+Line 505: ID = block_in_file
+Line 505: >=
+Line 505: ID = dio
+Line 505: -
+Line 505: >
+Line 505: ID = final_block_in_request
+Line 505: )
+Line 505: ;
+Line 506: ID = fs_startblk
+Line 506: =
+Line 506: ID = dio
+Line 506: -
+Line 506: >
+Line 506: ID = block_in_file
+Line 506: >
+Line 506: >
+Line 506: ID = dio
+Line 506: -
+Line 506: >
+Line 506: ID = blkfactor
+Line 506: ;
+Line 507: ID = dio_count
+Line 507: =
+Line 507: ID = dio
+Line 507: -
+Line 507: >
+Line 507: ID = final_block_in_request
+Line 507: -
+Line 507: ID = dio
+Line 507: -
+Line 507: >
+Line 507: ID = block_in_file
+Line 507: ;
+Line 508: ID = fs_count
+Line 508: =
+Line 508: ID = dio_count
+Line 508: >
+Line 508: >
+Line 508: ID = dio
+Line 508: -
+Line 508: >
+Line 508: ID = blkfactor
+Line 508: ;
+Line 509: ID = blkmask
+Line 509: =
+Line 509: (
+Line 509: INTCON = 1
+Line 509: <
+Line 509: <
+Line 509: ID = dio
+Line 509: -
+Line 509: >
+Line 509: ID = blkfactor
+Line 509: )
+Line 509: -
+Line 509: INTCON = 1
+Line 509: ;
+Line 510: if
+Line 510: (
+Line 510: ID = dio_count
+Line 510: Unrecognized token: 38
+Line 510: ID = blkmask
+Line 510: )
+Line 511: ID = fs_count
+Line 511: +
+Line 511: +
+Line 511: ;
+Line 513: if
+Line 513: (
+Line 513: ID = dio
+Line 513: -
+Line 513: >
+Line 513: ID = needs_locking
+Line 513: )
+Line 513: {
+Line 514: if
+Line 514: (
+Line 514: ID = dio
+Line 514: -
+Line 514: >
+Line 514: ID = block_in_file
+Line 514: >=
+Line 514: (
+Line 514: ID = i_size_read
+Line 514: (
+Line 514: ID = dio
+Line 514: -
+Line 514: >
+Line 514: ID = inode
+Line 514: )
+Line 514: >
+Line 514: >
+Line 515: ID = dio
+Line 515: -
+Line 515: >
+Line 515: ID = blkbits
+Line 515: )
+Line 515: )
+Line 516: ID = beyond_eof
+Line 516: =
+Line 516: INTCON = 1
+Line 516: ;
+Line 517: }
+Line 524: ID = ret
+Line 524: =
+Line 524: (
+Line 524: *
+Line 524: ID = dio
+Line 524: -
+Line 524: >
+Line 524: ID = get_blocks
+Line 524: )
+Line 524: (
+Line 524: ID = dio
+Line 524: -
+Line 524: >
+Line 524: ID = inode
+Line 524: ,
+Line 524: ID = fs_startblk
+Line 524: ,
+Line 524: ID = fs_count
+Line 524: ,
+Line 525: ID = map_bh
+Line 525: ,
+Line 525: (
+Line 525: ID = dio
+Line 525: -
+Line 525: >
+Line 525: ID = rw
+Line 525: ==
+Line 525: ID = WRITE
+Line 525: )
+Line 525: &&
+Line 525: ID = beyond_eof
+Line 525: )
+Line 525: ;
+Line 526: }
+Line 527: return
+Line 527: ID = ret
+Line 527: ;
+Line 528: }
+Line 533: ID = static
+Line 533: int
+Line 533: ID = dio_new_bio
+Line 533: (
+Line 533: ID = struct
+Line 533: ID = dio
+Line 533: *
+Line 533: ID = dio
+Line 533: ,
+Line 533: ID = sector_t
+Line 533: ID = start_sector
+Line 533: )
+Line 534: {
+Line 535: ID = sector_t
+Line 535: ID = sector
+Line 535: ;
+Line 536: int
+Line 536: ID = ret
+Line 536: ,
+Line 536: ID = nr_pages
+Line 536: ;
+Line 538: ID = ret
+Line 538: =
+Line 538: ID = dio_bio_reap
+Line 538: (
+Line 538: ID = dio
+Line 538: )
+Line 538: ;
+Line 539: if
+Line 539: (
+Line 539: ID = ret
+Line 539: )
+Line 540: ID = goto
+Line 540: ID = out
+Line 540: ;
+Line 541: ID = sector
+Line 541: =
+Line 541: ID = start_sector
+Line 541: <
+Line 541: <
+Line 541: (
+Line 541: ID = dio
+Line 541: -
+Line 541: >
+Line 541: ID = blkbits
+Line 541: -
+Line 541: INTCON = 9
+Line 541: )
+Line 541: ;
+Line 542: ID = nr_pages
+Line 542: =
+Line 542: ID = min
+Line 542: (
+Line 542: ID = dio
+Line 542: -
+Line 542: >
+Line 542: ID = pages_in_io
+Line 542: ,
+Line 542: ID = bio_get_nr_vecs
+Line 542: (
+Line 542: ID = dio
+Line 542: -
+Line 542: >
+Line 542: ID = map_bh
+Line 542: Unrecognized token: 46
+Line 542: ID = b_bdev
+Line 542: )
+Line 542: )
+Line 542: ;
+Line 543: ID = BUG_ON
+Line 543: (
+Line 543: ID = nr_pages
+Line 543: <=
+Line 543: INTCON = 0
+Line 543: )
+Line 543: ;
+Line 544: ID = ret
+Line 544: =
+Line 544: ID = dio_bio_alloc
+Line 544: (
+Line 544: ID = dio
+Line 544: ,
+Line 544: ID = dio
+Line 544: -
+Line 544: >
+Line 544: ID = map_bh
+Line 544: Unrecognized token: 46
+Line 544: ID = b_bdev
+Line 544: ,
+Line 544: ID = sector
+Line 544: ,
+Line 544: ID = nr_pages
+Line 544: )
+Line 544: ;
+Line 545: ID = dio
+Line 545: -
+Line 545: >
+Line 545: ID = boundary
+Line 545: =
+Line 545: INTCON = 0
+Line 545: ;
+Line 546: ID = out
+Line 546: Unrecognized token: 58
+Line 547: return
+Line 547: ID = ret
+Line 547: ;
+Line 548: }
+Line 557: ID = static
+Line 557: int
+Line 557: ID = dio_bio_add_page
+Line 557: (
+Line 557: ID = struct
+Line 557: ID = dio
+Line 557: *
+Line 557: ID = dio
+Line 557: )
+Line 558: {
+Line 559: int
+Line 559: ID = ret
+Line 559: ;
+Line 561: ID = ret
+Line 561: =
+Line 561: ID = bio_add_page
+Line 561: (
+Line 561: ID = dio
+Line 561: -
+Line 561: >
+Line 561: ID = bio
+Line 561: ,
+Line 561: ID = dio
+Line 561: -
+Line 561: >
+Line 561: ID = cur_page
+Line 561: ,
+Line 562: ID = dio
+Line 562: -
+Line 562: >
+Line 562: ID = cur_page_len
+Line 562: ,
+Line 562: ID = dio
+Line 562: -
+Line 562: >
+Line 562: ID = cur_page_offset
+Line 562: )
+Line 562: ;
+Line 563: if
+Line 563: (
+Line 563: ID = ret
+Line 563: ==
+Line 563: ID = dio
+Line 563: -
+Line 563: >
+Line 563: ID = cur_page_len
+Line 563: )
+Line 563: {
+Line 564: ID = dio
+Line 564: -
+Line 564: >
+Line 564: ID = pages_in_io
+Line 564: -
+Line 564: -
+Line 564: ;
+Line 565: ID = page_cache_get
+Line 565: (
+Line 565: ID = dio
+Line 565: -
+Line 565: >
+Line 565: ID = cur_page
+Line 565: )
+Line 565: ;
+Line 566: ID = dio
+Line 566: -
+Line 566: >
+Line 566: ID = final_block_in_bio
+Line 566: =
+Line 566: ID = dio
+Line 566: -
+Line 566: >
+Line 566: ID = cur_page_block
+Line 566: +
+Line 567: (
+Line 567: ID = dio
+Line 567: -
+Line 567: >
+Line 567: ID = cur_page_len
+Line 567: >
+Line 567: >
+Line 567: ID = dio
+Line 567: -
+Line 567: >
+Line 567: ID = blkbits
+Line 567: )
+Line 567: ;
+Line 568: ID = ret
+Line 568: =
+Line 568: INTCON = 0
+Line 568: ;
+Line 569: }
+Line 569: else
+Line 569: {
+Line 570: ID = ret
+Line 570: =
+Line 570: INTCON = 1
+Line 570: ;
+Line 571: }
+Line 572: return
+Line 572: ID = ret
+Line 572: ;
+Line 573: }
+Line 585: ID = static
+Line 585: int
+Line 585: ID = dio_send_cur_page
+Line 585: (
+Line 585: ID = struct
+Line 585: ID = dio
+Line 585: *
+Line 585: ID = dio
+Line 585: )
+Line 586: {
+Line 587: int
+Line 587: ID = ret
+Line 587: =
+Line 587: INTCON = 0
+Line 587: ;
+Line 589: if
+Line 589: (
+Line 589: ID = dio
+Line 589: -
+Line 589: >
+Line 589: ID = bio
+Line 589: )
+Line 589: {
+Line 593: if
+Line 593: (
+Line 593: ID = dio
+Line 593: -
+Line 593: >
+Line 593: ID = final_block_in_bio
+Line 593: !=
+Line 593: ID = dio
+Line 593: -
+Line 593: >
+Line 593: ID = cur_page_block
+Line 593: )
+Line 594: ID = dio_bio_submit
+Line 594: (
+Line 594: ID = dio
+Line 594: )
+Line 594: ;
+Line 599: if
+Line 599: (
+Line 599: ID = dio
+Line 599: -
+Line 599: >
+Line 599: ID = boundary
+Line 599: )
+Line 600: ID = dio_bio_submit
+Line 600: (
+Line 600: ID = dio
+Line 600: )
+Line 600: ;
+Line 601: }
+Line 603: if
+Line 603: (
+Line 603: ID = dio
+Line 603: -
+Line 603: >
+Line 603: ID = bio
+Line 603: ==
+Line 603: ID = NULL
+Line 603: )
+Line 603: {
+Line 604: ID = ret
+Line 604: =
+Line 604: ID = dio_new_bio
+Line 604: (
+Line 604: ID = dio
+Line 604: ,
+Line 604: ID = dio
+Line 604: -
+Line 604: >
+Line 604: ID = cur_page_block
+Line 604: )
+Line 604: ;
+Line 605: if
+Line 605: (
+Line 605: ID = ret
+Line 605: )
+Line 606: ID = goto
+Line 606: ID = out
+Line 606: ;
+Line 607: }
+Line 609: if
+Line 609: (
+Line 609: ID = dio_bio_add_page
+Line 609: (
+Line 609: ID = dio
+Line 609: )
+Line 609: !=
+Line 609: INTCON = 0
+Line 609: )
+Line 609: {
+Line 610: ID = dio_bio_submit
+Line 610: (
+Line 610: ID = dio
+Line 610: )
+Line 610: ;
+Line 611: ID = ret
+Line 611: =
+Line 611: ID = dio_new_bio
+Line 611: (
+Line 611: ID = dio
+Line 611: ,
+Line 611: ID = dio
+Line 611: -
+Line 611: >
+Line 611: ID = cur_page_block
+Line 611: )
+Line 611: ;
+Line 612: if
+Line 612: (
+Line 612: ID = ret
+Line 612: ==
+Line 612: INTCON = 0
+Line 612: )
+Line 612: {
+Line 613: ID = ret
+Line 613: =
+Line 613: ID = dio_bio_add_page
+Line 613: (
+Line 613: ID = dio
+Line 613: )
+Line 613: ;
+Line 614: ID = BUG_ON
+Line 614: (
+Line 614: ID = ret
+Line 614: !=
+Line 614: INTCON = 0
+Line 614: )
+Line 614: ;
+Line 615: }
+Line 616: }
+Line 617: ID = out
+Line 617: Unrecognized token: 58
+Line 618: return
+Line 618: ID = ret
+Line 618: ;
+Line 619: }
+Line 638: ID = static
+Line 638: int
+Line 639: ID = submit_page_section
+Line 639: (
+Line 639: ID = struct
+Line 639: ID = dio
+Line 639: *
+Line 639: ID = dio
+Line 639: ,
+Line 639: ID = struct
+Line 639: ID = page
+Line 639: *
+Line 639: ID = page
+Line 639: ,
+Line 640: ID = unsigned
+Line 640: ID = offset
+Line 640: ,
+Line 640: ID = unsigned
+Line 640: ID = len
+Line 640: ,
+Line 640: ID = sector_t
+Line 640: ID = blocknr
+Line 640: )
+Line 641: {
+Line 642: int
+Line 642: ID = ret
+Line 642: =
+Line 642: INTCON = 0
+Line 642: ;
+Line 647: if
+Line 647: (
+Line 647: (
+Line 647: ID = dio
+Line 647: -
+Line 647: >
+Line 647: ID = cur_page
+Line 647: ==
+Line 647: ID = page
+Line 647: )
+Line 647: &&
+Line 648: (
+Line 648: ID = dio
+Line 648: -
+Line 648: >
+Line 648: ID = cur_page_offset
+Line 648: +
+Line 648: ID = dio
+Line 648: -
+Line 648: >
+Line 648: ID = cur_page_len
+Line 648: ==
+Line 648: ID = offset
+Line 648: )
+Line 648: &&
+Line 649: (
+Line 649: ID = dio
+Line 649: -
+Line 649: >
+Line 649: ID = cur_page_block
+Line 649: +
+Line 650: (
+Line 650: ID = dio
+Line 650: -
+Line 650: >
+Line 650: ID = cur_page_len
+Line 650: >
+Line 650: >
+Line 650: ID = dio
+Line 650: -
+Line 650: >
+Line 650: ID = blkbits
+Line 650: )
+Line 650: ==
+Line 650: ID = blocknr
+Line 650: )
+Line 650: )
+Line 650: {
+Line 651: ID = dio
+Line 651: -
+Line 651: >
+Line 651: ID = cur_page_len
+Line 651: +
+Line 651: =
+Line 651: ID = len
+Line 651: ;
+Line 657: if
+Line 657: (
+Line 657: ID = dio
+Line 657: -
+Line 657: >
+Line 657: ID = boundary
+Line 657: )
+Line 657: {
+Line 658: ID = ret
+Line 658: =
+Line 658: ID = dio_send_cur_page
+Line 658: (
+Line 658: ID = dio
+Line 658: )
+Line 658: ;
+Line 659: ID = page_cache_release
+Line 659: (
+Line 659: ID = dio
+Line 659: -
+Line 659: >
+Line 659: ID = cur_page
+Line 659: )
+Line 659: ;
+Line 660: ID = dio
+Line 660: -
+Line 660: >
+Line 660: ID = cur_page
+Line 660: =
+Line 660: ID = NULL
+Line 660: ;
+Line 661: }
+Line 662: ID = goto
+Line 662: ID = out
+Line 662: ;
+Line 663: }
+Line 668: if
+Line 668: (
+Line 668: ID = dio
+Line 668: -
+Line 668: >
+Line 668: ID = cur_page
+Line 668: )
+Line 668: {
+Line 669: ID = ret
+Line 669: =
+Line 669: ID = dio_send_cur_page
+Line 669: (
+Line 669: ID = dio
+Line 669: )
+Line 669: ;
+Line 670: ID = page_cache_release
+Line 670: (
+Line 670: ID = dio
+Line 670: -
+Line 670: >
+Line 670: ID = cur_page
+Line 670: )
+Line 670: ;
+Line 671: ID = dio
+Line 671: -
+Line 671: >
+Line 671: ID = cur_page
+Line 671: =
+Line 671: ID = NULL
+Line 671: ;
+Line 672: if
+Line 672: (
+Line 672: ID = ret
+Line 672: )
+Line 673: ID = goto
+Line 673: ID = out
+Line 673: ;
+Line 674: }
+Line 676: ID = page_cache_get
+Line 676: (
+Line 676: ID = page
+Line 676: )
+Line 676: ;
+Line 677: ID = dio
+Line 677: -
+Line 677: >
+Line 677: ID = cur_page
+Line 677: =
+Line 677: ID = page
+Line 677: ;
+Line 678: ID = dio
+Line 678: -
+Line 678: >
+Line 678: ID = cur_page_offset
+Line 678: =
+Line 678: ID = offset
+Line 678: ;
+Line 679: ID = dio
+Line 679: -
+Line 679: >
+Line 679: ID = cur_page_len
+Line 679: =
+Line 679: ID = len
+Line 679: ;
+Line 680: ID = dio
+Line 680: -
+Line 680: >
+Line 680: ID = cur_page_block
+Line 680: =
+Line 680: ID = blocknr
+Line 680: ;
+Line 681: ID = out
+Line 681: Unrecognized token: 58
+Line 682: return
+Line 682: ID = ret
+Line 682: ;
+Line 683: }
+Line 690: ID = static
+Line 690: void
+Line 690: ID = clean_blockdev_aliases
+Line 690: (
+Line 690: ID = struct
+Line 690: ID = dio
+Line 690: *
+Line 690: ID = dio
+Line 690: )
+Line 691: {
+Line 692: ID = unsigned
+Line 692: ID = i
+Line 692: ;
+Line 693: ID = unsigned
+Line 693: ID = nblocks
+Line 693: ;
+Line 695: ID = nblocks
+Line 695: =
+Line 695: ID = dio
+Line 695: -
+Line 695: >
+Line 695: ID = map_bh
+Line 695: Unrecognized token: 46
+Line 695: ID = b_size
+Line 695: >
+Line 695: >
+Line 695: ID = dio
+Line 695: -
+Line 695: >
+Line 695: ID = inode
+Line 695: -
+Line 695: >
+Line 695: ID = i_blkbits
+Line 695: ;
+Line 697: for
+Line 697: (
+Line 697: ID = i
+Line 697: =
+Line 697: INTCON = 0
+Line 697: ;
+Line 697: ID = i
+Line 697: <
+Line 697: ID = nblocks
+Line 697: ;
+Line 697: ID = i
+Line 697: +
+Line 697: +
+Line 697: )
+Line 697: {
+Line 698: ID = unmap_underlying_metadata
+Line 698: (
+Line 698: ID = dio
+Line 698: -
+Line 698: >
+Line 698: ID = map_bh
+Line 698: Unrecognized token: 46
+Line 698: ID = b_bdev
+Line 698: ,
+Line 699: ID = dio
+Line 699: -
+Line 699: >
+Line 699: ID = map_bh
+Line 699: Unrecognized token: 46
+Line 699: ID = b_blocknr
+Line 699: +
+Line 699: ID = i
+Line 699: )
+Line 699: ;
+Line 700: }
+Line 701: }
+Line 712: ID = static
+Line 712: void
+Line 712: ID = dio_zero_block
+Line 712: (
+Line 712: ID = struct
+Line 712: ID = dio
+Line 712: *
+Line 712: ID = dio
+Line 712: ,
+Line 712: int
+Line 712: ID = end
+Line 712: )
+Line 713: {
+Line 714: ID = unsigned
+Line 714: ID = dio_blocks_per_fs_block
+Line 714: ;
+Line 715: ID = unsigned
+Line 715: ID = this_chunk_blocks
+Line 715: ;
+Line 716: ID = unsigned
+Line 716: ID = this_chunk_bytes
+Line 716: ;
+Line 717: ID = struct
+Line 717: ID = page
+Line 717: *
+Line 717: ID = page
+Line 717: ;
+Line 719: ID = dio
+Line 719: -
+Line 719: >
+Line 719: ID = start_zero_done
+Line 719: =
+Line 719: INTCON = 1
+Line 719: ;
+Line 720: if
+Line 720: (
+Line 720: !
+Line 720: ID = dio
+Line 720: -
+Line 720: >
+Line 720: ID = blkfactor
+Line 720: ||
+Line 720: !
+Line 720: ID = buffer_new
+Line 720: (
+Line 720: Unrecognized token: 38
+Line 720: ID = dio
+Line 720: -
+Line 720: >
+Line 720: ID = map_bh
+Line 720: )
+Line 720: )
+Line 721: return
+Line 721: ;
+Line 723: ID = dio_blocks_per_fs_block
+Line 723: =
+Line 723: INTCON = 1
+Line 723: <
+Line 723: <
+Line 723: ID = dio
+Line 723: -
+Line 723: >
+Line 723: ID = blkfactor
+Line 723: ;
+Line 724: ID = this_chunk_blocks
+Line 724: =
+Line 724: ID = dio
+Line 724: -
+Line 724: >
+Line 724: ID = block_in_file
+Line 724: Unrecognized token: 38
+Line 724: (
+Line 724: ID = dio_blocks_per_fs_block
+Line 724: -
+Line 724: INTCON = 1
+Line 724: )
+Line 724: ;
+Line 726: if
+Line 726: (
+Line 726: !
+Line 726: ID = this_chunk_blocks
+Line 726: )
+Line 727: return
+Line 727: ;
+Line 733: if
+Line 733: (
+Line 733: ID = end
+Line 733: )
+Line 734: ID = this_chunk_blocks
+Line 734: =
+Line 734: ID = dio_blocks_per_fs_block
+Line 734: -
+Line 734: ID = this_chunk_blocks
+Line 734: ;
+Line 736: ID = this_chunk_bytes
+Line 736: =
+Line 736: ID = this_chunk_blocks
+Line 736: <
+Line 736: <
+Line 736: ID = dio
+Line 736: -
+Line 736: >
+Line 736: ID = blkbits
+Line 736: ;
+Line 738: ID = page
+Line 738: =
+Line 738: ID = ZERO_PAGE
+Line 738: (
+Line 738: ID = dio
+Line 738: -
+Line 738: >
+Line 738: ID = curr_user_address
+Line 738: )
+Line 738: ;
+Line 739: if
+Line 739: (
+Line 739: ID = submit_page_section
+Line 739: (
+Line 739: ID = dio
+Line 739: ,
+Line 739: ID = page
+Line 739: ,
+Line 739: INTCON = 0
+Line 739: ,
+Line 739: ID = this_chunk_bytes
+Line 739: ,
+Line 740: ID = dio
+Line 740: -
+Line 740: >
+Line 740: ID = next_block_for_io
+Line 740: )
+Line 740: )
+Line 741: return
+Line 741: ;
+Line 743: ID = dio
+Line 743: -
+Line 743: >
+Line 743: ID = next_block_for_io
+Line 743: +
+Line 743: =
+Line 743: ID = this_chunk_blocks
+Line 743: ;
+Line 744: }
+Line 762: ID = static
+Line 762: int
+Line 762: ID = do_direct_IO
+Line 762: (
+Line 762: ID = struct
+Line 762: ID = dio
+Line 762: *
+Line 762: ID = dio
+Line 762: )
+Line 763: {
+Line 764: ID = const
+Line 764: ID = unsigned
+Line 764: ID = blkbits
+Line 764: =
+Line 764: ID = dio
+Line 764: -
+Line 764: >
+Line 764: ID = blkbits
+Line 764: ;
+Line 765: ID = const
+Line 765: ID = unsigned
+Line 765: ID = blocks_per_page
+Line 765: =
+Line 765: ID = PAGE_SIZE
+Line 765: >
+Line 765: >
+Line 765: ID = blkbits
+Line 765: ;
+Line 766: ID = struct
+Line 766: ID = page
+Line 766: *
+Line 766: ID = page
+Line 766: ;
+Line 767: ID = unsigned
+Line 767: ID = block_in_page
+Line 767: ;
+Line 768: ID = struct
+Line 768: ID = buffer_head
+Line 768: *
+Line 768: ID = map_bh
+Line 768: =
+Line 768: Unrecognized token: 38
+Line 768: ID = dio
+Line 768: -
+Line 768: >
+Line 768: ID = map_bh
+Line 768: ;
+Line 769: int
+Line 769: ID = ret
+Line 769: =
+Line 769: INTCON = 0
+Line 769: ;
+Line 772: ID = block_in_page
+Line 772: =
+Line 772: ID = dio
+Line 772: -
+Line 772: >
+Line 772: ID = first_block_in_page
+Line 772: ;
+Line 774: while
+Line 774: (
+Line 774: ID = dio
+Line 774: -
+Line 774: >
+Line 774: ID = block_in_file
+Line 774: <
+Line 774: ID = dio
+Line 774: -
+Line 774: >
+Line 774: ID = final_block_in_request
+Line 774: )
+Line 774: {
+Line 775: ID = page
+Line 775: =
+Line 775: ID = dio_get_page
+Line 775: (
+Line 775: ID = dio
+Line 775: )
+Line 775: ;
+Line 776: if
+Line 776: (
+Line 776: ID = IS_ERR
+Line 776: (
+Line 776: ID = page
+Line 776: )
+Line 776: )
+Line 776: {
+Line 777: ID = ret
+Line 777: =
+Line 777: ID = PTR_ERR
+Line 777: (
+Line 777: ID = page
+Line 777: )
+Line 777: ;
+Line 778: ID = goto
+Line 778: ID = out
+Line 778: ;
+Line 779: }
+Line 781: while
+Line 781: (
+Line 781: ID = block_in_page
+Line 781: <
+Line 781: ID = blocks_per_page
+Line 781: )
+Line 781: {
+Line 782: ID = unsigned
+Line 782: ID = offset_in_page
+Line 782: =
+Line 782: ID = block_in_page
+Line 782: <
+Line 782: <
+Line 782: ID = blkbits
+Line 782: ;
+Line 783: ID = unsigned
+Line 783: ID = this_chunk_bytes
+Line 783: ;
+Line 784: ID = unsigned
+Line 784: ID = this_chunk_blocks
+Line 784: ;
+Line 785: ID = unsigned
+Line 785: ID = u
+Line 785: ;
+Line 787: if
+Line 787: (
+Line 787: ID = dio
+Line 787: -
+Line 787: >
+Line 787: ID = blocks_available
+Line 787: ==
+Line 787: INTCON = 0
+Line 787: )
+Line 787: {
+Line 791: ID = unsigned
+Line 791: ID = long
+Line 791: ID = blkmask
+Line 791: ;
+Line 792: ID = unsigned
+Line 792: ID = long
+Line 792: ID = dio_remainder
+Line 792: ;
+Line 794: ID = ret
+Line 794: =
+Line 794: ID = get_more_blocks
+Line 794: (
+Line 794: ID = dio
+Line 794: )
+Line 794: ;
+Line 795: if
+Line 795: (
+Line 795: ID = ret
+Line 795: )
+Line 795: {
+Line 796: ID = page_cache_release
+Line 796: (
+Line 796: ID = page
+Line 796: )
+Line 796: ;
+Line 797: ID = goto
+Line 797: ID = out
+Line 797: ;
+Line 798: }
+Line 799: if
+Line 799: (
+Line 799: !
+Line 799: ID = buffer_mapped
+Line 799: (
+Line 799: ID = map_bh
+Line 799: )
+Line 799: )
+Line 800: ID = goto
+Line 800: ID = do_holes
+Line 800: ;
+Line 802: ID = dio
+Line 802: -
+Line 802: >
+Line 802: ID = blocks_available
+Line 802: =
+Line 803: ID = map_bh
+Line 803: -
+Line 803: >
+Line 803: ID = b_size
+Line 803: >
+Line 803: >
+Line 803: ID = dio
+Line 803: -
+Line 803: >
+Line 803: ID = blkbits
+Line 803: ;
+Line 804: ID = dio
+Line 804: -
+Line 804: >
+Line 804: ID = next_block_for_io
+Line 804: =
+Line 805: ID = map_bh
+Line 805: -
+Line 805: >
+Line 805: ID = b_blocknr
+Line 805: <
+Line 805: <
+Line 805: ID = dio
+Line 805: -
+Line 805: >
+Line 805: ID = blkfactor
+Line 805: ;
+Line 806: if
+Line 806: (
+Line 806: ID = buffer_new
+Line 806: (
+Line 806: ID = map_bh
+Line 806: )
+Line 806: )
+Line 807: ID = clean_blockdev_aliases
+Line 807: (
+Line 807: ID = dio
+Line 807: )
+Line 807: ;
+Line 809: if
+Line 809: (
+Line 809: !
+Line 809: ID = dio
+Line 809: -
+Line 809: >
+Line 809: ID = blkfactor
+Line 809: )
+Line 810: ID = goto
+Line 810: ID = do_holes
+Line 810: ;
+Line 812: ID = blkmask
+Line 812: =
+Line 812: (
+Line 812: INTCON = 1
+Line 812: <
+Line 812: <
+Line 812: ID = dio
+Line 812: -
+Line 812: >
+Line 812: ID = blkfactor
+Line 812: )
+Line 812: -
+Line 812: INTCON = 1
+Line 812: ;
+Line 813: ID = dio_remainder
+Line 813: =
+Line 813: (
+Line 813: ID = dio
+Line 813: -
+Line 813: >
+Line 813: ID = block_in_file
+Line 813: Unrecognized token: 38
+Line 813: ID = blkmask
+Line 813: )
+Line 813: ;
+Line 826: if
+Line 826: (
+Line 826: !
+Line 826: ID = buffer_new
+Line 826: (
+Line 826: ID = map_bh
+Line 826: )
+Line 826: )
+Line 827: ID = dio
+Line 827: -
+Line 827: >
+Line 827: ID = next_block_for_io
+Line 827: +
+Line 827: =
+Line 827: ID = dio_remainder
+Line 827: ;
+Line 828: ID = dio
+Line 828: -
+Line 828: >
+Line 828: ID = blocks_available
+Line 828: -
+Line 828: =
+Line 828: ID = dio_remainder
+Line 828: ;
+Line 829: }
+Line 830: ID = do_holes
+Line 830: Unrecognized token: 58
+Line 832: if
+Line 832: (
+Line 832: !
+Line 832: ID = buffer_mapped
+Line 832: (
+Line 832: ID = map_bh
+Line 832: )
+Line 832: )
+Line 832: {
+Line 833: char
+Line 833: *
+Line 833: ID = kaddr
+Line 833: ;
+Line 836: if
+Line 836: (
+Line 836: ID = dio
+Line 836: -
+Line 836: >
+Line 836: ID = rw
+Line 836: ==
+Line 836: ID = WRITE
+Line 836: )
+Line 837: return
+Line 837: -
+Line 837: ID = ENOTBLK
+Line 837: ;
+Line 839: if
+Line 839: (
+Line 839: ID = dio
+Line 839: -
+Line 839: >
+Line 839: ID = block_in_file
+Line 839: >=
+Line 840: ID = i_size_read
+Line 840: (
+Line 840: ID = dio
+Line 840: -
+Line 840: >
+Line 840: ID = inode
+Line 840: )
+Line 840: >
+Line 840: >
+Line 840: ID = blkbits
+Line 840: )
+Line 840: {
+Line 842: ID = page_cache_release
+Line 842: (
+Line 842: ID = page
+Line 842: )
+Line 842: ;
+Line 843: ID = goto
+Line 843: ID = out
+Line 843: ;
+Line 844: }
+Line 845: ID = kaddr
+Line 845: =
+Line 845: ID = kmap_atomic
+Line 845: (
+Line 845: ID = page
+Line 845: ,
+Line 845: ID = KM_USER0
+Line 845: )
+Line 845: ;
+Line 846: ID = memset
+Line 846: (
+Line 846: ID = kaddr
+Line 846: +
+Line 846: (
+Line 846: ID = block_in_page
+Line 846: <
+Line 846: <
+Line 846: ID = blkbits
+Line 846: )
+Line 846: ,
+Line 847: INTCON = 0
+Line 847: ,
+Line 847: INTCON = 1
+Line 847: <
+Line 847: <
+Line 847: ID = blkbits
+Line 847: )
+Line 847: ;
+Line 848: ID = flush_dcache_page
+Line 848: (
+Line 848: ID = page
+Line 848: )
+Line 848: ;
+Line 849: ID = kunmap_atomic
+Line 849: (
+Line 849: ID = kaddr
+Line 849: ,
+Line 849: ID = KM_USER0
+Line 849: )
+Line 849: ;
+Line 850: ID = dio
+Line 850: -
+Line 850: >
+Line 850: ID = block_in_file
+Line 850: +
+Line 850: +
+Line 850: ;
+Line 851: ID = block_in_page
+Line 851: +
+Line 851: +
+Line 851: ;
+Line 852: ID = goto
+Line 852: ID = next_block
+Line 852: ;
+Line 853: }
+Line 860: if
+Line 860: (
+Line 860: ID = unlikely
+Line 860: (
+Line 860: ID = dio
+Line 860: -
+Line 860: >
+Line 860: ID = blkfactor
+Line 860: &&
+Line 860: !
+Line 860: ID = dio
+Line 860: -
+Line 860: >
+Line 860: ID = start_zero_done
+Line 860: )
+Line 860: )
+Line 861: ID = dio_zero_block
+Line 861: (
+Line 861: ID = dio
+Line 861: ,
+Line 861: INTCON = 0
+Line 861: )
+Line 861: ;
+Line 867: ID = this_chunk_blocks
+Line 867: =
+Line 867: ID = dio
+Line 867: -
+Line 867: >
+Line 867: ID = blocks_available
+Line 867: ;
+Line 868: ID = u
+Line 868: =
+Line 868: (
+Line 868: ID = PAGE_SIZE
+Line 868: -
+Line 868: ID = offset_in_page
+Line 868: )
+Line 868: >
+Line 868: >
+Line 868: ID = blkbits
+Line 868: ;
+Line 869: if
+Line 869: (
+Line 869: ID = this_chunk_blocks
+Line 869: >
+Line 869: ID = u
+Line 869: )
+Line 870: ID = this_chunk_blocks
+Line 870: =
+Line 870: ID = u
+Line 870: ;
+Line 871: ID = u
+Line 871: =
+Line 871: ID = dio
+Line 871: -
+Line 871: >
+Line 871: ID = final_block_in_request
+Line 871: -
+Line 871: ID = dio
+Line 871: -
+Line 871: >
+Line 871: ID = block_in_file
+Line 871: ;
+Line 872: if
+Line 872: (
+Line 872: ID = this_chunk_blocks
+Line 872: >
+Line 872: ID = u
+Line 872: )
+Line 873: ID = this_chunk_blocks
+Line 873: =
+Line 873: ID = u
+Line 873: ;
+Line 874: ID = this_chunk_bytes
+Line 874: =
+Line 874: ID = this_chunk_blocks
+Line 874: <
+Line 874: <
+Line 874: ID = blkbits
+Line 874: ;
+Line 875: ID = BUG_ON
+Line 875: (
+Line 875: ID = this_chunk_bytes
+Line 875: ==
+Line 875: INTCON = 0
+Line 875: )
+Line 875: ;
+Line 877: ID = dio
+Line 877: -
+Line 877: >
+Line 877: ID = boundary
+Line 877: =
+Line 877: ID = buffer_boundary
+Line 877: (
+Line 877: ID = map_bh
+Line 877: )
+Line 877: ;
+Line 878: ID = ret
+Line 878: =
+Line 878: ID = submit_page_section
+Line 878: (
+Line 878: ID = dio
+Line 878: ,
+Line 878: ID = page
+Line 878: ,
+Line 878: ID = offset_in_page
+Line 878: ,
+Line 879: ID = this_chunk_bytes
+Line 879: ,
+Line 879: ID = dio
+Line 879: -
+Line 879: >
+Line 879: ID = next_block_for_io
+Line 879: )
+Line 879: ;
+Line 880: if
+Line 880: (
+Line 880: ID = ret
+Line 880: )
+Line 880: {
+Line 881: ID = page_cache_release
+Line 881: (
+Line 881: ID = page
+Line 881: )
+Line 881: ;
+Line 882: ID = goto
+Line 882: ID = out
+Line 882: ;
+Line 883: }
+Line 884: ID = dio
+Line 884: -
+Line 884: >
+Line 884: ID = next_block_for_io
+Line 884: +
+Line 884: =
+Line 884: ID = this_chunk_blocks
+Line 884: ;
+Line 886: ID = dio
+Line 886: -
+Line 886: >
+Line 886: ID = block_in_file
+Line 886: +
+Line 886: =
+Line 886: ID = this_chunk_blocks
+Line 886: ;
+Line 887: ID = block_in_page
+Line 887: +
+Line 887: =
+Line 887: ID = this_chunk_blocks
+Line 887: ;
+Line 888: ID = dio
+Line 888: -
+Line 888: >
+Line 888: ID = blocks_available
+Line 888: -
+Line 888: =
+Line 888: ID = this_chunk_blocks
+Line 888: ;
+Line 889: ID = next_block
+Line 889: Unrecognized token: 58
+Line 890: if
+Line 890: (
+Line 890: ID = dio
+Line 890: -
+Line 890: >
+Line 890: ID = block_in_file
+Line 890: >
+Line 890: ID = dio
+Line 890: -
+Line 890: >
+Line 890: ID = final_block_in_request
+Line 890: )
+Line 891: ID = BUG
+Line 891: (
+Line 891: )
+Line 891: ;
+Line 892: if
+Line 892: (
+Line 892: ID = dio
+Line 892: -
+Line 892: >
+Line 892: ID = block_in_file
+Line 892: ==
+Line 892: ID = dio
+Line 892: -
+Line 892: >
+Line 892: ID = final_block_in_request
+Line 892: )
+Line 893: ID = break
+Line 893: ;
+Line 894: }
+Line 897: ID = page_cache_release
+Line 897: (
+Line 897: ID = page
+Line 897: )
+Line 897: ;
+Line 898: ID = block_in_page
+Line 898: =
+Line 898: INTCON = 0
+Line 898: ;
+Line 899: }
+Line 900: ID = out
+Line 900: Unrecognized token: 58
+Line 901: return
+Line 901: ID = ret
+Line 901: ;
+Line 902: }
+Line 907: ID = static
+Line 907: ID = ssize_t
+Line 908: ID = direct_io_worker
+Line 908: (
+Line 908: int
+Line 908: ID = rw
+Line 908: ,
+Line 908: ID = struct
+Line 908: ID = kiocb
+Line 908: *
+Line 908: ID = iocb
+Line 908: ,
+Line 908: ID = struct
+Line 908: ID = inode
+Line 908: *
+Line 908: ID = inode
+Line 908: ,
+Line 909: ID = const
+Line 909: ID = struct
+Line 909: ID = iovec
+Line 909: *
+Line 909: ID = iov
+Line 909: ,
+Line 909: ID = loff_t
+Line 909: ID = offset
+Line 909: ,
+Line 909: ID = unsigned
+Line 909: ID = long
+Line 909: ID = nr_segs
+Line 909: ,
+Line 910: ID = unsigned
+Line 910: ID = blkbits
+Line 910: ,
+Line 910: ID = get_blocks_t
+Line 910: ID = get_blocks
+Line 910: ,
+Line 910: ID = dio_iodone_t
+Line 910: ID = end_io
+Line 910: ,
+Line 911: ID = struct
+Line 911: ID = dio
+Line 911: *
+Line 911: ID = dio
+Line 911: )
+Line 912: {
+Line 913: ID = unsigned
+Line 913: ID = long
+Line 913: ID = user_addr
+Line 913: ;
+Line 914: int
+Line 914: ID = seg
+Line 914: ;
+Line 915: ID = ssize_t
+Line 915: ID = ret
+Line 915: =
+Line 915: INTCON = 0
+Line 915: ;
+Line 916: ID = ssize_t
+Line 916: ID = ret2
+Line 916: ;
+Line 917: ID = size_t
+Line 917: ID = bytes
+Line 917: ;
+Line 919: ID = dio
+Line 919: -
+Line 919: >
+Line 919: ID = bio
+Line 919: =
+Line 919: ID = NULL
+Line 919: ;
+Line 920: ID = dio
+Line 920: -
+Line 920: >
+Line 920: ID = inode
+Line 920: =
+Line 920: ID = inode
+Line 920: ;
+Line 921: ID = dio
+Line 921: -
+Line 921: >
+Line 921: ID = rw
+Line 921: =
+Line 921: ID = rw
+Line 921: ;
+Line 922: ID = dio
+Line 922: -
+Line 922: >
+Line 922: ID = blkbits
+Line 922: =
+Line 922: ID = blkbits
+Line 922: ;
+Line 923: ID = dio
+Line 923: -
+Line 923: >
+Line 923: ID = blkfactor
+Line 923: =
+Line 923: ID = inode
+Line 923: -
+Line 923: >
+Line 923: ID = i_blkbits
+Line 923: -
+Line 923: ID = blkbits
+Line 923: ;
+Line 924: ID = dio
+Line 924: -
+Line 924: >
+Line 924: ID = start_zero_done
+Line 924: =
+Line 924: INTCON = 0
+Line 924: ;
+Line 925: ID = dio
+Line 925: -
+Line 925: >
+Line 925: ID = size
+Line 925: =
+Line 925: INTCON = 0
+Line 925: ;
+Line 926: ID = dio
+Line 926: -
+Line 926: >
+Line 926: ID = block_in_file
+Line 926: =
+Line 926: ID = offset
+Line 926: >
+Line 926: >
+Line 926: ID = blkbits
+Line 926: ;
+Line 927: ID = dio
+Line 927: -
+Line 927: >
+Line 927: ID = blocks_available
+Line 927: =
+Line 927: INTCON = 0
+Line 927: ;
+Line 928: ID = dio
+Line 928: -
+Line 928: >
+Line 928: ID = cur_page
+Line 928: =
+Line 928: ID = NULL
+Line 928: ;
+Line 930: ID = dio
+Line 930: -
+Line 930: >
+Line 930: ID = boundary
+Line 930: =
+Line 930: INTCON = 0
+Line 930: ;
+Line 931: ID = dio
+Line 931: -
+Line 931: >
+Line 931: ID = reap_counter
+Line 931: =
+Line 931: INTCON = 0
+Line 931: ;
+Line 932: ID = dio
+Line 932: -
+Line 932: >
+Line 932: ID = get_blocks
+Line 932: =
+Line 932: ID = get_blocks
+Line 932: ;
+Line 933: ID = dio
+Line 933: -
+Line 933: >
+Line 933: ID = end_io
+Line 933: =
+Line 933: ID = end_io
+Line 933: ;
+Line 934: ID = dio
+Line 934: -
+Line 934: >
+Line 934: ID = map_bh
+Line 934: Unrecognized token: 46
+Line 934: ID = b_private
+Line 934: =
+Line 934: ID = NULL
+Line 934: ;
+Line 935: ID = dio
+Line 935: -
+Line 935: >
+Line 935: ID = final_block_in_bio
+Line 935: =
+Line 935: -
+Line 935: INTCON = 1
+Line 935: ;
+Line 936: ID = dio
+Line 936: -
+Line 936: >
+Line 936: ID = next_block_for_io
+Line 936: =
+Line 936: -
+Line 936: INTCON = 1
+Line 936: ;
+Line 938: ID = dio
+Line 938: -
+Line 938: >
+Line 938: ID = page_errors
+Line 938: =
+Line 938: INTCON = 0
+Line 938: ;
+Line 939: ID = dio
+Line 939: -
+Line 939: >
+Line 939: ID = result
+Line 939: =
+Line 939: INTCON = 0
+Line 939: ;
+Line 940: ID = dio
+Line 940: -
+Line 940: >
+Line 940: ID = iocb
+Line 940: =
+Line 940: ID = iocb
+Line 940: ;
+Line 950: ID = dio
+Line 950: -
+Line 950: >
+Line 950: ID = bio_count
+Line 950: =
+Line 950: INTCON = 1
+Line 950: ;
+Line 951: ID = dio
+Line 951: -
+Line 951: >
+Line 951: ID = bios_in_flight
+Line 951: =
+Line 951: INTCON = 0
+Line 951: ;
+Line 952: ID = spin_lock_init
+Line 952: (
+Line 952: Unrecognized token: 38
+Line 952: ID = dio
+Line 952: -
+Line 952: >
+Line 952: ID = bio_lock
+Line 952: )
+Line 952: ;
+Line 953: ID = dio
+Line 953: -
+Line 953: >
+Line 953: ID = bio_list
+Line 953: =
+Line 953: ID = NULL
+Line 953: ;
+Line 954: ID = dio
+Line 954: -
+Line 954: >
+Line 954: ID = waiter
+Line 954: =
+Line 954: ID = NULL
+Line 954: ;
+Line 956: ID = dio
+Line 956: -
+Line 956: >
+Line 956: ID = pages_in_io
+Line 956: =
+Line 956: INTCON = 0
+Line 956: ;
+Line 957: for
+Line 957: (
+Line 957: ID = seg
+Line 957: =
+Line 957: INTCON = 0
+Line 957: ;
+Line 957: ID = seg
+Line 957: <
+Line 957: ID = nr_segs
+Line 957: ;
+Line 957: ID = seg
+Line 957: +
+Line 957: +
+Line 957: )
+Line 958: ID = dio
+Line 958: -
+Line 958: >
+Line 958: ID = pages_in_io
+Line 958: +
+Line 958: =
+Line 958: (
+Line 958: ID = iov
+Line 958: [
+Line 958: ID = seg
+Line 958: ]
+Line 958: Unrecognized token: 46
+Line 958: ID = iov_len
+Line 958: >
+Line 958: >
+Line 958: ID = blkbits
+Line 958: )
+Line 958: +
+Line 958: INTCON = 2
+Line 958: ;
+Line 960: for
+Line 960: (
+Line 960: ID = seg
+Line 960: =
+Line 960: INTCON = 0
+Line 960: ;
+Line 960: ID = seg
+Line 960: <
+Line 960: ID = nr_segs
+Line 960: ;
+Line 960: ID = seg
+Line 960: +
+Line 960: +
+Line 960: )
+Line 960: {
+Line 961: ID = user_addr
+Line 961: =
+Line 961: (
+Line 961: ID = unsigned
+Line 961: ID = long
+Line 961: )
+Line 961: ID = iov
+Line 961: [
+Line 961: ID = seg
+Line 961: ]
+Line 961: Unrecognized token: 46
+Line 961: ID = iov_base
+Line 961: ;
+Line 962: ID = dio
+Line 962: -
+Line 962: >
+Line 962: ID = size
+Line 962: +
+Line 962: =
+Line 962: ID = bytes
+Line 962: =
+Line 962: ID = iov
+Line 962: [
+Line 962: ID = seg
+Line 962: ]
+Line 962: Unrecognized token: 46
+Line 962: ID = iov_len
+Line 962: ;
+Line 965: ID = dio
+Line 965: -
+Line 965: >
+Line 965: ID = first_block_in_page
+Line 965: =
+Line 965: (
+Line 965: ID = user_addr
+Line 965: Unrecognized token: 38
+Line 965: Unrecognized token: 126
+Line 965: ID = PAGE_MASK
+Line 965: )
+Line 965: >
+Line 965: >
+Line 965: ID = blkbits
+Line 965: ;
+Line 966: ID = dio
+Line 966: -
+Line 966: >
+Line 966: ID = final_block_in_request
+Line 966: =
+Line 966: ID = dio
+Line 966: -
+Line 966: >
+Line 966: ID = block_in_file
+Line 966: +
+Line 967: (
+Line 967: ID = bytes
+Line 967: >
+Line 967: >
+Line 967: ID = blkbits
+Line 967: )
+Line 967: ;
+Line 969: ID = dio
+Line 969: -
+Line 969: >
+Line 969: ID = head
+Line 969: =
+Line 969: INTCON = 0
+Line 969: ;
+Line 970: ID = dio
+Line 970: -
+Line 970: >
+Line 970: ID = tail
+Line 970: =
+Line 970: INTCON = 0
+Line 970: ;
+Line 971: ID = dio
+Line 971: -
+Line 971: >
+Line 971: ID = curr_page
+Line 971: =
+Line 971: INTCON = 0
+Line 971: ;
+Line 973: ID = dio
+Line 973: -
+Line 973: >
+Line 973: ID = total_pages
+Line 973: =
+Line 973: INTCON = 0
+Line 973: ;
+Line 974: if
+Line 974: (
+Line 974: ID = user_addr
+Line 974: Unrecognized token: 38
+Line 974: (
+Line 974: ID = PAGE_SIZE
+Line 974: -
+Line 974: INTCON = 1
+Line 974: )
+Line 974: )
+Line 974: {
+Line 975: ID = dio
+Line 975: -
+Line 975: >
+Line 975: ID = total_pages
+Line 975: +
+Line 975: +
+Line 975: ;
+Line 976: ID = bytes
+Line 976: -
+Line 976: =
+Line 976: ID = PAGE_SIZE
+Line 976: -
+Line 976: (
+Line 976: ID = user_addr
+Line 976: Unrecognized token: 38
+Line 976: (
+Line 976: ID = PAGE_SIZE
+Line 976: -
+Line 976: INTCON = 1
+Line 976: )
+Line 976: )
+Line 976: ;
+Line 977: }
+Line 978: ID = dio
+Line 978: -
+Line 978: >
+Line 978: ID = total_pages
+Line 978: +
+Line 978: =
+Line 978: (
+Line 978: ID = bytes
+Line 978: +
+Line 978: ID = PAGE_SIZE
+Line 978: -
+Line 978: INTCON = 1
+Line 978: )
+Line 978: /
+Line 978: ID = PAGE_SIZE
+Line 978: ;
+Line 979: ID = dio
+Line 979: -
+Line 979: >
+Line 979: ID = curr_user_address
+Line 979: =
+Line 979: ID = user_addr
+Line 979: ;
+Line 981: ID = ret
+Line 981: =
+Line 981: ID = do_direct_IO
+Line 981: (
+Line 981: ID = dio
+Line 981: )
+Line 981: ;
+Line 983: ID = dio
+Line 983: -
+Line 983: >
+Line 983: ID = result
+Line 983: +
+Line 983: =
+Line 983: ID = iov
+Line 983: [
+Line 983: ID = seg
+Line 983: ]
+Line 983: Unrecognized token: 46
+Line 983: ID = iov_len
+Line 983: -
+Line 984: (
+Line 984: (
+Line 984: ID = dio
+Line 984: -
+Line 984: >
+Line 984: ID = final_block_in_request
+Line 984: -
+Line 984: ID = dio
+Line 984: -
+Line 984: >
+Line 984: ID = block_in_file
+Line 984: )
+Line 984: <
+Line 984: <
+Line 985: ID = blkbits
+Line 985: )
+Line 985: ;
+Line 987: if
+Line 987: (
+Line 987: ID = ret
+Line 987: )
+Line 987: {
+Line 988: ID = dio_cleanup
+Line 988: (
+Line 988: ID = dio
+Line 988: )
+Line 988: ;
+Line 989: ID = break
+Line 989: ;
+Line 990: }
+Line 991: }
+Line 993: if
+Line 993: (
+Line 993: ID = ret
+Line 993: ==
+Line 993: -
+Line 993: ID = ENOTBLK
+Line 993: &&
+Line 993: ID = rw
+Line 993: ==
+Line 993: ID = WRITE
+Line 993: )
+Line 993: {
+Line 998: ID = ret
+Line 998: =
+Line 998: INTCON = 0
+Line 998: ;
+Line 999: }
+Line 1004: ID = dio_zero_block
+Line 1004: (
+Line 1004: ID = dio
+Line 1004: ,
+Line 1004: INTCON = 1
+Line 1004: )
+Line 1004: ;
+Line 1006: if
+Line 1006: (
+Line 1006: ID = dio
+Line 1006: -
+Line 1006: >
+Line 1006: ID = cur_page
+Line 1006: )
+Line 1006: {
+Line 1007: ID = ret2
+Line 1007: =
+Line 1007: ID = dio_send_cur_page
+Line 1007: (
+Line 1007: ID = dio
+Line 1007: )
+Line 1007: ;
+Line 1008: if
+Line 1008: (
+Line 1008: ID = ret
+Line 1008: ==
+Line 1008: INTCON = 0
+Line 1008: )
+Line 1009: ID = ret
+Line 1009: =
+Line 1009: ID = ret2
+Line 1009: ;
+Line 1010: ID = page_cache_release
+Line 1010: (
+Line 1010: ID = dio
+Line 1010: -
+Line 1010: >
+Line 1010: ID = cur_page
+Line 1010: )
+Line 1010: ;
+Line 1011: ID = dio
+Line 1011: -
+Line 1011: >
+Line 1011: ID = cur_page
+Line 1011: =
+Line 1011: ID = NULL
+Line 1011: ;
+Line 1012: }
+Line 1013: if
+Line 1013: (
+Line 1013: ID = dio
+Line 1013: -
+Line 1013: >
+Line 1013: ID = bio
+Line 1013: )
+Line 1014: ID = dio_bio_submit
+Line 1014: (
+Line 1014: ID = dio
+Line 1014: )
+Line 1014: ;
+Line 1020: ID = dio_cleanup
+Line 1020: (
+Line 1020: ID = dio
+Line 1020: )
+Line 1020: ;
+Line 1027: if
+Line 1027: (
+Line 1027: (
+Line 1027: ID = rw
+Line 1027: ==
+Line 1027: ID = READ
+Line 1027: )
+Line 1027: &&
+Line 1027: ID = dio
+Line 1027: -
+Line 1027: >
+Line 1027: ID = needs_locking
+Line 1027: )
+Line 1028: ID = up
+Line 1028: (
+Line 1028: Unrecognized token: 38
+Line 1028: ID = dio
+Line 1028: -
+Line 1028: >
+Line 1028: ID = inode
+Line 1028: -
+Line 1028: >
+Line 1028: ID = i_sem
+Line 1028: )
+Line 1028: ;
+Line 1034: if
+Line 1034: (
+Line 1034: ID = dio
+Line 1034: -
+Line 1034: >
+Line 1034: ID = is_async
+Line 1034: )
+Line 1034: {
+Line 1035: int
+Line 1035: ID = should_wait
+Line 1035: =
+Line 1035: INTCON = 0
+Line 1035: ;
+Line 1037: if
+Line 1037: (
+Line 1037: ID = dio
+Line 1037: -
+Line 1037: >
+Line 1037: ID = result
+Line 1037: <
+Line 1037: ID = dio
+Line 1037: -
+Line 1037: >
+Line 1037: ID = size
+Line 1037: &&
+Line 1037: ID = rw
+Line 1037: ==
+Line 1037: ID = WRITE
+Line 1037: )
+Line 1037: {
+Line 1038: ID = dio
+Line 1038: -
+Line 1038: >
+Line 1038: ID = waiter
+Line 1038: =
+Line 1038: ID = current
+Line 1038: ;
+Line 1039: ID = should_wait
+Line 1039: =
+Line 1039: INTCON = 1
+Line 1039: ;
+Line 1040: }
+Line 1041: if
+Line 1041: (
+Line 1041: ID = ret
+Line 1041: ==
+Line 1041: INTCON = 0
+Line 1041: )
+Line 1042: ID = ret
+Line 1042: =
+Line 1042: ID = dio
+Line 1042: -
+Line 1042: >
+Line 1042: ID = result
+Line 1042: ;
+Line 1043: ID = finished_one_bio
+Line 1043: (
+Line 1043: ID = dio
+Line 1043: )
+Line 1043: ;
+Line 1044: ID = blk_run_address_space
+Line 1044: (
+Line 1044: ID = inode
+Line 1044: -
+Line 1044: >
+Line 1044: ID = i_mapping
+Line 1044: )
+Line 1044: ;
+Line 1045: if
+Line 1045: (
+Line 1045: ID = should_wait
+Line 1045: )
+Line 1045: {
+Line 1046: ID = unsigned
+Line 1046: ID = long
+Line 1046: ID = flags
+Line 1046: ;
+Line 1053: ID = spin_lock_irqsave
+Line 1053: (
+Line 1053: Unrecognized token: 38
+Line 1053: ID = dio
+Line 1053: -
+Line 1053: >
+Line 1053: ID = bio_lock
+Line 1053: ,
+Line 1053: ID = flags
+Line 1053: )
+Line 1053: ;
+Line 1054: ID = set_current_state
+Line 1054: (
+Line 1054: ID = TASK_UNINTERRUPTIBLE
+Line 1054: )
+Line 1054: ;
+Line 1055: while
+Line 1055: (
+Line 1055: ID = dio
+Line 1055: -
+Line 1055: >
+Line 1055: ID = bio_count
+Line 1055: )
+Line 1055: {
+Line 1056: ID = spin_unlock_irqrestore
+Line 1056: (
+Line 1056: Unrecognized token: 38
+Line 1056: ID = dio
+Line 1056: -
+Line 1056: >
+Line 1056: ID = bio_lock
+Line 1056: ,
+Line 1056: ID = flags
+Line 1056: )
+Line 1056: ;
+Line 1057: ID = io_schedule
+Line 1057: (
+Line 1057: )
+Line 1057: ;
+Line 1058: ID = spin_lock_irqsave
+Line 1058: (
+Line 1058: Unrecognized token: 38
+Line 1058: ID = dio
+Line 1058: -
+Line 1058: >
+Line 1058: ID = bio_lock
+Line 1058: ,
+Line 1058: ID = flags
+Line 1058: )
+Line 1058: ;
+Line 1059: ID = set_current_state
+Line 1059: (
+Line 1059: ID = TASK_UNINTERRUPTIBLE
+Line 1059: )
+Line 1059: ;
+Line 1060: }
+Line 1061: ID = spin_unlock_irqrestore
+Line 1061: (
+Line 1061: Unrecognized token: 38
+Line 1061: ID = dio
+Line 1061: -
+Line 1061: >
+Line 1061: ID = bio_lock
+Line 1061: ,
+Line 1061: ID = flags
+Line 1061: )
+Line 1061: ;
+Line 1062: ID = set_current_state
+Line 1062: (
+Line 1062: ID = TASK_RUNNING
+Line 1062: )
+Line 1062: ;
+Line 1063: ID = kfree
+Line 1063: (
+Line 1063: ID = dio
+Line 1063: )
+Line 1063: ;
+Line 1064: }
+Line 1065: }
+Line 1065: else
+Line 1065: {
+Line 1066: ID = ssize_t
+Line 1066: ID = transferred
+Line 1066: =
+Line 1066: INTCON = 0
+Line 1066: ;
+Line 1068: ID = finished_one_bio
+Line 1068: (
+Line 1068: ID = dio
+Line 1068: )
+Line 1068: ;
+Line 1069: ID = ret2
+Line 1069: =
+Line 1069: ID = dio_await_completion
+Line 1069: (
+Line 1069: ID = dio
+Line 1069: )
+Line 1069: ;
+Line 1070: if
+Line 1070: (
+Line 1070: ID = ret
+Line 1070: ==
+Line 1070: INTCON = 0
+Line 1070: )
+Line 1071: ID = ret
+Line 1071: =
+Line 1071: ID = ret2
+Line 1071: ;
+Line 1072: if
+Line 1072: (
+Line 1072: ID = ret
+Line 1072: ==
+Line 1072: INTCON = 0
+Line 1072: )
+Line 1073: ID = ret
+Line 1073: =
+Line 1073: ID = dio
+Line 1073: -
+Line 1073: >
+Line 1073: ID = page_errors
+Line 1073: ;
+Line 1074: if
+Line 1074: (
+Line 1074: ID = dio
+Line 1074: -
+Line 1074: >
+Line 1074: ID = result
+Line 1074: )
+Line 1074: {
+Line 1075: ID = loff_t
+Line 1075: ID = i_size
+Line 1075: =
+Line 1075: ID = i_size_read
+Line 1075: (
+Line 1075: ID = inode
+Line 1075: )
+Line 1075: ;
+Line 1077: ID = transferred
+Line 1077: =
+Line 1077: ID = dio
+Line 1077: -
+Line 1077: >
+Line 1077: ID = result
+Line 1077: ;
+Line 1082: if
+Line 1082: (
+Line 1082: ID = rw
+Line 1082: ==
+Line 1082: ID = READ
+Line 1082: &&
+Line 1082: (
+Line 1082: ID = offset
+Line 1082: +
+Line 1082: ID = transferred
+Line 1082: >
+Line 1082: ID = i_size
+Line 1082: )
+Line 1082: )
+Line 1083: ID = transferred
+Line 1083: =
+Line 1083: ID = i_size
+Line 1083: -
+Line 1083: ID = offset
+Line 1083: ;
+Line 1084: }
+Line 1085: ID = dio_complete
+Line 1085: (
+Line 1085: ID = dio
+Line 1085: ,
+Line 1085: ID = offset
+Line 1085: ,
+Line 1085: ID = transferred
+Line 1085: )
+Line 1085: ;
+Line 1086: if
+Line 1086: (
+Line 1086: ID = ret
+Line 1086: ==
+Line 1086: INTCON = 0
+Line 1086: )
+Line 1087: ID = ret
+Line 1087: =
+Line 1087: ID = transferred
+Line 1087: ;
+Line 1090: if
+Line 1090: (
+Line 1090: !
+Line 1090: ID = is_sync_kiocb
+Line 1090: (
+Line 1090: ID = iocb
+Line 1090: )
+Line 1090: &&
+Line 1090: ID = rw
+Line 1090: ==
+Line 1090: ID = WRITE
+Line 1090: &&
+Line 1091: ID = ret
+Line 1091: >=
+Line 1091: INTCON = 0
+Line 1091: &&
+Line 1091: ID = dio
+Line 1091: -
+Line 1091: >
+Line 1091: ID = result
+Line 1091: ==
+Line 1091: ID = dio
+Line 1091: -
+Line 1091: >
+Line 1091: ID = size
+Line 1091: )
+Line 1096: ID = aio_complete
+Line 1096: (
+Line 1096: ID = iocb
+Line 1096: ,
+Line 1096: ID = ret
+Line 1096: ,
+Line 1096: INTCON = 0
+Line 1096: )
+Line 1096: ;
+Line 1097: ID = kfree
+Line 1097: (
+Line 1097: ID = dio
+Line 1097: )
+Line 1097: ;
+Line 1098: }
+Line 1099: return
+Line 1099: ID = ret
+Line 1099: ;
+Line 1100: }
+Line 1110: ID = ssize_t
+Line 1111: Unrecognized token: 95
+Line 1111: Unrecognized token: 95
+Line 1111: ID = blockdev_direct_IO
+Line 1111: (
+Line 1111: int
+Line 1111: ID = rw
+Line 1111: ,
+Line 1111: ID = struct
+Line 1111: ID = kiocb
+Line 1111: *
+Line 1111: ID = iocb
+Line 1111: ,
+Line 1111: ID = struct
+Line 1111: ID = inode
+Line 1111: *
+Line 1111: ID = inode
+Line 1111: ,
+Line 1112: ID = struct
+Line 1112: ID = block_device
+Line 1112: *
+Line 1112: ID = bdev
+Line 1112: ,
+Line 1112: ID = const
+Line 1112: ID = struct
+Line 1112: ID = iovec
+Line 1112: *
+Line 1112: ID = iov
+Line 1112: ,
+Line 1112: ID = loff_t
+Line 1112: ID = offset
+Line 1112: ,
+Line 1113: ID = unsigned
+Line 1113: ID = long
+Line 1113: ID = nr_segs
+Line 1113: ,
+Line 1113: ID = get_blocks_t
+Line 1113: ID = get_blocks
+Line 1113: ,
+Line 1113: ID = dio_iodone_t
+Line 1113: ID = end_io
+Line 1113: ,
+Line 1114: int
+Line 1114: ID = needs_special_locking
+Line 1114: )
+Line 1115: {
+Line 1116: int
+Line 1116: ID = seg
+Line 1116: ;
+Line 1117: ID = size_t
+Line 1117: ID = size
+Line 1117: ;
+Line 1118: ID = unsigned
+Line 1118: ID = long
+Line 1118: ID = addr
+Line 1118: ;
+Line 1119: ID = unsigned
+Line 1119: ID = blkbits
+Line 1119: =
+Line 1119: ID = inode
+Line 1119: -
+Line 1119: >
+Line 1119: ID = i_blkbits
+Line 1119: ;
+Line 1120: ID = unsigned
+Line 1120: ID = bdev_blkbits
+Line 1120: =
+Line 1120: INTCON = 0
+Line 1120: ;
+Line 1121: ID = unsigned
+Line 1121: ID = blocksize_mask
+Line 1121: =
+Line 1121: (
+Line 1121: INTCON = 1
+Line 1121: <
+Line 1121: <
+Line 1121: ID = blkbits
+Line 1121: )
+Line 1121: -
+Line 1121: INTCON = 1
+Line 1121: ;
+Line 1122: ID = ssize_t
+Line 1122: ID = retval
+Line 1122: =
+Line 1122: -
+Line 1122: ID = EINVAL
+Line 1122: ;
+Line 1123: ID = loff_t
+Line 1123: ID = end
+Line 1123: =
+Line 1123: ID = offset
+Line 1123: ;
+Line 1124: ID = struct
+Line 1124: ID = dio
+Line 1124: *
+Line 1124: ID = dio
+Line 1124: ;
+Line 1125: int
+Line 1125: ID = needs_locking
+Line 1125: ;
+Line 1127: if
+Line 1127: (
+Line 1127: ID = bdev
+Line 1127: )
+Line 1128: ID = bdev_blkbits
+Line 1128: =
+Line 1128: ID = blksize_bits
+Line 1128: (
+Line 1128: ID = bdev_hardsect_size
+Line 1128: (
+Line 1128: ID = bdev
+Line 1128: )
+Line 1128: )
+Line 1128: ;
+Line 1130: if
+Line 1130: (
+Line 1130: ID = offset
+Line 1130: Unrecognized token: 38
+Line 1130: ID = blocksize_mask
+Line 1130: )
+Line 1130: {
+Line 1131: if
+Line 1131: (
+Line 1131: ID = bdev
+Line 1131: )
+Line 1132: ID = blkbits
+Line 1132: =
+Line 1132: ID = bdev_blkbits
+Line 1132: ;
+Line 1133: ID = blocksize_mask
+Line 1133: =
+Line 1133: (
+Line 1133: INTCON = 1
+Line 1133: <
+Line 1133: <
+Line 1133: ID = blkbits
+Line 1133: )
+Line 1133: -
+Line 1133: INTCON = 1
+Line 1133: ;
+Line 1134: if
+Line 1134: (
+Line 1134: ID = offset
+Line 1134: Unrecognized token: 38
+Line 1134: ID = blocksize_mask
+Line 1134: )
+Line 1135: ID = goto
+Line 1135: ID = out
+Line 1135: ;
+Line 1136: }
+Line 1139: for
+Line 1139: (
+Line 1139: ID = seg
+Line 1139: =
+Line 1139: INTCON = 0
+Line 1139: ;
+Line 1139: ID = seg
+Line 1139: <
+Line 1139: ID = nr_segs
+Line 1139: ;
+Line 1139: ID = seg
+Line 1139: +
+Line 1139: +
+Line 1139: )
+Line 1139: {
+Line 1140: ID = addr
+Line 1140: =
+Line 1140: (
+Line 1140: ID = unsigned
+Line 1140: ID = long
+Line 1140: )
+Line 1140: ID = iov
+Line 1140: [
+Line 1140: ID = seg
+Line 1140: ]
+Line 1140: Unrecognized token: 46
+Line 1140: ID = iov_base
+Line 1140: ;
+Line 1141: ID = size
+Line 1141: =
+Line 1141: ID = iov
+Line 1141: [
+Line 1141: ID = seg
+Line 1141: ]
+Line 1141: Unrecognized token: 46
+Line 1141: ID = iov_len
+Line 1141: ;
+Line 1142: ID = end
+Line 1142: +
+Line 1142: =
+Line 1142: ID = size
+Line 1142: ;
+Line 1143: if
+Line 1143: (
+Line 1143: (
+Line 1143: ID = addr
+Line 1143: Unrecognized token: 38
+Line 1143: ID = blocksize_mask
+Line 1143: )
+Line 1143: ||
+Line 1143: (
+Line 1143: ID = size
+Line 1143: Unrecognized token: 38
+Line 1143: ID = blocksize_mask
+Line 1143: )
+Line 1143: )
+Line 1143: {
+Line 1144: if
+Line 1144: (
+Line 1144: ID = bdev
+Line 1144: )
+Line 1145: ID = blkbits
+Line 1145: =
+Line 1145: ID = bdev_blkbits
+Line 1145: ;
+Line 1146: ID = blocksize_mask
+Line 1146: =
+Line 1146: (
+Line 1146: INTCON = 1
+Line 1146: <
+Line 1146: <
+Line 1146: ID = blkbits
+Line 1146: )
+Line 1146: -
+Line 1146: INTCON = 1
+Line 1146: ;
+Line 1147: if
+Line 1147: (
+Line 1147: (
+Line 1147: ID = addr
+Line 1147: Unrecognized token: 38
+Line 1147: ID = blocksize_mask
+Line 1147: )
+Line 1147: ||
+Line 1147: (
+Line 1147: ID = size
+Line 1147: Unrecognized token: 38
+Line 1147: ID = blocksize_mask
+Line 1147: )
+Line 1147: )
+Line 1148: ID = goto
+Line 1148: ID = out
+Line 1148: ;
+Line 1149: }
+Line 1150: }
+Line 1152: ID = dio
+Line 1152: =
+Line 1152: ID = kmalloc
+Line 1152: (
+Line 1152: ID = sizeof
+Line 1152: (
+Line 1152: *
+Line 1152: ID = dio
+Line 1152: )
+Line 1152: ,
+Line 1152: ID = GFP_KERNEL
+Line 1152: )
+Line 1152: ;
+Line 1153: ID = retval
+Line 1153: =
+Line 1153: -
+Line 1153: ID = ENOMEM
+Line 1153: ;
+Line 1154: if
+Line 1154: (
+Line 1154: !
+Line 1154: ID = dio
+Line 1154: )
+Line 1155: ID = goto
+Line 1155: ID = out
+Line 1155: ;
+Line 1162: ID = needs_locking
+Line 1162: =
+Line 1162: INTCON = 0
+Line 1162: ;
+Line 1163: if
+Line 1163: (
+Line 1163: ID = S_ISREG
+Line 1163: (
+Line 1163: ID = inode
+Line 1163: -
+Line 1163: >
+Line 1163: ID = i_mode
+Line 1163: )
+Line 1163: &&
+Line 1163: ID = needs_special_locking
+Line 1163: )
+Line 1163: {
+Line 1164: ID = needs_locking
+Line 1164: =
+Line 1164: INTCON = 1
+Line 1164: ;
+Line 1165: if
+Line 1165: (
+Line 1165: ID = rw
+Line 1165: ==
+Line 1165: ID = READ
+Line 1165: )
+Line 1165: {
+Line 1166: ID = struct
+Line 1166: ID = address_space
+Line 1166: *
+Line 1166: ID = mapping
+Line 1166: ;
+Line 1168: ID = mapping
+Line 1168: =
+Line 1168: ID = iocb
+Line 1168: -
+Line 1168: >
+Line 1168: ID = ki_filp
+Line 1168: -
+Line 1168: >
+Line 1168: ID = f_mapping
+Line 1168: ;
+Line 1169: ID = down
+Line 1169: (
+Line 1169: Unrecognized token: 38
+Line 1169: ID = inode
+Line 1169: -
+Line 1169: >
+Line 1169: ID = i_sem
+Line 1169: )
+Line 1169: ;
+Line 1170: ID = retval
+Line 1170: =
+Line 1170: ID = filemap_write_and_wait
+Line 1170: (
+Line 1170: ID = mapping
+Line 1170: )
+Line 1170: ;
+Line 1171: if
+Line 1171: (
+Line 1171: ID = retval
+Line 1171: )
+Line 1171: {
+Line 1172: ID = up
+Line 1172: (
+Line 1172: Unrecognized token: 38
+Line 1172: ID = inode
+Line 1172: -
+Line 1172: >
+Line 1172: ID = i_sem
+Line 1172: )
+Line 1172: ;
+Line 1173: ID = kfree
+Line 1173: (
+Line 1173: ID = dio
+Line 1173: )
+Line 1173: ;
+Line 1174: ID = goto
+Line 1174: ID = out
+Line 1174: ;
+Line 1175: }
+Line 1176: }
+Line 1177: ID = down_read
+Line 1177: (
+Line 1177: Unrecognized token: 38
+Line 1177: ID = inode
+Line 1177: -
+Line 1177: >
+Line 1177: ID = i_alloc_sem
+Line 1177: )
+Line 1177: ;
+Line 1178: }
+Line 1179: ID = dio
+Line 1179: -
+Line 1179: >
+Line 1179: ID = needs_locking
+Line 1179: =
+Line 1179: ID = needs_locking
+Line 1179: ;
+Line 1186: ID = dio
+Line 1186: -
+Line 1186: >
+Line 1186: ID = is_async
+Line 1186: =
+Line 1186: !
+Line 1186: ID = is_sync_kiocb
+Line 1186: (
+Line 1186: ID = iocb
+Line 1186: )
+Line 1186: &&
+Line 1186: !
+Line 1186: (
+Line 1186: (
+Line 1186: ID = rw
+Line 1186: ==
+Line 1186: ID = WRITE
+Line 1186: )
+Line 1186: &&
+Line 1187: (
+Line 1187: ID = end
+Line 1187: >
+Line 1187: ID = i_size_read
+Line 1187: (
+Line 1187: ID = inode
+Line 1187: )
+Line 1187: )
+Line 1187: )
+Line 1187: ;
+Line 1189: ID = retval
+Line 1189: =
+Line 1189: ID = direct_io_worker
+Line 1189: (
+Line 1189: ID = rw
+Line 1189: ,
+Line 1189: ID = iocb
+Line 1189: ,
+Line 1189: ID = inode
+Line 1189: ,
+Line 1189: ID = iov
+Line 1189: ,
+Line 1189: ID = offset
+Line 1189: ,
+Line 1190: ID = nr_segs
+Line 1190: ,
+Line 1190: ID = blkbits
+Line 1190: ,
+Line 1190: ID = get_blocks
+Line 1190: ,
+Line 1190: ID = end_io
+Line 1190: ,
+Line 1190: ID = dio
+Line 1190: )
+Line 1190: ;
+Line 1191: ID = out
+Line 1191: Unrecognized token: 58
+Line 1192: return
+Line 1192: ID = retval
+Line 1192: ;
+Line 1193: }
+Line 1194: ID = EXPORT_SYMBOL
+Line 1194: (
+Line 1194: Unrecognized token: 95
+Line 1194: Unrecognized token: 95
+Line 1194: ID = blockdev_direct_IO
+Line 1194: )
+Line 1194: ;
+Line 1195: -EOF-

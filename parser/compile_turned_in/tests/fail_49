@@ -1,0 +1,29 @@
+int
+main (int argc, char argv)
+{
+    int i = 0, j;       /* Not legal C-- */
+    char /* Hey now what happens here? */ k;
+    int a[10];
+    int x/* */[10/* */];
+    
+    for ( ; i < 10; i = i ++ 1) /* ERROR */
+    {
+        printf("WOwsers!\n");
+        x = x * y;
+        x == /***YARG****/ 1;                 /* ERROR */
+        x / 4;                              /* ERROR AGAIN */
+        x = 2;
+        while (okay);
+
+        if (blah)
+        {
+            i = i + 1;
+            oops /* ERROR */ 
+        } else
+        {
+            summat_else = 4;
+        }
+    }
+
+    return 0;
+}

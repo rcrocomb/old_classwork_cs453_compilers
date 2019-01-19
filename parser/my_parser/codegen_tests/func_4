@@ -1,0 +1,15 @@
+extern print_int(int a);
+extern print_string(char a[]);
+
+int main(void);
+
+int
+main(void)
+{
+    int b, c;
+    char d[2];
+    b = 4;
+    c = b + d[1];
+    return c;
+}
+

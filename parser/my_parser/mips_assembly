@@ -1,0 +1,195 @@
+# only 1 use allowed for each of 'x', 'y', and 'z'
+# doing more makes the text finder thingie more complicated
+
+# z = x || y
+OP_OR
+    load $t0, x
+    load $t1, y
+    or $t2, $t0, $t1
+    store $t2, z
+
+# z = x && y
+OP_AND
+    load $t0, x
+    load $t1, y
+    and $t2, $t0, $t1
+    store $t2, z
+
+
+# z = x + y
+OP_ADD
+    load $t0, x
+    load $t1, y
+    add $t2, $t0, $t1
+    store $t2, z
+
+# z = x - y
+OP_SUB
+    load $t0, x
+    load $t1, y
+    sub $t2, $t0, $t1
+    store $t2, z
+
+# z = x * y
+OP_MULT
+    load $t0, x
+    load $t1, y
+    mul $t2, $t0, $t1
+    store $t2, z
+
+# z = x / y
+OP_DIV
+    load $t0, x
+    load $t1, y
+    div $t2, $t0, $t1
+    store $t2, z
+
+# z = -x (is this better than z = 0 - x ?)
+OP_NEGATIVE
+    load $t0, x
+    neg $t2, $t0
+    store $t2, z
+
+# logical negation, not arithmetic
+# z = !x
+#
+# 1 - 0 = 1
+# 1 - 1 = 0
+OP_NOT
+    load $t0, x
+    li $t1, 1
+    sub $t2, $t1, $t0
+    store $t2, z
+
+# z = x
+OP_ASSIGN
+    load $t0, x
+    store $t0, z
+
+# goto 'x'
+OP_GOTO
+    j x
+    nop
+
+# z = x > y
+OP_GT
+    load $t0, x
+    load $t1, y
+    sgt $t2, $t0, $t1
+    store $t2, z
+
+# z = x >= y
+OP_GTE
+    load $t0, x
+    load $t1, y
+    sge $t2, $t0, $t1
+    store $t2, z
+
+# z = x < y
+OP_LT
+    load $t0, x
+    load $t1, y
+    slt $t2, $t0, $t1
+    store $t2, z
+
+# z = x <= y
+OP_LTE
+    load $t0, x
+    load $t1, y
+    sle $t2, $t0, $t1
+    store $t2, z
+
+# z = x == y
+OP_EQ
+    load $t0, x
+    load $t1, y
+    seq $t2, $t0, $t1
+    store $t2, z
+
+# z = x != y
+OP_NE
+    load $t0, x
+    load $t1, y
+    sne $t2, $t0, $t1
+    store $t2, z
+
+# if x == 0 goto y
+#
+# use OP_EQ, etc. stuff above to put result in a temp, then load that
+# as 'x' argument and branch to 'y'.
+OP_COND_BRANCH
+    load $t2, x
+    beqz $t2, y
+    nop
+
+# if x != 0 goto y
+OP_FALSE_COND_BRANCH
+    load $t2, x
+    bnez $t2, y
+    nop
+
+
+# put the label in 'x'
+OP_LABEL
+ x:
+
+
+# z = x[y]
+OP_ASSIGN_FROM_ARRAY
+# put address of array in $t0
+    la $t0, x
+# put offset in $t1
+    load $t1, y
+# convert offset into byte offset
+    INT: sll $t3, $t1, 2
+    CHAR: sll $t3, $t1, 0
+# get total offset by adding array address to byte offset
+    add $t4, $t3, $t0
+# load value thence
+    load $t6, 0($t4)
+# put into destination
+    store $t6, z
+
+# x[y] = z
+OP_ASSIGN_TO_ARRAY
+    la  $t0, x
+    load $t1, z
+    load $t3, y
+    INT: sll $t4, $t3, 2
+    CHAR: sll $t4, $t3, 0
+    add $t2, $t0, $t4
+# XXX: $t2 is the *address* of where we want to write.
+    store $t1, 0($t2)
+
+OP_CALL_FUNCTION
+    PARAMS
+    jal x
+    nop
+    store $v0, z
+
+# calling function 'x'
+#
+# this stuff goes just after the label to save frame pointer and
+# return address
+OP_ENTER_FUNCTION
+ x:
+    sw $fp, -4($sp)
+    sw $ra, -8($sp)
+    la $fp, 0($sp)
+    la $sp, -8($sp)
+    LOCAL
+
+# use for both void and non-void returns.
+OP_LEAVE_FUNCTION
+    RETURN
+    la $sp, 0($fp)
+    lw $ra, -8($sp)
+    lw $fp, -4($sp)
+    jr $ra
+    nop
+     
+
+OP_DUMMY
+
+OP_GLOBAL
+

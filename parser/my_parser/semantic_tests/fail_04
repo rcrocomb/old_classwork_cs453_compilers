@@ -1,0 +1,66 @@
+/* 
+    Statements 3.3.3
+
+    Only variables of type char or int, or elements of arrays, can be
+    assigned to; the type of the right hand side of an assignment must be
+    compatible with the type of the left hand size of that assignment. 
+*/
+
+/* I guess these are more syntactical tests, but WTFO */
+
+void alpha(void)
+{
+    'a' = 1;
+}
+
+void bravo(void)
+{
+    42 = 1;
+}
+
+void charlie(void)
+{
+    "bob" = 1;
+}
+
+/* int tests */
+
+void delta(void)
+{
+    int a[4];
+    a = 1;
+}
+
+void echo(void)
+{
+    int a[4];
+    a = 'a';
+}
+
+void foxtrot(void)
+{
+    int a[4];
+    a = "wow";
+}
+
+/* char tests */
+
+void golf(void)
+{
+    char a[4];
+    a = 1;
+}
+
+void hotel(void)
+{
+    int a[4];
+    a = 'a';
+}
+
+/* This is *not* legal according to 3.3.3 #1 */
+void india(void)
+{
+    char a[4];
+    a = "wow";
+}
+

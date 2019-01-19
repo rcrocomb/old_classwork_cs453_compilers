@@ -1,0 +1,31 @@
+This directory contains files for the scanner portion of the 
+first assignment:
+
+   Makefile
+	a make file that will build an executable "parse" 
+	implementing a scanner.
+	
+	This make file assumes that the scanner is in a file
+	called scanner.l -- this is not essential from the
+	project perspective, but if you change the make of your
+	scanner file you should (obviously) edit the make file
+	accordingly.
+
+   main.c
+	the driver routine that repeatedly calls the scanner
+	and prints out the token returned.  It shows how the
+	yylex() and printtoken() functions are called.
+
+   print.c
+	a file containing code to print out tokens.  
+
+   parse
+	a SPARC/Solaris executable (i.e., runs on lectura) of my scanner.
+	You could use this to compare the behavior of your scanner
+	with mine.  (I will check your code by diffing its output
+	against the output produced by this executable.)
+	
+	Usage:  parse < infile
+
+   tokens.h
+	a header file containing definitions of the various tokens.

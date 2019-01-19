@@ -1,0 +1,22 @@
+extern bob(void) /* error */
+
+void
+function(int thingie, int xyz blah_de_dah) /* error */
+{
+    int a;
+    char b;
+    void c; /* ouch */
+
+    for (x = 1; x < 10; x = x + 42)
+    {
+        bob = / x; /* whoops */
+    }
+
+    while (1)
+    {
+        charlie = go + home + now;
+        kaboom;  /* drat it */
+    }
+
+    bob = 1;
+}

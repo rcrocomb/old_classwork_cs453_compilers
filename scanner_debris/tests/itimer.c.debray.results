@@ -1,0 +1,688 @@
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = mm
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = smp_lock
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = interrupt
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 12: Unrecognized token: 35
+Line 12: ID = include
+Line 12: <
+Line 12: ID = linux
+Line 12: /
+Line 12: ID = time
+Line 12: Unrecognized token: 46
+Line 12: ID = h
+Line 12: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = asm
+Line 14: /
+Line 14: ID = uaccess
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 16: int
+Line 16: ID = do_getitimer
+Line 16: (
+Line 16: int
+Line 16: ID = which
+Line 16: ,
+Line 16: ID = struct
+Line 16: ID = itimerval
+Line 16: *
+Line 16: ID = value
+Line 16: )
+Line 17: {
+Line 18: ID = register
+Line 18: ID = unsigned
+Line 18: ID = long
+Line 18: ID = val
+Line 18: ,
+Line 18: ID = interval
+Line 18: ;
+Line 20: ID = switch
+Line 20: (
+Line 20: ID = which
+Line 20: )
+Line 20: {
+Line 21: ID = case
+Line 21: ID = ITIMER_REAL
+Line 21: Unrecognized token: 58
+Line 22: ID = interval
+Line 22: =
+Line 22: ID = current
+Line 22: -
+Line 22: >
+Line 22: ID = it_real_incr
+Line 22: ;
+Line 23: ID = val
+Line 23: =
+Line 23: INTCON = 0
+Line 23: ;
+Line 27: if
+Line 27: (
+Line 27: ID = timer_pending
+Line 27: (
+Line 27: Unrecognized token: 38
+Line 27: ID = current
+Line 27: -
+Line 27: >
+Line 27: ID = real_timer
+Line 27: )
+Line 27: )
+Line 27: {
+Line 28: ID = val
+Line 28: =
+Line 28: ID = current
+Line 28: -
+Line 28: >
+Line 28: ID = real_timer
+Line 28: Unrecognized token: 46
+Line 28: ID = expires
+Line 28: -
+Line 28: ID = jiffies
+Line 28: ;
+Line 31: if
+Line 31: (
+Line 31: (
+Line 31: ID = long
+Line 31: )
+Line 31: ID = val
+Line 31: <=
+Line 31: INTCON = 0
+Line 31: )
+Line 32: ID = val
+Line 32: =
+Line 32: INTCON = 1
+Line 32: ;
+Line 33: }
+Line 34: ID = break
+Line 34: ;
+Line 35: ID = case
+Line 35: ID = ITIMER_VIRTUAL
+Line 35: Unrecognized token: 58
+Line 36: ID = val
+Line 36: =
+Line 36: ID = current
+Line 36: -
+Line 36: >
+Line 36: ID = it_virt_value
+Line 36: ;
+Line 37: ID = interval
+Line 37: =
+Line 37: ID = current
+Line 37: -
+Line 37: >
+Line 37: ID = it_virt_incr
+Line 37: ;
+Line 38: ID = break
+Line 38: ;
+Line 39: ID = case
+Line 39: ID = ITIMER_PROF
+Line 39: Unrecognized token: 58
+Line 40: ID = val
+Line 40: =
+Line 40: ID = current
+Line 40: -
+Line 40: >
+Line 40: ID = it_prof_value
+Line 40: ;
+Line 41: ID = interval
+Line 41: =
+Line 41: ID = current
+Line 41: -
+Line 41: >
+Line 41: ID = it_prof_incr
+Line 41: ;
+Line 42: ID = break
+Line 42: ;
+Line 43: ID = default
+Line 43: Unrecognized token: 58
+Line 44: return
+Line 44: (
+Line 44: -
+Line 44: ID = EINVAL
+Line 44: )
+Line 44: ;
+Line 45: }
+Line 46: ID = jiffies_to_timeval
+Line 46: (
+Line 46: ID = val
+Line 46: ,
+Line 46: Unrecognized token: 38
+Line 46: ID = value
+Line 46: -
+Line 46: >
+Line 46: ID = it_value
+Line 46: )
+Line 46: ;
+Line 47: ID = jiffies_to_timeval
+Line 47: (
+Line 47: ID = interval
+Line 47: ,
+Line 47: Unrecognized token: 38
+Line 47: ID = value
+Line 47: -
+Line 47: >
+Line 47: ID = it_interval
+Line 47: )
+Line 47: ;
+Line 48: return
+Line 48: INTCON = 0
+Line 48: ;
+Line 49: }
+Line 52: ID = asmlinkage
+Line 52: ID = long
+Line 52: ID = sys_getitimer
+Line 52: (
+Line 52: int
+Line 52: ID = which
+Line 52: ,
+Line 52: ID = struct
+Line 52: ID = itimerval
+Line 52: Unrecognized token: 95
+Line 52: Unrecognized token: 95
+Line 52: ID = user
+Line 52: *
+Line 52: ID = value
+Line 52: )
+Line 53: {
+Line 54: int
+Line 54: ID = error
+Line 54: =
+Line 54: -
+Line 54: ID = EFAULT
+Line 54: ;
+Line 55: ID = struct
+Line 55: ID = itimerval
+Line 55: ID = get_buffer
+Line 55: ;
+Line 57: if
+Line 57: (
+Line 57: ID = value
+Line 57: )
+Line 57: {
+Line 58: ID = error
+Line 58: =
+Line 58: ID = do_getitimer
+Line 58: (
+Line 58: ID = which
+Line 58: ,
+Line 58: Unrecognized token: 38
+Line 58: ID = get_buffer
+Line 58: )
+Line 58: ;
+Line 59: if
+Line 59: (
+Line 59: !
+Line 59: ID = error
+Line 59: &&
+Line 60: ID = copy_to_user
+Line 60: (
+Line 60: ID = value
+Line 60: ,
+Line 60: Unrecognized token: 38
+Line 60: ID = get_buffer
+Line 60: ,
+Line 60: ID = sizeof
+Line 60: (
+Line 60: ID = get_buffer
+Line 60: )
+Line 60: )
+Line 60: )
+Line 61: ID = error
+Line 61: =
+Line 61: -
+Line 61: ID = EFAULT
+Line 61: ;
+Line 62: }
+Line 63: return
+Line 63: ID = error
+Line 63: ;
+Line 64: }
+Line 66: void
+Line 66: ID = it_real_fn
+Line 66: (
+Line 66: ID = unsigned
+Line 66: ID = long
+Line 66: Unrecognized token: 95
+Line 66: Unrecognized token: 95
+Line 66: ID = data
+Line 66: )
+Line 67: {
+Line 68: ID = struct
+Line 68: ID = task_struct
+Line 68: *
+Line 68: ID = p
+Line 68: =
+Line 68: (
+Line 68: ID = struct
+Line 68: ID = task_struct
+Line 68: *
+Line 68: )
+Line 68: Unrecognized token: 95
+Line 68: Unrecognized token: 95
+Line 68: ID = data
+Line 68: ;
+Line 69: ID = unsigned
+Line 69: ID = long
+Line 69: ID = interval
+Line 69: ;
+Line 71: ID = send_group_sig_info
+Line 71: (
+Line 71: ID = SIGALRM
+Line 71: ,
+Line 71: ID = SEND_SIG_PRIV
+Line 71: ,
+Line 71: ID = p
+Line 71: )
+Line 71: ;
+Line 72: ID = interval
+Line 72: =
+Line 72: ID = p
+Line 72: -
+Line 72: >
+Line 72: ID = it_real_incr
+Line 72: ;
+Line 73: if
+Line 73: (
+Line 73: ID = interval
+Line 73: )
+Line 73: {
+Line 74: if
+Line 74: (
+Line 74: ID = interval
+Line 74: >
+Line 74: (
+Line 74: ID = unsigned
+Line 74: ID = long
+Line 74: )
+Line 74: ID = LONG_MAX
+Line 74: )
+Line 75: ID = interval
+Line 75: =
+Line 75: ID = LONG_MAX
+Line 75: ;
+Line 76: ID = p
+Line 76: -
+Line 76: >
+Line 76: ID = real_timer
+Line 76: Unrecognized token: 46
+Line 76: ID = expires
+Line 76: =
+Line 76: ID = jiffies
+Line 76: +
+Line 76: ID = interval
+Line 76: ;
+Line 77: ID = add_timer
+Line 77: (
+Line 77: Unrecognized token: 38
+Line 77: ID = p
+Line 77: -
+Line 77: >
+Line 77: ID = real_timer
+Line 77: )
+Line 77: ;
+Line 78: }
+Line 79: }
+Line 81: int
+Line 81: ID = do_setitimer
+Line 81: (
+Line 81: int
+Line 81: ID = which
+Line 81: ,
+Line 81: ID = struct
+Line 81: ID = itimerval
+Line 81: *
+Line 81: ID = value
+Line 81: ,
+Line 81: ID = struct
+Line 81: ID = itimerval
+Line 81: *
+Line 81: ID = ovalue
+Line 81: )
+Line 82: {
+Line 83: ID = register
+Line 83: ID = unsigned
+Line 83: ID = long
+Line 83: ID = i
+Line 83: ,
+Line 83: ID = j
+Line 83: ;
+Line 84: int
+Line 84: ID = k
+Line 84: ;
+Line 86: ID = i
+Line 86: =
+Line 86: ID = timeval_to_jiffies
+Line 86: (
+Line 86: Unrecognized token: 38
+Line 86: ID = value
+Line 86: -
+Line 86: >
+Line 86: ID = it_interval
+Line 86: )
+Line 86: ;
+Line 87: ID = j
+Line 87: =
+Line 87: ID = timeval_to_jiffies
+Line 87: (
+Line 87: Unrecognized token: 38
+Line 87: ID = value
+Line 87: -
+Line 87: >
+Line 87: ID = it_value
+Line 87: )
+Line 87: ;
+Line 88: if
+Line 88: (
+Line 88: ID = ovalue
+Line 88: &&
+Line 88: (
+Line 88: ID = k
+Line 88: =
+Line 88: ID = do_getitimer
+Line 88: (
+Line 88: ID = which
+Line 88: ,
+Line 88: ID = ovalue
+Line 88: )
+Line 88: )
+Line 88: <
+Line 88: INTCON = 0
+Line 88: )
+Line 89: return
+Line 89: ID = k
+Line 89: ;
+Line 90: ID = switch
+Line 90: (
+Line 90: ID = which
+Line 90: )
+Line 90: {
+Line 91: ID = case
+Line 91: ID = ITIMER_REAL
+Line 91: Unrecognized token: 58
+Line 92: ID = del_timer_sync
+Line 92: (
+Line 92: Unrecognized token: 38
+Line 92: ID = current
+Line 92: -
+Line 92: >
+Line 92: ID = real_timer
+Line 92: )
+Line 92: ;
+Line 93: ID = current
+Line 93: -
+Line 93: >
+Line 93: ID = it_real_value
+Line 93: =
+Line 93: ID = j
+Line 93: ;
+Line 94: ID = current
+Line 94: -
+Line 94: >
+Line 94: ID = it_real_incr
+Line 94: =
+Line 94: ID = i
+Line 94: ;
+Line 95: if
+Line 95: (
+Line 95: !
+Line 95: ID = j
+Line 95: )
+Line 96: ID = break
+Line 96: ;
+Line 97: if
+Line 97: (
+Line 97: ID = j
+Line 97: >
+Line 97: (
+Line 97: ID = unsigned
+Line 97: ID = long
+Line 97: )
+Line 97: ID = LONG_MAX
+Line 97: )
+Line 98: ID = j
+Line 98: =
+Line 98: ID = LONG_MAX
+Line 98: ;
+Line 99: ID = i
+Line 99: =
+Line 99: ID = j
+Line 99: +
+Line 99: ID = jiffies
+Line 99: ;
+Line 100: ID = current
+Line 100: -
+Line 100: >
+Line 100: ID = real_timer
+Line 100: Unrecognized token: 46
+Line 100: ID = expires
+Line 100: =
+Line 100: ID = i
+Line 100: ;
+Line 101: ID = add_timer
+Line 101: (
+Line 101: Unrecognized token: 38
+Line 101: ID = current
+Line 101: -
+Line 101: >
+Line 101: ID = real_timer
+Line 101: )
+Line 101: ;
+Line 102: ID = break
+Line 102: ;
+Line 103: ID = case
+Line 103: ID = ITIMER_VIRTUAL
+Line 103: Unrecognized token: 58
+Line 104: if
+Line 104: (
+Line 104: ID = j
+Line 104: )
+Line 105: ID = j
+Line 105: +
+Line 105: +
+Line 105: ;
+Line 106: ID = current
+Line 106: -
+Line 106: >
+Line 106: ID = it_virt_value
+Line 106: =
+Line 106: ID = j
+Line 106: ;
+Line 107: ID = current
+Line 107: -
+Line 107: >
+Line 107: ID = it_virt_incr
+Line 107: =
+Line 107: ID = i
+Line 107: ;
+Line 108: ID = break
+Line 108: ;
+Line 109: ID = case
+Line 109: ID = ITIMER_PROF
+Line 109: Unrecognized token: 58
+Line 110: if
+Line 110: (
+Line 110: ID = j
+Line 110: )
+Line 111: ID = j
+Line 111: +
+Line 111: +
+Line 111: ;
+Line 112: ID = current
+Line 112: -
+Line 112: >
+Line 112: ID = it_prof_value
+Line 112: =
+Line 112: ID = j
+Line 112: ;
+Line 113: ID = current
+Line 113: -
+Line 113: >
+Line 113: ID = it_prof_incr
+Line 113: =
+Line 113: ID = i
+Line 113: ;
+Line 114: ID = break
+Line 114: ;
+Line 115: ID = default
+Line 115: Unrecognized token: 58
+Line 116: return
+Line 116: -
+Line 116: ID = EINVAL
+Line 116: ;
+Line 117: }
+Line 118: return
+Line 118: INTCON = 0
+Line 118: ;
+Line 119: }
+Line 124: ID = asmlinkage
+Line 124: ID = long
+Line 124: ID = sys_setitimer
+Line 124: (
+Line 124: int
+Line 124: ID = which
+Line 124: ,
+Line 125: ID = struct
+Line 125: ID = itimerval
+Line 125: Unrecognized token: 95
+Line 125: Unrecognized token: 95
+Line 125: ID = user
+Line 125: *
+Line 125: ID = value
+Line 125: ,
+Line 126: ID = struct
+Line 126: ID = itimerval
+Line 126: Unrecognized token: 95
+Line 126: Unrecognized token: 95
+Line 126: ID = user
+Line 126: *
+Line 126: ID = ovalue
+Line 126: )
+Line 127: {
+Line 128: ID = struct
+Line 128: ID = itimerval
+Line 128: ID = set_buffer
+Line 128: ,
+Line 128: ID = get_buffer
+Line 128: ;
+Line 129: int
+Line 129: ID = error
+Line 129: ;
+Line 131: if
+Line 131: (
+Line 131: ID = value
+Line 131: )
+Line 131: {
+Line 132: if
+Line 132: (
+Line 132: ID = copy_from_user
+Line 132: (
+Line 132: Unrecognized token: 38
+Line 132: ID = set_buffer
+Line 132: ,
+Line 132: ID = value
+Line 132: ,
+Line 132: ID = sizeof
+Line 132: (
+Line 132: ID = set_buffer
+Line 132: )
+Line 132: )
+Line 132: )
+Line 133: return
+Line 133: -
+Line 133: ID = EFAULT
+Line 133: ;
+Line 134: }
+Line 134: else
+Line 135: ID = memset
+Line 135: (
+Line 135: (
+Line 135: char
+Line 135: *
+Line 135: )
+Line 135: Unrecognized token: 38
+Line 135: ID = set_buffer
+Line 135: ,
+Line 135: INTCON = 0
+Line 135: ,
+Line 135: ID = sizeof
+Line 135: (
+Line 135: ID = set_buffer
+Line 135: )
+Line 135: )
+Line 135: ;
+Line 137: ID = error
+Line 137: =
+Line 137: ID = do_setitimer
+Line 137: (
+Line 137: ID = which
+Line 137: ,
+Line 137: Unrecognized token: 38
+Line 137: ID = set_buffer
+Line 137: ,
+Line 137: ID = ovalue
+Line 137: Unrecognized token: 63
+Line 137: Unrecognized token: 38
+Line 137: ID = get_buffer
+Line 137: Unrecognized token: 58
+Line 137: ID = NULL
+Line 137: )
+Line 137: ;
+Line 138: if
+Line 138: (
+Line 138: ID = error
+Line 138: ||
+Line 138: !
+Line 138: ID = ovalue
+Line 138: )
+Line 139: return
+Line 139: ID = error
+Line 139: ;
+Line 141: if
+Line 141: (
+Line 141: ID = copy_to_user
+Line 141: (
+Line 141: ID = ovalue
+Line 141: ,
+Line 141: Unrecognized token: 38
+Line 141: ID = get_buffer
+Line 141: ,
+Line 141: ID = sizeof
+Line 141: (
+Line 141: ID = get_buffer
+Line 141: )
+Line 141: )
+Line 141: )
+Line 142: return
+Line 142: -
+Line 142: ID = EFAULT
+Line 142: ;
+Line 143: return
+Line 143: INTCON = 0
+Line 143: ;
+Line 144: }
+Line 145: -EOF-

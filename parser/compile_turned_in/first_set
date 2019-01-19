@@ -1,0 +1,46 @@
+program: EXTERN INT CHAR VOID ID
+program_element: EXTERN INT CHAR VOID ID
+program_prime: EXTERN INT CHAR VOID ID
+func_or_var_thing: LPAREN COMMA LBRACKET SEMICOLON
+func_decl_or_body: COMMA SEMICOLON LBRACE
+func_type: INT CHAR VOID
+func_name_and_args: ID
+func_decl_tail: COMMA
+func_body: INT CHAR IF WHILE FOR LBRACE RETURN ID SEMICOLON
+type_stmt: INT CHAR
+array_maybe: LBRACE
+stmt_sequence: IF WHILE FOR LBRACE RETURN ID SEMICOLON
+stmt: IF WHILE FOR LBRACE RETURN ID SEMICOLON
+buncho_var_decls: INT CHAR
+buncho_var_decls_prime: INT CHAR
+var_decl: ID
+var_decl_tail: COMMA
+array_decl_maybe: LBRACE
+param_types: INT CHAR VOID
+param_types_tail: COMMA
+type: INT CHAR
+assg: ID
+assg_prime: ASSIGNMENT LBRACKET
+assg_or_id: ID
+assg_or_id_prime: ASSIGNMENT LBRACKET LPAREN
+id_paren_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+for_A: ID SEMICOLON
+for_B: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN SEMICOLON
+for_C: ID
+expr_maybe: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+expr_tail: COMMA RPAREN
+expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+expr_prime: OR
+and_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+and_expr_prime: AND
+eq_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+eq_expr_prime: NE EQ
+cmp_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+cmp_expr_prime: LT LE GT GE
+add_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+add_expr_prime: PLUS MINUS
+mult_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+mult_expr_prime: MULT DIV
+unary_expr: NEG MINUS CHARCON INTCON STRINGCON ID LPAREN
+id_expr: ID
+id_expr_prime: LPAREN LBRACKET

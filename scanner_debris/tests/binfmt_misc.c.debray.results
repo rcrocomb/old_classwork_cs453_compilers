@@ -1,0 +1,3977 @@
+Line 19: Unrecognized token: 35
+Line 19: ID = include
+Line 19: <
+Line 19: ID = linux
+Line 19: /
+Line 19: ID = module
+Line 19: Unrecognized token: 46
+Line 19: ID = h
+Line 19: >
+Line 20: Unrecognized token: 35
+Line 20: ID = include
+Line 20: <
+Line 20: ID = linux
+Line 20: /
+Line 20: ID = init
+Line 20: Unrecognized token: 46
+Line 20: ID = h
+Line 20: >
+Line 22: Unrecognized token: 35
+Line 22: ID = include
+Line 22: <
+Line 22: ID = linux
+Line 22: /
+Line 22: ID = binfmts
+Line 22: Unrecognized token: 46
+Line 22: ID = h
+Line 22: >
+Line 23: Unrecognized token: 35
+Line 23: ID = include
+Line 23: <
+Line 23: ID = linux
+Line 23: /
+Line 23: ID = slab
+Line 23: Unrecognized token: 46
+Line 23: ID = h
+Line 23: >
+Line 24: Unrecognized token: 35
+Line 24: ID = include
+Line 24: <
+Line 24: ID = linux
+Line 24: /
+Line 24: ID = ctype
+Line 24: Unrecognized token: 46
+Line 24: ID = h
+Line 24: >
+Line 25: Unrecognized token: 35
+Line 25: ID = include
+Line 25: <
+Line 25: ID = linux
+Line 25: /
+Line 25: ID = file
+Line 25: Unrecognized token: 46
+Line 25: ID = h
+Line 25: >
+Line 26: Unrecognized token: 35
+Line 26: ID = include
+Line 26: <
+Line 26: ID = linux
+Line 26: /
+Line 26: ID = pagemap
+Line 26: Unrecognized token: 46
+Line 26: ID = h
+Line 26: >
+Line 27: Unrecognized token: 35
+Line 27: ID = include
+Line 27: <
+Line 27: ID = linux
+Line 27: /
+Line 27: ID = namei
+Line 27: Unrecognized token: 46
+Line 27: ID = h
+Line 27: >
+Line 28: Unrecognized token: 35
+Line 28: ID = include
+Line 28: <
+Line 28: ID = linux
+Line 28: /
+Line 28: ID = mount
+Line 28: Unrecognized token: 46
+Line 28: ID = h
+Line 28: >
+Line 29: Unrecognized token: 35
+Line 29: ID = include
+Line 29: <
+Line 29: ID = linux
+Line 29: /
+Line 29: ID = syscalls
+Line 29: Unrecognized token: 46
+Line 29: ID = h
+Line 29: >
+Line 31: Unrecognized token: 35
+Line 31: ID = include
+Line 31: <
+Line 31: ID = asm
+Line 31: /
+Line 31: ID = uaccess
+Line 31: Unrecognized token: 46
+Line 31: ID = h
+Line 31: >
+Line 33: ID = enum
+Line 33: {
+Line 34: ID = VERBOSE_STATUS
+Line 34: =
+Line 34: INTCON = 1
+Line 35: }
+Line 35: ;
+Line 37: ID = static
+Line 37: ID = LIST_HEAD
+Line 37: (
+Line 37: ID = entries
+Line 37: )
+Line 37: ;
+Line 38: ID = static
+Line 38: int
+Line 38: ID = enabled
+Line 38: =
+Line 38: INTCON = 1
+Line 38: ;
+Line 40: ID = enum
+Line 40: {
+Line 40: ID = Enabled
+Line 40: ,
+Line 40: ID = Magic
+Line 40: }
+Line 40: ;
+Line 41: Unrecognized token: 35
+Line 41: ID = define
+Line 41: ID = MISC_FMT_PRESERVE_ARGV0
+Line 41: (
+Line 41: INTCON = 1
+Line 41: <
+Line 41: <
+Line 41: INTCON = 31
+Line 41: )
+Line 42: Unrecognized token: 35
+Line 42: ID = define
+Line 42: ID = MISC_FMT_OPEN_BINARY
+Line 42: (
+Line 42: INTCON = 1
+Line 42: <
+Line 42: <
+Line 42: INTCON = 30
+Line 42: )
+Line 43: Unrecognized token: 35
+Line 43: ID = define
+Line 43: ID = MISC_FMT_CREDENTIALS
+Line 43: (
+Line 43: INTCON = 1
+Line 43: <
+Line 43: <
+Line 43: INTCON = 29
+Line 43: )
+Line 45: ID = typedef
+Line 45: ID = struct
+Line 45: {
+Line 46: ID = struct
+Line 46: ID = list_head
+Line 46: ID = list
+Line 46: ;
+Line 47: ID = unsigned
+Line 47: ID = long
+Line 47: ID = flags
+Line 47: ;
+Line 48: int
+Line 48: ID = offset
+Line 48: ;
+Line 49: int
+Line 49: ID = size
+Line 49: ;
+Line 50: char
+Line 50: *
+Line 50: ID = magic
+Line 50: ;
+Line 51: char
+Line 51: *
+Line 51: ID = mask
+Line 51: ;
+Line 52: char
+Line 52: *
+Line 52: ID = interpreter
+Line 52: ;
+Line 53: char
+Line 53: *
+Line 53: ID = name
+Line 53: ;
+Line 54: ID = struct
+Line 54: ID = dentry
+Line 54: *
+Line 54: ID = dentry
+Line 54: ;
+Line 55: }
+Line 55: ID = Node
+Line 55: ;
+Line 57: ID = static
+Line 57: ID = rwlock_t
+Line 57: ID = entries_lock
+Line 57: =
+Line 57: ID = RW_LOCK_UNLOCKED
+Line 57: ;
+Line 58: ID = static
+Line 58: ID = struct
+Line 58: ID = vfsmount
+Line 58: *
+Line 58: ID = bm_mnt
+Line 58: ;
+Line 59: ID = static
+Line 59: int
+Line 59: ID = entry_count
+Line 59: ;
+Line 66: ID = static
+Line 66: ID = Node
+Line 66: *
+Line 66: ID = check_file
+Line 66: (
+Line 66: ID = struct
+Line 66: ID = linux_binprm
+Line 66: *
+Line 66: ID = bprm
+Line 66: )
+Line 67: {
+Line 68: char
+Line 68: *
+Line 68: ID = p
+Line 68: =
+Line 68: ID = strrchr
+Line 68: (
+Line 68: ID = bprm
+Line 68: -
+Line 68: >
+Line 68: ID = interp
+Line 68: ,
+Line 68: CHARCON = '.'
+Line 68: )
+Line 68: ;
+Line 69: ID = struct
+Line 69: ID = list_head
+Line 69: *
+Line 69: ID = l
+Line 69: ;
+Line 71: ID = list_for_each
+Line 71: (
+Line 71: ID = l
+Line 71: ,
+Line 71: Unrecognized token: 38
+Line 71: ID = entries
+Line 71: )
+Line 71: {
+Line 72: ID = Node
+Line 72: *
+Line 72: ID = e
+Line 72: =
+Line 72: ID = list_entry
+Line 72: (
+Line 72: ID = l
+Line 72: ,
+Line 72: ID = Node
+Line 72: ,
+Line 72: ID = list
+Line 72: )
+Line 72: ;
+Line 73: char
+Line 73: *
+Line 73: ID = s
+Line 73: ;
+Line 74: int
+Line 74: ID = j
+Line 74: ;
+Line 76: if
+Line 76: (
+Line 76: !
+Line 76: ID = test_bit
+Line 76: (
+Line 76: ID = Enabled
+Line 76: ,
+Line 76: Unrecognized token: 38
+Line 76: ID = e
+Line 76: -
+Line 76: >
+Line 76: ID = flags
+Line 76: )
+Line 76: )
+Line 77: ID = continue
+Line 77: ;
+Line 79: if
+Line 79: (
+Line 79: !
+Line 79: ID = test_bit
+Line 79: (
+Line 79: ID = Magic
+Line 79: ,
+Line 79: Unrecognized token: 38
+Line 79: ID = e
+Line 79: -
+Line 79: >
+Line 79: ID = flags
+Line 79: )
+Line 79: )
+Line 79: {
+Line 80: if
+Line 80: (
+Line 80: ID = p
+Line 80: &&
+Line 80: !
+Line 80: ID = strcmp
+Line 80: (
+Line 80: ID = e
+Line 80: -
+Line 80: >
+Line 80: ID = magic
+Line 80: ,
+Line 80: ID = p
+Line 80: +
+Line 80: INTCON = 1
+Line 80: )
+Line 80: )
+Line 81: return
+Line 81: ID = e
+Line 81: ;
+Line 82: ID = continue
+Line 82: ;
+Line 83: }
+Line 85: ID = s
+Line 85: =
+Line 85: ID = bprm
+Line 85: -
+Line 85: >
+Line 85: ID = buf
+Line 85: +
+Line 85: ID = e
+Line 85: -
+Line 85: >
+Line 85: ID = offset
+Line 85: ;
+Line 86: if
+Line 86: (
+Line 86: ID = e
+Line 86: -
+Line 86: >
+Line 86: ID = mask
+Line 86: )
+Line 86: {
+Line 87: for
+Line 87: (
+Line 87: ID = j
+Line 87: =
+Line 87: INTCON = 0
+Line 87: ;
+Line 87: ID = j
+Line 87: <
+Line 87: ID = e
+Line 87: -
+Line 87: >
+Line 87: ID = size
+Line 87: ;
+Line 87: ID = j
+Line 87: +
+Line 87: +
+Line 87: )
+Line 88: if
+Line 88: (
+Line 88: (
+Line 88: *
+Line 88: ID = s
+Line 88: +
+Line 88: +
+Line 88: Unrecognized token: 94
+Line 88: ID = e
+Line 88: -
+Line 88: >
+Line 88: ID = magic
+Line 88: [
+Line 88: ID = j
+Line 88: ]
+Line 88: )
+Line 88: Unrecognized token: 38
+Line 88: ID = e
+Line 88: -
+Line 88: >
+Line 88: ID = mask
+Line 88: [
+Line 88: ID = j
+Line 88: ]
+Line 88: )
+Line 89: ID = break
+Line 89: ;
+Line 90: }
+Line 90: else
+Line 90: {
+Line 91: for
+Line 91: (
+Line 91: ID = j
+Line 91: =
+Line 91: INTCON = 0
+Line 91: ;
+Line 91: ID = j
+Line 91: <
+Line 91: ID = e
+Line 91: -
+Line 91: >
+Line 91: ID = size
+Line 91: ;
+Line 91: ID = j
+Line 91: +
+Line 91: +
+Line 91: )
+Line 92: if
+Line 92: (
+Line 92: (
+Line 92: *
+Line 92: ID = s
+Line 92: +
+Line 92: +
+Line 92: Unrecognized token: 94
+Line 92: ID = e
+Line 92: -
+Line 92: >
+Line 92: ID = magic
+Line 92: [
+Line 92: ID = j
+Line 92: ]
+Line 92: )
+Line 92: )
+Line 93: ID = break
+Line 93: ;
+Line 94: }
+Line 95: if
+Line 95: (
+Line 95: ID = j
+Line 95: ==
+Line 95: ID = e
+Line 95: -
+Line 95: >
+Line 95: ID = size
+Line 95: )
+Line 96: return
+Line 96: ID = e
+Line 96: ;
+Line 97: }
+Line 98: return
+Line 98: ID = NULL
+Line 98: ;
+Line 99: }
+Line 104: ID = static
+Line 104: int
+Line 104: ID = load_misc_binary
+Line 104: (
+Line 104: ID = struct
+Line 104: ID = linux_binprm
+Line 104: *
+Line 104: ID = bprm
+Line 104: ,
+Line 104: ID = struct
+Line 104: ID = pt_regs
+Line 104: *
+Line 104: ID = regs
+Line 104: )
+Line 105: {
+Line 106: ID = Node
+Line 106: *
+Line 106: ID = fmt
+Line 106: ;
+Line 107: ID = struct
+Line 107: ID = file
+Line 107: *
+Line 107: ID = interp_file
+Line 107: =
+Line 107: ID = NULL
+Line 107: ;
+Line 108: char
+Line 108: ID = iname
+Line 108: [
+Line 108: ID = BINPRM_BUF_SIZE
+Line 108: ]
+Line 108: ;
+Line 109: char
+Line 109: *
+Line 109: ID = iname_addr
+Line 109: =
+Line 109: ID = iname
+Line 109: ;
+Line 110: int
+Line 110: ID = retval
+Line 110: ;
+Line 111: int
+Line 111: ID = fd_binary
+Line 111: =
+Line 111: -
+Line 111: INTCON = 1
+Line 111: ;
+Line 112: ID = struct
+Line 112: ID = files_struct
+Line 112: *
+Line 112: ID = files
+Line 112: =
+Line 112: ID = NULL
+Line 112: ;
+Line 114: ID = retval
+Line 114: =
+Line 114: -
+Line 114: ID = ENOEXEC
+Line 114: ;
+Line 115: if
+Line 115: (
+Line 115: !
+Line 115: ID = enabled
+Line 115: )
+Line 116: ID = goto
+Line 116: Unrecognized token: 95
+Line 116: ID = ret
+Line 116: ;
+Line 119: ID = read_lock
+Line 119: (
+Line 119: Unrecognized token: 38
+Line 119: ID = entries_lock
+Line 119: )
+Line 119: ;
+Line 120: ID = fmt
+Line 120: =
+Line 120: ID = check_file
+Line 120: (
+Line 120: ID = bprm
+Line 120: )
+Line 120: ;
+Line 121: if
+Line 121: (
+Line 121: ID = fmt
+Line 121: )
+Line 122: ID = strlcpy
+Line 122: (
+Line 122: ID = iname
+Line 122: ,
+Line 122: ID = fmt
+Line 122: -
+Line 122: >
+Line 122: ID = interpreter
+Line 122: ,
+Line 122: ID = BINPRM_BUF_SIZE
+Line 122: )
+Line 122: ;
+Line 123: ID = read_unlock
+Line 123: (
+Line 123: Unrecognized token: 38
+Line 123: ID = entries_lock
+Line 123: )
+Line 123: ;
+Line 124: if
+Line 124: (
+Line 124: !
+Line 124: ID = fmt
+Line 124: )
+Line 125: ID = goto
+Line 125: Unrecognized token: 95
+Line 125: ID = ret
+Line 125: ;
+Line 127: if
+Line 127: (
+Line 127: !
+Line 127: (
+Line 127: ID = fmt
+Line 127: -
+Line 127: >
+Line 127: ID = flags
+Line 127: Unrecognized token: 38
+Line 127: ID = MISC_FMT_PRESERVE_ARGV0
+Line 127: )
+Line 127: )
+Line 127: {
+Line 128: ID = remove_arg_zero
+Line 128: (
+Line 128: ID = bprm
+Line 128: )
+Line 128: ;
+Line 129: }
+Line 131: if
+Line 131: (
+Line 131: ID = fmt
+Line 131: -
+Line 131: >
+Line 131: ID = flags
+Line 131: Unrecognized token: 38
+Line 131: ID = MISC_FMT_OPEN_BINARY
+Line 131: )
+Line 131: {
+Line 133: ID = files
+Line 133: =
+Line 133: ID = current
+Line 133: -
+Line 133: >
+Line 133: ID = files
+Line 133: ;
+Line 134: ID = retval
+Line 134: =
+Line 134: ID = unshare_files
+Line 134: (
+Line 134: )
+Line 134: ;
+Line 135: if
+Line 135: (
+Line 135: ID = retval
+Line 135: <
+Line 135: INTCON = 0
+Line 135: )
+Line 136: ID = goto
+Line 136: Unrecognized token: 95
+Line 136: ID = ret
+Line 136: ;
+Line 137: if
+Line 137: (
+Line 137: ID = files
+Line 137: ==
+Line 137: ID = current
+Line 137: -
+Line 137: >
+Line 137: ID = files
+Line 137: )
+Line 137: {
+Line 138: ID = put_files_struct
+Line 138: (
+Line 138: ID = files
+Line 138: )
+Line 138: ;
+Line 139: ID = files
+Line 139: =
+Line 139: ID = NULL
+Line 139: ;
+Line 140: }
+Line 144: ID = fd_binary
+Line 144: =
+Line 144: ID = get_unused_fd
+Line 144: (
+Line 144: )
+Line 144: ;
+Line 145: if
+Line 145: (
+Line 145: ID = fd_binary
+Line 145: <
+Line 145: INTCON = 0
+Line 145: )
+Line 145: {
+Line 146: ID = retval
+Line 146: =
+Line 146: ID = fd_binary
+Line 146: ;
+Line 147: ID = goto
+Line 147: Unrecognized token: 95
+Line 147: ID = unshare
+Line 147: ;
+Line 148: }
+Line 149: ID = fd_install
+Line 149: (
+Line 149: ID = fd_binary
+Line 149: ,
+Line 149: ID = bprm
+Line 149: -
+Line 149: >
+Line 149: ID = file
+Line 149: )
+Line 149: ;
+Line 153: if
+Line 153: (
+Line 153: ID = permission
+Line 153: (
+Line 153: ID = bprm
+Line 153: -
+Line 153: >
+Line 153: ID = file
+Line 153: -
+Line 153: >
+Line 153: ID = f_dentry
+Line 153: -
+Line 153: >
+Line 153: ID = d_inode
+Line 153: ,
+Line 153: ID = MAY_READ
+Line 153: ,
+Line 153: ID = NULL
+Line 153: )
+Line 153: )
+Line 154: ID = bprm
+Line 154: -
+Line 154: >
+Line 154: ID = interp_flags
+Line 154: Unrecognized token: 124
+Line 154: =
+Line 154: ID = BINPRM_FLAGS_ENFORCE_NONDUMP
+Line 154: ;
+Line 156: ID = allow_write_access
+Line 156: (
+Line 156: ID = bprm
+Line 156: -
+Line 156: >
+Line 156: ID = file
+Line 156: )
+Line 156: ;
+Line 157: ID = bprm
+Line 157: -
+Line 157: >
+Line 157: ID = file
+Line 157: =
+Line 157: ID = NULL
+Line 157: ;
+Line 160: ID = bprm
+Line 160: -
+Line 160: >
+Line 160: ID = interp_flags
+Line 160: Unrecognized token: 124
+Line 160: =
+Line 160: ID = BINPRM_FLAGS_EXECFD
+Line 160: ;
+Line 161: ID = bprm
+Line 161: -
+Line 161: >
+Line 161: ID = interp_data
+Line 161: =
+Line 161: ID = fd_binary
+Line 161: ;
+Line 163: }
+Line 163: else
+Line 163: {
+Line 164: ID = allow_write_access
+Line 164: (
+Line 164: ID = bprm
+Line 164: -
+Line 164: >
+Line 164: ID = file
+Line 164: )
+Line 164: ;
+Line 165: ID = fput
+Line 165: (
+Line 165: ID = bprm
+Line 165: -
+Line 165: >
+Line 165: ID = file
+Line 165: )
+Line 165: ;
+Line 166: ID = bprm
+Line 166: -
+Line 166: >
+Line 166: ID = file
+Line 166: =
+Line 166: ID = NULL
+Line 166: ;
+Line 167: }
+Line 169: ID = retval
+Line 169: =
+Line 169: ID = copy_strings_kernel
+Line 169: (
+Line 169: INTCON = 1
+Line 169: ,
+Line 169: Unrecognized token: 38
+Line 169: ID = bprm
+Line 169: -
+Line 169: >
+Line 169: ID = interp
+Line 169: ,
+Line 169: ID = bprm
+Line 169: )
+Line 169: ;
+Line 170: if
+Line 170: (
+Line 170: ID = retval
+Line 170: <
+Line 170: INTCON = 0
+Line 170: )
+Line 171: ID = goto
+Line 171: Unrecognized token: 95
+Line 171: ID = error
+Line 171: ;
+Line 172: ID = bprm
+Line 172: -
+Line 172: >
+Line 172: ID = argc
+Line 172: +
+Line 172: +
+Line 172: ;
+Line 175: ID = retval
+Line 175: =
+Line 175: ID = copy_strings_kernel
+Line 175: (
+Line 175: INTCON = 1
+Line 175: ,
+Line 175: Unrecognized token: 38
+Line 175: ID = iname_addr
+Line 175: ,
+Line 175: ID = bprm
+Line 175: )
+Line 175: ;
+Line 176: if
+Line 176: (
+Line 176: ID = retval
+Line 176: <
+Line 176: INTCON = 0
+Line 176: )
+Line 177: ID = goto
+Line 177: Unrecognized token: 95
+Line 177: ID = error
+Line 177: ;
+Line 178: ID = bprm
+Line 178: -
+Line 178: >
+Line 178: ID = argc
+Line 178: +
+Line 178: +
+Line 178: ;
+Line 180: ID = bprm
+Line 180: -
+Line 180: >
+Line 180: ID = interp
+Line 180: =
+Line 180: ID = iname
+Line 180: ;
+Line 182: ID = interp_file
+Line 182: =
+Line 182: ID = open_exec
+Line 182: (
+Line 182: ID = iname
+Line 182: )
+Line 182: ;
+Line 183: ID = retval
+Line 183: =
+Line 183: ID = PTR_ERR
+Line 183: (
+Line 183: ID = interp_file
+Line 183: )
+Line 183: ;
+Line 184: if
+Line 184: (
+Line 184: ID = IS_ERR
+Line 184: (
+Line 184: ID = interp_file
+Line 184: )
+Line 184: )
+Line 185: ID = goto
+Line 185: Unrecognized token: 95
+Line 185: ID = error
+Line 185: ;
+Line 187: ID = bprm
+Line 187: -
+Line 187: >
+Line 187: ID = file
+Line 187: =
+Line 187: ID = interp_file
+Line 187: ;
+Line 188: if
+Line 188: (
+Line 188: ID = fmt
+Line 188: -
+Line 188: >
+Line 188: ID = flags
+Line 188: Unrecognized token: 38
+Line 188: ID = MISC_FMT_CREDENTIALS
+Line 188: )
+Line 188: {
+Line 193: ID = memset
+Line 193: (
+Line 193: ID = bprm
+Line 193: -
+Line 193: >
+Line 193: ID = buf
+Line 193: ,
+Line 193: INTCON = 0
+Line 193: ,
+Line 193: ID = BINPRM_BUF_SIZE
+Line 193: )
+Line 193: ;
+Line 194: ID = retval
+Line 194: =
+Line 194: ID = kernel_read
+Line 194: (
+Line 194: ID = bprm
+Line 194: -
+Line 194: >
+Line 194: ID = file
+Line 194: ,
+Line 194: INTCON = 0
+Line 194: ,
+Line 194: ID = bprm
+Line 194: -
+Line 194: >
+Line 194: ID = buf
+Line 194: ,
+Line 194: ID = BINPRM_BUF_SIZE
+Line 194: )
+Line 194: ;
+Line 195: }
+Line 195: else
+Line 196: ID = retval
+Line 196: =
+Line 196: ID = prepare_binprm
+Line 196: (
+Line 196: ID = bprm
+Line 196: )
+Line 196: ;
+Line 198: if
+Line 198: (
+Line 198: ID = retval
+Line 198: <
+Line 198: INTCON = 0
+Line 198: )
+Line 199: ID = goto
+Line 199: Unrecognized token: 95
+Line 199: ID = error
+Line 199: ;
+Line 201: ID = retval
+Line 201: =
+Line 201: ID = search_binary_handler
+Line 201: (
+Line 201: ID = bprm
+Line 201: ,
+Line 201: ID = regs
+Line 201: )
+Line 201: ;
+Line 202: if
+Line 202: (
+Line 202: ID = retval
+Line 202: <
+Line 202: INTCON = 0
+Line 202: )
+Line 203: ID = goto
+Line 203: Unrecognized token: 95
+Line 203: ID = error
+Line 203: ;
+Line 205: if
+Line 205: (
+Line 205: ID = files
+Line 205: )
+Line 205: {
+Line 206: ID = steal_locks
+Line 206: (
+Line 206: ID = files
+Line 206: )
+Line 206: ;
+Line 207: ID = put_files_struct
+Line 207: (
+Line 207: ID = files
+Line 207: )
+Line 207: ;
+Line 208: ID = files
+Line 208: =
+Line 208: ID = NULL
+Line 208: ;
+Line 209: }
+Line 210: Unrecognized token: 95
+Line 210: ID = ret
+Line 210: Unrecognized token: 58
+Line 211: return
+Line 211: ID = retval
+Line 211: ;
+Line 212: Unrecognized token: 95
+Line 212: ID = error
+Line 212: Unrecognized token: 58
+Line 213: if
+Line 213: (
+Line 213: ID = fd_binary
+Line 213: >
+Line 213: INTCON = 0
+Line 213: )
+Line 214: ID = sys_close
+Line 214: (
+Line 214: ID = fd_binary
+Line 214: )
+Line 214: ;
+Line 215: ID = bprm
+Line 215: -
+Line 215: >
+Line 215: ID = interp_flags
+Line 215: =
+Line 215: INTCON = 0
+Line 215: ;
+Line 216: ID = bprm
+Line 216: -
+Line 216: >
+Line 216: ID = interp_data
+Line 216: =
+Line 216: INTCON = 0
+Line 216: ;
+Line 217: Unrecognized token: 95
+Line 217: ID = unshare
+Line 217: Unrecognized token: 58
+Line 218: if
+Line 218: (
+Line 218: ID = files
+Line 218: )
+Line 218: {
+Line 219: ID = put_files_struct
+Line 219: (
+Line 219: ID = current
+Line 219: -
+Line 219: >
+Line 219: ID = files
+Line 219: )
+Line 219: ;
+Line 220: ID = current
+Line 220: -
+Line 220: >
+Line 220: ID = files
+Line 220: =
+Line 220: ID = files
+Line 220: ;
+Line 221: }
+Line 222: ID = goto
+Line 222: Unrecognized token: 95
+Line 222: ID = ret
+Line 222: ;
+Line 223: }
+Line 233: ID = static
+Line 233: char
+Line 233: *
+Line 233: ID = scanarg
+Line 233: (
+Line 233: char
+Line 233: *
+Line 233: ID = s
+Line 233: ,
+Line 233: char
+Line 233: ID = del
+Line 233: )
+Line 234: {
+Line 235: char
+Line 235: ID = c
+Line 235: ;
+Line 237: while
+Line 237: (
+Line 237: (
+Line 237: ID = c
+Line 237: =
+Line 237: *
+Line 237: ID = s
+Line 237: +
+Line 237: +
+Line 237: )
+Line 237: !=
+Line 237: ID = del
+Line 237: )
+Line 237: {
+Line 238: if
+Line 238: (
+Line 238: ID = c
+Line 238: ==
+Line 238: Unrecognized token: 39
+Line 238: Unrecognized token: 92
+Line 238: Unrecognized token: 92
+Line 238: Unrecognized token: 39
+Line 238: &&
+Line 238: *
+Line 238: ID = s
+Line 238: ==
+Line 238: CHARCON = 'x'
+Line 238: )
+Line 238: {
+Line 239: ID = s
+Line 239: +
+Line 239: +
+Line 239: ;
+Line 240: if
+Line 240: (
+Line 240: !
+Line 240: ID = isxdigit
+Line 240: (
+Line 240: *
+Line 240: ID = s
+Line 240: +
+Line 240: +
+Line 240: )
+Line 240: )
+Line 241: return
+Line 241: ID = NULL
+Line 241: ;
+Line 242: if
+Line 242: (
+Line 242: !
+Line 242: ID = isxdigit
+Line 242: (
+Line 242: *
+Line 242: ID = s
+Line 242: +
+Line 242: +
+Line 242: )
+Line 242: )
+Line 243: return
+Line 243: ID = NULL
+Line 243: ;
+Line 244: }
+Line 245: }
+Line 246: return
+Line 246: ID = s
+Line 246: ;
+Line 247: }
+Line 249: ID = static
+Line 249: int
+Line 249: ID = unquote
+Line 249: (
+Line 249: char
+Line 249: *
+Line 249: ID = from
+Line 249: )
+Line 250: {
+Line 251: char
+Line 251: ID = c
+Line 251: =
+Line 251: INTCON = 0
+Line 251: ,
+Line 251: *
+Line 251: ID = s
+Line 251: =
+Line 251: ID = from
+Line 251: ,
+Line 251: *
+Line 251: ID = p
+Line 251: =
+Line 251: ID = from
+Line 251: ;
+Line 253: while
+Line 253: (
+Line 253: (
+Line 253: ID = c
+Line 253: =
+Line 253: *
+Line 253: ID = s
+Line 253: +
+Line 253: +
+Line 253: )
+Line 253: !=
+Line 253: CHARCON = '\0'
+Line 253: )
+Line 253: {
+Line 254: if
+Line 254: (
+Line 254: ID = c
+Line 254: ==
+Line 254: Unrecognized token: 39
+Line 254: Unrecognized token: 92
+Line 254: Unrecognized token: 92
+Line 254: Unrecognized token: 39
+Line 254: &&
+Line 254: *
+Line 254: ID = s
+Line 254: ==
+Line 254: CHARCON = 'x'
+Line 254: )
+Line 254: {
+Line 255: ID = s
+Line 255: +
+Line 255: +
+Line 255: ;
+Line 256: ID = c
+Line 256: =
+Line 256: ID = toupper
+Line 256: (
+Line 256: *
+Line 256: ID = s
+Line 256: +
+Line 256: +
+Line 256: )
+Line 256: ;
+Line 257: *
+Line 257: ID = p
+Line 257: =
+Line 257: (
+Line 257: ID = c
+Line 257: -
+Line 257: (
+Line 257: ID = isdigit
+Line 257: (
+Line 257: ID = c
+Line 257: )
+Line 257: Unrecognized token: 63
+Line 257: CHARCON = '0'
+Line 257: Unrecognized token: 58
+Line 257: CHARCON = 'A'
+Line 257: -
+Line 257: INTCON = 10
+Line 257: )
+Line 257: )
+Line 257: <
+Line 257: <
+Line 257: INTCON = 4
+Line 257: ;
+Line 258: ID = c
+Line 258: =
+Line 258: ID = toupper
+Line 258: (
+Line 258: *
+Line 258: ID = s
+Line 258: +
+Line 258: +
+Line 258: )
+Line 258: ;
+Line 259: *
+Line 259: ID = p
+Line 259: +
+Line 259: +
+Line 259: Unrecognized token: 124
+Line 259: =
+Line 259: ID = c
+Line 259: -
+Line 259: (
+Line 259: ID = isdigit
+Line 259: (
+Line 259: ID = c
+Line 259: )
+Line 259: Unrecognized token: 63
+Line 259: CHARCON = '0'
+Line 259: Unrecognized token: 58
+Line 259: CHARCON = 'A'
+Line 259: -
+Line 259: INTCON = 10
+Line 259: )
+Line 259: ;
+Line 260: ID = continue
+Line 260: ;
+Line 261: }
+Line 262: *
+Line 262: ID = p
+Line 262: +
+Line 262: +
+Line 262: =
+Line 262: ID = c
+Line 262: ;
+Line 263: }
+Line 264: return
+Line 264: ID = p
+Line 264: -
+Line 264: ID = from
+Line 264: ;
+Line 265: }
+Line 267: ID = static
+Line 267: ID = inline
+Line 267: char
+Line 267: *
+Line 267: ID = check_special_flags
+Line 267: (
+Line 267: char
+Line 267: *
+Line 267: ID = sfs
+Line 267: ,
+Line 267: ID = Node
+Line 267: *
+Line 267: ID = e
+Line 267: )
+Line 268: {
+Line 269: char
+Line 269: *
+Line 269: ID = p
+Line 269: =
+Line 269: ID = sfs
+Line 269: ;
+Line 270: int
+Line 270: ID = cont
+Line 270: =
+Line 270: INTCON = 1
+Line 270: ;
+Line 273: while
+Line 273: (
+Line 273: ID = cont
+Line 273: )
+Line 273: {
+Line 274: ID = switch
+Line 274: (
+Line 274: *
+Line 274: ID = p
+Line 274: )
+Line 274: {
+Line 275: ID = case
+Line 275: CHARCON = 'P'
+Line 275: Unrecognized token: 58
+Line 276: ID = p
+Line 276: +
+Line 276: +
+Line 276: ;
+Line 277: ID = e
+Line 277: -
+Line 277: >
+Line 277: ID = flags
+Line 277: Unrecognized token: 124
+Line 277: =
+Line 277: ID = MISC_FMT_PRESERVE_ARGV0
+Line 277: ;
+Line 278: ID = break
+Line 278: ;
+Line 279: ID = case
+Line 279: CHARCON = 'O'
+Line 279: Unrecognized token: 58
+Line 280: ID = p
+Line 280: +
+Line 280: +
+Line 280: ;
+Line 281: ID = e
+Line 281: -
+Line 281: >
+Line 281: ID = flags
+Line 281: Unrecognized token: 124
+Line 281: =
+Line 281: ID = MISC_FMT_OPEN_BINARY
+Line 281: ;
+Line 282: ID = break
+Line 282: ;
+Line 283: ID = case
+Line 283: CHARCON = 'C'
+Line 283: Unrecognized token: 58
+Line 284: ID = p
+Line 284: +
+Line 284: +
+Line 284: ;
+Line 287: ID = e
+Line 287: -
+Line 287: >
+Line 287: ID = flags
+Line 287: Unrecognized token: 124
+Line 287: =
+Line 287: (
+Line 287: ID = MISC_FMT_CREDENTIALS
+Line 287: Unrecognized token: 124
+Line 288: ID = MISC_FMT_OPEN_BINARY
+Line 288: )
+Line 288: ;
+Line 289: ID = break
+Line 289: ;
+Line 290: ID = default
+Line 290: Unrecognized token: 58
+Line 291: ID = cont
+Line 291: =
+Line 291: INTCON = 0
+Line 291: ;
+Line 292: }
+Line 293: }
+Line 295: return
+Line 295: ID = p
+Line 295: ;
+Line 296: }
+Line 302: ID = static
+Line 302: ID = Node
+Line 302: *
+Line 302: ID = create_entry
+Line 302: (
+Line 302: ID = const
+Line 302: char
+Line 302: Unrecognized token: 95
+Line 302: Unrecognized token: 95
+Line 302: ID = user
+Line 302: *
+Line 302: ID = buffer
+Line 302: ,
+Line 302: ID = size_t
+Line 302: ID = count
+Line 302: )
+Line 303: {
+Line 304: ID = Node
+Line 304: *
+Line 304: ID = e
+Line 304: ;
+Line 305: int
+Line 305: ID = memsize
+Line 305: ,
+Line 305: ID = err
+Line 305: ;
+Line 306: char
+Line 306: *
+Line 306: ID = buf
+Line 306: ,
+Line 306: *
+Line 306: ID = p
+Line 306: ;
+Line 307: char
+Line 307: ID = del
+Line 307: ;
+Line 310: ID = err
+Line 310: =
+Line 310: -
+Line 310: ID = EINVAL
+Line 310: ;
+Line 311: if
+Line 311: (
+Line 311: (
+Line 311: ID = count
+Line 311: <
+Line 311: INTCON = 11
+Line 311: )
+Line 311: ||
+Line 311: (
+Line 311: ID = count
+Line 311: >
+Line 311: INTCON = 256
+Line 311: )
+Line 311: )
+Line 312: ID = goto
+Line 312: ID = out
+Line 312: ;
+Line 314: ID = err
+Line 314: =
+Line 314: -
+Line 314: ID = ENOMEM
+Line 314: ;
+Line 315: ID = memsize
+Line 315: =
+Line 315: ID = sizeof
+Line 315: (
+Line 315: ID = Node
+Line 315: )
+Line 315: +
+Line 315: ID = count
+Line 315: +
+Line 315: INTCON = 8
+Line 315: ;
+Line 316: ID = e
+Line 316: =
+Line 316: (
+Line 316: ID = Node
+Line 316: *
+Line 316: )
+Line 316: ID = kmalloc
+Line 316: (
+Line 316: ID = memsize
+Line 316: ,
+Line 316: ID = GFP_USER
+Line 316: )
+Line 316: ;
+Line 317: if
+Line 317: (
+Line 317: !
+Line 317: ID = e
+Line 317: )
+Line 318: ID = goto
+Line 318: ID = out
+Line 318: ;
+Line 320: ID = p
+Line 320: =
+Line 320: ID = buf
+Line 320: =
+Line 320: (
+Line 320: char
+Line 320: *
+Line 320: )
+Line 320: ID = e
+Line 320: +
+Line 320: ID = sizeof
+Line 320: (
+Line 320: ID = Node
+Line 320: )
+Line 320: ;
+Line 322: ID = memset
+Line 322: (
+Line 322: ID = e
+Line 322: ,
+Line 322: INTCON = 0
+Line 322: ,
+Line 322: ID = sizeof
+Line 322: (
+Line 322: ID = Node
+Line 322: )
+Line 322: )
+Line 322: ;
+Line 323: if
+Line 323: (
+Line 323: ID = copy_from_user
+Line 323: (
+Line 323: ID = buf
+Line 323: ,
+Line 323: ID = buffer
+Line 323: ,
+Line 323: ID = count
+Line 323: )
+Line 323: )
+Line 324: ID = goto
+Line 324: ID = Efault
+Line 324: ;
+Line 326: ID = del
+Line 326: =
+Line 326: *
+Line 326: ID = p
+Line 326: +
+Line 326: +
+Line 326: ;
+Line 328: ID = memset
+Line 328: (
+Line 328: ID = buf
+Line 328: +
+Line 328: ID = count
+Line 328: ,
+Line 328: ID = del
+Line 328: ,
+Line 328: INTCON = 8
+Line 328: )
+Line 328: ;
+Line 330: ID = e
+Line 330: -
+Line 330: >
+Line 330: ID = name
+Line 330: =
+Line 330: ID = p
+Line 330: ;
+Line 331: ID = p
+Line 331: =
+Line 331: ID = strchr
+Line 331: (
+Line 331: ID = p
+Line 331: ,
+Line 331: ID = del
+Line 331: )
+Line 331: ;
+Line 332: if
+Line 332: (
+Line 332: !
+Line 332: ID = p
+Line 332: )
+Line 333: ID = goto
+Line 333: ID = Einval
+Line 333: ;
+Line 334: *
+Line 334: ID = p
+Line 334: +
+Line 334: +
+Line 334: =
+Line 334: CHARCON = '\0'
+Line 334: ;
+Line 335: if
+Line 335: (
+Line 335: !
+Line 335: ID = e
+Line 335: -
+Line 335: >
+Line 335: ID = name
+Line 335: [
+Line 335: INTCON = 0
+Line 335: ]
+Line 335: ||
+Line 336: !
+Line 336: ID = strcmp
+Line 336: (
+Line 336: ID = e
+Line 336: -
+Line 336: >
+Line 336: ID = name
+Line 336: ,
+Line 336: STRINGCON = "."
+Line 336: )
+Line 336: ||
+Line 337: !
+Line 337: ID = strcmp
+Line 337: (
+Line 337: ID = e
+Line 337: -
+Line 337: >
+Line 337: ID = name
+Line 337: ,
+Line 337: STRINGCON = ".."
+Line 337: )
+Line 337: ||
+Line 338: ID = strchr
+Line 338: (
+Line 338: ID = e
+Line 338: -
+Line 338: >
+Line 338: ID = name
+Line 338: ,
+Line 338: CHARCON = '/'
+Line 338: )
+Line 338: )
+Line 339: ID = goto
+Line 339: ID = Einval
+Line 339: ;
+Line 340: ID = switch
+Line 340: (
+Line 340: *
+Line 340: ID = p
+Line 340: +
+Line 340: +
+Line 340: )
+Line 340: {
+Line 341: ID = case
+Line 341: CHARCON = 'E'
+Line 341: Unrecognized token: 58
+Line 341: ID = e
+Line 341: -
+Line 341: >
+Line 341: ID = flags
+Line 341: =
+Line 341: INTCON = 1
+Line 341: <
+Line 341: <
+Line 341: ID = Enabled
+Line 341: ;
+Line 341: ID = break
+Line 341: ;
+Line 342: ID = case
+Line 342: CHARCON = 'M'
+Line 342: Unrecognized token: 58
+Line 342: ID = e
+Line 342: -
+Line 342: >
+Line 342: ID = flags
+Line 342: =
+Line 342: (
+Line 342: INTCON = 1
+Line 342: <
+Line 342: <
+Line 342: ID = Enabled
+Line 342: )
+Line 342: Unrecognized token: 124
+Line 342: (
+Line 342: INTCON = 1
+Line 342: <
+Line 342: <
+Line 342: ID = Magic
+Line 342: )
+Line 342: ;
+Line 342: ID = break
+Line 342: ;
+Line 343: ID = default
+Line 343: Unrecognized token: 58
+Line 343: ID = goto
+Line 343: ID = Einval
+Line 343: ;
+Line 344: }
+Line 345: if
+Line 345: (
+Line 345: *
+Line 345: ID = p
+Line 345: +
+Line 345: +
+Line 345: !=
+Line 345: ID = del
+Line 345: )
+Line 346: ID = goto
+Line 346: ID = Einval
+Line 346: ;
+Line 347: if
+Line 347: (
+Line 347: ID = test_bit
+Line 347: (
+Line 347: ID = Magic
+Line 347: ,
+Line 347: Unrecognized token: 38
+Line 347: ID = e
+Line 347: -
+Line 347: >
+Line 347: ID = flags
+Line 347: )
+Line 347: )
+Line 347: {
+Line 348: char
+Line 348: *
+Line 348: ID = s
+Line 348: =
+Line 348: ID = strchr
+Line 348: (
+Line 348: ID = p
+Line 348: ,
+Line 348: ID = del
+Line 348: )
+Line 348: ;
+Line 349: if
+Line 349: (
+Line 349: !
+Line 349: ID = s
+Line 349: )
+Line 350: ID = goto
+Line 350: ID = Einval
+Line 350: ;
+Line 351: *
+Line 351: ID = s
+Line 351: +
+Line 351: +
+Line 351: =
+Line 351: CHARCON = '\0'
+Line 351: ;
+Line 352: ID = e
+Line 352: -
+Line 352: >
+Line 352: ID = offset
+Line 352: =
+Line 352: ID = simple_strtoul
+Line 352: (
+Line 352: ID = p
+Line 352: ,
+Line 352: Unrecognized token: 38
+Line 352: ID = p
+Line 352: ,
+Line 352: INTCON = 10
+Line 352: )
+Line 352: ;
+Line 353: if
+Line 353: (
+Line 353: *
+Line 353: ID = p
+Line 353: +
+Line 353: +
+Line 353: )
+Line 354: ID = goto
+Line 354: ID = Einval
+Line 354: ;
+Line 355: ID = e
+Line 355: -
+Line 355: >
+Line 355: ID = magic
+Line 355: =
+Line 355: ID = p
+Line 355: ;
+Line 356: ID = p
+Line 356: =
+Line 356: ID = scanarg
+Line 356: (
+Line 356: ID = p
+Line 356: ,
+Line 356: ID = del
+Line 356: )
+Line 356: ;
+Line 357: if
+Line 357: (
+Line 357: !
+Line 357: ID = p
+Line 357: )
+Line 358: ID = goto
+Line 358: ID = Einval
+Line 358: ;
+Line 359: ID = p
+Line 359: [
+Line 359: -
+Line 359: INTCON = 1
+Line 359: ]
+Line 359: =
+Line 359: CHARCON = '\0'
+Line 359: ;
+Line 360: if
+Line 360: (
+Line 360: !
+Line 360: ID = e
+Line 360: -
+Line 360: >
+Line 360: ID = magic
+Line 360: [
+Line 360: INTCON = 0
+Line 360: ]
+Line 360: )
+Line 361: ID = goto
+Line 361: ID = Einval
+Line 361: ;
+Line 362: ID = e
+Line 362: -
+Line 362: >
+Line 362: ID = mask
+Line 362: =
+Line 362: ID = p
+Line 362: ;
+Line 363: ID = p
+Line 363: =
+Line 363: ID = scanarg
+Line 363: (
+Line 363: ID = p
+Line 363: ,
+Line 363: ID = del
+Line 363: )
+Line 363: ;
+Line 364: if
+Line 364: (
+Line 364: !
+Line 364: ID = p
+Line 364: )
+Line 365: ID = goto
+Line 365: ID = Einval
+Line 365: ;
+Line 366: ID = p
+Line 366: [
+Line 366: -
+Line 366: INTCON = 1
+Line 366: ]
+Line 366: =
+Line 366: CHARCON = '\0'
+Line 366: ;
+Line 367: if
+Line 367: (
+Line 367: !
+Line 367: ID = e
+Line 367: -
+Line 367: >
+Line 367: ID = mask
+Line 367: [
+Line 367: INTCON = 0
+Line 367: ]
+Line 367: )
+Line 368: ID = e
+Line 368: -
+Line 368: >
+Line 368: ID = mask
+Line 368: =
+Line 368: ID = NULL
+Line 368: ;
+Line 369: ID = e
+Line 369: -
+Line 369: >
+Line 369: ID = size
+Line 369: =
+Line 369: ID = unquote
+Line 369: (
+Line 369: ID = e
+Line 369: -
+Line 369: >
+Line 369: ID = magic
+Line 369: )
+Line 369: ;
+Line 370: if
+Line 370: (
+Line 370: ID = e
+Line 370: -
+Line 370: >
+Line 370: ID = mask
+Line 370: &&
+Line 370: ID = unquote
+Line 370: (
+Line 370: ID = e
+Line 370: -
+Line 370: >
+Line 370: ID = mask
+Line 370: )
+Line 370: !=
+Line 370: ID = e
+Line 370: -
+Line 370: >
+Line 370: ID = size
+Line 370: )
+Line 371: ID = goto
+Line 371: ID = Einval
+Line 371: ;
+Line 372: if
+Line 372: (
+Line 372: ID = e
+Line 372: -
+Line 372: >
+Line 372: ID = size
+Line 372: +
+Line 372: ID = e
+Line 372: -
+Line 372: >
+Line 372: ID = offset
+Line 372: >
+Line 372: ID = BINPRM_BUF_SIZE
+Line 372: )
+Line 373: ID = goto
+Line 373: ID = Einval
+Line 373: ;
+Line 374: }
+Line 374: else
+Line 374: {
+Line 375: ID = p
+Line 375: =
+Line 375: ID = strchr
+Line 375: (
+Line 375: ID = p
+Line 375: ,
+Line 375: ID = del
+Line 375: )
+Line 375: ;
+Line 376: if
+Line 376: (
+Line 376: !
+Line 376: ID = p
+Line 376: )
+Line 377: ID = goto
+Line 377: ID = Einval
+Line 377: ;
+Line 378: *
+Line 378: ID = p
+Line 378: +
+Line 378: +
+Line 378: =
+Line 378: CHARCON = '\0'
+Line 378: ;
+Line 379: ID = e
+Line 379: -
+Line 379: >
+Line 379: ID = magic
+Line 379: =
+Line 379: ID = p
+Line 379: ;
+Line 380: ID = p
+Line 380: =
+Line 380: ID = strchr
+Line 380: (
+Line 380: ID = p
+Line 380: ,
+Line 380: ID = del
+Line 380: )
+Line 380: ;
+Line 381: if
+Line 381: (
+Line 381: !
+Line 381: ID = p
+Line 381: )
+Line 382: ID = goto
+Line 382: ID = Einval
+Line 382: ;
+Line 383: *
+Line 383: ID = p
+Line 383: +
+Line 383: +
+Line 383: =
+Line 383: CHARCON = '\0'
+Line 383: ;
+Line 384: if
+Line 384: (
+Line 384: !
+Line 384: ID = e
+Line 384: -
+Line 384: >
+Line 384: ID = magic
+Line 384: [
+Line 384: INTCON = 0
+Line 384: ]
+Line 384: ||
+Line 384: ID = strchr
+Line 384: (
+Line 384: ID = e
+Line 384: -
+Line 384: >
+Line 384: ID = magic
+Line 384: ,
+Line 384: CHARCON = '/'
+Line 384: )
+Line 384: )
+Line 385: ID = goto
+Line 385: ID = Einval
+Line 385: ;
+Line 386: ID = p
+Line 386: =
+Line 386: ID = strchr
+Line 386: (
+Line 386: ID = p
+Line 386: ,
+Line 386: ID = del
+Line 386: )
+Line 386: ;
+Line 387: if
+Line 387: (
+Line 387: !
+Line 387: ID = p
+Line 387: )
+Line 388: ID = goto
+Line 388: ID = Einval
+Line 388: ;
+Line 389: *
+Line 389: ID = p
+Line 389: +
+Line 389: +
+Line 389: =
+Line 389: CHARCON = '\0'
+Line 389: ;
+Line 390: }
+Line 391: ID = e
+Line 391: -
+Line 391: >
+Line 391: ID = interpreter
+Line 391: =
+Line 391: ID = p
+Line 391: ;
+Line 392: ID = p
+Line 392: =
+Line 392: ID = strchr
+Line 392: (
+Line 392: ID = p
+Line 392: ,
+Line 392: ID = del
+Line 392: )
+Line 392: ;
+Line 393: if
+Line 393: (
+Line 393: !
+Line 393: ID = p
+Line 393: )
+Line 394: ID = goto
+Line 394: ID = Einval
+Line 394: ;
+Line 395: *
+Line 395: ID = p
+Line 395: +
+Line 395: +
+Line 395: =
+Line 395: CHARCON = '\0'
+Line 395: ;
+Line 396: if
+Line 396: (
+Line 396: !
+Line 396: ID = e
+Line 396: -
+Line 396: >
+Line 396: ID = interpreter
+Line 396: [
+Line 396: INTCON = 0
+Line 396: ]
+Line 396: )
+Line 397: ID = goto
+Line 397: ID = Einval
+Line 397: ;
+Line 400: ID = p
+Line 400: =
+Line 400: ID = check_special_flags
+Line 400: (
+Line 400: ID = p
+Line 400: ,
+Line 400: ID = e
+Line 400: )
+Line 400: ;
+Line 402: if
+Line 402: (
+Line 402: *
+Line 402: ID = p
+Line 402: ==
+Line 402: CHARCON = '\n'
+Line 402: )
+Line 403: ID = p
+Line 403: +
+Line 403: +
+Line 403: ;
+Line 404: if
+Line 404: (
+Line 404: ID = p
+Line 404: !=
+Line 404: ID = buf
+Line 404: +
+Line 404: ID = count
+Line 404: )
+Line 405: ID = goto
+Line 405: ID = Einval
+Line 405: ;
+Line 406: return
+Line 406: ID = e
+Line 406: ;
+Line 408: ID = out
+Line 408: Unrecognized token: 58
+Line 409: return
+Line 409: ID = ERR_PTR
+Line 409: (
+Line 409: ID = err
+Line 409: )
+Line 409: ;
+Line 411: ID = Efault
+Line 411: Unrecognized token: 58
+Line 412: ID = kfree
+Line 412: (
+Line 412: ID = e
+Line 412: )
+Line 412: ;
+Line 413: return
+Line 413: ID = ERR_PTR
+Line 413: (
+Line 413: -
+Line 413: ID = EFAULT
+Line 413: )
+Line 413: ;
+Line 414: ID = Einval
+Line 414: Unrecognized token: 58
+Line 415: ID = kfree
+Line 415: (
+Line 415: ID = e
+Line 415: )
+Line 415: ;
+Line 416: return
+Line 416: ID = ERR_PTR
+Line 416: (
+Line 416: -
+Line 416: ID = EINVAL
+Line 416: )
+Line 416: ;
+Line 417: }
+Line 423: ID = static
+Line 423: int
+Line 423: ID = parse_command
+Line 423: (
+Line 423: ID = const
+Line 423: char
+Line 423: Unrecognized token: 95
+Line 423: Unrecognized token: 95
+Line 423: ID = user
+Line 423: *
+Line 423: ID = buffer
+Line 423: ,
+Line 423: ID = size_t
+Line 423: ID = count
+Line 423: )
+Line 424: {
+Line 425: char
+Line 425: ID = s
+Line 425: [
+Line 425: INTCON = 4
+Line 425: ]
+Line 425: ;
+Line 427: if
+Line 427: (
+Line 427: !
+Line 427: ID = count
+Line 427: )
+Line 428: return
+Line 428: INTCON = 0
+Line 428: ;
+Line 429: if
+Line 429: (
+Line 429: ID = count
+Line 429: >
+Line 429: INTCON = 3
+Line 429: )
+Line 430: return
+Line 430: -
+Line 430: ID = EINVAL
+Line 430: ;
+Line 431: if
+Line 431: (
+Line 431: ID = copy_from_user
+Line 431: (
+Line 431: ID = s
+Line 431: ,
+Line 431: ID = buffer
+Line 431: ,
+Line 431: ID = count
+Line 431: )
+Line 431: )
+Line 432: return
+Line 432: -
+Line 432: ID = EFAULT
+Line 432: ;
+Line 433: if
+Line 433: (
+Line 433: ID = s
+Line 433: [
+Line 433: ID = count
+Line 433: -
+Line 433: INTCON = 1
+Line 433: ]
+Line 433: ==
+Line 433: CHARCON = '\n'
+Line 433: )
+Line 434: ID = count
+Line 434: -
+Line 434: -
+Line 434: ;
+Line 435: if
+Line 435: (
+Line 435: ID = count
+Line 435: ==
+Line 435: INTCON = 1
+Line 435: &&
+Line 435: ID = s
+Line 435: [
+Line 435: INTCON = 0
+Line 435: ]
+Line 435: ==
+Line 435: CHARCON = '0'
+Line 435: )
+Line 436: return
+Line 436: INTCON = 1
+Line 436: ;
+Line 437: if
+Line 437: (
+Line 437: ID = count
+Line 437: ==
+Line 437: INTCON = 1
+Line 437: &&
+Line 437: ID = s
+Line 437: [
+Line 437: INTCON = 0
+Line 437: ]
+Line 437: ==
+Line 437: CHARCON = '1'
+Line 437: )
+Line 438: return
+Line 438: INTCON = 2
+Line 438: ;
+Line 439: if
+Line 439: (
+Line 439: ID = count
+Line 439: ==
+Line 439: INTCON = 2
+Line 439: &&
+Line 439: ID = s
+Line 439: [
+Line 439: INTCON = 0
+Line 439: ]
+Line 439: ==
+Line 439: CHARCON = '-'
+Line 439: &&
+Line 439: ID = s
+Line 439: [
+Line 439: INTCON = 1
+Line 439: ]
+Line 439: ==
+Line 439: CHARCON = '1'
+Line 439: )
+Line 440: return
+Line 440: INTCON = 3
+Line 440: ;
+Line 441: return
+Line 441: -
+Line 441: ID = EINVAL
+Line 441: ;
+Line 442: }
+Line 446: ID = static
+Line 446: void
+Line 446: ID = entry_status
+Line 446: (
+Line 446: ID = Node
+Line 446: *
+Line 446: ID = e
+Line 446: ,
+Line 446: char
+Line 446: *
+Line 446: ID = page
+Line 446: )
+Line 447: {
+Line 448: char
+Line 448: *
+Line 448: ID = dp
+Line 448: ;
+Line 449: char
+Line 449: *
+Line 449: ID = status
+Line 449: =
+Line 449: STRINGCON = "disabled"
+Line 449: ;
+Line 450: ID = const
+Line 450: char
+Line 450: *
+Line 450: ID = flags
+Line 450: =
+Line 450: STRINGCON = "flags: "
+Line 450: ;
+Line 452: if
+Line 452: (
+Line 452: ID = test_bit
+Line 452: (
+Line 452: ID = Enabled
+Line 452: ,
+Line 452: Unrecognized token: 38
+Line 452: ID = e
+Line 452: -
+Line 452: >
+Line 452: ID = flags
+Line 452: )
+Line 452: )
+Line 453: ID = status
+Line 453: =
+Line 453: STRINGCON = "enabled"
+Line 453: ;
+Line 455: if
+Line 455: (
+Line 455: !
+Line 455: ID = VERBOSE_STATUS
+Line 455: )
+Line 455: {
+Line 456: ID = sprintf
+Line 456: (
+Line 456: ID = page
+Line 456: ,
+Line 456: STRINGCON = "%s\n"
+Line 456: ,
+Line 456: ID = status
+Line 456: )
+Line 456: ;
+Line 457: return
+Line 457: ;
+Line 458: }
+Line 460: ID = sprintf
+Line 460: (
+Line 460: ID = page
+Line 460: ,
+Line 460: STRINGCON = "%s\ninterpreter %s\n"
+Line 460: ,
+Line 460: ID = status
+Line 460: ,
+Line 460: ID = e
+Line 460: -
+Line 460: >
+Line 460: ID = interpreter
+Line 460: )
+Line 460: ;
+Line 461: ID = dp
+Line 461: =
+Line 461: ID = page
+Line 461: +
+Line 461: ID = strlen
+Line 461: (
+Line 461: ID = page
+Line 461: )
+Line 461: ;
+Line 464: ID = sprintf
+Line 464: (
+Line 464: ID = dp
+Line 464: ,
+Line 464: STRINGCON = "%s"
+Line 464: ,
+Line 464: ID = flags
+Line 464: )
+Line 464: ;
+Line 465: ID = dp
+Line 465: +
+Line 465: =
+Line 465: ID = strlen
+Line 465: (
+Line 465: ID = flags
+Line 465: )
+Line 465: ;
+Line 466: if
+Line 466: (
+Line 466: ID = e
+Line 466: -
+Line 466: >
+Line 466: ID = flags
+Line 466: Unrecognized token: 38
+Line 466: ID = MISC_FMT_PRESERVE_ARGV0
+Line 466: )
+Line 466: {
+Line 467: *
+Line 467: ID = dp
+Line 467: +
+Line 467: +
+Line 467: =
+Line 467: CHARCON = 'P'
+Line 467: ;
+Line 468: }
+Line 469: if
+Line 469: (
+Line 469: ID = e
+Line 469: -
+Line 469: >
+Line 469: ID = flags
+Line 469: Unrecognized token: 38
+Line 469: ID = MISC_FMT_OPEN_BINARY
+Line 469: )
+Line 469: {
+Line 470: *
+Line 470: ID = dp
+Line 470: +
+Line 470: +
+Line 470: =
+Line 470: CHARCON = 'O'
+Line 470: ;
+Line 471: }
+Line 472: if
+Line 472: (
+Line 472: ID = e
+Line 472: -
+Line 472: >
+Line 472: ID = flags
+Line 472: Unrecognized token: 38
+Line 472: ID = MISC_FMT_CREDENTIALS
+Line 472: )
+Line 472: {
+Line 473: *
+Line 473: ID = dp
+Line 473: +
+Line 473: +
+Line 473: =
+Line 473: CHARCON = 'C'
+Line 473: ;
+Line 474: }
+Line 475: *
+Line 475: ID = dp
+Line 475: +
+Line 475: +
+Line 475: =
+Line 475: CHARCON = '\n'
+Line 475: ;
+Line 478: if
+Line 478: (
+Line 478: !
+Line 478: ID = test_bit
+Line 478: (
+Line 478: ID = Magic
+Line 478: ,
+Line 478: Unrecognized token: 38
+Line 478: ID = e
+Line 478: -
+Line 478: >
+Line 478: ID = flags
+Line 478: )
+Line 478: )
+Line 478: {
+Line 479: ID = sprintf
+Line 479: (
+Line 479: ID = dp
+Line 479: ,
+Line 479: STRINGCON = "extension .%s\n"
+Line 479: ,
+Line 479: ID = e
+Line 479: -
+Line 479: >
+Line 479: ID = magic
+Line 479: )
+Line 479: ;
+Line 480: }
+Line 480: else
+Line 480: {
+Line 481: int
+Line 481: ID = i
+Line 481: ;
+Line 483: ID = sprintf
+Line 483: (
+Line 483: ID = dp
+Line 483: ,
+Line 483: STRINGCON = "offset %i\nmagic "
+Line 483: ,
+Line 483: ID = e
+Line 483: -
+Line 483: >
+Line 483: ID = offset
+Line 483: )
+Line 483: ;
+Line 484: ID = dp
+Line 484: =
+Line 484: ID = page
+Line 484: +
+Line 484: ID = strlen
+Line 484: (
+Line 484: ID = page
+Line 484: )
+Line 484: ;
+Line 485: for
+Line 485: (
+Line 485: ID = i
+Line 485: =
+Line 485: INTCON = 0
+Line 485: ;
+Line 485: ID = i
+Line 485: <
+Line 485: ID = e
+Line 485: -
+Line 485: >
+Line 485: ID = size
+Line 485: ;
+Line 485: ID = i
+Line 485: +
+Line 485: +
+Line 485: )
+Line 485: {
+Line 486: ID = sprintf
+Line 486: (
+Line 486: ID = dp
+Line 486: ,
+Line 486: STRINGCON = "%02x"
+Line 486: ,
+Line 486: INTCON = 0
+Line 486: ID = xff
+Line 486: Unrecognized token: 38
+Line 486: (
+Line 486: int
+Line 486: )
+Line 486: (
+Line 486: ID = e
+Line 486: -
+Line 486: >
+Line 486: ID = magic
+Line 486: [
+Line 486: ID = i
+Line 486: ]
+Line 486: )
+Line 486: )
+Line 486: ;
+Line 487: ID = dp
+Line 487: +
+Line 487: =
+Line 487: INTCON = 2
+Line 487: ;
+Line 488: }
+Line 489: if
+Line 489: (
+Line 489: ID = e
+Line 489: -
+Line 489: >
+Line 489: ID = mask
+Line 489: )
+Line 489: {
+Line 490: ID = sprintf
+Line 490: (
+Line 490: ID = dp
+Line 490: ,
+Line 490: STRINGCON = "\nmask "
+Line 490: )
+Line 490: ;
+Line 491: ID = dp
+Line 491: +
+Line 491: =
+Line 491: INTCON = 6
+Line 491: ;
+Line 492: for
+Line 492: (
+Line 492: ID = i
+Line 492: =
+Line 492: INTCON = 0
+Line 492: ;
+Line 492: ID = i
+Line 492: <
+Line 492: ID = e
+Line 492: -
+Line 492: >
+Line 492: ID = size
+Line 492: ;
+Line 492: ID = i
+Line 492: +
+Line 492: +
+Line 492: )
+Line 492: {
+Line 493: ID = sprintf
+Line 493: (
+Line 493: ID = dp
+Line 493: ,
+Line 493: STRINGCON = "%02x"
+Line 493: ,
+Line 493: INTCON = 0
+Line 493: ID = xff
+Line 493: Unrecognized token: 38
+Line 493: (
+Line 493: int
+Line 493: )
+Line 493: (
+Line 493: ID = e
+Line 493: -
+Line 493: >
+Line 493: ID = mask
+Line 493: [
+Line 493: ID = i
+Line 493: ]
+Line 493: )
+Line 493: )
+Line 493: ;
+Line 494: ID = dp
+Line 494: +
+Line 494: =
+Line 494: INTCON = 2
+Line 494: ;
+Line 495: }
+Line 496: }
+Line 497: *
+Line 497: ID = dp
+Line 497: +
+Line 497: +
+Line 497: =
+Line 497: CHARCON = '\n'
+Line 497: ;
+Line 498: *
+Line 498: ID = dp
+Line 498: =
+Line 498: CHARCON = '\0'
+Line 498: ;
+Line 499: }
+Line 500: }
+Line 502: ID = static
+Line 502: ID = struct
+Line 502: ID = inode
+Line 502: *
+Line 502: ID = bm_get_inode
+Line 502: (
+Line 502: ID = struct
+Line 502: ID = super_block
+Line 502: *
+Line 502: ID = sb
+Line 502: ,
+Line 502: int
+Line 502: ID = mode
+Line 502: )
+Line 503: {
+Line 504: ID = struct
+Line 504: ID = inode
+Line 504: *
+Line 504: ID = inode
+Line 504: =
+Line 504: ID = new_inode
+Line 504: (
+Line 504: ID = sb
+Line 504: )
+Line 504: ;
+Line 506: if
+Line 506: (
+Line 506: ID = inode
+Line 506: )
+Line 506: {
+Line 507: ID = inode
+Line 507: -
+Line 507: >
+Line 507: ID = i_mode
+Line 507: =
+Line 507: ID = mode
+Line 507: ;
+Line 508: ID = inode
+Line 508: -
+Line 508: >
+Line 508: ID = i_uid
+Line 508: =
+Line 508: INTCON = 0
+Line 508: ;
+Line 509: ID = inode
+Line 509: -
+Line 509: >
+Line 509: ID = i_gid
+Line 509: =
+Line 509: INTCON = 0
+Line 509: ;
+Line 510: ID = inode
+Line 510: -
+Line 510: >
+Line 510: ID = i_blksize
+Line 510: =
+Line 510: ID = PAGE_CACHE_SIZE
+Line 510: ;
+Line 511: ID = inode
+Line 511: -
+Line 511: >
+Line 511: ID = i_blocks
+Line 511: =
+Line 511: INTCON = 0
+Line 511: ;
+Line 512: ID = inode
+Line 512: -
+Line 512: >
+Line 512: ID = i_atime
+Line 512: =
+Line 512: ID = inode
+Line 512: -
+Line 512: >
+Line 512: ID = i_mtime
+Line 512: =
+Line 512: ID = inode
+Line 512: -
+Line 512: >
+Line 512: ID = i_ctime
+Line 512: =
+Line 512: ID = CURRENT_TIME
+Line 512: ;
+Line 513: }
+Line 514: return
+Line 514: ID = inode
+Line 514: ;
+Line 515: }
+Line 517: ID = static
+Line 517: void
+Line 517: ID = bm_clear_inode
+Line 517: (
+Line 517: ID = struct
+Line 517: ID = inode
+Line 517: *
+Line 517: ID = inode
+Line 517: )
+Line 518: {
+Line 519: ID = kfree
+Line 519: (
+Line 519: ID = inode
+Line 519: -
+Line 519: >
+Line 519: ID = u
+Line 519: Unrecognized token: 46
+Line 519: ID = generic_ip
+Line 519: )
+Line 519: ;
+Line 520: }
+Line 522: ID = static
+Line 522: void
+Line 522: ID = kill_node
+Line 522: (
+Line 522: ID = Node
+Line 522: *
+Line 522: ID = e
+Line 522: )
+Line 523: {
+Line 524: ID = struct
+Line 524: ID = dentry
+Line 524: *
+Line 524: ID = dentry
+Line 524: ;
+Line 526: ID = write_lock
+Line 526: (
+Line 526: Unrecognized token: 38
+Line 526: ID = entries_lock
+Line 526: )
+Line 526: ;
+Line 527: ID = dentry
+Line 527: =
+Line 527: ID = e
+Line 527: -
+Line 527: >
+Line 527: ID = dentry
+Line 527: ;
+Line 528: if
+Line 528: (
+Line 528: ID = dentry
+Line 528: )
+Line 528: {
+Line 529: ID = list_del_init
+Line 529: (
+Line 529: Unrecognized token: 38
+Line 529: ID = e
+Line 529: -
+Line 529: >
+Line 529: ID = list
+Line 529: )
+Line 529: ;
+Line 530: ID = e
+Line 530: -
+Line 530: >
+Line 530: ID = dentry
+Line 530: =
+Line 530: ID = NULL
+Line 530: ;
+Line 531: }
+Line 532: ID = write_unlock
+Line 532: (
+Line 532: Unrecognized token: 38
+Line 532: ID = entries_lock
+Line 532: )
+Line 532: ;
+Line 534: if
+Line 534: (
+Line 534: ID = dentry
+Line 534: )
+Line 534: {
+Line 535: ID = dentry
+Line 535: -
+Line 535: >
+Line 535: ID = d_inode
+Line 535: -
+Line 535: >
+Line 535: ID = i_nlink
+Line 535: -
+Line 535: -
+Line 535: ;
+Line 536: ID = d_drop
+Line 536: (
+Line 536: ID = dentry
+Line 536: )
+Line 536: ;
+Line 537: ID = dput
+Line 537: (
+Line 537: ID = dentry
+Line 537: )
+Line 537: ;
+Line 538: ID = simple_release_fs
+Line 538: (
+Line 538: Unrecognized token: 38
+Line 538: ID = bm_mnt
+Line 538: ,
+Line 538: Unrecognized token: 38
+Line 538: ID = entry_count
+Line 538: )
+Line 538: ;
+Line 539: }
+Line 540: }
+Line 544: ID = static
+Line 544: ID = ssize_t
+Line 545: ID = bm_entry_read
+Line 545: (
+Line 545: ID = struct
+Line 545: ID = file
+Line 545: *
+Line 545: ID = file
+Line 545: ,
+Line 545: char
+Line 545: Unrecognized token: 95
+Line 545: Unrecognized token: 95
+Line 545: ID = user
+Line 545: *
+Line 545: ID = buf
+Line 545: ,
+Line 545: ID = size_t
+Line 545: ID = nbytes
+Line 545: ,
+Line 545: ID = loff_t
+Line 545: *
+Line 545: ID = ppos
+Line 545: )
+Line 546: {
+Line 547: ID = Node
+Line 547: *
+Line 547: ID = e
+Line 547: =
+Line 547: ID = file
+Line 547: -
+Line 547: >
+Line 547: ID = f_dentry
+Line 547: -
+Line 547: >
+Line 547: ID = d_inode
+Line 547: -
+Line 547: >
+Line 547: ID = u
+Line 547: Unrecognized token: 46
+Line 547: ID = generic_ip
+Line 547: ;
+Line 548: ID = loff_t
+Line 548: ID = pos
+Line 548: =
+Line 548: *
+Line 548: ID = ppos
+Line 548: ;
+Line 549: ID = ssize_t
+Line 549: ID = res
+Line 549: ;
+Line 550: char
+Line 550: *
+Line 550: ID = page
+Line 550: ;
+Line 551: int
+Line 551: ID = len
+Line 551: ;
+Line 553: if
+Line 553: (
+Line 553: !
+Line 553: (
+Line 553: ID = page
+Line 553: =
+Line 553: (
+Line 553: char
+Line 553: *
+Line 553: )
+Line 553: Unrecognized token: 95
+Line 553: Unrecognized token: 95
+Line 553: ID = get_free_page
+Line 553: (
+Line 553: ID = GFP_KERNEL
+Line 553: )
+Line 553: )
+Line 553: )
+Line 554: return
+Line 554: -
+Line 554: ID = ENOMEM
+Line 554: ;
+Line 556: ID = entry_status
+Line 556: (
+Line 556: ID = e
+Line 556: ,
+Line 556: ID = page
+Line 556: )
+Line 556: ;
+Line 557: ID = len
+Line 557: =
+Line 557: ID = strlen
+Line 557: (
+Line 557: ID = page
+Line 557: )
+Line 557: ;
+Line 559: ID = res
+Line 559: =
+Line 559: -
+Line 559: ID = EINVAL
+Line 559: ;
+Line 560: if
+Line 560: (
+Line 560: ID = pos
+Line 560: <
+Line 560: INTCON = 0
+Line 560: )
+Line 561: ID = goto
+Line 561: ID = out
+Line 561: ;
+Line 562: ID = res
+Line 562: =
+Line 562: INTCON = 0
+Line 562: ;
+Line 563: if
+Line 563: (
+Line 563: ID = pos
+Line 563: >=
+Line 563: ID = len
+Line 563: )
+Line 564: ID = goto
+Line 564: ID = out
+Line 564: ;
+Line 565: if
+Line 565: (
+Line 565: ID = len
+Line 565: <
+Line 565: ID = pos
+Line 565: +
+Line 565: ID = nbytes
+Line 565: )
+Line 566: ID = nbytes
+Line 566: =
+Line 566: ID = len
+Line 566: -
+Line 566: ID = pos
+Line 566: ;
+Line 567: ID = res
+Line 567: =
+Line 567: -
+Line 567: ID = EFAULT
+Line 567: ;
+Line 568: if
+Line 568: (
+Line 568: ID = copy_to_user
+Line 568: (
+Line 568: ID = buf
+Line 568: ,
+Line 568: ID = page
+Line 568: +
+Line 568: ID = pos
+Line 568: ,
+Line 568: ID = nbytes
+Line 568: )
+Line 568: )
+Line 569: ID = goto
+Line 569: ID = out
+Line 569: ;
+Line 570: *
+Line 570: ID = ppos
+Line 570: =
+Line 570: ID = pos
+Line 570: +
+Line 570: ID = nbytes
+Line 570: ;
+Line 571: ID = res
+Line 571: =
+Line 571: ID = nbytes
+Line 571: ;
+Line 572: ID = out
+Line 572: Unrecognized token: 58
+Line 573: ID = free_page
+Line 573: (
+Line 573: (
+Line 573: ID = unsigned
+Line 573: ID = long
+Line 573: )
+Line 573: ID = page
+Line 573: )
+Line 573: ;
+Line 574: return
+Line 574: ID = res
+Line 574: ;
+Line 575: }
+Line 577: ID = static
+Line 577: ID = ssize_t
+Line 577: ID = bm_entry_write
+Line 577: (
+Line 577: ID = struct
+Line 577: ID = file
+Line 577: *
+Line 577: ID = file
+Line 577: ,
+Line 577: ID = const
+Line 577: char
+Line 577: Unrecognized token: 95
+Line 577: Unrecognized token: 95
+Line 577: ID = user
+Line 577: *
+Line 577: ID = buffer
+Line 577: ,
+Line 578: ID = size_t
+Line 578: ID = count
+Line 578: ,
+Line 578: ID = loff_t
+Line 578: *
+Line 578: ID = ppos
+Line 578: )
+Line 579: {
+Line 580: ID = struct
+Line 580: ID = dentry
+Line 580: *
+Line 580: ID = root
+Line 580: ;
+Line 581: ID = Node
+Line 581: *
+Line 581: ID = e
+Line 581: =
+Line 581: ID = file
+Line 581: -
+Line 581: >
+Line 581: ID = f_dentry
+Line 581: -
+Line 581: >
+Line 581: ID = d_inode
+Line 581: -
+Line 581: >
+Line 581: ID = u
+Line 581: Unrecognized token: 46
+Line 581: ID = generic_ip
+Line 581: ;
+Line 582: int
+Line 582: ID = res
+Line 582: =
+Line 582: ID = parse_command
+Line 582: (
+Line 582: ID = buffer
+Line 582: ,
+Line 582: ID = count
+Line 582: )
+Line 582: ;
+Line 584: ID = switch
+Line 584: (
+Line 584: ID = res
+Line 584: )
+Line 584: {
+Line 585: ID = case
+Line 585: INTCON = 1
+Line 585: Unrecognized token: 58
+Line 585: ID = clear_bit
+Line 585: (
+Line 585: ID = Enabled
+Line 585: ,
+Line 585: Unrecognized token: 38
+Line 585: ID = e
+Line 585: -
+Line 585: >
+Line 585: ID = flags
+Line 585: )
+Line 585: ;
+Line 586: ID = break
+Line 586: ;
+Line 587: ID = case
+Line 587: INTCON = 2
+Line 587: Unrecognized token: 58
+Line 587: ID = set_bit
+Line 587: (
+Line 587: ID = Enabled
+Line 587: ,
+Line 587: Unrecognized token: 38
+Line 587: ID = e
+Line 587: -
+Line 587: >
+Line 587: ID = flags
+Line 587: )
+Line 587: ;
+Line 588: ID = break
+Line 588: ;
+Line 589: ID = case
+Line 589: INTCON = 3
+Line 589: Unrecognized token: 58
+Line 589: ID = root
+Line 589: =
+Line 589: ID = dget
+Line 589: (
+Line 589: ID = file
+Line 589: -
+Line 589: >
+Line 589: ID = f_vfsmnt
+Line 589: -
+Line 589: >
+Line 589: ID = mnt_sb
+Line 589: -
+Line 589: >
+Line 589: ID = s_root
+Line 589: )
+Line 589: ;
+Line 590: ID = down
+Line 590: (
+Line 590: Unrecognized token: 38
+Line 590: ID = root
+Line 590: -
+Line 590: >
+Line 590: ID = d_inode
+Line 590: -
+Line 590: >
+Line 590: ID = i_sem
+Line 590: )
+Line 590: ;
+Line 592: ID = kill_node
+Line 592: (
+Line 592: ID = e
+Line 592: )
+Line 592: ;
+Line 594: ID = up
+Line 594: (
+Line 594: Unrecognized token: 38
+Line 594: ID = root
+Line 594: -
+Line 594: >
+Line 594: ID = d_inode
+Line 594: -
+Line 594: >
+Line 594: ID = i_sem
+Line 594: )
+Line 594: ;
+Line 595: ID = dput
+Line 595: (
+Line 595: ID = root
+Line 595: )
+Line 595: ;
+Line 596: ID = break
+Line 596: ;
+Line 597: ID = default
+Line 597: Unrecognized token: 58
+Line 597: return
+Line 597: ID = res
+Line 597: ;
+Line 598: }
+Line 599: return
+Line 599: ID = count
+Line 599: ;
+Line 600: }
+Line 602: ID = static
+Line 602: ID = struct
+Line 602: ID = file_operations
+Line 602: ID = bm_entry_operations
+Line 602: =
+Line 602: {
+Line 603: Unrecognized token: 46
+Line 603: ID = read
+Line 603: =
+Line 603: ID = bm_entry_read
+Line 603: ,
+Line 604: Unrecognized token: 46
+Line 604: ID = write
+Line 604: =
+Line 604: ID = bm_entry_write
+Line 604: ,
+Line 605: }
+Line 605: ;
+Line 609: ID = static
+Line 609: ID = ssize_t
+Line 609: ID = bm_register_write
+Line 609: (
+Line 609: ID = struct
+Line 609: ID = file
+Line 609: *
+Line 609: ID = file
+Line 609: ,
+Line 609: ID = const
+Line 609: char
+Line 609: Unrecognized token: 95
+Line 609: Unrecognized token: 95
+Line 609: ID = user
+Line 609: *
+Line 609: ID = buffer
+Line 609: ,
+Line 610: ID = size_t
+Line 610: ID = count
+Line 610: ,
+Line 610: ID = loff_t
+Line 610: *
+Line 610: ID = ppos
+Line 610: )
+Line 611: {
+Line 612: ID = Node
+Line 612: *
+Line 612: ID = e
+Line 612: ;
+Line 613: ID = struct
+Line 613: ID = inode
+Line 613: *
+Line 613: ID = inode
+Line 613: ;
+Line 614: ID = struct
+Line 614: ID = dentry
+Line 614: *
+Line 614: ID = root
+Line 614: ,
+Line 614: *
+Line 614: ID = dentry
+Line 614: ;
+Line 615: ID = struct
+Line 615: ID = super_block
+Line 615: *
+Line 615: ID = sb
+Line 615: =
+Line 615: ID = file
+Line 615: -
+Line 615: >
+Line 615: ID = f_vfsmnt
+Line 615: -
+Line 615: >
+Line 615: ID = mnt_sb
+Line 615: ;
+Line 616: int
+Line 616: ID = err
+Line 616: =
+Line 616: INTCON = 0
+Line 616: ;
+Line 618: ID = e
+Line 618: =
+Line 618: ID = create_entry
+Line 618: (
+Line 618: ID = buffer
+Line 618: ,
+Line 618: ID = count
+Line 618: )
+Line 618: ;
+Line 620: if
+Line 620: (
+Line 620: ID = IS_ERR
+Line 620: (
+Line 620: ID = e
+Line 620: )
+Line 620: )
+Line 621: return
+Line 621: ID = PTR_ERR
+Line 621: (
+Line 621: ID = e
+Line 621: )
+Line 621: ;
+Line 623: ID = root
+Line 623: =
+Line 623: ID = dget
+Line 623: (
+Line 623: ID = sb
+Line 623: -
+Line 623: >
+Line 623: ID = s_root
+Line 623: )
+Line 623: ;
+Line 624: ID = down
+Line 624: (
+Line 624: Unrecognized token: 38
+Line 624: ID = root
+Line 624: -
+Line 624: >
+Line 624: ID = d_inode
+Line 624: -
+Line 624: >
+Line 624: ID = i_sem
+Line 624: )
+Line 624: ;
+Line 625: ID = dentry
+Line 625: =
+Line 625: ID = lookup_one_len
+Line 625: (
+Line 625: ID = e
+Line 625: -
+Line 625: >
+Line 625: ID = name
+Line 625: ,
+Line 625: ID = root
+Line 625: ,
+Line 625: ID = strlen
+Line 625: (
+Line 625: ID = e
+Line 625: -
+Line 625: >
+Line 625: ID = name
+Line 625: )
+Line 625: )
+Line 625: ;
+Line 626: ID = err
+Line 626: =
+Line 626: ID = PTR_ERR
+Line 626: (
+Line 626: ID = dentry
+Line 626: )
+Line 626: ;
+Line 627: if
+Line 627: (
+Line 627: ID = IS_ERR
+Line 627: (
+Line 627: ID = dentry
+Line 627: )
+Line 627: )
+Line 628: ID = goto
+Line 628: ID = out
+Line 628: ;
+Line 630: ID = err
+Line 630: =
+Line 630: -
+Line 630: ID = EEXIST
+Line 630: ;
+Line 631: if
+Line 631: (
+Line 631: ID = dentry
+Line 631: -
+Line 631: >
+Line 631: ID = d_inode
+Line 631: )
+Line 632: ID = goto
+Line 632: ID = out2
+Line 632: ;
+Line 634: ID = inode
+Line 634: =
+Line 634: ID = bm_get_inode
+Line 634: (
+Line 634: ID = sb
+Line 634: ,
+Line 634: ID = S_IFREG
+Line 634: Unrecognized token: 124
+Line 634: INTCON = 0644
+Line 634: )
+Line 634: ;
+Line 636: ID = err
+Line 636: =
+Line 636: -
+Line 636: ID = ENOMEM
+Line 636: ;
+Line 637: if
+Line 637: (
+Line 637: !
+Line 637: ID = inode
+Line 637: )
+Line 638: ID = goto
+Line 638: ID = out2
+Line 638: ;
+Line 640: ID = err
+Line 640: =
+Line 640: ID = simple_pin_fs
+Line 640: (
+Line 640: STRINGCON = "binfmt_misc"
+Line 640: ,
+Line 640: Unrecognized token: 38
+Line 640: ID = bm_mnt
+Line 640: ,
+Line 640: Unrecognized token: 38
+Line 640: ID = entry_count
+Line 640: )
+Line 640: ;
+Line 641: if
+Line 641: (
+Line 641: ID = err
+Line 641: )
+Line 641: {
+Line 642: ID = iput
+Line 642: (
+Line 642: ID = inode
+Line 642: )
+Line 642: ;
+Line 643: ID = inode
+Line 643: =
+Line 643: ID = NULL
+Line 643: ;
+Line 644: ID = goto
+Line 644: ID = out2
+Line 644: ;
+Line 645: }
+Line 647: ID = e
+Line 647: -
+Line 647: >
+Line 647: ID = dentry
+Line 647: =
+Line 647: ID = dget
+Line 647: (
+Line 647: ID = dentry
+Line 647: )
+Line 647: ;
+Line 648: ID = inode
+Line 648: -
+Line 648: >
+Line 648: ID = u
+Line 648: Unrecognized token: 46
+Line 648: ID = generic_ip
+Line 648: =
+Line 648: ID = e
+Line 648: ;
+Line 649: ID = inode
+Line 649: -
+Line 649: >
+Line 649: ID = i_fop
+Line 649: =
+Line 649: Unrecognized token: 38
+Line 649: ID = bm_entry_operations
+Line 649: ;
+Line 651: ID = d_instantiate
+Line 651: (
+Line 651: ID = dentry
+Line 651: ,
+Line 651: ID = inode
+Line 651: )
+Line 651: ;
+Line 652: ID = write_lock
+Line 652: (
+Line 652: Unrecognized token: 38
+Line 652: ID = entries_lock
+Line 652: )
+Line 652: ;
+Line 653: ID = list_add
+Line 653: (
+Line 653: Unrecognized token: 38
+Line 653: ID = e
+Line 653: -
+Line 653: >
+Line 653: ID = list
+Line 653: ,
+Line 653: Unrecognized token: 38
+Line 653: ID = entries
+Line 653: )
+Line 653: ;
+Line 654: ID = write_unlock
+Line 654: (
+Line 654: Unrecognized token: 38
+Line 654: ID = entries_lock
+Line 654: )
+Line 654: ;
+Line 656: ID = err
+Line 656: =
+Line 656: INTCON = 0
+Line 656: ;
+Line 657: ID = out2
+Line 657: Unrecognized token: 58
+Line 658: ID = dput
+Line 658: (
+Line 658: ID = dentry
+Line 658: )
+Line 658: ;
+Line 659: ID = out
+Line 659: Unrecognized token: 58
+Line 660: ID = up
+Line 660: (
+Line 660: Unrecognized token: 38
+Line 660: ID = root
+Line 660: -
+Line 660: >
+Line 660: ID = d_inode
+Line 660: -
+Line 660: >
+Line 660: ID = i_sem
+Line 660: )
+Line 660: ;
+Line 661: ID = dput
+Line 661: (
+Line 661: ID = root
+Line 661: )
+Line 661: ;
+Line 663: if
+Line 663: (
+Line 663: ID = err
+Line 663: )
+Line 663: {
+Line 664: ID = kfree
+Line 664: (
+Line 664: ID = e
+Line 664: )
+Line 664: ;
+Line 665: return
+Line 665: -
+Line 665: ID = EINVAL
+Line 665: ;
+Line 666: }
+Line 667: return
+Line 667: ID = count
+Line 667: ;
+Line 668: }
+Line 670: ID = static
+Line 670: ID = struct
+Line 670: ID = file_operations
+Line 670: ID = bm_register_operations
+Line 670: =
+Line 670: {
+Line 671: Unrecognized token: 46
+Line 671: ID = write
+Line 671: =
+Line 671: ID = bm_register_write
+Line 671: ,
+Line 672: }
+Line 672: ;
+Line 676: ID = static
+Line 676: ID = ssize_t
+Line 677: ID = bm_status_read
+Line 677: (
+Line 677: ID = struct
+Line 677: ID = file
+Line 677: *
+Line 677: ID = file
+Line 677: ,
+Line 677: char
+Line 677: Unrecognized token: 95
+Line 677: Unrecognized token: 95
+Line 677: ID = user
+Line 677: *
+Line 677: ID = buf
+Line 677: ,
+Line 677: ID = size_t
+Line 677: ID = nbytes
+Line 677: ,
+Line 677: ID = loff_t
+Line 677: *
+Line 677: ID = ppos
+Line 677: )
+Line 678: {
+Line 679: char
+Line 679: *
+Line 679: ID = s
+Line 679: =
+Line 679: ID = enabled
+Line 679: Unrecognized token: 63
+Line 679: STRINGCON = "enabled"
+Line 679: Unrecognized token: 58
+Line 679: STRINGCON = "disabled"
+Line 679: ;
+Line 680: int
+Line 680: ID = len
+Line 680: =
+Line 680: ID = strlen
+Line 680: (
+Line 680: ID = s
+Line 680: )
+Line 680: ;
+Line 681: ID = loff_t
+Line 681: ID = pos
+Line 681: =
+Line 681: *
+Line 681: ID = ppos
+Line 681: ;
+Line 683: if
+Line 683: (
+Line 683: ID = pos
+Line 683: <
+Line 683: INTCON = 0
+Line 683: )
+Line 684: return
+Line 684: -
+Line 684: ID = EINVAL
+Line 684: ;
+Line 685: if
+Line 685: (
+Line 685: ID = pos
+Line 685: >=
+Line 685: ID = len
+Line 685: )
+Line 686: return
+Line 686: INTCON = 0
+Line 686: ;
+Line 687: if
+Line 687: (
+Line 687: ID = len
+Line 687: <
+Line 687: ID = pos
+Line 687: +
+Line 687: ID = nbytes
+Line 687: )
+Line 688: ID = nbytes
+Line 688: =
+Line 688: ID = len
+Line 688: -
+Line 688: ID = pos
+Line 688: ;
+Line 689: if
+Line 689: (
+Line 689: ID = copy_to_user
+Line 689: (
+Line 689: ID = buf
+Line 689: ,
+Line 689: ID = s
+Line 689: +
+Line 689: ID = pos
+Line 689: ,
+Line 689: ID = nbytes
+Line 689: )
+Line 689: )
+Line 690: return
+Line 690: -
+Line 690: ID = EFAULT
+Line 690: ;
+Line 691: *
+Line 691: ID = ppos
+Line 691: =
+Line 691: ID = pos
+Line 691: +
+Line 691: ID = nbytes
+Line 691: ;
+Line 692: return
+Line 692: ID = nbytes
+Line 692: ;
+Line 693: }
+Line 695: ID = static
+Line 695: ID = ssize_t
+Line 695: ID = bm_status_write
+Line 695: (
+Line 695: ID = struct
+Line 695: ID = file
+Line 695: *
+Line 695: ID = file
+Line 695: ,
+Line 695: ID = const
+Line 695: char
+Line 695: Unrecognized token: 95
+Line 695: Unrecognized token: 95
+Line 695: ID = user
+Line 695: *
+Line 695: ID = buffer
+Line 695: ,
+Line 696: ID = size_t
+Line 696: ID = count
+Line 696: ,
+Line 696: ID = loff_t
+Line 696: *
+Line 696: ID = ppos
+Line 696: )
+Line 697: {
+Line 698: int
+Line 698: ID = res
+Line 698: =
+Line 698: ID = parse_command
+Line 698: (
+Line 698: ID = buffer
+Line 698: ,
+Line 698: ID = count
+Line 698: )
+Line 698: ;
+Line 699: ID = struct
+Line 699: ID = dentry
+Line 699: *
+Line 699: ID = root
+Line 699: ;
+Line 701: ID = switch
+Line 701: (
+Line 701: ID = res
+Line 701: )
+Line 701: {
+Line 702: ID = case
+Line 702: INTCON = 1
+Line 702: Unrecognized token: 58
+Line 702: ID = enabled
+Line 702: =
+Line 702: INTCON = 0
+Line 702: ;
+Line 702: ID = break
+Line 702: ;
+Line 703: ID = case
+Line 703: INTCON = 2
+Line 703: Unrecognized token: 58
+Line 703: ID = enabled
+Line 703: =
+Line 703: INTCON = 1
+Line 703: ;
+Line 703: ID = break
+Line 703: ;
+Line 704: ID = case
+Line 704: INTCON = 3
+Line 704: Unrecognized token: 58
+Line 704: ID = root
+Line 704: =
+Line 704: ID = dget
+Line 704: (
+Line 704: ID = file
+Line 704: -
+Line 704: >
+Line 704: ID = f_vfsmnt
+Line 704: -
+Line 704: >
+Line 704: ID = mnt_sb
+Line 704: -
+Line 704: >
+Line 704: ID = s_root
+Line 704: )
+Line 704: ;
+Line 705: ID = down
+Line 705: (
+Line 705: Unrecognized token: 38
+Line 705: ID = root
+Line 705: -
+Line 705: >
+Line 705: ID = d_inode
+Line 705: -
+Line 705: >
+Line 705: ID = i_sem
+Line 705: )
+Line 705: ;
+Line 707: while
+Line 707: (
+Line 707: !
+Line 707: ID = list_empty
+Line 707: (
+Line 707: Unrecognized token: 38
+Line 707: ID = entries
+Line 707: )
+Line 707: )
+Line 708: ID = kill_node
+Line 708: (
+Line 708: ID = list_entry
+Line 708: (
+Line 708: ID = entries
+Line 708: Unrecognized token: 46
+Line 708: ID = next
+Line 708: ,
+Line 708: ID = Node
+Line 708: ,
+Line 708: ID = list
+Line 708: )
+Line 708: )
+Line 708: ;
+Line 710: ID = up
+Line 710: (
+Line 710: Unrecognized token: 38
+Line 710: ID = root
+Line 710: -
+Line 710: >
+Line 710: ID = d_inode
+Line 710: -
+Line 710: >
+Line 710: ID = i_sem
+Line 710: )
+Line 710: ;
+Line 711: ID = dput
+Line 711: (
+Line 711: ID = root
+Line 711: )
+Line 711: ;
+Line 712: ID = default
+Line 712: Unrecognized token: 58
+Line 712: return
+Line 712: ID = res
+Line 712: ;
+Line 713: }
+Line 714: return
+Line 714: ID = count
+Line 714: ;
+Line 715: }
+Line 717: ID = static
+Line 717: ID = struct
+Line 717: ID = file_operations
+Line 717: ID = bm_status_operations
+Line 717: =
+Line 717: {
+Line 718: Unrecognized token: 46
+Line 718: ID = read
+Line 718: =
+Line 718: ID = bm_status_read
+Line 718: ,
+Line 719: Unrecognized token: 46
+Line 719: ID = write
+Line 719: =
+Line 719: ID = bm_status_write
+Line 719: ,
+Line 720: }
+Line 720: ;
+Line 724: ID = static
+Line 724: ID = struct
+Line 724: ID = super_operations
+Line 724: ID = s_ops
+Line 724: =
+Line 724: {
+Line 725: Unrecognized token: 46
+Line 725: ID = statfs
+Line 725: =
+Line 725: ID = simple_statfs
+Line 725: ,
+Line 726: Unrecognized token: 46
+Line 726: ID = clear_inode
+Line 726: =
+Line 726: ID = bm_clear_inode
+Line 726: ,
+Line 727: }
+Line 727: ;
+Line 729: ID = static
+Line 729: int
+Line 729: ID = bm_fill_super
+Line 729: (
+Line 729: ID = struct
+Line 729: ID = super_block
+Line 729: *
+Line 729: ID = sb
+Line 729: ,
+Line 729: void
+Line 729: *
+Line 729: ID = data
+Line 729: ,
+Line 729: int
+Line 729: ID = silent
+Line 729: )
+Line 730: {
+Line 731: ID = static
+Line 731: ID = struct
+Line 731: ID = tree_descr
+Line 731: ID = bm_files
+Line 731: [
+Line 731: ]
+Line 731: =
+Line 731: {
+Line 732: [
+Line 732: INTCON = 1
+Line 732: ]
+Line 732: =
+Line 732: {
+Line 732: STRINGCON = "status"
+Line 732: ,
+Line 732: Unrecognized token: 38
+Line 732: ID = bm_status_operations
+Line 732: ,
+Line 732: ID = S_IWUSR
+Line 732: Unrecognized token: 124
+Line 732: ID = S_IRUGO
+Line 732: }
+Line 732: ,
+Line 733: [
+Line 733: INTCON = 2
+Line 733: ]
+Line 733: =
+Line 733: {
+Line 733: STRINGCON = "register"
+Line 733: ,
+Line 733: Unrecognized token: 38
+Line 733: ID = bm_register_operations
+Line 733: ,
+Line 733: ID = S_IWUSR
+Line 733: }
+Line 733: ,
+Line 734: {
+Line 734: STRINGCON = ""
+Line 734: }
+Line 735: }
+Line 735: ;
+Line 736: int
+Line 736: ID = err
+Line 736: =
+Line 736: ID = simple_fill_super
+Line 736: (
+Line 736: ID = sb
+Line 736: ,
+Line 736: INTCON = 0
+Line 736: ID = x42494e4d
+Line 736: ,
+Line 736: ID = bm_files
+Line 736: )
+Line 736: ;
+Line 737: if
+Line 737: (
+Line 737: !
+Line 737: ID = err
+Line 737: )
+Line 738: ID = sb
+Line 738: -
+Line 738: >
+Line 738: ID = s_op
+Line 738: =
+Line 738: Unrecognized token: 38
+Line 738: ID = s_ops
+Line 738: ;
+Line 739: return
+Line 739: ID = err
+Line 739: ;
+Line 740: }
+Line 742: ID = static
+Line 742: ID = struct
+Line 742: ID = super_block
+Line 742: *
+Line 742: ID = bm_get_sb
+Line 742: (
+Line 742: ID = struct
+Line 742: ID = file_system_type
+Line 742: *
+Line 742: ID = fs_type
+Line 742: ,
+Line 743: int
+Line 743: ID = flags
+Line 743: ,
+Line 743: ID = const
+Line 743: char
+Line 743: *
+Line 743: ID = dev_name
+Line 743: ,
+Line 743: void
+Line 743: *
+Line 743: ID = data
+Line 743: )
+Line 744: {
+Line 745: return
+Line 745: ID = get_sb_single
+Line 745: (
+Line 745: ID = fs_type
+Line 745: ,
+Line 745: ID = flags
+Line 745: ,
+Line 745: ID = data
+Line 745: ,
+Line 745: ID = bm_fill_super
+Line 745: )
+Line 745: ;
+Line 746: }
+Line 748: ID = static
+Line 748: ID = struct
+Line 748: ID = linux_binfmt
+Line 748: ID = misc_format
+Line 748: =
+Line 748: {
+Line 749: Unrecognized token: 46
+Line 749: ID = module
+Line 749: =
+Line 749: ID = THIS_MODULE
+Line 749: ,
+Line 750: Unrecognized token: 46
+Line 750: ID = load_binary
+Line 750: =
+Line 750: ID = load_misc_binary
+Line 750: ,
+Line 751: }
+Line 751: ;
+Line 753: ID = static
+Line 753: ID = struct
+Line 753: ID = file_system_type
+Line 753: ID = bm_fs_type
+Line 753: =
+Line 753: {
+Line 754: Unrecognized token: 46
+Line 754: ID = owner
+Line 754: =
+Line 754: ID = THIS_MODULE
+Line 754: ,
+Line 755: Unrecognized token: 46
+Line 755: ID = name
+Line 755: =
+Line 755: STRINGCON = "binfmt_misc"
+Line 755: ,
+Line 756: Unrecognized token: 46
+Line 756: ID = get_sb
+Line 756: =
+Line 756: ID = bm_get_sb
+Line 756: ,
+Line 757: Unrecognized token: 46
+Line 757: ID = kill_sb
+Line 757: =
+Line 757: ID = kill_litter_super
+Line 757: ,
+Line 758: }
+Line 758: ;
+Line 760: ID = static
+Line 760: int
+Line 760: Unrecognized token: 95
+Line 760: Unrecognized token: 95
+Line 760: ID = init
+Line 760: ID = init_misc_binfmt
+Line 760: (
+Line 760: void
+Line 760: )
+Line 761: {
+Line 762: int
+Line 762: ID = err
+Line 762: =
+Line 762: ID = register_filesystem
+Line 762: (
+Line 762: Unrecognized token: 38
+Line 762: ID = bm_fs_type
+Line 762: )
+Line 762: ;
+Line 763: if
+Line 763: (
+Line 763: !
+Line 763: ID = err
+Line 763: )
+Line 763: {
+Line 764: ID = err
+Line 764: =
+Line 764: ID = register_binfmt
+Line 764: (
+Line 764: Unrecognized token: 38
+Line 764: ID = misc_format
+Line 764: )
+Line 764: ;
+Line 765: if
+Line 765: (
+Line 765: ID = err
+Line 765: )
+Line 766: ID = unregister_filesystem
+Line 766: (
+Line 766: Unrecognized token: 38
+Line 766: ID = bm_fs_type
+Line 766: )
+Line 766: ;
+Line 767: }
+Line 768: return
+Line 768: ID = err
+Line 768: ;
+Line 769: }
+Line 771: ID = static
+Line 771: void
+Line 771: Unrecognized token: 95
+Line 771: Unrecognized token: 95
+Line 771: ID = exit
+Line 771: ID = exit_misc_binfmt
+Line 771: (
+Line 771: void
+Line 771: )
+Line 772: {
+Line 773: ID = unregister_binfmt
+Line 773: (
+Line 773: Unrecognized token: 38
+Line 773: ID = misc_format
+Line 773: )
+Line 773: ;
+Line 774: ID = unregister_filesystem
+Line 774: (
+Line 774: Unrecognized token: 38
+Line 774: ID = bm_fs_type
+Line 774: )
+Line 774: ;
+Line 775: }
+Line 777: ID = core_initcall
+Line 777: (
+Line 777: ID = init_misc_binfmt
+Line 777: )
+Line 777: ;
+Line 778: ID = module_exit
+Line 778: (
+Line 778: ID = exit_misc_binfmt
+Line 778: )
+Line 778: ;
+Line 779: ID = MODULE_LICENSE
+Line 779: (
+Line 779: STRINGCON = "GPL"
+Line 779: )
+Line 779: ;
+Line 780: -EOF-

@@ -1,0 +1,2343 @@
+Line 8: Unrecognized token: 35
+Line 8: ID = include
+Line 8: <
+Line 8: ID = linux
+Line 8: /
+Line 8: ID = fs
+Line 8: Unrecognized token: 46
+Line 8: ID = h
+Line 8: >
+Line 9: Unrecognized token: 35
+Line 9: ID = include
+Line 9: <
+Line 9: ID = linux
+Line 9: /
+Line 9: ID = module
+Line 9: Unrecognized token: 46
+Line 9: ID = h
+Line 9: >
+Line 10: Unrecognized token: 35
+Line 10: ID = include
+Line 10: <
+Line 10: ID = linux
+Line 10: /
+Line 10: ID = seq_file
+Line 10: Unrecognized token: 46
+Line 10: ID = h
+Line 10: >
+Line 11: Unrecognized token: 35
+Line 11: ID = include
+Line 11: <
+Line 11: ID = linux
+Line 11: /
+Line 11: ID = slab
+Line 11: Unrecognized token: 46
+Line 11: ID = h
+Line 11: >
+Line 13: Unrecognized token: 35
+Line 13: ID = include
+Line 13: <
+Line 13: ID = asm
+Line 13: /
+Line 13: ID = uaccess
+Line 13: Unrecognized token: 46
+Line 13: ID = h
+Line 13: >
+Line 14: Unrecognized token: 35
+Line 14: ID = include
+Line 14: <
+Line 14: ID = asm
+Line 14: /
+Line 14: ID = page
+Line 14: Unrecognized token: 46
+Line 14: ID = h
+Line 14: >
+Line 29: int
+Line 29: ID = seq_open
+Line 29: (
+Line 29: ID = struct
+Line 29: ID = file
+Line 29: *
+Line 29: ID = file
+Line 29: ,
+Line 29: ID = struct
+Line 29: ID = seq_operations
+Line 29: *
+Line 29: ID = op
+Line 29: )
+Line 30: {
+Line 31: ID = struct
+Line 31: ID = seq_file
+Line 31: *
+Line 31: ID = p
+Line 31: =
+Line 31: ID = kmalloc
+Line 31: (
+Line 31: ID = sizeof
+Line 31: (
+Line 31: *
+Line 31: ID = p
+Line 31: )
+Line 31: ,
+Line 31: ID = GFP_KERNEL
+Line 31: )
+Line 31: ;
+Line 32: if
+Line 32: (
+Line 32: !
+Line 32: ID = p
+Line 32: )
+Line 33: return
+Line 33: -
+Line 33: ID = ENOMEM
+Line 33: ;
+Line 34: ID = memset
+Line 34: (
+Line 34: ID = p
+Line 34: ,
+Line 34: INTCON = 0
+Line 34: ,
+Line 34: ID = sizeof
+Line 34: (
+Line 34: *
+Line 34: ID = p
+Line 34: )
+Line 34: )
+Line 34: ;
+Line 35: ID = sema_init
+Line 35: (
+Line 35: Unrecognized token: 38
+Line 35: ID = p
+Line 35: -
+Line 35: >
+Line 35: ID = sem
+Line 35: ,
+Line 35: INTCON = 1
+Line 35: )
+Line 35: ;
+Line 36: ID = p
+Line 36: -
+Line 36: >
+Line 36: ID = op
+Line 36: =
+Line 36: ID = op
+Line 36: ;
+Line 37: ID = file
+Line 37: -
+Line 37: >
+Line 37: ID = private_data
+Line 37: =
+Line 37: ID = p
+Line 37: ;
+Line 40: ID = file
+Line 40: -
+Line 40: >
+Line 40: ID = f_mode
+Line 40: Unrecognized token: 38
+Line 40: =
+Line 40: Unrecognized token: 126
+Line 40: (
+Line 40: ID = FMODE_PREAD
+Line 40: Unrecognized token: 124
+Line 40: ID = FMODE_PWRITE
+Line 40: )
+Line 40: ;
+Line 41: return
+Line 41: INTCON = 0
+Line 41: ;
+Line 42: }
+Line 43: ID = EXPORT_SYMBOL
+Line 43: (
+Line 43: ID = seq_open
+Line 43: )
+Line 43: ;
+Line 51: ID = ssize_t
+Line 51: ID = seq_read
+Line 51: (
+Line 51: ID = struct
+Line 51: ID = file
+Line 51: *
+Line 51: ID = file
+Line 51: ,
+Line 51: char
+Line 51: Unrecognized token: 95
+Line 51: Unrecognized token: 95
+Line 51: ID = user
+Line 51: *
+Line 51: ID = buf
+Line 51: ,
+Line 51: ID = size_t
+Line 51: ID = size
+Line 51: ,
+Line 51: ID = loff_t
+Line 51: *
+Line 51: ID = ppos
+Line 51: )
+Line 52: {
+Line 53: ID = struct
+Line 53: ID = seq_file
+Line 53: *
+Line 53: ID = m
+Line 53: =
+Line 53: (
+Line 53: ID = struct
+Line 53: ID = seq_file
+Line 53: *
+Line 53: )
+Line 53: ID = file
+Line 53: -
+Line 53: >
+Line 53: ID = private_data
+Line 53: ;
+Line 54: ID = size_t
+Line 54: ID = copied
+Line 54: =
+Line 54: INTCON = 0
+Line 54: ;
+Line 55: ID = loff_t
+Line 55: ID = pos
+Line 55: ;
+Line 56: ID = size_t
+Line 56: ID = n
+Line 56: ;
+Line 57: void
+Line 57: *
+Line 57: ID = p
+Line 57: ;
+Line 58: int
+Line 58: ID = err
+Line 58: =
+Line 58: INTCON = 0
+Line 58: ;
+Line 60: ID = down
+Line 60: (
+Line 60: Unrecognized token: 38
+Line 60: ID = m
+Line 60: -
+Line 60: >
+Line 60: ID = sem
+Line 60: )
+Line 60: ;
+Line 62: if
+Line 62: (
+Line 62: !
+Line 62: ID = m
+Line 62: -
+Line 62: >
+Line 62: ID = buf
+Line 62: )
+Line 62: {
+Line 63: ID = m
+Line 63: -
+Line 63: >
+Line 63: ID = buf
+Line 63: =
+Line 63: ID = kmalloc
+Line 63: (
+Line 63: ID = m
+Line 63: -
+Line 63: >
+Line 63: ID = size
+Line 63: =
+Line 63: ID = PAGE_SIZE
+Line 63: ,
+Line 63: ID = GFP_KERNEL
+Line 63: )
+Line 63: ;
+Line 64: if
+Line 64: (
+Line 64: !
+Line 64: ID = m
+Line 64: -
+Line 64: >
+Line 64: ID = buf
+Line 64: )
+Line 65: ID = goto
+Line 65: ID = Enomem
+Line 65: ;
+Line 66: }
+Line 68: if
+Line 68: (
+Line 68: ID = m
+Line 68: -
+Line 68: >
+Line 68: ID = count
+Line 68: )
+Line 68: {
+Line 69: ID = n
+Line 69: =
+Line 69: ID = min
+Line 69: (
+Line 69: ID = m
+Line 69: -
+Line 69: >
+Line 69: ID = count
+Line 69: ,
+Line 69: ID = size
+Line 69: )
+Line 69: ;
+Line 70: ID = err
+Line 70: =
+Line 70: ID = copy_to_user
+Line 70: (
+Line 70: ID = buf
+Line 70: ,
+Line 70: ID = m
+Line 70: -
+Line 70: >
+Line 70: ID = buf
+Line 70: +
+Line 70: ID = m
+Line 70: -
+Line 70: >
+Line 70: ID = from
+Line 70: ,
+Line 70: ID = n
+Line 70: )
+Line 70: ;
+Line 71: if
+Line 71: (
+Line 71: ID = err
+Line 71: )
+Line 72: ID = goto
+Line 72: ID = Efault
+Line 72: ;
+Line 73: ID = m
+Line 73: -
+Line 73: >
+Line 73: ID = count
+Line 73: -
+Line 73: =
+Line 73: ID = n
+Line 73: ;
+Line 74: ID = m
+Line 74: -
+Line 74: >
+Line 74: ID = from
+Line 74: +
+Line 74: =
+Line 74: ID = n
+Line 74: ;
+Line 75: ID = size
+Line 75: -
+Line 75: =
+Line 75: ID = n
+Line 75: ;
+Line 76: ID = buf
+Line 76: +
+Line 76: =
+Line 76: ID = n
+Line 76: ;
+Line 77: ID = copied
+Line 77: +
+Line 77: =
+Line 77: ID = n
+Line 77: ;
+Line 78: if
+Line 78: (
+Line 78: !
+Line 78: ID = m
+Line 78: -
+Line 78: >
+Line 78: ID = count
+Line 78: )
+Line 79: ID = m
+Line 79: -
+Line 79: >
+Line 79: ID = index
+Line 79: +
+Line 79: +
+Line 79: ;
+Line 80: if
+Line 80: (
+Line 80: !
+Line 80: ID = size
+Line 80: )
+Line 81: ID = goto
+Line 81: ID = Done
+Line 81: ;
+Line 82: }
+Line 84: while
+Line 84: (
+Line 84: INTCON = 1
+Line 84: )
+Line 84: {
+Line 85: ID = pos
+Line 85: =
+Line 85: ID = m
+Line 85: -
+Line 85: >
+Line 85: ID = index
+Line 85: ;
+Line 86: ID = p
+Line 86: =
+Line 86: ID = m
+Line 86: -
+Line 86: >
+Line 86: ID = op
+Line 86: -
+Line 86: >
+Line 86: ID = start
+Line 86: (
+Line 86: ID = m
+Line 86: ,
+Line 86: Unrecognized token: 38
+Line 86: ID = pos
+Line 86: )
+Line 86: ;
+Line 87: ID = err
+Line 87: =
+Line 87: ID = PTR_ERR
+Line 87: (
+Line 87: ID = p
+Line 87: )
+Line 87: ;
+Line 88: if
+Line 88: (
+Line 88: !
+Line 88: ID = p
+Line 88: ||
+Line 88: ID = IS_ERR
+Line 88: (
+Line 88: ID = p
+Line 88: )
+Line 88: )
+Line 89: ID = break
+Line 89: ;
+Line 90: ID = err
+Line 90: =
+Line 90: ID = m
+Line 90: -
+Line 90: >
+Line 90: ID = op
+Line 90: -
+Line 90: >
+Line 90: ID = show
+Line 90: (
+Line 90: ID = m
+Line 90: ,
+Line 90: ID = p
+Line 90: )
+Line 90: ;
+Line 91: if
+Line 91: (
+Line 91: ID = err
+Line 91: )
+Line 92: ID = break
+Line 92: ;
+Line 93: if
+Line 93: (
+Line 93: ID = m
+Line 93: -
+Line 93: >
+Line 93: ID = count
+Line 93: <
+Line 93: ID = m
+Line 93: -
+Line 93: >
+Line 93: ID = size
+Line 93: )
+Line 94: ID = goto
+Line 94: ID = Fill
+Line 94: ;
+Line 95: ID = m
+Line 95: -
+Line 95: >
+Line 95: ID = op
+Line 95: -
+Line 95: >
+Line 95: ID = stop
+Line 95: (
+Line 95: ID = m
+Line 95: ,
+Line 95: ID = p
+Line 95: )
+Line 95: ;
+Line 96: ID = kfree
+Line 96: (
+Line 96: ID = m
+Line 96: -
+Line 96: >
+Line 96: ID = buf
+Line 96: )
+Line 96: ;
+Line 97: ID = m
+Line 97: -
+Line 97: >
+Line 97: ID = buf
+Line 97: =
+Line 97: ID = kmalloc
+Line 97: (
+Line 97: ID = m
+Line 97: -
+Line 97: >
+Line 97: ID = size
+Line 97: <
+Line 97: <=
+Line 97: INTCON = 1
+Line 97: ,
+Line 97: ID = GFP_KERNEL
+Line 97: )
+Line 97: ;
+Line 98: if
+Line 98: (
+Line 98: !
+Line 98: ID = m
+Line 98: -
+Line 98: >
+Line 98: ID = buf
+Line 98: )
+Line 99: ID = goto
+Line 99: ID = Enomem
+Line 99: ;
+Line 100: ID = m
+Line 100: -
+Line 100: >
+Line 100: ID = count
+Line 100: =
+Line 100: INTCON = 0
+Line 100: ;
+Line 101: }
+Line 102: ID = m
+Line 102: -
+Line 102: >
+Line 102: ID = op
+Line 102: -
+Line 102: >
+Line 102: ID = stop
+Line 102: (
+Line 102: ID = m
+Line 102: ,
+Line 102: ID = p
+Line 102: )
+Line 102: ;
+Line 103: ID = m
+Line 103: -
+Line 103: >
+Line 103: ID = count
+Line 103: =
+Line 103: INTCON = 0
+Line 103: ;
+Line 104: ID = goto
+Line 104: ID = Done
+Line 104: ;
+Line 105: ID = Fill
+Line 105: Unrecognized token: 58
+Line 107: while
+Line 107: (
+Line 107: ID = m
+Line 107: -
+Line 107: >
+Line 107: ID = count
+Line 107: <
+Line 107: ID = size
+Line 107: )
+Line 107: {
+Line 108: ID = size_t
+Line 108: ID = offs
+Line 108: =
+Line 108: ID = m
+Line 108: -
+Line 108: >
+Line 108: ID = count
+Line 108: ;
+Line 109: ID = loff_t
+Line 109: ID = next
+Line 109: =
+Line 109: ID = pos
+Line 109: ;
+Line 110: ID = p
+Line 110: =
+Line 110: ID = m
+Line 110: -
+Line 110: >
+Line 110: ID = op
+Line 110: -
+Line 110: >
+Line 110: ID = next
+Line 110: (
+Line 110: ID = m
+Line 110: ,
+Line 110: ID = p
+Line 110: ,
+Line 110: Unrecognized token: 38
+Line 110: ID = next
+Line 110: )
+Line 110: ;
+Line 111: if
+Line 111: (
+Line 111: !
+Line 111: ID = p
+Line 111: ||
+Line 111: ID = IS_ERR
+Line 111: (
+Line 111: ID = p
+Line 111: )
+Line 111: )
+Line 111: {
+Line 112: ID = err
+Line 112: =
+Line 112: ID = PTR_ERR
+Line 112: (
+Line 112: ID = p
+Line 112: )
+Line 112: ;
+Line 113: ID = break
+Line 113: ;
+Line 114: }
+Line 115: ID = err
+Line 115: =
+Line 115: ID = m
+Line 115: -
+Line 115: >
+Line 115: ID = op
+Line 115: -
+Line 115: >
+Line 115: ID = show
+Line 115: (
+Line 115: ID = m
+Line 115: ,
+Line 115: ID = p
+Line 115: )
+Line 115: ;
+Line 116: if
+Line 116: (
+Line 116: ID = err
+Line 116: ||
+Line 116: ID = m
+Line 116: -
+Line 116: >
+Line 116: ID = count
+Line 116: ==
+Line 116: ID = m
+Line 116: -
+Line 116: >
+Line 116: ID = size
+Line 116: )
+Line 116: {
+Line 117: ID = m
+Line 117: -
+Line 117: >
+Line 117: ID = count
+Line 117: =
+Line 117: ID = offs
+Line 117: ;
+Line 118: ID = break
+Line 118: ;
+Line 119: }
+Line 120: ID = pos
+Line 120: =
+Line 120: ID = next
+Line 120: ;
+Line 121: }
+Line 122: ID = m
+Line 122: -
+Line 122: >
+Line 122: ID = op
+Line 122: -
+Line 122: >
+Line 122: ID = stop
+Line 122: (
+Line 122: ID = m
+Line 122: ,
+Line 122: ID = p
+Line 122: )
+Line 122: ;
+Line 123: ID = n
+Line 123: =
+Line 123: ID = min
+Line 123: (
+Line 123: ID = m
+Line 123: -
+Line 123: >
+Line 123: ID = count
+Line 123: ,
+Line 123: ID = size
+Line 123: )
+Line 123: ;
+Line 124: ID = err
+Line 124: =
+Line 124: ID = copy_to_user
+Line 124: (
+Line 124: ID = buf
+Line 124: ,
+Line 124: ID = m
+Line 124: -
+Line 124: >
+Line 124: ID = buf
+Line 124: ,
+Line 124: ID = n
+Line 124: )
+Line 124: ;
+Line 125: if
+Line 125: (
+Line 125: ID = err
+Line 125: )
+Line 126: ID = goto
+Line 126: ID = Efault
+Line 126: ;
+Line 127: ID = copied
+Line 127: +
+Line 127: =
+Line 127: ID = n
+Line 127: ;
+Line 128: ID = m
+Line 128: -
+Line 128: >
+Line 128: ID = count
+Line 128: -
+Line 128: =
+Line 128: ID = n
+Line 128: ;
+Line 129: if
+Line 129: (
+Line 129: ID = m
+Line 129: -
+Line 129: >
+Line 129: ID = count
+Line 129: )
+Line 130: ID = m
+Line 130: -
+Line 130: >
+Line 130: ID = from
+Line 130: =
+Line 130: ID = n
+Line 130: ;
+Line 131: else
+Line 132: ID = pos
+Line 132: +
+Line 132: +
+Line 132: ;
+Line 133: ID = m
+Line 133: -
+Line 133: >
+Line 133: ID = index
+Line 133: =
+Line 133: ID = pos
+Line 133: ;
+Line 134: ID = Done
+Line 134: Unrecognized token: 58
+Line 135: if
+Line 135: (
+Line 135: !
+Line 135: ID = copied
+Line 135: )
+Line 136: ID = copied
+Line 136: =
+Line 136: ID = err
+Line 136: ;
+Line 137: else
+Line 138: *
+Line 138: ID = ppos
+Line 138: +
+Line 138: =
+Line 138: ID = copied
+Line 138: ;
+Line 139: ID = up
+Line 139: (
+Line 139: Unrecognized token: 38
+Line 139: ID = m
+Line 139: -
+Line 139: >
+Line 139: ID = sem
+Line 139: )
+Line 139: ;
+Line 140: return
+Line 140: ID = copied
+Line 140: ;
+Line 141: ID = Enomem
+Line 141: Unrecognized token: 58
+Line 142: ID = err
+Line 142: =
+Line 142: -
+Line 142: ID = ENOMEM
+Line 142: ;
+Line 143: ID = goto
+Line 143: ID = Done
+Line 143: ;
+Line 144: ID = Efault
+Line 144: Unrecognized token: 58
+Line 145: ID = err
+Line 145: =
+Line 145: -
+Line 145: ID = EFAULT
+Line 145: ;
+Line 146: ID = goto
+Line 146: ID = Done
+Line 146: ;
+Line 147: }
+Line 148: ID = EXPORT_SYMBOL
+Line 148: (
+Line 148: ID = seq_read
+Line 148: )
+Line 148: ;
+Line 150: ID = static
+Line 150: int
+Line 150: ID = traverse
+Line 150: (
+Line 150: ID = struct
+Line 150: ID = seq_file
+Line 150: *
+Line 150: ID = m
+Line 150: ,
+Line 150: ID = loff_t
+Line 150: ID = offset
+Line 150: )
+Line 151: {
+Line 152: ID = loff_t
+Line 152: ID = pos
+Line 152: =
+Line 152: INTCON = 0
+Line 152: ;
+Line 153: int
+Line 153: ID = error
+Line 153: =
+Line 153: INTCON = 0
+Line 153: ;
+Line 154: void
+Line 154: *
+Line 154: ID = p
+Line 154: ;
+Line 156: ID = m
+Line 156: -
+Line 156: >
+Line 156: ID = index
+Line 156: =
+Line 156: INTCON = 0
+Line 156: ;
+Line 157: ID = m
+Line 157: -
+Line 157: >
+Line 157: ID = count
+Line 157: =
+Line 157: ID = m
+Line 157: -
+Line 157: >
+Line 157: ID = from
+Line 157: =
+Line 157: INTCON = 0
+Line 157: ;
+Line 158: if
+Line 158: (
+Line 158: !
+Line 158: ID = offset
+Line 158: )
+Line 159: return
+Line 159: INTCON = 0
+Line 159: ;
+Line 160: if
+Line 160: (
+Line 160: !
+Line 160: ID = m
+Line 160: -
+Line 160: >
+Line 160: ID = buf
+Line 160: )
+Line 160: {
+Line 161: ID = m
+Line 161: -
+Line 161: >
+Line 161: ID = buf
+Line 161: =
+Line 161: ID = kmalloc
+Line 161: (
+Line 161: ID = m
+Line 161: -
+Line 161: >
+Line 161: ID = size
+Line 161: =
+Line 161: ID = PAGE_SIZE
+Line 161: ,
+Line 161: ID = GFP_KERNEL
+Line 161: )
+Line 161: ;
+Line 162: if
+Line 162: (
+Line 162: !
+Line 162: ID = m
+Line 162: -
+Line 162: >
+Line 162: ID = buf
+Line 162: )
+Line 163: return
+Line 163: -
+Line 163: ID = ENOMEM
+Line 163: ;
+Line 164: }
+Line 165: ID = p
+Line 165: =
+Line 165: ID = m
+Line 165: -
+Line 165: >
+Line 165: ID = op
+Line 165: -
+Line 165: >
+Line 165: ID = start
+Line 165: (
+Line 165: ID = m
+Line 165: ,
+Line 165: Unrecognized token: 38
+Line 165: ID = m
+Line 165: -
+Line 165: >
+Line 165: ID = index
+Line 165: )
+Line 165: ;
+Line 166: while
+Line 166: (
+Line 166: ID = p
+Line 166: )
+Line 166: {
+Line 167: ID = error
+Line 167: =
+Line 167: ID = PTR_ERR
+Line 167: (
+Line 167: ID = p
+Line 167: )
+Line 167: ;
+Line 168: if
+Line 168: (
+Line 168: ID = IS_ERR
+Line 168: (
+Line 168: ID = p
+Line 168: )
+Line 168: )
+Line 169: ID = break
+Line 169: ;
+Line 170: ID = error
+Line 170: =
+Line 170: ID = m
+Line 170: -
+Line 170: >
+Line 170: ID = op
+Line 170: -
+Line 170: >
+Line 170: ID = show
+Line 170: (
+Line 170: ID = m
+Line 170: ,
+Line 170: ID = p
+Line 170: )
+Line 170: ;
+Line 171: if
+Line 171: (
+Line 171: ID = error
+Line 171: )
+Line 172: ID = break
+Line 172: ;
+Line 173: if
+Line 173: (
+Line 173: ID = m
+Line 173: -
+Line 173: >
+Line 173: ID = count
+Line 173: ==
+Line 173: ID = m
+Line 173: -
+Line 173: >
+Line 173: ID = size
+Line 173: )
+Line 174: ID = goto
+Line 174: ID = Eoverflow
+Line 174: ;
+Line 175: if
+Line 175: (
+Line 175: ID = pos
+Line 175: +
+Line 175: ID = m
+Line 175: -
+Line 175: >
+Line 175: ID = count
+Line 175: >
+Line 175: ID = offset
+Line 175: )
+Line 175: {
+Line 176: ID = m
+Line 176: -
+Line 176: >
+Line 176: ID = from
+Line 176: =
+Line 176: ID = offset
+Line 176: -
+Line 176: ID = pos
+Line 176: ;
+Line 177: ID = m
+Line 177: -
+Line 177: >
+Line 177: ID = count
+Line 177: -
+Line 177: =
+Line 177: ID = m
+Line 177: -
+Line 177: >
+Line 177: ID = from
+Line 177: ;
+Line 178: ID = break
+Line 178: ;
+Line 179: }
+Line 180: ID = pos
+Line 180: +
+Line 180: =
+Line 180: ID = m
+Line 180: -
+Line 180: >
+Line 180: ID = count
+Line 180: ;
+Line 181: ID = m
+Line 181: -
+Line 181: >
+Line 181: ID = count
+Line 181: =
+Line 181: INTCON = 0
+Line 181: ;
+Line 182: if
+Line 182: (
+Line 182: ID = pos
+Line 182: ==
+Line 182: ID = offset
+Line 182: )
+Line 182: {
+Line 183: ID = m
+Line 183: -
+Line 183: >
+Line 183: ID = index
+Line 183: +
+Line 183: +
+Line 183: ;
+Line 184: ID = break
+Line 184: ;
+Line 185: }
+Line 186: ID = p
+Line 186: =
+Line 186: ID = m
+Line 186: -
+Line 186: >
+Line 186: ID = op
+Line 186: -
+Line 186: >
+Line 186: ID = next
+Line 186: (
+Line 186: ID = m
+Line 186: ,
+Line 186: ID = p
+Line 186: ,
+Line 186: Unrecognized token: 38
+Line 186: ID = m
+Line 186: -
+Line 186: >
+Line 186: ID = index
+Line 186: )
+Line 186: ;
+Line 187: }
+Line 188: ID = m
+Line 188: -
+Line 188: >
+Line 188: ID = op
+Line 188: -
+Line 188: >
+Line 188: ID = stop
+Line 188: (
+Line 188: ID = m
+Line 188: ,
+Line 188: ID = p
+Line 188: )
+Line 188: ;
+Line 189: return
+Line 189: ID = error
+Line 189: ;
+Line 191: ID = Eoverflow
+Line 191: Unrecognized token: 58
+Line 192: ID = m
+Line 192: -
+Line 192: >
+Line 192: ID = op
+Line 192: -
+Line 192: >
+Line 192: ID = stop
+Line 192: (
+Line 192: ID = m
+Line 192: ,
+Line 192: ID = p
+Line 192: )
+Line 192: ;
+Line 193: ID = kfree
+Line 193: (
+Line 193: ID = m
+Line 193: -
+Line 193: >
+Line 193: ID = buf
+Line 193: )
+Line 193: ;
+Line 194: ID = m
+Line 194: -
+Line 194: >
+Line 194: ID = buf
+Line 194: =
+Line 194: ID = kmalloc
+Line 194: (
+Line 194: ID = m
+Line 194: -
+Line 194: >
+Line 194: ID = size
+Line 194: <
+Line 194: <=
+Line 194: INTCON = 1
+Line 194: ,
+Line 194: ID = GFP_KERNEL
+Line 194: )
+Line 194: ;
+Line 195: return
+Line 195: !
+Line 195: ID = m
+Line 195: -
+Line 195: >
+Line 195: ID = buf
+Line 195: Unrecognized token: 63
+Line 195: -
+Line 195: ID = ENOMEM
+Line 195: Unrecognized token: 58
+Line 195: -
+Line 195: ID = EAGAIN
+Line 195: ;
+Line 196: }
+Line 204: ID = loff_t
+Line 204: ID = seq_lseek
+Line 204: (
+Line 204: ID = struct
+Line 204: ID = file
+Line 204: *
+Line 204: ID = file
+Line 204: ,
+Line 204: ID = loff_t
+Line 204: ID = offset
+Line 204: ,
+Line 204: int
+Line 204: ID = origin
+Line 204: )
+Line 205: {
+Line 206: ID = struct
+Line 206: ID = seq_file
+Line 206: *
+Line 206: ID = m
+Line 206: =
+Line 206: (
+Line 206: ID = struct
+Line 206: ID = seq_file
+Line 206: *
+Line 206: )
+Line 206: ID = file
+Line 206: -
+Line 206: >
+Line 206: ID = private_data
+Line 206: ;
+Line 207: ID = long
+Line 207: ID = long
+Line 207: ID = retval
+Line 207: =
+Line 207: -
+Line 207: ID = EINVAL
+Line 207: ;
+Line 209: ID = down
+Line 209: (
+Line 209: Unrecognized token: 38
+Line 209: ID = m
+Line 209: -
+Line 209: >
+Line 209: ID = sem
+Line 209: )
+Line 209: ;
+Line 210: ID = switch
+Line 210: (
+Line 210: ID = origin
+Line 210: )
+Line 210: {
+Line 211: ID = case
+Line 211: INTCON = 1
+Line 211: Unrecognized token: 58
+Line 212: ID = offset
+Line 212: +
+Line 212: =
+Line 212: ID = file
+Line 212: -
+Line 212: >
+Line 212: ID = f_pos
+Line 212: ;
+Line 213: ID = case
+Line 213: INTCON = 0
+Line 213: Unrecognized token: 58
+Line 214: if
+Line 214: (
+Line 214: ID = offset
+Line 214: <
+Line 214: INTCON = 0
+Line 214: )
+Line 215: ID = break
+Line 215: ;
+Line 216: ID = retval
+Line 216: =
+Line 216: ID = offset
+Line 216: ;
+Line 217: if
+Line 217: (
+Line 217: ID = offset
+Line 217: !=
+Line 217: ID = file
+Line 217: -
+Line 217: >
+Line 217: ID = f_pos
+Line 217: )
+Line 217: {
+Line 218: while
+Line 218: (
+Line 218: (
+Line 218: ID = retval
+Line 218: =
+Line 218: ID = traverse
+Line 218: (
+Line 218: ID = m
+Line 218: ,
+Line 218: ID = offset
+Line 218: )
+Line 218: )
+Line 218: ==
+Line 218: -
+Line 218: ID = EAGAIN
+Line 218: )
+Line 219: ;
+Line 220: if
+Line 220: (
+Line 220: ID = retval
+Line 220: )
+Line 220: {
+Line 222: ID = file
+Line 222: -
+Line 222: >
+Line 222: ID = f_pos
+Line 222: =
+Line 222: INTCON = 0
+Line 222: ;
+Line 223: ID = m
+Line 223: -
+Line 223: >
+Line 223: ID = index
+Line 223: =
+Line 223: INTCON = 0
+Line 223: ;
+Line 224: ID = m
+Line 224: -
+Line 224: >
+Line 224: ID = count
+Line 224: =
+Line 224: INTCON = 0
+Line 224: ;
+Line 225: }
+Line 225: else
+Line 225: {
+Line 226: ID = retval
+Line 226: =
+Line 226: ID = file
+Line 226: -
+Line 226: >
+Line 226: ID = f_pos
+Line 226: =
+Line 226: ID = offset
+Line 226: ;
+Line 227: }
+Line 228: }
+Line 229: }
+Line 230: ID = up
+Line 230: (
+Line 230: Unrecognized token: 38
+Line 230: ID = m
+Line 230: -
+Line 230: >
+Line 230: ID = sem
+Line 230: )
+Line 230: ;
+Line 231: return
+Line 231: ID = retval
+Line 231: ;
+Line 232: }
+Line 233: ID = EXPORT_SYMBOL
+Line 233: (
+Line 233: ID = seq_lseek
+Line 233: )
+Line 233: ;
+Line 243: int
+Line 243: ID = seq_release
+Line 243: (
+Line 243: ID = struct
+Line 243: ID = inode
+Line 243: *
+Line 243: ID = inode
+Line 243: ,
+Line 243: ID = struct
+Line 243: ID = file
+Line 243: *
+Line 243: ID = file
+Line 243: )
+Line 244: {
+Line 245: ID = struct
+Line 245: ID = seq_file
+Line 245: *
+Line 245: ID = m
+Line 245: =
+Line 245: (
+Line 245: ID = struct
+Line 245: ID = seq_file
+Line 245: *
+Line 245: )
+Line 245: ID = file
+Line 245: -
+Line 245: >
+Line 245: ID = private_data
+Line 245: ;
+Line 246: ID = kfree
+Line 246: (
+Line 246: ID = m
+Line 246: -
+Line 246: >
+Line 246: ID = buf
+Line 246: )
+Line 246: ;
+Line 247: ID = kfree
+Line 247: (
+Line 247: ID = m
+Line 247: )
+Line 247: ;
+Line 248: return
+Line 248: INTCON = 0
+Line 248: ;
+Line 249: }
+Line 250: ID = EXPORT_SYMBOL
+Line 250: (
+Line 250: ID = seq_release
+Line 250: )
+Line 250: ;
+Line 262: int
+Line 262: ID = seq_escape
+Line 262: (
+Line 262: ID = struct
+Line 262: ID = seq_file
+Line 262: *
+Line 262: ID = m
+Line 262: ,
+Line 262: ID = const
+Line 262: char
+Line 262: *
+Line 262: ID = s
+Line 262: ,
+Line 262: ID = const
+Line 262: char
+Line 262: *
+Line 262: ID = esc
+Line 262: )
+Line 263: {
+Line 264: char
+Line 264: *
+Line 264: ID = end
+Line 264: =
+Line 264: ID = m
+Line 264: -
+Line 264: >
+Line 264: ID = buf
+Line 264: +
+Line 264: ID = m
+Line 264: -
+Line 264: >
+Line 264: ID = size
+Line 264: ;
+Line 265: char
+Line 265: *
+Line 265: ID = p
+Line 265: ;
+Line 266: char
+Line 266: ID = c
+Line 266: ;
+Line 268: for
+Line 268: (
+Line 268: ID = p
+Line 268: =
+Line 268: ID = m
+Line 268: -
+Line 268: >
+Line 268: ID = buf
+Line 268: +
+Line 268: ID = m
+Line 268: -
+Line 268: >
+Line 268: ID = count
+Line 268: ;
+Line 268: (
+Line 268: ID = c
+Line 268: =
+Line 268: *
+Line 268: ID = s
+Line 268: )
+Line 268: !=
+Line 268: CHARCON = '\0'
+Line 268: &&
+Line 268: ID = p
+Line 268: <
+Line 268: ID = end
+Line 268: ;
+Line 268: ID = s
+Line 268: +
+Line 268: +
+Line 268: )
+Line 268: {
+Line 269: if
+Line 269: (
+Line 269: !
+Line 269: ID = strchr
+Line 269: (
+Line 269: ID = esc
+Line 269: ,
+Line 269: ID = c
+Line 269: )
+Line 269: )
+Line 269: {
+Line 270: *
+Line 270: ID = p
+Line 270: +
+Line 270: +
+Line 270: =
+Line 270: ID = c
+Line 270: ;
+Line 271: ID = continue
+Line 271: ;
+Line 272: }
+Line 273: if
+Line 273: (
+Line 273: ID = p
+Line 273: +
+Line 273: INTCON = 3
+Line 273: <
+Line 273: ID = end
+Line 273: )
+Line 273: {
+Line 274: *
+Line 274: ID = p
+Line 274: +
+Line 274: +
+Line 274: =
+Line 274: Unrecognized token: 39
+Line 274: Unrecognized token: 92
+Line 274: Unrecognized token: 92
+Line 274: Unrecognized token: 39
+Line 274: ;
+Line 275: *
+Line 275: ID = p
+Line 275: +
+Line 275: +
+Line 275: =
+Line 275: CHARCON = '0'
+Line 275: +
+Line 275: (
+Line 275: (
+Line 275: ID = c
+Line 275: Unrecognized token: 38
+Line 275: INTCON = 0300
+Line 275: )
+Line 275: >
+Line 275: >
+Line 275: INTCON = 6
+Line 275: )
+Line 275: ;
+Line 276: *
+Line 276: ID = p
+Line 276: +
+Line 276: +
+Line 276: =
+Line 276: CHARCON = '0'
+Line 276: +
+Line 276: (
+Line 276: (
+Line 276: ID = c
+Line 276: Unrecognized token: 38
+Line 276: INTCON = 070
+Line 276: )
+Line 276: >
+Line 276: >
+Line 276: INTCON = 3
+Line 276: )
+Line 276: ;
+Line 277: *
+Line 277: ID = p
+Line 277: +
+Line 277: +
+Line 277: =
+Line 277: CHARCON = '0'
+Line 277: +
+Line 277: (
+Line 277: ID = c
+Line 277: Unrecognized token: 38
+Line 277: INTCON = 07
+Line 277: )
+Line 277: ;
+Line 278: ID = continue
+Line 278: ;
+Line 279: }
+Line 280: ID = m
+Line 280: -
+Line 280: >
+Line 280: ID = count
+Line 280: =
+Line 280: ID = m
+Line 280: -
+Line 280: >
+Line 280: ID = size
+Line 280: ;
+Line 281: return
+Line 281: -
+Line 281: INTCON = 1
+Line 281: ;
+Line 282: }
+Line 283: ID = m
+Line 283: -
+Line 283: >
+Line 283: ID = count
+Line 283: =
+Line 283: ID = p
+Line 283: -
+Line 283: ID = m
+Line 283: -
+Line 283: >
+Line 283: ID = buf
+Line 283: ;
+Line 284: return
+Line 284: INTCON = 0
+Line 284: ;
+Line 285: }
+Line 286: ID = EXPORT_SYMBOL
+Line 286: (
+Line 286: ID = seq_escape
+Line 286: )
+Line 286: ;
+Line 288: int
+Line 288: ID = seq_printf
+Line 288: (
+Line 288: ID = struct
+Line 288: ID = seq_file
+Line 288: *
+Line 288: ID = m
+Line 288: ,
+Line 288: ID = const
+Line 288: char
+Line 288: *
+Line 288: ID = f
+Line 288: ,
+Line 288: Unrecognized token: 46
+Line 288: Unrecognized token: 46
+Line 288: Unrecognized token: 46
+Line 288: )
+Line 289: {
+Line 290: ID = va_list
+Line 290: ID = args
+Line 290: ;
+Line 291: int
+Line 291: ID = len
+Line 291: ;
+Line 293: if
+Line 293: (
+Line 293: ID = m
+Line 293: -
+Line 293: >
+Line 293: ID = count
+Line 293: <
+Line 293: ID = m
+Line 293: -
+Line 293: >
+Line 293: ID = size
+Line 293: )
+Line 293: {
+Line 294: ID = va_start
+Line 294: (
+Line 294: ID = args
+Line 294: ,
+Line 294: ID = f
+Line 294: )
+Line 294: ;
+Line 295: ID = len
+Line 295: =
+Line 295: ID = vsnprintf
+Line 295: (
+Line 295: ID = m
+Line 295: -
+Line 295: >
+Line 295: ID = buf
+Line 295: +
+Line 295: ID = m
+Line 295: -
+Line 295: >
+Line 295: ID = count
+Line 295: ,
+Line 295: ID = m
+Line 295: -
+Line 295: >
+Line 295: ID = size
+Line 295: -
+Line 295: ID = m
+Line 295: -
+Line 295: >
+Line 295: ID = count
+Line 295: ,
+Line 295: ID = f
+Line 295: ,
+Line 295: ID = args
+Line 295: )
+Line 295: ;
+Line 296: ID = va_end
+Line 296: (
+Line 296: ID = args
+Line 296: )
+Line 296: ;
+Line 297: if
+Line 297: (
+Line 297: ID = m
+Line 297: -
+Line 297: >
+Line 297: ID = count
+Line 297: +
+Line 297: ID = len
+Line 297: <
+Line 297: ID = m
+Line 297: -
+Line 297: >
+Line 297: ID = size
+Line 297: )
+Line 297: {
+Line 298: ID = m
+Line 298: -
+Line 298: >
+Line 298: ID = count
+Line 298: +
+Line 298: =
+Line 298: ID = len
+Line 298: ;
+Line 299: return
+Line 299: INTCON = 0
+Line 299: ;
+Line 300: }
+Line 301: }
+Line 302: ID = m
+Line 302: -
+Line 302: >
+Line 302: ID = count
+Line 302: =
+Line 302: ID = m
+Line 302: -
+Line 302: >
+Line 302: ID = size
+Line 302: ;
+Line 303: return
+Line 303: -
+Line 303: INTCON = 1
+Line 303: ;
+Line 304: }
+Line 305: ID = EXPORT_SYMBOL
+Line 305: (
+Line 305: ID = seq_printf
+Line 305: )
+Line 305: ;
+Line 307: int
+Line 307: ID = seq_path
+Line 307: (
+Line 307: ID = struct
+Line 307: ID = seq_file
+Line 307: *
+Line 307: ID = m
+Line 307: ,
+Line 308: ID = struct
+Line 308: ID = vfsmount
+Line 308: *
+Line 308: ID = mnt
+Line 308: ,
+Line 308: ID = struct
+Line 308: ID = dentry
+Line 308: *
+Line 308: ID = dentry
+Line 308: ,
+Line 309: char
+Line 309: *
+Line 309: ID = esc
+Line 309: )
+Line 310: {
+Line 311: if
+Line 311: (
+Line 311: ID = m
+Line 311: -
+Line 311: >
+Line 311: ID = count
+Line 311: <
+Line 311: ID = m
+Line 311: -
+Line 311: >
+Line 311: ID = size
+Line 311: )
+Line 311: {
+Line 312: char
+Line 312: *
+Line 312: ID = s
+Line 312: =
+Line 312: ID = m
+Line 312: -
+Line 312: >
+Line 312: ID = buf
+Line 312: +
+Line 312: ID = m
+Line 312: -
+Line 312: >
+Line 312: ID = count
+Line 312: ;
+Line 313: char
+Line 313: *
+Line 313: ID = p
+Line 313: =
+Line 313: ID = d_path
+Line 313: (
+Line 313: ID = dentry
+Line 313: ,
+Line 313: ID = mnt
+Line 313: ,
+Line 313: ID = s
+Line 313: ,
+Line 313: ID = m
+Line 313: -
+Line 313: >
+Line 313: ID = size
+Line 313: -
+Line 313: ID = m
+Line 313: -
+Line 313: >
+Line 313: ID = count
+Line 313: )
+Line 313: ;
+Line 314: if
+Line 314: (
+Line 314: !
+Line 314: ID = IS_ERR
+Line 314: (
+Line 314: ID = p
+Line 314: )
+Line 314: )
+Line 314: {
+Line 315: while
+Line 315: (
+Line 315: ID = s
+Line 315: <=
+Line 315: ID = p
+Line 315: )
+Line 315: {
+Line 316: char
+Line 316: ID = c
+Line 316: =
+Line 316: *
+Line 316: ID = p
+Line 316: +
+Line 316: +
+Line 316: ;
+Line 317: if
+Line 317: (
+Line 317: !
+Line 317: ID = c
+Line 317: )
+Line 317: {
+Line 318: ID = p
+Line 318: =
+Line 318: ID = m
+Line 318: -
+Line 318: >
+Line 318: ID = buf
+Line 318: +
+Line 318: ID = m
+Line 318: -
+Line 318: >
+Line 318: ID = count
+Line 318: ;
+Line 319: ID = m
+Line 319: -
+Line 319: >
+Line 319: ID = count
+Line 319: =
+Line 319: ID = s
+Line 319: -
+Line 319: ID = m
+Line 319: -
+Line 319: >
+Line 319: ID = buf
+Line 319: ;
+Line 320: return
+Line 320: ID = s
+Line 320: -
+Line 320: ID = p
+Line 320: ;
+Line 321: }
+Line 321: else
+Line 321: if
+Line 321: (
+Line 321: !
+Line 321: ID = strchr
+Line 321: (
+Line 321: ID = esc
+Line 321: ,
+Line 321: ID = c
+Line 321: )
+Line 321: )
+Line 321: {
+Line 322: *
+Line 322: ID = s
+Line 322: +
+Line 322: +
+Line 322: =
+Line 322: ID = c
+Line 322: ;
+Line 323: }
+Line 323: else
+Line 323: if
+Line 323: (
+Line 323: ID = s
+Line 323: +
+Line 323: INTCON = 4
+Line 323: >
+Line 323: ID = p
+Line 323: )
+Line 323: {
+Line 324: ID = break
+Line 324: ;
+Line 325: }
+Line 325: else
+Line 325: {
+Line 326: *
+Line 326: ID = s
+Line 326: +
+Line 326: +
+Line 326: =
+Line 326: Unrecognized token: 39
+Line 326: Unrecognized token: 92
+Line 326: Unrecognized token: 92
+Line 326: Unrecognized token: 39
+Line 326: ;
+Line 327: *
+Line 327: ID = s
+Line 327: +
+Line 327: +
+Line 327: =
+Line 327: CHARCON = '0'
+Line 327: +
+Line 327: (
+Line 327: (
+Line 327: ID = c
+Line 327: Unrecognized token: 38
+Line 327: INTCON = 0300
+Line 327: )
+Line 327: >
+Line 327: >
+Line 327: INTCON = 6
+Line 327: )
+Line 327: ;
+Line 328: *
+Line 328: ID = s
+Line 328: +
+Line 328: +
+Line 328: =
+Line 328: CHARCON = '0'
+Line 328: +
+Line 328: (
+Line 328: (
+Line 328: ID = c
+Line 328: Unrecognized token: 38
+Line 328: INTCON = 070
+Line 328: )
+Line 328: >
+Line 328: >
+Line 328: INTCON = 3
+Line 328: )
+Line 328: ;
+Line 329: *
+Line 329: ID = s
+Line 329: +
+Line 329: +
+Line 329: =
+Line 329: CHARCON = '0'
+Line 329: +
+Line 329: (
+Line 329: ID = c
+Line 329: Unrecognized token: 38
+Line 329: INTCON = 07
+Line 329: )
+Line 329: ;
+Line 330: }
+Line 331: }
+Line 332: }
+Line 333: }
+Line 334: ID = m
+Line 334: -
+Line 334: >
+Line 334: ID = count
+Line 334: =
+Line 334: ID = m
+Line 334: -
+Line 334: >
+Line 334: ID = size
+Line 334: ;
+Line 335: return
+Line 335: -
+Line 335: INTCON = 1
+Line 335: ;
+Line 336: }
+Line 337: ID = EXPORT_SYMBOL
+Line 337: (
+Line 337: ID = seq_path
+Line 337: )
+Line 337: ;
+Line 339: ID = static
+Line 339: void
+Line 339: *
+Line 339: ID = single_start
+Line 339: (
+Line 339: ID = struct
+Line 339: ID = seq_file
+Line 339: *
+Line 339: ID = p
+Line 339: ,
+Line 339: ID = loff_t
+Line 339: *
+Line 339: ID = pos
+Line 339: )
+Line 340: {
+Line 341: return
+Line 341: ID = NULL
+Line 341: +
+Line 341: (
+Line 341: *
+Line 341: ID = pos
+Line 341: ==
+Line 341: INTCON = 0
+Line 341: )
+Line 341: ;
+Line 342: }
+Line 344: ID = static
+Line 344: void
+Line 344: *
+Line 344: ID = single_next
+Line 344: (
+Line 344: ID = struct
+Line 344: ID = seq_file
+Line 344: *
+Line 344: ID = p
+Line 344: ,
+Line 344: void
+Line 344: *
+Line 344: ID = v
+Line 344: ,
+Line 344: ID = loff_t
+Line 344: *
+Line 344: ID = pos
+Line 344: )
+Line 345: {
+Line 346: +
+Line 346: +
+Line 346: *
+Line 346: ID = pos
+Line 346: ;
+Line 347: return
+Line 347: ID = NULL
+Line 347: ;
+Line 348: }
+Line 350: ID = static
+Line 350: void
+Line 350: ID = single_stop
+Line 350: (
+Line 350: ID = struct
+Line 350: ID = seq_file
+Line 350: *
+Line 350: ID = p
+Line 350: ,
+Line 350: void
+Line 350: *
+Line 350: ID = v
+Line 350: )
+Line 351: {
+Line 352: }
+Line 354: int
+Line 354: ID = single_open
+Line 354: (
+Line 354: ID = struct
+Line 354: ID = file
+Line 354: *
+Line 354: ID = file
+Line 354: ,
+Line 354: int
+Line 354: (
+Line 354: *
+Line 354: ID = show
+Line 354: )
+Line 354: (
+Line 354: ID = struct
+Line 354: ID = seq_file
+Line 354: *
+Line 354: ,
+Line 354: void
+Line 354: *
+Line 354: )
+Line 354: ,
+Line 355: void
+Line 355: *
+Line 355: ID = data
+Line 355: )
+Line 356: {
+Line 357: ID = struct
+Line 357: ID = seq_operations
+Line 357: *
+Line 357: ID = op
+Line 357: =
+Line 357: ID = kmalloc
+Line 357: (
+Line 357: ID = sizeof
+Line 357: (
+Line 357: *
+Line 357: ID = op
+Line 357: )
+Line 357: ,
+Line 357: ID = GFP_KERNEL
+Line 357: )
+Line 357: ;
+Line 358: int
+Line 358: ID = res
+Line 358: =
+Line 358: -
+Line 358: ID = ENOMEM
+Line 358: ;
+Line 360: if
+Line 360: (
+Line 360: ID = op
+Line 360: )
+Line 360: {
+Line 361: ID = op
+Line 361: -
+Line 361: >
+Line 361: ID = start
+Line 361: =
+Line 361: ID = single_start
+Line 361: ;
+Line 362: ID = op
+Line 362: -
+Line 362: >
+Line 362: ID = next
+Line 362: =
+Line 362: ID = single_next
+Line 362: ;
+Line 363: ID = op
+Line 363: -
+Line 363: >
+Line 363: ID = stop
+Line 363: =
+Line 363: ID = single_stop
+Line 363: ;
+Line 364: ID = op
+Line 364: -
+Line 364: >
+Line 364: ID = show
+Line 364: =
+Line 364: ID = show
+Line 364: ;
+Line 365: ID = res
+Line 365: =
+Line 365: ID = seq_open
+Line 365: (
+Line 365: ID = file
+Line 365: ,
+Line 365: ID = op
+Line 365: )
+Line 365: ;
+Line 366: if
+Line 366: (
+Line 366: !
+Line 366: ID = res
+Line 366: )
+Line 367: (
+Line 367: (
+Line 367: ID = struct
+Line 367: ID = seq_file
+Line 367: *
+Line 367: )
+Line 367: ID = file
+Line 367: -
+Line 367: >
+Line 367: ID = private_data
+Line 367: )
+Line 367: -
+Line 367: >
+Line 367: ID = private
+Line 367: =
+Line 367: ID = data
+Line 367: ;
+Line 368: else
+Line 369: ID = kfree
+Line 369: (
+Line 369: ID = op
+Line 369: )
+Line 369: ;
+Line 370: }
+Line 371: return
+Line 371: ID = res
+Line 371: ;
+Line 372: }
+Line 373: ID = EXPORT_SYMBOL
+Line 373: (
+Line 373: ID = single_open
+Line 373: )
+Line 373: ;
+Line 375: int
+Line 375: ID = single_release
+Line 375: (
+Line 375: ID = struct
+Line 375: ID = inode
+Line 375: *
+Line 375: ID = inode
+Line 375: ,
+Line 375: ID = struct
+Line 375: ID = file
+Line 375: *
+Line 375: ID = file
+Line 375: )
+Line 376: {
+Line 377: ID = struct
+Line 377: ID = seq_operations
+Line 377: *
+Line 377: ID = op
+Line 377: =
+Line 377: (
+Line 377: (
+Line 377: ID = struct
+Line 377: ID = seq_file
+Line 377: *
+Line 377: )
+Line 377: ID = file
+Line 377: -
+Line 377: >
+Line 377: ID = private_data
+Line 377: )
+Line 377: -
+Line 377: >
+Line 377: ID = op
+Line 377: ;
+Line 378: int
+Line 378: ID = res
+Line 378: =
+Line 378: ID = seq_release
+Line 378: (
+Line 378: ID = inode
+Line 378: ,
+Line 378: ID = file
+Line 378: )
+Line 378: ;
+Line 379: ID = kfree
+Line 379: (
+Line 379: ID = op
+Line 379: )
+Line 379: ;
+Line 380: return
+Line 380: ID = res
+Line 380: ;
+Line 381: }
+Line 382: ID = EXPORT_SYMBOL
+Line 382: (
+Line 382: ID = single_release
+Line 382: )
+Line 382: ;
+Line 384: int
+Line 384: ID = seq_release_private
+Line 384: (
+Line 384: ID = struct
+Line 384: ID = inode
+Line 384: *
+Line 384: ID = inode
+Line 384: ,
+Line 384: ID = struct
+Line 384: ID = file
+Line 384: *
+Line 384: ID = file
+Line 384: )
+Line 385: {
+Line 386: ID = struct
+Line 386: ID = seq_file
+Line 386: *
+Line 386: ID = seq
+Line 386: =
+Line 386: ID = file
+Line 386: -
+Line 386: >
+Line 386: ID = private_data
+Line 386: ;
+Line 388: ID = kfree
+Line 388: (
+Line 388: ID = seq
+Line 388: -
+Line 388: >
+Line 388: ID = private
+Line 388: )
+Line 388: ;
+Line 389: ID = seq
+Line 389: -
+Line 389: >
+Line 389: ID = private
+Line 389: =
+Line 389: ID = NULL
+Line 389: ;
+Line 390: return
+Line 390: ID = seq_release
+Line 390: (
+Line 390: ID = inode
+Line 390: ,
+Line 390: ID = file
+Line 390: )
+Line 390: ;
+Line 391: }
+Line 392: ID = EXPORT_SYMBOL
+Line 392: (
+Line 392: ID = seq_release_private
+Line 392: )
+Line 392: ;
+Line 394: int
+Line 394: ID = seq_putc
+Line 394: (
+Line 394: ID = struct
+Line 394: ID = seq_file
+Line 394: *
+Line 394: ID = m
+Line 394: ,
+Line 394: char
+Line 394: ID = c
+Line 394: )
+Line 395: {
+Line 396: if
+Line 396: (
+Line 396: ID = m
+Line 396: -
+Line 396: >
+Line 396: ID = count
+Line 396: <
+Line 396: ID = m
+Line 396: -
+Line 396: >
+Line 396: ID = size
+Line 396: )
+Line 396: {
+Line 397: ID = m
+Line 397: -
+Line 397: >
+Line 397: ID = buf
+Line 397: [
+Line 397: ID = m
+Line 397: -
+Line 397: >
+Line 397: ID = count
+Line 397: +
+Line 397: +
+Line 397: ]
+Line 397: =
+Line 397: ID = c
+Line 397: ;
+Line 398: return
+Line 398: INTCON = 0
+Line 398: ;
+Line 399: }
+Line 400: return
+Line 400: -
+Line 400: INTCON = 1
+Line 400: ;
+Line 401: }
+Line 402: ID = EXPORT_SYMBOL
+Line 402: (
+Line 402: ID = seq_putc
+Line 402: )
+Line 402: ;
+Line 404: int
+Line 404: ID = seq_puts
+Line 404: (
+Line 404: ID = struct
+Line 404: ID = seq_file
+Line 404: *
+Line 404: ID = m
+Line 404: ,
+Line 404: ID = const
+Line 404: char
+Line 404: *
+Line 404: ID = s
+Line 404: )
+Line 405: {
+Line 406: int
+Line 406: ID = len
+Line 406: =
+Line 406: ID = strlen
+Line 406: (
+Line 406: ID = s
+Line 406: )
+Line 406: ;
+Line 407: if
+Line 407: (
+Line 407: ID = m
+Line 407: -
+Line 407: >
+Line 407: ID = count
+Line 407: +
+Line 407: ID = len
+Line 407: <
+Line 407: ID = m
+Line 407: -
+Line 407: >
+Line 407: ID = size
+Line 407: )
+Line 407: {
+Line 408: ID = memcpy
+Line 408: (
+Line 408: ID = m
+Line 408: -
+Line 408: >
+Line 408: ID = buf
+Line 408: +
+Line 408: ID = m
+Line 408: -
+Line 408: >
+Line 408: ID = count
+Line 408: ,
+Line 408: ID = s
+Line 408: ,
+Line 408: ID = len
+Line 408: )
+Line 408: ;
+Line 409: ID = m
+Line 409: -
+Line 409: >
+Line 409: ID = count
+Line 409: +
+Line 409: =
+Line 409: ID = len
+Line 409: ;
+Line 410: return
+Line 410: INTCON = 0
+Line 410: ;
+Line 411: }
+Line 412: ID = m
+Line 412: -
+Line 412: >
+Line 412: ID = count
+Line 412: =
+Line 412: ID = m
+Line 412: -
+Line 412: >
+Line 412: ID = size
+Line 412: ;
+Line 413: return
+Line 413: -
+Line 413: INTCON = 1
+Line 413: ;
+Line 414: }
+Line 415: ID = EXPORT_SYMBOL
+Line 415: (
+Line 415: ID = seq_puts
+Line 415: )
+Line 415: ;
+Line 416: -EOF-
